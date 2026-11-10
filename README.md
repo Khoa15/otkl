@@ -20,7 +20,7 @@ The Open Technical Knowledge Library is a curated collection of open technical r
 | Catalog entries | 825 |
 | Domains | 9 |
 | Downloaded size | about 16 GB |
-| Entries not downloaded | 564 (see [Missing_Resources_Report.csv](deliverables/Missing_Resources_Report.csv)) |
+| Entries not downloaded | 564 |
 
 ## Domains
 
@@ -207,25 +207,19 @@ Browse by domain, then learning level, then topic. Each topic has its own README
 
 ## Getting Started
 
-- **Browse offline:** open [`deliverables/index.html`](deliverables/index.html) in a web browser.
-- **Filter the catalog:** use [`Master_Catalog.csv`](deliverables/Master_Catalog.csv) with the `domain`, `format`, and `license` columns.
-- **Download everything:** use [`Open_Technical_Knowledge_Library_v2.0.zip`](deliverables/Open_Technical_Knowledge_Library_v2.0.zip) (see Limitations for packaging details).
+- **Overview of the library:** read [`library/README.md`](library/README.md).
+- **Browse by subject:** start from the [Domains](#domains) list above, then open a learning level and a topic.
+- **Read a topic:** each topic README has a summary, a short brief for every chapter, and the main notes for each chapter.
 
 ## Repository Structure
 
 ```
-library/        The actual resources, organized by domain
-metadata/       Acquisition logs: sources, timestamps, hashes, status
-tools/          Python scripts for collection, checks, and packaging
-deliverables/   Catalog, reports, offline index, ZIP archive
+library/        The resources, organized by domain, learning level, and topic
 ```
 
-Reports in `deliverables/`:
+This repository contains the `library/` folder, together with this README and `.gitattributes`. Large files (PDFs, images, and video) are stored with Git LFS.
 
-- [`Library_Overview.pdf`](deliverables/Library_Overview.pdf): library overview
-- [`Acquisition_Report.pdf`](deliverables/Acquisition_Report.pdf): acquisition report
-- [`License_and_Attribution_Report.pdf`](deliverables/License_and_Attribution_Report.pdf): licensing and attribution report
-- [`SHA256SUMS.txt`](deliverables/SHA256SUMS.txt): hashes for integrity checks
+The following are not included in this repository: the master catalog and its reports, the pipeline scripts, the acquisition logs, the ZIP archives, and the third-party code repositories under `GitHub Repositories`, which are kept only as index READMEs.
 
 ## Licensing and Attribution
 
@@ -240,12 +234,12 @@ This library does not license the content itself. Each entry keeps the license o
 | Public domain | No copyright restrictions. |
 | YouTube (CC BY, declared by uploader) | Links only. Rights not verified. |
 
-Before redistributing any part of the library, read [`License_and_Attribution_Report.pdf`](deliverables/License_and_Attribution_Report.pdf) and check the license of each entry.
+Before redistributing any part of the library, check the license of each entry. Each topic README lists the licenses of its items.
 
 ## Limitations
 
 - This is a curated selection, not a complete collection for any domain.
 - Sources are prioritized for being official, academic, or open source.
 - Standards such as IEC, IEEE, ISO, and CCSDS are not assumed to be free and are not collected unless the source allows it.
-- Entries that failed to download are recorded in the reports rather than silently dropped.
-- The full ZIP archive (11 GB) is kept local and is not pushed to Git, because it exceeds GitHub's 100 MB per-file limit.
+- Entries that failed to download are not included.
+- ZIP archives are not included. Their contents are extracted into folders of the same name.
