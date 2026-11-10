@@ -1,6 +1,6 @@
 # Open Technical Knowledge Library
 
-The Open Technical Knowledge Library is a curated collection of open technical resources for engineering and science. It covers nine domains, from automation and robotics to electronics, energy, mechanical manufacturing, biotechnology, CubeSats, space technology, quantum physics, and cross-disciplinary topics. Unlike a list of links, it keeps the actual files: research papers, textbooks, lecture notes, source repositories, images, and video references. Each entry records its source, its licence, and a SHA256 hash, so you can check where it came from and that it is unchanged.
+The Open Technical Knowledge Library is a curated collection of open technical resources for engineering and science. It covers nine domains, from automation and robotics to electronics, energy, mechanical manufacturing, biotechnology, CubeSats, space technology, quantum physics, and cross-disciplinary topics. Unlike a list of links, it keeps the actual files: research papers, textbooks, lecture notes, source repositories, images, and video references.
 
 ## Table of Contents
 
