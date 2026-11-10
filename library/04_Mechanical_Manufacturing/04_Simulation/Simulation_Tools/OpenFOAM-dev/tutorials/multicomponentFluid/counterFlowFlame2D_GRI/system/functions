@@ -1,0 +1,25 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  dev
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      functions;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+#includeFunc Qdot
+#includeFunc fvcAverage(Limiter(div(phi,Yi_h)))
+#includeFunc writeObjects
+(
+    Limiter(div(phi,Yi_h)),
+    fvcAverage(Limiter(div(phi,Yi_h)))
+)
+
+// ************************************************************************* //

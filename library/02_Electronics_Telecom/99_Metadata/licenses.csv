@@ -1,0 +1,101 @@
+﻿id,title,license,redistribution
+P-W3194620979,Integrated Sensing and Communications: Toward Dual-Functional Wireless Networks for 6G and Beyond,CC BY,yes with attribution
+P-W2968810373,Wireless Communications Through Reconfigurable Intelligent Surfaces,CC BY,yes with attribution
+P-W4391454495,Integrated Sensing and Communications: Recent Advances and Ten Open Challenges,CC BY-SA,yes with attribution
+P-W4409190069,"Overview of AI and communication for 6G network: fundamentals, challenges, and future research opportunities",CC BY,yes with attribution
+P-W4226403469,Observation of hybrid higher-order skin-topological effect in non-Hermitian topolectrical circuits,CC BY,yes with attribution
+P-W2969987856,The AIM Photonics MPW: A Highly Accessible Cutting Edge Technology for Rapid Prototyping of Photonic Integrated Circuits,CC BY,yes with attribution
+P-W4391222208,"Powering AI at the edge: A robust, memristor-based binarized neural network with near-memory computing and miniaturized solar cell",CC BY,yes with attribution
+P-W4391930415,VO2 memristor-based frequency converter with in-situ synthesize and mix for wireless internet-of-things,CC BY,yes with attribution
+P-W3048081097,"6G Wireless Systems: Vision, Requirements, Challenges, Insights, and Opportunities",CC BY,yes with attribution
+P-W3110989801,"Towards 6G wireless communication networks: vision, enabling technologies, and new paradigm shifts",CC BY,yes with attribution
+P-W4392449462,Cellular Wireless Networks in the Upper Mid-Band,CC BY,yes with attribution
+P-W4406457603,Holographic Metasurface-Based Beamforming for Multi-Altitude LEO Satellite Networks,CC BY,yes with attribution
+G120,ngspice,MIT,yes (keep notice)
+C-fac7f5e6ae,MIT OCW: Introduction to EECS II: Digital Communication Systems,CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+C-941d877353,MIT OCW: Principles of Digital Communication I,CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+P-W2111772099,Heart Rate Variability ? A Historical Perspective,CC BY,yes with attribution
+P-W3019119825,Machine learning using intrinsic genomic signatures for rapid classification of novel pathogens: COVID-19 case study,CC BY,yes with attribution
+G118,scipy,BSD,yes (keep notice)
+P-W4392886376,Broadband angular spectrum differentiation using dielectric metasurfaces,CC BY,yes with attribution
+P-W4394862981,Performance Analysis of Reconfigurable Holographic Surfaces in the Near-Field Scenario of Cell-Free Networks Under Hardware Impairments,CC BY,yes with attribution
+P-W4406951686,A guidance to intelligent metamaterials and metamaterials intelligence,CC BY,yes with attribution
+C-e3266a3ddb,"MIT OCW: Electromagnetic Fields, Forces, and Motion",CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+T-3f5d8d0e38,OpenStax University Physics Volume 2,Creative Commons Attribution-NonCommercial-ShareAlike License,"non-commercial only, share-alike, keep attribution"
+P-W2973110004,Intelligent Reflecting Surface Aided Multigroup Multicast MISO Communication Systems,CC BY,yes with attribution
+G119,meep,LGPL,"yes (copyleft: keep license, share source)"
+P-W4400587329,MOFs-Derived Strategy and Ternary Alloys Regulation in Flower-Like Magnetic-Carbon Microspheres with Broadband Electromagnetic Wave Absorption,CC BY,yes with attribution
+P-W4414691205,TESSERA: Temporal Embeddings of Surface Spectra for Earth Representation and Analysis,CC BY,yes with attribution
+VR-omNYjhmZsjo,Analog Circuits L43: BJT Basics,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-LdvuJ-PT450,Analog Circuits L44: BJT circuits,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-TuVi0y93SlU,"Antennas and Antenna Gain (ITS323, Lecture 12, 2014)",YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+I-2b4ff79c5f,Circuit diagram – pictorial and schematic.png,Public domain,yes with attribution (verify share-alike terms)
+VR-vU1cauf0-g4,Lecture 1 Antenna Fundamentals,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-ldu0P7BEivg,Lecture 1: Introduction: Digital signal processing and its objectives,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-AhqrwVA47Ks,Lecture 3 Antennas and Electromagnetics,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-Sb3tEEEJpTs,Lecture 4 - Analog Neural Networks and Translinear Circuits,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-AHJfn0AeP-w,Lecture 6: Image processing theoretical introduction – Matt Iadanza (CCP-EM),YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+C-bf6fd84a65,MIT OCW: Circuits and Electronics,CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+I-7a627dbabc,Schematic diagram TA7642.jpg,CC BY-SA 4.0,yes with attribution (verify share-alike terms)
+I-a93d98ae48,Schematic wiring diagram of domestic refrigerator.JPG,CC BY-SA 3.0,yes with attribution (verify share-alike terms)
+VR-87fvM1tUrwo,Signals Introduction | DSP Fundamentals - lecture 1,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+I-7ecbfd1fbf,Wire Crossover Symbols for Circuit Diagrams.png,CC BY-SA 3.0,yes with attribution (verify share-alike terms)
+G116,riscv-isa-manual,CC (see file),yes (verify exact CC terms in file)
+P-W2070050178,Enrichr: interactive and collaborative HTML5 gene list enrichment analysis tool,CC BY,yes with attribution
+P-W1989299822,"MZmine 2: Modular framework for processing, visualizing, and analyzing mass spectrometry-based molecular profile data",CC BY,yes with attribution
+P-W4392773210,"Embracing the future of Artificial Intelligence in the classroom: the relevance of AI literacy, prompt engineering, and critical thinking in modern education",CC BY,yes with attribution
+P-W4387355843,TimeLLM: Time Series Forecasting by Reprogramming Large Language Models,CC BY,yes with attribution
+G113,litex,BSD,yes (keep notice)
+P-W3122134685,A High-Throughput Oversampled Polyphase Filter Bank Using Vivado HLS and PYNQ on a RFSoC,CC BY,yes with attribution
+P-W2235196730,NeuroFlow: A General Purpose Spiking Neural Network Simulation Platform using Customizable Processors,CC BY,yes with attribution
+G112,verilator,LGPL,"yes (copyleft: keep license, share source)"
+G111,yosys,ISC,yes (keep notice)
+P-W4391545934,FPGA-based Implementation of a Resource-Efficient UNET Model for Brain Tumour Segmentation,CC BY,yes with attribution
+P-W4392745519,Project and Implementation of a Quantum Logic Gate Emulator on FPGA Using a Model-Based Design Approach,CC BY,yes with attribution
+P-W2097379719,"How smartphones are changing the face of mobile and participatory healthcare: an overview, with example from eCAALYX",CC BY,yes with attribution
+P-W2963121727,Smart radio environments empowered by reconfigurable AI meta-surfaces: an idea whose time has come,CC BY,yes with attribution
+P-W4402878318,Advances in Graphene-Based Electrode for Triboelectric Nanogenerator,CC BY,yes with attribution
+P-W4400526331,"Reconfigurable Intelligent Surfaces for 6G: Emerging Hardware Architectures, Applications, and Open Challenges",CC BY,yes with attribution
+P-W3209992943,Augmented reality and virtual reality displays: emerging technologies and future perspectives,CC BY,yes with attribution
+P-W3130725666,Integrated photonics on thin-film lithium niobate,CC BY,yes with attribution
+P-W4396918865,Entanglement of nanophotonic quantum memory nodes in a telecom network,CC BY,yes with attribution
+P-W4391232091,Roadmapping the next generation of silicon photonics,CC BY,yes with attribution
+G006,kicad-symbols,CC (see file),yes (verify exact CC terms in file)
+P-W4389238418,Anomaly Detection with Decision Trees for AI Assisted Evaluation of Signal Integrity on PCB Transmission Lines,CC BY,yes with attribution
+P-W3136413608,The Impact of Holding Voltage of Transient Voltage Suppressor (TVS) on Signal Integrity of Microelectronics System With CMOS ICs Under System-Level ESD and EFT/Burst Tests,CC BY,yes with attribution
+P-W7217260252,"Advanced Paradigms In 10G Automotive Ethernet: Integrating Hyperlynx-Validated Electromagnetic Shielding, Sustainable Printed Electronics, And Adaptive Control for Next-Generation ADAS Architectures",CC BY,yes with attribution
+P-W4408330461,Chip removal mechanism and hole plugging in backdrilling of high-speed printed circuit board,CC BY,yes with attribution
+I-33fbe1e5a1,Omnidirectional antenna - horizontal and vertical radiation patterns.png,Public domain,yes with attribution (verify share-alike terms)
+I-e8d0117d50,Radiation Pattern Dipole PD.png,Public domain,yes with attribution (verify share-alike terms)
+I-21bc96fe4f,Rhombic antenna diagram.svg,CC0,yes with attribution (verify share-alike terms)
+I-b8deca0481,Typical Antenna Pattern.jpg,CC BY-SA 3.0,yes with attribution (verify share-alike terms)
+P-W3090525179,A Scalable Cryo-CMOS Controller for the Wideband Frequency-Multiplexed Control of Spin Qubits and Transmons,CC BY,yes with attribution
+P-W2082376123,Proposal for an optomechanical traveling wave phonon–photon translator,CC BY,yes with attribution
+P-W4390725418,A system-on-chip microwave photonic processor solves dynamic RF interference in real time with picosecond latency,CC BY,yes with attribution
+P-W4401508145,Microwave Modeling and Design Optimization: The Legacy of John Bandler,CC BY,yes with attribution
+P-W3164440025,A deep learning system for detecting diabetic retinopathy across the disease spectrum,CC BY,yes with attribution
+P-W3010408268,Identifying degradation patterns of lithium ion batteries from impedance spectroscopy using machine learning,CC BY,yes with attribution
+G115,nuttx,Apache-2.0,yes (keep notice)
+G114,zephyr,Apache-2.0,yes (keep notice)
+P-W4403962195,Can AI replace psychotherapists? Exploring the future of mental health care,CC BY,yes with attribution
+P-W4403917832,Metropolitan-scale heralded entanglement of solid-state qubits,CC BY,yes with attribution
+P-W2734851509,Progress in satellite quantum key distribution,CC BY,yes with attribution
+P-W3089706104,Satellite Communications in the New Space Era: A Survey and Future Challenges,CC BY,yes with attribution
+P-W4402473949,Generative AI Agents With Large Language Model for Satellite Networks via a Mixture of Experts Transmission,CC BY,yes with attribution
+P-W4401879495,Multi-Satellite MIMO Systems for Direct Satellite-to-Device Communications: A Survey,CC BY,yes with attribution
+P-W2791003600,Expanding frontiers in materials chemistry and physics with multiple anions,CC BY,yes with attribution
+P-W2885309566,Exciton physics and device application of two-dimensional transition metal dichalcogenide semiconductors,CC BY,yes with attribution
+P-W4394947307,"Exploring the Versatile Uses of Triplet States: Working Principles, Limitations, and Recent Progress in Phosphorescence, TADF, and TTA",CC BY,yes with attribution
+P-W4400117085,Facet-selective growth of halide perovskite/2D semiconductor van der Waals heterostructures for improved optical gain and lasing,CC BY,yes with attribution
+C-1e27fb9514,MIT OCW: Microelectronic Devices and Circuits,CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+C-838ec6b0f6,MIT OCW: Signals and Systems,CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+P-W3003651800,"Internet of Things (IoT) for Next-Generation Smart Systems: A Review of Current Challenges, Future Trends and Prospects for Emerging 5G-IoT Scenarios",CC BY,yes with attribution
+G117,LimeSuite,Apache-2.0,yes (keep notice)
+P-W3155899199,Machine Learning Based Automatic Modulation Recognition for Wireless Communications: A Comprehensive Survey,CC BY,yes with attribution
+G005,gnuradio,GPL,"yes (copyleft: keep license, share source)"
+P-W4391935940,Performance Evaluation of an Open Source Implementation of a 5G Standalone Platform,CC BY,yes with attribution
+P-W4392693818,Rate-Splitting Multiple Access: The First Prototype and Experimental Validation of Its Superiority Over SDMA and NOMA,CC BY,yes with attribution
+P-W1975398991,A reconfigurable on-line learning spiking neuromorphic processor comprising 256 neurons and 128K synapses,CC BY,yes with attribution
+P-W2156640153,Neuromorphic Silicon Neuron Circuits,CC BY,yes with attribution
+P-W4392897316,Ferroelectric compute-in-memory annealer for combinatorial optimization problems,CC BY,yes with attribution
+P-W4393261297,Reversible Logic Gates and Applications – A Low Power Solution to VLSI Chips,CC BY,yes with attribution

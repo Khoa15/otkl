@@ -1,0 +1,83 @@
+﻿id,title,license,redistribution
+P-W2100168611,Titanium dioxide nanoparticles: a review of current toxicological data,CC BY,yes with attribution
+P-W2808508889,3D printing using concrete extrusion: A roadmap for research,CC BY,yes with attribution
+P-W4396918932,"A renewably sourced, circular photopolymer resin for additive manufacturing",CC BY,yes with attribution
+P-W4392129291,Pore evolution mechanisms during directed energy deposition additive manufacturing,CC BY,yes with attribution
+G137,PrusaSlicer,AGPL,"yes (copyleft: keep license, share source)"
+G129,FreeCAD,LGPL,"yes (copyleft: keep license, share source)"
+G007,FreeCAD-documentation,CC (see file),yes (verify exact CC terms in file)
+G130,cadquery,Apache-2.0,yes (keep notice)
+G136,solvespace,GPL,"yes (copyleft: keep license, share source)"
+C-89ba9d2625,MIT OCW: Numerical Fluid Mechanics,CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+G012,OpenFOAM-dev,GPL,"yes (copyleft: keep license, share source)"
+G132,SU2,LGPL,"yes (copyleft: keep license, share source)"
+P-W2773444615,Artificial intelligence for automatic prediction of required surface roughness by monitoring wear on face mill teeth,CC BY,yes with attribution
+P-W2051410726,Robot machining: recent development and future research issues,CC BY,yes with attribution
+P-W4390863233,A State-of-the-art Review on the Intelligent Tool Holders in Machining,CC BY,yes with attribution
+P-W4407304724,A review of artificial intelligence application for machining surface quality prediction: from key factors to model development,CC BY,yes with attribution
+P-W4292296492,Recent advances in biodegradable polymers for sustainable applications,CC BY,yes with attribution
+P-W3023001541,"The success story of graphite as a lithium-ion anode material – fundamentals, remaining challenges, and recent developments including silicon (oxide) composites",CC BY,yes with attribution
+P-W4390700311,"Advancement in nanomaterials for environmental pollutants remediation: a systematic review on bibliometrics analysis, material types, synthesis pathways, and related mechanisms",CC BY,yes with attribution
+P-W4394931621,Materials design for hypersonics,CC BY,yes with attribution
+P-W2949797623,PhysiCell: An open source physics-based cell simulator for 3-D multicellular systems,CC BY,yes with attribution
+P-W2804341996,Turbulence and Cavitation Suppression by Quaternary Ammonium Salt Additives,CC BY,yes with attribution
+P-W4400324652,Highly efficient metal-free nitrate reduction enabled by electrified membrane filtration,CC BY,yes with attribution
+P-W4402827736,Weak baselines and reporting biases lead to overoptimism in machine learning for fluid-related partial differential equations,CC BY,yes with attribution
+C-e0cd9bd004,MIT OCW: Dynamics and Control II,CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+T-93652b69c4,OpenStax University Physics Volume 1,Creative Commons Attribution-NonCommercial-ShareAlike License,"non-commercial only, share-alike, keep attribution"
+G133,dolfinx,GPL,"yes (copyleft: keep license, share source)"
+G135,mfem,BSD,yes (keep notice)
+I-014c72b3b1,Crouzeix-Raviart-Finite-Elemente-Lösung.png,CC0,yes with attribution (verify share-alike terms)
+I-d16bdf9a6d,"Example finite element mesh, for illustrating the concept.png",CC BY-SA 4.0,yes with attribution (verify share-alike terms)
+I-3cb04a4f19,Finite element solution.svg,Public domain,yes with attribution (verify share-alike terms)
+I-e3ecc31bd4,Meshing in Finite Element Analysis.jpg,CC BY-SA 4.0,yes with attribution (verify share-alike terms)
+P-W3124177967,Application of subject-specific adaptive mechanical loading for bone healing in a mouse tail vertebral defect,CC BY,yes with attribution
+P-W4288039037,Scientific Machine Learning Through Physics–Informed Neural Networks: Where we are and What’s Next,CC BY,yes with attribution
+P-W4398238760,Can physics-informed neural networks beat the finite element method?,CC BY,yes with attribution
+P-W4399726674,Phase-field modeling of fracture with physics-informed deep learning,CC BY,yes with attribution
+C-0deea1a97d,MIT OCW: Finite Element Analysis of Solids and Fluids I,CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+P-W4220706180,A large-scale microelectromechanical-systems-based silicon photonics LiDAR,CC BY,yes with attribution
+P-W2886728826,MEMS-tunable dielectric metasurface lens,CC BY,yes with attribution
+P-W4403840744,Graphene MEMS and NEMS,CC BY,yes with attribution
+P-W7133740112,MEM: Multi-Scale Embodied Memory for Vision Language Action Models,CC BY,yes with attribution
+I-7cf83db76f,CNC Lathe.png,CC BY-SA 4.0,yes with attribution (verify share-alike terms)
+I-64bd6d84b1,Forgácsológépek a gyártás függvényében.svg,CC BY-SA 3.0,yes with attribution (verify share-alike terms)
+I-b21a0958cf,Gesloten pen en gat verbinding cnc.svg,CC BY-SA 3.0,yes with attribution (verify share-alike terms)
+C-9aea87ebe7,MIT OCW: Fundamentals of Materials Science,CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+G138,pymatgen,MIT,yes (keep notice)
+P-W3035965352,Array programming with NumPy,CC BY,yes with attribution
+P-W2169678694,Open Babel: An open chemical toolbox,CC BY,yes with attribution
+P-W4391136507,A Survey on Evaluation of Large Language Models,CC BY,yes with attribution
+P-W4403637324,Promises and challenges of generative artificial intelligence for human learning,CC BY,yes with attribution
+VR-4Yok4aM6jU4,06 The Finite Element Method,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-uggAJxBvgk4,"Andrew Appel - Building a Formally Verified Finite Element Method Solver, One Component At a Time",YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-tZete6ZHqLI,"Finite Element Analysis, Part I",YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-HmqJt-nMNvo,L 01 Introduction to Additive Manufacturing AM; Historical Perspectives; Application Sectors,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR--uuWShR1yrE,L01 Introduction to Additive Manufacturing,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-lwaJo4ia8Uc,L12 Additive Manufacturing technologies and principles,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-j1C9Phha-mY,"Lecture 5, part 1: Advanced Fluid Mechanics",YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-tFVGtPIIVjM,Mastering the Fundamentals of Fluid Mechanics Made Easy :Part 3,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-dirxdpSZZBM,"Types of Fluid Flow in Fluid Mechanics || Uniform flow, steady flow, Laminar flow, Turbulent flow",YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+P-W3026764413,Features of 20 133 UK patients in hospital with covid-19 using the ISARIC WHO Clinical Characterisation Protocol: prospective observational cohort study,CC BY,yes with attribution
+P-W2342281051,TurkPrime.com: A versatile crowdsourcing data acquisition platform for the behavioral sciences,CC BY,yes with attribution
+P-W4391262793,Chemo-mechanical failure mechanisms of the silicon anode in solid-state batteries,CC BY,yes with attribution
+P-W4404292906,Optimizing scaffold pore size for tissue engineering: insights across various tissue types,CC BY,yes with attribution
+C-f88cb775ee,MIT OCW: Mechanics &amp; Materials I,CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+P-W3012841673,The exoskeleton expansion: improving walking and running economy,CC BY,yes with attribution
+P-W2999123343,Elastic straining of free-standing monolayer graphene,CC BY,yes with attribution
+P-W4391840366,"A Survey on Robotic Prosthetics: Neuroprosthetics, Soft Actuators, and Control Strategies",CC BY,yes with attribution
+P-W4393184706,Incorporating ESO into Deep Koopman Operator Modeling for Control of Autonomous Vehicles,CC BY,yes with attribution
+G134,chrono,BSD,yes (keep notice)
+G131,precice,LGPL,"yes (copyleft: keep license, share source)"
+P-W2906812762,Probing 10 μK stability and residual drifts in the cross-polarized dual-mode stabilization of single-crystal ultrahigh-Q optical resonators,CC BY,yes with attribution
+P-W1986962549,Quantum metrology from a quantum information science perspective,CC BY,yes with attribution
+P-W4391682716,Combining Critical and Quantum Metrology,CC BY,yes with attribution
+P-W4392458586,Genetic algorithm-enhanced microcomb state generation,CC BY,yes with attribution
+P-W1022778776,Additive manufacturing methods and modelling approaches: a critical review,CC BY,yes with attribution
+P-W2018318189,The Surface Energy Balance System (SEBS) for estimation of turbulent heat fluxes,CC BY,yes with attribution
+P-W4390917712,Near infrared emissions from both high efficient quantum cutting (173%) and nearly-pure-color upconversion in NaY(WO4)2:Er3+/Yb3+ with thermal management capability for silicon-based solar cells,CC BY,yes with attribution
+P-W4392750479,Personal Thermal Management by Radiative Cooling and Heating,CC BY,yes with attribution
+P-W2750857672,"Influence of tribology on global energy consumption, costs and emissions",CC BY,yes with attribution
+P-W1968982832,Mechanical properties of nanoparticles: basics and applications,CC BY,yes with attribution
+P-W4392714049,AI for tribology: Present and future,CC BY,yes with attribution
+P-W4406470915,"Surface Engineering - Foundational Concepts, Techniques and Applications",CC BY,yes with attribution

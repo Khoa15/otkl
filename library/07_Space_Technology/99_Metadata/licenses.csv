@@ -1,0 +1,78 @@
+﻿id,title,license,redistribution
+C-61e5262757,MIT OCW: Introduction to Aerospace Engineering and Design,CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+P-W2995438409,How Many Impulses Redux,CC BY,yes with attribution
+G159,SpiceyPy,MIT,yes (keep notice)
+P-W4395671310,State-dependent trust region for successive convex programming for autonomous spacecraft,CC BY,yes with attribution
+G157,astropy,BSD,yes (keep notice)
+G164,pyorbital,Apache-2.0,yes (keep notice)
+G158,python-skyfield,MIT,yes (keep notice)
+P-W4408122675,Asteroid mining: ACT&Friends’ results for the GTOC12 problem,CC BY,yes with attribution
+P-W4405796724,Nonlinear Propagation of Non-Gaussian Uncertainties,CC BY,yes with attribution
+C-87f255c41e,MIT OCW: Dynamics,CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+P-W1993065427,A review of measurement-based assessments of the aerosol direct radiative effect and forcing,CC BY,yes with attribution
+P-W3188524028,The 30 m annual land cover dataset and its dynamics in China from 1990 to 2019,CC BY,yes with attribution
+P-W4392199044,Deep Learning for Time Series Classification and Extrinsic Regression: A Current Survey,CC BY,yes with attribution
+P-W4399382258,Global critical soil moisture thresholds of plant water stress,CC BY,yes with attribution
+P-W4392163669,Characterizing Satellite Geometry via Accelerated 3D Gaussian Splatting,CC BY,yes with attribution
+P-W1984501571,Multidisciplinary design modeling and optimizationfor satellite with maneuver capability,CC BY,yes with attribution
+P-W4398187679,Aided Kalman Filter Models for GNSS-Based Space Navigation,CC BY,yes with attribution
+P-W7138895340,Trajectory Stability and Signature Diagnostics for Comet-Based Interstellar Navigation,CC BY,yes with attribution
+P-W2201603632,Magnetospheric Multiscale Overview and Science Objectives,CC BY,yes with attribution
+P-W2139413516,The Cluster Magnetic Field Investigation: overview of in-flight performance and initial results,CC BY,yes with attribution
+P-W4391047256,Global-scale magnetosphere convection driven by dayside magnetic reconnection,CC BY,yes with attribution
+P-W4398187781,How Can Optical Communications Shape the Future of Deep Space Communications? A Survey,CC BY,yes with attribution
+P-W2087153461,Mars Science Laboratory Mission and Science Investigation,CC BY,yes with attribution
+P-W2100723408,The Solar Probe Plus Mission: Humanity’s First Visit to Our Star,CC BY,yes with attribution
+P-W4406109238,AI algorithm for predicting and optimizing trajectory of massive UAV swarm,CC BY,yes with attribution
+P-W4400187169,Overview of system study on recovery methods for reusable first stages of future European launchers,CC BY,yes with attribution
+G160,pykep,AGPL,"yes (copyleft: keep license, share source)"
+G161,pagmo2,GPL,"yes (copyleft: keep license, share source)"
+I-637b1e5b65,Comparison satellite navigation orbits.svg,CC BY-SA 3.0,yes with attribution (verify share-alike terms)
+C-ff5f86b68f,MIT OCW: Astrodynamics,CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+I-3d6263e507,Orbital Planes.svg,Public domain,yes with attribution (verify share-alike terms)
+I-e8ac6d4b15,Orbital elements ar.svg,CC BY 3.0,yes with attribution (verify share-alike terms)
+I-89a5c7e480,Orbital elemnts.svg,CC BY 4.0,yes with attribution (verify share-alike terms)
+P-W4283751222,Rediscovering orbital mechanics with machine learning,CC BY,yes with attribution
+P-W2984234582,Unifying machine learning and quantum chemistry with a deep neural network for molecular wavefunctions,CC BY,yes with attribution
+G010,poliastro,MIT,yes (keep notice)
+P-W4403007016,Genuine quantum scars in many-body spin systems,CC BY,yes with attribution
+P-W4400493602,Post-Newtonian theory for gravitational waves,CC BY,yes with attribution
+I-d46f6d989d,Cutaway diagram of Kiwi rocket engine.png,Public domain,yes with attribution (verify share-alike terms)
+I-f87f824234,H-1 rocket engine diagram.jpg,Public domain,yes with attribution (verify share-alike terms)
+C-a969df661a,MIT OCW: Rocket Propulsion,CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+I-36717f6aac,"Simplified diagram of RS-25 rocket engine(SSME) , Jan 2021 , chinese version.png",CC BY-SA 4.0,yes with attribution (verify share-alike terms)
+I-08c889f735,"Simplified diagram of RS-25 rocket engine(SSME) , Jan 2021 .png",CC BY-SA 4.0,yes with attribution (verify share-alike terms)
+P-W2772366318,An assessment of the global impact of 21st century land use change on soil erosion,CC BY,yes with attribution
+P-W2588003345,SoilGrids250m: Global gridded soil information based on machine learning,CC BY,yes with attribution
+G165,gdal,MIT,yes (keep notice)
+P-W4400601172,PaliGemma: A versatile 3B VLM for transfer,CC BY,yes with attribution
+P-W4394938913,RemoteCLIP: A Vision Language Foundation Model for Remote Sensing,CC BY,yes with attribution
+P-W2610490070,Modern Propulsions for Aerospace-A Review,CC BY,yes with attribution
+P-W3119339632,Trajectory Design for the ESA LISA Mission,CC BY,yes with attribution
+P-W4409417239,Distributed computing for physics-based data-driven reduced modeling at scale: Application to a rotating detonation rocket engine,CC BY,yes with attribution
+P-W4402632154,Selection of propulsion characteristics for systematic assessment of future European RLV-options,CC BY,yes with attribution
+G162,RocketPy,MIT,yes (keep notice)
+G163,trick,NASA-OSA,yes (keep notice)
+VR-gPeTAKyiZC8,Engineering for the Space Shuttle: Entry GN&C - a simple explanation,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-nLSYH3gMg9k,Mod-01 Lec-12 Jet and Rocket Propulsion,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-Nvx2CNdQ1Mc,Mod-01 Lec-16 Jet and Rocket Propulsion,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-2Z64DTn3-Ro,Mod-01 Lec-34 Jet and Rocket Propulsion,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-XwFdJykFzFk,Orbital mechanics [IB Physics HL],YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-u3L0vEx88RI,Physics #1: Orbital Mechanics,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-KoI5CBvO5I0,Physics 12 U5L7 Orbital Mechanics,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-Exseik1DQQM,Space Navigation,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-4yNY7mRtMbg,"Webinar: ""Space Vehicle Design"" - Dr. Jayakumar",YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+P-W2063995449,Phagocytosis of Microglia in the Central Nervous System Diseases,CC BY,yes with attribution
+P-W2017388749,Long-Term Sorption of Metals Is Similar among Plastic Types: Implications for Plastic Debris in Aquatic Environments,CC BY,yes with attribution
+P-W4407736517,Highly agile flat swimming robot,CC BY,yes with attribution
+P-W4404105265,Imaging shapes of atomic nuclei in high-energy nuclear collisions,CC BY,yes with attribution
+T-9c3c49fc2d,OpenStax Astronomy 2e,Creative Commons Attribution-NonCommercial-ShareAlike License,"non-commercial only, share-alike, keep attribution"
+C-fb97d74152,MIT OCW: Space Propulsion,CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+P-W2143422071,Science Objectives and Rationale for the Radiation Belt Storm Probes Mission,CC BY,yes with attribution
+P-W2916674581,The 2023 terahertz science and technology roadmap,CC BY,yes with attribution
+P-W4402641024,Extreme-Mass-Ratio Inspirals in Ultralight Dark Matter,CC BY,yes with attribution
+P-W4391784938,Long-term space missions’ effects on the human organism: what we do know and what requires further research,CC BY,yes with attribution
+P-W1601378499,Markov Localization for Mobile Robots in Dynamic Environments,CC BY,yes with attribution
+P-W4398192846,Octo: An Open-Source Generalist Robot Policy,CC BY,yes with attribution
+P-W4407385957,DexVLA: Vision-Language Model with Plug-In Diffusion Expert for General Robot Control,CC BY,yes with attribution
+P-W4391555701,Executable Code Actions Elicit Better LLM Agents,CC BY,yes with attribution

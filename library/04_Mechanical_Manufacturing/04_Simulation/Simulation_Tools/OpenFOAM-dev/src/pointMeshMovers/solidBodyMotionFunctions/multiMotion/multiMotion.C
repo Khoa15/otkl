@@ -1,0 +1,155 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Copyright (C) 2011-2026 OpenFOAM Foundation
+     \\/     M anipulation  |
+-------------------------------------------------------------------------------
+License
+    This file is part of OpenFOAM.
+
+    OpenFOAM is free software: you can redistribute it and/or modify it
+    under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    OpenFOAM is distributed in the hope that it will be useful, but WITHOUT
+    ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+    FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+    for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
+
+\*---------------------------------------------------------------------------*/
+
+#include "multiMotion.H"
+#include "addToRunTimeSelectionTable.H"
+
+// * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
+
+namespace Foam
+{
+namespace solidBodyMotionFunctions
+{
+    defineTypeNameAndDebug(multiMotion, 0);
+    addToRunTimeSelectionTable
+    (
+        solidBodyMotionFunction,
+        multiMotion,
+        dictionary
+    );
+    addToRunTimeSelectionTable
+    (
+        solidBodyMotionFunction,
+        multiMotion,
+        PtrListDictionary
+    );
+}
+}
+
+
+// * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
+
+Foam::solidBodyMotionFunctions::multiMotion::multiMotion
+(
+    const word& name,
+    const dictionary& SBMFCoeffs,
+    const Time& runTime
+)
+:
+    solidBodyMotionFunction(name, SBMFCoeffs, runTime),
+    SBMFs_(SBMFCoeffs_.size())
+{
+    label i = 0;
+    forAllConstIter(IDLList<entry>, SBMFCoeffs_, iter)
+    {
+        if (iter().isDict())
+        {
+            SBMFs_.set
+            (
+                i,
+                solidBodyMotionFunction::New
+                (
+                    SBMFCoeffs,
+                    time_,
+                    iter().keyword()
+                )
+            );
+
+            Info<< "Constructed SBMF " << i << " : "
+                << iter().keyword() << " of type "
+                << SBMFs_[i].type() << endl;
+
+            i++;
+        }
+    }
+    SBMFs_.setSize(i);
+}
+
+
+Foam::solidBodyMotionFunctions::multiMotion::multiMotion
+(
+    const word& name,
+    const PtrListDictionary<solidBodyMotionFunction>& SBMFs,
+    const dictionary& SBMFCoeffs,
+    const Time& runTime
+)
+:
+    solidBodyMotionFunction(name, SBMFCoeffs, runTime),
+    SBMFs_(SBMFCoeffs_.size())
+{
+    label i = 0;
+    forAllConstIter(IDLList<entry>, SBMFCoeffs_, iter)
+    {
+        if (iter().isDict())
+        {
+            SBMFs_.set
+            (
+                i,
+                solidBodyMotionFunction::New
+                (
+                    SBMFs,
+                    SBMFCoeffs,
+                    time_,
+                    iter().keyword()
+                )
+            );
+
+            Info<< "Constructed SBMF " << i << " : "
+                << iter().keyword() << " of type "
+                << SBMFs_[i].type() << endl;
+
+            i++;
+        }
+    }
+    SBMFs_.setSize(i);
+}
+
+
+// * * * * * * * * * * * * * * * * Destructor  * * * * * * * * * * * * * * * //
+
+Foam::solidBodyMotionFunctions::multiMotion::~multiMotion()
+{}
+
+
+// * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
+
+Foam::septernion
+Foam::solidBodyMotionFunctions::multiMotion::transformation() const
+{
+    septernion TR = SBMFs_[0].transformation();
+
+    for (label i = 1; i < SBMFs_.size(); i++)
+    {
+        TR *= SBMFs_[i].transformation();
+    }
+
+    DebugInFunction
+        << "Time = " << time_.value() << " transformation: " << TR << endl;
+
+    return TR;
+}
+
+
+// ************************************************************************* //

@@ -1,0 +1,107 @@
+﻿id,title,license,redistribution
+C-eaf93a941b,MIT OCW: Visual Navigation for Autonomous Vehicles (VNAV),CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+P-W4285105424,A Survey on the Convergence of Edge Computing and AI for UAVs: Opportunities and Challenges,CC BY,yes with attribution
+P-W3087935424,Last-mile delivery concepts: a survey from an operational research perspective,CC BY,yes with attribution
+P-W4392699928,Development of a deep learning-based surveillance system for forest fire detection and monitoring using UAV,CC BY,yes with attribution
+P-W4392543764,UAV Path Planning Based on the Average TD3 Algorithm With Prioritized Experience Replay,CC BY,yes with attribution
+P-W3040838455,Event-Based Vision: A Survey,CC BY,yes with attribution
+P-W4399695759,OpenVLA: An Open-Source Vision-Language-Action Model,CC BY,yes with attribution
+P-W4405031329,CogACT: A Foundational Vision-Language-Action Model for Synergizing Cognition and Action in Robotic Manipulation,CC BY,yes with attribution
+P-W7125496427,Cosmos Policy: Fine-Tuning Video Models for Visuomotor Control and Planning,CC BY,yes with attribution
+I-01ee6cf7fe,Dibuix PID Estructura Bàsica2.JPG,Public domain,yes with attribution (verify share-alike terms)
+I-24b1cdf607,Dibuix PID Genèric.JPG,Public domain,yes with attribution (verify share-alike terms)
+C-1276072383,MIT OCW: Dynamic Systems and Control,CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+C-70fe4bb6a5,MIT OCW: Feedback Systems,CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+I-123e0fa550,PID sluten loop.png,CC BY-SA 3.0,yes with attribution (verify share-alike terms)
+P-W2912706548,Control of MXenes’ electronic properties through termination and intercalation,CC BY,yes with attribution
+P-W2777417212,Deep learning for universal linear embeddings of nonlinear dynamics,CC BY,yes with attribution
+P-W2165717995,Formal and Real Authority in Organizations,CC BY,yes with attribution
+P-W3026347338,"Viable supply chain model: integrating agility, resilience and sustainability perspectives—lessons from and thinking beyond the COVID-19 pandemic",CC BY,yes with attribution
+P-W4404410614,"A Tutorial on Fluid Antenna System for 6G Networks: Encompassing Communication Theory, Optimization Methods and Hardware Designs",CC BY,yes with attribution
+P-W4402474910,Durably reducing conspiracy beliefs through dialogues with AI,CC BY,yes with attribution
+P-W4393094536,Digital twins for health: a scoping review,CC BY,yes with attribution
+P-W4406191642,Cosmos World Foundation Model Platform for Physical AI,CC BY,yes with attribution
+P-W2982936646,"Digital Twin: Enabling Technologies, Challenges and Open Research",CC BY,yes with attribution
+P-W3003667836,"Digital Twin: Values, Challenges and Enablers From a Modeling Perspective",CC BY,yes with attribution
+P-W4394014083,Designing interpretable ML system to enhance trust in healthcare: A systematic review to proposed responsible clinician-AI-collaboration framework,CC BY,yes with attribution
+P-W4396822572,Evaluating Real-World Robot Manipulation Policies in Simulation,CC BY,yes with attribution
+P-W2142114107,Control strategies for active lower extremity prosthetics and orthotics: a review,CC BY,yes with attribution
+P-W2979906316,How artificial intelligence will change the future of marketing,CC BY,yes with attribution
+P-W4391313209,Adaptive tactile interaction transfer via digitally embroidered smart gloves,CC BY,yes with attribution
+P-W4413362511,Precise and dexterous robotic manipulation via human-in-the-loop reinforcement learning,CC BY,yes with attribution
+P-W4225716729,"AI-Based Modeling: Techniques, Applications and Research Issues Towards Automation, Intelligent and Smart Systems",CC BY,yes with attribution
+P-W2540162589,Blockchain Platform for Industrial Internet of Things,CC BY,yes with attribution
+G004,OpenPLC_v3,GPL,"yes (copyleft: keep license, share source)"
+P-W4390511794,Firefly algorithm based WSN-IoT security enhancement with machine learning for intrusion detection,CC BY,yes with attribution
+P-W4392034144,"From Industry 4.0 Digital Manufacturing to Industry 5.0 Digital Society: a Roadmap Toward Human-Centric, Sustainable, and Resilient Production",CC BY,yes with attribution
+G109,node-red,Apache-2.0,yes (keep notice)
+P-W4206713037,Detecting Cybersecurity Attacks in Internet of Things Using Artificial Intelligence Methods: A Systematic Literature Review,CC BY,yes with attribution
+P-W3044855437,A Systematic Survey of Industrial Internet of Things Security: Requirements and Fog Computing Opportunities,CC BY,yes with attribution
+P-W2990704933,Blockchain Applications for Industry 4.0 and Industrial IoT: A Review,CC BY,yes with attribution
+P-W3086419524,Variational LSTM Enhanced Anomaly Detection for Industrial Big Data,CC BY,yes with attribution
+P-W4394896887,A Cross-Layer Survey on Secure and Low-Latency Communications in Next-Generation IoT,CC BY,yes with attribution
+P-W4391264381,Approaches for data collection and process standardization in smart manufacturing: Systematic literature review,CC BY,yes with attribution
+P-W2887685036,Finite-Time Convergence Adaptive Fuzzy Control for Dual-Arm Robot With Unknown Kinematics and Dynamics,CC BY,yes with attribution
+P-W2884696611,OpenSim: Simulating musculoskeletal dynamics and neuromuscular control to study human and animal movement,CC BY,yes with attribution
+G106,pinocchio,BSD,yes (keep notice)
+P-W4392502288,Grasp Multiple Objects With One Hand,CC BY,yes with attribution
+P-W4393140159,Understanding URDF: A Dataset and Analysis,CC BY,yes with attribution
+P-W3011962481,Methodological quality (risk of bias) assessment tools for primary and secondary medical studies: what are they and which is better?,CC BY,yes with attribution
+P-W4205192056,SignalP 6.0 predicts all five types of signal peptides using protein language models,CC BY,yes with attribution
+P-W4411463597,Boltz-2: Towards Accurate and Efficient Binding Affinity Prediction,CC BY,yes with attribution
+P-W4394708144,Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators,CC BY,yes with attribution
+G108,micro_ros_setup,Apache-2.0,yes (keep notice)
+P-W3008195728,A Review on Challenges of Autonomous Mobile Robot and Sensor Fusion Methods,CC BY,yes with attribution
+P-W3158253560,Deep reinforcement learning based mobile robot navigation: A review,CC BY,yes with attribution
+G102,navigation2,unknown (read LICENSE),unverified - exclude from public redistribution
+P-W4404161621,A Comprehensive Review of Mobile Robot Navigation Using Deep Reinforcement Learning Algorithms in Crowded Environments,CC BY,yes with attribution
+P-W4393972863,Deep Learning for Inertial Positioning: A Survey,CC BY,yes with attribution
+P-W4367016688,Orbit: A Unified Simulation Framework for Interactive Robot Learning Environments,CC BY-SA,yes with attribution
+P-W1584153482,Robot-assisted reaching exercise promotes arm movement recovery in chronic hemiparetic stroke: a randomized controlled pilot study,CC BY,yes with attribution
+G101,moveit2,BSD,yes (keep notice)
+G105,ompl,BSD,yes (keep notice)
+P-W7140452175,"Humanoid Locomotion and Manipulation: Current Progress and Challenges in Control, Planning, and Learning",CC BY,yes with attribution
+P-W4403819516,ManiSkill3: GPU Parallelized Robotics Simulation and Rendering for Generalizable Embodied AI,CC BY,yes with attribution
+P-W7104545578,HUMAN-CENTERED INTERFACES IN INDUSTRIAL CONTROL SYSTEMS: A REVIEW OF USABILITY AND VISUAL FEEDBACK MECHANISMS,CC BY,yes with attribution
+P-W4409088576,Student 5.0: immersive learning in next-gen Automation of Manufacturing Systems courses for the Industry 5.0 era,CC BY,yes with attribution
+P-W4411040688,Advanced SCADA-PLC S7-1200 Communication System for Aeration Unit in Wastewater Treatment Stations,CC BY,yes with attribution
+P-W7119134313,PLC Control System Implementation with IoT Based Industrial SCADA Development,CC BY-SA,yes with attribution
+G003,ros2_documentation,CC (see file),yes (verify exact CC terms in file)
+P-W4385325374,From the desks of ROS maintainers: A survey of modern & capable mobile robotics algorithms in the robot operating system 2,CC BY,yes with attribution
+P-W3163573497,SLAM Toolbox: SLAM for the dynamic world,CC BY,yes with attribution
+P-W4403566328,Inquiring the robot operating system community on the state of adoption of the ROS 2 robotics middleware,CC BY,yes with attribution
+P-W4392120977,RoboScript: Code Generation for Free-Form Manipulation Tasks across Real and Simulation,CC BY,yes with attribution
+P-W4360584316,"A Survey on Offline Reinforcement Learning: Taxonomy, Review, and Open Problems",CC BY,yes with attribution
+P-W4386285856,Champion-level drone racing using deep reinforcement learning,CC BY,yes with attribution
+P-W3095315965,Voronoi-Based Multi-Robot Autonomous Exploration in Unknown Environments via Deep Reinforcement Learning,CC BY,yes with attribution
+P-W2000514530,What is intrinsic motivation? A typology of computational approaches,CC BY,yes with attribution
+G107,mujoco,Apache-2.0,yes (keep notice)
+P-W4400770903,"A Survey of Imitation Learning: Algorithms, Recent Developments, and Challenges",CC BY-SA,yes with attribution
+P-W4394872716,Real-world humanoid locomotion with reinforcement learning,CC BY,yes with attribution
+G103,PythonRobotics,MIT,yes (keep notice)
+P-W4406208390,Foundation Models Defining a New Era in Vision: A Survey and Outlook,CC BY,yes with attribution
+P-W2556078315,Soft Manipulators and Grippers: A Review,CC BY,yes with attribution
+P-W4392872989,"BEHAVIOR-1K: A Human-Centered, Embodied AI Benchmark with 1,000 Everyday Activities and Realistic Simulation",CC BY,yes with attribution
+P-W4403788204,Gen2Act: Human Video Generation in Novel Scenarios enables Generalizable Robot Manipulation,CC BY,yes with attribution
+VR-XQT4krNoSec,Automation & Robotics: Components of Industrial Robots,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-U7KqSm3pfMI,Introduction to Feedback Control,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-hrRN64rWKi4,Lecture 1: History of Robotics,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-X5HzgWv8nHA,Lecture 1: Introduction to Control System by Ananda Natarajan,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-2sjqTHE0zok,Lecture 6: Version Control (git) (2020),YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+C-bb9f74f574,MIT OCW: Design of Electromechanical Robotic Systems,CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+C-2fe7eaad2f,MIT OCW: Introduction to Robotics,CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+C-10513171b0,MIT OCW: Underactuated Robotics,CC BY-NC-SA 4.0,"non-commercial only, share-alike, keep attribution"
+VR-_KFV8235RCQ,Robot Kinematics - Part 1 - The Frame Matrix,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-QIizAKfr5Zk,Robot Kinematics Foundations | Robotic Systems,YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-QDWJp40Yq4w,Robot Kinematics Foundations | Robotic Systems (OLD),YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+VR-0KKTkuwIJIQ,"Unit1 | Topic1 | Introduction to Robotics, Robot Anatomy",YouTube metadata: Creative Commons Attribution,link/embed only; file not included
+G110,cartographer,Apache-2.0,yes (keep notice)
+P-W2145810173,"Diversity Arrays Technology (DArT) and next-generation sequencing combined: genome-wide, high throughput, highly informative genotyping for molecular breeding of Eucalyptus",CC BY,yes with attribution
+P-W2621274416,Visual SLAM algorithms: a survey from 2010 to 2016,CC BY,yes with attribution
+P-W4394693077,"A review of visual SLAM for robotics: evolution, properties, and future applications",CC BY,yes with attribution
+P-W4400764152,Large-area magnetic skin for multi-point and multi-scale tactile sensing with super-resolution,CC BY,yes with attribution
+P-W2141617123,Artificial arterial blood pressure artifact models and an evaluation of a robust blood pressure and heart rate estimator,CC BY,yes with attribution
+P-W3181051035,"R $^2$ LIVE: A Robust, Real-Time, LiDAR-Inertial-Visual Tightly-Coupled State Estimator and Mapping",CC BY,yes with attribution
+P-W4410964837,DEEP LEARNING-DRIVEN PREDICTIVE CONTROL METHOD FOR OPTIMIZING COMBINE HARVESTER OPERATION SPEED,CC BY,yes with attribution
+P-W4405869508,Multi-sensor fusion and segmentation for autonomous vehicle multi-object tracking using deep Q networks,CC BY,yes with attribution
+G104,gz-sim,Apache-2.0,yes (keep notice)
