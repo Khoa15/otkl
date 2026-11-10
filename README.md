@@ -10,7 +10,6 @@ The Open Technical Knowledge Library is a curated collection of open technical r
 - [Getting Started](#getting-started)
 - [Repository Structure](#repository-structure)
 - [Licensing and Attribution](#licensing-and-attribution)
-- [Rebuilding the Library](#rebuilding-the-library)
 - [Limitations](#limitations)
 
 ## Overview
@@ -242,19 +241,6 @@ This library does not license the content itself. Each entry keeps the license o
 | YouTube (CC BY, declared by uploader) | Links only. Rights not verified. |
 
 Before redistributing any part of the library, read [`License_and_Attribution_Report.pdf`](deliverables/License_and_Attribution_Report.pdf) and check the license of each entry.
-
-## Rebuilding the Library
-
-Run from the repository root:
-
-```bash
-export OPENALEX_KEY=...            # free OpenAlex API key
-
-./tools/run_final.sh               # check, build catalog, reports, SHA256SUMS, ZIP
-./tools/run_final.sh harvest       # fetch more papers from OpenAlex, then rebuild
-```
-
-Requirements: Python 3 with `requests`, `pypdf`, and `PIL`.
 
 ## Limitations
 
