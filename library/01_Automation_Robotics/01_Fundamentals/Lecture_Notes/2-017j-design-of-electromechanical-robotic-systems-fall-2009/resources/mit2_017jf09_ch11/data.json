@@ -1,0 +1,25 @@
+{
+  "content": "<p>Chapter from a textbook on system design for uncertainty. Topics include control Fundamentals,  partial fractions, stability in linear systems, poles in LHP, general stability, representing linear systems, block diagrams and transfer functions of feedback systems, PID controllers, and heuristic tuning.</p>\n",
+  "content_type": "resource",
+  "description": "Chapter from a textbook on system design for uncertainty. Topics include control Fundamentals,  partial fractions, stability in linear systems, poles in LHP, general stability, representing linear systems, block diagrams and transfer functions of feedback systems, PID controllers, and heuristic tuning.",
+  "draft": false,
+  "file": "/courses/2-017j-design-of-electromechanical-robotic-systems-fall-2009/MIT2_017JF09_ch11.pdf",
+  "file_size": 153524,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Course Text",
+  "parent_type": "CourseSection",
+  "parent_uid": "a1ae82bd-baca-7740-562c-d1f0ae24300c",
+  "resourcetype": "Document",
+  "title": "Control Fundamentals",
+  "uid": "d98dc04f-3311-eb4e-8c78-6a342dd07f87",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

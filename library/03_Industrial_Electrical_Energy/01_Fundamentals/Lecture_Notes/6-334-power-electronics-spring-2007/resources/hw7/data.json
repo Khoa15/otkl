@@ -1,0 +1,47 @@
+{
+  "content": "<p>Problem set on resonant pole inverters, the International Rectifier power MOSFET IRF620S, and power dissipation.</p>\n",
+  "content_type": "resource",
+  "description": "Problem set on resonant pole inverters, the International Rectifier power MOSFET IRF620S, and power dissipation.",
+  "draft": false,
+  "file": "/courses/6-334-power-electronics-spring-2007/ffb98d5f029c3a74a8ee0191588bddc6_hw7.pdf",
+  "file_size": 420434,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "5715bb34-b41c-4517-38a4-6b40d2cf0ab9",
+  "resourcetype": "Document",
+  "title": "hw7.pdf",
+  "uid": "ffb98d5f-029c-3a74-a8ee-0191588bddc6",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-334-power-electronics-spring-2007"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-334-power-electronics-spring-2007"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

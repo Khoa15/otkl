@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Sets on MIT OpenCourseWare</title>
+    <link>/resources/problem-sets/</link>
+    <description>Recent content in Problem Sets on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-sets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lyn_sys_solver.m.txt</title>
+      <link>/resources/lyn_sys_solver-m/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lyn_sys_solver-m/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MATLAB_Script_for_Problem_Set5.txt</title>
+      <link>/resources/matlab_script_for_problem_set5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/matlab_script_for_problem_set5/data.json</guid>
+      <description>&lt;p&gt;This resource contains scripting information regarding problem set 5.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MATLAB_Script_for_Problem_Set6.txt</title>
+      <link>/resources/matlab_script_for_problem_set6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/matlab_script_for_problem_set6/data.json</guid>
+      <description>&lt;p&gt;This resource contains scripting information regarding problem set 6.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NewtonRaphson_skel.zip</title>
+      <link>/resources/newtonraphson_skel/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/newtonraphson_skel/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Node Ordering, Numbering, and Boundary Conditions</title>
+      <link>/resources/mit2_29s15_node_ordering/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_29s15_node_ordering/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding node ordering, numbering, and boundary conditions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 1</title>
+      <link>/resources/mit2_29s15_ps1_sp2015_v3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_29s15_ps1_sp2015_v3/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding problem set 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 2</title>
+      <link>/resources/mit2_29s15_ps2_sp2015_v4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_29s15_ps2_sp2015_v4/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding problem set 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 3</title>
+      <link>/resources/mit2_29s15_ps3_sp2015_v1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_29s15_ps3_sp2015_v1/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding problem set 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 4</title>
+      <link>/resources/mit2_29s15_ps4_sp2015_v1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_29s15_ps4_sp2015_v1/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding problem set 4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 5</title>
+      <link>/resources/mit2_29s15_ps5_sp2015_v3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_29s15_ps5_sp2015_v3/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding problem set 5.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 6</title>
+      <link>/resources/mit2_29s15_ps6_sp2015_v1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_29s15_ps6_sp2015_v1/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding problem set 6.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PS3_2_29_SP2015_Codes_final.zip</title>
+      <link>/resources/ps3_2_29_sp2015_codes_final/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps3_2_29_sp2015_codes_final/data.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

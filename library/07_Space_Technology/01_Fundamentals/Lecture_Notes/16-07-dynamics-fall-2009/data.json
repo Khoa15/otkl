@@ -1,0 +1,119 @@
+{
+  "course_description": "This course covers the fundamentals of Newtonian mechanics, including kinematics, motion relative to accelerated reference frames, work and energy, impulse and momentum, 2D and 3D rigid body dynamics. The course pays special attention to applications in aerospace engineering including introductory topics in orbital mechanics, flight dynamics, inertial navigation and attitude dynamics. By the end of the semester, students should be able to construct idealized (particle and rigid body) dynamical models and predict model response to applied forces using Newtonian mechanics.\n",
+  "course_description_html": "This course covers the fundamentals of Newtonian mechanics, including kinematics, motion relative to accelerated reference frames, work and energy, impulse and momentum, 2D and 3D rigid body dynamics. The course pays special attention to applications in aerospace engineering including introductory topics in orbital mechanics, flight dynamics, inertial navigation and attitude dynamics. By the end of the semester, students should be able to construct idealized (particle and rigid body) dynamical models and predict model response to applied forces using Newtonian mechanics.",
+  "course_image": {
+    "content": "d840d43f-b6e9-0fb2-a142-7e896c0501f1",
+    "website": "16-07-dynamics-fall-2009"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "An assembly experiencing multi-axial rotation. Image by MIT Open Courseware.",
+    "draft": false,
+    "file": "/courses/16-07-dynamics-fall-2009/d840d43fb6e90fb2a1427e896c0501f1_16-07f09.jpg",
+    "file_size": 56467,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "An assembly experiencing multi-axial rotation. (Image by MIT OpenCourseWare.)",
+      "credit": "",
+      "image-alt": "An orthographic projection of a swiveling pulley."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "An orthographic projection of a swiveling pulley",
+    "uid": "d840d43f-b6e9-0fb2-a142-7e896c0501f1"
+  },
+  "course_image_thumbnail": {
+    "content": "780eb197-bbe3-d2e4-b205-da95fdf0e6b1",
+    "website": "16-07-dynamics-fall-2009"
+  },
+  "course_title": "Dynamics",
+  "department_numbers": [
+    "16"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/d840d43fb6e90fb2a1427e896c0501f1_16-07f09.jpg",
+  "instructors": [
+    {
+      "first_name": "Sheila",
+      "last_name": "Widnall",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Sheila Widnall",
+      "uid": "494d32a4-e99f-9d54-ef18-244e6a7902c8",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Sheila+Widnall"
+    },
+    {
+      "first_name": "John",
+      "last_name": "Deyst",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. John Deyst",
+      "uid": "a8f81254-5aac-4e1b-116b-6ed8d13e5f90",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+John+Deyst"
+    },
+    {
+      "first_name": "Edward",
+      "last_name": "Greitzer",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Edward Greitzer",
+      "uid": "419a16c1-a19f-65b4-17ad-fa6b98ad3c40",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Edward+Greitzer"
+    }
+  ],
+  "learning_resource_types": [
+    "Problem Sets",
+    "Exams",
+    "Lecture Notes"
+  ],
+  "legacy_uid": "5761c042-4278-e2da-8dc5-abfe002d288f",
+  "level": [
+    "Undergraduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Engineering",
+      "Aerospace Engineering"
+    ],
+    [
+      "Engineering",
+      "Mechanical Engineering"
+    ],
+    [
+      "Science & Math",
+      "Physics"
+    ]
+  ],
+  "primary_course_number": "16.07",
+  "site_short_id": "16.07-fall-2009",
+  "site_uid": "5e736882-7b01-46f3-b640-7e744cc31509",
+  "site_url_path": "courses/16-07-dynamics-fall-2009",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Engineering",
+      "Aerospace Engineering",
+      "Aerodynamics"
+    ],
+    [
+      "Engineering",
+      "Aerospace Engineering",
+      "Astrodynamics"
+    ],
+    [
+      "Science",
+      "Physics",
+      "Classical Mechanics"
+    ],
+    [
+      "Engineering",
+      "Mechanical Engineering",
+      "Dynamics and Control"
+    ]
+  ],
+  "year": "2009"
+}

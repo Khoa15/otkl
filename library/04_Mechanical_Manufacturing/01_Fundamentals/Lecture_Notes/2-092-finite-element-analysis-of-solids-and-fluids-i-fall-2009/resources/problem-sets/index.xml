@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Sets on MIT OpenCourseWare</title>
+    <link>/resources/problem-sets/</link>
+    <description>Recent content in Problem Sets on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-sets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HW5_LDC.in</title>
+      <link>/resources/hw5_ldc/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/hw5_ldc/data.json</guid>
+      <description>&lt;p&gt;This resource is a supporting file for the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HW5_spring.idb</title>
+      <link>/resources/hw5_spring/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/hw5_spring/data.json</guid>
+      <description>&lt;p&gt;This resource is a supporting file for the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT2_092F09_hw1.pdf</title>
+      <link>/resources/mit2_092f09_hw1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_092f09_hw1/data.json</guid>
+      <description>&lt;p&gt;New file Upload&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT2_092F09_hw2.pdf</title>
+      <link>/resources/mit2_092f09_hw2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_092f09_hw2/data.json</guid>
+      <description>&lt;p&gt;New file Upload&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT2_092F09_hw3.pdf</title>
+      <link>/resources/mit2_092f09_hw3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_092f09_hw3/data.json</guid>
+      <description>&lt;p&gt;New file Upload&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT2_092F09_hw4.pdf</title>
+      <link>/resources/mit2_092f09_hw4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_092f09_hw4/data.json</guid>
+      <description>&lt;p&gt;New file Upload&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT2_092F09_hw5.pdf</title>
+      <link>/resources/mit2_092f09_hw5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_092f09_hw5/data.json</guid>
+      <description>&lt;p&gt;New file Upload&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT2_092F09_hw6.pdf</title>
+      <link>/resources/mit2_092f09_hw6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_092f09_hw6/data.json</guid>
+      <description>&lt;p&gt;New file Upload&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT2_092F09_hw7.pdf</title>
+      <link>/resources/mit2_092f09_hw7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_092f09_hw7/data.json</guid>
+      <description>&lt;p&gt;New file Upload&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT2_092F09_hw8.pdf</title>
+      <link>/resources/mit2_092f09_hw8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_092f09_hw8/data.json</guid>
+      <description>&lt;p&gt;New file Upload&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

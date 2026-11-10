@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exam Solutions on MIT OpenCourseWare</title>
+    <link>/resources/exam-solutions/</link>
+    <description>Recent content in Exam Solutions on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exam-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MIT_7_01SCF11_exam3_sol.pdf</title>
+      <link>/resources/mit_7_01scf11_exam3_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit_7_01scf11_exam3_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements for exam 3 related to genetics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT7_01SCF11_exam1_sol.pdf</title>
+      <link>/resources/mit7_01scf11_exam1_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_01scf11_exam1_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to the problem set related to exam 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT7_01SCF11_exam2_sol.pdf</title>
+      <link>/resources/mit7_01scf11_exam2_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_01scf11_exam2_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for the problem statements for the exam 2 related to molecular biology.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT7_01SCF11_exam4_sol.pdf</title>
+      <link>/resources/mit7_01scf11_exam4_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_01scf11_exam4_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solution to the problem set related to recombinant DNA.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+{
+  "content": "<p>Chapter from a textbook on system design for uncertainty. Topics include control systems, loop shaping, the roots of stability, Nyquist criterion, design for nominal performance, design for robustness, robust performance, implications of Bode&rsquo;s integral, and the recipe for loopshaping.</p>\n",
+  "content_type": "resource",
+  "description": "Chapter from a textbook on system design for uncertainty. Topics include control systems, loop shaping, the roots of stability, Nyquist criterion, design for nominal performance, design for robustness, robust performance, implications of Bode's integral, and the recipe for loopshaping.",
+  "draft": false,
+  "file": "/courses/2-017j-design-of-electromechanical-robotic-systems-fall-2009/MIT2_017JF09_ch12.pdf",
+  "file_size": 196863,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Course Text",
+  "parent_type": "CourseSection",
+  "parent_uid": "a1ae82bd-baca-7740-562c-d1f0ae24300c",
+  "resourcetype": "Document",
+  "title": "Control Systems — Loop Shaping",
+  "uid": "201df1a0-02af-9503-6094-e9034cafd80d",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

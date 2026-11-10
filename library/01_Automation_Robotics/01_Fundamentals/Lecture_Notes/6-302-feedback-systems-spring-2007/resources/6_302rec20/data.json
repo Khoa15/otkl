@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Recitation handout on a minor-loop in an op-amp.</p>\n",
+  "content_type": "resource",
+  "description": "Recitation handout on a minor-loop in an op-amp.",
+  "draft": false,
+  "file": "/courses/6-302-feedback-systems-spring-2007/19fa1e299fd17cd77f23c0b312e07469_6_302rec20.pdf",
+  "file_size": 98056,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem-solving Notes"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Recitations",
+  "parent_type": "CourseSection",
+  "parent_uid": "5667c63a-09ff-e158-1e89-d49a0035050d",
+  "resourcetype": "Document",
+  "title": "6_302rec20.pdf",
+  "uid": "19fa1e29-9fd1-7cd7-7f23-c0b312e07469",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

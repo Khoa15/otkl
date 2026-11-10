@@ -1,0 +1,87 @@
+{
+  "course_description": "General introduction to systems engineering using both the classical V-model and the new _Meta_ approach. Topics include stakeholder analysis, requirements definition, system architecture and concept generation, trade-space exploration and concept selection, design definition and optimization, system integration and interface management, system safety, verification and validation, and commissioning and operations. Discusses the trade-offs between performance, lifecycle cost and system operability. Readings based on systems engineering standards and papers. Students apply the concepts of systems engineering to a cyber-electro-mechanical system, which is subsequently entered into a design competition.\n\nStudents will prepare a PDR (Preliminary Design Review)-level design intended for the _Cansat Competition_.This year's class will be taught in the form of a Small-Private-Online-Course (SPOC) and offered simultaneously to students at MIT under number 16.842 and Ecole Polytechnique Fédérale de Lausanne (EPFL) as ENG-421.\n",
+  "course_description_html": "<p>General introduction to systems engineering using both the classical V-model and the new <em>Meta</em> approach. Topics include stakeholder analysis, requirements definition, system architecture and concept generation, trade-space exploration and concept selection, design definition and optimization, system integration and interface management, system safety, verification and validation, and commissioning and operations. Discusses the trade-offs between performance, lifecycle cost and system operability. Readings based on systems engineering standards and papers. Students apply the concepts of systems engineering to a cyber-electro-mechanical system, which is subsequently entered into a design competition.</p>\n<p>Students will prepare a PDR (Preliminary Design Review)-level design intended for the <em>Cansat Competition</em>.This year&rsquo;s class will be taught in the form of a Small-Private-Online-Course (SPOC) and offered simultaneously to students at MIT under number 16.842 and Ecole Polytechnique Fédérale de Lausanne (EPFL) as ENG-421.</p>\n",
+  "course_image": {
+    "content": "726dfc67-e860-50ec-2c1f-83c5c248961d",
+    "website": "16-842-fundamentals-of-systems-engineering-fall-2015"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "This \"V-Model\" diagram summarizes the overall structure of this course. Image courtesy of Olivier de Weck.",
+    "draft": false,
+    "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/726dfc67e86050ec2c1f83c5c248961d_16-842f15.gif",
+    "file_size": 52197,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "This \"V-Model\" diagram summarizes the overall structure of this course. (Image courtesy of Olivier de Weck.)",
+      "credit": "Image courtesy of Olivier de Weck.",
+      "image-alt": "A flow diagram of the \"V Model\""
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "16-842f15.jpg",
+    "uid": "726dfc67-e860-50ec-2c1f-83c5c248961d"
+  },
+  "course_image_thumbnail": {
+    "content": "226c3d5f-0ae3-de64-f8ae-1d5f599dbd50",
+    "website": "16-842-fundamentals-of-systems-engineering-fall-2015"
+  },
+  "course_title": "Fundamentals of Systems Engineering",
+  "department_numbers": [
+    "16"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/726dfc67e86050ec2c1f83c5c248961d_16-842f15.gif",
+  "instructors": [
+    {
+      "first_name": "Olivier",
+      "last_name": "de Weck",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Olivier de Weck",
+      "uid": "07d4f055-5edf-ebf2-c247-7bbf2d19dd91",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Olivier+De+Weck"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Notes",
+    "Design Assignments",
+    "Written Assignments",
+    "Lecture Videos",
+    "Instructor Insights"
+  ],
+  "legacy_uid": "3b33804a-facf-eb52-fc52-f88ec38fbe8e",
+  "level": [
+    "Graduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Engineering",
+      "Aerospace Engineering"
+    ],
+    [
+      "Engineering",
+      "Systems Engineering"
+    ]
+  ],
+  "primary_course_number": "16.842",
+  "site_short_id": "16.842-fall-2015",
+  "site_uid": "c65d9dbe-1b1e-4654-81de-bda2a9b2b246",
+  "site_url_path": "courses/16-842-fundamentals-of-systems-engineering-fall-2015",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Engineering",
+      "Aerospace Engineering"
+    ],
+    [
+      "Engineering",
+      "Systems Engineering"
+    ]
+  ],
+  "year": "2015"
+}

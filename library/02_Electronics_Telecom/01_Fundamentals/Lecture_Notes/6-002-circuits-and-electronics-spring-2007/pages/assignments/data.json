@@ -1,0 +1,22 @@
+
+{
+  "content": "<p>Homework 1 (<a href=\"../../resources/hw1/index.html\">PDF</a>)</p>\n<p>Homework 2 (<a href=\"../../resources/hw2/index.html\">PDF</a>)</p>\n<p>Homework 3 (<a href=\"../../resources/hw3/index.html\">PDF</a>)</p>\n<p>Homework 4 (<a href=\"../../resources/hw4/index.html\">PDF</a>)</p>\n<p>Homework 5 (<a href=\"../../resources/hw5/index.html\">PDF</a>)</p>\n<p>Homework 6 (<a href=\"../../resources/hw6/index.html\">PDF</a>)</p>\n<p>Homework 7 (<a href=\"../../resources/hw7/index.html\">PDF</a>)</p>\n<p>Homework 8 (<a href=\"../../resources/hw8/index.html\">PDF</a>)</p>\n<p>Homework 9 (<a href=\"../../resources/hw9/index.html\">PDF</a>)</p>\n<p>Homework 10 (<a href=\"../../resources/hw10/index.html\">PDF</a>)</p>\n<p>Homework 11 (<a href=\"../../resources/hw11/index.html\">PDF</a>)</p>\n",
+  "content_type": "page",
+  "description": "The assignments section contains complete set of problem statements.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Assignments",
+  "uid": "e106059b-2e3b-50c2-726d-a543c775c9c6",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

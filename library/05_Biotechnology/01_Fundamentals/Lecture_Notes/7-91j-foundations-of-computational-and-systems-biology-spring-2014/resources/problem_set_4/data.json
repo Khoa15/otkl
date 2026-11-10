@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This is a special file related to problem set 4.</p>\n",
+  "content_type": "resource",
+  "description": "This is a special file related to problem set 4.",
+  "draft": false,
+  "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/71d11e38acd6fa09775f2517afa761f5_Problem_set_4.zip",
+  "file_size": 1282982,
+  "file_type": "application/zip",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "215564a7-c7bc-a140-74c5-d9096008982b",
+  "resourcetype": "Other",
+  "title": "Problem_set_4.zip",
+  "uid": "71d11e38-acd6-fa09-775f-2517afa761f5",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "7-91j-foundations-of-computational-and-systems-biology-spring-2014"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "7-91j-foundations-of-computational-and-systems-biology-spring-2014"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

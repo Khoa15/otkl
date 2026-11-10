@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/6-241j-dynamic-systems-and-control-spring-2011/996025f6db0d90b00f11c44fc49b85f9_MIT6_241JS11_textbook.pdf",
+  "file_size": 10342641,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Open Textbooks"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Readings",
+  "parent_type": "CourseSection",
+  "parent_uid": "bd44ad36-f5b6-870b-74dd-fff31d2d3017",
+  "resourcetype": "Document",
+  "title": "Lectures on Dynamic Systems and Control",
+  "uid": "996025f6-db0d-90b0-0f11-c44fc49b85f9",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-241j-dynamic-systems-and-control-spring-2011"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-241j-dynamic-systems-and-control-spring-2011"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on MIT OpenCourseWare</title>
+    <link>/resources/projects/</link>
+    <description>Recent content in Projects on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>/pages/projects/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/projects/data.json</guid>
+      <description>&lt;p&gt;There will be a final project for this class. Students can select the topic of their project in consultation with the instructor. Possible projects include:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Comprehensive reviews of material not covered in detail in class, with some numerical examples;&lt;/li&gt;&#xA;&lt;li&gt;Specific fluid-related problems or questions that are numerically studied or solved by the applications of approaches, methods or schemes covered in class;&lt;/li&gt;&#xA;&lt;li&gt;A combination of 1) and 2).&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Projects will be due at the end of term. There will be a final session where all students will make a presentation of their projects to the whole class and staff. We have found that such presentations provide an excellent means for additional learning and sharing.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

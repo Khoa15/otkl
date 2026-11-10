@@ -1,0 +1,17 @@
+
+{
+  "content": "<p>« <a href=\"../../pages/ax-b-and-the-four-subspaces/exam-1/index.html\">Previous</a> | <a href=\"../../pages/least-squares-determinants-and-eigenvalues/orthogonal-vectors-and-subspaces/index.html\">Next</a> »</p>\n<img src=\"../../static_resources/8f4d1bf6fe6c33b93070e3efc4cbb7df_Unit_2_WIDE.jpg\" alt=\"\" loading=\"lazy\" decoding=\"async\" />\n<p>A graph and its edge-node incidence matrix.</p>\n<p>Each component of a vector in R<sup>n</sup> indicates a distance along one of the coordinate axes. This practice of dissecting a vector into directional components is an important one. In particular, it leads to the &ldquo;least squares&rdquo; method of fitting curves to collections of data. This unit also introduces matrix <em>eigenvalues</em> and <em>eigenvectors</em>. Many calculations become simpler when working with a basis of eigenvectors.</p>\n<p>The <em>determinant</em> of a matrix is a number characterizing that matrix. This value is useful for determining whether a matrix is singular, computing its inverse, and more.</p>\n<p>Looking for something specific in this course? The <a href=\"../../pages/resource-index/index.html\">Resource Index</a> compiles links to most course resources in a single page.</p>\n<p>« <a href=\"../../pages/ax-b-and-the-four-subspaces/exam-1/index.html\">Previous</a> | <a href=\"../../pages/least-squares-determinants-and-eigenvalues/orthogonal-vectors-and-subspaces/index.html\">Next</a> »</p>\n",
+  "content_type": "page",
+  "description": "This section provides the second unit of the course: least squares, determinants, and eigenvalues.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Unit II: Least Squares, Determinants and Eigenvalues",
+  "uid": "cf73d07a-c972-ab3c-450a-0f10d0be0664",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

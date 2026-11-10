@@ -1,0 +1,148 @@
+{
+  "course_description": "This course covers the mathematical foundations and state-of-the-art implementations of algorithms for vision-based navigation of autonomous vehicles (e.g., mobile robots, self-driving cars, drones). It provides students with a rigorous but pragmatic overview of differential geometry and optimization on manifolds and knowledge of the fundamentals of 2-view and multi-view geometric vision for real-time motion estimation, calibration, localization, and mapping. The theoretical foundations are complemented with hands-on labs based on state-of-the-art mini racecar and drone platforms. It culminates in a critical review of recent advances in the field and a team project aimed at advancing the state of the art.\n",
+  "course_description_html": "This course covers the mathematical foundations and state-of-the-art implementations of algorithms for vision-based navigation of autonomous vehicles (e.g., mobile robots, self-driving cars, drones). It provides students with a rigorous but pragmatic overview of differential geometry and optimization on manifolds and knowledge of the fundamentals of 2-view and multi-view geometric vision for real-time motion estimation, calibration, localization, and mapping. The theoretical foundations are complemented with hands-on labs based on state-of-the-art mini racecar and drone platforms. It culminates in a critical review of recent advances in the field and a team project aimed at advancing the state of the art.",
+  "course_image": {
+    "content": "8aee2783-5536-54f2-684b-b522fbf9044a",
+    "website": "16-485-visual-navigation-for-autonomous-vehicles-vnav-fall-2020"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "",
+    "draft": false,
+    "file": "/courses/16-485-visual-navigation-for-autonomous-vehicles-vnav-fall-2020/8aee2783553654f2684bb522fbf9044a_16-485f20.jpg",
+    "file_size": 23620,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "Application of VNAV in DARPA’s Subterranean Challenge to map, navigate, and search complex underground environments, including human-made tunnels, urban underground, and natural cave systems. (Image courtesy of DARPA / public domain.)",
+      "credit": "",
+      "image-alt": "A drone flying over a terrain and a few other vehicles on that terrain as well"
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "16-485f20.jpg",
+    "uid": "8aee2783-5536-54f2-684b-b522fbf9044a"
+  },
+  "course_image_thumbnail": {
+    "content": "03e7c998-4eea-d5a0-400f-7485462f1f59",
+    "website": "16-485-visual-navigation-for-autonomous-vehicles-vnav-fall-2020"
+  },
+  "course_title": "Visual Navigation for Autonomous Vehicles (VNAV)",
+  "department_numbers": [
+    "16"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/8aee2783553654f2684bb522fbf9044a_16-485f20.jpg",
+  "instructors": [
+    {
+      "first_name": "Luca",
+      "last_name": "Carlone",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Luca Carlone",
+      "uid": "d5100738-2608-0f41-c5a6-a9c7710faa59",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Luca+Carlone"
+    },
+    {
+      "first_name": "Kasra",
+      "last_name": "Khosoussi",
+      "middle_initial": "",
+      "salutation": "",
+      "title": "Kasra Khosoussi",
+      "uid": "0195ed35-99f0-069c-2f2c-5ebf1b54a2d2",
+      "url": "https://ocw.mit.edu/search/?q=Kasra+Khosoussi"
+    },
+    {
+      "first_name": "Markus",
+      "last_name": "Ryll",
+      "middle_initial": "",
+      "salutation": "",
+      "title": "Markus Ryll",
+      "uid": "4b8eeb30-5a7d-d27a-d83f-08dc720f2c07",
+      "url": "https://ocw.mit.edu/search/?q=Markus+Ryll"
+    },
+    {
+      "first_name": "Golnaz",
+      "last_name": "Habibi",
+      "middle_initial": "",
+      "salutation": "",
+      "title": "Golnaz Habibi",
+      "uid": "ca91bde1-6d1e-7723-b6b0-bb9a7717c77d",
+      "url": "https://ocw.mit.edu/search/?q=Golnaz+Habibi"
+    },
+    {
+      "first_name": "Vasileios",
+      "last_name": "Tzuomas",
+      "middle_initial": "",
+      "salutation": "",
+      "title": "Vasileios Tzuomas",
+      "uid": "02ef614a-2b62-e156-676d-113d457ad9ed",
+      "url": "https://ocw.mit.edu/search/?q=Vasileios+Tzuomas"
+    },
+    {
+      "first_name": "Rajat",
+      "last_name": "Talak",
+      "middle_initial": "",
+      "salutation": "",
+      "title": "Rajat Talak",
+      "uid": "e933c6b2-7fde-2816-116c-f55a85d287df",
+      "url": "https://ocw.mit.edu/search/?q=Rajat+Talak"
+    }
+  ],
+  "learning_resource_types": [
+    "Programming Assignments",
+    "Lecture Notes"
+  ],
+  "legacy_uid": "efdeab56-6bfe-bd7f-259b-7c31f15c99da",
+  "level": [
+    "Graduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Data Science, Analytics & Computer Technology",
+      "AI"
+    ],
+    [
+      "Engineering",
+      "Aerospace Engineering"
+    ],
+    [
+      "Data Science, Analytics & Computer Technology",
+      "Computer Science"
+    ],
+    [
+      "Data Science, Analytics & Computer Technology",
+      "Machine Learning"
+    ],
+    [
+      "Data Science, Analytics & Computer Technology",
+      "Visualization"
+    ]
+  ],
+  "primary_course_number": "16.485",
+  "site_short_id": "16.485-fall-2020",
+  "site_uid": "7574eb48-ff00-4348-b312-f0df3b37b16f",
+  "site_url_path": "courses/16-485-visual-navigation-for-autonomous-vehicles-vnav-fall-2020",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Engineering",
+      "Computer Science",
+      "Artificial Intelligence"
+    ],
+    [
+      "Engineering",
+      "Computer Science",
+      "Graphics and Visualization"
+    ],
+    [
+      "Engineering",
+      "Aerospace Engineering",
+      "Guidance and Control Systems"
+    ]
+  ],
+  "year": "2020"
+}

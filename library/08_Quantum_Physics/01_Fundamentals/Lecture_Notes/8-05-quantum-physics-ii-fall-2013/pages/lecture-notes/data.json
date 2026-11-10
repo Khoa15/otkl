@@ -1,0 +1,16 @@
+
+{
+  "content": "<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nLEC #\n</th>\n\n<th>\n\nTOPICS\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\n1–3\n</td>\n\n<td>\n\n<a href=\"../../resources/lecture-notes-1/index.html\">Wave Mechanics (PDF)</a><a href=\"../../resources/mit8_05f13_chap_01/index.html\">Wave Mechanics (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n3–4\n</td>\n\n<td>\n\n<a href=\"../../resources/lecture-notes-2/index.html\">Spin One-half, Bras, Kets, and Operators (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n5–8\n</td>\n\n<td>\n\n<a href=\"../../resources/lecture-notes-3/index.html\">Linear Algebra: Vector Spaces and Operators (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n9\n</td>\n\n<td>\n\n<a href=\"../../resources/lecture-notes-4/index.html\">Dirac&rsquo;s Bra and Ket Notation (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n10–11\n</td>\n\n<td>\n\n<a href=\"../../resources/lecture-notes-5/index.html\">Uncertainty Principle and Compatible Observables (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n12–16\n</td>\n\n<td>\n\n<a href=\"../../resources/lecture-notes-6/index.html\">Quantum Dynamics (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n16–18\n</td>\n\n<td>\n\n<a href=\"../../resources/lecture-notes-7/index.html\">Two State Systems (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n18–20\n</td>\n\n<td>\n\n<a href=\"../../resources/lecture-notes-8/index.html\">Multiparticle States and Tensor Products (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n20–23\n</td>\n\n<td>\n\n<a href=\"../../resources/lecture-notes-9/index.html\">Angular Momentum (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n24–26\n</td>\n\n<td>\n\n<a href=\"../../resources/lecture-notes-10/index.html\">Addition of Angular Momentum (PDF)</a>\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section provides the schedule of lecture topics along with the lecture notes used in class.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Lecture Notes",
+  "uid": "dddfc6ee-78a4-d231-0912-40de752ba83e"
+}
+

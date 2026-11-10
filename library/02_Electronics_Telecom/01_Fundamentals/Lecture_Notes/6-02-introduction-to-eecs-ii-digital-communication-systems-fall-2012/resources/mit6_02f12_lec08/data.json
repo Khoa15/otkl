@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains information regarding noise.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information regarding noise.",
+  "draft": false,
+  "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/20e59def7c26c7e1bf48369cec8d6810_MIT6_02F12_lec08.pdf",
+  "file_size": 1251167,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Slides",
+  "parent_type": "CourseSection",
+  "parent_uid": "6293cb2b-b2c9-55e5-230f-875fa43a271f",
+  "resourcetype": "Document",
+  "title": "6.02 Lecture 8: Noise",
+  "uid": "20e59def-7c26-c7e1-bf48-369cec8d6810"
+}

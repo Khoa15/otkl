@@ -1,0 +1,16 @@
+
+{
+  "content": "<p>There are no required textbooks for the class. Lecture notes will be available in advance before each lecture. You should read them before coming to class.</p>\n<p>The main reference book for the course beyond the lecture notes (and a good source for example problems) is:</p>\n<p>Meriam, J. L., and L. G. Kraige. <em>Engineering Mechanics: Dynamics</em>. 6th ed. New York, NY: Wiley, 2006. ISBN: 9780471739319.</p>\n\n    <h3 id=\"references\">References</h3>\n\n<p>The following books are also recommended as additional resources:</p>\n<p>Marion, Jerry B., and Stephen T. Thornton. <em>Classical Dynamics of Particles and Systems</em>. 5th ed. New York, NY: Brooks Cole, 2003. ISBN: 9780534408961.</p>\n<p>Thomson, William Tyrrell. <em>Introduction to Space Dynamics</em>. New York, NY: Dover, 1986. ISBN: 9780486651132.</p>\n<p>Kleppner, Daniel, and Robert Kolenkow. <em>An Introduction to Mechanics</em>. New York, NY: McGraw-Hill, 1973. ISBN: 9780070350489.</p>\n<p>Harrison, H. R., and T. Nettleton. <em>Advanced Engineering Dynamics</em>. London, UK: Arnold, 1997. ISBN: 9780340645710.</p>\n<p>Den Hartog, J. P. <em>Mechanics</em>. New York, NY: Dover, 1961. ISBN: 9780486607542.</p>\n<p>———. <em>Mechanical Vibrations</em>. 4th ed. New York, NY: McGraw-Hill, 1956. ISBN: 9780070163898.</p>\n<p>Hibbeler, Russell C. <em>Engineering Mechanics: Dynamics</em>. 9th ed. Upper Saddle River, N.J.: Prentice Hall, 2001. ISBN: 9780130200044.</p>\n<p>A complete <a   class=\"external-link \"   target=\"_blank\"   href=\"https://www.mathworks.com/help/matlab/index.html\"  aria-label=\"MATLAB reference (opens in a new tab)\"  >MATLAB reference</a> is available online.</p>\n",
+  "content_type": "page",
+  "description": "This section provides information on the main reference book for the course and additional resources.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Readings"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Readings",
+  "uid": "d0f32d04-d84b-cff4-63d9-bff3b3f560a8"
+}
+

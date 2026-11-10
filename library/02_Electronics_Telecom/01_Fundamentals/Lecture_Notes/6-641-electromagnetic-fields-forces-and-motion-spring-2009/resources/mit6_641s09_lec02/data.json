@@ -1,0 +1,27 @@
+{
+  "content": "<p>Lecture notes on differential form of Maxwell&rsquo;s equations, divergence theorem, Stokes&rsquo; theorem, applications to Maxwell&rsquo;s equations, and summary of Maxwell&rsquo;s equations in free space.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on differential form of Maxwell's equations, divergence theorem, Stokes' theorem, applications to Maxwell's equations, and summary of Maxwell's equations in free space.",
+  "draft": false,
+  "file": "/courses/6-641-electromagnetic-fields-forces-and-motion-spring-2009/MIT6_641s09_lec02.pdf",
+  "file_size": 672270,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "dda578c4-8b9d-5d90-3bed-c932f0409540",
+  "resourcetype": "Document",
+  "title": "Lecture 2: Differential Form of Maxwell’s Equations",
+  "uid": "1c014f0d-8c71-c1be-1eb4-fd3198b1d543",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

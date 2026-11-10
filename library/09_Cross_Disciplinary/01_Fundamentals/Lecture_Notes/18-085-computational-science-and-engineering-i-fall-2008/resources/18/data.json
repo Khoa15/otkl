@@ -1,0 +1,27 @@
+{
+  "content": "<p>Thumbnail image accompanying a video lecture on finite elements in one dimension.</p>\n",
+  "content_type": "resource",
+  "description": "Thumbnail image accompanying a video lecture on finite elements in one dimension.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/241920b0031b53df149e85d1d8da0c72_18.jpg",
+  "file_size": 2588,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Lecture 18",
+  "uid": "241920b0-031b-53df-149e-85d1d8da0c72",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

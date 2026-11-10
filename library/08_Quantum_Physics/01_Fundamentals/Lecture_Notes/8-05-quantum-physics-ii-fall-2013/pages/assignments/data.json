@@ -1,0 +1,18 @@
+
+{
+  "audience": [],
+  "content": "<p><a href=\"../../resources/assignment-1/index.html\">Problem Set 1 (PDF)</a></p>\n<p><a href=\"../../resources/assignment-2/index.html\">Problem Set 2 (PDF)</a></p>\n<p><a href=\"../../resources/assignment-3/index.html\">Problem Set 3 (PDF)</a></p>\n<p><a href=\"../../resources/assignment-4/index.html\">Problem Set 4 (PDF)</a></p>\n<p><a href=\"../../resources/assignment-5/index.html\">Problem Set 5 (PDF)</a></p>\n<p>Note: In Problem 4 (C) of Problem Set 5, it should say “…fails to be <strong>an orthogonal</strong> projector…” instead of “a projector”.</p>\n<p><a href=\"../../resources/assignment-6/index.html\">Problem Set 6 (PDF)</a></p>\n<p><a href=\"../../resources/assignment-7/index.html\">Problem Set 7 (PDF)</a></p>\n<p><a href=\"../../resources/assignment-8/index.html\">Problem Set 8 (PDF)</a></p>\n<p><a href=\"../../resources/assignment-9/index.html\">Problem Set 9 (PDF)</a></p>\n<p><a href=\"../../resources/assignment-10/index.html\">Problem Set 10 (PDF)</a></p>\n<p><a href=\"../../resources/assignment-11/index.html\">Problem Set 11 (PDF)</a></p>\n",
+  "content_type": "page",
+  "description": "This section provides the problem sets assigned for the course.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Assignments"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Assignments",
+  "uid": "7abb6434-ee16-2ca4-e370-23444f820e47"
+}
+

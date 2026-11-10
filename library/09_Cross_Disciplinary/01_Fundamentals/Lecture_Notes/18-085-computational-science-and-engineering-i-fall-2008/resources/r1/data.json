@@ -1,0 +1,27 @@
+{
+  "content": "<p>Thumbnail image accompanying a video recitation on the key ideas of linear algebra.</p>\n",
+  "content_type": "resource",
+  "description": "Thumbnail image accompanying a video recitation on the key ideas of linear algebra.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/5559bdd53bc47069f630cbe172452d1d_r1.jpg",
+  "file_size": 2440,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Recitation 1",
+  "uid": "5559bdd5-3bc4-7069-f630-cbe172452d1d",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

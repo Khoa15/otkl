@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture notes on two dimensional rigid body dynamics, impulse and momentum equations, and the center of percussion relative to an instantaneous center of motion.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on two dimensional rigid body dynamics, impulse and momentum equations, and the center of percussion relative to an instantaneous center of motion.",
+  "draft": false,
+  "file": "/courses/16-07-dynamics-fall-2009/67ff6b0726f53d06285e21f0261fe94e_MIT16_07F09_Lec23.pdf",
+  "file_size": 195470,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "c74de568-7f12-1be8-c80c-73b2269c3877",
+  "resourcetype": "Document",
+  "title": "Lecture L23 – 2D Rigid Body Dynamics: Impulse and Momentum",
+  "uid": "67ff6b07-26f5-3d06-285e-21f0261fe94e"
+}

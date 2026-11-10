@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains information related to magnetic circuit analog to electric circuits.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information related to magnetic circuit analog to electric circuits.",
+  "draft": false,
+  "file": "/courses/6-061-introduction-to-electric-power-systems-spring-2011/b0be7bc0996b1a78e25504a32819cb6f_MIT6_061S11_ch6.pdf",
+  "file_size": 167662,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Readings"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Readings",
+  "parent_type": "CourseSection",
+  "parent_uid": "89512ca2-aaea-2fbd-2fb1-f0c11a2b49d2",
+  "resourcetype": "Document",
+  "title": "MIT6_061S11_ch6.pdf",
+  "uid": "b0be7bc0-996b-1a78-e255-04a32819cb6f"
+}

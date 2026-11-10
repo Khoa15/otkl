@@ -1,0 +1,16 @@
+
+{
+  "content": "<p>The lecture notes for this class are in the form of chapters from a possible future edition of Professor Asada&rsquo;s robotics textbook.</p>\n<p>Chapter 1: Introduction (<a href=\"../../resources/chapter1/index.html\">PDF</a>)</p>\n<p>Chapter 2: Actuators and Drive Systems (<a href=\"../../resources/chapter2/index.html\">PDF</a>)</p>\n<p>Chapter 3: Robot Mechanisms (<a href=\"../../resources/chapter3/index.html\">PDF</a>)</p>\n<p>Chapter 4: Planar Kinematics (<a href=\"../../resources/chapter4/index.html\">PDF</a>)</p>\n<p>Chapter 5: Differential Motion (<a href=\"../../resources/chapter5/index.html\">PDF</a>)</p>\n<p>Chapter 6: Statics (<a href=\"../../resources/chapter6/index.html\">PDF</a>)</p>\n<p>Chapter 7: Dynamics (<a href=\"../../resources/chapter7/index.html\">PDF</a>)</p>\n<p>Chapter 9: Force and Compliance Controls (<a href=\"../../resources/chapter9/index.html\">PDF</a>)</p>\n<p>(Chapter 8 is not available)</p>\n",
+  "content_type": "page",
+  "description": "This section contains lecture notes for the course in the form of chapters.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Lecture Notes",
+  "uid": "756bd2cb-ed00-e4ec-8b9a-59a5d1d0df7b"
+}
+

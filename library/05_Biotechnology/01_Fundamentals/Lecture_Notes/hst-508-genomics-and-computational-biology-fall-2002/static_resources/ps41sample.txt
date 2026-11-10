@@ -1,0 +1,51 @@
+Gene Description	Gene Accession Number	1	2	3	28	29
+Transcriptional activator hSNF2b	D26156_s_at	3.203	2.915	3.162	2.951	2.795
+MCM3 Minichromosome maintenance deficient (S. cerevisiae) 3	D38073_at	2.997	2.732	3.159	2.92	2.468
+INDUCED MYELOID LEUKEMIA CELL DIFFERENTIATION PROTEIN MCL1	L08246_at	2.735	3.473	2.686	3.827	3.247
+Inducible protein mRNA	L47738_at	2.757	3.461	3.435	2.652	1.813
+ADA Adenosine deaminase	M13792_at	3.508	4.04	4.218	3.397	2.688
+LYN V-yes-1 Yamaguchi sarcoma viral related oncogene homolog	M16038_at	2.562	2.795	2.033	2.832	3.116
+LYZ Lysozyme	M19045_f_at	2.582	3.557	3.477	3.394	3.557
+CD33 CD33 antigen (differentiation antigen)	M23197_at	2.417	2.004	2.49	2.5	2.744
+CST3 Cystatin C (amyloid angiopathy and cerebral hemorrhage)	M27891_at	2.481	3.133	2.405	3.031	3.843
+Interleukin 8 (IL8) gene	M28130_rna1_s_at	2.465	3.314	1.301	4.02	3.218
+IL7R Interleukin 7 receptor	M29696_at	3.587	2.708	3.29	2.686	2.267
+MYL1 Myosin light chain (alkali)	M31211_s_at	2.779	2.638	2.738	2.477	2.375
+Oncoprotein 18 (Op18) gene	M31303_rna1_at	3.583	3.48	3.86	3.338	3.172
+TCF3 Transcription factor 3 (E2A immunoglobulin enhancer binding factors E12/E47)	M31523_at	3.121	2.953	2.776	2.548	2.446
+FAH Fumarylacetoacetate	M55150_at	2.816	3.108	3.109	3.285	3.217
+"LGALS3 Lectin, galactoside-binding, soluble, 3 (galectin 3) (NOTE: redefinition of symbol)"	M57710_at	1.301	3.337	1.301	2.201	3.765
+ATP6C Vacuolar H+ ATPase proton channel subunit	M62762_at	2.922	3.487	2.785	3.432	3.24
+CTSD Cathepsin D (lysosomal aspartyl protease)	M63138_at	3.149	3.366	3.445	3.625	3.408
+MAJOR HISTOCOMPATIBILITY COMPLEX ENHANCER-BINDING PROTEIN MAD3	M69043_at	3.173	3.784	3.358	4.143	3.281
+"PEPTIDYL-PROLYL CIS-TRANS ISOMERASE, MITOCHONDRIAL PRECURSOR"	M80254_at	1.301	2.037	1.301	2.572	2.74
+"ITGAX Integrin, alpha X (antigen CD11C (p150), alpha polypeptide)"	M81695_s_at	2.842	2.91	2.908	3.06	2.679
+"PFC Properdin P factor, complement"	M83652_s_at	1.301	2.561	1.301	3.072	2.939
+DF D component of complement (adipsin)	M84526_at	1.301	1.301	1.301	1.301	3.817
+"ACADM Acyl-Coenzyme A dehydrogenase, C-4 to C-12 straight chain"	M91432_at	2.885	2.911	3.189	2.509	2.097
+CCND3 Cyclin D3	M92287_at	3.679	3.431	3.692	3.108	3.183
+Azurocidin gene	M96326_rna1_at	2.893	2.566	3.103	2.739	4.293
+HKR-T1	S50223_at	2.428	2.539	2.905	2.029	2.176
+MB-1 gene	U05259_rna1_at	3.97	2.952	2.798	1.301	2.615
+SRP9 Signal recognition particle 9 kD protein	U20998_at	3.244	3.205	3.441	2.916	3.07
+"C-myb gene extracted from Human (c-myb) gene, complete primary cds, and five complete alternatively spliced cds"	U22376_cds2_s_at	3.492	3.048	3.657	2.9	3.118
+DHPS Deoxyhypusine synthase	U26266_s_at	2.461	2.459	2.65	2.179	1.82
+Transcriptional activator hSNF2b	U29175_at	3.199	2.795	2.877	2.632	2.497
+Cytoplasmic dynein light chain 1 (hdlc1) mRNA	U32944_at	3.525	3.001	3.32	2.584	2.253
+Heterochromatin protein p25 mRNA	U35451_at	2.611	2.801	2.96	2.32	1.462
+Phosphotyrosine independent ligand p62 for the Lck SH2 domain mRNA	U46751_at	3.113	3.14	3.175	3.852	3.57
+Leukotriene C4 synthase (LTC4S) gene	U50136_rna1_at	3.051	3.026	3.146	3.215	3.406
+GB DEF = Homeodomain protein HoxA9 mRNA	U82759_at	2.594	2.072	2.824	2.915	3.056
+"Catalase (EC 1.11.1.6) 5'flank and exon 1 mapping to chromosome 11, band p13 (and joined CDS)"	X04085_rna1_at	3.024	3.145	2.915	3.488	3.778
+IRF2 Interferon regulatory factor 2	X15949_at	2.442	2.017	1.959	1.806	1.544
+"PRG1 Proteoglycan 1, secretory granule"	X17042_at	2.248	3.539	2.619	3.895	3.947
+PROTEASOME IOTA CHAIN	X59417_at	3.479	3.535	3.888	3.08	3.193
+"GTF2E2 General transcription factor TFIIE beta subunit, 34 kD"	X63469_at	2.663	2.179	2.362	1.447	2.25
+RETINOBLASTOMA BINDING PROTEIN P48	X74262_at	3.137	3.073	3.347	2.775	2.49
+Epb72 gene exon 1	X85116_rna1_s_at	2.21	2.228	1.301	3.357	3.341
+Zyxin	X95735_at	2.474	2.487	2.49	3.347	3.525
+INTERLEUKIN-8 PRECURSOR	Y00787_s_at	2.522	3.728	2.479	4.182	3.492
+RABAPTIN-5 protein	Y08612_at	2.713	2.545	2.33	2.465	2.179
+LEPR Leptin receptor	Y12670_at	2.778	2.528	2.759	2.865	3.113
+TOP2B Topoisomerase (DNA) II beta (180kD)	Z15115_at	3.927	3.283	3.494	3.093	2.985
+"Adenosine triphosphatase, calcium"	Z69881_at	3.247	3.304	3.551	2.236	2.569

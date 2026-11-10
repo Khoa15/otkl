@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture presentation on forward biased p-n junctions, carrier injection, I-V characteristics (ideal and real; forward and reverse), and engineering carrier injection.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture presentation on forward biased p-n junctions, carrier injection, I-V characteristics (ideal and real; forward and reverse), and engineering carrier injection.",
+  "draft": false,
+  "file": "/courses/6-012-microelectronic-devices-and-circuits-fall-2009/a342ce0afb84bfa8e5b7dc819ff3e9bc_MIT6_012F09_lec06.pdf",
+  "file_size": 385876,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "e4c7985c-766a-2f9c-5bac-08869dd8bade",
+  "resourcetype": "Document",
+  "title": "Lecture 6 - p-n Junctions: I-V Relationship",
+  "uid": "a342ce0a-fb84-bfa8-e5b7-dc819ff3e9bc"
+}

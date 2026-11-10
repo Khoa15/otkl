@@ -1,0 +1,47 @@
+{
+  "audience": [],
+  "content": "<p>This file contains information regarding problem set 5.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains information regarding problem set 5.",
+  "draft": false,
+  "file": "/courses/2-29-numerical-fluid-mechanics-spring-2015/b88cbfb209925c44cbe3fb9b1d413e09_MIT2_29S15_PS5_SP2015_v3.pdf",
+  "file_size": 401848,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "18f8e3b9-0e75-225c-4548-7e4c60e79872",
+  "resourcetype": "Document",
+  "title": "Problem Set 5",
+  "uid": "b88cbfb2-0992-5c44-cbe3-fb9b1d413e09",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": {
+      "content": [],
+      "website": "2-29-numerical-fluid-mechanics-spring-2015"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_resources": {
+      "content": [],
+      "website": "2-29-numerical-fluid-mechanics-spring-2015"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

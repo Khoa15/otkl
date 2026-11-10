@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource contains information regarding lecture 15: fourier series.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information regarding lecture 15: fourier series.",
+  "draft": false,
+  "file": "/courses/6-003-signals-and-systems-fall-2011/72c3d01402fa6b7c109b7b88d399115e_MIT6_003F11_lec15.pdf",
+  "file_size": 568437,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Videos",
+  "parent_type": "CourseSection",
+  "parent_uid": "47b07fed-f3a3-0be2-5f15-5f62399cdb59",
+  "resourcetype": "Document",
+  "title": "Lecture 15: Fourier series",
+  "uid": "72c3d014-02fa-6b7c-109b-7b88d399115e",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-003-signals-and-systems-fall-2011"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-003-signals-and-systems-fall-2011"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

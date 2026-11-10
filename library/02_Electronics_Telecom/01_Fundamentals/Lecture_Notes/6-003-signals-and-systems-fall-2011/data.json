@@ -1,0 +1,88 @@
+{
+  "audience": [],
+  "course_description": "6.003 covers the fundamentals of signal and system analysis, focusing on representations of discrete-time and continuous-time signals (singularity functions, complex exponentials and geometrics, Fourier representations, Laplace and Z transforms, sampling) and representations of linear, time-invariant systems (difference and differential equations, block diagrams, system functions, poles and zeros, convolution, impulse and step responses, frequency responses). Applications are drawn broadly from engineering and physics, including feedback and control, communications, and signal processing.\n",
+  "course_description_html": "6.003 covers the fundamentals of signal and system analysis, focusing on representations of discrete-time and continuous-time signals (singularity functions, complex exponentials and geometrics, Fourier representations, Laplace and Z transforms, sampling) and representations of linear, time-invariant systems (difference and differential equations, block diagrams, system functions, poles and zeros, convolution, impulse and step responses, frequency responses). Applications are drawn broadly from engineering and physics, including feedback and control, communications, and signal processing.",
+  "course_image": {
+    "content": "237345ed-ff62-de72-0230-b2390d01cf6e",
+    "website": "6-003-signals-and-systems-fall-2011"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "Course logo for 6.003, highlighting the main themes of the course. Figure by Prof. Dennis Freeman.",
+    "draft": false,
+    "file": "/courses/6-003-signals-and-systems-fall-2011/237345edff62de720230b2390d01cf6e_6-003f11.jpg",
+    "file_size": 63911,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "Course logo for 6.003, highlighting the main themes of the course. (Figure by Prof. Dennis Freeman.)",
+      "credit": "Figure by Prof. Dennis Freeman.",
+      "image-alt": "Course logo for 6.003. Signals and Systems: modeling, analysis, design."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "6-003f11.jpg",
+    "uid": "237345ed-ff62-de72-0230-b2390d01cf6e"
+  },
+  "course_image_thumbnail": {
+    "content": "559caeba-c1c4-038a-b7a9-4a515eb23b7f",
+    "website": "6-003-signals-and-systems-fall-2011"
+  },
+  "course_title": "Signals and Systems",
+  "department_numbers": [
+    "6"
+  ],
+  "extra_course_numbers": "",
+  "hide_download": false,
+  "image_src": "./static_resources/237345edff62de720230b2390d01cf6e_6-003f11.jpg",
+  "instructors": [
+    {
+      "first_name": "Dennis",
+      "last_name": "Freeman",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Dennis Freeman",
+      "uid": "38973de5-71fc-27f5-2642-c330c2c9ed57",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Dennis+Freeman"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Videos",
+    "Lecture Notes",
+    "Problem Sets",
+    "Problem Set Solutions",
+    "Exams",
+    "Exam Solutions"
+  ],
+  "legacy_uid": "3d266ce0-427c-fbc6-069a-1373ed7d2e79",
+  "level": [
+    "Undergraduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Engineering",
+      "Electrical Engineering"
+    ]
+  ],
+  "primary_course_number": "6.003",
+  "site_short_id": "6.003-fall-2011",
+  "site_uid": "60b9e1ff-2c1b-44d7-b736-cc0ee548152d",
+  "site_url_path": "courses/6-003-signals-and-systems-fall-2011",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Engineering",
+      "Electrical Engineering",
+      "Signal Processing"
+    ],
+    [
+      "Engineering",
+      "Electrical Engineering",
+      "Digital Systems"
+    ]
+  ],
+  "year": "2011"
+}

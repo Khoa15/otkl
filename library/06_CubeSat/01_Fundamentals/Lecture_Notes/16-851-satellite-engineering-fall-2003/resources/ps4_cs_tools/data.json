@@ -1,0 +1,47 @@
+{
+  "audience": [],
+  "content": "<p>Supporting files. The ZIP file contains: datastorage.xls, and datamassstorage_sizing.m.</p>\n",
+  "content_type": "resource",
+  "description": "Supporting files. The ZIP file contains: datastorage.xls, and datamassstorage_sizing.m.",
+  "draft": false,
+  "file": "/courses/16-851-satellite-engineering-fall-2003/ce1b50819d505633f5e1e2cd6fecf770_ps4_cs_tools.zip",
+  "file_size": 3497,
+  "file_type": "application/zip",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "54e4e27d-f3ae-708b-3759-0e244c163c0f",
+  "resourcetype": "Other",
+  "title": "ps4_cs_tools.zip",
+  "uid": "ce1b5081-9d50-5633-f5e1-e2cd6fecf770",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": {
+      "content": [],
+      "website": "16-851-satellite-engineering-fall-2003"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_resources": {
+      "content": [],
+      "website": "16-851-satellite-engineering-fall-2003"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

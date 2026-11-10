@@ -1,0 +1,82 @@
+{
+  "audience": [],
+  "course_description": "This course is an introductory subject in the field of electric power systems and electrical to mechanical energy conversion. Electric power has become increasingly important as a way of transmitting and transforming energy in industrial, military and transportation uses. Electric power systems are also at the heart of alternative energy systems, including wind and solar electric, geothermal and small scale hydroelectric generation.\n",
+  "course_description_html": "This course is an introductory subject in the field of electric power systems and electrical to mechanical energy conversion. Electric power has become increasingly important as a way of transmitting and transforming energy in industrial, military and transportation uses. Electric power systems are also at the heart of alternative energy systems, including wind and solar electric, geothermal and small scale hydroelectric generation.",
+  "course_image": {
+    "content": "fd2e7bd3-524b-c923-062e-d56778235d42",
+    "website": "6-061-introduction-to-electric-power-systems-spring-2011"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "Electric power lines. Image is taken from the Department of Energy Digital Archive.",
+    "draft": false,
+    "file": "/courses/6-061-introduction-to-electric-power-systems-spring-2011/fd2e7bd3524bc923062ed56778235d42_6-061s11.jpg",
+    "file_size": 42366,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "Electric power lines. (Image is taken from the {{% resource_link \"82ea99ea-ae9a-40c3-b632-47870e4e1fe1\" \"Department of Energy Digital Archive\" %}}.)",
+      "credit": "",
+      "image-alt": "Image of electric power lines."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "6-061s11.jpg",
+    "uid": "fd2e7bd3-524b-c923-062e-d56778235d42"
+  },
+  "course_image_thumbnail": {
+    "content": "9d5daeba-2601-7866-2e54-12125b03e2b4",
+    "website": "6-061-introduction-to-electric-power-systems-spring-2011"
+  },
+  "course_title": "Introduction to Electric Power Systems",
+  "department_numbers": [
+    "6"
+  ],
+  "extra_course_numbers": "6.690",
+  "hide_download": false,
+  "image_src": "./static_resources/fd2e7bd3524bc923062ed56778235d42_6-061s11.jpg",
+  "instructors": [
+    {
+      "first_name": "James",
+      "last_name": "Kirtley",
+      "middle_initial": "L.",
+      "salutation": "Prof.",
+      "title": "Prof. James L. Kirtley Jr.",
+      "uid": "60eba061-f401-9469-89e7-2cb0d9cfb93b",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+James+L.+Kirtley+Jr."
+    }
+  ],
+  "learning_resource_types": [
+    "Problem Sets",
+    "Problem Set Solutions",
+    "Exams",
+    "Exam Solutions",
+    "Open Textbooks"
+  ],
+  "legacy_uid": "c634df69-4409-0bab-5241-9a0ed7d3302c",
+  "level": [
+    "Undergraduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Engineering",
+      "Electrical Engineering"
+    ]
+  ],
+  "primary_course_number": "6.061",
+  "site_short_id": "6.061-spring-2011",
+  "site_uid": "ef956c05-cc0e-400f-8c54-5ec46e0ab7a6",
+  "site_url_path": "courses/6-061-introduction-to-electric-power-systems-spring-2011",
+  "term": "Spring",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Engineering",
+      "Electrical Engineering",
+      "Electric Power"
+    ]
+  ],
+  "year": "2011"
+}

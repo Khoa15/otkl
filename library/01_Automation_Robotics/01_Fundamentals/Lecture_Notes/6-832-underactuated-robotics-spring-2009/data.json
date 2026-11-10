@@ -1,0 +1,105 @@
+{
+  "course_description": "Robots today move far too conservatively, using control systems that attempt to maintain full control authority at all times. Humans and animals move much more aggressively by routinely executing motions which involve a loss of instantaneous control authority. Controlling nonlinear systems without complete control authority requires methods that can reason about and exploit the natural dynamics of our machines.\n\nThis course discusses nonlinear dynamics and control of underactuated mechanical systems, with an emphasis on machine learning methods. Topics include nonlinear dynamics of passive robots (walkers, swimmers, flyers), motion planning, partial feedback linearization, energy-shaping control, analytical optimal control, reinforcement learning/approximate optimal control, and the influence of mechanical design on control. Discussions include examples from biology and applications to legged locomotion, compliant manipulation, underwater robots, and flying machines.\n\nAcknowledgments\n\nProfessor Tedrake would like to thank John Roberts for his help with the course and videotaping the lectures.",
+  "course_description_html": "<p>Robots today move far too conservatively, using control systems that attempt to maintain full control authority at all times. Humans and animals move much more aggressively by routinely executing motions which involve a loss of instantaneous control authority. Controlling nonlinear systems without complete control authority requires methods that can reason about and exploit the natural dynamics of our machines.</p>\n<p>This course discusses nonlinear dynamics and control of underactuated mechanical systems, with an emphasis on machine learning methods. Topics include nonlinear dynamics of passive robots (walkers, swimmers, flyers), motion planning, partial feedback linearization, energy-shaping control, analytical optimal control, reinforcement learning/approximate optimal control, and the influence of mechanical design on control. Discussions include examples from biology and applications to legged locomotion, compliant manipulation, underwater robots, and flying machines.</p>\n<p>Acknowledgments</p>\n<p>Professor Tedrake would like to thank John Roberts for his help with the course and videotaping the lectures.</p>\n",
+  "course_image": {
+    "content": "e7c8a377-9cf4-78cf-c836-5571e074ebc7",
+    "website": "6-832-underactuated-robotics-spring-2009"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "Legged robots and flying robots, including these examples from the MIT Robot Locomotion Group, are underactuated. (Photographs are courtesy of Jason Dorfman.)",
+    "draft": false,
+    "file": "/courses/6-832-underactuated-robotics-spring-2009/e7c8a3779cf478cfc8365571e074ebc7_6-832s09.jpg",
+    "file_size": 43968,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "Legged robots and flying robots, including these examples from the MIT Robot Locomotion Group, are underactuated. (Photographs are courtesy of Jason Dorfman.)",
+      "credit": "",
+      "image-alt": "A photograph of a flying robot placed above a photograph of a legged robot.A photograph of a flying robot placed above a photograph of a legged robot."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "A flying robot and a legged robot",
+    "uid": "e7c8a377-9cf4-78cf-c836-5571e074ebc7",
+    "video_files": {
+      "video_thumbnail_file": null
+    },
+    "video_metadata": {
+      "youtube_id": null
+    }
+  },
+  "course_image_thumbnail": {
+    "content": "3e6c96fc-44f5-e175-c25d-c677dbe5eec7",
+    "website": "6-832-underactuated-robotics-spring-2009"
+  },
+  "course_title": "Underactuated Robotics",
+  "department_numbers": [
+    "6"
+  ],
+  "extra_course_numbers": "",
+  "hide_download": false,
+  "image_src": "./static_resources/e7c8a3779cf478cfc8365571e074ebc7_6-832s09.jpg",
+  "instructors": [
+    {
+      "first_name": "Russell",
+      "last_name": "Tedrake",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Russell Tedrake",
+      "uid": "ae82571a-1dd7-ecf7-b4ca-011183a3dff6",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Russell+Tedrake"
+    }
+  ],
+  "learning_resource_types": [
+    "Exams",
+    "Lecture Videos",
+    "Projects",
+    "Programming Assignments with Examples",
+    "Problem Sets",
+    "Problem Set Solutions"
+  ],
+  "legacy_uid": "41107ad7-ea52-d5fc-c2d8-4bd14794b9aa",
+  "level": [
+    "Graduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Data Science, Analytics & Computer Technology",
+      "AI"
+    ],
+    [
+      "Data Science, Analytics & Computer Technology",
+      "Computer Science"
+    ],
+    [
+      "Engineering",
+      "Electrical Engineering"
+    ],
+    [
+      "Data Science, Analytics & Computer Technology",
+      "Machine Learning"
+    ]
+  ],
+  "primary_course_number": "6.832",
+  "site_short_id": "6.832-spring-2009",
+  "site_uid": "7ac3cb00-8e10-44f7-8368-c4cb0a81c7f4",
+  "site_url_path": "courses/6-832-underactuated-robotics-spring-2009",
+  "term": "Spring",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Engineering",
+      "Electrical Engineering",
+      "Robotics and Control Systems"
+    ],
+    [
+      "Engineering",
+      "Computer Science",
+      "Artificial Intelligence"
+    ]
+  ],
+  "year": "2009"
+}

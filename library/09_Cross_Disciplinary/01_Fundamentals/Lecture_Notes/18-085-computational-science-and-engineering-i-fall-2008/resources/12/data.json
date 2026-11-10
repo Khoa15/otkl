@@ -1,0 +1,27 @@
+{
+  "content": "<p>Thumbnail image accompanying a video lecture on graphs and networks.</p>\n",
+  "content_type": "resource",
+  "description": "Thumbnail image accompanying a video lecture on graphs and networks.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/cee37c3028e8002f8004ef319a1cc131_12.jpg",
+  "file_size": 2614,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Lecture 12",
+  "uid": "cee37c30-28e8-002f-8004-ef319a1cc131",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

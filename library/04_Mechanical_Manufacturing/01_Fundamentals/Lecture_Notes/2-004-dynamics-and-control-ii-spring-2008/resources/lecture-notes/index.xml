@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 1</title>
+      <link>/resources/lecture_01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_01/data.json</guid>
+      <description>&lt;p&gt;Lecture notes with an introduction to system dynamics and control, linear system theory, and feedback control theory.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 10</title>
+      <link>/resources/lecture_10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_10/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on modeling the impedance of mechanical components.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 11</title>
+      <link>/resources/lecture_11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_11/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on transfer function generation using MATLAB and Maple.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 12</title>
+      <link>/resources/lecture_12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_12/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on operational amplifiers, non-inverting configurations, inverting configurations, and differential amplifier, and practical considerations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 13</title>
+      <link>/resources/lecture_13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_13/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on generalized system modeling and transfer function generation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 14</title>
+      <link>/resources/lecture_14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_14/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the modeling of rotational systems and updated tables of generalized elements to include rotational&#xA;elements.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 15</title>
+      <link>/resources/lecture_15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_15/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on rotational systems, transfer function generation using mesh/loop equations, transfer function generation using node equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 16</title>
+      <link>/resources/lecture_16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_16/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on two-port components.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 17</title>
+      <link>/resources/lecture_17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_17/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on linear time-invariant system response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 18</title>
+      <link>/resources/lecture_18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_18/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on common inputs used in control system design and analysis: delta, step, ramp, and sinusoid.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 19</title>
+      <link>/resources/lecture_19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_19/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on system poles and zeros, the pole-zero plot, complex poles and zeros, and system stability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 2</title>
+      <link>/resources/lecture_02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_02/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on dynamics and control using the example of cruise control.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 20</title>
+      <link>/resources/lecture_20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_20/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on standard 1st and 2nd order system responses.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 21</title>
+      <link>/resources/lecture_21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_21/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on higher order systems and linear time-invariant system properties.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 22</title>
+      <link>/resources/lecture_22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_22/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on finding the time-domain response of systems with finite zeros and where the order of the numerator equals the order of the denominator.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 23</title>
+      <link>/resources/lecture_23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_23/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on pole/zero cancellation, the effect of zeros in the proximity of a pole, the response of high-order systems, and model approximation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 24</title>
+      <link>/resources/lecture_24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_24/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on closed-loop systems and steady-state errors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 25</title>
+      <link>/resources/lecture_25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_25/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on system stability and the Routh-Hurwitz criterion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 26</title>
+      <link>/resources/lecture_26/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_26/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on determining stability bounds in closed-loop systems, some basic properties of root locus plots, and root locus methods.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 27</title>
+      <link>/resources/lecture_27/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_27/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on root locus development, geometric evaluation of the transfer function, regions of the real axis on the root locus, and behavior of the root locus for large values of K.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 28</title>
+      <link>/resources/lecture_28/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_28/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on root locus development.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 29</title>
+      <link>/resources/lecture_29/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_29/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on root locus sketching rules, root locus refinement, and MATLAB root locus functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 3</title>
+      <link>/resources/lecture_03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_03/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the properties and definition of the Laplace transform.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 30</title>
+      <link>/resources/lecture_30/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_30/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on sinusoidal system response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 31</title>
+      <link>/resources/lecture_31/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_31/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on sinusoidal frequency response and pole-zero plots.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 32</title>
+      <link>/resources/lecture_32/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_32/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on frequency response and the pole-zero plot, phase response, behavior in the proximity of poles and zeros close to the imaginary axis, logarithmic (Bode) plots, and logarithmic amplitude and frequency scales.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 33</title>
+      <link>/resources/lecture_33/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_33/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on bode plots, logarithmic amplitude and frequency scales, asymptotic bode plots of low-order transfer functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 34</title>
+      <link>/resources/lecture_34/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_34/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on Bode plots of higher order systems and a simple method for constructing the magnitude Bode plot directly from the pole-zero plot.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 4</title>
+      <link>/resources/lecture_04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_04/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on block diagram algebra, interconnection rules, the “closed-loop” transfer function, and sensor dynamics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 5</title>
+      <link>/resources/lecture_05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_05/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on modeling of physical and electrical systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 6</title>
+      <link>/resources/lecture_06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_06/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on modeling electrical systems, interconnection laws, Kirchoff&amp;rsquo;s laws, electrical impedance, and circuit equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 7</title>
+      <link>/resources/lecture_07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_07/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on transfer functions and loop/mesh currents.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 8</title>
+      <link>/resources/lecture_08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_08/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on modeling real components as Thevenin and Norton sources.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 9</title>
+      <link>/resources/lecture_09/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_09/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on one-dimensional mechanical components, Thevenin and Norton source models, modeling mechanical systems, and interconnection rules.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LEC #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Introduction (&lt;a href=&#34;../../resources/lecture_01/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Example: cruise control (&lt;a href=&#34;../../resources/lecture_02/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Laplace transform definition, properties (&lt;a href=&#34;../../resources/lecture_03/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Block diagram algebra (&lt;a href=&#34;../../resources/lecture_04/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Modeling: impedance of electrical components (&lt;a href=&#34;../../resources/lecture_05/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;6&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Kirchoff&amp;rsquo;s laws, circuit equations (&lt;a href=&#34;../../resources/lecture_06/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;7&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Transfer functions, loop/mesh currents (&lt;a href=&#34;../../resources/lecture_07/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;8&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Modeling: real components as Thevenin and Norton sources (&lt;a href=&#34;../../resources/lecture_08/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;9&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Modeling: one-dimensional mechanical components (&lt;a href=&#34;../../resources/lecture_09/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;10&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Modeling: impedance of mechanical components (&lt;a href=&#34;../../resources/lecture_10/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

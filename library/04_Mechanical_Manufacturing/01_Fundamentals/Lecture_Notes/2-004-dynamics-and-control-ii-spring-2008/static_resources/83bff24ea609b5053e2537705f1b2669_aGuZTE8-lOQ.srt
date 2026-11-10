@@ -1,0 +1,7068 @@
+1
+00:00:00,090 --> 00:00:02,430
+The following content is
+provided under a Creative
+
+2
+00:00:02,430 --> 00:00:03,850
+Commons license.
+
+3
+00:00:03,850 --> 00:00:06,060
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:06,060 --> 00:00:10,150
+continue to offer high quality
+educational resources for free.
+
+5
+00:00:10,150 --> 00:00:12,690
+To make a donation or to
+view additional materials
+
+6
+00:00:12,690 --> 00:00:16,620
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:16,620 --> 00:00:25,785
+at ocw.mit.edu
+
+8
+00:00:25,785 --> 00:00:27,210
+JANET RANKIN: All right, great.
+
+9
+00:00:27,210 --> 00:00:30,300
+I looked over some of the Mud
+cards we had from last time.
+
+10
+00:00:30,300 --> 00:00:32,049
+And there were some
+really good questions,
+
+11
+00:00:32,049 --> 00:00:33,750
+some really good points,
+and one lingering one
+
+12
+00:00:33,750 --> 00:00:35,820
+from the previous time
+that I forgot to address.
+
+13
+00:00:35,820 --> 00:00:37,236
+Someone said, could
+we please just
+
+14
+00:00:37,236 --> 00:00:39,030
+move the desks into
+an arrangement where
+
+15
+00:00:39,030 --> 00:00:40,440
+we could see each other.
+
+16
+00:00:40,440 --> 00:00:42,420
+It was a fabulous suggestion.
+
+17
+00:00:42,420 --> 00:00:44,430
+Today we can't do it.
+
+18
+00:00:44,430 --> 00:00:47,040
+But I'm going to try to do
+it in the future whenever
+
+19
+00:00:47,040 --> 00:00:49,740
+the logistics allow, because I
+think you're absolutely right.
+
+20
+00:00:49,740 --> 00:00:51,540
+A little bit more
+of a U, or a circle,
+
+21
+00:00:51,540 --> 00:00:53,560
+would be great for this class.
+
+22
+00:00:53,560 --> 00:00:57,060
+So thank you for
+that suggestion.
+
+23
+00:00:57,060 --> 00:01:02,040
+Another one was that we didn't
+get to motivation theory.
+
+24
+00:01:02,040 --> 00:01:04,080
+And I think I mentioned
+this last time,
+
+25
+00:01:04,080 --> 00:01:07,650
+the idea that there's a
+huge amount of stuff that's
+
+26
+00:01:07,650 --> 00:01:09,420
+been written and
+published on motivation
+
+27
+00:01:09,420 --> 00:01:11,430
+and theories of motivation.
+
+28
+00:01:11,430 --> 00:01:14,430
+And I'd be more than
+happy to discuss this
+
+29
+00:01:14,430 --> 00:01:18,540
+as the semester goes on.
+
+30
+00:01:18,540 --> 00:01:20,400
+And it might be a
+great topic for one
+
+31
+00:01:20,400 --> 00:01:23,181
+of those lunches that somebody
+was going to organize,
+
+32
+00:01:23,181 --> 00:01:24,930
+one of those informal
+lunches that someone
+
+33
+00:01:24,930 --> 00:01:25,946
+was going to organize.
+
+34
+00:01:29,910 --> 00:01:31,680
+Or maybe we can
+carve out some space
+
+35
+00:01:31,680 --> 00:01:34,200
+at the end of the semester and
+pop it in, take something out
+
+36
+00:01:34,200 --> 00:01:36,570
+and pop it in, because
+it's really fascinating.
+
+37
+00:01:36,570 --> 00:01:38,730
+It's really interesting,
+but it doesn't quite
+
+38
+00:01:38,730 --> 00:01:40,684
+fit anywhere in particular.
+
+39
+00:01:40,684 --> 00:01:42,100
+So thank you for
+bringing that up.
+
+40
+00:01:42,100 --> 00:01:44,050
+And keep bugging me about it.
+
+41
+00:01:44,050 --> 00:01:50,070
+The other thing is someone
+asked if all those learning
+
+42
+00:01:50,070 --> 00:01:52,610
+theories that we discussed
+were equally valid.
+
+43
+00:01:52,610 --> 00:01:55,140
+And yes, they are equally valid.
+
+44
+00:01:55,140 --> 00:02:00,960
+I mean, there are situations
+where being behaviorist
+
+45
+00:02:00,960 --> 00:02:02,160
+could help.
+
+46
+00:02:02,160 --> 00:02:05,910
+There are situations where
+being constructivist could help.
+
+47
+00:02:05,910 --> 00:02:09,210
+It depends on what you're
+trying to have students learn.
+
+48
+00:02:09,210 --> 00:02:13,110
+So you want to make sure that
+you tailor the way that you're
+
+49
+00:02:13,110 --> 00:02:15,980
+teaching to support what it
+is you want students to learn.
+
+50
+00:02:15,980 --> 00:02:18,480
+And we'll get into that
+in a lot more detail
+
+51
+00:02:18,480 --> 00:02:22,270
+today when we talk about
+developing learning outcomes,
+
+52
+00:02:22,270 --> 00:02:25,260
+and then also when we
+talk about tailoring
+
+53
+00:02:25,260 --> 00:02:27,210
+your instructional
+activities to support
+
+54
+00:02:27,210 --> 00:02:30,300
+those learning outcomes.
+
+55
+00:02:30,300 --> 00:02:33,720
+So this class, this
+particular class today
+
+56
+00:02:33,720 --> 00:02:39,726
+is a balance between developing
+course design, developing
+
+57
+00:02:39,726 --> 00:02:41,100
+intended learning
+outcomes, which
+
+58
+00:02:41,100 --> 00:02:42,870
+for me is at the heart of it.
+
+59
+00:02:42,870 --> 00:02:45,180
+If you can come up
+with some good intended
+
+60
+00:02:45,180 --> 00:02:48,974
+learning outcomes, you basically
+have designed your course.
+
+61
+00:02:48,974 --> 00:02:49,890
+And I'll show you how.
+
+62
+00:02:49,890 --> 00:02:54,420
+I mean, you can't just ignore
+it, but that's the hard work,
+
+63
+00:02:54,420 --> 00:02:57,189
+and then the act of writing
+constructing a syllabus.
+
+64
+00:02:57,189 --> 00:02:58,980
+So once you've got
+those learning outcomes,
+
+65
+00:02:58,980 --> 00:03:02,460
+you have an incredible anchor
+for the rest of your course.
+
+66
+00:03:02,460 --> 00:03:04,380
+And there was just
+a very timely haiku.
+
+67
+00:03:04,380 --> 00:03:05,760
+I put it on the wiki.
+
+68
+00:03:05,760 --> 00:03:10,860
+But there's this Twitter
+feed, academic haikus,
+
+69
+00:03:10,860 --> 00:03:14,289
+which if you want to waste
+any time and read them,
+
+70
+00:03:14,289 --> 00:03:15,330
+it's a way to waste time.
+
+71
+00:03:15,330 --> 00:03:17,850
+But there was one here,
+"that question you have?
+
+72
+00:03:17,850 --> 00:03:20,610
+I know where the answer
+is-- on the syllabus.
+
+73
+00:03:20,610 --> 00:03:23,250
+So it was, like I said,
+it came out yesterday.
+
+74
+00:03:23,250 --> 00:03:25,050
+I thought it was pretty timely.
+
+75
+00:03:25,050 --> 00:03:25,950
+And it's true.
+
+76
+00:03:25,950 --> 00:03:28,500
+If you write a good syllabus,
+it should really clear up
+
+77
+00:03:28,500 --> 00:03:34,860
+a lot of, not the content, not
+the understanding level issues
+
+78
+00:03:34,860 --> 00:03:37,230
+students have, but the
+issues with respect
+
+79
+00:03:37,230 --> 00:03:40,710
+to when's the test, do
+we have to know this,
+
+80
+00:03:40,710 --> 00:03:44,130
+how will this be graded,
+what's important?
+
+81
+00:03:44,130 --> 00:03:46,990
+All those things should
+be in your syllabus.
+
+82
+00:03:46,990 --> 00:03:49,590
+So that's why that's there.
+
+83
+00:03:49,590 --> 00:03:54,570
+So here's a little
+slide, a graph
+
+84
+00:03:54,570 --> 00:03:56,520
+that I saw a few
+years ago, and I
+
+85
+00:03:56,520 --> 00:04:00,180
+thought it's a really good
+way to start this discussion.
+
+86
+00:04:00,180 --> 00:04:05,550
+So on the y-axis we have sort
+of an assessment, a proclamation
+
+87
+00:04:05,550 --> 00:04:07,020
+of students understanding.
+
+88
+00:04:07,020 --> 00:04:09,030
+They got it, they didn't get it.
+
+89
+00:04:09,030 --> 00:04:11,490
+And I think the word
+in French is [FRENCH].
+
+90
+00:04:11,490 --> 00:04:15,470
+So for some reason I find it
+very cool to say [FRENCH].
+
+91
+00:04:15,470 --> 00:04:16,519
+Got it.
+
+92
+00:04:16,519 --> 00:04:17,950
+I don't know.
+
+93
+00:04:17,950 --> 00:04:20,696
+So whether they get it, like
+whether after the tests,
+
+94
+00:04:20,696 --> 00:04:23,070
+you've given a test, and you
+go, man, that student really
+
+95
+00:04:23,070 --> 00:04:23,730
+got it.
+
+96
+00:04:23,730 --> 00:04:27,300
+That student really
+gets this material,
+
+97
+00:04:27,300 --> 00:04:31,440
+and whether they passed the
+exam or failed the exam.
+
+98
+00:04:31,440 --> 00:04:34,260
+So the size of the
+circle is more or less
+
+99
+00:04:34,260 --> 00:04:39,132
+the number of people that
+fall into those quadrants.
+
+100
+00:04:41,910 --> 00:04:47,520
+So anybody surprised
+by this plot?
+
+101
+00:04:51,020 --> 00:04:51,520
+Yes, Rachel.
+
+102
+00:04:51,520 --> 00:04:54,500
+AUDIENCE: [INAUDIBLE]
+
+103
+00:04:54,500 --> 00:04:55,480
+JANET RANKIN: OK.
+
+104
+00:04:55,480 --> 00:04:56,000
+All right.
+
+105
+00:04:56,000 --> 00:04:58,670
+Well, there's the segue.
+
+106
+00:04:58,670 --> 00:05:02,210
+So we want, we don't
+want the green,
+
+107
+00:05:02,210 --> 00:05:05,090
+but we more or less
+expect the green, right?
+
+108
+00:05:05,090 --> 00:05:07,150
+If you get it,
+you pass the exam.
+
+109
+00:05:07,150 --> 00:05:08,780
+If you pass the
+exam, you get it.
+
+110
+00:05:08,780 --> 00:05:11,360
+That's that, and we like
+to have lots of people
+
+111
+00:05:11,360 --> 00:05:13,220
+have that happen too.
+
+112
+00:05:13,220 --> 00:05:15,627
+And then we also
+acknowledge that somebody
+
+113
+00:05:15,627 --> 00:05:17,210
+isn't going to get
+it, and they're not
+
+114
+00:05:17,210 --> 00:05:18,920
+and they're not going
+to pass the exam.
+
+115
+00:05:18,920 --> 00:05:24,080
+And that kind of maybe makes us
+sad, but it's not surprising.
+
+116
+00:05:24,080 --> 00:05:25,850
+And then anybody
+can kind of have
+
+117
+00:05:25,850 --> 00:05:28,680
+a bad day or kind of a fluke.
+
+118
+00:05:28,680 --> 00:05:30,830
+So sometimes, sure,
+somebody will fail the exam,
+
+119
+00:05:30,830 --> 00:05:33,590
+and actually really
+understand the material.
+
+120
+00:05:33,590 --> 00:05:35,780
+Generally speaking,
+that doesn't happen,
+
+121
+00:05:35,780 --> 00:05:38,030
+and then there's
+often a reason for it.
+
+122
+00:05:38,030 --> 00:05:40,220
+But it's that red
+circle that Rachel
+
+123
+00:05:40,220 --> 00:05:47,354
+mentioned that is troublesome,
+at the least, troublesome.
+
+124
+00:05:47,354 --> 00:05:48,395
+So why might that happen?
+
+125
+00:05:55,170 --> 00:05:56,170
+Why so many red circles?
+
+126
+00:05:56,170 --> 00:05:56,670
+Yeah, Dave.
+
+127
+00:05:56,670 --> 00:05:59,340
+AUDIENCE: Because the test was
+set up for basic memorization,
+
+128
+00:05:59,340 --> 00:06:01,416
+or you could figure
+out with a lucky guess
+
+129
+00:06:01,416 --> 00:06:02,290
+with multiple choice.
+
+130
+00:06:02,290 --> 00:06:05,225
+So you could easily pass just
+with good test-taking skills
+
+131
+00:06:05,225 --> 00:06:06,081
+or a good memory.
+
+132
+00:06:06,081 --> 00:06:07,080
+JANET RANKIN: Excellent.
+
+133
+00:06:07,080 --> 00:06:09,330
+So you pass with sort of
+good test taking skills.
+
+134
+00:06:09,330 --> 00:06:11,460
+Now I want us to
+hang on to that.
+
+135
+00:06:11,460 --> 00:06:15,060
+There's an underlying
+assumption in Dave's comment.
+
+136
+00:06:15,060 --> 00:06:17,000
+So I'd like to hang
+on to that thought,
+
+137
+00:06:17,000 --> 00:06:19,857
+but let's hear a few
+other conjectures and see.
+
+138
+00:06:19,857 --> 00:06:21,940
+Rachel, why do you think
+you might have passed it?
+
+139
+00:06:21,940 --> 00:06:24,648
+AUDIENCE: So often I
+feel like TAs are either
+
+140
+00:06:24,648 --> 00:06:26,106
+really good or
+really terrible when
+
+141
+00:06:26,106 --> 00:06:28,681
+it comes to the exam reviews,
+and they're mainly good.
+
+142
+00:06:28,681 --> 00:06:31,394
+They often told us
+too much of what
+
+143
+00:06:31,394 --> 00:06:32,560
+was going to be on the exam.
+
+144
+00:06:32,560 --> 00:06:34,350
+And so then you
+kind of just knew
+
+145
+00:06:34,350 --> 00:06:36,952
+what the test was going to
+be if you could well on it
+
+146
+00:06:36,952 --> 00:06:38,266
+if you [INAUDIBLE].
+
+147
+00:06:38,266 --> 00:06:39,550
+JANET RANKIN: OK.
+
+148
+00:06:39,550 --> 00:06:40,660
+That's interesting.
+
+149
+00:06:40,660 --> 00:06:41,484
+Yes, Gordon.
+
+150
+00:06:41,484 --> 00:06:46,278
+AUDIENCE: Yeah, it's
+possible that [INAUDIBLE]
+
+151
+00:06:46,278 --> 00:06:50,742
+tests [INAUDIBLE].
+
+152
+00:06:50,742 --> 00:06:54,230
+When it comes to true life
+situations and something
+
+153
+00:06:54,230 --> 00:06:56,730
+that [INAUDIBLE]
+knowledge that was
+
+154
+00:06:56,730 --> 00:07:00,674
+gained from that material,
+then [INAUDIBLE].
+
+155
+00:07:03,765 --> 00:07:04,860
+JANET RANKIN: OK.
+
+156
+00:07:04,860 --> 00:07:13,020
+So Gordon is sort of kind of
+flirting with this idea of you
+
+157
+00:07:13,020 --> 00:07:15,374
+as the instructor, this
+real life knowledge,
+
+158
+00:07:15,374 --> 00:07:16,290
+this is what it means.
+
+159
+00:07:16,290 --> 00:07:19,500
+They have to have this practical
+working knowledge for us
+
+160
+00:07:19,500 --> 00:07:24,340
+as the instructors to
+say they got it, right?
+
+161
+00:07:24,340 --> 00:07:26,650
+But the exam isn't measuring it.
+
+162
+00:07:26,650 --> 00:07:29,800
+And that's exactly what, that's
+what Dave was saying as well.
+
+163
+00:07:29,800 --> 00:07:32,920
+This idea that the exam
+is measuring one thing,
+
+164
+00:07:32,920 --> 00:07:36,610
+but it's not really measuring
+whether they got it.
+
+165
+00:07:36,610 --> 00:07:38,380
+When we go home
+and think what does
+
+166
+00:07:38,380 --> 00:07:40,900
+it mean to be a good
+material scientist,
+
+167
+00:07:40,900 --> 00:07:42,659
+or what does it mean
+to be a good chemist,
+
+168
+00:07:42,659 --> 00:07:44,200
+we don't think, oh,
+it means that you
+
+169
+00:07:44,200 --> 00:07:46,520
+can define what a
+mitochondria is,
+
+170
+00:07:46,520 --> 00:07:49,790
+or you can balance
+a simple equation.
+
+171
+00:07:52,530 --> 00:07:57,450
+And yet, we put
+that on the exam.
+
+172
+00:07:57,450 --> 00:07:59,430
+It's also a bit of
+the idea that students
+
+173
+00:07:59,430 --> 00:08:00,900
+are good at taking tests.
+
+174
+00:08:00,900 --> 00:08:03,000
+They're good at gaming systems.
+
+175
+00:08:03,000 --> 00:08:06,180
+They're good at listening to
+TAs or TAs may have not given
+
+176
+00:08:06,180 --> 00:08:07,860
+out appropriate information.
+
+177
+00:08:07,860 --> 00:08:09,750
+So it comes from both sides.
+
+178
+00:08:09,750 --> 00:08:13,620
+It comes from the students and
+it comes from the professors.
+
+179
+00:08:13,620 --> 00:08:16,920
+But you have control over this.
+
+180
+00:08:16,920 --> 00:08:20,430
+You shouldn't be writing
+an exam that people
+
+181
+00:08:20,430 --> 00:08:24,090
+can get a good grade on,
+but then when you go home
+
+182
+00:08:24,090 --> 00:08:26,400
+and say, oh, they got a
+good grade on this test,
+
+183
+00:08:26,400 --> 00:08:28,340
+but they didn't get it.
+
+184
+00:08:28,340 --> 00:08:32,600
+You need to define what it
+means to get it in your field,
+
+185
+00:08:32,600 --> 00:08:37,789
+to get this subject, whatever
+it is that the test is about.
+
+186
+00:08:37,789 --> 00:08:42,890
+And then you need to write
+a test that measures that.
+
+187
+00:08:42,890 --> 00:08:45,920
+And too many times
+we don't do it.
+
+188
+00:08:45,920 --> 00:08:48,020
+We're kind of rushed,
+or we don't really know.
+
+189
+00:08:48,020 --> 00:08:49,936
+We haven't really thought
+about how to measure
+
+190
+00:08:49,936 --> 00:08:52,980
+whether somebody gets it.
+
+191
+00:08:52,980 --> 00:08:56,540
+So the first step in all
+this is to define what it
+
+192
+00:08:56,540 --> 00:09:00,520
+is that means that they got it.
+
+193
+00:09:00,520 --> 00:09:03,680
+And that's the first step,
+and that's the hardest step.
+
+194
+00:09:03,680 --> 00:09:06,590
+But once that's done,
+the rest is easier,
+
+195
+00:09:06,590 --> 00:09:11,042
+and it will save you from this.
+
+196
+00:09:11,042 --> 00:09:12,521
+OK?
+
+197
+00:09:12,521 --> 00:09:15,490
+OK.
+
+198
+00:09:15,490 --> 00:09:19,720
+So that's the topic
+of today's class.
+
+199
+00:09:19,720 --> 00:09:22,860
+And if you needed a
+little more motivation,
+
+200
+00:09:22,860 --> 00:09:26,170
+I'd like you to
+read this paragraph,
+
+201
+00:09:26,170 --> 00:09:30,160
+and I'd like you to tell
+me what it's talking about.
+
+202
+00:09:30,160 --> 00:09:32,800
+But I'm just going to give
+you about 2 and 1/2 minutes
+
+203
+00:09:32,800 --> 00:09:34,390
+to read it.
+
+204
+00:09:34,390 --> 00:09:36,924
+And then we'll
+discuss what it means.
+
+205
+00:09:36,924 --> 00:09:38,590
+What do you think
+this is talking about?
+
+206
+00:09:41,520 --> 00:09:42,020
+Yes, David.
+
+207
+00:09:42,020 --> 00:09:44,330
+AUDIENCE: Yeah, I
+think it stresses
+
+208
+00:09:44,330 --> 00:09:51,980
+about how we can arrange by say,
+maybe schedules or activities
+
+209
+00:09:51,980 --> 00:09:54,782
+that put them into groups.
+
+210
+00:09:54,782 --> 00:10:00,718
+Then maybe if we form a group,
+how we plan [INAUDIBLE].
+
+211
+00:10:04,566 --> 00:10:05,420
+JANET RANKIN: OK.
+
+212
+00:10:05,420 --> 00:10:08,621
+So arranging schedules
+or activities.
+
+213
+00:10:08,621 --> 00:10:09,120
+OK.
+
+214
+00:10:24,870 --> 00:10:25,370
+OK.
+
+215
+00:10:25,370 --> 00:10:28,350
+Something else?
+
+216
+00:10:28,350 --> 00:10:29,940
+AUDIENCE: When
+you're planning, how
+
+217
+00:10:29,940 --> 00:10:34,392
+to go about teaching
+a module, [INAUDIBLE].
+
+218
+00:10:42,858 --> 00:10:44,990
+JANET RANKIN: Planning teaching.
+
+219
+00:10:44,990 --> 00:10:47,361
+What else?
+
+220
+00:10:47,361 --> 00:10:47,860
+Anything?
+
+221
+00:10:47,860 --> 00:10:49,660
+AUDIENCE: It's like a mailroom
+operation or something.
+
+222
+00:10:49,660 --> 00:10:50,618
+JANET RANKIN: Mailroom.
+
+223
+00:10:58,470 --> 00:11:00,674
+Something from the back, maybe?
+
+224
+00:11:00,674 --> 00:11:02,488
+You know you're smiling.
+
+225
+00:11:02,488 --> 00:11:04,400
+AUDIENCE: I couldn't
+think of anything.
+
+226
+00:11:04,400 --> 00:11:05,400
+JANET RANKIN: All right.
+
+227
+00:11:05,400 --> 00:11:08,040
+Well, then don't say anything.
+
+228
+00:11:08,040 --> 00:11:13,590
+AUDIENCE: The first is the
+course content, the course
+
+229
+00:11:13,590 --> 00:11:16,910
+outline, and what you
+are going to teach
+
+230
+00:11:16,910 --> 00:11:18,798
+the students, [INAUDIBLE].
+
+231
+00:11:21,594 --> 00:11:22,580
+JANET RANKIN: OK.
+
+232
+00:11:22,580 --> 00:11:24,920
+So students, grouping students--
+
+233
+00:11:24,920 --> 00:11:25,610
+Adam, right?
+
+234
+00:11:25,610 --> 00:11:26,671
+Adam.
+
+235
+00:11:26,671 --> 00:11:27,170
+OK.
+
+236
+00:11:27,170 --> 00:11:39,477
+So content, arranging content.
+
+237
+00:11:39,477 --> 00:11:40,310
+Anybody in the back?
+
+238
+00:11:43,485 --> 00:11:43,985
+Flyer?
+
+239
+00:11:47,430 --> 00:11:48,030
+Yes, Gordon.
+
+240
+00:11:48,030 --> 00:11:50,652
+AUDIENCE: I think you talked
+about sorting materials.
+
+241
+00:11:50,652 --> 00:11:52,100
+JANET RANKIN: Sorting materials.
+
+242
+00:11:52,100 --> 00:11:53,875
+So we'll go with maybe sorting.
+
+243
+00:11:59,880 --> 00:12:04,120
+So if I tell you-- so these
+are all great guesses.
+
+244
+00:12:04,120 --> 00:12:06,930
+They're as good
+as what I'm going
+
+245
+00:12:06,930 --> 00:12:09,090
+to tell you the answer is.
+
+246
+00:12:09,090 --> 00:12:11,760
+So this was written to
+describe the process
+
+247
+00:12:11,760 --> 00:12:12,765
+of doing your laundry.
+
+248
+00:12:16,110 --> 00:12:17,490
+Like doing the wash.
+
+249
+00:12:17,490 --> 00:12:19,440
+You take the clothes
+and you put, maybe
+
+250
+00:12:19,440 --> 00:12:23,130
+you put the dark clothes in
+one bin and the white clothes
+
+251
+00:12:23,130 --> 00:12:24,600
+in another bin.
+
+252
+00:12:24,600 --> 00:12:28,680
+And then you fold them
+and you put them away.
+
+253
+00:12:28,680 --> 00:12:29,370
+It's impossible.
+
+254
+00:12:29,370 --> 00:12:31,650
+This happens almost
+every time I show
+
+255
+00:12:31,650 --> 00:12:34,380
+this little piece of writing.
+
+256
+00:12:34,380 --> 00:12:36,870
+People don't generally get it.
+
+257
+00:12:36,870 --> 00:12:39,720
+They get the fact that it
+has to do with sorting,
+
+258
+00:12:39,720 --> 00:12:43,380
+and some planning,
+some arranging things,
+
+259
+00:12:43,380 --> 00:12:46,190
+but they don't get that
+it's about the laundry.
+
+260
+00:12:46,190 --> 00:12:48,660
+If you skim it-- you don't
+have to totally reread it--
+
+261
+00:12:48,660 --> 00:12:51,450
+but if you skim it
+with the idea that it's
+
+262
+00:12:51,450 --> 00:12:55,290
+about doing the
+laundry, you probably
+
+263
+00:12:55,290 --> 00:13:03,860
+can understand it better, maybe.
+
+264
+00:13:03,860 --> 00:13:10,860
+So now I'm going to ask why
+did I show you this now,
+
+265
+00:13:10,860 --> 00:13:17,430
+today, before the third, the
+beginning of the third class?
+
+266
+00:13:17,430 --> 00:13:17,930
+Yes.
+
+267
+00:13:17,930 --> 00:13:20,878
+AUDIENCE: I think it's sort
+of about arrangement of course
+
+268
+00:13:20,878 --> 00:13:24,091
+content [INAUDIBLE].
+
+269
+00:13:24,091 --> 00:13:26,410
+JANET RANKIN: So it could
+be about how you arrange
+
+270
+00:13:26,410 --> 00:13:28,670
+the content in the syllabus.
+
+271
+00:13:28,670 --> 00:13:29,170
+[? Hina. ?]
+
+272
+00:13:29,170 --> 00:13:32,670
+AUDIENCE: I think it's easy
+to describe methodology
+
+273
+00:13:32,670 --> 00:13:34,668
+as a person more in
+a different field.
+
+274
+00:13:34,668 --> 00:13:37,905
+But if there's no context
+for the audience about what
+
+275
+00:13:37,905 --> 00:13:42,140
+this is, it doesn't matter that
+you've laid out everything.
+
+276
+00:13:42,140 --> 00:13:43,445
+No one knows [INAUDIBLE].
+
+277
+00:13:43,445 --> 00:13:44,350
+JANET RANKIN: Right.
+
+278
+00:13:44,350 --> 00:13:46,780
+It's very detailed
+at a certain level,
+
+279
+00:13:46,780 --> 00:13:52,420
+but it's still really
+hard to understand, right?
+
+280
+00:13:52,420 --> 00:13:53,800
+Any other ideas?
+
+281
+00:13:53,800 --> 00:13:54,300
+Yes.
+
+282
+00:13:54,300 --> 00:13:56,300
+AUDIENCE: I think
+it's interesting.
+
+283
+00:13:56,300 --> 00:13:58,300
+There's a lot of value
+judgements in it.
+
+284
+00:13:58,300 --> 00:13:59,712
+Like, it's really easy.
+
+285
+00:13:59,712 --> 00:14:02,450
+And one can never tell
+with comments like that.
+
+286
+00:14:02,450 --> 00:14:05,052
+Because I'm trained to figure
+out what they're saying,
+
+287
+00:14:05,052 --> 00:14:07,522
+it's actually just
+frustrating me more,
+
+288
+00:14:07,522 --> 00:14:10,230
+because I don't know what
+they're talking about.
+
+289
+00:14:10,230 --> 00:14:12,271
+And it's really easy--
+
+290
+00:14:12,271 --> 00:14:13,270
+JANET RANKIN: All right.
+
+291
+00:14:13,270 --> 00:14:15,729
+So that's a great point.
+
+292
+00:14:15,729 --> 00:14:17,770
+So we're talking about
+writing learning outcomes,
+
+293
+00:14:17,770 --> 00:14:19,660
+about organizing the
+course around writing
+
+294
+00:14:19,660 --> 00:14:20,570
+learning outcomes.
+
+295
+00:14:20,570 --> 00:14:22,450
+If you're using
+phrases, or you're
+
+296
+00:14:22,450 --> 00:14:24,820
+using language
+that's just, there's
+
+297
+00:14:24,820 --> 00:14:28,960
+just like throwaway words
+in there or value judgments,
+
+298
+00:14:28,960 --> 00:14:33,700
+it's not doing your
+students any good, right?
+
+299
+00:14:33,700 --> 00:14:37,690
+And also, that if you have
+this beautiful course that's
+
+300
+00:14:37,690 --> 00:14:41,320
+beautifully organized even,
+wonderfully organized,
+
+301
+00:14:41,320 --> 00:14:44,230
+but if you don't tell
+them what it is you're
+
+302
+00:14:44,230 --> 00:14:45,910
+trying to do with it all--
+
+303
+00:14:45,910 --> 00:14:47,680
+what it is they're
+going to be able to do
+
+304
+00:14:47,680 --> 00:14:52,410
+with it all, whatever it
+is you expect them to do--
+
+305
+00:14:52,410 --> 00:14:55,600
+they're not going to
+be able to follow you.
+
+306
+00:14:55,600 --> 00:14:58,300
+So imagine a procedure
+as fairly straightforward
+
+307
+00:14:58,300 --> 00:15:00,640
+as doing the laundry.
+
+308
+00:15:00,640 --> 00:15:02,650
+Now imagine, OK,
+you're going to be
+
+309
+00:15:02,650 --> 00:15:05,950
+able to select the right,
+the appropriate method
+
+310
+00:15:05,950 --> 00:15:14,440
+to integrate equations,
+so methods of integration,
+
+311
+00:15:14,440 --> 00:15:20,770
+by separation, by card or
+substitution or whatever.
+
+312
+00:15:20,770 --> 00:15:22,990
+So if you don't
+tell them what it
+
+313
+00:15:22,990 --> 00:15:24,580
+is you're expecting
+them to do, even
+
+314
+00:15:24,580 --> 00:15:26,746
+if you're very good at
+explaining what it is they're
+
+315
+00:15:26,746 --> 00:15:30,740
+going to do, they won't get it.
+
+316
+00:15:30,740 --> 00:15:34,570
+So this is my sell for why when
+you write a learning outcome,
+
+317
+00:15:34,570 --> 00:15:36,940
+you have to write a learning
+outcome that's clear
+
+318
+00:15:36,940 --> 00:15:40,090
+and that's understandable to
+the students, that doesn't have
+
+319
+00:15:40,090 --> 00:15:42,130
+a lot of extra words
+and that tells them
+
+320
+00:15:42,130 --> 00:15:44,220
+exactly what they're
+supposed to do.
+
+321
+00:15:48,670 --> 00:15:54,520
+So I have some learning
+outcomes for today
+
+322
+00:15:54,520 --> 00:15:56,680
+and I hope that they're clear.
+
+323
+00:15:56,680 --> 00:15:59,110
+You'll be able to
+describe the components
+
+324
+00:15:59,110 --> 00:16:03,640
+of the constructive alignment
+and backward design processes.
+
+325
+00:16:03,640 --> 00:16:05,860
+And those, constructive
+alignment anyway,
+
+326
+00:16:05,860 --> 00:16:08,290
+was in the pre-class reading.
+
+327
+00:16:08,290 --> 00:16:10,810
+You'll be able to classify
+the content of a course
+
+328
+00:16:10,810 --> 00:16:12,010
+that you might teach.
+
+329
+00:16:12,010 --> 00:16:17,170
+So what do I expect students
+to do with this content,
+
+330
+00:16:17,170 --> 00:16:18,770
+to be able to do
+with this content?
+
+331
+00:16:18,770 --> 00:16:22,600
+You'll be able to create
+measurable, specific, and
+
+332
+00:16:22,600 --> 00:16:26,530
+realistic learning outcomes
+for a class you will teach,
+
+333
+00:16:26,530 --> 00:16:30,310
+and you'll be able to state
+the components of a syllabus.
+
+334
+00:16:30,310 --> 00:16:33,280
+So I feel that those are
+pretty understandable.
+
+335
+00:16:33,280 --> 00:16:39,500
+You may disagree with me,
+or maybe you want to wait.
+
+336
+00:16:43,450 --> 00:16:46,720
+So constructive alignment, it
+was in the pre-class reading,
+
+337
+00:16:46,720 --> 00:16:48,430
+right?
+
+338
+00:16:48,430 --> 00:16:51,930
+Anybody want to just give
+a brief summary of it?
+
+339
+00:16:54,720 --> 00:16:58,210
+I mean it's kind of up
+here, but in your own--
+
+340
+00:16:58,210 --> 00:17:00,020
+AUDIENCE: I think
+constructive alignment
+
+341
+00:17:00,020 --> 00:17:09,468
+is about aligning assessment,
+method of assessment,
+
+342
+00:17:09,468 --> 00:17:12,280
+with course content.
+
+343
+00:17:12,280 --> 00:17:15,230
+[INAUDIBLE] assess
+[INAUDIBLE] type of assessment
+
+344
+00:17:15,230 --> 00:17:18,670
+so that what the teacher
+has in mind, the course
+
+345
+00:17:18,670 --> 00:17:21,973
+content or the content
+I want them to get,
+
+346
+00:17:21,973 --> 00:17:24,329
+to test it with the
+assessment process.
+
+347
+00:17:24,329 --> 00:17:27,209
+Then we would also
+do the assessment,
+
+348
+00:17:27,209 --> 00:17:32,497
+and then come up with
+the intended outcome.
+
+349
+00:17:32,497 --> 00:17:33,330
+JANET RANKIN: Right.
+
+350
+00:17:33,330 --> 00:17:34,913
+They'll achieve the
+learning outcomes.
+
+351
+00:17:34,913 --> 00:17:36,870
+And if you do this
+right, you get rid
+
+352
+00:17:36,870 --> 00:17:40,380
+of that red circle
+on that graph.
+
+353
+00:17:40,380 --> 00:17:44,280
+You get rid of students who
+did well on the assessment
+
+354
+00:17:44,280 --> 00:17:46,680
+but don't really
+know what's going on,
+
+355
+00:17:46,680 --> 00:17:49,320
+because you have
+aligned the assessment
+
+356
+00:17:49,320 --> 00:17:53,310
+with what it was you wanted
+them to know or be able to do.
+
+357
+00:17:53,310 --> 00:17:56,100
+So that's important.
+
+358
+00:17:56,100 --> 00:17:59,130
+I just think this is a
+very, very compelling image
+
+359
+00:17:59,130 --> 00:18:03,360
+to keep in your head, that these
+three things have to be linked.
+
+360
+00:18:03,360 --> 00:18:05,964
+And as I said before,
+this, you will
+
+361
+00:18:05,964 --> 00:18:08,130
+see that the top part,
+writing the learning outcomes
+
+362
+00:18:08,130 --> 00:18:09,870
+is the tricky part,
+it's the hard part.
+
+363
+00:18:09,870 --> 00:18:13,080
+It's the part that requires
+a lot of thinking and work.
+
+364
+00:18:13,080 --> 00:18:15,010
+When you get a good
+learning outcome,
+
+365
+00:18:15,010 --> 00:18:21,090
+the other two things almost
+take care of themselves.
+
+366
+00:18:21,090 --> 00:18:22,790
+OK?
+
+367
+00:18:22,790 --> 00:18:24,290
+Did anybody have
+any, does anybody
+
+368
+00:18:24,290 --> 00:18:26,379
+have any questions
+about something
+
+369
+00:18:26,379 --> 00:18:28,670
+from the reading associated
+with constructive alignment
+
+370
+00:18:28,670 --> 00:18:33,689
+or some other idea
+from the reading?
+
+371
+00:18:33,689 --> 00:18:34,188
+Yes, Gordon.
+
+372
+00:18:34,188 --> 00:18:37,860
+AUDIENCE: I just wanted
+to make a contribution.
+
+373
+00:18:37,860 --> 00:18:42,344
+I think that this constructive
+alignment is one of the things
+
+374
+00:18:42,344 --> 00:18:46,005
+that the intended
+outcome should measure.
+
+375
+00:18:46,005 --> 00:19:03,262
+So I think maybe that's
+confusing [INAUDIBLE]
+
+376
+00:19:03,262 --> 00:19:06,496
+and also how we can test
+and be sure and confident.
+
+377
+00:19:06,496 --> 00:19:07,650
+JANET RANKIN: Right.
+
+378
+00:19:07,650 --> 00:19:08,580
+Right.
+
+379
+00:19:08,580 --> 00:19:12,620
+I think the measurability part
+for scientists and engineers
+
+380
+00:19:12,620 --> 00:19:15,390
+is kind of intuitive.
+
+381
+00:19:15,390 --> 00:19:18,330
+Like why would you say
+something if you couldn't
+
+382
+00:19:18,330 --> 00:19:21,470
+tell whether or not
+it was true, or not
+
+383
+00:19:21,470 --> 00:19:24,060
+from a scientific point of view.
+
+384
+00:19:24,060 --> 00:19:27,380
+What's the point
+of saying, making
+
+385
+00:19:27,380 --> 00:19:28,930
+a proclamation
+about what somebody
+
+386
+00:19:28,930 --> 00:19:31,860
+should be able to do if you
+can't measure it in the end?
+
+387
+00:19:31,860 --> 00:19:34,764
+So it's comforting
+to say, OK, I'm
+
+388
+00:19:34,764 --> 00:19:36,930
+going to make learning
+outcomes that are measurable.
+
+389
+00:19:36,930 --> 00:19:40,050
+But it also can be
+a bit challenging.
+
+390
+00:19:40,050 --> 00:19:41,010
+But we'll do that.
+
+391
+00:19:41,010 --> 00:19:44,110
+We're going to do that today.
+
+392
+00:19:44,110 --> 00:19:45,130
+Some other comment?
+
+393
+00:19:45,130 --> 00:19:45,630
+Nina.
+
+394
+00:19:45,630 --> 00:19:49,130
+AUDIENCE: I guess as
+far as [INAUDIBLE]
+
+395
+00:19:49,130 --> 00:19:51,078
+Do people write
+learning outcomes that
+
+396
+00:19:51,078 --> 00:19:54,850
+have no constructive
+alignment process,
+
+397
+00:19:54,850 --> 00:19:57,402
+like choosing to write
+learning outcomes,
+
+398
+00:19:57,402 --> 00:20:01,080
+are you going
+through the prcoess?
+
+399
+00:20:01,080 --> 00:20:03,732
+It seems decoupled a
+little bit in the reading,
+
+400
+00:20:03,732 --> 00:20:06,504
+but it seems like you can't
+have one without the other.
+
+401
+00:20:06,504 --> 00:20:09,424
+JANET RANKIN: You
+owe it to yourself--
+
+402
+00:20:09,424 --> 00:20:11,590
+and I don't know what people
+do, and I guarantee you
+
+403
+00:20:11,590 --> 00:20:13,540
+people write learning outcomes
+without thinking about
+
+404
+00:20:13,540 --> 00:20:15,415
+whether they can assess
+them or measure them,
+
+405
+00:20:15,415 --> 00:20:19,070
+I guarantee that
+happens in real life--
+
+406
+00:20:19,070 --> 00:20:22,500
+you owe it to yourself to
+try very hard not to do that.
+
+407
+00:20:22,500 --> 00:20:23,170
+OK?
+
+408
+00:20:23,170 --> 00:20:27,070
+And I think the important
+thing to do is, often we say,
+
+409
+00:20:27,070 --> 00:20:29,260
+oh, my god, this is
+the best assignment.
+
+410
+00:20:29,260 --> 00:20:31,300
+This is the greatest question.
+
+411
+00:20:31,300 --> 00:20:33,400
+It's this project, and
+they're going to do this,
+
+412
+00:20:33,400 --> 00:20:34,649
+and they're going to whatever.
+
+413
+00:20:34,649 --> 00:20:36,970
+They're going to
+build a race car.
+
+414
+00:20:36,970 --> 00:20:39,550
+And if you sit down
+and say, well, what
+
+415
+00:20:39,550 --> 00:20:41,970
+do I want them to
+get out of that?
+
+416
+00:20:41,970 --> 00:20:44,850
+If you can't articulate it
+in a way that's consistent
+
+417
+00:20:44,850 --> 00:20:46,920
+with your class,
+consistent with the course
+
+418
+00:20:46,920 --> 00:20:49,350
+as it sits in this
+series of their courses,
+
+419
+00:20:49,350 --> 00:20:51,750
+or as it sits in
+the institution,
+
+420
+00:20:51,750 --> 00:20:55,620
+then you either need to
+rethink the assignment,
+
+421
+00:20:55,620 --> 00:20:59,340
+rethink the project, or
+think a lot harder about what
+
+422
+00:20:59,340 --> 00:21:03,740
+learning outcomes that
+activity advances.
+
+423
+00:21:03,740 --> 00:21:06,840
+That's a very good point.
+
+424
+00:21:06,840 --> 00:21:08,640
+It's really kind of iterative.
+
+425
+00:21:08,640 --> 00:21:11,970
+And I think it might be easier
+to see with this diagram.
+
+426
+00:21:11,970 --> 00:21:15,660
+This is another-- so John
+Biggs is from the UK.
+
+427
+00:21:15,660 --> 00:21:19,320
+And so there's sort of
+the UK camp of people
+
+428
+00:21:19,320 --> 00:21:21,030
+and they like John Biggs.
+
+429
+00:21:21,030 --> 00:21:23,070
+And then there's
+Wiggins and McTighe.
+
+430
+00:21:23,070 --> 00:21:26,550
+Grant Wiggins and Jay
+McTighe are from the US.
+
+431
+00:21:26,550 --> 00:21:29,910
+They wrote primarily for
+the K through 12 audience,
+
+432
+00:21:29,910 --> 00:21:32,460
+but it's completely applicable.
+
+433
+00:21:32,460 --> 00:21:35,310
+And they're from the US, so they
+have kind of a US following.
+
+434
+00:21:35,310 --> 00:21:38,620
+It's just how it works.
+
+435
+00:21:38,620 --> 00:21:40,810
+It's essentially the same thing.
+
+436
+00:21:40,810 --> 00:21:44,520
+It's identify the results, so
+the intended learning outcomes.
+
+437
+00:21:44,520 --> 00:21:47,070
+Figure out how you're
+going to get them there.
+
+438
+00:21:47,070 --> 00:21:51,100
+So the black is Wiggins and
+McTighe and the red is Biggs.
+
+439
+00:21:51,100 --> 00:21:53,220
+So plan the learning
+experiences that
+
+440
+00:21:53,220 --> 00:21:55,410
+are going to support them,
+achieving the learning
+
+441
+00:21:55,410 --> 00:21:59,220
+outcomes, and really help you
+measure whether they got them
+
+442
+00:21:59,220 --> 00:22:00,310
+or not.
+
+443
+00:22:00,310 --> 00:22:02,672
+And then determine
+what evidence will
+
+444
+00:22:02,672 --> 00:22:05,130
+be that acceptable evidence
+that they achieved the learning
+
+445
+00:22:05,130 --> 00:22:07,320
+outcomes and what
+are the assessments.
+
+446
+00:22:07,320 --> 00:22:12,750
+So real often we do have
+this project that we want.
+
+447
+00:22:12,750 --> 00:22:14,130
+Oh, this is a great problem.
+
+448
+00:22:14,130 --> 00:22:17,490
+Often in thermo-- I taught a lot
+of thermo-- there's like, oh,
+
+449
+00:22:17,490 --> 00:22:21,150
+they're going to do this
+double loop, double reactor
+
+450
+00:22:21,150 --> 00:22:25,184
+cycle with the refrigerant
+and a heating cycle.
+
+451
+00:22:25,184 --> 00:22:26,850
+And it's going to be
+coupled and they're
+
+452
+00:22:26,850 --> 00:22:29,870
+going to use the output from
+one for the input in the other
+
+453
+00:22:29,870 --> 00:22:31,350
+and all this crazy stuff.
+
+454
+00:22:31,350 --> 00:22:34,680
+Like, this is a
+great assignment.
+
+455
+00:22:34,680 --> 00:22:36,990
+And you kind of, I know
+this is a great assignment.
+
+456
+00:22:36,990 --> 00:22:40,290
+If I can't back up
+from this assignment--
+
+457
+00:22:40,290 --> 00:22:42,330
+whether or not I put
+it here or here--
+
+458
+00:22:42,330 --> 00:22:46,490
+if I can't back up and say
+after a successful completion
+
+459
+00:22:46,490 --> 00:22:50,730
+of this assignment, you
+will be able to describe
+
+460
+00:22:50,730 --> 00:22:55,480
+the components of
+the Brayton cycle,
+
+461
+00:22:55,480 --> 00:22:59,730
+you will be able to define
+the increase in entropy
+
+462
+00:22:59,730 --> 00:23:05,250
+for a system with x boundaries,
+If I can't articulate
+
+463
+00:23:05,250 --> 00:23:08,550
+those things, then I need to
+either change the assignment,
+
+464
+00:23:08,550 --> 00:23:11,430
+or, well, then I need to
+change the assignment.
+
+465
+00:23:11,430 --> 00:23:12,180
+OK?
+
+466
+00:23:12,180 --> 00:23:14,640
+But you can start
+with the activity,
+
+467
+00:23:14,640 --> 00:23:16,140
+and then back up
+and say, well, what
+
+468
+00:23:16,140 --> 00:23:18,960
+learning outcomes does
+that support, and then,
+
+469
+00:23:18,960 --> 00:23:19,890
+am I OK with that?
+
+470
+00:23:19,890 --> 00:23:23,140
+Is that relevant to this class?
+
+471
+00:23:23,140 --> 00:23:26,370
+So it's often a very iterative,
+the arrows kind of go this way,
+
+472
+00:23:26,370 --> 00:23:28,038
+but it's often iterative.
+
+473
+00:23:31,320 --> 00:23:37,800
+So I had asked that you come
+to class with some topics
+
+474
+00:23:37,800 --> 00:23:39,570
+from a class you're
+likely to teach.
+
+475
+00:23:39,570 --> 00:23:41,340
+That was on the assignment page.
+
+476
+00:23:41,340 --> 00:23:45,300
+If not, start thinking now.
+
+477
+00:23:45,300 --> 00:23:47,970
+And so you want to have,
+for most classes, most
+
+478
+00:23:47,970 --> 00:23:50,550
+undergraduate classes,
+there's a bunch of topics.
+
+479
+00:23:50,550 --> 00:23:53,910
+You might have 10
+topics, 20 topics.
+
+480
+00:23:53,910 --> 00:23:57,796
+And I don't care right now
+about the scale of the topics,
+
+481
+00:23:57,796 --> 00:23:58,920
+whether they're really big.
+
+482
+00:23:58,920 --> 00:24:01,140
+You probably don't want
+to go with like first law,
+
+483
+00:24:01,140 --> 00:24:03,000
+second law.
+
+484
+00:24:03,000 --> 00:24:07,130
+That's probably a
+little bit too big,
+
+485
+00:24:07,130 --> 00:24:12,360
+but on the order
+of 5 to 15 topics.
+
+486
+00:24:12,360 --> 00:24:14,130
+Jot down the topics.
+
+487
+00:24:14,130 --> 00:24:16,710
+And then I have a chart here.
+
+488
+00:24:16,710 --> 00:24:21,450
+So the chart has two
+sides, and the columns
+
+489
+00:24:21,450 --> 00:24:23,700
+are Bloom's Taxonomy,
+which you don't
+
+490
+00:24:23,700 --> 00:24:25,770
+have to worry about
+that specifically,
+
+491
+00:24:25,770 --> 00:24:29,800
+but you can look at the words
+that are associated with it.
+
+492
+00:24:29,800 --> 00:24:34,170
+And then the second column
+is what students should
+
+493
+00:24:34,170 --> 00:24:36,960
+be able to do with each topic.
+
+494
+00:24:36,960 --> 00:24:45,660
+So let's say my topic is
+first law for closed systems.
+
+495
+00:24:45,660 --> 00:24:48,480
+So I might think
+about, OK, do I want
+
+496
+00:24:48,480 --> 00:24:51,150
+them to be able to
+define, to just state
+
+497
+00:24:51,150 --> 00:24:53,685
+the first law for
+closed systems?
+
+498
+00:24:53,685 --> 00:24:56,550
+Do I want them to be able to
+use the first law for closed
+
+499
+00:24:56,550 --> 00:24:59,520
+systems in order to solve
+certain kinds of equations?
+
+500
+00:24:59,520 --> 00:25:03,270
+Do I want them to be able
+to derive the first law?
+
+501
+00:25:03,270 --> 00:25:06,510
+Do I want them to be
+able, whatever it is.
+
+502
+00:25:06,510 --> 00:25:10,110
+So you're going to look at
+the columns, the categories
+
+503
+00:25:10,110 --> 00:25:12,657
+on the left side,
+and you're going
+
+504
+00:25:12,657 --> 00:25:13,740
+to think about your topic.
+
+505
+00:25:13,740 --> 00:25:16,830
+And you're just going to decide
+which box in the middle column
+
+506
+00:25:16,830 --> 00:25:18,802
+to put the topics into.
+
+507
+00:25:18,802 --> 00:25:20,760
+You don't have to worry
+about writing anything.
+
+508
+00:25:20,760 --> 00:25:26,430
+You're just going to distribute
+the topics to the level of,
+
+509
+00:25:26,430 --> 00:25:29,534
+it's really cognitive
+processes that are associated
+
+510
+00:25:29,534 --> 00:25:30,700
+with the things on the left.
+
+511
+00:25:30,700 --> 00:25:36,990
+Remember, understand, apply,
+analyze, evaluate, and create.
+
+512
+00:25:36,990 --> 00:25:39,460
+So we'll take
+about five minutes.
+
+513
+00:25:39,460 --> 00:25:41,230
+And you just do
+that by yourself.
+
+514
+00:25:41,230 --> 00:25:43,170
+And just fill in
+that middle column
+
+515
+00:25:43,170 --> 00:25:49,050
+of the table with the
+topics from your course.
+
+516
+00:25:49,050 --> 00:25:50,890
+Do you want more
+explanation, Rachel?
+
+517
+00:25:55,280 --> 00:25:59,240
+It's starting to make
+you think about this part
+
+518
+00:25:59,240 --> 00:26:05,020
+of the beginning circle.
+
+519
+00:26:05,020 --> 00:26:07,440
+But you don't want to
+write any sentences yet.
+
+520
+00:26:07,440 --> 00:26:10,460
+But it's starting to help
+you think about what are they
+
+521
+00:26:10,460 --> 00:26:13,830
+going to do with these topics.
+
+522
+00:26:13,830 --> 00:26:15,130
+What do I want them to do?
+
+523
+00:26:15,130 --> 00:26:20,350
+Is it remember, or is it create
+something using these things?
+
+524
+00:26:20,350 --> 00:26:21,290
+Where is it?
+
+525
+00:26:21,290 --> 00:26:22,970
+Those are two ends
+of the spectrum.
+
+526
+00:26:22,970 --> 00:26:27,110
+And in your chart, the
+things that at the top
+
+527
+00:26:27,110 --> 00:26:28,940
+are the more remember, right?
+
+528
+00:26:28,940 --> 00:26:33,260
+It's more about kind of
+a recall information.
+
+529
+00:26:33,260 --> 00:26:35,360
+And then the things in
+the back of the chart
+
+530
+00:26:35,360 --> 00:26:40,160
+tend to be more higher
+order cognitive processes,
+
+531
+00:26:40,160 --> 00:26:43,040
+like synthesize, apply, create.
+
+532
+00:26:50,110 --> 00:26:50,609
+Yes.
+
+533
+00:26:50,609 --> 00:26:54,281
+AUDIENCE: [INAUDIBLE]
+
+534
+00:26:54,281 --> 00:26:57,050
+JANET RANKIN: So don't worry
+about the third column.
+
+535
+00:26:57,050 --> 00:26:58,940
+Don't worry about
+the last column yet.
+
+536
+00:26:58,940 --> 00:27:00,326
+We're going to do that later.
+
+537
+00:27:00,326 --> 00:27:01,700
+So all you have
+to do is just say
+
+538
+00:27:01,700 --> 00:27:05,410
+where each topic falls loosely.
+
+539
+00:27:05,410 --> 00:27:05,910
+OK.
+
+540
+00:27:05,910 --> 00:27:08,302
+Does everybody have a chart?
+
+541
+00:27:08,302 --> 00:27:08,802
+OK.
+
+542
+00:27:08,802 --> 00:27:10,730
+AUDIENCE: Do you
+want us to write
+
+543
+00:27:10,730 --> 00:27:12,284
+as many topics as possible?
+
+544
+00:27:12,284 --> 00:27:13,700
+JANET RANKIN: Write
+as many topics
+
+545
+00:27:13,700 --> 00:27:17,990
+as possible, but distribute
+them through the chart.
+
+546
+00:27:17,990 --> 00:27:19,460
+Right?
+
+547
+00:27:19,460 --> 00:27:22,352
+Not everything is going
+to be remember, right?
+
+548
+00:27:22,352 --> 00:27:24,810
+So some things will be remember,
+some things will be apply,
+
+549
+00:27:24,810 --> 00:27:27,841
+some things will be analyze,
+some things will be create.
+
+550
+00:27:27,841 --> 00:27:28,340
+OK?
+
+551
+00:27:31,950 --> 00:27:34,451
+If you have any questions,
+just raise your hand.
+
+552
+00:27:34,451 --> 00:27:34,950
+All right.
+
+553
+00:27:34,950 --> 00:27:36,533
+So what we're going
+to do is I'm going
+
+554
+00:27:36,533 --> 00:27:40,650
+to ask you to just
+keep those with you.
+
+555
+00:27:40,650 --> 00:27:42,630
+We're going to do
+another activity later
+
+556
+00:27:42,630 --> 00:27:44,670
+on using those as
+a starting point,
+
+557
+00:27:44,670 --> 00:27:49,860
+but I want you to just
+keep that sorting with you.
+
+558
+00:27:49,860 --> 00:27:52,800
+Any comments or questions
+about the experience,
+
+559
+00:27:52,800 --> 00:27:53,860
+about what you just did?
+
+560
+00:27:58,330 --> 00:28:00,820
+Was it easy?
+
+561
+00:28:00,820 --> 00:28:02,980
+No.
+
+562
+00:28:02,980 --> 00:28:04,349
+It can sometimes be a challenge.
+
+563
+00:28:04,349 --> 00:28:05,890
+Well, what the heck
+you were supposed
+
+564
+00:28:05,890 --> 00:28:07,002
+to do with this anyway?
+
+565
+00:28:07,002 --> 00:28:08,710
+What do I really want
+them to do with it?
+
+566
+00:28:08,710 --> 00:28:12,460
+This is the beginning
+of that process whereby
+
+567
+00:28:12,460 --> 00:28:15,640
+you define exactly what it
+is you want students to do,
+
+568
+00:28:15,640 --> 00:28:17,532
+know or be able to do.
+
+569
+00:28:17,532 --> 00:28:19,240
+And then you can start
+to think about how
+
+570
+00:28:19,240 --> 00:28:22,360
+you're going to assess whether
+or not they can do it or not.
+
+571
+00:28:22,360 --> 00:28:24,460
+But it's very
+different if I were
+
+572
+00:28:24,460 --> 00:28:27,040
+to say I want everybody
+to be able to state
+
+573
+00:28:27,040 --> 00:28:29,994
+the first law of
+thermodynamics versus I
+
+574
+00:28:29,994 --> 00:28:32,410
+want you to be able to use the
+first law of thermodynamics
+
+575
+00:28:32,410 --> 00:28:37,480
+to define chemical, mechanical,
+and thermal equilibrium
+
+576
+00:28:37,480 --> 00:28:40,672
+in a simple composite system.
+
+577
+00:28:40,672 --> 00:28:41,380
+That's different.
+
+578
+00:28:41,380 --> 00:28:42,606
+That's very different.
+
+579
+00:28:46,110 --> 00:28:47,750
+So that's what we're
+starting to do.
+
+580
+00:28:51,170 --> 00:28:53,440
+So now we have
+kind of the seeds.
+
+581
+00:28:53,440 --> 00:28:59,530
+We thought about which topics
+kind of we want to have,
+
+582
+00:28:59,530 --> 00:29:01,690
+what we want to do with
+each of the topics.
+
+583
+00:29:01,690 --> 00:29:04,910
+But now we really have to turn
+them into learning outcomes,
+
+584
+00:29:04,910 --> 00:29:06,274
+into real statements.
+
+585
+00:29:06,274 --> 00:29:07,690
+By the end of this
+class, you will
+
+586
+00:29:07,690 --> 00:29:13,600
+be able to, by the end of this
+course, you will be able to.
+
+587
+00:29:13,600 --> 00:29:17,980
+And just as an aside,
+remember that sometimes you'll
+
+588
+00:29:17,980 --> 00:29:20,620
+notice that for every class,
+every session we have,
+
+589
+00:29:20,620 --> 00:29:22,510
+I have learning outcomes.
+
+590
+00:29:22,510 --> 00:29:24,940
+But there's also overarching
+learning outcomes
+
+591
+00:29:24,940 --> 00:29:26,400
+for the course.
+
+592
+00:29:26,400 --> 00:29:31,350
+So I will use them
+interchangeably,
+
+593
+00:29:31,350 --> 00:29:34,360
+but they'll be at a
+slightly different scale.
+
+594
+00:29:34,360 --> 00:29:39,160
+The ones for the class are a
+little bit more fine grained.
+
+595
+00:29:39,160 --> 00:29:41,710
+As was mentioned in the reading,
+and as Gordon mentioned,
+
+596
+00:29:41,710 --> 00:29:46,660
+they have to be specific,
+measurable, and realistic.
+
+597
+00:29:46,660 --> 00:29:49,180
+If they don't have
+those properties
+
+598
+00:29:49,180 --> 00:29:52,420
+they're not going to be
+particularly useful, or as
+
+599
+00:29:52,420 --> 00:29:54,220
+useful.
+
+600
+00:29:54,220 --> 00:29:55,550
+All right.
+
+601
+00:29:55,550 --> 00:30:00,550
+And we'll see some examples
+of that in just a sec.
+
+602
+00:30:00,550 --> 00:30:02,800
+So here's what they're not.
+
+603
+00:30:02,800 --> 00:30:04,810
+They're not topics.
+
+604
+00:30:04,810 --> 00:30:06,760
+So you came with topics.
+
+605
+00:30:06,760 --> 00:30:10,420
+You will leave today
+with learning outcomes.
+
+606
+00:30:10,420 --> 00:30:14,470
+But topics are not
+learning outcomes.
+
+607
+00:30:14,470 --> 00:30:18,430
+The first law of thermodynamics
+is not a learning outcome.
+
+608
+00:30:18,430 --> 00:30:20,650
+You need a verb with it.
+
+609
+00:30:20,650 --> 00:30:22,369
+What do you want me
+to do, what do you
+
+610
+00:30:22,369 --> 00:30:24,160
+want your students to
+do with the first law
+
+611
+00:30:24,160 --> 00:30:25,980
+of thermodynamics?
+
+612
+00:30:25,980 --> 00:30:28,090
+What do you want them to
+know about the first law
+
+613
+00:30:28,090 --> 00:30:30,410
+of thermodynamics?
+
+614
+00:30:30,410 --> 00:30:32,980
+So they're not topics.
+
+615
+00:30:32,980 --> 00:30:34,765
+They're not things
+that you will do.
+
+616
+00:30:37,540 --> 00:30:40,900
+It's easy to say, I could
+have a list a mile long.
+
+617
+00:30:40,900 --> 00:30:47,950
+I will talk about the first
+law of thermodynamics.
+
+618
+00:30:47,950 --> 00:30:49,660
+I can check that
+off pretty easily.
+
+619
+00:30:49,660 --> 00:30:50,734
+I mean I just did.
+
+620
+00:30:50,734 --> 00:30:52,900
+I just talked about the
+first law of thermodynamics.
+
+621
+00:30:52,900 --> 00:30:56,410
+It says nothing about what
+you learned about it, what
+
+622
+00:30:56,410 --> 00:30:58,090
+your students learned about it.
+
+623
+00:30:58,090 --> 00:31:00,430
+So it's not about you.
+
+624
+00:31:00,430 --> 00:31:02,840
+Get over it.
+
+625
+00:31:02,840 --> 00:31:03,506
+That was a joke.
+
+626
+00:31:06,447 --> 00:31:07,530
+It's not value statements.
+
+627
+00:31:07,530 --> 00:31:11,490
+As Adrian pointed out, some
+of these think this is easy,
+
+628
+00:31:11,490 --> 00:31:16,640
+this is good, this is useful.
+
+629
+00:31:16,640 --> 00:31:19,135
+Any of those things don't
+belong in a learning outcome.
+
+630
+00:31:22,760 --> 00:31:25,590
+And it's not your hopes and
+dreams for your students.
+
+631
+00:31:25,590 --> 00:31:28,074
+I mean, ultimately, it is.
+
+632
+00:31:28,074 --> 00:31:30,240
+You hope that they will be
+able to use the first law
+
+633
+00:31:30,240 --> 00:31:32,340
+of thermodynamics, da, da, da.
+
+634
+00:31:32,340 --> 00:31:34,440
+But it's really about
+what they're doing,
+
+635
+00:31:34,440 --> 00:31:36,240
+about what they're going to do.
+
+636
+00:31:36,240 --> 00:31:39,500
+So, no.
+
+637
+00:31:39,500 --> 00:31:40,610
+Here's a little example.
+
+638
+00:31:43,140 --> 00:31:45,990
+This is just from like an
+earth and planetary course.
+
+639
+00:31:45,990 --> 00:31:49,700
+Students will understand
+plate tectonics.
+
+640
+00:31:49,700 --> 00:31:50,640
+How's that?
+
+641
+00:31:54,400 --> 00:31:57,520
+Is that OK for a
+learning outcome?
+
+642
+00:31:57,520 --> 00:31:58,438
+Why not?
+
+643
+00:31:58,438 --> 00:32:01,924
+AUDIENCE: It's too broad.
+
+644
+00:32:01,924 --> 00:32:04,140
+JANET RANKIN: It's
+not very specific.
+
+645
+00:32:04,140 --> 00:32:07,435
+What the heck about
+plate tectonics?
+
+646
+00:32:07,435 --> 00:32:07,935
+What else?
+
+647
+00:32:11,620 --> 00:32:13,580
+AUDIENCE: Measurable.
+
+648
+00:32:13,580 --> 00:32:14,760
+JANET RANKIN: Thank you.
+
+649
+00:32:14,760 --> 00:32:16,890
+OK, the measurable part.
+
+650
+00:32:16,890 --> 00:32:23,310
+This word understand,
+strike it from your brains.
+
+651
+00:32:23,310 --> 00:32:25,150
+It's a property that we love.
+
+652
+00:32:25,150 --> 00:32:27,120
+We love understand.
+
+653
+00:32:27,120 --> 00:32:30,590
+But you can't
+flippin' measure it.
+
+654
+00:32:30,590 --> 00:32:32,840
+You can't go in
+there and measure it.
+
+655
+00:32:32,840 --> 00:32:35,180
+You can measure lots
+of things that tell you
+
+656
+00:32:35,180 --> 00:32:37,220
+whether students
+understand, but you
+
+657
+00:32:37,220 --> 00:32:39,500
+can't measure understanding.
+
+658
+00:32:42,180 --> 00:32:44,307
+And I think we'll see that
+with some more examples.
+
+659
+00:32:44,307 --> 00:32:46,390
+I don't think anybody is
+earth and planetary here.
+
+660
+00:32:49,050 --> 00:32:50,664
+So how about this one?
+
+661
+00:32:50,664 --> 00:32:52,080
+Students will be
+able to interpret
+
+662
+00:32:52,080 --> 00:32:54,240
+unfamiliar tectonic
+settings based
+
+663
+00:32:54,240 --> 00:32:59,830
+on information on volcanic
+activity and seismicity.
+
+664
+00:32:59,830 --> 00:33:02,340
+Again, I don't think any
+of us are geologists.
+
+665
+00:33:02,340 --> 00:33:04,980
+But the idea that I've
+told, or the person
+
+666
+00:33:04,980 --> 00:33:08,310
+has told us what
+we're going to use
+
+667
+00:33:08,310 --> 00:33:12,060
+to interpret these
+situations, and then we're
+
+668
+00:33:12,060 --> 00:33:15,417
+going to make predictions based
+on those interpretations, I
+
+669
+00:33:15,417 --> 00:33:17,610
+mean, that's an assumption.
+
+670
+00:33:17,610 --> 00:33:21,426
+So it's specific and
+now it's measurable.
+
+671
+00:33:21,426 --> 00:33:22,800
+Even though we're
+not geologists,
+
+672
+00:33:22,800 --> 00:33:24,750
+I suspect we can
+think of how we could
+
+673
+00:33:24,750 --> 00:33:29,220
+write a test question that
+would ask students to do this.
+
+674
+00:33:29,220 --> 00:33:32,910
+And then we could see
+whether they did it or not.
+
+675
+00:33:32,910 --> 00:33:35,370
+So that's measurable.
+
+676
+00:33:35,370 --> 00:33:40,715
+And probably, by doing this,
+by having students do this,
+
+677
+00:33:40,715 --> 00:33:42,840
+we get a pretty good
+measurement about whether they
+
+678
+00:33:42,840 --> 00:33:46,900
+understand plate tectonics.
+
+679
+00:33:46,900 --> 00:33:50,877
+But it's much more specific
+and it's much more measurable.
+
+680
+00:33:58,944 --> 00:34:01,110
+From here, this is from the
+University of Minnesota,
+
+681
+00:34:01,110 --> 00:34:03,590
+which has a nice website
+on learning outcomes.
+
+682
+00:34:03,590 --> 00:34:06,680
+They're not from your point
+of view, as we mentioned.
+
+683
+00:34:06,680 --> 00:34:08,179
+They're not what
+you're going to do.
+
+684
+00:34:08,179 --> 00:34:10,345
+I'm going to introduce
+students to the major turning
+
+685
+00:34:10,345 --> 00:34:13,747
+points and processes in
+North American history.
+
+686
+00:34:13,747 --> 00:34:15,830
+You can say anything you
+want, but it doesn't mean
+
+687
+00:34:15,830 --> 00:34:17,340
+the students learned anything.
+
+688
+00:34:17,340 --> 00:34:18,510
+So it's not about you.
+
+689
+00:34:18,510 --> 00:34:19,760
+It's what they're going to do.
+
+690
+00:34:19,760 --> 00:34:21,777
+They're going to
+list and describe
+
+691
+00:34:21,777 --> 00:34:24,235
+the turning points and processes
+in North American history.
+
+692
+00:34:26,871 --> 00:34:28,370
+I'm going to create
+an understanding
+
+693
+00:34:28,370 --> 00:34:30,230
+of the formal constructs
+of physical design.
+
+694
+00:34:30,230 --> 00:34:32,600
+That one is like,
+this one is, it's
+
+695
+00:34:32,600 --> 00:34:35,120
+like, I don't even know
+what it means, right?
+
+696
+00:34:35,120 --> 00:34:37,719
+Create an understanding
+of the formal constructs
+
+697
+00:34:37,719 --> 00:34:38,510
+of physical design.
+
+698
+00:34:38,510 --> 00:34:40,670
+I don't even know what it means.
+
+699
+00:34:40,670 --> 00:34:42,739
+And so it's like
+that laundry example.
+
+700
+00:34:42,739 --> 00:34:46,010
+Your students aren't going
+to know what it means,
+
+701
+00:34:46,010 --> 00:34:48,330
+and it's not going to help them.
+
+702
+00:34:48,330 --> 00:34:51,469
+It's not going to help
+them access the material.
+
+703
+00:34:51,469 --> 00:34:56,000
+So the ones on the left
+are all teacher-centered
+
+704
+00:34:56,000 --> 00:34:58,250
+and they're not very useful.
+
+705
+00:34:58,250 --> 00:35:00,410
+The ones on the right
+are student-centered
+
+706
+00:35:00,410 --> 00:35:03,020
+and they are generally useful.
+
+707
+00:35:03,020 --> 00:35:06,230
+But there's some things wrong
+with the things on the right.
+
+708
+00:35:06,230 --> 00:35:07,700
+AUDIENCE: Understand.
+
+709
+00:35:07,700 --> 00:35:12,264
+JANET RANKIN: Understand, yes.
+
+710
+00:35:12,264 --> 00:35:13,680
+So what would you
+write instead of
+
+711
+00:35:13,680 --> 00:35:17,370
+understand the formal constructs
+of physical design, whatever
+
+712
+00:35:17,370 --> 00:35:19,440
+the heck that means?
+
+713
+00:35:19,440 --> 00:35:20,554
+What might you use?
+
+714
+00:35:20,554 --> 00:35:22,250
+AUDIENCE: Identify.
+
+715
+00:35:22,250 --> 00:35:24,170
+JANET RANKIN: Identify.
+
+716
+00:35:24,170 --> 00:35:24,840
+OK.
+
+717
+00:35:24,840 --> 00:35:30,510
+That might be like a list,
+right, or identify or list,
+
+718
+00:35:30,510 --> 00:35:32,275
+pick it out of the
+lineup kind of thing.
+
+719
+00:35:34,830 --> 00:35:36,960
+This is a nice one.
+
+720
+00:35:36,960 --> 00:35:40,220
+Explain to an intelligent
+non-expert, an INE.
+
+721
+00:35:40,220 --> 00:35:45,240
+And so explain this to somebody
+who's not in the field.
+
+722
+00:35:45,240 --> 00:35:49,200
+If you could do that, it
+probably means that you get it.
+
+723
+00:35:49,200 --> 00:35:51,300
+Somebody I know used
+to say, explain this
+
+724
+00:35:51,300 --> 00:35:54,810
+to my four-year-old brother.
+
+725
+00:35:54,810 --> 00:35:58,050
+Explain-- what was
+it-- angular momentum,
+
+726
+00:35:58,050 --> 00:36:01,290
+to my four-year-old brother.
+
+727
+00:36:01,290 --> 00:36:04,380
+I would argue if you can explain
+it to a four-year-old kid,
+
+728
+00:36:04,380 --> 00:36:07,050
+you probably understand it.
+
+729
+00:36:07,050 --> 00:36:08,820
+So you can use that.
+
+730
+00:36:13,400 --> 00:36:21,690
+Use formal constructs
+to design something.
+
+731
+00:36:21,690 --> 00:36:23,677
+I mean, that's kind
+of an inversion.
+
+732
+00:36:23,677 --> 00:36:25,010
+How about the one on the bottom.
+
+733
+00:36:25,010 --> 00:36:29,450
+Understand gender, race,
+ethnicity, socioeconomic class,
+
+734
+00:36:29,450 --> 00:36:32,120
+understand how they have
+shaped Americans' lives.
+
+735
+00:36:32,120 --> 00:36:36,272
+Completely unmeasurable, right?
+
+736
+00:36:36,272 --> 00:36:37,605
+So what would you write instead?
+
+737
+00:36:41,830 --> 00:36:43,770
+AUDIENCE: Describe.
+
+738
+00:36:43,770 --> 00:36:46,810
+JANET RANKIN:
+Describe how, sure.
+
+739
+00:36:49,970 --> 00:36:50,695
+Anything else?
+
+740
+00:36:50,695 --> 00:36:52,445
+AUDIENCE: [INAUDIBLE]
+it seems like you're
+
+741
+00:36:52,445 --> 00:36:54,905
+trying to get [INAUDIBLE].
+
+742
+00:36:54,905 --> 00:36:57,030
+JANET RANKIN: Right.
+
+743
+00:36:57,030 --> 00:36:58,720
+So that's a great
+point, is that we
+
+744
+00:36:58,720 --> 00:37:05,020
+don't know where this faculty
+member put this on their table.
+
+745
+00:37:05,020 --> 00:37:07,370
+We don't know whether
+it really just states
+
+746
+00:37:07,370 --> 00:37:11,590
+some ways that, list some ways
+that these things have affected
+
+747
+00:37:11,590 --> 00:37:15,790
+Americans, North Americans'
+lives, or Americans' lives--
+
+748
+00:37:15,790 --> 00:37:18,580
+which is kind of a remember
+thing, just make a list--
+
+749
+00:37:18,580 --> 00:37:22,780
+or whether it's do some
+analysis on some situation.
+
+750
+00:37:22,780 --> 00:37:25,120
+We don't know that, but
+you as the instructors
+
+751
+00:37:25,120 --> 00:37:28,512
+get to decide that
+for your classes.
+
+752
+00:37:28,512 --> 00:37:29,720
+So that's an important thing.
+
+753
+00:37:29,720 --> 00:37:32,480
+You get to call all the shots.
+
+754
+00:37:32,480 --> 00:37:33,730
+You get to make the decision.
+
+755
+00:37:33,730 --> 00:37:36,410
+We can only guess about
+what this person meant,
+
+756
+00:37:36,410 --> 00:37:38,090
+and therefore, his
+or her students
+
+757
+00:37:38,090 --> 00:37:40,420
+can only guess about
+what he or she means.
+
+758
+00:37:46,010 --> 00:37:50,870
+So you have on your table this
+hierarchy of Bloom's Taxonomy.
+
+759
+00:37:50,870 --> 00:37:55,460
+It's often shown in this
+triangle, this pyramid.
+
+760
+00:37:55,460 --> 00:38:01,310
+There's a handout which has
+exactly the same strata on it.
+
+761
+00:38:01,310 --> 00:38:06,140
+And it just has some handy
+dandy verbs associated with it.
+
+762
+00:38:06,140 --> 00:38:09,530
+But Benjamin Bloom came up
+with this classification
+
+763
+00:38:09,530 --> 00:38:15,390
+of cognitive processes way
+back when, in the 1950s.
+
+764
+00:38:15,390 --> 00:38:17,510
+And it is this idea that
+it is this pyramid, that
+
+765
+00:38:17,510 --> 00:38:20,840
+at the base of the pyramid
+are these ideas like remember.
+
+766
+00:38:20,840 --> 00:38:27,140
+And those are basic cognitive
+processes, remember, list.
+
+767
+00:38:27,140 --> 00:38:33,200
+And then it moves up the pyramid
+to things that require a higher
+
+768
+00:38:33,200 --> 00:38:35,890
+level of cognitive processing.
+
+769
+00:38:35,890 --> 00:38:38,860
+Rather than just pulling
+facts out of storage
+
+770
+00:38:38,860 --> 00:38:41,110
+and stating them, you're
+going to do something
+
+771
+00:38:41,110 --> 00:38:42,730
+with those facts.
+
+772
+00:38:42,730 --> 00:38:46,820
+So as you go higher and
+higher up the pyramid,
+
+773
+00:38:46,820 --> 00:38:49,090
+note that he chose--
+
+774
+00:38:49,090 --> 00:38:53,860
+really unfortunately-- to call
+the second level understand.
+
+775
+00:38:53,860 --> 00:38:57,460
+However, there are
+words that can help you.
+
+776
+00:38:57,460 --> 00:39:00,880
+If it really is understand
+that you want to measure,
+
+777
+00:39:00,880 --> 00:39:03,400
+there's words that describe
+that a little bit better.
+
+778
+00:39:03,400 --> 00:39:04,990
+They're in your
+table, and they're
+
+779
+00:39:04,990 --> 00:39:09,280
+also in that second
+table that I handed out.
+
+780
+00:39:09,280 --> 00:39:11,650
+So arrange, list, label.
+
+781
+00:39:11,650 --> 00:39:16,310
+For understand-- describe,
+relate, recognize, explain,
+
+782
+00:39:16,310 --> 00:39:17,020
+those things.
+
+783
+00:39:17,020 --> 00:39:17,520
+Gordon.
+
+784
+00:39:17,520 --> 00:39:20,204
+AUDIENCE: Just a
+little [INAUDIBLE].
+
+785
+00:39:20,204 --> 00:39:22,180
+When it comes to
+understand, maybe
+
+786
+00:39:22,180 --> 00:39:24,128
+if you put it like [INAUDIBLE].
+
+787
+00:39:24,128 --> 00:39:25,503
+JANET RANKIN:
+Understand to what?
+
+788
+00:39:25,503 --> 00:39:27,242
+AUDIENCE: Understand
+to an [INAUDIBLE].
+
+789
+00:39:27,242 --> 00:39:30,530
+Maybe that's what
+we can measure.
+
+790
+00:39:30,530 --> 00:39:33,925
+Understand to this level
+or to this [INAUDIBLE].
+
+791
+00:39:33,925 --> 00:39:37,316
+JANET RANKIN: But how, can you
+give me a specific example?
+
+792
+00:39:37,316 --> 00:39:53,536
+AUDIENCE: I wish I could go back
+to the last slide [INAUDIBLE]
+
+793
+00:39:53,536 --> 00:39:56,500
+can describe [INAUDIBLE].
+
+794
+00:39:59,958 --> 00:40:01,140
+JANET RANKIN: OK.
+
+795
+00:40:01,140 --> 00:40:02,850
+So I see where you're going.
+
+796
+00:40:02,850 --> 00:40:04,500
+Does someone have a suggestion?
+
+797
+00:40:04,500 --> 00:40:06,010
+So think about that laundry.
+
+798
+00:40:06,010 --> 00:40:08,010
+Think about that description
+of doing a laundry.
+
+799
+00:40:10,530 --> 00:40:12,520
+Can somebody take
+what Gordon said
+
+800
+00:40:12,520 --> 00:40:18,640
+and get where he wants to
+go, but get there in perhaps
+
+801
+00:40:18,640 --> 00:40:19,485
+a more direct way.
+
+802
+00:40:25,751 --> 00:40:26,251
+Katherine.
+
+803
+00:40:26,251 --> 00:40:29,730
+AUDIENCE: [INAUDIBLE]
+
+804
+00:40:29,730 --> 00:40:31,410
+JANET RANKIN: Exactly.
+
+805
+00:40:31,410 --> 00:40:32,910
+So if you're going
+to do that, and I
+
+806
+00:40:32,910 --> 00:40:35,422
+see where you're
+coming from, understand
+
+807
+00:40:35,422 --> 00:40:37,380
+so that you can describe,
+in order to describe,
+
+808
+00:40:37,380 --> 00:40:38,580
+or to the level of describe.
+
+809
+00:40:38,580 --> 00:40:40,530
+Just forget the
+understand part, and just
+
+810
+00:40:40,530 --> 00:40:45,900
+say describe, or define,
+or whatever it is you want.
+
+811
+00:40:45,900 --> 00:40:48,790
+But yes, I mean, that
+first step is saying,
+
+812
+00:40:48,790 --> 00:40:50,820
+what do I mean by understand?
+
+813
+00:40:50,820 --> 00:40:57,570
+And when you say that, then
+it generally rewrites itself.
+
+814
+00:40:57,570 --> 00:41:01,650
+And so the more direct you
+can be, generally, the better.
+
+815
+00:41:01,650 --> 00:41:04,410
+And keep that laundry
+example in your head.
+
+816
+00:41:04,410 --> 00:41:04,910
+Yes.
+
+817
+00:41:04,910 --> 00:41:10,360
+AUDIENCE: You're asking
+a student [INAUDIBLE]?
+
+818
+00:41:10,360 --> 00:41:14,729
+JANET RANKIN: So I would say,
+well, let's just open that up.
+
+819
+00:41:14,729 --> 00:41:16,770
+What do you think about
+that, of asking students?
+
+820
+00:41:16,770 --> 00:41:21,720
+So do you understand this
+stuff about learning outcomes?
+
+821
+00:41:21,720 --> 00:41:23,790
+AUDIENCE: I think
+as teachers, when
+
+822
+00:41:23,790 --> 00:41:26,123
+you, in the front of the
+class, you're teaching students
+
+823
+00:41:26,123 --> 00:41:28,740
+and you say do you
+understand, they say yes.
+
+824
+00:41:28,740 --> 00:41:34,290
+But you see from psychology you
+know who doesn't understand.
+
+825
+00:41:34,290 --> 00:41:36,870
+JANET RANKIN: So David
+says as I ask you
+
+826
+00:41:36,870 --> 00:41:38,970
+that, do you understand?
+
+827
+00:41:38,970 --> 00:41:41,970
+Most people are going to
+say, hey, I understand, sure.
+
+828
+00:41:41,970 --> 00:41:43,290
+Don't think I'm an idiot.
+
+829
+00:41:43,290 --> 00:41:45,930
+I understand.
+
+830
+00:41:45,930 --> 00:41:47,670
+Right?
+
+831
+00:41:47,670 --> 00:41:48,750
+So I completely agree.
+
+832
+00:41:48,750 --> 00:41:51,990
+Students are not likely to
+say they don't understand.
+
+833
+00:41:51,990 --> 00:41:53,310
+What else?
+
+834
+00:41:53,310 --> 00:42:18,205
+AUDIENCE: That's difficult
+for the teacher to [INAUDIBLE]
+
+835
+00:42:18,205 --> 00:42:20,782
+JANET RANKIN: Well,
+so do you want
+
+836
+00:42:20,782 --> 00:42:21,948
+to say something about that?
+
+837
+00:42:21,948 --> 00:42:23,119
+AUDIENCE: Yeah, I agree.
+
+838
+00:42:23,119 --> 00:42:24,702
+I think the part
+that we do understand
+
+839
+00:42:24,702 --> 00:42:30,546
+as nonspecific is the learning
+understanding [INAUDIBLE].
+
+840
+00:42:30,546 --> 00:42:33,450
+As an instructor you
+have to know, understand
+
+841
+00:42:33,450 --> 00:42:35,670
+what you're trying
+to get at, which
+
+842
+00:42:35,670 --> 00:42:40,010
+I think is where the clicker
+question is beautiful,
+
+843
+00:42:40,010 --> 00:42:41,510
+because you know
+already what you're
+
+844
+00:42:41,510 --> 00:42:44,616
+trying to evaluate that they're
+catching in class in real time,
+
+845
+00:42:44,616 --> 00:42:48,600
+if you can see who's getting
+at the nuance of what
+
+846
+00:42:48,600 --> 00:42:50,710
+you're teaching.
+
+847
+00:42:50,710 --> 00:42:51,460
+JANET RANKIN: Yes.
+
+848
+00:42:51,460 --> 00:42:54,220
+I think that's an
+excellent, excellent point,
+
+849
+00:42:54,220 --> 00:42:57,430
+that many of these
+activities that we do,
+
+850
+00:42:57,430 --> 00:43:01,810
+these small group
+activities, or the clicker
+
+851
+00:43:01,810 --> 00:43:04,450
+questions or other
+activities that students
+
+852
+00:43:04,450 --> 00:43:08,590
+are doing in class are
+helping them learn.
+
+853
+00:43:08,590 --> 00:43:11,860
+But they're also formative
+assessments of whether or not
+
+854
+00:43:11,860 --> 00:43:14,470
+they get it or not, whether
+or not they understand.
+
+855
+00:43:14,470 --> 00:43:17,470
+And you as the
+instructor can see it.
+
+856
+00:43:17,470 --> 00:43:20,080
+If I walk around,
+if I listen, if I
+
+857
+00:43:20,080 --> 00:43:23,680
+look at who answered what
+question on the clickers,
+
+858
+00:43:23,680 --> 00:43:26,320
+or on the raising your hand,
+multiple choice questions,
+
+859
+00:43:26,320 --> 00:43:30,320
+whatever methods I used
+here, I get a better,
+
+860
+00:43:30,320 --> 00:43:32,290
+a much better sense
+of who understands
+
+861
+00:43:32,290 --> 00:43:33,580
+or doesn't understand.
+
+862
+00:43:33,580 --> 00:43:38,710
+If all I'm doing is
+lecturing I can't tell.
+
+863
+00:43:38,710 --> 00:43:41,530
+And I can ask do you
+understand, but they're not
+
+864
+00:43:41,530 --> 00:43:43,480
+likely to tell me.
+
+865
+00:43:43,480 --> 00:43:46,240
+Which is kind of the other
+point is that sometimes--
+
+866
+00:43:46,240 --> 00:43:48,580
+and I think you were
+alluding to this, Gordon--
+
+867
+00:43:48,580 --> 00:43:52,240
+that sometimes students don't
+know whether they understand
+
+868
+00:43:52,240 --> 00:43:54,040
+or not.
+
+869
+00:43:54,040 --> 00:43:57,880
+So we need to give them the
+opportunities to find out
+
+870
+00:43:57,880 --> 00:44:00,730
+whether they understand or not.
+
+871
+00:44:00,730 --> 00:44:03,310
+And arguably, if
+you're just lecturing
+
+872
+00:44:03,310 --> 00:44:05,560
+and you're a great lecturer--
+
+873
+00:44:05,560 --> 00:44:07,900
+you're eloquent,
+you don't stumble,
+
+874
+00:44:07,900 --> 00:44:11,710
+the writing on the board is
+awesome, all this stuff--
+
+875
+00:44:11,710 --> 00:44:14,350
+students will think
+they understand maybe
+
+876
+00:44:14,350 --> 00:44:17,830
+when they don't,
+because they're not
+
+877
+00:44:17,830 --> 00:44:19,840
+having to confront
+any misunderstanding,
+
+878
+00:44:19,840 --> 00:44:22,870
+and it all seems very nice.
+
+879
+00:44:22,870 --> 00:44:25,570
+So these activities where
+you actually have students
+
+880
+00:44:25,570 --> 00:44:27,460
+do something, say
+something, where
+
+881
+00:44:27,460 --> 00:44:30,220
+you ask them a specific
+question, that's
+
+882
+00:44:30,220 --> 00:44:34,255
+when you can determine whether
+or not they understand or not.
+
+883
+00:44:36,870 --> 00:44:38,690
+And because they are
+not likely to say
+
+884
+00:44:38,690 --> 00:44:41,270
+they don't understand,
+either because they just
+
+885
+00:44:41,270 --> 00:44:43,940
+don't want to admit it, or
+because they really don't know
+
+886
+00:44:43,940 --> 00:44:45,350
+whether they don't understand.
+
+887
+00:44:45,350 --> 00:44:48,586
+So you need to give them
+measurements to find out
+
+888
+00:44:48,586 --> 00:44:49,710
+whether they get it or not.
+
+889
+00:44:52,698 --> 00:44:53,198
+Yes.
+
+890
+00:44:53,198 --> 00:44:57,707
+AUDIENCE: Sometimes, for
+example lecture and the activity
+
+891
+00:44:57,707 --> 00:44:58,665
+has [INAUDIBLE].
+
+892
+00:44:58,665 --> 00:45:02,480
+For example, we have
+lectures and the teacher just
+
+893
+00:45:02,480 --> 00:45:05,206
+[INAUDIBLE] and then
+we have expectations
+
+894
+00:45:05,206 --> 00:45:07,288
+as we do exercises.
+
+895
+00:45:07,288 --> 00:45:12,054
+So do you recommend that
+we also do some activities
+
+896
+00:45:12,054 --> 00:45:15,000
+during the lecture
+or just [INAUDIBLE]?
+
+897
+00:45:15,000 --> 00:45:17,520
+JANET RANKIN: No, do
+them during lecture.
+
+898
+00:45:17,520 --> 00:45:20,040
+I mean, the model that
+we're trying to do here
+
+899
+00:45:20,040 --> 00:45:23,010
+is the model that you should
+do even if you have a hundred
+
+900
+00:45:23,010 --> 00:45:24,390
+or 200 people in your class.
+
+901
+00:45:24,390 --> 00:45:25,710
+You can use clickers.
+
+902
+00:45:25,710 --> 00:45:28,634
+You can use pair
+share discussions.
+
+903
+00:45:28,634 --> 00:45:30,550
+You can do all sorts of
+things to break it up,
+
+904
+00:45:30,550 --> 00:45:32,580
+and it's effective.
+
+905
+00:45:32,580 --> 00:45:35,850
+There's a paper coming
+up for next week,
+
+906
+00:45:35,850 --> 00:45:39,120
+a meta-analysis, active
+learning strategies,
+
+907
+00:45:39,120 --> 00:45:42,900
+how they actually, students
+learn more in a lecture
+
+908
+00:45:42,900 --> 00:45:45,630
+if you actually ask them
+to talk to each other,
+
+909
+00:45:45,630 --> 00:45:47,006
+break up, share, et cetera.
+
+910
+00:45:47,006 --> 00:45:49,380
+And I think when we talked
+about misconceptions, remember
+
+911
+00:45:49,380 --> 00:45:51,060
+that example with the coin?
+
+912
+00:45:51,060 --> 00:45:54,090
+How many students got it,
+could draw the free body
+
+913
+00:45:54,090 --> 00:45:57,180
+diagram before and after?
+
+914
+00:45:57,180 --> 00:46:01,650
+I mean, before and after
+in a straight lecture,
+
+915
+00:46:01,650 --> 00:46:03,450
+there's hardly
+any learning gain.
+
+916
+00:46:03,450 --> 00:46:05,760
+But if you incorporate
+active learning,
+
+917
+00:46:05,760 --> 00:46:07,090
+the learning gains go way up.
+
+918
+00:46:25,180 --> 00:46:26,830
+So that's Bloom's Taxonomy.
+
+919
+00:46:26,830 --> 00:46:29,830
+And an interesting take
+on Bloom's Taxonomy,
+
+920
+00:46:29,830 --> 00:46:32,320
+there's a woman,
+Kathy Schrock, who--
+
+921
+00:46:32,320 --> 00:46:34,390
+it's a nice website
+and the slides
+
+922
+00:46:34,390 --> 00:46:36,010
+we posted so you have the link--
+
+923
+00:46:36,010 --> 00:46:39,100
+but she decided, she has
+this theory that it's not
+
+924
+00:46:39,100 --> 00:46:40,720
+really so pyramidal.
+
+925
+00:46:40,720 --> 00:46:42,532
+That everything
+really is dependent,
+
+926
+00:46:42,532 --> 00:46:44,740
+these cognitive processes
+are dependent on each other
+
+927
+00:46:44,740 --> 00:46:45,770
+at a certain level.
+
+928
+00:46:45,770 --> 00:46:48,370
+And so she's drawn it as
+a gear, where everything
+
+929
+00:46:48,370 --> 00:46:50,740
+sort of supports
+the act of creating,
+
+930
+00:46:50,740 --> 00:46:51,900
+which is up at the top.
+
+931
+00:46:51,900 --> 00:46:54,760
+But the other ones are
+sort of around the side,
+
+932
+00:46:54,760 --> 00:47:00,130
+but they all contribute
+to the ultimate cognitive
+
+933
+00:47:00,130 --> 00:47:01,470
+process of creating.
+
+934
+00:47:01,470 --> 00:47:03,490
+So that might be a nice
+way to think about it.
+
+935
+00:47:03,490 --> 00:47:07,210
+And then she's taken the
+specific words, like analyzing,
+
+936
+00:47:07,210 --> 00:47:11,680
+and said, OK, what's
+an instantiation
+
+937
+00:47:11,680 --> 00:47:17,230
+of analyzing, outlining,
+deconstructing, organizing,
+
+938
+00:47:17,230 --> 00:47:19,030
+structuring,
+surveying, whatever?
+
+939
+00:47:19,030 --> 00:47:22,150
+So it's the same idea, it's
+just a different graphical
+
+940
+00:47:22,150 --> 00:47:23,446
+representation.
+
+941
+00:47:27,420 --> 00:47:29,970
+So what you've done is
+you've taken your topics,
+
+942
+00:47:29,970 --> 00:47:32,220
+put them in those
+cells in the table.
+
+943
+00:47:32,220 --> 00:47:37,380
+And I just want to point out
+kind of how as the instructor
+
+944
+00:47:37,380 --> 00:47:39,510
+you have a lot of
+power about where
+
+945
+00:47:39,510 --> 00:47:41,910
+you're putting those, where
+you've decided to put those.
+
+946
+00:47:41,910 --> 00:47:44,940
+And it may be different for
+a first year undergraduate
+
+947
+00:47:44,940 --> 00:47:48,195
+class, or a second or
+third year graduate course.
+
+948
+00:47:48,195 --> 00:47:51,420
+It could be the same
+topic, but you're
+
+949
+00:47:51,420 --> 00:47:54,540
+going to put them in
+a different category.
+
+950
+00:47:54,540 --> 00:47:56,820
+So that's why when I asked
+you to bring a topic,
+
+951
+00:47:56,820 --> 00:47:59,040
+it's for a specific class.
+
+952
+00:47:59,040 --> 00:48:02,014
+It's for a specific
+group of students.
+
+953
+00:48:02,014 --> 00:48:04,180
+So let's say we take the
+idea of interstitial sites.
+
+954
+00:48:04,180 --> 00:48:06,790
+So I have a
+crystalline structure,
+
+955
+00:48:06,790 --> 00:48:09,720
+it's got an order of
+periodicity of atoms.
+
+956
+00:48:09,720 --> 00:48:12,540
+And then I have spaces
+between the atoms,
+
+957
+00:48:12,540 --> 00:48:14,400
+those are the
+interstitial sites.
+
+958
+00:48:14,400 --> 00:48:16,742
+And so I could say you'll
+be able to identify
+
+959
+00:48:16,742 --> 00:48:17,700
+the interstitial sites.
+
+960
+00:48:17,700 --> 00:48:19,970
+So I could say where's
+the tetrahedral site
+
+961
+00:48:19,970 --> 00:48:22,950
+in a face-centered cubic
+or something, whatever?
+
+962
+00:48:22,950 --> 00:48:27,510
+And students just
+really have to find it.
+
+963
+00:48:27,510 --> 00:48:30,180
+I could say calculate
+the maximum size
+
+964
+00:48:30,180 --> 00:48:32,490
+of an interstitial
+atom that could occupy
+
+965
+00:48:32,490 --> 00:48:34,540
+that space, an ion
+that could occupy
+
+966
+00:48:34,540 --> 00:48:37,480
+that space in a particular
+crystal structure.
+
+967
+00:48:37,480 --> 00:48:40,560
+So those are two very
+different levels,
+
+968
+00:48:40,560 --> 00:48:43,650
+but it's the same topic.
+
+969
+00:48:43,650 --> 00:48:46,830
+X-ray diffraction, I could
+say apply Bragg's Law
+
+970
+00:48:46,830 --> 00:48:49,440
+to calculate d-spacing.
+
+971
+00:48:49,440 --> 00:48:52,770
+So that's very much a turn
+the crank kind of thing.
+
+972
+00:48:52,770 --> 00:48:54,540
+I know the equation
+for Bragg's Law,
+
+973
+00:48:54,540 --> 00:48:56,375
+I stick things in, I
+solve for the unknown.
+
+974
+00:49:00,350 --> 00:49:03,280
+I could then also ask you
+to index unknown diffraction
+
+975
+00:49:03,280 --> 00:49:07,670
+patterns, meaning identify an
+unknown crystal structure based
+
+976
+00:49:07,670 --> 00:49:09,470
+on the diffraction pattern.
+
+977
+00:49:09,470 --> 00:49:12,500
+That's a completely
+different activity,
+
+978
+00:49:12,500 --> 00:49:14,720
+completely different
+set of cognitive
+
+979
+00:49:14,720 --> 00:49:18,180
+processes than just
+using Bragg's Law.
+
+980
+00:49:18,180 --> 00:49:20,890
+But you have to
+decide what it is.
+
+981
+00:49:20,890 --> 00:49:24,419
+And arguably, if all you've had
+students do during the class is
+
+982
+00:49:24,419 --> 00:49:26,710
+sort of problems that they
+applied Bragg's Law and they
+
+983
+00:49:26,710 --> 00:49:29,210
+solved for d-spacing-- so they
+solved for the incident angle
+
+984
+00:49:29,210 --> 00:49:32,500
+or they solved for the
+wavelength or whatever it is--
+
+985
+00:49:32,500 --> 00:49:38,761
+you really can't throw this
+at them on the exam, right?
+
+986
+00:49:38,761 --> 00:49:41,260
+Or conversely, if you spent the
+whole time, they've indexed,
+
+987
+00:49:41,260 --> 00:49:44,860
+they've been in the lab indexing
+unknown diffraction patterns,
+
+988
+00:49:44,860 --> 00:49:48,050
+and then this is the question
+you ask them on the exam.
+
+989
+00:49:48,050 --> 00:49:51,580
+Well, then you have people that
+perhaps get it without really,
+
+990
+00:49:51,580 --> 00:49:53,680
+perhaps pass the exam
+without really getting it.
+
+991
+00:49:53,680 --> 00:49:57,530
+So that's just something
+to keep in mind.
+
+992
+00:49:57,530 --> 00:50:00,880
+The other thing to
+note is let's say
+
+993
+00:50:00,880 --> 00:50:03,424
+this is my intended
+learning outcome--
+
+994
+00:50:03,424 --> 00:50:05,590
+calculate the maximum size
+of the interstitial atoms
+
+995
+00:50:05,590 --> 00:50:09,400
+in a variety of
+crystal structures.
+
+996
+00:50:09,400 --> 00:50:11,530
+How do I know whether
+students get that or not?
+
+997
+00:50:16,641 --> 00:50:17,140
+What's that?
+
+998
+00:50:17,140 --> 00:50:17,973
+AUDIENCE: It's easy.
+
+999
+00:50:17,973 --> 00:50:19,960
+JANET RANKIN: It's very easy.
+
+1000
+00:50:19,960 --> 00:50:21,916
+I give them a crystal
+structure and I say
+
+1001
+00:50:21,916 --> 00:50:23,665
+calculate the maximum
+size of the ion that
+
+1002
+00:50:23,665 --> 00:50:25,270
+can fit in the space.
+
+1003
+00:50:25,270 --> 00:50:30,270
+So I have figured out how, the
+measurement is easy, it's cake.
+
+1004
+00:50:30,270 --> 00:50:34,240
+It's totally straightforward.
+
+1005
+00:50:34,240 --> 00:50:36,960
+Now I haven't told them, OK, I'm
+going to give you this crystal
+
+1006
+00:50:36,960 --> 00:50:38,376
+structure and I'm
+going to ask you
+
+1007
+00:50:38,376 --> 00:50:44,250
+this spacing, this ion size.
+
+1008
+00:50:44,250 --> 00:50:46,552
+I haven't given it
+away, but I have told
+
+1009
+00:50:46,552 --> 00:50:47,760
+them what's expected of them.
+
+1010
+00:50:51,080 --> 00:50:55,870
+And my colleague wrote
+these for VSEPR theory.
+
+1011
+00:50:55,870 --> 00:50:59,360
+It's the same topic,
+and it's different.
+
+1012
+00:50:59,360 --> 00:51:01,040
+Identify the common
+geometric shapes
+
+1013
+00:51:01,040 --> 00:51:02,630
+found in simple molecules.
+
+1014
+00:51:02,630 --> 00:51:05,360
+Explain the assumptions
+of this theory.
+
+1015
+00:51:05,360 --> 00:51:08,960
+Apply the theory to
+predict 3D structures.
+
+1016
+00:51:08,960 --> 00:51:12,320
+Compare and contrast the
+geometry of a certain molecule
+
+1017
+00:51:12,320 --> 00:51:15,920
+as predicted by two
+different theories.
+
+1018
+00:51:15,920 --> 00:51:19,380
+Evaluate the accuracy
+of each theory
+
+1019
+00:51:19,380 --> 00:51:21,290
+for a particular
+set of compounds,
+
+1020
+00:51:21,290 --> 00:51:23,550
+and then create some
+recommendations.
+
+1021
+00:51:23,550 --> 00:51:27,590
+So it's the same
+topic, but you decide
+
+1022
+00:51:27,590 --> 00:51:31,220
+what it is that students
+should be able to do.
+
+1023
+00:51:31,220 --> 00:51:32,840
+OK?
+
+1024
+00:51:32,840 --> 00:51:38,210
+So I have some, just a
+little exercise for us.
+
+1025
+00:51:38,210 --> 00:51:41,162
+So they should be specific,
+measurable, realistic.
+
+1026
+00:51:41,162 --> 00:51:43,370
+I'm going to put them up
+here and we're going to say,
+
+1027
+00:51:43,370 --> 00:51:46,890
+you're going to tell me
+what's wrong with them.
+
+1028
+00:51:46,890 --> 00:51:51,890
+So number one, t-tests are
+like a statistical analysis.
+
+1029
+00:51:51,890 --> 00:51:55,940
+So is anybody a
+t-test kind of person?
+
+1030
+00:51:55,940 --> 00:51:58,400
+We can skip that one.
+
+1031
+00:51:58,400 --> 00:52:00,320
+How about gaining
+appreciation for the use
+
+1032
+00:52:00,320 --> 00:52:02,930
+of linearization techniques?
+
+1033
+00:52:02,930 --> 00:52:05,491
+What's wrong with it?
+
+1034
+00:52:05,491 --> 00:52:08,330
+AUDIENCE: It's not specific.
+
+1035
+00:52:08,330 --> 00:52:10,524
+JANET RANKIN: It's not specific.
+
+1036
+00:52:10,524 --> 00:52:12,112
+AUDIENCE: It's not measurable.
+
+1037
+00:52:12,112 --> 00:52:14,510
+JANET RANKIN: It's totally
+not measurable, exactly.
+
+1038
+00:52:14,510 --> 00:52:18,900
+I mean, how do I know
+that you appreciate it?
+
+1039
+00:52:18,900 --> 00:52:21,250
+Don't do it.
+
+1040
+00:52:21,250 --> 00:52:21,750
+All right.
+
+1041
+00:52:21,750 --> 00:52:23,520
+Great.
+
+1042
+00:52:23,520 --> 00:52:26,850
+Have an intuition for the most
+effective method of integration
+
+1043
+00:52:26,850 --> 00:52:28,770
+for a given problem.
+
+1044
+00:52:28,770 --> 00:52:30,770
+AUDIENCE: It's vague.
+
+1045
+00:52:30,770 --> 00:52:33,996
+It's not measurable.
+
+1046
+00:52:33,996 --> 00:52:36,720
+JANET RANKIN: So I've
+heard it's not specific,
+
+1047
+00:52:36,720 --> 00:52:39,340
+it's not measurable,
+and it's not vague,
+
+1048
+00:52:39,340 --> 00:52:40,650
+I mean, and it's vague.
+
+1049
+00:52:40,650 --> 00:52:46,320
+So right, so have an intuition,
+I cannot measure that.
+
+1050
+00:52:46,320 --> 00:52:50,350
+I have not figured out a
+way to measure intuition.
+
+1051
+00:52:50,350 --> 00:52:55,290
+I can tell whether
+you can do it, right,
+
+1052
+00:52:55,290 --> 00:53:00,060
+but I can't tell you whether
+you have an intuition for it.
+
+1053
+00:53:00,060 --> 00:53:01,860
+Well, how would you rewrite it?
+
+1054
+00:53:01,860 --> 00:53:03,317
+Actually, how would
+you rewrite 2?
+
+1055
+00:53:06,796 --> 00:53:14,081
+AUDIENCE: Use [INAUDIBLE]
+
+1056
+00:53:14,081 --> 00:53:18,430
+JANET RANKIN: So it could
+be use the techniques.
+
+1057
+00:53:18,430 --> 00:53:19,542
+Another suggestion?
+
+1058
+00:53:19,542 --> 00:53:22,175
+AUDIENCE: Make something using
+the evaluation techniques.
+
+1059
+00:53:22,175 --> 00:53:23,790
+JANET RANKIN:
+Calculate something.
+
+1060
+00:53:23,790 --> 00:53:27,570
+Make a first pass estimate
+using a particular linearization
+
+1061
+00:53:27,570 --> 00:53:28,418
+technique.
+
+1062
+00:53:28,418 --> 00:53:30,626
+AUDIENCE: Describe when you
+would use a linearization
+
+1063
+00:53:30,626 --> 00:53:31,092
+technique.
+
+1064
+00:53:31,092 --> 00:53:32,633
+JANET RANKIN: Describe
+when you would
+
+1065
+00:53:32,633 --> 00:53:36,300
+use it, describe why you would
+use it, all of those things.
+
+1066
+00:53:36,300 --> 00:53:41,706
+AUDIENCE: List those
+areas where [INAUDIBLE]
+
+1067
+00:53:41,706 --> 00:53:46,680
+JANET RANKIN: List the areas
+where it's useful, yes.
+
+1068
+00:53:46,680 --> 00:53:47,330
+Great.
+
+1069
+00:53:47,330 --> 00:53:47,830
+All right.
+
+1070
+00:53:47,830 --> 00:53:49,770
+For number 3, the
+gain an intuition,
+
+1071
+00:53:49,770 --> 00:53:51,780
+we decided it's vague,
+it's not measurable.
+
+1072
+00:53:54,540 --> 00:53:55,770
+So how would you rewrite it?
+
+1073
+00:54:03,658 --> 00:54:05,630
+AUDIENCE: Compare.
+
+1074
+00:54:05,630 --> 00:54:11,570
+Compare the areas integration
+technique [INAUDIBLE]
+
+1075
+00:54:11,570 --> 00:54:14,195
+Solve a particular problem using
+different kind of [INAUDIBLE].
+
+1076
+00:54:14,195 --> 00:54:14,990
+JANET RANKIN: OK.
+
+1077
+00:54:14,990 --> 00:54:20,660
+So solve a problem, and
+then we need a little more.
+
+1078
+00:54:20,660 --> 00:54:21,635
+Did you have something?
+
+1079
+00:54:21,635 --> 00:54:24,252
+AUDIENCE: Identify the
+most effective method of--
+
+1080
+00:54:30,060 --> 00:54:32,060
+JANET RANKIN: Let's hear
+what Rachel had to say.
+
+1081
+00:54:32,060 --> 00:54:32,559
+Rachel.
+
+1082
+00:54:32,559 --> 00:54:33,326
+AUDIENCE: Yeah.
+
+1083
+00:54:33,326 --> 00:54:37,977
+Learn how to identify
+the simplest [INAUDIBLE].
+
+1084
+00:54:37,977 --> 00:54:38,810
+JANET RANKIN: Right.
+
+1085
+00:54:38,810 --> 00:54:41,570
+So you probably don't
+want to say learn how.
+
+1086
+00:54:41,570 --> 00:54:44,230
+You would say be
+able to identify.
+
+1087
+00:54:44,230 --> 00:54:44,800
+Right?
+
+1088
+00:54:44,800 --> 00:54:45,300
+Gordon.
+
+1089
+00:54:45,300 --> 00:54:55,467
+AUDIENCE: [INAUDIBLE]
+
+1090
+00:54:55,467 --> 00:54:56,300
+JANET RANKIN: Right.
+
+1091
+00:54:56,300 --> 00:55:01,560
+I mean, you could
+just say integrate--
+
+1092
+00:55:01,560 --> 00:55:02,910
+AUDIENCE: [INAUDIBLE]
+
+1093
+00:55:02,910 --> 00:55:06,120
+JANET RANKIN: Integrate
+a problem using whatever.
+
+1094
+00:55:06,120 --> 00:55:13,280
+Select a technique to integrate
+a particular equation.
+
+1095
+00:55:16,860 --> 00:55:20,490
+And again, those things end
+up being more measurable.
+
+1096
+00:55:20,490 --> 00:55:24,330
+So 4, provide problem
+solving tools and strategies.
+
+1097
+00:55:24,330 --> 00:55:25,483
+What's wrong with that one?
+
+1098
+00:55:25,483 --> 00:55:26,765
+AUDIENCE: It's too wide.
+
+1099
+00:55:26,765 --> 00:55:27,956
+JANET RANKIN: It's too wide.
+
+1100
+00:55:27,956 --> 00:55:29,856
+AUDIENCE: It's
+instructor centered.
+
+1101
+00:55:29,856 --> 00:55:32,760
+JANET RANKIN: It's
+instructor centered.
+
+1102
+00:55:32,760 --> 00:55:33,376
+What else?
+
+1103
+00:55:33,376 --> 00:55:36,372
+AUDIENCE: But it's measurable.
+
+1104
+00:55:36,372 --> 00:55:38,580
+JANET RANKIN: Well, I can
+measure that I provided it.
+
+1105
+00:55:38,580 --> 00:55:41,690
+Here, I provided
+these handouts, right?
+
+1106
+00:55:41,690 --> 00:55:42,390
+OK.
+
+1107
+00:55:42,390 --> 00:55:43,590
+Check.
+
+1108
+00:55:43,590 --> 00:55:44,990
+It happened.
+
+1109
+00:55:44,990 --> 00:55:47,040
+Whether or not you could
+do anything with them,
+
+1110
+00:55:47,040 --> 00:55:50,199
+I don't know at
+this point, right?
+
+1111
+00:55:50,199 --> 00:55:50,990
+That's the problem.
+
+1112
+00:55:50,990 --> 00:55:53,833
+AUDIENCE: It doesn't tell
+us what kind of problem
+
+1113
+00:55:53,833 --> 00:55:55,920
+and what kind of tools
+we're going to use.
+
+1114
+00:55:55,920 --> 00:55:57,795
+Just who gets to
+choose the strategies.
+
+1115
+00:55:57,795 --> 00:55:59,290
+JANET RANKIN: Right.
+
+1116
+00:55:59,290 --> 00:55:59,790
+Right.
+
+1117
+00:55:59,790 --> 00:56:02,520
+It's very, very general,
+totally not specific.
+
+1118
+00:56:02,520 --> 00:56:04,230
+So what could we do?
+
+1119
+00:56:04,230 --> 00:56:06,750
+I mean, we don't know what
+this instructor had in mind,
+
+1120
+00:56:06,750 --> 00:56:08,700
+but what could you do
+if this was your class?
+
+1121
+00:56:08,700 --> 00:56:09,491
+What would you say?
+
+1122
+00:56:09,491 --> 00:56:11,685
+AUDIENCE: What about
+develop instead of provide?
+
+1123
+00:56:11,685 --> 00:56:13,890
+JANET RANKIN: Develop.
+
+1124
+00:56:13,890 --> 00:56:15,930
+And again, it would have
+to be student centered,
+
+1125
+00:56:15,930 --> 00:56:19,470
+so the student will be
+able to develop problem
+
+1126
+00:56:19,470 --> 00:56:21,540
+solving tools and strategies.
+
+1127
+00:56:21,540 --> 00:56:24,900
+That's for x, exactly.
+
+1128
+00:56:24,900 --> 00:56:28,620
+We want to make it a little
+more specific and a little more
+
+1129
+00:56:28,620 --> 00:56:32,580
+focused, because
+that's pretty broad.
+
+1130
+00:56:32,580 --> 00:56:34,219
+I mean, I have
+developed a problem
+
+1131
+00:56:34,219 --> 00:56:35,760
+solving strategy
+that lets me get out
+
+1132
+00:56:35,760 --> 00:56:38,190
+the door without tripping.
+
+1133
+00:56:38,190 --> 00:56:41,340
+Does that mean I satisfied
+your learning outcomes?
+
+1134
+00:56:41,340 --> 00:56:44,070
+Probably not.
+
+1135
+00:56:44,070 --> 00:56:48,570
+So in order to do something--
+
+1136
+00:56:48,570 --> 00:56:51,000
+Use thermodynamics to
+solve engineering problems.
+
+1137
+00:56:56,536 --> 00:56:58,675
+AUDIENCE: That's not
+specific as well.
+
+1138
+00:56:58,675 --> 00:57:00,725
+JANET RANKIN: It's
+not specific at all.
+
+1139
+00:57:00,725 --> 00:57:04,209
+AUDIENCE: Engineering
+is [INAUDIBLE].
+
+1140
+00:57:04,209 --> 00:57:05,000
+JANET RANKIN: Yeah.
+
+1141
+00:57:05,000 --> 00:57:08,240
+I mean, it's crazy broad on
+a number of fronts, right?
+
+1142
+00:57:08,240 --> 00:57:10,280
+I mean, it's like
+engineering is huge.
+
+1143
+00:57:10,280 --> 00:57:12,680
+Thermodynamics is
+pretty darn big, too.
+
+1144
+00:57:12,680 --> 00:57:18,240
+So which part of thermodynamics,
+which part of engineering?
+
+1145
+00:57:21,750 --> 00:57:23,503
+Build an SAE race car.
+
+1146
+00:57:23,503 --> 00:57:24,489
+AUDIENCE: [INAUDIBLE]
+
+1147
+00:57:24,489 --> 00:57:25,475
+JANET RANKIN: What?
+
+1148
+00:57:28,433 --> 00:57:29,907
+AUDIENCE: It's not realistic.
+
+1149
+00:57:29,907 --> 00:57:30,740
+JANET RANKIN: Right.
+
+1150
+00:57:30,740 --> 00:57:32,660
+It's pretty specific.
+
+1151
+00:57:32,660 --> 00:57:34,910
+Build a functioning
+SAE race car.
+
+1152
+00:57:34,910 --> 00:57:38,000
+It's very specific,
+and I can totally
+
+1153
+00:57:38,000 --> 00:57:40,292
+think of the metric
+of how I would measure
+
+1154
+00:57:40,292 --> 00:57:41,500
+whether students could do it.
+
+1155
+00:57:41,500 --> 00:57:43,730
+I would just ask them
+to build the race car.
+
+1156
+00:57:43,730 --> 00:57:45,860
+But they're never going
+to do it in a class,
+
+1157
+00:57:45,860 --> 00:57:48,230
+in one class period,
+in one course.
+
+1158
+00:57:48,230 --> 00:57:51,920
+It's unrealistic, exactly.
+
+1159
+00:57:51,920 --> 00:57:54,200
+Learn to use Laplace
+transforms to solve
+
+1160
+00:57:54,200 --> 00:57:56,234
+differential equations.
+
+1161
+00:57:56,234 --> 00:57:59,433
+AUDIENCE: [INAUDIBLE]
+
+1162
+00:57:59,433 --> 00:58:02,010
+JANET RANKIN: It's funny.
+
+1163
+00:58:02,010 --> 00:58:04,900
+I mean, you can
+imagine the instructor
+
+1164
+00:58:04,900 --> 00:58:07,530
+saying you will
+learn to use that.
+
+1165
+00:58:07,530 --> 00:58:13,580
+But let's go, Katherine, work
+your magic with this one.
+
+1166
+00:58:16,564 --> 00:58:23,452
+AUDIENCE: [INAUDIBLE]
+
+1167
+00:58:23,452 --> 00:58:24,475
+JANET RANKIN: Right.
+
+1168
+00:58:24,475 --> 00:58:26,600
+You're my go-to person for
+when you want to get rid
+
+1169
+00:58:26,600 --> 00:58:27,869
+of all the extra words.
+
+1170
+00:58:27,869 --> 00:58:28,910
+I'm going to call on you.
+
+1171
+00:58:28,910 --> 00:58:29,410
+Right.
+
+1172
+00:58:29,410 --> 00:58:31,995
+Use Laplace transforms.
+
+1173
+00:58:31,995 --> 00:58:32,870
+That you can measure.
+
+1174
+00:58:32,870 --> 00:58:34,760
+You can give them
+an equation and see
+
+1175
+00:58:34,760 --> 00:58:38,459
+if they can use Laplace
+transforms to solve it.
+
+1176
+00:58:38,459 --> 00:58:40,250
+And yes, you might want
+to be a little more
+
+1177
+00:58:40,250 --> 00:58:42,541
+specific about the kinds of
+differential equations they
+
+1178
+00:58:42,541 --> 00:58:48,415
+use, and know how to upper
+diagonalize a matrix.
+
+1179
+00:58:51,090 --> 00:58:52,207
+Katherine.
+
+1180
+00:58:52,207 --> 00:58:52,706
+AUDIENCE: .
+
+1181
+00:58:52,706 --> 00:58:55,600
+Upper diagonalize a matrix.
+
+1182
+00:58:55,600 --> 00:58:58,300
+JANET RANKIN: Upper
+diagonalize a matrix.
+
+1183
+00:58:58,300 --> 00:58:59,770
+That's all you
+have to say, right?
+
+1184
+00:58:59,770 --> 00:59:02,620
+Forget the extra words.
+
+1185
+00:59:02,620 --> 00:59:06,610
+And that is really, I have just
+written the assessment question
+
+1186
+00:59:06,610 --> 00:59:07,510
+for that.
+
+1187
+00:59:07,510 --> 00:59:10,060
+I know it's totally measurable.
+
+1188
+00:59:10,060 --> 00:59:13,780
+I give you a matrix and I ask
+you to upper diagonalize it.
+
+1189
+00:59:13,780 --> 00:59:16,330
+I haven't given it away.
+
+1190
+00:59:16,330 --> 00:59:19,860
+I haven't told you you will
+upper diagonalize this matrix,
+
+1191
+00:59:19,860 --> 00:59:20,560
+right?
+
+1192
+00:59:20,560 --> 00:59:22,450
+Memorize these
+equations that you're
+
+1193
+00:59:22,450 --> 00:59:25,480
+going to need to write down in
+order to upper diagonalize it.
+
+1194
+00:59:25,480 --> 00:59:29,440
+But I have told you that
+that's what's expected of you.
+
+1195
+00:59:29,440 --> 00:59:31,238
+AUDIENCE: I have
+a comment on it.
+
+1196
+00:59:31,238 --> 00:59:33,733
+It's pretty useful
+when a student
+
+1197
+00:59:33,733 --> 00:59:36,730
+is trying to evaluate
+the use of the class.
+
+1198
+00:59:36,730 --> 00:59:41,226
+For example, the career
+fair tomorrow [INAUDIBLE].
+
+1199
+00:59:41,226 --> 00:59:43,218
+There's a million
+[INAUDIBLE] to get jobs.
+
+1200
+00:59:43,218 --> 00:59:45,210
+OK, how are they
+going to evaluate me?
+
+1201
+00:59:45,210 --> 00:59:46,635
+And if you could
+come in and say,
+
+1202
+00:59:46,635 --> 00:59:48,297
+this happened and
+this is what we
+
+1203
+00:59:48,297 --> 00:59:51,560
+did, as opposed to
+having, or have them
+
+1204
+00:59:51,560 --> 00:59:53,269
+evaluate me on some
+random knowledge.
+
+1205
+00:59:53,269 --> 00:59:55,060
+And then I don't know
+that I could respond,
+
+1206
+00:59:55,060 --> 00:59:58,880
+but I do know stuff.
+
+1207
+00:59:58,880 --> 01:00:02,526
+So this is really helpful
+in kind of a broader sense.
+
+1208
+01:00:02,526 --> 01:00:03,801
+JANET RANKIN: Right.
+
+1209
+01:00:03,801 --> 01:00:04,300
+Great.
+
+1210
+01:00:04,300 --> 01:00:04,900
+No, I'm glad.
+
+1211
+01:00:04,900 --> 01:00:06,530
+And I think it's so true.
+
+1212
+01:00:06,530 --> 01:00:09,880
+And people often think,
+well, you're giving it away.
+
+1213
+01:00:09,880 --> 01:00:11,710
+But you're not
+giving anything away.
+
+1214
+01:00:11,710 --> 01:00:14,020
+You're just telling
+them the expectations.
+
+1215
+01:00:14,020 --> 01:00:15,880
+You're not giving
+them the problems,
+
+1216
+01:00:15,880 --> 01:00:20,350
+you're not teaching to the test,
+but you're just telling them
+
+1217
+01:00:20,350 --> 01:00:26,290
+what they're going to be able
+to do at the kind of high level,
+
+1218
+01:00:26,290 --> 01:00:28,816
+or medium level.
+
+1219
+01:00:28,816 --> 01:00:30,940
+You're telling what they're
+going to be able to do.
+
+1220
+01:00:30,940 --> 01:00:33,310
+I will say-- so ABET,
+the Accreditation Board
+
+1221
+01:00:33,310 --> 01:00:35,050
+for Engineering Teaching--
+
+1222
+01:00:35,050 --> 01:00:38,170
+every accredited engineering
+program has to list,
+
+1223
+01:00:38,170 --> 01:00:40,352
+they have A through K outcomes.
+
+1224
+01:00:40,352 --> 01:00:41,560
+And if you look it up, ABET--
+
+1225
+01:00:44,230 --> 01:00:48,010
+and I'm sure you see
+us as accredited--
+
+1226
+01:00:48,010 --> 01:00:54,870
+if you look up,
+they have to, they
+
+1227
+01:00:54,870 --> 01:00:57,060
+used to do a lot
+more bean counting.
+
+1228
+01:00:57,060 --> 01:00:59,100
+But what they would
+do is the outcomes
+
+1229
+01:00:59,100 --> 01:01:04,340
+would be critical thinking
+and problem solving skills,
+
+1230
+01:01:04,340 --> 01:01:06,420
+and they were a
+little bit broad.
+
+1231
+01:01:06,420 --> 01:01:08,910
+But every department
+that got accredited
+
+1232
+01:01:08,910 --> 01:01:14,130
+had to show how various courses
+contributed to the outcomes.
+
+1233
+01:01:14,130 --> 01:01:19,350
+So somewhere in your department
+should be a pretty detailed
+
+1234
+01:01:19,350 --> 01:01:22,770
+list of how 6 double
+00 whatever, did this.
+
+1235
+01:01:22,770 --> 01:01:23,980
+Or 6 yada, yada--
+
+1236
+01:01:23,980 --> 01:01:25,705
+I know your grad
+students-- but did this.
+
+1237
+01:01:25,705 --> 01:01:27,330
+The problem is they
+don't have to do it
+
+1238
+01:01:27,330 --> 01:01:28,440
+for grad student courses.
+
+1239
+01:01:28,440 --> 01:01:32,430
+But it might be helpful if you
+looked at that, because I would
+
+1240
+01:01:32,430 --> 01:01:34,770
+imagine that sometimes
+the recruiters would
+
+1241
+01:01:34,770 --> 01:01:38,550
+be looking at that information,
+so that might be a commonality.
+
+1242
+01:01:38,550 --> 01:01:42,240
+But every program in the US
+that's accredited has to have,
+
+1243
+01:01:42,240 --> 01:01:46,270
+show at least how they've
+addressed those outcomes.
+
+1244
+01:01:46,270 --> 01:01:48,441
+So you might want to
+take a look at that.
+
+1245
+01:01:48,441 --> 01:01:50,190
+But yeah, if it was a
+little more explicit
+
+1246
+01:01:50,190 --> 01:01:51,437
+it would certainly be better.
+
+1247
+01:01:51,437 --> 01:01:52,520
+And I'm glad it's helpful.
+
+1248
+01:01:55,290 --> 01:01:57,240
+So I think we can
+see, you can start
+
+1249
+01:01:57,240 --> 01:02:00,150
+to see how there are better
+and worse learning outcomes,
+
+1250
+01:02:00,150 --> 01:02:03,840
+that if they're not measurable
+they're not so useful.
+
+1251
+01:02:03,840 --> 01:02:06,580
+If they are measurable,
+they're quite useful.
+
+1252
+01:02:06,580 --> 01:02:12,620
+So now what I'd like to do
+is revisit the worksheet.
+
+1253
+01:02:12,620 --> 01:02:16,470
+And what we can
+do is we're going
+
+1254
+01:02:16,470 --> 01:02:20,490
+to take about five minutes
+where you just sit quietly
+
+1255
+01:02:20,490 --> 01:02:25,720
+and write out specific
+intended learning outcomes.
+
+1256
+01:02:25,720 --> 01:02:29,160
+So you'll be able to upper
+diagonalize a matrix,
+
+1257
+01:02:29,160 --> 01:02:33,180
+you will be able to
+use Laplace transforms
+
+1258
+01:02:33,180 --> 01:02:35,790
+to solve this type of
+differential equation,
+
+1259
+01:02:35,790 --> 01:02:39,450
+whatever you've
+written in this column.
+
+1260
+01:02:39,450 --> 01:02:41,460
+And note that if you
+put it in this column,
+
+1261
+01:02:41,460 --> 01:02:43,470
+let's say you put it
+in the apply column,
+
+1262
+01:02:43,470 --> 01:02:46,110
+then when you write the learning
+outcome it's going to be you
+
+1263
+01:02:46,110 --> 01:02:51,870
+will be able to interpret
+data using blah, blah, blah.
+
+1264
+01:02:51,870 --> 01:03:01,380
+You will be able to model
+the vibration, model a car
+
+1265
+01:03:01,380 --> 01:03:04,770
+suspension system using
+linearization techniques.
+
+1266
+01:03:04,770 --> 01:03:08,280
+They're going to be whatever,
+wherever you put it in the box.
+
+1267
+01:03:08,280 --> 01:03:09,750
+These are some of
+the verbs, these
+
+1268
+01:03:09,750 --> 01:03:13,295
+are the verbs you're going to
+use in your learning outcome.
+
+1269
+01:03:13,295 --> 01:03:14,170
+Does that make sense?
+
+1270
+01:03:17,050 --> 01:03:20,740
+And I have even more verbs
+for you if that's helpful.
+
+1271
+01:03:20,740 --> 01:03:22,401
+Did I pass those out?
+
+1272
+01:03:22,401 --> 01:03:23,275
+You got those, right?
+
+1273
+01:03:23,275 --> 01:03:23,980
+AUDIENCE: Yeah.
+
+1274
+01:03:23,980 --> 01:03:25,480
+JANET RANKIN: So
+there's more verbs.
+
+1275
+01:03:25,480 --> 01:03:26,950
+It's the same thing.
+
+1276
+01:03:26,950 --> 01:03:28,960
+I mean, it's consistent.
+
+1277
+01:03:28,960 --> 01:03:31,000
+So take five minutes by
+yourself and do that.
+
+1278
+01:03:31,000 --> 01:03:33,220
+And then you're going
+to get into pairs
+
+1279
+01:03:33,220 --> 01:03:35,380
+and you're going to discuss.
+
+1280
+01:03:35,380 --> 01:03:38,320
+You're going to trade worksheets
+and give each other feedback.
+
+1281
+01:03:38,320 --> 01:03:38,980
+All right?
+
+1282
+01:03:38,980 --> 01:03:44,310
+So five minutes of quiet
+and then we'll pair up.
+
+1283
+01:04:03,540 --> 01:04:06,655
+So if you can pair up,
+you don't necessarily
+
+1284
+01:04:06,655 --> 01:04:09,030
+have to pair up with people
+that are sitting next to you.
+
+1285
+01:04:09,030 --> 01:04:12,060
+You might want to get a
+different perspective,
+
+1286
+01:04:12,060 --> 01:04:13,785
+so feel free to get
+up and move around.
+
+1287
+01:04:13,785 --> 01:04:16,780
+You can talk to somebody
+that wasn't in your group.
+
+1288
+01:04:16,780 --> 01:04:19,330
+So maybe if you go back
+and talk with Alex, maybe.
+
+1289
+01:04:19,330 --> 01:04:20,890
+We need one group of three.
+
+1290
+01:04:20,890 --> 01:04:22,810
+Oh, are you a group of three?
+
+1291
+01:04:22,810 --> 01:04:28,740
+So now just trade sheets
+of paper with your partner,
+
+1292
+01:04:28,740 --> 01:04:33,670
+or if you're a threesome you
+can figure out how to do it.
+
+1293
+01:04:33,670 --> 01:04:38,010
+And then review the learning
+outcomes critically.
+
+1294
+01:04:38,010 --> 01:04:40,710
+Guys, just one sec.
+
+1295
+01:04:40,710 --> 01:04:43,530
+So just review your partner's
+learning outcomes critically.
+
+1296
+01:04:43,530 --> 01:04:45,570
+Make sure that they're
+measurable, realistic,
+
+1297
+01:04:45,570 --> 01:04:46,650
+and specific.
+
+1298
+01:04:46,650 --> 01:04:48,210
+If your partner
+has used the word
+
+1299
+01:04:48,210 --> 01:04:50,910
+understand, help him or
+her work through that
+
+1300
+01:04:50,910 --> 01:04:53,340
+to get a better word.
+
+1301
+01:04:53,340 --> 01:04:56,820
+So you're going to be
+a critical friend here.
+
+1302
+01:04:56,820 --> 01:04:59,730
+And then you guys can
+discuss how to improve it.
+
+1303
+01:04:59,730 --> 01:05:02,640
+And then I'm going to pass
+around some flip chart paper
+
+1304
+01:05:02,640 --> 01:05:05,880
+and each one of you
+will write, maybe
+
+1305
+01:05:05,880 --> 01:05:08,310
+just write your name at the
+top, and write two or three
+
+1306
+01:05:08,310 --> 01:05:10,534
+learning outcomes on
+the flip chart paper.
+
+1307
+01:05:10,534 --> 01:05:12,450
+And then we can stick
+them up around the room,
+
+1308
+01:05:12,450 --> 01:05:14,580
+and then everybody can
+see everybody else's,
+
+1309
+01:05:14,580 --> 01:05:16,652
+all learning outcomes.
+
+1310
+01:05:16,652 --> 01:05:21,170
+[INTERPOSING VOICES]
+
+1311
+01:05:22,587 --> 01:05:24,045
+JANET RANKIN: Was
+there a question?
+
+1312
+01:05:24,045 --> 01:05:24,753
+AUDIENCE: Oh, no.
+
+1313
+01:05:24,753 --> 01:05:25,600
+I just think--
+
+1314
+01:05:25,600 --> 01:05:27,320
+AUDIENCE: I think [INAUDIBLE].
+
+1315
+01:05:32,800 --> 01:05:35,340
+JANET RANKIN: How
+are you guys doing?
+
+1316
+01:05:35,340 --> 01:05:37,950
+Doing OK?
+
+1317
+01:05:37,950 --> 01:05:41,868
+[INTERPOSING VOICES]
+
+1318
+01:05:58,286 --> 01:06:01,470
+JANET RANKIN: So you can use
+this zone if you need it.
+
+1319
+01:06:05,490 --> 01:06:08,160
+As you're looking
+at other people's
+
+1320
+01:06:08,160 --> 01:06:11,910
+learning outcomes,
+think about how clear,
+
+1321
+01:06:11,910 --> 01:06:14,130
+how easy it would
+be, or not easy,
+
+1322
+01:06:14,130 --> 01:06:17,130
+to come up with an exam
+question, or a project,
+
+1323
+01:06:17,130 --> 01:06:20,070
+or an assessment or
+measurement of whether
+
+1324
+01:06:20,070 --> 01:06:23,580
+or not the student reached,
+attained the learning outcome.
+
+1325
+01:06:23,580 --> 01:06:25,630
+You can put them up
+here, Ina and Shau.
+
+1326
+01:06:34,841 --> 01:06:35,340
+OK.
+
+1327
+01:06:35,340 --> 01:06:37,810
+And as I said, make sure that
+you've read everybody else's.
+
+1328
+01:06:37,810 --> 01:06:40,750
+I'm going to say a
+few words about them.
+
+1329
+01:06:45,550 --> 01:06:47,500
+I think we may have a record.
+
+1330
+01:06:47,500 --> 01:06:51,400
+This is like the first
+time ever that no one
+
+1331
+01:06:51,400 --> 01:06:54,850
+has used the word
+understand, which I think
+
+1332
+01:06:54,850 --> 01:06:56,370
+you're all to be commended for.
+
+1333
+01:07:00,190 --> 01:07:04,900
+So David, make sure you
+don't write understand.
+
+1334
+01:07:04,900 --> 01:07:06,736
+You build me up just
+to knock me down.
+
+1335
+01:07:12,110 --> 01:07:13,597
+AUDIENCE: [INAUDIBLE].
+
+1336
+01:07:13,597 --> 01:07:15,430
+JANET RANKIN: You can,
+or you don't have to.
+
+1337
+01:07:15,430 --> 01:07:16,179
+It doesn't matter.
+
+1338
+01:07:18,680 --> 01:07:24,260
+Does anyone have any comments,
+either about the exercise
+
+1339
+01:07:24,260 --> 01:07:29,510
+itself, or about somebody's
+learning outcomes,
+
+1340
+01:07:29,510 --> 01:07:30,380
+that you see around?
+
+1341
+01:07:33,250 --> 01:07:35,260
+Again, the
+measurement, the thing
+
+1342
+01:07:35,260 --> 01:07:37,510
+you want to look at when you
+look at your own learning
+
+1343
+01:07:37,510 --> 01:07:40,640
+outcomes and those of others, is
+are they specific, measurable,
+
+1344
+01:07:40,640 --> 01:07:42,940
+and realistic?
+
+1345
+01:07:42,940 --> 01:07:46,540
+And would you know
+if a student achieved
+
+1346
+01:07:46,540 --> 01:07:48,500
+those learning outcomes?
+
+1347
+01:07:48,500 --> 01:07:53,740
+So I would say about 90%
+of these are very specific,
+
+1348
+01:07:53,740 --> 01:07:54,980
+which is great.
+
+1349
+01:07:54,980 --> 01:07:59,470
+I mean, there's some
+incredibly specific ones here.
+
+1350
+01:07:59,470 --> 01:08:04,060
+The more specific, the
+easier it is to measure.
+
+1351
+01:08:04,060 --> 01:08:04,900
+So that's one thing.
+
+1352
+01:08:04,900 --> 01:08:06,610
+That's a useful thing.
+
+1353
+01:08:06,610 --> 01:08:08,950
+You want to make sure
+you don't get so specific
+
+1354
+01:08:08,950 --> 01:08:11,980
+that there's only like one
+question you could ask.
+
+1355
+01:08:11,980 --> 01:08:14,170
+So that's the balance.
+
+1356
+01:08:14,170 --> 01:08:16,270
+Sometimes you can't
+tell that unless you're
+
+1357
+01:08:16,270 --> 01:08:18,355
+in the discipline.
+
+1358
+01:08:18,355 --> 01:08:24,040
+Do we have other comments about
+any of these learning outcomes,
+
+1359
+01:08:24,040 --> 01:08:29,279
+something you don't
+get, something that
+
+1360
+01:08:29,279 --> 01:08:30,784
+looks particularly interesting?
+
+1361
+01:08:33,990 --> 01:08:34,890
+Yes, Gordon.
+
+1362
+01:08:34,890 --> 01:08:38,355
+Perhaps you can sit down
+if you're done reading.
+
+1363
+01:08:38,355 --> 01:08:42,323
+AUDIENCE: I'm looking around
+and I'm seeing [INAUDIBLE].
+
+1364
+01:08:52,739 --> 01:08:54,723
+I don't know how
+it's going to be.
+
+1365
+01:08:54,723 --> 01:08:56,211
+How are we going to test that?
+
+1366
+01:08:56,211 --> 01:09:00,740
+JANET RANKIN: Well, I guess you
+have to come up with a reaction
+
+1367
+01:09:00,740 --> 01:09:03,810
+that you're confident
+they haven't seen before.
+
+1368
+01:09:03,810 --> 01:09:08,359
+So if you can do that, then
+you can ask them to propose
+
+1369
+01:09:08,359 --> 01:09:11,560
+a mechanism for it, I suppose.
+
+1370
+01:09:11,560 --> 01:09:13,370
+If the person that
+wrote it wants to--
+
+1371
+01:09:13,370 --> 01:09:15,578
+I know who wrote it-- but
+if the person that wrote it
+
+1372
+01:09:15,578 --> 01:09:18,600
+wants to talk a little bit
+about it, that would be great.
+
+1373
+01:09:18,600 --> 01:09:19,100
+If not--
+
+1374
+01:09:19,100 --> 01:09:22,390
+AUDIENCE: OK, So a
+lot of people are
+
+1375
+01:09:22,390 --> 01:09:26,150
+going to just try to memorize
+each specific outcome.
+
+1376
+01:09:26,150 --> 01:09:29,516
+But it's easier to just
+identify your activity group
+
+1377
+01:09:29,516 --> 01:09:31,585
+and find patterns within them.
+
+1378
+01:09:31,585 --> 01:09:45,445
+So if you can try [INAUDIBLE]
+They can't just [INAUDIBLE].
+
+1379
+01:09:50,890 --> 01:09:52,207
+JANET RANKIN: Right.
+
+1380
+01:09:52,207 --> 01:09:53,290
+And this is a great point.
+
+1381
+01:09:53,290 --> 01:09:54,790
+I mentioned it to
+one of the groups.
+
+1382
+01:09:54,790 --> 01:09:59,550
+But sometimes we'll say explain
+how blah, blah, blah, works.
+
+1383
+01:09:59,550 --> 01:10:01,680
+And that's a great
+thought, that, oh,
+
+1384
+01:10:01,680 --> 01:10:04,170
+they're going to be able
+to explain it, right?
+
+1385
+01:10:04,170 --> 01:10:06,390
+But many times
+they can fall back
+
+1386
+01:10:06,390 --> 01:10:09,855
+on a memorized
+explanation or sort
+
+1387
+01:10:09,855 --> 01:10:12,960
+of kind of a canned procedure.
+
+1388
+01:10:12,960 --> 01:10:16,620
+So if you really want them to
+be at the level of explain,
+
+1389
+01:10:16,620 --> 01:10:19,410
+you will have to kind
+of make some things up
+
+1390
+01:10:19,410 --> 01:10:21,840
+to get them out of,
+to get them away
+
+1391
+01:10:21,840 --> 01:10:24,870
+from the ability to just
+pull something completely
+
+1392
+01:10:24,870 --> 01:10:26,040
+from memory.
+
+1393
+01:10:26,040 --> 01:10:30,505
+So this is an example of
+how you might do that.
+
+1394
+01:10:34,780 --> 01:10:37,392
+Other observations or questions?
+
+1395
+01:10:37,392 --> 01:10:41,180
+AUDIENCE: I also [INAUDIBLE]
+something that all [INAUDIBLE].
+
+1396
+01:10:52,680 --> 01:10:56,410
+JANET RANKIN: So
+perhaps the person
+
+1397
+01:10:56,410 --> 01:10:58,191
+that wrote it wants
+to comment on it.
+
+1398
+01:10:58,191 --> 01:10:59,574
+AUDIENCE: OK.
+
+1399
+01:10:59,574 --> 01:11:00,957
+So [INAUDIBLE].
+
+1400
+01:11:19,390 --> 01:11:22,220
+I think what we have,
+just [INAUDIBLE].
+
+1401
+01:11:26,550 --> 01:11:27,800
+So we write and compile.
+
+1402
+01:11:31,380 --> 01:11:37,112
+So you write a code and
+then you compile it.
+
+1403
+01:11:37,112 --> 01:11:37,945
+JANET RANKIN: Right.
+
+1404
+01:11:40,600 --> 01:11:45,640
+And this is a great
+example of how
+
+1405
+01:11:45,640 --> 01:11:48,040
+having people that
+aren't in the field
+
+1406
+01:11:48,040 --> 01:11:51,580
+read them can help clarify
+things for your students, who
+
+1407
+01:11:51,580 --> 01:11:54,400
+are by default not experts.
+
+1408
+01:11:54,400 --> 01:11:57,430
+So perhaps to an
+expert, it totally
+
+1409
+01:11:57,430 --> 01:11:59,650
+makes sense, of course, code.
+
+1410
+01:11:59,650 --> 01:12:02,470
+But to somebody that's not an
+expert, maybe that's confusing.
+
+1411
+01:12:02,470 --> 01:12:06,010
+Maybe the use of code
+twice was confusing.
+
+1412
+01:12:06,010 --> 01:12:08,290
+To an expert, it's
+totally readable.
+
+1413
+01:12:08,290 --> 01:12:09,542
+It's totally understandable.
+
+1414
+01:12:09,542 --> 01:12:10,750
+Perhaps to a novice it isn't.
+
+1415
+01:12:10,750 --> 01:12:11,416
+You're laughing.
+
+1416
+01:12:11,416 --> 01:12:14,140
+AUDIENCE: It's funny, because
+we're both [INAUDIBLE].
+
+1417
+01:12:14,140 --> 01:12:17,957
+JANET RANKIN: Yeah,
+that was kind of random.
+
+1418
+01:12:17,957 --> 01:12:19,540
+Well, that's a perfect
+example, right?
+
+1419
+01:12:19,540 --> 01:12:22,300
+It's a perfect example of how
+getting maybe other people that
+
+1420
+01:12:22,300 --> 01:12:23,830
+aren't in your field
+to look at them
+
+1421
+01:12:23,830 --> 01:12:28,390
+can help make them more
+accessible to your students.
+
+1422
+01:12:28,390 --> 01:12:29,327
+OK.
+
+1423
+01:12:29,327 --> 01:12:29,910
+This is great.
+
+1424
+01:12:29,910 --> 01:12:30,890
+Oh, Hina.
+
+1425
+01:12:30,890 --> 01:12:34,260
+AUDIENCE: I had, it's
+on a different topic.
+
+1426
+01:12:34,260 --> 01:12:36,890
+But really, I'm talking
+about buzz words
+
+1427
+01:12:36,890 --> 01:12:38,270
+in learning outcomes.
+
+1428
+01:12:38,270 --> 01:12:40,582
+I think with engineering,
+you're really
+
+1429
+01:12:40,582 --> 01:12:43,950
+excited about telling people
+about real world problems.
+
+1430
+01:12:43,950 --> 01:12:46,880
+I guess that's the reason why.
+
+1431
+01:12:46,880 --> 01:12:50,370
+I guess it's more of
+an opinion question.
+
+1432
+01:12:50,370 --> 01:12:54,290
+As you write your learning
+outcomes I think in some ways
+
+1433
+01:12:54,290 --> 01:12:57,230
+it's better to be specific
+about the real world problems
+
+1434
+01:12:57,230 --> 01:12:58,700
+that they're going to attack.
+
+1435
+01:12:58,700 --> 01:13:02,130
+Because I've seen that on
+syllabuses all the time.
+
+1436
+01:13:02,130 --> 01:13:04,090
+I'm very excited about it.
+
+1437
+01:13:04,090 --> 01:13:06,540
+I think it's a way to
+teach people in your class.
+
+1438
+01:13:06,540 --> 01:13:10,460
+It's going to help them know
+what tools they're getting.
+
+1439
+01:13:10,460 --> 01:13:11,460
+JANET RANKIN: Right.
+
+1440
+01:13:11,460 --> 01:13:13,650
+I mean, real world
+problems in particular
+
+1441
+01:13:13,650 --> 01:13:19,590
+really do kind of encapsulate a
+whole pile of hopes and dreams.
+
+1442
+01:13:19,590 --> 01:13:21,600
+So it may help to be a
+little more specific.
+
+1443
+01:13:21,600 --> 01:13:24,630
+You can use it in your
+learning outcomes,
+
+1444
+01:13:24,630 --> 01:13:27,450
+but then maybe describe
+it in a little more detail
+
+1445
+01:13:27,450 --> 01:13:32,280
+in your syllabus, the kinds
+of real world problems,
+
+1446
+01:13:32,280 --> 01:13:34,170
+or why we care about
+real world problems.
+
+1447
+01:13:34,170 --> 01:13:35,140
+They're messy.
+
+1448
+01:13:35,140 --> 01:13:36,750
+They're ill-defined.
+
+1449
+01:13:36,750 --> 01:13:39,310
+What about them is so important?
+
+1450
+01:13:39,310 --> 01:13:43,530
+What about them is so important?
+
+1451
+01:13:43,530 --> 01:13:45,420
+Try to minimize the buzz words.
+
+1452
+01:13:45,420 --> 01:13:47,859
+But at some level, they may
+not know about something
+
+1453
+01:13:47,859 --> 01:13:49,900
+until they're completely
+through with the course,
+
+1454
+01:13:49,900 --> 01:13:51,316
+and you may have
+to use that word.
+
+1455
+01:13:51,316 --> 01:13:53,550
+So there's a bit of a balance.
+
+1456
+01:13:53,550 --> 01:13:54,990
+What I'm going to
+do before, I'll
+
+1457
+01:13:54,990 --> 01:13:56,880
+probably bring all
+these back to my office,
+
+1458
+01:13:56,880 --> 01:14:00,570
+take pictures of them, and
+put them up on the wiki
+
+1459
+01:14:00,570 --> 01:14:03,810
+so you'll have a record of them.
+
+1460
+01:14:03,810 --> 01:14:08,230
+I wanted to just
+as we go out here,
+
+1461
+01:14:08,230 --> 01:14:14,050
+my point is really
+that the hard part
+
+1462
+01:14:14,050 --> 01:14:15,910
+is these learning outcomes.
+
+1463
+01:14:15,910 --> 01:14:17,830
+And that once you write
+the learning outcomes,
+
+1464
+01:14:17,830 --> 01:14:20,110
+as we said before,
+you kind of know
+
+1465
+01:14:20,110 --> 01:14:23,920
+how you're going to test
+whether students got them,
+
+1466
+01:14:23,920 --> 01:14:28,600
+and you know what you're going
+to do to help them get them.
+
+1467
+01:14:28,600 --> 01:14:34,810
+The syllabus itself is just
+an articulation of that.
+
+1468
+01:14:34,810 --> 01:14:36,770
+It's a description
+of the course,
+
+1469
+01:14:36,770 --> 01:14:38,470
+an articulation of
+the learning outcomes
+
+1470
+01:14:38,470 --> 01:14:41,620
+stated, like the laundry
+example, with the title.
+
+1471
+01:14:41,620 --> 01:14:43,810
+This is what you're going to do.
+
+1472
+01:14:43,810 --> 01:14:46,450
+By the end of the class this
+is what you'll be able to do.
+
+1473
+01:14:46,450 --> 01:14:49,420
+It's kind of a promise that
+that's what you're going to do.
+
+1474
+01:14:49,420 --> 01:14:51,790
+It motivates students
+to take the class,
+
+1475
+01:14:51,790 --> 01:14:56,230
+to stay in the class, to
+engage with the class.
+
+1476
+01:14:56,230 --> 01:14:58,492
+It keeps you on track.
+
+1477
+01:14:58,492 --> 01:14:59,950
+So at the beginning
+of the semester
+
+1478
+01:14:59,950 --> 01:15:04,120
+maybe I'll be very
+clear, but four weeks in,
+
+1479
+01:15:04,120 --> 01:15:06,820
+and you're a little bit fuzzy,
+because you've been dealing
+
+1480
+01:15:06,820 --> 01:15:08,440
+with all sorts of stuff.
+
+1481
+01:15:08,440 --> 01:15:10,690
+And you kind of
+go, what the heck.
+
+1482
+01:15:10,690 --> 01:15:12,400
+What's this in here for?
+
+1483
+01:15:12,400 --> 01:15:15,580
+Well, if you've lined everything
+up at the beginning using
+
+1484
+01:15:15,580 --> 01:15:17,320
+your learning outcomes
+as the anchor,
+
+1485
+01:15:17,320 --> 01:15:19,940
+then you don't have
+to worry about that.
+
+1486
+01:15:19,940 --> 01:15:21,640
+You just follow the map.
+
+1487
+01:15:21,640 --> 01:15:25,870
+So it really, really
+helps you and the students
+
+1488
+01:15:25,870 --> 01:15:30,370
+get through the semester
+in a logical way.
+
+1489
+01:15:30,370 --> 01:15:33,550
+And it tells the
+students what they
+
+1490
+01:15:33,550 --> 01:15:37,070
+can expect of you, what
+you can expect of them.
+
+1491
+01:15:37,070 --> 01:15:40,870
+So it's motivational,
+structural,
+
+1492
+01:15:40,870 --> 01:15:45,310
+and it's evidence, hopefully
+of what they did, but certainly
+
+1493
+01:15:45,310 --> 01:15:47,330
+of what you hope
+to do with them.
+
+1494
+01:15:50,750 --> 01:15:53,060
+So for the post-session
+assignment,
+
+1495
+01:15:53,060 --> 01:15:55,862
+you'll have to write up
+more learning outcomes
+
+1496
+01:15:55,862 --> 01:15:56,570
+from your course.
+
+1497
+01:15:56,570 --> 01:16:00,140
+You can use these as
+the basis for sure.
+
+1498
+01:16:00,140 --> 01:16:04,190
+Hopefully, that table will help
+you as you write more of them.
+
+1499
+01:16:04,190 --> 01:16:05,847
+And I will go in and
+give you feedback.
+
+1500
+01:16:05,847 --> 01:16:08,180
+I want to make sure that
+everybody knows that you should
+
+1501
+01:16:08,180 --> 01:16:10,550
+read each other's postings.
+
+1502
+01:16:10,550 --> 01:16:14,577
+So a lot of you had great
+examples from the first class
+
+1503
+01:16:14,577 --> 01:16:16,160
+about how you would
+use these learning
+
+1504
+01:16:16,160 --> 01:16:20,154
+theories in your courses
+and how you teach.
+
+1505
+01:16:20,154 --> 01:16:21,320
+They were fabulous examples.
+
+1506
+01:16:21,320 --> 01:16:23,153
+Make sure you read those
+postings of others.
+
+1507
+01:16:23,153 --> 01:16:26,100
+That's one reason why it's
+up on a wiki and not just
+
+1508
+01:16:26,100 --> 01:16:28,640
+you handing it in to me.
+
+1509
+01:16:28,640 --> 01:16:30,530
+So you have the Mud cards.
+
+1510
+01:16:30,530 --> 01:16:33,420
+Fill them out if you have any
+more information that you want.
+
+1511
+01:16:33,420 --> 01:16:39,730
+And otherwise,
+we'll see next week.

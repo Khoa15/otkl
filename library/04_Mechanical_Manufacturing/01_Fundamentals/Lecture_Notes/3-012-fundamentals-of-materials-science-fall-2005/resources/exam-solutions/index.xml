@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exam Solutions on MIT OpenCourseWare</title>
+    <link>/resources/exam-solutions/</link>
+    <description>Recent content in Exam Solutions on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exam-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>f04_q1_sol_t.pdf</title>
+      <link>/resources/f04_q1_sol_t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/f04_q1_sol_t/data.json</guid>
+      <description>&lt;p&gt;This file contains solutions of various questions based on thermodynamics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>f04_q4_sol_t.pdf</title>
+      <link>/resources/f04_q4_sol_t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/f04_q4_sol_t/data.json</guid>
+      <description>&lt;p&gt;This file contains solution of the questions based on a graph.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>f04_quiz2_sol.pdf</title>
+      <link>/resources/f04_quiz2_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/f04_quiz2_sol/data.json</guid>
+      <description>&lt;p&gt;This file contains solutions of the questions based on structure and thermodynamics in quiz 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>f04_quiz3_sol.pdf</title>
+      <link>/resources/f04_quiz3_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/f04_quiz3_sol/data.json</guid>
+      <description>&lt;p&gt;This file contains solutions of the questions based on bonding and thermodynamics in quiz 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>quiz1_soln.pdf</title>
+      <link>/resources/quiz1_soln/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz1_soln/data.json</guid>
+      <description>&lt;p&gt;This file contains solutions of problems on bonding and thermodynamics covered in quiz 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>quiz2_sol_thermo.pdf</title>
+      <link>/resources/quiz2_sol_thermo/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz2_sol_thermo/data.json</guid>
+      <description>&lt;p&gt;This file contains answers of all the questions based on various topics of thermodynamics in quiz 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>quiz3_sol_bd_sc.pdf</title>
+      <link>/resources/quiz3_sol_bd_sc/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz3_sol_bd_sc/data.json</guid>
+      <description>&lt;p&gt;This file contains all the answers on bonding in quiz 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>quiz3_sol_bond.pdf</title>
+      <link>/resources/quiz3_sol_bond/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz3_sol_bond/data.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

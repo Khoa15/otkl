@@ -1,0 +1,4315 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.610 align:middle line:90%
+
+
+00:00:00.610 --> 00:00:02.440 align:middle line:84%
+The following
+content is provided
+
+00:00:02.440 --> 00:00:06.340 align:middle line:84%
+by MIT OpenCourseWare under
+a Creative Commons license.
+
+00:00:06.340 --> 00:00:08.470 align:middle line:84%
+Additional information
+about our license
+
+00:00:08.470 --> 00:00:10.870 align:middle line:84%
+and MIT OpenCourseWare
+in general
+
+00:00:10.870 --> 00:00:12.730 align:middle line:90%
+is available at ocw.mit.edu.
+
+00:00:12.730 --> 00:00:17.110 align:middle line:90%
+
+
+00:00:17.110 --> 00:00:18.220 align:middle line:90%
+GEORGE CHURCH: OK.
+
+00:00:18.220 --> 00:00:23.410 align:middle line:90%
+Welcome to the second proteins.
+
+00:00:23.410 --> 00:00:27.160 align:middle line:84%
+Just as with the RNA analyses,
+we started with, in that case,
+
+00:00:27.160 --> 00:00:28.930 align:middle line:84%
+a brief discussion
+of RNA structure,
+
+00:00:28.930 --> 00:00:31.450 align:middle line:84%
+and then moved on
+to RNA quantitation.
+
+00:00:31.450 --> 00:00:36.400 align:middle line:84%
+This case, we spent a bit more
+time on protein structure,
+
+00:00:36.400 --> 00:00:37.900 align:middle line:84%
+and we'll spend a
+little less time
+
+00:00:37.900 --> 00:00:41.830 align:middle line:84%
+on protein quantitation, which
+will be the main topic today.
+
+00:00:41.830 --> 00:00:45.282 align:middle line:84%
+But partly because the RNA
+and protein quantitation
+
+00:00:45.282 --> 00:00:47.740 align:middle line:84%
+have many themes in common, so
+we've covered some of those.
+
+00:00:47.740 --> 00:00:53.290 align:middle line:84%
+And we'll talk about how one can
+integrate protein quantitation
+
+00:00:53.290 --> 00:00:59.110 align:middle line:84%
+with RNA quantitation
+and with metabolism.
+
+00:00:59.110 --> 00:01:02.380 align:middle line:84%
+So last time we
+talked about mainly
+
+00:01:02.380 --> 00:01:04.989 align:middle line:84%
+with structure and
+interaction of proteins
+
+00:01:04.989 --> 00:01:07.210 align:middle line:84%
+with small molecules at
+the structural level.
+
+00:01:07.210 --> 00:01:09.520 align:middle line:84%
+And this time we'll
+be building up
+
+00:01:09.520 --> 00:01:13.450 align:middle line:84%
+towards the quantitating
+proteins and their interactions
+
+00:01:13.450 --> 00:01:17.440 align:middle line:84%
+with other proteins
+of small molecules
+
+00:01:17.440 --> 00:01:22.060 align:middle line:84%
+so that we can address
+that as the first step
+
+00:01:22.060 --> 00:01:24.160 align:middle line:84%
+towards the network
+analysis that
+
+00:01:24.160 --> 00:01:27.590 align:middle line:84%
+will be the subject of the last
+three lectures of the course.
+
+00:01:27.590 --> 00:01:31.015 align:middle line:84%
+So we'll get a hint of that
+at the end of today's talk.
+
+00:01:31.015 --> 00:01:36.520 align:middle line:90%
+
+
+00:01:36.520 --> 00:01:39.620 align:middle line:84%
+So at the beginning
+of the course,
+
+00:01:39.620 --> 00:01:41.320 align:middle line:84%
+I had one slide
+talking about how
+
+00:01:41.320 --> 00:01:46.700 align:middle line:84%
+purification was a revolution
+in many different fields--
+
+00:01:46.700 --> 00:01:49.210 align:middle line:84%
+one of them resulting in
+recombinant DNA and the Genome
+
+00:01:49.210 --> 00:01:50.002 align:middle line:90%
+Project, and so on.
+
+00:01:50.002 --> 00:01:52.043 align:middle line:84%
+Today we're going to talk
+more about purification
+
+00:01:52.043 --> 00:01:54.280 align:middle line:84%
+from the standpoint from
+what does it tell us
+
+00:01:54.280 --> 00:01:55.870 align:middle line:84%
+about the properties
+of the molecule
+
+00:01:55.870 --> 00:01:59.860 align:middle line:84%
+itself as opposed to just
+purifying for its own sake.
+
+00:01:59.860 --> 00:02:03.550 align:middle line:84%
+How can we go in and data mine
+and get the maximum value out
+
+00:02:03.550 --> 00:02:05.140 align:middle line:90%
+of purification?
+
+00:02:05.140 --> 00:02:08.710 align:middle line:84%
+The things that we
+expect from purification
+
+00:02:08.710 --> 00:02:11.200 align:middle line:84%
+is to reduce some
+source of noise.
+
+00:02:11.200 --> 00:02:13.900 align:middle line:84%
+That is to say, in the
+process of identification
+
+00:02:13.900 --> 00:02:19.540 align:middle line:84%
+or quantitation of proteins
+or their components,
+
+00:02:19.540 --> 00:02:23.410 align:middle line:90%
+we want to remove sources--
+
+00:02:23.410 --> 00:02:27.040 align:middle line:84%
+the major source of noise would
+be environmental contamination,
+
+00:02:27.040 --> 00:02:31.000 align:middle line:84%
+or more often contamination
+with other bona fide members
+
+00:02:31.000 --> 00:02:34.330 align:middle line:84%
+of a mixture, other proteins
+that may be very abundant
+
+00:02:34.330 --> 00:02:36.760 align:middle line:84%
+or breakdown products
+or related products.
+
+00:02:36.760 --> 00:02:40.400 align:middle line:84%
+And we want to separate it into
+enough different components
+
+00:02:40.400 --> 00:02:42.790 align:middle line:84%
+so that the major ones are
+off in their own little bin
+
+00:02:42.790 --> 00:02:45.040 align:middle line:90%
+and don't interfere too much.
+
+00:02:45.040 --> 00:02:49.450 align:middle line:84%
+So the second reason why
+we might want to purify
+
+00:02:49.450 --> 00:02:52.030 align:middle line:84%
+is to prepare materials
+for in vitro experiments.
+
+00:02:52.030 --> 00:02:54.430 align:middle line:84%
+While we're studying networks
+in the next three classes,
+
+00:02:54.430 --> 00:02:56.215 align:middle line:84%
+we'll find that
+the real problem is
+
+00:02:56.215 --> 00:02:58.090 align:middle line:84%
+that they're complicated
+enough that you need
+
+00:02:58.090 --> 00:03:03.940 align:middle line:84%
+some way of isolating one
+network component from all
+
+00:03:03.940 --> 00:03:05.660 align:middle line:90%
+the possible interactions.
+
+00:03:05.660 --> 00:03:08.235 align:middle line:84%
+And one way to do that is to
+purify that network component,
+
+00:03:08.235 --> 00:03:09.610 align:middle line:84%
+or a number of
+network components
+
+00:03:09.610 --> 00:03:11.920 align:middle line:84%
+out and make a subnetwork
+completely artificially
+
+00:03:11.920 --> 00:03:12.770 align:middle line:90%
+in vitro.
+
+00:03:12.770 --> 00:03:15.010 align:middle line:84%
+So that's another
+use of purification.
+
+00:03:15.010 --> 00:03:16.863 align:middle line:84%
+And finally-- and
+this is the main theme
+
+00:03:16.863 --> 00:03:18.280 align:middle line:84%
+for the next couple
+of slides-- is
+
+00:03:18.280 --> 00:03:19.930 align:middle line:84%
+to discover
+biochemical properties
+
+00:03:19.930 --> 00:03:21.830 align:middle line:90%
+about that component itself.
+
+00:03:21.830 --> 00:03:25.090 align:middle line:84%
+So what can you glean from
+the purification process?
+
+00:03:25.090 --> 00:03:27.970 align:middle line:84%
+And this requires careful
+use of purification.
+
+00:03:27.970 --> 00:03:30.670 align:middle line:84%
+Now, many of these
+methods were developed
+
+00:03:30.670 --> 00:03:33.460 align:middle line:84%
+because they work well,
+but now we go back
+
+00:03:33.460 --> 00:03:35.020 align:middle line:84%
+and we look at which
+ones can give us
+
+00:03:35.020 --> 00:03:37.510 align:middle line:84%
+information about the
+biology and the chemistry
+
+00:03:37.510 --> 00:03:38.930 align:middle line:90%
+of the system.
+
+00:03:38.930 --> 00:03:43.840 align:middle line:84%
+And so we have the charge
+of a molecule, which
+
+00:03:43.840 --> 00:03:45.460 align:middle line:84%
+we talked about
+last time as being
+
+00:03:45.460 --> 00:03:49.660 align:middle line:84%
+a very important relatively
+long range interaction
+
+00:03:49.660 --> 00:03:51.620 align:middle line:90%
+1/r interaction.
+
+00:03:51.620 --> 00:03:54.850 align:middle line:84%
+And here are two methods
+I mentioned, one involving
+
+00:03:54.850 --> 00:03:59.350 align:middle line:84%
+electric field, isoelectric
+focusing, which determines
+
+00:03:59.350 --> 00:04:01.360 align:middle line:84%
+the pH at which the
+charge is neutral
+
+00:04:01.360 --> 00:04:03.130 align:middle line:90%
+and there's no net movement.
+
+00:04:03.130 --> 00:04:04.930 align:middle line:84%
+In ion exchange
+chromatography, we
+
+00:04:04.930 --> 00:04:07.330 align:middle line:84%
+have a mobile phase
+and a solid phase.
+
+00:04:07.330 --> 00:04:11.290 align:middle line:84%
+And charge enters
+prominently into that.
+
+00:04:11.290 --> 00:04:16.930 align:middle line:84%
+Size is something that will be
+a recurring theme tonight, where
+
+00:04:16.930 --> 00:04:20.920 align:middle line:84%
+we'll be talking about the
+mass of protein complexes,
+
+00:04:20.920 --> 00:04:23.510 align:middle line:84%
+the mass of individual
+protein subunits,
+
+00:04:23.510 --> 00:04:27.817 align:middle line:84%
+and the mass of peptides cleaved
+out of those basic subunits.
+
+00:04:27.817 --> 00:04:30.400 align:middle line:84%
+And you can see there are quite
+a number of different methods.
+
+00:04:30.400 --> 00:04:34.940 align:middle line:84%
+Sedimentation velocity will
+be one that we will use--
+
+00:04:34.940 --> 00:04:38.950 align:middle line:90%
+electrophoresis, and so on.
+
+00:04:38.950 --> 00:04:41.350 align:middle line:84%
+Solubility and
+hydrophobicity I'll
+
+00:04:41.350 --> 00:04:44.050 align:middle line:84%
+lump together here
+as properties,
+
+00:04:44.050 --> 00:04:47.110 align:middle line:84%
+kind of bulk properties of
+the amino acid composition
+
+00:04:47.110 --> 00:04:48.580 align:middle line:90%
+of peptides and proteins.
+
+00:04:48.580 --> 00:04:54.880 align:middle line:84%
+And they refer to their affinity
+for hydrophobic solid phases
+
+00:04:54.880 --> 00:05:02.050 align:middle line:84%
+or hydrophobic mobile
+phases, solvents, and so on.
+
+00:05:02.050 --> 00:05:05.560 align:middle line:84%
+The biological significance
+of hydrophobicity
+
+00:05:05.560 --> 00:05:12.280 align:middle line:84%
+might be the affinity
+for lipid bilayers
+
+00:05:12.280 --> 00:05:14.200 align:middle line:84%
+or affinity for other
+hydrophobic patches
+
+00:05:14.200 --> 00:05:16.370 align:middle line:90%
+of other proteins.
+
+00:05:16.370 --> 00:05:19.150 align:middle line:84%
+Now, we have-- the
+size tells us something
+
+00:05:19.150 --> 00:05:22.900 align:middle line:84%
+about the stoichiometry of
+protein-protein interactions
+
+00:05:22.900 --> 00:05:28.540 align:middle line:84%
+when we're looking at native
+measures of size of complexes.
+
+00:05:28.540 --> 00:05:31.450 align:middle line:84%
+And other indications
+of specific binding,
+
+00:05:31.450 --> 00:05:35.650 align:middle line:84%
+whether it's between proteins
+or a protein in a small molecule
+
+00:05:35.650 --> 00:05:37.960 align:middle line:84%
+can be detected by
+affinity chromatography
+
+00:05:37.960 --> 00:05:44.890 align:middle line:84%
+or another related method as
+[INAUDIBLE] precipitation,
+
+00:05:44.890 --> 00:05:48.700 align:middle line:84%
+where you'll have one ligand,
+like an antibody, which
+
+00:05:48.700 --> 00:05:51.040 align:middle line:84%
+is specific for a
+particular protein epitope
+
+00:05:51.040 --> 00:05:53.110 align:middle line:84%
+and will pull down
+all the proteins that
+
+00:05:53.110 --> 00:06:00.760 align:middle line:84%
+are associated with that
+epitope, that surface property.
+
+00:06:00.760 --> 00:06:02.990 align:middle line:84%
+And another
+sedimentation method--
+
+00:06:02.990 --> 00:06:05.410 align:middle line:84%
+now, the first
+sedimentation method
+
+00:06:05.410 --> 00:06:07.900 align:middle line:84%
+was a velocity method,
+a kinetic method,
+
+00:06:07.900 --> 00:06:12.520 align:middle line:84%
+where the largest
+particles, once you
+
+00:06:12.520 --> 00:06:15.100 align:middle line:84%
+take into account buoyant
+density, all other things being
+
+00:06:15.100 --> 00:06:18.460 align:middle line:84%
+equal, the largest particles
+will sediment most quickly.
+
+00:06:18.460 --> 00:06:22.090 align:middle line:84%
+If you set it up so that things
+are nearly equally buoyant
+
+00:06:22.090 --> 00:06:25.660 align:middle line:84%
+and you build up a density
+gradient by centrifugal field,
+
+00:06:25.660 --> 00:06:28.360 align:middle line:84%
+then you get
+particles separating
+
+00:06:28.360 --> 00:06:32.110 align:middle line:84%
+by their properties,
+which can include
+
+00:06:32.110 --> 00:06:36.930 align:middle line:84%
+the binding of metal
+ions, which greatly affect
+
+00:06:36.930 --> 00:06:39.210 align:middle line:84%
+the density of nucleic
+acids, for example,
+
+00:06:39.210 --> 00:06:43.890 align:middle line:84%
+and hence, nucleic
+acid protein complexes.
+
+00:06:43.890 --> 00:06:48.270 align:middle line:84%
+Now, this is a
+particularly awesome pair.
+
+00:06:48.270 --> 00:06:52.290 align:middle line:84%
+And historically, it figures
+prominently into proteomics.
+
+00:06:52.290 --> 00:06:56.550 align:middle line:90%
+It's still quite viable.
+
+00:06:56.550 --> 00:06:59.190 align:middle line:84%
+And they illustrate
+some important points.
+
+00:06:59.190 --> 00:07:05.130 align:middle line:84%
+When we talk about the
+mass of a native protein
+
+00:07:05.130 --> 00:07:08.730 align:middle line:84%
+or of a protein that's been
+denatured by a detergent
+
+00:07:08.730 --> 00:07:14.220 align:middle line:84%
+micelle, such as Sodium
+Dodecyl Sulfate, SDS,
+
+00:07:14.220 --> 00:07:19.410 align:middle line:84%
+its mass can be resolved
+by fairly potent
+
+00:07:19.410 --> 00:07:21.210 align:middle line:84%
+polyacrylamide gel
+electrophoresis, where
+
+00:07:21.210 --> 00:07:24.330 align:middle line:84%
+you get sieving, where
+the gel causes sieving.
+
+00:07:24.330 --> 00:07:28.740 align:middle line:84%
+And this micelle, this
+detergent micelle size itself,
+
+00:07:28.740 --> 00:07:32.010 align:middle line:84%
+or the micelle is dependent
+upon the size of the unfolded
+
+00:07:32.010 --> 00:07:34.890 align:middle line:84%
+or partially unfolded
+protein chain.
+
+00:07:34.890 --> 00:07:44.970 align:middle line:84%
+And so you actually get a
+fairly good calibratable plot
+
+00:07:44.970 --> 00:07:48.990 align:middle line:84%
+of mass of the protein
+versus the mobility
+
+00:07:48.990 --> 00:07:52.230 align:middle line:84%
+in an electric field when
+the protein embeds itself
+
+00:07:52.230 --> 00:07:58.740 align:middle line:90%
+in this detergent micelle.
+
+00:07:58.740 --> 00:08:06.060 align:middle line:84%
+So this observation of the
+potentability of this detergent
+
+00:08:06.060 --> 00:08:08.760 align:middle line:84%
+to denature proteins,
+and then to resolve based
+
+00:08:08.760 --> 00:08:11.580 align:middle line:84%
+on mass with the small
+exceptions of very
+
+00:08:11.580 --> 00:08:14.910 align:middle line:84%
+hydrophobic proteins or very
+carbohydrate-rich proteins--
+
+00:08:14.910 --> 00:08:19.200 align:middle line:84%
+most other proteins will
+have a very nice calibratable
+
+00:08:19.200 --> 00:08:20.520 align:middle line:90%
+relationship.
+
+00:08:20.520 --> 00:08:23.370 align:middle line:84%
+Similarly, the
+charge on a protein
+
+00:08:23.370 --> 00:08:26.880 align:middle line:84%
+approaches 0 as the
+pH gets to the point
+
+00:08:26.880 --> 00:08:29.490 align:middle line:84%
+where it's titrating out all
+the type titratable groups.
+
+00:08:29.490 --> 00:08:31.020 align:middle line:90%
+And this can be calculated.
+
+00:08:31.020 --> 00:08:34.659 align:middle line:84%
+And the resolution of this is
+about 1 part in 100 or better.
+
+00:08:34.659 --> 00:08:38.190 align:middle line:84%
+So both of these
+together are two very
+
+00:08:38.190 --> 00:08:39.270 align:middle line:90%
+high resolution methods.
+
+00:08:39.270 --> 00:08:41.280 align:middle line:84%
+And you can think of
+trying to divide-- you
+
+00:08:41.280 --> 00:08:43.559 align:middle line:90%
+have a complex protein mixture.
+
+00:08:43.559 --> 00:08:46.110 align:middle line:84%
+You want to divide it up into
+a lot of separate bins, maybe
+
+00:08:46.110 --> 00:08:47.400 align:middle line:90%
+100 of each.
+
+00:08:47.400 --> 00:08:49.360 align:middle line:84%
+And if you combine
+two dimensions,
+
+00:08:49.360 --> 00:08:51.360 align:middle line:84%
+as you often do
+here, where you'll
+
+00:08:51.360 --> 00:08:56.280 align:middle line:84%
+run first isoelectric, and
+then second the SDS dimension,
+
+00:08:56.280 --> 00:08:58.020 align:middle line:84%
+now you got 100 bins
+in one dimension,
+
+00:08:58.020 --> 00:09:00.060 align:middle line:84%
+and each of those bins
+turns into 100 bins
+
+00:09:00.060 --> 00:09:01.120 align:middle line:90%
+in the second dimension.
+
+00:09:01.120 --> 00:09:03.078 align:middle line:84%
+So theoretically, you've
+got on the order of 10
+
+00:09:03.078 --> 00:09:04.080 align:middle line:90%
+to the fourth bins.
+
+00:09:04.080 --> 00:09:07.680 align:middle line:84%
+And if some of the
+things that you want to--
+
+00:09:07.680 --> 00:09:10.230 align:middle line:84%
+some of the rare proteins
+you want to analyze
+
+00:09:10.230 --> 00:09:11.730 align:middle line:84%
+are in one of those
+bins, you might
+
+00:09:11.730 --> 00:09:15.090 align:middle line:84%
+have gotten as much as a 10
+to the fourth-fold enrichment
+
+00:09:15.090 --> 00:09:17.710 align:middle line:84%
+for those rare proteins away
+from the more common ones,
+
+00:09:17.710 --> 00:09:21.630 align:middle line:84%
+which are all too
+easy to stumble upon.
+
+00:09:21.630 --> 00:09:25.140 align:middle line:84%
+Now, before we get
+to an actual example
+
+00:09:25.140 --> 00:09:29.640 align:middle line:84%
+over two-dimensional gel,
+I want to motivate this
+
+00:09:29.640 --> 00:09:32.700 align:middle line:84%
+by the computational
+components to it
+
+00:09:32.700 --> 00:09:35.400 align:middle line:84%
+and the computational
+biology that you
+
+00:09:35.400 --> 00:09:39.870 align:middle line:84%
+can get from these
+multi-dimensional separations.
+
+00:09:39.870 --> 00:09:44.010 align:middle line:84%
+And this comes from
+our recurring interest
+
+00:09:44.010 --> 00:09:46.470 align:middle line:84%
+in comparing whenever
+we can calculate
+
+00:09:46.470 --> 00:09:50.730 align:middle line:84%
+a property of a system, or
+in this case of a protein,
+
+00:09:50.730 --> 00:09:54.100 align:middle line:84%
+we do so, and we compare
+it with the observations.
+
+00:09:54.100 --> 00:09:59.430 align:middle line:84%
+And some of the properties
+here are the localization
+
+00:09:59.430 --> 00:10:00.930 align:middle line:84%
+in the cell, which
+essentially is
+
+00:10:00.930 --> 00:10:04.350 align:middle line:84%
+an association of the
+protein as it's made,
+
+00:10:04.350 --> 00:10:06.930 align:middle line:84%
+the post-synthetic
+modifications to the proteins,
+
+00:10:06.930 --> 00:10:09.330 align:middle line:84%
+such as proteolysis
+and phosphorylation,
+
+00:10:09.330 --> 00:10:14.520 align:middle line:84%
+and so on, its
+charge, and its mass.
+
+00:10:14.520 --> 00:10:18.840 align:middle line:84%
+And here is shown a plot
+of calculated charge,
+
+00:10:18.840 --> 00:10:22.770 align:middle line:84%
+or isoelectric
+point in pH units.
+
+00:10:22.770 --> 00:10:25.950 align:middle line:84%
+P being the negative
+logarithm of the hydrogen ion
+
+00:10:25.950 --> 00:10:26.972 align:middle line:90%
+concentration.
+
+00:10:26.972 --> 00:10:28.680 align:middle line:84%
+So it's calculated on
+the horizontal axis
+
+00:10:28.680 --> 00:10:30.670 align:middle line:84%
+and observed on
+the vertical axis.
+
+00:10:30.670 --> 00:10:37.530 align:middle line:84%
+And what we're seeing here is if
+there were a perfect x equal y
+
+00:10:37.530 --> 00:10:39.870 align:middle line:84%
+relationship here, where
+calculated and observed
+
+00:10:39.870 --> 00:10:42.900 align:middle line:84%
+were the same, then all the
+dots would lie on this line,
+
+00:10:42.900 --> 00:10:45.600 align:middle line:84%
+and though the
+outliers, initially they
+
+00:10:45.600 --> 00:10:49.680 align:middle line:84%
+were such things as frame
+shifts of the DNA sequence,
+
+00:10:49.680 --> 00:10:52.050 align:middle line:84%
+producing a wrong
+calculated protein.
+
+00:10:52.050 --> 00:10:54.780 align:middle line:84%
+Once those were
+corrected, then there
+
+00:10:54.780 --> 00:10:57.120 align:middle line:84%
+were observed proteolytic
+cleavages, which
+
+00:10:57.120 --> 00:10:59.460 align:middle line:84%
+could be mapped down through
+the exact amino acid,
+
+00:10:59.460 --> 00:11:02.430 align:middle line:84%
+and then those corrected
+a few more on to the line.
+
+00:11:02.430 --> 00:11:05.250 align:middle line:84%
+And the remainders were other
+post-synthetic modifications,
+
+00:11:05.250 --> 00:11:07.210 align:middle line:90%
+such as phosphorylation.
+
+00:11:07.210 --> 00:11:10.200 align:middle line:84%
+So here's a reason to
+embrace your outliers.
+
+00:11:10.200 --> 00:11:12.930 align:middle line:84%
+Each one of these things
+is an exciting story,
+
+00:11:12.930 --> 00:11:17.340 align:middle line:84%
+where you either have a
+correction to a previous data
+
+00:11:17.340 --> 00:11:24.450 align:middle line:84%
+type or a new discovery of a
+post-synthetic modification.
+
+00:11:24.450 --> 00:11:29.220 align:middle line:84%
+Now, how do we actually
+calculate all these facts
+
+00:11:29.220 --> 00:11:31.590 align:middle line:90%
+about protein properties?
+
+00:11:31.590 --> 00:11:34.230 align:middle line:84%
+Some of these have
+biological significance,
+
+00:11:34.230 --> 00:11:35.940 align:middle line:90%
+which we've listed.
+
+00:11:35.940 --> 00:11:37.710 align:middle line:84%
+Where it is in the
+cell, obviously,
+
+00:11:37.710 --> 00:11:40.380 align:middle line:84%
+matters to its carrying
+out its function.
+
+00:11:40.380 --> 00:11:43.030 align:middle line:84%
+How big it is determines what
+other proteins are associated,
+
+00:11:43.030 --> 00:11:43.630 align:middle line:90%
+and so on.
+
+00:11:43.630 --> 00:11:44.820 align:middle line:90%
+So how do we calculate this?
+
+00:11:44.820 --> 00:11:47.370 align:middle line:84%
+The protein charge which
+was in the previous slide
+
+00:11:47.370 --> 00:11:50.040 align:middle line:84%
+is a simple linear
+function where
+
+00:11:50.040 --> 00:11:53.680 align:middle line:84%
+you sum up the pKas of each
+of the individual amino acids.
+
+00:11:53.680 --> 00:11:56.280 align:middle line:84%
+Now, pKa, again, p means
+negative logarithm,
+
+00:11:56.280 --> 00:11:59.820 align:middle line:84%
+and the Ka means the
+equilibrium association
+
+00:11:59.820 --> 00:12:07.500 align:middle line:84%
+constant of the proton with each
+of these chargeable residues.
+
+00:12:07.500 --> 00:12:11.370 align:middle line:84%
+So depending on the pH,
+there are a wide variety
+
+00:12:11.370 --> 00:12:13.350 align:middle line:84%
+of nearly
+physiological pHs where
+
+00:12:13.350 --> 00:12:15.950 align:middle line:84%
+[INAUDIBLE] and histidines
+will be positively charged,
+
+00:12:15.950 --> 00:12:21.210 align:middle line:84%
+the blues, and the red ones
+can be tyrosine and cysteine.
+
+00:12:21.210 --> 00:12:24.630 align:middle line:84%
+Especially aspartate
+and glutamate
+
+00:12:24.630 --> 00:12:28.050 align:middle line:84%
+can be negatively charged
+in the range of pHs
+
+00:12:28.050 --> 00:12:30.790 align:middle line:84%
+that we saw in the
+previous slide.
+
+00:12:30.790 --> 00:12:34.170 align:middle line:84%
+And so this is calculated
+as that simple sum.
+
+00:12:34.170 --> 00:12:42.810 align:middle line:84%
+And protein mass is
+calibratable with knowns.
+
+00:12:42.810 --> 00:12:45.720 align:middle line:84%
+Even if you have a very
+complex empirical relationship,
+
+00:12:45.720 --> 00:12:49.620 align:middle line:84%
+such as that detergent binding
+FBS gel electrophoresis.
+
+00:12:49.620 --> 00:12:52.440 align:middle line:84%
+It sounds very-- too
+many moving parts
+
+00:12:52.440 --> 00:12:53.760 align:middle line:90%
+to be completely theoretical.
+
+00:12:53.760 --> 00:12:57.750 align:middle line:84%
+But if you calibrate it with
+good known proteins, or protein
+
+00:12:57.750 --> 00:13:01.050 align:middle line:84%
+complexes if you're doing
+a native electrophoresis
+
+00:13:01.050 --> 00:13:05.190 align:middle line:84%
+or native
+sedimentation velocity,
+
+00:13:05.190 --> 00:13:08.190 align:middle line:84%
+then you can get a curve where
+you can interpolate and find
+
+00:13:08.190 --> 00:13:11.565 align:middle line:84%
+masses quite accurately, or
+at least around about 2%.
+
+00:13:11.565 --> 00:13:14.340 align:middle line:90%
+
+
+00:13:14.340 --> 00:13:16.860 align:middle line:84%
+But mass spectrometry
+is commonly
+
+00:13:16.860 --> 00:13:20.160 align:middle line:84%
+applied to peptide masses,
+sometimes whole protein masses.
+
+00:13:20.160 --> 00:13:23.250 align:middle line:84%
+And here, assuming
+the mass spectrometer
+
+00:13:23.250 --> 00:13:25.350 align:middle line:84%
+is properly calibrated
+and so forth, this
+
+00:13:25.350 --> 00:13:26.940 align:middle line:90%
+is a simple isotope sum.
+
+00:13:26.940 --> 00:13:31.050 align:middle line:84%
+And this can be carried out
+sometimes to four or six
+
+00:13:31.050 --> 00:13:33.780 align:middle line:90%
+significant figures.
+
+00:13:33.780 --> 00:13:41.550 align:middle line:84%
+And it really is a simple
+sum of the isotopes measured
+
+00:13:41.550 --> 00:13:42.390 align:middle line:90%
+by physics.
+
+00:13:42.390 --> 00:13:44.802 align:middle line:84%
+And this can include
+post-synthetic modifications.
+
+00:13:44.802 --> 00:13:46.260 align:middle line:84%
+As you're getting
+down to peptides,
+
+00:13:46.260 --> 00:13:48.570 align:middle line:84%
+the post-synthetic modification
+becomes a much larger
+
+00:13:48.570 --> 00:13:53.745 align:middle line:84%
+fractional effect on the
+measures that you're making.
+
+00:13:53.745 --> 00:13:56.670 align:middle line:90%
+
+
+00:13:56.670 --> 00:13:58.800 align:middle line:84%
+Not only the mass, but
+the liquid chromatography
+
+00:13:58.800 --> 00:14:02.730 align:middle line:84%
+properties of either a protein
+or a peptide can be calculated.
+
+00:14:02.730 --> 00:14:04.930 align:middle line:84%
+Here you take amino
+acid composition
+
+00:14:04.930 --> 00:14:07.980 align:middle line:84%
+and do linear regression
+on a calibration set.
+
+00:14:07.980 --> 00:14:14.010 align:middle line:84%
+And you can get precision on
+the order of 5% or better.
+
+00:14:14.010 --> 00:14:17.460 align:middle line:84%
+A subset of localization,
+we have motifs.
+
+00:14:17.460 --> 00:14:19.380 align:middle line:84%
+Sometimes
+hydrophobicity is a part
+
+00:14:19.380 --> 00:14:22.530 align:middle line:84%
+of those motifs in
+their description.
+
+00:14:22.530 --> 00:14:24.660 align:middle line:84%
+Expression would
+not be something--
+
+00:14:24.660 --> 00:14:28.050 align:middle line:84%
+we've seen the motifs that
+are involved in regulation
+
+00:14:28.050 --> 00:14:29.710 align:middle line:90%
+of transcription and so forth.
+
+00:14:29.710 --> 00:14:33.660 align:middle line:84%
+But kind of the shortcut that
+might take you directly there
+
+00:14:33.660 --> 00:14:36.910 align:middle line:84%
+in certain cases is the
+codon adaptation index.
+
+00:14:36.910 --> 00:14:40.350 align:middle line:84%
+This is something
+where the hypothesis is
+
+00:14:40.350 --> 00:14:43.470 align:middle line:84%
+that you can go directly
+from the nucleotide sequence
+
+00:14:43.470 --> 00:14:45.780 align:middle line:84%
+of a protein coding
+region, and if it
+
+00:14:45.780 --> 00:14:49.080 align:middle line:84%
+uses codons that
+are very abundant,
+
+00:14:49.080 --> 00:14:51.630 align:middle line:84%
+that correspond to very
+abundant transfer RNAs,
+
+00:14:51.630 --> 00:14:52.890 align:middle line:90%
+then that protein--
+
+00:14:52.890 --> 00:14:55.830 align:middle line:84%
+then that's saying that
+the evolutionary pressures
+
+00:14:55.830 --> 00:14:59.310 align:middle line:84%
+producing that particular
+choice of codons
+
+00:14:59.310 --> 00:15:02.520 align:middle line:84%
+is revealing that that protein
+is going to be high abundance.
+
+00:15:02.520 --> 00:15:06.930 align:middle line:84%
+So in a way, this is a way
+of going directly without--
+
+00:15:06.930 --> 00:15:15.060 align:middle line:84%
+due to this observation and
+somewhat logical expectation.
+
+00:15:15.060 --> 00:15:15.780 align:middle line:90%
+so
+
+00:15:15.780 --> 00:15:19.080 align:middle line:84%
+Now we have all sorts
+of separation methods
+
+00:15:19.080 --> 00:15:21.330 align:middle line:84%
+and motivation for studying
+them, more than just
+
+00:15:21.330 --> 00:15:22.350 align:middle line:90%
+using them.
+
+00:15:22.350 --> 00:15:26.040 align:middle line:84%
+But now we want to look at a
+particular case of separation.
+
+00:15:26.040 --> 00:15:30.300 align:middle line:84%
+We're talking about complexes
+and protein localization.
+
+00:15:30.300 --> 00:15:42.120 align:middle line:84%
+So this here is another example
+of a two-dimensional gel, where
+
+00:15:42.120 --> 00:15:49.110 align:middle line:84%
+the isoelectric point
+is on the x-axis here
+
+00:15:49.110 --> 00:15:53.070 align:middle line:84%
+and the vertical axis is this
+estimate of molecular mass,
+
+00:15:53.070 --> 00:15:56.160 align:middle line:84%
+provided by the association
+of the protein with the SDS
+
+00:15:56.160 --> 00:15:59.940 align:middle line:84%
+micelles and the effect
+on gel electrophoresis.
+
+00:15:59.940 --> 00:16:04.890 align:middle line:84%
+And this is a 2D gel, a small
+section of it, not the full pH
+
+00:16:04.890 --> 00:16:06.900 align:middle line:84%
+range nor the full
+molecular weight range,
+
+00:16:06.900 --> 00:16:13.210 align:middle line:84%
+but this has a good fraction of
+the proteins that are secreted.
+
+00:16:13.210 --> 00:16:15.720 align:middle line:84%
+Now, to what extent
+can we calculate this?
+
+00:16:15.720 --> 00:16:18.190 align:middle line:84%
+We've shown a number of
+calculations and observations
+
+00:16:18.190 --> 00:16:18.900 align:middle line:90%
+so far.
+
+00:16:18.900 --> 00:16:24.600 align:middle line:84%
+And we pointed out in last
+class that to some extent
+
+00:16:24.600 --> 00:16:27.730 align:middle line:84%
+the transmembrane regions
+of a protein could--
+
+00:16:27.730 --> 00:16:31.440 align:middle line:84%
+this is one of the better
+algorithms in protein sequence
+
+00:16:31.440 --> 00:16:32.600 align:middle line:90%
+gazing.
+
+00:16:32.600 --> 00:16:34.890 align:middle line:84%
+And taking that
+one step further,
+
+00:16:34.890 --> 00:16:36.800 align:middle line:84%
+you can actually
+say, OK, we know
+
+00:16:36.800 --> 00:16:41.330 align:middle line:84%
+that this might have a
+motif or two that interact
+
+00:16:41.330 --> 00:16:44.840 align:middle line:84%
+with membranes, or
+somehow are part
+
+00:16:44.840 --> 00:16:49.010 align:middle line:84%
+of the process by which
+proteins are targeted
+
+00:16:49.010 --> 00:16:52.130 align:middle line:84%
+and move across
+membranes so that you
+
+00:16:52.130 --> 00:16:54.830 align:middle line:84%
+can divide it into several
+different subcellular
+
+00:16:54.830 --> 00:16:56.360 align:middle line:90%
+localizations--
+
+00:16:56.360 --> 00:16:58.670 align:middle line:84%
+in eukaryotes, the
+mitochondrial localization,
+
+00:16:58.670 --> 00:17:03.293 align:middle line:84%
+and chloroplasts
+in plants, secreted
+
+00:17:03.293 --> 00:17:05.210 align:middle line:84%
+proteins that go all the
+way across the plasma
+
+00:17:05.210 --> 00:17:08.819 align:middle line:84%
+membrane, and other locations,
+such as within the membrane.
+
+00:17:08.819 --> 00:17:13.220 align:middle line:84%
+And this can have
+an 85% success rate,
+
+00:17:13.220 --> 00:17:15.630 align:middle line:90%
+meaning a 15% false negative.
+
+00:17:15.630 --> 00:17:18.770 align:middle line:84%
+And you can see modest
+false positives here,
+
+00:17:18.770 --> 00:17:25.150 align:middle line:84%
+too, over predictions
+in 295 transmembranes.
+
+00:17:25.150 --> 00:17:28.700 align:middle line:90%
+
+
+00:17:28.700 --> 00:17:31.900 align:middle line:84%
+So let's return to
+mass, and this time
+
+00:17:31.900 --> 00:17:33.550 align:middle line:84%
+in the context of
+mass spectrometry.
+
+00:17:33.550 --> 00:17:34.510 align:middle line:90%
+What do we have--
+
+00:17:34.510 --> 00:17:39.510 align:middle line:90%
+
+
+00:17:39.510 --> 00:17:40.710 align:middle line:90%
+what's our starting point?
+
+00:17:40.710 --> 00:17:43.310 align:middle line:84%
+Well, if you look on the
+far left side of slide 11,
+
+00:17:43.310 --> 00:17:47.660 align:middle line:84%
+you'll see the simplest
+of the atoms, hydrogen,
+
+00:17:47.660 --> 00:17:51.350 align:middle line:84%
+and you would expect this
+to have an atomic mass of 1.
+
+00:17:51.350 --> 00:17:56.940 align:middle line:84%
+Well, since carbon-12 is
+assumed to be precisely 12,
+
+00:17:56.940 --> 00:17:59.930 align:middle line:84%
+it turns out that hydrogen
+is not precisely 1 when
+
+00:17:59.930 --> 00:18:01.760 align:middle line:90%
+you actually measure it.
+
+00:18:01.760 --> 00:18:05.990 align:middle line:84%
+And it's not even good enough
+for government standards.
+
+00:18:05.990 --> 00:18:12.270 align:middle line:84%
+When you actually, say, add
+a CH2, it adds up to 14.
+
+00:18:12.270 --> 00:18:14.480 align:middle line:84%
+And that is
+discriminatable from a
+
+00:18:14.480 --> 00:18:18.110 align:middle line:84%
+nitrogen-14 with a good
+enough mass spectrometer.
+
+00:18:18.110 --> 00:18:22.640 align:middle line:84%
+As it turns out, for
+most biochemical--
+
+00:18:22.640 --> 00:18:25.280 align:middle line:84%
+protein analyses,
+you don't depend
+
+00:18:25.280 --> 00:18:29.810 align:middle line:90%
+on the sixth decimal point.
+
+00:18:29.810 --> 00:18:32.930 align:middle line:90%
+You can get away, really, with--
+
+00:18:32.930 --> 00:18:35.930 align:middle line:84%
+or certainly don't
+depend on having
+
+00:18:35.930 --> 00:18:40.280 align:middle line:84%
+the 10 to the minus three atomic
+mass units as your resolution.
+
+00:18:40.280 --> 00:18:44.540 align:middle line:84%
+But you do depend upon in
+a much-- in a kilodalton
+
+00:18:44.540 --> 00:18:49.970 align:middle line:84%
+size peptide being able
+to get 1 part in 10
+
+00:18:49.970 --> 00:18:53.420 align:middle line:84%
+to the fourth, 1
+atomic mass unit.
+
+00:18:53.420 --> 00:18:55.490 align:middle line:84%
+Another big
+consideration here is
+
+00:18:55.490 --> 00:18:58.460 align:middle line:84%
+that not only are these
+things not exactly integers,
+
+00:18:58.460 --> 00:19:01.160 align:middle line:84%
+but in natural
+abundance, they're
+
+00:19:01.160 --> 00:19:04.910 align:middle line:84%
+a mixture of the major
+isotope on the far left
+
+00:19:04.910 --> 00:19:07.700 align:middle line:84%
+and the second and
+sometimes third
+
+00:19:07.700 --> 00:19:11.180 align:middle line:84%
+and fourth stable isotopes,
+usually non-radioactive
+
+00:19:11.180 --> 00:19:14.360 align:middle line:84%
+isotopes, which are
+present in nature.
+
+00:19:14.360 --> 00:19:19.310 align:middle line:84%
+And the most abundant in
+this particular list is C13.
+
+00:19:19.310 --> 00:19:21.620 align:middle line:84%
+And it's most abundant
+in two senses.
+
+00:19:21.620 --> 00:19:24.890 align:middle line:84%
+One is it's the highest
+fractional abundance
+
+00:19:24.890 --> 00:19:28.160 align:middle line:90%
+of any of these elements.
+
+00:19:28.160 --> 00:19:32.270 align:middle line:84%
+And secondly, carbon itself
+is very common in peptides.
+
+00:19:32.270 --> 00:19:34.820 align:middle line:84%
+If you cleave your
+protein up with trypsin,
+
+00:19:34.820 --> 00:19:38.960 align:middle line:84%
+which cleaves c-terminal
+to lysines and arginines,
+
+00:19:38.960 --> 00:19:43.130 align:middle line:84%
+you'll get on the
+order of 10 or 20
+
+00:19:43.130 --> 00:19:45.410 align:middle line:90%
+of these peptides per protein.
+
+00:19:45.410 --> 00:19:47.420 align:middle line:84%
+And they might be
+10 amino acids long.
+
+00:19:47.420 --> 00:19:51.770 align:middle line:84%
+And so they might have on the
+order of 40 carbons in them.
+
+00:19:51.770 --> 00:19:56.150 align:middle line:84%
+So now the fractional abundance
+of C13 with 40 carbons
+
+00:19:56.150 --> 00:19:57.965 align:middle line:90%
+is getting close to unity.
+
+00:19:57.965 --> 00:20:01.460 align:middle line:90%
+
+
+00:20:01.460 --> 00:20:04.400 align:middle line:84%
+And we'll see an example of
+exactly how this plays out
+
+00:20:04.400 --> 00:20:08.240 align:middle line:84%
+in terms of the multiple
+combinations of isotopes
+
+00:20:08.240 --> 00:20:09.950 align:middle line:90%
+that can occur.
+
+00:20:09.950 --> 00:20:12.500 align:middle line:84%
+Sulfur, on the other hand,
+has more stable isotopes.
+
+00:20:12.500 --> 00:20:14.510 align:middle line:84%
+It has four different
+stable isotopes,
+
+00:20:14.510 --> 00:20:17.030 align:middle line:84%
+but each one is a
+fairly small fraction.
+
+00:20:17.030 --> 00:20:19.820 align:middle line:84%
+And the probability of having
+a sulfur in a given peptide
+
+00:20:19.820 --> 00:20:20.593 align:middle line:90%
+is low.
+
+00:20:20.593 --> 00:20:22.760 align:middle line:84%
+I mean, that's the probability
+of having one sulfur.
+
+00:20:22.760 --> 00:20:26.150 align:middle line:84%
+The probability of having 40
+sulfurs is vanishingly small.
+
+00:20:26.150 --> 00:20:28.340 align:middle line:84%
+So we've gone
+through calculating
+
+00:20:28.340 --> 00:20:31.250 align:middle line:90%
+all this charged mass.
+
+00:20:31.250 --> 00:20:33.680 align:middle line:84%
+Now we're going to do
+liquid chromatography,
+
+00:20:33.680 --> 00:20:38.030 align:middle line:84%
+in particular
+hydrophobic measures.
+
+00:20:38.030 --> 00:20:40.280 align:middle line:84%
+And this all falls
+under the heading
+
+00:20:40.280 --> 00:20:44.120 align:middle line:84%
+of high-performance liquid
+chromatography, which
+
+00:20:44.120 --> 00:20:47.240 align:middle line:84%
+is achieved under high
+pressure typically
+
+00:20:47.240 --> 00:20:50.810 align:middle line:90%
+to get it to go rapidly.
+
+00:20:50.810 --> 00:20:52.850 align:middle line:84%
+And so you'll have
+these little--
+
+00:20:52.850 --> 00:20:54.770 align:middle line:84%
+you'll digest your
+protein with trypsin.
+
+00:20:54.770 --> 00:20:56.330 align:middle line:84%
+You get a series
+of these peptides,
+
+00:20:56.330 --> 00:21:01.250 align:middle line:90%
+say, 10 amino acids or so.
+
+00:21:01.250 --> 00:21:04.070 align:middle line:84%
+And then they're injected
+in a liquid phase.
+
+00:21:04.070 --> 00:21:08.420 align:middle line:84%
+They bind to the solid phase
+by the hydrophobic properties.
+
+00:21:08.420 --> 00:21:10.360 align:middle line:90%
+You might have it.
+
+00:21:10.360 --> 00:21:13.640 align:middle line:84%
+And then you'll have a readout,
+where, as a function of time,
+
+00:21:13.640 --> 00:21:16.700 align:middle line:84%
+you get abundance where the
+peaks can be measured by mass
+
+00:21:16.700 --> 00:21:20.160 align:middle line:90%
+or ion counting and so on.
+
+00:21:20.160 --> 00:21:22.760 align:middle line:84%
+And these can be
+collected or simply run
+
+00:21:22.760 --> 00:21:25.513 align:middle line:90%
+into a mass spectrometer.
+
+00:21:25.513 --> 00:21:26.930 align:middle line:84%
+There are going
+to be two phases--
+
+00:21:26.930 --> 00:21:28.760 align:middle line:84%
+the mobile phase
+and solid phase.
+
+00:21:28.760 --> 00:21:35.000 align:middle line:84%
+Talking about the
+mobile phase first,
+
+00:21:35.000 --> 00:21:39.200 align:middle line:84%
+the hydrophobic tendency
+of any given peptide
+
+00:21:39.200 --> 00:21:41.210 align:middle line:84%
+is going to be some
+kind of related
+
+00:21:41.210 --> 00:21:45.230 align:middle line:84%
+to the sum of the individual
+amino acid components.
+
+00:21:45.230 --> 00:21:47.330 align:middle line:84%
+And you can either have
+a isocratic elution,
+
+00:21:47.330 --> 00:21:50.300 align:middle line:84%
+where you have basically
+constant migration speed,
+
+00:21:50.300 --> 00:21:54.290 align:middle line:84%
+no change in the content
+of the mobile phase,
+
+00:21:54.290 --> 00:21:58.130 align:middle line:84%
+or you can have the mobile
+phase change its composition,
+
+00:21:58.130 --> 00:22:01.340 align:middle line:84%
+say, for something that's almost
+entirely water at the beginning
+
+00:22:01.340 --> 00:22:06.380 align:middle line:84%
+to something that has a high
+organic content, up to 40%
+
+00:22:06.380 --> 00:22:11.450 align:middle line:84%
+or so acetonitrile, and so that
+at the end of the gradient,
+
+00:22:11.450 --> 00:22:13.410 align:middle line:84%
+even the most
+hydrophobic peptides
+
+00:22:13.410 --> 00:22:15.740 align:middle line:84%
+now have just as much
+affinity for the mobile phase
+
+00:22:15.740 --> 00:22:18.785 align:middle line:84%
+as the solid phase, and
+they come flowing off.
+
+00:22:18.785 --> 00:22:22.380 align:middle line:84%
+The solid phase has a
+number of different options.
+
+00:22:22.380 --> 00:22:25.370 align:middle line:84%
+The main one we've been talking
+about, implicitly at least,
+
+00:22:25.370 --> 00:22:28.490 align:middle line:84%
+is the reverse
+phase, where you have
+
+00:22:28.490 --> 00:22:34.520 align:middle line:84%
+the hydrophobic carbon-18
+alkyl chains immobilized
+
+00:22:34.520 --> 00:22:41.880 align:middle line:84%
+to a highly porous
+media in a column that
+
+00:22:41.880 --> 00:22:44.850 align:middle line:90%
+can withstand high pressure.
+
+00:22:44.850 --> 00:22:49.980 align:middle line:84%
+Or it can have differing
+polarities, size exclusion,
+
+00:22:49.980 --> 00:22:53.760 align:middle line:84%
+the same sort of things
+that we were talking
+
+00:22:53.760 --> 00:22:57.165 align:middle line:84%
+about with electrophoresis,
+except now the force is
+
+00:22:57.165 --> 00:22:59.640 align:middle line:84%
+a non-electric field,
+but it's simply
+
+00:22:59.640 --> 00:23:02.940 align:middle line:84%
+the pressure differentiable
+between the injection
+
+00:23:02.940 --> 00:23:03.960 align:middle line:90%
+port and the output.
+
+00:23:03.960 --> 00:23:08.330 align:middle line:90%
+
+
+00:23:08.330 --> 00:23:11.390 align:middle line:84%
+So here is a specific
+case worked out
+
+00:23:11.390 --> 00:23:16.670 align:middle line:84%
+example of how you calculate
+the affinity of a peptide
+
+00:23:16.670 --> 00:23:20.210 align:middle line:90%
+to a hydrophobic column.
+
+00:23:20.210 --> 00:23:22.430 align:middle line:84%
+This is a C18 column,
+referring to the number
+
+00:23:22.430 --> 00:23:24.350 align:middle line:90%
+of carbons in the alkyl chain.
+
+00:23:24.350 --> 00:23:27.748 align:middle line:84%
+So you can see that this is like
+a kind of a lipid type phase.
+
+00:23:27.748 --> 00:23:30.290 align:middle line:84%
+It's the sort of thing you might
+see in the middle of a lipid
+
+00:23:30.290 --> 00:23:31.820 align:middle line:90%
+bilayer membrane.
+
+00:23:31.820 --> 00:23:37.310 align:middle line:84%
+And in this plot, you have
+relative retention time
+
+00:23:37.310 --> 00:23:39.260 align:middle line:90%
+along the vertical axis.
+
+00:23:39.260 --> 00:23:45.080 align:middle line:84%
+And the residue number refers
+to having short peptides
+
+00:23:45.080 --> 00:23:48.620 align:middle line:84%
+cleaved, sort of walking
+along the protein.
+
+00:23:48.620 --> 00:23:51.770 align:middle line:84%
+These have been synthesized so
+they march along the proteins,
+
+00:23:51.770 --> 00:23:56.660 align:middle line:84%
+very analogous to how
+in an earlier class
+
+00:23:56.660 --> 00:24:00.350 align:middle line:84%
+Rosetta made synthetic
+oligonucleotides marching along
+
+00:24:00.350 --> 00:24:02.030 align:middle line:90%
+the human genome.
+
+00:24:02.030 --> 00:24:04.520 align:middle line:84%
+And this was done in
+order to calibrate
+
+00:24:04.520 --> 00:24:07.640 align:middle line:84%
+to see how the composition,
+the amino acid composition
+
+00:24:07.640 --> 00:24:10.490 align:middle line:84%
+of a peptide might
+affect its mobility
+
+00:24:10.490 --> 00:24:12.060 align:middle line:90%
+and allow you to calculate it.
+
+00:24:12.060 --> 00:24:19.940 align:middle line:84%
+And so what you end up with
+here is a somewhat intuitive way
+
+00:24:19.940 --> 00:24:23.400 align:middle line:84%
+of summing the contributions
+of each of these amino acids.
+
+00:24:23.400 --> 00:24:28.760 align:middle line:84%
+Now, remember, this is done
+under fairly acidic conditions.
+
+00:24:28.760 --> 00:24:32.210 align:middle line:84%
+So the normally
+charged acid groups
+
+00:24:32.210 --> 00:24:34.770 align:middle line:84%
+will now be protonated
+and be neutral.
+
+00:24:34.770 --> 00:24:38.930 align:middle line:84%
+And so what we'll find is
+mainly a spectrum from the very
+
+00:24:38.930 --> 00:24:40.350 align:middle line:90%
+slowest to be eluted.
+
+00:24:40.350 --> 00:24:42.950 align:middle line:84%
+They require the most
+organic, and hence the most--
+
+00:24:42.950 --> 00:24:46.400 align:middle line:84%
+the longest retention time
+would be the highly hydrophobic
+
+00:24:46.400 --> 00:24:49.010 align:middle line:84%
+aromatics, tryptophan
+and phenylalanine,
+
+00:24:49.010 --> 00:24:53.477 align:middle line:84%
+have a component which you
+obtain by linear regression
+
+00:24:53.477 --> 00:24:54.560 align:middle line:90%
+of each of these peptides.
+
+00:24:54.560 --> 00:24:56.227 align:middle line:84%
+You know the sequence
+of these peptides.
+
+00:24:56.227 --> 00:24:58.910 align:middle line:84%
+You calculate their
+composition vector.
+
+00:24:58.910 --> 00:25:01.070 align:middle line:84%
+And then you relate it
+to the retention time
+
+00:25:01.070 --> 00:25:03.800 align:middle line:84%
+that's observed, so that the
+lower plot is the observed
+
+00:25:03.800 --> 00:25:04.430 align:middle line:90%
+ones.
+
+00:25:04.430 --> 00:25:05.990 align:middle line:84%
+And then after you
+do the regression,
+
+00:25:05.990 --> 00:25:07.490 align:middle line:84%
+you get a set of
+these coefficients.
+
+00:25:07.490 --> 00:25:09.950 align:middle line:84%
+You can now plug them
+in an additive sense
+
+00:25:09.950 --> 00:25:11.677 align:middle line:90%
+to make this calculated plot.
+
+00:25:11.677 --> 00:25:13.760 align:middle line:84%
+And you can see that there's
+very good correlation
+
+00:25:13.760 --> 00:25:15.477 align:middle line:90%
+up and down.
+
+00:25:15.477 --> 00:25:17.810 align:middle line:84%
+It might have been better if
+these authors had done this
+
+00:25:17.810 --> 00:25:21.080 align:middle line:84%
+as a plot of calculated
+versus observed,
+
+00:25:21.080 --> 00:25:23.600 align:middle line:84%
+as we did in the previous one,
+and then showed the scatter
+
+00:25:23.600 --> 00:25:25.250 align:middle line:90%
+and did a regression curve.
+
+00:25:25.250 --> 00:25:26.580 align:middle line:90%
+But you get the idea.
+
+00:25:26.580 --> 00:25:29.600 align:middle line:84%
+And so the most hydrophobic
+ones are at the top,
+
+00:25:29.600 --> 00:25:31.700 align:middle line:84%
+and the ones that
+are acid conditions
+
+00:25:31.700 --> 00:25:32.870 align:middle line:90%
+are the most highly charged.
+
+00:25:32.870 --> 00:25:34.520 align:middle line:84%
+There's the positive
+charge ones, the lysine,
+
+00:25:34.520 --> 00:25:36.062 align:middle line:84%
+the histidine, and
+arginine down here
+
+00:25:36.062 --> 00:25:37.970 align:middle line:84%
+at the bottom, and
+the acidic ones,
+
+00:25:37.970 --> 00:25:42.410 align:middle line:84%
+since they're close to
+neutral or near 0 here.
+
+00:25:42.410 --> 00:25:45.980 align:middle line:84%
+And there's a slight effect as
+to whether the amino acid is
+
+00:25:45.980 --> 00:25:47.240 align:middle line:90%
+at the N-terminus or not.
+
+00:25:47.240 --> 00:25:51.680 align:middle line:90%
+
+
+00:25:51.680 --> 00:25:55.850 align:middle line:84%
+So now we've calculated the
+reverse phase behavior here
+
+00:25:55.850 --> 00:26:00.260 align:middle line:84%
+on the far left-hand
+side of slide 17.
+
+00:26:00.260 --> 00:26:02.330 align:middle line:84%
+And this is separated
+by hydrophobicity,
+
+00:26:02.330 --> 00:26:05.450 align:middle line:84%
+and then we have mass,
+which we've outlined
+
+00:26:05.450 --> 00:26:07.280 align:middle line:90%
+how you can calculate the mass.
+
+00:26:07.280 --> 00:26:09.890 align:middle line:84%
+So now you can calculate
+both its hydrophobicity
+
+00:26:09.890 --> 00:26:12.350 align:middle line:84%
+on the vertical axis, and
+mass on the horizontal.
+
+00:26:12.350 --> 00:26:15.170 align:middle line:84%
+And you can make
+this, in the computer,
+
+00:26:15.170 --> 00:26:18.920 align:middle line:90%
+this two-dimensional plot.
+
+00:26:18.920 --> 00:26:21.060 align:middle line:84%
+In this case, this is
+actually observed data.
+
+00:26:21.060 --> 00:26:24.500 align:middle line:84%
+But you could also superimpose
+on it the calculated ones.
+
+00:26:24.500 --> 00:26:30.200 align:middle line:84%
+These are slightly streakier
+in the reverse phase retention
+
+00:26:30.200 --> 00:26:34.820 align:middle line:84%
+time, rt, just because of
+the scale that one uses,
+
+00:26:34.820 --> 00:26:39.235 align:middle line:84%
+or the properties of
+the separation method.
+
+00:26:39.235 --> 00:26:40.610 align:middle line:84%
+Now, if you blow
+up-- if you take
+
+00:26:40.610 --> 00:26:43.220 align:middle line:84%
+one of these little
+two-dimensional spots
+
+00:26:43.220 --> 00:26:47.810 align:middle line:84%
+and zoom in on it, and look
+at it in greater detail,
+
+00:26:47.810 --> 00:26:52.040 align:middle line:84%
+you see that it actually
+is a complex set of peaks
+
+00:26:52.040 --> 00:26:56.030 align:middle line:84%
+in the mass direction,
+and fairly simple
+
+00:26:56.030 --> 00:26:57.188 align:middle line:90%
+in the retention time.
+
+00:26:57.188 --> 00:26:58.730 align:middle line:84%
+Now, you could say,
+well, maybe these
+
+00:26:58.730 --> 00:27:00.410 align:middle line:90%
+are all different peptides.
+
+00:27:00.410 --> 00:27:02.960 align:middle line:84%
+But in fact-- and they
+are, in a certain sense.
+
+00:27:02.960 --> 00:27:07.640 align:middle line:84%
+But they're trivial relatives of
+this, where you need to think--
+
+00:27:07.640 --> 00:27:11.370 align:middle line:84%
+where you can data mine and
+get additional information.
+
+00:27:11.370 --> 00:27:18.740 align:middle line:84%
+So each of these are separate
+isotope peaks, meaning,
+
+00:27:18.740 --> 00:27:21.680 align:middle line:84%
+remember, this might have
+40 carbons in this peptide.
+
+00:27:21.680 --> 00:27:24.860 align:middle line:84%
+And so it's going to be
+a binomial distribution,
+
+00:27:24.860 --> 00:27:30.410 align:middle line:84%
+where this is the case where
+you have zero carbon-13's.
+
+00:27:30.410 --> 00:27:32.270 align:middle line:84%
+In other words, it's
+all carbon-12's.
+
+00:27:32.270 --> 00:27:35.570 align:middle line:84%
+And then the next
+peak over to the right
+
+00:27:35.570 --> 00:27:37.250 align:middle line:90%
+is going to have one carbon-13.
+
+00:27:37.250 --> 00:27:39.860 align:middle line:84%
+The next peak over is going
+to have two carbon-13's.
+
+00:27:39.860 --> 00:27:43.070 align:middle line:84%
+And n minus 2, where n is
+the total number of carbons
+
+00:27:43.070 --> 00:27:44.930 align:middle line:84%
+in that peptide, which
+would be carbon-12,
+
+00:27:44.930 --> 00:27:46.580 align:middle line:84%
+the most abundant
+one, and so on.
+
+00:27:46.580 --> 00:27:48.620 align:middle line:84%
+And you'd get every
+possible combination
+
+00:27:48.620 --> 00:27:52.090 align:middle line:84%
+in a binomial distribution
+just as you would expect.
+
+00:27:52.090 --> 00:27:53.090 align:middle line:90%
+Now, what does this say?
+
+00:27:53.090 --> 00:27:54.465 align:middle line:84%
+It tells you at
+least two things.
+
+00:27:54.465 --> 00:27:57.800 align:middle line:84%
+One is the distance between
+these, you can see here,
+
+00:27:57.800 --> 00:28:00.350 align:middle line:90%
+is a half an atomic mass unit.
+
+00:28:00.350 --> 00:28:02.630 align:middle line:84%
+Well, how do we get a half
+of an atomic mass unit?
+
+00:28:02.630 --> 00:28:04.345 align:middle line:90%
+I mean, they're supposed to be--
+
+00:28:04.345 --> 00:28:06.220 align:middle line:84%
+I mean, we know they're
+not perfect integers,
+
+00:28:06.220 --> 00:28:07.400 align:middle line:90%
+but this is way off.
+
+00:28:07.400 --> 00:28:10.780 align:middle line:84%
+And the reason is because
+what's actually measured
+
+00:28:10.780 --> 00:28:12.278 align:middle line:90%
+is the mass over charge.
+
+00:28:12.278 --> 00:28:14.320 align:middle line:84%
+You're not measuring the
+mass-- mass over charge.
+
+00:28:14.320 --> 00:28:17.470 align:middle line:84%
+And so this is saying this
+particular peptide has a +2
+
+00:28:17.470 --> 00:28:18.190 align:middle line:90%
+charge state.
+
+00:28:18.190 --> 00:28:19.910 align:middle line:90%
+That's an important fact.
+
+00:28:19.910 --> 00:28:22.290 align:middle line:84%
+It's going to be hard
+to interpret its mass
+
+00:28:22.290 --> 00:28:24.040 align:middle line:84%
+if you don't know its
+charge, because it's
+
+00:28:24.040 --> 00:28:27.063 align:middle line:90%
+m/z that's measured.
+
+00:28:27.063 --> 00:28:28.480 align:middle line:84%
+The other thing
+that's measured is
+
+00:28:28.480 --> 00:28:30.503 align:middle line:84%
+from the exact
+binomial distribution
+
+00:28:30.503 --> 00:28:32.920 align:middle line:84%
+you can get an estimate of the
+number of carbons in there,
+
+00:28:32.920 --> 00:28:35.290 align:middle line:84%
+because if they're a
+huge number of carbons,
+
+00:28:35.290 --> 00:28:39.430 align:middle line:84%
+then it will turn out that one
+of the secondary peaks here,
+
+00:28:39.430 --> 00:28:43.000 align:middle line:84%
+one of the rightward
+peaks, will actually
+
+00:28:43.000 --> 00:28:44.140 align:middle line:90%
+be the most abundant one.
+
+00:28:44.140 --> 00:28:45.760 align:middle line:84%
+If it has a small
+number of carbons,
+
+00:28:45.760 --> 00:28:50.200 align:middle line:84%
+then the zero carbon-13 peak
+will be the all around winner.
+
+00:28:50.200 --> 00:28:54.135 align:middle line:84%
+And so from the relative
+heights of 0, 1, and 2,
+
+00:28:54.135 --> 00:28:55.760 align:middle line:84%
+you can estimate the
+number of carbons.
+
+00:28:55.760 --> 00:28:58.690 align:middle line:84%
+So two facts you can get
+from this high resolution
+
+00:28:58.690 --> 00:29:02.650 align:middle line:90%
+view of that peak.
+
+00:29:02.650 --> 00:29:11.440 align:middle line:84%
+So now we've got these two
+phases, these two dimensions
+
+00:29:11.440 --> 00:29:13.270 align:middle line:90%
+pretty well in hand--
+
+00:29:13.270 --> 00:29:14.860 align:middle line:90%
+the reverse phase and the mass.
+
+00:29:14.860 --> 00:29:16.750 align:middle line:84%
+Now we're going to add
+another dimension--
+
+00:29:16.750 --> 00:29:18.260 align:middle line:84%
+actually, a couple
+more dimensions.
+
+00:29:18.260 --> 00:29:19.660 align:middle line:84%
+One is another
+peptide dimension,
+
+00:29:19.660 --> 00:29:24.280 align:middle line:84%
+which is a Strong
+Cation Exchange, SCX.
+
+00:29:24.280 --> 00:29:26.170 align:middle line:84%
+What this means is
+the peptides will
+
+00:29:26.170 --> 00:29:28.505 align:middle line:84%
+have different cationic
+properties, different charges,
+
+00:29:28.505 --> 00:29:31.060 align:middle line:84%
+and they will bind to
+different extents to this.
+
+00:29:31.060 --> 00:29:34.990 align:middle line:84%
+And you can put these in
+tandem, either physically
+
+00:29:34.990 --> 00:29:36.100 align:middle line:90%
+or conceptually.
+
+00:29:36.100 --> 00:29:38.008 align:middle line:84%
+You'll run one, take
+a bunch of fractions,
+
+00:29:38.008 --> 00:29:39.550 align:middle line:84%
+and then put it on
+the reverse phase.
+
+00:29:39.550 --> 00:29:42.460 align:middle line:84%
+The first phase literally
+is physically connected
+
+00:29:42.460 --> 00:29:45.040 align:middle line:90%
+to the mass spectrometer.
+
+00:29:45.040 --> 00:29:47.690 align:middle line:84%
+And then we'll talk
+about some upstream.
+
+00:29:47.690 --> 00:29:50.290 align:middle line:84%
+Now, upstream
+separation methods,
+
+00:29:50.290 --> 00:29:53.400 align:middle line:84%
+before you fragment it into
+peptides, you can separate.
+
+00:29:53.400 --> 00:29:56.170 align:middle line:84%
+It can have dimensions on the
+proteins, which can tell you
+
+00:29:56.170 --> 00:29:58.120 align:middle line:90%
+about the complexes.
+
+00:29:58.120 --> 00:30:01.310 align:middle line:84%
+Let's go through a specific
+example of complexes.
+
+00:30:01.310 --> 00:30:03.860 align:middle line:90%
+
+
+00:30:03.860 --> 00:30:07.000 align:middle line:84%
+So if you take the
+entire yeast proteome--
+
+00:30:07.000 --> 00:30:12.940 align:middle line:84%
+grind up yeast, throw it
+on a first separation,
+
+00:30:12.940 --> 00:30:18.400 align:middle line:84%
+which is the sedimentation
+velocity-- remember,
+
+00:30:18.400 --> 00:30:20.050 align:middle line:84%
+there's equilibrium
+and velocity.
+
+00:30:20.050 --> 00:30:24.055 align:middle line:84%
+Velocity is mainly responsive
+to the size of the complex.
+
+00:30:24.055 --> 00:30:25.180 align:middle line:90%
+This is a native dimension.
+
+00:30:25.180 --> 00:30:27.820 align:middle line:84%
+We're not denaturing
+with SDS native.
+
+00:30:27.820 --> 00:30:29.380 align:middle line:84%
+And so you'll see
+the things that
+
+00:30:29.380 --> 00:30:32.260 align:middle line:84%
+go absolutely the
+fastest in the cell
+
+00:30:32.260 --> 00:30:36.640 align:middle line:84%
+and among the most
+abundant are the ribosomes
+
+00:30:36.640 --> 00:30:38.020 align:middle line:90%
+and the ribosomal subunits.
+
+00:30:38.020 --> 00:30:40.180 align:middle line:84%
+This is done under
+conditions where you just
+
+00:30:40.180 --> 00:30:44.950 align:middle line:84%
+tease apart the two ribosomal
+subunits so that they're
+
+00:30:44.950 --> 00:30:45.670 align:middle line:90%
+separated.
+
+00:30:45.670 --> 00:30:48.490 align:middle line:84%
+And the bigger of the
+two is called 60S.
+
+00:30:48.490 --> 00:30:50.980 align:middle line:84%
+The S refers to
+Svedberg, who was
+
+00:30:50.980 --> 00:30:55.870 align:middle line:84%
+one of the pioneers of
+sedimentation velocity.
+
+00:30:55.870 --> 00:30:59.890 align:middle line:84%
+And this can be correlated.
+the Rate at which it goes down,
+
+00:30:59.890 --> 00:31:04.690 align:middle line:84%
+this stabilized gradient
+centrifugal field is
+
+00:31:04.690 --> 00:31:07.030 align:middle line:90%
+related to the complex.
+
+00:31:07.030 --> 00:31:09.040 align:middle line:84%
+And then so that's
+the first dimension
+
+00:31:09.040 --> 00:31:10.990 align:middle line:90%
+is horizontally, sedimentation.
+
+00:31:10.990 --> 00:31:15.940 align:middle line:84%
+The very top axis going
+horizontally is sedimentation.
+
+00:31:15.940 --> 00:31:22.030 align:middle line:84%
+And then going down is
+SDS gel electrophoresis.
+
+00:31:22.030 --> 00:31:24.070 align:middle line:84%
+So now you're taking
+these native complexes
+
+00:31:24.070 --> 00:31:27.190 align:middle line:84%
+and breaking them up into
+their component proteins,
+
+00:31:27.190 --> 00:31:29.020 align:middle line:84%
+where high molecular
+weight is up,
+
+00:31:29.020 --> 00:31:30.520 align:middle line:84%
+and low molecular
+weight is down.
+
+00:31:30.520 --> 00:31:32.895 align:middle line:84%
+And you can see that there
+are quite a number of proteins
+
+00:31:32.895 --> 00:31:35.320 align:middle line:84%
+in each of these two
+subunits, the 60S and the 40S.
+
+00:31:35.320 --> 00:31:38.080 align:middle line:84%
+Now, each of these proteins--
+so that's the second dimension.
+
+00:31:38.080 --> 00:31:40.780 align:middle line:84%
+Now, you cleave
+it into peptides,
+
+00:31:40.780 --> 00:31:45.250 align:middle line:84%
+and you analyze the peptides by
+retention time in all the three
+
+00:31:45.250 --> 00:31:46.690 align:middle line:90%
+dimensions--
+
+00:31:46.690 --> 00:31:49.210 align:middle line:84%
+strong cation exchange,
+retention time, and mass.
+
+00:31:49.210 --> 00:31:50.710 align:middle line:84%
+And then you add a
+fourth one, which
+
+00:31:50.710 --> 00:31:53.230 align:middle line:84%
+we'll develop a little
+later, where you can actually
+
+00:31:53.230 --> 00:31:55.280 align:middle line:84%
+break up the peptides
+into little pieces.
+
+00:31:55.280 --> 00:32:00.560 align:middle line:84%
+So you identify which protein
+each of the peptides came from.
+
+00:32:00.560 --> 00:32:03.580 align:middle line:84%
+Now, unfortunately,
+not all peptides
+
+00:32:03.580 --> 00:32:06.440 align:middle line:84%
+are equal in their
+ionization potential.
+
+00:32:06.440 --> 00:32:09.160 align:middle line:84%
+And so if it ionizes
+poorly, you won't
+
+00:32:09.160 --> 00:32:12.310 align:middle line:84%
+detect a particular
+peptide from a protein.
+
+00:32:12.310 --> 00:32:14.710 align:middle line:84%
+If you detect a large number
+of peptides from a protein,
+
+00:32:14.710 --> 00:32:17.050 align:middle line:84%
+that probably means that
+it's abundant in your sample
+
+00:32:17.050 --> 00:32:19.630 align:middle line:84%
+or your fraction,
+and it also means
+
+00:32:19.630 --> 00:32:21.880 align:middle line:84%
+that you can believe
+that the computer
+
+00:32:21.880 --> 00:32:25.520 align:middle line:84%
+identification of that protein
+is probably pretty solid.
+
+00:32:25.520 --> 00:32:28.210 align:middle line:84%
+So if you get five or more
+peptides from a particular
+
+00:32:28.210 --> 00:32:30.402 align:middle line:84%
+protein in your
+database search--
+
+00:32:30.402 --> 00:32:32.860 align:middle line:84%
+and we'll talk just a moment
+about how you do that database
+
+00:32:32.860 --> 00:32:34.060 align:middle line:90%
+search--
+
+00:32:34.060 --> 00:32:36.130 align:middle line:84%
+then you believe it,
+and it's very solid.
+
+00:32:36.130 --> 00:32:39.160 align:middle line:84%
+And so if you look at the-- you
+can see that all these-- as you
+
+00:32:39.160 --> 00:32:44.260 align:middle line:84%
+look at essentially the protein
+fingerprint for each of the 60S
+
+00:32:44.260 --> 00:32:47.122 align:middle line:84%
+fractions in the sedimentation,
+they look pretty similar.
+
+00:32:47.122 --> 00:32:48.580 align:middle line:84%
+And when you run
+out the mass spec,
+
+00:32:48.580 --> 00:32:53.110 align:middle line:84%
+you get similar sets
+of peptide signatures.
+
+00:32:53.110 --> 00:32:55.990 align:middle line:90%
+And they correspond to--
+
+00:32:55.990 --> 00:32:58.540 align:middle line:84%
+most of them, especially
+the most abundant ones,
+
+00:32:58.540 --> 00:33:02.410 align:middle line:84%
+correspond to the
+known 60S proteins.
+
+00:33:02.410 --> 00:33:07.530 align:middle line:84%
+If you go a little
+bit slower, less mass,
+
+00:33:07.530 --> 00:33:11.190 align:middle line:84%
+the 40S subunits and you
+analyze the subsequences
+
+00:33:11.190 --> 00:33:14.640 align:middle line:84%
+of the mass spec signatures
+for those peptides,
+
+00:33:14.640 --> 00:33:16.860 align:middle line:90%
+then they mainly turn up 40S.
+
+00:33:16.860 --> 00:33:18.570 align:middle line:90%
+There's some exceptions in both.
+
+00:33:18.570 --> 00:33:22.020 align:middle line:84%
+There are some other categories,
+which may be interesting.
+
+00:33:22.020 --> 00:33:26.500 align:middle line:84%
+The most interesting in
+this particular study,
+
+00:33:26.500 --> 00:33:32.130 align:middle line:84%
+the authors highlighted was
+[? Weimer ?] 116p, which,
+
+00:33:32.130 --> 00:33:33.780 align:middle line:84%
+remember, this is a
+very mature field.
+
+00:33:33.780 --> 00:33:35.340 align:middle line:90%
+This is a very recent study.
+
+00:33:35.340 --> 00:33:37.770 align:middle line:84%
+And ribosomes were very
+well characterized.
+
+00:33:37.770 --> 00:33:39.900 align:middle line:84%
+And I think we had the
+conceit that at least
+
+00:33:39.900 --> 00:33:42.040 align:middle line:84%
+in microbial systems,
+such as E. coli and yeast,
+
+00:33:42.040 --> 00:33:44.700 align:middle line:84%
+we really understood all the
+proteins that were required
+
+00:33:44.700 --> 00:33:46.980 align:middle line:90%
+to make a ribosome hum.
+
+00:33:46.980 --> 00:33:49.650 align:middle line:84%
+But here was a new
+ribosomal protein,
+
+00:33:49.650 --> 00:33:56.460 align:middle line:84%
+which has since been confirmed
+that this is a bona fide part
+
+00:33:56.460 --> 00:33:57.510 align:middle line:90%
+of the 40S subunit.
+
+00:33:57.510 --> 00:34:00.160 align:middle line:84%
+You can see here it
+had many peptide hits.
+
+00:34:00.160 --> 00:34:05.580 align:middle line:84%
+So it was equal in abundance to
+the other 40S subunit proteins.
+
+00:34:05.580 --> 00:34:10.489 align:middle line:90%
+
+
+00:34:10.489 --> 00:34:12.889 align:middle line:84%
+So here we had in
+a certain sense
+
+00:34:12.889 --> 00:34:16.010 align:middle line:84%
+five or so dimensions,
+the sedimentation,
+
+00:34:16.010 --> 00:34:18.949 align:middle line:84%
+which is the native complex
+size, the denatured protein
+
+00:34:18.949 --> 00:34:23.525 align:middle line:84%
+subunit size, the
+peptide ionic--
+
+00:34:23.525 --> 00:34:29.100 align:middle line:90%
+
+
+00:34:29.100 --> 00:34:33.270 align:middle line:84%
+the ion exchange,
+the peptide mass,
+
+00:34:33.270 --> 00:34:36.480 align:middle line:90%
+and the peptide fragmentation.
+
+00:34:36.480 --> 00:34:38.400 align:middle line:84%
+So when we talk
+about fragmentation,
+
+00:34:38.400 --> 00:34:40.320 align:middle line:84%
+that's what MS/MS
+sometimes means.
+
+00:34:40.320 --> 00:34:43.530 align:middle line:84%
+It means that you're doing first
+mass separation of the peptide.
+
+00:34:43.530 --> 00:34:45.870 align:middle line:84%
+You break it up, and you
+do another mass separation
+
+00:34:45.870 --> 00:34:47.070 align:middle line:90%
+of the component parts.
+
+00:34:47.070 --> 00:34:48.810 align:middle line:84%
+And that allows
+us to do database
+
+00:34:48.810 --> 00:34:53.170 align:middle line:84%
+searching and sequencing
+of the peptides.
+
+00:34:53.170 --> 00:34:54.159 align:middle line:90%
+Now, how this works--
+
+00:34:54.159 --> 00:34:55.365 align:middle line:84%
+this is a blow up
+of something that
+
+00:34:55.365 --> 00:34:57.840 align:middle line:84%
+was in an earlier slide, where
+you can really see the region
+
+00:34:57.840 --> 00:34:58.800 align:middle line:90%
+where you've got electrospray.
+
+00:34:58.800 --> 00:35:01.420 align:middle line:84%
+We'll have an even closer
+blow up with this in a moment.
+
+00:35:01.420 --> 00:35:05.340 align:middle line:84%
+But basically, your reverse
+phase liquid chromatography
+
+00:35:05.340 --> 00:35:07.350 align:middle line:84%
+is going directly
+into this vacuum
+
+00:35:07.350 --> 00:35:13.560 align:middle line:84%
+here, generating little
+spray at 4,000 volts,
+
+00:35:13.560 --> 00:35:18.060 align:middle line:84%
+and then these molecular ions
+will go through the vacuum
+
+00:35:18.060 --> 00:35:22.260 align:middle line:84%
+through a series of
+magnetic octopoles
+
+00:35:22.260 --> 00:35:24.840 align:middle line:84%
+until it hits an ion
+trap, which helps
+
+00:35:24.840 --> 00:35:29.258 align:middle line:84%
+you determine the m/z,
+and finally a detector.
+
+00:35:29.258 --> 00:35:31.800 align:middle line:84%
+You can see there's a variety
+of different pressures in here,
+
+00:35:31.800 --> 00:35:34.770 align:middle line:84%
+sort of increasing pressure
+from the point where you have
+
+00:35:34.770 --> 00:35:37.410 align:middle line:84%
+the aqueous solvent
+going in all the way
+
+00:35:37.410 --> 00:35:43.303 align:middle line:84%
+to the detector, which is the
+highest vacuum at around 10
+
+00:35:43.303 --> 00:35:47.490 align:middle line:90%
+to the minus fifth torr.
+
+00:35:47.490 --> 00:35:49.710 align:middle line:84%
+Now, here's where the
+[INAUDIBLE] mass spectrometry,
+
+00:35:49.710 --> 00:35:57.510 align:middle line:84%
+or MS/MS, or collision-induced
+dissociation, you have--
+
+00:35:57.510 --> 00:36:00.045 align:middle line:84%
+here's your ion beam of
+molecular peptide ions.
+
+00:36:00.045 --> 00:36:03.930 align:middle line:90%
+You've now turned peptides in--
+
+00:36:03.930 --> 00:36:06.900 align:middle line:84%
+they're each on their
+own little space.
+
+00:36:06.900 --> 00:36:09.360 align:middle line:84%
+And in the middle
+of this quadrupole,
+
+00:36:09.360 --> 00:36:13.800 align:middle line:84%
+this magnetic
+environment here, you
+
+00:36:13.800 --> 00:36:17.760 align:middle line:84%
+bring in an inert
+gas, like argon,
+
+00:36:17.760 --> 00:36:22.290 align:middle line:84%
+to collide with these
+rapidly moving ions,
+
+00:36:22.290 --> 00:36:24.990 align:middle line:84%
+and they will break
+the chain, basically,
+
+00:36:24.990 --> 00:36:26.370 align:middle line:90%
+at any covalent bond.
+
+00:36:26.370 --> 00:36:31.290 align:middle line:84%
+And if you think of the peptide
+at a chain backbone as having
+
+00:36:31.290 --> 00:36:34.470 align:middle line:84%
+three different covalent
+bonds, there's the peptide bond
+
+00:36:34.470 --> 00:36:37.500 align:middle line:84%
+itself, and then there's
+a carbon-nitrogen bond,
+
+00:36:37.500 --> 00:36:41.610 align:middle line:90%
+and a carbonyl nitrogen bond--
+
+00:36:41.610 --> 00:36:43.650 align:middle line:84%
+sorry-- and a
+carbon-carbon bond.
+
+00:36:43.650 --> 00:36:45.870 align:middle line:84%
+It can break at any of
+those three positions,
+
+00:36:45.870 --> 00:36:49.260 align:middle line:84%
+and then you'll generate a
+set of fragments coming in
+
+00:36:49.260 --> 00:36:54.390 align:middle line:84%
+from the N-terminus with three
+possible C-terminal fragments.
+
+00:36:54.390 --> 00:36:57.815 align:middle line:84%
+And coming in, if a C-terminus
+is cleaving at the same point,
+
+00:36:57.815 --> 00:36:59.440 align:middle line:84%
+the whole series is
+coming in that way.
+
+00:36:59.440 --> 00:37:02.370 align:middle line:84%
+And as you're coming
+in from the N-terminus,
+
+00:37:02.370 --> 00:37:04.800 align:middle line:84%
+you give it A, B,
+and C, depending
+
+00:37:04.800 --> 00:37:07.620 align:middle line:84%
+on whether it breaks
+at the C carbon-carbon
+
+00:37:07.620 --> 00:37:10.560 align:middle line:84%
+bond, the carbon-nitrogen bond,
+or the nitrogen-carbon bond, A,
+
+00:37:10.560 --> 00:37:11.940 align:middle line:90%
+B, and C respectively.
+
+00:37:11.940 --> 00:37:14.820 align:middle line:84%
+And the same ones coming
+in from the C-terminus
+
+00:37:14.820 --> 00:37:20.680 align:middle line:84%
+are called Z, Y, and X.
+And so, as it turns out,
+
+00:37:20.680 --> 00:37:24.630 align:middle line:84%
+just empirically, if you sort
+through all the chemistry,
+
+00:37:24.630 --> 00:37:30.240 align:middle line:84%
+in most cases, the
+peptide bond is the one
+
+00:37:30.240 --> 00:37:32.640 align:middle line:90%
+that's most actively cleaved.
+
+00:37:32.640 --> 00:37:36.720 align:middle line:84%
+And so the B ions and
+their complementary Y ions
+
+00:37:36.720 --> 00:37:37.960 align:middle line:90%
+dominate the picture.
+
+00:37:37.960 --> 00:37:39.460 align:middle line:84%
+Now, the other ones
+will be present.
+
+00:37:39.460 --> 00:37:42.120 align:middle line:84%
+Especially if they come from
+a very abundant peptide,
+
+00:37:42.120 --> 00:37:46.170 align:middle line:84%
+they can swap out
+the B and Y ions
+
+00:37:46.170 --> 00:37:47.640 align:middle line:90%
+for a less abundant peptide.
+
+00:37:47.640 --> 00:37:50.400 align:middle line:84%
+But all other things being
+equal, B and Y will dominate,
+
+00:37:50.400 --> 00:37:53.025 align:middle line:84%
+and most of the rest of the
+discussion will be about those.
+
+00:37:53.025 --> 00:37:56.640 align:middle line:90%
+
+
+00:37:56.640 --> 00:37:58.770 align:middle line:84%
+This is the closest
+picture we'll
+
+00:37:58.770 --> 00:38:00.360 align:middle line:90%
+show of the ionization step.
+
+00:38:00.360 --> 00:38:06.480 align:middle line:84%
+This is a step, which has not
+been thoroughly enough studied,
+
+00:38:06.480 --> 00:38:10.110 align:middle line:84%
+in the sense that this
+ionization step, where
+
+00:38:10.110 --> 00:38:14.670 align:middle line:84%
+the droplets of
+aqueous and organic
+
+00:38:14.670 --> 00:38:18.090 align:middle line:84%
+solvent coming out of
+the separation column
+
+00:38:18.090 --> 00:38:21.210 align:middle line:90%
+is subjected to the vacuum.
+
+00:38:21.210 --> 00:38:24.240 align:middle line:84%
+The water starts being
+released from the droplet.
+
+00:38:24.240 --> 00:38:27.420 align:middle line:84%
+The protons-- remember,
+this acidic media associates
+
+00:38:27.420 --> 00:38:28.740 align:middle line:90%
+with a molecular ion.
+
+00:38:28.740 --> 00:38:30.630 align:middle line:84%
+They kind of explode
+because there's
+
+00:38:30.630 --> 00:38:33.480 align:middle line:84%
+too much positive
+charge in a small space,
+
+00:38:33.480 --> 00:38:36.660 align:middle line:84%
+until you finally have a
+molecular ion associated
+
+00:38:36.660 --> 00:38:40.103 align:middle line:84%
+with one or two net
+positive charges.
+
+00:38:40.103 --> 00:38:42.270 align:middle line:84%
+Remember, we had an example
+just a little while ago.
+
+00:38:42.270 --> 00:38:43.728 align:middle line:84%
+We had a net positive
+charge of +2.
+
+00:38:43.728 --> 00:38:46.560 align:middle line:90%
+
+
+00:38:46.560 --> 00:38:49.860 align:middle line:84%
+You don't need to have
+neutrality in this situation.
+
+00:38:49.860 --> 00:38:52.230 align:middle line:84%
+Anyway, this is poorly
+understood in the sense
+
+00:38:52.230 --> 00:38:56.040 align:middle line:84%
+that some peptides ionize
+much better than others.
+
+00:38:56.040 --> 00:38:58.710 align:middle line:84%
+And we'll come back to this when
+we talk about quantification.
+
+00:38:58.710 --> 00:39:02.880 align:middle line:84%
+But for right now, what we want
+to do is ask how do we analyze
+
+00:39:02.880 --> 00:39:05.910 align:middle line:84%
+the complex spectra that
+comes out when you fragment--
+
+00:39:05.910 --> 00:39:07.440 align:middle line:90%
+when you take--
+
+00:39:07.440 --> 00:39:09.310 align:middle line:84%
+first, you get a
+fairly simple spectra,
+
+00:39:09.310 --> 00:39:13.832 align:middle line:84%
+which is just a list of all the
+masses of all of the peptides.
+
+00:39:13.832 --> 00:39:15.540 align:middle line:84%
+And remember, some
+will be weak, and some
+
+00:39:15.540 --> 00:39:22.560 align:middle line:84%
+will be strong because of
+this voodoo ionization.
+
+00:39:22.560 --> 00:39:23.808 align:middle line:90%
+But then we break them.
+
+00:39:23.808 --> 00:39:26.100 align:middle line:84%
+However, whatever the intensity
+of the original peptide
+
+00:39:26.100 --> 00:39:28.170 align:middle line:84%
+was, it will make a bunch
+of daughter ions, which
+
+00:39:28.170 --> 00:39:30.410 align:middle line:84%
+will be the B ions coming
+in from the N-terminus,
+
+00:39:30.410 --> 00:39:32.170 align:middle line:90%
+the Y ions from the C-terminus.
+
+00:39:32.170 --> 00:39:34.800 align:middle line:84%
+And you'll have this big
+mixture, a nested set,
+
+00:39:34.800 --> 00:39:37.895 align:middle line:84%
+that get increasingly
+large as you get further
+
+00:39:37.895 --> 00:39:39.270 align:middle line:84%
+from the N-terminus
+and the B ion
+
+00:39:39.270 --> 00:39:41.460 align:middle line:90%
+series and their complements.
+
+00:39:41.460 --> 00:39:44.640 align:middle line:84%
+And the sum of the B ion
+with its complementary Y ion
+
+00:39:44.640 --> 00:39:47.880 align:middle line:84%
+has to be the original
+molecular mass corrected
+
+00:39:47.880 --> 00:39:51.670 align:middle line:84%
+for the chemistry that
+occurs right at the cleavage.
+
+00:39:51.670 --> 00:39:53.380 align:middle line:90%
+And so here's a real example.
+
+00:39:53.380 --> 00:39:55.740 align:middle line:84%
+We're going to work
+through it so that you
+
+00:39:55.740 --> 00:39:59.460 align:middle line:84%
+can see what happens
+to a typical peptide
+
+00:39:59.460 --> 00:40:02.470 align:middle line:84%
+here in the upper
+right-hand corner.
+
+00:40:02.470 --> 00:40:05.300 align:middle line:84%
+And this is tandem
+mass spectrometry.
+
+00:40:05.300 --> 00:40:07.050 align:middle line:84%
+Remember, there is a--
+if you think of it,
+
+00:40:07.050 --> 00:40:13.860 align:middle line:84%
+there was a single mass
+peptide that was then broken
+
+00:40:13.860 --> 00:40:15.450 align:middle line:90%
+into all these little pieces.
+
+00:40:15.450 --> 00:40:22.260 align:middle line:84%
+And the almost
+intact peptide will
+
+00:40:22.260 --> 00:40:26.400 align:middle line:84%
+be on the far end of the
+horizontal axis, which
+
+00:40:26.400 --> 00:40:30.760 align:middle line:84%
+is the mass axis, close to
+1,200 atomic mass units.
+
+00:40:30.760 --> 00:40:36.150 align:middle line:84%
+And then a relative abundance
+is the vertical axis,
+
+00:40:36.150 --> 00:40:39.870 align:middle line:84%
+as it's just related
+to the ion counts.
+
+00:40:39.870 --> 00:40:43.200 align:middle line:84%
+And you can see there's
+some variation here.
+
+00:40:43.200 --> 00:40:45.130 align:middle line:90%
+This is not due to ionization.
+
+00:40:45.130 --> 00:40:47.910 align:middle line:84%
+This is due to the cleavage
+efficiency, cleaving
+
+00:40:47.910 --> 00:40:52.560 align:middle line:84%
+at each of the bonds for the Y
+series, which is in blue here.
+
+00:40:52.560 --> 00:40:55.230 align:middle line:84%
+And it tends to be the
+higher peaks, and the B
+
+00:40:55.230 --> 00:40:57.840 align:middle line:84%
+series in red, which tends
+to be slightly lower peaks.
+
+00:40:57.840 --> 00:40:59.760 align:middle line:84%
+And then you've got
+these little arrows,
+
+00:40:59.760 --> 00:41:02.700 align:middle line:84%
+the darker arrows indicate
+the Y ion series that
+
+00:41:02.700 --> 00:41:04.500 align:middle line:90%
+separate two adjacent peaks.
+
+00:41:04.500 --> 00:41:07.080 align:middle line:84%
+Because what's the difference
+between those two peaks
+
+00:41:07.080 --> 00:41:09.610 align:middle line:84%
+is the addition
+of one amino acid.
+
+00:41:09.610 --> 00:41:15.012 align:middle line:84%
+And so the focusing on
+the blue series, the Y
+
+00:41:15.012 --> 00:41:16.470 align:middle line:84%
+ions coming in from
+the C-terminus,
+
+00:41:16.470 --> 00:41:20.280 align:middle line:84%
+the shortest Y, the Y1, would be
+just the C-terminal amino acid
+
+00:41:20.280 --> 00:41:22.230 align:middle line:90%
+itself, which would be arginine.
+
+00:41:22.230 --> 00:41:23.910 align:middle line:84%
+And its distance
+from the origin would
+
+00:41:23.910 --> 00:41:28.020 align:middle line:84%
+be about the mass of
+the arginine itself.
+
+00:41:28.020 --> 00:41:29.620 align:middle line:84%
+And then you add
+a glycine to it,
+
+00:41:29.620 --> 00:41:32.500 align:middle line:84%
+which is a small delta,
+and then an alanine,
+
+00:41:32.500 --> 00:41:35.250 align:middle line:84%
+and an isoleucine, and
+serine, and so forth.
+
+00:41:35.250 --> 00:41:38.940 align:middle line:84%
+And you can see
+here very clearly
+
+00:41:38.940 --> 00:41:43.920 align:middle line:84%
+the leucine and the asparagine
+and the valine, so that Y ion
+
+00:41:43.920 --> 00:41:45.660 align:middle line:90%
+series all the way down.
+
+00:41:45.660 --> 00:41:47.460 align:middle line:84%
+The G is the last
+one documented.
+
+00:41:47.460 --> 00:41:50.730 align:middle line:84%
+The N and the S at the
+highest molecular weight
+
+00:41:50.730 --> 00:41:52.140 align:middle line:90%
+are not visible.
+
+00:41:52.140 --> 00:41:53.940 align:middle line:84%
+And actually, many
+of these things
+
+00:41:53.940 --> 00:41:56.070 align:middle line:90%
+you'll have very weak peaks.
+
+00:41:56.070 --> 00:41:58.740 align:middle line:84%
+You'll essentially
+have missing peaks
+
+00:41:58.740 --> 00:42:02.560 align:middle line:84%
+that are corresponding to
+one of the delta amino acids.
+
+00:42:02.560 --> 00:42:05.190 align:middle line:84%
+So in that case, the distance
+between the two prominent peaks
+
+00:42:05.190 --> 00:42:06.710 align:middle line:90%
+will be two amino acids.
+
+00:42:06.710 --> 00:42:09.210 align:middle line:84%
+You can see this starting to
+get to be a challenging pattern
+
+00:42:09.210 --> 00:42:11.760 align:middle line:84%
+recognition problem, because
+you've got all the B ions mixed
+
+00:42:11.760 --> 00:42:12.602 align:middle line:90%
+in with the Y ions.
+
+00:42:12.602 --> 00:42:14.310 align:middle line:84%
+And this is summarized
+in the next slide.
+
+00:42:14.310 --> 00:42:17.190 align:middle line:90%
+
+
+00:42:17.190 --> 00:42:20.680 align:middle line:84%
+The B ions are mixed
+in with the Y ions.
+
+00:42:20.680 --> 00:42:23.580 align:middle line:84%
+And some of the
+ions are missing.
+
+00:42:23.580 --> 00:42:26.145 align:middle line:84%
+Each ion has multiple
+isotopic forms.
+
+00:42:26.145 --> 00:42:28.020 align:middle line:84%
+That wasn't so evident
+in the previous slide.
+
+00:42:28.020 --> 00:42:30.660 align:middle line:84%
+But that blow up I
+showed a while back,
+
+00:42:30.660 --> 00:42:33.810 align:middle line:84%
+you had that binomial
+distribution.
+
+00:42:33.810 --> 00:42:41.040 align:middle line:84%
+There is the lingering
+presence of A, C, X,
+
+00:42:41.040 --> 00:42:44.070 align:middle line:84%
+and Z type ions, where
+you've got cleavage
+
+00:42:44.070 --> 00:42:45.990 align:middle line:90%
+of some of the other bonds.
+
+00:42:45.990 --> 00:42:48.580 align:middle line:84%
+Ions can lose a
+water or an ammonia.
+
+00:42:48.580 --> 00:42:50.820 align:middle line:84%
+You've got noise
+from other peptides
+
+00:42:50.820 --> 00:42:53.370 align:middle line:84%
+and from contaminants
+in the system.
+
+00:42:53.370 --> 00:42:56.730 align:middle line:84%
+And you've got amino acid
+modifications, which is not
+
+00:42:56.730 --> 00:42:58.090 align:middle line:90%
+a contaminant or a bad thing.
+
+00:42:58.090 --> 00:42:58.530 align:middle line:90%
+It's a good thing.
+
+00:42:58.530 --> 00:42:59.863 align:middle line:90%
+This is what you're looking for.
+
+00:42:59.863 --> 00:43:02.370 align:middle line:84%
+But these can be in trace
+amounts in this system.
+
+00:43:02.370 --> 00:43:07.990 align:middle line:90%
+
+
+00:43:07.990 --> 00:43:10.060 align:middle line:84%
+Now, there are two
+ways to approach
+
+00:43:10.060 --> 00:43:14.862 align:middle line:84%
+the awesome amount of data
+that you can get out of these.
+
+00:43:14.862 --> 00:43:16.820 align:middle line:84%
+Remember, you've got all
+these multi dimensions
+
+00:43:16.820 --> 00:43:21.460 align:middle line:84%
+finally ending in this
+forest of B ions and Y ions
+
+00:43:21.460 --> 00:43:23.382 align:middle line:90%
+and all the rest of it in there.
+
+00:43:23.382 --> 00:43:24.590 align:middle line:90%
+And there are two approaches.
+
+00:43:24.590 --> 00:43:28.450 align:middle line:84%
+One is we'll call it de novo
+peptide sequencing, which
+
+00:43:28.450 --> 00:43:32.200 align:middle line:84%
+would be analogous to the
+de novo DNA sequencing
+
+00:43:32.200 --> 00:43:33.010 align:middle line:90%
+that we were doing
+
+00:43:33.010 --> 00:43:36.940 align:middle line:84%
+and the other is if you
+tell me the sequence then
+
+00:43:36.940 --> 00:43:41.710 align:middle line:84%
+I'll find it in my data kind of
+game OK it's doing a database
+
+00:43:41.710 --> 00:43:45.130 align:middle line:84%
+search where you're limited to
+proteins that are very, very--
+
+00:43:45.130 --> 00:43:46.870 align:middle line:84%
+to finding peptides
+that you already
+
+00:43:46.870 --> 00:43:50.870 align:middle line:84%
+know about, or can hypothesize
+from a genome sequence.
+
+00:43:50.870 --> 00:43:52.180 align:middle line:90%
+So this is the first category.
+
+00:43:52.180 --> 00:43:53.770 align:middle line:90%
+This is de novo sequencing.
+
+00:43:53.770 --> 00:43:55.660 align:middle line:84%
+And it takes on
+all the challenges
+
+00:43:55.660 --> 00:43:56.950 align:middle line:90%
+in the previous slide.
+
+00:43:56.950 --> 00:44:00.160 align:middle line:84%
+It takes on the
+possibility of missing data
+
+00:44:00.160 --> 00:44:02.800 align:middle line:84%
+for a particular ion species
+that you think should be there,
+
+00:44:02.800 --> 00:44:06.520 align:middle line:84%
+but for some reason are
+not efficiently cleaved
+
+00:44:06.520 --> 00:44:10.540 align:middle line:84%
+by the argon in the
+collision-induced association.
+
+00:44:10.540 --> 00:44:11.980 align:middle line:84%
+And it takes into
+account that you
+
+00:44:11.980 --> 00:44:15.790 align:middle line:84%
+have to have one set of B
+ions, a nested set of masses
+
+00:44:15.790 --> 00:44:18.070 align:middle line:84%
+from the N-terminus
+that have to be
+
+00:44:18.070 --> 00:44:19.840 align:middle line:84%
+complementary to
+this nested set you
+
+00:44:19.840 --> 00:44:21.590 align:middle line:90%
+get coming in from C-terminus.
+
+00:44:21.590 --> 00:44:23.475 align:middle line:90%
+So this is dynamic programming.
+
+00:44:23.475 --> 00:44:25.600 align:middle line:84%
+And you can probably count
+how many different times
+
+00:44:25.600 --> 00:44:28.550 align:middle line:84%
+we've done a dynamic programming
+algorithm in this class.
+
+00:44:28.550 --> 00:44:31.210 align:middle line:84%
+And so hopefully you're happy
+that you did at least one
+
+00:44:31.210 --> 00:44:32.260 align:middle line:90%
+of them by hand.
+
+00:44:32.260 --> 00:44:36.460 align:middle line:84%
+And this one we won't
+belabor, but here you
+
+00:44:36.460 --> 00:44:38.410 align:middle line:84%
+can see how it kind
+of conceptually
+
+00:44:38.410 --> 00:44:40.475 align:middle line:84%
+maps to the simplest
+one that we talked
+
+00:44:40.475 --> 00:44:42.850 align:middle line:84%
+about at the beginning, which
+is comparing two amino acid
+
+00:44:42.850 --> 00:44:43.570 align:middle line:90%
+sequences.
+
+00:44:43.570 --> 00:44:47.470 align:middle line:84%
+There, the indels were caused
+by evolutionary change.
+
+00:44:47.470 --> 00:44:49.570 align:middle line:84%
+Here the insertions
+and deletions
+
+00:44:49.570 --> 00:44:53.290 align:middle line:84%
+are due to a missing ion due to
+inefficient cleavage in the gas
+
+00:44:53.290 --> 00:44:55.540 align:middle line:90%
+phase.
+
+00:44:55.540 --> 00:44:58.330 align:middle line:84%
+This is further complicated
+by this necessity
+
+00:44:58.330 --> 00:45:01.240 align:middle line:84%
+of essentially sequencing
+in both from the B and the Y
+
+00:45:01.240 --> 00:45:03.250 align:middle line:84%
+simultaneously and
+making sure that you
+
+00:45:03.250 --> 00:45:08.890 align:middle line:84%
+have the best combination
+of B and Y assignments.
+
+00:45:08.890 --> 00:45:10.330 align:middle line:90%
+So that's de novo sequencing.
+
+00:45:10.330 --> 00:45:14.450 align:middle line:84%
+Now, in slide 29, we
+have the alternative,
+
+00:45:14.450 --> 00:45:18.220 align:middle line:84%
+which is by far more
+commonly applied,
+
+00:45:18.220 --> 00:45:20.920 align:middle line:84%
+an example of the
+alternative, which
+
+00:45:20.920 --> 00:45:22.700 align:middle line:90%
+is you tell me a sequence.
+
+00:45:22.700 --> 00:45:25.300 align:middle line:84%
+I'll find it in my
+data, [INAUDIBLE]..
+
+00:45:25.300 --> 00:45:28.330 align:middle line:84%
+And where you're basically
+calculating the spectrum
+
+00:45:28.330 --> 00:45:30.610 align:middle line:84%
+that you might expect
+for each peptide
+
+00:45:30.610 --> 00:45:32.550 align:middle line:84%
+that you might
+expect in a genome.
+
+00:45:32.550 --> 00:45:34.300 align:middle line:84%
+So you basically use
+the genome to predict
+
+00:45:34.300 --> 00:45:35.920 align:middle line:90%
+the protein coding regions.
+
+00:45:35.920 --> 00:45:39.430 align:middle line:84%
+Use those to do in
+silico digestion
+
+00:45:39.430 --> 00:45:41.710 align:middle line:84%
+with trypsin,
+basically cleave after
+
+00:45:41.710 --> 00:45:46.250 align:middle line:84%
+every lysine and arginine, and
+maybe after some other ones
+
+00:45:46.250 --> 00:45:49.180 align:middle line:84%
+are complicated rules where
+trypsin doesn't always cleave
+
+00:45:49.180 --> 00:45:50.467 align:middle line:90%
+after lysines and arginines.
+
+00:45:50.467 --> 00:45:52.550 align:middle line:84%
+And sometimes there'll be
+other proteases present.
+
+00:45:52.550 --> 00:45:54.217 align:middle line:84%
+And you have to take
+those into account.
+
+00:45:54.217 --> 00:45:56.800 align:middle line:84%
+In any case, you generate
+a virtual set of peptides.
+
+00:45:56.800 --> 00:45:59.500 align:middle line:84%
+You generate a virtual
+set of mass peaks.
+
+00:45:59.500 --> 00:46:02.170 align:middle line:84%
+Now, since we don't
+know the rules that
+
+00:46:02.170 --> 00:46:04.240 align:middle line:84%
+determine the height
+of those mass peaks,
+
+00:46:04.240 --> 00:46:07.960 align:middle line:84%
+we wish we did, but we don't,
+so we just set it to a unit,
+
+00:46:07.960 --> 00:46:10.580 align:middle line:84%
+to some arbitrary to
+make them all the same.
+
+00:46:10.580 --> 00:46:13.300 align:middle line:84%
+So you're not going to be
+getting a great correlation
+
+00:46:13.300 --> 00:46:15.220 align:middle line:84%
+coefficient based
+on the heights,
+
+00:46:15.220 --> 00:46:18.080 align:middle line:84%
+but merely whether
+it's there or not.
+
+00:46:18.080 --> 00:46:20.530 align:middle line:84%
+And that's what you do
+is every time you have
+
+00:46:20.530 --> 00:46:25.525 align:middle line:84%
+a hit between your predicted
+spectrum and the other one,
+
+00:46:25.525 --> 00:46:27.400 align:middle line:84%
+no matter what the
+intensity of the other one
+
+00:46:27.400 --> 00:46:30.190 align:middle line:84%
+is, so you waited on
+the observed intensity,
+
+00:46:30.190 --> 00:46:33.880 align:middle line:84%
+but you have no real
+calculated intensity.
+
+00:46:33.880 --> 00:46:37.120 align:middle line:84%
+And this correlation
+coefficient serves as a way
+
+00:46:37.120 --> 00:46:39.610 align:middle line:90%
+of prioritizing your scores.
+
+00:46:39.610 --> 00:46:41.230 align:middle line:90%
+And if you have a--
+
+00:46:41.230 --> 00:46:47.380 align:middle line:84%
+very often the best score
+will be the database hit
+
+00:46:47.380 --> 00:46:49.030 align:middle line:90%
+for the peptide that you want.
+
+00:46:49.030 --> 00:46:53.320 align:middle line:84%
+Now, if you're expecting
+post-synthetic modifications,
+
+00:46:53.320 --> 00:46:56.540 align:middle line:84%
+you need to tell the algorithm
+to add the appropriate mass
+
+00:46:56.540 --> 00:46:57.920 align:middle line:90%
+to the appropriate amino acid.
+
+00:46:57.920 --> 00:47:00.580 align:middle line:84%
+So for example, if you
+expect a phosphoserine,
+
+00:47:00.580 --> 00:47:03.610 align:middle line:84%
+you have to put the phosphate
+mass into the program
+
+00:47:03.610 --> 00:47:05.120 align:middle line:90%
+and associate it with a serine.
+
+00:47:05.120 --> 00:47:07.330 align:middle line:84%
+So the serine can be
+either a regular serine
+
+00:47:07.330 --> 00:47:08.140 align:middle line:90%
+or a phosphoserine.
+
+00:47:08.140 --> 00:47:12.100 align:middle line:84%
+So that's another
+complexity there.
+
+00:47:12.100 --> 00:47:16.030 align:middle line:84%
+So now we've gone through the
+richness of the separation
+
+00:47:16.030 --> 00:47:16.720 align:middle line:90%
+methods.
+
+00:47:16.720 --> 00:47:19.090 align:middle line:84%
+Separation is
+intimately connected
+
+00:47:19.090 --> 00:47:22.120 align:middle line:84%
+with getting us to a mass
+spectrum which is clean enough
+
+00:47:22.120 --> 00:47:25.150 align:middle line:84%
+to do either de novo sequencing
+or database searching.
+
+00:47:25.150 --> 00:47:27.130 align:middle line:84%
+Now that we've
+got it identified,
+
+00:47:27.130 --> 00:47:28.840 align:middle line:90%
+let's try to quantitate it.
+
+00:47:28.840 --> 00:47:31.840 align:middle line:84%
+We can quantitate it one
+of two ways, just the same
+
+00:47:31.840 --> 00:47:34.135 align:middle line:84%
+as with the RNAs, either
+on an absolute scale
+
+00:47:34.135 --> 00:47:36.970 align:middle line:90%
+or on a relative scale.
+
+00:47:36.970 --> 00:47:38.005 align:middle line:90%
+What is involved?
+
+00:47:38.005 --> 00:47:40.660 align:middle line:90%
+
+
+00:47:40.660 --> 00:47:45.640 align:middle line:84%
+We'll make an analogy to the
+RNA quantification methods,
+
+00:47:45.640 --> 00:47:47.590 align:middle line:84%
+which I believe
+we've had something
+
+00:47:47.590 --> 00:47:50.200 align:middle line:84%
+very similar to the
+left-hand side of slide 31
+
+00:47:50.200 --> 00:47:52.253 align:middle line:84%
+here, when we talked about
+RNAs, all the ways we
+
+00:47:52.253 --> 00:47:53.170 align:middle line:90%
+could quantitate them.
+
+00:47:53.170 --> 00:47:58.060 align:middle line:84%
+A subset of these have
+an analog in the protein
+
+00:47:58.060 --> 00:48:01.190 align:middle line:84%
+domain on the right-hand
+side of this slide.
+
+00:48:01.190 --> 00:48:05.260 align:middle line:84%
+So for example, one of our
+favorite methods that we used
+
+00:48:05.260 --> 00:48:06.370 align:middle line:90%
+was microarrays.
+
+00:48:06.370 --> 00:48:08.690 align:middle line:90%
+That's the top line of the RNA.
+
+00:48:08.690 --> 00:48:10.580 align:middle line:84%
+This is where you
+would have the gene
+
+00:48:10.580 --> 00:48:12.260 align:middle line:84%
+segments, either
+oligonucleotides
+
+00:48:12.260 --> 00:48:15.050 align:middle line:84%
+or [INAUDIBLE],, immobilized
+on a microarray.
+
+00:48:15.050 --> 00:48:19.370 align:middle line:84%
+Fluorescently label
+your RNA and quantitate.
+
+00:48:19.370 --> 00:48:22.430 align:middle line:84%
+For proteins, the
+equivalent would
+
+00:48:22.430 --> 00:48:26.420 align:middle line:84%
+be an antibody array
+aimed at unique features
+
+00:48:26.420 --> 00:48:27.740 align:middle line:90%
+of each protein.
+
+00:48:27.740 --> 00:48:29.570 align:middle line:84%
+This is in very early
+days, because we
+
+00:48:29.570 --> 00:48:30.500 align:middle line:90%
+are antibody limited.
+
+00:48:30.500 --> 00:48:34.340 align:middle line:84%
+We do not have antibodies
+against every protein surface
+
+00:48:34.340 --> 00:48:35.090 align:middle line:90%
+epitope.
+
+00:48:35.090 --> 00:48:37.050 align:middle line:84%
+And they are not
+specific enough.
+
+00:48:37.050 --> 00:48:41.090 align:middle line:90%
+There's a lot of crosstalk.
+
+00:48:41.090 --> 00:48:45.650 align:middle line:84%
+We mentioned in the second
+line that microarrays could not
+
+00:48:45.650 --> 00:48:49.400 align:middle line:84%
+measure the composition
+of alternative slices,
+
+00:48:49.400 --> 00:48:51.180 align:middle line:84%
+or the size of
+the messenger RNA.
+
+00:48:51.180 --> 00:48:53.030 align:middle line:84%
+So that was best done
+by a Northern blot,
+
+00:48:53.030 --> 00:48:55.220 align:middle line:84%
+which actually
+measured the size,
+
+00:48:55.220 --> 00:48:57.890 align:middle line:90%
+but was not high throughput.
+
+00:48:57.890 --> 00:49:00.500 align:middle line:84%
+The equivalent for that for
+proteins is called a Western.
+
+00:49:00.500 --> 00:49:04.670 align:middle line:84%
+These are all puns on
+Ed Southern's name.
+
+00:49:04.670 --> 00:49:08.210 align:middle line:84%
+The Westerns will
+allow you to measure
+
+00:49:08.210 --> 00:49:11.210 align:middle line:84%
+the size of native or
+denaturing proteins,
+
+00:49:11.210 --> 00:49:12.800 align:middle line:84%
+and then detect them
+with antibodies.
+
+00:49:12.800 --> 00:49:14.540 align:middle line:90%
+Again, antibody limited.
+
+00:49:14.540 --> 00:49:18.080 align:middle line:84%
+If we had a technology
+breakthrough that would give us
+
+00:49:18.080 --> 00:49:20.930 align:middle line:84%
+all the antibodies we
+need, just like we had,
+
+00:49:20.930 --> 00:49:24.620 align:middle line:84%
+it's easy to dial up any
+nucleic acid you want just
+
+00:49:24.620 --> 00:49:26.430 align:middle line:90%
+by synthesis.
+
+00:49:26.430 --> 00:49:29.180 align:middle line:90%
+
+
+00:49:29.180 --> 00:49:32.750 align:middle line:84%
+There's no real equivalent
+to PCR for a protein world.
+
+00:49:32.750 --> 00:49:35.000 align:middle line:84%
+You can tag proteins
+with nucleic acids
+
+00:49:35.000 --> 00:49:36.770 align:middle line:90%
+and do PCR on the nucleic acids.
+
+00:49:36.770 --> 00:49:41.480 align:middle line:84%
+But there's no real direct
+amplication on proteins.
+
+00:49:41.480 --> 00:49:44.090 align:middle line:84%
+Reporter constructs basically
+work the same for each.
+
+00:49:44.090 --> 00:49:47.180 align:middle line:84%
+You have something that is
+highly specific because you
+
+00:49:47.180 --> 00:49:52.100 align:middle line:84%
+constructed it in
+vivo, but it is
+
+00:49:52.100 --> 00:50:00.020 align:middle line:84%
+a sum of all the RNA and
+protein expression steps that
+
+00:50:00.020 --> 00:50:01.265 align:middle line:90%
+give you the reporter.
+
+00:50:01.265 --> 00:50:04.010 align:middle line:90%
+
+
+00:50:04.010 --> 00:50:06.440 align:middle line:84%
+Fluorescent in
+situ hybridization
+
+00:50:06.440 --> 00:50:08.030 align:middle line:84%
+in the case of
+RNA or fluorescent
+
+00:50:08.030 --> 00:50:10.220 align:middle line:84%
+in situ antibodies
+in case of proteins
+
+00:50:10.220 --> 00:50:14.300 align:middle line:84%
+is a great way of correlating
+quasi quantitative information
+
+00:50:14.300 --> 00:50:18.350 align:middle line:84%
+with a subcellular or
+suborganismal localization.
+
+00:50:18.350 --> 00:50:20.750 align:middle line:84%
+Tag counting, there's nothing
+equivalent for proteins,
+
+00:50:20.750 --> 00:50:22.205 align:middle line:84%
+and mass spectrometry
+can be used
+
+00:50:22.205 --> 00:50:23.330 align:middle line:90%
+for differentiable display.
+
+00:50:23.330 --> 00:50:27.440 align:middle line:90%
+
+
+00:50:27.440 --> 00:50:32.090 align:middle line:84%
+What are the sort of numbers
+of molecules we have?
+
+00:50:32.090 --> 00:50:35.990 align:middle line:84%
+A ballpark when we're dealing
+with quantitation-- slide 32,
+
+00:50:35.990 --> 00:50:37.620 align:middle line:90%
+it depends on the organism.
+
+00:50:37.620 --> 00:50:40.610 align:middle line:84%
+Some of the simplest ones,
+like you find in yeast,
+
+00:50:40.610 --> 00:50:42.890 align:middle line:84%
+we mentioned the
+messenger RNA molecules
+
+00:50:42.890 --> 00:50:48.920 align:middle line:84%
+might be less than one per cell,
+just stochastic fluctuations.
+
+00:50:48.920 --> 00:50:56.270 align:middle line:84%
+And in a human cell, it's
+probably a fairly good
+
+00:50:56.270 --> 00:50:59.630 align:middle line:84%
+approximation or assumption
+that almost every nucleotide
+
+00:50:59.630 --> 00:51:03.950 align:middle line:84%
+in the human genome
+can be transcribed.
+
+00:51:03.950 --> 00:51:08.060 align:middle line:84%
+Maybe there's some
+leakiness where
+
+00:51:08.060 --> 00:51:10.550 align:middle line:84%
+on the order of 1 in
+10 to the fourth cells
+
+00:51:10.550 --> 00:51:14.115 align:middle line:84%
+will have a little leakiness
+at any particular nucleotide.
+
+00:51:14.115 --> 00:51:15.740 align:middle line:84%
+So that's kind of
+the background level.
+
+00:51:15.740 --> 00:51:17.330 align:middle line:84%
+It's 10 to the minus
+fourth per cell.
+
+00:51:17.330 --> 00:51:19.670 align:middle line:84%
+And it's really only
+achievable detection
+
+00:51:19.670 --> 00:51:22.490 align:middle line:90%
+with reverse transcriptase PCR.
+
+00:51:22.490 --> 00:51:27.275 align:middle line:84%
+The entire transcriptome
+of a human cell
+
+00:51:27.275 --> 00:51:31.400 align:middle line:84%
+is on the order of half a
+million transcripts messenger
+
+00:51:31.400 --> 00:51:32.360 align:middle line:90%
+RNAs.
+
+00:51:32.360 --> 00:51:35.690 align:middle line:84%
+And so if any particular
+messenger RNA got up to 10
+
+00:51:35.690 --> 00:51:37.520 align:middle line:90%
+to the fifth, it would dominate.
+
+00:51:37.520 --> 00:51:40.160 align:middle line:84%
+And this happens in some
+cases, like reticulocytes.
+
+00:51:40.160 --> 00:51:44.180 align:middle line:84%
+Maybe 90% of the messenger
+RNA might be globin.
+
+00:51:44.180 --> 00:51:46.390 align:middle line:84%
+Now, for proteins,
+you'll typically
+
+00:51:46.390 --> 00:51:47.390 align:middle line:90%
+have bursts of proteins.
+
+00:51:47.390 --> 00:51:48.515 align:middle line:90%
+You have one messenger RNA.
+
+00:51:48.515 --> 00:51:51.050 align:middle line:84%
+You might get 10 to
+1,000 proteins made,
+
+00:51:51.050 --> 00:51:52.920 align:middle line:90%
+depending on the organism.
+
+00:51:52.920 --> 00:51:58.160 align:middle line:84%
+And so you typically have a
+corresponding amplification
+
+00:51:58.160 --> 00:51:59.120 align:middle line:90%
+in the last line.
+
+00:51:59.120 --> 00:52:04.790 align:middle line:90%
+
+
+00:52:04.790 --> 00:52:12.710 align:middle line:84%
+Now, when people assess casually
+whether a particular method is
+
+00:52:12.710 --> 00:52:18.980 align:middle line:84%
+quantitative or not, they
+can be easily intimidated.
+
+00:52:18.980 --> 00:52:21.140 align:middle line:90%
+So they might say--
+
+00:52:21.140 --> 00:52:25.670 align:middle line:84%
+I've commented that
+the ionization of--
+
+00:52:25.670 --> 00:52:27.695 align:middle line:84%
+so ESI stands for
+Electrospray Ionization
+
+00:52:27.695 --> 00:52:31.430 align:middle line:90%
+in mass spectrometry.
+
+00:52:31.430 --> 00:52:37.580 align:middle line:84%
+If you take a protein and
+cleave it with trypsin,
+
+00:52:37.580 --> 00:52:41.900 align:middle line:84%
+in principle, every
+tryptic fragment,
+
+00:52:41.900 --> 00:52:45.770 align:middle line:84%
+since trypsin cleaves pretty
+close to completely fairly
+
+00:52:45.770 --> 00:52:49.550 align:middle line:84%
+easily, every tryptic
+fragment, every peptide
+
+00:52:49.550 --> 00:52:51.140 align:middle line:90%
+should be equimolar.
+
+00:52:51.140 --> 00:52:55.610 align:middle line:84%
+If you now inject that into
+the HPLC, into the mass spec,
+
+00:52:55.610 --> 00:53:00.740 align:middle line:84%
+every peak integrated
+intensity should be equal,
+
+00:53:00.740 --> 00:53:02.090 align:middle line:90%
+because they're all equimolar.
+
+00:53:02.090 --> 00:53:08.660 align:middle line:84%
+And then when you find that,
+no, they vary over two orders
+
+00:53:08.660 --> 00:53:12.410 align:middle line:84%
+of magnitude-- that is to say
+some are 100 times more intense
+
+00:53:12.410 --> 00:53:13.738 align:middle line:90%
+peaks than others--
+
+00:53:13.738 --> 00:53:15.530 align:middle line:84%
+then you might get
+discouraged and say, oh,
+
+00:53:15.530 --> 00:53:19.700 align:middle line:84%
+isn't a quantitative
+science at all.
+
+00:53:19.700 --> 00:53:24.530 align:middle line:84%
+I can't deal with a
+factor of 100 difference.
+
+00:53:24.530 --> 00:53:27.800 align:middle line:84%
+But I think that you need
+to reassess that when
+
+00:53:27.800 --> 00:53:29.750 align:middle line:84%
+people say that mass
+spectrometry is not
+
+00:53:29.750 --> 00:53:31.280 align:middle line:90%
+quantitative.
+
+00:53:31.280 --> 00:53:35.630 align:middle line:84%
+The two requirements
+for quantitation
+
+00:53:35.630 --> 00:53:38.330 align:middle line:84%
+is that you have
+reproducibility,
+
+00:53:38.330 --> 00:53:45.320 align:middle line:84%
+and that you have a way of
+calibrating or calculating.
+
+00:53:45.320 --> 00:53:47.317 align:middle line:84%
+If you can calculate
+from first principles,
+
+00:53:47.317 --> 00:53:48.650 align:middle line:90%
+then you don't need calibration.
+
+00:53:48.650 --> 00:53:51.480 align:middle line:84%
+If it's too empirical,
+then you need calibration.
+
+00:53:51.480 --> 00:53:57.620 align:middle line:84%
+But you do not need that
+every disparate object behaves
+
+00:53:57.620 --> 00:53:59.570 align:middle line:90%
+exactly the same way.
+
+00:53:59.570 --> 00:54:03.650 align:middle line:84%
+Not every peptide has to give
+the same quantitative answer
+
+00:54:03.650 --> 00:54:06.980 align:middle line:84%
+simply has to be reproducible
+and calibrate able
+
+00:54:06.980 --> 00:54:11.240 align:middle line:84%
+with that same peptide and so
+here's an example of establish
+
+00:54:11.240 --> 00:54:13.580 align:middle line:84%
+two examples in a
+row of establishing
+
+00:54:13.580 --> 00:54:19.880 align:middle line:84%
+the reproducibility here this
+is from that ribosomal protein
+
+00:54:19.880 --> 00:54:23.570 align:middle line:84%
+experiment that I showed
+earlier with the complexes
+
+00:54:23.570 --> 00:54:27.570 align:middle line:84%
+of sedimentation velocity
+and the multi dimensions.
+
+00:54:27.570 --> 00:54:32.540 align:middle line:84%
+And this is just you do
+a measurement on day one,
+
+00:54:32.540 --> 00:54:34.670 align:middle line:84%
+and you do the whole
+experiment over on day two,
+
+00:54:34.670 --> 00:54:42.830 align:middle line:84%
+and then you compare the
+intensity of the peaks.
+
+00:54:42.830 --> 00:54:46.430 align:middle line:84%
+And you get what is a
+fairly good straight line
+
+00:54:46.430 --> 00:54:52.610 align:middle line:84%
+relationship on a log-log
+curve over about a little
+
+00:54:52.610 --> 00:54:54.335 align:middle line:90%
+over 3 logs.
+
+00:54:54.335 --> 00:54:57.350 align:middle line:90%
+
+
+00:54:57.350 --> 00:54:59.420 align:middle line:84%
+There were many moving
+parts in that experiment.
+
+00:54:59.420 --> 00:55:01.520 align:middle line:84%
+There were all those
+different dimensions.
+
+00:55:01.520 --> 00:55:04.280 align:middle line:84%
+And the whole experiment was
+not designed to be quantitative.
+
+00:55:04.280 --> 00:55:07.130 align:middle line:84%
+There are no internal controls,
+and so forth, or so on.
+
+00:55:07.130 --> 00:55:10.520 align:middle line:84%
+Nevertheless, this is
+a good starting point
+
+00:55:10.520 --> 00:55:14.300 align:middle line:84%
+for convincing yourself or
+determining whether something
+
+00:55:14.300 --> 00:55:17.840 align:middle line:84%
+is reproducible enough that
+you can make it quantitative.
+
+00:55:17.840 --> 00:55:22.020 align:middle line:84%
+Here's another way of
+measuring the reproducibility.
+
+00:55:22.020 --> 00:55:23.645 align:middle line:84%
+That one was a
+correlation coefficient,
+
+00:55:23.645 --> 00:55:26.300 align:middle line:84%
+a linear correlation
+coefficient on a log-log plot.
+
+00:55:26.300 --> 00:55:28.130 align:middle line:84%
+Here is the coefficient
+of variation.
+
+00:55:28.130 --> 00:55:30.420 align:middle line:84%
+I think we may have
+mentioned this before.
+
+00:55:30.420 --> 00:55:32.090 align:middle line:84%
+This is just the
+standard deviation
+
+00:55:32.090 --> 00:55:33.650 align:middle line:90%
+normalized by the mean.
+
+00:55:33.650 --> 00:55:36.000 align:middle line:84%
+In the upper left-hand
+part of this slide,
+
+00:55:36.000 --> 00:55:39.170 align:middle line:84%
+you can see that the CV, or
+Coefficient of Variation,
+
+00:55:39.170 --> 00:55:41.490 align:middle line:84%
+is just the standard
+deviation divided by the mean.
+
+00:55:41.490 --> 00:55:45.420 align:middle line:84%
+So you can report it in terms
+of percentages of variation.
+
+00:55:45.420 --> 00:55:49.370 align:middle line:84%
+So here with a calibration
+standards of peptides,
+
+00:55:49.370 --> 00:55:53.690 align:middle line:84%
+you get somewhere between 2% and
+28% coefficient of variation.
+
+00:55:53.690 --> 00:55:57.860 align:middle line:84%
+That means you can trust these
+things to be within 2% to 28%
+
+00:55:57.860 --> 00:56:02.400 align:middle line:84%
+of their absolute amounts
+when you calibrate them.
+
+00:56:02.400 --> 00:56:06.350 align:middle line:84%
+So these two are
+just two examples
+
+00:56:06.350 --> 00:56:09.080 align:middle line:84%
+that should reassure you
+that there is reproducibility
+
+00:56:09.080 --> 00:56:10.760 align:middle line:90%
+and you can calibrate.
+
+00:56:10.760 --> 00:56:17.210 align:middle line:90%
+
+
+00:56:17.210 --> 00:56:23.330 align:middle line:84%
+Calibration can be an
+expensive proposition.
+
+00:56:23.330 --> 00:56:25.820 align:middle line:84%
+But there are
+various motivations
+
+00:56:25.820 --> 00:56:30.200 align:middle line:84%
+for measuring, quantitating
+both proteins and nucleic acids
+
+00:56:30.200 --> 00:56:31.130 align:middle line:90%
+on an absolute scale.
+
+00:56:31.130 --> 00:56:36.290 align:middle line:84%
+And for example, you might want
+to compare them to each other.
+
+00:56:36.290 --> 00:56:40.430 align:middle line:84%
+You might want to
+say, to what extent
+
+00:56:40.430 --> 00:56:43.580 align:middle line:84%
+is it the case that the most
+abundant proteins result
+
+00:56:43.580 --> 00:56:45.710 align:middle line:84%
+from the most abundant
+messenger RNAs?
+
+00:56:45.710 --> 00:56:48.560 align:middle line:84%
+Or you could imagine
+a world where
+
+00:56:48.560 --> 00:56:51.140 align:middle line:84%
+these are completely
+independent, since one
+
+00:56:51.140 --> 00:56:52.220 align:middle line:90%
+is transcription factors.
+
+00:56:52.220 --> 00:56:54.650 align:middle line:84%
+The other is
+translation factors.
+
+00:56:54.650 --> 00:56:57.080 align:middle line:84%
+There's no reason that they
+necessarily are synced up.
+
+00:56:57.080 --> 00:56:59.690 align:middle line:84%
+Or you could
+imagine a hypothesis
+
+00:56:59.690 --> 00:57:02.150 align:middle line:84%
+where it's a lot of work
+to make a lot of protein,
+
+00:57:02.150 --> 00:57:04.190 align:middle line:84%
+and so everything has
+to be working right
+
+00:57:04.190 --> 00:57:05.840 align:middle line:90%
+for the most abundant ones.
+
+00:57:05.840 --> 00:57:07.340 align:middle line:84%
+And for the least
+abundant ones, you
+
+00:57:07.340 --> 00:57:09.620 align:middle line:90%
+can have a little more slop.
+
+00:57:09.620 --> 00:57:14.340 align:middle line:84%
+So this analysis
+critiqued a little bit
+
+00:57:14.340 --> 00:57:16.220 align:middle line:84%
+in the subsequent
+paper that we'll
+
+00:57:16.220 --> 00:57:23.180 align:middle line:84%
+talk about after the
+break can be interpreted
+
+00:57:23.180 --> 00:57:24.080 align:middle line:90%
+as being consistent.
+
+00:57:24.080 --> 00:57:25.400 align:middle line:84%
+When you include
+all the proteins,
+
+00:57:25.400 --> 00:57:27.275 align:middle line:84%
+you have a very good
+correlation coefficient.
+
+00:57:27.275 --> 00:57:29.870 align:middle line:84%
+This is a linear Pearson
+correlation coefficient.
+
+00:57:29.870 --> 00:57:32.960 align:middle line:90%
+
+
+00:57:32.960 --> 00:57:37.310 align:middle line:84%
+But as you restrict yourself to
+the lowest abundance proteins,
+
+00:57:37.310 --> 00:57:38.840 align:middle line:90%
+it falls apart.
+
+00:57:38.840 --> 00:57:43.520 align:middle line:84%
+You have less significant
+Pearson correlation
+
+00:57:43.520 --> 00:57:44.832 align:middle line:90%
+coefficients.
+
+00:57:44.832 --> 00:57:46.040 align:middle line:90%
+So let's take a little break.
+
+00:57:46.040 --> 00:57:49.440 align:middle line:84%
+And we'll talk about
+critiquing this a little bit,
+
+00:57:49.440 --> 00:57:52.430 align:middle line:84%
+and improving, and
+asking other motivations
+
+00:57:52.430 --> 00:57:56.950 align:middle line:84%
+for putting protein on absolute
+scale, and doing ratios.
+
+00:57:56.950 --> 00:57:58.000 align:middle line:90%

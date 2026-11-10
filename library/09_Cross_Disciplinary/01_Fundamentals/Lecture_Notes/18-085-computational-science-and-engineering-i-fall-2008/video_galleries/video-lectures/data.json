@@ -1,0 +1,2328 @@
+
+{
+  "content": "<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/course-introduction/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/StbJIv49Aco/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Course Introduction</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-1-four-special-matrices/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/CgfkEUOFAj0/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 1: Four Special Matrices</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/recitation-1-key-ideas-of-linear-algebra/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/0oBJN8F616U/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Recitation 1: Key Ideas of Linear Algebra</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-2-differential-eqns-and-difference-eqns/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/-agCn_nWztQ/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 2: Differential Eqns and Difference Eqns</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-3-solving-a-linear-system/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/11y8_XTbwGo/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 3: Solving a Linear System</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-4-delta-function-day/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/5Pw5k0z1L4Q/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 4: Delta Function Day</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/recitation-2/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/_hYaOtW4XY4/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Recitation 2</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-5-eigenvalues-part-1/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/h5KiY9lvHc4/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 5: Eigenvalues (Part 1)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-6-eigen-values-part-2-and-positive-definite-part-1/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/2Ola674-PPw/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 6: Eigen Values (part 2) and Positive Definite (part 1)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-7-positive-definite-day/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/fR_pGtAWHpY/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 7: Positive Definite Day</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-8-springs-and-masses/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/pN7zitwRq58/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 8: Springs and Masses</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/recitation-3/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/wt7UJckgvxs/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Recitation 3</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-9-oscillation/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/0BAMQmT-tf0/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 9: Oscillation</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/recitation-4/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/2OmTX1AeVAg/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Recitation 4</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-10-finite-differences-in-time/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/V5EjSvx1vw0/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 10: Finite Differences in Time</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-11-least-squares-part-2/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/oZnCOIbesiA/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 11: Least Squares (part 2)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-12-graphs-and-networks/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/GQbq9G__--Y/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 12: Graphs and Networks</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/recitation-5/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/0egP7_kq23E/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Recitation 5</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-14-exam-review/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/bciGyT6eeOE/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 14: Exam Review</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-13-kirchhoffs-current-law/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/Q95lUJagN0A/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 13: Kirchhoff&#39;s Current Law</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/recitation-6/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/w26JaJX8GMk/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Recitation 6</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-15-trusses-and-a-t-ca/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/ZOBgPxmXeVM/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 15: Trusses and A^(T)CA</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-16-trusses-part-2/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/mFGdF9TAfmE/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 16: Trusses (part 2)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-17-finite-elements-in-1d-part-1/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/Vw4Gw9No008/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 17: Finite Elements in 1D (part 1)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/recitation-7/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/28tqrlZSMhk/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Recitation 7</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-18-finite-elements-in-1d-part-2/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/4B9aIlwEZcQ/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 18: Finite Elements in 1D (part 2)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-19-quadratic-cubic-elements/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/wTM4v2gIeqk/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 19: Quadratic/Cubic Elements</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-20-element-matrices-4th-order-bending-equations/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/PwKN0blvNkk/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 20: Element Matrices; 4th Order Bending Equations</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/recitation-8/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/XUB7FcjaLRI/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Recitation 8</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-21-boundary-conditions-splines-gradient-divergence/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/Siqu0aOOQCM/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 21: Boundary Conditions, Splines, Gradient, Divergence</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/recitation-9/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/zI9cSV3QKz0/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Recitation 9</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-22-gradient-and-divergence/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/SreJp2U0Vio/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 22: Gradient and Divergence</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-23-laplaces-equation/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/mhLI51d9LDc/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 23: Laplace&#39;s Equation</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-25-fast-poisson-solver-part-1/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/E1o1h-_4Bn4/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 25: Fast Poisson Solver (part 1)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-24-laplaces-equation-part-2/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/uMdPZuT7f70/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 24: Laplace&#39;s Equation (part 2)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-27-finite-elements-in-2d-part-2/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/gYME3EbIqV4/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 27: Finite Elements in 2D (part 2)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-26-fast-poisson-solver-part-2-finite-elements-in-2d/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/a6sPpQXST5E/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 26: Fast Poisson Solver (part 2); Finite Elements in 2D</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/recitation-10/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/fJSSVcFhA0Y/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Recitation 10</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-28-fourier-series-part-1/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/StnOg-q2tS8/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 28: Fourier Series (part 1)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-29-fourier-series-part-2/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/9iJryWzLDIw/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 29: Fourier Series (part 2)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/recitation-11/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/tkyv1D1tZGg/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Recitation 11</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-30-discrete-fourier-series/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/bElQTlIWCr8/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 30: Discrete Fourier Series</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-31-fast-fourier-transform-convolution/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/UdpdZ0diXUg/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 31: Fast Fourier Transform, Convolution</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/recitation-12/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/JWrrPuJf2nA/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Recitation 12</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-32-convolution-part-2-filtering/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/4ctngXQrmDc/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 32: Convolution (part 2), Filtering</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-33-filters-fourier-integral-transform/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/aGnegoNe8Xo/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 33: Filters, Fourier Integral Transform</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-34-fourier-integral-transform-part-2/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/Kv7eOsMVx6E/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 34: Fourier Integral Transform (part 2)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/recitation-13/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/w0jVqJlzdI8/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Recitation 13</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-35-convolution-equations-deconvolution/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/Y_lWzD2vigk/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 35: Convolution Equations: Deconvolution</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-36-sampling-theorem/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/J0pZyXThRmM/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 36: Sampling Theorem</h5>\n      </div>\n    </div>\n  </a>\n</div>\n\n\n",
+  "content_type": "video_gallery",
+  "description": "This section contains videos of Professor Strang's lectures, recorded at MIT's Lincoln Laboratory in the Spring of 2001.",
+  "draft": false,
+  "is_media_gallery": true,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "ocw_type": "CourseSection",
+  "title": "Video Lectures",
+  "uid": "4e3ac3b3-1de7-414e-0518-1196c7255bbd",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  },
+  "videos": [
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "10060241",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Course Introduction",
+      "uid": "b1fc33dc-0118-c950-bee3-74e6037a381e",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-intro_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/ce924867c7cb55aab187f2cf0cb864d7_StbJIv49Aco.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/StbJIv49Aco/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/d4e2e30a45184fb16c7d1af58c0f89e1_StbJIv49Aco.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, computational science, engineering, faculty, introduction, linear algebra, overview",
+        "youtube_id": "StbJIv49Aco"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "123525120",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 1: Four Special Matrices",
+      "uid": "61b7a7a8-9195-6a88-0cf5-e6aedee66c74",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec01_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/816c586f09f257c7bc1247b804089b1d_CgfkEUOFAj0.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/CgfkEUOFAj0/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/61188349e37e4ceb036b3838a15c0c3a_CgfkEUOFAj0.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "CgfkEUOFAj0"
+      }
+    },
+    {
+      "audience": [],
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "112781231",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Problem-solving Videos"
+      ],
+      "level": [],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Recitation 1: Key Ideas of Linear Algebra",
+      "uid": "8ed2b5af-2fd4-4055-3a7a-210cc65898aa",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-rec01_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/de1fe9ec54f65704aa2150ee4ac79add_0oBJN8F616U.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/0oBJN8F616U/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/12d7d4b7945fa7cf252ba995146d27d7_0oBJN8F616U.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-06sc-linear-algebra-fall-2011, 18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "0oBJN8F616U"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "120601127",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 2: Differential Eqns and Difference Eqns",
+      "uid": "5f274a96-2d0d-b7eb-617c-34866765345a",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec02_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/9284175d46a35b5c97c2bdd8001963d5_-agCn_nWztQ.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/-agCn_nWztQ/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/f1d83f13e727a321bffdf8f54f0b90ec_-agCn_nWztQ.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "-agCn_nWztQ"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "125474567",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 3: Solving a Linear System",
+      "uid": "dda4ee71-3d6f-620b-aaaf-0f602fa5aa88",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec03_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/b8ca0f824d6158bdbf58d1c004e7c294_11y8_XTbwGo.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/11y8_XTbwGo/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/5c96ab1140240f0226b9dc8ddeb6f5e9_11y8_XTbwGo.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "11y8_XTbwGo"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "126851711",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 4: Delta Function Day",
+      "uid": "e461e326-373e-b062-0f5a-6a62087bbc3d",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec04_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/1f265b9ceb485232be419f2fb7c808ab_5Pw5k0z1L4Q.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/5Pw5k0z1L4Q/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/340aaa87bcd1939e343cb5e8a45436b7_5Pw5k0z1L4Q.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "5Pw5k0z1L4Q"
+      }
+    },
+    {
+      "audience": [],
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "118037329",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Problem-solving Videos"
+      ],
+      "level": [],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Recitation 2",
+      "uid": "f545edd8-fd02-6b47-caf5-b333dcff0c85",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-rec02_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/80bc3a738df35ec0bc5d12f2088a1cbb_hYaOtW4XY4.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/_hYaOtW4XY4/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/70b28cc258b35b598364503f7813f0f0_hYaOtW4XY4.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "_hYaOtW4XY4"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "128414716",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 5: Eigenvalues (Part 1)",
+      "uid": "61120d2c-0462-d84d-9374-91fa10ac9791",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec05_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/27868d9b319c53abafe2a9844618ebce_h5KiY9lvHc4.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/h5KiY9lvHc4/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/6eb7812937a25bb264c977a1ceac3b98_h5KiY9lvHc4.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "h5KiY9lvHc4"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "114877209",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 6: Eigen Values (part 2) and Positive Definite (part 1)",
+      "uid": "b3f6db23-291e-f765-a747-ace8b204011b",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec06_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/d3e500eefe9d5bbba7d69b7dc46e6f11_2Ola674-PPw.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/2Ola674-PPw/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/506ddc3294b0b9e67a6eb8334a6a2010_2Ola674-PPw.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "2Ola674-PPw"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "120177343",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 7: Positive Definite Day",
+      "uid": "88c1332a-95ac-1669-1f4b-f729b77125ab",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec07_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/055c3317b92157b8a110916d51f83dab_fR_pGtAWHpY.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/fR_pGtAWHpY/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/00910f79eb7c02cbba9121620bb6de2f_fR_pGtAWHpY.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "fR_pGtAWHpY"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "125098195",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 8: Springs and Masses",
+      "uid": "4162ddf9-646a-3af4-3c41-919d8e19d0d9",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec08_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/c849d89fd07658049931c10162a3cf8f_pN7zitwRq58.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/pN7zitwRq58/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/194480202e0aad8f9b82b46e10b7b05d_pN7zitwRq58.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "pN7zitwRq58"
+      }
+    },
+    {
+      "audience": [],
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "127348455",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Problem-solving Videos"
+      ],
+      "level": [],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Recitation 3",
+      "uid": "284f99c5-0365-05e0-d12f-ba22b8c16b1f",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-rec03_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/8dcbe81633375d31b1f00309a6c1692f_wt7UJckgvxs.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/wt7UJckgvxs/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/98be52e00e3b22b6479ae65725a213d9_wt7UJckgvxs.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "wt7UJckgvxs"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "124903038",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 9: Oscillation",
+      "uid": "4727418e-cc91-03f4-f7ee-8ee3ed90debb",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec09_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/e4afb3c331ea5c98a37a701563b76fcd_0BAMQmT-tf0.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/0BAMQmT-tf0/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/6c49b53161f131140a0bd9385ec860be_0BAMQmT-tf0.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "0BAMQmT-tf0"
+      }
+    },
+    {
+      "audience": [],
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "130754699",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Problem-solving Videos"
+      ],
+      "level": [],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Recitation 4",
+      "uid": "48c18014-4d56-feb5-f6c4-952e8e19a8bf",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-rec04_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/1e8d7e44398f5616a284447c16de0088_2OmTX1AeVAg.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/2OmTX1AeVAg/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/31614fc4609b717720b9200a631de699_2OmTX1AeVAg.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "2OmTX1AeVAg"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "124375973",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 10: Finite Differences in Time",
+      "uid": "7c6367e7-51dc-efbc-111f-0ab7060d2947",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec10_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/f9500dbbbbf15b289feaf97301806688_V5EjSvx1vw0.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/V5EjSvx1vw0/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/c3f7da6795dd6347a128e66a486a4f6a_V5EjSvx1vw0.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "V5EjSvx1vw0"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "122637930",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 11: Least Squares (part 2)",
+      "uid": "32e7c4f0-cbcb-d367-db7d-b438ea24b1c8",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec11_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/cd757cac8a8b509f8e503806996b2ccd_oZnCOIbesiA.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/oZnCOIbesiA/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/534ae868684f5092a8c9242121e4daeb_oZnCOIbesiA.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "oZnCOIbesiA"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "117961359",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 12: Graphs and Networks",
+      "uid": "ed14b5b1-cd0b-1b53-6450-fa399f223918",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec12_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/92f3916a9a985d8e94a4edb8f821faad_GQbq9G__--Y.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/GQbq9G__--Y/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/41c1f92647a4b99fad59021764c3179e_GQbq9G__--Y.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "GQbq9G__--Y"
+      }
+    },
+    {
+      "audience": [],
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "127804073",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Problem-solving Videos"
+      ],
+      "level": [],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Recitation 5",
+      "uid": "448bcf99-dc3e-4330-b852-e549ccd91801",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-rec05_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/2bc18dbee82c50ef9f35372f0bf68cad_0egP7_kq23E.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/0egP7_kq23E/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/f33a5076b2fd9332f60a0db6a50c5d54_0egP7_kq23E.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "0egP7_kq23E"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "119049643",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 14: Exam Review",
+      "uid": "943a8f95-d690-a005-7c68-cb61176786c0",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec14_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/5324d45bad1c59c88cabfed295d12b11_bciGyT6eeOE.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/bciGyT6eeOE/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/3125e2a381548b65a677d36f583913ed_bciGyT6eeOE.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "bciGyT6eeOE"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "127443366",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 13: Kirchhoff's Current Law",
+      "uid": "2af02094-178c-5cba-cc36-dafb6c1d71c0",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec13_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/decfa53a289b5001916df2f84913907f_Q95lUJagN0A.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/Q95lUJagN0A/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/a797120c75380c50f99af0d9bbb49f71_Q95lUJagN0A.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "Q95lUJagN0A"
+      }
+    },
+    {
+      "audience": [],
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "123312854",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Problem-solving Videos"
+      ],
+      "level": [],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Recitation 6",
+      "uid": "8ef16f31-1885-3c5e-313b-c1ba0a354b14",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-rec06_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/809fa3bea05850a9baf219bfe27c8f4d_w26JaJX8GMk.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/w26JaJX8GMk/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/d343bf773407f2af0bbca125b54612ee_w26JaJX8GMk.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "w26JaJX8GMk"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "109139279",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 15: Trusses and A^(T)CA",
+      "uid": "0ed5b16e-98a2-5963-a998-a46d789a3e88",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec15_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/ebf74919eb4c5193953ad9e8805823a5_ZOBgPxmXeVM.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/ZOBgPxmXeVM/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/e28a27a92cc8b6ba33809f24d79b7388_ZOBgPxmXeVM.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "ZOBgPxmXeVM"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "110884015",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 16: Trusses (part 2)",
+      "uid": "ec6bffac-e2ce-20e8-5716-0ac0545b3f76",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec16_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/6497de5308535b6dbf2e4ab2cae6af94_mFGdF9TAfmE.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/mFGdF9TAfmE/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/0bddac3898f8add3a7b099313dc5b30f_mFGdF9TAfmE.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "mFGdF9TAfmE"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "123707490",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 17: Finite Elements in 1D (part 1)",
+      "uid": "6411f210-df60-2a4d-b76d-beb5c4f65781",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec17_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/2f7fe82f35b1553ab3a7058116b9b2b5_Vw4Gw9No008.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/Vw4Gw9No008/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/468afcc8abb38fa98c73cc78eba99304_Vw4Gw9No008.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "Vw4Gw9No008"
+      }
+    },
+    {
+      "audience": [],
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "122198633",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Problem-solving Videos"
+      ],
+      "level": [],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Recitation 7",
+      "uid": "a2509769-482e-1843-da8e-ca024dd51664",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-rec07_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/59b9bb74ce31555b96509b744bc87960_28tqrlZSMhk.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/28tqrlZSMhk/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/6165047ebb6c1a6c4b79b04f6d54c3fd_28tqrlZSMhk.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "28tqrlZSMhk"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "117274108",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 18: Finite Elements in 1D (part 2)",
+      "uid": "21b950bf-ca98-714e-580a-6928f3a5cb02",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec18_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/ac2bed890557566e9f60dad7ccabc688_4B9aIlwEZcQ.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/4B9aIlwEZcQ/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/2dc20dca37f51da4fd9d392a6eaa6e92_4B9aIlwEZcQ.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "4B9aIlwEZcQ"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "119759075",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 19: Quadratic/Cubic Elements",
+      "uid": "44971836-48f6-80df-cf2a-aba81c819622",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec19_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/255fe14d218459dd922f1539eff0e6d2_wTM4v2gIeqk.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/wTM4v2gIeqk/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/290145823303fe0446587034ac2e3750_wTM4v2gIeqk.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "wTM4v2gIeqk"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "114361719",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 20: Element Matrices; 4th Order Bending Equations",
+      "uid": "4b01a854-6397-6b39-ca06-c0948d791d02",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec20_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/bce5b5248f8356d7833240bec3052bbf_PwKN0blvNkk.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/PwKN0blvNkk/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/d6aba7adb842e200c9425b5c44b18e8b_PwKN0blvNkk.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "PwKN0blvNkk"
+      }
+    },
+    {
+      "audience": [],
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "109630728",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Problem-solving Videos"
+      ],
+      "level": [],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Recitation 8",
+      "uid": "e7a19bd7-17f2-0e9f-65c4-1881b3c4a142",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-rec08_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/1a38c7e6fe6d5e2e82340969ce1a9985_XUB7FcjaLRI.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/XUB7FcjaLRI/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/b5147e1baacfcc758b9b6b08d4bf6ee1_XUB7FcjaLRI.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "XUB7FcjaLRI"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "121621201",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 21: Boundary Conditions, Splines, Gradient, Divergence",
+      "uid": "4e09b6fb-8453-42f8-e13b-f0435f6d5442",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec21_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/197fbf194181518bae5373ee7d271cae_Siqu0aOOQCM.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/Siqu0aOOQCM/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/561a14ab01bc1fb131a0420635a2a602_Siqu0aOOQCM.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "Siqu0aOOQCM"
+      }
+    },
+    {
+      "audience": [],
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "117207792",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Problem-solving Videos"
+      ],
+      "level": [],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Recitation 9",
+      "uid": "37aa81ce-9a5a-33ea-602e-26f8de73d290",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-rec09_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/3e29e314e89c59c0aa96e8e97da968e2_zI9cSV3QKz0.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/zI9cSV3QKz0/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/237769a1acd1d4c3e96efcf3126fadfc_zI9cSV3QKz0.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "zI9cSV3QKz0"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "116995966",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 22: Gradient and Divergence",
+      "uid": "b50a5615-4d84-8a6a-5e0d-56ff065be0b0",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec22_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/b7eb0f5b622a514bab46ee1ccf69f3a0_SreJp2U0Vio.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/SreJp2U0Vio/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/a8f2ce88b08f25c77f203c1178ae2c67_SreJp2U0Vio.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "SreJp2U0Vio"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "113742917",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 23: Laplace's Equation",
+      "uid": "026fa34d-05b8-9ca9-59e7-6bc51464e507",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec23_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/7a3ad6d27c2e5ef1a787b90da603752a_mhLI51d9LDc.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/mhLI51d9LDc/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/6473a00f24827ead0cd1ffd32ebc5289_mhLI51d9LDc.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "mhLI51d9LDc"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "118828472",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 25: Fast Poisson Solver (part 1)",
+      "uid": "d1b9a4c5-d88a-39b1-dae0-61c634e72b0b",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec25_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/74435adfc9345e6693ef40fa21e009f3_E1o1h-_4Bn4.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/E1o1h-_4Bn4/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/2e143346162a7ed1a1c4f3da1c498ed4_E1o1h-_4Bn4.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "E1o1h-_4Bn4"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "123868221",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 24: Laplace's Equation (part 2)",
+      "uid": "495d394c-d051-fea0-705d-21321f47b2f6",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec24_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/4a1279eec6755d6ab61dfb5f3214f59d_uMdPZuT7f70.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/uMdPZuT7f70/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/9189d352b625c4d59cbe9982bdfdbbca_uMdPZuT7f70.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "uMdPZuT7f70"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "119328699",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 27: Finite Elements in 2D (part 2)",
+      "uid": "325435e9-1ad9-691a-67dd-dc0d1075e9cc",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec27_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/773a6663b8b1545cb3325390294be071_gYME3EbIqV4.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/gYME3EbIqV4/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/1f6e4bb0161922b889bf2a53a3729592_gYME3EbIqV4.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "gYME3EbIqV4"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "117526682",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 26: Fast Poisson Solver (part 2); Finite Elements in 2D",
+      "uid": "87cd763b-b7f9-2708-e162-76a72c6c7a13",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec26_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/f12a53060ba85c4e91a4c79bc77134d3_a6sPpQXST5E.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/a6sPpQXST5E/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/e477fbc2f9a22e26cf0672060560c124_a6sPpQXST5E.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "a6sPpQXST5E"
+      }
+    },
+    {
+      "audience": [],
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "103494267",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Problem-solving Videos"
+      ],
+      "level": [],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Recitation 10",
+      "uid": "210f841b-64a8-7e2a-8ef5-6fe0b12860b3",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-rec10_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/dacffbe5049b578d8966af1e86b9e794_fJSSVcFhA0Y.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/fJSSVcFhA0Y/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/d7ff56163921cada3982c05b7bb3ee48_fJSSVcFhA0Y.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "fJSSVcFhA0Y"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "112765208",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 28: Fourier Series (part 1)",
+      "uid": "bc2d9bab-cb0b-f857-f36a-4fcb5c9fa359",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec28_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/4130556738535b3c8886fcfafca1c88a_StnOg-q2tS8.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/StnOg-q2tS8/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/69a29b234f05d5de53bd088b4ca90ec9_StnOg-q2tS8.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "StnOg-q2tS8"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "110948171",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 29: Fourier Series (part 2)",
+      "uid": "c3077578-cd8d-2d75-2d30-d597082bbd3d",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec29_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/c6f13a64f1b75896a1f54cee02ce84ec_9iJryWzLDIw.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/9iJryWzLDIw/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/9d05c4fb511c97ce3cf3fa379c7f0b80_9iJryWzLDIw.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "9iJryWzLDIw"
+      }
+    },
+    {
+      "audience": [],
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "123252527",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Problem-solving Videos"
+      ],
+      "level": [],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Recitation 11",
+      "uid": "c83a06a8-4122-35e3-80b5-43937c691c9c",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-rec11_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/522ced7bb91355de9ba79af27a082c39_tkyv1D1tZGg.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/tkyv1D1tZGg/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/ea9d39520102ab0594a08de9497006e9_tkyv1D1tZGg.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "tkyv1D1tZGg"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "114279918",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 30: Discrete Fourier Series",
+      "uid": "774478d8-3524-0b47-5e2c-e7e5b5522629",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec30_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/0643a1913c9d5506977d8e52f02dd791_bElQTlIWCr8.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/bElQTlIWCr8/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/92698f241c3096c35b7c10c98aecd156_bElQTlIWCr8.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "bElQTlIWCr8"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "117788976",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 31: Fast Fourier Transform, Convolution",
+      "uid": "59f0e499-7ec8-4a78-55a6-82c6c5b58b16",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec31_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/5e020e4ae3bc5172a03d31e3d8d5cabd_UdpdZ0diXUg.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/UdpdZ0diXUg/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/d9d94e10bd89f778588fcd7261f47148_UdpdZ0diXUg.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "UdpdZ0diXUg"
+      }
+    },
+    {
+      "audience": [],
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "117020302",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Problem-solving Videos"
+      ],
+      "level": [],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Recitation 12",
+      "uid": "958a3e81-f0f3-8e31-f3b9-9628e0ab19b2",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-rec12_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/8687d6828d3e5b4b9fa8fc39435de4b4_JWrrPuJf2nA.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/JWrrPuJf2nA/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/2234d7240d7b84d029a6fff890274a70_JWrrPuJf2nA.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "JWrrPuJf2nA"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "118701618",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 32: Convolution (part 2), Filtering",
+      "uid": "4bd3bd20-9de0-a321-55fb-bbe650e82c68",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec32_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/897e8c01765d5681acd3b8d9118aaea8_4ctngXQrmDc.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/4ctngXQrmDc/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/36c5f9ef82f89e4a6311e2bb4fbb6e41_4ctngXQrmDc.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "4ctngXQrmDc"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "117356245",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 33: Filters, Fourier Integral Transform",
+      "uid": "2c3bfea5-4c4b-4258-28d9-001b1354d83b",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec33_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/badd40ae08af5527885695c72df57e07_aGnegoNe8Xo.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/aGnegoNe8Xo/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/9bbc66c9a2b85d2de43dd91f507314d0_aGnegoNe8Xo.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "aGnegoNe8Xo"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "117097590",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 34: Fourier Integral Transform (part 2)",
+      "uid": "6c592ba7-7bd2-ec1a-9562-066378e16115",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec34_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/49969aaf5806566fbbe460b400fd4799_Kv7eOsMVx6E.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/Kv7eOsMVx6E/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/c33541ceeb95c9e2e076db9f7c404555_Kv7eOsMVx6E.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "Kv7eOsMVx6E"
+      }
+    },
+    {
+      "audience": [],
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "114625648",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Problem-solving Videos"
+      ],
+      "level": [],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Recitation 13",
+      "uid": "d686c127-5b21-dccb-fee5-c8079b9fab69",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-rec13_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/4dec22dffdb758e083f1cf9ec2798471_w0jVqJlzdI8.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/w0jVqJlzdI8/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/3b5d3e1b5f73ca58f541e127c1fcf4d9_w0jVqJlzdI8.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "w0jVqJlzdI8"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "117163158",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 35: Convolution Equations: Deconvolution",
+      "uid": "690a57bf-7b48-764d-1d75-fcb402b94c32",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec35_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/e83265b9f8a65e0994e737c45824d8b7_Y_lWzD2vigk.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/Y_lWzD2vigk/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/a56d9ffb1470f7acf91987c079c883c6_Y_lWzD2vigk.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "Y_lWzD2vigk"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "93578677",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 36: Sampling Theorem",
+      "uid": "55a8adaa-0a1b-b6df-0497-bca4b2ef23d7",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec36_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/6582f6cac46a5f188b3de1f146a869ce_J0pZyXThRmM.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/J0pZyXThRmM/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/242e9b220c5a3bc9aedd23debd194df7_J0pZyXThRmM.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+        "youtube_id": "J0pZyXThRmM"
+      }
+    }
+  ]
+}
+

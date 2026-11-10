@@ -1,0 +1,20 @@
+
+{
+  "content": "<p>« <a href=\"../../../pages/positive-definite-matrices-and-applications/index.html\">Previous</a> | <a href=\"../../../pages/positive-definite-matrices-and-applications/complex-matrices-fast-fourier-transform-fft/index.html\">Next</a> »</p>\n\n    <h3 id=\"session-overview\">Session Overview</h3>\n\n<p><table>\n\n<tr>\n\n<td>\n\n<img src=\"../../../static_resources/52ac80d4310aa94ccbaedf6e0fd4853d_3_1.jpg\" alt=\"Figure excerpted from &#39;Introduction to Linear Algebra&#39; by G.S. Strang\" loading=\"lazy\" decoding=\"async\" />\n</td>\n\n<td>\n</p>\n<p>Special matrices have special eigenvalues and eigenvectors. Symmetric and positive definite matrices have extremely nice properties, and studying these matrices brings together everything we&rsquo;ve learned about pivots, determinants and eigenvalues. In this session we also practice doing linear algebra with complex numbers and learn how the pivots give information about the eigenvalues of a symmetric matrix.</p>\n</td>\n\n</tr>\n\n</table>\n\n\n    <h3 id=\"session-activities\">Session Activities</h3>\n\n\n    <h4 id=\"lecture-video-and-summary\">Lecture Video and Summary</h4>\n\n<ul>\n<li>Watch the video lecture <a href=\"../../../resources/lecture-25-symmetric-matrices-and-positive-definiteness/index.html\">Lecture 25: Symmetric Matrices and Positive Definiteness</a></li>\n<li>Read the accompanying <a href=\"../../../resources/mit18_06scf11_ses3-1sum/index.html\">lecture summary (PDF)</a></li>\n<li><a href=\"../../../resources/ucc9q_cahho-1/index.html\">Lecture video transcript (PDF)</a></li>\n</ul>\n\n    <h4 id=\"suggested-reading\">Suggested Reading</h4>\n\n<ul>\n<li>Read Section 6.4 through 6.5 in the 4<sup>th</sup> or 5<sup>th</sup> edition.</li>\n</ul>\n\n    <h4 id=\"problem-solving-video\">Problem Solving Video</h4>\n\n<ul>\n<li>Watch the recitation video on <a href=\"../../../resources/problem-solving-symmetric-matrices-and-positive-definiteness/index.html\">Problem Solving: Symmetric Matrices and Positive Definiteness</a></li>\n<li><a href=\"../../../resources/lpny5qvju5w-1/index.html\">Recitation video transcript (PDF)</a></li>\n</ul>\n\n    <h3 id=\"check-yourself\">Check Yourself</h3>\n\n\n    <h4 id=\"problems-and-solutions\">Problems and Solutions</h4>\n\n<p>Work the problems on your own and check your answers when you&rsquo;re done.</p>\n<ul>\n<li><a href=\"../../../resources/mit18_06scf11_ses3-1prob/index.html\">Problems (PDF)</a></li>\n<li><a href=\"../../../resources/mit18_06scf11_ses3-1sol/index.html\">Solutions (PDF)</a></li>\n</ul>\n<p>« <a href=\"../../../pages/positive-definite-matrices-and-applications/index.html\">Previous</a> | <a href=\"../../../pages/positive-definite-matrices-and-applications/complex-matrices-fast-fourier-transform-fft/index.html\">Next</a> »</p>\n",
+  "content_type": "page",
+  "description": "",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "parent_title": "Unit III: Positive Definite Matrices and Applications",
+  "parent_type": "CourseSection",
+  "parent_uid": "34f596bc-2328-22be-5fba-75646f6970c5",
+  "title": "Symmetric Matrices and Positive Definiteness",
+  "uid": "83daa789-4c9b-a2c7-ac6c-afe27aef0e1c",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

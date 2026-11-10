@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laboratory Assignments on MIT OpenCourseWare</title>
+    <link>/resources/laboratory-assignments/</link>
+    <description>Recent content in Laboratory Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/laboratory-assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lab 1</title>
+      <link>/resources/mit2_017jf09_slides1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_slides1/data.json</guid>
+      <description>&lt;p&gt;Lab assignment intended to familiarize students with the lab space, the equipment in the lab, and the Arduino microcontroller.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 1: Introduction to Microcontrollers</title>
+      <link>/resources/mit2_017jf09_lab1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_lab1/data.json</guid>
+      <description>&lt;p&gt;Lab assignment intended to familiarize students with the lab space, the equipment in the lab, and the Arduino microcontroller.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 2: Sensors and Signals</title>
+      <link>/resources/mit2_017jf09_lab2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_lab2/data.json</guid>
+      <description>&lt;p&gt;Lab assignment on how to take sensor measurements and to process the acquired data using the Arduino microcontroller board.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 2: Sensors and Signals</title>
+      <link>/resources/mit2_017jf09_slides2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_slides2/data.json</guid>
+      <description>&lt;p&gt;Lab assignment on how to take sensor measurements and to process the acquired data using the Arduino microcontroller board.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 3: Files</title>
+      <link>/resources/lab3files/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab3files/data.json</guid>
+      <description>&lt;p&gt;Supporting files for a lab assignment on how to acquire, log, and process GPS data using the Arduino microcontroller board and the GPS logger shield. (This ZIP file contains: 2 .pde files and 1 .m file.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 3: GPS and Data Logging</title>
+      <link>/resources/mit2_017jf09_lab3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_lab3/data.json</guid>
+      <description>&lt;p&gt;Lab assignment on how to acquire, log, and process GPS data using the Arduino microcontroller board and the GPS logger shield.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 3: GPS and Data Logging</title>
+      <link>/resources/mit2_017jf09_slides3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_slides3/data.json</guid>
+      <description>&lt;p&gt;Lab assignment on how to acquire, log, and process GPS data using the Arduino microcontroller board and the GPS logger shield.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 4: Files</title>
+      <link>/resources/lab4files/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab4files/data.json</guid>
+      <description>&lt;p&gt;Supporting files for a lab assignment on controlling a DC motor using the Arduino microcontroller board and the Motor Shield. (This ZIP file contains: 2 .zip files, 1 .pdf file, and 2 .pde files.)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 4: Motor Control</title>
+      <link>/resources/mit2_017jf09_lab4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_lab4/data.json</guid>
+      <description>&lt;p&gt;Lab assignment on controlling a DC motor using the Arduino microcontroller board and the Motor Shield.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 4: Motor Control</title>
+      <link>/resources/mit2_017jf09_slides4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_slides4/data.json</guid>
+      <description>&lt;p&gt;Lab assignment on motor control, DC motor experiments, processing encoder signals, and controlling a servo.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab Rules and Safety</title>
+      <link>/resources/mit2_017jf09_rules/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_rules/data.json</guid>
+      <description>&lt;p&gt;Slide presentation on lab rules and safety precautions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Labs</title>
+      <link>/pages/labs/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/labs/data.json</guid>
+      <description>&lt;p&gt;Lab Rules and Safety (&lt;a href=&#34;../../resources/mit2_017jf09_rules/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;The first four weeks of lab are dedicated to exploring the Arduino board and specific topics necessary for designing autonomous robots. All lab sessions after that are free time for groups to work on their final projects.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&lt;th&gt;&#xA;&#xA;SLIDES&#xA;&lt;/th&gt;&#xA;&lt;th&gt;&#xA;&#xA;HANDOUTS&#xA;&lt;/th&gt;&#xA;&lt;th&gt;&#xA;&#xA;FILES&#xA;&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;Lab 1: Lab introduction and safety, Arduino microprocessor&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_slides1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_lab1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;Lab 2: Sensors and signals, A/D, D/A, PWM&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_slides2/index.html&#34;&gt;PDF - 1.6MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_lab2/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;Lab 3: GPS and data logging&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_slides3/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_lab3/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/lab3files/index.html&#34;&gt;ZIP&lt;/a&gt;) (This ZIP file contains: 2 .pde files and 1 .m file.)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;Lab 4: Motor control&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_slides4/index.html&#34;&gt;PDF - 1.0MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_lab4/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/lab4files/index.html&#34;&gt;ZIP&lt;/a&gt;) (This ZIP file contains: 2 .zip files, 1 .pdf file, and 2 .pde files.)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

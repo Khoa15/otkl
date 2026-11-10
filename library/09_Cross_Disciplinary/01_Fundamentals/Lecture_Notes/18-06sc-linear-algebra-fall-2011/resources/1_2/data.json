@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/585e41af6ff4e96a08ee1bfe25aa3714_1_2.jpg",
+  "file_size": 4908,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from ‘Introduction to Linear Algebra’ by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Elimination with Matrices",
+  "parent_type": "CourseSection",
+  "parent_uid": "060c0abf-f399-49c6-f5be-ff6291e747a5",
+  "resourcetype": "Image",
+  "title": "1_2.jpg",
+  "uid": "585e41af-6ff4-e96a-08ee-1bfe25aa3714",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

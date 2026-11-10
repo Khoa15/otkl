@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture notes on the principle of linear impulse and momentum, and collisions.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on the principle of linear impulse and momentum, and collisions.",
+  "draft": false,
+  "file": "/courses/16-07-dynamics-fall-2009/a867999737497c79fd8ffe97641c503f_MIT16_07F09_Lec09.pdf",
+  "file_size": 390744,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "c74de568-7f12-1be8-c80c-73b2269c3877",
+  "resourcetype": "Document",
+  "title": "Lecture L9 – Linear Impulse and Momentum. Collisions",
+  "uid": "a8679997-3749-7c79-fd8f-fe97641c503f"
+}

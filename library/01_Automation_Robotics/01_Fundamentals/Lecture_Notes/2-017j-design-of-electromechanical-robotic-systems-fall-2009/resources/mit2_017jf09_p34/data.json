@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Homework assignment on dead-reckoning error.</p>\n",
+  "content_type": "resource",
+  "description": "Homework assignment on dead-reckoning error.",
+  "draft": false,
+  "file": "/courses/2-017j-design-of-electromechanical-robotic-systems-fall-2009/MIT2_017JF09_p34.pdf",
+  "file_size": 266517,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "93ea44dc-663a-95f3-02d4-4a220966879b",
+  "resourcetype": "Document",
+  "title": "Dead-Reckoning Error",
+  "uid": "e35d34d5-88a0-4bbf-b1d0-f5c6bc865684",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

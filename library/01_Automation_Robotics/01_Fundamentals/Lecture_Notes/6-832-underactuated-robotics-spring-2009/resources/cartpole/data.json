@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Supporting file for a problem set on swing-Up and balance for the cart-pole system</p>\n",
+  "content_type": "resource",
+  "description": "Supporting file for a problem set on swing-Up and balance for the cart-pole system",
+  "draft": false,
+  "file": "/courses/6-832-underactuated-robotics-spring-2009/9ee4a5d5c72ec6e29b43ef52ec28c97a_cartpole.m",
+  "file_size": 2478,
+  "file_type": "text/plain",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "04c58ca0-0560-b9d1-6ca6-2691ea66babf",
+  "resourcetype": "Other",
+  "title": "Cartpole",
+  "uid": "9ee4a5d5-c72e-c6e2-9b43-ef52ec28c97a",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

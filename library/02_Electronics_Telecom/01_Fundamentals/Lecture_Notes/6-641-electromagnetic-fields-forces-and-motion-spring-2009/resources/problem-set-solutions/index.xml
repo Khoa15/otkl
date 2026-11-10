@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Set Solutions on MIT OpenCourseWare</title>
+    <link>/resources/problem-set-solutions/</link>
+    <description>Recent content in Problem Set Solutions on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-set-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Additional Problems - Solutions</title>
+      <link>/resources/mit6_641s09_sol_pset_opt/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_sol_pset_opt/data.json</guid>
+      <description>&lt;p&gt;Solutions to a problem set on electromagnetic fields, forces, and motion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 1 - Solutions</title>
+      <link>/resources/mit6_641s09_sol_pset01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_sol_pset01/data.json</guid>
+      <description>&lt;p&gt;Solutions to a problem set on electromagnetic fields, forces, and motion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 2 - Solutions</title>
+      <link>/resources/mit6_641s09_sol_pset02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_sol_pset02/data.json</guid>
+      <description>&lt;p&gt;Solutions to a problem set on electromagnetic fields, forces, and motion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 3 - Solutions</title>
+      <link>/resources/mit6_641s09_sol_pset03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_sol_pset03/data.json</guid>
+      <description>&lt;p&gt;Solutions to a problem set on electromagnetic fields, forces, and motion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 4 - Solutions</title>
+      <link>/resources/mit6_641s09_sol_pset04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_sol_pset04/data.json</guid>
+      <description>&lt;p&gt;Solutions to a problem set on electromagnetic fields, forces, and motion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 5 - Solutions</title>
+      <link>/resources/mit6_641s09_sol_pset05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_sol_pset05/data.json</guid>
+      <description>&lt;p&gt;Solutions to a problem set on electromagnetic fields, forces, and motion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 6 - Solutions</title>
+      <link>/resources/mit6_641s09_sol_pset06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_sol_pset06/data.json</guid>
+      <description>&lt;p&gt;Solutions to a problem set on electromagnetic fields, forces, and motion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 7 - Solutions</title>
+      <link>/resources/mit6_641s09_sol_pset07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_sol_pset07/data.json</guid>
+      <description>&lt;p&gt;Solutions to a problem set on electromagnetic fields, forces, and motion.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

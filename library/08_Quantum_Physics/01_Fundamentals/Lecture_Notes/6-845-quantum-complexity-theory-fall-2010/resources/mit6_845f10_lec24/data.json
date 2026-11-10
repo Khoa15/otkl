@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains information related to grab bag.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information related to grab bag. ",
+  "draft": false,
+  "file": "/courses/6-845-quantum-complexity-theory-fall-2010/e31feb25ad430796f7197f11ecabfb4d_MIT6_845F10_lec24.pdf",
+  "file_size": 222210,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "0ae74169-1168-dcc5-4644-05254b3e4264",
+  "resourcetype": "Document",
+  "title": "MIT6_845F10_lec24.pdf",
+  "uid": "e31feb25-ad43-0796-f719-7f11ecabfb4d"
+}

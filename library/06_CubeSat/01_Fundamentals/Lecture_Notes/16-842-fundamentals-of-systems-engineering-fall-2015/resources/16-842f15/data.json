@@ -1,0 +1,21 @@
+{
+  "content": "<p>This &ldquo;V-Model&rdquo; diagram summarizes the overall structure of this course. Image courtesy of Olivier de Weck.</p>\n",
+  "content_type": "resource",
+  "description": "This \"V-Model\" diagram summarizes the overall structure of this course. Image courtesy of Olivier de Weck.",
+  "draft": false,
+  "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/726dfc67e86050ec2c1f83c5c248961d_16-842f15.gif",
+  "file_size": 52197,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "This \"V-Model\" diagram summarizes the overall structure of this course. (Image courtesy of Olivier de Weck.)",
+    "credit": "Image courtesy of Olivier de Weck.",
+    "image-alt": "A flow diagram of the \"V Model\""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "16-842f15.jpg",
+  "uid": "726dfc67-e860-50ec-2c1f-83c5c248961d"
+}

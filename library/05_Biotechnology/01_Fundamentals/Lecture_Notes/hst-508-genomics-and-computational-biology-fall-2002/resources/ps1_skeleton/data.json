@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>The Central Dogma (skeleton code)\nPerl script</p>\n",
+  "content_type": "resource",
+  "description": "The Central Dogma (skeleton code)\nPerl script",
+  "draft": false,
+  "file": "/courses/hst-508-genomics-and-computational-biology-fall-2002/ps1_skeleton.pl",
+  "file_size": 3170,
+  "file_type": "text/plain",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "43fbbe59-f66c-1bdd-7edf-018322523e8a",
+  "resourcetype": "Other",
+  "title": "ps1_skeleton.pl",
+  "uid": "61aeb53b-c059-24da-00e6-30809af9b4ff",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture notes on inertial instruments and inertial navigation, gimbals, gyros, inertial platforms, accelerometers, and aircraft and spacecraft system applications of inertial systems.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on inertial instruments and inertial navigation, gimbals, gyros, inertial platforms, accelerometers, and aircraft and spacecraft system applications of inertial systems.",
+  "draft": false,
+  "file": "/courses/16-07-dynamics-fall-2009/2ebdf0f79724d62c7f183da7db44a0a2_MIT16_07F09_Lec31.pdf",
+  "file_size": 237850,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "c74de568-7f12-1be8-c80c-73b2269c3877",
+  "resourcetype": "Document",
+  "title": "Inertial Instruments and Inertial Navigation",
+  "uid": "2ebdf0f7-9724-d62c-7f18-3da7db44a0a2"
+}

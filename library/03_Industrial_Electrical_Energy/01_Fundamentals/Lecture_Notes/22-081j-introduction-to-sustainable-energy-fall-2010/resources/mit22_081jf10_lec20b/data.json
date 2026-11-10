@@ -1,0 +1,47 @@
+{
+  "audience": [],
+  "content": "<p>This resource contains information related to lifecycle analysis of biomass conversion.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information related to lifecycle analysis of biomass conversion.",
+  "draft": false,
+  "file": "/courses/22-081j-introduction-to-sustainable-energy-fall-2010/114ec00c3a30e8b2a22f9de52d67fbab_MIT22_081JF10_lec20b.pdf",
+  "file_size": 698645,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lectures and Readings",
+  "parent_type": "CourseSection",
+  "parent_uid": "e7a00e10-1594-2743-50ff-a5b52e167aa5",
+  "resourcetype": "Document",
+  "title": "MIT22_081JF10_lec20b.pdf",
+  "uid": "114ec00c-3a30-e8b2-a22f-9de52d67fbab",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": {
+      "content": [],
+      "website": "22-081j-introduction-to-sustainable-energy-fall-2010"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_resources": {
+      "content": [],
+      "website": "22-081j-introduction-to-sustainable-energy-fall-2010"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

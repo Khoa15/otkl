@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Instructor:</strong> Dennis Freeman</p>\n<p><strong>Description:</strong> The response of a system to sinusoidal input gives valuable information about its behavior in the frequency domain, similar to convolution in the time domain. Eigenfunctions and vector plots are used to explore this frequency response.</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "116837523",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "Lecture Slides",
+  "optional_text": "[Lecture 9: Frequency Response (PDF - 1.6MB)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec09)",
+  "parent_title": "Lecture Videos",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Lecture 9: Frequency Response    ",
+  "uid": "f948bb02-3586-3fe2-45cd-8e7cd1426254",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec09_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/6-003-signals-and-systems-fall-2011/132d4c16c39a58afb5f84ba01f1fb26e_fKaZeD70p8I.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/fKaZeD70p8I/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/6-003-signals-and-systems-fall-2011/18338f7eb06b1ad87b319e4d6b4e9ac8_fKaZeD70p8I.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "6-003-signals-and-systems-fall-2011, complex exponential, eigenfunction, eigenvalue, frequency response, laplace transform, linearity, magnitude, phase, poles, sinusoid, time-invariance, vector diagram, zeros",
+    "youtube_id": "fKaZeD70p8I"
+  }
+}

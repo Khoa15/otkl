@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Problem set 1 solutions: Biology</p>\n",
+  "content_type": "resource",
+  "description": "Problem set 1 solutions: Biology",
+  "draft": false,
+  "file": "/courses/hst-508-genomics-and-computational-biology-fall-2002/ps1_bio_answers_2002.pdf",
+  "file_size": 27045,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem Set Solutions"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "43fbbe59-f66c-1bdd-7edf-018322523e8a",
+  "resourcetype": "Document",
+  "title": "ps1_bio_answers_2002.pdf",
+  "uid": "ca095d03-9e38-551e-8126-2c849c686945",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

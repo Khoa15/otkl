@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This file contains homework questions on topics bonding and thermodynamics.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains homework questions on topics bonding and thermodynamics.",
+  "draft": false,
+  "file": "/courses/3-012-fundamentals-of-materials-science-fall-2005/593d7a2a7113bcc56a505d855e2058b1_ps04.pdf",
+  "file_size": 127275,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "8db023f2-d8ec-7253-d926-88a30e7c44bb",
+  "resourcetype": "Document",
+  "title": "ps04.pdf",
+  "uid": "593d7a2a-7113-bcc5-6a50-5d855e2058b1",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "3-012-fundamentals-of-materials-science-fall-2005"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "3-012-fundamentals-of-materials-science-fall-2005"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

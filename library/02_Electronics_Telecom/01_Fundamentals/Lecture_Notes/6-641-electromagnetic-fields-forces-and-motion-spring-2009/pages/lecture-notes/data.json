@@ -1,0 +1,22 @@
+
+{
+  "content": "<p>Topics L16 and L17 were not covered in 2009, but are included here for completeness.</p>\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nSES #\n</th>\n\n<th>\n\nTOPICS\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\nL1\n</td>\n\n<td>\n\nIntegral form of Maxwell&rsquo;s equations (<a href=\"../../resources/mit6_641s09_lec01/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL2\n</td>\n\n<td>\n\nDifferential form of Maxwell&rsquo;s equations (<a href=\"../../resources/mit6_641s09_lec02/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL3\n</td>\n\n<td>\n\nElectroquasistatic (EQS) and magnetoquasistatic (MQS) fields and boundary conditions (<a href=\"../../resources/mit6_641s09_lec03/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL4\n</td>\n\n<td>\n\nThe scalar electric potential and the Coulomb superposition integral (<a href=\"../../resources/mit6_641s09_lec04/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL5\n</td>\n\n<td>\n\nMethod of images (<a href=\"../../resources/mit6_641s09_lec05/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL6\n</td>\n\n<td>\n\nMagnetoquasistatics (<a href=\"../../resources/mit6_641s09_lec06/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL7\n</td>\n\n<td>\n\nPolarization and conduction (<a href=\"../../resources/mit6_641s09_lec07/index.html\">PDF - 1.3MB</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL8\n</td>\n\n<td>\n\nMagnetization (<a href=\"../../resources/mit6_641s09_lec08/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL9\n</td>\n\n<td>\n\nMagnetic diffusion phenomena (<a href=\"../../resources/mit6_641s09_lec09/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL10\n</td>\n\n<td>\n\nSolutions to Laplace&rsquo;s equation in Cartesian coordinates (<a href=\"../../resources/mit6_641s09_lec10/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL11\n</td>\n\n<td>\n\nSolutions to Laplace&rsquo;s equation in polar and spherical coordinates (<a href=\"../../resources/mit6_641s09_lec11/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL12\n</td>\n\n<td>\n\nElectroquasistatic forces (<a href=\"../../resources/mit6_641s09_lec12/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL13\n</td>\n\n<td>\n\nMagnetoquasistatic forces (<a href=\"../../resources/mit6_641s09_lec13/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL14\n</td>\n\n<td>\n\nFields and moving media (<a href=\"../../resources/mit6_641s09_lec14/index.html\">PDF - 1.6MB</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL15\n</td>\n\n<td>\n\nForce densities, stress tensors, and forces (<a href=\"../../resources/mit6_641s09_lec15/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL16\n</td>\n\n<td>\n\nElastic waves on a thin rod (<a href=\"../../resources/mit6_641s09_lec16/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL17\n</td>\n\n<td>\n\nTransient waves on transmission lines (<a href=\"../../resources/mit6_641s09_lec17/index.html\">PDF - 1.2MB</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL18\n</td>\n\n<td>\n\nWaves and instabilities in elastic media (<a href=\"../../resources/mit6_641s09_lec18/index.html\">PDF - 1.3MB</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nL19\n</td>\n\n<td>\n\nWaves and instabilities in the presence of motion (<a href=\"../../resources/mit6_641s09_lec19/index.html\">PDF</a>)\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section provides the schedule of lecture topics for the course along with the lecture notes for each session.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Lecture Notes",
+  "uid": "dda578c4-8b9d-5d90-3bed-c932f0409540",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

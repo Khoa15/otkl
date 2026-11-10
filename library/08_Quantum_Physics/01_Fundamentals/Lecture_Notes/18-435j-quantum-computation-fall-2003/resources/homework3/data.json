@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>Problem set.</p>\n",
+  "content_type": "resource",
+  "description": "Problem set.",
+  "draft": false,
+  "file": "/courses/18-435j-quantum-computation-fall-2003/7deb092de908b04128d912f31fc75b17_homework3.pdf",
+  "file_size": 63016,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "04bf2dc2-6c58-0411-a974-352ddf413671",
+  "resourcetype": "Document",
+  "title": "homework3.pdf",
+  "uid": "7deb092d-e908-b041-28d9-12f31fc75b17",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "18-435j-quantum-computation-fall-2003"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "18-435j-quantum-computation-fall-2003"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

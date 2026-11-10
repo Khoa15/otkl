@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 1: Integral Form of Maxwell’s Equations</title>
+      <link>/resources/mit6_641s09_lec01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_lec01/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on Maxwell&amp;rsquo;s equations in integral form in free space, Ampere&amp;rsquo;s law, Gauss&amp;rsquo; law for electric field and magnetic field, conservation of charge, and Lorentz force law.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 10: Solutions to Laplace’s Equation In Cartesian Coordinates</title>
+      <link>/resources/mit6_641s09_lec10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_lec10/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on Poisson&amp;rsquo;s equation, particular and homogeneous solutions, uniqueness of solutions, boundary conditions, and solutions to Laplace&amp;rsquo;s equation in Cartesian coordinates.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 11: Solutions to Laplace’s Equation In Polar and Spherical Coordinates</title>
+      <link>/resources/mit6_641s09_lec11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_lec11/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on solutions to Laplace&amp;rsquo;s equation in polar coordinates, and in spherical coordinates.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 12: Electroquasistatic Forces</title>
+      <link>/resources/mit6_641s09_lec12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_lec12/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on electroquasistatic forces, EQS energy method of forces, forces in capacitors, energy conversion cycles, force on a dielectric material, and a physical model of forces on dielectrics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 13: Magnetoquasistatic Forces</title>
+      <link>/resources/mit6_641s09_lec13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_lec13/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on magnetoquasistatic forces, MQS energy method of forces, force on a wire over a perfectly conducting plane, one turn loop, lifting of magnetic fluid, magnetic actuator, and synchronous machine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 14: Fields and Moving Media</title>
+      <link>/resources/mit6_641s09_lec14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_lec14/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on Galilean time and space transformations, transformations for MQS systems, moving media MQS problem, transformations for EQS systems, moving line charge representation problem, Faraday&amp;rsquo;s disk (homopolar generator), self-excited DC homopolar generators, and self-excited AC homopolar generators.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 15: Force Densities, Stress Tensors, and Forces</title>
+      <link>/resources/mit6_641s09_lec15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_lec15/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on force densities, stress tensors, and forces, the Maxwell stress tensor, air-gap magnetic machines, electrostatic machines, and compressible media.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 16: Elastic Waves On a Thin Rod</title>
+      <link>/resources/mit6_641s09_lec16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_lec16/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on elastic waves on a thin rod, governing equations, change in rod length, the region of initial uniform stress, boundary conditions, and electromechanical coupling.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 17: Transient Waves on Transmission Lines</title>
+      <link>/resources/mit6_641s09_lec17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_lec17/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on wave equation (loss less), transmission line transient waves, and linear constant coefficient difference equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 18: Waves and Instabilities In Elastic Media</title>
+      <link>/resources/mit6_641s09_lec18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_lec18/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on waves and instabilities in elastic media, transverse motions of wires under tension, transverse motions of membranes, non-dispersive waves on a string, cut-off or evanescent waves, absolute or non convective instability, and electric field levitation of membrane.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 19: Waves and Instabilities in the Presence of Motion</title>
+      <link>/resources/mit6_641s09_lec19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_lec19/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on waves and instabilities in the presence of motion, Galilean transformation, fast and slow non dispersive waves (fext=0), evanescence and oscillation with convection, and convective instability or wave amplification.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 2: Differential Form of Maxwell’s Equations</title>
+      <link>/resources/mit6_641s09_lec02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_lec02/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on differential form of Maxwell&amp;rsquo;s equations, divergence theorem, Stokes&amp;rsquo; theorem, applications to Maxwell&amp;rsquo;s equations, and summary of Maxwell&amp;rsquo;s equations in free space.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 3: Electroquasistatic and Magnetoquasistatic Fields and Boundary Conditions</title>
+      <link>/resources/mit6_641s09_lec03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_lec03/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on electroquasistatic and magnetoquasistatic fields and boundary conditions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 4: The Scalar Electric Potential and the Coulomb Superposition Integral</title>
+      <link>/resources/mit6_641s09_lec04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_lec04/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the scalar electric potential, quasistatics, irrotational EQS electric field, vector identity, Poisson&amp;rsquo;s equation, and Coulomb superposition integral.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 5: Method of Images</title>
+      <link>/resources/mit6_641s09_lec05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_lec05/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the method of images, point charge above ground plane, point charge and sphere, charge induced in ground plane by overhead conductor, point electric dipole, and line current above a perfect conductor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 6: Magnetoquasistatics</title>
+      <link>/resources/mit6_641s09_lec06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_lec06/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on magnetoquasistatics, MQS governing equations, uniqueness, vector Poisson&amp;rsquo;s equation, boundary conditions, Biot–Savart superposition integral, on axis magnetic field from current loop, on axis magnetic field of circular cylindrical solenoid, and demonstration 8.2.1 fields of a circular cylindrical solenoid.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 7: Polarization and Conduction</title>
+      <link>/resources/mit6_641s09_lec07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_lec07/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on polarization and conduction, experimental observation, the dipole model of polarization, equipotential sphere in a uniform electric field, artificial dielectric, the plasma conduction model (classical), and the relationship between resistance and capacitance in uniform media described by e and s.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 8: Magnetization</title>
+      <link>/resources/mit6_641s09_lec08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_lec08/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on magnetic dipoles, Maxwell&amp;rsquo;s equations with magnetization, magnetic field intensity along axis of a uniformly magnetized cylinder, toroidal coil, transformers, and reluctance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 9: Magnetic Diffusion Phenomena</title>
+      <link>/resources/mit6_641s09_lec09/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_lec09/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on magnetic diffusion phenomena, nonuniqueness of voltage in an MQS system, diffusion of axial magnetic fields into a circular tube, Edgerton&amp;rsquo;s boomer, the magnetic diffusion equation, magnetic diffusion transient response, and sinusoidal steady state magnetic diffusion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;Topics L16 and L17 were not covered in 2009, but are included here for completeness.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SES #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Integral form of Maxwell&amp;rsquo;s equations (&lt;a href=&#34;../../resources/mit6_641s09_lec01/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Differential form of Maxwell&amp;rsquo;s equations (&lt;a href=&#34;../../resources/mit6_641s09_lec02/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Electroquasistatic (EQS) and magnetoquasistatic (MQS) fields and boundary conditions (&lt;a href=&#34;../../resources/mit6_641s09_lec03/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;The scalar electric potential and the Coulomb superposition integral (&lt;a href=&#34;../../resources/mit6_641s09_lec04/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Method of images (&lt;a href=&#34;../../resources/mit6_641s09_lec05/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L6&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Magnetoquasistatics (&lt;a href=&#34;../../resources/mit6_641s09_lec06/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L7&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Polarization and conduction (&lt;a href=&#34;../../resources/mit6_641s09_lec07/index.html&#34;&gt;PDF - 1.3MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This file contains answers of all the questions based on various topics of thermodynamics in quiz 2.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains answers of all the questions based on various topics of thermodynamics in quiz 2.",
+  "draft": false,
+  "file": "/courses/3-012-fundamentals-of-materials-science-fall-2005/859f48200d38bcc7e624a663295da10b_quiz2_sol_thermo.pdf",
+  "file_size": 763624,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exam Solutions"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Exams",
+  "parent_type": "CourseSection",
+  "parent_uid": "8afa5fc2-30ba-fc0d-8491-0ca406659fd2",
+  "resourcetype": "Document",
+  "title": "quiz2_sol_thermo.pdf",
+  "uid": "859f4820-0d38-bcc7-e624-a663295da10b",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "3-012-fundamentals-of-materials-science-fall-2005"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "3-012-fundamentals-of-materials-science-fall-2005"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

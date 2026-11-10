@@ -1,0 +1,47 @@
+{
+  "audience": [],
+  "content": "<p>This file contains information regarding node ordering, numbering, and boundary conditions.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains information regarding node ordering, numbering, and boundary conditions.",
+  "draft": false,
+  "file": "/courses/2-29-numerical-fluid-mechanics-spring-2015/cc4c949436993bc56aa209d1dcf31ad8_MIT2_29S15_Node_Ordering.pdf",
+  "file_size": 348962,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "18f8e3b9-0e75-225c-4548-7e4c60e79872",
+  "resourcetype": "Document",
+  "title": "Node Ordering, Numbering, and Boundary Conditions",
+  "uid": "cc4c9494-3699-3bc5-6aa2-09d1dcf31ad8",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": {
+      "content": [],
+      "website": "2-29-numerical-fluid-mechanics-spring-2015"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_resources": {
+      "content": [],
+      "website": "2-29-numerical-fluid-mechanics-spring-2015"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

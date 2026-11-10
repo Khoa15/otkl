@@ -1,0 +1,16 @@
+
+{
+  "content": "<p>The course notes are intended to serve as the primary references for this course, and were developed over the years during which the course has been offered. The notes are organized in chapters, though the chapters may not correspond precisely with the order of the material as discussed in lecture.</p>\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nCHAP #\n</th>\n\n<th>\n\nTOPICS\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\n1\n</td>\n\n<td>\n\n<a href=\"../../resources/mit6_685f13_chapter1/index.html\">Electromagnetic Forces (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n2\n</td>\n\n<td>\n\n<a href=\"../../resources/mit6_685f13_chapter2/index.html\">Magnetic Circuit Basics (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n3\n</td>\n\n<td>\n\n<a href=\"../../resources/mit6_685f13_chapter3/index.html\">Eddy Currents, Surface Impedances and Loss Mechanisms (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n4\n</td>\n\n<td>\n\n<a href=\"../../resources/mit6_685f13_chapter4/index.html\">Elementary Synchronous Machine Models (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n5\n</td>\n\n<td>\n\n<a href=\"../../resources/mit6_685f13_chapter5/index.html\">Winding Inductances (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n6\n</td>\n\n<td>\n\n<a href=\"../../resources/mit6_685f13_chapter6/index.html\">DC (Commutator) and Permanent Magnet Machiness (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n7\n</td>\n\n<td>\n\n<a href=\"../../resources/mit6_685f13_chapter7/index.html\">Permanent Magnet &ldquo;Brushless DC&rdquo; Motors (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n8\n</td>\n\n<td>\n\n<a href=\"../../resources/mit6_685f13_chapter8/index.html\">Analytic Design Evaluation of Induction Machines (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n9\n</td>\n\n<td>\n\n<a href=\"../../resources/mit6_685f13_chapter9/index.html\">Synchronous Machine Simulation Models (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n10\n</td>\n\n<td>\n\n<a href=\"../../resources/mit6_685f13_chapter10/index.html\">Induction Machine Control and Simulation (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n11\n</td>\n\n<td>\n\n<a href=\"../../resources/mit6_685f13_chapter11/index.html\">Design Synthesis and Optimization (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n12\n</td>\n\n<td>\n\n<a href=\"../../resources/mit6_685f13_chapter12/index.html\">Single Phase Induction Motors, Modeling of Inductances and Resistances (PDF)</a>\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section provides the course notes as the primary reference for the course. The notes are organized in chapters, though the chapters may not correspond precisely with the order of the material as discussed in lecture.  ",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Course Notes",
+  "uid": "c29fb21f-78c1-d5f3-2da3-7a4fcd4e6791"
+}
+

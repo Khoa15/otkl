@@ -1,0 +1,14 @@
+
+{
+  "content": "\n    <h3 id=\"course-meeting-times\">Course Meeting Times</h3>\n\n<p>Lectures: 2 sessions / week, 1.5 hours / session</p>\n\n    <h3 id=\"description\">Description</h3>\n\n<p>This course provides an introduction to the theory and practice of quantum computation. Topics covered include:</p>\n<ul>\n<li>(Just) enough quantum mechanics to understand quantum computation.</li>\n<li>Quantum algorithms.\n<ul>\n<li>Simon&rsquo;s algorithm</li>\n<li>The prime factorization algorithm</li>\n<li>Grover&rsquo;s search algorithm</li>\n</ul>\n</li>\n<li>Mathematical models of quantum computation, their relationships to each other, and to physical systems.</li>\n<li>Quantum error correcting codes</li>\n<li>Quantum cryptography</li>\n<li>Quantum fault tolerance</li>\n</ul>\n\n    <h3 id=\"prerequisites\">Prerequisites</h3>\n\n<p>Understanding of linear algebra. Prior knowledge of quantum mechanics is helpful, but not required. Permission of instructor is required.</p>\n\n    <h3 id=\"grading-policy\">Grading Policy</h3>\n\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nACTIVITIES\n</th>\n\n<th>\n\nPERCENTAGES\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\nHomework\n</td>\n\n<td>\n\n70%\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nTwo quizzes (15% each)\n</td>\n\n<td>\n\n30%\n</td>\n</p>\n</tr>\n\n</table>\n\n\n    <h3 id=\"homework-policy\">Homework Policy</h3>\n\n<p>Collaboration is allowed; please mention those you have collaborated with, and only write your own understanding of the problem.</p>\n\n    <h3 id=\"textbooks\">Textbooks</h3>\n\n<p>Nielsen, Michael A., and Isaac L. Chuang. <em>Quantum Computation and Quantum Information.</em> Cambridge, UK: Cambridge University Press, September 2000. ISBN: 9780521635035.</p>\n<p>Preskill, J. <a   class=\"external-link \"   target=\"_blank\"   href=\"https://www.researchgate.net/publication/238451035_Lecture_Notes_for_Physics_219_Quantum_Computation\"  aria-label=\"Notes on Quantum Computation. (opens in a new tab)\"  >Notes on Quantum Computation.</a></p>\n<p>Peres, Asher. <em>Quantum Theory: Concepts and Methods.</em> New York, NY: Springer, 1993. ISBN: 9780792325499.</p>\n",
+  "content_type": "page",
+  "description": "This section contains introduction to the theory and practice of quantum computation. It also includes gradings for homework, midterm and final exam. It contains citation for textbooks for further references.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Syllabus",
+  "uid": "5beee33e-d69d-b469-a4a7-b836781fa9c3"
+}
+

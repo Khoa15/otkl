@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Textbooks on MIT OpenCourseWare</title>
+    <link>/resources/open-textbooks/</link>
+    <description>Recent content in Open Textbooks on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/open-textbooks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Electric Power Systems</title>
+      <link>/resources/6_061_s11_textbook_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_061_s11_textbook_pdf/data.json</guid>
+      <description>&lt;p&gt;The textbook presents an example-driven approach to power systems, moving from foundational concepts to system-level analysis. It emphasizes equivalent models, and computational techniques for engineering design.&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Key Topics&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Network theory&lt;/li&gt;&#xA;&lt;li&gt;AC power flow&lt;/li&gt;&#xA;&lt;li&gt;Polyphase systems&lt;/li&gt;&#xA;&lt;li&gt;Symmetrical components&lt;/li&gt;&#xA;&lt;li&gt;Electric machines&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Author:&lt;/strong&gt; James L. Kirtley Jr.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

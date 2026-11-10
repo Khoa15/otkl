@@ -1,0 +1,21 @@
+{
+  "content": "<p>Electric power lines. Image is taken from the Department of Energy Digital Archive.</p>\n",
+  "content_type": "resource",
+  "description": "Electric power lines. Image is taken from the Department of Energy Digital Archive.",
+  "draft": false,
+  "file": "/courses/6-061-introduction-to-electric-power-systems-spring-2011/fd2e7bd3524bc923062ed56778235d42_6-061s11.jpg",
+  "file_size": 42366,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Electric power lines. (Image is taken from the {{% resource_link \"82ea99ea-ae9a-40c3-b632-47870e4e1fe1\" \"Department of Energy Digital Archive\" %}}.)",
+    "credit": "",
+    "image-alt": "Image of electric power lines."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "6-061s11.jpg",
+  "uid": "fd2e7bd3-524b-c923-062e-d56778235d42"
+}

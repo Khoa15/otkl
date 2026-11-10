@@ -1,0 +1,47 @@
+{
+  "content": "<p>Problem set on boost converters, power flow, and factors that influence sizing of the passive components in practical power converters.</p>\n",
+  "content_type": "resource",
+  "description": "Problem set on boost converters, power flow, and factors that influence sizing of the passive components in practical power converters.",
+  "draft": false,
+  "file": "/courses/6-334-power-electronics-spring-2007/b991c8c571478d70dafef869a1cfba3b_hw2.pdf",
+  "file_size": 52833,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "5715bb34-b41c-4517-38a4-6b40d2cf0ab9",
+  "resourcetype": "Document",
+  "title": "hw2.pdf",
+  "uid": "b991c8c5-7147-8d70-dafe-f869a1cfba3b",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-334-power-electronics-spring-2007"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-334-power-electronics-spring-2007"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

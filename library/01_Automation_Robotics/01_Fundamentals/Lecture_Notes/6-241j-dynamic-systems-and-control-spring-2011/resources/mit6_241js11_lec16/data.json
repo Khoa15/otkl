@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains information related to Bode&rsquo;s sensitivity integral.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information related to Bode's sensitivity integral.",
+  "draft": false,
+  "file": "/courses/6-241j-dynamic-systems-and-control-spring-2011/87eccdcf02460a8315ebac5860611cc2_MIT6_241JS11_lec16.pdf",
+  "file_size": 358950,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "ee668e05-ff75-8895-0bb1-7bddd4117378",
+  "resourcetype": "Document",
+  "title": "MIT6_241JS11_lec16.pdf",
+  "uid": "87eccdcf-0246-0a83-15eb-ac5860611cc2"
+}

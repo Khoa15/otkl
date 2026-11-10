@@ -1,0 +1,117 @@
+{
+  "course_description": "This course discusses the principles of genetics with application to the study of biological function at the level of molecules, cells, and multicellular organisms, including humans. The topics include: structure and function of genes, chromosomes and genomes, biological variation resulting from recombination, mutation, and selection, population genetics, use of genetic methods to analyze protein function, gene regulation and inherited disease.\n",
+  "course_description_html": "This course discusses the principles of genetics with application to the study of biological function at the level of molecules, cells, and multicellular organisms, including humans. The topics include: structure and function of genes, chromosomes and genomes, biological variation resulting from recombination, mutation, and selection, population genetics, use of genetic methods to analyze protein function, gene regulation and inherited disease.",
+  "course_image": {
+    "content": "8674ccb6-7518-2c8d-12cf-97462a16e9e4",
+    "website": "7-03-genetics-fall-2004"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "DNA and histone proteins are packaged into structures called chromosomes. (Image courtesy of the U.S. National Library of Medicine.)",
+    "draft": false,
+    "file": "/courses/7-03-genetics-fall-2004/8674ccb675182c8d12cf97462a16e9e4_7-03f04.jpg",
+    "file_size": 83815,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "DNA and histone proteins are packaged into structures called chromosomes. (Image courtesy of the {{% resource_link \"1306cb2e-8821-4fa7-adee-c9ee4cabfc8e\" \"U.S. National Library of Medicine\" %}}.)",
+      "credit": "",
+      "image-alt": "Figure showing DNA and histone proteins packaged into chromosomes."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "7-03f04.jpg",
+    "uid": "8674ccb6-7518-2c8d-12cf-97462a16e9e4"
+  },
+  "course_image_thumbnail": {
+    "content": "7100f850-97bf-263f-384f-a01329e1ea4e",
+    "website": "7-03-genetics-fall-2004"
+  },
+  "course_title": "Genetics",
+  "department_numbers": [
+    "7"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/8674ccb675182c8d12cf97462a16e9e4_7-03f04.jpg",
+  "instructors": [
+    {
+      "first_name": "Chris",
+      "last_name": "Kaiser",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Chris Kaiser",
+      "uid": "89fc5df8-6006-db3f-1702-6cbd65f1f043",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Chris+Kaiser"
+    },
+    {
+      "first_name": "Gerald",
+      "last_name": "Fink",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Gerald Fink",
+      "uid": "e6b4b2a7-ed52-2153-4dcc-09b2387c71a3",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Gerald+Fink"
+    },
+    {
+      "first_name": "Leona",
+      "last_name": "Samson",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Leona Samson",
+      "uid": "b5f54e9a-cf17-68eb-f4fa-e7e2cc4cb99f",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Leona+Samson"
+    },
+    {
+      "first_name": "Michelle",
+      "last_name": "Mischke",
+      "middle_initial": "",
+      "salutation": "Dr.",
+      "title": "Dr. Michelle Mischke",
+      "uid": "7f7c9400-23e5-0117-b556-ac663c45cb26",
+      "url": "https://ocw.mit.edu/search/?q=Dr.+Michelle+Mischke"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Notes",
+    "Problem Sets",
+    "Problem Set Solutions",
+    "Exams",
+    "Exam Solutions"
+  ],
+  "legacy_uid": "acd6bb5e-8a3c-3cd6-ca8f-6f044f9898bd",
+  "level": [
+    "Undergraduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Science & Math",
+      "Biology"
+    ]
+  ],
+  "primary_course_number": "7.03",
+  "site_short_id": "7.03-fall-2004",
+  "site_uid": "68005b13-4cea-4492-9ab1-674ec344a31b",
+  "site_url_path": "courses/7-03-genetics-fall-2004",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Science",
+      "Biology",
+      "Genetics"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Cell Biology"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Molecular Biology"
+    ]
+  ],
+  "year": "2004"
+}

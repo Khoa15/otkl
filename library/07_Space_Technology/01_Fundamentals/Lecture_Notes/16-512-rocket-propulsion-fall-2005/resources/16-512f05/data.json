@@ -1,0 +1,21 @@
+{
+  "content": "<p>A NASA Delta II Rocket. (Image courtesy of NASA.)</p>\n",
+  "content_type": "resource",
+  "description": "A NASA Delta II Rocket. (Image courtesy of NASA.)",
+  "draft": false,
+  "file": "/courses/16-512-rocket-propulsion-fall-2005/69bdff0f76c07bfda8f37bae4776087e_16-512f05.jpg",
+  "file_size": 50577,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "A NASA Delta II Rocket. (Image courtesy of {{% resource_link \"325f0e84-e809-4abe-ad3a-d0bf5fa4b963\" \"NASA\" %}}.)",
+    "credit": "",
+    "image-alt": "Photo of a Delta II Rocket launch."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "16-512f05.jpg",
+  "uid": "69bdff0f-76c0-7bfd-a8f3-7bae4776087e"
+}

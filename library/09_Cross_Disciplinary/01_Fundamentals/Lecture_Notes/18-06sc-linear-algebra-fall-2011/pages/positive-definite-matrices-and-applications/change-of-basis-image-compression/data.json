@@ -1,0 +1,20 @@
+
+{
+  "content": "<p>« <a href=\"../../../pages/positive-definite-matrices-and-applications/linear-transformations-and-their-matrices/index.html\">Previous</a> | <a href=\"../../../pages/positive-definite-matrices-and-applications/left-and-right-inverses-pseudoinverse/index.html\">Next</a> »</p>\n\n    <h3 id=\"session-overview\">Session Overview</h3>\n\n<p><table>\n\n<tr>\n\n<td>\n\n<img src=\"../../../static_resources/bef2d41648c0b324d4096a02c846c947_3_7.jpg\" alt=\"Figure excerpted from &#39;Introduction to Linear Algebra&#39; by G.S. Strang\" loading=\"lazy\" decoding=\"async\" />\n</td>\n\n<td>\n</p>\n<p>Video cameras record data in a poor format for broadcasting video. To transmit video efficiently, linear algebra is used to change the basis. But which basis is best for video compression is an important question that has not been fully answered!</p>\n</td>\n\n</tr>\n\n</table>\n\n\n    <h3 id=\"session-activities\">Session Activities</h3>\n\n\n    <h4 id=\"lecture-video-and-summary\">Lecture Video and Summary</h4>\n\n<ul>\n<li>Watch the video lecture <a href=\"../../../resources/lecture-31-change-of-basis-image-compression/index.html\">Lecture 31: Change of Basis; Image Compression</a></li>\n<li>Read the accompanying <a href=\"../../../resources/mit18_06scf11_ses3-7sum/index.html\">lecture summary (PDF)</a></li>\n<li><a href=\"../../../resources/0h43av4ah7i-1/index.html\">Lecture video transcript (PDF)</a></li>\n</ul>\n\n    <h4 id=\"suggested-reading\">Suggested Reading</h4>\n\n<ul>\n<li>Read Section 7.2 in the 4<sup>th</sup> edition or Section 8.2 in the 5<sup>th</sup> edition.</li>\n</ul>\n\n    <h4 id=\"problem-solving-video\">Problem Solving Video</h4>\n\n<ul>\n<li>Watch the recitation video on <a href=\"../../../resources/problem-solving-change-of-basis/index.html\">Problem Solving: Change of Basis</a></li>\n<li><a href=\"../../../resources/rmv2rdiotsi-1/index.html\">Recitation video transcript (PDF)</a></li>\n</ul>\n\n    <h3 id=\"check-yourself\">Check Yourself</h3>\n\n\n    <h4 id=\"problems-and-solutions\">Problems and Solutions</h4>\n\n<p>Work the problems on your own and check your answers when you&rsquo;re done.</p>\n<ul>\n<li><a href=\"../../../resources/mit18_06scf11_ses3-7prob/index.html\">Problems (PDF)</a></li>\n<li><a href=\"../../../resources/mit18_06scf11_ses3-7sol/index.html\">Solutions (PDF)</a></li>\n</ul>\n<p>« <a href=\"../../../pages/positive-definite-matrices-and-applications/linear-transformations-and-their-matrices/index.html\">Previous</a> | <a href=\"../../../pages/positive-definite-matrices-and-applications/left-and-right-inverses-pseudoinverse/index.html\">Next</a> »</p>\n",
+  "content_type": "page",
+  "description": "",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "parent_title": "Unit III: Positive Definite Matrices and Applications",
+  "parent_type": "CourseSection",
+  "parent_uid": "34f596bc-2328-22be-5fba-75646f6970c5",
+  "title": "Change of Basis; Image Compression",
+  "uid": "7b90bea0-f6ce-9bfd-c750-ada6103da88c",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

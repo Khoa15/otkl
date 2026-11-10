@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analytic and Geometric Properties of the BVP</title>
+      <link>/resources/lec_08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_08/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on analytic and geometric properties of the BVP, orbital parameter from the semimajor axis, semimajor axis from the parameter, semimajor axis of the minimum-energy orbit, orbit tangents and the transfer-angle bisector, locus of the eccentricity vectors of the boundary-value problem, locus of the vacant focus, and the semiperimeter of a triangle.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Barker&#39;s Equation and Kepler&#39;s Equation</title>
+      <link>/resources/lec_03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_03/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the equation of a parabolic orbit, Barker&amp;rsquo;s equation, elliptic orbits and the eccentric anomaly, Kepler’s equation, and theory of the motion of the heavenly bodies moving about the sun in conic sections.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Basic Elements of the Three Body Problem</title>
+      <link>/resources/lec_24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_24/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on basic elements of the three body problem, the rotation matrix, kinematics in rotating coordinates, and the Lagrange solutions of the three-body problem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Effect of Atmospheric Drag on Satellite Orbits</title>
+      <link>/resources/lec_28/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_28/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the effect of atmospheric drag on satellite orbits, terminology, the variational equation, series representation, and calculating modiﬁed Bessel functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Effect of J2 on a satellite orbit of the Earth</title>
+      <link>/resources/lec_30/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_30/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on variational equations using the disturbing function, Lagrange’s planetary equations, eﬀect of the second dynamic form factor term on satellite orbits, averaged variational equations, and coeﬃcients of the Earth’s gravitational potential.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Estimation of Position and Velocity in Space Navigation</title>
+      <link>/resources/lec_23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_23/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on estimation of position and velocity in space navigation, recursive formulation of the navigation algorithm, propagating the covariance matrix P and the error transition matrix W, Encke’s method of orbital integration, Encke’s method, navigating to Mars, and navigating to the Moon.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Euler Angles</title>
+      <link>/resources/lec_05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_05/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on Euler angles, and position and velocity vectors in reference coordinates.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gauss&#39; Method for the Time-Constrained BVP</title>
+      <link>/resources/lec_13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_13/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on Gauss&amp;rsquo; method for the time-constrained BVP, Lagrange’s equations for the boundary-value problem, Gauss’s equation for the semimajor axis, Gauss’s time equation, the universal form of Gauss’ method, and Gauss’ successive substitution algorithm.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hyperbolic Orbits</title>
+      <link>/resources/lec_11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_11/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on hyperbolic orbits, Lagrange&amp;rsquo;s equations for hyperbolic orbits, hyperbolic injection velocity, injection from pericenter of a hyperbolic orbit, and out-of-plane injection from pericenter of a hyperbolic orbit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hypergeometric Functions and Continued Fractions</title>
+      <link>/resources/lec_14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_14/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on John Wallis’ hypergeometric series, hypergeometric function, examples of hypergeometric functions, Gauss’ diﬀerential equation, Gauss’ continued fraction expansion, suﬃcient conditions for convergence of continued fractions, the top-down method for evaluating continued fractions, and continued fractions versus power series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lambert&#39;s Theorem and the Lagrange Time Equation</title>
+      <link>/resources/lec_09/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_09/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the theorem of Johann Heinrich Lambert, developing Lagrange’s equations, Lagrange’s time equation, Euler’s equation for parabolic orbits, the orbital parameter, and skewed-velocity components in terms of the semimajor axis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;Figure, problem, and page numbers in the lecture notes all refer to sections of the course textbook with relevant content.&lt;/p&gt;&#xA;&lt;p&gt;Battin, Richard. &lt;em&gt;An Introduction to the Mathematics and Methods of Astrodynamics&lt;/em&gt;. Revised ed. Reston, VA: AIAA, 1999. ISBN: 9781563473425.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LEC #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;The two-body problem (&lt;a href=&#34;../../resources/lec_01/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;The two-body problem (cont.) (&lt;a href=&#34;../../resources/lec_02/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Barker&amp;rsquo;s equation and Kepler&amp;rsquo;s equation (&lt;a href=&#34;../../resources/lec_03/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;The initial-value problem (&lt;a href=&#34;../../resources/lec_04/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Non-singular &#34;Gauss-like&#34; method for the BVP</title>
+      <link>/resources/lec_16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_16/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on a non-singular &amp;ldquo;Gauss-like&amp;rdquo; method for the BVP, derivation of the time equation, relation to Gauss’ classical method, parameter and semimajor axis, universal form, and comparing the structure of Gauss’ method and the new method.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Optimum Orbital Transfer</title>
+      <link>/resources/lec_07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_07/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on optimum orbital transfer, velocity requirements for orbital transfer, optimum single-impulse transfer, the optimality condition, optimum single-impulse transfer from a circular orbit, solving the general optimization problem by successive substitutions, Earth-to-Mars departure velocity for orbital transfer, and minimum departure velocity for orbital transfer from Earth to the planets.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Patched Conics and Planetary Flybys</title>
+      <link>/resources/lec_12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_12/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on patched conics and planetary flybys, terminology, close pass of a target planet, the rotation matrix and the rotation of a vector, and two round-trip orbits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Powered Flight Guidance</title>
+      <link>/resources/lec_20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_20/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on powered flight guidance, powered flight maneuver equations, a constant gravity field example, vehicle orientation prior to cross-product steering, hyperbolic injection guidance, and circular orbit insertion guidance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Powered Flight Guidance to Maximize Final Energy</title>
+      <link>/resources/lec_32/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_32/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on powered flight guidance to maximize final energy, a Lagrange multipliers example, thrust vector attitude control to maximize total energy, and iterated guidance mode.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Preliminary Orbit Determination Using Taylor Series</title>
+      <link>/resources/lec_18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_18/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on preliminary orbit determination using Taylor series, approximate solution of the BVP using Taylor’s series, another method of Gibbs using Taylor series, Étienne Bézout’s theorem, Laplace’s method, and Lagrange’s interpolation formulas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Runge-Kutta Method of Numerical Integration</title>
+      <link>/resources/lec_33/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_33/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the Runge-Kutta method of numerical integration, Taylor series expansion, formal derivation of the second-order method, Taylor expansion using indicial notation and summation convention, Taylor expansion of a vector function of a vector, Nyström&amp;rsquo;s third order method, series expansion using indicial notation, series expansion using vector notation, condition equations, Nyström&amp;rsquo;s third order algorithm, Nyström&amp;rsquo;s fourth order algorithm, Nyström&amp;rsquo;s fifth order algorithm, and R-K-N sixth order algorithm.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Space Navigation: The Position Fix</title>
+      <link>/resources/lec_21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_21/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on space navigation, the line of position, the position fix, determining the measurement geometry vector, measuring the angle between a near object and a star, measuring the angle between two near objects, the measurement geometry matrix, Gauss’ method of least squares, solution of least squares problem, application of Gauss’ method of least squares to space navigation, and the information matrix.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Battin-Vaughan algorithm for the BVP</title>
+      <link>/resources/lec_17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_17/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the Battin-Baughan algorithm for the BVP, developing the algorithm , graphics of a successive substitution algorithm, and improving the convergence of the new algorithm.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Calculus of Variations and Lunar Landing Guidance</title>
+      <link>/resources/lec_31/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_31/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the brachistochrone problem, deriving Euler’s equation, a special case of Euler’s equation, solution of the brachistochrone problem, terminal state vector control, and lunar-landing guidance for Apollo missions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Clohessy-Wiltshire Equations of Relative Motion</title>
+      <link>/resources/lec_26/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_26/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the Clohessy-Wiltshire equations of relative motion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Covariance, Information and Estimator Matrices</title>
+      <link>/resources/lec_22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_22/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the covariance matrix, a matrix identity (the magic lemma), inverting the information matrix using the magic lemma, the square root of the P matrix, properties of the estimator, recursive form of the estimator, and triangular square roots.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Disturbing Function and Legendre Polynomials</title>
+      <link>/resources/lec_29/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_29/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the disturbing function, generating function for Legendre polynomials, the disturbing function and its gradient, properties of Legendre polynomials, and Laplace’s sphere of inﬂuence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Fundamental Ellipse of the BVP</title>
+      <link>/resources/lec_15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_15/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the fundamental ellipse of the BVP, orbital elements of the fundamental (minimum eccentricity) ellipse, locus of mean points, the line segment FS, eccentric anomaly of the mean-point, mean-point radius of the parabolic orbit, and mean-point radius of elliptic and hyperbolic orbits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Initial-Value Problem</title>
+      <link>/resources/lec_04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_04/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the initial-value problem, polar coordinates and orbital plane coordinates, representation in the hodograph plane, flight-direction angle, Lagrange coeﬃcients in terms of the true anomaly diﬀerence, Lagrange coeﬃcients in terms of the eccentric anomaly diﬀerence, Lagrangian coeﬃcients for parabolic orbits, solving the generalized form of Barker’s equation, and construction of a parabola and its tangents.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Orbital Boundary-Value Problem</title>
+      <link>/resources/lec_06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_06/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the orbital boundary-value problem, using the Lagrange coeﬃcients for the boundary-value problem, terminal velocity components along skewed axes, properties of skewed-axes velocity components, Euler’s equation of the hyperbola in asymptotic coordinates, Euler’s tangent to the hyperbola, hyperbolic locus of velocity vectors for the boundary-value problem, application to flight-path angle control.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Restricted Problem of Three Bodies</title>
+      <link>/resources/lec_25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_25/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the restricted problem of three bodies, Jacobi’s equations, Jacobi’s integral, surfaces of zero relative velocity, and rectilinear oscillation of an inﬁnitesimal mass.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The State Transition Matrix</title>
+      <link>/resources/lec_19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_19/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the state transition matrix, linearization of the equations of motion, symplectic matrices, fundamental perturbation matrices, diﬀerential equations, and midcourse orbit corrections.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Two Body Problem</title>
+      <link>/resources/lec_01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_01/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on Newton&amp;rsquo;s two-body equations of motion, conservation of total linear momentum, two-body equation of relative motion, vector notation, Kepler’s second law, eccentricity vector, Kepler’s first law, Kepler’s third law, units for numerical calculations, Josiah Eillard Gibbs (1839-1908), and Gibb’s method of orbit determination.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Two Body Problem Continued</title>
+      <link>/resources/lec_02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_02/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the two body problem, the explicit form of the velocity vector, conservation of energy, conic sections, alternate forms of the equation of orbit, and basic two-body relations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transformation of the Boundary-Value Problem</title>
+      <link>/resources/lec_10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_10/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on transformation of the boundary-value problem, Lambert’s theorem, and transformation of the four basic ellipses.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Variation of Parameters</title>
+      <link>/resources/lec_27/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec_27/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on Lagrange’s variational methods for linear equations, derivation of the variational equations, variation of the classical elements, Gauss’ form of Lagrange’s variational equations in polar coordinates, and Gauss’ form of the variational equations in tangential-normal coordinates.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

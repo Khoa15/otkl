@@ -1,0 +1,24 @@
+{
+  "content": "<p>New image Upload</p>\n",
+  "content_type": "resource",
+  "description": "New image Upload",
+  "draft": false,
+  "file": "/courses/2-092-finite-element-analysis-of-solids-and-fluids-i-fall-2009/281f2527ef0df6dee1198649edda18a2_2-092f09-th.jpg",
+  "file_size": 6284,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "A model of blood flow through the aortic valve, solved with ADINA, the finite element program used in this course. (Image by Prof. K. J. Bathe.)",
+    "credit": "",
+    "image-alt": "Colored model of fluid flow through the aortic valve."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "2-092f09-th.jpg",
+  "uid": "281f2527-ef0d-f6de-e119-8649edda18a2",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

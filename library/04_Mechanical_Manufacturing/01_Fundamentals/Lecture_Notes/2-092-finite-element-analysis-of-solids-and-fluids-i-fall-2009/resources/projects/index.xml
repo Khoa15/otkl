@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on MIT OpenCourseWare</title>
+    <link>/resources/projects/</link>
+    <description>Recent content in Projects on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MIT2_092F09_project1.pdf</title>
+      <link>/resources/mit2_092f09_project1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_092f09_project1/data.json</guid>
+      <description>&lt;p&gt;New file Upload&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>/pages/projects/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/projects/data.json</guid>
+      <description>&lt;h3 id=&#34;term-project--graduate-students-only&#34;&gt;Term Project – Graduate Students Only&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Every graduate student taking 2.093 is required to complete a term project; undergraduates taking 2.092 are not required to complete a project. Hence, the only difference between taking 2.093 (graduate students) and 2.092 (undergraduate students) is this requirement regarding the project.&lt;/p&gt;&#xA;&lt;p&gt;Some suggested projects:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Choose any problem you can think of and are interested in analyzing regarding solids, fluids, heat transfer, seepage, etc. It is your choice.&lt;/li&gt;&#xA;&lt;li&gt;Look through the ADINA Primer (click on Help in the AUI to get to the Primer) to see whether you find a problem of your interest. Rerun and modify the problem. Experiment with the finite element methods.&lt;/li&gt;&#xA;&lt;li&gt;Choose a problem related to your research.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Please choose a (tractable) problem that you can analyze in depth in the very limited time available. The project work is typically started at the beginning of October and involves the following steps:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

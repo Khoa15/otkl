@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>Homework assignment on calculating the effective resistance of a network of resistors with MATLAB.</p>\n",
+  "content_type": "resource",
+  "description": "Homework assignment on calculating the effective resistance of a network of resistors with MATLAB.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/a3e432bb9932cf4b8a9b76a4b919428b_matlab2.pdf",
+  "file_size": 163833,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Readings"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Study Materials",
+  "parent_type": "CourseSection",
+  "parent_uid": "df610098-8ebd-ba68-b43f-7d3a6f71d7c5",
+  "resourcetype": "Document",
+  "title": "MATLAB Homework 2",
+  "uid": "a3e432bb-9932-cf4b-8a9b-76a4b919428b",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

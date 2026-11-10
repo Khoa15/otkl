@@ -1,0 +1,20 @@
+
+{
+  "content": "<p>« <a href=\"../../../pages/ax-b-and-the-four-subspaces/the-geometry-of-linear-equations/index.html\">Previous</a> | <a href=\"../../../pages/ax-b-and-the-four-subspaces/elimination-with-matrices/index.html\">Next</a> »</p>\n\n    <h3 id=\"session-overview\">Session Overview</h3>\n\n<p><table>\n\n<tr>\n\n<td>\n\n<img src=\"../../../static_resources/b892f70d4090a99facba125fc44c78d6_1_13.jpg\" alt=\"Figure excerpted from ‘Introduction to Linear Algebra’ by G.S. Strang\" loading=\"lazy\" decoding=\"async\" />\n</td>\n\n<td>\n</p>\n<p>Professor Strang recommends this video from his Computational Science and Engineering I course (<a href=\"https://ocw.mit.edu/courses/18-085-computational-science-and-engineering-i-fall-2008\" target=\"_blank\" rel=\"noopener\">18.085</a>) as an overview of the basics of linear algebra.</p>\n</td>\n\n</tr>\n\n</table>\n\n\n    <h3 id=\"session-activities\">Session Activities</h3>\n\n\n    <h4 id=\"lecture-video-and-summary\">Lecture Video and Summary</h4>\n\n<ul>\n<li>Watch the video lecture <a href=\"../../../resources/an-overview-of-linear-algebra/index.html\">An Overview of Linear Algebra</a></li>\n<li>Read the accompanying <a href=\"../../../resources/mit18_06scf11_ses1-13sum/index.html\">lecture summary (PDF)</a></li>\n<li><a href=\"../../../resources/0objn8f616u-1/index.html\">Lecture video transcript (PDF)</a></li>\n</ul>\n\n    <h4 id=\"suggested-reading\">Suggested Reading</h4>\n\n<ul>\n<li>Read Section 1.3 in the 4<sup>th</sup> or 5<sup>th</sup> edition.</li>\n</ul>\n\n    <h4 id=\"problem-solving-video\">Problem Solving Video</h4>\n\n<ul>\n<li>Watch the recitation video on <a href=\"../../../resources/an-overview-of-key-ideas/index.html\">An Overview of Key Ideas</a></li>\n<li><a href=\"../../../resources/ozxzhcw663g-1/index.html\">Recitation video transcript (PDF)</a></li>\n</ul>\n<p>« <a href=\"../../../pages/ax-b-and-the-four-subspaces/the-geometry-of-linear-equations/index.html\">Previous</a> | <a href=\"../../../pages/ax-b-and-the-four-subspaces/elimination-with-matrices/index.html\">Next</a> »</p>\n",
+  "content_type": "page",
+  "description": "This section provides a lesson on key ideas of linear algebra.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "parent_title": "Unit I: Ax = b and the Four Subspaces",
+  "parent_type": "CourseSection",
+  "parent_uid": "34303ce1-9b45-7241-22d2-bd33d64df688",
+  "title": "An Overview of Key Ideas",
+  "uid": "ff755187-ef48-26e2-abaf-b9c76026cfdb",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

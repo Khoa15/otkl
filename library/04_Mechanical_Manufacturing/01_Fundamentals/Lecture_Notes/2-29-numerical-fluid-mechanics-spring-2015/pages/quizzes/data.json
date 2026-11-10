@@ -1,0 +1,22 @@
+
+{
+  "content": "<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nQUIZZES\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n</p>\n<p><a href=\"../../resources/mit2_29s15_quiz1/index.html\">Quiz 1 (PDF)</a></p>\n<p><a href=\"../../resources/mit2_29s15_quiz1_eqn_sheet/index.html\">Equation Sheet for Quiz 1 (PDF)</a></p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n</p>\n<p><a href=\"../../resources/mit2_29s15_quiz2/index.html\">Quiz 2 (PDF)</a></p>\n<p><a href=\"../../resources/mit2_29s15_quiz2_eqn_sheet/index.html\">Equation Sheet for Quiz 2 (PDF)</a></p>\n</td>\n\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section provides the course quizzes and associated equation sheets.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Quizzes",
+  "uid": "7225224f-ff13-7792-e5c9-47a7099233b2",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

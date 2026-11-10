@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Topics covered:</strong> Stochastic gradient descent 2</p>\n<p><strong>Instructors:</strong> John W. Roberts</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "181583572",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Video Lectures",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Lecture 18: Stochastic Gradient Descent 2",
+  "uid": "4479a1ea-140c-241e-6ee6-832cfc658175",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec18_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/6-832-underactuated-robotics-spring-2009/2ad919328e5157d3b089bfd2de4a51e4_EqAYRo4wXxY.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/EqAYRo4wXxY/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/6-832-underactuated-robotics-spring-2009/94460df3270bde0ba933da607ede781e_EqAYRo4wXxY.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+    "youtube_id": "EqAYRo4wXxY"
+  }
+}

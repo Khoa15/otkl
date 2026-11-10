@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;p&gt;This textbook is recommended for the course:&lt;br&gt;&#xA;Zvelebil, Marketa J., and Jeremy O. Baum. &lt;em&gt;Understanding Bioinformatics&lt;/em&gt;. Garland Science, 2007. ISBN: 9780815340249. [Preview with &lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;http://books.google.com/books?id=dGayL_tdnBMC&amp;amp;printsec=frontcover&#34;  aria-label=&#34;Google books (opens in a new tab)&#34;  &gt;Google books&lt;/a&gt;]&lt;/p&gt;&#xA;&lt;p&gt;The instructors have also selected various texts as particularly useful in specific areas, if you are looking for more information. See the &lt;a href=&#34;../../pages/syllabus/index.html#textbook&#34;&gt;textbook section on the syllabus&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LEC #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;READINGS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Course Introduction; Overview&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;No readings for this lecture.&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

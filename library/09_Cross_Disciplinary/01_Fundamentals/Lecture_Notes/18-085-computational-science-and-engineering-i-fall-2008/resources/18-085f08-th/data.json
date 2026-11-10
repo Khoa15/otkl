@@ -1,0 +1,27 @@
+{
+  "content": "<p>This image comes from &ldquo;A Simple Mesh Generator in MATLAB&rdquo; submitted to SIAM Review. The mesh was created using the truss model in Section 2.4 of the text; color shows distance to the boundary. (Image courtesy of Per-Olof Persson.)</p>\n",
+  "content_type": "resource",
+  "description": "This image comes from \"A Simple Mesh Generator in MATLAB\" submitted to SIAM Review. The mesh was created using the truss model in Section 2.4 of the text; color shows distance to the boundary. (Image courtesy of Per-Olof Persson.)",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/fab03e60681d9e5899805436acd40fd5_18-085f08-th.jpg",
+  "file_size": 23753,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "This image comes from \"A Simple Mesh Generator in MATLAB\" submitted to SIAM Review. The mesh was created using the truss model in Section 2.4 of the text; color shows distance to the boundary. (Image courtesy of {{% resource_link \"e9f2c2dc-a1e2-470c-9a4c-febf47c57df6\" \"Per-Olof Persson\" %}}.)",
+    "credit": "",
+    "image-alt": "A Simple Mesh Generator in MATLAB."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "A Simple Mesh Generator in MATLAB",
+  "uid": "fab03e60-681d-9e58-9980-5436acd40fd5",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

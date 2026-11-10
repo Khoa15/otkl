@@ -1,0 +1,14 @@
+
+{
+  "content": "<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nUNIT #\n</th>\n\n<th>\n\nTOPICS\n</th>\n\n<th>\n\nKEY DATES\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n</p>\n<p>1</p>\n<p></td>\n\n<td>\n</p>\n<p>Introduction</p>\n<p></td>\n\n<td>\n</p>\n<p>Lab 1 out</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n</p>\n<p>2</p>\n<p></td>\n\n<td>\n</p>\n<p>3D Geometry</p>\n<p></td>\n\n<td>\n</p>\n<p>Lab 1 due</p>\n<p>Lab 2 out</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n</p>\n<p>3</p>\n<p></td>\n\n<td>\n</p>\n<p>Geometric Control</p>\n<p></td>\n\n<td>\n</p>\n<p>Lab 2 due</p>\n<p>Lab 3 out</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n</p>\n<p>4</p>\n<p></td>\n\n<td>\n</p>\n<p>Trajectory Optimization</p>\n<p></td>\n\n<td>\n</p>\n<p>Lab 3 due</p>\n<p>Lab 4 out</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n</p>\n<p>5</p>\n<p></td>\n\n<td>\n</p>\n<p>2D Computer Vision</p>\n<p></td>\n\n<td>\n</p>\n<p>Lab 4 due</p>\n<p>Lab 5 out</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n</p>\n<p>6</p>\n<p></td>\n\n<td>\n</p>\n<p>2-view Geometry and Minimal Solvers</p>\n<p></td>\n\n<td>\n</p>\n<p>Lab 5 due</p>\n<p>Lab 6 out</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n</p>\n<p>7</p>\n<p></td>\n\n<td>\n</p>\n<p>Non-minimal Solvers and Visual Odometry</p>\n<p></td>\n\n<td>\n</p>\n<p>Lab 6 due</p>\n<p>Lab 7 out</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n</p>\n<p>8</p>\n<p></td>\n\n<td>\n</p>\n<p>Place Recognition</p>\n<p></td>\n\n<td>\n</p>\n<p>Lab 7 due</p>\n<p>Lab 8 out</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n</p>\n<p>9</p>\n<p></td>\n\n<td>\n</p>\n<p>SLAM and Visual-Inertial Navigation</p>\n<p></td>\n\n<td>\n</p>\n<p>Lab 8 due</p>\n<p>Lab 9 out</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n</p>\n<p>10</p>\n<p></td>\n\n<td>\n</p>\n<p>Advanced Topics: Open Problems in Robot Perception</p>\n<p></td>\n\n<td>\n</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n</p>\n<p>11</p>\n<p></td>\n\n<td>\n</p>\n<p>Advanced Topics: Metric-Semantic Understanding</p>\n<p></td>\n\n<td>\n</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n</p>\n<p>12</p>\n<p></td>\n\n<td>\n</p>\n<p>Advanced Topics: Robustness</p>\n<p></td>\n\n<td>\n</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n</p>\n<p>13</p>\n<p></td>\n\n<td>\n</p>\n<p>Guest Lectures and Student Presentations</p>\n<p></td>\n\n<td>\n</p>\n</td>\n\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section provides the class schedule of the MIT course 16.485 Visual Navigation for Autonomous Vehicles (VNAV), Fall 2020.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Calendar",
+  "uid": "82cbb357-deab-ff02-b193-e8aaa9f613a4"
+}
+

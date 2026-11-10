@@ -1,0 +1,34 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/f706f42aa66f04bd16c7e58f1672cb50_884c52175f0f_MIT_18.06SC_7ebf60274ee36570-_79cb_2011.pdf",
+  "file_size": 184467,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "resourcetype": "Document",
+  "title": "行列式_MIT_18.06SC_线性代数,_秋_2011.pdf",
+  "uid": "f706f42a-a66f-04bd-16c7-e58f1672cb50",
+  "video_files": {
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

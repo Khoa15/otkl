@@ -1,0 +1,180 @@
+{
+  "course_description": "This class assesses current and potential future energy systems, covering resources, extraction, conversion, and end-use technologies, with emphasis on meeting regional and global energy needs in the 21st century in a sustainable manner. Instructors and guest lecturers will examine various renewable and conventional energy production technologies, energy end-use practices and alternatives, and consumption practices in different countries. Students will learn a quantitative framework to aid in evaluation and analysis of energy technology system proposals in the context of engineering, political, social, economic, and environmental goals. Students taking the graduate version, _Sustainable Energy_, complete additional assignments.\n",
+  "course_description_html": "This class assesses current and potential future energy systems, covering resources, extraction, conversion, and end-use technologies, with emphasis on meeting regional and global energy needs in the 21st century in a sustainable manner. Instructors and guest lecturers will examine various renewable and conventional energy production technologies, energy end-use practices and alternatives, and consumption practices in different countries. Students will learn a quantitative framework to aid in evaluation and analysis of energy technology system proposals in the context of engineering, political, social, economic, and environmental goals. Students taking the graduate version, <em>Sustainable Energy</em>, complete additional assignments.",
+  "course_image": {
+    "content": "61602f1b-9bd6-8d30-1f9f-be3893c266d9",
+    "website": "22-081j-introduction-to-sustainable-energy-fall-2010"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "",
+    "draft": false,
+    "file": "/courses/22-081j-introduction-to-sustainable-energy-fall-2010/61602f1b9bd68d301f9fbe3893c266d9_22-081jf10.jpg",
+    "file_size": 53059,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "Meeting energy needs in a sustainable manner is a global challenge. (Image by {{% resource_link \"4d829d22-c326-4c84-ad85-38e2dffd306f\" \"kuba\" %}} at the Open Clip Art Library.)",
+      "credit": "",
+      "image-alt": "Earth encompassed by recycling symbol."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "22-081jf10.jpg",
+    "uid": "61602f1b-9bd6-8d30-1f9f-be3893c266d9"
+  },
+  "course_image_thumbnail": {
+    "content": "11f02846-93e2-7324-c138-84323a27aa86",
+    "website": "22-081j-introduction-to-sustainable-energy-fall-2010"
+  },
+  "course_title": "Introduction to Sustainable Energy",
+  "department_numbers": [
+    "22",
+    "2",
+    "10",
+    "1",
+    "11",
+    "ESD"
+  ],
+  "extra_course_numbers": "2.650J,10.291J,1.818J,2.65J,10.391J,11.371J,22.811J,ESD.166J",
+  "image_src": "./static_resources/61602f1b9bd68d301f9fbe3893c266d9_22-081jf10.jpg",
+  "instructors": [
+    {
+      "first_name": "Michael",
+      "last_name": "Golay",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Michael Golay",
+      "uid": "7abd00c7-2704-56fd-b185-9147e917f247",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Michael+Golay"
+    },
+    {
+      "first_name": "Randall",
+      "last_name": "Field",
+      "middle_initial": "",
+      "salutation": "",
+      "title": "Randall Field",
+      "uid": "64b90359-aa53-343b-2371-51c6d519187d",
+      "url": "https://ocw.mit.edu/search/?q=Randall+Field"
+    },
+    {
+      "first_name": "William",
+      "last_name": "Green",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. William Green, Jr.",
+      "uid": "36e243f7-b18e-3ba2-e797-2f1448d8643c",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+William+Green%2C+Jr."
+    },
+    {
+      "first_name": "John",
+      "last_name": "Wright",
+      "middle_initial": "C.",
+      "salutation": "Dr.",
+      "title": "Dr. John C. Wright",
+      "uid": "df48c4cc-0982-bf8e-2b98-5a3e2b63abce",
+      "url": "https://ocw.mit.edu/search/?q=Dr.+John+C.+Wright"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Notes",
+    "Written Assignments",
+    "Problem Sets"
+  ],
+  "legacy_uid": "8ed4cc2d-88a3-2da6-faae-9ceb7cb79221",
+  "level": [
+    "Undergraduate",
+    "Graduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Energy, Climate & Sustainability",
+      "Adaptation and Resilience"
+    ],
+    [
+      "Energy, Climate & Sustainability",
+      "Built Environment"
+    ],
+    [
+      "Energy, Climate & Sustainability",
+      "Climate Science"
+    ],
+    [
+      "Energy, Climate & Sustainability",
+      "Climate and Energy Policy"
+    ],
+    [
+      "Data Science, Analytics & Computer Technology"
+    ],
+    [
+      "Science & Math",
+      "Earth Science"
+    ],
+    [
+      "Engineering",
+      "Electrical Engineering"
+    ],
+    [
+      "Energy, Climate & Sustainability",
+      "Energy"
+    ],
+    [
+      "Social Sciences",
+      "Policy and Administration"
+    ]
+  ],
+  "primary_course_number": "22.081J",
+  "site_short_id": "22.081j-fall-2010",
+  "site_uid": "a39b5314-acb2-47cc-a0ea-3ad2ea421afd",
+  "site_url_path": "courses/22-081j-introduction-to-sustainable-energy-fall-2010",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Energy",
+      "Combustion"
+    ],
+    [
+      "Energy",
+      "Electricity"
+    ],
+    [
+      "Energy",
+      "Fossil Fuels"
+    ],
+    [
+      "Energy",
+      "Nuclear Energy"
+    ],
+    [
+      "Energy",
+      "Renewables"
+    ],
+    [
+      "Energy",
+      "Transportation"
+    ],
+    [
+      "Energy",
+      "Technology"
+    ],
+    [
+      "Science",
+      "Earth Science",
+      "Sustainability"
+    ],
+    [
+      "Social Science",
+      "Public Administration",
+      "Science and Technology Policy"
+    ],
+    [
+      "Engineering",
+      "Electrical Engineering",
+      "Electric Power"
+    ]
+  ],
+  "year": "2010"
+}

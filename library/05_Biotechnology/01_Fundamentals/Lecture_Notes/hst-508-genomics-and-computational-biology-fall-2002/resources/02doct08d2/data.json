@@ -1,0 +1,41 @@
+{
+  "content": "<p>DNA 2: Dynamic Programming, Blast, Multi-alignment, Hidden Markov Models</p>\n",
+  "content_type": "resource",
+  "description": "DNA 2: Dynamic Programming, Blast, Multi-alignment, Hidden Markov Models",
+  "draft": false,
+  "file": "/courses/hst-508-genomics-and-computational-biology-fall-2002/02doct08d2.pdf",
+  "file_size": 476172,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lectures: Audio and Slides",
+  "parent_type": "CourseSection",
+  "parent_uid": "c970ffda-00d6-3214-7442-de7026e2584e",
+  "resourcetype": "Document",
+  "title": "Lecture Slides: DNA 2",
+  "uid": "b16c3442-176e-50df-2717-0fc59ea59591",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

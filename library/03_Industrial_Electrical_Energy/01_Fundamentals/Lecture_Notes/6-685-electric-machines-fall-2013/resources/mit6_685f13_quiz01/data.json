@@ -1,0 +1,21 @@
+{
+  "content": "<p>This file contains information regarding quiz 1.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains information regarding quiz 1.",
+  "draft": false,
+  "file": "/courses/6-685-electric-machines-fall-2013/aa3b1a1deab7cb009537533eafb161a5_MIT6_685F13_quiz01.pdf",
+  "file_size": 94473,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Exams",
+  "parent_type": "CourseSection",
+  "parent_uid": "cb43f394-88f7-22fc-3c65-612ee72731f0",
+  "resourcetype": "Document",
+  "title": "6.685 Electric Machines, Quiz 1",
+  "uid": "aa3b1a1d-eab7-cb00-9537-533eafb161a5"
+}

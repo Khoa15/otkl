@@ -1,0 +1,16 @@
+
+{
+  "content": "\n    <h3 id=\"textbooks\">Textbooks</h3>\n\n<p>The course has no official textbook. However, students may find the following books helpful:</p>\n<p>Nielsen, Michael, and Issac Chuang. <em>Quantum Computation and Quantum Information</em>. Cambridge University Press, 2011. ISBN: 9781107002173.</p>\n<p>Mermin, David. <em>Quantum Computer Science: An Introduction</em>. Cambridge University Press, 2007. ISBN: 9780521876582.</p>\n<p>Arora, Sanjeev, and Boaz Barak. <a   class=\"external-link \"   target=\"_blank\"   href=\"http://www.cs.princeton.edu/theory/complexity/\"  aria-label=\"Computational Complexity: A Modern Approach (opens in a new tab)\"  ><em>Computational Complexity: A Modern Approach</em></a>. Cambridge University Press, 2009. ISBN: 9780521424264.</p>\n<p>Sipser, Michael. <em>Introduction to the Theory of Computation</em>. 2nd ed. Course Technology, 2005. ISBN: 9780534950972.</p>\n\n    <h3 id=\"papers\">Papers</h3>\n\n<p>These papers were not assigned, but may be of interest:</p>\n<p>Watrous, John. &ldquo;<a   class=\"external-link \"   target=\"_blank\"   href=\"http://arxiv.org/abs/0804.3401\"  aria-label=\"Quantum Computational Complexity (opens in a new tab)\"  >Quantum Computational Complexity</a>.&rdquo;</p>\n<p>Bernstein, Ethan, and Umesh Vazirani. &ldquo;Quantum Complexity Theory.&rdquo; <em>SIAM Journal on Computing</em> 26 (1997): 1411-1473.</p>\n<p>Bennett, Charles, Ethan Bernstein, Gilles Brassard, and Umesh Vazirani. &ldquo;Strengths and Weaknesses of Quantum Computing.&rdquo; <em>SIAM Journal on Computing</em> 26 (1997): 1510-1523.</p>\n<p>Beals, Robert, et al. &ldquo;<a   class=\"external-link \"   target=\"_blank\"   href=\"http://arxiv.org/abs/quant-ph/9802049\"  aria-label=\"Quantum Lower Bounds by Polynomials (opens in a new tab)\"  >Quantum Lower Bounds by Polynomials</a>.&rdquo;</p>\n<p>Ambainis, Andris. &ldquo;<a   class=\"external-link \"   target=\"_blank\"   href=\"http://arxiv.org/abs/quant-ph/0002066\"  aria-label=\"Quantum Lower Bounds by Quantum Arguments (opens in a new tab)\"  >Quantum Lower Bounds by Quantum Arguments</a>.&rdquo;</p>\n<p>Watrous, John. &ldquo;<a   class=\"external-link \"   target=\"_blank\"   href=\"http://arxiv.org/abs/cs/0009002\"  aria-label=\"Succinct Quantum Proofs for Properties of Finite Groups (opens in a new tab)\"  >Succinct Quantum Proofs for Properties of Finite Groups</a>.&rdquo;</p>\n<p>Kitaev, Alexei, and John Watrous. &ldquo;Parallelization, Amplification, and Exponential Time Simulation of Quantum Interactive Proof Systems.&rdquo; <em>Proceedings of the 32nd ACM Symposium on Theory of Computing</em> (2000): 608-617.</p>\n",
+  "content_type": "page",
+  "description": "This section provides a list of useful textbooks and journal articles on quantum complexity theory.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Readings"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Readings",
+  "uid": "cb96a782-20e0-5c95-851c-accf5fd323d3"
+}
+

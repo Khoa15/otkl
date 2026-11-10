@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains information related to more quantum query complexity.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information related to more quantum query complexity.",
+  "draft": false,
+  "file": "/courses/6-845-quantum-complexity-theory-fall-2010/e184ebc92625eef1bc12aed4875f4e01_MIT6_845F10_lec11.pdf",
+  "file_size": 155484,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "0ae74169-1168-dcc5-4644-05254b3e4264",
+  "resourcetype": "Document",
+  "title": "MIT6_845F10_lec11.pdf",
+  "uid": "e184ebc9-2625-eef1-bc12-aed4875f4e01"
+}

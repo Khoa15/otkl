@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>lec18b_wuensch.pdf</title>
+      <link>/resources/lec18b_wuensch/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec18b_wuensch/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;p&gt;Many assigned readings are from the course textbooks:&lt;/p&gt;&#xA;&lt;p&gt;E&amp;amp;R: Engel, T., and P. Reid. &lt;em&gt;Physical Chemistry&lt;/em&gt;. San Francisco, CA: Benjamin Cummings, 2005. ISBN: 9780805338423. [Note: this is the single-volume edition.]&lt;/p&gt;&#xA;&lt;p&gt;A&amp;amp;T: Allen, S. M., and E. L. Thomas. &lt;em&gt;The Structure of Materials&lt;/em&gt;. New York, NY: J. Wiley &amp;amp; Sons, 1999. ISBN: 9780471000822.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA; &#xA;&lt;/th&gt;&#xA;&#xA;&lt;th colspan=&#34;2&#34;&gt;&#xA;&#xA;Structure and Bonding&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th colspan=&#34;2&#34;&gt;&#xA;&#xA;Thermodynamics&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Ses #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Topics&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Readings&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Topics&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Readings&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td colspan=&#34;5&#34;&gt;&#xA;&#xA;Orientation: Research and Careers in Materials Science and Engineering&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

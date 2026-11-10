@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Recitation handout on compensation.</p>\n",
+  "content_type": "resource",
+  "description": "Recitation handout on compensation.",
+  "draft": false,
+  "file": "/courses/6-302-feedback-systems-spring-2007/c36707c05a852dc6a8315da202a1d20d_6_302rec16.pdf",
+  "file_size": 82301,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem-solving Notes"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Recitations",
+  "parent_type": "CourseSection",
+  "parent_uid": "5667c63a-09ff-e158-1e89-d49a0035050d",
+  "resourcetype": "Document",
+  "title": "6_302rec16.pdf",
+  "uid": "c36707c0-5a85-2dc6-a831-5da202a1d20d",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

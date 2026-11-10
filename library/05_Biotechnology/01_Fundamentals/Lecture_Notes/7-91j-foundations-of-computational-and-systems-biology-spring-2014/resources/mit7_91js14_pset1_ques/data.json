@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This file contains the information regarding questions-sequence search, global alignment, BLAST statistics.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains the information regarding questions-sequence search, global alignment, BLAST statistics.",
+  "draft": false,
+  "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/79d76bd65651d30b985ff0e0a26fd139_MIT7_91JS14_Pset1_Ques.pdf",
+  "file_size": 220010,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "215564a7-c7bc-a140-74c5-d9096008982b",
+  "resourcetype": "Document",
+  "title": "Problem Set 1: Questions-Sequence search, global alignment, BLAST statistics",
+  "uid": "79d76bd6-5651-d30b-985f-f0e0a26fd139",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "7-91j-foundations-of-computational-and-systems-biology-spring-2014"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "7-91j-foundations-of-computational-and-systems-biology-spring-2014"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

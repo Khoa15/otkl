@@ -1,0 +1,27 @@
+{
+  "content": "<p>Handwritten lecture notes on switching losses and snubbers, simple RCD turn-off snubbers, and simple RCD turn-on snubbers.</p>\n",
+  "content_type": "resource",
+  "description": "Handwritten lecture notes on switching losses and snubbers, simple RCD turn-off snubbers, and simple RCD turn-on snubbers.",
+  "draft": false,
+  "file": "/courses/6-334-power-electronics-spring-2007/28ee2445366fd5a97fef39876df4efd1_ch11.pdf",
+  "file_size": 876717,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "bac52feb-fdf3-e0d1-4e31-ee4c7c5e3445",
+  "resourcetype": "Document",
+  "title": "ch11.pdf",
+  "uid": "28ee2445-366f-d5a9-7fef-39876df4efd1",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

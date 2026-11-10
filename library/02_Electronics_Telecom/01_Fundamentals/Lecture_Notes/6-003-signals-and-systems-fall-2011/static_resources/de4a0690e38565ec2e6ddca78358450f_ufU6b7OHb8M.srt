@@ -1,0 +1,4074 @@
+1
+00:00:00,090 --> 00:00:02,490
+The following content is
+provided under a Creative
+
+2
+00:00:02,490 --> 00:00:04,030
+Commons license.
+
+3
+00:00:04,030 --> 00:00:06,330
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:06,330 --> 00:00:10,720
+continue to offer high-quality
+educational resources for free.
+
+5
+00:00:10,720 --> 00:00:13,320
+To make a donation, or
+view additional materials
+
+6
+00:00:13,320 --> 00:00:17,280
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:17,280 --> 00:00:18,450
+at ocw.mit.edu.
+
+8
+00:00:21,844 --> 00:00:23,260
+DENNIS FREEMAN:
+Hello and welcome.
+
+9
+00:00:28,110 --> 00:00:30,627
+Today, we're starting the
+second half of the class.
+
+10
+00:00:30,627 --> 00:00:32,210
+In the second half
+of the class, we'll
+
+11
+00:00:32,210 --> 00:00:35,330
+focus on methods that
+will generally be
+
+12
+00:00:35,330 --> 00:00:38,480
+described as Fourier methods.
+
+13
+00:00:38,480 --> 00:00:45,060
+And those methods revolve
+around thinking about signals
+
+14
+00:00:45,060 --> 00:00:47,719
+as being sums of sine waves.
+
+15
+00:00:47,719 --> 00:00:49,260
+So we've previously
+thought about how
+
+16
+00:00:49,260 --> 00:00:53,030
+you can think about a
+system by thinking about how
+
+17
+00:00:53,030 --> 00:00:54,690
+it responds to sine waves.
+
+18
+00:00:54,690 --> 00:00:57,630
+So this is closely related.
+
+19
+00:00:57,630 --> 00:01:01,130
+Now, instead of
+thinking about a system
+
+20
+00:01:01,130 --> 00:01:06,570
+by how it processes
+these sine waves.
+
+21
+00:01:06,570 --> 00:01:09,230
+Rather, we'll
+think about signals
+
+22
+00:01:09,230 --> 00:01:11,166
+as being composed of sine waves.
+
+23
+00:01:11,166 --> 00:01:12,290
+So that's sort of the idea.
+
+24
+00:01:12,290 --> 00:01:14,660
+And today, we'll do
+the very simplest kind
+
+25
+00:01:14,660 --> 00:01:18,380
+of representation, which
+is a Fourier series.
+
+26
+00:01:18,380 --> 00:01:21,320
+The importance of that's going
+to be our first encounter
+
+27
+00:01:21,320 --> 00:01:25,850
+with how you can think
+about complicated signals
+
+28
+00:01:25,850 --> 00:01:27,980
+as sums of sines and cosines.
+
+29
+00:01:27,980 --> 00:01:29,840
+But also, we'll get
+a new representation
+
+30
+00:01:29,840 --> 00:01:33,000
+for a system that
+will be generally
+
+31
+00:01:33,000 --> 00:01:35,430
+useful called a filter.
+
+32
+00:01:35,430 --> 00:01:37,140
+So that's the two
+agenda items for today.
+
+33
+00:01:37,140 --> 00:01:42,090
+Roughly, the first half
+is on the Fourier series
+
+34
+00:01:42,090 --> 00:01:44,370
+representations for a signal.
+
+35
+00:01:44,370 --> 00:01:47,460
+The second half is on
+thinking about systems
+
+36
+00:01:47,460 --> 00:01:51,540
+as filters, which is a direct
+consequence of the first.
+
+37
+00:01:51,540 --> 00:01:54,480
+So the first idea is
+just, why should we
+
+38
+00:01:54,480 --> 00:01:56,610
+even think that you
+can think about signals
+
+39
+00:01:56,610 --> 00:01:58,020
+in terms of sine waves?
+
+40
+00:01:58,020 --> 00:02:01,200
+Well, there's very
+simple examples of that.
+
+41
+00:02:01,200 --> 00:02:04,440
+Some signals are just very
+naturally described that way.
+
+42
+00:02:04,440 --> 00:02:08,699
+One class of those are the ones
+whose entire frequency content
+
+43
+00:02:08,699 --> 00:02:11,120
+are harmonics.
+
+44
+00:02:11,120 --> 00:02:15,180
+Just a bit of jargon, we'll
+think about harmonics of omega
+
+45
+00:02:15,180 --> 00:02:18,020
+0, harmonics of some frequency.
+
+46
+00:02:18,020 --> 00:02:21,110
+Say, 1 kilohertz.
+
+47
+00:02:21,110 --> 00:02:22,740
+Then we'll have
+the first harmonic.
+
+48
+00:02:22,740 --> 00:02:25,860
+That's another name
+for the fundamental.
+
+49
+00:02:25,860 --> 00:02:28,440
+That's 1 kilohertz, for example.
+
+50
+00:02:28,440 --> 00:02:30,810
+Second harmonic would
+be some component
+
+51
+00:02:30,810 --> 00:02:32,020
+at twice the frequency.
+
+52
+00:02:32,020 --> 00:02:33,790
+Third harmonic, three
+times the frequency.
+
+53
+00:02:33,790 --> 00:02:38,730
+0-th harmonic for
+the completely--
+
+54
+00:02:38,730 --> 00:02:40,890
+so for no good
+reason at all, we'll
+
+55
+00:02:40,890 --> 00:02:44,370
+call them 0-th
+harmonic the DC term,
+
+56
+00:02:44,370 --> 00:02:46,530
+meaning Direct Current,
+which is neither direct
+
+57
+00:02:46,530 --> 00:02:48,360
+nor has anything
+to do with current.
+
+58
+00:02:48,360 --> 00:02:51,910
+But we will use that jargon
+because everybody else does.
+
+59
+00:02:51,910 --> 00:02:54,250
+So that's just jargon.
+
+60
+00:02:54,250 --> 00:02:57,340
+What I want to think about
+though at a deeper level is,
+
+61
+00:02:57,340 --> 00:02:59,780
+what kinds of signals
+should we expect
+
+62
+00:02:59,780 --> 00:03:02,820
+have a good
+representation in terms
+
+63
+00:03:02,820 --> 00:03:04,770
+of sums of sines and cosines?
+
+64
+00:03:04,770 --> 00:03:09,060
+And one very easy kind of
+signal that you can think about
+
+65
+00:03:09,060 --> 00:03:13,450
+is signals that we associate
+with musical instruments.
+
+66
+00:03:13,450 --> 00:03:17,330
+So think about the sounds that
+these instruments generate.
+
+67
+00:03:17,330 --> 00:03:19,189
+And I'll play some audio.
+
+68
+00:03:19,189 --> 00:03:20,730
+And while I'm playing
+it, what you're
+
+69
+00:03:20,730 --> 00:03:22,354
+supposed to be doing
+is thinking about,
+
+70
+00:03:22,354 --> 00:03:26,700
+what's the cues that this
+sounds like a sum of harmonics?
+
+71
+00:03:26,700 --> 00:03:29,670
+[PLAYING NOTES]
+
+72
+00:03:49,500 --> 00:03:54,160
+So using the things that we'll
+go over today in lecture,
+
+73
+00:03:54,160 --> 00:03:56,410
+I can write a Python
+program, which
+
+74
+00:03:56,410 --> 00:04:01,500
+I did, to analyze
+each of those sounds
+
+75
+00:04:01,500 --> 00:04:04,050
+to expose its
+harmonic structure.
+
+76
+00:04:04,050 --> 00:04:05,400
+And here's the results.
+
+77
+00:04:05,400 --> 00:04:10,470
+So for k equals 0, DC1,
+the fundamental, 2,
+
+78
+00:04:10,470 --> 00:04:12,990
+the second harmonic, third
+harmonic, fourth harmonic.
+
+79
+00:04:12,990 --> 00:04:15,990
+The lengths of the bars
+represent the magnitudes,
+
+80
+00:04:15,990 --> 00:04:17,329
+how much energy--
+
+81
+00:04:17,329 --> 00:04:19,019
+well, roughly energy.
+
+82
+00:04:19,019 --> 00:04:21,750
+How much signal is
+present at those harmonic
+
+83
+00:04:21,750 --> 00:04:26,040
+frequencies as a function of
+harmonic number k for each
+
+84
+00:04:26,040 --> 00:04:27,900
+of the different instruments?
+
+85
+00:04:27,900 --> 00:04:33,580
+And just like the time wave
+forms have a signature,
+
+86
+00:04:33,580 --> 00:04:35,090
+there was a
+characteristic shape.
+
+87
+00:04:35,090 --> 00:04:38,590
+In fact, if I go on, here
+is the characteristic shape.
+
+88
+00:04:38,590 --> 00:04:43,000
+That's an actual wave form
+taken from the audio clip
+
+89
+00:04:43,000 --> 00:04:44,590
+that I played.
+
+90
+00:04:44,590 --> 00:04:46,750
+That's a clip from the piano.
+
+91
+00:04:46,750 --> 00:04:51,580
+This is a clip of the same
+time duration from the violin.
+
+92
+00:04:51,580 --> 00:04:55,810
+A clip of the same time
+duration from the bassoon.
+
+93
+00:04:55,810 --> 00:05:00,520
+And here are the
+harmonic structures
+
+94
+00:05:00,520 --> 00:05:02,380
+for those different sounds.
+
+95
+00:05:02,380 --> 00:05:05,290
+And you can see the harmonic
+structures look very different.
+
+96
+00:05:05,290 --> 00:05:08,800
+So not much DC.
+
+97
+00:05:08,800 --> 00:05:13,920
+A fair amount of
+fundamental, a lot of second.
+
+98
+00:05:13,920 --> 00:05:18,290
+A lot of fundamental,
+not too much second.
+
+99
+00:05:18,290 --> 00:05:19,970
+Not much fundamental.
+
+100
+00:05:19,970 --> 00:05:21,350
+That's kind of interesting.
+
+101
+00:05:21,350 --> 00:05:23,270
+The bassoon is
+special in this class
+
+102
+00:05:23,270 --> 00:05:25,280
+because there's not
+much fundamental,
+
+103
+00:05:25,280 --> 00:05:27,650
+but there's a lot of second.
+
+104
+00:05:27,650 --> 00:05:30,680
+So now, think about
+comparing these two
+
+105
+00:05:30,680 --> 00:05:31,850
+and listen to them again.
+
+106
+00:05:31,850 --> 00:05:34,778
+[PLAYING NOTES]
+
+107
+00:05:45,540 --> 00:05:47,666
+So what I want you to
+try to think about--
+
+108
+00:05:47,666 --> 00:05:49,020
+and it's kind of hard.
+
+109
+00:05:49,020 --> 00:05:53,970
+Think about how it is that the
+harmonic structure is playing
+
+110
+00:05:53,970 --> 00:05:58,470
+a role in determining
+the timbre of the sound
+
+111
+00:05:58,470 --> 00:05:59,610
+that you're hearing.
+
+112
+00:05:59,610 --> 00:06:00,300
+OK.
+
+113
+00:06:00,300 --> 00:06:03,720
+So that's kind of
+the motivation.
+
+114
+00:06:03,720 --> 00:06:06,930
+Another motivation is that
+thinking about signals
+
+115
+00:06:06,930 --> 00:06:08,580
+in terms of their
+harmonic structure
+
+116
+00:06:08,580 --> 00:06:12,820
+can provide important
+insights into the signals.
+
+117
+00:06:12,820 --> 00:06:16,230
+And so for example in music,
+the harmonic structure
+
+118
+00:06:16,230 --> 00:06:20,690
+is what determines
+consonance and dissonance.
+
+119
+00:06:20,690 --> 00:06:21,570
+Dissonance.
+
+120
+00:06:21,570 --> 00:06:29,090
+So I'm going to play
+two different notes that
+
+121
+00:06:29,090 --> 00:06:32,930
+are related by an octave
+shift, by a fifth shift,
+
+122
+00:06:32,930 --> 00:06:38,140
+and adjacent notes in
+the semitone scale.
+
+123
+00:06:38,140 --> 00:06:42,610
+And below it, I've illustrated
+the harmonic structure
+
+124
+00:06:42,610 --> 00:06:47,030
+for the D and for D prime.
+
+125
+00:06:47,030 --> 00:06:47,530
+OK.
+
+126
+00:06:47,530 --> 00:06:51,610
+So an octave above means
+that the first harmonic,
+
+127
+00:06:51,610 --> 00:06:53,410
+the fundamental of
+this guy, corresponds
+
+128
+00:06:53,410 --> 00:06:56,110
+to the second
+harmonic of this guy.
+
+129
+00:06:56,110 --> 00:06:58,720
+The second to the
+fourth, et cetera.
+
+130
+00:06:58,720 --> 00:07:02,130
+There's some relationship for
+the fifths illustrated here.
+
+131
+00:07:02,130 --> 00:07:05,600
+And there's a different
+relationship here.
+
+132
+00:07:05,600 --> 00:07:07,900
+So what I want you to do
+is to hear the difference
+
+133
+00:07:07,900 --> 00:07:10,810
+between those six sounds.
+
+134
+00:07:10,810 --> 00:07:14,090
+And again, think about not
+only the time waveform,
+
+135
+00:07:14,090 --> 00:07:17,323
+but also how their
+harmonics relate.
+
+136
+00:07:17,323 --> 00:07:20,774
+[PLAYING NOTES]
+
+137
+00:07:40,540 --> 00:07:45,190
+So dissonance has something
+to do-- well, consonance
+
+138
+00:07:45,190 --> 00:07:48,164
+has something to
+do with the overlap
+
+139
+00:07:48,164 --> 00:07:49,830
+of the harmonic
+structure and dissonance
+
+140
+00:07:49,830 --> 00:07:53,630
+has something to do
+with the lack of overlap
+
+141
+00:07:53,630 --> 00:07:55,280
+of the harmonic content.
+
+142
+00:07:55,280 --> 00:07:58,850
+So the point just being that
+we can get some mileage out
+
+143
+00:07:58,850 --> 00:08:02,880
+of thinking about
+signals according
+
+144
+00:08:02,880 --> 00:08:05,490
+to their harmonic decomposition.
+
+145
+00:08:05,490 --> 00:08:08,769
+So that's kind of
+the introduction.
+
+146
+00:08:08,769 --> 00:08:10,060
+How should we think about that?
+
+147
+00:08:10,060 --> 00:08:14,650
+What kinds of signals
+ought to be representable
+
+148
+00:08:14,650 --> 00:08:16,550
+by their harmonic structure?
+
+149
+00:08:16,550 --> 00:08:17,050
+OK.
+
+150
+00:08:17,050 --> 00:08:19,300
+Well if you just draw a
+picture in a time domain
+
+151
+00:08:19,300 --> 00:08:23,270
+and think about a
+fundamental, what would it
+
+152
+00:08:23,270 --> 00:08:24,827
+look like in the time domain?
+
+153
+00:08:24,827 --> 00:08:26,160
+What would the signal look like?
+
+154
+00:08:26,160 --> 00:08:28,710
+What would the second
+harmonic look like?
+
+155
+00:08:28,710 --> 00:08:34,299
+Well, that's a signal whose
+frequency is twice as big.
+
+156
+00:08:34,299 --> 00:08:37,850
+If the frequency is twice as
+big, the period is half as big.
+
+157
+00:08:37,850 --> 00:08:42,880
+So there's now two periods of
+the blue guy in the same time
+
+158
+00:08:42,880 --> 00:08:47,020
+interval as one
+period of the red guy.
+
+159
+00:08:47,020 --> 00:08:51,040
+So the relationship of
+frequencies in the harmonics
+
+160
+00:08:51,040 --> 00:08:54,910
+has a relationship in time.
+
+161
+00:08:54,910 --> 00:08:56,860
+It's inversely proportional.
+
+162
+00:08:56,860 --> 00:08:57,640
+OK.
+
+163
+00:08:57,640 --> 00:09:01,370
+So if you think about
+fundamental, second, third,
+
+164
+00:09:01,370 --> 00:09:02,140
+fourth, fifth.
+
+165
+00:09:02,140 --> 00:09:04,240
+Fundamental, second,
+third, fourth, fifth.
+
+166
+00:09:04,240 --> 00:09:10,270
+There's a relationship
+in time of the periods.
+
+167
+00:09:10,270 --> 00:09:12,190
+And one thing that
+should be clear
+
+168
+00:09:12,190 --> 00:09:17,590
+is that these harmonics are
+all periodic in the period
+
+169
+00:09:17,590 --> 00:09:20,480
+of the fundamental.
+
+170
+00:09:20,480 --> 00:09:22,490
+So one thing that
+you can think about,
+
+171
+00:09:22,490 --> 00:09:24,860
+by thinking about the time
+representation of what
+
+172
+00:09:24,860 --> 00:09:29,860
+harmonic signals ought to
+look like, periodic signals
+
+173
+00:09:29,860 --> 00:09:33,070
+are sort of our only candidates.
+
+174
+00:09:33,070 --> 00:09:37,120
+All of the harmonics
+of a fundamental
+
+175
+00:09:37,120 --> 00:09:39,300
+will have the same--
+
+176
+00:09:39,300 --> 00:09:43,990
+are periodic in capital T,
+the period of the fundamental.
+
+177
+00:09:43,990 --> 00:09:45,760
+So it's going to
+be hard to generate
+
+178
+00:09:45,760 --> 00:09:48,610
+a signal by a sum
+of harmonics that
+
+179
+00:09:48,610 --> 00:09:51,580
+doesn't have that periodicity.
+
+180
+00:09:51,580 --> 00:09:55,120
+So we should be expecting a
+relationship between signals
+
+181
+00:09:55,120 --> 00:09:58,660
+that can be represented
+by a sum of harmonics
+
+182
+00:09:58,660 --> 00:10:00,230
+and periodic signals.
+
+183
+00:10:03,320 --> 00:10:06,640
+So we would not expect
+an aperiodic signal
+
+184
+00:10:06,640 --> 00:10:08,770
+to be represented this way.
+
+185
+00:10:08,770 --> 00:10:11,170
+The counter question
+is, should we
+
+186
+00:10:11,170 --> 00:10:14,770
+be expecting that all periodic
+signals can be represented
+
+187
+00:10:14,770 --> 00:10:16,990
+this way, or some
+periodic signals,
+
+188
+00:10:16,990 --> 00:10:18,835
+or some very special class?
+
+189
+00:10:18,835 --> 00:10:20,600
+Is it a big class
+or a small class?
+
+190
+00:10:20,600 --> 00:10:22,450
+How do we think about that?
+
+191
+00:10:22,450 --> 00:10:24,850
+And historically, that's
+been a hard question.
+
+192
+00:10:24,850 --> 00:10:27,640
+And by the end of the hour, I
+hope that you all understand
+
+193
+00:10:27,640 --> 00:10:28,765
+why it was a hard question.
+
+194
+00:10:31,300 --> 00:10:34,360
+People, like Fourier,
+you might imagine,
+
+195
+00:10:34,360 --> 00:10:37,780
+advocated the
+notion that you can
+
+196
+00:10:37,780 --> 00:10:42,580
+make a meaningful harmonic
+representation for a very
+
+197
+00:10:42,580 --> 00:10:44,230
+wide class of signals.
+
+198
+00:10:44,230 --> 00:10:47,140
+Fourier claimed,
+basically, everything.
+
+199
+00:10:47,140 --> 00:10:50,080
+Anything that was periodic
+could be represented
+
+200
+00:10:50,080 --> 00:10:52,210
+in terms of a sum of harmonics.
+
+201
+00:10:52,210 --> 00:10:55,390
+Other people thought
+that was preposterous.
+
+202
+00:10:55,390 --> 00:10:59,950
+In a widely reported
+public rebuke of Fourier,
+
+203
+00:10:59,950 --> 00:11:03,010
+Lagrange said,
+this is ridiculous,
+
+204
+00:11:03,010 --> 00:11:09,330
+because every harmonic is a
+continuous function of time.
+
+205
+00:11:09,330 --> 00:11:12,250
+And you can easily
+manufacture a periodic signal
+
+206
+00:11:12,250 --> 00:11:15,510
+that's a discontinuous
+function of time.
+
+207
+00:11:15,510 --> 00:11:18,540
+So for example, a square wave.
+
+208
+00:11:18,540 --> 00:11:20,610
+How on earth are you--
+
+209
+00:11:20,610 --> 00:11:25,090
+Lagrange, how on earth
+would you represent
+
+210
+00:11:25,090 --> 00:11:27,640
+a discontinuous function by a
+sum of continuous functions?
+
+211
+00:11:27,640 --> 00:11:30,130
+That makes no sense.
+
+212
+00:11:30,130 --> 00:11:34,900
+So what we will want to do
+in the course of the hour
+
+213
+00:11:34,900 --> 00:11:37,730
+is think about, does that
+or doesn't that make sense?
+
+214
+00:11:37,730 --> 00:11:41,320
+And it will turn out the
+answer is kind of complicated.
+
+215
+00:11:41,320 --> 00:11:43,000
+And so we can sort
+of forgive both sides
+
+216
+00:11:43,000 --> 00:11:45,580
+for having sort of
+argued with each other
+
+217
+00:11:45,580 --> 00:11:48,790
+because the answer is
+not completely obvious.
+
+218
+00:11:48,790 --> 00:11:50,890
+For the time being, I'm
+going to just assume
+
+219
+00:11:50,890 --> 00:11:55,830
+that the answer is yes,
+that it makes sense
+
+220
+00:11:55,830 --> 00:11:59,790
+to try to make a harmonic
+representation of a signal that
+
+221
+00:11:59,790 --> 00:12:01,200
+might even be discontinuous.
+
+222
+00:12:01,200 --> 00:12:05,190
+I'm going to assume
+periodic, let's try.
+
+223
+00:12:05,190 --> 00:12:07,350
+And the question will be,
+does that make any sense?
+
+224
+00:12:10,080 --> 00:12:12,520
+So there's a little bit of math.
+
+225
+00:12:12,520 --> 00:12:13,960
+There's a mathematical
+foundation
+
+226
+00:12:13,960 --> 00:12:18,220
+that makes understanding these
+Fourier series very easy.
+
+227
+00:12:18,220 --> 00:12:21,380
+The idea has two parts.
+
+228
+00:12:21,380 --> 00:12:26,650
+First off, if you have a
+sinusoidally-varying signal
+
+229
+00:12:26,650 --> 00:12:32,110
+here at frequency k omega
+0, the k-th harmonic.
+
+230
+00:12:32,110 --> 00:12:33,910
+If you were to multiply
+the k-th harmonic
+
+231
+00:12:33,910 --> 00:12:40,880
+times the l-th harmonic, a
+signal of frequency k omega 0
+
+232
+00:12:40,880 --> 00:12:43,790
+times a signal of
+frequency l omega 0,
+
+233
+00:12:43,790 --> 00:12:48,200
+you get a new harmonic,
+the k plus l-th one.
+
+234
+00:12:48,200 --> 00:12:51,500
+That's a simple property
+of the way the product
+
+235
+00:12:51,500 --> 00:12:53,540
+of two exponents--
+
+236
+00:12:53,540 --> 00:12:55,850
+you add the exponents
+when you take the product
+
+237
+00:12:55,850 --> 00:12:58,190
+of two exponentials.
+
+238
+00:12:58,190 --> 00:13:00,230
+OK.
+
+239
+00:13:00,230 --> 00:13:02,990
+So that makes it very easy to
+think about harmonic structure
+
+240
+00:13:02,990 --> 00:13:06,860
+because there's a simple
+relationship for generating
+
+241
+00:13:06,860 --> 00:13:10,370
+one harmonic signal in
+time from another harmonic
+
+242
+00:13:10,370 --> 00:13:13,190
+signal in time.
+
+243
+00:13:13,190 --> 00:13:15,010
+The second thing
+that makes harmonics
+
+244
+00:13:15,010 --> 00:13:17,950
+easy to think about
+mathematically
+
+245
+00:13:17,950 --> 00:13:19,940
+is that if you integrate
+over a period--
+
+246
+00:13:19,940 --> 00:13:23,696
+we'll do this so often that
+we'll abbreviate it this way.
+
+247
+00:13:23,696 --> 00:13:25,570
+Because if you have a
+signal that's periodic,
+
+248
+00:13:25,570 --> 00:13:27,550
+it really doesn't
+matter which period you
+
+249
+00:13:27,550 --> 00:13:29,920
+choose to do the integral over.
+
+250
+00:13:29,920 --> 00:13:33,670
+If you had a signal that was
+periodic in, say, capital T,
+
+251
+00:13:33,670 --> 00:13:36,035
+and integrated it between 0
+and T. And if it's periodic,
+
+252
+00:13:36,035 --> 00:13:37,660
+you should be able
+to shift that window
+
+253
+00:13:37,660 --> 00:13:41,810
+anywhere you like and you
+should get the same thing.
+
+254
+00:13:41,810 --> 00:13:46,450
+So we'll not worry about whether
+it goes from 0 to capital T
+
+255
+00:13:46,450 --> 00:13:49,397
+or from 1 to capital T plus 1.
+
+256
+00:13:49,397 --> 00:13:50,480
+We won't worry about that.
+
+257
+00:13:50,480 --> 00:13:53,680
+We'll just say integrate
+over the period T.
+
+258
+00:13:53,680 --> 00:14:00,430
+If you integrate over the
+period T any harmonic signal,
+
+259
+00:14:00,430 --> 00:14:03,800
+then there's only
+two possible answers.
+
+260
+00:14:03,800 --> 00:14:05,750
+So if you integrate
+e to the jk omega
+
+261
+00:14:05,750 --> 00:14:12,690
+0 T over one period
+of omega 0, there
+
+262
+00:14:12,690 --> 00:14:16,310
+will be k periods in there.
+
+263
+00:14:16,310 --> 00:14:20,490
+So if k is a number
+other than 0,
+
+264
+00:14:20,490 --> 00:14:23,050
+you'll have complete
+periods of a sine wave.
+
+265
+00:14:23,050 --> 00:14:26,010
+So the answer of the
+integral, the average value
+
+266
+00:14:26,010 --> 00:14:29,310
+over that period, is 0.
+
+267
+00:14:29,310 --> 00:14:32,190
+The only time you'll ever
+get something that's non-zero
+
+268
+00:14:32,190 --> 00:14:35,130
+is if k were 0.
+
+269
+00:14:35,130 --> 00:14:40,640
+If k were 0, if it were
+DC, then e to the 0 is 1.
+
+270
+00:14:40,640 --> 00:14:43,400
+The integral of 1 over a period,
+regardless of what period
+
+271
+00:14:43,400 --> 00:14:45,650
+you pick up, the integral
+of 1 over a period
+
+272
+00:14:45,650 --> 00:14:50,180
+is capital T. So two things.
+
+273
+00:14:50,180 --> 00:14:52,600
+It's easy to figure
+out the product
+
+274
+00:14:52,600 --> 00:14:54,100
+of two harmonic signals.
+
+275
+00:14:54,100 --> 00:14:55,690
+It's just the
+different harmonic.
+
+276
+00:14:55,690 --> 00:14:59,320
+And integrals over
+a period are easy.
+
+277
+00:14:59,320 --> 00:15:02,830
+With that basis, then
+it's easy to say how--
+
+278
+00:15:02,830 --> 00:15:06,610
+let's imagine that some
+arbitrary periodic signal,
+
+279
+00:15:06,610 --> 00:15:09,940
+which we can always write this
+way, x of t, if it's periodic,
+
+280
+00:15:09,940 --> 00:15:14,230
+could also be written x of
+t plus capital T if x of t
+
+281
+00:15:14,230 --> 00:15:18,340
+is periodic in capital T. Let's
+assume that that can be written
+
+282
+00:15:18,340 --> 00:15:22,930
+as a sum of harmonics.
+
+283
+00:15:22,930 --> 00:15:25,260
+So a sum-- k equals
+minus infinity
+
+284
+00:15:25,260 --> 00:15:30,629
+to infinity of some amount
+of e to the j omega 0 kt.
+
+285
+00:15:30,629 --> 00:15:32,170
+Why do I have the
+minus k's in there?
+
+286
+00:15:36,410 --> 00:15:36,910
+OK.
+
+287
+00:15:36,910 --> 00:15:39,295
+I've asked this question
+about six times.
+
+288
+00:15:42,130 --> 00:15:44,001
+Why do I have the
+minus k's in there?
+
+289
+00:15:47,410 --> 00:15:48,871
+Yeah.
+
+290
+00:15:48,871 --> 00:15:51,677
+AUDIENCE: [INAUDIBLE]
+
+291
+00:15:51,677 --> 00:15:52,760
+DENNIS FREEMAN: Precisely.
+
+292
+00:15:52,760 --> 00:15:54,720
+We like Euler's equation.
+
+293
+00:15:54,720 --> 00:15:56,320
+We like complex numbers.
+
+294
+00:15:56,320 --> 00:15:58,930
+We don't like cosine and sines.
+
+295
+00:15:58,930 --> 00:16:01,930
+And we can convert
+sines and cosines
+
+296
+00:16:01,930 --> 00:16:05,410
+into complex exponentials
+using Euler's formula
+
+297
+00:16:05,410 --> 00:16:08,110
+and everything's very easy.
+
+298
+00:16:08,110 --> 00:16:10,120
+So we use minus k
+for the same reason
+
+299
+00:16:10,120 --> 00:16:14,030
+that we used minus omega in
+previous representations.
+
+300
+00:16:14,030 --> 00:16:17,320
+So imagine that we
+can write x of t,
+
+301
+00:16:17,320 --> 00:16:22,710
+some generic periodic signal,
+as a sum of harmonics.
+
+302
+00:16:22,710 --> 00:16:27,170
+Then, let's use those principles
+that we talked about before.
+
+303
+00:16:27,170 --> 00:16:29,390
+If that can be
+represented as a sum,
+
+304
+00:16:29,390 --> 00:16:32,920
+I can sift out the
+one of interest
+
+305
+00:16:32,920 --> 00:16:38,252
+by multiplying x of t times
+e to the minus jl omega 0.
+
+306
+00:16:38,252 --> 00:16:40,210
+We'll see in a minute
+what I mean by "sift out"
+
+307
+00:16:40,210 --> 00:16:43,600
+and why I'm using
+minus instead of plus.
+
+308
+00:16:43,600 --> 00:16:45,600
+If you were to run this
+integral over a period--
+
+309
+00:16:48,227 --> 00:16:50,810
+and imagine for the moment that
+all the sums are well-behaved,
+
+310
+00:16:50,810 --> 00:16:51,820
+so nothing explodes.
+
+311
+00:16:51,820 --> 00:16:54,560
+And so all the convergence
+issues are trivial.
+
+312
+00:16:54,560 --> 00:16:56,630
+If the convergence
+issues were trivial,
+
+313
+00:16:56,630 --> 00:17:01,250
+then I could swap the
+sum and the integral.
+
+314
+00:17:01,250 --> 00:17:05,000
+If I did that, then I would
+end up with a sum of a bunch
+
+315
+00:17:05,000 --> 00:17:06,829
+of different k's.
+
+316
+00:17:06,829 --> 00:17:10,119
+But for each one,
+I'd be taking some--
+
+317
+00:17:10,119 --> 00:17:14,930
+the k-th harmonic times
+the minus l-th harmonic.
+
+318
+00:17:14,930 --> 00:17:17,579
+And that's going to give me 0
+when I integrate over a period,
+
+319
+00:17:17,579 --> 00:17:21,980
+except when k equals l.
+
+320
+00:17:21,980 --> 00:17:25,990
+If k equals l, then I'm
+going to get capital T.
+
+321
+00:17:25,990 --> 00:17:32,760
+So the net effect of doing
+this is to generate T a l.
+
+322
+00:17:32,760 --> 00:17:36,830
+It sifts out one of
+those coefficients.
+
+323
+00:17:36,830 --> 00:17:38,410
+Well, that's nice.
+
+324
+00:17:38,410 --> 00:17:43,550
+That means that if I assume I
+can write the signal this way,
+
+325
+00:17:43,550 --> 00:17:48,820
+then I can sift out
+the k-th coefficient
+
+326
+00:17:48,820 --> 00:17:54,300
+by integrating against
+minus the k-th and divide
+
+327
+00:17:54,300 --> 00:17:56,040
+by T because of
+the normalization.
+
+328
+00:17:56,040 --> 00:18:00,820
+Because if you integrate 1 over
+a period, you get capital T.
+
+329
+00:18:00,820 --> 00:18:04,350
+And that tells me then
+that if this were true,
+
+330
+00:18:04,350 --> 00:18:06,123
+this is how you'd
+find the coefficient.
+
+331
+00:18:09,750 --> 00:18:15,030
+So that leads to what we call
+a set of analysis and synthesis
+
+332
+00:18:15,030 --> 00:18:17,570
+equations.
+
+333
+00:18:17,570 --> 00:18:22,910
+So that if x can be represented
+this way, if we can synthesize
+
+334
+00:18:22,910 --> 00:18:25,767
+a periodic signal x
+by adding together
+
+335
+00:18:25,767 --> 00:18:28,100
+a bunch of harmonic components
+with a suitable weighting
+
+336
+00:18:28,100 --> 00:18:28,600
+factor.
+
+337
+00:18:28,600 --> 00:18:31,130
+The weighting factor
+a sub k certainly
+
+338
+00:18:31,130 --> 00:18:33,830
+has a different magnitude,
+just like those musical tones
+
+339
+00:18:33,830 --> 00:18:36,110
+that I played at the
+beginning, those musical notes.
+
+340
+00:18:36,110 --> 00:18:38,450
+All of the different k's
+had different amplitudes.
+
+341
+00:18:38,450 --> 00:18:39,783
+They also have different phases.
+
+342
+00:18:39,783 --> 00:18:41,540
+The a sub k can be
+a complex number.
+
+343
+00:18:41,540 --> 00:18:42,810
+We like complex numbers.
+
+344
+00:18:42,810 --> 00:18:45,770
+Complex numbers are easy.
+
+345
+00:18:45,770 --> 00:18:52,040
+So if we can represent
+x by a sum of harmonics,
+
+346
+00:18:52,040 --> 00:18:54,970
+complex valued.
+
+347
+00:18:54,970 --> 00:18:57,410
+So weighted by a
+complex number, then we
+
+348
+00:18:57,410 --> 00:19:02,420
+can sift out what those
+weight factors were by running
+
+349
+00:19:02,420 --> 00:19:03,540
+the analysis equation.
+
+350
+00:19:03,540 --> 00:19:06,530
+We can analyze the
+signal to figure out
+
+351
+00:19:06,530 --> 00:19:10,240
+how much of the k-th
+component is there.
+
+352
+00:19:14,200 --> 00:19:19,010
+So the strategy then is
+assume that all works.
+
+353
+00:19:19,010 --> 00:19:21,590
+That is to say, let's
+talk an ugly signal
+
+354
+00:19:21,590 --> 00:19:23,330
+of the type that
+caused controversy back
+
+355
+00:19:23,330 --> 00:19:25,460
+in the mid-1800s.
+
+356
+00:19:25,460 --> 00:19:28,250
+Let's take a controversial
+signal like a square wave,
+
+357
+00:19:28,250 --> 00:19:30,050
+assume it all works,
+and figure out what
+
+358
+00:19:30,050 --> 00:19:32,180
+the ak's would have had to be.
+
+359
+00:19:32,180 --> 00:19:36,000
+And then we'll figure out
+whether that made any sense.
+
+360
+00:19:36,000 --> 00:19:40,880
+So if this thing were to
+be represented by a Fourier
+
+361
+00:19:40,880 --> 00:19:46,650
+series, by a sum of harmonic
+components, how many of these
+
+362
+00:19:46,650 --> 00:19:52,180
+statements would be true about
+those harmonic amplitudes?
+
+363
+00:19:52,180 --> 00:19:54,490
+So as you start to write,
+look toward your neighbor
+
+364
+00:19:54,490 --> 00:19:57,590
+and say hi.
+
+365
+00:19:57,590 --> 00:19:59,210
+Then, write and
+figure out the answer.
+
+366
+00:20:03,202 --> 00:20:06,695
+[SIDE CONVERSATIONS]
+
+367
+00:22:13,890 --> 00:22:14,390
+OK.
+
+368
+00:22:14,390 --> 00:22:17,510
+So how many of those
+statements are true?
+
+369
+00:22:17,510 --> 00:22:21,440
+Raise your hand with a number
+of fingers between 0 and 5
+
+370
+00:22:21,440 --> 00:22:24,340
+would seem good limits.
+
+371
+00:22:24,340 --> 00:22:27,800
+How many statements are true?
+
+372
+00:22:27,800 --> 00:22:31,190
+OK, we've got about 40% correct.
+
+373
+00:22:31,190 --> 00:22:32,870
+So that's a little under half.
+
+374
+00:22:32,870 --> 00:22:34,774
+What do I do first?
+
+375
+00:22:34,774 --> 00:22:36,440
+If I want to figure
+this out, what would
+
+376
+00:22:36,440 --> 00:22:38,510
+I do to try to figure out--
+
+377
+00:22:38,510 --> 00:22:41,240
+so statement 1, a sub
+k is 0 if k is even.
+
+378
+00:22:41,240 --> 00:22:42,650
+Should that be true or false?
+
+379
+00:22:42,650 --> 00:22:44,843
+How do I think about that?
+
+380
+00:22:44,843 --> 00:22:46,807
+Yeah.
+
+381
+00:22:46,807 --> 00:22:48,697
+AUDIENCE: The square
+wave [INAUDIBLE]..
+
+382
+00:22:48,697 --> 00:22:50,280
+DENNIS FREEMAN: The
+square wave's odd.
+
+383
+00:22:50,280 --> 00:22:50,640
+OK.
+
+384
+00:22:50,640 --> 00:22:51,420
+That sounds good.
+
+385
+00:22:51,420 --> 00:22:52,600
+So how does that help me?
+
+386
+00:22:56,920 --> 00:23:04,100
+AUDIENCE: If there was an even
+term in the Fourier series,
+
+387
+00:23:04,100 --> 00:23:07,000
+then that would mess up
+the oddness [INAUDIBLE]..
+
+388
+00:23:07,000 --> 00:23:13,040
+DENNIS FREEMAN: So I might
+want to have only odd terms.
+
+389
+00:23:13,040 --> 00:23:19,610
+How many terms in the Fourier
+decomposition are odd and even?
+
+390
+00:23:19,610 --> 00:23:21,080
+What is the Fourier
+decomposition?
+
+391
+00:23:21,080 --> 00:23:23,570
+So let's start by just writing
+some definition, right?
+
+392
+00:23:23,570 --> 00:23:28,370
+So I want to say
+that x of t is--
+
+393
+00:23:28,370 --> 00:23:28,870
+let's see.
+
+394
+00:23:28,870 --> 00:23:29,950
+I have a period of 1.
+
+395
+00:23:29,950 --> 00:23:34,210
+That's the same as x
+of t plus 1, right?
+
+396
+00:23:34,210 --> 00:23:36,680
+And I want to write this as
+some sort of a Fourier thing.
+
+397
+00:23:36,680 --> 00:23:38,140
+So what do I write next?
+
+398
+00:23:44,600 --> 00:23:47,900
+I want to say that this
+signal can be represented
+
+399
+00:23:47,900 --> 00:23:50,600
+by some sum of something.
+
+400
+00:23:50,600 --> 00:23:53,730
+And I'm going to have
+to put some weights in.
+
+401
+00:23:53,730 --> 00:23:56,490
+And I'm going to want something
+like e to the minus j 2 pi
+
+402
+00:23:56,490 --> 00:24:01,105
+kt by T, something like that.
+
+403
+00:24:01,105 --> 00:24:02,980
+And I'm going to need
+a whole bunch of these.
+
+404
+00:24:05,487 --> 00:24:06,820
+Where does even and odd show up?
+
+405
+00:24:15,690 --> 00:24:19,480
+So if I were to rewrite
+this as sines and cosines.
+
+406
+00:24:19,480 --> 00:24:23,570
+So I could rewrite this in terms
+of some sines and some cosines.
+
+407
+00:24:23,570 --> 00:24:27,860
+Then, the decomposition
+into even and odd is easier.
+
+408
+00:24:27,860 --> 00:24:30,540
+That's correct.
+
+409
+00:24:30,540 --> 00:24:31,890
+So let's get back to this one.
+
+410
+00:24:31,890 --> 00:24:34,050
+How do I think about
+this one, though?
+
+411
+00:24:34,050 --> 00:24:36,780
+So I want k to be even.
+
+412
+00:24:36,780 --> 00:24:39,390
+What does k even correspond to?
+
+413
+00:24:43,590 --> 00:24:44,090
+OK.
+
+414
+00:24:44,090 --> 00:24:45,410
+Let's assume I don't
+know what k even.
+
+415
+00:24:45,410 --> 00:24:46,940
+How do I do this if I
+don't know anything?
+
+416
+00:24:46,940 --> 00:24:48,410
+How do I just grunt through it?
+
+417
+00:24:54,358 --> 00:24:54,858
+Yeah.
+
+418
+00:24:54,858 --> 00:24:55,860
+AUDIENCE: Just do the integral.
+
+419
+00:24:55,860 --> 00:24:57,776
+DENNIS FREEMAN: Just do
+the integral, exactly.
+
+420
+00:24:57,776 --> 00:25:02,550
+So what I'd like to do is
+say that a sub k is 1--
+
+421
+00:25:02,550 --> 00:25:04,860
+so assuming everything works.
+
+422
+00:25:04,860 --> 00:25:06,630
+Assuming everything
+works, then a sub k
+
+423
+00:25:06,630 --> 00:25:11,220
+should be the integral over t
+weighted by 1 over t, x of t
+
+424
+00:25:11,220 --> 00:25:18,750
+e to the minus j 2 pi kt over T.
+I should have put a plus there.
+
+425
+00:25:21,627 --> 00:25:23,460
+I want the minus sign
+in one of the formulas
+
+426
+00:25:23,460 --> 00:25:25,300
+and not in the other one.
+
+427
+00:25:25,300 --> 00:25:26,160
+OK.
+
+428
+00:25:26,160 --> 00:25:30,380
+And if you just think about that
+integral, it's not very hard.
+
+429
+00:25:30,380 --> 00:25:32,480
+So I want this kind of thing.
+
+430
+00:25:32,480 --> 00:25:34,025
+Capital T is 1.
+
+431
+00:25:36,820 --> 00:25:38,560
+So I get two pieces,
+the piece that
+
+432
+00:25:38,560 --> 00:25:42,570
+corresponds to the minus
+a 1/2 and plus 1/2.
+
+433
+00:25:42,570 --> 00:25:45,551
+And when I integrate them, I get
+something that's a little bit--
+
+434
+00:25:45,551 --> 00:25:46,050
+well, no.
+
+435
+00:25:46,050 --> 00:25:47,508
+It's pretty
+straightforward, right?
+
+436
+00:25:47,508 --> 00:25:50,320
+So you integrate this
+thing, the 1 over minus--
+
+437
+00:25:50,320 --> 00:25:55,740
+and so the minus j 2 pi
+k flips into the bottom.
+
+438
+00:25:55,740 --> 00:26:00,460
+The 1/2 turns it into j 4
+pi k-- blah, blah, blah.
+
+439
+00:26:00,460 --> 00:26:03,000
+You get four pieces.
+
+440
+00:26:03,000 --> 00:26:05,280
+These two pieces
+correspond to 1.
+
+441
+00:26:05,280 --> 00:26:06,600
+They sum to 2.
+
+442
+00:26:06,600 --> 00:26:08,610
+So you get that.
+
+443
+00:26:08,610 --> 00:26:15,020
+The point is that it's a
+pretty simple transformation
+
+444
+00:26:15,020 --> 00:26:18,740
+to think about the
+square wave turning
+
+445
+00:26:18,740 --> 00:26:23,570
+into a sequence of amplitudes.
+
+446
+00:26:23,570 --> 00:26:26,480
+So if you choose--
+
+447
+00:26:26,480 --> 00:26:27,015
+let's see.
+
+448
+00:26:27,015 --> 00:26:30,350
+So if you choose k
+to be even, then I've
+
+449
+00:26:30,350 --> 00:26:34,435
+got an integer multiple of 2 pi.
+
+450
+00:26:37,090 --> 00:26:40,030
+If k were even,
+then I would have
+
+451
+00:26:40,030 --> 00:26:42,700
+an integer multiple of 2 pi.
+
+452
+00:26:42,700 --> 00:26:46,890
+e to the integer multiple
+of 2 pi flips around to 1.
+
+453
+00:26:46,890 --> 00:26:48,682
+As does the minus 1.
+
+454
+00:26:48,682 --> 00:26:51,660
+That kills this stuff.
+
+455
+00:26:51,660 --> 00:26:53,060
+OK.
+
+456
+00:26:53,060 --> 00:26:56,200
+So that's where the k
+even and k odd comes from.
+
+457
+00:26:58,790 --> 00:27:00,890
+So the point is that
+there's a simple way
+
+458
+00:27:00,890 --> 00:27:04,680
+to just crank through it and
+we get a simple representation.
+
+459
+00:27:04,680 --> 00:27:14,847
+So we get that ak is 1 over
+j pi k, k odd, 0 otherwise.
+
+460
+00:27:17,590 --> 00:27:18,310
+OK.
+
+461
+00:27:18,310 --> 00:27:20,840
+And then we can just sort of
+run down through the list.
+
+462
+00:27:20,840 --> 00:27:23,590
+We'll see in a minute why this
+particular list of properties
+
+463
+00:27:23,590 --> 00:27:24,790
+is interesting.
+
+464
+00:27:24,790 --> 00:27:27,230
+So a sub k is 0 if k is even?
+
+465
+00:27:27,230 --> 00:27:27,730
+Yep.
+
+466
+00:27:30,590 --> 00:27:31,720
+ak is real?
+
+467
+00:27:31,720 --> 00:27:32,840
+Nope, there's a j in it.
+
+468
+00:27:35,570 --> 00:27:37,920
+ak magnitude decreases
+with k square?
+
+469
+00:27:37,920 --> 00:27:38,420
+Nope.
+
+470
+00:27:38,420 --> 00:27:39,450
+Decreases with k.
+
+471
+00:27:42,970 --> 00:27:45,360
+There's an infinite
+number of non-zero terms?
+
+472
+00:27:45,360 --> 00:27:46,960
+Yup.
+
+473
+00:27:46,960 --> 00:27:49,312
+k goes to infinity.
+
+474
+00:27:49,312 --> 00:27:50,020
+All of the above?
+
+475
+00:27:50,020 --> 00:27:51,730
+Obviously not.
+
+476
+00:27:51,730 --> 00:27:55,450
+The point is it's simple
+to do and you end up
+
+477
+00:27:55,450 --> 00:28:06,270
+representing the time waveform
+by just a sequence of numbers.
+
+478
+00:28:06,270 --> 00:28:07,950
+How big is the fundamental?
+
+479
+00:28:07,950 --> 00:28:09,270
+How big is the second harmonic?
+
+480
+00:28:09,270 --> 00:28:13,170
+How big is the third
+harmonic, et cetera.
+
+481
+00:28:13,170 --> 00:28:17,130
+There's some more math that
+makes things even easier.
+
+482
+00:28:17,130 --> 00:28:22,600
+There are ways of thinking
+about operations in time
+
+483
+00:28:22,600 --> 00:28:26,860
+as equivalent
+operations in harmonics.
+
+484
+00:28:26,860 --> 00:28:29,310
+That makes the idea
+even more powerful
+
+485
+00:28:29,310 --> 00:28:31,120
+because what we
+are developing is
+
+486
+00:28:31,120 --> 00:28:34,300
+an alternative
+representation for signals.
+
+487
+00:28:34,300 --> 00:28:38,000
+The same as we had multiple
+representations for systems--
+
+488
+00:28:38,000 --> 00:28:41,180
+differential equations, block
+diagrams, h of t, h of s,
+
+489
+00:28:41,180 --> 00:28:45,350
+h of r, Bode plots, all those
+different representations
+
+490
+00:28:45,350 --> 00:28:49,940
+of systems, this represents
+an alternative representation
+
+491
+00:28:49,940 --> 00:28:51,320
+of a signal.
+
+492
+00:28:51,320 --> 00:28:53,810
+We think about it being
+represented in time
+
+493
+00:28:53,810 --> 00:28:57,170
+or we think about it being
+represented in harmonics.
+
+494
+00:28:57,170 --> 00:28:59,634
+Or eventually, we'll
+call that frequency.
+
+495
+00:28:59,634 --> 00:29:01,550
+So we'll think about
+signals being represented
+
+496
+00:29:01,550 --> 00:29:02,894
+in time or frequency.
+
+497
+00:29:02,894 --> 00:29:04,310
+And you can think
+about operations
+
+498
+00:29:04,310 --> 00:29:08,980
+in time having a corresponding
+operation in frequency.
+
+499
+00:29:08,980 --> 00:29:12,520
+So illustrated here, if a signal
+is differentiated in time,
+
+500
+00:29:12,520 --> 00:29:18,340
+the Fourier coefficients are
+multiplied by j 2 pi over T k.
+
+501
+00:29:18,340 --> 00:29:19,690
+OK, well that's easy.
+
+502
+00:29:19,690 --> 00:29:21,370
+If we assume for
+the moment that we
+
+503
+00:29:21,370 --> 00:29:25,160
+can represent x as
+this kind of a sum,
+
+504
+00:29:25,160 --> 00:29:27,530
+differentiation is linear.
+
+505
+00:29:27,530 --> 00:29:30,510
+The derivative of a sum is
+the sum of the derivatives.
+
+506
+00:29:30,510 --> 00:29:32,930
+The derivative of
+sine wave is easy.
+
+507
+00:29:32,930 --> 00:29:39,310
+And we end up with the idea that
+if you knew the a sub k's, then
+
+508
+00:29:39,310 --> 00:29:45,460
+you can easily formulate
+the series representation
+
+509
+00:29:45,460 --> 00:29:48,250
+for the harmonic
+structure by just
+
+510
+00:29:48,250 --> 00:29:52,795
+multiplying each of the ak's
+by the power of the exponent.
+
+511
+00:29:55,740 --> 00:29:56,240
+OK.
+
+512
+00:29:56,240 --> 00:30:01,770
+So that gives us a way of
+thinking about signals in time
+
+513
+00:30:01,770 --> 00:30:05,050
+as being represented
+in frequency.
+
+514
+00:30:05,050 --> 00:30:07,520
+So here's an
+illustration of that.
+
+515
+00:30:07,520 --> 00:30:11,250
+Imagine that we have a triangle
+wave rather than a square wave.
+
+516
+00:30:14,350 --> 00:30:16,690
+Answer the same questions.
+
+517
+00:30:16,690 --> 00:30:18,040
+And be aware that it's a trick.
+
+518
+00:30:22,050 --> 00:30:24,840
+By "trick," I mean you could
+use the obvious approach, which
+
+519
+00:30:24,840 --> 00:30:26,520
+is the one we just did.
+
+520
+00:30:26,520 --> 00:30:29,894
+Or you could use some
+insight from the last slide
+
+521
+00:30:29,894 --> 00:30:30,810
+and do it in one step.
+
+522
+00:32:12,460 --> 00:32:15,792
+So how many of these
+statements are true?
+
+523
+00:32:15,792 --> 00:32:17,460
+Everybody, raise your hand.
+
+524
+00:32:17,460 --> 00:32:21,900
+Raise the number of
+fingers equal to the number
+
+525
+00:32:21,900 --> 00:32:23,370
+of correct statements.
+
+526
+00:32:23,370 --> 00:32:26,490
+We've got complete
+switch of who's right.
+
+527
+00:32:26,490 --> 00:32:28,450
+And still, 40% correct.
+
+528
+00:32:28,450 --> 00:32:30,910
+That's phenomenal.
+
+529
+00:32:30,910 --> 00:32:34,100
+So we could just go
+through the list.
+
+530
+00:32:34,100 --> 00:32:35,995
+What's the trick?
+
+531
+00:32:35,995 --> 00:32:38,670
+AUDIENCE: [INAUDIBLE]
+
+532
+00:32:38,670 --> 00:32:40,070
+DENNIS FREEMAN: So close.
+
+533
+00:32:40,070 --> 00:32:42,470
+So integral, exactly.
+
+534
+00:32:42,470 --> 00:32:42,980
+Right.
+
+535
+00:32:42,980 --> 00:32:47,644
+This signal is the integral
+of the previous signal.
+
+536
+00:32:47,644 --> 00:32:49,310
+So that means that
+we ought to be able--
+
+537
+00:32:49,310 --> 00:32:51,260
+there's some kind of
+a simple relationship
+
+538
+00:32:51,260 --> 00:32:53,720
+between this series
+and the series
+
+539
+00:32:53,720 --> 00:32:55,070
+that represents that one.
+
+540
+00:32:55,070 --> 00:32:59,112
+What should I do to this one
+to make it look like that one?
+
+541
+00:32:59,112 --> 00:33:01,430
+AUDIENCE: [INAUDIBLE]
+
+542
+00:33:01,430 --> 00:33:05,790
+DENNIS FREEMAN: Divide
+by j 2 pi k, precisely.
+
+543
+00:33:05,790 --> 00:33:11,590
+So I can think about the bk's
+being the ak's, but then I
+
+544
+00:33:11,590 --> 00:33:14,140
+have to worry about
+the representation
+
+545
+00:33:14,140 --> 00:33:15,640
+for differentiation.
+
+546
+00:33:15,640 --> 00:33:19,080
+Or here, integration in
+the frequency domain.
+
+547
+00:33:19,080 --> 00:33:22,350
+In the frequency
+domain, integration
+
+548
+00:33:22,350 --> 00:33:25,950
+corresponds to
+dividing by j 2 pi k.
+
+549
+00:33:28,460 --> 00:33:33,780
+So now, if I think about the
+list of questions, is b0 for k
+
+550
+00:33:33,780 --> 00:33:34,280
+even?
+
+551
+00:33:34,280 --> 00:33:35,150
+Yeah, it was before.
+
+552
+00:33:35,150 --> 00:33:37,900
+It is now.
+
+553
+00:33:37,900 --> 00:33:41,190
+Because all we're doing
+is changing the weights.
+
+554
+00:33:41,190 --> 00:33:43,000
+And if the weight
+started out 0 and we're
+
+555
+00:33:43,000 --> 00:33:44,416
+multiplying by
+something, we can't
+
+556
+00:33:44,416 --> 00:33:47,650
+get it to be different from 0.
+
+557
+00:33:47,650 --> 00:33:48,640
+Is it real-valued?
+
+558
+00:33:48,640 --> 00:33:52,710
+Well, now it is because
+I had a j times j.
+
+559
+00:33:52,710 --> 00:33:56,547
+So now they are real-valued.
+
+560
+00:33:56,547 --> 00:33:57,880
+Does it decrease with k squared?
+
+561
+00:33:57,880 --> 00:33:59,920
+Now it does because
+I got one of the k's
+
+562
+00:33:59,920 --> 00:34:02,410
+from the differentiation
+operator and the other k
+
+563
+00:34:02,410 --> 00:34:04,504
+from over here.
+
+564
+00:34:04,504 --> 00:34:05,170
+Infinite number.
+
+565
+00:34:05,170 --> 00:34:06,310
+Of course, the old one did, too.
+
+566
+00:34:06,310 --> 00:34:07,018
+All of the above?
+
+567
+00:34:07,018 --> 00:34:08,031
+Yes.
+
+568
+00:34:08,031 --> 00:34:08,530
+OK.
+
+569
+00:34:08,530 --> 00:34:12,460
+So that was just supposed to
+be a simple exercise in how
+
+570
+00:34:12,460 --> 00:34:17,530
+to run the formulas, how to
+do the stuff from a purely
+
+571
+00:34:17,530 --> 00:34:19,940
+mechanical point of view.
+
+572
+00:34:19,940 --> 00:34:23,620
+Now I want to think about
+the bigger question.
+
+573
+00:34:23,620 --> 00:34:26,260
+Does any of this make any sense?
+
+574
+00:34:26,260 --> 00:34:30,670
+And the answers were concocted
+to help me make sense of that.
+
+575
+00:34:30,670 --> 00:34:32,440
+The questions, the
+check yourselves,
+
+576
+00:34:32,440 --> 00:34:35,500
+were concocted so that if we
+think about the answer that
+
+577
+00:34:35,500 --> 00:34:38,020
+came out, we will
+have some insight
+
+578
+00:34:38,020 --> 00:34:42,040
+into why we think it works
+and why it was controversial
+
+579
+00:34:42,040 --> 00:34:45,100
+150 years ago.
+
+580
+00:34:45,100 --> 00:34:47,370
+So let's do the
+simple case first.
+
+581
+00:34:47,370 --> 00:34:50,550
+Even Lagrange wouldn't have
+any trouble with this-- well,
+
+582
+00:34:50,550 --> 00:34:52,889
+maybe he would have
+had a little trouble.
+
+583
+00:34:52,889 --> 00:34:55,320
+I guess he would have
+had a little trouble.
+
+584
+00:34:55,320 --> 00:34:58,620
+So Lagrange had the
+problem with Fourier
+
+585
+00:34:58,620 --> 00:35:00,900
+that Fourier was making
+these outrageous claims
+
+586
+00:35:00,900 --> 00:35:03,200
+that any periodic function
+should have a Fourier
+
+587
+00:35:03,200 --> 00:35:03,790
+decomposition.
+
+588
+00:35:03,790 --> 00:35:06,390
+And if you have a
+discontinuous function,
+
+589
+00:35:06,390 --> 00:35:08,580
+and if all the basis
+functions are continuous,
+
+590
+00:35:08,580 --> 00:35:11,310
+how could that make any sense?
+
+591
+00:35:11,310 --> 00:35:13,200
+This doesn't have
+any discontinuities,
+
+592
+00:35:13,200 --> 00:35:17,612
+but it does have
+slope discontinuities.
+
+593
+00:35:17,612 --> 00:35:19,276
+That's sort of the same thing.
+
+594
+00:35:19,276 --> 00:35:20,650
+If you have a
+slope discontinuity
+
+595
+00:35:20,650 --> 00:35:22,590
+and you're trying to make--
+
+596
+00:35:22,590 --> 00:35:26,530
+you're trying to represent the
+signal by a sum of signals,
+
+597
+00:35:26,530 --> 00:35:30,010
+none of whom have slope
+discontinuities, that's kind
+
+598
+00:35:30,010 --> 00:35:31,960
+of the same kind of problem.
+
+599
+00:35:31,960 --> 00:35:34,090
+One way we can think
+about it is to think
+
+600
+00:35:34,090 --> 00:35:38,860
+about how the approximation
+gets better, or fails
+
+601
+00:35:38,860 --> 00:35:42,302
+to get better, as we add terms.
+
+602
+00:35:42,302 --> 00:35:43,510
+So this is the base function.
+
+603
+00:35:43,510 --> 00:35:47,020
+This is the signal that we would
+like to represent harmonically.
+
+604
+00:35:47,020 --> 00:35:53,380
+If we just think about
+the first non-zero term,
+
+605
+00:35:53,380 --> 00:35:55,930
+the first non-zero term
+is the fundamental.
+
+606
+00:35:55,930 --> 00:35:58,420
+It actually is not bad.
+
+607
+00:35:58,420 --> 00:36:01,780
+If we were willing to accept
+errors about this big,
+
+608
+00:36:01,780 --> 00:36:04,280
+it would be OK.
+
+609
+00:36:04,280 --> 00:36:08,590
+But somehow, it doesn't
+capture much triangliness.
+
+610
+00:36:08,590 --> 00:36:10,940
+It sort of doesn't
+look much [INAUDIBLE]..
+
+611
+00:36:10,940 --> 00:36:14,380
+So the one term sort of
+catches a lot of the deviation,
+
+612
+00:36:14,380 --> 00:36:17,230
+but it doesn't capture
+the triangle aspect.
+
+613
+00:36:17,230 --> 00:36:18,940
+If you add another term--
+
+614
+00:36:18,940 --> 00:36:21,940
+the next non-zero
+term is the third one.
+
+615
+00:36:21,940 --> 00:36:25,780
+So if you write the sum of the
+first term, the k equals 1 term
+
+616
+00:36:25,780 --> 00:36:30,420
+and the k equals 3 term,
+you get this waveform.
+
+617
+00:36:30,420 --> 00:36:32,780
+Notice that the effect
+of that was to creep it
+
+618
+00:36:32,780 --> 00:36:36,390
+toward the underlying signal.
+
+619
+00:36:36,390 --> 00:36:37,830
+If you add another term--
+
+620
+00:36:37,830 --> 00:36:43,780
+5, 7, 9-- it's getting
+closer, closer, closer.
+
+621
+00:36:43,780 --> 00:36:46,420
+19 because I got bored
+making the figures,
+
+622
+00:36:46,420 --> 00:36:49,410
+so I skipped a bunch.
+
+623
+00:36:49,410 --> 00:36:52,920
+29, because I skipped a bunch.
+
+624
+00:36:52,920 --> 00:36:54,500
+39.
+
+625
+00:36:54,500 --> 00:36:55,880
+You can see that
+what's happening
+
+626
+00:36:55,880 --> 00:36:59,840
+is as we add more and
+more of those terms,
+
+627
+00:36:59,840 --> 00:37:03,089
+by the time we got up to
+number 39, it's pretty good.
+
+628
+00:37:03,089 --> 00:37:05,630
+So that probably from your seat,
+it's not altogether apparent
+
+629
+00:37:05,630 --> 00:37:06,588
+that they're different.
+
+630
+00:37:06,588 --> 00:37:08,330
+They're still different.
+
+631
+00:37:08,330 --> 00:37:12,800
+But you can see that
+there is a sense
+
+632
+00:37:12,800 --> 00:37:14,900
+in which the approximation
+is converging
+
+633
+00:37:14,900 --> 00:37:19,340
+toward the underlying signal.
+
+634
+00:37:19,340 --> 00:37:21,150
+That's good.
+
+635
+00:37:21,150 --> 00:37:23,370
+So that's a sense
+in which there is
+
+636
+00:37:23,370 --> 00:37:27,853
+a convergence between the signal
+and its Fourier representation.
+
+637
+00:37:33,276 --> 00:37:37,310
+A different kind of
+thing happens here.
+
+638
+00:37:37,310 --> 00:37:39,910
+Now, let's do the square wave.
+
+639
+00:37:39,910 --> 00:37:44,500
+If we put in the first term
+of the Fourier representation,
+
+640
+00:37:44,500 --> 00:37:48,380
+which is the fundamental, we
+get a sine wave approximation
+
+641
+00:37:48,380 --> 00:37:50,740
+which is a little worse
+perhaps for a square wave
+
+642
+00:37:50,740 --> 00:37:53,980
+than it was for a triangle wave.
+
+643
+00:37:53,980 --> 00:38:02,150
+Put in the 3rd, 5th,
+7th, 9th, 19th--
+
+644
+00:38:02,150 --> 00:38:05,610
+so I threw in 5 again--
+
+645
+00:38:05,610 --> 00:38:07,620
+29, 39.
+
+646
+00:38:10,350 --> 00:38:12,039
+It's not doing as well.
+
+647
+00:38:12,039 --> 00:38:13,080
+What's not doing as well?
+
+648
+00:38:19,250 --> 00:38:24,600
+So we go one-term partial sum--
+
+649
+00:38:24,600 --> 00:38:30,230
+2, 3, 4, 5, 20.
+
+650
+00:38:30,230 --> 00:38:33,850
+10, 15, 20.
+
+651
+00:38:33,850 --> 00:38:34,830
+Yeah.
+
+652
+00:38:34,830 --> 00:38:36,300
+AUDIENCE: It's
+not able to handle
+
+653
+00:38:36,300 --> 00:38:38,115
+the really quick transitions.
+
+654
+00:38:38,115 --> 00:38:39,740
+DENNIS FREEMAN: It's
+not able to handle
+
+655
+00:38:39,740 --> 00:38:41,090
+the really quick transition.
+
+656
+00:38:41,090 --> 00:38:43,971
+It's kind of like
+Lagrange said, right?
+
+657
+00:38:43,971 --> 00:38:46,220
+How are you going to make a
+discontinuous function out
+
+658
+00:38:46,220 --> 00:38:47,870
+of a sum of continuous ones?
+
+659
+00:38:47,870 --> 00:38:49,720
+It's hard.
+
+660
+00:38:49,720 --> 00:38:53,790
+In fact, this is
+called Gibbs phenomena,
+
+661
+00:38:53,790 --> 00:38:56,040
+after the guy who
+sort of formulated
+
+662
+00:38:56,040 --> 00:38:59,820
+the mathematics of this.
+
+663
+00:38:59,820 --> 00:39:02,310
+Even in the limit, no
+matter how many terms
+
+664
+00:39:02,310 --> 00:39:08,250
+you put into the sum, the worst
+case deviation is about 9%.
+
+665
+00:39:11,060 --> 00:39:13,260
+You can't get rid of it.
+
+666
+00:39:13,260 --> 00:39:18,900
+So in some sense,
+Lagrange is right.
+
+667
+00:39:18,900 --> 00:39:21,690
+You can't put enough
+terms in there
+
+668
+00:39:21,690 --> 00:39:25,320
+so that it converges everywhere.
+
+669
+00:39:25,320 --> 00:39:28,020
+So the problem then becomes
+that we can't really
+
+670
+00:39:28,020 --> 00:39:30,360
+think about convergence in
+the familiar ways we like
+
+671
+00:39:30,360 --> 00:39:31,710
+to think about convergence.
+
+672
+00:39:31,710 --> 00:39:35,060
+Convergence at a point is not
+a good way to think about it.
+
+673
+00:39:35,060 --> 00:39:37,370
+Because there's always a
+point that deviates a lot.
+
+674
+00:39:39,920 --> 00:39:41,870
+And in fact, in
+signal processing
+
+675
+00:39:41,870 --> 00:39:46,040
+we have lots of other ways
+we think about convergence.
+
+676
+00:39:46,040 --> 00:39:50,120
+So in addition to being
+9% overshoot, the Gibbs
+
+677
+00:39:50,120 --> 00:39:53,850
+phenomenon, what else
+do you see as the trend
+
+678
+00:39:53,850 --> 00:39:56,850
+as you increase the number
+of terms in the partial sum?
+
+679
+00:40:03,070 --> 00:40:06,580
+In addition to
+converging and staying
+
+680
+00:40:06,580 --> 00:40:10,610
+sort of the same
+height, what else
+
+681
+00:40:10,610 --> 00:40:12,720
+happened as I added
+terms to the partial sum?
+
+682
+00:40:17,690 --> 00:40:18,840
+It got skinnier.
+
+683
+00:40:21,780 --> 00:40:26,430
+The deviations got crammed
+toward the transition point.
+
+684
+00:40:26,430 --> 00:40:27,900
+And if I keep
+adding them, they'll
+
+685
+00:40:27,900 --> 00:40:30,840
+get crammed more
+and more in there.
+
+686
+00:40:30,840 --> 00:40:32,610
+And it's not like an impulse.
+
+687
+00:40:32,610 --> 00:40:34,380
+The height didn't get bigger.
+
+688
+00:40:34,380 --> 00:40:37,032
+The width got smaller.
+
+689
+00:40:37,032 --> 00:40:39,240
+Had the height got bigger,
+we'd have been in trouble.
+
+690
+00:40:41,860 --> 00:40:43,360
+Because then we
+would have said it
+
+691
+00:40:43,360 --> 00:40:45,940
+deviates from the
+square wave by having
+
+692
+00:40:45,940 --> 00:40:47,980
+an impulse at the transition.
+
+693
+00:40:47,980 --> 00:40:49,880
+It doesn't have an impulse.
+
+694
+00:40:49,880 --> 00:40:51,130
+The height's staying the same.
+
+695
+00:40:51,130 --> 00:40:53,140
+The width is smashing towards 0.
+
+696
+00:40:53,140 --> 00:40:57,450
+The energy in that signal is
+getting smaller and smaller.
+
+697
+00:40:57,450 --> 00:41:00,650
+So a different way to
+think about convergence
+
+698
+00:41:00,650 --> 00:41:03,860
+is, how big is the energy
+difference between the two
+
+699
+00:41:03,860 --> 00:41:06,060
+signals?
+
+700
+00:41:06,060 --> 00:41:10,350
+In that sense, this converges
+and Fourier's right.
+
+701
+00:41:10,350 --> 00:41:14,280
+As you add terms, the energy
+difference between the two
+
+702
+00:41:14,280 --> 00:41:16,950
+signals goes to 0.
+
+703
+00:41:16,950 --> 00:41:21,600
+That's the modern way of
+thinking about the controversy.
+
+704
+00:41:21,600 --> 00:41:24,060
+There is an issue.
+
+705
+00:41:24,060 --> 00:41:26,520
+If we choose to think
+about convergence
+
+706
+00:41:26,520 --> 00:41:28,950
+in terms of energy
+difference, then we
+
+707
+00:41:28,950 --> 00:41:30,330
+can resolve the problem.
+
+708
+00:41:30,330 --> 00:41:32,970
+That's what we'll do.
+
+709
+00:41:32,970 --> 00:41:36,060
+That's the reason in lots of
+the things that we talk about,
+
+710
+00:41:36,060 --> 00:41:39,750
+we haven't been too worried
+about single points being off
+
+711
+00:41:39,750 --> 00:41:42,106
+of curves.
+
+712
+00:41:42,106 --> 00:41:43,730
+That's come up in
+some of the homeworks
+
+713
+00:41:43,730 --> 00:41:45,790
+that we don't really
+care too much that--
+
+714
+00:41:45,790 --> 00:41:50,900
+say you have a function that is
+1 everywhere except one point.
+
+715
+00:41:50,900 --> 00:41:53,900
+There's no energy difference
+between the signal that differs
+
+716
+00:41:53,900 --> 00:41:56,058
+by 1 point and the original.
+
+717
+00:41:59,010 --> 00:42:01,990
+It has a finite height,
+but there's 0 width.
+
+718
+00:42:01,990 --> 00:42:04,060
+So there's no energy difference.
+
+719
+00:42:04,060 --> 00:42:07,330
+So that's the reason we haven't
+been so worried about that
+
+720
+00:42:07,330 --> 00:42:11,732
+because we use this kind of
+a definition of equality.
+
+721
+00:42:11,732 --> 00:42:14,190
+They're equal if there's no
+energy difference between them.
+
+722
+00:42:17,650 --> 00:42:19,900
+And using that kind of a way
+of thinking about things,
+
+723
+00:42:19,900 --> 00:42:23,740
+we get to write
+Fourier decompositions,
+
+724
+00:42:23,740 --> 00:42:26,980
+harmonic decompositions,
+for a wide range of signals.
+
+725
+00:42:26,980 --> 00:42:28,360
+Not all of them, right?
+
+726
+00:42:28,360 --> 00:42:30,980
+Fourier exaggerated.
+
+727
+00:42:30,980 --> 00:42:33,560
+But for a wide range of signals.
+
+728
+00:42:33,560 --> 00:42:35,970
+In fact, the definition
+we will typically use,
+
+729
+00:42:35,970 --> 00:42:41,690
+is signals with finite energy
+we'll be able to do this.
+
+730
+00:42:41,690 --> 00:42:44,540
+So now what I want to do is
+the last part of this lecture,
+
+731
+00:42:44,540 --> 00:42:47,885
+I want to introduce how
+thinking about a signal in terms
+
+732
+00:42:47,885 --> 00:42:49,510
+of its harmonic
+structure lets us think
+
+733
+00:42:49,510 --> 00:42:53,940
+about systems differently.
+
+734
+00:42:53,940 --> 00:42:56,300
+So here, the idea
+is we previously
+
+735
+00:42:56,300 --> 00:42:59,420
+thought about systems
+as frequency responses.
+
+736
+00:42:59,420 --> 00:43:02,270
+In a frequency response, we
+use the eigenfunction property.
+
+737
+00:43:02,270 --> 00:43:05,270
+You put in an eigenfunction, one
+of these complex exponentials.
+
+738
+00:43:05,270 --> 00:43:07,040
+You get out the same
+complex exponential
+
+739
+00:43:07,040 --> 00:43:10,040
+if the system is
+linear time invariant.
+
+740
+00:43:10,040 --> 00:43:12,555
+And the eigenvalue is the
+value of the system function
+
+741
+00:43:12,555 --> 00:43:14,180
+evaluated at the
+frequency of interest.
+
+742
+00:43:14,180 --> 00:43:16,570
+We've done that before.
+
+743
+00:43:16,570 --> 00:43:19,450
+The neat thing that happens if
+you think about Fourier series
+
+744
+00:43:19,450 --> 00:43:21,430
+is that you can
+break down the input
+
+745
+00:43:21,430 --> 00:43:26,270
+into a sum of discrete parts.
+
+746
+00:43:26,270 --> 00:43:28,780
+The first harmonic, the 0-th
+harmonic, the second harmonic,
+
+747
+00:43:28,780 --> 00:43:29,710
+the third harmonic.
+
+748
+00:43:29,710 --> 00:43:34,510
+And now, each one of those
+parts was an eigenfunction.
+
+749
+00:43:34,510 --> 00:43:38,740
+And each one of those parts
+gets preferentially amplified
+
+750
+00:43:38,740 --> 00:43:43,810
+and/or time-delayed according
+to the frequency response
+
+751
+00:43:43,810 --> 00:43:46,820
+idea for the system.
+
+752
+00:43:46,820 --> 00:43:50,180
+That lets us think about
+the effect of a system
+
+753
+00:43:50,180 --> 00:43:52,460
+is to filter the input.
+
+754
+00:43:55,730 --> 00:43:59,810
+The idea in a filter is
+that systems do not--
+
+755
+00:43:59,810 --> 00:44:01,910
+LTI systems, Linear
+Time Invariant systems--
+
+756
+00:44:01,910 --> 00:44:03,951
+the same kind of systems
+that we've been thinking
+
+757
+00:44:03,951 --> 00:44:05,060
+about all along so far.
+
+758
+00:44:05,060 --> 00:44:08,778
+Linear time invariant systems
+cannot create new frequencies.
+
+759
+00:44:11,650 --> 00:44:13,660
+If you put some
+frequency in, that's
+
+760
+00:44:13,660 --> 00:44:15,690
+the frequency that comes out.
+
+761
+00:44:15,690 --> 00:44:19,500
+We've already seen that when we
+talk about frequency response.
+
+762
+00:44:19,500 --> 00:44:22,815
+They can only scale the
+magnitude and shift the phase.
+
+763
+00:44:22,815 --> 00:44:24,907
+They can't make new
+frequencies all they can do
+
+764
+00:44:24,907 --> 00:44:26,490
+is change the amplitude
+and the phase.
+
+765
+00:44:26,490 --> 00:44:29,890
+And that's a very interesting
+way to think about a system.
+
+766
+00:44:29,890 --> 00:44:32,340
+Think about a low-pass filter.
+
+767
+00:44:32,340 --> 00:44:34,980
+Think about a system
+whose input is little vi
+
+768
+00:44:34,980 --> 00:44:36,900
+and whose output is little vo.
+
+769
+00:44:36,900 --> 00:44:39,192
+You all know how to characterize
+that a gazillion ways.
+
+770
+00:44:39,192 --> 00:44:41,733
+You would know how to write a
+differential equation for that.
+
+771
+00:44:41,733 --> 00:44:42,680
+Nod your head yes.
+
+772
+00:44:42,680 --> 00:44:43,730
+Yes, yes, yes?
+
+773
+00:44:43,730 --> 00:44:46,230
+You would know how to write
+that as a differential equation.
+
+774
+00:44:46,230 --> 00:44:47,580
+You'd be able to write
+a system function.
+
+775
+00:44:47,580 --> 00:44:49,830
+You'd be able to do a frequency
+response, a Bode plot,
+
+776
+00:44:49,830 --> 00:44:52,410
+all those sorts of things.
+
+777
+00:44:52,410 --> 00:44:53,790
+That's fine.
+
+778
+00:44:53,790 --> 00:44:58,770
+What I want to do is think
+about it instead as a filter.
+
+779
+00:44:58,770 --> 00:45:01,590
+So imagine the Bode plot.
+
+780
+00:45:01,590 --> 00:45:04,680
+The Bode plot is good, right?
+
+781
+00:45:04,680 --> 00:45:06,900
+So imagine the Bode
+plot representation
+
+782
+00:45:06,900 --> 00:45:11,080
+for the RC low-pass filter.
+
+783
+00:45:11,080 --> 00:45:13,950
+So the RC low-pass
+filter has a single pole.
+
+784
+00:45:13,950 --> 00:45:16,410
+The pole is at the
+frequency 1 over RC.
+
+785
+00:45:16,410 --> 00:45:18,740
+Minus 1 over RC.
+
+786
+00:45:18,740 --> 00:45:20,070
+Bode plot looks like so.
+
+787
+00:45:20,070 --> 00:45:23,610
+Magnitude has an asymptote
+at low frequencies
+
+788
+00:45:23,610 --> 00:45:24,510
+that is a constant.
+
+789
+00:45:24,510 --> 00:45:27,540
+At high frequencies, it's
+sloping with minus 1.
+
+790
+00:45:27,540 --> 00:45:31,670
+Or, as we would say,
+minus 20 dB per decade.
+
+791
+00:45:31,670 --> 00:45:33,597
+And it has some sort
+of phase response.
+
+792
+00:45:33,597 --> 00:45:34,930
+Low frequencies, the phase is 0.
+
+793
+00:45:34,930 --> 00:45:39,120
+High frequencies, the
+phase lags by pi over 2.
+
+794
+00:45:39,120 --> 00:45:42,750
+But now, let's think about
+exciting it with a square wave.
+
+795
+00:45:42,750 --> 00:45:45,750
+Square wave is what we've
+been thinking about.
+
+796
+00:45:45,750 --> 00:45:51,450
+Square wave has a harmonic
+structure that falls with k.
+
+797
+00:45:51,450 --> 00:45:58,800
+So if we represent k equals
+1, 3, 5, 7, 9 on a log scale,
+
+798
+00:45:58,800 --> 00:46:02,110
+falling with k is
+a linear slope.
+
+799
+00:46:02,110 --> 00:46:04,980
+So this linear decrease
+in amplitude height
+
+800
+00:46:04,980 --> 00:46:08,190
+is the reciprocal over here.
+
+801
+00:46:08,190 --> 00:46:10,970
+It's the idea of a log, right?
+
+802
+00:46:10,970 --> 00:46:13,310
+So we can represent the
+signal, the square wave,
+
+803
+00:46:13,310 --> 00:46:16,920
+by this amplitude spectrum.
+
+804
+00:46:16,920 --> 00:46:18,480
+How big are the
+components at all
+
+805
+00:46:18,480 --> 00:46:19,500
+of the different frequencies?
+
+806
+00:46:19,500 --> 00:46:21,375
+Well, there's only a
+discrete number of them.
+
+807
+00:46:21,375 --> 00:46:23,550
+There's the k equals 1
+one, the k equals 3 one,
+
+808
+00:46:23,550 --> 00:46:25,320
+the k equals 5 one, et cetera.
+
+809
+00:46:25,320 --> 00:46:27,270
+Each one represented
+by a straight line.
+
+810
+00:46:27,270 --> 00:46:30,830
+And they all have phase of minus
+pi over 2 because of the j.
+
+811
+00:46:34,100 --> 00:46:38,030
+Now, if you were to
+choose the base frequency
+
+812
+00:46:38,030 --> 00:46:47,200
+for the square wave so that
+2 pi over capital T omega 0
+
+813
+00:46:47,200 --> 00:46:52,880
+is small compared to
+the cutoff frequency
+
+814
+00:46:52,880 --> 00:46:56,400
+for the low-pass
+filter, what would
+
+815
+00:46:56,400 --> 00:47:04,380
+be the effect on these
+amplitudes of this filter?
+
+816
+00:47:04,380 --> 00:47:05,880
+Well, the magnitude is 1.
+
+817
+00:47:05,880 --> 00:47:09,360
+So if you go to arbitrarily
+low frequencies,
+
+818
+00:47:09,360 --> 00:47:11,580
+the magnitude is
+arbitrarily close to 1.
+
+819
+00:47:11,580 --> 00:47:14,730
+If the phase is arbitrarily
+close to pi over 2,
+
+820
+00:47:14,730 --> 00:47:15,480
+what would happen?
+
+821
+00:47:18,702 --> 00:47:20,910
+Excuse me, the phase would
+be arbitrarily close to 0.
+
+822
+00:47:20,910 --> 00:47:21,570
+Sorry.
+
+823
+00:47:21,570 --> 00:47:23,920
+I'm supposed to be going
+to very low frequencies.
+
+824
+00:47:23,920 --> 00:47:27,540
+If I go to very low
+frequencies, the phase is 0.
+
+825
+00:47:27,540 --> 00:47:29,850
+If the amplitude is
+arbitrary close to 1,
+
+826
+00:47:29,850 --> 00:47:31,860
+the phase is
+arbitrarily close to 0.
+
+827
+00:47:31,860 --> 00:47:34,557
+And if the input is represented
+by the red lines, what's
+
+828
+00:47:34,557 --> 00:47:35,640
+the output represented by?
+
+829
+00:47:38,930 --> 00:47:42,420
+Same red lines, right?
+
+830
+00:47:42,420 --> 00:47:46,010
+Each red line is
+multiplied by 1 at angle 0.
+
+831
+00:47:48,530 --> 00:47:51,290
+So the output has the
+same shape as the input.
+
+832
+00:47:54,370 --> 00:48:00,730
+If, however, I shift the
+period to be shorter,
+
+833
+00:48:00,730 --> 00:48:04,620
+so that omega 0
+is higher, then I
+
+834
+00:48:04,620 --> 00:48:07,050
+can have some of the
+higher frequencies
+
+835
+00:48:07,050 --> 00:48:12,070
+fall into the region
+of sloping magnitude.
+
+836
+00:48:12,070 --> 00:48:15,340
+I can have some of the
+phases fall into the region
+
+837
+00:48:15,340 --> 00:48:19,480
+where the phase is
+minus pi over 2.
+
+838
+00:48:19,480 --> 00:48:22,030
+The way to think about
+it is the fundamental
+
+839
+00:48:22,030 --> 00:48:26,380
+is still going through the place
+with unity gain phase of 0.
+
+840
+00:48:26,380 --> 00:48:29,080
+The basic shape is determined
+by the fundamental.
+
+841
+00:48:29,080 --> 00:48:32,390
+The basic shape comes through.
+
+842
+00:48:32,390 --> 00:48:34,610
+But now the high frequencies
+are being altered
+
+843
+00:48:34,610 --> 00:48:37,130
+and their phase relationship
+is being altered.
+
+844
+00:48:37,130 --> 00:48:41,360
+And that's why the
+shape is different.
+
+845
+00:48:41,360 --> 00:48:45,110
+If you go to still
+higher frequencies,
+
+846
+00:48:45,110 --> 00:48:48,560
+more of the components
+are filtered.
+
+847
+00:48:48,560 --> 00:48:51,650
+Each component gets sent
+through the frequency response.
+
+848
+00:48:51,650 --> 00:48:54,290
+And its amplitude and phase
+are modified appropriately.
+
+849
+00:48:54,290 --> 00:48:57,680
+And if you go to extremely
+high frequencies,
+
+850
+00:48:57,680 --> 00:49:03,670
+then all of the
+magnitudes are multiplied
+
+851
+00:49:03,670 --> 00:49:05,800
+by this sloping down line.
+
+852
+00:49:05,800 --> 00:49:09,340
+We turn k convergence-- we
+turn the reciprocal in k
+
+853
+00:49:09,340 --> 00:49:11,770
+into a reciprocal on k squared.
+
+854
+00:49:11,770 --> 00:49:15,650
+Where have we seen that before?
+
+855
+00:49:15,650 --> 00:49:20,000
+That was the decomposition
+for the triangle wave.
+
+856
+00:49:20,000 --> 00:49:24,450
+So the answer comes out
+looking like a triangle wave.
+
+857
+00:49:24,450 --> 00:49:27,560
+The point being that
+in addition to thinking
+
+858
+00:49:27,560 --> 00:49:30,130
+about how the system works in
+terms of feeding frequencies
+
+859
+00:49:30,130 --> 00:49:31,550
+through it, now
+we think about how
+
+860
+00:49:31,550 --> 00:49:36,460
+signals work by breaking
+them up into frequency parts.
+
+861
+00:49:36,460 --> 00:49:39,370
+And the whole system
+then is reduced to,
+
+862
+00:49:39,370 --> 00:49:43,010
+how does the system
+modify that component?
+
+863
+00:49:43,010 --> 00:49:44,920
+So that gives rise to
+the idea of thinking
+
+864
+00:49:44,920 --> 00:49:48,490
+about the system as a filter.
+
+865
+00:49:48,490 --> 00:49:50,830
+LTI systems do not
+generate new frequencies.
+
+866
+00:49:50,830 --> 00:49:53,200
+All they do is modify
+the amplitude and phase
+
+867
+00:49:53,200 --> 00:49:54,550
+of existing frequencies.
+
+868
+00:49:54,550 --> 00:49:57,100
+If you enumerate all of
+the existing frequencies,
+
+869
+00:49:57,100 --> 00:49:58,960
+you can just go
+through them one by one
+
+870
+00:49:58,960 --> 00:50:00,700
+and figure out
+how they come out.
+
+871
+00:50:00,700 --> 00:50:04,062
+And that's an equivalent way of
+thinking about an LTI system.
+
+872
+00:50:04,062 --> 00:50:05,770
+And that's the kind
+of a focus that we'll
+
+873
+00:50:05,770 --> 00:50:09,100
+use in the remaining
+part of the course.
+
+874
+00:50:09,100 --> 00:50:10,350
+OK,

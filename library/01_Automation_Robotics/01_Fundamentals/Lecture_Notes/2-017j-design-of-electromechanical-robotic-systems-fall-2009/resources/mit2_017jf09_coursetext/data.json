@@ -1,0 +1,41 @@
+{
+  "audience": [],
+  "content": "<p>Textbook on system design for uncertainty. Topics include: linear systems, probability events, random processes, short term statistics, water waves, optimization, stochastic simulation, kinematics of moving frames, vehicle internal dynamics, control fundamentals, control systems, loop shaping, and math facts.</p>\n<p><strong>Complete open textbook for this course:</strong> Hover, Franz S., and Michael S. Triantafyllou. <a href=\"../../resources/mit2_017j_f09_coursetextbook_pdf/index.html\"><em>System Design for Uncertainty</em></a>. Cambridge, MA: MIT Center for Ocean Engineering, 2010. (Courtesy of Michael S. Triantafyllou. Used with permission.) </p>\n<p>The key ingredient in this course - and what differentiates it from many other related courses - is the uncertainty that is encountered whenever a built system is actually installed in the field. We may find uncertainty in the operating environment, whether it is a windy airspace, a bumpy road, or an obstacle-strewn factory floor. We also find uncertainty in the parameters that define a system, for example, masses and stiffnesses and dampings, torque constants, and physical size. Finally, since complex electromechanical systems involve sensors and actuators, we have to acknowledge uncertainty in measurement and feedback control. Ultimately, such systems are meant to accomplish specific objectives, and the designer&rsquo;s task is to achieve robustness, performance, and cost-effectiveness in the presence of uncertainty.</p>\n<p>The notes given here are terse but intended to be self-contained. The goal is to provide fundamental relations useful for modeling and creating systems that have to operate with uncertainty. As a motivation, we focus a lot of attention on ocean waves as a prototypical random environment, and carry out simplified, linear motion and force analysis for marine structures and vehicles. A separate compilation of solved homework problems is also available on the <a href=\"../../pages/assignments/index.html\">assignments</a> page.</p>\n",
+  "content_type": "resource",
+  "description": "Textbook on system design for uncertainty. Topics include: linear systems, probability events, random processes, short term statistics, water waves, optimization, stochastic simulation, kinematics of moving frames, vehicle internal dynamics, control fundamentals, control systems, loop shaping, and math facts.",
+  "draft": false,
+  "file": "/courses/2-017j-design-of-electromechanical-robotic-systems-fall-2009/MIT2_017JF09_coursetext.pdf",
+  "file_size": 1348909,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Course Text",
+  "parent_type": "CourseSection",
+  "parent_uid": "a1ae82bd-baca-7740-562c-d1f0ae24300c",
+  "resourcetype": "Document",
+  "title": "System Design for Uncertainty old",
+  "uid": "41e4cc0e-5a0e-bd84-5ea4-f5e7c055fdf7",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

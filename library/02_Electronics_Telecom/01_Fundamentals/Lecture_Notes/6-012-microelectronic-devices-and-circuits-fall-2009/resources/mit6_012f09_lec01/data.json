@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture presentation with an introduction to semiconductors, doping, generation/recombination, TE carrier concentrations, carrier dynamics, transport, and drift.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture presentation with an introduction to semiconductors, doping, generation/recombination, TE carrier concentrations, carrier dynamics, transport, and drift.",
+  "draft": false,
+  "file": "/courses/6-012-microelectronic-devices-and-circuits-fall-2009/a37c73e7fcff4bcb5c5f1177e12d0891_MIT6_012F09_lec01.pdf",
+  "file_size": 568710,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "e4c7985c-766a-2f9c-5bac-08869dd8bade",
+  "resourcetype": "Document",
+  "title": "Lecture 1 - Introduction to Semiconductors",
+  "uid": "a37c73e7-fcff-4bcb-5c5f-1177e12d0891"
+}

@@ -1,0 +1,100 @@
+{
+  "course_description": "This course provides an introduction to the design of feedback systems. Topics covered include: properties and advantages of feedback systems, time-domain and frequency-domain performance measures, stability and degree of stability, root locus method, Nyquist criterion, frequency-domain design, compensation techniques, application to a wide variety of physical systems, internal and external compensation of operational amplifiers, modeling and compensation of power converter systems, and phase lock loops.\n",
+  "course_description_html": "This course provides an introduction to the design of feedback systems. Topics covered include: properties and advantages of feedback systems, time-domain and frequency-domain performance measures, stability and degree of stability, root locus method, Nyquist criterion, frequency-domain design, compensation techniques, application to a wide variety of physical systems, internal and external compensation of operational amplifiers, modeling and compensation of power converter systems, and phase lock loops.",
+  "course_image": {
+    "content": "0b38723b-e176-5ac6-cf36-43e0dfd813f2",
+    "website": "6-302-feedback-systems-spring-2007"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "Magnetic levitation, demonstrated in this photograph, is the topic of one of the design project options. (Image courtesy of Dr. Kent Lundberg.)",
+    "draft": false,
+    "file": "/courses/6-302-feedback-systems-spring-2007/0b38723be1765ac6cf3643e0dfd813f2_6-302s07.jpg",
+    "file_size": 84955,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "Magnetic levitation, demonstrated in this photograph, is the topic of one of the design project options. (Image courtesy of Dr. Kent Lundberg.)",
+      "credit": "",
+      "image-alt": "Photograph of magnetic levitation demonstration."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "6-302s07.jpg",
+    "uid": "0b38723b-e176-5ac6-cf36-43e0dfd813f2"
+  },
+  "course_image_thumbnail": {
+    "content": "3b81c321-8631-e8bb-d0c7-2d66e3d8e1e6",
+    "website": "6-302-feedback-systems-spring-2007"
+  },
+  "course_title": "Feedback Systems",
+  "department_numbers": [
+    "6"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/0b38723be1765ac6cf3643e0dfd813f2_6-302s07.jpg",
+  "instructors": [
+    {
+      "first_name": "James",
+      "last_name": "Roberge",
+      "middle_initial": "",
+      "salutation": "",
+      "title": "James Roberge",
+      "uid": "2540e332-fb7c-3c41-dc22-b19ac86c5c44",
+      "url": "https://ocw.mit.edu/search/?q=James+Roberge"
+    },
+    {
+      "first_name": "Joel",
+      "last_name": "Dawson",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Joel Dawson",
+      "uid": "0812605e-e78e-7c6f-697a-61ff1e934d91",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Joel+Dawson"
+    },
+    {
+      "first_name": "Kent",
+      "last_name": "Lundberg",
+      "middle_initial": "",
+      "salutation": "Dr.",
+      "title": "Dr. Kent Lundberg",
+      "uid": "c67d7e35-e938-0d98-f391-7c48b893af2c",
+      "url": "https://ocw.mit.edu/search/?q=Dr.+Kent+Lundberg"
+    }
+  ],
+  "learning_resource_types": [
+    "Problem Sets",
+    "Exams"
+  ],
+  "legacy_uid": "d3fd299c-5d9b-a6f8-6784-d4302f233e8c",
+  "level": [
+    "Graduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Engineering",
+      "Electrical Engineering"
+    ]
+  ],
+  "primary_course_number": "6.302",
+  "site_short_id": "6.302-spring-2007",
+  "site_uid": "69285c1f-92ab-41b1-aa00-3dca42f0571a",
+  "site_url_path": "courses/6-302-feedback-systems-spring-2007",
+  "term": "Spring",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Engineering",
+      "Electrical Engineering",
+      "Electronics"
+    ],
+    [
+      "Engineering",
+      "Electrical Engineering",
+      "Robotics and Control Systems"
+    ]
+  ],
+  "year": "2007"
+}

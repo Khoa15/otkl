@@ -1,0 +1,94 @@
+{
+  "course_description": "6.012 is the header course for the department's \"Devices, Circuits and Systems\" concentration. The topics covered include modeling of microelectronic devices, basic microelectronic circuit analysis and design, physical electronics of semiconductor junction and MOS devices, relation of electrical behavior to internal physical processes, development of circuit models, and understanding the uses and limitations of various models. The course uses incremental and large-signal techniques to analyze and design bipolar and field effect transistor circuits, with examples chosen from digital circuits, single-ended and differential linear amplifiers, and other integrated circuits.\n",
+  "course_description_html": "6.012 is the header course for the department&rsquo;s &ldquo;Devices, Circuits and Systems&rdquo; concentration. The topics covered include modeling of microelectronic devices, basic microelectronic circuit analysis and design, physical electronics of semiconductor junction and MOS devices, relation of electrical behavior to internal physical processes, development of circuit models, and understanding the uses and limitations of various models. The course uses incremental and large-signal techniques to analyze and design bipolar and field effect transistor circuits, with examples chosen from digital circuits, single-ended and differential linear amplifiers, and other integrated circuits.",
+  "course_image": {
+    "content": "ef5a9d2f-1b37-ef4b-06fa-51af41dab537",
+    "website": "6-012-microelectronic-devices-and-circuits-fall-2009"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "A simplified schematic of the design problem circuit.  A full description of the 6.012 design problem can be found in the Assignments section. (Image by Prof. Clifton Fonstad.)",
+    "draft": false,
+    "file": "/courses/6-012-microelectronic-devices-and-circuits-fall-2009/ef5a9d2f1b37ef4b06fa51af41dab537_6-012f09.jpg",
+    "file_size": 51615,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "A simplified schematic of the design problem circuit. A full description of the 6.012 design problem can be found in the [Assignments](/courses/6-012-microelectronic-devices-and-circuits-fall-2009/pages/assignments) section. (Image by Prof. Clifton Fonstad.)",
+      "credit": "",
+      "image-alt": "A simplified circuit diagram for the design problem."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "A simplified circuit diagram for the design problem",
+    "uid": "ef5a9d2f-1b37-ef4b-06fa-51af41dab537"
+  },
+  "course_image_thumbnail": {
+    "content": "31a69a3f-0278-991a-58c7-3a50df467742",
+    "website": "6-012-microelectronic-devices-and-circuits-fall-2009"
+  },
+  "course_title": "Microelectronic Devices and Circuits",
+  "department_numbers": [
+    "6"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/ef5a9d2f1b37ef4b06fa51af41dab537_6-012f09.jpg",
+  "instructors": [
+    {
+      "first_name": "Clifton",
+      "last_name": "Fonstad",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Clifton Fonstad",
+      "uid": "d7d851c4-00a9-b5d5-cd43-6265fe7c68f2",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Clifton+Fonstad"
+    }
+  ],
+  "learning_resource_types": [
+    "Problem Sets",
+    "Lecture Notes",
+    "Projects",
+    "Design Assignments",
+    "Exams",
+    "Exam Solutions"
+  ],
+  "legacy_uid": "93e712eb-9771-73ec-5a28-bdcd1c8e19e7",
+  "level": [
+    "Undergraduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Data Science, Analytics & Computer Technology",
+      "Computer Science"
+    ],
+    [
+      "Engineering",
+      "Electrical Engineering"
+    ],
+    [
+      "Data Science, Analytics & Computer Technology",
+      "Software Design and Engineering"
+    ]
+  ],
+  "primary_course_number": "6.012",
+  "site_short_id": "6.012-fall-2009",
+  "site_uid": "60739816-6f55-4046-ad97-df8933f4e806",
+  "site_url_path": "courses/6-012-microelectronic-devices-and-circuits-fall-2009",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Engineering",
+      "Computer Science",
+      "Computer Design and Engineering"
+    ],
+    [
+      "Engineering",
+      "Electrical Engineering",
+      "Electronics"
+    ]
+  ],
+  "year": "2009"
+}

@@ -1,0 +1,39 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "26846119",
+  "file_type": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Resource Index",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "行列式和体积",
+  "uid": "c1f8623e-44a4-6efd-c5eb-9962ae31ecd3",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110531_L4_zh-hans-cmn_300k.mp4",
+    "video_captions_file": null,
+    "video_thumbnail_file": "https://img.youtube.com/vi/ZuWAwCEMeWE/default.jpg",
+    "video_transcript_file": null
+  },
+  "video_metadata": {
+    "video_tags": "18-06sc-linear-algebra-fall-2011, 线性代数，行列式，体积",
+    "youtube_id": "ZuWAwCEMeWE"
+  }
+}

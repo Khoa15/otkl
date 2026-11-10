@@ -1,0 +1,22 @@
+1. Complete Linkage
+
+[Group 1: 10 sample(s)]
+10 AML samples
+
+[Group 2: 28 sample(s)]
+27 ALL samples
+1 AML sample
+
+Cluster sizes: 28, 10
+
+
+2. Single Linkage
+
+[Group 1: 1 sample(s)]
+1 AML sample
+
+[Group 2: 37 sample(s)]
+27 ALL samples
+10 AML samples
+
+Cluster sizes: 37, 1

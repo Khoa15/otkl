@@ -1,0 +1,27 @@
+{
+  "content": "<p>Thumbnail image accompanying a video lecture on computational science and engineering.</p>\n",
+  "content_type": "resource",
+  "description": "Thumbnail image accompanying a video lecture on computational science and engineering.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/99f5749033dfb95e51d726b7855f529d_1.jpg",
+  "file_size": 2725,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Lecture 1",
+  "uid": "99f57490-33df-b95e-51d7-26b7855f529d",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>Problem Set.</p>\n",
+  "content_type": "resource",
+  "description": "Problem Set.",
+  "draft": false,
+  "file": "/courses/7-03-genetics-fall-2004/2926327e62374bf0fb19bf5f5a841507_pset5.pdf",
+  "file_size": 113083,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "439282d7-2438-1439-aa2a-634bf6e6428c",
+  "resourcetype": "Document",
+  "title": "pset5.pdf",
+  "uid": "2926327e-6237-4bf0-fb19-bf5f5a841507",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "7-03-genetics-fall-2004"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "7-03-genetics-fall-2004"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

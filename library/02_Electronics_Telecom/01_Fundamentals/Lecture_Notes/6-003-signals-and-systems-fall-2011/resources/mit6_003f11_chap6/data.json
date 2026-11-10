@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource contains information on chapter 6 of book signals and systems; the perfect (sine) wave.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information on chapter 6 of book signals and systems; the perfect (sine) wave.",
+  "draft": false,
+  "file": "/courses/6-003-signals-and-systems-fall-2011/0cda880cbbf1051a073c74d23448b651_MIT6_003F11_chap6.pdf",
+  "file_size": 153784,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Readings"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Readings",
+  "parent_type": "CourseSection",
+  "parent_uid": "998c6675-6fd3-dc4c-dcec-292568f6e2aa",
+  "resourcetype": "Document",
+  "title": "Chapter 6: The perfect (sine) wave",
+  "uid": "0cda880c-bbf1-051a-073c-74d23448b651",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-003-signals-and-systems-fall-2011"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-003-signals-and-systems-fall-2011"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

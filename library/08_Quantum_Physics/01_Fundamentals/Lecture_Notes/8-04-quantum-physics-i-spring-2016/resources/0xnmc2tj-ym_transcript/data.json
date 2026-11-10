@@ -1,0 +1,22 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/8-04-quantum-physics-i-spring-2016/0xNmc2tJ-YM_transcript.pdf",
+  "file_size": 30764,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "resourcetype": "Document",
+  "title": "More on superposition. General state of a photon and spin states transcript",
+  "uid": "d6d51d61-9cb5-4cdc-9b53-18cdf9d3031a",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": "0xNmc2tJ-YM"
+  }
+}

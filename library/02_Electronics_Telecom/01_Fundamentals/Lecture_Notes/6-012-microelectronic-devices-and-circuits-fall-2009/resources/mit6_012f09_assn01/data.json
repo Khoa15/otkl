@@ -1,0 +1,47 @@
+{
+  "content": "<p>Problem set on microelectronic devices and circuits.</p>\n",
+  "content_type": "resource",
+  "description": "Problem set on microelectronic devices and circuits.",
+  "draft": false,
+  "file": "/courses/6-012-microelectronic-devices-and-circuits-fall-2009/a68e25156eabfde7b8e2dbe7374541f6_MIT6_012F09_assn01.pdf",
+  "file_size": 98384,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "a93377e0-e95f-7a5f-8e5f-1a07e05635ce",
+  "resourcetype": "Document",
+  "title": "Problem Set No. 1",
+  "uid": "a68e2515-6eab-fde7-b8e2-dbe7374541f6",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-012-microelectronic-devices-and-circuits-fall-2009"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-012-microelectronic-devices-and-circuits-fall-2009"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

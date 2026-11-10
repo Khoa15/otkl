@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture Slides: DNA 1</title>
+      <link>/resources/02coct01d1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/02coct01d1/data.json</guid>
+      <description>&lt;p&gt;DNA 1: Genome Sequencing, Polymorphisms, Populations, Statistics, Pharmacogenomics; Databases&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Slides: DNA 2</title>
+      <link>/resources/02doct08d2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/02doct08d2/data.json</guid>
+      <description>&lt;p&gt;DNA 2: Dynamic Programming, Blast, Multi-alignment, Hidden Markov Models&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Slides: Intro 1</title>
+      <link>/resources/02asep17i1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/02asep17i1/data.json</guid>
+      <description>&lt;p&gt;Intro 1: Computational Side of Computational Biology. Statistics; Perl, Mathematica&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Slides: Intro 2</title>
+      <link>/resources/02bsep24i2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/02bsep24i2/data.json</guid>
+      <description>&lt;p&gt;Intro 2: Biological Side of Computational Biology. Comparative Genomics, Models &amp;amp; Applications&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Slides: Networks 1</title>
+      <link>/resources/02inov12n1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/02inov12n1/data.json</guid>
+      <description>&lt;p&gt;Networks 1: Systems Biology, Metabolic Kinetic &amp;amp; Flux Balance Optimization Methods&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Slides: Networks 2</title>
+      <link>/resources/02jnov19n2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/02jnov19n2/data.json</guid>
+      <description>&lt;p&gt;Networks 2: Molecular Computing, Self-assembly, Genetic Algorithms, Neural Networks&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Slides: Networks 3</title>
+      <link>/resources/02knov26n3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/02knov26n3/data.json</guid>
+      <description>&lt;p&gt;Networks 3: The Future of Computational Biology: Cellular, Developmental, Social, Ecological &amp;amp; Commercial Models&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Slides: Protein 1</title>
+      <link>/resources/02foct29p1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/02foct29p1/data.json</guid>
+      <description>&lt;p&gt;Protein 1: 3D Structural Genomics, Homology, Catalytic and Regulatory Dynamics, Function &amp;amp; Drug Design&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Slides: Protein 2</title>
+      <link>/resources/02hnov05p2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/02hnov05p2/data.json</guid>
+      <description>&lt;p&gt;Protein 2: Mass Spectrometry, Post-synthetic Modifications, Quantitation of Proteins, Metabolites, &amp;amp; Interactions&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Slides: RNA 1</title>
+      <link>/resources/02eoct15r1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/02eoct15r1/data.json</guid>
+      <description>&lt;p&gt;RNA 1: Microarrays, Library Sequencing and Quantitation Concepts&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Slides: RNA 2</title>
+      <link>/resources/02foct22r2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/02foct22r2/data.json</guid>
+      <description>&lt;p&gt;RNA 2: Clustering by Gene or Condition and Other Regulon Data Sources Nucleic Acid Motifs; The Nature of Biological &amp;ldquo;proofs&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

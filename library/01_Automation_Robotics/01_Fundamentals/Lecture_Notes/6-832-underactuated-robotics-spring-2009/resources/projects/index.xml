@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on MIT OpenCourseWare</title>
+    <link>/resources/projects/</link>
+    <description>Recent content in Projects on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>/pages/projects/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/projects/data.json</guid>
+      <description>&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;The goal of the final project is to carry out a thoughtful experiment or analysis on an underactuated robot, an algorithm for an underactuated control, or a combination of both. It should involve some elements of dynamics (designing the dynamics or analysis of dynamics with or without control) and/or control, depending on the emphasis of your project. Use of the computational machinery emphasized in class, however, is required. The use of real hardware (if and when it is possible) is cautiously encouraged, providing that it does not come at the expense of a careful analysis.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

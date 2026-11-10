@@ -1,0 +1,21 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/16-485-visual-navigation-for-autonomous-vehicles-vnav-fall-2020/dc072e1b95186281012a7afabb9b3379_MIT16_485F20_lec24.pdf",
+  "file_size": 2070560,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "e5f53240-de03-08ce-bf8f-a9b8873390ea",
+  "resourcetype": "Document",
+  "title": "MIT 16.485 Visual Navigation for Autonomous Vehicels-LecSlides24",
+  "uid": "dc072e1b-9518-6281-012a-7afabb9b3379"
+}

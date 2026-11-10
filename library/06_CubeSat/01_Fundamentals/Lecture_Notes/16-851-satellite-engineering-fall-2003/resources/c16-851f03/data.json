@@ -1,0 +1,21 @@
+{
+  "content": "<p>The Power and Pyrotechnics Subsystem (PPS) of the Cassini Orbiter, which arrived at Saturn on July 1, 2004, having traveled 3.5 billion kilometers across the solar system. (Courtesy of NASA/JPL-Caltech.)</p>\n",
+  "content_type": "resource",
+  "description": "The Power and Pyrotechnics Subsystem (PPS) of the Cassini Orbiter, which arrived at Saturn on July 1, 2004, having traveled 3.5 billion kilometers across the solar system. (Courtesy of NASA/JPL-Caltech.)",
+  "draft": false,
+  "file": "/courses/16-851-satellite-engineering-fall-2003/ae8609b3b01123f6393f7bc8bb24193f_c16-851f03.jpg",
+  "file_size": 136755,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "The Power and Pyrotechnics Subsystem (PPS) of the Cassini Orbiter, which arrived at Saturn on July 1, 2004, having traveled 3.5 billion kilometers across the solar system. (Courtesy of {{% resource_link \"1dc3ec2a-1436-4fbb-94e4-60b95b08d495\" \"NASA\" %}}/JPL-Caltech.)",
+    "credit": "",
+    "image-alt": "A photo of an electronic circuit board."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "16-851f03.jpg",
+  "uid": "ae8609b3-b011-23f6-393f-7bc8bb24193f"
+}

@@ -1,0 +1,21 @@
+{
+  "content": "<p>Take-home quiz on the motor lab.</p>\n",
+  "content_type": "resource",
+  "description": "Take-home quiz on the motor lab.",
+  "draft": false,
+  "file": "/courses/6-302-feedback-systems-spring-2007/455e9564e2d7bea97bbd1a0e588e8023_motor_lab.pdf",
+  "file_size": 173733,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Laboratory Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Labs",
+  "parent_type": "CourseSection",
+  "parent_uid": "d764ed48-894c-f4be-6a81-65cf1ec5a2c6",
+  "resourcetype": "Document",
+  "title": "motor_lab.pdf",
+  "uid": "455e9564-e2d7-bea9-7bbd-1a0e588e8023"
+}

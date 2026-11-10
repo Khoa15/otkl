@@ -1,0 +1,87 @@
+{
+  "course_description": "This course examines electric and magnetic quasistatic forms of Maxwell's equations applied to dielectric, conduction, and magnetization boundary value problems. Topics covered include: electromagnetic forces, force densities, and stress tensors, including magnetization and polarization; thermodynamics of electromagnetic fields, equations of motion, and energy conservation; applications to synchronous, induction, and commutator machines; sensors and transducers; microelectromechanical systems; propagation and stability of electromechanical waves; and charge transport phenomena.\n\n##### Acknowledgments\n\nThe instructor would like to thank Thomas Larsen and Matthew Pegler for transcribing into LaTeX the homework problems, homework solutions, and exam solutions.\n",
+  "course_description_html": "<p>This course examines electric and magnetic quasistatic forms of Maxwell&rsquo;s equations applied to dielectric, conduction, and magnetization boundary value problems. Topics covered include: electromagnetic forces, force densities, and stress tensors, including magnetization and polarization; thermodynamics of electromagnetic fields, equations of motion, and energy conservation; applications to synchronous, induction, and commutator machines; sensors and transducers; microelectromechanical systems; propagation and stability of electromechanical waves; and charge transport phenomena.</p>\n<h5 id=\"acknowledgments\">Acknowledgments</h5>\n<p>The instructor would like to thank Thomas Larsen and Matthew Pegler for transcribing into LaTeX the homework problems, homework solutions, and exam solutions.</p>\n",
+  "course_image": {
+    "content": "bd67f30b-3755-9925-5596-de1d4fece37a",
+    "website": "6-641-electromagnetic-fields-forces-and-motion-spring-2009"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "Magnetohydrodynamic generator from the 2003 final exam. The C-core magnetic circuit is excited by a field coil that carries a current and has a rectangular channel with moving conductive fluid that passes through the magnetic circuit gap. (Image by Prof. Markus Zahn.)",
+    "draft": false,
+    "file": "/courses/6-641-electromagnetic-fields-forces-and-motion-spring-2009/6-641s09.jpg",
+    "file_size": 51343,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "Magnetohydrodynamic generator from the 2003 final exam ([PDF](/courses/6-641-electromagnetic-fields-forces-and-motion-spring-2009/resources/mit6_641s09_chp_final1)). The C-core magnetic circuit is excited by a field coil that carries a current and has a rectangular channel with moving conductive fluid that passes through the magnetic circuit gap. (Image by Prof. Markus Zahn.)",
+      "credit": "",
+      "image-alt": "Diagram of a magnetohydrodynamic generator."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "Diagram of a magnetohydrodynamic generator",
+    "uid": "bd67f30b-3755-9925-5596-de1d4fece37a",
+    "video_files": {
+      "video_thumbnail_file": null
+    },
+    "video_metadata": {
+      "youtube_id": null
+    }
+  },
+  "course_image_thumbnail": {
+    "content": "73801f88-f4af-f0da-4ea0-dbe928ec3b91",
+    "website": "6-641-electromagnetic-fields-forces-and-motion-spring-2009"
+  },
+  "course_title": "Electromagnetic Fields, Forces, and Motion",
+  "department_numbers": [
+    "6"
+  ],
+  "extra_course_numbers": "",
+  "hide_download": false,
+  "image_src": "./static_resources/6-641s09.jpg",
+  "instructors": [
+    {
+      "first_name": "Markus",
+      "last_name": "Zahn",
+      "middle_initial": "",
+      "salutation": "",
+      "title": "Markus Zahn",
+      "uid": "563af061-106b-b1e4-e8d2-bc3d6873e258",
+      "url": "https://ocw.mit.edu/search/?q=Markus+Zahn"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Notes",
+    "Problem Sets",
+    "Problem Set Solutions",
+    "Exams",
+    "Exam Solutions"
+  ],
+  "legacy_uid": "3203c9e7-2a1b-6a8f-8fbe-9fe84dbb9a4b",
+  "level": [
+    "Graduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Science & Math",
+      "Physics"
+    ]
+  ],
+  "primary_course_number": "6.641",
+  "site_short_id": "6.641-spring-2009",
+  "site_uid": "561395f8-8c62-41e6-bd43-299f8b3ebb76",
+  "site_url_path": "courses/6-641-electromagnetic-fields-forces-and-motion-spring-2009",
+  "term": "Spring",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Science",
+      "Physics",
+      "Electromagnetism"
+    ]
+  ],
+  "year": "2009"
+}

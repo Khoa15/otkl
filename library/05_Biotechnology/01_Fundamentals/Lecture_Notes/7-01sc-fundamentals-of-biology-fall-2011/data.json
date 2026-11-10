@@ -1,0 +1,135 @@
+{
+  "course_description": "_Fundamentals of Biology_ focuses on the basic principles of biochemistry, molecular biology, genetics, and recombinant DNA. These principles are necessary to understanding the basic mechanisms of life and anchor the biological knowledge that is required to understand many of the challenges in everyday life, from human health and disease to loss of biodiversity and environmental quality.\n##### Course Format\n\n* * *\n\n[![Click to get started.](/images/button_start.png)](pages/syllabus) This course has been designed for independent study. It consists of four units, one for each topic. The units can be used individually or in combination. The materials for each unit include:\n\n*   **Lecture Videos** by MIT faculty.\n*   Learning activities, including **Interactive Concept Quizzes**, designed to reinforce main concepts from lectures.\n*   **Problem Sets** you do on your own and check your answers against the **Solutions** when you're done.\n*   **Problem Solving Video** help sessions taught by experienced MIT Teaching Assistants.\n*   Lists of important **Terms and Definitions.**\n*   **Suggested Topics and Links** for further study.\n*   **Exams** with **Solution Keys.**\n\n##### Content Development\n\n* * *\n\nEric Lander  \nRobert Weinberg  \nTyler Jacks  \nHazel Sive\n\nGraham Walker  \nSallie Chisholm  \nDr. Michelle Mischke",
+  "course_description_html": "<p><em>Fundamentals of Biology</em> focuses on the basic principles of biochemistry, molecular biology, genetics, and recombinant DNA. These principles are necessary to understanding the basic mechanisms of life and anchor the biological knowledge that is required to understand many of the challenges in everyday life, from human health and disease to loss of biodiversity and environmental quality.</p>\n<h5 id=\"course-format\">Course Format</h5>\n<hr>\n<p><a href=\"pages/syllabus/index.html\"><img src=\"/images/button_start.png\" alt=\"Click to get started.\"></a> This course has been designed for independent study. It consists of four units, one for each topic. The units can be used individually or in combination. The materials for each unit include:</p>\n<ul>\n<li><strong>Lecture Videos</strong> by MIT faculty.</li>\n<li>Learning activities, including <strong>Interactive Concept Quizzes</strong>, designed to reinforce main concepts from lectures.</li>\n<li><strong>Problem Sets</strong> you do on your own and check your answers against the <strong>Solutions</strong> when you&rsquo;re done.</li>\n<li><strong>Problem Solving Video</strong> help sessions taught by experienced MIT Teaching Assistants.</li>\n<li>Lists of important <strong>Terms and Definitions.</strong></li>\n<li><strong>Suggested Topics and Links</strong> for further study.</li>\n<li><strong>Exams</strong> with <strong>Solution Keys.</strong></li>\n</ul>\n<h5 id=\"content-development\">Content Development</h5>\n<hr>\n<p>Eric Lander<br>\nRobert Weinberg<br>\nTyler Jacks<br>\nHazel Sive</p>\n<p>Graham Walker<br>\nSallie Chisholm<br>\nDr. Michelle Mischke</p>\n",
+  "course_image": {
+    "content": "533499c2-9439-39be-949d-7aed93782793",
+    "website": "7-01sc-fundamentals-of-biology-fall-2011"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "An illustration showing the double helix structure of DNA",
+    "draft": false,
+    "file": "/courses/7-01sc-fundamentals-of-biology-fall-2011/533499c2943939be949d7aed93782793_7-01scf11.jpg",
+    "file_size": 70027,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "An illustration showing the double helix structure of DNA (Image courtesy of the {{% resource_link \"67951534-2864-4f1b-8fbc-02c011158914\" \"National Human Genome Research Institute\" %}}).",
+      "credit": "Image courtesy of NHGRI",
+      "image-alt": "An illustration showing the double helix structure of DNA"
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "7-01scf11",
+    "uid": "533499c2-9439-39be-949d-7aed93782793"
+  },
+  "course_image_thumbnail": {
+    "content": "cc803e03-8632-d069-adce-f09b9781aa54",
+    "website": "7-01sc-fundamentals-of-biology-fall-2011"
+  },
+  "course_title": "Fundamentals of Biology",
+  "department_numbers": [
+    "7"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/533499c2943939be949d7aed93782793_7-01scf11.jpg",
+  "instructors": [
+    {
+      "first_name": "Eric",
+      "last_name": "Lander",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Eric Lander",
+      "uid": "8c984d5b-9b1b-6755-8f69-a4b755c0b858",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Eric+Lander"
+    },
+    {
+      "first_name": "Robert",
+      "last_name": "Weinberg",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Robert Weinberg",
+      "uid": "16e74eb3-e693-1783-a1be-2b9db1ea75eb",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Robert+Weinberg"
+    },
+    {
+      "first_name": "Tyler",
+      "last_name": "Jacks",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Tyler Jacks",
+      "uid": "2f361126-597f-2de0-c18f-c3b8295f3d88",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Tyler+Jacks"
+    },
+    {
+      "first_name": "Hazel",
+      "last_name": "Sive",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Hazel Sive",
+      "uid": "6d3d07fa-9ce9-1b97-95a5-fe447853f08a",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Hazel+Sive"
+    },
+    {
+      "first_name": "Graham",
+      "last_name": "Walker",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Graham Walker",
+      "uid": "c7ec9896-029d-e6db-a99d-c0850c3b2eae",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Graham+Walker"
+    },
+    {
+      "first_name": "Sallie",
+      "last_name": "Chisholm",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Sallie Chisholm",
+      "uid": "a7d56968-59f7-09b4-3be6-f3bfee6d0e24",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Sallie+Chisholm"
+    },
+    {
+      "first_name": "Michelle",
+      "last_name": "Mischke",
+      "middle_initial": "",
+      "salutation": "Dr.",
+      "title": "Dr. Michelle Mischke",
+      "uid": "7f7c9400-23e5-0117-b556-ac663c45cb26",
+      "url": "https://ocw.mit.edu/search/?q=Dr.+Michelle+Mischke"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Videos",
+    "Problem Sets",
+    "Exams",
+    "Tutorial Videos",
+    "Lecture Notes",
+    "Problem Set Solutions",
+    "Exam Solutions"
+  ],
+  "legacy_uid": "b4a7ffae-a900-ec9e-25c0-913a9c6d3bdb",
+  "level": [
+    "Undergraduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Science & Math",
+      "Biology"
+    ]
+  ],
+  "primary_course_number": "7.01SC",
+  "site_short_id": "7.01sc-fall-2011",
+  "site_uid": "0b5442b2-315a-4a4d-9111-58b76e9f1666",
+  "site_url_path": "courses/7-01sc-fundamentals-of-biology-fall-2011",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Science",
+      "Biology"
+    ]
+  ],
+  "year": "2011"
+}

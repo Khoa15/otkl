@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Applying Optimization: Some Samples</title>
+      <link>/resources/mit2_017jf09_optimization/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_optimization/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on linear optimization, min-max optimization, dynamic programming, and Lagrange multipliers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Basic Physics of Underwater Acoustics</title>
+      <link>/resources/mit2_017jf09_acoustics/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_acoustics/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on the basic physics of underwater acoustics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Concepts of Design</title>
+      <link>/resources/mit2_017jf09_design/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_design/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on the concepts of design, tradeoffs, the objectives tree, decision matrices, knowledge versus confidence, function analysis, complexity, and Gantt charts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Design for the Ocean Environment</title>
+      <link>/resources/mit2_017jf09_oceans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_oceans/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on design for the ocean environment, waves, categories of vehicles, and aerodynamics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Electronics Essentials</title>
+      <link>/resources/mit2_017jf09_electronics/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_electronics/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on electronics, the op-amp, serial communications, pulse width modulation (PWM), field effect transistor (FET), and motors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Experiments, Tests, and Data</title>
+      <link>/resources/mit2_017jf09_experiments/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_experiments/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on experiments, tests, data, controls, calibration, and statistics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Feedback Control</title>
+      <link>/resources/mit2_017jf09_feedback/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_feedback/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on feedback control and the components of engineered feedback systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Feedback Control System Design </title>
+      <link>/resources/mit2_017jf09_control/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_control/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on feedback control system design, types of control systems, open and closed loop control systems, and state-space models.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction to Discrete-Time Systems</title>
+      <link>/resources/mit2_017jf09_discrete/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_discrete/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on discrete-time systems and time resolution in sampled systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;Lecture slides are available for selected topics. Please also see the &lt;a href=&#34;../../resources/mit2_017j_f09_coursetextbook_pdf/index.html&#34;&gt;course textbook&lt;/a&gt; for extensive notes.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&lt;th&gt;&#xA;&#xA;SLIDES&#xA;&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;Concepts of design&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_design/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;Experiments, tests, and data&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_experiments/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;Electronics essentials&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_electronics/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;Design for the ocean environment&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_oceans/index.html&#34;&gt;PDF - 2.2MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;Applying optimization&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_optimization/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;Stability and trim&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_stability/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;General presentation guidelines&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_presntations/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;Corrosion in marine environments&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_corrosion/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;Important vehicle power sources&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_power/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;Topics in machine elements&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_machines/index.html&#34;&gt;PDF - 1.1MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;Navigation sensors and systems&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_navigation/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;Basic physics of underwater acoustics&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_acoustics/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;Introduction to discrete-time systems&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_discrete/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;Feedback control&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_feedback/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;Control system design&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_control/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Navigation Sensors and Systems</title>
+      <link>/resources/mit2_017jf09_navigation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_navigation/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on navigation sensors and systems, coordinate frames, dead-reckoning, inertial navigation, ranging systems for positioning, and acoustic ranging.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Presentations: Written and Spoken</title>
+      <link>/resources/mit2_017jf09_presntations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_presntations/data.json</guid>
+      <description>&lt;p&gt;Lecture slides providing general guidelines for giving presentations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Principles of Corrosion in Marine Environments</title>
+      <link>/resources/mit2_017jf09_corrosion/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_corrosion/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on the Principles of Corrosion in Marine Environments, electrochemistry, coatings, sacrificial anodes, impressed current, and passivation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Some Important Power Sources</title>
+      <link>/resources/mit2_017jf09_power/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_power/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on power systems for marine applications, fuel engines, batteries, and fuel cells.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stability and Trim of Marine Vessels</title>
+      <link>/resources/mit2_017jf09_stability/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_stability/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on buoyancy, stability, and trim of marine vessels.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Topics in Machine Elements</title>
+      <link>/resources/mit2_017jf09_machines/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_machines/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on machine elements and engineering materials.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

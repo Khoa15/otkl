@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on MIT OpenCourseWare</title>
+    <link>/resources/assignments/</link>
+    <description>Recent content in Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignments</title>
+      <link>/pages/assignments/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/assignments/data.json</guid>
+      <description>&lt;p&gt;Problem sets (including full program source code and output) are to be submitted before the start of the lecture listed below. Answers are posted 48 hours later. Problems may be done collaboratively but each student should work hard on every problem. Students should state clearly the contributions of everyone involved or that they worked alone.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Problem Sets &amp;amp; Associated Files&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Answers &amp;amp; Explanations&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Set 1 Questions (&lt;a href=&#34;../../resources/ps12002/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Skeleton Code (&lt;a href=&#34;../../resources/ps1_skeleton/index.html&#34;&gt;PL&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Perl resources&lt;/li&gt;&#xA;&lt;li&gt;Warmup File (&lt;a href=&#34;../../resources/warmup/index.html&#34;&gt;NB&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Tutorial File(&lt;a href=&#34;../../resources/tutorial/index.html&#34;&gt;NB - 1.1 MB&lt;/a&gt;)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

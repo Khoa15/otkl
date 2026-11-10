@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture notes on curvilinear motion and Cartesian coordinates.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on curvilinear motion and Cartesian coordinates.",
+  "draft": false,
+  "file": "/courses/16-07-dynamics-fall-2009/e2c57643d3d1634d23d8eb1ebd77800b_MIT16_07F09_Lec04.pdf",
+  "file_size": 190208,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "c74de568-7f12-1be8-c80c-73b2269c3877",
+  "resourcetype": "Document",
+  "title": "Lecture L4 – Curvilinear Motion. Cartesian Coordinates",
+  "uid": "e2c57643-d3d1-634d-23d8-eb1ebd77800b"
+}

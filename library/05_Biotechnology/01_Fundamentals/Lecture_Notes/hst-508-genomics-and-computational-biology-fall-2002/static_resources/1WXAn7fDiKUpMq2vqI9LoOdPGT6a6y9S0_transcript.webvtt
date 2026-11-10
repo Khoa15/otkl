@@ -1,0 +1,3549 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.610 align:middle line:90%
+
+
+00:00:00.610 --> 00:00:02.440 align:middle line:84%
+The following
+content is provided
+
+00:00:02.440 --> 00:00:06.340 align:middle line:84%
+by MIT OpenCourseWare under
+a Creative Commons license.
+
+00:00:06.340 --> 00:00:08.500 align:middle line:84%
+Additional information
+about our license
+
+00:00:08.500 --> 00:00:10.870 align:middle line:84%
+and MIT OpenCourseWare
+in general
+
+00:00:10.870 --> 00:00:12.730 align:middle line:90%
+is available at ocw.mit.edu.
+
+00:00:12.730 --> 00:00:16.728 align:middle line:90%
+
+
+00:00:16.728 --> 00:00:20.102 align:middle line:90%
+[SIDE CONVERSATION]
+
+00:00:20.102 --> 00:00:41.560 align:middle line:90%
+
+
+00:00:41.560 --> 00:00:44.560 align:middle line:84%
+GEORGE CHURCH: OK, welcome
+back to the second half
+
+00:00:44.560 --> 00:00:47.530 align:middle line:90%
+of the second lecture.
+
+00:00:47.530 --> 00:00:53.620 align:middle line:84%
+Here, we're going to take
+this beautiful example
+
+00:00:53.620 --> 00:01:02.140 align:middle line:84%
+of an algorithm, which the
+cellular machinery applies
+
+00:01:02.140 --> 00:01:04.190 align:middle line:90%
+to get from DNA to RNA protein.
+
+00:01:04.190 --> 00:01:10.780 align:middle line:84%
+And so a simple
+example where that
+
+00:01:10.780 --> 00:01:14.440 align:middle line:84%
+is incorporated into a program
+very similar to what you'll
+
+00:01:14.440 --> 00:01:16.520 align:middle line:90%
+be doing on your problem set.
+
+00:01:16.520 --> 00:01:19.750 align:middle line:84%
+So here, we've got it
+nicely color coded.
+
+00:01:19.750 --> 00:01:24.010 align:middle line:84%
+This is unrelated, of
+course, to the color coding
+
+00:01:24.010 --> 00:01:26.230 align:middle line:84%
+and the genetic code
+we've been using so far,
+
+00:01:26.230 --> 00:01:29.560 align:middle line:84%
+but it includes
+the genetic code.
+
+00:01:29.560 --> 00:01:33.280 align:middle line:84%
+You can see the comments
+here are preceded
+
+00:01:33.280 --> 00:01:36.340 align:middle line:90%
+by this little number sign.
+
+00:01:36.340 --> 00:01:40.720 align:middle line:84%
+We go from the genome, a DNA
+sequence, which is a string.
+
+00:01:40.720 --> 00:01:43.930 align:middle line:84%
+Strings are one of the things
+that Perl does very well.
+
+00:01:43.930 --> 00:01:46.630 align:middle line:84%
+It's not the only
+string-manipulation programming
+
+00:01:46.630 --> 00:01:48.790 align:middle line:84%
+language, but it's a
+particularly easy one.
+
+00:01:48.790 --> 00:01:51.340 align:middle line:84%
+And so here is how
+easy it is to enter
+
+00:01:51.340 --> 00:01:53.960 align:middle line:84%
+a DNA sequence, one of the
+many ways of entering a DNA
+
+00:01:53.960 --> 00:01:54.460 align:middle line:90%
+sequence.
+
+00:01:54.460 --> 00:01:55.793 align:middle line:90%
+You can bring it in from a file.
+
+00:01:55.793 --> 00:01:58.390 align:middle line:90%
+Here it is as part of the code.
+
+00:01:58.390 --> 00:02:03.790 align:middle line:84%
+You transcribe it into
+RNA in silico here,
+
+00:02:03.790 --> 00:02:07.000 align:middle line:84%
+by the simple
+command where you say
+
+00:02:07.000 --> 00:02:10.539 align:middle line:84%
+RNA sequence is equal
+to DNA sequence,
+
+00:02:10.539 --> 00:02:16.480 align:middle line:84%
+and then you substitute
+all the Ts for Us globally.
+
+00:02:16.480 --> 00:02:21.550 align:middle line:84%
+That's what this 12th
+line is on slide 23.
+
+00:02:21.550 --> 00:02:23.260 align:middle line:84%
+Now, off to the side
+here, is a reminder
+
+00:02:23.260 --> 00:02:25.670 align:middle line:84%
+that it's really much more
+complicated than that.
+
+00:02:25.670 --> 00:02:28.030 align:middle line:84%
+There's all these proteins
+involved and doing it
+
+00:02:28.030 --> 00:02:31.100 align:middle line:84%
+accurately and with
+regulations, so forth.
+
+00:02:31.100 --> 00:02:32.710 align:middle line:84%
+But for the sake of
+this Perl program,
+
+00:02:32.710 --> 00:02:36.490 align:middle line:84%
+this is quite sufficient to
+get us to an RNA sequence,
+
+00:02:36.490 --> 00:02:42.040 align:middle line:84%
+which we can then translate, and
+here, the translation process
+
+00:02:42.040 --> 00:02:43.440 align:middle line:90%
+uses--
+
+00:02:43.440 --> 00:02:45.140 align:middle line:90%
+it's going to be a cycle.
+
+00:02:45.140 --> 00:02:48.190 align:middle line:84%
+So in a sense, the
+cycle in the RNA m
+
+00:02:48.190 --> 00:02:53.180 align:middle line:84%
+where you put in one nucleotide
+at a m is all compact here.
+
+00:02:53.180 --> 00:02:55.360 align:middle line:84%
+It's all just substitute
+every T for U.
+
+00:02:55.360 --> 00:02:59.500 align:middle line:84%
+Here, we're going to have a more
+explicit loop, this while loop.
+
+00:02:59.500 --> 00:03:00.730 align:middle line:90%
+You can see it's indented.
+
+00:03:00.730 --> 00:03:03.310 align:middle line:84%
+Everything within the loop,
+that's going to be iterated,
+
+00:03:03.310 --> 00:03:04.293 align:middle line:90%
+is offset a bit.
+
+00:03:04.293 --> 00:03:05.710 align:middle line:84%
+And what you're
+going to be doing,
+
+00:03:05.710 --> 00:03:07.900 align:middle line:90%
+is looking in groups of 3.
+
+00:03:07.900 --> 00:03:12.550 align:middle line:84%
+That's what this
+3 is on line 17 is
+
+00:03:12.550 --> 00:03:15.970 align:middle line:84%
+looking through the
+position you are in the RNA,
+
+00:03:15.970 --> 00:03:18.130 align:middle line:84%
+and taking a chunk
+of 3 at a time.
+
+00:03:18.130 --> 00:03:21.280 align:middle line:84%
+The chunk here is a
+substring, substring.
+
+00:03:21.280 --> 00:03:26.860 align:middle line:84%
+And you pull out a
+codon as that substring.
+
+00:03:26.860 --> 00:03:28.490 align:middle line:90%
+And then you do a translation.
+
+00:03:28.490 --> 00:03:30.250 align:middle line:84%
+So now this is, in a
+sense, representing
+
+00:03:30.250 --> 00:03:32.560 align:middle line:84%
+the modularity of biology
+and the modularity
+
+00:03:32.560 --> 00:03:33.880 align:middle line:90%
+of good programming code.
+
+00:03:33.880 --> 00:03:39.160 align:middle line:84%
+It's you put this whole
+business of translating
+
+00:03:39.160 --> 00:03:40.790 align:middle line:84%
+in a separate part
+of the program,
+
+00:03:40.790 --> 00:03:43.600 align:middle line:84%
+so you don't have to
+embed the code everywhere
+
+00:03:43.600 --> 00:03:44.800 align:middle line:90%
+that it's going to be used.
+
+00:03:44.800 --> 00:03:47.140 align:middle line:84%
+And the translation here,
+is that simple table.
+
+00:03:47.140 --> 00:03:50.560 align:middle line:84%
+So this subroutine,
+S-U-B, line 22, again,
+
+00:03:50.560 --> 00:03:53.410 align:middle line:84%
+indented all the code
+in the subroutine.
+
+00:03:53.410 --> 00:03:55.660 align:middle line:84%
+It goes off the
+bottom of the slide
+
+00:03:55.660 --> 00:04:00.370 align:middle line:84%
+and down through the floor
+all the different cases.
+
+00:04:00.370 --> 00:04:03.970 align:middle line:84%
+Now, we could list 64 cases
+for the 64 trinucleotides,
+
+00:04:03.970 --> 00:04:06.490 align:middle line:84%
+or we can use the more
+compact string manipulation
+
+00:04:06.490 --> 00:04:08.230 align:middle line:84%
+that you can do in
+Perl to indicate--
+
+00:04:08.230 --> 00:04:11.950 align:middle line:84%
+a dot means any kind of
+character after G and C,
+
+00:04:11.950 --> 00:04:17.440 align:middle line:84%
+would return alanine
+so GC, ACG, or U.
+
+00:04:17.440 --> 00:04:19.740 align:middle line:84%
+And then for cysteine,
+which has two possibilities,
+
+00:04:19.740 --> 00:04:22.060 align:middle line:84%
+so that's four possibilities
+represented by that dot.
+
+00:04:22.060 --> 00:04:24.140 align:middle line:84%
+And cysteine has
+two possibilities.
+
+00:04:24.140 --> 00:04:27.610 align:middle line:84%
+It's either UGC, or UGU, where
+the vertical line means or.
+
+00:04:27.610 --> 00:04:28.550 align:middle line:90%
+And you get the idea.
+
+00:04:28.550 --> 00:04:31.570 align:middle line:84%
+There's a whole,
+very compact, syntax
+
+00:04:31.570 --> 00:04:35.470 align:middle line:90%
+here for doing the translation.
+
+00:04:35.470 --> 00:04:43.210 align:middle line:84%
+And that's how we do one of the
+cleaner, more simple algorithms
+
+00:04:43.210 --> 00:04:45.190 align:middle line:90%
+in computational biology.
+
+00:04:45.190 --> 00:04:49.660 align:middle line:84%
+And now I'm going to make
+it complicated again.
+
+00:04:49.660 --> 00:04:55.300 align:middle line:84%
+But first, to set the stage
+for how the genetic code is not
+
+00:04:55.300 --> 00:04:58.420 align:middle line:84%
+universal, we have to
+explain by what we might
+
+00:04:58.420 --> 00:05:00.100 align:middle line:90%
+mean by it being universal.
+
+00:05:00.100 --> 00:05:06.130 align:middle line:84%
+This is the ultimate
+pedigree on slide 24 here.
+
+00:05:06.130 --> 00:05:10.480 align:middle line:84%
+It's, in principle, some
+very simple organism,
+
+00:05:10.480 --> 00:05:13.600 align:middle line:84%
+possibly an RNA-based
+organism that
+
+00:05:13.600 --> 00:05:16.960 align:middle line:84%
+may have made a
+proto-ribosome that
+
+00:05:16.960 --> 00:05:19.180 align:middle line:84%
+may have done protein
+synthesis or may have done
+
+00:05:19.180 --> 00:05:23.620 align:middle line:84%
+some other chemical reaction
+at what is now [INAUDIBLE]
+
+00:05:23.620 --> 00:05:24.670 align:middle line:90%
+transferase site.
+
+00:05:24.670 --> 00:05:28.120 align:middle line:84%
+Something along this line, it's
+speculated by some biologists,
+
+00:05:28.120 --> 00:05:32.980 align:middle line:84%
+was the common ancestor of
+all living species, all living
+
+00:05:32.980 --> 00:05:34.000 align:middle line:90%
+cells.
+
+00:05:34.000 --> 00:05:37.180 align:middle line:84%
+And certainly, by
+the time we started
+
+00:05:37.180 --> 00:05:39.070 align:middle line:84%
+getting branching of
+the three major branches
+
+00:05:39.070 --> 00:05:45.040 align:middle line:84%
+bacteria, the archaea bacteria,
+and the eukaryotes, by the time
+
+00:05:45.040 --> 00:05:49.750 align:middle line:84%
+we get to that point,
+there was, probably
+
+00:05:49.750 --> 00:05:53.710 align:middle line:84%
+a ribosome set of genes that
+encodes all the proteins
+
+00:05:53.710 --> 00:05:56.260 align:middle line:84%
+and RNAs or the ribosome,
+and these were shared.
+
+00:05:56.260 --> 00:05:59.838 align:middle line:84%
+And then at each
+cell division, you
+
+00:05:59.838 --> 00:06:01.630 align:middle line:84%
+split off two cells
+were slightly different
+
+00:06:01.630 --> 00:06:02.338 align:middle line:90%
+from one another.
+
+00:06:02.338 --> 00:06:06.190 align:middle line:84%
+As they would mutate and
+differentiate and be selected,
+
+00:06:06.190 --> 00:06:08.920 align:middle line:84%
+they would generate this
+huge diversity of organisms,
+
+00:06:08.920 --> 00:06:10.520 align:middle line:90%
+which you see here.
+
+00:06:10.520 --> 00:06:13.660 align:middle line:84%
+Now, this is a [? directed ?]
+basically graph in the sense
+
+00:06:13.660 --> 00:06:17.980 align:middle line:84%
+that you can't have a
+descendant in this process
+
+00:06:17.980 --> 00:06:22.780 align:middle line:84%
+being an ancestor of
+one of its parents.
+
+00:06:22.780 --> 00:06:27.920 align:middle line:84%
+So time has, as an axis,
+going up in this case,
+
+00:06:27.920 --> 00:06:31.210 align:middle line:84%
+unlike some of the more physics
+based diagrams we had before.
+
+00:06:31.210 --> 00:06:36.040 align:middle line:84%
+And as you branch out
+to existing species,
+
+00:06:36.040 --> 00:06:40.900 align:middle line:84%
+you see that things like plants,
+have actually inheritance,
+
+00:06:40.900 --> 00:06:45.160 align:middle line:84%
+not just along this direct
+tree-like structure,
+
+00:06:45.160 --> 00:06:48.130 align:middle line:84%
+but you've got more of a
+network-like structure, where
+
+00:06:48.130 --> 00:06:49.660 align:middle line:84%
+some of the genomic
+material came
+
+00:06:49.660 --> 00:06:53.110 align:middle line:84%
+in from one of the
+bacterial branches long ago.
+
+00:06:53.110 --> 00:06:57.700 align:middle line:84%
+And this has recently been
+put on very firm footing
+
+00:06:57.700 --> 00:07:01.990 align:middle line:84%
+on a genomic scale, in a
+recent article this month,
+
+00:07:01.990 --> 00:07:05.110 align:middle line:84%
+where the bacterial genome
+of cyanobacteria, these
+
+00:07:05.110 --> 00:07:08.050 align:middle line:84%
+are blue-green algae
+that fix carbon
+
+00:07:08.050 --> 00:07:12.010 align:middle line:90%
+in all the oceans and plant.
+
+00:07:12.010 --> 00:07:14.110 align:middle line:84%
+And the simplest plant
+that's been sequenced
+
+00:07:14.110 --> 00:07:17.650 align:middle line:90%
+is Arabidopsis, a weed.
+
+00:07:17.650 --> 00:07:20.245 align:middle line:84%
+And anyway, the DNA
+from the bacteria
+
+00:07:20.245 --> 00:07:22.120 align:middle line:84%
+has not only gone into
+the chloroplast, which
+
+00:07:22.120 --> 00:07:25.390 align:middle line:84%
+is an organelle, which
+has a very reduced genome,
+
+00:07:25.390 --> 00:07:27.670 align:middle line:84%
+but it's been spread
+through thousands of genes
+
+00:07:27.670 --> 00:07:30.460 align:middle line:84%
+in the nucleus, which
+is the major place where
+
+00:07:30.460 --> 00:07:32.810 align:middle line:84%
+all the chromosomes
+are for the plants.
+
+00:07:32.810 --> 00:07:38.860 align:middle line:84%
+And so this, possibly
+symbiotic relationship,
+
+00:07:38.860 --> 00:07:42.050 align:middle line:84%
+has resulted in a
+complicated inheritance.
+
+00:07:42.050 --> 00:07:43.780 align:middle line:90%
+And this is not unique.
+
+00:07:43.780 --> 00:07:45.970 align:middle line:84%
+Another one coming in
+from the purple bacteria,
+
+00:07:45.970 --> 00:07:48.190 align:middle line:84%
+has been incorporated into
+a separate membrane-bound
+
+00:07:48.190 --> 00:07:52.840 align:middle line:84%
+organelle, which provides
+the ATP for both plants
+
+00:07:52.840 --> 00:07:56.890 align:middle line:84%
+and non-photosynthetic
+multicellular
+
+00:07:56.890 --> 00:07:58.780 align:middle line:90%
+organisms, animals.
+
+00:07:58.780 --> 00:08:02.260 align:middle line:84%
+And these two
+arrows, that could be
+
+00:08:02.260 --> 00:08:05.590 align:middle line:84%
+there could be thousands
+of arrows going
+
+00:08:05.590 --> 00:08:08.170 align:middle line:84%
+over long periods of
+time at deep branches,
+
+00:08:08.170 --> 00:08:10.690 align:middle line:84%
+and we know there are
+many interconnecting
+
+00:08:10.690 --> 00:08:14.560 align:middle line:84%
+arrows in recent times in
+almost all these organisms,
+
+00:08:14.560 --> 00:08:17.500 align:middle line:84%
+or certain representatives
+from all over this tree,
+
+00:08:17.500 --> 00:08:20.980 align:middle line:84%
+can take up DNA in
+various ways, can even
+
+00:08:20.980 --> 00:08:24.580 align:middle line:84%
+mate with organisms of various
+species and exchange DNA
+
+00:08:24.580 --> 00:08:25.840 align:middle line:90%
+and incorporate it.
+
+00:08:25.840 --> 00:08:28.090 align:middle line:84%
+And so it's not
+this simple tree,
+
+00:08:28.090 --> 00:08:33.610 align:middle line:84%
+but it is, certainly,
+going forward in time.
+
+00:08:33.610 --> 00:08:39.210 align:middle line:84%
+It is directed and
+acyclic in that regard.
+
+00:08:39.210 --> 00:08:40.789 align:middle line:84%
+So how many living
+species are there?
+
+00:08:40.789 --> 00:08:43.070 align:middle line:84%
+We're building to the
+point, connecting back
+
+00:08:43.070 --> 00:08:46.670 align:middle line:84%
+to the central dogma, of how
+many different genetic codes
+
+00:08:46.670 --> 00:08:47.280 align:middle line:90%
+are there.
+
+00:08:47.280 --> 00:08:49.310 align:middle line:84%
+So we need to know how
+many species there are.
+
+00:08:49.310 --> 00:08:56.600 align:middle line:84%
+If you take a gram of
+some thumbnail of soil,
+
+00:08:56.600 --> 00:08:59.000 align:middle line:84%
+from any of a variety
+of different soils
+
+00:08:59.000 --> 00:09:00.770 align:middle line:84%
+that have been
+tested, you can find
+
+00:09:00.770 --> 00:09:02.283 align:middle line:90%
+about 5,000 bacterial species.
+
+00:09:02.283 --> 00:09:03.950 align:middle line:84%
+Well, what does it
+mean to be a species?
+
+00:09:03.950 --> 00:09:06.020 align:middle line:84%
+In animals, that
+typically means that they
+
+00:09:06.020 --> 00:09:08.630 align:middle line:84%
+don't produce fertile
+offspring when they interbreed
+
+00:09:08.630 --> 00:09:09.740 align:middle line:90%
+two different species.
+
+00:09:09.740 --> 00:09:12.320 align:middle line:84%
+But there are books full
+of exceptions of this,
+
+00:09:12.320 --> 00:09:13.080 align:middle line:90%
+even in animals.
+
+00:09:13.080 --> 00:09:15.080 align:middle line:84%
+And bacteria, of course,
+where they exchange DNA
+
+00:09:15.080 --> 00:09:17.840 align:middle line:84%
+all over the place, as I said,
+it breaks down even more.
+
+00:09:17.840 --> 00:09:21.980 align:middle line:84%
+So working definition that
+many biologists adopt,
+
+00:09:21.980 --> 00:09:27.950 align:middle line:84%
+is that if two microbial
+species share 20% of their DNA,
+
+00:09:27.950 --> 00:09:30.350 align:middle line:84%
+if you take their DNA and
+align it by algorithms,
+
+00:09:30.350 --> 00:09:33.080 align:middle line:84%
+such as the ones we we'll
+be using this course,
+
+00:09:33.080 --> 00:09:36.750 align:middle line:84%
+and you find that 70% of the
+base pairs are conserved,
+
+00:09:36.750 --> 00:09:38.030 align:middle line:90%
+then they're the same species.
+
+00:09:38.030 --> 00:09:40.700 align:middle line:84%
+Otherwise, they're
+different species.
+
+00:09:40.700 --> 00:09:44.160 align:middle line:84%
+And there are millions
+of non-microbial species,
+
+00:09:44.160 --> 00:09:47.090 align:middle line:84%
+many of which harbor
+microbial species.
+
+00:09:47.090 --> 00:09:53.420 align:middle line:84%
+This number is dropping slightly
+because of our inability
+
+00:09:53.420 --> 00:09:58.610 align:middle line:84%
+to restrain our growth
+and other activities
+
+00:09:58.610 --> 00:10:04.250 align:middle line:90%
+that cause species extinction.
+
+00:10:04.250 --> 00:10:07.880 align:middle line:84%
+And the number of whole genomes
+is getting closer to 100,
+
+00:10:07.880 --> 00:10:12.620 align:middle line:84%
+and the number in the pipeline
+is probably 600 or so,
+
+00:10:12.620 --> 00:10:15.800 align:middle line:84%
+maybe in the thousands,
+with new technologies.
+
+00:10:15.800 --> 00:10:20.540 align:middle line:84%
+And there's over
+80,000 species defined
+
+00:10:20.540 --> 00:10:24.620 align:middle line:84%
+by one or more nucleic acid
+sequences in the NCBI, National
+
+00:10:24.620 --> 00:10:27.650 align:middle line:84%
+Center for
+Bioinformatics, which is
+
+00:10:27.650 --> 00:10:31.173 align:middle line:84%
+one of the three major
+nucleic-acid databases
+
+00:10:31.173 --> 00:10:31.715 align:middle line:90%
+in the world.
+
+00:10:31.715 --> 00:10:36.170 align:middle line:90%
+
+
+00:10:36.170 --> 00:10:37.900 align:middle line:84%
+Why do we study more
+than one species?
+
+00:10:37.900 --> 00:10:43.660 align:middle line:84%
+The comparison between species
+allows subtle and not so subtle
+
+00:10:43.660 --> 00:10:47.530 align:middle line:84%
+analyses of what are
+the important positions
+
+00:10:47.530 --> 00:10:51.130 align:middle line:84%
+to stay constant because they
+provide some very fundamental
+
+00:10:51.130 --> 00:10:52.690 align:middle line:90%
+biochemical activity.
+
+00:10:52.690 --> 00:10:55.660 align:middle line:84%
+But what are the important ones
+to vary because they provide
+
+00:10:55.660 --> 00:10:57.580 align:middle line:84%
+some important
+variants, for example,
+
+00:10:57.580 --> 00:11:00.443 align:middle line:84%
+escaping immune
+surveillance and so on.
+
+00:11:00.443 --> 00:11:01.860 align:middle line:84%
+So there's reasons
+to be constant,
+
+00:11:01.860 --> 00:11:04.820 align:middle line:84%
+there's reason to be variable,
+and reasons to be neutral.
+
+00:11:04.820 --> 00:11:06.910 align:middle line:84%
+So let's go back
+now and apply this
+
+00:11:06.910 --> 00:11:08.500 align:middle line:84%
+to the genetic code,
+this particularly
+
+00:11:08.500 --> 00:11:12.260 align:middle line:84%
+simple and elegant,
+nearly-universal code.
+
+00:11:12.260 --> 00:11:14.920 align:middle line:84%
+This is how genetic
+codes are represented
+
+00:11:14.920 --> 00:11:16.690 align:middle line:90%
+in CBI, one of the ways.
+
+00:11:16.690 --> 00:11:19.420 align:middle line:84%
+And here, the three
+bases of the codon,
+
+00:11:19.420 --> 00:11:22.060 align:middle line:84%
+bases 1, 2, and 3
+remember, we said
+
+00:11:22.060 --> 00:11:26.080 align:middle line:84%
+that you UUU was phenylalanine
+encoded by DNA TTT.
+
+00:11:26.080 --> 00:11:29.410 align:middle line:84%
+So going down from the top
+on the leftmost column,
+
+00:11:29.410 --> 00:11:33.740 align:middle line:84%
+it's TTT single letter
+code F for phenylalanine.
+
+00:11:33.740 --> 00:11:40.190 align:middle line:84%
+So the amino acids go along
+the bottom row of this table.
+
+00:11:40.190 --> 00:11:44.110 align:middle line:84%
+And you can see all the
+amino acids are represented.
+
+00:11:44.110 --> 00:11:45.910 align:middle line:84%
+Stars represent
+stop codons which
+
+00:11:45.910 --> 00:11:47.620 align:middle line:84%
+are not recognized
+by transfer RNAs
+
+00:11:47.620 --> 00:11:50.020 align:middle line:84%
+but by proteins called
+release factors that
+
+00:11:50.020 --> 00:11:51.970 align:middle line:84%
+simulate the function
+of the transfer RNA
+
+00:11:51.970 --> 00:11:56.410 align:middle line:84%
+and cause the release of
+this cyclic incorporation
+
+00:11:56.410 --> 00:11:58.450 align:middle line:84%
+of amino acids
+into polypeptides.
+
+00:11:58.450 --> 00:12:01.290 align:middle line:90%
+
+
+00:12:01.290 --> 00:12:05.790 align:middle line:84%
+Now, this is the
+standard code, so-called,
+
+00:12:05.790 --> 00:12:08.790 align:middle line:84%
+where you have one
+methionine here in the middle
+
+00:12:08.790 --> 00:12:15.420 align:middle line:84%
+here, encoded by ATG, and three
+stop codons in all the rest.
+
+00:12:15.420 --> 00:12:17.230 align:middle line:84%
+Here's where it
+gets complicated.
+
+00:12:17.230 --> 00:12:22.440 align:middle line:84%
+There are over 22
+different genetic codes.
+
+00:12:22.440 --> 00:12:24.300 align:middle line:84%
+Some of the changes
+from the standard code
+
+00:12:24.300 --> 00:12:27.390 align:middle line:90%
+are indicated here in blue.
+
+00:12:27.390 --> 00:12:29.910 align:middle line:84%
+You have here, for example,
+for the [INAUDIBLE]
+
+00:12:29.910 --> 00:12:32.430 align:middle line:84%
+mitochondrial code, this
+is the code actually used
+
+00:12:32.430 --> 00:12:35.580 align:middle line:84%
+in every cell in your body for
+the subset of the cell that
+
+00:12:35.580 --> 00:12:38.760 align:middle line:84%
+is the powerhouse that makes
+ATP, the mitochondria that we
+
+00:12:38.760 --> 00:12:40.830 align:middle line:84%
+talked about before,
+which was part
+
+00:12:40.830 --> 00:12:43.920 align:middle line:84%
+of the horizontal
+transmission of information
+
+00:12:43.920 --> 00:12:46.380 align:middle line:90%
+from purple bacteria long ago.
+
+00:12:46.380 --> 00:12:50.430 align:middle line:84%
+But anyway, the normal stop
+codon is now tryptophan,
+
+00:12:50.430 --> 00:12:54.570 align:middle line:84%
+abbreviated W. There's
+an extra methionine.
+
+00:12:54.570 --> 00:12:56.142 align:middle line:84%
+And there's two
+extra stop codons,
+
+00:12:56.142 --> 00:12:57.600 align:middle line:84%
+which are replacing
+what would have
+
+00:12:57.600 --> 00:12:59.257 align:middle line:84%
+been an arginine in
+the standard code.
+
+00:12:59.257 --> 00:13:01.590 align:middle line:84%
+And you can see there's little
+blues all over the place.
+
+00:13:01.590 --> 00:13:05.415 align:middle line:84%
+Changes in the number
+where you can start.
+
+00:13:05.415 --> 00:13:08.760 align:middle line:84%
+The start sites that
+are indicated by 3,
+
+00:13:08.760 --> 00:13:11.370 align:middle line:84%
+1 to 3 starts in
+the standard code.
+
+00:13:11.370 --> 00:13:18.630 align:middle line:84%
+And when you talk about the
+starts, you start getting to
+
+00:13:18.630 --> 00:13:22.800 align:middle line:84%
+how much do you favor
+that particular start?
+
+00:13:22.800 --> 00:13:25.443 align:middle line:84%
+What other signals
+are required to start
+
+00:13:25.443 --> 00:13:26.610 align:middle line:90%
+at that particular position?
+
+00:13:26.610 --> 00:13:27.990 align:middle line:84%
+It's not as simple
+as just having
+
+00:13:27.990 --> 00:13:32.610 align:middle line:84%
+an ATG trinucleotide to get
+a start of protein synthesis.
+
+00:13:32.610 --> 00:13:36.240 align:middle line:84%
+You need other nucleic
+acid components.
+
+00:13:36.240 --> 00:13:41.460 align:middle line:84%
+Anyway, still, it's a slightly
+more complicated algorithm.
+
+00:13:41.460 --> 00:13:44.070 align:middle line:84%
+You have to know
+exactly what organelle
+
+00:13:44.070 --> 00:13:45.840 align:middle line:84%
+and what organism
+you're dealing with,
+
+00:13:45.840 --> 00:13:49.650 align:middle line:84%
+but you can apply the same
+kind of computer codes
+
+00:13:49.650 --> 00:13:52.680 align:middle line:84%
+that we had, a couple
+of slides back.
+
+00:13:52.680 --> 00:13:54.780 align:middle line:84%
+But now we get into
+even more complicated.
+
+00:13:54.780 --> 00:13:57.090 align:middle line:84%
+And part of the reason I'm
+showing you this early on,
+
+00:13:57.090 --> 00:14:01.500 align:middle line:84%
+some of these things would
+not be in your textbooks
+
+00:14:01.500 --> 00:14:02.940 align:middle line:90%
+for the first biology course.
+
+00:14:02.940 --> 00:14:07.290 align:middle line:84%
+And they would not be in a
+first computational biology
+
+00:14:07.290 --> 00:14:10.080 align:middle line:90%
+lecture or two.
+
+00:14:10.080 --> 00:14:12.750 align:middle line:84%
+But I do this so that you'll
+have a healthy distrust
+
+00:14:12.750 --> 00:14:15.210 align:middle line:84%
+of everything that you read
+and everything you hear,
+
+00:14:15.210 --> 00:14:18.510 align:middle line:84%
+including everything
+you hear from me.
+
+00:14:18.510 --> 00:14:22.770 align:middle line:84%
+And this should really make
+you distrust the genetic code.
+
+00:14:22.770 --> 00:14:26.220 align:middle line:84%
+Because what these ribosomes
+do, in this particular sequence,
+
+00:14:26.220 --> 00:14:29.880 align:middle line:84%
+which has been well-documented,
+eight years ago,
+
+00:14:29.880 --> 00:14:32.490 align:middle line:84%
+is that they will hop
+over 50 nucleotides.
+
+00:14:32.490 --> 00:14:36.360 align:middle line:84%
+They're not going 3 nucleotides
+at a time as they should,
+
+00:14:36.360 --> 00:14:38.220 align:middle line:84%
+in fact, it's not even
+an integral multiple
+
+00:14:38.220 --> 00:14:39.360 align:middle line:90%
+of 3 nucleotides.
+
+00:14:39.360 --> 00:14:41.220 align:middle line:84%
+It is literally coming
+to a stop codon,
+
+00:14:41.220 --> 00:14:45.570 align:middle line:84%
+and rather than stopping, if
+it has just the right sequence
+
+00:14:45.570 --> 00:14:49.890 align:middle line:84%
+context, including
+this complicated RNA
+
+00:14:49.890 --> 00:14:51.810 align:middle line:84%
+secondary structure
+called a pseudoknot.
+
+00:14:51.810 --> 00:14:54.930 align:middle line:84%
+The RNA folds up the messenger,
+which really should just
+
+00:14:54.930 --> 00:14:57.690 align:middle line:84%
+be a messenger, which
+the computer should just
+
+00:14:57.690 --> 00:15:00.120 align:middle line:90%
+be recognizing--
+
+00:15:00.120 --> 00:15:03.077 align:middle line:84%
+or the biological, biochemical
+computer, as is the ribosome,
+
+00:15:03.077 --> 00:15:05.160 align:middle line:84%
+should be recognizing three
+nucleotides at a time,
+
+00:15:05.160 --> 00:15:08.200 align:middle line:84%
+instead it's recognizing
+a morphology.
+
+00:15:08.200 --> 00:15:10.470 align:middle line:84%
+This thing folds
+up, and no longer
+
+00:15:10.470 --> 00:15:11.730 align:middle line:90%
+is an informational molecule.
+
+00:15:11.730 --> 00:15:14.790 align:middle line:84%
+It is a morphological
+recognition element.
+
+00:15:14.790 --> 00:15:16.290 align:middle line:84%
+Anyway, when it
+finds that, it skips
+
+00:15:16.290 --> 00:15:18.690 align:middle line:84%
+over 50 nucleotides,
+skips over the stop codon,
+
+00:15:18.690 --> 00:15:22.890 align:middle line:84%
+and makes a, otherwise,
+perfectly normal protein.
+
+00:15:22.890 --> 00:15:27.930 align:middle line:84%
+So don't even trust dogma,
+especially don't trust dogma,
+
+00:15:27.930 --> 00:15:30.000 align:middle line:90%
+central dogma included.
+
+00:15:30.000 --> 00:15:32.880 align:middle line:90%
+Plenty of counter-examples.
+
+00:15:32.880 --> 00:15:39.600 align:middle line:84%
+Now, we're going to move from
+this very, very simple example
+
+00:15:39.600 --> 00:15:44.430 align:middle line:84%
+of an algorithm, where we
+can model proteins directly
+
+00:15:44.430 --> 00:15:49.140 align:middle line:84%
+from the nucleic acids that come
+out of DNA sequences wholesale.
+
+00:15:49.140 --> 00:15:53.740 align:middle line:84%
+We now want to ask, how do we
+get the more quantitative data,
+
+00:15:53.740 --> 00:15:55.740 align:middle line:84%
+which comes out of
+functional genomics rather
+
+00:15:55.740 --> 00:15:58.380 align:middle line:90%
+than classical sequencing?
+
+00:15:58.380 --> 00:16:00.960 align:middle line:84%
+How do we get that into
+quantitative models,
+
+00:16:00.960 --> 00:16:03.600 align:middle line:84%
+and then get the quantitative
+models then repopulated
+
+00:16:03.600 --> 00:16:09.180 align:middle line:84%
+with additional quantitative
+data to make a full model?
+
+00:16:09.180 --> 00:16:13.050 align:middle line:84%
+Now, in order to
+say, came up earlier
+
+00:16:13.050 --> 00:16:19.230 align:middle line:84%
+as a question, what is the
+function of a gene product?
+
+00:16:19.230 --> 00:16:23.700 align:middle line:84%
+We dip into
+qualitative statements
+
+00:16:23.700 --> 00:16:26.280 align:middle line:84%
+which are made in
+the literature, which
+
+00:16:26.280 --> 00:16:28.620 align:middle line:84%
+have various ways
+of representing
+
+00:16:28.620 --> 00:16:29.700 align:middle line:90%
+the evidence for this.
+
+00:16:29.700 --> 00:16:32.970 align:middle line:84%
+Some of them very convoluted
+arguments, some of them
+
+00:16:32.970 --> 00:16:35.760 align:middle line:90%
+very casual.
+
+00:16:35.760 --> 00:16:38.190 align:middle line:84%
+But when an attempt
+is made to put these
+
+00:16:38.190 --> 00:16:41.430 align:middle line:84%
+into a database or
+a data structure,
+
+00:16:41.430 --> 00:16:44.220 align:middle line:84%
+as representative,
+gross oversimplification
+
+00:16:44.220 --> 00:16:46.505 align:middle line:84%
+of the literature, this
+is what often comes out,
+
+00:16:46.505 --> 00:16:47.880 align:middle line:84%
+something like
+this, where you'll
+
+00:16:47.880 --> 00:16:49.260 align:middle line:90%
+have a hierarchical table.
+
+00:16:49.260 --> 00:16:52.000 align:middle line:84%
+Here, I've blown up one of
+the levels of the hierarchy.
+
+00:16:52.000 --> 00:16:54.840 align:middle line:84%
+You can think of as a list,
+where the list may not
+
+00:16:54.840 --> 00:16:57.060 align:middle line:84%
+be in a particularly
+logical order,
+
+00:16:57.060 --> 00:17:01.190 align:middle line:84%
+but the hierarchy is,
+so that under metabolism
+
+00:17:01.190 --> 00:17:04.250 align:middle line:84%
+would be some covalent
+change in substrates,
+
+00:17:04.250 --> 00:17:08.463 align:middle line:90%
+which enzymes would catalyze.
+
+00:17:08.463 --> 00:17:10.130 align:middle line:84%
+And then you'd have
+information transfer
+
+00:17:10.130 --> 00:17:13.075 align:middle line:84%
+we've been talking about,
+like the DNA to RNA
+
+00:17:13.075 --> 00:17:14.540 align:middle line:90%
+protein, these biopolymers.
+
+00:17:14.540 --> 00:17:18.200 align:middle line:84%
+Regulation of information
+transfer or of metabolism
+
+00:17:18.200 --> 00:17:21.770 align:middle line:84%
+would have all these four
+subheadings type of regulation,
+
+00:17:21.770 --> 00:17:23.460 align:middle line:90%
+trigger, and so on.
+
+00:17:23.460 --> 00:17:26.089 align:middle line:84%
+And then transport in these
+various other processes.
+
+00:17:26.089 --> 00:17:29.810 align:middle line:84%
+Each of these functions, such as
+illustrated by these references
+
+00:17:29.810 --> 00:17:35.990 align:middle line:84%
+here, can be used in
+a way of connecting
+
+00:17:35.990 --> 00:17:39.230 align:middle line:84%
+all the new information
+we get to some
+
+00:17:39.230 --> 00:17:47.780 align:middle line:84%
+of systematic best guess, best
+estimate, of encapsulation
+
+00:17:47.780 --> 00:17:49.100 align:middle line:90%
+of the literature.
+
+00:17:49.100 --> 00:17:53.840 align:middle line:84%
+Another example of this, in
+addition to the MIPS for yeast,
+
+00:17:53.840 --> 00:17:58.400 align:middle line:84%
+is gene ontology, which is
+derived from the word ontology,
+
+00:17:58.400 --> 00:17:59.960 align:middle line:90%
+or nature of being.
+
+00:17:59.960 --> 00:18:03.800 align:middle line:84%
+And the objective f GO,
+abbreviation of Gene Ontology,
+
+00:18:03.800 --> 00:18:07.760 align:middle line:84%
+is to provide a
+controlled vocabulary.
+
+00:18:07.760 --> 00:18:09.470 align:middle line:84%
+My vocabulary
+during this lecture
+
+00:18:09.470 --> 00:18:14.000 align:middle line:84%
+has been uncontrolled, as
+you've probably guessed.
+
+00:18:14.000 --> 00:18:16.280 align:middle line:84%
+But when you start
+talking about--
+
+00:18:16.280 --> 00:18:19.160 align:middle line:84%
+I have pointed out
+the problems that you
+
+00:18:19.160 --> 00:18:22.220 align:middle line:84%
+get into when you casually
+refer to gene expression
+
+00:18:22.220 --> 00:18:24.410 align:middle line:84%
+when you really
+mean RNA expression,
+
+00:18:24.410 --> 00:18:27.470 align:middle line:84%
+and refer to genes as
+protein-coding entities,
+
+00:18:27.470 --> 00:18:30.200 align:middle line:84%
+when you really mean protein
+or RNA-encoding entities.
+
+00:18:30.200 --> 00:18:33.378 align:middle line:84%
+That process of being more
+precise about our use of terms,
+
+00:18:33.378 --> 00:18:35.420 align:middle line:84%
+at least when we're
+communicating with computers,
+
+00:18:35.420 --> 00:18:36.300 align:middle line:90%
+is very important.
+
+00:18:36.300 --> 00:18:38.883 align:middle line:84%
+We communicate with each other,
+you guys will give me a little
+
+00:18:38.883 --> 00:18:42.380 align:middle line:84%
+slack, some of you
+but computers won't.
+
+00:18:42.380 --> 00:18:45.240 align:middle line:84%
+They will misinterpret
+every chance they get.
+
+00:18:45.240 --> 00:18:48.900 align:middle line:84%
+And so that's what control
+of vocabulary is all about.
+
+00:18:48.900 --> 00:18:50.550 align:middle line:84%
+And you'll have
+three different--
+
+00:18:50.550 --> 00:18:54.560 align:middle line:84%
+Dave, the inventors
+of gene ontology,
+
+00:18:54.560 --> 00:18:58.040 align:middle line:84%
+have a hierarchy including
+molecular function,
+
+00:18:58.040 --> 00:19:00.140 align:middle line:84%
+biological processes, and
+the cellular component,
+
+00:19:00.140 --> 00:19:04.290 align:middle line:84%
+which we'll expand
+upon in the next slide.
+
+00:19:04.290 --> 00:19:07.470 align:middle line:84%
+Cautionary note, whenever
+you do modeling or you
+
+00:19:07.470 --> 00:19:09.630 align:middle line:84%
+will be assumptions
+in this case.
+
+00:19:09.630 --> 00:19:12.210 align:middle line:84%
+Some of the assumptions
+exclude vast parts
+
+00:19:12.210 --> 00:19:14.730 align:middle line:84%
+of biology, which
+are listed here
+
+00:19:14.730 --> 00:19:18.210 align:middle line:90%
+as part of their documentation.
+
+00:19:18.210 --> 00:19:23.460 align:middle line:84%
+They have things that are not
+modeled in the gene ontology
+
+00:19:23.460 --> 00:19:26.520 align:middle line:84%
+are domain structure and
+three-dimensional structure,
+
+00:19:26.520 --> 00:19:29.800 align:middle line:84%
+which, obviously, has played
+a big role in the two lectures
+
+00:19:29.800 --> 00:19:31.380 align:middle line:90%
+so far.
+
+00:19:31.380 --> 00:19:35.850 align:middle line:84%
+The evolution and
+gene expression, we've
+
+00:19:35.850 --> 00:19:39.510 align:middle line:84%
+already talked about the
+phylogenetic tree of evolution,
+
+00:19:39.510 --> 00:19:41.790 align:middle line:84%
+and the gene expression
+will be a big topic
+
+00:19:41.790 --> 00:19:44.910 align:middle line:84%
+in the RNA and proteomics
+part of this course.
+
+00:19:44.910 --> 00:19:47.190 align:middle line:84%
+The small molecules
+we've illustrated today.
+
+00:19:47.190 --> 00:19:48.660 align:middle line:84%
+Almost everything
+in this course,
+
+00:19:48.660 --> 00:19:50.970 align:middle line:84%
+seems to be excluded
+from the gene ontology.
+
+00:19:50.970 --> 00:19:56.610 align:middle line:84%
+Nevertheless, here we
+go with just one slide
+
+00:19:56.610 --> 00:19:58.560 align:middle line:90%
+talking about the functions.
+
+00:19:58.560 --> 00:19:59.910 align:middle line:90%
+We have molecular function.
+
+00:19:59.910 --> 00:20:03.160 align:middle line:84%
+What the gene product can
+do without specifying where
+
+00:20:03.160 --> 00:20:04.440 align:middle line:90%
+or when.
+
+00:20:04.440 --> 00:20:08.220 align:middle line:84%
+A broad example of
+this, would be enzyme,
+
+00:20:08.220 --> 00:20:09.720 align:middle line:90%
+something that catalyzes.
+
+00:20:09.720 --> 00:20:11.970 align:middle line:84%
+And then a very specific
+example of an enzyme
+
+00:20:11.970 --> 00:20:14.310 align:middle line:84%
+would be, a adenylate
+cyclase, something
+
+00:20:14.310 --> 00:20:22.210 align:middle line:84%
+that makes a cycle in the
+ribose of a adenylate.
+
+00:20:22.210 --> 00:20:25.410 align:middle line:84%
+So both of these fall under
+the net molecular function
+
+00:20:25.410 --> 00:20:29.280 align:middle line:84%
+when you're describing
+a function of a protein
+
+00:20:29.280 --> 00:20:31.890 align:middle line:90%
+in describing a genome.
+
+00:20:31.890 --> 00:20:35.010 align:middle line:84%
+A biological process has
+to have more than one step.
+
+00:20:35.010 --> 00:20:37.950 align:middle line:84%
+If it's one step,
+that's not a process.
+
+00:20:37.950 --> 00:20:41.130 align:middle line:84%
+It has to have a time
+component, typically,
+
+00:20:41.130 --> 00:20:42.990 align:middle line:84%
+and there's a
+transformation that occurs.
+
+00:20:42.990 --> 00:20:46.720 align:middle line:84%
+Examples of signal transduction
+is a broad biological process.
+
+00:20:46.720 --> 00:20:48.360 align:middle line:84%
+An example of
+signal transduction
+
+00:20:48.360 --> 00:20:51.600 align:middle line:90%
+is cyclic AMP biosynthesis.
+
+00:20:51.600 --> 00:20:54.450 align:middle line:84%
+The cellular component,
+would be somehow reflecting
+
+00:20:54.450 --> 00:20:57.720 align:middle line:84%
+this assembly to organelle that
+we were talking about earlier.
+
+00:20:57.720 --> 00:21:01.110 align:middle line:84%
+And here, an example, you
+have a ribosomal protein
+
+00:21:01.110 --> 00:21:03.770 align:middle line:90%
+being part of a ribosome.
+
+00:21:03.770 --> 00:21:05.520 align:middle line:84%
+So it gets you some
+idea of the component,
+
+00:21:05.520 --> 00:21:07.860 align:middle line:84%
+some molecular-function
+biological process
+
+00:21:07.860 --> 00:21:09.090 align:middle line:90%
+and components.
+
+00:21:09.090 --> 00:21:13.980 align:middle line:84%
+Now, as I said, this gene
+ontology is based on facts.
+
+00:21:13.980 --> 00:21:18.780 align:middle line:84%
+The facts that are
+included, it's not--
+
+00:21:18.780 --> 00:21:21.750 align:middle line:84%
+ideally, there would be a
+direct logical connection
+
+00:21:21.750 --> 00:21:24.300 align:middle line:84%
+between the facts that are
+summarized in the hierarchical
+
+00:21:24.300 --> 00:21:26.580 align:middle line:84%
+gene ontology and
+the raw data that
+
+00:21:26.580 --> 00:21:27.870 align:middle line:90%
+came out of some instrument.
+
+00:21:27.870 --> 00:21:29.042 align:middle line:90%
+That is not the case.
+
+00:21:29.042 --> 00:21:30.750 align:middle line:84%
+This is all from the
+literature, and it's
+
+00:21:30.750 --> 00:21:33.420 align:middle line:90%
+done on a low budget, wow.
+
+00:21:33.420 --> 00:21:37.110 align:middle line:84%
+And examples of how
+they summarize it,
+
+00:21:37.110 --> 00:21:39.690 align:middle line:84%
+is it's inferred from
+a mutant phenotype
+
+00:21:39.690 --> 00:21:41.230 align:middle line:90%
+or a genetic interaction.
+
+00:21:41.230 --> 00:21:42.420 align:middle line:90%
+So these two are genetic.
+
+00:21:42.420 --> 00:21:47.670 align:middle line:84%
+Or physical interaction,
+this passes for biophysics.
+
+00:21:47.670 --> 00:21:49.620 align:middle line:84%
+Sequence similarity,
+now we're starting--
+
+00:21:49.620 --> 00:21:51.450 align:middle line:84%
+as we go down this
+list, we're starting
+
+00:21:51.450 --> 00:21:55.350 align:middle line:84%
+to get into murkier
+and murkier evidence.
+
+00:21:55.350 --> 00:21:58.740 align:middle line:84%
+Sequence similarity, as you'll
+see in a subsequence slide,
+
+00:21:58.740 --> 00:22:02.700 align:middle line:90%
+has problems.
+
+00:22:02.700 --> 00:22:08.910 align:middle line:84%
+A direct assay could be
+a physical interaction,
+
+00:22:08.910 --> 00:22:11.670 align:middle line:84%
+or it could be some
+other biochemical assay.
+
+00:22:11.670 --> 00:22:14.880 align:middle line:84%
+Expression pattern
+might be evidence
+
+00:22:14.880 --> 00:22:18.570 align:middle line:84%
+of some of the
+associations that were
+
+00:22:18.570 --> 00:22:20.790 align:middle line:90%
+mentioned in the gene ontology.
+
+00:22:20.790 --> 00:22:22.920 align:middle line:84%
+Now we get to
+electronic annotation.
+
+00:22:22.920 --> 00:22:25.290 align:middle line:84%
+In a certain sense,
+all of these things
+
+00:22:25.290 --> 00:22:26.785 align:middle line:90%
+are electronic annotation.
+
+00:22:26.785 --> 00:22:29.160 align:middle line:84%
+Sequence similarity might be
+a way that you automatically
+
+00:22:29.160 --> 00:22:30.690 align:middle line:90%
+get electronic annotation.
+
+00:22:30.690 --> 00:22:33.100 align:middle line:84%
+Then you get to a
+traceable author statement.
+
+00:22:33.100 --> 00:22:35.880 align:middle line:84%
+This means that someone
+said something is true,
+
+00:22:35.880 --> 00:22:39.360 align:middle line:84%
+without saying how he
+or she knows it's true,
+
+00:22:39.360 --> 00:22:40.680 align:middle line:90%
+so we're getting really murky.
+
+00:22:40.680 --> 00:22:44.820 align:middle line:84%
+And the murkiest of all is
+non-traceable authors' data.
+
+00:22:44.820 --> 00:22:49.140 align:middle line:84%
+You don't even know who said
+something might be true, OK.
+
+00:22:49.140 --> 00:22:51.180 align:middle line:84%
+Let's go back up
+to the top of that,
+
+00:22:51.180 --> 00:22:52.650 align:middle line:84%
+in fact, go beyond
+the top of it,
+
+00:22:52.650 --> 00:22:57.300 align:middle line:84%
+where we now will start tracking
+the data from the instruments
+
+00:22:57.300 --> 00:22:59.250 align:middle line:90%
+to statements.
+
+00:22:59.250 --> 00:23:02.100 align:middle line:84%
+And hopefully, in
+this course, you
+
+00:23:02.100 --> 00:23:09.270 align:middle line:84%
+will see how we will, in
+the future and present,
+
+00:23:09.270 --> 00:23:12.390 align:middle line:84%
+make models in a rigorous
+way where you can track it
+
+00:23:12.390 --> 00:23:13.990 align:middle line:90%
+all the way back, to data.
+
+00:23:13.990 --> 00:23:18.270 align:middle line:84%
+So one class, the most obvious
+class, of data collection,
+
+00:23:18.270 --> 00:23:20.790 align:middle line:84%
+is what I would call direct
+observation, typically
+
+00:23:20.790 --> 00:23:22.050 align:middle line:90%
+through a microscope.
+
+00:23:22.050 --> 00:23:24.420 align:middle line:84%
+And here's a particularly
+powerful case.
+
+00:23:24.420 --> 00:23:27.330 align:middle line:84%
+I promised you
+earlier that we would
+
+00:23:27.330 --> 00:23:33.180 align:middle line:84%
+talk about how you have 959
+cells in the non-gonadal cell
+
+00:23:33.180 --> 00:23:34.350 align:middle line:90%
+lineage of the worm.
+
+00:23:34.350 --> 00:23:36.120 align:middle line:84%
+It starts as a
+single cell up here
+
+00:23:36.120 --> 00:23:38.730 align:middle line:84%
+at the top middle,
+a fertilized egg,
+
+00:23:38.730 --> 00:23:40.890 align:middle line:84%
+as this egg-shaped
+thing at the top.
+
+00:23:40.890 --> 00:23:45.085 align:middle line:84%
+And then it splits off,
+way off to the left
+
+00:23:45.085 --> 00:23:45.960 align:middle line:90%
+and off to the right.
+
+00:23:45.960 --> 00:23:48.150 align:middle line:84%
+And that makes two
+cells, two stem cells,
+
+00:23:48.150 --> 00:23:51.060 align:middle line:84%
+that are capable of
+differentiating and dividing
+
+00:23:51.060 --> 00:23:51.750 align:middle line:90%
+further.
+
+00:23:51.750 --> 00:23:55.480 align:middle line:84%
+And they each make two
+more, and it keeps going.
+
+00:23:55.480 --> 00:23:59.310 align:middle line:84%
+But you can see it starts
+getting symmetry breaking,
+
+00:23:59.310 --> 00:24:00.580 align:middle line:90%
+almost immediately.
+
+00:24:00.580 --> 00:24:05.320 align:middle line:84%
+In fact, the egg itself
+is an asymmetric entity.
+
+00:24:05.320 --> 00:24:07.030 align:middle line:84%
+And you start
+getting lineages that
+
+00:24:07.030 --> 00:24:10.300 align:middle line:84%
+will either die
+as they terminate,
+
+00:24:10.300 --> 00:24:12.550 align:middle line:90%
+or they will just stop dividing.
+
+00:24:12.550 --> 00:24:18.190 align:middle line:84%
+And eventually, you end up
+with, after about 1,000 cell
+
+00:24:18.190 --> 00:24:23.470 align:middle line:84%
+divisions or so, you end up with
+these 959 non-gonadal cells.
+
+00:24:23.470 --> 00:24:26.050 align:middle line:90%
+
+
+00:24:26.050 --> 00:24:28.780 align:middle line:84%
+And this lineage has been
+completely mapped out
+
+00:24:28.780 --> 00:24:31.510 align:middle line:84%
+by direct microscopic
+observation, where
+
+00:24:31.510 --> 00:24:33.820 align:middle line:84%
+a series of photographs
+you can show
+
+00:24:33.820 --> 00:24:36.970 align:middle line:84%
+that this single cell
+turns into these two cells,
+
+00:24:36.970 --> 00:24:38.830 align:middle line:84%
+so you have a time
+axis, and you have
+
+00:24:38.830 --> 00:24:44.650 align:middle line:84%
+a lineage axis, which is one of
+these directed acyclic graphs.
+
+00:24:44.650 --> 00:24:47.320 align:middle line:84%
+In addition, and
+even more amazing,
+
+00:24:47.320 --> 00:24:50.680 align:middle line:84%
+to me, anyway, is that you have
+a complete neural connection
+
+00:24:50.680 --> 00:24:52.160 align:middle line:90%
+for this multicellular organism.
+
+00:24:52.160 --> 00:24:55.900 align:middle line:84%
+It has a fairly simple brain if
+you've ever had a conversation
+
+00:24:55.900 --> 00:24:57.010 align:middle line:90%
+with one of these things.
+
+00:24:57.010 --> 00:25:09.550 align:middle line:84%
+But each neuron can have dozens
+to hundreds of connections.
+
+00:25:09.550 --> 00:25:11.830 align:middle line:84%
+And these have been
+mapped by a serial section
+
+00:25:11.830 --> 00:25:14.830 align:middle line:84%
+through the entire
+worm, very thin sections
+
+00:25:14.830 --> 00:25:16.280 align:middle line:90%
+and electron microscopy.
+
+00:25:16.280 --> 00:25:18.350 align:middle line:84%
+And then checking out
+the whole wiring diagram.
+
+00:25:18.350 --> 00:25:19.900 align:middle line:90%
+This is really a tour de force.
+
+00:25:19.900 --> 00:25:21.580 align:middle line:84%
+And part of the
+reason it's possible,
+
+00:25:21.580 --> 00:25:24.190 align:middle line:84%
+this would even be hard to
+do in a variety of organisms,
+
+00:25:24.190 --> 00:25:26.590 align:middle line:84%
+but this is another case
+where biology cooperates,
+
+00:25:26.590 --> 00:25:30.190 align:middle line:84%
+just like with the genetic code,
+in this particular organism,
+
+00:25:30.190 --> 00:25:34.120 align:middle line:84%
+that lineage happens
+the same way every time.
+
+00:25:34.120 --> 00:25:37.180 align:middle line:84%
+In even slightly more
+complicated organisms,
+
+00:25:37.180 --> 00:25:40.870 align:middle line:84%
+like the Drosophila
+fruit fly or humans.
+
+00:25:40.870 --> 00:25:45.460 align:middle line:84%
+The lineages are not
+so strict, and a cell
+
+00:25:45.460 --> 00:25:48.100 align:middle line:84%
+can take on a number
+of different directions
+
+00:25:48.100 --> 00:25:52.300 align:middle line:84%
+depending on the exact physical
+environment it finds itself in.
+
+00:25:52.300 --> 00:25:54.850 align:middle line:84%
+But nevertheless, for this
+one, the neural connections
+
+00:25:54.850 --> 00:25:57.550 align:middle line:84%
+are reproducible, and the
+cell lineage is reproducible.
+
+00:25:57.550 --> 00:26:00.100 align:middle line:90%
+And so you can map this all out.
+
+00:26:00.100 --> 00:26:02.710 align:middle line:84%
+For other organisms, it doesn't
+mean you shouldn't try it,
+
+00:26:02.710 --> 00:26:05.002 align:middle line:84%
+it just means you'll have to
+represent it in a slightly
+
+00:26:05.002 --> 00:26:07.240 align:middle line:90%
+less-fixed pattern.
+
+00:26:07.240 --> 00:26:10.420 align:middle line:84%
+You'll have to represent it as
+probabilistic set of divisions
+
+00:26:10.420 --> 00:26:12.610 align:middle line:84%
+and probabilistic set
+of neural connections.
+
+00:26:12.610 --> 00:26:17.500 align:middle line:84%
+And maybe even, conditional,
+on various conditions.
+
+00:26:17.500 --> 00:26:19.840 align:middle line:84%
+OK, that's direct
+observation as a class
+
+00:26:19.840 --> 00:26:23.470 align:middle line:90%
+of source of data for modeling.
+
+00:26:23.470 --> 00:26:25.810 align:middle line:84%
+Here's three other
+sources of data.
+
+00:26:25.810 --> 00:26:28.930 align:middle line:84%
+In each case, I've shown
+pretty raw representations
+
+00:26:28.930 --> 00:26:30.160 align:middle line:90%
+of the data.
+
+00:26:30.160 --> 00:26:33.070 align:middle line:84%
+You can think of these all
+as representing an intensity
+
+00:26:33.070 --> 00:26:38.200 align:middle line:84%
+readout, with some
+sort of separation,
+
+00:26:38.200 --> 00:26:44.570 align:middle line:84%
+as the horizontal axis or
+is some cases, both axes.
+
+00:26:44.570 --> 00:26:46.810 align:middle line:84%
+So the intensity
+here, is indicated
+
+00:26:46.810 --> 00:26:50.140 align:middle line:84%
+by a line plot of
+four different color
+
+00:26:50.140 --> 00:26:54.550 align:middle line:84%
+fluorophores in an
+electrophoretic separation,
+
+00:26:54.550 --> 00:26:56.800 align:middle line:84%
+which is the basis for
+the genomic sequencing
+
+00:26:56.800 --> 00:27:00.880 align:middle line:90%
+that we're so proud of here.
+
+00:27:00.880 --> 00:27:06.070 align:middle line:84%
+Then so here, the detection
+of this fluorescence
+
+00:27:06.070 --> 00:27:09.940 align:middle line:84%
+of the terminated
+chains of DNA, we'll
+
+00:27:09.940 --> 00:27:11.890 align:middle line:90%
+get to that later in the course.
+
+00:27:11.890 --> 00:27:13.510 align:middle line:84%
+Here you have mass
+spectrometry where
+
+00:27:13.510 --> 00:27:16.570 align:middle line:84%
+you're measuring
+differences in masses,
+
+00:27:16.570 --> 00:27:18.910 align:middle line:84%
+even more accurately
+than in sequencing.
+
+00:27:18.910 --> 00:27:21.370 align:middle line:84%
+You're separating nucleic
+acids by their differences
+
+00:27:21.370 --> 00:27:24.070 align:middle line:84%
+in mass, so about
+1 part in 1,000.
+
+00:27:24.070 --> 00:27:26.710 align:middle line:84%
+The mass spectrometry is
+more like 1 part in 10,000,
+
+00:27:26.710 --> 00:27:28.780 align:middle line:90%
+or even better.
+
+00:27:28.780 --> 00:27:31.480 align:middle line:84%
+Because here, you're
+separating in a gas phase,
+
+00:27:31.480 --> 00:27:34.780 align:middle line:84%
+based on the electrical
+and magnetic properties.
+
+00:27:34.780 --> 00:27:37.450 align:middle line:84%
+Here, you're
+separating by charge
+
+00:27:37.450 --> 00:27:42.610 align:middle line:84%
+in a liquid phase,
+liquid and gel phase.
+
+00:27:42.610 --> 00:27:46.570 align:middle line:84%
+Each of these, you can
+specify the throughput per day
+
+00:27:46.570 --> 00:27:49.360 align:middle line:84%
+or the throughput
+per unit dollar.
+
+00:27:49.360 --> 00:27:52.390 align:middle line:84%
+This becomes important in
+planning these structures.
+
+00:27:52.390 --> 00:27:56.590 align:middle line:84%
+The third category
+here, is arrays.
+
+00:27:56.590 --> 00:28:00.670 align:middle line:84%
+These can be arrays of nucleic
+acids for quantitating RNAs,
+
+00:28:00.670 --> 00:28:04.450 align:middle line:84%
+or arrays of
+antibodies, proteins,
+
+00:28:04.450 --> 00:28:08.050 align:middle line:84%
+small-molecule chemicals,
+which we can quantitate
+
+00:28:08.050 --> 00:28:10.030 align:middle line:84%
+the binding of one
+kind of molecule
+
+00:28:10.030 --> 00:28:13.090 align:middle line:90%
+to an array of other molecules.
+
+00:28:13.090 --> 00:28:16.810 align:middle line:84%
+In both the top and the bottom,
+you can have multiple colors.
+
+00:28:16.810 --> 00:28:19.720 align:middle line:84%
+And these can be
+used quantitatively
+
+00:28:19.720 --> 00:28:23.512 align:middle line:84%
+as internal standards so that
+you can monitor this process.
+
+00:28:23.512 --> 00:28:25.970 align:middle line:84%
+See, we're going to go into
+this in great detail, later on.
+
+00:28:25.970 --> 00:28:27.340 align:middle line:84%
+But I wanted to give
+you a feeling for where
+
+00:28:27.340 --> 00:28:28.632 align:middle line:90%
+the source of these things are.
+
+00:28:28.632 --> 00:28:31.120 align:middle line:84%
+This array analysis, in a
+sense, is another example
+
+00:28:31.120 --> 00:28:31.780 align:middle line:90%
+of microscopy.
+
+00:28:31.780 --> 00:28:33.238 align:middle line:84%
+Just like in the
+previous slide, we
+
+00:28:33.238 --> 00:28:34.840 align:middle line:84%
+used direct
+observation microscopy
+
+00:28:34.840 --> 00:28:37.010 align:middle line:90%
+to monitor cell lineages.
+
+00:28:37.010 --> 00:28:39.535 align:middle line:84%
+So too we can do
+it/ We can make a--
+
+00:28:39.535 --> 00:28:43.067 align:middle line:90%
+
+
+00:28:43.067 --> 00:28:43.900 align:middle line:90%
+it's just wonderful.
+
+00:28:43.900 --> 00:28:45.340 align:middle line:90%
+The battery's charged, OK.
+
+00:28:45.340 --> 00:28:53.070 align:middle line:90%
+
+
+00:28:53.070 --> 00:28:57.930 align:middle line:84%
+We can take the microscopy
+of artificial patterns,
+
+00:28:57.930 --> 00:28:59.730 align:middle line:90%
+such as arrays.
+
+00:28:59.730 --> 00:29:02.760 align:middle line:84%
+Just as we have
+separation here by mass,
+
+00:29:02.760 --> 00:29:05.340 align:middle line:84%
+we can also have separation on
+a variety of other properties,
+
+00:29:05.340 --> 00:29:08.040 align:middle line:84%
+sometimes called
+multidimensional separation.
+
+00:29:08.040 --> 00:29:12.840 align:middle line:84%
+This gets back to the first
+slide of the lecture, which
+
+00:29:12.840 --> 00:29:15.870 align:middle line:90%
+was the purification aspect.
+
+00:29:15.870 --> 00:29:19.440 align:middle line:84%
+Now, how do we jump from
+that kind of raw data
+
+00:29:19.440 --> 00:29:24.570 align:middle line:84%
+to this common way that
+biologists communicate
+
+00:29:24.570 --> 00:29:27.240 align:middle line:84%
+in journals, where they have
+circles and arrows, where
+
+00:29:27.240 --> 00:29:29.280 align:middle line:84%
+the circles might be
+some kind of protein
+
+00:29:29.280 --> 00:29:33.300 align:middle line:84%
+molecule such as
+a stat, and arrow
+
+00:29:33.300 --> 00:29:36.210 align:middle line:84%
+indicates some of
+interaction, or regulation,
+
+00:29:36.210 --> 00:29:39.810 align:middle line:84%
+or quantitative influence
+that one protein
+
+00:29:39.810 --> 00:29:43.770 align:middle line:90%
+has on another, or a protein.
+
+00:29:43.770 --> 00:29:48.150 align:middle line:84%
+So in alternative diagrams,
+nodes could be small molecules,
+
+00:29:48.150 --> 00:29:51.570 align:middle line:84%
+and the edges, the
+links between the nodes,
+
+00:29:51.570 --> 00:29:54.900 align:middle line:84%
+could be an enzymatic reaction
+catalyzed by a protein.
+
+00:29:54.900 --> 00:29:57.570 align:middle line:84%
+There are about 500
+biological databases
+
+00:29:57.570 --> 00:30:01.230 align:middle line:84%
+that we'll talk about
+in the database talk.
+
+00:30:01.230 --> 00:30:04.230 align:middle line:84%
+How the data and models were
+entered into these databases,
+
+00:30:04.230 --> 00:30:07.770 align:middle line:90%
+is a huge issue.
+
+00:30:07.770 --> 00:30:10.050 align:middle line:84%
+Many of them have been
+done very casually.
+
+00:30:10.050 --> 00:30:14.050 align:middle line:84%
+For DNA sequencing
+and crystallography,
+
+00:30:14.050 --> 00:30:16.510 align:middle line:84%
+I think the process by which
+you go from the raw data
+
+00:30:16.510 --> 00:30:19.000 align:middle line:84%
+to the models, is very
+well understood, very well
+
+00:30:19.000 --> 00:30:21.520 align:middle line:84%
+communicated, for
+this sort of thing.
+
+00:30:21.520 --> 00:30:24.820 align:middle line:84%
+It will take this whole course
+for us to even to scratch
+
+00:30:24.820 --> 00:30:25.970 align:middle line:90%
+the surface.
+
+00:30:25.970 --> 00:30:27.550 align:middle line:84%
+Here's another
+example-- that one was
+
+00:30:27.550 --> 00:30:29.480 align:middle line:90%
+protein-protein interactions.
+
+00:30:29.480 --> 00:30:32.530 align:middle line:84%
+This is an example where
+the nodes now are not
+
+00:30:32.530 --> 00:30:34.240 align:middle line:90%
+proteins but small molecules.
+
+00:30:34.240 --> 00:30:36.730 align:middle line:84%
+And they're connected
+by an enzymatic pathway.
+
+00:30:36.730 --> 00:30:39.370 align:middle line:84%
+This is another example
+of an application
+
+00:30:39.370 --> 00:30:41.380 align:middle line:84%
+of ordinary
+differentiable equations,
+
+00:30:41.380 --> 00:30:43.630 align:middle line:90%
+just like the one last class.
+
+00:30:43.630 --> 00:30:45.610 align:middle line:90%
+We had exponential growth.
+
+00:30:45.610 --> 00:30:49.410 align:middle line:84%
+Here, you have
+simple fluxes, where
+
+00:30:49.410 --> 00:30:54.010 align:middle line:84%
+a catalytic reaction occurs, not
+autocatalytic, but catalytic.
+
+00:30:54.010 --> 00:30:56.470 align:middle line:84%
+There's no there's no
+exponential growth occurring
+
+00:30:56.470 --> 00:30:58.600 align:middle line:90%
+in this cell.
+
+00:30:58.600 --> 00:31:03.550 align:middle line:84%
+It doesn't have any biopolymers
+in it, biopolymer synthesis.
+
+00:31:03.550 --> 00:31:07.000 align:middle line:84%
+But these catalytic reactions
+that form this network,
+
+00:31:07.000 --> 00:31:11.260 align:middle line:84%
+and you can model the
+influx of fresh molecules.
+
+00:31:11.260 --> 00:31:15.980 align:middle line:84%
+And its utilization within
+the cell and the efflux.
+
+00:31:15.980 --> 00:31:17.510 align:middle line:90%
+We'll come back to that.
+
+00:31:17.510 --> 00:31:20.810 align:middle line:84%
+Inside there, are a set
+of kinetic equations.
+
+00:31:20.810 --> 00:31:23.150 align:middle line:84%
+We need to figure out how to
+get from the raw data types
+
+00:31:23.150 --> 00:31:25.890 align:middle line:84%
+that I've shown you to
+this kind of equation.
+
+00:31:25.890 --> 00:31:28.190 align:middle line:84%
+This will be one of the
+goals of the course.
+
+00:31:28.190 --> 00:31:31.670 align:middle line:84%
+Here, you have a velocity
+on the far-left hand
+
+00:31:31.670 --> 00:31:34.460 align:middle line:84%
+side of the top
+equation, which is
+
+00:31:34.460 --> 00:31:39.230 align:middle line:84%
+related to a maximum
+velocity on the numerator.
+
+00:31:39.230 --> 00:31:44.300 align:middle line:84%
+And then a series of
+linear sums and quotients.
+
+00:31:44.300 --> 00:31:48.500 align:middle line:84%
+Now, some of the terms
+will be nonlinear.
+
+00:31:48.500 --> 00:31:50.960 align:middle line:84%
+Here's an exponent
+of 4 that enters in,
+
+00:31:50.960 --> 00:31:53.307 align:middle line:84%
+because you have one of these
+[? propertivities ?] that
+
+00:31:53.307 --> 00:31:54.890 align:middle line:84%
+gives you that kind
+of sigmoidal curve
+
+00:31:54.890 --> 00:31:57.260 align:middle line:84%
+that we showed for
+transistors and will enter
+
+00:31:57.260 --> 00:31:59.810 align:middle line:84%
+to a number of
+biological consequences,
+
+00:31:59.810 --> 00:32:02.180 align:middle line:84%
+where the steepness of
+that sigmoidal curve
+
+00:32:02.180 --> 00:32:04.610 align:middle line:84%
+is determined by this exponent,
+sometimes called a Hill
+
+00:32:04.610 --> 00:32:06.500 align:middle line:90%
+coefficient.
+
+00:32:06.500 --> 00:32:10.580 align:middle line:84%
+But other than that, you'll
+get these simple, linear sums
+
+00:32:10.580 --> 00:32:11.630 align:middle line:90%
+and quotients.
+
+00:32:11.630 --> 00:32:14.120 align:middle line:90%
+And we'll come back to that.
+
+00:32:14.120 --> 00:32:17.990 align:middle line:84%
+What actually constitutes
+these networks?
+
+00:32:17.990 --> 00:32:21.860 align:middle line:84%
+I want you to feel
+less limited than you
+
+00:32:21.860 --> 00:32:24.140 align:middle line:90%
+might get in a simple textbook.
+
+00:32:24.140 --> 00:32:27.860 align:middle line:84%
+A simple, textbook definition
+of a catalytic enzyme-catalyzed
+
+00:32:27.860 --> 00:32:31.820 align:middle line:84%
+process you might
+have, A is a substrate
+
+00:32:31.820 --> 00:32:33.590 align:middle line:90%
+that turns into B as a product.
+
+00:32:33.590 --> 00:32:36.920 align:middle line:84%
+This is a process that A
+could go to B spontaneously,
+
+00:32:36.920 --> 00:32:39.197 align:middle line:84%
+but in the presence of
+enzyme, it goes faster.
+
+00:32:39.197 --> 00:32:41.280 align:middle line:84%
+Or it could be, that for
+all intents and purposes,
+
+00:32:41.280 --> 00:32:44.420 align:middle line:84%
+A never turns into B.
+It's so slow that you
+
+00:32:44.420 --> 00:32:46.437 align:middle line:84%
+need this enzyme here
+to even detect it.
+
+00:32:46.437 --> 00:32:48.020 align:middle line:84%
+The enzyme will form
+a complex with A.
+
+00:32:48.020 --> 00:32:51.380 align:middle line:84%
+This could be a non-covalent
+complex or a covalent one.
+
+00:32:51.380 --> 00:32:54.200 align:middle line:84%
+It then produces
+a covalent change
+
+00:32:54.200 --> 00:32:59.120 align:middle line:84%
+in A. Ant it becomes an
+enzyme-bound B. B is released.
+
+00:32:59.120 --> 00:33:01.940 align:middle line:90%
+Enzyme E is regenerated.
+
+00:33:01.940 --> 00:33:05.330 align:middle line:84%
+And so in a certain sense, in
+this process of turning A to B,
+
+00:33:05.330 --> 00:33:07.610 align:middle line:90%
+E is not consumed.
+
+00:33:07.610 --> 00:33:11.390 align:middle line:84%
+But let's think about an
+increasingly important class
+
+00:33:11.390 --> 00:33:14.300 align:middle line:84%
+of biochemistry, such as
+signal transduction, where
+
+00:33:14.300 --> 00:33:16.250 align:middle line:90%
+the enzyme now has a new role.
+
+00:33:16.250 --> 00:33:18.620 align:middle line:84%
+It changes places
+with the substrate.
+
+00:33:18.620 --> 00:33:20.300 align:middle line:90%
+It becomes a substrate.
+
+00:33:20.300 --> 00:33:25.280 align:middle line:84%
+The E now is a substrate in
+which a small molecule, ATP,
+
+00:33:25.280 --> 00:33:31.370 align:middle line:84%
+which might have been the A
+up here, combines with the E.
+
+00:33:31.370 --> 00:33:35.930 align:middle line:84%
+And the E could either catalyze
+its own phosphorylation
+
+00:33:35.930 --> 00:33:38.910 align:middle line:84%
+or in context with another
+enzyme, but in any case,
+
+00:33:38.910 --> 00:33:41.330 align:middle line:84%
+it becomes covalently
+modified to produce
+
+00:33:41.330 --> 00:33:44.360 align:middle line:84%
+a phosphorylated enzyme,
+a phosphorylated protein.
+
+00:33:44.360 --> 00:33:48.630 align:middle line:84%
+And then the ATP is regenerated
+by a simple enzymatic process.
+
+00:33:48.630 --> 00:33:50.630 align:middle line:84%
+And so in a certain
+sense, formally, it's
+
+00:33:50.630 --> 00:33:53.150 align:middle line:84%
+very similar to this
+process, except you now flip
+
+00:33:53.150 --> 00:33:54.380 align:middle line:90%
+the enzyme and the substrate.
+
+00:33:54.380 --> 00:33:58.070 align:middle line:84%
+ATP is not consumed, the small
+molecule is not consumed.
+
+00:33:58.070 --> 00:33:59.450 align:middle line:90%
+The enzyme is consumed.
+
+00:33:59.450 --> 00:34:03.140 align:middle line:84%
+So think of these things, these
+networks, as symmetrically
+
+00:34:03.140 --> 00:34:04.280 align:middle line:90%
+as you can.
+
+00:34:04.280 --> 00:34:09.248 align:middle line:84%
+Try not to get too embedded in
+the names, this is an enzyme,
+
+00:34:09.248 --> 00:34:11.540 align:middle line:84%
+this is a substrate, and
+think more about the concepts.
+
+00:34:11.540 --> 00:34:14.510 align:middle line:84%
+The concept here, is
+some things are consumed
+
+00:34:14.510 --> 00:34:20.469 align:middle line:84%
+and some things are
+catalytic and regenerated.
+
+00:34:20.469 --> 00:34:22.690 align:middle line:84%
+So again, we are
+going to integrate
+
+00:34:22.690 --> 00:34:24.969 align:middle line:84%
+this metabolic processes
+we were talking about,
+
+00:34:24.969 --> 00:34:28.570 align:middle line:84%
+in the last couple of
+slides, with the information
+
+00:34:28.570 --> 00:34:33.370 align:middle line:84%
+flow, which was the
+topic of central dogma,
+
+00:34:33.370 --> 00:34:37.150 align:middle line:84%
+in order to get
+functional genomics,
+
+00:34:37.150 --> 00:34:41.679 align:middle line:84%
+which measures those information
+molecules mostly and produces
+
+00:34:41.679 --> 00:34:43.730 align:middle line:90%
+quantitative modeling.
+
+00:34:43.730 --> 00:34:45.909 align:middle line:84%
+You need to have the
+qualitative models to know
+
+00:34:45.909 --> 00:34:47.409 align:middle line:90%
+what's connected to what.
+
+00:34:47.409 --> 00:34:50.530 align:middle line:84%
+You need to have the raw data
+as illustrated in slide 41.
+
+00:34:50.530 --> 00:34:54.050 align:middle line:84%
+Again, to remind you, the
+source of quantitative data
+
+00:34:54.050 --> 00:34:57.940 align:middle line:84%
+here, you can measure RNA,
+or proteins, or peptides
+
+00:34:57.940 --> 00:34:59.350 align:middle line:90%
+in the mass spectrometry.
+
+00:34:59.350 --> 00:35:02.620 align:middle line:84%
+RNA in the arrays
+connected to the DNA
+
+00:35:02.620 --> 00:35:05.410 align:middle line:90%
+provided by the DNA sequencing.
+
+00:35:05.410 --> 00:35:11.560 align:middle line:84%
+I warned you that one of
+the gene ontology data type
+
+00:35:11.560 --> 00:35:15.790 align:middle line:84%
+sources of data was sequenced--
+electronic sequence annotation
+
+00:35:15.790 --> 00:35:17.590 align:middle line:90%
+by sequence similarity.
+
+00:35:17.590 --> 00:35:20.830 align:middle line:84%
+I want to elaborate
+on this warning
+
+00:35:20.830 --> 00:35:27.460 align:middle line:84%
+with this slide, where we say,
+we have various justifications
+
+00:35:27.460 --> 00:35:30.550 align:middle line:84%
+for looking for distant
+homologs, examples
+
+00:35:30.550 --> 00:35:34.780 align:middle line:84%
+of gene products,
+which are related by,
+
+00:35:34.780 --> 00:35:37.960 align:middle line:84%
+on that ultimate
+pedigree tree of life,
+
+00:35:37.960 --> 00:35:39.710 align:middle line:90%
+by very long distances.
+
+00:35:39.710 --> 00:35:41.770 align:middle line:84%
+It's been a long time
+since those things were
+
+00:35:41.770 --> 00:35:43.667 align:middle line:90%
+present as a common ancestor.
+
+00:35:43.667 --> 00:35:45.250 align:middle line:84%
+And we want to find
+those because they
+
+00:35:45.250 --> 00:35:48.130 align:middle line:84%
+help us limit the
+number of hypotheses
+
+00:35:48.130 --> 00:35:51.080 align:middle line:84%
+that we need to test whenever
+we find a new molecule.
+
+00:35:51.080 --> 00:35:53.230 align:middle line:84%
+If we can connect it
+to another molecule,
+
+00:35:53.230 --> 00:35:56.155 align:middle line:84%
+however distant,
+then we feel that we
+
+00:35:56.155 --> 00:35:58.030 align:middle line:84%
+don't have to test every
+possible hypothesis.
+
+00:35:58.030 --> 00:36:00.070 align:middle line:84%
+We just have to test
+that little narrow one.
+
+00:36:00.070 --> 00:36:02.980 align:middle line:84%
+But what happens
+when we do that?
+
+00:36:02.980 --> 00:36:04.990 align:middle line:84%
+Let's say, instead of
+some distant homology,
+
+00:36:04.990 --> 00:36:07.930 align:middle line:84%
+where we have, say 20%
+amino acid identity.
+
+00:36:07.930 --> 00:36:09.610 align:middle line:84%
+You line up the
+sequences by methods
+
+00:36:09.610 --> 00:36:11.000 align:middle line:90%
+that we'll talk about later.
+
+00:36:11.000 --> 00:36:13.570 align:middle line:84%
+And you have 20%
+of the positions
+
+00:36:13.570 --> 00:36:19.100 align:middle line:84%
+that are the same, or even less,
+can sometimes be meaningful.
+
+00:36:19.100 --> 00:36:20.710 align:middle line:90%
+But how good is that?
+
+00:36:20.710 --> 00:36:22.630 align:middle line:84%
+There's going to be
+some kind of curve that
+
+00:36:22.630 --> 00:36:26.860 align:middle line:84%
+relates how close two proteins
+are with a probability
+
+00:36:26.860 --> 00:36:30.580 align:middle line:84%
+that they will have the
+same biochemical, or cell
+
+00:36:30.580 --> 00:36:33.550 align:middle line:90%
+biological, or genetic function.
+
+00:36:33.550 --> 00:36:35.620 align:middle line:84%
+And here's some
+worst case scenarios.
+
+00:36:35.620 --> 00:36:37.810 align:middle line:84%
+And I don't mean to
+represent these as typical,
+
+00:36:37.810 --> 00:36:40.360 align:middle line:84%
+but they get you
+doubting again so
+
+00:36:40.360 --> 00:36:43.990 align:middle line:90%
+that you don't trust anything.
+
+00:36:43.990 --> 00:36:45.460 align:middle line:90%
+100% sequence identity.
+
+00:36:45.460 --> 00:36:48.850 align:middle line:84%
+This should be a best case
+scenario, but it's not.
+
+00:36:48.850 --> 00:36:52.600 align:middle line:84%
+The amylase enzyme, which
+catalyzes a carbon metabolism
+
+00:36:52.600 --> 00:36:55.450 align:middle line:84%
+in most cells when it's
+expressed to high levels
+
+00:36:55.450 --> 00:37:01.810 align:middle line:84%
+in a vertebrate like our
+friend this marine tortoise,
+
+00:37:01.810 --> 00:37:04.592 align:middle line:84%
+turtle, it turns into the
+major eye lens protein.
+
+00:37:04.592 --> 00:37:06.550 align:middle line:84%
+And actually, this is
+true of most vertebrates.
+
+00:37:06.550 --> 00:37:09.520 align:middle line:84%
+They have some kind of enzyme,
+like a glycolic enzyme,
+
+00:37:09.520 --> 00:37:12.700 align:middle line:84%
+which is overproduced
+and aggregates
+
+00:37:12.700 --> 00:37:17.170 align:middle line:84%
+and makes a clear lens
+more morphologically
+
+00:37:17.170 --> 00:37:19.690 align:middle line:84%
+interesting feature,
+which just focuses light.
+
+00:37:19.690 --> 00:37:22.900 align:middle line:84%
+Completely new function by all
+those definitions of function.
+
+00:37:22.900 --> 00:37:24.820 align:middle line:84%
+No longer does the
+enzymatic activity,
+
+00:37:24.820 --> 00:37:27.130 align:middle line:84%
+does an optical
+activity instead.
+
+00:37:27.130 --> 00:37:29.320 align:middle line:84%
+Another example, we have
+100% sequence identity.
+
+00:37:29.320 --> 00:37:32.500 align:middle line:84%
+Not something really distant
+homolog like 20% or 10%,
+
+00:37:32.500 --> 00:37:34.480 align:middle line:90%
+but 100% sequence identity.
+
+00:37:34.480 --> 00:37:37.120 align:middle line:84%
+[? Thyroxine, ?] which is
+involved in redox reactions
+
+00:37:37.120 --> 00:37:39.640 align:middle line:84%
+involving [INAUDIBLE]
+and other things.
+
+00:37:39.640 --> 00:37:41.740 align:middle line:84%
+In the right context
+with other proteins,
+
+00:37:41.740 --> 00:37:44.110 align:middle line:84%
+it can now be part
+of a DNA polymerase,
+
+00:37:44.110 --> 00:37:48.010 align:middle line:84%
+when it globs on the DNA, it
+goes really without stopping
+
+00:37:48.010 --> 00:37:51.340 align:middle line:84%
+with [? thyroxine, ?] but it
+falls off if [? thyroxine ?]
+
+00:37:51.340 --> 00:37:52.060 align:middle line:90%
+isn't around.
+
+00:37:52.060 --> 00:37:54.400 align:middle line:84%
+That's not a redox function
+completely different
+
+00:37:54.400 --> 00:37:56.927 align:middle line:90%
+biochemical function.
+
+00:37:56.927 --> 00:37:58.510 align:middle line:84%
+But like I say, there
+will be a curve.
+
+00:37:58.510 --> 00:38:03.580 align:middle line:84%
+Sometimes, there will
+be very great hypothesis
+
+00:38:03.580 --> 00:38:07.150 align:middle line:84%
+limitation that can come
+from very distant relatives.
+
+00:38:07.150 --> 00:38:09.840 align:middle line:90%
+
+
+00:38:09.840 --> 00:38:15.750 align:middle line:84%
+These are more examples
+of the quantitative data
+
+00:38:15.750 --> 00:38:19.380 align:middle line:84%
+that we will use to get hints
+at relationships among genes
+
+00:38:19.380 --> 00:38:21.330 align:middle line:90%
+that go up and down together.
+
+00:38:21.330 --> 00:38:24.680 align:middle line:90%
+
+
+00:38:24.680 --> 00:38:28.090 align:middle line:84%
+They form the basis
+of asking, what
+
+00:38:28.090 --> 00:38:30.820 align:middle line:84%
+is function not based
+just on sequence homology,
+
+00:38:30.820 --> 00:38:33.940 align:middle line:84%
+but based on a variety
+of quantitative data,
+
+00:38:33.940 --> 00:38:38.170 align:middle line:84%
+such as the RNA data
+and the microarrays.
+
+00:38:38.170 --> 00:38:42.160 align:middle line:84%
+This is three more
+ways of looking
+
+00:38:42.160 --> 00:38:44.260 align:middle line:90%
+at how we define functions.
+
+00:38:44.260 --> 00:38:46.810 align:middle line:84%
+Function definition
+number one, is the effects
+
+00:38:46.810 --> 00:38:47.890 align:middle line:90%
+of mutation on fitness.
+
+00:38:47.890 --> 00:38:49.540 align:middle line:84%
+This is, in a
+certain sense, what
+
+00:38:49.540 --> 00:38:54.640 align:middle line:84%
+the organism cares about the
+function of a gene product.
+
+00:38:54.640 --> 00:38:58.330 align:middle line:84%
+It's how many grandchildren
+am I going to have?
+
+00:38:58.330 --> 00:38:59.960 align:middle line:90%
+That's what it cares about.
+
+00:38:59.960 --> 00:39:02.662 align:middle line:84%
+And that's what shaped
+the function over time.
+
+00:39:02.662 --> 00:39:04.120 align:middle line:84%
+And so if we're
+going to understand
+
+00:39:04.120 --> 00:39:06.520 align:middle line:84%
+any of our other
+definition functions,
+
+00:39:06.520 --> 00:39:09.880 align:middle line:84%
+we have to at least
+give some attention
+
+00:39:09.880 --> 00:39:12.790 align:middle line:84%
+to what shaped it
+over billions of years
+
+00:39:12.790 --> 00:39:14.410 align:middle line:84%
+and over many
+different environments.
+
+00:39:14.410 --> 00:39:18.790 align:middle line:84%
+We need to have some feeling for
+the ecology of these organisms.
+
+00:39:18.790 --> 00:39:22.390 align:middle line:84%
+The second definition is
+the more commonly used one,
+
+00:39:22.390 --> 00:39:25.750 align:middle line:84%
+which is what is
+actually its function
+
+00:39:25.750 --> 00:39:27.970 align:middle line:90%
+in a machine-like sense.
+
+00:39:27.970 --> 00:39:32.135 align:middle line:84%
+In the cogs, in the wheels, how
+does it function structurally?
+
+00:39:32.135 --> 00:39:33.760 align:middle line:84%
+What's the
+three-dimensional structure?
+
+00:39:33.760 --> 00:39:35.350 align:middle line:90%
+What's the mechanism?
+
+00:39:35.350 --> 00:39:38.470 align:middle line:84%
+The third function, is
+more forward-looking,
+
+00:39:38.470 --> 00:39:41.770 align:middle line:84%
+not what good has it been
+to organisms in the past,
+
+00:39:41.770 --> 00:39:43.810 align:middle line:84%
+but what good can it
+be to us in the future
+
+00:39:43.810 --> 00:39:45.940 align:middle line:84%
+or to other organisms
+in the future?
+
+00:39:45.940 --> 00:39:49.870 align:middle line:84%
+This may not involve
+reproducing the organism,
+
+00:39:49.870 --> 00:39:50.710 align:middle line:90%
+making copies of it.
+
+00:39:50.710 --> 00:39:53.320 align:middle line:84%
+It could be that there's
+some other engineering goal
+
+00:39:53.320 --> 00:39:56.050 align:middle line:90%
+or objective function.
+
+00:39:56.050 --> 00:39:58.120 align:middle line:84%
+When we say that we've
+proven something.
+
+00:39:58.120 --> 00:40:01.930 align:middle line:84%
+We've proven a
+biological hypothesis.
+
+00:40:01.930 --> 00:40:04.510 align:middle line:84%
+What we mean is,
+given the assumption,
+
+00:40:04.510 --> 00:40:06.580 align:middle line:84%
+it's a statistical
+statement that the odds
+
+00:40:06.580 --> 00:40:09.070 align:middle line:84%
+of the hypothesis being
+wrong are less than 5%
+
+00:40:09.070 --> 00:40:13.240 align:middle line:84%
+of the time keeping in
+mind hidden hypotheses
+
+00:40:13.240 --> 00:40:14.260 align:middle line:90%
+and multiple hypotheses.
+
+00:40:14.260 --> 00:40:16.810 align:middle line:84%
+In genomics, it's all too
+easy to collect a lot of data,
+
+00:40:16.810 --> 00:40:19.090 align:middle line:84%
+and therefore, when
+you mine the data,
+
+00:40:19.090 --> 00:40:20.920 align:middle line:84%
+you can make a
+lot of hypotheses.
+
+00:40:20.920 --> 00:40:23.950 align:middle line:84%
+And you test them, and you
+find you will find thousands
+
+00:40:23.950 --> 00:40:25.540 align:middle line:84%
+of things, which
+by themselves would
+
+00:40:25.540 --> 00:40:30.670 align:middle line:84%
+be significant at the 5% level,
+the standard statistical test,
+
+00:40:30.670 --> 00:40:34.810 align:middle line:84%
+but you've got to correct
+for the number of hypotheses
+
+00:40:34.810 --> 00:40:37.210 align:middle line:84%
+you implicitly or
+explicitly test.
+
+00:40:37.210 --> 00:40:40.492 align:middle line:84%
+We'll mention this time
+and again in specific cases
+
+00:40:40.492 --> 00:40:41.200 align:middle line:90%
+as we go forward.
+
+00:40:41.200 --> 00:40:43.770 align:middle line:90%
+
+
+00:40:43.770 --> 00:40:48.600 align:middle line:84%
+The systems biology manifesto
+that I mentioned earlier,
+
+00:40:48.600 --> 00:40:51.150 align:middle line:84%
+had this little loop where you
+would generate perturbations
+
+00:40:51.150 --> 00:40:52.660 align:middle line:90%
+and test things and so forth.
+
+00:40:52.660 --> 00:40:54.960 align:middle line:84%
+But an alternative
+way rather than doing
+
+00:40:54.960 --> 00:40:57.240 align:middle line:84%
+additional experiments,
+is if you really
+
+00:40:57.240 --> 00:40:59.287 align:middle line:84%
+have bought-in fully
+into systems biology
+
+00:40:59.287 --> 00:41:00.870 align:middle line:84%
+and you really have
+all the components
+
+00:41:00.870 --> 00:41:03.210 align:middle line:84%
+and a systematic
+perturbations, then
+
+00:41:03.210 --> 00:41:05.580 align:middle line:84%
+you might be able to test
+the hypothesis generated
+
+00:41:05.580 --> 00:41:08.520 align:middle line:84%
+by data mining one data set by
+going into another data set.
+
+00:41:08.520 --> 00:41:10.780 align:middle line:84%
+You need to ensure that
+they are independent.
+
+00:41:10.780 --> 00:41:15.643 align:middle line:84%
+And you need to ensure that
+the hypothesis itself, came
+
+00:41:15.643 --> 00:41:18.060 align:middle line:84%
+from the first data set and
+not the second when you go out
+
+00:41:18.060 --> 00:41:18.640 align:middle line:90%
+and test it.
+
+00:41:18.640 --> 00:41:21.990 align:middle line:84%
+But that would be a pure data
+mining loop, systems biology
+
+00:41:21.990 --> 00:41:22.890 align:middle line:90%
+loop.
+
+00:41:22.890 --> 00:41:29.970 align:middle line:84%
+Now, just like when we
+say we have a proof,
+
+00:41:29.970 --> 00:41:31.920 align:middle line:84%
+you should be distrusting
+of anybody that
+
+00:41:31.920 --> 00:41:33.180 align:middle line:90%
+says I have an absolute proof.
+
+00:41:33.180 --> 00:41:36.220 align:middle line:84%
+What they really mean, is
+a statistical statement.
+
+00:41:36.220 --> 00:41:38.352 align:middle line:84%
+So too, when someone
+says, when they
+
+00:41:38.352 --> 00:41:39.810 align:middle line:84%
+refer to the quality
+of their data,
+
+00:41:39.810 --> 00:41:45.210 align:middle line:84%
+is this is the answer at the
+raw data level, what they really
+
+00:41:45.210 --> 00:41:47.520 align:middle line:84%
+mean, is that they
+have some error
+
+00:41:47.520 --> 00:41:49.950 align:middle line:90%
+level that they can quantitate.
+
+00:41:49.950 --> 00:41:52.770 align:middle line:84%
+And you should be
+especially distrustful
+
+00:41:52.770 --> 00:41:57.750 align:middle line:84%
+if someone doesn't attempt to
+give you any feeling for that.
+
+00:41:57.750 --> 00:42:00.600 align:middle line:84%
+Not to say that everybody
+that gives error bars or error
+
+00:42:00.600 --> 00:42:04.300 align:middle line:84%
+estimates is to be trusted,
+but you get the idea.
+
+00:42:04.300 --> 00:42:07.410 align:middle line:84%
+So for DNA sequencing, there's
+a standard of practice.
+
+00:42:07.410 --> 00:42:12.390 align:middle line:84%
+It was not always such, but
+a meeting in Bermuda, it's
+
+00:42:12.390 --> 00:42:14.130 align:middle line:84%
+called the Bermuda
+standard, this
+
+00:42:14.130 --> 00:42:23.100 align:middle line:84%
+is the best place to establish
+standards, is 99.99% accurate.
+
+00:42:23.100 --> 00:42:25.620 align:middle line:84%
+You can see they have very
+high standards in Bermuda.
+
+00:42:25.620 --> 00:42:28.350 align:middle line:84%
+But that's across
+the Genome Project.
+
+00:42:28.350 --> 00:42:31.540 align:middle line:90%
+
+
+00:42:31.540 --> 00:42:35.250 align:middle line:84%
+These are aspects that, I
+think, we got from genomics,
+
+00:42:35.250 --> 00:42:39.310 align:middle line:84%
+in addition to the raw data,
+we've got kind of an attitude.
+
+00:42:39.310 --> 00:42:42.900 align:middle line:84%
+The attitude is, we can start
+looking at whole systems again,
+
+00:42:42.900 --> 00:42:47.040 align:middle line:84%
+less on the individual
+gene-hypothesis driven
+
+00:42:47.040 --> 00:42:51.120 align:middle line:84%
+standard NIH grant proposals
+that predated the Genome
+
+00:42:51.120 --> 00:42:51.690 align:middle line:90%
+Project.
+
+00:42:51.690 --> 00:42:54.300 align:middle line:84%
+Now you can do less
+hypothesis driven,
+
+00:42:54.300 --> 00:42:58.090 align:middle line:84%
+you can do data
+mining, and so on.
+
+00:42:58.090 --> 00:43:02.130 align:middle line:84%
+We've also inherited the concept
+of automation the modeling
+
+00:43:02.130 --> 00:43:03.450 align:middle line:90%
+and completion.
+
+00:43:03.450 --> 00:43:06.447 align:middle line:84%
+Completion is something
+which still is not
+
+00:43:06.447 --> 00:43:08.280 align:middle line:84%
+reduced to practice for
+functional genomics,
+
+00:43:08.280 --> 00:43:11.050 align:middle line:84%
+but it has been reduced to
+practice for sequencing.
+
+00:43:11.050 --> 00:43:13.890 align:middle line:84%
+And there is hope that
+we can approach it
+
+00:43:13.890 --> 00:43:15.510 align:middle line:90%
+for functional genomics.
+
+00:43:15.510 --> 00:43:17.910 align:middle line:84%
+Be careful using
+the word impossible.
+
+00:43:17.910 --> 00:43:19.710 align:middle line:84%
+There certainly are
+things that appear
+
+00:43:19.710 --> 00:43:21.930 align:middle line:84%
+not to be cost effective
+at any given moment,
+
+00:43:21.930 --> 00:43:24.780 align:middle line:84%
+but technology is
+moving quickly enough.
+
+00:43:24.780 --> 00:43:27.510 align:middle line:84%
+Remember those greater
+than exponential curves
+
+00:43:27.510 --> 00:43:29.490 align:middle line:90%
+in the last lecture.
+
+00:43:29.490 --> 00:43:33.600 align:middle line:84%
+There are technologies arriving
+that make things suddenly
+
+00:43:33.600 --> 00:43:36.340 align:middle line:90%
+become cost effective.
+
+00:43:36.340 --> 00:43:40.320 align:middle line:84%
+And that's a particularly
+important warning when you're
+
+00:43:40.320 --> 00:43:42.390 align:middle line:84%
+designing a
+computational method that
+
+00:43:42.390 --> 00:43:45.190 align:middle line:84%
+will compete with an
+experimental method,
+
+00:43:45.190 --> 00:43:47.920 align:middle line:84%
+the experimental method
+suddenly becomes cost effective,
+
+00:43:47.920 --> 00:43:53.310 align:middle line:84%
+then you need to revise
+your computational goals.
+
+00:43:53.310 --> 00:43:56.880 align:middle line:84%
+We have types of mutations
+that we've talked about.
+
+00:43:56.880 --> 00:43:59.970 align:middle line:84%
+We have a null mutation, for
+example, phenylketonuria,
+
+00:43:59.970 --> 00:44:05.080 align:middle line:84%
+which is tested in newborns,
+in almost all newborns,
+
+00:44:05.080 --> 00:44:07.080 align:middle line:84%
+that are born in the
+United States and certainly
+
+00:44:07.080 --> 00:44:09.750 align:middle line:90%
+Massachusetts.
+
+00:44:09.750 --> 00:44:13.050 align:middle line:84%
+This is a very serious
+source of mental retardation
+
+00:44:13.050 --> 00:44:15.120 align:middle line:90%
+completely wiping out that gene.
+
+00:44:15.120 --> 00:44:18.630 align:middle line:84%
+Small dosage effects, like a
+1.5-fold effect that we talked
+
+00:44:18.630 --> 00:44:22.330 align:middle line:84%
+about in trisomies, like
+Down syndrome, are important.
+
+00:44:22.330 --> 00:44:23.610 align:middle line:90%
+You have conditional mutants.
+
+00:44:23.610 --> 00:44:27.150 align:middle line:84%
+Classically temperature
+sensitivity of a mutation,
+
+00:44:27.150 --> 00:44:28.770 align:middle line:90%
+meaning the protein unfolds.
+
+00:44:28.770 --> 00:44:34.560 align:middle line:84%
+Or more recent
+enthusiasm for chemicals,
+
+00:44:34.560 --> 00:44:38.850 align:middle line:84%
+a mutation which depends
+upon a chemical for producing
+
+00:44:38.850 --> 00:44:40.135 align:middle line:90%
+its phenotype.
+
+00:44:40.135 --> 00:44:41.760 align:middle line:84%
+You can not only have
+these things that
+
+00:44:41.760 --> 00:44:48.870 align:middle line:84%
+affect dosage or condition
+or complete knockout,
+
+00:44:48.870 --> 00:44:51.060 align:middle line:84%
+you can have a new
+function to obtain
+
+00:44:51.060 --> 00:44:52.620 align:middle line:84%
+for changing the
+ligand specificity
+
+00:44:52.620 --> 00:44:54.900 align:middle line:84%
+or changing the
+aggregation of a protein.
+
+00:44:54.900 --> 00:44:58.800 align:middle line:84%
+Here in the background, are
+how a change in the hemoglobin,
+
+00:44:58.800 --> 00:45:00.270 align:middle line:84%
+which normally
+transports oxygen,
+
+00:45:00.270 --> 00:45:04.320 align:middle line:84%
+can change the morphology of
+a cell and hence the function
+
+00:45:04.320 --> 00:45:06.720 align:middle line:90%
+in transporting oxygen.
+
+00:45:06.720 --> 00:45:09.870 align:middle line:84%
+I just want to end
+on two slides on how
+
+00:45:09.870 --> 00:45:17.670 align:middle line:84%
+you can represent the
+competition among cells
+
+00:45:17.670 --> 00:45:20.430 align:middle line:84%
+or among organisms,
+which represents
+
+00:45:20.430 --> 00:45:24.060 align:middle line:84%
+the Darwinian function, function
+number one, a few slides back.
+
+00:45:24.060 --> 00:45:27.360 align:middle line:84%
+Here you have mutants
+in a population.
+
+00:45:27.360 --> 00:45:30.090 align:middle line:84%
+Selection acts on
+populations, and mutations
+
+00:45:30.090 --> 00:45:33.930 align:middle line:84%
+are tagged, by definition,
+by their nucleic acid.
+
+00:45:33.930 --> 00:45:42.300 align:middle line:84%
+If you can use the tags, you
+make a pool of such mutants,
+
+00:45:42.300 --> 00:45:44.263 align:middle line:84%
+these are naturally
+occurring population.
+
+00:45:44.263 --> 00:45:45.680 align:middle line:84%
+And when these
+pools are subjected
+
+00:45:45.680 --> 00:45:49.340 align:middle line:84%
+to selections natural,
+or complex, or simple,
+
+00:45:49.340 --> 00:45:54.560 align:middle line:84%
+or in the laboratory you can
+now read out these tags in many
+
+00:45:54.560 --> 00:45:57.590 align:middle line:84%
+of the quantitative ways we
+talked about, for instance,
+
+00:45:57.590 --> 00:46:00.450 align:middle line:84%
+mass spectrometry,
+arrays, so on.
+
+00:46:00.450 --> 00:46:06.433 align:middle line:84%
+And as you go through
+more rounds of selection,
+
+00:46:06.433 --> 00:46:07.850 align:middle line:84%
+you'll eventually
+pick the winner,
+
+00:46:07.850 --> 00:46:10.220 align:middle line:84%
+which is the most
+highly selected
+
+00:46:10.220 --> 00:46:14.960 align:middle line:90%
+of the mutations, the winner.
+
+00:46:14.960 --> 00:46:16.383 align:middle line:84%
+Or you might have
+a mixture if you
+
+00:46:16.383 --> 00:46:18.050 align:middle line:84%
+through a very limited
+number of rounds.
+
+00:46:18.050 --> 00:46:19.970 align:middle line:84%
+This will follow the
+exponential curve
+
+00:46:19.970 --> 00:46:22.430 align:middle line:84%
+that we had here, whether
+it's exponential decay
+
+00:46:22.430 --> 00:46:23.690 align:middle line:90%
+or exponential growth.
+
+00:46:23.690 --> 00:46:26.420 align:middle line:84%
+You can have a very subtle
+difference in growth,
+
+00:46:26.420 --> 00:46:31.100 align:middle line:84%
+due to the function of
+that mutated gene product,
+
+00:46:31.100 --> 00:46:36.230 align:middle line:84%
+but that small, say
+1% turns into complete
+
+00:46:36.230 --> 00:46:39.887 align:middle line:84%
+all or none replacement if
+you have enough generations.
+
+00:46:39.887 --> 00:46:41.720 align:middle line:84%
+This is the awesome
+power of the exponential
+
+00:46:41.720 --> 00:46:43.025 align:middle line:90%
+that we talked about last time.
+
+00:46:43.025 --> 00:46:45.710 align:middle line:90%
+
+
+00:46:45.710 --> 00:46:50.030 align:middle line:84%
+And in real world, and
+also in the laboratory,
+
+00:46:50.030 --> 00:46:53.060 align:middle line:84%
+you can think of this as going
+over a variety of environments,
+
+00:46:53.060 --> 00:46:55.130 align:middle line:90%
+E, over different times.
+
+00:46:55.130 --> 00:47:00.050 align:middle line:84%
+So the time you spend in each
+of these different environments,
+
+00:47:00.050 --> 00:47:03.710 align:middle line:90%
+has some unit that happens.
+
+00:47:03.710 --> 00:47:06.230 align:middle line:84%
+In natural environment,
+you'll spend say, more time
+
+00:47:06.230 --> 00:47:07.950 align:middle line:90%
+in one condition than another.
+
+00:47:07.950 --> 00:47:11.090 align:middle line:84%
+And the selection
+coefficients are a simple sum,
+
+00:47:11.090 --> 00:47:14.990 align:middle line:84%
+and this exponential gives you
+the ratio of the organisms.
+
+00:47:14.990 --> 00:47:17.310 align:middle line:90%
+Here's some references on this.
+
+00:47:17.310 --> 00:47:21.140 align:middle line:84%
+And I urge you to take a look at
+these, where actual experiments
+
+00:47:21.140 --> 00:47:22.910 align:middle line:90%
+have been done getting these.
+
+00:47:22.910 --> 00:47:26.760 align:middle line:84%
+And we'll come back to
+this later in the course.
+
+00:47:26.760 --> 00:47:31.070 align:middle line:84%
+So this is the end of
+this lecture number two.
+
+00:47:31.070 --> 00:47:33.085 align:middle line:90%
+Thank you very much.
+
+00:47:33.085 --> 00:48:14.000 align:middle line:90%

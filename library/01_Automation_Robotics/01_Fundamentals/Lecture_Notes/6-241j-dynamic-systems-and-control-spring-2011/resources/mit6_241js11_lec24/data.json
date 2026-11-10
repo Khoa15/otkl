@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains information related to H2 optimization.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information related to H2 optimization.",
+  "draft": false,
+  "file": "/courses/6-241j-dynamic-systems-and-control-spring-2011/168e36a48c6b4db8d89f6a37db214e40_MIT6_241JS11_lec24.pdf",
+  "file_size": 600804,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "ee668e05-ff75-8895-0bb1-7bddd4117378",
+  "resourcetype": "Document",
+  "title": "MIT6_241JS11_lec24.pdf",
+  "uid": "168e36a4-8c6b-4db8-d89f-6a37db214e40"
+}

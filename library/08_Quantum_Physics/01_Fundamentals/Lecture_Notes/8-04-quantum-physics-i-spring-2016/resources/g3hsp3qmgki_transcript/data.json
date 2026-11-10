@@ -1,0 +1,22 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/8-04-quantum-physics-i-spring-2016/G3HSP3qMgKI_transcript.pdf",
+  "file_size": 28815,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "resourcetype": "Document",
+  "title": "Entanglement transcript",
+  "uid": "b5dca041-49d6-4cc0-97aa-e55c8c42b3f9",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": "G3HSP3qMgKI"
+  }
+}

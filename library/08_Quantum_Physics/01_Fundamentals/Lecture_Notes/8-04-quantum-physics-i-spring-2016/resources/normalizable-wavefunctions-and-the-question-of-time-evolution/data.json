@@ -1,0 +1,51 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "39541282",
+  "file_type": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Part 1: Basic Concepts",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Normalizable wavefunctions and the question of time evolution",
+  "uid": "307c9811-af7d-9b8a-5157-c9c269bd346f",
+  "video_files": {
+    "archive_url": "https://archive.org/download/MIT8.04S16/MIT8_04S16_lec06_s1_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/8-04-quantum-physics-i-spring-2016/508ef285660e5dd7bdfccb3f9bd5dbb7_d4skxu7MpFI.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/d4skxu7MpFI/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/8-04-quantum-physics-i-spring-2016/ceb707a47519f50a80034475bc7c2661_d4skxu7MpFI.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "8-04-quantum-physics-i-spring-2016, normalizable wavefunctions, res-8-011-the-zwiebach-quantum-mechanics-video-library-spring-2026, time evolution",
+    "youtube_id": "d4skxu7MpFI"
+  }
+}

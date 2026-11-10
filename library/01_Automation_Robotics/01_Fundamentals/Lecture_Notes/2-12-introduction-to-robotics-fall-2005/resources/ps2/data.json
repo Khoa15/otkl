@@ -1,0 +1,47 @@
+{
+  "content": "<p>This section contains problem assignment set number 2.</p>\n",
+  "content_type": "resource",
+  "description": "This section contains problem assignment set number 2.",
+  "draft": false,
+  "file": "/courses/2-12-introduction-to-robotics-fall-2005/5d2aae2aaf588293e35c09c0166e3969_ps2.pdf",
+  "file_size": 55424,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "c1b3f464-e564-d4f7-8f33-88e237134695",
+  "resourcetype": "Document",
+  "title": "ps2.pdf",
+  "uid": "5d2aae2a-af58-8293-e35c-09c0166e3969",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "2-12-introduction-to-robotics-fall-2005"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "2-12-introduction-to-robotics-fall-2005"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>This resource is a supporting file for assignment 3.</p>\n",
+  "content_type": "resource",
+  "description": "This resource is a supporting file for assignment 3.",
+  "draft": false,
+  "file": "/courses/6-832-underactuated-robotics-spring-2009/370261691f72eba0918062ee9b693428_pendfun.m",
+  "file_size": 4116,
+  "file_type": "text/plain",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "04c58ca0-0560-b9d1-6ca6-2691ea66babf",
+  "resourcetype": "Other",
+  "title": "pendfun.m",
+  "uid": "37026169-1f72-eba0-9180-62ee9b693428",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

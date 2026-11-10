@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture presentation on dynamics and control challenges that occurred during the Apollo project.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture presentation on dynamics and control challenges that occurred during the Apollo project.",
+  "draft": false,
+  "file": "/courses/16-07-dynamics-fall-2009/0d47b4e85e3fe2bd2ea002a2480c60b7_MIT16_07F09_Lec32.pdf",
+  "file_size": 1856844,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "c74de568-7f12-1be8-c80c-73b2269c3877",
+  "resourcetype": "Document",
+  "title": "Some Dynamics and Control Challenges that occurred during the Apollo Project",
+  "uid": "0d47b4e8-5e3f-e2bd-2ea0-02a2480c60b7"
+}

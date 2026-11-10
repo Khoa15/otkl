@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Sets on MIT OpenCourseWare</title>
+    <link>/resources/problem-sets/</link>
+    <description>Recent content in Problem Sets on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-sets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>369solution</title>
+      <link>/resources/369solution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/369solution/data.json</guid>
+      <description>&lt;p&gt;Supplementary MATLAB code for a homework assignment.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>gramschmidt</title>
+      <link>/resources/gramschmidt/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/gramschmidt/data.json</guid>
+      <description>&lt;p&gt;Supplementary MATLAB code for a homework assignment.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 3 MATLAB Problem</title>
+      <link>/resources/mtp_18085_f07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mtp_18085_f07/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on MATLAB.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 4</title>
+      <link>/resources/mt4_18085_solf07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mt4_18085_solf07/data.json</guid>
+      <description>&lt;p&gt;Solutions to a homework assignment on MATLAB.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>householder</title>
+      <link>/resources/householder/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/householder/data.json</guid>
+      <description>&lt;p&gt;Supplementary MATLAB code for a homework assignment.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MATLAB 1</title>
+      <link>/resources/mt1_18085_f07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mt1_18085_f07/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on MATLAB.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MATLAB 2.2</title>
+      <link>/resources/mt2_18085_f07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mt2_18085_f07/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on MATLAB.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>modifiedgramschmidt</title>
+      <link>/resources/modifiedgramschmidt/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/modifiedgramschmidt/data.json</guid>
+      <description>&lt;p&gt;Supplementary MATLAB code for a homework assignment.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>normalmodescode</title>
+      <link>/resources/normalmodescode/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/normalmodescode/data.json</guid>
+      <description>&lt;p&gt;Supplementary MATLAB code for a homework assignment.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

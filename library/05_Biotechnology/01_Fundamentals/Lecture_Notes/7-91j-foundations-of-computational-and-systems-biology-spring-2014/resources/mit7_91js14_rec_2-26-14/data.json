@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This file contains the information regarding Recitation 5: Review of topics covered in Lectures 5 and 6.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains the information regarding Recitation 5: Review of topics covered in Lectures 5 and 6.",
+  "draft": false,
+  "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/01c38491ed5727f8c39c332d8b064a17_MIT7_91JS14_Rec_2-26-14.pdf",
+  "file_size": 1616173,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem-solving Notes"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Recitations",
+  "parent_type": "CourseSection",
+  "parent_uid": "a8ee1ddc-6c16-9815-a0ec-c3e3d1235220",
+  "resourcetype": "Document",
+  "title": "Recitation 5: Review of topics covered in Lectures 5 and 6",
+  "uid": "01c38491-ed57-27f8-c39c-332d8b064a17",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "7-91j-foundations-of-computational-and-systems-biology-spring-2014"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "7-91j-foundations-of-computational-and-systems-biology-spring-2014"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

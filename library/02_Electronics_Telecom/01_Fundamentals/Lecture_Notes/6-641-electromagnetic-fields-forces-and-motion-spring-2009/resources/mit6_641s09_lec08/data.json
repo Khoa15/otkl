@@ -1,0 +1,27 @@
+{
+  "content": "<p>Lecture notes on magnetic dipoles, Maxwell&rsquo;s equations with magnetization, magnetic field intensity along axis of a uniformly magnetized cylinder, toroidal coil, transformers, and reluctance.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on magnetic dipoles, Maxwell's equations with magnetization, magnetic field intensity along axis of a uniformly magnetized cylinder, toroidal coil, transformers, and reluctance.",
+  "draft": false,
+  "file": "/courses/6-641-electromagnetic-fields-forces-and-motion-spring-2009/MIT6_641s09_lec08.pdf",
+  "file_size": 584355,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "dda578c4-8b9d-5d90-3bed-c932f0409540",
+  "resourcetype": "Document",
+  "title": "Lecture 8: Magnetization",
+  "uid": "fc49b08a-1468-0e35-c5db-0e0b4604b1a9",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

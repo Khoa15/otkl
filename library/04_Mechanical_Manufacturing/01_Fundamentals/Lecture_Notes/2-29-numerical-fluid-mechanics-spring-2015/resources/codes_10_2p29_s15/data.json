@@ -1,0 +1,27 @@
+{
+  "content": "<p>This special resource contains the information regarding codes 10.</p>\n",
+  "content_type": "resource",
+  "description": "This special resource contains the information regarding codes 10.",
+  "draft": false,
+  "file": "/courses/2-29-numerical-fluid-mechanics-spring-2015/cab05fe964741b45dfc5dda361cc2810_codes_10_2p29_S15.zip",
+  "file_size": 471,
+  "file_type": "application/zip",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes and References",
+  "parent_type": "CourseSection",
+  "parent_uid": "58652a2f-ded8-c1f1-25a8-12c4d5a6be42",
+  "resourcetype": "Other",
+  "title": "codes_10_2p29_S15.zip",
+  "uid": "cab05fe9-6474-1b45-dfc5-dda361cc2810",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

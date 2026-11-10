@@ -1,0 +1,21 @@
+{
+  "content": "<p>Problem set on the on principles of digital communication.</p>\n",
+  "content_type": "resource",
+  "description": "Problem set on the on principles of digital communication.",
+  "draft": false,
+  "file": "/courses/6-450-principles-of-digital-communication-i-fall-2009/4965ba62ed2647c658da79887036d93e_MIT6_450F09_pset01.pdf",
+  "file_size": 58736,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "17c4f609-ad9a-de98-62f0-7292d27a9ad8",
+  "resourcetype": "Document",
+  "title": "Problem Set 1",
+  "uid": "4965ba62-ed26-47c6-58da-79887036d93e"
+}

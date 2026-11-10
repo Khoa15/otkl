@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Demonstration Videos on MIT OpenCourseWare</title>
+    <link>/resources/demonstration-videos/</link>
+    <description>Recent content in Demonstration Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/demonstration-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mode1.avi</title>
+      <link>/resources/mode1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mode1/data.json</guid>
+      <description>&lt;p&gt;This resource is a supporting file for the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mode2.avi</title>
+      <link>/resources/mode2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mode2/data.json</guid>
+      <description>&lt;p&gt;This resource is a supporting file for the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mode3.avi</title>
+      <link>/resources/mode3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mode3/data.json</guid>
+      <description>&lt;p&gt;This resource is a supporting file for the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mode4.avi</title>
+      <link>/resources/mode4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mode4/data.json</guid>
+      <description>&lt;p&gt;This resource is a supporting file for the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mode5.avi</title>
+      <link>/resources/mode5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mode5/data.json</guid>
+      <description>&lt;p&gt;This resource is a supporting file for the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mode6.avi</title>
+      <link>/resources/mode6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mode6/data.json</guid>
+      <description>&lt;p&gt;This resource is a supporting file for the course.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

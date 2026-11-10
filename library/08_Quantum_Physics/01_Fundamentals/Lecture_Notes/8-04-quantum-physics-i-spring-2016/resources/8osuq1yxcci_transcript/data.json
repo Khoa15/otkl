@@ -1,0 +1,22 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/8-04-quantum-physics-i-spring-2016/8OsUQ1yXCcI_transcript.pdf",
+  "file_size": 32103,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "resourcetype": "Document",
+  "title": "Photons and the loss of determinism transcript",
+  "uid": "750ac2e4-6b10-44d9-bd80-cb363f599fac",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": "8OsUQ1yXCcI"
+  }
+}

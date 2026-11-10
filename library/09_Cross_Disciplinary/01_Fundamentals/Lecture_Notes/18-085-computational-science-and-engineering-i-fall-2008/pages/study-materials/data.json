@@ -1,0 +1,20 @@
+
+{
+  "content": "\n    <h3 id=\"textbook-chapters\">Textbook Chapters</h3>\n\n<p>Below are two excerpts from the textbook for this course ( Strang, Gilbert. <em>Computational Science and Engineering</em>. Wellesley, MA: <a   class=\"external-link \"   target=\"_blank\"   href=\"http://www.wellesleycambridge.com/\"  aria-label=\"Wellesley-Cambridge Press (opens in a new tab)\"  >Wellesley-Cambridge Press</a>, 2007. ISBN: 9780961408817.).</p>\n<p>Chapter 1: Applied Linear Algebra; Section 1.1 Four Special Matrices (<a href=\"../../resources/cse11/index.html\">PDF</a>)</p>\n<p>Chapter 4: Fourier Series and Integrals; Section 4.1 Fourier Series for Periodic Functions (<a href=\"../../resources/cse41/index.html\">PDF</a>)</p>\n<p>Appendix: Linear algebra in a nutshell (<a href=\"../../resources/nutshell/index.html\">PDF</a>)</p>\n\n    <h3 id=\"matlab-information\">MATLAB Information</h3>\n\n<ul>\n<li>MATLAB cheat sheet (<a href=\"../../resources/matlab_cheatshee/index.html\">PDF</a>)</li>\n<li>Short MATLAB tutorial (<a href=\"../../resources/matlab/index.html\">PDF</a>) and <a   class=\"external-link \"   target=\"_blank\"   href=\"http://www.mathworks.com/products/demos/\"  aria-label=\"Cool MATLAB demos (opens in a new tab)\"  >Cool MATLAB demos</a> by MathWorks</li>\n<li><a   class=\"external-link \"   target=\"_blank\"   href=\"http://web.mit.edu/18.06/www/MATLAB/Recitation.html\"  aria-label=\"MATLAB recitation demos from 1997 (opens in a new tab)\"  >MATLAB recitation demos from 1997</a></li>\n<li><a   class=\"external-link \"   target=\"_blank\"   href=\"http://web.mit.edu/18.06/www/Course-Info/Tcodes.html\"  aria-label=\"MATLAB teaching codes (opens in a new tab)\"  >MATLAB teaching codes</a></li>\n</ul>\n\n    <h3 id=\"spring-1999-matlab-homework\">Spring 1999 MATLAB Homework</h3>\n\n<p>MATLAB Homework 1 (<a href=\"../../resources/ml1/index.html\">PDF</a>)</p>\n<p>MATLAB Homework 2 (<a href=\"../../resources/matlab2/index.html\">PDF</a>)</p>\n<p>MATLAB Homework 3 (<a href=\"../../resources/matlab3/index.html\">PDF</a>)</p>\n<p>MATLAB Homework 4 (<a href=\"../../resources/matlab4/index.html\">PDF</a>)</p>\n<p>MATLAB Homework 5 (<a href=\"../../resources/matlab5/index.html\">PDF</a>)</p>\n<p>MATLAB Homework 6 (<a href=\"../../resources/matlab6/index.html\">PDF</a>)</p>\n\n    <h3 id=\"class-resources\">Class Resources</h3>\n\n<ul>\n<li>Movie of elimination: moe.m (<a href=\"../../resources/moe/index.html\">M</a>) (also need realmmd.m (<a href=\"../../resources/realmmd/index.html\">M</a>))</li>\n<li>Code to create K,T,B,C as sparse matrices (<a href=\"/pages/study-materials/create_sparse.html\">HTML</a>)</li>\n<li>MATLAB backslash command to solve Ax = b (<a href=\"../../resources/backslash/index.html\">PDF</a>)</li>\n<li>Gradient and divergence / parallel table (<a href=\"../../resources/onepager/index.html\">PDF</a>)</li>\n</ul>\n",
+  "content_type": "page",
+  "description": "This section study materials for the course, including textbook chapters, MATLAB information, homework, and class resources.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Study Materials",
+  "uid": "df610098-8ebd-ba68-b43f-7d3a6f71d7c5",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

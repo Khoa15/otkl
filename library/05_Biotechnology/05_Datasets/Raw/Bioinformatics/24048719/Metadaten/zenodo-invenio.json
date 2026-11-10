@@ -1,0 +1,200 @@
+{
+  "title": "COVID-19-Hospitalisierungen in Deutschland",
+  "description": "<p>Im Datensatz \"COVID-19-Hospitalisierungen in Deutschland\" des Robert Koch-Instituts werden täglich aktualisierte Informationen zu Hospitalisierungen im Zusammenhang mit COVID-19 basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Neben tagesaktuellen Fallzahlen und Inzidenzen auf Bundes- und Länderebene enthält der Datensatz auch modellgestützte Schätzungen verzögert gemeldeter Hospitalisierungen mittels Nowcasting. Ziel ist es, die tatsächliche Belastung des Gesundheitssystems durch COVID-19 besser abzubilden, insbesondere durch die Berechnung adjustierter 7-Tage-Hospitalisierungsinzidenzen.</p>",
+  "resource_type": {
+    "id": "dataset"
+  },
+  "publication_date": "2026-11-08",
+  "creators": [
+    {
+      "person_or_org": {
+        "type": "organizational",
+        "name": "Robert Koch-Institut",
+        "identifiers": [
+          {
+            "scheme": "ror",
+            "identifier": "01k5qnb77"
+          }
+        ]
+      }
+    }
+  ],
+  "contributors": [
+    {
+      "person_or_org": {
+        "type": "personal",
+        "family_name": "Ullrich",
+        "given_name": "Alexander",
+        "identifiers": [
+          {
+            "scheme": "orcid",
+            "identifier": "0000-0002-4894-6124"
+          }
+        ]
+      },
+      "affiliations": [
+        {
+          "name": "Robert Koch-Institut",
+          "id": "01k5qnb77"
+        }
+      ],
+      "role": {
+        "id": "datamanager"
+      }
+    },
+    {
+      "person_or_org": {
+        "type": "personal",
+        "family_name": "an der Heiden",
+        "given_name": "Matthias",
+        "identifiers": [
+          {
+            "scheme": "orcid",
+            "identifier": "0000-0001-5863-4549"
+          }
+        ]
+      },
+      "affiliations": [
+        {
+          "name": "Robert Koch-Institut",
+          "id": "01k5qnb77"
+        }
+      ],
+      "role": {
+        "id": "researcher"
+      }
+    },
+    {
+      "person_or_org": {
+        "type": "personal",
+        "family_name": "Diercke",
+        "given_name": "Michaela",
+        "identifiers": [
+          {
+            "scheme": "orcid",
+            "identifier": "0000-0002-4678-1813"
+          }
+        ]
+      },
+      "affiliations": [
+        {
+          "name": "Robert Koch-Institut",
+          "id": "01k5qnb77"
+        }
+      ],
+      "role": {
+        "id": "projectmanager"
+      }
+    },
+    {
+      "person_or_org": {
+        "type": "personal",
+        "family_name": "Wünsche",
+        "given_name": "Hannes",
+        "identifiers": [
+          {
+            "scheme": "orcid",
+            "identifier": "0000-0002-8837-0326"
+          }
+        ]
+      },
+      "affiliations": [
+        {
+          "name": "Robert Koch-Institut",
+          "id": "01k5qnb77"
+        }
+      ],
+      "role": {
+        "id": "datacurator"
+      }
+    }
+  ],
+  "publisher": "Zenodo",
+  "version": "2026-11-08",
+  "dates": [
+    {
+      "date": "2026-11-08T07:15:14+01:00",
+      "type": {
+        "id": "created"
+      },
+      "description": "Date when the dataset was created"
+    }
+  ],
+  "languages": [
+    {
+      "id": "deu"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "scheme": "url",
+      "relation_type": {
+        "id": "issupplementto"
+      },
+      "identifier": "https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland",
+      "resource_type": {
+        "id": "dataset"
+      }
+    }
+  ],
+  "rights": [
+    {
+      "id": "cc-by-4.0"
+    }
+  ],
+  "subjects": [
+    {
+      "subject": "Hospitalization"
+    },
+    {
+      "subject": "Krankenhauseinweisung"
+    },
+    {
+      "subject": "Vorhersage"
+    },
+    {
+      "subject": "Forecasting"
+    },
+    {
+      "subject": "COVID-19"
+    },
+    {
+      "subject": "SARS-CoV-2"
+    },
+    {
+      "subject": "Infektionen"
+    },
+    {
+      "subject": "Deutschland"
+    },
+    {
+      "subject": "Infections"
+    },
+    {
+      "subject": "Germany"
+    },
+    {
+      "subject": "Open Data"
+    },
+    {
+      "subject": "RKI"
+    },
+    {
+      "subject": "Gesundheitsberichterstattung"
+    },
+    {
+      "subject": "Epidemiologie"
+    },
+    {
+      "subject": "Public health surveillance"
+    },
+    {
+      "subject": "Epidemiology"
+    }
+  ],
+  "custom_fields": {
+    "legacy:communities": [
+      "robertkochinstitut"
+    ]
+  }
+}

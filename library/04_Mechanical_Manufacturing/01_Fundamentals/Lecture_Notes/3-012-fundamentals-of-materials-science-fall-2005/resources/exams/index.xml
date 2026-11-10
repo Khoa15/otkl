@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exams on MIT OpenCourseWare</title>
+    <link>/resources/exams/</link>
+    <description>Recent content in Exams on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exams</title>
+      <link>/pages/exams/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/exams/data.json</guid>
+      <description>&lt;p&gt;This page presents the course quizzes and selected solutions, plus some quizzes from a previous version of the course.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Quizzes&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Solutions&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Quiz 1 (&lt;a href=&#34;../../resources/quiz1_v2/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/quiz1_soln/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Quiz 2 (&lt;a href=&#34;../../resources/quiz2/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Thermodynamics (&lt;a href=&#34;../../resources/quiz2_sol_thermo/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Quiz 3 (&lt;a href=&#34;../../resources/quiz3/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Bonding (&lt;a href=&#34;../../resources/quiz3_sol_bond/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;/table&gt;&#xA;&#xA;&#xA;    &lt;h3 id=&#34;2004-quizzes&#34;&gt;2004 Quizzes&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Quizzes&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Solutions&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Quiz 1 (&lt;a href=&#34;../../resources/f04_quiz1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Thermodynamics (&lt;a href=&#34;../../resources/f04_q1_sol_t/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Quiz 2 (&lt;a href=&#34;../../resources/f04_quiz2/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/f04_quiz2_sol/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td colspan=&#34;2&#34;&gt;&#xA;&#xA;Quiz 3 with Solutions (&lt;a href=&#34;../../resources/f04_quiz3_sol/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Quiz 4 (&lt;a href=&#34;../../resources/f04_quiz4/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Thermodynamics (&lt;a href=&#34;../../resources/f04_q4_sol_t/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>f04_quiz1.pdf</title>
+      <link>/resources/f04_quiz1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/f04_quiz1/data.json</guid>
+      <description>&lt;p&gt;This file contains questions on structures and thermodynamics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>f04_quiz2.pdf</title>
+      <link>/resources/f04_quiz2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/f04_quiz2/data.json</guid>
+      <description>&lt;p&gt;This file contains questions on structures and thermodynamics in quiz 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>f04_quiz4.pdf</title>
+      <link>/resources/f04_quiz4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/f04_quiz4/data.json</guid>
+      <description>&lt;p&gt;This file contains questions based on bonding and thermodynamics in quiz 4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>quiz1_v2.pdf</title>
+      <link>/resources/quiz1_v2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz1_v2/data.json</guid>
+      <description>&lt;p&gt;This file contains two questions each on bonding and thermodynamics in quiz 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>quiz2.pdf</title>
+      <link>/resources/quiz2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz2/data.json</guid>
+      <description>&lt;p&gt;This file contains questions on bonding and thermodynamics in quiz 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>quiz3.pdf</title>
+      <link>/resources/quiz3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz3/data.json</guid>
+      <description>&lt;p&gt;This file contains questions to expalin on bonding and thermodynamics in quiz 3.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

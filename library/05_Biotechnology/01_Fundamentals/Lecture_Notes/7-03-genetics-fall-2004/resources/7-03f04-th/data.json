@@ -1,0 +1,21 @@
+{
+  "content": "<p>New image Upload</p>\n",
+  "content_type": "resource",
+  "description": "New image Upload",
+  "draft": false,
+  "file": "/courses/7-03-genetics-fall-2004/7100f85097bf263f384fa01329e1ea4e_7-03f04-th.jpg",
+  "file_size": 7701,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "DNA and histone proteins are packaged into structures called chromosomes. (Image courtesy of the {{% resource_link \"1306cb2e-8821-4fa7-adee-c9ee4cabfc8e\" \"U.S. National Library of Medicine\" %}}.)",
+    "credit": "",
+    "image-alt": "Figure showing DNA and histone proteins packaged into chromosomes."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "7-03f04-th.jpg",
+  "uid": "7100f850-97bf-263f-384f-a01329e1ea4e"
+}

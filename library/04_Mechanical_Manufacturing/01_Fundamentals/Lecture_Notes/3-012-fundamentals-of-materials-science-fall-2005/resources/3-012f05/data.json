@@ -1,0 +1,32 @@
+{
+  "content": "<p>Charge density in paraelectric and ferroelectric PbTiO3. See lecture notes for lecture #16, Structure and Bonding. (Figure by Prof. Nicola Marzari.)</p>\n",
+  "content_type": "resource",
+  "description": "Charge density in paraelectric and ferroelectric PbTiO3. See lecture notes for lecture #16, Structure and Bonding. (Figure by Prof. Nicola Marzari.)",
+  "draft": false,
+  "file": "/courses/3-012-fundamentals-of-materials-science-fall-2005/72486bb4a3f8dce1d2f2316e9158751e_3-012f05.jpg",
+  "file_size": 75904,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Charge density in paraelectric and ferroelectric PbTiO₃. See [lecture notes](/courses/3-012-fundamentals-of-materials-science-fall-2005/pages/lecture-notes) for Lec #16, Structure and Bonding. (Figure by Prof. Nicola Marzari.)",
+    "credit": "",
+    "image-alt": "Diagram of two crystal structures."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "3-012f05.jpg",
+  "uid": "72486bb4-a3f8-dce1-d2f2-316e9158751e",
+  "video_files": {
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;p&gt;Along with the complete set of &lt;a href=&#34;../../pages/lecture-notes/index.html&#34;&gt;lecture notes&lt;/a&gt;, the following readings were assigned in the class:&lt;/p&gt;&#xA;&lt;p&gt;Sutton, George, and Oscar Biblarz. &lt;em&gt;Rocket Propulsion Elements&lt;/em&gt;. New York, NY: Wiley-Interscience, 2000. ISBN: 0471326429.&lt;/p&gt;&#xA;&lt;p&gt;Hill, Philip and Carl Peterson. &lt;em&gt;Mechanics and Thermodynamics of Propulsion&lt;/em&gt;. Upper Saddle River, NJ: Prentice Hall, 1991. ISBN: 0201146592.&lt;/p&gt;&#xA;&lt;p&gt;Rohsenow, Warren, James Hartnett, and Young Cho. &lt;em&gt;Handbook of Heat Transfer&lt;/em&gt;. New York, NY: McGraw-Hill, 1998. ISBN: 0070535558.&lt;/p&gt;&#xA;&lt;p&gt;McAdams, William Henry. &lt;em&gt;Heat Transmission&lt;/em&gt;. Melbourne, FL: Krieger Publishing, 1985, pp. 82-97. ISBN: 0898748763.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

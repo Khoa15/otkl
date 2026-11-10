@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture notes on the angular impulse and momentum for a particle.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on the angular impulse and momentum for a particle.",
+  "draft": false,
+  "file": "/courses/16-07-dynamics-fall-2009/5d437178b3b987828bb1062eb5d020ef_MIT16_07F09_Lec10.pdf",
+  "file_size": 265785,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "c74de568-7f12-1be8-c80c-73b2269c3877",
+  "resourcetype": "Document",
+  "title": "Lecture L10 – Angular Impulse and Momentum for a Particle",
+  "uid": "5d437178-b3b9-8782-8bb1-062eb5d020ef"
+}

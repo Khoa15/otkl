@@ -1,0 +1,16 @@
+
+{
+  "content": "<p>This page contains homework assignments and solutions for the semester.</p>\n<p>Problem Set 2 refers to the spec sheet for the Maxon motor, here (<a   class=\"external-link \"   target=\"_blank\"   href=\"http://www.maxonmotor.com/medias/sys_master/8804419338270/DC-Das-wichtigste-ueber-maxonmotoren_11_DE-EN_ES_036-1.pdf\"  aria-label=\"PDF (opens in a new tab)\"  >PDF</a>)</p>\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nASSIGNMENTS\n</th>\n\n<th>\n\nSOLUTIONS\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\nProblem set 1 (<a href=\"../../resources/ps1/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/ps1soln/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nProblem set 2 (<a href=\"../../resources/ps2/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/ps2soln/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nProblem set 3 (<a href=\"../../resources/ps3/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/ps3soln/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nProblem set 4 (<a href=\"../../resources/ps4/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/ps4soln/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nProblem set 5 (<a href=\"../../resources/ps5/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/ps5soln/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nProblem set 6 (<a href=\"../../resources/ps6/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/ps6soln/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nProblem set 7 (<a href=\"../../resources/ps7/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/ps7soln/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nProblem set 8 (<a href=\"../../resources/ps8/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/ps8soln/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nProblem set 9 (<a href=\"../../resources/ps9/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/ps9soln/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nProblem set 10 (<a href=\"../../resources/ps10/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/ps10soln/index.html\">PDF</a>)\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section provides the homework assignments from the course along with solutions.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Assignments",
+  "uid": "fa2f0923-739a-3c19-bfe6-5b7da391e2b7"
+}
+

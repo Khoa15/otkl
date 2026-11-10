@@ -1,0 +1,22 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/8-04-quantum-physics-i-spring-2016/G3HSP3qMgKI_captions.webvtt",
+  "file_size": 17349,
+  "file_type": "application/x-subrip",
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "resourcetype": "Other",
+  "title": "Entanglement captions",
+  "uid": "d7528bc5-a827-4a23-8985-bac5d72fb44e",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": "G3HSP3qMgKI"
+  }
+}

@@ -1,0 +1,20 @@
+
+{
+  "content": "<p>The required textbooks for the course can be found at the links below.</p>\n\n    <h3 id=\"electromagnetic-fields-and-energy-with-video-demonstrationscoursesres-6-001-electromagnetic-fields-and-energy-spring-2008\"><a href=\"https://ocw.mit.edu/courses/res-6-001-electromagnetic-fields-and-energy-spring-2008\" target=\"_blank\" rel=\"noopener\">Electromagnetic Fields and Energy with Video Demonstrations</a></h3>\n\n<p>The text is aimed at those who have seen Maxwell&rsquo;s equations in integral and differential form and who have been exposed to some integral theorems and differential operators. The accompanying video demonstrations help the student connect what is analytically derived with what is observed.</p>\n<p>Haus, Hermann A., and James R. Melcher. <em>Electromagnetic Fields and Energy</em>. Englewood Cliffs, NJ: Prentice-Hall, 1989. ISBN: 9780132490207.</p>\n\n    <h3 id=\"electromechanical-dynamicscoursesres-6-003-electromechanical-dynamics-spring-2009\"><a href=\"https://ocw.mit.edu/courses/res-6-003-electromechanical-dynamics-spring-2009\" target=\"_blank\" rel=\"noopener\">Electromechanical Dynamics</a></h3>\n\n<p>This text explains electromechanical dynamics, a subject that combines classical mechanics with the fundamentals of electricity and magnetism. Some of the examples include rotating machinery, plasma dynamics, electromechanics of biological systems, and magnetoelasticity. The examples used are mathematically lucid and physically demonstrable.</p>\n<p>Woodson, H. H., and J. R. Melcher. &ldquo;Part I (Discrete Systems), and Part II (Fields, Forces, and Motion).&rdquo; In <em>Electromechanical Dynamics</em>. Malabar, FL: Krieger Pub. Co., 1985. ISBN: 9780894644597 (Part I) and 9780898748475 (Part II).</p>\n\n    <h3 id=\"electromagnetic-field-theorycoursesres-6-002-electromagnetic-field-theory-a-problem-solving-approach-spring-2008\"><a href=\"https://ocw.mit.edu/courses/res-6-002-electromagnetic-field-theory-a-problem-solving-approach-spring-2008\" target=\"_blank\" rel=\"noopener\">Electromagnetic Field Theory</a></h3>\n\n<p>This text is an introduction at the junior level to electromagnetic field theory. The course starts with the Coulomb-Lorentz force law on a point charge. The theory is extended by the continuous superposition of solutions from previously developed simpler problems leading to the general integral and differential field laws. This book features many worked examples emphasizing physical processes, devices, and models.</p>\n<p>Zahn, Markus. <em>Electromagnetic Field Theory: A Problem Solving Approach</em>. Malabar, FL: Krieger Pub. Co., 2003. ISBN: 9781575242354.</p>\n",
+  "content_type": "page",
+  "description": "This section provides information on the required textbooks for the course.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Textbooks",
+  "uid": "c100f648-e38f-2ab0-f906-954bbb16fc2d",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

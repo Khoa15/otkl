@@ -1,0 +1,27 @@
+{
+  "content": "<p>Thumbnail image accompanying a video lecture on Kirchhoff&rsquo;s current law.</p>\n",
+  "content_type": "resource",
+  "description": "Thumbnail image accompanying a video lecture on Kirchhoff's current law.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/cac1d2c114c03bdb72f38c6a5dda505a_13.jpg",
+  "file_size": 2780,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Lecture 13",
+  "uid": "cac1d2c1-14c0-3bdb-72f3-8c6a5dda505a",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

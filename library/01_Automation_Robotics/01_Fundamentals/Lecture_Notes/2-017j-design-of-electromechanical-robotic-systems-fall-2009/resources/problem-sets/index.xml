@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Sets on MIT OpenCourseWare</title>
+    <link>/resources/problem-sets/</link>
+    <description>Recent content in Problem Sets on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-sets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aircraft in Winds</title>
+      <link>/resources/mit2_017jf09_p22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p22/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on the response of an air vehicle that is being buffeted by wind.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aliasing</title>
+      <link>/resources/mit2_017jf09_p19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p19/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on aliasing and undersampling.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Autonomous Vehicle Mission Design, with a Simple Battery Model</title>
+      <link>/resources/mit2_017jf09_p09/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p09/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on autonomous vehicle mission design with a simple battery model.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AUV Mission Optimization</title>
+      <link>/resources/mit2_017jf09_p24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p24/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on mission optimization for an autonomous underwater vehicle (AUV).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bouncing Robot</title>
+      <link>/resources/mit2_017jf09_p15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p15/data.json</guid>
+      <description>&lt;p&gt;Homework assignment to explore the simple dynamics of a bouncing robot device using simulation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bretschneider Spectrum Definition</title>
+      <link>/resources/mit2_017jf09_p04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p04/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on the Bretschneider spectrum.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Computations on Recorded RP Data</title>
+      <link>/resources/mit2_017jf09_p20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p20/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on computations on recorded RP data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Compute Spectra</title>
+      <link>/resources/computespectra/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/computespectra/data.json</guid>
+      <description>&lt;p&gt;Data file for a homework assignment on spectral analysis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Control of a High-Speed Vehicle</title>
+      <link>/resources/mit2_017jf09_p36/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p36/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on using the Nyquist criterion to bring a vehicle under control and to achieve specific performance and robustness properties.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Convolution</title>
+      <link>/resources/mit2_017jf09_p02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p02/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on convolution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Convolution of Sine and Unit Step</title>
+      <link>/resources/mit2_017jf09_p06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p06/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on convolution of sine and unit step.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dead-Reckoning Error</title>
+      <link>/resources/mit2_017jf09_p34/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p34/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on dead-reckoning error.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deck Flooding Calculation with Short-Term Statistics</title>
+      <link>/resources/mit2_017jf09_p18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p18/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on deck flooding calculation with short-term statistics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dynamic Programming for Path Design</title>
+      <link>/resources/mit2_017jf09_p30/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p30/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on dynamic programming for path design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dynamics Calculations Using the Time and Frequency Domains</title>
+      <link>/resources/mit2_017jf09_p17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p17/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on deck flooding calculation and short-term statistics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Feedback on a Highly Maneuverable Vessel</title>
+      <link>/resources/mit2_017jf09_p44/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p44/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on feedback on a highly maneuverable vessel.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Flight Control of a Hovercraft</title>
+      <link>/resources/mit2_017jf09_p29/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p29/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on developing simple control systems for two types of hovercraft moving in the horizontal plane.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Floating Structure Heave and Roll</title>
+      <link>/resources/mit2_017jf09_p41/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p41/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on the heave and roll response of a two-hull structure.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Floating Structure in Waves</title>
+      <link>/resources/mit2_017jf09_p28/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p28/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on the pitch and heave dynamics of a large floating structure in a random sea.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fourier Series</title>
+      <link>/resources/mit2_017jf09_p03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p03/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on Fourier series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fourier Series Calculations</title>
+      <link>/resources/mit2_017jf09_p07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p07/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on Fourier series calculations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Geometry Optimization</title>
+      <link>/resources/mit2_017jf09_p25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p25/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on geometry optimization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 4: Recorded RP Data</title>
+      <link>/resources/homework4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework4/data.json</guid>
+      <description>&lt;p&gt;Data file for a homework assignment on computations on recorded RP data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 5: I/O data</title>
+      <link>/resources/homework5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework5/data.json</guid>
+      <description>&lt;p&gt;Data file for a homework assignment on identification of a response amplitude operator from data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 7: I/O data</title>
+      <link>/resources/homework7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework7/data.json</guid>
+      <description>&lt;p&gt;Data file for a homework assignment on identification of a response amplitude operator from data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 9: Hurricane Ida Wind Data</title>
+      <link>/resources/homework9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework9/data.json</guid>
+      <description>&lt;p&gt;Supporting data file for a homework assignment: wind data recorded at Weather Station &amp;ldquo;Larchmont-Cornicks,&amp;rdquo; in Norfolk.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hurricane Ida Wind Record</title>
+      <link>/resources/mit2_017jf09_p39/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p39/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on analysis of the November 2009 Hurricane Ida wind record.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hurricane Winds</title>
+      <link>/resources/mit2_017jf09_p21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p21/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on the spectrum for winds speeds during hurricanes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Identification of a Response Amplitude Operator from Data</title>
+      <link>/resources/mit2_017jf09_p23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p23/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on identification of a response amplitude operator from data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Identification of a Response Amplitude Operator from Data: Redux</title>
+      <link>/resources/mit2_017jf09_p31/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p31/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on identification of a response amplitude operator from data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Landing Vehicle Control</title>
+      <link>/resources/mit2_017jf09_p35/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p35/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on landing vehicle control.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear Time Invariance</title>
+      <link>/resources/mit2_017jf09_p01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p01/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on linear time invariance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LTI Machine?</title>
+      <link>/resources/mit2_017jf09_p05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p05/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on linear time-invariant machines.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Metacentric Height of a Catamaran</title>
+      <link>/resources/mit2_017jf09_p40/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p40/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on the metacentric height of a catamaran.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Min-max Multi-Objective Optimization</title>
+      <link>/resources/mit2_017jf09_p26/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p26/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on min-max multi-objective optimization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Monte Carlo and Grid-Based Techniques for Stochastic Simulation</title>
+      <link>/resources/mit2_017jf09_p38/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p38/data.json</guid>
+      <description>&lt;p&gt;Homework assignment to compare the performance of random verus regular sampling on a specific stochastic dynamics problem&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Motor Servo with Backlash</title>
+      <link>/resources/mit2_017jf09_p32/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p32/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on a motor servo with backlash.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Numerical Solution of ODE’s</title>
+      <link>/resources/mit2_017jf09_p13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p13/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on numerical solution of ordinary differential equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nyquist Plot</title>
+      <link>/resources/mit2_017jf09_p37/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p37/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on Nyquist plots.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pendulum Dynamics and Linearization</title>
+      <link>/resources/mit2_017jf09_p14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p14/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on pendulum dynamics and linearization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Positioning Using Ranging: 2D Case</title>
+      <link>/resources/mit2_017jf09_p33/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p33/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on a two-dimension range positioning system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probability Primer with Dice</title>
+      <link>/resources/mit2_017jf09_p08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p08/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on probability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ranging Measurements in Three-Space</title>
+      <link>/resources/mit2_017jf09_p12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p12/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on ranging measurements and the global positioning system (GPS).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Road Vehicle on Random Terrain</title>
+      <link>/resources/mit2_017jf09_p16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p16/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on using a linear model to characterize a road vehicle traveling on random terrain.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sea Spectrum and Marine Vehicle Pitch Response</title>
+      <link>/resources/mit2_017jf09_p11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p11/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on the sea spectrum and marine vehicle pitch response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Simulation of a System Driven by a Random Disturbance</title>
+      <link>/resources/mit2_017jf09_p10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p10/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on simulation of a system driven by a random disturbance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Spectral Analysis to Find a Hidden Message</title>
+      <link>/resources/mit2_017jf09_p43/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p43/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on spectral analysis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Submerged Body in Waves</title>
+      <link>/resources/mit2_017jf09_p42/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p42/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on a submerged body in waves.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>System Design for Uncertainty: Worked Examples</title>
+      <link>/resources/mit2_017jf09_problems/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_problems/data.json</guid>
+      <description>&lt;p&gt;A compendium of worked problems meant to accompany the course notes for a course on the design of electromechanical robotic systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Walking Robot Constraints</title>
+      <link>/resources/mit2_017jf09_p27/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_p27/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on control of a pig-like quadruped robot when it operates on a slippery surface.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

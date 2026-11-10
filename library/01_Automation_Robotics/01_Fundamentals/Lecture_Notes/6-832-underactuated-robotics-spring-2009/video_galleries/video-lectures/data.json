@@ -1,0 +1,1036 @@
+
+{
+  "content": "<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-1-introduction/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/Z8oMbOj9IWM/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 1: Introduction</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-2-the-simple-pendulum/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/-RRYZ-b9NpI/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 2: The Simple Pendulum</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-3-optimal-control-of-the-double-integrator/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/oWr1_LybOZI/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 3: Optimal Control of the Double Integrator</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-4-optimal-control-of-the-double-integrator-cont/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/89GQHKOeUcU/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 4: Optimal Control of the Double Integrator (cont.)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-5-numerical-optimal-control-dynamic-programming/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/4kB94UDwJ0M/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 5: Numerical Optimal Control (Dynamic Programming)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-6-acrobot-and-cart-pole/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/QI09XKVW_8E/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 6: Acrobot and Cart-pole</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-7-swing-up-control-of-acrobot-and-cart-pole-systems/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/9qnpQ1hVlqw/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 7: Swing-up Control of Acrobot and Cart-pole Systems</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-8-dynamic-programming-dp-and-policy-search/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/Gho0bmTsnA4/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 8: Dynamic Programming (DP) and Policy Search</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-9-trajectory-optimization/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/g-VehRFsDcI/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 9: Trajectory Optimization</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-10-trajectory-stabilization-and-iterative-linear-quadratic-regulator/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/xwgIkdBQku4/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 10: Trajectory Stabilization and Iterative Linear Quadratic Regulator</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-11-walking/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/-fCLJ1pGht4/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 11: Walking</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-12-walking-cont/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/E-sOMfDVe8o/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 12: Walking (cont.)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-13-running/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/CUygqWS7occ/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 13: Running</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-14-feasible-motion-planning/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/ufM3HLTZ47k/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 14: Feasible Motion Planning</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-15-global-policies-from-local-policies/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/7nnFGxqRwNE/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 15: Global Policies from Local Policies</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-16-introducing-stochastic-optimal-control/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/KNRMz9YPCOY/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 16: Introducing Stochastic Optimal Control</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-17-stochastic-gradient-descent/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/6v3Ln2ACtqI/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 17: Stochastic Gradient Descent</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-18-stochastic-gradient-descent-2/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/EqAYRo4wXxY/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 18: Stochastic Gradient Descent 2</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-19-temporal-difference-learning/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/qtmmwILxVR4/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 19: Temporal Difference Learning</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-20-temporal-difference-learning-with-function-approximation/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/ja56bJ8ogUw/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 20: Temporal Difference Learning with Function Approximation</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-21-policy-improvement/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/7LLUz7A1--Q/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 21: Policy Improvement</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-22-actor-critic-methods/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/Bhbk4bWV1Uc/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 22: Actor-critic Methods</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-23-case-studies-in-computational-underactuated-control/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/7la43dvoLh0/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 23: Case Studies in Computational Underactuated Control</h5>\n      </div>\n    </div>\n  </a>\n</div>\n\n\n",
+  "content_type": "video_gallery",
+  "description": "This section provides a complete set of video lectures on underactuated robotics.",
+  "draft": false,
+  "is_media_gallery": true,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "ocw_type": "CourseSection",
+  "title": "Video Lectures",
+  "uid": "c2a994b2-faf4-2a33-5457-f769669257e8",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  },
+  "videos": [
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "170896022",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 1: Introduction",
+      "uid": "99deb271-fe2e-4226-e28a-8b20f5e5c97b",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec01_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/a7f98b7d08b3598685f2f453bc50234f_Z8oMbOj9IWM.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/Z8oMbOj9IWM/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/0b3edf7ea4725b09c9d692974b39c4b3_Z8oMbOj9IWM.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "Z8oMbOj9IWM"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "158371662",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 2: The Simple Pendulum",
+      "uid": "8d911213-5587-60ed-f179-2611d9c17d59",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec02_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/ebbdb7a07343554184a3aae2bfd547df_-RRYZ-b9NpI.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/-RRYZ-b9NpI/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/b29d3167dbd7ea8fe18e99c1eed9cef9_-RRYZ-b9NpI.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "-RRYZ-b9NpI"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "176072553",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 3: Optimal Control of the Double Integrator",
+      "uid": "a8c52f09-66af-d08d-71e7-dcc3a841ab61",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec03_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/4324889d26615cf1b2f05a7b3c203aaf_oWr1_LybOZI.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/oWr1_LybOZI/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/9d01e98d728027ae1e912c170a87be79_oWr1_LybOZI.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "oWr1_LybOZI"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "194591030",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 4: Optimal Control of the Double Integrator (cont.)",
+      "uid": "eec884db-ec89-06eb-e368-195122a0db88",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec04_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/63ef53d331d65a91b0e65ea124c7488a_89GQHKOeUcU.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/89GQHKOeUcU/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/3190bfc42bd7b5c17ecb8328b2ff346d_89GQHKOeUcU.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "89GQHKOeUcU"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "166990407",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 5: Numerical Optimal Control (Dynamic Programming)",
+      "uid": "fea9413d-e2c1-bf23-1838-c2542d72ba8f",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec05_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/b40ec702f49a59c497a86d0a1e6e08de_4kB94UDwJ0M.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/4kB94UDwJ0M/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/a5575f9bad8dfbff7a8fb71d2ed8b054_4kB94UDwJ0M.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "4kB94UDwJ0M"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "184049822",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 6: Acrobot and Cart-pole",
+      "uid": "10ac2d19-e513-6943-b35a-c0315cf7a799",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec06_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/ec98de5d4d6f5376b8c349bc2f6add8b_QI09XKVW_8E.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/QI09XKVW_8E/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/2cba1ae12f7a42f5db6d751515f57b68_QI09XKVW_8E.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "QI09XKVW_8E"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "149991730",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 7: Swing-up Control of Acrobot and Cart-pole Systems",
+      "uid": "25938a1d-6922-bc8b-f3b3-f805d087c565",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec07_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/58c5016d467d5d77b81fd57383328e55_9qnpQ1hVlqw.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/9qnpQ1hVlqw/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/de31d21112e6fdfafcbf091cf8f03298_9qnpQ1hVlqw.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "9qnpQ1hVlqw"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "169754405",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 8: Dynamic Programming (DP) and Policy Search",
+      "uid": "399f6b7a-ef11-76ea-a732-844a48f81fa7",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec08_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/e501e5a3b3b25bdfbf61ebe80316412d_Gho0bmTsnA4.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/Gho0bmTsnA4/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/ac8e83844e6028b3444132bce73d451d_Gho0bmTsnA4.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "Gho0bmTsnA4"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "158572734",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 9: Trajectory Optimization",
+      "uid": "d1d68b43-147d-3942-4cc9-34e35ba7cafc",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec09_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/6eae87098b215c8699839257e940728d_g-VehRFsDcI.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/g-VehRFsDcI/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/af4f85e7c7ef641384c20a50aeb3c461_g-VehRFsDcI.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "g-VehRFsDcI"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "183519080",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 10: Trajectory Stabilization and Iterative Linear Quadratic Regulator",
+      "uid": "599cba6b-04b5-d3ad-509b-166986be2e55",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec10_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/f8699a7006445321b0a596cfa0ab6931_xwgIkdBQku4.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/xwgIkdBQku4/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/077b34b397643fd97aeafd58623fa6be_xwgIkdBQku4.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "xwgIkdBQku4"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "174153726",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 11: Walking",
+      "uid": "32e36b33-d90e-075d-d422-60afb7af9327",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec11_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/f7b73242bf495ab4ac47296ce88bcd92_-fCLJ1pGht4.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/-fCLJ1pGht4/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/666ac6e4b36e38a7012566a128c829de_-fCLJ1pGht4.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "-fCLJ1pGht4"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "164280686",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 12: Walking (cont.)",
+      "uid": "85efefd0-1db1-9cb5-36b9-8f7b977e21d1",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec12_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/fa3903b6b4ad5478bfbe80b8ecfa66af_E-sOMfDVe8o.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/E-sOMfDVe8o/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/104ffbd6d5cf4475b048bdf58fb6db34_E-sOMfDVe8o.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "E-sOMfDVe8o"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "132470718",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 13: Running",
+      "uid": "f6b34251-aae6-8856-2018-a8ef8b4ed5a4",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec13_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/25c9b7aade085fea8e9b0ead2ec3318a_CUygqWS7occ.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/CUygqWS7occ/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/55a1210cd822c2bd80307513a77b776d_CUygqWS7occ.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "CUygqWS7occ"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "169886645",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 14: Feasible Motion Planning",
+      "uid": "8f521647-651d-7cad-5b74-61034930a596",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec14_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/573466500c0d53bb8ff68cecfc9ebbe9_ufM3HLTZ47k.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/ufM3HLTZ47k/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/ae4e1009fab2b75ef403ac54c308a4aa_ufM3HLTZ47k.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "ufM3HLTZ47k"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "180427581",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 15: Global Policies from Local Policies",
+      "uid": "c5e2a41f-a110-780e-4bd9-4f987c765a8b",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec15_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/936bc837098251a7afff0902e4890c04_7nnFGxqRwNE.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/7nnFGxqRwNE/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/005b482183726d31b9fad52d38bbc024_7nnFGxqRwNE.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "7nnFGxqRwNE"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "192407845",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 16: Introducing Stochastic Optimal Control",
+      "uid": "e70786ef-210a-08a6-afa6-3763a0fa1507",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec16_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/d9b0f2a329b95a048940c50d87e2b9d9_KNRMz9YPCOY.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/KNRMz9YPCOY/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/aa314c2b4d7f80cb98938d3ef5bb1e4f_KNRMz9YPCOY.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "KNRMz9YPCOY"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "176225637",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 17: Stochastic Gradient Descent",
+      "uid": "e6ad9c56-3939-06a2-b9b8-38ca149318dd",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec17_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/1135c83da29d5c60887f061b93afe4b4_6v3Ln2ACtqI.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/6v3Ln2ACtqI/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/dd18a71f0be893587422acf106e0fc7c_6v3Ln2ACtqI.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "6v3Ln2ACtqI"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "181583572",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 18: Stochastic Gradient Descent 2",
+      "uid": "4479a1ea-140c-241e-6ee6-832cfc658175",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec18_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/2ad919328e5157d3b089bfd2de4a51e4_EqAYRo4wXxY.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/EqAYRo4wXxY/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/94460df3270bde0ba933da607ede781e_EqAYRo4wXxY.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "EqAYRo4wXxY"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "182416491",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 19: Temporal Difference Learning",
+      "uid": "4e41901b-4471-3c47-63ce-d18c7f28c665",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec19_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/127e2ce38ef85b7da347c2d9a873a8ba_qtmmwILxVR4.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/qtmmwILxVR4/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/4a4739bcf243600e043713159ef3fc31_qtmmwILxVR4.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "qtmmwILxVR4"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "178143493",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 20: Temporal Difference Learning with Function Approximation",
+      "uid": "d27c9d53-358c-6bf9-3c86-2d574c2cdca8",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec20_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/172b03f02c5759ffa91a42e1bc653531_ja56bJ8ogUw.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/ja56bJ8ogUw/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/e5c60ab87fda2593c6e63d5956a1bda3_ja56bJ8ogUw.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "ja56bJ8ogUw"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "179096709",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 21: Policy Improvement",
+      "uid": "c2f9f016-f530-5a3b-2679-af0b514718a5",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec21_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/534ef4fbc2c5514f9fca7087c9f0c265_7LLUz7A1--Q.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/7LLUz7A1--Q/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/0c5d8fdad248338ffca0a87b61f722d7_7LLUz7A1--Q.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "7LLUz7A1--Q"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "162776974",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 22: Actor-critic Methods",
+      "uid": "e01b5caf-986b-233e-baca-45e694743fa4",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec22_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/54a67976d6c25f5199ad3519a6d6cda7_Bhbk4bWV1Uc.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/Bhbk4bWV1Uc/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/03826a71d8444b3746d04212aa7c11d6_Bhbk4bWV1Uc.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "Bhbk4bWV1Uc"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "143137975",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 23: Case Studies in Computational Underactuated Control",
+      "uid": "bd13e8c4-8136-99a6-4998-23bfa68d0b0e",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec23_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/7d06242edd3b53699807d986a880339f_7la43dvoLh0.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/7la43dvoLh0/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-832-underactuated-robotics-spring-2009/265bc0fe8cedd0c78a207aadb6ba6cb5_7la43dvoLh0.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+        "youtube_id": "7la43dvoLh0"
+      }
+    }
+  ]
+}
+

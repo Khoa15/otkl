@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Instructor:</strong> Dennis Freeman</p>\n<p><strong>Description:</strong> Three examples of Fourier transforms in action are given: removing noise from an electrocardiogram signal, using laser diffraction to calculate the groove spacing on CDs and DVDs, and determining the structure of DNA via x-ray crystallography.</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "115763785",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": " Lecture Slides",
+  "optional_text": "[Applications of Fourier Transforms (PDF)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec20)",
+  "parent_title": "Lecture Videos",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Lecture 20: Applications of Fourier Transforms",
+  "uid": "df1a3043-4761-d683-568b-462b4508aa9b",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec20_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/6-003-signals-and-systems-fall-2011/03894393da0055e09d433e47951f2560_tp_MdKz3fC8.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/tp_MdKz3fC8/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/6-003-signals-and-systems-fall-2011/40a10eb704ef8a0338335a752a9a277d_tp_MdKz3fC8.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "6-003-signals-and-systems-fall-2011, cd, diffraction grating, dna, dvd, electrocardiogram, fourier transform, high-pass filter, low-pass filter, notch filter, poles, x-ray crystallography, zeros",
+    "youtube_id": "tp_MdKz3fC8"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/d187d604f915b33c101c76548610ff90_2_3.jpg",
+  "file_size": 6283,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from 'Introduction to Linear Algebra' by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Projection Matrices and Least Squares",
+  "parent_type": "CourseSection",
+  "parent_uid": "5f12aef9-0a3e-a658-e59c-e968a672c0c2",
+  "resourcetype": "Image",
+  "title": "2_3.jpg",
+  "uid": "d187d604-f915-b33c-101c-76548610ff90",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

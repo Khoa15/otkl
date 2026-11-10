@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains information related to reachability and observability.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information related to reachability and observability.",
+  "draft": false,
+  "file": "/courses/6-241j-dynamic-systems-and-control-spring-2011/43a02bc538e449c1e5eae487139b5030_MIT6_241JS11_lec20.pdf",
+  "file_size": 361671,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "ee668e05-ff75-8895-0bb1-7bddd4117378",
+  "resourcetype": "Document",
+  "title": "MIT6_241JS11_lec20.pdf",
+  "uid": "43a02bc5-38e4-49c1-e5ea-e487139b5030"
+}

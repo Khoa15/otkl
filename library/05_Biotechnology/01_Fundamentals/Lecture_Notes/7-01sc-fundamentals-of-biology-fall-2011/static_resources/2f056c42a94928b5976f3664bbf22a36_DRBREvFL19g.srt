@@ -1,0 +1,2928 @@
+1
+00:00:06,370 --> 00:00:12,480
+ERIC LANDER: And so the issue
+became how does DNA
+
+2
+00:00:12,480 --> 00:00:13,875
+replication work.
+
+3
+00:00:17,370 --> 00:00:18,650
+And so I'm about
+to go into it.
+
+4
+00:00:18,650 --> 00:00:25,130
+Now, I'm going to note we're
+going to be starting this DNA
+
+5
+00:00:25,130 --> 00:00:35,790
+goes to RNA, goes to protein,
+and DNA goes to itself.
+
+6
+00:00:35,790 --> 00:00:38,100
+DNA is replicated.
+
+7
+00:00:38,100 --> 00:00:39,450
+It makes RNA.
+
+8
+00:00:39,450 --> 00:00:41,710
+The RNA is used to
+make protein.
+
+9
+00:00:41,710 --> 00:00:42,780
+This will be what
+we'll be talking
+
+10
+00:00:42,780 --> 00:00:44,700
+about today and tomorrow.
+
+11
+00:00:44,700 --> 00:00:47,640
+So the first step of that
+is, how does DNA give
+
+12
+00:00:47,640 --> 00:00:50,370
+rise to more DNA?
+
+13
+00:00:50,370 --> 00:00:53,330
+Well, how do you
+find an enzyme?
+
+14
+00:00:53,330 --> 00:00:54,580
+How do you do biochemistry?
+
+15
+00:00:56,950 --> 00:00:57,540
+What do you do?
+
+16
+00:00:57,540 --> 00:00:58,890
+AUDIENCE: Assays.
+
+17
+00:00:58,890 --> 00:00:59,350
+ERIC LANDER: Assay.
+
+18
+00:00:59,350 --> 00:01:00,730
+So you've got to grind
+up the cell.
+
+19
+00:01:00,730 --> 00:01:02,730
+I got to choose a cell in which
+I'm likely to find an
+
+20
+00:01:02,730 --> 00:01:05,830
+enzyme, grind it up, break it
+up into different fractions,
+
+21
+00:01:05,830 --> 00:01:07,200
+and test each fraction.
+
+22
+00:01:07,200 --> 00:01:08,930
+That's all biochemists
+do, right?
+
+23
+00:01:08,930 --> 00:01:13,950
+So what cell might have the
+enzyme we're looking for?
+
+24
+00:01:13,950 --> 00:01:15,675
+What cells might be
+able to copy DNA?
+
+25
+00:01:18,642 --> 00:01:20,400
+How about all cells?
+
+26
+00:01:20,400 --> 00:01:21,570
+So let's use a simple cell.
+
+27
+00:01:21,570 --> 00:01:24,180
+What's a simple cell?
+
+28
+00:01:24,180 --> 00:01:25,330
+Let's use bacteria.
+
+29
+00:01:25,330 --> 00:01:27,000
+So we'll take some bacteria,
+we'll grow it up,
+
+30
+00:01:27,000 --> 00:01:27,920
+we'll grind it up.
+
+31
+00:01:27,920 --> 00:01:30,130
+We'll fractionate it into
+different fractions, and we'll
+
+32
+00:01:30,130 --> 00:01:33,810
+see if one of those fractions
+has the ability to copy DNA.
+
+33
+00:01:33,810 --> 00:01:35,150
+If we're going to run
+an assay, we have
+
+34
+00:01:35,150 --> 00:01:36,880
+to give it a substrate.
+
+35
+00:01:36,880 --> 00:01:40,610
+What substrate would you
+like to give it?
+
+36
+00:01:40,610 --> 00:01:41,760
+What do you think it needs?
+
+37
+00:01:41,760 --> 00:01:43,010
+AUDIENCE: [INAUDIBLE].
+
+38
+00:01:45,450 --> 00:01:47,380
+ERIC LANDER: It better have
+some free nucleotides
+
+39
+00:01:47,380 --> 00:01:48,980
+otherwise, how are we
+going to make DNA.
+
+40
+00:01:48,980 --> 00:01:51,010
+What else?
+
+41
+00:01:51,010 --> 00:01:53,490
+Are you going to ask it to
+make DNA all by itself?
+
+42
+00:01:53,490 --> 00:01:56,110
+We want something that can copy
+one of the strands of a
+
+43
+00:01:56,110 --> 00:01:57,310
+double helix.
+
+44
+00:01:57,310 --> 00:01:58,140
+So what should we give it?
+
+45
+00:01:58,140 --> 00:02:00,240
+AUDIENCE: [INAUDIBLE].
+
+46
+00:02:00,240 --> 00:02:01,150
+ERIC LANDER: Sorry?
+
+47
+00:02:01,150 --> 00:02:02,020
+AUDIENCE: Half a helix.
+
+48
+00:02:02,020 --> 00:02:02,850
+ERIC LANDER: Half a helix.
+
+49
+00:02:02,850 --> 00:02:06,480
+A strand of DNA, the strand
+to be used as a template.
+
+50
+00:02:06,480 --> 00:02:07,965
+So let's give it a
+template strand.
+
+51
+00:02:11,880 --> 00:02:14,860
+So we'll take a template
+strand of DNA.
+
+52
+00:02:14,860 --> 00:02:16,390
+There's my template of DNA.
+
+53
+00:02:19,600 --> 00:02:22,810
+Let's actually give it a little
+
+54
+00:02:22,810 --> 00:02:24,980
+sequence actually, here.
+
+55
+00:02:24,980 --> 00:02:34,330
+Let's say A phosphate, T
+phosphate, G phosphate, C
+
+56
+00:02:34,330 --> 00:02:41,480
+phosphate, A phosphate, T
+phosphate, T phosphate, A
+
+57
+00:02:41,480 --> 00:02:46,460
+phosphate, G phosphate,
+G phosphate.
+
+58
+00:02:46,460 --> 00:02:48,810
+I'm going to not write the
+phosphates too much longer,
+
+59
+00:02:48,810 --> 00:02:51,760
+guys, but anyway C phosphate,
+C phosphate, T
+
+60
+00:02:51,760 --> 00:02:55,060
+phosphate, like that.
+
+61
+00:02:55,060 --> 00:02:57,410
+Pretty soon, in fact, almost
+immediately, I'm going to
+
+62
+00:02:57,410 --> 00:02:59,820
+start dropping the phosphates
+in here.
+
+63
+00:02:59,820 --> 00:03:01,930
+But that's the way it goes.
+
+64
+00:03:01,930 --> 00:03:04,610
+All right.
+
+65
+00:03:04,610 --> 00:03:05,860
+That's a template.
+
+66
+00:03:08,640 --> 00:03:14,845
+We need floating around in the
+solution some trinucleotides.
+
+67
+00:03:25,960 --> 00:03:33,230
+We have some nucleotides
+floating around.
+
+68
+00:03:36,160 --> 00:03:39,330
+And now will this enzyme work?
+
+69
+00:03:39,330 --> 00:03:41,540
+We would try different fractions
+and see if it's able
+
+70
+00:03:41,540 --> 00:03:45,940
+to just install the right
+letters in the right place.
+
+71
+00:03:45,940 --> 00:03:50,620
+Now, it turned out it needed one
+more thing, and the person
+
+72
+00:03:50,620 --> 00:03:53,370
+who discovered this, Arthur
+Kornberg, thought of it.
+
+73
+00:03:53,370 --> 00:03:54,760
+It needed a head start.
+
+74
+00:03:54,760 --> 00:03:56,010
+It needed a primer.
+
+75
+00:03:59,450 --> 00:04:05,690
+So the primer goes let's say,
+phosphate T, phosphate A,
+
+76
+00:04:05,690 --> 00:04:16,670
+phosphate C, phosphate G,
+phosphate T, phosphate A,
+
+77
+00:04:16,670 --> 00:04:18,399
+let's say like that.
+
+78
+00:04:18,399 --> 00:04:23,950
+So this is the five
+prime end of DNA.
+
+79
+00:04:23,950 --> 00:04:26,490
+Remember the phosphate is
+hanging off the five prime
+
+80
+00:04:26,490 --> 00:04:27,940
+carbon, right?
+
+81
+00:04:27,940 --> 00:04:29,400
+What's look at the other end.
+
+82
+00:04:29,400 --> 00:04:34,640
+The other end ends in the
+hydroxyl on the three prime
+
+83
+00:04:34,640 --> 00:04:37,790
+end of the ribose.
+
+84
+00:04:37,790 --> 00:04:42,010
+Since this is anti-parallel,
+this strand is going five
+
+85
+00:04:42,010 --> 00:04:48,090
+prime phosphate to three
+prime hydroxyl.
+
+86
+00:04:48,090 --> 00:04:50,540
+You're going to need to know
+five prime and three prime.
+
+87
+00:04:50,540 --> 00:04:52,470
+So I'm doing this so you
+get used to five
+
+88
+00:04:52,470 --> 00:04:53,880
+prime and three prime.
+
+89
+00:04:53,880 --> 00:04:54,580
+There you go.
+
+90
+00:04:54,580 --> 00:04:57,460
+If you're handed a primer to get
+a head start, and you're
+
+91
+00:04:57,460 --> 00:05:00,460
+handed a template, and you hand
+it some nucleotides, you
+
+92
+00:05:00,460 --> 00:05:03,800
+then assay different fractions
+exactly as you suggested and
+
+93
+00:05:03,800 --> 00:05:09,300
+we see is one of them capable
+of extending this strand by
+
+94
+00:05:09,300 --> 00:05:12,640
+putting in an A, putting in a T,
+putting in a C, putting in
+
+95
+00:05:12,640 --> 00:05:17,320
+a C, putting in a C, putting
+in a G. That's the assay.
+
+96
+00:05:17,320 --> 00:05:29,450
+And Arthur Kornberg discovered
+an enzyme that could do this.
+
+97
+00:05:29,450 --> 00:05:31,000
+And the biochemists went nuts.
+
+98
+00:05:31,000 --> 00:05:31,940
+They thought, wow.
+
+99
+00:05:31,940 --> 00:05:33,520
+This is so cool.
+
+100
+00:05:33,520 --> 00:05:36,770
+Kornberg is able to discover
+an enzyme that
+
+101
+00:05:36,770 --> 00:05:39,220
+can accomplish this.
+
+102
+00:05:39,220 --> 00:05:43,470
+The enzyme polymerizes DNA.
+
+103
+00:05:43,470 --> 00:05:46,754
+Coincidentally, what is
+the enzyme called?
+
+104
+00:05:46,754 --> 00:05:47,660
+AUDIENCE: DNA polymerase.
+
+105
+00:05:47,660 --> 00:05:49,320
+ERIC LANDER: DNA polymerase.
+
+106
+00:05:49,320 --> 00:05:51,130
+Accidentally, has a nice name.
+
+107
+00:05:51,130 --> 00:05:52,310
+Good.
+
+108
+00:05:52,310 --> 00:05:54,050
+DNA polymerase.
+
+109
+00:05:58,590 --> 00:06:01,190
+Excellent.
+
+110
+00:06:01,190 --> 00:06:03,640
+Now, notice what it does.
+
+111
+00:06:03,640 --> 00:06:08,130
+It takes this triphosphate, puts
+it in here, and it joins
+
+112
+00:06:08,130 --> 00:06:10,140
+it into a sugar phosphate
+chain.
+
+113
+00:06:10,140 --> 00:06:12,205
+Where does it get the energy
+for that synthesis?
+
+114
+00:06:14,780 --> 00:06:17,600
+Hydrolysis of the triphosphates,
+right?
+
+115
+00:06:17,600 --> 00:06:19,500
+It's the hydrolysis of
+the triphosphate.
+
+116
+00:06:19,500 --> 00:06:21,800
+That's the energy.
+
+117
+00:06:21,800 --> 00:06:26,030
+What direction is the synthesis
+proceeding?
+
+118
+00:06:26,030 --> 00:06:31,120
+Starts here at the five prime
+end, and it moves adding on to
+
+119
+00:06:31,120 --> 00:06:33,400
+the three prime end.
+
+120
+00:06:33,400 --> 00:06:40,880
+So it's five prime to three
+prime direction.
+
+121
+00:06:40,880 --> 00:06:42,540
+That's the direction it moves.
+
+122
+00:06:42,540 --> 00:06:44,720
+It adds to the three
+prime end.
+
+123
+00:06:44,720 --> 00:06:46,370
+It adds to the free
+nucleotides to
+
+124
+00:06:46,370 --> 00:06:47,620
+the three prime end.
+
+125
+00:06:50,350 --> 00:06:52,025
+Why not do it the other way?
+
+126
+00:06:52,025 --> 00:06:55,140
+AUDIENCE: [INAUDIBLE].
+
+127
+00:06:55,140 --> 00:06:56,170
+ERIC LANDER: Sorry?
+
+128
+00:06:56,170 --> 00:06:57,370
+AUDIENCE: Phosphates.
+
+129
+00:06:57,370 --> 00:06:58,286
+ERIC LANDER: Can't hear you.
+
+130
+00:06:58,286 --> 00:06:58,700
+Shout loud.
+
+131
+00:06:58,700 --> 00:06:59,586
+AUDIENCE: Phosphates.
+
+132
+00:06:59,586 --> 00:07:02,000
+ERIC LANDER: Phosphates, yes.
+
+133
+00:07:02,000 --> 00:07:05,075
+You see, suppose we were
+going the other way.
+
+134
+00:07:08,850 --> 00:07:11,540
+Suppose the primer
+was this way.
+
+135
+00:07:11,540 --> 00:07:15,600
+Where would as we added each
+base, the triphosphate would
+
+136
+00:07:15,600 --> 00:07:18,590
+be on the strands, right?
+
+137
+00:07:18,590 --> 00:07:24,150
+And we'd be adding to the
+three prime end here.
+
+138
+00:07:24,150 --> 00:07:28,320
+That means the energy supplied
+by the triphosphate would be
+
+139
+00:07:28,320 --> 00:07:33,240
+on the growing strands rather
+than in the free nucleotides.
+
+140
+00:07:33,240 --> 00:07:37,160
+Why would it be a terrible idea
+to put your energy source
+
+141
+00:07:37,160 --> 00:07:39,729
+on the growing strand?
+
+142
+00:07:39,729 --> 00:07:42,094
+MIKE: [INAUDIBLE].
+
+143
+00:07:42,094 --> 00:07:44,280
+ERIC LANDER: Well Mike, you
+know, those triphosphate bonds
+
+144
+00:07:44,280 --> 00:07:45,040
+are pretty unstable.
+
+145
+00:07:45,040 --> 00:07:47,320
+They hydrolyzed by themselves
+at some frequency.
+
+146
+00:07:47,320 --> 00:07:49,550
+If you're a free nucleotide
+and the triphosphate
+
+147
+00:07:49,550 --> 00:07:52,010
+hydrolyzes, big deal.
+
+148
+00:07:52,010 --> 00:07:55,900
+That free nucleotide floating
+around loses its triphosphate.
+
+149
+00:07:55,900 --> 00:07:57,960
+But what if I'm the growing
+strand, and I lose my
+
+150
+00:07:57,960 --> 00:07:59,115
+triphosphate?
+
+151
+00:07:59,115 --> 00:07:59,720
+AUDIENCE: [LAUGHS]
+
+152
+00:07:59,720 --> 00:08:00,480
+ERIC LANDER: Exactly.
+
+153
+00:08:00,480 --> 00:08:01,540
+AUDIENCE: There goes
+your chain.
+
+154
+00:08:01,540 --> 00:08:03,470
+ERIC LANDER: There
+goes my chain.
+
+155
+00:08:03,470 --> 00:08:05,530
+So you know, life's
+not stupid.
+
+156
+00:08:05,530 --> 00:08:06,930
+It doesn't do it that way.
+
+157
+00:08:06,930 --> 00:08:07,870
+It does it this way.
+
+158
+00:08:07,870 --> 00:08:10,050
+No one has ever found a
+polymerase that goes this way.
+
+159
+00:08:10,050 --> 00:08:13,230
+They find them all going that
+way for just that reason.
+
+160
+00:08:13,230 --> 00:08:14,660
+Exactly.
+
+161
+00:08:14,660 --> 00:08:16,100
+Bingo.
+
+162
+00:08:16,100 --> 00:08:19,210
+That was why life evolved it
+that way, because you want
+
+163
+00:08:19,210 --> 00:08:24,190
+your triphosphates, those
+hydrolyzable triphosphates to
+
+164
+00:08:24,190 --> 00:08:27,320
+be floating around freely
+rather than investing.
+
+165
+00:08:27,320 --> 00:08:28,270
+Now just think about that.
+
+166
+00:08:28,270 --> 00:08:29,140
+It's a kind of cool thing.
+
+167
+00:08:29,140 --> 00:08:29,670
+It doesn't matter.
+
+168
+00:08:29,670 --> 00:08:30,910
+Your book doesn't
+talk about it.
+
+169
+00:08:30,910 --> 00:08:33,080
+But to me, it helps me remember
+which way it's going
+
+170
+00:08:33,080 --> 00:08:35,370
+and how it is, and it's
+kind of interesting.
+
+171
+00:08:35,370 --> 00:08:36,110
+Any way.
+
+172
+00:08:36,110 --> 00:08:36,710
+All right.
+
+173
+00:08:36,710 --> 00:08:42,440
+So Kornberg wins the Nobel
+Prize for this.
+
+174
+00:08:42,440 --> 00:08:42,870
+Good stuff.
+
+175
+00:08:42,870 --> 00:08:47,920
+It's very deserved, but you
+know, there's some questions.
+
+176
+00:08:47,920 --> 00:08:52,340
+Where does the primer
+come from in life?
+
+177
+00:08:52,340 --> 00:08:57,270
+See, Kornberg gave this
+test tube a primer.
+
+178
+00:08:57,270 --> 00:09:00,520
+But suppose I'm replicating
+some DNA.
+
+179
+00:09:00,520 --> 00:09:06,770
+So let's suppose I have a double
+strand of DNA, and I'm
+
+180
+00:09:06,770 --> 00:09:13,460
+just going to open it up here,
+five prime to three prime,
+
+181
+00:09:13,460 --> 00:09:18,280
+five prime to three prime.
+
+182
+00:09:18,280 --> 00:09:20,769
+I need to get like
+a primer here.
+
+183
+00:09:25,080 --> 00:09:28,830
+Then the primer can be extended
+by polymerase.
+
+184
+00:09:28,830 --> 00:09:32,560
+Well, where's the primer
+come from?
+
+185
+00:09:32,560 --> 00:09:35,850
+It turns out there is an enzyme
+specially devoted to
+
+186
+00:09:35,850 --> 00:09:37,440
+making those primers.
+
+187
+00:09:37,440 --> 00:09:41,080
+Kornberg didn't know it,
+but there's an enzyme.
+
+188
+00:09:41,080 --> 00:09:46,420
+And by coincidence, it
+is called primase.
+
+189
+00:09:46,420 --> 00:09:48,240
+Exactly.
+
+190
+00:09:48,240 --> 00:09:50,290
+Primase makes the primer.
+
+191
+00:09:50,290 --> 00:09:56,025
+So you need a primer here, and
+the primer is made by primase.
+
+192
+00:10:00,960 --> 00:10:07,810
+Once primase makes a primer,
+polymerase can chug along and
+
+193
+00:10:07,810 --> 00:10:10,340
+do it just fine.
+
+194
+00:10:10,340 --> 00:10:11,860
+Let's check out the
+other strand.
+
+195
+00:10:14,370 --> 00:10:18,390
+Primer here, polymerase
+chugs along.
+
+196
+00:10:21,790 --> 00:10:25,210
+But now as this double
+helix opens up, what
+
+197
+00:10:25,210 --> 00:10:26,460
+happens over here?
+
+198
+00:10:31,380 --> 00:10:34,150
+The synthesis going this way.
+
+199
+00:10:34,150 --> 00:10:35,670
+So what do I have to do here?
+
+200
+00:10:35,670 --> 00:10:37,318
+AUDIENCE: [INAUDIBLE].
+
+201
+00:10:37,318 --> 00:10:39,232
+ERIC LANDER: Another primer.
+
+202
+00:10:39,232 --> 00:10:40,482
+Need another primer.
+
+203
+00:10:42,810 --> 00:10:44,510
+Then as it opens up more,
+what do I need?
+
+204
+00:10:44,510 --> 00:10:45,530
+AUDIENCE: Another primer.
+
+205
+00:10:45,530 --> 00:10:46,780
+ERIC LANDER: Another primer.
+
+206
+00:10:49,410 --> 00:10:53,100
+So the two strands are
+experiencing very different
+
+207
+00:10:53,100 --> 00:10:54,450
+kind of replication.
+
+208
+00:10:54,450 --> 00:10:57,420
+In one place, one primer in the
+five prime to three prime
+
+209
+00:10:57,420 --> 00:10:59,840
+direction is enough
+to keep going.
+
+210
+00:10:59,840 --> 00:11:02,830
+In the other strand, as it keeps
+opening up, you gotta
+
+211
+00:11:02,830 --> 00:11:04,510
+keep making primers.
+
+212
+00:11:04,510 --> 00:11:06,550
+You have all these little
+fragments there.
+
+213
+00:11:09,910 --> 00:11:16,520
+Now, those little fragments were
+discovered by Okazaki,
+
+214
+00:11:16,520 --> 00:11:20,960
+and they are called
+Okazaki fragments.
+
+215
+00:11:20,960 --> 00:11:23,260
+Again, I just mention
+these things.
+
+216
+00:11:23,260 --> 00:11:25,570
+They are known to molecular
+biologists.
+
+217
+00:11:25,570 --> 00:11:28,900
+But these little guys are
+Okazaki fragments, and they
+
+218
+00:11:28,900 --> 00:11:31,480
+tell you that you're on
+the right track here.
+
+219
+00:11:31,480 --> 00:11:33,280
+This is indeed how
+it's working.
+
+220
+00:11:33,280 --> 00:11:36,010
+You can see those little
+fragments there.
+
+221
+00:11:36,010 --> 00:11:40,260
+But now, what's the problem with
+the Okazaki fragments?
+
+222
+00:11:40,260 --> 00:11:41,970
+They're not connected, right?
+
+223
+00:11:41,970 --> 00:11:44,400
+The primase makes a primer.
+
+224
+00:11:44,400 --> 00:11:50,010
+The polymerase copies the DNA,
+it bumps into the next primer,
+
+225
+00:11:50,010 --> 00:11:52,690
+but you've got to
+connect them.
+
+226
+00:11:52,690 --> 00:11:54,420
+So that's a problem.
+
+227
+00:11:54,420 --> 00:11:57,250
+That's a real problem.
+
+228
+00:11:57,250 --> 00:11:58,500
+I'll redraw that here.
+
+229
+00:12:04,140 --> 00:12:05,160
+Here was my primer.
+
+230
+00:12:05,160 --> 00:12:06,710
+I got a new primer over here.
+
+231
+00:12:09,450 --> 00:12:12,680
+I got a new primer over here.
+
+232
+00:12:12,680 --> 00:12:13,380
+Right there.
+
+233
+00:12:13,380 --> 00:12:14,120
+Right there.
+
+234
+00:12:14,120 --> 00:12:17,340
+They're not contiguous
+connected.
+
+235
+00:12:17,340 --> 00:12:20,820
+The word we use for connecting
+two pieces of DNA, which is a
+
+236
+00:12:20,820 --> 00:12:23,700
+standard English word not used
+that often is to ligate two
+
+237
+00:12:23,700 --> 00:12:25,060
+things together.
+
+238
+00:12:25,060 --> 00:12:27,960
+Ligature, for example,
+in music.
+
+239
+00:12:27,960 --> 00:12:31,460
+You ligate things together.
+
+240
+00:12:31,460 --> 00:12:33,650
+How do you think the cell deals
+with ligating these
+
+241
+00:12:33,650 --> 00:12:36,230
+things together?
+
+242
+00:12:36,230 --> 00:12:37,315
+An enzyme called--
+
+243
+00:12:37,315 --> 00:12:38,110
+AUDIENCE: Ligase.
+
+244
+00:12:38,110 --> 00:12:40,390
+ERIC LANDER: Exactly.
+
+245
+00:12:40,390 --> 00:12:44,340
+So ligase does the ligation.
+
+246
+00:12:44,340 --> 00:12:48,070
+Ligase ligates.
+
+247
+00:12:48,070 --> 00:12:51,950
+It is so lucky that these
+words turn out to have
+
+248
+00:12:51,950 --> 00:12:53,780
+accidentally made sense.
+
+249
+00:12:53,780 --> 00:12:56,400
+It's really cool.
+
+250
+00:12:56,400 --> 00:12:59,950
+So ligase ligates.
+
+251
+00:12:59,950 --> 00:13:05,000
+Now, I'll tell you a factoid,
+but don't worry
+
+252
+00:13:05,000 --> 00:13:05,820
+about it too much.
+
+253
+00:13:05,820 --> 00:13:10,360
+Primase actually doesn't
+make DNA.
+
+254
+00:13:10,360 --> 00:13:11,540
+We haven't gotten there
+yet, but it turns out
+
+255
+00:13:11,540 --> 00:13:14,350
+primase makes RNA.
+
+256
+00:13:14,350 --> 00:13:16,450
+Turns out to be easier
+to start an RNA
+
+257
+00:13:16,450 --> 00:13:18,740
+than a DNA from scratch.
+
+258
+00:13:18,740 --> 00:13:20,710
+Cell doesn't like to start
+DNA from scratch.
+
+259
+00:13:20,710 --> 00:13:22,650
+It likes to start RNA from
+scratch as we'll get to a
+
+260
+00:13:22,650 --> 00:13:23,870
+moment with transcription.
+
+261
+00:13:23,870 --> 00:13:26,010
+So as a factoid, I'll mention
+to you that those little
+
+262
+00:13:26,010 --> 00:13:29,340
+primers are actually RNA
+primers, and what happens is
+
+263
+00:13:29,340 --> 00:13:32,800
+they get extended into DNA, and
+they bump into and kind of
+
+264
+00:13:32,800 --> 00:13:36,070
+displace the previous RNA, so
+it's slightly more complicated
+
+265
+00:13:36,070 --> 00:13:36,890
+than I told you.
+
+266
+00:13:36,890 --> 00:13:38,270
+You're welcome to forget that.
+
+267
+00:13:38,270 --> 00:13:40,290
+If you would like to believe
+that primase is actually
+
+268
+00:13:40,290 --> 00:13:43,550
+making little segments of
+DNA, it'll be just fine.
+
+269
+00:13:43,550 --> 00:13:45,460
+But in fact, it doesn't
+actually.
+
+270
+00:13:45,460 --> 00:13:47,990
+It's making little segments of
+RNA so there's a whole other
+
+271
+00:13:47,990 --> 00:13:50,070
+machinery that has to
+deal with that.
+
+272
+00:13:50,070 --> 00:13:52,810
+But the basic concept five prime
+to three prime, little
+
+273
+00:13:52,810 --> 00:13:56,765
+primers, getting extended,
+getting ligated, that's how
+
+274
+00:13:56,765 --> 00:13:57,620
+you make your DNA.
+
+275
+00:13:57,620 --> 00:13:58,980
+And you can check it
+out, and it works.
+
+276
+00:13:58,980 --> 00:14:00,230
+All right.
+
+277
+00:14:09,500 --> 00:14:17,770
+Well, it turns out to even be
+a little more complicated.
+
+278
+00:14:17,770 --> 00:14:20,920
+That was how we got the
+synthesis going, but we also
+
+279
+00:14:20,920 --> 00:14:23,030
+have a little bit of a
+topological problem.
+
+280
+00:14:31,090 --> 00:14:35,120
+This again, says a lot about
+how people do science.
+
+281
+00:14:35,120 --> 00:14:37,300
+You gotta just like not worry
+about certain things.
+
+282
+00:14:37,300 --> 00:14:40,390
+If Kornberg had said,
+oh my goodness.
+
+283
+00:14:40,390 --> 00:14:43,860
+I can't give my test tube a
+primer, because I don't know
+
+284
+00:14:43,860 --> 00:14:46,550
+how the cell would make a
+primer, he wouldn't have made
+
+285
+00:14:46,550 --> 00:14:47,120
+any progress.
+
+286
+00:14:47,120 --> 00:14:49,023
+So he throws in the primer
+and says, the cell
+
+287
+00:14:49,023 --> 00:14:50,070
+will figure it out.
+
+288
+00:14:50,070 --> 00:14:54,400
+I'm just giving it a primer,
+and I'll see what happens.
+
+289
+00:14:54,400 --> 00:14:56,820
+Now, there's another problem,
+this topological problem that
+
+290
+00:14:56,820 --> 00:14:58,300
+also can make your head hurt.
+
+291
+00:14:58,300 --> 00:15:01,050
+Let me try to explain what the
+topological problem is.
+
+292
+00:15:01,050 --> 00:15:08,735
+Suppose I have DNA like that.
+
+293
+00:15:08,735 --> 00:15:10,580
+Make that a little prettier.
+
+294
+00:15:10,580 --> 00:15:12,110
+So I have some DNA like that.
+
+295
+00:15:21,570 --> 00:15:24,360
+And maybe it goes around for
+a very long distance like a
+
+296
+00:15:24,360 --> 00:15:25,800
+circle or something like that.
+
+297
+00:15:25,800 --> 00:15:30,070
+I now want to copy that DNA.
+
+298
+00:15:30,070 --> 00:15:33,390
+So I have one strand,
+and I'm copying it.
+
+299
+00:15:36,730 --> 00:15:43,650
+I have this other strand,
+and I'm copying it.
+
+300
+00:15:43,650 --> 00:15:47,760
+And remember, these two strands
+are wrapped around,
+
+301
+00:15:47,760 --> 00:15:51,560
+and around, and around,
+and around each other.
+
+302
+00:15:51,560 --> 00:15:53,170
+One is going like this.
+
+303
+00:15:53,170 --> 00:15:55,050
+One is going like that, and
+there's some wrapped around.
+
+304
+00:15:55,050 --> 00:15:59,430
+And as I tug them apart to
+make a new strand, to
+
+305
+00:15:59,430 --> 00:16:05,560
+synthesize a new strand, those
+two new double helices are so
+
+306
+00:16:05,560 --> 00:16:10,360
+totally intertwined
+with each other.
+
+307
+00:16:10,360 --> 00:16:14,720
+Every turn that there was in
+the double helix is now a
+
+308
+00:16:14,720 --> 00:16:18,780
+twist and turn connecting the
+two, sort of entangling the
+
+309
+00:16:18,780 --> 00:16:20,380
+two helices.
+
+310
+00:16:20,380 --> 00:16:23,440
+So I have the two new
+double helices
+
+311
+00:16:23,440 --> 00:16:26,130
+entangled with each other.
+
+312
+00:16:26,130 --> 00:16:27,380
+Why is that going
+to be a problem?
+
+313
+00:16:31,160 --> 00:16:34,070
+I'm going to send these
+to two daughter cells.
+
+314
+00:16:34,070 --> 00:16:37,060
+These are the two genomes for
+the two daughter cells.
+
+315
+00:16:37,060 --> 00:16:39,990
+In fact in particular, if this
+thing was a circle, the two
+
+316
+00:16:39,990 --> 00:16:44,360
+new circles will be totally
+wrapped around each other with
+
+317
+00:16:44,360 --> 00:16:46,650
+a gazillion wraps.
+
+318
+00:16:46,650 --> 00:16:50,130
+No way they're going to
+two daughter cells.
+
+319
+00:16:50,130 --> 00:16:51,560
+Now, here is where
+mathematicians are very
+
+320
+00:16:51,560 --> 00:16:55,120
+useful, because it is a theorem
+that if I take two
+
+321
+00:16:55,120 --> 00:16:59,020
+circles wrapped around each
+other like that, there is no
+
+322
+00:16:59,020 --> 00:17:01,750
+topological deformation
+possible that
+
+323
+00:17:01,750 --> 00:17:02,590
+can separate them.
+
+324
+00:17:02,590 --> 00:17:04,359
+It's like these puzzles, you
+get some strings wrapped
+
+325
+00:17:04,359 --> 00:17:06,240
+around each other
+separate them.
+
+326
+00:17:06,240 --> 00:17:08,960
+It's a theorem that two circles
+wrapped around each
+
+327
+00:17:08,960 --> 00:17:13,839
+other like that cannot
+be separated unless,
+
+328
+00:17:13,839 --> 00:17:14,520
+of course, you cheat.
+
+329
+00:17:14,520 --> 00:17:15,352
+What's cheating?
+
+330
+00:17:15,352 --> 00:17:16,500
+AUDIENCE: You cut it.
+
+331
+00:17:16,500 --> 00:17:17,319
+ERIC LANDER: You cut
+it, obviously.
+
+332
+00:17:17,319 --> 00:17:18,980
+If you cut it, then you
+can separate it.
+
+333
+00:17:18,980 --> 00:17:20,670
+But otherwise, it's
+mathematically impossible to
+
+334
+00:17:20,670 --> 00:17:22,430
+separate them.
+
+335
+00:17:22,430 --> 00:17:25,349
+So this could concern people.
+
+336
+00:17:25,349 --> 00:17:27,450
+How could a cell do this?
+
+337
+00:17:27,450 --> 00:17:28,867
+So what does the cell do?
+
+338
+00:17:28,867 --> 00:17:29,781
+AUDIENCE: It cuts it.
+
+339
+00:17:29,781 --> 00:17:30,820
+ERIC LANDER: It cuts it.
+
+340
+00:17:30,820 --> 00:17:32,020
+It's got no choice, right?
+
+341
+00:17:32,020 --> 00:17:32,990
+It's a theorem, right?
+
+342
+00:17:32,990 --> 00:17:35,050
+Even cells can't violate
+theorems.
+
+343
+00:17:35,050 --> 00:17:38,310
+So it cuts it.
+
+344
+00:17:38,310 --> 00:17:40,440
+The only way to get these things
+apart is to cut it.
+
+345
+00:17:40,440 --> 00:17:43,570
+Now, what it does, is it takes
+those double helices.
+
+346
+00:17:43,570 --> 00:17:46,030
+I'll represent the double
+helix as a thicker
+
+347
+00:17:46,030 --> 00:17:46,620
+kind of thing now.
+
+348
+00:17:46,620 --> 00:17:49,480
+That was my double helix,
+this other double helix
+
+349
+00:17:49,480 --> 00:17:52,200
+wrapped around it.
+
+350
+00:17:52,200 --> 00:17:55,150
+It's got to cut it.
+
+351
+00:17:55,150 --> 00:18:00,840
+Now, when I take two DNAs that
+are wrapped around each other
+
+352
+00:18:00,840 --> 00:18:02,720
+or two DNAs that are separate,
+have I done any
+
+353
+00:18:02,720 --> 00:18:04,920
+chemistry on them?
+
+354
+00:18:04,920 --> 00:18:05,160
+I'm sorry.
+
+355
+00:18:05,160 --> 00:18:07,040
+Are they chemically different?
+
+356
+00:18:07,040 --> 00:18:09,440
+They're chemically the
+same molecules.
+
+357
+00:18:09,440 --> 00:18:13,110
+But they're topologically
+different.
+
+358
+00:18:13,110 --> 00:18:15,150
+Topologically means
+wrapped around.
+
+359
+00:18:15,150 --> 00:18:17,160
+In one case, they were
+topologically entangled.
+
+360
+00:18:17,160 --> 00:18:19,510
+In the other case, they're
+topologically separated from
+
+361
+00:18:19,510 --> 00:18:20,280
+each other.
+
+362
+00:18:20,280 --> 00:18:23,030
+So they're still the same
+chemical bonds, the same
+
+363
+00:18:23,030 --> 00:18:29,260
+molecules, but when I separate
+these two double helices now,
+
+364
+00:18:29,260 --> 00:18:32,220
+the difference between these
+is that they are what are
+
+365
+00:18:32,220 --> 00:18:35,860
+called topoisomers.
+
+366
+00:18:35,860 --> 00:18:38,620
+They are isomers because they're
+exactly the same
+
+367
+00:18:38,620 --> 00:18:39,920
+chemical formula.
+
+368
+00:18:39,920 --> 00:18:41,940
+But they're topoisomers
+because they
+
+369
+00:18:41,940 --> 00:18:43,070
+have different topology.
+
+370
+00:18:43,070 --> 00:18:46,060
+They're not wrapped around
+each other anymore.
+
+371
+00:18:46,060 --> 00:18:48,900
+So it turns out there is an
+enzyme that just gets in there
+
+372
+00:18:48,900 --> 00:18:51,040
+and makes a double stranded
+cut in one of the double
+
+373
+00:18:51,040 --> 00:18:54,920
+helices, grabs the two ends,
+passes it around the other
+
+374
+00:18:54,920 --> 00:18:59,380
+side, and ligates them back
+together, and keeps doing that
+
+375
+00:18:59,380 --> 00:19:01,410
+until they're disentangled.
+
+376
+00:19:01,410 --> 00:19:02,960
+Pretty clever.
+
+377
+00:19:02,960 --> 00:19:06,445
+Cut, paste, cut, paste till it
+can separate those two double
+
+378
+00:19:06,445 --> 00:19:08,520
+helices from each other.
+
+379
+00:19:08,520 --> 00:19:13,200
+Remarkably, this enzyme is
+called topoisomerase.
+
+380
+00:19:18,980 --> 00:19:26,750
+This job is done by
+topoisomerase, actually, by
+
+381
+00:19:26,750 --> 00:19:28,750
+topoisomerase II.
+
+382
+00:19:28,750 --> 00:19:30,820
+There's a couple of different
+topoisomerases, and it's
+
+383
+00:19:30,820 --> 00:19:34,740
+topoisomerase II that does this
+particular job, cuts and
+
+384
+00:19:34,740 --> 00:19:37,680
+seals up that double-stranded
+break.
+
+385
+00:19:37,680 --> 00:19:40,080
+All right.
+
+386
+00:19:40,080 --> 00:19:42,250
+It is amazing how this works.
+
+387
+00:19:42,250 --> 00:19:47,080
+Let's take another problem in
+how we do DNA replication.
+
+388
+00:19:47,080 --> 00:19:53,900
+So let's deal with fidelity.
+
+389
+00:19:53,900 --> 00:19:57,305
+The fidelity, accuracy
+of replication.
+
+390
+00:20:05,100 --> 00:20:07,810
+I have my strand.
+
+391
+00:20:07,810 --> 00:20:09,730
+Which direction do we go?
+
+392
+00:20:09,730 --> 00:20:13,900
+We go, for this template, five
+prime to three prime.
+
+393
+00:20:13,900 --> 00:20:16,550
+This way goes five prime to
+three prime, the opposite
+
+394
+00:20:16,550 --> 00:20:17,890
+direction there.
+
+395
+00:20:17,890 --> 00:20:21,040
+I now add on.
+
+396
+00:20:21,040 --> 00:20:22,790
+If this is a T, what
+do I add in?
+
+397
+00:20:22,790 --> 00:20:23,996
+AUDIENCE: [INAUDIBLE].
+
+398
+00:20:23,996 --> 00:20:31,000
+ERIC LANDER: If it's a
+GCGTAAT, et cetera.
+
+399
+00:20:31,000 --> 00:20:32,740
+Why does the right base go in?
+
+400
+00:20:37,540 --> 00:20:38,864
+Why does the right base go in?
+
+401
+00:20:38,864 --> 00:20:39,318
+Yeah?
+
+402
+00:20:39,318 --> 00:20:40,680
+AUDIENCE: Hydrogen bonding.
+
+403
+00:20:40,680 --> 00:20:41,030
+ERIC LANDER: Hydrogen bonding.
+
+404
+00:20:41,030 --> 00:20:42,880
+It's got that these
+hydrogen bonds.
+
+405
+00:20:42,880 --> 00:20:44,440
+AT makes two hydrogen bonds.
+
+406
+00:20:44,440 --> 00:20:46,610
+GC makes three hydrogen bonds.
+
+407
+00:20:46,610 --> 00:20:50,500
+The wrong base could
+never go in.
+
+408
+00:20:50,500 --> 00:20:50,800
+Sorry.
+
+409
+00:20:50,800 --> 00:20:54,160
+In biochemistry, do you
+ever say never?
+
+410
+00:20:54,160 --> 00:20:56,400
+No, we say K equilibrium.
+
+411
+00:20:56,400 --> 00:20:59,940
+We say how much more unfavored
+is it for the
+
+412
+00:20:59,940 --> 00:21:02,350
+wrong base to go in?
+
+413
+00:21:02,350 --> 00:21:05,500
+It's not impossible, it's just
+disfavored, because it's
+
+414
+00:21:05,500 --> 00:21:08,260
+energetically less good.
+
+415
+00:21:08,260 --> 00:21:10,940
+How much energetically
+less good is it?
+
+416
+00:21:10,940 --> 00:21:14,660
+What is the delta G for putting
+in the wrong base?
+
+417
+00:21:14,660 --> 00:21:15,910
+It's not infinity.
+
+418
+00:21:18,470 --> 00:21:24,660
+It turns out that there is an
+equilibrium constant for
+
+419
+00:21:24,660 --> 00:21:33,260
+putting in the wrong base, and
+that is K equilibrium is about
+
+420
+00:21:33,260 --> 00:21:37,280
+10 to the third for the right
+base, 10 to the minus third
+
+421
+00:21:37,280 --> 00:21:39,590
+for the wrong base.
+
+422
+00:21:39,590 --> 00:21:40,290
+Thank goodness.
+
+423
+00:21:40,290 --> 00:21:43,930
+So only one time in 1,000 does
+it put in the wrong base.
+
+424
+00:21:43,930 --> 00:21:45,130
+That's what that has
+to mean, right?
+
+425
+00:21:45,130 --> 00:21:48,870
+If it's 1,000 times less favored
+energetically, it
+
+426
+00:21:48,870 --> 00:21:55,410
+means you only make a mistake
+one letter in 1,000.
+
+427
+00:21:55,410 --> 00:21:57,700
+How do you feel about that
+for your own genomes?
+
+428
+00:21:57,700 --> 00:21:59,440
+Is that a level of quality
+control you
+
+429
+00:21:59,440 --> 00:22:00,500
+are satisfied with?
+
+430
+00:22:00,500 --> 00:22:01,226
+AUDIENCE: No.
+
+431
+00:22:01,226 --> 00:22:02,180
+ERIC LANDER: No.
+
+432
+00:22:02,180 --> 00:22:04,980
+How big is a typical gene?
+
+433
+00:22:04,980 --> 00:22:08,220
+Typical gene is, in terms
+of its protein coding
+
+434
+00:22:08,220 --> 00:22:10,708
+information, you guys already
+know about DNA goes to RNA
+
+435
+00:22:10,708 --> 00:22:11,090
+goes to protein.
+
+436
+00:22:11,090 --> 00:22:13,870
+It's about 2,000 bases of
+protein coding information.
+
+437
+00:22:13,870 --> 00:22:18,870
+That guarantees two mistakes
+per cell division.
+
+438
+00:22:18,870 --> 00:22:20,310
+Not good.
+
+439
+00:22:20,310 --> 00:22:22,320
+Two mistakes per
+cell division.
+
+440
+00:22:22,320 --> 00:22:23,110
+That's not OK.
+
+441
+00:22:23,110 --> 00:22:26,340
+That's two mistakes
+per cell division.
+
+442
+00:22:26,340 --> 00:22:31,030
+That would be two errors per
+cell division, and you have a
+
+443
+00:22:31,030 --> 00:22:35,440
+lot of cell divisions, you're
+in a lot of trouble.
+
+444
+00:22:35,440 --> 00:22:38,200
+So it turns out something
+more is needed.
+
+445
+00:22:38,200 --> 00:22:41,030
+Quality control is needed.
+
+446
+00:22:41,030 --> 00:22:49,770
+So later, it was discovered
+that the enzyme DNA
+
+447
+00:22:49,770 --> 00:23:01,350
+polymerase, which has a five
+prime to three prime
+
+448
+00:23:01,350 --> 00:23:08,200
+polymerization activity also
+does a second thing.
+
+449
+00:23:12,680 --> 00:23:16,590
+That same enzyme, DNA
+polymerase, is also a three
+
+450
+00:23:16,590 --> 00:23:19,590
+prime to five prime
+exonuclease.
+
+451
+00:23:22,360 --> 00:23:25,120
+What do you think an
+exonuclease is?
+
+452
+00:23:25,120 --> 00:23:26,000
+AUDIENCE: [INAUDIBLE].
+
+453
+00:23:26,000 --> 00:23:28,320
+ERIC LANDER: Take stuff out.
+
+454
+00:23:28,320 --> 00:23:31,740
+So it adds bases in the forward
+direction, but it also
+
+455
+00:23:31,740 --> 00:23:34,910
+goes backwards and
+takes bases out.
+
+456
+00:23:34,910 --> 00:23:36,710
+Isn't that dumb?
+
+457
+00:23:36,710 --> 00:23:38,220
+I thought we were trying to
+synthesize, but we're also
+
+458
+00:23:38,220 --> 00:23:39,470
+unsynthesizing.
+
+459
+00:23:41,410 --> 00:23:44,598
+With some probability, it goes
+backwards and takes out bases.
+
+460
+00:23:48,590 --> 00:23:53,290
+Turns out that the probability
+of taking out a base backwards
+
+461
+00:23:53,290 --> 00:23:54,860
+is higher if it's
+the wrong base.
+
+462
+00:23:58,840 --> 00:24:02,540
+It's proofreading as it goes
+as I hope you are.
+
+463
+00:24:02,540 --> 00:24:05,440
+It's proofreading.
+
+464
+00:24:05,440 --> 00:24:09,160
+It goes backwards and takes
+bases out more often.
+
+465
+00:24:09,160 --> 00:24:12,400
+Sometimes it takes out the
+right bases, but it is
+
+466
+00:24:12,400 --> 00:24:14,170
+proofreading its work.
+
+467
+00:24:20,230 --> 00:24:23,080
+And more often when it's the
+wrong base, it goes backwards,
+
+468
+00:24:23,080 --> 00:24:25,920
+and so you get the benefit of
+a K equilibrium from the
+
+469
+00:24:25,920 --> 00:24:26,940
+original base.
+
+470
+00:24:26,940 --> 00:24:29,420
+And then there's a separate
+K equilibrium for the
+
+471
+00:24:29,420 --> 00:24:30,985
+proofreading, and
+that helps you.
+
+472
+00:24:30,985 --> 00:24:35,260
+And when you combine the
+proofreading with the original
+
+473
+00:24:35,260 --> 00:24:42,520
+accuracy, now, we're down to
+something like 10 to the minus
+
+474
+00:24:42,520 --> 00:24:48,070
+five or 10 to the minus
+six errors per
+
+475
+00:24:48,070 --> 00:24:49,760
+base, per cell division.
+
+476
+00:24:53,510 --> 00:24:55,935
+It's only making on the order
+of one error per million.
+
+477
+00:25:00,000 --> 00:25:03,080
+Now are we satisfied?
+
+478
+00:25:03,080 --> 00:25:03,730
+No.
+
+479
+00:25:03,730 --> 00:25:05,370
+You guys pretty hard nosed.
+
+480
+00:25:05,370 --> 00:25:09,760
+Not good enough, because you
+have 50 cell divisions to make
+
+481
+00:25:09,760 --> 00:25:11,340
+more and some cells go
+through many, many,
+
+482
+00:25:11,340 --> 00:25:12,880
+many more cell divisions.
+
+483
+00:25:12,880 --> 00:25:14,400
+Not acceptable.
+
+484
+00:25:14,400 --> 00:25:15,650
+But it's a start.
+
+485
+00:25:20,430 --> 00:25:22,940
+So proofreading helps.
+
+486
+00:25:22,940 --> 00:25:26,850
+So we have the fidelity
+of replication.
+
+487
+00:25:26,850 --> 00:25:31,120
+Replication makes an error
+at a rate of 10
+
+488
+00:25:31,120 --> 00:25:32,650
+to the minus third.
+
+489
+00:25:32,650 --> 00:25:39,100
+Proofreading brings you down
+to 10 to the minus six, and
+
+490
+00:25:39,100 --> 00:25:41,130
+there's another process.
+
+491
+00:25:41,130 --> 00:25:44,400
+There are a set of enzymes that
+go around and feel the
+
+492
+00:25:44,400 --> 00:25:48,340
+DNA double helix after it's
+finished, and if you put in
+
+493
+00:25:48,340 --> 00:25:53,620
+the wrong base, the width of
+the helix is not right.
+
+494
+00:25:53,620 --> 00:25:55,550
+The shape is wrong.
+
+495
+00:25:55,550 --> 00:25:57,900
+It feels for mismatches.
+
+496
+00:25:57,900 --> 00:26:00,060
+So there is a mismatch
+repair system.
+
+497
+00:26:04,980 --> 00:26:10,900
+Mismatch repair comes along,
+and if there was an error
+
+498
+00:26:10,900 --> 00:26:15,120
+right here, the helix bulges
+out too much let's say.
+
+499
+00:26:15,120 --> 00:26:22,400
+Mismatch repair cuts, removes
+some DNA, and gives the cell
+
+500
+00:26:22,400 --> 00:26:25,510
+another chance to do it again.
+
+501
+00:26:25,510 --> 00:26:30,350
+Mismatch repair gets you down
+to something in the
+
+502
+00:26:30,350 --> 00:26:33,020
+neighborhood of 10 to
+the minus eighth, 10
+
+503
+00:26:33,020 --> 00:26:35,840
+to the minus ninth.
+
+504
+00:26:35,840 --> 00:26:37,200
+Let's say for the sake
+of argument, 10
+
+505
+00:26:37,200 --> 00:26:38,390
+to the minus ninth.
+
+506
+00:26:38,390 --> 00:26:41,610
+You're genome is about three
+times 10 to the ninth.
+
+507
+00:26:41,610 --> 00:26:45,100
+Now making that's one or
+two errors per genome,
+
+508
+00:26:45,100 --> 00:26:46,350
+that's not so bad.
+
+509
+00:26:49,540 --> 00:26:51,240
+Why do we care?
+
+510
+00:26:51,240 --> 00:26:52,890
+Why am I bothering
+you with this?
+
+511
+00:26:52,890 --> 00:26:55,810
+Who cares between 10 to minus
+sixth, 10 to the minus ninth?
+
+512
+00:26:55,810 --> 00:26:57,060
+Big deal.
+
+513
+00:26:59,630 --> 00:27:07,450
+Well, a few percent of you in
+this class are heterozygous
+
+514
+00:27:07,450 --> 00:27:11,590
+for a mutation in the mismatch
+repair enzymes.
+
+515
+00:27:11,590 --> 00:27:12,730
+Don't worry.
+
+516
+00:27:12,730 --> 00:27:16,000
+Your cells have the other
+copy that's good.
+
+517
+00:27:16,000 --> 00:27:20,930
+But suppose one of your cells
+were to lose, by mutation, the
+
+518
+00:27:20,930 --> 00:27:23,060
+good copy of the mismatch
+repair enzyme?
+
+519
+00:27:23,060 --> 00:27:26,250
+And now that cell in your body
+had no copies of mismatch
+
+520
+00:27:26,250 --> 00:27:27,500
+repair enzyme.
+
+521
+00:27:31,780 --> 00:27:33,250
+What do you think is going
+to happen to your DNA
+
+522
+00:27:33,250 --> 00:27:35,930
+replication?
+
+523
+00:27:35,930 --> 00:27:37,660
+Instead of being one in a
+billion, it would be one in a
+
+524
+00:27:37,660 --> 00:27:40,220
+million accuracy.
+
+525
+00:27:40,220 --> 00:27:41,460
+Turns out you have
+an extremely high
+
+526
+00:27:41,460 --> 00:27:44,780
+risk of colon cancer.
+
+527
+00:27:44,780 --> 00:27:47,660
+There are hereditary colon
+cancer syndromes that are due
+
+528
+00:27:47,660 --> 00:27:50,800
+to inherited defects in the
+mismatch repair system.
+
+529
+00:27:50,800 --> 00:27:53,380
+It is not at all trivial.
+
+530
+00:27:53,380 --> 00:27:55,900
+Hereditary polyposis
+coli is due to a
+
+531
+00:27:55,900 --> 00:27:57,340
+defect in this enzyme.
+
+532
+00:28:02,770 --> 00:28:03,720
+It matters.
+
+533
+00:28:03,720 --> 00:28:06,010
+You've got to get it down to
+that level because otherwise,
+
+534
+00:28:06,010 --> 00:28:09,780
+you're getting mutations that
+cause cancer, that is, when
+
+535
+00:28:09,780 --> 00:28:12,430
+you lose both copies, if
+you lost both copies.
+
+536
+00:28:12,430 --> 00:28:14,890
+Most of your cells would be
+fine, but if you'd lose the
+
+537
+00:28:14,890 --> 00:28:18,100
+other good copy, by chance,
+that cell can
+
+538
+00:28:18,100 --> 00:28:21,490
+go on to cause cancer.
+
+539
+00:28:21,490 --> 00:28:23,460
+So this stuff actually
+matters.
+
+540
+00:28:23,460 --> 00:28:29,120
+Finally, finally, speed.
+
+541
+00:28:29,120 --> 00:28:31,900
+Kind of fun to talk
+about speed.
+
+542
+00:28:31,900 --> 00:28:35,291
+How fast does polymerase work?
+
+543
+00:28:35,291 --> 00:28:43,720
+It turns out that polymerase
+is able to polymerize 2,000
+
+544
+00:28:43,720 --> 00:28:50,180
+nucleotides per second.
+
+545
+00:28:50,180 --> 00:28:52,070
+That's very impressive to me.
+
+546
+00:28:52,070 --> 00:28:54,910
+It zips along at 2,000
+nucleotides per second,
+
+547
+00:28:54,910 --> 00:28:59,050
+installing the right base,
+getting it right only 99.9% of
+
+548
+00:28:59,050 --> 00:29:03,260
+the time, proofreading as it
+goes, and gets the whole thing
+
+549
+00:29:03,260 --> 00:29:06,580
+done 2,000 letters
+in a second.
+
+550
+00:29:06,580 --> 00:29:08,580
+That is impressive
+engineering.
+
+551
+00:29:08,580 --> 00:29:12,110
+That is really impressive
+engineering.
+
+552
+00:29:12,110 --> 00:29:17,170
+So that's kind of how DNA
+replication works well, except
+
+553
+00:29:17,170 --> 00:29:18,420
+for one thing.
+
+554
+00:29:29,540 --> 00:29:30,790
+Kornberg was a biochemist.
+
+555
+00:29:33,290 --> 00:29:35,300
+Biochemists purify things
+in test tubes.
+
+556
+00:29:41,180 --> 00:29:49,650
+He discovered an enzyme,
+Kornberg's polymerase.
+
+557
+00:29:54,880 --> 00:29:59,420
+How do we know it's the enzyme
+the cell actually
+
+558
+00:29:59,420 --> 00:30:03,070
+uses to copy its DNA?
+
+559
+00:30:03,070 --> 00:30:04,600
+See, I'm a geneticist.
+
+560
+00:30:04,600 --> 00:30:07,300
+I look at Kornberg and
+I say, nice job.
+
+561
+00:30:07,300 --> 00:30:12,030
+You showed me an enzyme that in
+a test tube is capable of
+
+562
+00:30:12,030 --> 00:30:14,250
+polymerizing DNA.
+
+563
+00:30:14,250 --> 00:30:17,340
+How do I know that's the enzyme
+that's actually doing
+
+564
+00:30:17,340 --> 00:30:19,110
+it from the cell copies
+its whole genome?
+
+565
+00:30:22,210 --> 00:30:25,858
+What does a geneticist
+want to see?
+
+566
+00:30:25,858 --> 00:30:27,350
+AUDIENCE: A mutant.
+
+567
+00:30:27,350 --> 00:30:28,230
+ERIC LANDER: A mutant.
+
+568
+00:30:28,230 --> 00:30:32,000
+Show me a mutant then
+I'll believe.
+
+569
+00:30:32,000 --> 00:30:39,330
+So someone went along and took
+E. colis one at a time because
+
+570
+00:30:39,330 --> 00:30:40,400
+what else could they do.
+
+571
+00:30:40,400 --> 00:30:43,670
+And for every single E. coli
+they grew up from a plate,
+
+572
+00:30:43,670 --> 00:30:45,722
+they purified Kornberg's
+enzyme.
+
+573
+00:30:45,722 --> 00:30:48,680
+And you know what they found?
+
+574
+00:30:48,680 --> 00:30:55,710
+They found a mutant E. coli that
+lacked Kornberg's enzyme,
+
+575
+00:30:55,710 --> 00:30:57,900
+and it could replicate
+its DNA just fine.
+
+576
+00:31:01,950 --> 00:31:03,200
+What does that tell us?
+
+577
+00:31:07,440 --> 00:31:11,370
+Kornberg actually had
+the wrong enzyme.
+
+578
+00:31:11,370 --> 00:31:13,270
+He still deserves a Nobel Prize
+for it because he got an
+
+579
+00:31:13,270 --> 00:31:15,340
+enzyme that could copy DNA.
+
+580
+00:31:15,340 --> 00:31:18,790
+It's actually not the main
+enzyme that does the job.
+
+581
+00:31:18,790 --> 00:31:22,270
+Because we can make a mutant
+that lacks that enzyme and it
+
+582
+00:31:22,270 --> 00:31:27,220
+can still copy the DNA, it
+can't be the main enzyme.
+
+583
+00:31:27,220 --> 00:31:31,320
+Turns out what Kornberg found
+was a minor polymerase that
+
+584
+00:31:31,320 --> 00:31:34,320
+was used in those mismatch
+repair situations that would
+
+585
+00:31:34,320 --> 00:31:37,190
+come along and do the tidying
+and clean up.
+
+586
+00:31:37,190 --> 00:31:39,810
+The main enzyme turned out to
+be another enzyme, a more
+
+587
+00:31:39,810 --> 00:31:41,390
+complicated enzyme.
+
+588
+00:31:41,390 --> 00:31:45,450
+So my point about biochemistry
+and genetics both having to
+
+589
+00:31:45,450 --> 00:31:48,900
+talk to each other, you only
+really know something when you
+
+590
+00:31:48,900 --> 00:31:51,940
+have it from a biochemical point
+of view and the genetic
+
+591
+00:31:51,940 --> 00:31:53,000
+point of view.
+
+592
+00:31:53,000 --> 00:31:54,500
+The two have to go together.
+
+593
+00:31:54,500 --> 00:31:56,110
+Kornberg's enzyme is
+a great enzyme,
+
+594
+00:31:56,110 --> 00:31:57,470
+it's a fantastic enzyme.
+
+595
+00:31:57,470 --> 00:32:00,410
+It just happens not to be the
+main enzyme, and you can only
+
+596
+00:32:00,410 --> 00:32:02,560
+know that by genetics.
+
+597
+00:32:02,560 --> 00:32:05,360
+Of course, you can only purify
+it by biochemistry.
+
+598
+00:32:05,360 --> 00:32:06,050
+All right.
+
+599
+00:32:06,050 --> 00:32:09,910
+So that's DNA replication.
+
+600
+00:32:09,910 --> 00:32:12,640
+Any questions about DNA
+replication before I go on?
+
+601
+00:32:12,640 --> 00:32:13,060
+Yes?
+
+602
+00:32:13,060 --> 00:32:15,210
+AUDIENCE: [INAUDIBLE].
+
+603
+00:32:15,210 --> 00:32:17,450
+ERIC LANDER: Polymerase III or
+polymerase II, depending on
+
+604
+00:32:17,450 --> 00:32:18,200
+the organism.
+
+605
+00:32:18,200 --> 00:32:19,330
+They're all called
+polymerases.
+
+606
+00:32:19,330 --> 00:32:20,650
+They're all DNA polymerases.
+
+607
+00:32:20,650 --> 00:32:22,470
+They just get different
+names and numbers.
+
+608
+00:32:22,470 --> 00:32:25,150
+Turns out most cells have
+multiple polymerases and
+
+609
+00:32:25,150 --> 00:32:27,780
+Kornberg found the kind
+of simpler polymerase.
+
+610
+00:32:27,780 --> 00:32:29,980
+The main replication polymerase
+also called
+
+611
+00:32:29,980 --> 00:32:32,190
+polymerase but with a different
+number, is a
+
+612
+00:32:32,190 --> 00:32:33,410
+different more complicated
+enzyme.
+
+613
+00:32:33,410 --> 00:32:33,800
+Yes?
+
+614
+00:32:33,800 --> 00:32:39,620
+AUDIENCE: How does the enzyme
+know which one is the right..?
+
+615
+00:32:39,620 --> 00:32:41,520
+ERIC LANDER: how does it know
+which one is right?
+
+616
+00:32:41,520 --> 00:32:44,747
+AUDIENCE: [INAUDIBLE].
+
+617
+00:32:44,747 --> 00:32:47,080
+ERIC LANDER: Because 50% of
+the time you get it wrong.
+
+618
+00:32:47,080 --> 00:32:48,530
+Do you know what bacteria do?
+
+619
+00:32:48,530 --> 00:32:49,420
+What a great question.
+
+620
+00:32:49,420 --> 00:32:50,670
+How would it know which
+one to get right?
+
+621
+00:32:53,500 --> 00:32:56,400
+Know what bacteria do?
+
+622
+00:32:56,400 --> 00:32:57,780
+They're very tricky.
+
+623
+00:32:57,780 --> 00:33:00,210
+They mark their DNA, don't
+worry about this.
+
+624
+00:33:00,210 --> 00:33:02,680
+They mark their DNA with
+methyl groups.
+
+625
+00:33:02,680 --> 00:33:04,870
+There is an enzyme that comes
+along and put methyl groups at
+
+626
+00:33:04,870 --> 00:33:11,640
+certain positions, but that
+enzyme is kind of slow.
+
+627
+00:33:11,640 --> 00:33:15,100
+So I have a methyl-marked
+DNA double helix.
+
+628
+00:33:15,100 --> 00:33:18,580
+When I replicate it, the new
+strand is made, and what does
+
+629
+00:33:18,580 --> 00:33:19,610
+the new strand lack?
+
+630
+00:33:19,610 --> 00:33:21,000
+AUDIENCE: Little
+methyl groups.
+
+631
+00:33:21,000 --> 00:33:22,910
+ERIC LANDER: Little
+methyl groups.
+
+632
+00:33:22,910 --> 00:33:25,110
+It'll get them eventually
+because that slow enzyme will
+
+633
+00:33:25,110 --> 00:33:29,050
+come along and put them on, but
+mismatch repair is fast.
+
+634
+00:33:29,050 --> 00:33:31,940
+So what is mismatch repair
+looking for?
+
+635
+00:33:31,940 --> 00:33:34,480
+The little methyl groups that
+are kind of breadcrumbs that
+
+636
+00:33:34,480 --> 00:33:38,330
+say, this was the old strand,
+and this guy is the new stand.
+
+637
+00:33:38,330 --> 00:33:39,370
+It's thought of everything.
+
+638
+00:33:39,370 --> 00:33:41,020
+It's really smart.
+
+639
+00:33:41,020 --> 00:33:42,270
+Very, very smart.

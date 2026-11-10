@@ -1,0 +1,27 @@
+{
+  "content": "<p>Slide presentation on lab rules and safety precautions.</p>\n",
+  "content_type": "resource",
+  "description": "Slide presentation on lab rules and safety precautions.",
+  "draft": false,
+  "file": "/courses/2-017j-design-of-electromechanical-robotic-systems-fall-2009/MIT2_017JF09_rules.pdf",
+  "file_size": 194884,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Laboratory Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Labs",
+  "parent_type": "CourseSection",
+  "parent_uid": "eec7391f-a43a-696f-8f85-b7b86b7f34db",
+  "resourcetype": "Document",
+  "title": "Lab Rules and Safety",
+  "uid": "bfe9a4c7-c6a9-2c74-79c9-d3ae22914bc9",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

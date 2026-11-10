@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;This section contains selected lecture notes. The numbering of lectures differs slightly from that given in the &lt;a href=&#34;../../pages/calendar/index.html&#34;&gt;Calendar&lt;/a&gt; section.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LEC #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LECTURE NOTES&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Introduction, linear algebra review&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_lec01/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Least square estimation&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_lec02/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Least square solutions of linear problems&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_lec03/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Singular values&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_lec04/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Matrix perturbations&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_lec05/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;6&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Dynamical systems&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_lec06/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;7&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;State-space models&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_lec07/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;8&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Solutions of state-space models&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_lec08/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_lec01.pdf</title>
+      <link>/resources/mit6_241js11_lec01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_lec01/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to introduction, linear algebra review.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_lec02.pdf</title>
+      <link>/resources/mit6_241js11_lec02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_lec02/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to least square estimation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_lec03.pdf</title>
+      <link>/resources/mit6_241js11_lec03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_lec03/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to least square solutions of linear problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_lec04.pdf</title>
+      <link>/resources/mit6_241js11_lec04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_lec04/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to singular values.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_lec05.pdf</title>
+      <link>/resources/mit6_241js11_lec05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_lec05/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to matrix perturbations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_lec06.pdf</title>
+      <link>/resources/mit6_241js11_lec06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_lec06/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to dynamical systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_lec07.pdf</title>
+      <link>/resources/mit6_241js11_lec07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_lec07/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to state-space models.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_lec08.pdf</title>
+      <link>/resources/mit6_241js11_lec08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_lec08/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to solutions of state-space models.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_lec09.pdf</title>
+      <link>/resources/mit6_241js11_lec09/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_lec09/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to transfer functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_lec12.pdf</title>
+      <link>/resources/mit6_241js11_lec12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_lec12/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to I/O stability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_lec13.pdf</title>
+      <link>/resources/mit6_241js11_lec13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_lec13/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to I/O stability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_lec16.pdf</title>
+      <link>/resources/mit6_241js11_lec16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_lec16/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to Bode&amp;rsquo;s sensitivity integral.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_lec17.pdf</title>
+      <link>/resources/mit6_241js11_lec17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_lec17/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to robust stability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_lec20.pdf</title>
+      <link>/resources/mit6_241js11_lec20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_lec20/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to reachability and observability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_lec21.pdf</title>
+      <link>/resources/mit6_241js11_lec21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_lec21/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to minimal realizations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_lec22.pdf</title>
+      <link>/resources/mit6_241js11_lec22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_lec22/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to balanced realization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_lec23.pdf</title>
+      <link>/resources/mit6_241js11_lec23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_lec23/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to feedback stabilization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_lec24.pdf</title>
+      <link>/resources/mit6_241js11_lec24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_lec24/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to H2 optimization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_lec25.pdf</title>
+      <link>/resources/mit6_241js11_lec25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_lec25/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to H∞ optimization.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

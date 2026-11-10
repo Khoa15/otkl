@@ -1,0 +1,21 @@
+{
+  "content": "<p>This file contains information regarding lecture 15: modulation/demodulation.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains information regarding lecture 15: modulation/demodulation.",
+  "draft": false,
+  "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/7c65224293acae2b1ec17d2563845bff_MIT6_02F12_lec15.pdf",
+  "file_size": 1257409,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Slides",
+  "parent_type": "CourseSection",
+  "parent_uid": "6293cb2b-b2c9-55e5-230f-875fa43a271f",
+  "resourcetype": "Document",
+  "title": "6.02 Lecture 15: Modulation/demodulation",
+  "uid": "7c652242-93ac-ae2b-1ec1-7d2563845bff"
+}

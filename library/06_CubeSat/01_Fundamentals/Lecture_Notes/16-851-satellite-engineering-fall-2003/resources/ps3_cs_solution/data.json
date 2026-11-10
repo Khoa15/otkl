@@ -1,0 +1,47 @@
+{
+  "audience": [],
+  "content": "<p>Problem set and solution\nProblem statement: The near-Earth space and atmospheric environments strongly influence the performance and lifetime of operational space systems. Design a tool that helps size ACS actuators for a satellite mission given specific mission objectives and environmental disturbances.</p>\n",
+  "content_type": "resource",
+  "description": "Problem set and solution\nProblem statement: The near-Earth space and atmospheric environments strongly influence the performance and lifetime of operational space systems. Design a tool that helps size ACS actuators for a satellite mission given specific mission objectives and environmental disturbances.",
+  "draft": false,
+  "file": "/courses/16-851-satellite-engineering-fall-2003/971ab386a715dff9b51ab922459bae53_ps3_cs_solution.pdf",
+  "file_size": 257532,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Set Solutions"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "54e4e27d-f3ae-708b-3759-0e244c163c0f",
+  "resourcetype": "Document",
+  "title": "ps3_cs_solution.pdf",
+  "uid": "971ab386-a715-dff9-b51a-b922459bae53",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": {
+      "content": [],
+      "website": "16-851-satellite-engineering-fall-2003"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_resources": {
+      "content": [],
+      "website": "16-851-satellite-engineering-fall-2003"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

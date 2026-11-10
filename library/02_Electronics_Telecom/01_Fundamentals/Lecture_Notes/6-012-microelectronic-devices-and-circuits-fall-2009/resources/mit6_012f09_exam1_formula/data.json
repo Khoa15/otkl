@@ -1,0 +1,47 @@
+{
+  "content": "<p>Formula sheet for an exam on microelectronic devices and circuits.</p>\n",
+  "content_type": "resource",
+  "description": "Formula sheet for an exam on microelectronic devices and circuits.",
+  "draft": false,
+  "file": "/courses/6-012-microelectronic-devices-and-circuits-fall-2009/d4188477c2031371931b0ac68b034217_MIT6_012F09_exam1_formula.pdf",
+  "file_size": 390993,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Supplemental Exam Materials"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Exams",
+  "parent_type": "CourseSection",
+  "parent_uid": "4023a661-27dc-40df-ec6b-9fb469221263",
+  "resourcetype": "Document",
+  "title": "Formula Sheet for Exam One, Fall 2009",
+  "uid": "d4188477-c203-1371-931b-0ac68b034217",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-012-microelectronic-devices-and-circuits-fall-2009"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-012-microelectronic-devices-and-circuits-fall-2009"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

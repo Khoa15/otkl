@@ -1,0 +1,3141 @@
+1
+00:00:06,950 --> 00:00:07,750
+ERIC LANDER: Good morning.
+
+2
+00:00:07,750 --> 00:00:09,000
+Good morning.
+
+3
+00:00:17,480 --> 00:00:27,330
+So last time, we ran
+into a problem.
+
+4
+00:00:27,330 --> 00:00:31,760
+We had Mendel, my hero Mendel,
+this MIT-like mathematical,
+
+5
+00:00:31,760 --> 00:00:40,200
+physical monk, had developed
+this gorgeous theory of
+
+6
+00:00:40,200 --> 00:00:41,500
+particles of inheritance.
+
+7
+00:00:41,500 --> 00:00:43,330
+He didn't use the
+word "gene" yet.
+
+8
+00:00:43,330 --> 00:00:45,295
+Gene doesn't get invented
+for much longer.
+
+9
+00:00:48,140 --> 00:00:53,760
+For every trait, you had
+two such particles.
+
+10
+00:00:53,760 --> 00:00:53,922
+You gave one to your
+offspring.
+
+11
+00:00:53,922 --> 00:00:56,300
+Each of the parents gave
+one to their offspring.
+
+12
+00:00:56,300 --> 00:01:00,000
+And that's how each offspring
+gets two of them.
+
+13
+00:01:00,000 --> 00:01:05,239
+That choice of which of the
+two alleles to transmit to
+
+14
+00:01:05,239 --> 00:01:07,790
+your offspring is
+a random draw.
+
+15
+00:01:07,790 --> 00:01:11,470
+And that explains beautifully,
+for example, the 3-to-1
+
+16
+00:01:11,470 --> 00:01:14,130
+segregation pattern
+that Mendel saw--
+
+17
+00:01:14,130 --> 00:01:16,590
+gorgeous.
+
+18
+00:01:16,590 --> 00:01:20,620
+We put that model, which was
+an ex post facto model, a
+
+19
+00:01:20,620 --> 00:01:24,200
+model made after the data were
+available, to a test.
+
+20
+00:01:24,200 --> 00:01:27,100
+You guys insisted we had to
+test it before you would
+
+21
+00:01:27,100 --> 00:01:28,280
+publish it.
+
+22
+00:01:28,280 --> 00:01:31,910
+And it holds up pretty well,
+making pretty surprising
+
+23
+00:01:31,910 --> 00:01:34,000
+predictions that you
+would otherwise
+
+24
+00:01:34,000 --> 00:01:35,730
+not have ever expected.
+
+25
+00:01:35,730 --> 00:01:39,660
+Like amongst that 3 to 1, the
+threes are not all the same.
+
+26
+00:01:39,660 --> 00:01:45,430
+Some of those round peas
+were homozygous
+
+27
+00:01:45,430 --> 00:01:48,060
+for the big-R allele.
+
+28
+00:01:48,060 --> 00:01:51,910
+And in selfing, they'll never
+produce wrinkled peas.
+
+29
+00:01:51,910 --> 00:01:56,310
+But 2/3 of those round peas
+were heterozygous.
+
+30
+00:01:56,310 --> 00:02:00,070
+And when you self them, you
+get 1/4 wrinkled peas.
+
+31
+00:02:00,070 --> 00:02:04,170
+So the wacky prediction that
+1/3 of the rounds will give
+
+32
+00:02:04,170 --> 00:02:07,050
+rise to no wrinkleds, and 2/3
+of the rounds will give rise
+
+33
+00:02:07,050 --> 00:02:11,050
+to 1/4 wrinkleds is a surprising
+prediction and,
+
+34
+00:02:11,050 --> 00:02:14,570
+therefore, something that bears
+stating as a scientific
+
+35
+00:02:14,570 --> 00:02:16,491
+prediction.
+
+36
+00:02:16,491 --> 00:02:20,820
+And so all those kind of
+predictions can emerge.
+
+37
+00:02:20,820 --> 00:02:26,040
+Then we turned to the question
+of two factors.
+
+38
+00:02:26,040 --> 00:02:29,180
+I'm practicing using
+our words here--
+
+39
+00:02:29,180 --> 00:02:32,800
+homozygous, heterozygous,
+alleles, et cetera.
+
+40
+00:02:32,800 --> 00:02:37,130
+We now turn to two traits,
+two phenotypes.
+
+41
+00:02:37,130 --> 00:02:41,550
+We have two phenotypes
+segregating.
+
+42
+00:02:41,550 --> 00:02:45,270
+We had round and wrinkled, and
+we had green and yellow.
+
+43
+00:02:45,270 --> 00:02:49,390
+And Mendel determined, rather
+brilliantly, that they
+
+44
+00:02:49,390 --> 00:02:53,890
+segregated, were transmitted
+independently of each other.
+
+45
+00:02:53,890 --> 00:02:56,850
+There was no correlation between
+which alleles you got
+
+46
+00:02:56,850 --> 00:02:59,590
+at round and which alleles
+you got at wrinkled.
+
+47
+00:02:59,590 --> 00:03:02,450
+That was pretty cool.
+
+48
+00:03:02,450 --> 00:03:05,480
+Let's just go over that, because
+there's a real tension
+
+49
+00:03:05,480 --> 00:03:23,330
+to be resolved because we have
+Mendel's second law versus the
+
+50
+00:03:23,330 --> 00:03:24,580
+chromosome theory.
+
+51
+00:03:32,500 --> 00:03:34,260
+So Mendel's second law--
+
+52
+00:03:34,260 --> 00:03:40,005
+let's just go back to it-- in
+the F0 generation, we had our
+
+53
+00:03:40,005 --> 00:03:50,030
+round green peas, genotype big
+R, big R, big G, big G. We had
+
+54
+00:03:50,030 --> 00:03:59,370
+our wrinkled yellow peas,
+genotype little r, little r,
+
+55
+00:03:59,370 --> 00:04:01,430
+little g, little g.
+
+56
+00:04:01,430 --> 00:04:08,420
+We cross them together, we get
+F1 double heterozygotes, big
+
+57
+00:04:08,420 --> 00:04:11,120
+R, little r, big G, little g.
+
+58
+00:04:11,120 --> 00:04:18,850
+We then perform a back cross
+or test cross to the doubly
+
+59
+00:04:18,850 --> 00:04:23,170
+homozygous parent with the two
+recessive phenotypes--
+
+60
+00:04:23,170 --> 00:04:25,280
+we're practicing
+our words here.
+
+61
+00:04:25,280 --> 00:04:26,680
+And what do we get?
+
+62
+00:04:26,680 --> 00:04:29,030
+Well, we get certain options.
+
+63
+00:04:29,030 --> 00:04:33,290
+As we said, the gametes that
+emerge from this parent on the
+
+64
+00:04:33,290 --> 00:04:37,205
+left could be of the
+following types.
+
+65
+00:04:41,420 --> 00:04:44,590
+The gametes from the
+parent on the right
+
+66
+00:04:44,590 --> 00:04:47,120
+are all those alleles--
+
+67
+00:04:49,980 --> 00:04:51,230
+Are those the recessive
+alleles?
+
+68
+00:04:54,140 --> 00:04:54,610
+No.
+
+69
+00:04:54,610 --> 00:04:57,140
+You'll forget this over time,
+but just to make me
+
+70
+00:04:57,140 --> 00:04:58,000
+comfortable--
+
+71
+00:04:58,000 --> 00:05:00,460
+they're actually the alleles
+associated with the recessive
+
+72
+00:05:00,460 --> 00:05:02,280
+phenotype that we're
+talking about.
+
+73
+00:05:02,280 --> 00:05:04,830
+Because you know-- but will
+forget, I assure you, because
+
+74
+00:05:04,830 --> 00:05:06,370
+all my colleagues in the
+biology department have
+
+75
+00:05:06,370 --> 00:05:07,210
+forgotten--
+
+76
+00:05:07,210 --> 00:05:09,630
+that they could also control
+multiple other phenotypes,
+
+77
+00:05:09,630 --> 00:05:11,760
+some of which could
+be dominant.
+
+78
+00:05:11,760 --> 00:05:12,450
+But that's OK.
+
+79
+00:05:12,450 --> 00:05:14,070
+I forgive you in advance
+that you'll call
+
+80
+00:05:14,070 --> 00:05:15,590
+them recessive alleles.
+
+81
+00:05:15,590 --> 00:05:18,520
+Anyway, you get this.
+
+82
+00:05:18,520 --> 00:05:23,673
+And then these should occur at
+equal frequency of one to one
+
+83
+00:05:23,673 --> 00:05:24,923
+to one to one.
+
+84
+00:05:28,860 --> 00:05:29,871
+All right.
+
+85
+00:05:29,871 --> 00:05:36,420
+Now, we had the chromosome
+theory.
+
+86
+00:05:36,420 --> 00:05:39,890
+The chromosome theory, the
+observation of the
+
+87
+00:05:39,890 --> 00:05:43,260
+choreography of chromosomes
+during meiosis--
+
+88
+00:05:43,260 --> 00:05:46,730
+chromosomes in meiosis--
+
+89
+00:05:46,730 --> 00:05:47,980
+looks like this.
+
+90
+00:05:50,790 --> 00:05:56,010
+We have chromosomes lining
+up in pairs.
+
+91
+00:05:56,010 --> 00:05:57,490
+Now, I'm not drawing
+it terribly well.
+
+92
+00:05:57,490 --> 00:06:04,220
+But the two members of each
+pair are of the same size.
+
+93
+00:06:04,220 --> 00:06:06,890
+But this pair could be
+bigger, and this
+
+94
+00:06:06,890 --> 00:06:07,900
+pair could be smaller.
+
+95
+00:06:07,900 --> 00:06:09,920
+It looks like they're really
+finding each other.
+
+96
+00:06:09,920 --> 00:06:12,620
+These chromosomes are visibly
+different in shape.
+
+97
+00:06:12,620 --> 00:06:15,450
+And so maybe I'll make this guy
+a little longer, just to
+
+98
+00:06:15,450 --> 00:06:18,020
+indicate that, that
+it actually knows.
+
+99
+00:06:18,020 --> 00:06:24,390
+Now an explanation, we said, for
+how Mendel's second law of
+
+100
+00:06:24,390 --> 00:06:27,330
+independent assortment of two
+different phenotypes could
+
+101
+00:06:27,330 --> 00:06:29,665
+occur is that, for
+example - round.
+
+102
+00:06:40,910 --> 00:06:44,130
+It could be that the gene for
+roundness is located on
+
+103
+00:06:44,130 --> 00:06:46,030
+chromosome number one.
+
+104
+00:06:46,030 --> 00:06:48,460
+These are two copies of
+chromosome one that have been
+
+105
+00:06:48,460 --> 00:06:52,050
+duplicated, each of which
+has the big-R allele.
+
+106
+00:06:52,050 --> 00:06:55,930
+Next to it, two copies of
+chromosome one that have been
+
+107
+00:06:55,930 --> 00:07:00,380
+duplicated, each of them having
+the little-r allele.
+
+108
+00:07:00,380 --> 00:07:02,920
+Over here on chromosome
+number two.
+
+109
+00:07:02,920 --> 00:07:07,760
+let's say, lies the gene
+for green or yellow.
+
+110
+00:07:07,760 --> 00:07:17,270
+And in this picture here, the
+big G's are on the two copies
+
+111
+00:07:17,270 --> 00:07:19,210
+of this chromosome number
+two that are here.
+
+112
+00:07:19,210 --> 00:07:21,770
+The little g's are on the two
+copies of chromosome number
+
+113
+00:07:21,770 --> 00:07:24,150
+two that are here.
+
+114
+00:07:24,150 --> 00:07:34,300
+When the cell undergoes meiosis
+one, we get to the
+
+115
+00:07:34,300 --> 00:07:48,480
+situation where we have big G,
+big G; little g, little g.
+
+116
+00:07:48,480 --> 00:07:54,650
+We've got big R, big R;
+little r, little r.
+
+117
+00:07:54,650 --> 00:07:56,520
+Could it have been the case
+that the big G was on the
+
+118
+00:07:56,520 --> 00:07:59,566
+right and the little
+g was on the left?
+
+119
+00:07:59,566 --> 00:08:00,430
+Yeah, of course.
+
+120
+00:08:00,430 --> 00:08:01,620
+It's totally independent
+which way.
+
+121
+00:08:01,620 --> 00:08:03,250
+I happened to draw
+it this way.
+
+122
+00:08:03,250 --> 00:08:06,010
+But with probability 50%,
+it's the other way.
+
+123
+00:08:06,010 --> 00:08:07,860
+That's why they're independent
+of each other.
+
+124
+00:08:07,860 --> 00:08:11,950
+And then when it undergoes
+meiosis two that looks just
+
+125
+00:08:11,950 --> 00:08:19,100
+like mitosis, we end up with
+our four gametes here.
+
+126
+00:08:21,940 --> 00:08:41,390
+Sorry, our four gametes with big
+G, big G; little g, little
+
+127
+00:08:41,390 --> 00:08:49,330
+g; big R, big R; little
+r, little r.
+
+128
+00:08:49,330 --> 00:08:54,950
+And that accounts for the big G,
+big G; big R, big G; little
+
+129
+00:08:54,950 --> 00:08:56,690
+r, little g gametes.
+
+130
+00:08:56,690 --> 00:08:59,600
+And then when they went the
+other way, the organism would
+
+131
+00:08:59,600 --> 00:09:02,510
+make a set of gametes that had
+the other combination of big
+
+132
+00:09:02,510 --> 00:09:04,610
+R's with little g's.
+
+133
+00:09:04,610 --> 00:09:06,530
+So that's perfectly fine.
+
+134
+00:09:06,530 --> 00:09:09,750
+And because the second
+chromosome is independently
+
+135
+00:09:09,750 --> 00:09:12,030
+ordered compared to the first
+chromosome-- when they line up
+
+136
+00:09:12,030 --> 00:09:13,220
+at the midline, they
+don't really care
+
+137
+00:09:13,220 --> 00:09:14,390
+which way they are--
+
+138
+00:09:14,390 --> 00:09:16,960
+that'll account for one
+to one to one to one.
+
+139
+00:09:16,960 --> 00:09:18,210
+It's so straightforward.
+
+140
+00:09:22,920 --> 00:09:40,190
+But what happens if, instead,
+both the roundness gene and
+
+141
+00:09:40,190 --> 00:09:43,425
+the greenness gene live on
+the same chromosome?
+
+142
+00:09:46,850 --> 00:09:49,390
+We'll have little r,
+little r there.
+
+143
+00:09:49,390 --> 00:09:56,060
+We'll have big G, big G here;
+little g, little g.
+
+144
+00:09:56,060 --> 00:10:02,150
+And then when they split,
+we'll end up with--
+
+145
+00:10:02,150 --> 00:10:07,510
+now, chromosome two has
+nothing that we
+
+146
+00:10:07,510 --> 00:10:08,500
+care about on it.
+
+147
+00:10:08,500 --> 00:10:09,395
+It has a lot of genes.
+
+148
+00:10:09,395 --> 00:10:12,050
+In fact, there could be
+chromosomes three, four, five.
+
+149
+00:10:12,050 --> 00:10:13,530
+I'm just not drawing them.
+
+150
+00:10:13,530 --> 00:10:15,290
+But we're really going
+to focus on
+
+151
+00:10:15,290 --> 00:10:17,450
+chromosome number one here.
+
+152
+00:10:17,450 --> 00:10:26,520
+And you'll notice that here on
+chromosome one, the big G's or
+
+153
+00:10:26,520 --> 00:10:34,760
+the little g's are coupled,
+physically coupled to each
+
+154
+00:10:34,760 --> 00:10:36,150
+other, the bigs with
+the bigs and the
+
+155
+00:10:36,150 --> 00:10:37,820
+smalls with the smalls.
+
+156
+00:10:37,820 --> 00:10:46,490
+So now the kind of gametes that
+can emerge from this will
+
+157
+00:10:46,490 --> 00:10:50,410
+only be big R, big G type or--
+
+158
+00:10:50,410 --> 00:10:51,800
+big G type--
+
+159
+00:10:51,800 --> 00:10:56,270
+or they'll be little
+r, little g type.
+
+160
+00:10:56,270 --> 00:10:58,980
+We can't get the reverse
+combination.
+
+161
+00:10:58,980 --> 00:11:01,220
+We can't get bigs and littles.
+
+162
+00:11:01,220 --> 00:11:10,040
+So this, because these are
+independent of each other,
+
+163
+00:11:10,040 --> 00:11:19,840
+will get us one to one
+to one to one.
+
+164
+00:11:19,840 --> 00:11:27,170
+These are the big, little,
+and then these other
+
+165
+00:11:27,170 --> 00:11:29,610
+combinations like that.
+
+166
+00:11:29,610 --> 00:11:39,070
+This will get us only, if we
+look at the big R, big G;
+
+167
+00:11:39,070 --> 00:11:43,230
+little r, little g; big R,
+little g; little r, big G;
+
+168
+00:11:43,230 --> 00:11:49,730
+will get us one to one
+to zero to zero.
+
+169
+00:11:49,730 --> 00:11:52,490
+Let's give a name to this type,
+the big R's and the
+
+170
+00:11:52,490 --> 00:11:53,920
+little g's.
+
+171
+00:11:53,920 --> 00:11:58,200
+Let's call that a recombinant
+type, OK?
+
+172
+00:11:58,200 --> 00:11:59,760
+I'm just going to use that
+word for the moment.
+
+173
+00:11:59,760 --> 00:12:01,570
+The recombinant types-- the
+bigs and the littles, and
+
+174
+00:12:01,570 --> 00:12:03,690
+littles and the bigs--
+
+175
+00:12:03,690 --> 00:12:05,350
+we're not going to
+see any of them.
+
+176
+00:12:05,350 --> 00:12:08,710
+This is a very strong difference
+between Mendel's
+
+177
+00:12:08,710 --> 00:12:10,170
+second law and the chromosome
+theory.
+
+178
+00:12:10,170 --> 00:12:13,030
+If the chromosome theory is
+right, and these chromosomes
+
+179
+00:12:13,030 --> 00:12:19,240
+are physical entities that have
+integrity, they can't
+
+180
+00:12:19,240 --> 00:12:22,240
+both be right.
+
+181
+00:12:22,240 --> 00:12:24,660
+So that's a great thing in
+science, when you have two
+
+182
+00:12:24,660 --> 00:12:28,050
+different models and they can't
+both be right, because
+
+183
+00:12:28,050 --> 00:12:29,210
+you learn things then.
+
+184
+00:12:29,210 --> 00:12:30,740
+You can test them.
+
+185
+00:12:30,740 --> 00:12:35,930
+Now, Mendel tested this without
+actually knowing the
+
+186
+00:12:35,930 --> 00:12:37,400
+chromosome theory.
+
+187
+00:12:37,400 --> 00:12:39,490
+And he always got one to one
+to one to one for the seven
+
+188
+00:12:39,490 --> 00:12:40,740
+traits he looked at.
+
+189
+00:12:43,620 --> 00:12:45,720
+Was he just lucky that they
+happened to lie on the seven
+
+190
+00:12:45,720 --> 00:12:46,970
+different chromosomes?
+
+191
+00:12:50,240 --> 00:12:52,040
+Or is there some problem
+with this
+
+192
+00:12:52,040 --> 00:12:55,340
+chromosome theory, or what?
+
+193
+00:12:55,340 --> 00:12:56,235
+It took a while.
+
+194
+00:12:56,235 --> 00:12:59,220
+And then, of course, everybody
+forgot about Mendel from 1865
+
+195
+00:12:59,220 --> 00:13:00,920
+until the year 1900.
+
+196
+00:13:00,920 --> 00:13:04,210
+In the year 1900, people begin
+to rediscover Mendel.
+
+197
+00:13:04,210 --> 00:13:06,010
+Cytology has come along.
+
+198
+00:13:06,010 --> 00:13:10,750
+In January of the year 1900,
+plant breeders start
+
+199
+00:13:10,750 --> 00:13:12,000
+rediscovering Mendel.
+
+200
+00:13:16,780 --> 00:13:17,210
+Sorry.
+
+201
+00:13:17,210 --> 00:13:18,562
+Thank you.
+
+202
+00:13:18,562 --> 00:13:20,250
+I see already.
+
+203
+00:13:20,250 --> 00:13:22,670
+Thank you.
+
+204
+00:13:22,670 --> 00:13:24,910
+I could tell by the look on your
+face that something must
+
+205
+00:13:24,910 --> 00:13:25,480
+be wrong there.
+
+206
+00:13:25,480 --> 00:13:27,030
+Good.
+
+207
+00:13:27,030 --> 00:13:30,860
+Plant breeders start
+rediscovering Mendel.
+
+208
+00:13:30,860 --> 00:13:37,230
+And in January of 1900, three
+different groups say, you
+
+209
+00:13:37,230 --> 00:13:38,710
+know, we found these laws.
+
+210
+00:13:38,710 --> 00:13:40,230
+And they're just like
+Mendel's laws--
+
+211
+00:13:40,230 --> 00:13:42,680
+which now everybody starts
+paying attention to.
+
+212
+00:13:42,680 --> 00:13:45,460
+But plant breeding-- and people
+tried to do mice, and
+
+213
+00:13:45,460 --> 00:13:48,020
+people tried to do rats.
+
+214
+00:13:48,020 --> 00:13:50,770
+What turned out to be the
+winner, the place to really
+
+215
+00:13:50,770 --> 00:13:54,980
+study genetics, was
+the fruit fly.
+
+216
+00:13:54,980 --> 00:13:59,490
+Thomas Hunt Morgan at Columbia
+University decided, after he
+
+217
+00:13:59,490 --> 00:14:02,610
+was really frustrated wasting
+years breeding mice and rats
+
+218
+00:14:02,610 --> 00:14:07,930
+that just took too long, around,
+oh, I don't know, 1906
+
+219
+00:14:07,930 --> 00:14:12,160
+or something like that, began to
+start breeding fruit flies.
+
+220
+00:14:12,160 --> 00:14:15,020
+Fruit flies are the teeny little
+flies that when you
+
+221
+00:14:15,020 --> 00:14:18,660
+open a banana or fruits
+or other kinds of
+
+222
+00:14:18,660 --> 00:14:20,220
+things, you'll see them.
+
+223
+00:14:20,220 --> 00:14:26,250
+And studying Drosophila gave us
+the answer to this question
+
+224
+00:14:26,250 --> 00:14:29,090
+of what the problem is, how
+can it be that either it's
+
+225
+00:14:29,090 --> 00:14:31,930
+independent or totally
+dependent?
+
+226
+00:14:31,930 --> 00:14:36,090
+So we're going to talk about
+Drosophila melanogaster, the
+
+227
+00:14:36,090 --> 00:14:40,000
+fruit fly, and the discovery
+of recombination.
+
+228
+00:14:47,350 --> 00:14:49,670
+So now, Morgan--
+
+229
+00:14:54,240 --> 00:14:56,920
+I'm going to now start using
+fruit fly notation to give you
+
+230
+00:14:56,920 --> 00:15:00,180
+some practice with fruit
+fly notation.
+
+231
+00:15:00,180 --> 00:15:02,380
+We're not going to use big
+G's and little g's.
+
+232
+00:15:02,380 --> 00:15:04,690
+They like to refer to
+the normal allele
+
+233
+00:15:04,690 --> 00:15:06,120
+and the mutant allele.
+
+234
+00:15:06,120 --> 00:15:08,980
+The normally allele is plus.
+
+235
+00:15:08,980 --> 00:15:11,930
+The mutant allele gets
+some kind of a name.
+
+236
+00:15:11,930 --> 00:15:19,940
+And so he had a female fly that
+was normal and normal at
+
+237
+00:15:19,940 --> 00:15:22,880
+two different loci, two
+different genes.
+
+238
+00:15:22,880 --> 00:15:24,330
+I haven't told you what
+the genes are.
+
+239
+00:15:24,330 --> 00:15:30,240
+And the male fly had a
+black-colored body-- black
+
+240
+00:15:30,240 --> 00:15:32,230
+across its whole body--
+
+241
+00:15:32,230 --> 00:15:36,700
+and its wings were
+shriveled and,
+
+242
+00:15:36,700 --> 00:15:38,840
+therefore, called vestigial.
+
+243
+00:15:38,840 --> 00:15:45,570
+So the phenotype here is black
+and vestigial, black body and
+
+244
+00:15:45,570 --> 00:15:47,400
+vestigial wings.
+
+245
+00:15:47,400 --> 00:15:50,620
+And this wasn't the normal
+appearance of a fly.
+
+246
+00:15:50,620 --> 00:15:54,330
+So he took these females by
+these males, and he crossed
+
+247
+00:15:54,330 --> 00:15:55,270
+them together.
+
+248
+00:15:55,270 --> 00:15:58,730
+And he got an F1.
+
+249
+00:15:58,730 --> 00:16:05,600
+And the F1 was black over
+vestigial, plus over plus.
+
+250
+00:16:05,600 --> 00:16:09,050
+And what was their phenotype?
+
+251
+00:16:09,050 --> 00:16:12,720
+Were they normal appearance,
+which is kind of a
+
+252
+00:16:12,720 --> 00:16:15,090
+sandy-colored body
+and normal wings?
+
+253
+00:16:15,090 --> 00:16:19,820
+Or were they this all black
+body and vestigial wings?
+
+254
+00:16:19,820 --> 00:16:21,940
+Turns out they were normal.
+
+255
+00:16:21,940 --> 00:16:25,100
+From that, what do we infer
+about these two traits, black
+
+256
+00:16:25,100 --> 00:16:27,780
+body and vestigial wings?
+
+257
+00:16:27,780 --> 00:16:29,150
+They're recessive traits.
+
+258
+00:16:29,150 --> 00:16:37,030
+So here, the phenotype was
+normal appearance.
+
+259
+00:16:37,030 --> 00:16:42,950
+So then he crosses them back,
+doing a test cross.
+
+260
+00:16:42,950 --> 00:16:46,240
+Let's say he'll take males here
+and females here, but it
+
+261
+00:16:46,240 --> 00:16:48,030
+actually works either way.
+
+262
+00:16:48,030 --> 00:16:50,440
+And what he does is just
+like we did there.
+
+263
+00:16:50,440 --> 00:16:54,740
+He could get gametes that
+were black, vestigial.
+
+264
+00:16:54,740 --> 00:17:00,480
+He could get gametes that were
+black, plus; plus, vestigial;
+
+265
+00:17:00,480 --> 00:17:05,970
+or plus, plus.
+
+266
+00:17:05,970 --> 00:17:09,210
+Those are the four possibilities
+that come out.
+
+267
+00:17:09,210 --> 00:17:11,160
+So when he does it--
+let's keep score.
+
+268
+00:17:11,160 --> 00:17:12,488
+I'm going to write them now--
+
+269
+00:17:12,488 --> 00:17:18,390
+plus, plus; black, vestigial.
+
+270
+00:17:18,390 --> 00:17:20,245
+And from the other parent,
+you got this--
+
+271
+00:17:23,540 --> 00:17:29,060
+black, plus; black,
+vestigial; plus,
+
+272
+00:17:29,060 --> 00:17:32,310
+vestigial; black, vestigial.
+
+273
+00:17:32,310 --> 00:17:34,280
+Those are the four
+possibilities.
+
+274
+00:17:34,280 --> 00:17:37,460
+And if this was just like
+Mendel's traits, it would be
+
+275
+00:17:37,460 --> 00:17:39,970
+one to one to one to one.
+
+276
+00:17:39,970 --> 00:17:42,410
+These were the parental
+types that went in.
+
+277
+00:17:42,410 --> 00:17:44,400
+Plus, plus went in.
+
+278
+00:17:44,400 --> 00:17:46,130
+And black, vestigial went in.
+
+279
+00:17:46,130 --> 00:17:48,690
+Those were the combinations
+of traits here.
+
+280
+00:17:48,690 --> 00:17:52,490
+These were new combinations.
+
+281
+00:17:52,490 --> 00:17:54,240
+What he observed--
+
+282
+00:17:54,240 --> 00:17:55,160
+Let's see.
+
+283
+00:17:55,160 --> 00:17:57,610
+If Mendel's right, it'll be
+one to one to one to one .
+
+284
+00:17:57,610 --> 00:17:59,510
+If the chromosome theory's
+right, it'll be one to one to
+
+285
+00:17:59,510 --> 00:18:00,750
+zero to zero.
+
+286
+00:18:00,750 --> 00:18:03,552
+And who was right?
+
+287
+00:18:03,552 --> 00:18:04,450
+STUDENT: No one.
+
+288
+00:18:04,450 --> 00:18:05,420
+ERIC LANDER: No one.
+
+289
+00:18:05,420 --> 00:18:18,080
+The answer was 965 to
+944 to 206 to 185.
+
+290
+00:18:18,080 --> 00:18:21,540
+Neither model was right.
+
+291
+00:18:21,540 --> 00:18:24,060
+Neither model's right.
+
+292
+00:18:24,060 --> 00:18:27,180
+The new combinations, the
+recombinant combinations, the
+
+293
+00:18:27,180 --> 00:18:29,490
+non-parental combinations--
+
+294
+00:18:29,490 --> 00:18:33,390
+we can call these recombinant
+combinations.
+
+295
+00:18:33,390 --> 00:18:34,540
+These were recombinant.
+
+296
+00:18:34,540 --> 00:18:36,350
+They recombined in some way.
+
+297
+00:18:36,350 --> 00:18:38,390
+They were a new combination,
+or they were the
+
+298
+00:18:38,390 --> 00:18:39,820
+non-parental types.
+
+299
+00:18:39,820 --> 00:18:43,290
+We use both of those
+words frequently--
+
+300
+00:18:43,290 --> 00:18:47,990
+were neither equal nor were
+they completely absent.
+
+301
+00:18:47,990 --> 00:18:50,850
+They occurred, but at
+a lower frequency.
+
+302
+00:18:50,850 --> 00:18:51,950
+What was the frequency?
+
+303
+00:18:51,950 --> 00:18:54,060
+Well, we could just add it up.
+
+304
+00:18:54,060 --> 00:19:04,630
+The frequency of recombinant
+types, of new types of were
+
+305
+00:19:04,630 --> 00:19:22,920
+different than the
+parents', is 17%.
+
+306
+00:19:22,920 --> 00:19:26,280
+What's going on?
+
+307
+00:19:26,280 --> 00:19:31,770
+Now, maybe this is some magic
+number like the 3-to-1 ratio.
+
+308
+00:19:31,770 --> 00:19:34,820
+And you should look at that 17%
+and say, ah, this is some
+
+309
+00:19:34,820 --> 00:19:37,840
+constant of the universe, that
+when you put in traits you get
+
+310
+00:19:37,840 --> 00:19:41,650
+17% percent of recombinant
+types.
+
+311
+00:19:41,650 --> 00:19:44,490
+But it takes a little judgment
+to say, I don't think so.
+
+312
+00:19:44,490 --> 00:19:46,940
+And he actually tried
+other traits.
+
+313
+00:19:46,940 --> 00:19:49,410
+And sometimes he got one
+to one to one to one.
+
+314
+00:19:49,410 --> 00:19:53,780
+But very often he got
+some funny number--
+
+315
+00:19:53,780 --> 00:20:00,030
+6%, 28%, 1%.
+
+316
+00:20:00,030 --> 00:20:03,090
+There was some funny
+business going on.
+
+317
+00:20:03,090 --> 00:20:04,340
+What's going on?
+
+318
+00:20:07,340 --> 00:20:09,110
+Recombination.
+
+319
+00:20:09,110 --> 00:20:10,470
+That's what's going
+on is there is
+
+320
+00:20:10,470 --> 00:20:12,290
+recombination occurring.
+
+321
+00:20:12,290 --> 00:20:13,573
+What do we mean by
+recombination?
+
+322
+00:20:16,890 --> 00:20:20,510
+Recombination is very important
+stuff, by the way.
+
+323
+00:20:20,510 --> 00:20:23,740
+At some point, I will tell
+you that understanding
+
+324
+00:20:23,740 --> 00:20:26,870
+recombination was actually
+the origin of the
+
+325
+00:20:26,870 --> 00:20:28,770
+Human Genome Project.
+
+326
+00:20:28,770 --> 00:20:31,210
+And it traces back to
+a good MIT story.
+
+327
+00:20:31,210 --> 00:20:34,430
+But that will be for a little
+later in the semester.
+
+328
+00:20:34,430 --> 00:20:37,010
+So what do we think's
+happening here?
+
+329
+00:20:42,710 --> 00:20:46,560
+I'm now going to draw a close-up
+of that chromosome.
+
+330
+00:20:46,560 --> 00:20:50,640
+And here's another chromosome,
+the other pair.
+
+331
+00:20:56,320 --> 00:21:04,280
+And what we think here might be
+happening is that you might
+
+332
+00:21:04,280 --> 00:21:16,380
+have plus and black;
+black and plus--
+
+333
+00:21:16,380 --> 00:21:17,700
+oh, sorry.
+
+334
+00:21:17,700 --> 00:21:20,920
+Black, right?
+
+335
+00:21:20,920 --> 00:21:22,316
+Black, black; plus, plus.
+
+336
+00:21:22,316 --> 00:21:24,990
+This would be plus.
+
+337
+00:21:24,990 --> 00:21:25,760
+This would be plus.
+
+338
+00:21:25,760 --> 00:21:26,970
+This is the normal chromosome.
+
+339
+00:21:26,970 --> 00:21:28,230
+This is plus.
+
+340
+00:21:28,230 --> 00:21:34,000
+So this chromosome here
+carries the pluses.
+
+341
+00:21:34,000 --> 00:21:39,880
+This guy here carries those
+alleles black and vestigial.
+
+342
+00:21:43,640 --> 00:21:48,780
+Well, what happens, the idea
+was that somehow these
+
+343
+00:21:48,780 --> 00:21:52,810
+chromosomes exchanged
+material here.
+
+344
+00:21:52,810 --> 00:21:56,860
+And the chromosome that was
+plus, plus; plus, plus now
+
+345
+00:21:56,860 --> 00:22:03,290
+somehow acquires that bit,
+and this chromosome
+
+346
+00:22:03,290 --> 00:22:05,810
+somehow gets that bit.
+
+347
+00:22:05,810 --> 00:22:19,510
+And we end up instead with a
+picture like this, where some
+
+348
+00:22:19,510 --> 00:22:22,470
+of this came from here.
+
+349
+00:22:27,730 --> 00:22:34,960
+And those two loci, black and
+vestigial, were separated from
+
+350
+00:22:34,960 --> 00:22:38,350
+each other such that the black
+allele moves over to that
+
+351
+00:22:38,350 --> 00:22:39,400
+chromosome.
+
+352
+00:22:39,400 --> 00:22:42,200
+Is that clear?
+
+353
+00:22:42,200 --> 00:22:43,300
+That's the notion.
+
+354
+00:22:43,300 --> 00:22:45,510
+Why did they think
+this was true?
+
+355
+00:22:45,510 --> 00:22:48,380
+Well, it turns out that in fruit
+flies, you can actually
+
+356
+00:22:48,380 --> 00:22:50,250
+look at eggs under
+the microscope.
+
+357
+00:22:50,250 --> 00:22:51,860
+And you can look at
+the chromosomes.
+
+358
+00:22:51,860 --> 00:22:54,230
+And if you take if you take
+the cells, and you take a
+
+359
+00:22:54,230 --> 00:22:57,010
+cover slip, and you squash it
+down with your finger, you can
+
+360
+00:22:57,010 --> 00:23:02,180
+actually see chromosomes lying
+right over each other, making
+
+361
+00:23:02,180 --> 00:23:05,250
+little crosses like I drew
+there, up there, called
+
+362
+00:23:05,250 --> 00:23:07,650
+chiasmata, which
+means crosses.
+
+363
+00:23:07,650 --> 00:23:11,310
+And so people said, see, in the
+microscope, you can see
+
+364
+00:23:11,310 --> 00:23:13,990
+they're lying on top
+of each other.
+
+365
+00:23:13,990 --> 00:23:15,540
+Are you impressed by that
+piece of evidence?
+
+366
+00:23:18,800 --> 00:23:19,140
+No.
+
+367
+00:23:19,140 --> 00:23:20,640
+You took the cover slip,
+you squished it
+
+368
+00:23:20,640 --> 00:23:21,470
+down with your fingers.
+
+369
+00:23:21,470 --> 00:23:23,400
+So they're lying on
+top of each other?
+
+370
+00:23:23,400 --> 00:23:25,450
+Big deal.
+
+371
+00:23:25,450 --> 00:23:26,480
+I'm not going to be impressed.
+
+372
+00:23:26,480 --> 00:23:28,890
+And calling it chiasmata doesn't
+make me any more
+
+373
+00:23:28,890 --> 00:23:30,280
+impressed, right?
+
+374
+00:23:30,280 --> 00:23:32,430
+Although it's always good to
+call things Greek names,
+
+375
+00:23:32,430 --> 00:23:34,850
+because people think they're
+more sophisticated if you call
+
+376
+00:23:34,850 --> 00:23:37,920
+them Greek names.
+
+377
+00:23:37,920 --> 00:23:40,490
+But this was the notion
+people had.
+
+378
+00:23:40,490 --> 00:23:46,600
+And the frequency 17% would
+indicate how often these
+
+379
+00:23:46,600 --> 00:23:47,850
+crossovers occur.
+
+380
+00:23:51,280 --> 00:23:53,750
+But if I were in the situation
+we talked about with Mendel,
+
+381
+00:23:53,750 --> 00:23:56,460
+and I wrote this up, and I said,
+see, it's 17% sometimes,
+
+382
+00:23:56,460 --> 00:23:58,610
+6% sometimes, 28% sometimes;
+and when I look in the
+
+383
+00:23:58,610 --> 00:24:01,440
+microscope, they lie on top of
+each other; therefore, it's
+
+384
+00:24:01,440 --> 00:24:02,690
+recombination--
+
+385
+00:24:05,180 --> 00:24:07,310
+There were actually other ideas
+floating around too.
+
+386
+00:24:07,310 --> 00:24:11,580
+Maybe it has something to do
+with developmental biology.
+
+387
+00:24:11,580 --> 00:24:13,820
+It was a puzzle.
+
+388
+00:24:13,820 --> 00:24:18,370
+When you have a really deep
+puzzle, the most important
+
+389
+00:24:18,370 --> 00:24:22,890
+thing in science is to
+find a young person.
+
+390
+00:24:22,890 --> 00:24:25,960
+Because young people come
+without prejudice.
+
+391
+00:24:25,960 --> 00:24:27,580
+They say, let me just
+look at all of this.
+
+392
+00:24:27,580 --> 00:24:28,200
+Stand back.
+
+393
+00:24:28,200 --> 00:24:29,610
+I don't come with
+any prejudice.
+
+394
+00:24:29,610 --> 00:24:32,310
+So at MIT, what is the solution
+when you have a
+
+395
+00:24:32,310 --> 00:24:34,270
+problem like this?
+
+396
+00:24:34,270 --> 00:24:35,460
+A UROP.
+
+397
+00:24:35,460 --> 00:24:37,840
+You want a UROP.
+
+398
+00:24:37,840 --> 00:24:41,405
+So even 1911, that was the
+solution at Columbia.
+
+399
+00:24:44,300 --> 00:24:47,970
+Thomas Hunt Morgan got a UROP.
+
+400
+00:24:47,970 --> 00:24:48,480
+I'm serious.
+
+401
+00:24:48,480 --> 00:24:51,200
+He was called Alfred
+Sturtevant.
+
+402
+00:24:51,200 --> 00:24:55,950
+Alfred Sturtevant was a
+sophomore at Columbia.
+
+403
+00:24:55,950 --> 00:24:58,570
+Everybody else was busy finding
+this recombination
+
+404
+00:24:58,570 --> 00:25:01,482
+data, how often this recombined
+with this, this
+
+405
+00:25:01,482 --> 00:25:02,780
+with this, this with this.
+
+406
+00:25:02,780 --> 00:25:04,400
+Sturtevant--
+
+407
+00:25:04,400 --> 00:25:05,680
+he's a sophomore--
+
+408
+00:25:05,680 --> 00:25:09,050
+he says, god, this stuff's
+interesting!
+
+409
+00:25:09,050 --> 00:25:11,690
+Professor Morgan, could I
+have all the data and
+
+410
+00:25:11,690 --> 00:25:13,800
+try to look at it?
+
+411
+00:25:13,800 --> 00:25:17,760
+Sturtevant took it home
+and actually pulled an
+
+412
+00:25:17,760 --> 00:25:20,810
+all-nighter, blew off
+his homework--
+
+413
+00:25:20,810 --> 00:25:22,920
+it actually says so in
+his autobiography.
+
+414
+00:25:22,920 --> 00:25:25,660
+He says, I blew off my homework
+and pulled an
+
+415
+00:25:25,660 --> 00:25:27,370
+all-nighter--
+
+416
+00:25:27,370 --> 00:25:30,140
+essentially in those words, he
+says. "To the detriment of my
+
+417
+00:25:30,140 --> 00:25:33,140
+undergraduate homework"
+is the way he puts it.
+
+418
+00:25:33,140 --> 00:25:42,310
+But in any case, genetic maps
+and Sturtevant's all-nighter.
+
+419
+00:25:45,730 --> 00:25:47,970
+What Sturtevant did
+was the following.
+
+420
+00:25:47,970 --> 00:25:54,300
+He said, how are we going to
+prove the chromosome theory?
+
+421
+00:25:54,300 --> 00:25:57,850
+I like this idea that
+recombination is about
+
+422
+00:25:57,850 --> 00:25:59,950
+distance on the chromosomes.
+
+423
+00:25:59,950 --> 00:26:04,960
+I like the concept that
+maybe 17% is how often
+
+424
+00:26:04,960 --> 00:26:07,800
+these things recombine.
+
+425
+00:26:07,800 --> 00:26:10,770
+Why would things only recombine
+1% of the time?
+
+426
+00:26:10,770 --> 00:26:12,020
+What would that mean?
+
+427
+00:26:14,092 --> 00:26:16,400
+They've got to be pretty close
+together so that a crossover
+
+428
+00:26:16,400 --> 00:26:19,130
+between them happens
+not so often.
+
+429
+00:26:19,130 --> 00:26:22,660
+And what if things
+were far apart?
+
+430
+00:26:22,660 --> 00:26:23,920
+Well, it could be more likely.
+
+431
+00:26:23,920 --> 00:26:26,310
+So he likes the idea
+that recombination
+
+432
+00:26:26,310 --> 00:26:29,175
+frequency means distance.
+
+433
+00:26:29,175 --> 00:26:31,230
+But how are you going
+to prove that?
+
+434
+00:26:31,230 --> 00:26:33,290
+It could mean a zillion
+other things.
+
+435
+00:26:33,290 --> 00:26:35,090
+It could mean biochemical
+pathways,
+
+436
+00:26:35,090 --> 00:26:36,930
+developmental biology.
+
+437
+00:26:36,930 --> 00:26:39,610
+How are you going to prove that
+recombination frequency
+
+438
+00:26:39,610 --> 00:26:41,810
+means distance?
+
+439
+00:26:41,810 --> 00:26:43,500
+You've got to make predictions,
+right?
+
+440
+00:26:43,500 --> 00:26:46,680
+The only to do it would be
+to make predictions.
+
+441
+00:26:46,680 --> 00:26:51,960
+So Sturtevant takes the data,
+and he starts making
+
+442
+00:26:51,960 --> 00:26:53,210
+predictions.
+
+443
+00:26:58,982 --> 00:27:04,150
+I think, says Sturtevant,
+these things are alleles
+
+444
+00:27:04,150 --> 00:27:09,020
+living at genes with locations
+on the chromosome--
+
+445
+00:27:09,020 --> 00:27:11,480
+black, vestigial.
+
+446
+00:27:14,590 --> 00:27:18,300
+How often do black
+and vestigial
+
+447
+00:27:18,300 --> 00:27:19,350
+recombine with each other?
+
+448
+00:27:19,350 --> 00:27:20,940
+What is the frequency
+of recombinant
+
+449
+00:27:20,940 --> 00:27:23,050
+non-parental types?
+
+450
+00:27:23,050 --> 00:27:26,360
+17%.
+
+451
+00:27:26,360 --> 00:27:30,860
+So Sturtevant goes through the
+data and he says, what about
+
+452
+00:27:30,860 --> 00:27:33,265
+other crosses people
+did in the lab?
+
+453
+00:27:33,265 --> 00:27:36,770
+Well, it turns out people did
+crosses with another mutant
+
+454
+00:27:36,770 --> 00:27:41,730
+that produces a funny eye color
+called cinnabar, Cn.
+
+455
+00:27:41,730 --> 00:27:44,020
+So cinnabar.
+
+456
+00:27:47,470 --> 00:27:55,010
+It turns out that the
+recombination frequency
+
+457
+00:27:55,010 --> 00:28:07,310
+between cinnabar to
+vestigial was 8%.
+
+458
+00:28:07,310 --> 00:28:12,620
+Vestigial, cinnabar,
+8% recombination.
+
+459
+00:28:12,620 --> 00:28:14,640
+If this chromosome business
+is right, where
+
+460
+00:28:14,640 --> 00:28:15,890
+should I put cinnabar?
+
+461
+00:28:18,140 --> 00:28:19,160
+Sorry?
+
+462
+00:28:19,160 --> 00:28:21,084
+Where do you want it?
+
+463
+00:28:21,084 --> 00:28:21,900
+STUDENT: [INAUDIBLE].
+
+464
+00:28:21,900 --> 00:28:22,920
+ERIC LANDER: Somewhere
+in between.
+
+465
+00:28:22,920 --> 00:28:26,570
+You'd like me to
+put that there.
+
+466
+00:28:26,570 --> 00:28:27,920
+STUDENT: On the other side.
+
+467
+00:28:27,920 --> 00:28:28,420
+ERIC LANDER: Oh, OK.
+
+468
+00:28:28,420 --> 00:28:28,940
+Wait a second.
+
+469
+00:28:28,940 --> 00:28:31,361
+On the other side.
+
+470
+00:28:31,361 --> 00:28:32,430
+OK, which is it?
+
+471
+00:28:32,430 --> 00:28:34,765
+How many vote for the left?
+
+472
+00:28:34,765 --> 00:28:37,080
+How many vote for the right?
+
+473
+00:28:37,080 --> 00:28:40,510
+How many conscientious
+abstainers are there?
+
+474
+00:28:40,510 --> 00:28:41,930
+Do we know?
+
+475
+00:28:41,930 --> 00:28:42,850
+STUDENT: No.
+
+476
+00:28:42,850 --> 00:28:43,180
+ERIC LANDER: No.
+
+477
+00:28:43,180 --> 00:28:44,880
+There are two possibilities.
+
+478
+00:28:44,880 --> 00:28:52,160
+It could be 8% this way, or
+it could be 8% that way.
+
+479
+00:28:52,160 --> 00:28:53,410
+How are we going to know?
+
+480
+00:28:53,410 --> 00:28:55,223
+Yes?
+
+481
+00:28:55,223 --> 00:28:57,150
+STUDENT: [INAUDIBLE].
+
+482
+00:28:57,150 --> 00:28:57,990
+ERIC LANDER: Black.
+
+483
+00:28:57,990 --> 00:29:02,750
+What if we knew the answer
+between cinnabar and black?
+
+484
+00:29:02,750 --> 00:29:04,340
+That would constrain
+the problem.
+
+485
+00:29:04,340 --> 00:29:06,040
+Can you give me two predictions
+for what the
+
+486
+00:29:06,040 --> 00:29:07,282
+answer might be?
+
+487
+00:29:07,282 --> 00:29:08,520
+STUDENT: Either 9% or--
+
+488
+00:29:08,520 --> 00:29:12,310
+ERIC LANDER: Either 9% or 25%.
+
+489
+00:29:12,310 --> 00:29:13,430
+So now we have a prediction.
+
+490
+00:29:13,430 --> 00:29:15,570
+We don't know where
+cinnabar is.
+
+491
+00:29:15,570 --> 00:29:20,580
+But the answer could be that
+black to vestigial should
+
+492
+00:29:20,580 --> 00:29:23,990
+either be about 9%--
+
+493
+00:29:23,990 --> 00:29:25,660
+that's what that
+would be here--
+
+494
+00:29:25,660 --> 00:29:32,140
+or about 25%.
+
+495
+00:29:32,140 --> 00:29:33,390
+The answer?
+
+496
+00:29:36,020 --> 00:29:37,270
+About 9%.
+
+497
+00:29:40,860 --> 00:29:42,430
+That's what Sturtevant found.
+
+498
+00:29:46,550 --> 00:29:49,900
+That's a prediction
+and kind of cool.
+
+499
+00:29:49,900 --> 00:29:53,230
+And you can imagine taking the
+data home and it's probably 9
+
+500
+00:29:53,230 --> 00:29:55,780
+o'clock, and you've
+now realized, wow,
+
+501
+00:29:55,780 --> 00:29:58,320
+freaky, it's 9%.
+
+502
+00:29:58,320 --> 00:30:04,430
+So then he looked at the
+mutation "lobe." Lobe was
+
+503
+00:30:04,430 --> 00:30:06,440
+another mutation.
+
+504
+00:30:06,440 --> 00:30:12,530
+The lobe mutation showed 5%
+recombination from vestigial.
+
+505
+00:30:15,950 --> 00:30:17,200
+Where should we put it?
+
+506
+00:30:20,190 --> 00:30:24,230
+Left or right, well, let's
+make some predictions.
+
+507
+00:30:27,810 --> 00:30:31,220
+Suppose it's over here.
+
+508
+00:30:31,220 --> 00:30:34,360
+Will it be very close
+to cinnabar?
+
+509
+00:30:34,360 --> 00:30:37,025
+Will it be closer to black?
+
+510
+00:30:37,025 --> 00:30:39,990
+But what if it was over here?
+
+511
+00:30:39,990 --> 00:30:41,890
+Well, it would be further.
+
+512
+00:30:41,890 --> 00:30:45,940
+So let's put lobe in.
+
+513
+00:30:45,940 --> 00:30:50,960
+And suppose we know
+that lob is 5%.
+
+514
+00:30:50,960 --> 00:30:54,665
+Then what's the prediction
+for black to lobe?
+
+515
+00:30:58,890 --> 00:31:01,660
+22%.
+
+516
+00:31:01,660 --> 00:31:09,090
+Answer, according to the
+notebooks, 21%, pretty close.
+
+517
+00:31:09,090 --> 00:31:10,550
+You'd like it to
+be exactly 22.
+
+518
+00:31:10,550 --> 00:31:12,020
+But life doesn't always
+turn out that way.
+
+519
+00:31:12,020 --> 00:31:15,760
+21's pretty close to 22.
+
+520
+00:31:15,760 --> 00:31:17,150
+What other predictions
+could we make?
+
+521
+00:31:17,150 --> 00:31:19,540
+If this is cinnabar here, could
+you give me a prediction
+
+522
+00:31:19,540 --> 00:31:23,620
+for cinnabar to lobe?
+
+523
+00:31:23,620 --> 00:31:25,450
+13%.
+
+524
+00:31:25,450 --> 00:31:27,540
+Yep, that works.
+
+525
+00:31:27,540 --> 00:31:28,790
+Curved wing.
+
+526
+00:31:33,470 --> 00:31:38,640
+Recombination distance
+from lobed, 3%.
+
+527
+00:31:38,640 --> 00:31:39,950
+So now you have some
+predictions.
+
+528
+00:31:39,950 --> 00:31:41,460
+You have this prediction here.
+
+529
+00:31:41,460 --> 00:31:43,180
+You predict 8%.
+
+530
+00:31:43,180 --> 00:31:45,250
+Answer, about 8%.
+
+531
+00:31:45,250 --> 00:31:50,660
+Over here you predict 16%.
+
+532
+00:31:50,660 --> 00:31:53,730
+Answer, about 16%.
+
+533
+00:31:53,730 --> 00:31:56,100
+Bingo.
+
+534
+00:31:56,100 --> 00:32:00,960
+Sturtivant says, if
+these genes--
+
+535
+00:32:00,960 --> 00:32:02,670
+we call them loci, often.
+
+536
+00:32:02,670 --> 00:32:05,610
+I'll use the word locus
+synonymous with gene.
+
+537
+00:32:05,610 --> 00:32:07,370
+Locus means a place.
+
+538
+00:32:07,370 --> 00:32:09,820
+And geneticists think about
+genes as a place on a
+
+539
+00:32:09,820 --> 00:32:10,540
+chromosome.
+
+540
+00:32:10,540 --> 00:32:12,320
+If these loci--
+
+541
+00:32:12,320 --> 00:32:16,570
+the plural of locus-- if these
+loci were really arrayed along
+
+542
+00:32:16,570 --> 00:32:21,760
+a linear structure, then it
+would have to be the case that
+
+543
+00:32:21,760 --> 00:32:23,380
+they would have certain
+additive
+
+544
+00:32:23,380 --> 00:32:25,750
+relationships between them.
+
+545
+00:32:25,750 --> 00:32:27,810
+And the chance that they would
+have these additive
+
+546
+00:32:27,810 --> 00:32:31,900
+relationships if they weren't
+part of a line is pretty
+
+547
+00:32:31,900 --> 00:32:33,820
+implausible.
+
+548
+00:32:33,820 --> 00:32:39,130
+That's a real prediction, a very
+remarkable prediction.
+
+549
+00:32:39,130 --> 00:32:41,420
+And it holds up with the data.
+
+550
+00:32:41,420 --> 00:32:43,260
+Sturtivant pulls the
+all-nighter.
+
+551
+00:32:43,260 --> 00:32:46,090
+By the time the sun comes up at
+Columbia University-- this
+
+552
+00:32:46,090 --> 00:32:47,700
+is Morningside Heights--
+
+553
+00:32:47,700 --> 00:32:50,360
+he's got the whole
+thing worked out.
+
+554
+00:32:50,360 --> 00:32:53,340
+Yes, this chromosome theory
+must be right.
+
+555
+00:32:53,340 --> 00:32:57,520
+It fits beautifully
+all of these data.
+
+556
+00:32:57,520 --> 00:32:59,760
+Pretty cool.
+
+557
+00:32:59,760 --> 00:33:04,220
+You are all authorized to blow
+off your homework anytime you
+
+558
+00:33:04,220 --> 00:33:07,032
+make a discovery like that.
+
+559
+00:33:07,032 --> 00:33:08,740
+[LAUGHTER]
+
+560
+00:33:08,740 --> 00:33:10,030
+That's a course rule.
+
+561
+00:33:10,030 --> 00:33:13,230
+Any homework will
+be forgiven for
+
+562
+00:33:13,230 --> 00:33:17,080
+discoveries of that magnitude.
+
+563
+00:33:17,080 --> 00:33:19,810
+All right.
+
+564
+00:33:19,810 --> 00:33:21,060
+Tell your TAs.
+
+565
+00:33:23,500 --> 00:33:25,770
+So now, what does it
+really tell us?
+
+566
+00:33:25,770 --> 00:33:30,565
+It tells us that if genes are
+very close together, the
+
+567
+00:33:30,565 --> 00:33:35,730
+recombination frequency, R
+recombination frequency, or
+
+568
+00:33:35,730 --> 00:33:38,260
+RF, might be very little.
+
+569
+00:33:38,260 --> 00:33:40,660
+They could be as low as almost
+zero, which means you never
+
+570
+00:33:40,660 --> 00:33:42,760
+see a recombinant because
+they're right
+
+571
+00:33:42,760 --> 00:33:44,130
+next to each other.
+
+572
+00:33:44,130 --> 00:33:47,800
+Or it could be that they're
+further apart.
+
+573
+00:33:47,800 --> 00:33:48,990
+It might be 1%.
+
+574
+00:33:48,990 --> 00:33:50,950
+It might be 10%.
+
+575
+00:33:50,950 --> 00:33:52,100
+It could keep growing.
+
+576
+00:33:52,100 --> 00:33:55,250
+It might be 30%.
+
+577
+00:33:55,250 --> 00:34:00,100
+Suppose it's way, way, way,
+way, way far away.
+
+578
+00:34:00,100 --> 00:34:02,360
+What's the largest it
+ever gets to be?
+
+579
+00:34:06,150 --> 00:34:08,020
+Well, if they were on different
+chromosomes--
+
+580
+00:34:08,020 --> 00:34:10,310
+suppose there were totally
+independent segregation,
+
+581
+00:34:10,310 --> 00:34:11,889
+different chromosomes--
+
+582
+00:34:11,889 --> 00:34:14,790
+what would they be?
+
+583
+00:34:14,790 --> 00:34:15,238
+STUDENT: [INAUDIBLE]
+
+584
+00:34:15,238 --> 00:34:17,982
+ERIC LANDER: No, it's 50%
+because remember, one to one
+
+585
+00:34:17,982 --> 00:34:19,969
+to one to one says that
+the recombinant--
+
+586
+00:34:19,969 --> 00:34:21,090
+well, actually, this is an
+interesting question.
+
+587
+00:34:21,090 --> 00:34:22,000
+Let's come to that 100.
+
+588
+00:34:22,000 --> 00:34:25,300
+On different chromosomes, one
+to one to one to one means
+
+589
+00:34:25,300 --> 00:34:28,489
+that it's 50%, half of them
+are recombinant types.
+
+590
+00:34:28,489 --> 00:34:31,469
+It turns out on the same
+chromosome, as you get farther
+
+591
+00:34:31,469 --> 00:34:33,730
+and farther and farther, you
+might say there's going to be
+
+592
+00:34:33,730 --> 00:34:37,290
+100% chance of a crossover.
+
+593
+00:34:37,290 --> 00:34:39,110
+And you might say the
+recombination frequency could
+
+594
+00:34:39,110 --> 00:34:42,010
+keep growing past 50%.
+
+595
+00:34:42,010 --> 00:34:43,380
+It turns out it doesn't.
+
+596
+00:34:43,380 --> 00:34:49,150
+The reason is that multiple
+crossovers can happen.
+
+597
+00:34:49,150 --> 00:34:53,060
+So mathematical interjection
+here, if here's my gene and
+
+598
+00:34:53,060 --> 00:34:58,760
+here's my gene, there could
+be one crossover.
+
+599
+00:34:58,760 --> 00:35:01,400
+There could be two crossovers.
+
+600
+00:35:01,400 --> 00:35:05,110
+There could be three
+crossovers.
+
+601
+00:35:05,110 --> 00:35:09,620
+And so in fact, it turns out, as
+you get very far away, you
+
+602
+00:35:09,620 --> 00:35:12,390
+have to start paying attention
+to the probabilities of double
+
+603
+00:35:12,390 --> 00:35:15,680
+crossovers and triple
+crossovers.
+
+604
+00:35:15,680 --> 00:35:18,560
+And so it turns out that it's
+a Poisson process of the
+
+605
+00:35:18,560 --> 00:35:21,240
+number of crossovers that
+occurs, give or take.
+
+606
+00:35:21,240 --> 00:35:25,490
+And you see a recombination
+if there's an odd number.
+
+607
+00:35:25,490 --> 00:35:28,470
+And for that reason, it
+never gets above 50%.
+
+608
+00:35:28,470 --> 00:35:30,680
+So as the distance gets further
+and further and
+
+609
+00:35:30,680 --> 00:35:33,740
+further, it goes from zero to
+50, which is the same number
+
+610
+00:35:33,740 --> 00:35:35,760
+you get for separate
+chromosomes.
+
+611
+00:35:35,760 --> 00:35:37,620
+Otherwise, you might think that
+if there was just one
+
+612
+00:35:37,620 --> 00:35:40,540
+crossover, it gets to 100%
+probability of recombination.
+
+613
+00:35:40,540 --> 00:35:42,360
+But it never does, because
+there are doubles.
+
+614
+00:35:42,360 --> 00:35:44,960
+And you can actually observe,
+if you make a cross that has
+
+615
+00:35:44,960 --> 00:35:47,560
+three different genes
+segregating in it, you can
+
+616
+00:35:47,560 --> 00:35:51,380
+actually see the double
+crossover type.
+
+617
+00:35:51,380 --> 00:35:55,400
+So you can see very nicely
+that if you make a cross
+
+618
+00:35:55,400 --> 00:36:03,650
+involving black, cinnabar, and
+vestigial over plus, plus,
+
+619
+00:36:03,650 --> 00:36:06,710
+plus, you can see that cinnabar
+is right in the
+
+620
+00:36:06,710 --> 00:36:10,870
+middle because this
+recombination happens at a
+
+621
+00:36:10,870 --> 00:36:12,930
+pretty good frequency.
+
+622
+00:36:12,930 --> 00:36:17,430
+This recombination happens at
+a good frequency, giving you
+
+623
+00:36:17,430 --> 00:36:21,860
+plus, cinnabar, vestigial
+or black, plus, plus.
+
+624
+00:36:21,860 --> 00:36:26,060
+Sometimes you will get
+that recombination.
+
+625
+00:36:26,060 --> 00:36:30,320
+You'll get out gametes that are
+black, plus, vestigial,
+
+626
+00:36:30,320 --> 00:36:33,280
+but at a much lower frequency
+because they take two
+
+627
+00:36:33,280 --> 00:36:34,230
+crossovers.
+
+628
+00:36:34,230 --> 00:36:36,490
+What will be the probability
+of seeing a
+
+629
+00:36:36,490 --> 00:36:38,600
+black, cinnabar, vestigial?
+
+630
+00:36:38,600 --> 00:36:42,940
+Well, we said that this
+one was about 9%, this
+
+631
+00:36:42,940 --> 00:36:45,040
+one was about 8%.
+
+632
+00:36:45,040 --> 00:36:48,980
+What's the product of a 9%
+chance and an 8% chance?
+
+633
+00:36:48,980 --> 00:36:52,000
+It's about a 1% chance, a little
+less than a 1% chance.
+
+634
+00:36:52,000 --> 00:36:55,520
+That how frequently you see
+black, plus, vestigial.
+
+635
+00:36:55,520 --> 00:36:58,170
+You can even predict the
+probability of a double
+
+636
+00:36:58,170 --> 00:37:01,160
+crossover event by multiplying
+the two events
+
+637
+00:37:01,160 --> 00:37:02,660
+that have to happen.
+
+638
+00:37:02,660 --> 00:37:05,940
+So your bottom-line rules here
+is that because of these
+
+639
+00:37:05,940 --> 00:37:09,410
+double crossovers our
+recombination frequency can go
+
+640
+00:37:09,410 --> 00:37:15,640
+from zero to about 50%.
+
+641
+00:37:15,640 --> 00:37:19,910
+This is independent
+assortment.
+
+642
+00:37:19,910 --> 00:37:25,650
+And it either occurs if you're
+on different chromosomes or,
+
+643
+00:37:25,650 --> 00:37:29,015
+if you're very far away on the
+same chromosome, they behave
+
+644
+00:37:29,015 --> 00:37:31,260
+as if they're independent
+of each other.
+
+645
+00:37:31,260 --> 00:37:33,570
+Any questions about
+any of that?
+
+646
+00:37:33,570 --> 00:37:34,563
+Yes?
+
+647
+00:37:34,563 --> 00:37:36,535
+STUDENT: Why didn't Mendel
+ever see recombination?
+
+648
+00:37:36,535 --> 00:37:38,470
+ERIC LANDER: Why didn't Mendel
+ever see recombination?
+
+649
+00:37:38,470 --> 00:37:40,710
+It turns out that with seven
+chromosomes, and they're
+
+650
+00:37:40,710 --> 00:37:44,380
+biggish in length, he never
+actually ran into two loci
+
+651
+00:37:44,380 --> 00:37:47,150
+that were close enough,
+to notice it.
+
+652
+00:37:47,150 --> 00:37:48,170
+That's why.
+
+653
+00:37:48,170 --> 00:37:52,320
+Flies actually only have three
+major chromosomes.
+
+654
+00:37:52,320 --> 00:37:55,440
+There's a fourth, but it's
+a puny little thing.
+
+655
+00:37:55,440 --> 00:37:58,440
+And because they were much more
+intensively collecting
+
+656
+00:37:58,440 --> 00:38:01,810
+mutations in Morgan's fly room,
+they began having a lot
+
+657
+00:38:01,810 --> 00:38:03,110
+of them, and they
+had to bump into
+
+658
+00:38:03,110 --> 00:38:05,960
+recombination pretty early.
+
+659
+00:38:05,960 --> 00:38:08,670
+Mendel simply didn't have enough
+that were close enough.
+
+660
+00:38:08,670 --> 00:38:10,770
+Think about what would have
+happened if just by chance,
+
+661
+00:38:10,770 --> 00:38:14,790
+somebody were selling a strain
+of peas in the market which
+
+662
+00:38:14,790 --> 00:38:19,310
+had a mutation in a locus that
+had 10% recombination
+
+663
+00:38:19,310 --> 00:38:22,200
+distance, and it screwed up
+Mendel's law of independent
+
+664
+00:38:22,200 --> 00:38:24,560
+assortment of two loci?
+
+665
+00:38:24,560 --> 00:38:26,720
+Mendel might not have
+published the paper.
+
+666
+00:38:26,720 --> 00:38:30,450
+Sometimes in science it's
+actually valuable to first get
+
+667
+00:38:30,450 --> 00:38:34,520
+the oversimplification out ,
+like his second law, and then
+
+668
+00:38:34,520 --> 00:38:36,650
+deal with the complexity
+that sits on top of the
+
+669
+00:38:36,650 --> 00:38:38,030
+oversimplification.
+
+670
+00:38:38,030 --> 00:38:40,810
+It's kind of lucky that Mendel
+didn't have enough of them to
+
+671
+00:38:40,810 --> 00:38:43,620
+be bothered, in the
+first paper.
+
+672
+00:38:43,620 --> 00:38:45,680
+So in fact, all of Mendel's
+seven loci
+
+673
+00:38:45,680 --> 00:38:46,440
+have now been mapped.
+
+674
+00:38:46,440 --> 00:38:48,120
+Most have been cloned
+molecularly.
+
+675
+00:38:48,120 --> 00:38:50,470
+And so we actually know where
+they are, et cetera.
+
+676
+00:38:50,470 --> 00:38:51,790
+It's a really good question.
+
+677
+00:38:51,790 --> 00:38:53,240
+That's sort of why he didn't.

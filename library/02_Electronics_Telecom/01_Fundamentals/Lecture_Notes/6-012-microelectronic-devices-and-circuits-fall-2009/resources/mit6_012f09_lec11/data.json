@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture presentation on a complete GC/DA model for iDS, saturation, channel length modulation, output characteristics, and regions of operation.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture presentation on a complete GC/DA model for iDS, saturation, channel length modulation, output characteristics, and regions of operation.",
+  "draft": false,
+  "file": "/courses/6-012-microelectronic-devices-and-circuits-fall-2009/33eea31f564b67fc47cd9c2796500669_MIT6_012F09_lec11.pdf",
+  "file_size": 718598,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "e4c7985c-766a-2f9c-5bac-08869dd8bade",
+  "resourcetype": "Document",
+  "title": "Lecture 11 - MOSFETs II; Large Signal Models",
+  "uid": "33eea31f-564b-67fc-47cd-9c2796500669"
+}

@@ -1,0 +1,38 @@
+{
+  "content": "<p>This resource contains information on topics equivalent circuit, falling delay and thevenin replacement.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information on topics equivalent circuit, falling delay and thevenin replacement.",
+  "draft": false,
+  "file": "/courses/6-002-circuits-and-electronics-spring-2007/93f7f25de3c5baf4c514b8add531fa3f_6002_l13.pdf",
+  "file_size": 191203,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Video Lectures",
+  "parent_type": "CourseSection",
+  "parent_uid": "9b4a2ba7-a556-b234-8b0c-3f1bdd4fa8ab",
+  "resourcetype": "Document",
+  "title": "Lecture 13: Digital circuit speed",
+  "uid": "93f7f25d-e3c5-baf4-c514-b8add531fa3f",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

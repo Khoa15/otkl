@@ -1,0 +1,55 @@
+{
+  "audience": [],
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "3847695",
+  "file_type": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Videos",
+    "Instructor Insights"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Instructor Insights",
+  "parent_type": "ThisCourseAtMITSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Meet the Instructor",
+  "uid": "eb7f75d3-0bac-7279-00f2-5203e64b00d4",
+  "video_files": {
+    "archive_url": "https://archive.org/download/MIT16.842F15/MIT16_842F15_educator_01_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/da0eb23bfe00508abe8380b330c2c144_MOdNzHR_tck.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/MOdNzHR_tck/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/a1dcd55417ee68460f5fdcfc53575745_MOdNzHR_tck.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "16-842-fundamentals-of-systems-engineering-fall-2015, aerospace engineering, aerospace vehicles, alps, olivier de weck, stars, switzerland",
+    "youtube_id": "MOdNzHR_tck"
+  }
+}

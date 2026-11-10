@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Description:</strong> In this lecture, the professor talked about Feynman-Hellman lemma, addition of angular momentum, spin-orbit coupling, etc.</p>\n<p><strong>Instructor:</strong> Barton Zwiebach</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "209065342",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "Lecture Notes",
+  "optional_text": "This lecture note covers Lectures 24, 25, and 26.\n\n[Addition of Angular Momentum (PDF)](/courses/8-05-quantum-physics-ii-fall-2013/resources/mit8_05f13_chap_10)",
+  "parent_title": "Video Lectures",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Lecture 24: Addition of Angular Momentum",
+  "uid": "59fdb3d9-f275-fafa-8e36-f1b6ce060d2c",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT8.05F13/MIT8_05F13_lec24_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/8-05-quantum-physics-ii-fall-2013/886ea874c132527a84502586dfaa2c56_ZTNip78TUvA.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/ZTNip78TUvA/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/8-05-quantum-physics-ii-fall-2013/e1c76bdee24c0e2b6254ca940afc939d_ZTNip78TUvA.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "8-05-quantum-physics-ii-fall-2013, addition of angular momentum, feynman-hellman lemma, normalized energy eigenstate, perturbations of the hamiltonian, spin-orbit coupling, vector spaces",
+    "youtube_id": "ZTNip78TUvA"
+  }
+}

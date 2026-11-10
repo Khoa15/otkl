@@ -1,0 +1,27 @@
+{
+  "content": "<p>Handwritten lecture notes on input and output ripple and electromagnetic interference filtering.</p>\n",
+  "content_type": "resource",
+  "description": "Handwritten lecture notes on input and output ripple and electromagnetic interference filtering.",
+  "draft": false,
+  "file": "/courses/6-334-power-electronics-spring-2007/277f605bca97c4b48ae7d777aca88435_ch14.pdf",
+  "file_size": 903776,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "bac52feb-fdf3-e0d1-4e31-ee4c7c5e3445",
+  "resourcetype": "Document",
+  "title": "ch14.pdf",
+  "uid": "277f605b-ca97-c4b4-8ae7-d777aca88435",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

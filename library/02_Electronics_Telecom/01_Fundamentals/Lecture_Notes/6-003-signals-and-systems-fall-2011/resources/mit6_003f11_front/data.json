@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource contains the first page of the book discrete-time signals and systems along with the index.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains the first page of the book discrete-time signals and systems along with the index.",
+  "draft": false,
+  "file": "/courses/6-003-signals-and-systems-fall-2011/e74a9c5238d006ad45fdc4c83acfb479_MIT6_003F11_front.pdf",
+  "file_size": 111128,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Readings"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Readings",
+  "parent_type": "CourseSection",
+  "parent_uid": "998c6675-6fd3-dc4c-dcec-292568f6e2aa",
+  "resourcetype": "Document",
+  "title": "Front matter (table of contents, preface)",
+  "uid": "e74a9c52-38d0-06ad-45fd-c4c83acfb479",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-003-signals-and-systems-fall-2011"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-003-signals-and-systems-fall-2011"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

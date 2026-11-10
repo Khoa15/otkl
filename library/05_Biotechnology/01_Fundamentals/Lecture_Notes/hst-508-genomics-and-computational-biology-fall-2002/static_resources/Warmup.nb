@@ -1,0 +1,715 @@
+(************** Content-type: application/mathematica **************
+                     CreatedBy='Mathematica 4.2'
+
+                    Mathematica-Compatible Notebook
+
+This notebook can be used with any Mathematica-compatible
+application, such as Mathematica, MathReader or Publicon. The data
+for the notebook starts with the line containing stars above.
+
+To get the notebook into a Mathematica-compatible application, do
+one of the following:
+
+* Save the data starting with the line of stars above into a file
+  with a name ending in .nb, then open the file inside the
+  application;
+
+* Copy the data starting with the line of stars above to the
+  clipboard, then use the Paste menu command inside the application.
+
+Data for notebooks contains only printable 7-bit ASCII and can be
+sent directly in email or through ftp in text mode.  Newlines can be
+CR, LF or CRLF (Unix, Macintosh or MS-DOS style).
+
+NOTE: If you modify the data for this notebook not in a Mathematica-
+compatible application, you must delete the line below containing
+the word CacheID, otherwise Mathematica-compatible applications may
+try to use invalid cache data.
+
+For more information on notebooks and Mathematica-compatible 
+applications, contact Wolfram Research:
+  web: http://www.wolfram.com
+  email: info@wolfram.com
+  phone: +1-217-398-0700 (U.S.)
+
+Notebook reader applications are available free of charge from 
+Wolfram Research.
+*******************************************************************)
+
+(*CacheID: 232*)
+
+
+(*NotebookFileLineBreakTest
+NotebookFileLineBreakTest*)
+(*NotebookOptionsPosition[     21135,        594]*)
+(*NotebookOutlinePosition[     21828,        618]*)
+(*  CellTagsIndexPosition[     21784,        614]*)
+(*WindowFrame->Normal*)
+
+
+
+Notebook[{
+Cell[TextData[StyleBox["Biophysics 101, Fall 2002\nProblem Set 1, part 3", \
+"DisplayFormula"]], "Text",
+  TextAlignment->Right,
+  TextJustification->0],
+
+Cell["Warm-up Notebook", "Subtitle",
+  TextAlignment->Center,
+  TextJustification->0],
+
+Cell[TextData[{
+  "This notebook is for beginners that have done the ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " tutorial. Most of it is no harder than a coloring book  It starts with \
+cell manipulation and formatting, and it works its way up to discrete \
+recursive functions that operate on ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " tables and arrays. Many of us are new to ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  ", so ",
+  StyleBox["if you discover anything useful, please include them in your \
+finished notebook.",
+    FontWeight->"Bold",
+    FontColor->RGBColor[0, 0, 1]]
+}], "Text"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["1:  Saving notebooks", "Subsection"]], "Text",
+  TextAlignment->Center,
+  TextJustification->0],
+
+Cell["\<\
+Your first challenge is to save a copy of this notebook, and you get to name \
+it after you.  On the menu bar at the top of the screen its \"File-> Save \
+As.... \". If your name is Jack Flapjack then name it Jack_Flapjack.nb. If \
+your name is not Jack Flapjack then name it after your own name instead. Put \
+your answers in your self-named copy and turn it in to your TF. \
+\>", "Text"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+  StyleBox["2: Inserting and deleting ", "Subsection"],
+  StyleBox["Mathematica", "Subsection",
+    FontSlant->"Italic"],
+  StyleBox[" cells", "Subsection"]
+}], "Text",
+  TextAlignment->Center,
+  TextJustification->0],
+
+Cell["\<\
+If you click in the thin horizontal space between cells, a thin black line \
+appears. Hit the enter key, and voila, a new cell. Insert a cell between the \
+second and third cells in this notebook, and type your name in it. If you are \
+feeling stylish, format your name text with the many options available under \
+the format menu. On the menu, check out \"Format->Show Toolbar\" Though short \
+on features, the formatting toolbar may be worth it's screen real estate. To \
+delete a cell, click to highlight it's blue bracket on the right, and press \
+the delete key. To copy/paste a cell - highlight the blue bracket of the cell \
+you want to copy, <right-click>->copy,then  make the thin horizontal black \
+line appear where you want it to go, and <right-click>->paste.\
+\>", "Text",
+  TextAlignment->Left,
+  TextJustification->0]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+  StyleBox["3: ", "Subsection"],
+  StyleBox["Mathematica", "Subsection",
+    FontSlant->"Italic"],
+  StyleBox[" cell types", "Subsection"]
+}], "Text",
+  TextAlignment->Center,
+  TextJustification->0],
+
+Cell[TextData[{
+  "Notice the subtle differences in the cell bracket shapes. They tell you \
+what type of cell it is. This type, with the double line at the top, means \
+its a non-evaluatable text cell. If you press <shift-enter> while the cursor \
+is in this type of cell, ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " will beep at you.\n",
+  StyleBox["(2 pts) Try it on the cell below. Now to make it evaluatable, \
+highlight the cell bracket, and then its \"Cell->Cell Properties->Cell \
+Evaluatable\"",
+    FontWeight->"Bold",
+    FontColor->RGBColor[0, 0, 1]]
+}], "Text",
+  TextAlignment->Left,
+  TextJustification->0],
+
+Cell[TextData[StyleBox["2+2", "Subsubsection"]], "Text",
+  TextAlignment->Center,
+  TextJustification->0],
+
+Cell["\<\
+The default cell type, for example the one you just typed your name in,  is \
+called \"Input Form\", and its cell bracket has a small triangle at the top. \
+Change the property of the cell containing your name to non-evaluatable, and \
+convert its display type to Text thru the menu via \"Cell->Display \
+As->Text\".\
+\>", "Text",
+  TextAlignment->Left,
+  TextJustification->0],
+
+Cell["\<\
+This is an input type cell in text display mode. If you press <shift-enter> \
+in this cell, you will see what this sentence means to the Mathematica kernel \
+(not much).
+\
+\>", "Input",
+  TextAlignment->Left,
+  TextJustification->0],
+
+Cell[BoxData[
+    FormBox[
+      StyleBox[\(This\ is\ a\ traditional\ form\ cell . \ \ It\ has\ the\ \
+coolest\ bracket\ shape, \ 
+        but\ it' s\ a\ relic\ of\ old\ Mathematica\ versions\ that' 
+          s\ \ still\ \ compatable\ with\ version\ \ \(\(4.2\)\(.\)\)\),
+        "Text"], TraditionalForm]], "Input"]
+}, Open  ]],
+
+Cell[TextData[StyleBox["4: Cell grouping", "Subsection"]], "Text",
+  TextAlignment->Center,
+  TextJustification->0],
+
+Cell["\<\
+Notice how most of these cells are nested, but the two cells in this section \
+are not. To group them, first go on the menu to \"Cell->Cell Grouping\" and \
+make sure \"Manual Grouping\" is checked. Then select both brackets by \
+dragging the mouse along the right margin, and its \"Cell->Cell \
+Grouping->Group Cells\". Double click on the outermost bracket to make the \
+nest expand and collapse.\
+\>", "Text"],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["5: Named lists", "Subsection"]], "Text",
+  TextAlignment->Center,
+  TextJustification->0],
+
+Cell[TextData[{
+  "In the next cell there are some named lists and a name based list \
+operation.  ",
+  StyleBox["(2 pts)",
+    FontWeight->"Bold",
+    FontColor->RGBColor[0, 0, 1]],
+  " ",
+  StyleBox["Evaluate the expressions by placing the cursor to the right of \
+the last line, and <shift-enter>.  To get the total oil consumption for all \
+five years, replace the \"*\" with a \".\" and evaluate again.",
+    FontWeight->"Bold",
+    FontColor->RGBColor[0, 0, 1]]
+}], "Text"],
+
+Cell[BoxData[{
+    \(census\  = \ {7, \ 12, \ 11, \ 17, \ 28}\), "\[IndentingNewLine]", 
+    \(perCapitaOil\  = \ {300, \ 445, \ 425, \ 625, \ 
+        850}\), "\[IndentingNewLine]", 
+    \(census\ *\ perCapitaOil\)}], "Input"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["6: Calculated lists using the Table method", \
+"Subsection"]], "Text",
+  TextAlignment->Center,
+  TextJustification->0],
+
+Cell[TextData[{
+  "The first example creates a length b array of a. ",
+  StyleBox["Evaluate the expression",
+    FontWeight->"Bold",
+    FontColor->RGBColor[0, 0, 1]],
+  "."
+}], "Text",
+  TextAlignment->Left,
+  TextJustification->0],
+
+Cell[BoxData[{
+    \(a = 3\), "\[IndentingNewLine]", 
+    \(b = 4\), "\[IndentingNewLine]", 
+    \(Table[a, \ {b}]\)}], "Input"],
+
+Cell["Evaluate these expressions.", "Text",
+  TextAlignment->Left,
+  TextJustification->0],
+
+Cell[BoxData[{
+    \(Prime[5]\), "\[IndentingNewLine]", 
+    \(Table[Prime[n], \ {n, \ 1, \ 10}]\), "\[IndentingNewLine]", 
+    \(Random[Real, \ {0, 1}]\)}], "Input"],
+
+Cell[TextData[StyleBox["(2 pts) Now insert a cell below this one that creates \
+a list of 20 random numbers. Choose your own range (in the above case the \
+range is between 0 and 1), and your number type choices are (Integer, Real, \
+or Complex).",
+  FontWeight->"Bold",
+  FontColor->RGBColor[0, 0, 1]]], "Text",
+  TextAlignment->Left,
+  TextJustification->0],
+
+Cell["\<\
+Evaluate these different ways to count to ten.\
+\>", "Text",
+  TextAlignment->Left,
+  TextJustification->0],
+
+Cell[BoxData[{
+    \(Table[x, \ {x, \ 10}]\), "\[IndentingNewLine]", 
+    \(Table[x, \ {x, \ 1, \ 10}]\), "\[IndentingNewLine]", 
+    \(Table[x/2, \ {x, 2, 20, 2}]\), "\[IndentingNewLine]", 
+    \(Range[10]\)}], "Input"],
+
+Cell[TextData[StyleBox["(2 pts) Inset a formula in a cell at the bottom of \
+this group that counts backwards from ten.",
+  FontWeight->"Bold",
+  FontColor->RGBColor[0, 0, 1]]], "Text",
+  TextAlignment->Left,
+  TextJustification->0]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox[" 7: List generation using functions with the Array \
+method", "Subsection"]], "Text",
+  TextAlignment->Center,
+  TextJustification->0],
+
+Cell[TextData[{
+  "This example introduces functions and arrays. Notice the underscore (x_) \
+after the variable definition in the function. Arg 1 in the Array \
+specification is the creation method that takes an integer, arg 2 is the \
+array length, arg 3 is the starting point. ",
+  StyleBox["(2 pts)",
+    FontWeight->"Bold",
+    FontColor->RGBColor[0, 0, 1]],
+  " ",
+  StyleBox["Evaluate these expressions. ",
+    FontWeight->"Bold",
+    FontColor->RGBColor[0, 0, 1]]
+}], "Text",
+  TextAlignment->Left,
+  TextJustification->0],
+
+Cell[BoxData[{\(f[x_]\  := \ x^2;\), "\[IndentingNewLine]", \(qT = \ 
+      Array[f, \ 20, \ \(-12\)]\), "\[IndentingNewLine]", 
+  "qT", "\[IndentingNewLine]", \(ListPlot[qT];\), "\[IndentingNewLine]", 
+    RowBox[{"ListPlot", "[", 
+      RowBox[{"qT", ",", " ", 
+        RowBox[{
+          StyleBox["PlotJoined",
+            "MR"], " ", "\[Rule]", " ", 
+          StyleBox["True",
+            "MR"]}]}], "]"}]}], "Input"],
+
+Cell[TextData[{
+  StyleBox["Note 1) ",
+    FontWeight->"Bold",
+    FontColor->RGBColor[0.682353, 0.32549, 0.317647]],
+  StyleBox["Notice how the arrays are printed out when you evaluate the cell. \
+This can be annoying when you want to look at a complicated graph but don't \
+want to see all of it's underlying points printed out. Put a \";\" at the end \
+of the expressions that you don't want to display the results of.\n\nNote 2) \
+It's considered good ",
+    FontWeight->"Bold",
+    FontColor->RGBColor[0.682353, 0.32549, 0.317647],
+    FontVariations->{"CompatibilityType"->0}],
+  StyleBox["Mathematica",
+    FontWeight->"Bold",
+    FontSlant->"Italic",
+    FontColor->RGBColor[0.682353, 0.32549, 0.317647],
+    FontVariations->{"CompatibilityType"->0}],
+  StyleBox[" practice to begin your custom variable names with a lower case \
+letter, which will prevent name collisions with the ",
+    FontWeight->"Bold",
+    FontColor->RGBColor[0.682353, 0.32549, 0.317647],
+    FontVariations->{"CompatibilityType"->0}],
+  StyleBox["Mathematicas ",
+    FontWeight->"Bold",
+    FontSlant->"Italic",
+    FontColor->RGBColor[0.682353, 0.32549, 0.317647],
+    FontVariations->{"CompatibilityType"->0}],
+  StyleBox["names, all of which begin with uppercase letters.\n\nNote 3) \
+Don't forget to put the colon in front of the equals sign \":=\" when you \
+define a function. This can be very frustrating, because leaving it off won't \
+cause an error. So if your function is giving you unexpected results, don't \
+forget to re-read this note!",
+    FontWeight->"Bold",
+    FontColor->RGBColor[0.682353, 0.32549, 0.317647],
+    FontVariations->{"CompatibilityType"->0}]
+}], "Text",
+  TextAlignment->Left,
+  TextJustification->0]
+}, Open  ]],
+
+Cell[TextData[StyleBox["8: Using lists to graph a built in function", \
+"Subsection"]], "Text",
+  TextAlignment->Center,
+  TextJustification->0],
+
+Cell[CellGroupData[{
+
+Cell[TextData[{
+  "You can compose your own custom functions with ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " built in functions. Remember N from the tutorial? -",
+  StyleBox[" evaluate these expressions.",
+    FontWeight->"Bold",
+    FontColor->RGBColor[0, 0, 1]]
+}], "Text",
+  TextAlignment->Left,
+  TextJustification->0],
+
+Cell[BoxData[{
+    \(\(k\  = \ 3;\)\), "\[IndentingNewLine]", 
+    \(\(f[x_]\  = k*Tanh[x];\)\), "\[IndentingNewLine]", 
+    \(\(f[3];\)\), "\[IndentingNewLine]", 
+    \(N[f[3]]\)}], "Input"],
+
+Cell[TextData[StyleBox["(2 pts) Make a plot of Tanh[x], with the y values \
+between -0.9 and 0.9. Bonus: Make it exactly between -0.9 and 0.9 (hint: look \
+in Help->Master Index->Built-in Functions->Mathematical Functions).",
+  FontWeight->"Bold",
+  FontColor->RGBColor[0, 0, 1]]], "Text",
+  TextAlignment->Left,
+  TextJustification->0]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["9: The Table method", "Subsection"]], "Text",
+  TextAlignment->Center,
+  TextJustification->0],
+
+Cell[TextData[{
+  "Similar to the Array method, these two have a lot of overlapping \
+functionality. ",
+  StyleBox["Evaluate ",
+    FontWeight->"Bold",
+    FontColor->RGBColor[0, 0, 1]],
+  "and notice we didn't have to redefine f, because this variable has \
+notebook level scope. ",
+  StyleBox["(2 pts)",
+    FontWeight->"Bold",
+    FontColor->RGBColor[0, 0, 1]],
+  " ",
+  StyleBox["Create a second list populated with decimal approximations of f.",
+    
+    FontWeight->"Bold",
+    FontColor->RGBColor[0, 0, 1]]
+}], "Text",
+  TextAlignment->Left,
+  TextJustification->0],
+
+Cell[BoxData[{
+    \(\(myTableGeneratedList\  = 
+        Table[f[x], \ {x, 2, 20, 2}];\)\), "\[IndentingNewLine]", 
+    \(myTableGeneratedList\)}], "Input"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["10: Recursive functions", "Subsection"]], "Text",
+  TextAlignment->Center,
+  TextJustification->0],
+
+Cell[TextData[{
+  "Recursive functions take whole numbers as inputs,  while their output \
+variables can be as simple as true/false, whole numbers, or as complicated as \
+you can imagine. A recursive function, rF, is made out of a regular function, \
+f, and a seed value, s. s is usually the same type of thing as the output of \
+f. \nrF(0) = s\nrF(1) = f(s)\nrF(2) = f(f(s)), or generally speaking, rF(n) = \
+f(rF(n-1)).\n",
+  StyleBox["(2 pts)",
+    FontWeight->"Bold",
+    FontColor->RGBColor[0, 0, 1]],
+  " ",
+  StyleBox["In the cell below is the definition of a ",
+    FontWeight->"Bold",
+    FontColor->RGBColor[0, 0, 1]],
+  StyleBox["Mathematica",
+    FontWeight->"Bold",
+    FontSlant->"Italic",
+    FontColor->RGBColor[0, 0, 1]],
+  StyleBox[" function that doubles at every step. Insert some expressions \
+that evaluate it at a few more steps.  What is the function \"f\" in this \
+case?",
+    FontWeight->"Bold",
+    FontColor->RGBColor[0, 0, 1]]
+}], "Text",
+  TextAlignment->Left,
+  TextJustification->0],
+
+Cell[BoxData[{
+    \(\(rF[t_] := \ \(rF[t]\  = \ rF[t - 1]*2\);\)\), "\[IndentingNewLine]", 
+    \(\(rF[0]\  = \ 7;\)\), "\[IndentingNewLine]", 
+    \(rF[3]\)}], "Input"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["11: Modeling population growth", "Subsection"]], \
+"Text",
+  TextAlignment->Center,
+  TextJustification->0],
+
+Cell[TextData[{
+  "Recursive functions are perfect for modeling systems that change in a step \
+by step way at regular time points. Dynamic systems such as populations of \
+organisms don't change their numbers on a fixed schedule, but recursive \
+functions can be a good rough model, since the population at year n has a big \
+influence on the population at year n+1.  \n",
+  StyleBox["(2 pts) Use the methods in steps 6-9 to create a graph of F \
+defined above. Can you think of a real biological system that F is a good \
+model for?",
+    FontWeight->"Bold",
+    FontColor->RGBColor[0, 0, 1]]
+}], "Text",
+  TextAlignment->Left,
+  TextJustification->0]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[TextData[StyleBox["12: A more complex model", "Subsection"]], "Text",
+  TextAlignment->Center,
+  TextJustification->0],
+
+Cell[TextData[{
+  "The logistic model is presented below. It is considered to be the simplest \
+dynamical system that exhibits chaotic behavior. It is implemented here with \
+three parameters: r, k, and g. Set these three numbers to different values, \
+evaluate, and observe how the graph changes. In ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " it is necessary to clear a function before you change the parameters that \
+are part of it's definition, which explains the first command: Clear[pop]. \
+Note: use values for r, 0 < r < 4, or you will get overflow errors. Also, \
+when setting r to a whole number, such as 2, put a decimal point after the \
+number: write \"r = 2.\" instead of \"r=2\" . The latter will cause ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " to hang. \n",
+  StyleBox["(12 pts) Match the four  parameters to the following definitions:\
+\n1) The population at time zero.\n2) The number of generations.\n3) The \
+capacity of the enviroment to sustain the population.\n4) The fertility of \
+the organisims.\nCreate three copies of this cell. In one cell choose \
+parameters that produce a graph that shows unchecked exponential growth, \
+similar to the graph you created in (11). \nIn the second cell, set \
+parameters that produce a graph that shows periodic behavior (i.e. the \
+population changes from generation to generation in a regular way.\nIn the \
+thrid cell, set parameters that result in chaotic behavior. Which parameter \
+controls the chaotic/non-chaotic behavior of the system? ",
+    FontWeight->"Bold",
+    FontColor->RGBColor[0, 0, 1]]
+}], "Text",
+  TextAlignment->Left,
+  TextJustification->0],
+
+Cell[BoxData[{
+    \(Clear\ [pop]\), "\[IndentingNewLine]", 
+    \(r\  = \ 3.77\), "\[IndentingNewLine]", 
+    \(k\  = \ 100\), "\[IndentingNewLine]", 
+    \(g\  = \ 200\), "\[IndentingNewLine]", 
+    \(s\  = \ 5\), "\[IndentingNewLine]", 
+    \(\(pop[t_]\  := \ \(pop[t]\  = \ 
+          r\ pop[t - 1] \((1 - \ 
+                pop[t - 1]/k)\)\);\)\), "\[IndentingNewLine]", 
+    \(\(pop[0]\  = \ s;\)\), "\[IndentingNewLine]", 
+    \(\(dt\  = Table[pop[x], \ {x, 0, g, 1}];\)\), "\[IndentingNewLine]", 
+    \(ListPlot[dt, \ PlotJoined\  \[Rule] True, \ 
+      PlotRange \[Rule] {0, \ 3  k/2}]\)}], "Input"]
+}, Open  ]],
+
+Cell[TextData[StyleBox["Extra Sections", "Subtitle"]], "Text",
+  TextAlignment->Center,
+  TextJustification->0],
+
+Cell[TextData[StyleBox["13: Building recursive lists with NestList", \
+"Subsection"]], "Text",
+  TextAlignment->Center,
+  TextJustification->0],
+
+Cell[TextData[{
+  "The ",
+  StyleBox["Mathematica",
+    FontSlant->"Italic"],
+  " NestList method provides another way to model recursiveness. The NestList \
+second arg is the inital value of the recursive variable, and the third arg \
+is the number of recursive iterations. Notice how NestList can be used with \
+multivariate functions, provided the variable to be treated recursively is \
+listed last."
+}], "Text",
+  TextAlignment->Left,
+  TextJustification->0],
+
+Cell[BoxData[{
+    \(\(Clear[g1];\)\), "\[IndentingNewLine]", 
+    \(\(g1[z_]\  := \ N[z^2];\)\), "\[IndentingNewLine]", 
+    \(NestList[g1, \ 3, \ 4]\), "\[IndentingNewLine]", 
+    \(\(Clear[g2];\)\), "\[IndentingNewLine]", 
+    \(\(\(\(g2[x_]\)[y_]\)[z_]\  := \ x*y*z;\)\), "\[IndentingNewLine]", 
+    \(NestList[\(g2[b]\)[c], \ a, \ \ 5]\)}], "Input"],
+
+Cell[TextData[StyleBox["14: Sensitivity analysis with list differences", \
+"Subsection"]], "Text",
+  TextAlignment->Center,
+  TextJustification->0],
+
+Cell[TextData[{
+  "The code in the cell below offers a technique on how to compare two \
+alternative histories. ",
+  StyleBox["Apply this technique to the Logistic map. Suggested steps: 1) \
+Define a non-recursive version of the pop[] function above, with all of the \
+appropriate parameters.  2) Use NestList to populate two lists, that are each \
+seeded with nearly identical starting populations. 3) Plot the history \
+difference.  Compare results of the history differences in the chaotic and \
+non-chaotic regimes.",
+    FontWeight->"Bold",
+    FontColor->RGBColor[0, 0, 1]]
+}], "Text",
+  TextAlignment->Left,
+  TextJustification->0],
+
+Cell[BoxData[{
+    \(\(Clear[browny];\)\), "\[IndentingNewLine]", 
+    \(\(browny[x_]\  := \ 
+        x\  + \ Random[Real, \ {0, 1}]\  - 
+          0.5\ ;\)\), "\[IndentingNewLine]", 
+    \(\(hist1\  = \ NestList[browny, \ 0, \ 10];\)\), "\[IndentingNewLine]", 
+    \(\(hist2\  = \ NestList[browny, \ 0, \ 10];\)\), "\[IndentingNewLine]", 
+    \(ListPlot[hist2 - hist1, \ PlotJoined\  \[Rule] True]\)}], "Input"]
+},
+FrontEndVersion->"4.2 for Microsoft Windows",
+ScreenRectangle->{{0, 1280}, {0, 941}},
+WindowToolbars->"EditBar",
+CellGrouping->Manual,
+WindowSize->{563, 859},
+WindowMargins->{{82, Automatic}, {Automatic, 0}}
+]
+
+(*******************************************************************
+Cached data follows.  If you edit this Notebook file directly, not
+using Mathematica, you must remove the line containing CacheID at
+the top of  the file.  The cache data will then be recreated when
+you save this file from within Mathematica.
+*******************************************************************)
+
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+
+(*NotebookFileOutline
+Notebook[{
+Cell[1754, 51, 152, 3, 52, "Text"],
+Cell[1909, 56, 85, 2, 64, "Subtitle"],
+Cell[1997, 60, 640, 17, 90, "Text"],
+
+Cell[CellGroupData[{
+Cell[2662, 81, 119, 2, 35, "Text"],
+Cell[2784, 85, 399, 6, 90, "Text"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[3220, 96, 233, 7, 36, "Text"],
+Cell[3456, 105, 842, 13, 166, "Text"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[4335, 123, 215, 7, 36, "Text"],
+Cell[4553, 132, 636, 15, 109, "Text"],
+Cell[5192, 149, 105, 2, 33, "Text"],
+Cell[5300, 153, 387, 8, 71, "Text"],
+Cell[5690, 163, 242, 7, 84, "Input"],
+Cell[5935, 172, 317, 6, 65, "Input"]
+}, Open  ]],
+Cell[6267, 181, 115, 2, 35, "Text"],
+Cell[6385, 185, 422, 7, 90, "Text"],
+
+Cell[CellGroupData[{
+Cell[6832, 196, 113, 2, 35, "Text"],
+Cell[6948, 200, 479, 12, 71, "Text"],
+Cell[7430, 214, 227, 4, 70, "Input"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[7694, 223, 143, 3, 35, "Text"],
+Cell[7840, 228, 232, 8, 33, "Text"],
+Cell[8075, 238, 128, 3, 70, "Input"],
+Cell[8206, 243, 90, 2, 33, "Text"],
+Cell[8299, 247, 166, 3, 70, "Input"],
+Cell[8468, 252, 359, 7, 71, "Text"],
+Cell[8830, 261, 117, 4, 33, "Text"],
+Cell[8950, 267, 220, 4, 90, "Input"],
+Cell[9173, 273, 232, 5, 33, "Text"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[9442, 283, 158, 3, 35, "Text"],
+Cell[9603, 288, 530, 14, 71, "Text"],
+Cell[10136, 304, 422, 9, 110, "Input"],
+Cell[10561, 315, 1718, 37, 223, "Text"]
+}, Open  ]],
+Cell[12294, 355, 144, 3, 35, "Text"],
+
+Cell[CellGroupData[{
+Cell[12463, 362, 338, 10, 52, "Text"],
+Cell[12804, 374, 191, 4, 90, "Input"],
+Cell[12998, 380, 336, 6, 71, "Text"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[13371, 391, 118, 2, 35, "Text"],
+Cell[13492, 395, 572, 18, 71, "Text"],
+Cell[14067, 415, 156, 3, 50, "Input"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[14260, 423, 122, 2, 35, "Text"],
+Cell[14385, 427, 1015, 25, 185, "Text"],
+Cell[15403, 454, 170, 3, 70, "Input"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[15610, 462, 131, 3, 35, "Text"],
+Cell[15744, 467, 653, 13, 128, "Text"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+Cell[16434, 485, 123, 2, 35, "Text"],
+Cell[16560, 489, 1659, 29, 356, "Text"],
+Cell[18222, 520, 608, 12, 190, "Input"]
+}, Open  ]],
+Cell[18845, 535, 111, 2, 45, "Text"],
+Cell[18959, 539, 143, 3, 35, "Text"],
+Cell[19105, 544, 463, 11, 90, "Text"],
+Cell[19571, 557, 354, 6, 130, "Input"],
+Cell[19928, 565, 147, 3, 35, "Text"],
+Cell[20078, 570, 638, 13, 109, "Text"],
+Cell[20719, 585, 412, 7, 110, "Input"]
+}
+]
+*)
+
+
+
+(*******************************************************************
+End of Mathematica Notebook file.
+*******************************************************************)
+

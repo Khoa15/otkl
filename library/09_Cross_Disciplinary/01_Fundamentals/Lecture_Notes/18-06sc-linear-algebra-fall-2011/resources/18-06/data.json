@@ -1,0 +1,24 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/102a1a49073fe197ec787cd66e2cf261_18.06.jpg",
+  "file_size": 1014718,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "18.06.jpg",
+  "uid": "102a1a49-073f-e197-ec78-7cd66e2cf261",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

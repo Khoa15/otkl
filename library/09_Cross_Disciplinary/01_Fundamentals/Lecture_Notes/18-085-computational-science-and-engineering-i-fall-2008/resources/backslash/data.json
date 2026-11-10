@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>Class handout on using the MATLAB backslash command to solve Ax = b.</p>\n",
+  "content_type": "resource",
+  "description": "Class handout on using the MATLAB backslash command to solve Ax = b.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/32852720d766a2b07b4ef07b693be03f_backslash.pdf",
+  "file_size": 43435,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Readings"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Study Materials",
+  "parent_type": "CourseSection",
+  "parent_uid": "df610098-8ebd-ba68-b43f-7d3a6f71d7c5",
+  "resourcetype": "Document",
+  "title": "MATLAB backslash command to solve Ax = b",
+  "uid": "32852720-d766-a2b0-7b4e-f07b693be03f",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

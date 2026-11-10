@@ -1,0 +1,41 @@
+{
+  "content": "<p>Networks 1: Systems Biology, Metabolic Kinetic &amp; Flux Balance Optimization Methods</p>\n",
+  "content_type": "resource",
+  "description": "Networks 1: Systems Biology, Metabolic Kinetic & Flux Balance Optimization Methods",
+  "draft": false,
+  "file": "/courses/hst-508-genomics-and-computational-biology-fall-2002/02inov12n1.pdf",
+  "file_size": 782991,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lectures: Audio and Slides",
+  "parent_type": "CourseSection",
+  "parent_uid": "c970ffda-00d6-3214-7442-de7026e2584e",
+  "resourcetype": "Document",
+  "title": "Lecture Slides: Networks 1",
+  "uid": "c53a27c5-8db4-d3a2-5827-5930c587d1a8",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

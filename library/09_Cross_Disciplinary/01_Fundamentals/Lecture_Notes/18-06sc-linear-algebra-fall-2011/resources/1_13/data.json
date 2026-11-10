@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/b892f70d4090a99facba125fc44c78d6_1_13.jpg",
+  "file_size": 7356,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from ‘Introduction to Linear Algebra’ by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "An Overview of Key Ideas",
+  "parent_type": "CourseSection",
+  "parent_uid": "ff755187-ef48-26e2-abaf-b9c76026cfdb",
+  "resourcetype": "Image",
+  "title": "1_13.jpg",
+  "uid": "b892f70d-4090-a99f-acba-125fc44c78d6",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

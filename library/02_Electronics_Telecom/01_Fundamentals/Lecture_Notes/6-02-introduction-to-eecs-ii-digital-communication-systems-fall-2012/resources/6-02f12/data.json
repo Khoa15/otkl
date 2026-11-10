@@ -1,0 +1,33 @@
+{
+  "content": "<p>Phoning home using a K=15, rate=1/6 convolutional code. See Lecture 6 for more information. Image in the public domain. Source: NASA.</p>\n",
+  "content_type": "resource",
+  "description": "Phoning home using a K=15, rate=1/6 convolutional code. See Lecture 6 for more information. Image in the public domain. Source: NASA.",
+  "draft": false,
+  "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/b2c2937f360b27a0d80099dc9fec7b8b_6-02f12.jpg",
+  "file_size": 13044,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Phoning home using a K=15, rate=1/6 convolutional code. See [Lecture 6](/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/pages/lecture-slides) for more information. (Image in the public domain. Source: NASA.)",
+    "credit": "Image in the public domain. Source: NASA.",
+    "image-alt": "Artist's depiction of the Cassini spacecraft, with Saturn in the foreground and a dark blue, starry background."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "6-02f12.jpg",
+  "uid": "b2c2937f-360b-27a0-d800-99dc9fec7b8b",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

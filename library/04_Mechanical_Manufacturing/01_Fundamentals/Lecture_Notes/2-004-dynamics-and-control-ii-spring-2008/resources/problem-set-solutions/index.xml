@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Set Solutions on MIT OpenCourseWare</title>
+    <link>/resources/problem-set-solutions/</link>
+    <description>Recent content in Problem Set Solutions on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-set-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem Set 1 Solutions</title>
+      <link>/resources/ps1soln/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps1soln/data.json</guid>
+      <description>&lt;p&gt;Problem set solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 10 Solutions</title>
+      <link>/resources/ps10soln/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps10soln/data.json</guid>
+      <description>&lt;p&gt;Problem set solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 2 Solutions</title>
+      <link>/resources/ps2soln/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps2soln/data.json</guid>
+      <description>&lt;p&gt;Problem set solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 3 Solutions</title>
+      <link>/resources/ps3soln/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps3soln/data.json</guid>
+      <description>&lt;p&gt;Problem set solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 4 Solutions</title>
+      <link>/resources/ps4soln/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps4soln/data.json</guid>
+      <description>&lt;p&gt;Problem set solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 5 Solutions</title>
+      <link>/resources/ps5soln/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps5soln/data.json</guid>
+      <description>&lt;p&gt;Problem set solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 6 Solutions</title>
+      <link>/resources/ps6soln/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps6soln/data.json</guid>
+      <description>&lt;p&gt;Problem set solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 7 Solutions</title>
+      <link>/resources/ps7soln/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps7soln/data.json</guid>
+      <description>&lt;p&gt;Problem set solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 8 Solutions</title>
+      <link>/resources/ps8soln/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps8soln/data.json</guid>
+      <description>&lt;p&gt;Problem set solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 9 Solutions</title>
+      <link>/resources/ps9soln/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps9soln/data.json</guid>
+      <description>&lt;p&gt;Problem set solutions.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

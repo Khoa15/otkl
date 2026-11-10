@@ -1,0 +1,47 @@
+{
+  "audience": [],
+  "content": "<p>This resource contains information related to fossil energy III.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information related to fossil energy III.",
+  "draft": false,
+  "file": "/courses/22-081j-introduction-to-sustainable-energy-fall-2010/54960cadc1f46e890401b1f28b524e41_MIT22_081JF10_lec13b.pdf",
+  "file_size": 1209081,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lectures and Readings",
+  "parent_type": "CourseSection",
+  "parent_uid": "e7a00e10-1594-2743-50ff-a5b52e167aa5",
+  "resourcetype": "Document",
+  "title": "MIT22_081JF10_lec13b.pdf",
+  "uid": "54960cad-c1f4-6e89-0401-b1f28b524e41",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": {
+      "content": [],
+      "website": "22-081j-introduction-to-sustainable-energy-fall-2010"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_resources": {
+      "content": [],
+      "website": "22-081j-introduction-to-sustainable-energy-fall-2010"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

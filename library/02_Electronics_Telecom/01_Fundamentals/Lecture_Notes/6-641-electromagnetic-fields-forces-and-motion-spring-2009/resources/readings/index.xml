@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;h3 id=&#34;texts&#34;&gt;Texts&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;The readings in the table below are separated into textbook sections and video demonstrations. The textbook sections come from the Zahn and Woodson/Melcher textbooks. The video demonstrations accompany the Haus/Melcher textbook. The Haus/Melcher textbook is used as a supplement for the first half of the course in addition to the textbook sections listed below. All three textbooks can be found &lt;a href=&#34;../../pages/textbooks/index.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;    &lt;h4 id=&#34;required&#34;&gt;Required&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;[Z] = Zahn, Markus. &lt;em&gt;Electromagnetic Field Theory: A Problem Solving Approach&lt;/em&gt;. Malabar, FL: Krieger Pub. Co., 2003. ISBN: 9781575242354.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

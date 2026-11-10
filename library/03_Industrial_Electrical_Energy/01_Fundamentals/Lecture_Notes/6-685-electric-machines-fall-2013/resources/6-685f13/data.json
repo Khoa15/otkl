@@ -1,0 +1,21 @@
+{
+  "content": "<p>Axial view of a surface mount motor revealing the basic magnetic morphology of the motor. Image courtesy of Prof. James L. Kirtley Jr.</p>\n",
+  "content_type": "resource",
+  "description": "Axial view of a surface mount motor revealing the basic magnetic morphology of the motor. Image courtesy of Prof. James L. Kirtley Jr. \r\n",
+  "draft": false,
+  "file": "/courses/6-685-electric-machines-fall-2013/8e26c4482ae8a68ba5869b5f770cf071_6-685f13.jpg",
+  "file_size": 68270,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Axial view of a surface mount motor revealing the basic magnetic morphology of the motor. (Image courtesy of Prof. James L. Kirtley Jr.)",
+    "credit": "Image courtesy of Prof. James L. Kirtley Jr.",
+    "image-alt": "Concentric circles with a ring of fins in the middle and four small rectangles at cardinal directions."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "6-685f13.jpg",
+  "uid": "8e26c448-2ae8-a68b-a586-9b5f770cf071"
+}

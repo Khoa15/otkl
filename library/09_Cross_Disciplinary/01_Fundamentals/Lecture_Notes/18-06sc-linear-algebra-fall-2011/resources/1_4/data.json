@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/009788c94833f74f34b92430b3601cd6_1_4.jpg",
+  "file_size": 5089,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from ‘Introduction to Linear Algebra’ by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Factorization into A = LU",
+  "parent_type": "CourseSection",
+  "parent_uid": "2817c81b-0904-0d03-c0c6-34f006d5a20d",
+  "resourcetype": "Image",
+  "title": "1_4.jpg",
+  "uid": "009788c9-4833-f74f-34b9-2430b3601cd6",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

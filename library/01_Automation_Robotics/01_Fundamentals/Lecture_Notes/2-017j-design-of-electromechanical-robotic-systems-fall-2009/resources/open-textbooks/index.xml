@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Textbooks on MIT OpenCourseWare</title>
+    <link>/resources/open-textbooks/</link>
+    <description>Recent content in Open Textbooks on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/open-textbooks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>System Design for Uncertainty</title>
+      <link>/resources/mit2_017j_f09_coursetextbook_pdf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017j_f09_coursetextbook_pdf/data.json</guid>
+      <description>&lt;p&gt;The key ingredient in this course - and what differentiates it from many other related courses - is the uncertainty that is encountered whenever a built system is actually installed in the field. We may find uncertainty in the operating environment, whether it is a windy airspace, a bumpy road, or an obstacle-strewn factory floor. We also find uncertainty in the parameters that define a system, for example, masses and stiffnesses and dampings, torque constants, and physical size. Finally, since complex electromechanical systems involve sensors and actuators, we have to acknowledge uncertainty in measurement and feedback control. Ultimately, such systems are meant to accomplish specific objectives, and the designer&amp;rsquo;s task is to achieve robustness, performance, and cost-effectiveness in the presence of uncertainty.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

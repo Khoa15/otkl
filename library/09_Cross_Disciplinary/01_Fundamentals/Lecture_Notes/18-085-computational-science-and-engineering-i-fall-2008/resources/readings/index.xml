@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Course Outline: 8.085 Computational Science and Engineering</title>
+      <link>/resources/outline/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/outline/data.json</guid>
+      <description>&lt;p&gt;Outline of the topics covered by the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gradient and Divergence / Parallel Table</title>
+      <link>/resources/onepager/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/onepager/data.json</guid>
+      <description>&lt;p&gt;Class handout on gradient and divergence, and parallel tables.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MATLAB backslash command to solve Ax = b</title>
+      <link>/resources/backslash/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/backslash/data.json</guid>
+      <description>&lt;p&gt;Class handout on using the MATLAB backslash command to solve Ax = b.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MATLAB cheat sheet</title>
+      <link>/resources/matlab_cheatshee/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/matlab_cheatshee/data.json</guid>
+      <description>&lt;p&gt;Reference material for using MATLAB.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MATLAB Homework 1</title>
+      <link>/resources/ml1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ml1/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on MATLAB.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MATLAB Homework 2</title>
+      <link>/resources/matlab2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/matlab2/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on calculating the effective resistance of a network of resistors with MATLAB.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MATLAB Homework 3</title>
+      <link>/resources/matlab3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/matlab3/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on MATLAB and bridge trusses.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MATLAB Homework 4</title>
+      <link>/resources/matlab4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/matlab4/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on MATLAB and differential equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MATLAB Homework 5</title>
+      <link>/resources/matlab5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/matlab5/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on MATLAB and Laplace&amp;rsquo;s equation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MATLAB Homework 6</title>
+      <link>/resources/matlab6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/matlab6/data.json</guid>
+      <description>&lt;p&gt;Homework assignment on MATLAB, Fourier Series, and Gibbs phenomenon.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MATLAB Tutorial</title>
+      <link>/resources/matlab/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/matlab/data.json</guid>
+      <description>&lt;p&gt;A short tutorial on MATLAB.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>moe</title>
+      <link>/resources/moe/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/moe/data.json</guid>
+      <description>&lt;p&gt;Supporting MATLAB file on elimination.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>realmmd</title>
+      <link>/resources/realmmd/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/realmmd/data.json</guid>
+      <description>&lt;p&gt;Supporting MATLAB file on elimination.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

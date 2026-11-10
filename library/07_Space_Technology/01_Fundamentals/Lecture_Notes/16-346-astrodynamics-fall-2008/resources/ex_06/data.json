@@ -1,0 +1,47 @@
+{
+  "audience": [],
+  "content": "<p>Problem set on hyperbolic locus of velocity vectors.</p>\n",
+  "content_type": "resource",
+  "description": "Problem set on hyperbolic locus of velocity vectors.",
+  "draft": false,
+  "file": "/courses/16-346-astrodynamics-fall-2008/c61741c701554cbf4c592960ef3ba0f6_ex_06.pdf",
+  "file_size": 97530,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "36af17ba-e00f-6efa-5f63-831e7ed7034f",
+  "resourcetype": "Document",
+  "title": "Exercises 06",
+  "uid": "c61741c7-0155-4cbf-4c59-2960ef3ba0f6",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": {
+      "content": [],
+      "website": "16-346-astrodynamics-fall-2008"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_resources": {
+      "content": [],
+      "website": "16-346-astrodynamics-fall-2008"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

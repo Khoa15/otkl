@@ -1,0 +1,22 @@
+
+{
+  "content": "<p>Midterm practice problems (<a href=\"../../resources/mit6_832s09_exam01_practice/index.html\">PDF</a>)</p>\n<p>Midterm exam (<a href=\"../../resources/mit6_832s09_exam02/index.html\">PDF</a>)</p>\n",
+  "content_type": "page",
+  "description": "This section provides the midterm exam for the course along with practice problems.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Exams",
+  "uid": "38657fdb-87d0-b425-102d-8646d5605635",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

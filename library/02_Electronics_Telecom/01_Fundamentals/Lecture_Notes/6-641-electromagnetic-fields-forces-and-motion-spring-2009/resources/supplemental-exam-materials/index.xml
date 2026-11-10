@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Supplemental Exam Materials on MIT OpenCourseWare</title>
+    <link>/resources/supplemental-exam-materials/</link>
+    <description>Recent content in Supplemental Exam Materials on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/supplemental-exam-materials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Formula Sheet</title>
+      <link>/resources/mit6_641s09_study02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_study02/data.json</guid>
+      <description>&lt;p&gt;Formula sheet on differential operators in Cartesian, cylindrical, and spherical coordinates.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Formula Sheet - Spring 2009</title>
+      <link>/resources/mit6_641s09_study03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_study03/data.json</guid>
+      <description>&lt;p&gt;Formula sheet on differential operators in cylindrical and spherical coordinates, and solutions of Laplace’s equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Formula Sheet #1</title>
+      <link>/resources/mit6_641s09_study01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_641s09_study01/data.json</guid>
+      <description>&lt;p&gt;Formula sheet on differential operators in Cartesian, cylindrical, and spherical coordinates, geometric relations between coordinates and unit vectors in Cartesian, cylindrical, and spherical coordinate systems, vector identities, integral theorems, Maxwell&amp;rsquo;s equations, and physical constants.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

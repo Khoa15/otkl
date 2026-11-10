@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>Supporting file for an assignment on parallel computing.</p>\n",
+  "content_type": "resource",
+  "description": "Supporting file for an assignment on parallel computing.",
+  "draft": false,
+  "file": "/courses/18-337j-parallel-computing-fall-2011/129aec8dd01be955c3e7360e78e83ced_mpipi.f",
+  "file_size": 1667,
+  "file_type": "text/x-fortran",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Programming Assignments with Examples"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "27f22ab8-bfd3-2eae-bc60-f5dbb135c98e",
+  "resourcetype": "Other",
+  "title": "MPI example program in Fortran",
+  "uid": "129aec8d-d01b-e955-c3e7-360e78e83ced",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "18-337j-parallel-computing-fall-2011"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "18-337j-parallel-computing-fall-2011"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

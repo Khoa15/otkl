@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Description:</strong> This lecture by Prof. Ernest Fraenkel is about gene regulatory networks. He begins by finishing Lecture 14&rsquo;s discussion of protein-protein interactions.</p>\n<p><strong>Instructor:</strong> Prof. Ernest Fraenkel</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "217316976",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Video Lectures",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Lecture 15: Gene Regulatory Networks",
+  "uid": "0d89e0c0-a995-c945-89e1-8fd13b089264",
+  "video_files": {
+    "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec15_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/a5ea752f83aa56b698eb3b2bc8fe2f82_So6MK_FcP4E.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/So6MK_FcP4E/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/9830f34d6e956293b79dd03ef7945eea_So6MK_FcP4E.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, bayesian networks, clustering, gene expression, gene regulatory networks, modules, mutual information, protein-protein interaction, regression, signatures",
+    "youtube_id": "So6MK_FcP4E"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Description:</strong> This lecture places in context the abstraction layers in the network communication model and covers digital signaling. Metrics such as channel capacity and Hamming distance are introduced.</p>\n<p><strong>Instructor:</strong> George Verghese</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "137037522",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Lecture Videos",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Lecture 3: Errors, Channel Codes",
+  "uid": "b045e6c3-fabb-b28f-6e47-3ca479573e9c",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec03_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/fd5cafb862a152509f5182e43bb29672_HkmAT9eVYSo.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/HkmAT9eVYSo/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/477c9e6ae8746e14f2bb26e6684d7be1_HkmAT9eVYSo.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, analog channel, binary symmetric, binary symmetric channel, bit-in, bit-out, channel, channel capacity, channel code, communication, digital, digital signaling, hamming distance, linear block code, mutual information, network architecture",
+    "youtube_id": "HkmAT9eVYSo"
+  }
+}

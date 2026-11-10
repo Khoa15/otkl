@@ -1,0 +1,90 @@
+{
+  "course_description": "Upon successful completion of this course, students will be able to:\n\n*   Create lumped parameter models (expressed as ODEs) of simple dynamic systems in the electrical and mechanical energy domains\n*   Make quantitative estimates of model parameters from experimental measurements\n*   Obtain the time-domain response of linear systems to initial conditions and/or common forcing functions (specifically; impulse, step and ramp input) by both analytical and computational methods\n*   Obtain the frequency-domain response of linear systems to sinusoidal inputs\n*   Compensate the transient response of dynamic systems using feedback techniques\n*   Design, implement and test an active control system to achieve a desired performance measure\n\nMastery of these topics will be assessed via homework, quizzes/exams, and lab assignments.\n",
+  "course_description_html": "<p>Upon successful completion of this course, students will be able to:</p>\n<ul>\n<li>Create lumped parameter models (expressed as ODEs) of simple dynamic systems in the electrical and mechanical energy domains</li>\n<li>Make quantitative estimates of model parameters from experimental measurements</li>\n<li>Obtain the time-domain response of linear systems to initial conditions and/or common forcing functions (specifically; impulse, step and ramp input) by both analytical and computational methods</li>\n<li>Obtain the frequency-domain response of linear systems to sinusoidal inputs</li>\n<li>Compensate the transient response of dynamic systems using feedback techniques</li>\n<li>Design, implement and test an active control system to achieve a desired performance measure</li>\n</ul>\n<p>Mastery of these topics will be assessed via homework, quizzes/exams, and lab assignments.</p>\n",
+  "course_image": {
+    "content": "c4768f52-4c35-138e-3b5f-70eada96a3c1",
+    "website": "2-004-dynamics-and-control-ii-spring-2008"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "A diagram of a boat on autopilot, deviating from the desired course, with a block diagram of the feedback system that controls it. A ship's autopilot uses dynamic feedback to adjust its heading compared to the compass setting. (Image by Prof. Rowell.)",
+    "draft": false,
+    "file": "/courses/2-004-dynamics-and-control-ii-spring-2008/c4768f524c35138e3b5f70eada96a3c1_2-004s08.jpg",
+    "file_size": 50636,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "A ship's autopilot uses dynamic feedback to adjust its heading compared to the compass setting. (Image by Prof. Rowell.)",
+      "credit": "",
+      "image-alt": "A diagram of a boat on autopilot, deviating from the desired course, with a block diagram of the feedback system that controls it."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "Diagram of a Boat on Autopilot",
+    "uid": "c4768f52-4c35-138e-3b5f-70eada96a3c1"
+  },
+  "course_image_thumbnail": {
+    "content": "cf3301c6-bbc3-7c7a-6394-a6b560b3d91e",
+    "website": "2-004-dynamics-and-control-ii-spring-2008"
+  },
+  "course_title": "Dynamics and Control II",
+  "department_numbers": [
+    "2"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/c4768f524c35138e3b5f70eada96a3c1_2-004s08.jpg",
+  "instructors": [
+    {
+      "first_name": "Derek",
+      "last_name": "Rowell",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Derek Rowell",
+      "uid": "197cc182-912a-fbc2-7a49-ea4069ca6267",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Derek+Rowell"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Notes",
+    "Problem Sets",
+    "Problem Set Solutions"
+  ],
+  "legacy_uid": "53f178db-6f89-9e69-767e-a0592b873501",
+  "level": [
+    "Undergraduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Science & Math",
+      "Mathematics"
+    ],
+    [
+      "Engineering",
+      "Mechanical Engineering"
+    ]
+  ],
+  "primary_course_number": "2.004",
+  "site_short_id": "2.004-spring-2008",
+  "site_uid": "394be093-c20d-4071-90cc-81338e3202f8",
+  "site_url_path": "courses/2-004-dynamics-and-control-ii-spring-2008",
+  "term": "Spring",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Engineering",
+      "Mechanical Engineering",
+      "Dynamics and Control"
+    ],
+    [
+      "Engineering",
+      "Mechanical Engineering"
+    ],
+    [
+      "Mathematics",
+      "Applied Mathematics"
+    ]
+  ],
+  "year": "2008"
+}

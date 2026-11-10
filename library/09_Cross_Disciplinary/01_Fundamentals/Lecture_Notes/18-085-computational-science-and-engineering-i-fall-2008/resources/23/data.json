@@ -1,0 +1,27 @@
+{
+  "content": "<p>Thumbnail image accompanying a video lecture on Laplace&rsquo;s equation.</p>\n",
+  "content_type": "resource",
+  "description": "Thumbnail image accompanying a video lecture on Laplace's equation.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/ade5e7d732021589c7ae9aee186592a3_23.jpg",
+  "file_size": 2748,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Lecture 23",
+  "uid": "ade5e7d7-3202-1589-c7ae-9aee186592a3",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

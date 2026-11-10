@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Recitation handout time delays.</p>\n",
+  "content_type": "resource",
+  "description": "Recitation handout time delays.",
+  "draft": false,
+  "file": "/courses/6-302-feedback-systems-spring-2007/acfe5d5f00859dde5a8a6b17da6b1123_6_302rec23.pdf",
+  "file_size": 97215,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem-solving Notes"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Recitations",
+  "parent_type": "CourseSection",
+  "parent_uid": "5667c63a-09ff-e158-1e89-d49a0035050d",
+  "resourcetype": "Document",
+  "title": "6_302rec23.pdf",
+  "uid": "acfe5d5f-0085-9dde-5a8a-6b17da6b1123",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Set Solutions on MIT OpenCourseWare</title>
+    <link>/resources/problem-set-solutions/</link>
+    <description>Recent content in Problem Set Solutions on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-set-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ps1_cg_solution.pdf</title>
+      <link>/resources/ps1_cg_solution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps1_cg_solution/data.json</guid>
+      <description>&lt;p&gt;Problem and solution provided by students Seung Chung, Mark Hilstad, and Dan Kwon. Problem statement: The design of a spacecraft power subsystem is an important driver for the mass, size, and capability of the spacecraft. Create a power-system design tool applicable to a wide range of future design problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps1_cs_solution.pdf</title>
+      <link>/resources/ps1_cs_solution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps1_cs_solution/data.json</guid>
+      <description>&lt;p&gt;Problem set and solution provided by students Christopher Hynes and Steve Paschall. Problem statement: Design a launch vehicle decision tool to provide ease of launch vehicle selection given spacecraft design specifications.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps1_nn_solution.pdf</title>
+      <link>/resources/ps1_nn_solution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps1_nn_solution/data.json</guid>
+      <description>&lt;p&gt;Problem set and solution courtesy of Andrew Vaughan and David Woffinden. Used with permission. Problem statement: As future space missions plan to utilize Lagrange Point Orbits, describe the potential orbits about the stable and unstable Lagrange points.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps2_cg_solution.pdf</title>
+      <link>/resources/ps2_cg_solution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps2_cg_solution/data.json</guid>
+      <description>&lt;p&gt;Problem set and solution courtesy of Seung Chung and Namiko Yamamoto. Used with permission. Problem statement: Design a tool that compares a set of feasible orbit transfer and propulsion system combinations for a given mission requirement, in terms of desired orbit transfers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps2_cs_solution.pdf</title>
+      <link>/resources/ps2_cs_solution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps2_cs_solution/data.json</guid>
+      <description>&lt;p&gt;Problem statement and solution courtesy of Christopher Hynes and Kathryn Weiss. Problem statement: Determine the surface area of a solar panel needed to produce enough power to meet the requirements of a given spacecraft, considering altitude and inclination and type of solar cell.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps3_cg_solution.pdf</title>
+      <link>/resources/ps3_cg_solution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps3_cg_solution/data.json</guid>
+      <description>&lt;p&gt;Problem set and solution courtesy of Seung Chung and Matthew Richards. Used with permission. Problem statement: Degradation of solar array performance due to radiation within space environment is an important effect to consider when designing the power subsystem. Characterize this degradation given orbit position as a function of time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps3_cs_solution.pdf</title>
+      <link>/resources/ps3_cs_solution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps3_cs_solution/data.json</guid>
+      <description>&lt;p&gt;Problem set and solution&#xA;Problem statement: The near-Earth space and atmospheric environments strongly influence the performance and lifetime of operational space systems. Design a tool that helps size ACS actuators for a satellite mission given specific mission objectives and environmental disturbances.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps4_cg_solution.pdf</title>
+      <link>/resources/ps4_cg_solution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps4_cg_solution/data.json</guid>
+      <description>&lt;p&gt;Problem set and solution. Problem statement: The power and communications subsystems aboard a spacecraft interact with one another as a function of the spacecraft?s orbit to achieve a set of requirements. Determine the optimal combination of orbit size and inclination, solar array and battery sizes, communication subsystem power usage and antenna size, given a specified ground station.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps4_cs_solution.pdf</title>
+      <link>/resources/ps4_cs_solution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps4_cs_solution/data.json</guid>
+      <description>&lt;p&gt;Problem set and solution. Problem statement: A satellite being able to communicate with the ground station is an essential part of the spacecraft mission. Determine the optimum communication frequency and optimum data rate that minimized the combined mass requirements of telemetry, communications, and power subsystems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps4_rd_solution.pdf</title>
+      <link>/resources/ps4_rd_solution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps4_rd_solution/data.json</guid>
+      <description>&lt;p&gt;Problem Set 4 (Orbits, Power, and Communication): Matthew Richards, and Anna Silbovitz&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps5_cg_solution.pdf</title>
+      <link>/resources/ps5_cg_solution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps5_cg_solution/data.json</guid>
+      <description>&lt;p&gt;Problem Set 5 (Structure, Attitude Control, and Propulsion): Chung&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps5_cs_solution.pdf</title>
+      <link>/resources/ps5_cs_solution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps5_cs_solution/data.json</guid>
+      <description>&lt;p&gt;Software Designed to Determine Preliminary Cost Estimate Based on Human Factors and Structural Design: Chynes&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps5_nn_solution.pdf</title>
+      <link>/resources/ps5_nn_solution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps5_nn_solution/data.json</guid>
+      <description>&lt;p&gt;Problem set and solution. Problem statement: The US manned space program is entering an era of mutation, as NASA now has to deal with new challenges, after recent events such as the Columbia tragedy or the symbolical first &amp;ldquo;taikonaut&amp;rdquo; in space. It is clear that this New Deal and a revived international cooperation will create opportunities for space agencies to move the frontiers a little farther and extend the presence of man on orbit, possibly on board a new Space Station. You, a recent MIT grad, have been approached by NASA to design the next US Space Station.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps6_cg_solution.pdf</title>
+      <link>/resources/ps6_cg_solution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps6_cg_solution/data.json</guid>
+      <description>&lt;p&gt;Problem set and solution. Problem statement: Mars is of great scientific interest given the potential evidence of past or present life. As the closest planet with a relatively mild environment, there exists a unique opportunity to explore Mars with humans. Design a software tool that performs a trade of the life support, propulsion, and power subsystems for a human transportation vehicle from Earth to Mars.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps6_cs_solution.pdf</title>
+      <link>/resources/ps6_cs_solution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps6_cs_solution/data.json</guid>
+      <description>&lt;p&gt;Problem set and solution. Problem statement: Thermal radiation is an important consideration in spacecraft design. A spacecraft&amp;rsquo;s skin must account for thermal effects, but it must also be inexpensive and reasonable to build. Design a spacecraft structure to account for thermal radiation effects while minimizing cost.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps6_nn_solution.pdf</title>
+      <link>/resources/ps6_nn_solution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps6_nn_solution/data.json</guid>
+      <description>&lt;p&gt;Problem set and solution.&#xA;Problem statement: A manned mission to Mars poses several significant technological challenges for engineers. One such challenge is to minimize the physiological impact on the astronauts during prolonged spaceflight. A possible solution to this is using artificial gravity. Create a tool to evaluate the feasibility of an artificial gravity Mars mission.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

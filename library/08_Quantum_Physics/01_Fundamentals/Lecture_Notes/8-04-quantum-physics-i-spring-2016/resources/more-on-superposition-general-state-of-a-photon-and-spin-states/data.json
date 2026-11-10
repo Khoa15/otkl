@@ -1,0 +1,42 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "draft": false,
+  "file": null,
+  "file_size": null,
+  "file_type": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Video",
+  "title": "More on superposition. General state of a photon and spin states",
+  "uid": "832a60bd-54aa-4cc6-82cd-b433065196e6",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "/courses/8-04-quantum-physics-i-spring-2016/0xNmc2tJ-YM_captions.webvtt",
+    "video_captions_resource": {
+      "content": "",
+      "website": "8-04-quantum-physics-i-spring-2016"
+    },
+    "video_thumbnail_file": "https://img.youtube.com/vi/0xNmc2tJ-YM/default.jpg",
+    "video_transcript_file": "/courses/8-04-quantum-physics-i-spring-2016/0xNmc2tJ-YM_transcript.pdf",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "8-04-quantum-physics-i-spring-2016"
+    }
+  },
+  "video_metadata": {
+    "source": "youtube",
+    "video_speakers": "",
+    "video_tags": "8-04-quantum-physics-i-spring-2016, photon, spin states, superposition",
+    "youtube_description": "",
+    "youtube_id": "0xNmc2tJ-YM"
+  }
+}

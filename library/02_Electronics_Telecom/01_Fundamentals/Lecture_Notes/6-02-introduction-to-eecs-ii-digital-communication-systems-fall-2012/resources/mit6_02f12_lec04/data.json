@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains information regarding linear block codes, parity relations.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information regarding linear block codes, parity relations.",
+  "draft": false,
+  "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/36d01a4d59254991d9712181dd2478fa_MIT6_02F12_lec04.pdf",
+  "file_size": 721629,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Slides",
+  "parent_type": "CourseSection",
+  "parent_uid": "6293cb2b-b2c9-55e5-230f-875fa43a271f",
+  "resourcetype": "Document",
+  "title": "6.02 Lecture 4: Linear block codes, parity relations",
+  "uid": "36d01a4d-5925-4991-d971-2181dd2478fa"
+}

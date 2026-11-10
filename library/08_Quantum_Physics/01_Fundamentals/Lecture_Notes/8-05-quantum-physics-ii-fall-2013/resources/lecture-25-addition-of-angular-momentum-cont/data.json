@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Description:</strong> In this lecture, the professor reviewed spin-orbit coupling and talked about general aspects of addition of angular momentum, etc.</p>\n<p>Instructor: William Detmold</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "194053891",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "Lecture Notes",
+  "optional_text": "This lecture note covers Lectures 24, 25, and 26.\n\n[Addition of Angular Momentum (PDF)](/courses/8-05-quantum-physics-ii-fall-2013/resources/mit8_05f13_chap_10)",
+  "parent_title": "Video Lectures",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Lecture 25: Addition of Angular Momentum (cont.)",
+  "uid": "9bc3fe7d-93c5-6f39-fbdb-29c10cfb9d57",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT8.05F13/MIT8_05F13_lec25_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/8-05-quantum-physics-ii-fall-2013/3f2e0901a2a35dfdb8ff01b4f5e168cb_65XkZ_SRxBk.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/65XkZ_SRxBk/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/8-05-quantum-physics-ii-fall-2013/095686ddffe0159118f88ee8b6c70ae9_65XkZ_SRxBk.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "8-05-quantum-physics-ii-fall-2013, addition of angular momentum, angular momentum, spin-orbit coupling, tensor product, vector space",
+    "youtube_id": "65XkZ_SRxBk"
+  }
+}

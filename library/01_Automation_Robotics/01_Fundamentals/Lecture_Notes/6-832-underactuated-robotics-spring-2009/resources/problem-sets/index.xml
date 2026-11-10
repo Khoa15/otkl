@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Sets on MIT OpenCourseWare</title>
+    <link>/resources/problem-sets/</link>
+    <description>Recent content in Problem Sets on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-sets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brick Control</title>
+      <link>/resources/brick_control/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/brick_control/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a problem set: a Matlab routine containing the basic framework for implementing the required controllers for a problem on optimal control of the double integrator.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Brick VI</title>
+      <link>/resources/brick_vi/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/brick_vi/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a problem set on value iteration on the double integrator. This function implements the value iteration algorithm for the brick.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Calc Basin</title>
+      <link>/resources/calc_basin/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/calc_basin/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a problem set: a Matlab routine containing the basic components to compute and plot the basins of attraction for the simple pendulum.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cartpole</title>
+      <link>/resources/cartpole/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/cartpole/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a problem set on swing-Up and balance for the cart-pole system&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cartpole WP</title>
+      <link>/resources/cartpole_wp/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/cartpole_wp/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a problem set: the file contains a (nearly) complete implementation of the weight perturbation algorithm for the cart-pole swing-up task.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Markov TD</title>
+      <link>/resources/markov_td/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/markov_td/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a problem set on temporal difference learning.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pendfun.m</title>
+      <link>/resources/pendfun/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pendfun/data.json</guid>
+      <description>&lt;p&gt;This resource is a supporting file for assignment 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pendulum SNOPT</title>
+      <link>/resources/pend_snopt/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pend_snopt/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a problem set: a basic Matlab skeleton implementation calling the SNOPT sequential quadratic programming (SQP) package.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 1</title>
+      <link>/resources/mit6_832s09_pset01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_832s09_pset01/data.json</guid>
+      <description>&lt;p&gt;Problem set on the definition of underactuated, the simple pendulum, and optimal control of the double integrator.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 2</title>
+      <link>/resources/mit6_832s09_pset02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_832s09_pset02/data.json</guid>
+      <description>&lt;p&gt;Problem set on value iteration on the double integrator, Pontryagin&amp;rsquo;s minimum principle, and swing-up and balance for the cart-pole system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 3</title>
+      <link>/resources/mit6_832s09_pset03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_832s09_pset03/data.json</guid>
+      <description>&lt;p&gt;Problem set on optimal swing-up for the simple pendulum, single-pump swing-up for the cart-pole, and the rimless wheel.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 4</title>
+      <link>/resources/mit6_832s09_pset04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_832s09_pset04/data.json</guid>
+      <description>&lt;p&gt;Problem set on the spring loaded inverted pendulum and motion planning with rapidly-exploring random trees.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 5</title>
+      <link>/resources/mit6_832s09_pset05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_832s09_pset05/data.json</guid>
+      <description>&lt;p&gt;Problem set on the weight-perturbation algorithm and temporal difference learning.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Slip</title>
+      <link>/resources/slip/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/slip/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a problem set: the basic Matlab code needed for the simulation of the passive SLIP model.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

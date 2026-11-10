@@ -1,0 +1,109 @@
+{
+  "course_description": "This course focuses on the fundamentals of structure, energetics, and bonding that underpin materials science. It is the introductory lecture class for sophomore students in Materials Science and Engineering, taken with {{% resource_link \"568a3e10-def3-4750-b92f-36cf8f29d0f3\" \"3.014\" %}} and {{% resource_link \"d09a51eb-2903-4ab3-84e4-31770ef6e590\" \"3.016\" %}} to create a unified introduction to the subject. Topics include: an introduction to thermodynamic functions and laws governing equilibrium properties, relating macroscopic behavior to atomistic and molecular models of materials; the role of electronic bonding in determining the energy, structure, and stability of materials; quantum mechanical descriptions of interacting electrons and atoms; materials phenomena, such as heat capacities, phase transformations, and multiphase equilibria to chemical reactions and magnetism; symmetry properties of molecules and solids; structure of complex, disordered, and amorphous materials; tensors and constraints on physical properties imposed by symmetry; and determination of structure through diffraction. Real-world applications include engineered alloys, electronic and magnetic materials, ionic and network solids, polymers, and biomaterials.\n\nThis course is a core subject in MIT's undergraduate {{% resource_link \"10f57a98-d620-47d0-88b4-56530de31319\" \"Energy Studies Minor\" %}}. This Institute-wide program complements the deep expertise obtained in any major with a broad understanding of the interlinked realms of science, technology, and social sciences as they relate to energy and associated environmental challenges.",
+  "course_description_html": "<p>This course focuses on the fundamentals of structure, energetics, and bonding that underpin materials science. It is the introductory lecture class for sophomore students in Materials Science and Engineering, taken with <a     href=\"https://ocw.mit.edu/courses/3-014-materials-laboratory-fall-2006/\"  >3.014</a> and <a     href=\"https://ocw.mit.edu/courses/3-016-mathematics-for-materials-scientists-and-engineers-fall-2005/\"  >3.016</a> to create a unified introduction to the subject. Topics include: an introduction to thermodynamic functions and laws governing equilibrium properties, relating macroscopic behavior to atomistic and molecular models of materials; the role of electronic bonding in determining the energy, structure, and stability of materials; quantum mechanical descriptions of interacting electrons and atoms; materials phenomena, such as heat capacities, phase transformations, and multiphase equilibria to chemical reactions and magnetism; symmetry properties of molecules and solids; structure of complex, disordered, and amorphous materials; tensors and constraints on physical properties imposed by symmetry; and determination of structure through diffraction. Real-world applications include engineered alloys, electronic and magnetic materials, ionic and network solids, polymers, and biomaterials.</p>\n<p>This course is a core subject in MIT&rsquo;s undergraduate <a   class=\"external-link \"   target=\"_blank\"   href=\"http://mitei.mit.edu/education/energy-minor\"  aria-label=\"Energy Studies Minor (opens in a new tab)\"  >Energy Studies Minor</a>. This Institute-wide program complements the deep expertise obtained in any major with a broad understanding of the interlinked realms of science, technology, and social sciences as they relate to energy and associated environmental challenges.</p>\n",
+  "course_image": {
+    "content": "72486bb4-a3f8-dce1-d2f2-316e9158751e",
+    "website": "3-012-fundamentals-of-materials-science-fall-2005"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "Charge density in paraelectric and ferroelectric PbTiO3. See lecture notes for lecture #16, Structure and Bonding. (Figure by Prof. Nicola Marzari.)",
+    "draft": false,
+    "file": "/courses/3-012-fundamentals-of-materials-science-fall-2005/72486bb4a3f8dce1d2f2316e9158751e_3-012f05.jpg",
+    "file_size": 75904,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "Charge density in paraelectric and ferroelectric PbTiO₃. See [lecture notes](/courses/3-012-fundamentals-of-materials-science-fall-2005/pages/lecture-notes) for Lec #16, Structure and Bonding. (Figure by Prof. Nicola Marzari.)",
+      "credit": "",
+      "image-alt": "Diagram of two crystal structures."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "3-012f05.jpg",
+    "uid": "72486bb4-a3f8-dce1-d2f2-316e9158751e",
+    "video_files": {
+      "video_captions_file": "",
+      "video_thumbnail_file": "",
+      "video_transcript_file": ""
+    },
+    "video_metadata": {
+      "video_speakers": "",
+      "video_tags": "",
+      "youtube_description": "",
+      "youtube_id": ""
+    }
+  },
+  "course_image_thumbnail": {
+    "content": "2076a476-3640-1d97-cb51-df9885539bca",
+    "website": "3-012-fundamentals-of-materials-science-fall-2005"
+  },
+  "course_title": "Fundamentals of Materials Science",
+  "department_numbers": [
+    "3"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/72486bb4a3f8dce1d2f2316e9158751e_3-012f05.jpg",
+  "instructors": [
+    {
+      "first_name": "Darrell",
+      "last_name": "Irvine",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Darrell Irvine",
+      "uid": "afa998a1-c316-cf1f-be7d-d63eea289663",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Darrell+Irvine"
+    },
+    {
+      "first_name": "Nicola",
+      "last_name": "Marzari",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Nicola Marzari",
+      "uid": "b7f2debb-2e2e-90f6-f962-dfa00f9758c0",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Nicola+Marzari"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Notes",
+    "Written Assignments with Examples",
+    "Problem Sets",
+    "Problem Set Solutions",
+    "Exams",
+    "Exam Solutions"
+  ],
+  "legacy_uid": "c8cdac35-fd90-8d21-f39b-b34be863a0b1",
+  "level": [
+    "Undergraduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Engineering",
+      "Materials Science and Engineering"
+    ],
+    [
+      "Science & Math",
+      "Physics"
+    ]
+  ],
+  "primary_course_number": "3.012",
+  "site_short_id": "3.012-fall-2005",
+  "site_uid": "1881df72-417f-42df-8c1a-9599f45d5627",
+  "site_url_path": "courses/3-012-fundamentals-of-materials-science-fall-2005",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Engineering",
+      "Materials Science and Engineering"
+    ],
+    [
+      "Science",
+      "Physics",
+      "Thermodynamics"
+    ]
+  ],
+  "year": "2005"
+}

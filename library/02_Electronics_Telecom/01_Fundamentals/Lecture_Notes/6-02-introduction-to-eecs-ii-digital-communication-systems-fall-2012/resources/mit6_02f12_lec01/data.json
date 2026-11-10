@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains information regarding information and entropy.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information regarding information and entropy.",
+  "draft": false,
+  "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/21637440fda8bd0e28d06a9eac518b03_MIT6_02F12_lec01.pdf",
+  "file_size": 760221,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Slides",
+  "parent_type": "CourseSection",
+  "parent_uid": "6293cb2b-b2c9-55e5-230f-875fa43a271f",
+  "resourcetype": "Document",
+  "title": "6.02 Lecture 1: Overview: information and entropy",
+  "uid": "21637440-fda8-bd0e-28d0-6a9eac518b03"
+}

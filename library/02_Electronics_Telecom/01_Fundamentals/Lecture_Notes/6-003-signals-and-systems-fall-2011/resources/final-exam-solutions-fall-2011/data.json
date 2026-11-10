@@ -1,0 +1,47 @@
+{
+  "content": "<p>This file contains information regarding fall 2011 final exam solutions.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains information regarding fall 2011 final exam solutions.",
+  "draft": false,
+  "file": "/courses/6-003-signals-and-systems-fall-2011/aa172db862363cd58b2710944a926f5a_MIT6_003F11_final_sol.pdf",
+  "file_size": 541564,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exam Solutions"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Exams",
+  "parent_type": "CourseSection",
+  "parent_uid": "042e449a-3718-58da-3786-6017891d48d8",
+  "resourcetype": "Document",
+  "title": "Final Exam Solutions, Fall 2011",
+  "uid": "aa172db8-6236-3cd5-8b27-10944a926f5a",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-003-signals-and-systems-fall-2011"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-003-signals-and-systems-fall-2011"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

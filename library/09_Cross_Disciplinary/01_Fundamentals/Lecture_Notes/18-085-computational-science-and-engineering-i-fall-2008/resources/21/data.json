@@ -1,0 +1,27 @@
+{
+  "content": "<p>Thumbnail image accompanying a video lecture on boundary conditions, splines, gradient, and divergence.</p>\n",
+  "content_type": "resource",
+  "description": "Thumbnail image accompanying a video lecture on boundary conditions, splines, gradient, and divergence.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/21a7c0e7ff547725fc2177242950a5c9_21.jpg",
+  "file_size": 2979,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Lecture 21",
+  "uid": "21a7c0e7-ff54-7725-fc21-77242950a5c9",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

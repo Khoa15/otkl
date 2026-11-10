@@ -1,0 +1,4162 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.610 align:middle line:90%
+
+
+00:00:00.610 --> 00:00:02.440 align:middle line:84%
+The following
+content is provided
+
+00:00:02.440 --> 00:00:06.340 align:middle line:84%
+by MIT OpenCourseWare under
+a Creative Commons license.
+
+00:00:06.340 --> 00:00:08.470 align:middle line:84%
+Additional information
+about our license,
+
+00:00:08.470 --> 00:00:10.870 align:middle line:84%
+and MIT OpenCourseWare
+in general,
+
+00:00:10.870 --> 00:00:13.090 align:middle line:90%
+is available at ocw.mit.edu.
+
+00:00:13.090 --> 00:00:16.610 align:middle line:90%
+
+
+00:00:16.610 --> 00:00:19.830 align:middle line:84%
+GEORGE CHURCH: We've come
+to the fifth lecture,
+
+00:00:19.830 --> 00:00:26.660 align:middle line:84%
+the first of a series, on
+RNA and expression analysis.
+
+00:00:26.660 --> 00:00:30.320 align:middle line:84%
+First, a quick review
+of last week, and it
+
+00:00:30.320 --> 00:00:32.374 align:middle line:84%
+has significant
+connections this week,
+
+00:00:32.374 --> 00:00:37.090 align:middle line:84%
+where we talked to the
+topic of alignments
+
+00:00:37.090 --> 00:00:40.750 align:middle line:84%
+and different algorithms for
+obtaining pairwise alignments.
+
+00:00:40.750 --> 00:00:43.060 align:middle line:84%
+In particular
+dynamic programming,
+
+00:00:43.060 --> 00:00:45.470 align:middle line:84%
+this led to an even
+harder problem,
+
+00:00:45.470 --> 00:00:47.770 align:middle line:84%
+which is multi-sequence
+alignment, from which we
+
+00:00:47.770 --> 00:00:52.620 align:middle line:84%
+will draw pretty heavily at
+the beginning of the discussion
+
+00:00:52.620 --> 00:00:53.760 align:middle line:90%
+today.
+
+00:00:53.760 --> 00:00:59.780 align:middle line:84%
+And then, the issues
+of getting the motifs,
+
+00:00:59.780 --> 00:01:02.390 align:middle line:84%
+another topic we will touch
+upon several times today,
+
+00:01:02.390 --> 00:01:05.120 align:middle line:84%
+how you get-- once you have a
+multi-sequence alignment, how
+
+00:01:05.120 --> 00:01:10.430 align:middle line:84%
+this gives you either an
+independent weight matrix where
+
+00:01:10.430 --> 00:01:13.610 align:middle line:84%
+different positions are
+independent or in a hidden
+
+00:01:13.610 --> 00:01:17.570 align:middle line:84%
+Markov model where there is
+some dependence between, say,
+
+00:01:17.570 --> 00:01:21.515 align:middle line:84%
+adjacent nucleotides in a
+simple sequence such as CG.
+
+00:01:21.515 --> 00:01:24.150 align:middle line:90%
+
+
+00:01:24.150 --> 00:01:27.780 align:middle line:84%
+So let us carry
+over these thoughts
+
+00:01:27.780 --> 00:01:32.370 align:middle line:84%
+about multi-sequence
+alignment motifs
+
+00:01:32.370 --> 00:01:36.960 align:middle line:84%
+and non independence of
+positions in sequences
+
+00:01:36.960 --> 00:01:39.540 align:middle line:90%
+to the next level higher.
+
+00:01:39.540 --> 00:01:41.193 align:middle line:84%
+We will eventually
+talk about protein
+
+00:01:41.193 --> 00:01:42.360 align:middle line:90%
+three-dimensional structure.
+
+00:01:42.360 --> 00:01:48.160 align:middle line:84%
+But a really beautiful
+intermediate between proteins
+
+00:01:48.160 --> 00:01:50.290 align:middle line:84%
+are the complexities
+of protein structure
+
+00:01:50.290 --> 00:01:53.350 align:middle line:84%
+and the simplicity of
+double-stranded DNA
+
+00:01:53.350 --> 00:01:59.590 align:middle line:84%
+is the folding of
+RNAs because they're
+
+00:01:59.590 --> 00:02:01.660 align:middle line:84%
+based on the same rules
+of double-stranded DNA,
+
+00:02:01.660 --> 00:02:06.320 align:middle line:84%
+but they have the
+complicated structures
+
+00:02:06.320 --> 00:02:09.000 align:middle line:84%
+of-- begin to have a complicated
+structure of proteins.
+
+00:02:09.000 --> 00:02:11.870 align:middle line:84%
+So we'll start with
+this integration
+
+00:02:11.870 --> 00:02:16.700 align:middle line:84%
+of multi-sequence alignment
+of motifs with RNA structure,
+
+00:02:16.700 --> 00:02:23.180 align:middle line:84%
+and then we'll switch to
+tell about how these RNA
+
+00:02:23.180 --> 00:02:27.170 align:middle line:84%
+structures play their
+role by achieving
+
+00:02:27.170 --> 00:02:30.110 align:middle line:90%
+different levels in the cell.
+
+00:02:30.110 --> 00:02:32.750 align:middle line:84%
+In other words, we want
+to start to introduce
+
+00:02:32.750 --> 00:02:37.220 align:middle line:84%
+how we become quantitative about
+the amounts and localization
+
+00:02:37.220 --> 00:02:38.900 align:middle line:90%
+of RNAs in the cell.
+
+00:02:38.900 --> 00:02:42.500 align:middle line:84%
+Some of the measures that we'll
+be talking about and the tool--
+
+00:02:42.500 --> 00:02:47.960 align:middle line:84%
+the computational tools
+will be more appropriate
+
+00:02:47.960 --> 00:02:50.660 align:middle line:84%
+for individual measures
+and others will be more,
+
+00:02:50.660 --> 00:02:54.380 align:middle line:84%
+what we call, genomics
+grade, high throughput
+
+00:02:54.380 --> 00:02:57.780 align:middle line:90%
+and high accuracy.
+
+00:02:57.780 --> 00:03:00.770 align:middle line:90%
+And we have this--
+
+00:03:00.770 --> 00:03:06.590 align:middle line:84%
+since this is a new
+category of biological data,
+
+00:03:06.590 --> 00:03:09.320 align:middle line:84%
+we have to address random
+and systematic errors
+
+00:03:09.320 --> 00:03:12.290 align:middle line:84%
+just as we did for
+genotyping and sequence data.
+
+00:03:12.290 --> 00:03:14.720 align:middle line:84%
+This is a new set of
+them and a new set
+
+00:03:14.720 --> 00:03:18.120 align:middle line:84%
+of solutions about the same
+themes of random and systematic
+
+00:03:18.120 --> 00:03:18.620 align:middle line:90%
+errors.
+
+00:03:18.620 --> 00:03:22.250 align:middle line:84%
+And then we'll talk
+about a particular set
+
+00:03:22.250 --> 00:03:23.930 align:middle line:84%
+of interpretation
+issues that lead
+
+00:03:23.930 --> 00:03:26.510 align:middle line:90%
+to additional considerations.
+
+00:03:26.510 --> 00:03:29.420 align:middle line:84%
+And we'll end on time
+series data which
+
+00:03:29.420 --> 00:03:31.700 align:middle line:84%
+will be a theme
+that will connect
+
+00:03:31.700 --> 00:03:34.940 align:middle line:84%
+this talk to much later
+talks and systems biology
+
+00:03:34.940 --> 00:03:39.110 align:middle line:84%
+where the ability to
+connect with a time series
+
+00:03:39.110 --> 00:03:46.550 align:middle line:84%
+will help establish
+causality and connectivity.
+
+00:03:46.550 --> 00:03:49.530 align:middle line:84%
+And we'll tie it to the
+subject of RNA analysis
+
+00:03:49.530 --> 00:03:52.480 align:middle line:84%
+by looking at
+messenger RNA to k.
+
+00:03:52.480 --> 00:03:56.320 align:middle line:84%
+Now slide three is a
+reminder that we'll
+
+00:03:56.320 --> 00:03:58.150 align:middle line:84%
+use in two different
+contexts tonight.
+
+00:03:58.150 --> 00:04:01.900 align:middle line:84%
+First, these are the bell
+curves that you've seen,
+
+00:04:01.900 --> 00:04:04.660 align:middle line:84%
+at least three of them
+integrated before--
+
+00:04:04.660 --> 00:04:08.200 align:middle line:84%
+the two discrete
+binomial Poisson
+
+00:04:08.200 --> 00:04:12.250 align:middle line:84%
+and the normal, which is
+symmetric around the mean
+
+00:04:12.250 --> 00:04:13.480 align:middle line:90%
+of 20, in this case.
+
+00:04:13.480 --> 00:04:16.290 align:middle line:90%
+
+
+00:04:16.290 --> 00:04:23.370 align:middle line:84%
+And just to connect to the
+discussion from last time where
+
+00:04:23.370 --> 00:04:29.810 align:middle line:84%
+we were asking what the
+significance of a match
+
+00:04:29.810 --> 00:04:32.720 align:middle line:84%
+of a single sequence
+to a database might be,
+
+00:04:32.720 --> 00:04:35.660 align:middle line:84%
+when you're asking for a match
+of a single-sequence database,
+
+00:04:35.660 --> 00:04:38.870 align:middle line:84%
+you're typically really
+asking for the maximum match,
+
+00:04:38.870 --> 00:04:40.340 align:middle line:90%
+or the maximum--
+
+00:04:40.340 --> 00:04:43.700 align:middle line:90%
+the most extreme matches.
+
+00:04:43.700 --> 00:04:45.590 align:middle line:84%
+And so when you
+talk about extremes,
+
+00:04:45.590 --> 00:04:47.810 align:middle line:84%
+when you're sampling
+from a distribution,
+
+00:04:47.810 --> 00:04:50.180 align:middle line:84%
+and you're looking for
+the most extreme value
+
+00:04:50.180 --> 00:04:53.090 align:middle line:84%
+for finite sampling
+of that distribution,
+
+00:04:53.090 --> 00:04:55.910 align:middle line:84%
+that tends to be not from the
+normal distribution, which
+
+00:04:55.910 --> 00:04:57.920 align:middle line:84%
+would be random sampling,
+but from-- which
+
+00:04:57.920 --> 00:05:06.470 align:middle line:90%
+is this middle magenta curve.
+
+00:05:06.470 --> 00:05:09.115 align:middle line:84%
+But instead, it would be extreme
+value distribution, which
+
+00:05:09.115 --> 00:05:11.240 align:middle line:84%
+is this blue curve, which
+you can see in this case,
+
+00:05:11.240 --> 00:05:13.180 align:middle line:84%
+since we're looking
+for extreme maximum,
+
+00:05:13.180 --> 00:05:15.170 align:middle line:84%
+it's shifted slightly
+to the right.
+
+00:05:15.170 --> 00:05:19.840 align:middle line:84%
+And so you can see that it
+comes inside of the other bell
+
+00:05:19.840 --> 00:05:22.270 align:middle line:84%
+curves, on the
+left-hand side, and goes
+
+00:05:22.270 --> 00:05:24.010 align:middle line:90%
+outside, on the right-hand side.
+
+00:05:24.010 --> 00:05:27.910 align:middle line:84%
+If we were looking for
+extremely low values then
+
+00:05:27.910 --> 00:05:29.810 align:middle line:84%
+it would've been
+shifted to the left.
+
+00:05:29.810 --> 00:05:34.030 align:middle line:84%
+And remember, all these
+continuous functions go off
+
+00:05:34.030 --> 00:05:35.950 align:middle line:84%
+to negative infinity
+and positive infinity,
+
+00:05:35.950 --> 00:05:37.390 align:middle line:84%
+although at
+extremely low levels.
+
+00:05:37.390 --> 00:05:41.810 align:middle line:90%
+
+
+00:05:41.810 --> 00:05:46.100 align:middle line:84%
+And then that's the
+extreme value distribution.
+
+00:05:46.100 --> 00:05:52.280 align:middle line:84%
+Now in order to connect this
+nucleotide sequence, which
+
+00:05:52.280 --> 00:05:55.310 align:middle line:84%
+we've been seeing has these
+wonderful Watson Crick base
+
+00:05:55.310 --> 00:05:58.380 align:middle line:84%
+pairs that were
+TNA, and so forth,
+
+00:05:58.380 --> 00:06:02.810 align:middle line:84%
+is to this more complicated
+tertiary structure.
+
+00:06:02.810 --> 00:06:04.790 align:middle line:84%
+We're going to go
+through an intermediate
+
+00:06:04.790 --> 00:06:06.710 align:middle line:84%
+of secondary structure
+where we really
+
+00:06:06.710 --> 00:06:10.910 align:middle line:84%
+look at whether what kind
+of base pairs can form.
+
+00:06:10.910 --> 00:06:14.340 align:middle line:84%
+And I'm going to immediately
+introduce some complexities
+
+00:06:14.340 --> 00:06:20.270 align:middle line:84%
+so you don't get too
+complacent right off the bat.
+
+00:06:20.270 --> 00:06:24.230 align:middle line:84%
+Somewhere in this slide of
+non-Watson-Crick base pairs
+
+00:06:24.230 --> 00:06:27.940 align:middle line:90%
+is a Watson-Crick base pair.
+
+00:06:27.940 --> 00:06:30.040 align:middle line:90%
+Take a moment to find it.
+
+00:06:30.040 --> 00:06:30.570 align:middle line:90%
+Fine.
+
+00:06:30.570 --> 00:06:31.070 align:middle line:90%
+OK.
+
+00:06:31.070 --> 00:06:33.490 align:middle line:84%
+So since we haven't introduced
+base pairs, it's going to--
+
+00:06:33.490 --> 00:06:36.970 align:middle line:84%
+well, we've seen it twice
+now in double-stranded DNA.
+
+00:06:36.970 --> 00:06:38.635 align:middle line:84%
+Right in the middle
+here are labeled
+
+00:06:38.635 --> 00:06:43.150 align:middle line:84%
+A is an AU base pair,
+which is Watson-Crick
+
+00:06:43.150 --> 00:06:47.980 align:middle line:84%
+where the black dot
+indicates the attachment
+
+00:06:47.980 --> 00:06:52.390 align:middle line:84%
+to the ribose in RNA, or
+to the oxyribose in DNA.
+
+00:06:52.390 --> 00:06:55.210 align:middle line:84%
+And you'll find three
+other AT base pairs.
+
+00:06:55.210 --> 00:06:59.560 align:middle line:84%
+One right to the right
+of it and two down below.
+
+00:06:59.560 --> 00:07:02.590 align:middle line:84%
+And these four AT
+base pairs are all
+
+00:07:02.590 --> 00:07:07.940 align:middle line:84%
+different from one
+another, most easily
+
+00:07:07.940 --> 00:07:09.710 align:middle line:84%
+imagined in terms
+of the orientation
+
+00:07:09.710 --> 00:07:14.670 align:middle line:84%
+of the riboses, these black
+dots, relative to one another.
+
+00:07:14.670 --> 00:07:16.370 align:middle line:90%
+And they each have names.
+
+00:07:16.370 --> 00:07:18.790 align:middle line:84%
+But the important thing
+is that all of these
+
+00:07:18.790 --> 00:07:22.190 align:middle line:84%
+are illustrated such
+that they maintain
+
+00:07:22.190 --> 00:07:24.380 align:middle line:90%
+the coplanarity of the bases.
+
+00:07:24.380 --> 00:07:27.080 align:middle line:84%
+They typically maintain
+one, or two, or even
+
+00:07:27.080 --> 00:07:29.510 align:middle line:90%
+three hydrogen bonds.
+
+00:07:29.510 --> 00:07:34.130 align:middle line:84%
+And the planarity allows
+them to stack on base pairs
+
+00:07:34.130 --> 00:07:36.650 align:middle line:84%
+below and above them,
+just as you would
+
+00:07:36.650 --> 00:07:38.255 align:middle line:90%
+in normal double-stranded DNA.
+
+00:07:38.255 --> 00:07:41.040 align:middle line:90%
+
+
+00:07:41.040 --> 00:07:43.680 align:middle line:84%
+But sometimes, the geometry
+distorts the double helix
+
+00:07:43.680 --> 00:07:46.020 align:middle line:84%
+enough that you
+might get a penalty
+
+00:07:46.020 --> 00:07:50.910 align:middle line:84%
+in the free energy in
+the thermodynamic sense,
+
+00:07:50.910 --> 00:07:54.030 align:middle line:90%
+or the kinetics, in a sense.
+
+00:07:54.030 --> 00:07:55.000 align:middle line:90%
+Now here's another.
+
+00:07:55.000 --> 00:07:57.180 align:middle line:84%
+So you can find almost--
+you can basically
+
+00:07:57.180 --> 00:07:59.010 align:middle line:84%
+make one of these
+base pairs for all
+
+00:07:59.010 --> 00:08:09.280 align:middle line:84%
+of the possible combinations
+of ACG and U in RNA.
+
+00:08:09.280 --> 00:08:10.660 align:middle line:84%
+And all of them
+will be coplanar,
+
+00:08:10.660 --> 00:08:13.990 align:middle line:84%
+and they will have one
+or more hydrogen bonds.
+
+00:08:13.990 --> 00:08:16.330 align:middle line:84%
+Probably the most
+stable and most commonly
+
+00:08:16.330 --> 00:08:19.810 align:middle line:84%
+encountered in
+otherwise normal RNA
+
+00:08:19.810 --> 00:08:22.370 align:middle line:84%
+double helices is
+a GU base pair.
+
+00:08:22.370 --> 00:08:25.210 align:middle line:84%
+And you can see that this
+has fairly similar geometry
+
+00:08:25.210 --> 00:08:30.500 align:middle line:84%
+to the AU base pair, or for
+that matter, the GC base pair.
+
+00:08:30.500 --> 00:08:35.370 align:middle line:84%
+So let's see how these non
+Watson-Crick base pairs appear.
+
+00:08:35.370 --> 00:08:39.470 align:middle line:84%
+And this is the
+transfer RNA that we
+
+00:08:39.470 --> 00:08:41.809 align:middle line:84%
+saw a couple of slides
+ago, spinning around
+
+00:08:41.809 --> 00:08:42.740 align:middle line:90%
+in three dimensions.
+
+00:08:42.740 --> 00:08:46.190 align:middle line:84%
+And the sequence
+that was behind it
+
+00:08:46.190 --> 00:08:49.700 align:middle line:84%
+was the DNA sequence
+that corresponds
+
+00:08:49.700 --> 00:08:53.015 align:middle line:84%
+to this unmodified RNA sequence
+on the right-hand side.
+
+00:08:53.015 --> 00:08:56.340 align:middle line:90%
+
+
+00:08:56.340 --> 00:09:02.550 align:middle line:84%
+What we have-- you can think of
+this as four fairly canonical
+
+00:09:02.550 --> 00:09:07.650 align:middle line:84%
+Watson-Crick type double helices
+for RNA double helices, which
+
+00:09:07.650 --> 00:09:12.380 align:middle line:84%
+are slightly different from
+the DNA double helices.
+
+00:09:12.380 --> 00:09:16.940 align:middle line:84%
+But in this-- so we have
+seven base pairs, six of which
+
+00:09:16.940 --> 00:09:20.690 align:middle line:84%
+are Watson-Crick in
+the top stem loop,
+
+00:09:20.690 --> 00:09:23.690 align:middle line:84%
+starting at position number
+one with the 5-prime end
+
+00:09:23.690 --> 00:09:26.370 align:middle line:90%
+and ending position 72.
+
+00:09:26.370 --> 00:09:29.250 align:middle line:90%
+So one and 72 is a GC base pair.
+
+00:09:29.250 --> 00:09:31.760 align:middle line:84%
+And you can see that
+the anticodon where
+
+00:09:31.760 --> 00:09:35.450 align:middle line:84%
+it meets the messenger RNA is
+at the bottom right-hand part
+
+00:09:35.450 --> 00:09:36.950 align:middle line:90%
+of the slide.
+
+00:09:36.950 --> 00:09:39.920 align:middle line:84%
+And if you just look
+at that loop and--
+
+00:09:39.920 --> 00:09:45.260 align:middle line:84%
+you've got a seven-base loop
+and a five-base pair anticodon
+
+00:09:45.260 --> 00:09:46.250 align:middle line:90%
+stem.
+
+00:09:46.250 --> 00:09:47.310 align:middle line:90%
+And so each of these--
+
+00:09:47.310 --> 00:09:51.830 align:middle line:84%
+so that each of these stems has
+some distinguishing features,
+
+00:09:51.830 --> 00:09:55.370 align:middle line:84%
+a number of base pairs
+ranges from four to seven.
+
+00:09:55.370 --> 00:09:59.360 align:middle line:84%
+You've got a GU base pair in
+the middle of the top stem.
+
+00:09:59.360 --> 00:10:02.000 align:middle line:84%
+And you've got
+little sequence boxes
+
+00:10:02.000 --> 00:10:09.340 align:middle line:84%
+which are fairly conserved,
+such as this T psi CG The--
+
+00:10:09.340 --> 00:10:13.510 align:middle line:84%
+is-- actually, in its
+original form is a UU CG.
+
+00:10:13.510 --> 00:10:17.470 align:middle line:84%
+And the T and the
+psi, or pseudouridine,
+
+00:10:17.470 --> 00:10:19.480 align:middle line:84%
+are examples of modified
+bases, which are shown
+
+00:10:19.480 --> 00:10:21.110 align:middle line:90%
+on the left side of the slide.
+
+00:10:21.110 --> 00:10:23.320 align:middle line:84%
+You can see there's
+quite a number of them.
+
+00:10:23.320 --> 00:10:27.340 align:middle line:84%
+You can add a methyl
+group of ch3 groups
+
+00:10:27.340 --> 00:10:30.940 align:middle line:84%
+to either of the bases, such
+as one methyl group on G.
+
+00:10:30.940 --> 00:10:33.640 align:middle line:84%
+Or you can add them to the
+riboses, such as the two
+
+00:10:33.640 --> 00:10:38.170 align:middle line:84%
+prime methyl groups, which can
+go on any of the four bases
+
+00:10:38.170 --> 00:10:41.350 align:middle line:84%
+because it's modifying the
+ribose which is generic.
+
+00:10:41.350 --> 00:10:44.110 align:middle line:84%
+Most of the other ones are
+very specific to a base.
+
+00:10:44.110 --> 00:10:46.630 align:middle line:84%
+So for example, dihydrouridine
+is a modification that
+
+00:10:46.630 --> 00:10:49.210 align:middle line:90%
+can only occur to uridines.
+
+00:10:49.210 --> 00:10:52.285 align:middle line:84%
+The pseudouridine--
+similar thing.
+
+00:10:52.285 --> 00:10:55.660 align:middle line:90%
+
+
+00:10:55.660 --> 00:10:57.180 align:middle line:90%
+And so on.
+
+00:10:57.180 --> 00:10:59.640 align:middle line:84%
+So each of these
+requires an enzyme.
+
+00:10:59.640 --> 00:11:02.970 align:middle line:84%
+And we will highlight one of
+the enzymes that's involved
+
+00:11:02.970 --> 00:11:07.140 align:middle line:84%
+in putting the methyl
+groups onto the sugars,
+
+00:11:07.140 --> 00:11:10.210 align:middle line:84%
+the [? 0,2 ?] [? trimethyl ?]
+in just a few slides.
+
+00:11:10.210 --> 00:11:11.880 align:middle line:84%
+But right now,
+what we want to ask
+
+00:11:11.880 --> 00:11:13.930 align:middle line:84%
+is how did we get this
+folding structure.
+
+00:11:13.930 --> 00:11:15.930 align:middle line:84%
+Now this is not the
+three-dimensional structure.
+
+00:11:15.930 --> 00:11:18.570 align:middle line:84%
+This is the intermediate,
+between the primary DNA
+
+00:11:18.570 --> 00:11:21.738 align:middle line:84%
+sequence and the fully
+modified, fully folded
+
+00:11:21.738 --> 00:11:24.030 align:middle line:84%
+three-dimensional structure
+that we saw spinning around
+
+00:11:24.030 --> 00:11:25.450 align:middle line:90%
+a couple slides ago.
+
+00:11:25.450 --> 00:11:31.250 align:middle line:84%
+So the first thing is the
+way-- you can try folding
+
+00:11:31.250 --> 00:11:36.170 align:middle line:84%
+this, for you oppose
+each base pair in turn
+
+00:11:36.170 --> 00:11:38.540 align:middle line:90%
+to look for possible matches.
+
+00:11:38.540 --> 00:11:41.150 align:middle line:84%
+And then, what we've
+done historically--
+
+00:11:41.150 --> 00:11:43.640 align:middle line:84%
+this is in the
+mid to late '60s--
+
+00:11:43.640 --> 00:11:46.190 align:middle line:84%
+was you take each new
+transfer RNA sequence
+
+00:11:46.190 --> 00:11:49.880 align:middle line:84%
+and ask whether it
+makes a decent fold
+
+00:11:49.880 --> 00:11:52.280 align:middle line:84%
+in this simple
+planar representation
+
+00:11:52.280 --> 00:11:54.320 align:middle line:84%
+that's related to
+the previous ones,
+
+00:11:54.320 --> 00:11:57.260 align:middle line:84%
+under the assumption,
+the hope that there would
+
+00:11:57.260 --> 00:12:01.040 align:middle line:84%
+be some conservation, not
+only of sequence of some
+
+00:12:01.040 --> 00:12:05.600 align:middle line:84%
+of these motifs like the PSI
+CG, but also the way that it
+
+00:12:05.600 --> 00:12:06.290 align:middle line:90%
+folds up.
+
+00:12:06.290 --> 00:12:08.600 align:middle line:84%
+And you might even
+hypothesize that maybe it
+
+00:12:08.600 --> 00:12:11.180 align:middle line:84%
+doesn't matter what the sequence
+is in some of these stems.
+
+00:12:11.180 --> 00:12:13.940 align:middle line:84%
+What's important is that it's
+capable of forming a stem,
+
+00:12:13.940 --> 00:12:19.370 align:middle line:84%
+that it is that position one is
+complementary to position 72.
+
+00:12:19.370 --> 00:12:22.010 align:middle line:84%
+If position one were to
+change from a G to an A,
+
+00:12:22.010 --> 00:12:26.840 align:middle line:84%
+then position 72 should
+change from a C to a U.
+
+00:12:26.840 --> 00:12:31.050 align:middle line:90%
+So how do we formalize this?
+
+00:12:31.050 --> 00:12:34.740 align:middle line:84%
+How do we formalize the
+process by which we generate
+
+00:12:34.740 --> 00:12:36.420 align:middle line:84%
+this so-called
+cloverleaf structural
+
+00:12:36.420 --> 00:12:43.670 align:middle line:84%
+or any similar folding pattern
+for small nucleic acids.
+
+00:12:43.670 --> 00:12:46.880 align:middle line:84%
+And what are the limitations
+of those algorithms.
+
+00:12:46.880 --> 00:12:49.310 align:middle line:84%
+And these dotted
+lines, you see, are
+
+00:12:49.310 --> 00:12:51.470 align:middle line:84%
+some of the non
+Watson-Crick based pairs.
+
+00:12:51.470 --> 00:12:52.820 align:middle line:90%
+Some of them will stack.
+
+00:12:52.820 --> 00:12:54.590 align:middle line:84%
+Many of them-- some
+of them will actually
+
+00:12:54.590 --> 00:12:58.280 align:middle line:84%
+form the hydrogen bonds of
+the Watson-Crick based pair
+
+00:12:58.280 --> 00:13:02.210 align:middle line:84%
+but they won't otherwise have
+the rest of the geometry.
+
+00:13:02.210 --> 00:13:03.830 align:middle line:84%
+And you can see
+that some of these
+
+00:13:03.830 --> 00:13:06.740 align:middle line:84%
+will provide connections
+between two loops which
+
+00:13:06.740 --> 00:13:08.180 align:middle line:90%
+are separated by stems.
+
+00:13:08.180 --> 00:13:13.580 align:middle line:84%
+And this kind of folding
+back means that it's not
+
+00:13:13.580 --> 00:13:18.170 align:middle line:90%
+a simple set of helices.
+
+00:13:18.170 --> 00:13:20.240 align:middle line:84%
+So the way that
+we formalize this
+
+00:13:20.240 --> 00:13:24.980 align:middle line:84%
+is we say that position
+number one, if it's
+
+00:13:24.980 --> 00:13:31.060 align:middle line:84%
+bound to position number 72,
+and the exact sequence maybe
+
+00:13:31.060 --> 00:13:34.030 align:middle line:84%
+isn't as important as their
+ability to pair well another,
+
+00:13:34.030 --> 00:13:37.150 align:middle line:84%
+then you expect if you take a
+large number of transfer RNAs
+
+00:13:37.150 --> 00:13:40.420 align:middle line:84%
+and do a multi-sequence
+alignment, as we did last time,
+
+00:13:40.420 --> 00:13:44.710 align:middle line:84%
+then in that
+multi-sequence alignment,
+
+00:13:44.710 --> 00:13:48.610 align:middle line:84%
+you expect that
+when the G changes,
+
+00:13:48.610 --> 00:13:49.600 align:middle line:90%
+the C will change, too.
+
+00:13:49.600 --> 00:13:51.100 align:middle line:90%
+And that's called covariance.
+
+00:13:51.100 --> 00:13:53.290 align:middle line:84%
+And if you look at
+the vertical axis,
+
+00:13:53.290 --> 00:13:58.200 align:middle line:84%
+the maximum that can be achieved
+is the same kind of maximum
+
+00:13:58.200 --> 00:14:01.440 align:middle line:84%
+that we had in the
+motifs last lecture.
+
+00:14:01.440 --> 00:14:04.800 align:middle line:84%
+The motifs, we've actually
+had a couple of times.
+
+00:14:04.800 --> 00:14:06.270 align:middle line:90%
+It can get up to two bits.
+
+00:14:06.270 --> 00:14:11.310 align:middle line:84%
+Two bits is the full
+scale for a base pair,
+
+00:14:11.310 --> 00:14:14.130 align:middle line:84%
+or base, which can have
+four different values, A, C,
+
+00:14:14.130 --> 00:14:16.740 align:middle line:84%
+G, or T. And we're calling
+this mutual information
+
+00:14:16.740 --> 00:14:20.830 align:middle line:84%
+if it has the same units, a
+full scale of zero to two bits.
+
+00:14:20.830 --> 00:14:25.140 align:middle line:84%
+And so we see along the
+horizontal axis, here--
+
+00:14:25.140 --> 00:14:29.970 align:middle line:84%
+call them positions I and J,
+which range from one to 72,
+
+00:14:29.970 --> 00:14:32.040 align:middle line:84%
+which is the core part
+of the transfer RNA.
+
+00:14:32.040 --> 00:14:37.560 align:middle line:84%
+The last four bases are added
+by a specialized enzyme.
+
+00:14:37.560 --> 00:14:40.200 align:middle line:84%
+But position number
+one and position 72
+
+00:14:40.200 --> 00:14:41.910 align:middle line:84%
+covariates
+[? assume ?] this peak
+
+00:14:41.910 --> 00:14:46.390 align:middle line:90%
+in the far left-hand region.
+
+00:14:46.390 --> 00:14:51.060 align:middle line:84%
+In effect, there's seven
+peaks in a row there
+
+00:14:51.060 --> 00:14:56.430 align:middle line:84%
+which correspond to the seven
+stacked base pairs they covary.
+
+00:14:56.430 --> 00:15:01.320 align:middle line:84%
+Similarly, in the TC to UC stem
+that we talked about a couple
+
+00:15:01.320 --> 00:15:06.270 align:middle line:84%
+of times there, that those
+five nucleotides covary
+
+00:15:06.270 --> 00:15:12.390 align:middle line:90%
+as you would get in a stem.
+
+00:15:12.390 --> 00:15:15.220 align:middle line:84%
+The anti-codon stem
+is another five.
+
+00:15:15.220 --> 00:15:20.160 align:middle line:84%
+And that D stem, so named after
+the hydrourodine modifications
+
+00:15:20.160 --> 00:15:21.690 align:middle line:90%
+is four base pairs.
+
+00:15:21.690 --> 00:15:23.280 align:middle line:84%
+And the way that
+this is derived--
+
+00:15:23.280 --> 00:15:25.510 align:middle line:84%
+and we're going to work
+through this, an example,
+
+00:15:25.510 --> 00:15:31.660 align:middle line:84%
+in the next slide-- but just as
+a labeling of this axis here,
+
+00:15:31.660 --> 00:15:36.130 align:middle line:84%
+the mutual information between
+the Ith base and the jth base,
+
+00:15:36.130 --> 00:15:39.430 align:middle line:84%
+that is to see, for example,
+between I equals 1 and J equals
+
+00:15:39.430 --> 00:15:44.800 align:middle line:84%
+72, is simply the sum of the
+frequency of getting that
+
+00:15:44.800 --> 00:15:46.960 align:middle line:90%
+particular I, N, J--
+
+00:15:46.960 --> 00:15:51.320 align:middle line:84%
+F is the frequency
+of getting, say,
+
+00:15:51.320 --> 00:15:56.500 align:middle line:84%
+a G as position one and
+a C at position 72--
+
+00:15:56.500 --> 00:15:58.453 align:middle line:90%
+times the log base 2.
+
+00:15:58.453 --> 00:16:00.370 align:middle line:84%
+Remember, when we're
+talking about information
+
+00:16:00.370 --> 00:16:03.070 align:middle line:90%
+content of nuclear--
+
+00:16:03.070 --> 00:16:06.310 align:middle line:84%
+or of information in
+general, bits in a computer
+
+00:16:06.310 --> 00:16:11.080 align:middle line:84%
+or nucleotides in a sequence,
+we do log base 2, and--
+
+00:16:11.080 --> 00:16:12.830 align:middle line:84%
+as introduced by
+Shannon and others.
+
+00:16:12.830 --> 00:16:15.830 align:middle line:84%
+So now it's going to be the
+log of that same frequency.
+
+00:16:15.830 --> 00:16:19.420 align:middle line:84%
+So the frequency of
+getting that particular I
+
+00:16:19.420 --> 00:16:23.170 align:middle line:84%
+and that particular
+J type of base
+
+00:16:23.170 --> 00:16:28.450 align:middle line:84%
+normalized now to how
+frequently those two bases occur
+
+00:16:28.450 --> 00:16:33.800 align:middle line:90%
+throughout those positions.
+
+00:16:33.800 --> 00:16:36.700 align:middle line:84%
+In other words, you know
+how often they co-occur
+
+00:16:36.700 --> 00:16:38.660 align:middle line:90%
+at those two positions.
+
+00:16:38.660 --> 00:16:41.300 align:middle line:84%
+Now, how often do they occur
+independently of one another?
+
+00:16:41.300 --> 00:16:43.790 align:middle line:84%
+And that's what the
+denominator is here.
+
+00:16:43.790 --> 00:16:49.420 align:middle line:84%
+So when you take this ratio, you
+put it on a conventional scale,
+
+00:16:49.420 --> 00:16:51.070 align:middle line:84%
+and then you have
+something that's
+
+00:16:51.070 --> 00:16:53.560 align:middle line:84%
+analogous to the P law
+P of information theory.
+
+00:16:53.560 --> 00:17:01.220 align:middle line:84%
+And you sum over all
+of the observed bases
+
+00:17:01.220 --> 00:17:06.220 align:middle line:90%
+at positions I and J.
+
+00:17:06.220 --> 00:17:08.859 align:middle line:84%
+And that that's for
+a particular I and J,
+
+00:17:08.859 --> 00:17:12.940 align:middle line:84%
+you sum over all the X's that
+occur at position, say, one
+
+00:17:12.940 --> 00:17:14.170 align:middle line:90%
+and 72.
+
+00:17:14.170 --> 00:17:16.069 align:middle line:90%
+And then you repeat that.
+
+00:17:16.069 --> 00:17:21.530 align:middle line:84%
+You can get this Nth of IJ
+for every matrix element
+
+00:17:21.530 --> 00:17:28.700 align:middle line:84%
+going from one to 72 in a
+symmetric square matrix.
+
+00:17:28.700 --> 00:17:31.640 align:middle line:84%
+So let's work through this
+for two extreme examples.
+
+00:17:31.640 --> 00:17:34.940 align:middle line:84%
+The extreme case where
+have perfect covariance
+
+00:17:34.940 --> 00:17:39.350 align:middle line:84%
+and the extreme case where
+you have no real association.
+
+00:17:39.350 --> 00:17:42.800 align:middle line:84%
+So we're going to illustrate
+this with a toy multi-sequence
+
+00:17:42.800 --> 00:17:43.670 align:middle line:90%
+alignment here.
+
+00:17:43.670 --> 00:17:47.120 align:middle line:84%
+This is just the same way we
+did the multi-sequence alignment
+
+00:17:47.120 --> 00:17:48.020 align:middle line:90%
+in the last class.
+
+00:17:48.020 --> 00:17:50.180 align:middle line:84%
+Here there are no
+insertions or deletions,
+
+00:17:50.180 --> 00:17:51.590 align:middle line:90%
+but it's the same thing.
+
+00:17:51.590 --> 00:17:53.990 align:middle line:84%
+You could derive a
+weight matrix for this.
+
+00:17:53.990 --> 00:17:56.570 align:middle line:84%
+And you would see that the
+first column-- the far left-hand
+
+00:17:56.570 --> 00:18:00.740 align:middle line:84%
+column, I equals one, has
+all four possibilities,
+
+00:18:00.740 --> 00:18:04.970 align:middle line:84%
+and the so does the
+rightmost column
+
+00:18:04.970 --> 00:18:08.300 align:middle line:84%
+of that multi-sequence
+alignment J equals six.
+
+00:18:08.300 --> 00:18:13.310 align:middle line:84%
+And so let's calculate,
+are these covarying
+
+00:18:13.310 --> 00:18:19.210 align:middle line:84%
+in this simple multi-sequence
+alignment of four [INAUDIBLE]..
+
+00:18:19.210 --> 00:18:21.940 align:middle line:84%
+So we calculate the mutual
+information for I equals one,
+
+00:18:21.940 --> 00:18:25.420 align:middle line:90%
+J equals six Nth of one sixth.
+
+00:18:25.420 --> 00:18:28.210 align:middle line:90%
+It's going to be equal to sum.
+
+00:18:28.210 --> 00:18:31.660 align:middle line:84%
+The first term in the
+sum is for the AU.
+
+00:18:31.660 --> 00:18:34.600 align:middle line:84%
+And then we're going to
+walk through the CG, GC, UA.
+
+00:18:34.600 --> 00:18:36.940 align:middle line:84%
+So there will be four
+terms in the sum.
+
+00:18:36.940 --> 00:18:40.270 align:middle line:84%
+Each of the terms will have,
+coincidentally in this case,
+
+00:18:40.270 --> 00:18:43.720 align:middle line:84%
+have the same frequency for
+that particular pairing of AU.
+
+00:18:43.720 --> 00:18:45.350 align:middle line:84%
+And remember this
+is not a base pair.
+
+00:18:45.350 --> 00:18:47.290 align:middle line:84%
+This is a covariant
+pair of nucleotides
+
+00:18:47.290 --> 00:18:49.207 align:middle line:84%
+that could have been
+anywhere in the sequence.
+
+00:18:49.207 --> 00:18:51.475 align:middle line:84%
+We happen to pick the
+first and the last base.
+
+00:18:51.475 --> 00:18:54.040 align:middle line:90%
+
+
+00:18:54.040 --> 00:18:55.780 align:middle line:84%
+So they all have
+the same frequency.
+
+00:18:55.780 --> 00:18:57.070 align:middle line:90%
+That frequency is 1/4.
+
+00:18:57.070 --> 00:18:59.470 align:middle line:84%
+So the AU occurs
+one quarter of the
+
+00:18:59.470 --> 00:19:01.580 align:middle line:84%
+for sequences in the
+multi-sequence alignment,
+
+00:19:01.580 --> 00:19:02.890 align:middle line:90%
+so that's one quarter.
+
+00:19:02.890 --> 00:19:07.570 align:middle line:84%
+And then, remember it's the same
+frequency inside the logarithm,
+
+00:19:07.570 --> 00:19:09.640 align:middle line:84%
+but now in the
+denominator, we're
+
+00:19:09.640 --> 00:19:12.100 align:middle line:84%
+going to normalize
+it to the frequency
+
+00:19:12.100 --> 00:19:16.090 align:middle line:84%
+that the A occurs in the I
+equals one position, which
+
+00:19:16.090 --> 00:19:17.800 align:middle line:84%
+is one quarter, and
+the frequency that U
+
+00:19:17.800 --> 00:19:20.770 align:middle line:84%
+occurs in the J equals six
+position, which is one quarter.
+
+00:19:20.770 --> 00:19:25.090 align:middle line:84%
+So that's one quarter over
+one quarter squared, or four.
+
+00:19:25.090 --> 00:19:30.400 align:middle line:84%
+So 0.25 times log base to a
+of four is going to be two.
+
+00:19:30.400 --> 00:19:39.910 align:middle line:84%
+And 0.25 times two
+is going to be 0.5.
+
+00:19:39.910 --> 00:19:43.150 align:middle line:90%
+And that's the first term.
+
+00:19:43.150 --> 00:19:45.130 align:middle line:90%
+That's for the AU pairing.
+
+00:19:45.130 --> 00:19:46.870 align:middle line:84%
+If you go down through
+all four terms,
+
+00:19:46.870 --> 00:19:49.990 align:middle line:84%
+they all end up
+being the same form.
+
+00:19:49.990 --> 00:19:54.070 align:middle line:84%
+The frequency is always going
+to be 0.25 for the pair and 0.25
+
+00:19:54.070 --> 00:19:55.720 align:middle line:84%
+for each of the
+individual bases.
+
+00:19:55.720 --> 00:19:59.290 align:middle line:84%
+So you end up with four of
+those, four examples of those
+
+00:19:59.290 --> 00:20:01.360 align:middle line:90%
+for each of the four cases.
+
+00:20:01.360 --> 00:20:04.930 align:middle line:90%
+And so four times 0.5 is two.
+
+00:20:04.930 --> 00:20:07.330 align:middle line:84%
+So that's consistent,
+hopefully, with what
+
+00:20:07.330 --> 00:20:09.880 align:middle line:84%
+you would have expected
+for perfect covariance.
+
+00:20:09.880 --> 00:20:11.560 align:middle line:84%
+You're getting the
+full information
+
+00:20:11.560 --> 00:20:15.250 align:middle line:84%
+content, the full
+range of two bits,
+
+00:20:15.250 --> 00:20:16.610 align:middle line:90%
+and so that's what we achieved.
+
+00:20:16.610 --> 00:20:22.030 align:middle line:84%
+So now, as a controller is
+just further gratification
+
+00:20:22.030 --> 00:20:24.700 align:middle line:84%
+that we actually
+understand this,
+
+00:20:24.700 --> 00:20:27.250 align:middle line:84%
+as we're working through
+the example of comparing
+
+00:20:27.250 --> 00:20:31.450 align:middle line:84%
+I equals 1 with J equals
+2, so the two far columns.
+
+00:20:31.450 --> 00:20:33.970 align:middle line:84%
+And here, you're
+familiar with I of 1.
+
+00:20:33.970 --> 00:20:37.330 align:middle line:84%
+J equals 2 is always
+C, and so it's not
+
+00:20:37.330 --> 00:20:42.650 align:middle line:84%
+covarying with the first column
+as in the previous example.
+
+00:20:42.650 --> 00:20:46.460 align:middle line:84%
+So let's just work
+through it the same way.
+
+00:20:46.460 --> 00:20:51.250 align:middle line:84%
+So the first term in
+the series is 0.25 again
+
+00:20:51.250 --> 00:20:59.840 align:middle line:84%
+because the AC pair, not
+base pair, but pair of bases,
+
+00:20:59.840 --> 00:21:02.560 align:middle line:84%
+occurs only once in the four
+of the multi-sequence alignment
+
+00:21:02.560 --> 00:21:04.040 align:middle line:90%
+so that's 0.25.
+
+00:21:04.040 --> 00:21:07.520 align:middle line:84%
+Then you have the logarithm
+base two of that same 0.25
+
+00:21:07.520 --> 00:21:11.930 align:middle line:84%
+now normalized to the
+frequency of the A
+
+00:21:11.930 --> 00:21:16.100 align:middle line:84%
+in its column, the one
+column, which is 0.25.
+
+00:21:16.100 --> 00:21:19.940 align:middle line:84%
+And the C in the J equals
+2 column, which is--
+
+00:21:19.940 --> 00:21:22.370 align:middle line:84%
+it's always there as
+unity, so it's one.
+
+00:21:22.370 --> 00:21:24.200 align:middle line:84%
+So now that's the
+big change here,
+
+00:21:24.200 --> 00:21:27.350 align:middle line:84%
+is instead of having 0.25 in
+both of the denominator terms,
+
+00:21:27.350 --> 00:21:29.240 align:middle line:90%
+it's now 0.25 times one.
+
+00:21:29.240 --> 00:21:33.950 align:middle line:84%
+It's now it's 0.25 over 0.25,
+so you have the log base
+
+00:21:33.950 --> 00:21:36.680 align:middle line:90%
+2 of one, which will be zero.
+
+00:21:36.680 --> 00:21:38.400 align:middle line:84%
+And that zeros out
+the whole term.
+
+00:21:38.400 --> 00:21:41.570 align:middle line:84%
+And so you have mutual
+information of zero,
+
+00:21:41.570 --> 00:21:44.810 align:middle line:84%
+as you would expect from
+this particular toy example
+
+00:21:44.810 --> 00:21:48.558 align:middle line:84%
+where columns one and
+two do not covary.
+
+00:21:48.558 --> 00:21:51.225 align:middle line:84%
+And so this is the same formulas
+that was in the previous slide.
+
+00:21:51.225 --> 00:21:55.380 align:middle line:84%
+And a generalization of the
+one that we walked through term
+
+00:21:55.380 --> 00:21:56.530 align:middle line:90%
+by term.
+
+00:21:56.530 --> 00:22:03.120 align:middle line:84%
+And here's the
+reference for that.
+
+00:22:03.120 --> 00:22:06.800 align:middle line:84%
+So now how do we go-- so
+that was-- we've taken now
+
+00:22:06.800 --> 00:22:09.530 align:middle line:84%
+hundreds, possibly
+thousands, of transfer RNAs.
+
+00:22:09.530 --> 00:22:11.180 align:middle line:84%
+We've done a
+multi-sequence alignment.
+
+00:22:11.180 --> 00:22:15.620 align:middle line:84%
+We've produced that
+mutual information pattern
+
+00:22:15.620 --> 00:22:18.170 align:middle line:84%
+that we saw before
+with the one by 72--
+
+00:22:18.170 --> 00:22:21.830 align:middle line:84%
+one to 72 by one
+to 72 comparison
+
+00:22:21.830 --> 00:22:26.810 align:middle line:84%
+where you got the spikes at
+each of the double helices.
+
+00:22:26.810 --> 00:22:31.670 align:middle line:84%
+Now how do we turn that
+into more general practice.
+
+00:22:31.670 --> 00:22:38.497 align:middle line:84%
+How do we generate
+secondary structures
+
+00:22:38.497 --> 00:22:40.080 align:middle line:84%
+which are kind of
+at this intermediate
+
+00:22:40.080 --> 00:22:42.455 align:middle line:84%
+in between the primary sequence
+and the three-dimensional
+
+00:22:42.455 --> 00:22:49.530 align:middle line:84%
+structure using a particular
+class of experimental data
+
+00:22:49.530 --> 00:22:52.290 align:middle line:90%
+combined with the sequence data.
+
+00:22:52.290 --> 00:22:54.660 align:middle line:84%
+This does not
+necessarily require
+
+00:22:54.660 --> 00:23:00.690 align:middle line:84%
+the large set of line
+sequences, but it obviously
+
+00:23:00.690 --> 00:23:01.500 align:middle line:90%
+benefits from it.
+
+00:23:01.500 --> 00:23:03.570 align:middle line:84%
+You could do a
+secondary structure
+
+00:23:03.570 --> 00:23:08.550 align:middle line:84%
+for each element in the
+aligned sequence in order to--
+
+00:23:08.550 --> 00:23:12.900 align:middle line:84%
+and use the mutual
+information, if you have it.
+
+00:23:12.900 --> 00:23:16.800 align:middle line:84%
+But let's just talk about
+just the simple application
+
+00:23:16.800 --> 00:23:19.320 align:middle line:84%
+of these thermodynamic
+parameters to the prediction
+
+00:23:19.320 --> 00:23:20.370 align:middle line:90%
+of secondary structure.
+
+00:23:20.370 --> 00:23:22.110 align:middle line:84%
+And what are our
+expectations before we
+
+00:23:22.110 --> 00:23:23.160 align:middle line:90%
+go through the algorithm.
+
+00:23:23.160 --> 00:23:25.080 align:middle line:90%
+How good is it?
+
+00:23:25.080 --> 00:23:30.810 align:middle line:84%
+In this fairly close to
+state-of-the-art paper,
+
+00:23:30.810 --> 00:23:36.395 align:middle line:84%
+looking through over 700
+generated structures,
+
+00:23:36.395 --> 00:23:36.895 align:middle line:90%
+they have--
+
+00:23:36.895 --> 00:23:39.830 align:middle line:90%
+
+
+00:23:39.830 --> 00:23:43.580 align:middle line:84%
+in each set, it
+contains one structure
+
+00:23:43.580 --> 00:23:48.670 align:middle line:84%
+that, on average, has 86%
+of its known base pairs.
+
+00:23:48.670 --> 00:23:50.580 align:middle line:84%
+That's not saying
+that it's necessarily
+
+00:23:50.580 --> 00:23:54.270 align:middle line:84%
+identified as the top,
+the best, structure.
+
+00:23:54.270 --> 00:23:56.850 align:middle line:84%
+It's saying that it has one
+structure by the criterion
+
+00:23:56.850 --> 00:23:57.810 align:middle line:90%
+that they're using.
+
+00:23:57.810 --> 00:24:00.450 align:middle line:90%
+This as a weak self praise.
+
+00:24:00.450 --> 00:24:03.350 align:middle line:90%
+
+
+00:24:03.350 --> 00:24:05.600 align:middle line:84%
+But let's walk through
+how that works.
+
+00:24:05.600 --> 00:24:08.330 align:middle line:84%
+When someone says
+that they're going
+
+00:24:08.330 --> 00:24:13.900 align:middle line:84%
+to predict a secondary
+structure or a three-dimensional
+
+00:24:13.900 --> 00:24:16.800 align:middle line:84%
+structure from a
+primary sequence,
+
+00:24:16.800 --> 00:24:20.760 align:middle line:84%
+more or less, from scratch,
+they really typically
+
+00:24:20.760 --> 00:24:25.170 align:middle line:84%
+mean that there's going to be a
+variety of other chemical data
+
+00:24:25.170 --> 00:24:28.260 align:middle line:84%
+that they take into account,
+but it will be generic data.
+
+00:24:28.260 --> 00:24:30.390 align:middle line:84%
+It will not be
+specific chemical data
+
+00:24:30.390 --> 00:24:31.920 align:middle line:90%
+for this particular molecule.
+
+00:24:31.920 --> 00:24:34.050 align:middle line:84%
+And the generic
+data, in this case,
+
+00:24:34.050 --> 00:24:40.730 align:middle line:84%
+are measurements of the
+thermodynamics of melting
+
+00:24:40.730 --> 00:24:45.080 align:middle line:84%
+of model
+oligonucleotides, usually
+
+00:24:45.080 --> 00:24:48.260 align:middle line:84%
+large amounts of them, monitored
+spectral photometrically.
+
+00:24:48.260 --> 00:24:53.870 align:middle line:84%
+And from the temperatures
+of melting, basically,
+
+00:24:53.870 --> 00:24:58.610 align:middle line:84%
+at equilibrium where you're
+getting half melted structures,
+
+00:24:58.610 --> 00:25:01.490 align:middle line:84%
+you can determine
+the free energies
+
+00:25:01.490 --> 00:25:04.100 align:middle line:84%
+where the negative free
+energies are the desirable ones,
+
+00:25:04.100 --> 00:25:07.220 align:middle line:84%
+the ones that are likely
+to happen if you let
+
+00:25:07.220 --> 00:25:10.200 align:middle line:90%
+the system go to equilibrium.
+
+00:25:10.200 --> 00:25:14.030 align:middle line:84%
+And this is a kind of
+interesting application
+
+00:25:14.030 --> 00:25:16.790 align:middle line:84%
+of the free energies
+for nucleic acids.
+
+00:25:16.790 --> 00:25:21.140 align:middle line:84%
+Here, the algorithm
+that one uses
+
+00:25:21.140 --> 00:25:26.370 align:middle line:84%
+is concerned mostly
+with adjacent base
+
+00:25:26.370 --> 00:25:27.940 align:middle line:90%
+pairs of base pairs.
+
+00:25:27.940 --> 00:25:31.380 align:middle line:84%
+So it's not a base
+pair, as you might
+
+00:25:31.380 --> 00:25:36.150 align:middle line:84%
+think that the hydrogen bonds
+that determine the Watson-Crick
+
+00:25:36.150 --> 00:25:38.820 align:middle line:84%
+and non Watson-Crick base
+pairs would dominate.
+
+00:25:38.820 --> 00:25:41.310 align:middle line:84%
+Instead, it's the stacking
+interactions that dominate.
+
+00:25:41.310 --> 00:25:43.680 align:middle line:84%
+And since it's the stacking
+interactions that dominate,
+
+00:25:43.680 --> 00:25:46.740 align:middle line:84%
+the hydrogen bonds are basically
+exchanging a water hydrogen
+
+00:25:46.740 --> 00:25:49.330 align:middle line:84%
+bond for a base
+pair hydrogen bond.
+
+00:25:49.330 --> 00:25:51.820 align:middle line:84%
+It looks very specific but
+in terms of free energy,
+
+00:25:51.820 --> 00:25:52.810 align:middle line:90%
+it's fairly weak.
+
+00:25:52.810 --> 00:25:56.020 align:middle line:84%
+The free energy is determined
+more by the stacking
+
+00:25:56.020 --> 00:25:59.080 align:middle line:84%
+of pi orbitals as
+depending on the geometry
+
+00:25:59.080 --> 00:26:01.240 align:middle line:84%
+that you get, say,
+when you have a GC--
+
+00:26:01.240 --> 00:26:03.640 align:middle line:84%
+a CG base on top
+of an AU base pair
+
+00:26:03.640 --> 00:26:05.920 align:middle line:84%
+here at the bottom
+of this helix.
+
+00:26:05.920 --> 00:26:11.940 align:middle line:84%
+And that stack, it gives you
+a -2.1 kilocalories per mole.
+
+00:26:11.940 --> 00:26:14.430 align:middle line:84%
+All the units on this are
+kilocalories per mole.
+
+00:26:14.430 --> 00:26:18.090 align:middle line:84%
+And by going along and
+taking each of these stacks
+
+00:26:18.090 --> 00:26:20.640 align:middle line:84%
+a pair of base pairs is
+what you're measuring.
+
+00:26:20.640 --> 00:26:24.520 align:middle line:84%
+You can get all the
+negative free energy
+
+00:26:24.520 --> 00:26:25.680 align:middle line:90%
+so they're stacking.
+
+00:26:25.680 --> 00:26:27.930 align:middle line:84%
+Then you have some
+penalties, some things
+
+00:26:27.930 --> 00:26:31.020 align:middle line:84%
+that are less favorable, that
+would not happen spontaneously
+
+00:26:31.020 --> 00:26:34.320 align:middle line:84%
+if they did not have
+these mitigating negative
+
+00:26:34.320 --> 00:26:36.330 align:middle line:84%
+free energies already
+accumulated, which would
+
+00:26:36.330 --> 00:26:39.630 align:middle line:90%
+be the loop and the bulge here.
+
+00:26:39.630 --> 00:26:42.450 align:middle line:84%
+The base pairs on either
+side of that bulge
+
+00:26:42.450 --> 00:26:43.960 align:middle line:90%
+will stack up on one another.
+
+00:26:43.960 --> 00:26:48.660 align:middle line:84%
+And that bulge will kind of
+flip out of the, otherwise,
+
+00:26:48.660 --> 00:26:50.130 align:middle line:90%
+regular double helix.
+
+00:26:50.130 --> 00:26:53.175 align:middle line:84%
+Similarly, bases at the
+end have a slight penalty.
+
+00:26:53.175 --> 00:26:55.920 align:middle line:90%
+
+
+00:26:55.920 --> 00:26:57.330 align:middle line:84%
+And so then you
+can add it all up
+
+00:26:57.330 --> 00:26:58.913 align:middle line:84%
+and you can calculate
+it overall delta
+
+00:26:58.913 --> 00:27:00.558 align:middle line:90%
+G for the entire structure.
+
+00:27:00.558 --> 00:27:02.100 align:middle line:84%
+And if you do enough
+of these things,
+
+00:27:02.100 --> 00:27:03.600 align:middle line:84%
+you can get a feeling
+for which ones
+
+00:27:03.600 --> 00:27:07.845 align:middle line:84%
+are likely to be
+occurring in your RNAs.
+
+00:27:07.845 --> 00:27:10.600 align:middle line:90%
+
+
+00:27:10.600 --> 00:27:14.560 align:middle line:84%
+Now this should
+trigger in your mind,
+
+00:27:14.560 --> 00:27:24.720 align:middle line:84%
+as the third example we've had
+where the conceit of a motif
+
+00:27:24.720 --> 00:27:29.610 align:middle line:84%
+analysis, that you can do
+a multi-sequence alignment
+
+00:27:29.610 --> 00:27:32.430 align:middle line:84%
+and each column and
+multi-sequence alignment
+
+00:27:32.430 --> 00:27:33.250 align:middle line:90%
+is independent.
+
+00:27:33.250 --> 00:27:36.120 align:middle line:84%
+This is the third example
+where that's not true.
+
+00:27:36.120 --> 00:27:42.000 align:middle line:84%
+We have here the three
+energies are dependent on pairs
+
+00:27:42.000 --> 00:27:43.560 align:middle line:90%
+of base pairs.
+
+00:27:43.560 --> 00:27:49.980 align:middle line:84%
+The previous examples were
+the very distant connections
+
+00:27:49.980 --> 00:27:52.440 align:middle line:84%
+that you can get in
+folding up a transfer RNA.
+
+00:27:52.440 --> 00:27:57.460 align:middle line:84%
+And the earlier example
+was the CG dinucleotides.
+
+00:27:57.460 --> 00:27:59.532 align:middle line:84%
+The assumption of
+independence of columns
+
+00:27:59.532 --> 00:28:01.740 align:middle line:84%
+in a multi-sequence alignment
+is a very powerful one.
+
+00:28:01.740 --> 00:28:03.323 align:middle line:84%
+I don't want to
+undermine it too much.
+
+00:28:03.323 --> 00:28:06.600 align:middle line:84%
+But it doesn't hurt you to
+have three examples this early
+
+00:28:06.600 --> 00:28:09.100 align:middle line:90%
+on in the course.
+
+00:28:09.100 --> 00:28:11.695 align:middle line:84%
+Question the
+independence of columns
+
+00:28:11.695 --> 00:28:15.020 align:middle line:84%
+in multi-sequence alignments--
+very important thing
+
+00:28:15.020 --> 00:28:15.520 align:middle line:90%
+to question.
+
+00:28:15.520 --> 00:28:17.862 align:middle line:84%
+We've got mutual
+information theory
+
+00:28:17.862 --> 00:28:19.570 align:middle line:84%
+that we had a couple
+of slides ago as one
+
+00:28:19.570 --> 00:28:21.653 align:middle line:84%
+of the most powerful ways
+of questioning that when
+
+00:28:21.653 --> 00:28:23.430 align:middle line:90%
+you see it.
+
+00:28:23.430 --> 00:28:32.950 align:middle line:84%
+Now, that's the way that
+this particular base
+
+00:28:32.950 --> 00:28:36.020 align:middle line:84%
+pairing, that we see
+here, is one example--
+
+00:28:36.020 --> 00:28:43.720 align:middle line:84%
+now you could take each of these
+and shift the right-hand half
+
+00:28:43.720 --> 00:28:46.720 align:middle line:84%
+of the molecule relative to
+the left-hand by one base pair.
+
+00:28:46.720 --> 00:28:51.080 align:middle line:84%
+That would give you
+a much poorer set
+
+00:28:51.080 --> 00:28:57.200 align:middle line:84%
+of energies and much, much
+more bulges and more--
+
+00:28:57.200 --> 00:28:58.700 align:middle line:90%
+longer loops and so forth.
+
+00:28:58.700 --> 00:29:02.090 align:middle line:84%
+And you end up with
+a poor delta G.
+
+00:29:02.090 --> 00:29:04.400 align:middle line:84%
+And what you can
+do is you can rank
+
+00:29:04.400 --> 00:29:11.090 align:middle line:84%
+and do one of these
+maximum-value searches
+
+00:29:11.090 --> 00:29:12.530 align:middle line:90%
+by going through that.
+
+00:29:12.530 --> 00:29:14.990 align:middle line:84%
+This should trigger
+in your mind this
+
+00:29:14.990 --> 00:29:18.170 align:middle line:84%
+is another way of thinking
+about that search.
+
+00:29:18.170 --> 00:29:22.670 align:middle line:84%
+You take the entire sequence,
+whether it's transfer RNA,
+
+00:29:22.670 --> 00:29:26.570 align:middle line:84%
+or in this case, a 400
+nucleic acid sequence,
+
+00:29:26.570 --> 00:29:31.610 align:middle line:84%
+and you draw lines between
+every base where you
+
+00:29:31.610 --> 00:29:33.380 align:middle line:90%
+have a favorable free energy.
+
+00:29:33.380 --> 00:29:36.920 align:middle line:84%
+And you look for a set
+of lines which do not
+
+00:29:36.920 --> 00:29:42.960 align:middle line:84%
+overlap one another,
+because these
+
+00:29:42.960 --> 00:29:45.780 align:middle line:84%
+would represent short
+sequences of local--
+
+00:29:45.780 --> 00:29:48.000 align:middle line:84%
+you can think of this
+as a local sequence
+
+00:29:48.000 --> 00:29:53.730 align:middle line:84%
+alignment between one
+half of the nucleic acid
+
+00:29:53.730 --> 00:29:55.140 align:middle line:90%
+and the other half.
+
+00:29:55.140 --> 00:29:57.960 align:middle line:84%
+Now this is not a sequence
+identity, remember,
+
+00:29:57.960 --> 00:29:59.640 align:middle line:84%
+this is a sequence
+complementarity.
+
+00:29:59.640 --> 00:30:02.400 align:middle line:84%
+That is to say, a
+reverse complement
+
+00:30:02.400 --> 00:30:07.380 align:middle line:84%
+where complement means you've
+substituted As for Us and Cs
+
+00:30:07.380 --> 00:30:08.310 align:middle line:90%
+for Gs.
+
+00:30:08.310 --> 00:30:10.720 align:middle line:90%
+So you're looking for--
+
+00:30:10.720 --> 00:30:13.362 align:middle line:84%
+but in many other
+ways, this is analogous
+
+00:30:13.362 --> 00:30:14.820 align:middle line:84%
+to the dynamic
+programming where we
+
+00:30:14.820 --> 00:30:17.520 align:middle line:84%
+took two independent sequences
+and slid them along one
+
+00:30:17.520 --> 00:30:20.700 align:middle line:84%
+another and allowed for
+insertions and deletions.
+
+00:30:20.700 --> 00:30:23.100 align:middle line:84%
+In that-- in the dynamic
+equilibrium before,
+
+00:30:23.100 --> 00:30:26.220 align:middle line:84%
+we did that formally, all
+possible such slippages
+
+00:30:26.220 --> 00:30:30.820 align:middle line:84%
+by setting them as the
+two axes of a table
+
+00:30:30.820 --> 00:30:34.860 align:middle line:84%
+and then filled in the
+squares for all the matches.
+
+00:30:34.860 --> 00:30:38.760 align:middle line:84%
+Here, we would fill in the
+squares, not for the matches,
+
+00:30:38.760 --> 00:30:42.510 align:middle line:84%
+but for the free
+energy of the stacking
+
+00:30:42.510 --> 00:30:45.120 align:middle line:90%
+for these short subsequences.
+
+00:30:45.120 --> 00:30:48.120 align:middle line:84%
+Now the reason that
+they don't cross over,
+
+00:30:48.120 --> 00:30:51.540 align:middle line:84%
+and the reason for this
+little note in the lower
+
+00:30:51.540 --> 00:30:53.760 align:middle line:84%
+left-hand corner
+of slide 11, that
+
+00:30:53.760 --> 00:30:55.470 align:middle line:90%
+does not handle pseudo knots.
+
+00:30:55.470 --> 00:30:57.990 align:middle line:84%
+Psuedo knots we'll
+explain in the next--
+
+00:30:57.990 --> 00:31:00.120 align:middle line:84%
+we'll show graphic
+examples in the next slide.
+
+00:31:00.120 --> 00:31:01.770 align:middle line:84%
+But it basically
+means that if you
+
+00:31:01.770 --> 00:31:04.560 align:middle line:84%
+allow such sequences
+to occur willy-nilly
+
+00:31:04.560 --> 00:31:09.660 align:middle line:84%
+throughout the sequence,
+then you'll get these tangles
+
+00:31:09.660 --> 00:31:13.522 align:middle line:84%
+that for a while
+people weren't sure
+
+00:31:13.522 --> 00:31:14.730 align:middle line:90%
+whether they occurred or not.
+
+00:31:14.730 --> 00:31:17.730 align:middle line:84%
+The one or two non
+Watson-Crick base pairs
+
+00:31:17.730 --> 00:31:21.270 align:middle line:84%
+that you might find connecting
+up tRNA in these tangles
+
+00:31:21.270 --> 00:31:23.610 align:middle line:84%
+were not considered
+long stretches
+
+00:31:23.610 --> 00:31:25.380 align:middle line:90%
+that would connect loops.
+
+00:31:25.380 --> 00:31:26.880 align:middle line:84%
+But since then,
+they've been proven
+
+00:31:26.880 --> 00:31:29.130 align:middle line:84%
+to be of great
+biological significance.
+
+00:31:29.130 --> 00:31:31.560 align:middle line:84%
+In any case, to do this
+without the pseudo knots,
+
+00:31:31.560 --> 00:31:35.250 align:middle line:84%
+without allowing any crosses
+is still a challenging problem.
+
+00:31:35.250 --> 00:31:38.370 align:middle line:84%
+It's basically the
+dynamic programming
+
+00:31:38.370 --> 00:31:43.080 align:middle line:84%
+where N is the length of the
+primary sequence then takes
+
+00:31:43.080 --> 00:31:46.980 align:middle line:84%
+on the order of N squared and
+compute time and space in order
+
+00:31:46.980 --> 00:31:56.610 align:middle line:84%
+to figure out all the possible
+pairings that can occur.
+
+00:31:56.610 --> 00:31:58.760 align:middle line:84%
+And then you go through
+and you rank them,
+
+00:31:58.760 --> 00:32:00.440 align:middle line:84%
+which one gives the
+best free energy,
+
+00:32:00.440 --> 00:32:04.040 align:middle line:84%
+and then you do the trace back
+and you get the top scores
+
+00:32:04.040 --> 00:32:06.610 align:middle line:90%
+for that molecule.
+
+00:32:06.610 --> 00:32:08.440 align:middle line:84%
+Now let's talk
+about pseudo notes.
+
+00:32:08.440 --> 00:32:12.700 align:middle line:84%
+We excluded that, but
+now we'll reinvite it.
+
+00:32:12.700 --> 00:32:17.980 align:middle line:84%
+We had those little ones,
+a couple of base pairs
+
+00:32:17.980 --> 00:32:18.940 align:middle line:90%
+in the transfer RNA.
+
+00:32:18.940 --> 00:32:22.530 align:middle line:84%
+But a much more dramatic one
+we alluded to in the second
+
+00:32:22.530 --> 00:32:23.030 align:middle line:90%
+lecture.
+
+00:32:23.030 --> 00:32:24.640 align:middle line:84%
+We talked about
+the genetic code.
+
+00:32:24.640 --> 00:32:29.020 align:middle line:84%
+And in order to introduce you to
+exceptions to the genetic code,
+
+00:32:29.020 --> 00:32:31.900 align:middle line:84%
+I gave an example
+where the ribosome
+
+00:32:31.900 --> 00:32:34.120 align:middle line:84%
+jumped over 50 base
+pairs if presented
+
+00:32:34.120 --> 00:32:35.470 align:middle line:90%
+with the right context.
+
+00:32:35.470 --> 00:32:38.350 align:middle line:84%
+It didn't follow the
+normal code of having
+
+00:32:38.350 --> 00:32:40.270 align:middle line:84%
+a triplet and
+another triplet right
+
+00:32:40.270 --> 00:32:42.190 align:middle line:90%
+in a row with no punctuation.
+
+00:32:42.190 --> 00:32:45.970 align:middle line:84%
+Here we had the
+punctuation that required,
+
+00:32:45.970 --> 00:32:48.310 align:middle line:84%
+what may have slipped by
+at the time, a pseudo knot.
+
+00:32:48.310 --> 00:32:52.630 align:middle line:84%
+And this is an example of once
+such pseudo knot in the best
+
+00:32:52.630 --> 00:32:56.290 align:middle line:84%
+that we can do of a two
+dimensional schematic.
+
+00:32:56.290 --> 00:32:58.510 align:middle line:84%
+And then something
+slightly better where
+
+00:32:58.510 --> 00:33:02.020 align:middle line:84%
+we have a more three-dimensional
+and another three-dimensional
+
+00:33:02.020 --> 00:33:02.770 align:middle line:90%
+view of this.
+
+00:33:02.770 --> 00:33:05.470 align:middle line:84%
+And this is the RNA
+pseudo knot, which
+
+00:33:05.470 --> 00:33:07.630 align:middle line:84%
+is-- one of them, which
+is responsible for frame
+
+00:33:07.630 --> 00:33:11.060 align:middle line:84%
+shifting in the-- that
+breaks this genetic code.
+
+00:33:11.060 --> 00:33:13.360 align:middle line:84%
+And so let's just
+follow how this goes.
+
+00:33:13.360 --> 00:33:15.610 align:middle line:84%
+You've got basically
+a normal helix here
+
+00:33:15.610 --> 00:33:18.390 align:middle line:84%
+at the bottom starting at the
+five prime in position one
+
+00:33:18.390 --> 00:33:19.750 align:middle line:90%
+to seven.
+
+00:33:19.750 --> 00:33:23.380 align:middle line:84%
+It would go through a
+normal five-base-- sorry--
+
+00:33:23.380 --> 00:33:26.200 align:middle line:84%
+six-base loop, from
+eight to 13, and then
+
+00:33:26.200 --> 00:33:29.110 align:middle line:90%
+finish the stem 14 through 18.
+
+00:33:29.110 --> 00:33:33.490 align:middle line:84%
+That would be a normal stem
+loop where the loop is six long,
+
+00:33:33.490 --> 00:33:34.690 align:middle line:90%
+eight to 13.
+
+00:33:34.690 --> 00:33:37.450 align:middle line:84%
+But at the end of eighteen,
+you have this little green loop
+
+00:33:37.450 --> 00:33:41.830 align:middle line:84%
+that goes back and now makes
+a nice perfect four base
+
+00:33:41.830 --> 00:33:48.410 align:middle line:90%
+Watson-Crick stem.
+
+00:33:48.410 --> 00:33:50.970 align:middle line:84%
+Now in the middle of what
+would have been a loop--
+
+00:33:50.970 --> 00:33:54.980 align:middle line:84%
+and so this fold back is what
+we meant by a pseudo knot,
+
+00:33:54.980 --> 00:33:56.480 align:middle line:84%
+and what would have
+been represented
+
+00:33:56.480 --> 00:33:59.420 align:middle line:84%
+by a crossover of those red
+lines in the previous slide--
+
+00:33:59.420 --> 00:34:02.580 align:middle line:84%
+something that makes it
+much harder to compute.
+
+00:34:02.580 --> 00:34:05.990 align:middle line:84%
+In fact, it makes it so much
+harder, in the next slide,
+
+00:34:05.990 --> 00:34:09.230 align:middle line:84%
+that it goes up from an
+order of N squared, which
+
+00:34:09.230 --> 00:34:11.900 align:middle line:84%
+is your typical
+dynamic programming
+
+00:34:11.900 --> 00:34:18.000 align:middle line:84%
+in a pairwise alignment to order
+in sixth in CPU time and order
+
+00:34:18.000 --> 00:34:20.882 align:middle line:84%
+into the fourth
+power in memory space
+
+00:34:20.882 --> 00:34:22.590 align:middle line:84%
+that you need to set
+aside for storing up
+
+00:34:22.590 --> 00:34:25.440 align:middle line:84%
+the table of
+possible pseudo knots
+
+00:34:25.440 --> 00:34:27.750 align:middle line:84%
+that can occur in the
+context of the otherwise
+
+00:34:27.750 --> 00:34:32.760 align:middle line:84%
+normal circle with the
+non-overlapping connections.
+
+00:34:32.760 --> 00:34:41.610 align:middle line:84%
+This is a relatively recent
+innovation where a dynamic--
+
+00:34:41.610 --> 00:34:43.500 align:middle line:84%
+it's still a dynamic
+programming algorithm,
+
+00:34:43.500 --> 00:34:47.699 align:middle line:84%
+it just has more
+possibilities, more complex--
+
+00:34:47.699 --> 00:34:50.670 align:middle line:90%
+higher algorithmic complexity.
+
+00:34:50.670 --> 00:34:53.130 align:middle line:84%
+And the combination of
+the biological discovery
+
+00:34:53.130 --> 00:34:56.010 align:middle line:84%
+to pseudo knots are important
+for frame shifting a variety
+
+00:34:56.010 --> 00:34:57.930 align:middle line:90%
+of other biological phenomenon.
+
+00:34:57.930 --> 00:35:02.130 align:middle line:84%
+And the now three-dimensional
+structure and now an algorithm
+
+00:35:02.130 --> 00:35:05.160 align:middle line:84%
+puts pseudo knots well
+within the sort of things
+
+00:35:05.160 --> 00:35:07.820 align:middle line:84%
+that you should
+feel comfortable.
+
+00:35:07.820 --> 00:35:10.060 align:middle line:84%
+Now we're going to go
+back to hidden Markov
+
+00:35:10.060 --> 00:35:13.480 align:middle line:84%
+models in a slightly
+more complicated context
+
+00:35:13.480 --> 00:35:16.040 align:middle line:84%
+here, that we take the
+simplest one we could,
+
+00:35:16.040 --> 00:35:22.740 align:middle line:84%
+which was a dinucleotide,
+simple, unfolded straight DNA.
+
+00:35:22.740 --> 00:35:25.810 align:middle line:84%
+And the part that was
+hidden, as you will recall,
+
+00:35:25.810 --> 00:35:29.285 align:middle line:84%
+was whether the the CG
+dinucleotides-- or sorry--
+
+00:35:29.285 --> 00:35:30.660 align:middle line:84%
+the dinucleotides,
+which could be
+
+00:35:30.660 --> 00:35:34.650 align:middle line:84%
+any of the possible
+dinucleotides,
+
+00:35:34.650 --> 00:35:38.880 align:middle line:84%
+including AA, CG, and so on,
+whether it was present in a CG
+
+00:35:38.880 --> 00:35:41.800 align:middle line:84%
+island, or whether it was in
+a region of the chromosome
+
+00:35:41.800 --> 00:35:43.830 align:middle line:84%
+which was likely to
+have CGs, or whether it
+
+00:35:43.830 --> 00:35:51.060 align:middle line:84%
+was in a CG ocean which was
+low in CG dinucleotide content.
+
+00:35:51.060 --> 00:35:53.160 align:middle line:84%
+So the hidden part
+was the plus-minus
+
+00:35:53.160 --> 00:35:55.290 align:middle line:84%
+whether it was in
+an island or not.
+
+00:35:55.290 --> 00:35:58.710 align:middle line:84%
+Now what we're going to do now
+is take this and transfer this
+
+00:35:58.710 --> 00:36:03.660 align:middle line:84%
+over to the kinds of motifs
+we are finding in RNAs,
+
+00:36:03.660 --> 00:36:06.240 align:middle line:84%
+like transfer RNA and
+another class of RNA,
+
+00:36:06.240 --> 00:36:11.160 align:middle line:84%
+and say OK, now, whether it's
+the hidden part of the Markov
+
+00:36:11.160 --> 00:36:12.865 align:middle line:84%
+model is these
+transition probabilities.
+
+00:36:12.865 --> 00:36:15.240 align:middle line:84%
+The hidden part is whether
+it's in a particular secondary
+
+00:36:15.240 --> 00:36:18.030 align:middle line:84%
+structure or not, not whether
+it's in an island or not,
+
+00:36:18.030 --> 00:36:20.650 align:middle line:90%
+but a secondary structure.
+
+00:36:20.650 --> 00:36:22.492 align:middle line:84%
+In this particular
+case we're going
+
+00:36:22.492 --> 00:36:23.950 align:middle line:84%
+to talk about is
+a very interesting
+
+00:36:23.950 --> 00:36:33.150 align:middle line:84%
+biological illustration where
+the hidden Markov models will
+
+00:36:33.150 --> 00:36:36.720 align:middle line:84%
+be modeling these boxes, these
+motifs, that are involved
+
+00:36:36.720 --> 00:36:41.650 align:middle line:84%
+in base pairing or
+recognition that
+
+00:36:41.650 --> 00:36:44.486 align:middle line:84%
+forms the secondary
+structure of--
+
+00:36:44.486 --> 00:36:48.300 align:middle line:84%
+if it's necessary for
+guiding a particular enzyme.
+
+00:36:48.300 --> 00:36:52.380 align:middle line:84%
+Now, remember we had all these
+modified bases that we used,
+
+00:36:52.380 --> 00:36:53.850 align:middle line:90%
+that we saw in transfer RNA.
+
+00:36:53.850 --> 00:36:56.160 align:middle line:84%
+Some of those are simple
+protein interactions
+
+00:36:56.160 --> 00:36:58.710 align:middle line:84%
+with the transfer RNA that adds
+a methyl group here or there.
+
+00:36:58.710 --> 00:37:01.560 align:middle line:84%
+It turns out that all of
+the methyl groups, the O2
+
+00:37:01.560 --> 00:37:07.850 align:middle line:84%
+prime methyl groups, these are
+on the sugar of the ribose.
+
+00:37:07.850 --> 00:37:13.970 align:middle line:84%
+In ribosomal RNA, a few, just
+a small number of a few dozen
+
+00:37:13.970 --> 00:37:20.150 align:middle line:84%
+of the ribosomes in this
+multikilobase ribosomal RNA
+
+00:37:20.150 --> 00:37:21.890 align:middle line:90%
+are methylated O2 position.
+
+00:37:21.890 --> 00:37:23.975 align:middle line:84%
+How does the enzyme
+know, or the enzymes,
+
+00:37:23.975 --> 00:37:26.540 align:middle line:90%
+know to get exactly those bases?
+
+00:37:26.540 --> 00:37:35.470 align:middle line:84%
+The way it knows is it doesn't
+use pure protein brute force
+
+00:37:35.470 --> 00:37:38.710 align:middle line:84%
+to make a complimentary surface
+of protein nucleic acid.
+
+00:37:38.710 --> 00:37:43.890 align:middle line:84%
+It actually uses this
+elegance of base pairing
+
+00:37:43.890 --> 00:37:45.420 align:middle line:90%
+to make a guide sequence.
+
+00:37:45.420 --> 00:37:47.970 align:middle line:84%
+And so what it's
+looking for is--
+
+00:37:47.970 --> 00:37:53.070 align:middle line:84%
+the protein cooperates with a
+small RNA, so-called snow RNA,
+
+00:37:53.070 --> 00:37:57.120 align:middle line:84%
+or small nucleolar
+RNA, to find a place
+
+00:37:57.120 --> 00:37:59.550 align:middle line:84%
+where the snow will
+recognize the place that you
+
+00:37:59.550 --> 00:38:00.390 align:middle line:90%
+want to methylate.
+
+00:38:00.390 --> 00:38:03.990 align:middle line:84%
+And then the protein
+methylates the base
+
+00:38:03.990 --> 00:38:06.360 align:middle line:84%
+in the middle of
+that guide sequence.
+
+00:38:06.360 --> 00:38:14.140 align:middle line:84%
+So then the game, the
+computational biology game,
+
+00:38:14.140 --> 00:38:17.260 align:middle line:84%
+that these authors
+played was how can we
+
+00:38:17.260 --> 00:38:21.790 align:middle line:84%
+find all the small
+RNAs, the snow RNAs,
+
+00:38:21.790 --> 00:38:29.380 align:middle line:84%
+present in a genome when we very
+little about that the genome?
+
+00:38:29.380 --> 00:38:31.480 align:middle line:84%
+What they knew was they
+knew the genome sequence.
+
+00:38:31.480 --> 00:38:32.530 align:middle line:90%
+This is for yeast.
+
+00:38:32.530 --> 00:38:37.450 align:middle line:84%
+They had a few examples
+of snow RNAs in humans--
+
+00:38:37.450 --> 00:38:39.010 align:middle line:90%
+almost none in yeast.
+
+00:38:39.010 --> 00:38:42.310 align:middle line:84%
+They had the subsequence of
+the ribosomal RNA, of course.
+
+00:38:42.310 --> 00:38:47.140 align:middle line:84%
+And they could--
+what they wanted
+
+00:38:47.140 --> 00:38:51.460 align:middle line:84%
+to do then is ask where in the
+genome do we have little guide
+
+00:38:51.460 --> 00:38:55.330 align:middle line:84%
+sequences flanked by some
+of these other motifs
+
+00:38:55.330 --> 00:39:00.520 align:middle line:84%
+and characteristics like a
+base pair, 4-8 base pair stem,
+
+00:39:00.520 --> 00:39:02.347 align:middle line:84%
+that will match
+the ribosomal RNA.
+
+00:39:02.347 --> 00:39:04.180 align:middle line:84%
+So you basically march
+along the algorithms,
+
+00:39:04.180 --> 00:39:06.520 align:middle line:84%
+you march along the ribosomal
+RNA looking for matches
+
+00:39:06.520 --> 00:39:07.820 align:middle line:90%
+elsewhere in the genome.
+
+00:39:07.820 --> 00:39:10.237 align:middle line:84%
+And then ask whether those
+matches elsewhere in the genome
+
+00:39:10.237 --> 00:39:13.305 align:middle line:84%
+have some of these other
+contexts, features.
+
+00:39:13.305 --> 00:39:15.805 align:middle line:84%
+You can see this is going to
+be a more complicated algorithm
+
+00:39:15.805 --> 00:39:18.920 align:middle line:90%
+than just looking for CGs.
+
+00:39:18.920 --> 00:39:22.360 align:middle line:90%
+So this is how it works.
+
+00:39:22.360 --> 00:39:28.840 align:middle line:84%
+That stem that we had
+is now item number one.
+
+00:39:28.840 --> 00:39:32.410 align:middle line:84%
+The various boxes which
+were basically sequences
+
+00:39:32.410 --> 00:39:36.410 align:middle line:84%
+are now turned into ungapped
+hidden Markov models.
+
+00:39:36.410 --> 00:39:39.610 align:middle line:84%
+The hidden part of it
+is whether it is present
+
+00:39:39.610 --> 00:39:45.130 align:middle line:84%
+or not in the context that
+adds up to this guide sequence.
+
+00:39:45.130 --> 00:39:48.520 align:middle line:84%
+The guide sequence itself is
+a hidden Markov model which
+
+00:39:48.520 --> 00:39:53.990 align:middle line:84%
+has to be an imperfect,
+probably imperfect, duplex
+
+00:39:53.990 --> 00:39:56.510 align:middle line:90%
+with the ribosomal RNA.
+
+00:39:56.510 --> 00:39:59.810 align:middle line:90%
+So that's how that's modeled.
+
+00:39:59.810 --> 00:40:01.910 align:middle line:84%
+The most complicated
+is that terminal
+
+00:40:01.910 --> 00:40:04.700 align:middle line:84%
+stem number one, which
+is a so-called Stochastic
+
+00:40:04.700 --> 00:40:05.930 align:middle line:90%
+Context-Free Grammar.
+
+00:40:05.930 --> 00:40:08.630 align:middle line:90%
+That's what the SCFG stands for.
+
+00:40:08.630 --> 00:40:11.570 align:middle line:84%
+And that just means that
+it is even less constrained
+
+00:40:11.570 --> 00:40:12.470 align:middle line:90%
+than the HMM.
+
+00:40:12.470 --> 00:40:15.170 align:middle line:84%
+The HMM is less constrained
+than a simple motif,
+
+00:40:15.170 --> 00:40:17.930 align:middle line:84%
+which is less constrained than,
+say, a consensus sequence.
+
+00:40:17.930 --> 00:40:21.500 align:middle line:84%
+It is constrained, it has
+the grammar, if you will,
+
+00:40:21.500 --> 00:40:24.470 align:middle line:84%
+or the particular rules
+for the base pairing
+
+00:40:24.470 --> 00:40:26.990 align:middle line:84%
+that have to occur
+over a certain region
+
+00:40:26.990 --> 00:40:29.780 align:middle line:84%
+in a certain part of
+this putative snow RNA.
+
+00:40:29.780 --> 00:40:31.700 align:middle line:84%
+So anyway, you apply
+each of these criteria
+
+00:40:31.700 --> 00:40:33.810 align:middle line:84%
+and you have transition
+probabilities
+
+00:40:33.810 --> 00:40:37.080 align:middle line:84%
+which come in from a learning
+set, such as the human snow
+
+00:40:37.080 --> 00:40:37.610 align:middle line:90%
+RNAs.
+
+00:40:37.610 --> 00:40:39.193 align:middle line:84%
+You have a learning
+set that tells you
+
+00:40:39.193 --> 00:40:41.210 align:middle line:84%
+what these transition
+probabilities will be.
+
+00:40:41.210 --> 00:40:43.970 align:middle line:84%
+And you and you now apply this
+to the entire yeast genome,
+
+00:40:43.970 --> 00:40:46.610 align:middle line:84%
+and you get a bunch of
+candidates, snow RNA
+
+00:40:46.610 --> 00:40:47.780 align:middle line:90%
+encoding genes.
+
+00:40:47.780 --> 00:40:50.450 align:middle line:84%
+Now you can't use things
+like the long open reading
+
+00:40:50.450 --> 00:40:52.800 align:middle line:84%
+frames that you normally
+would use for finding genes.
+
+00:40:52.800 --> 00:40:54.800 align:middle line:90%
+So this is a very valuable tool.
+
+00:40:54.800 --> 00:40:57.080 align:middle line:84%
+But now how do you
+convince yourself
+
+00:40:57.080 --> 00:41:03.920 align:middle line:84%
+that this is a gene, that this
+actually encodes a snow RNA,
+
+00:41:03.920 --> 00:41:07.160 align:middle line:84%
+and that those are
+responsible for guiding
+
+00:41:07.160 --> 00:41:11.300 align:middle line:84%
+the methylation at particular
+positions in the ribosomal RNA.
+
+00:41:11.300 --> 00:41:14.550 align:middle line:90%
+The way you do that is--
+
+00:41:14.550 --> 00:41:16.770 align:middle line:84%
+well, before we get
+to how you do that,
+
+00:41:16.770 --> 00:41:20.190 align:middle line:84%
+we want to ask how does
+this algorithm perform
+
+00:41:20.190 --> 00:41:21.540 align:middle line:90%
+relative to other--
+
+00:41:21.540 --> 00:41:23.130 align:middle line:84%
+the few other
+algorithms there are
+
+00:41:23.130 --> 00:41:26.260 align:middle line:84%
+for finding genes which
+do not encode proteins.
+
+00:41:26.260 --> 00:41:30.750 align:middle line:84%
+And the first of these actually
+dates well before 1991.
+
+00:41:30.750 --> 00:41:33.510 align:middle line:84%
+But there were ways of looking
+for transfer RNAs in sequence.
+
+00:41:33.510 --> 00:41:36.090 align:middle line:84%
+They would use everything we
+know about transfer RNAs--
+
+00:41:36.090 --> 00:41:38.130 align:middle line:84%
+the little boxes
+that are conserved
+
+00:41:38.130 --> 00:41:41.340 align:middle line:84%
+as sequences, the regions
+that are conserved only--
+
+00:41:41.340 --> 00:41:45.660 align:middle line:84%
+not as sequences, but as base
+pairing potential, et cetera.
+
+00:41:45.660 --> 00:41:48.090 align:middle line:90%
+The loop lengths look--
+
+00:41:48.090 --> 00:41:49.020 align:middle line:90%
+are constrained.
+
+00:41:49.020 --> 00:41:52.650 align:middle line:84%
+All the constraints that
+you can muster back in '91
+
+00:41:52.650 --> 00:41:53.580 align:middle line:90%
+were applied.
+
+00:41:53.580 --> 00:41:55.800 align:middle line:90%
+And it was fairly slow.
+
+00:41:55.800 --> 00:42:01.590 align:middle line:84%
+It would only do 400 base pairs
+of genome chunk per second.
+
+00:42:01.590 --> 00:42:05.580 align:middle line:84%
+And when you have genomes on
+the order of many mega bases,
+
+00:42:05.580 --> 00:42:07.050 align:middle line:90%
+this is slow.
+
+00:42:07.050 --> 00:42:11.865 align:middle line:84%
+And it had-- it missed about
+5% of the true positives.
+
+00:42:11.865 --> 00:42:13.590 align:middle line:90%
+It had 95%.
+
+00:42:13.590 --> 00:42:17.280 align:middle line:84%
+And false positives sounds
+impressive-- only 10
+
+00:42:17.280 --> 00:42:18.180 align:middle line:90%
+to the minus 6.
+
+00:42:18.180 --> 00:42:20.370 align:middle line:84%
+But when you think of
+a double stranded--
+
+00:42:20.370 --> 00:42:26.380 align:middle line:84%
+both strands of E. coli
+being about 10 million bases,
+
+00:42:26.380 --> 00:42:28.750 align:middle line:84%
+then this is about
+four false positives.
+
+00:42:28.750 --> 00:42:31.540 align:middle line:84%
+And bigger genomes, of
+course, would be even a larger
+
+00:42:31.540 --> 00:42:33.160 align:middle line:90%
+number in an absolute scale.
+
+00:42:33.160 --> 00:42:39.130 align:middle line:84%
+So then, six years later, the
+speed is now 100 times faster.
+
+00:42:39.130 --> 00:42:42.370 align:middle line:84%
+You're now only missing 0.5%
+of the true positives instead
+
+00:42:42.370 --> 00:42:43.420 align:middle line:90%
+of 5%.
+
+00:42:43.420 --> 00:42:47.000 align:middle line:84%
+And the false positives
+is now vanishingly small.
+
+00:42:47.000 --> 00:42:52.828 align:middle line:84%
+So very often you can
+just arbitrarily trade off
+
+00:42:52.828 --> 00:42:54.370 align:middle line:84%
+the number of true
+positives you miss
+
+00:42:54.370 --> 00:42:55.787 align:middle line:84%
+with the number
+of false positives
+
+00:42:55.787 --> 00:42:57.490 align:middle line:90%
+you get and make one--
+
+00:42:57.490 --> 00:42:58.910 align:middle line:90%
+take one advantage of the other.
+
+00:42:58.910 --> 00:43:00.550 align:middle line:84%
+But here, it was a
+win-win situation.
+
+00:43:00.550 --> 00:43:03.110 align:middle line:84%
+They both went in a
+favorable direction.
+
+00:43:03.110 --> 00:43:06.470 align:middle line:84%
+So how do the snow
+RNAs compare with that?
+
+00:43:06.470 --> 00:43:08.190 align:middle line:90%
+Here, another two years passed.
+
+00:43:08.190 --> 00:43:10.710 align:middle line:84%
+We have the snow RNAs
+are just starting out.
+
+00:43:10.710 --> 00:43:15.170 align:middle line:84%
+They have, probably, a little
+better than 93% true positives.
+
+00:43:15.170 --> 00:43:17.000 align:middle line:84%
+This is not as good
+as transfer RNAs.
+
+00:43:17.000 --> 00:43:23.720 align:middle line:84%
+This may be-- this may
+improve or it may not.
+
+00:43:23.720 --> 00:43:28.030 align:middle line:84%
+The false positive
+rate is acceptable.
+
+00:43:28.030 --> 00:43:31.960 align:middle line:84%
+So then the question becomes,
+how do you track down--
+
+00:43:31.960 --> 00:43:33.340 align:middle line:84%
+after you track
+down these genes,
+
+00:43:33.340 --> 00:43:37.390 align:middle line:84%
+how do you then prove that
+they do what you think they do,
+
+00:43:37.390 --> 00:43:40.300 align:middle line:84%
+that they actually are
+responsible for methylating
+
+00:43:40.300 --> 00:43:44.220 align:middle line:84%
+the riboses or the
+bases in question?
+
+00:43:44.220 --> 00:43:50.960 align:middle line:84%
+So it turns out that
+the technology we set up
+
+00:43:50.960 --> 00:43:53.150 align:middle line:84%
+in the sequencing and
+genotyping lecture
+
+00:43:53.150 --> 00:43:59.510 align:middle line:84%
+where you extend with
+DNA polymerase a primer
+
+00:43:59.510 --> 00:44:02.360 align:middle line:84%
+on a template so the primer
+binds to the template
+
+00:44:02.360 --> 00:44:05.270 align:middle line:84%
+and you extend by
+either many base pairs,
+
+00:44:05.270 --> 00:44:07.610 align:middle line:84%
+as in the conventional
+dideoxy sequencing,
+
+00:44:07.610 --> 00:44:11.090 align:middle line:84%
+or one or two base pairs
+in some of the more
+
+00:44:11.090 --> 00:44:16.200 align:middle line:84%
+up-and-coming
+genotyping methods.
+
+00:44:16.200 --> 00:44:19.860 align:middle line:84%
+Those extension methods, those
+DNA polymerase-based extension
+
+00:44:19.860 --> 00:44:26.160 align:middle line:84%
+methods will stall when you
+run into this particular kind
+
+00:44:26.160 --> 00:44:29.880 align:middle line:84%
+of modified base where a
+bulky group is introduced
+
+00:44:29.880 --> 00:44:34.217 align:middle line:84%
+onto the two prime position
+of the ribose on the template.
+
+00:44:34.217 --> 00:44:36.550 align:middle line:84%
+So you're extending the primer,
+sitting on the template,
+
+00:44:36.550 --> 00:44:37.890 align:middle line:90%
+and it will stall here.
+
+00:44:37.890 --> 00:44:40.800 align:middle line:84%
+And it stalls more when you
+decrease the concentration
+
+00:44:40.800 --> 00:44:44.910 align:middle line:84%
+of the deoxynucleotide
+triphosphates in the extension
+
+00:44:44.910 --> 00:44:45.610 align:middle line:90%
+reaction.
+
+00:44:45.610 --> 00:44:46.650 align:middle line:84%
+So that's what
+these little wedges
+
+00:44:46.650 --> 00:44:48.510 align:middle line:84%
+mean at the top of
+each of these columns.
+
+00:44:48.510 --> 00:44:53.310 align:middle line:84%
+They've done an extension with
+all four triphosphates present,
+
+00:44:53.310 --> 00:44:55.110 align:middle line:84%
+either in high
+amounts at the big end
+
+00:44:55.110 --> 00:44:57.600 align:middle line:84%
+of the wedge or low amounts in
+the small ends of the wedge.
+
+00:44:57.600 --> 00:45:00.150 align:middle line:84%
+And to tell where you are
+in the sequence-- this
+
+00:45:00.150 --> 00:45:01.680 align:middle line:84%
+is what using
+reverse transcriptase
+
+00:45:01.680 --> 00:45:05.370 align:middle line:84%
+polymerase on a
+ribosomal RNA template--
+
+00:45:05.370 --> 00:45:06.990 align:middle line:84%
+to find out where
+you are, you do
+
+00:45:06.990 --> 00:45:09.250 align:middle line:84%
+this dideoxy, which is
+basically the conventional DNA
+
+00:45:09.250 --> 00:45:09.750 align:middle line:90%
+sequencing.
+
+00:45:09.750 --> 00:45:12.055 align:middle line:84%
+Where you terminate,
+it either is used Us,
+
+00:45:12.055 --> 00:45:13.305 align:middle line:90%
+Gs, Cs, or As in the template.
+
+00:45:13.305 --> 00:45:15.932 align:middle line:90%
+
+
+00:45:15.932 --> 00:45:17.265 align:middle line:90%
+This allows you to get oriented.
+
+00:45:17.265 --> 00:45:20.370 align:middle line:84%
+And basically, your sequencing
+on the far left-hand
+
+00:45:20.370 --> 00:45:21.390 align:middle line:90%
+set of lanes.
+
+00:45:21.390 --> 00:45:25.440 align:middle line:84%
+And these pause
+sites our present,
+
+00:45:25.440 --> 00:45:29.460 align:middle line:84%
+say, the wild-type is
+the first pair of lanes
+
+00:45:29.460 --> 00:45:33.480 align:middle line:84%
+next to the sequence lanes
+on the left-hand side
+
+00:45:33.480 --> 00:45:34.480 align:middle line:90%
+of this display.
+
+00:45:34.480 --> 00:45:38.070 align:middle line:84%
+And you can see there's a
+pause at every single known
+
+00:45:38.070 --> 00:45:39.300 align:middle line:90%
+methylated base.
+
+00:45:39.300 --> 00:45:44.040 align:middle line:84%
+You can determine methylated
+bases by other methods as well.
+
+00:45:44.040 --> 00:45:47.850 align:middle line:84%
+But so now then, the
+computational biology
+
+00:45:47.850 --> 00:45:50.550 align:middle line:90%
+predicted a set of snow genes.
+
+00:45:50.550 --> 00:45:53.820 align:middle line:84%
+In fact, ultimately, all of
+the snow genes in the yeast
+
+00:45:53.820 --> 00:45:57.390 align:middle line:84%
+genome we think, explaining all
+of the methyl groups, at least.
+
+00:45:57.390 --> 00:46:00.540 align:middle line:84%
+And one by one, these
+were knocked out cleanly
+
+00:46:00.540 --> 00:46:03.648 align:middle line:84%
+so that there's no gene there
+anymore for the small RNA.
+
+00:46:03.648 --> 00:46:05.190 align:middle line:84%
+And then you ask,
+well, how does this
+
+00:46:05.190 --> 00:46:07.710 align:middle line:84%
+affect the methylation as
+detected by this extension
+
+00:46:07.710 --> 00:46:08.340 align:middle line:90%
+assay?
+
+00:46:08.340 --> 00:46:12.760 align:middle line:84%
+And if you look on the far
+right-hand side for deleted
+
+00:46:12.760 --> 00:46:17.040 align:middle line:84%
+number 40, and you can
+see that position number
+
+00:46:17.040 --> 00:46:21.330 align:middle line:84%
+596, near the bottom,
+circled in red, which
+
+00:46:21.330 --> 00:46:23.730 align:middle line:84%
+is present in the wild type
+and all the other mutants,
+
+00:46:23.730 --> 00:46:26.680 align:middle line:84%
+is absent from that
+particular mutant number 40.
+
+00:46:26.680 --> 00:46:28.350 align:middle line:90%
+So there's no pause there.
+
+00:46:28.350 --> 00:46:30.480 align:middle line:84%
+One infers there's
+no methylation.
+
+00:46:30.480 --> 00:46:34.050 align:middle line:84%
+And that was the specific
+site that that snow RNA guide
+
+00:46:34.050 --> 00:46:36.810 align:middle line:90%
+sequence was predicted to bind.
+
+00:46:36.810 --> 00:46:40.110 align:middle line:84%
+It's aligned with the
+position in the guide
+
+00:46:40.110 --> 00:46:44.790 align:middle line:84%
+where you expect there to
+be a methylation occurring.
+
+00:46:44.790 --> 00:46:47.700 align:middle line:84%
+And you can see in each lane
+there's a different circled
+
+00:46:47.700 --> 00:46:51.780 align:middle line:90%
+red missing black pause site.
+
+00:46:51.780 --> 00:46:57.490 align:middle line:84%
+And until we get to
+the one in the middle,
+
+00:46:57.490 --> 00:47:00.250 align:middle line:84%
+Newton numbers for
+snow RNA number 60--
+
+00:47:00.250 --> 00:47:03.880 align:middle line:84%
+and here's actually two
+missing bands in the same lane.
+
+00:47:03.880 --> 00:47:06.520 align:middle line:84%
+And how that can occur,
+there's two different ways
+
+00:47:06.520 --> 00:47:08.920 align:middle line:90%
+that a snow RNA can--
+
+00:47:08.920 --> 00:47:11.200 align:middle line:84%
+knocking out a single
+gene, a single snow RNA
+
+00:47:11.200 --> 00:47:14.120 align:middle line:84%
+can have an effect on two
+different methyl groups.
+
+00:47:14.120 --> 00:47:21.340 align:middle line:84%
+One is if the guide sequence
+can bind to two different places
+
+00:47:21.340 --> 00:47:22.510 align:middle line:90%
+in the ribosomal RNA.
+
+00:47:22.510 --> 00:47:25.270 align:middle line:84%
+And the other is if there
+are two guides sequences
+
+00:47:25.270 --> 00:47:26.620 align:middle line:90%
+within the same snow RNA.
+
+00:47:26.620 --> 00:47:31.340 align:middle line:90%
+
+
+00:47:31.340 --> 00:47:35.610 align:middle line:84%
+So now that we have at
+least some grounding
+
+00:47:35.610 --> 00:47:40.200 align:middle line:84%
+in the kind of structures
+that can occur, now
+
+00:47:40.200 --> 00:47:43.020 align:middle line:84%
+we're going to
+ask how we monitor
+
+00:47:43.020 --> 00:47:47.010 align:middle line:84%
+and measure the amounts
+of these structures
+
+00:47:47.010 --> 00:47:50.150 align:middle line:90%
+in biological systems.
+
+00:47:50.150 --> 00:47:53.450 align:middle line:84%
+And we will also see how these
+structures impact the methods
+
+00:47:53.450 --> 00:47:58.240 align:middle line:84%
+that we use for the
+quantitation of the structures.
+
+00:47:58.240 --> 00:48:07.740 align:middle line:84%
+So we have choices of
+molecule that we're
+
+00:48:07.740 --> 00:48:10.230 align:middle line:84%
+going to measure
+when we're monitoring
+
+00:48:10.230 --> 00:48:12.510 align:middle line:84%
+the various molecules
+in the cell.
+
+00:48:12.510 --> 00:48:14.160 align:middle line:90%
+Why are we focusing on RNA?
+
+00:48:14.160 --> 00:48:18.390 align:middle line:84%
+Well, part of it is because of
+its nice structural continuity
+
+00:48:18.390 --> 00:48:21.390 align:middle line:84%
+between the simple DNA and
+the very complicated proteins.
+
+00:48:21.390 --> 00:48:25.470 align:middle line:84%
+But the other is that if we
+want to study different points
+
+00:48:25.470 --> 00:48:28.812 align:middle line:84%
+in the regulatory and
+metabolic networks
+
+00:48:28.812 --> 00:48:31.020 align:middle line:84%
+that we'll be talking about
+at the end of this course
+
+00:48:31.020 --> 00:48:36.530 align:middle line:84%
+having to do with systems
+biology, if we choose--
+
+00:48:36.530 --> 00:48:40.310 align:middle line:84%
+we want-- every part of
+it is subject to some kind
+
+00:48:40.310 --> 00:48:41.180 align:middle line:90%
+of control.
+
+00:48:41.180 --> 00:48:44.240 align:middle line:84%
+Transcriptional control is
+one of the early stages.
+
+00:48:44.240 --> 00:48:46.820 align:middle line:84%
+And then there are many stages
+subsequence to that lead
+
+00:48:46.820 --> 00:48:50.480 align:middle line:84%
+to the protein and
+ultimate phenotypes that
+
+00:48:50.480 --> 00:48:52.820 align:middle line:84%
+result in proliferation
+of the species.
+
+00:48:52.820 --> 00:48:55.310 align:middle line:84%
+If you want to look at
+transcriptional control,
+
+00:48:55.310 --> 00:48:59.360 align:middle line:84%
+it would not do well
+to study protein
+
+00:48:59.360 --> 00:49:02.510 align:middle line:84%
+because the closest thing
+to transcriptional control
+
+00:49:02.510 --> 00:49:05.840 align:middle line:84%
+that you can measure
+is the RNA products.
+
+00:49:05.840 --> 00:49:08.540 align:middle line:84%
+You can study the
+transcriptional control itself
+
+00:49:08.540 --> 00:49:11.210 align:middle line:84%
+directly, as well, by studying
+the DNA protein interactions.
+
+00:49:11.210 --> 00:49:14.450 align:middle line:84%
+But if you want to measure,
+a defusible molecule RNA
+
+00:49:14.450 --> 00:49:15.690 align:middle line:90%
+is the thing to do.
+
+00:49:15.690 --> 00:49:18.770 align:middle line:84%
+And there are multiple
+different methods
+
+00:49:18.770 --> 00:49:22.100 align:middle line:84%
+for getting at a co-regulated
+set of genes, co-regulated
+
+00:49:22.100 --> 00:49:24.290 align:middle line:90%
+at the transcriptional level.
+
+00:49:24.290 --> 00:49:26.990 align:middle line:90%
+We'll illustrate a few here.
+
+00:49:26.990 --> 00:49:28.850 align:middle line:84%
+And why do we need
+multiple methods?
+
+00:49:28.850 --> 00:49:31.820 align:middle line:84%
+Well, we've talked about
+random and systematic errors.
+
+00:49:31.820 --> 00:49:37.230 align:middle line:84%
+Random errors you can compensate
+by repeating the experiment.
+
+00:49:37.230 --> 00:49:39.307 align:middle line:84%
+The random errors will
+average out, ultimately.
+
+00:49:39.307 --> 00:49:41.640 align:middle line:84%
+Systematic errors will happen
+the same way over and over
+
+00:49:41.640 --> 00:49:41.980 align:middle line:90%
+again.
+
+00:49:41.980 --> 00:49:43.813 align:middle line:84%
+So you want to have
+something out of the box
+
+00:49:43.813 --> 00:49:47.190 align:middle line:84%
+to allow you to check
+it, or to model it,
+
+00:49:47.190 --> 00:49:51.000 align:middle line:84%
+or to allow you
+to do integration,
+
+00:49:51.000 --> 00:49:54.160 align:middle line:84%
+as you might want to have
+in complicated systems.
+
+00:49:54.160 --> 00:49:57.180 align:middle line:84%
+So here, just to start us
+thinking about integration
+
+00:49:57.180 --> 00:50:00.750 align:middle line:84%
+and checking different ways
+of getting transcriptional
+
+00:50:00.750 --> 00:50:05.760 align:middle line:84%
+co-regulation,
+let's think about--
+
+00:50:05.760 --> 00:50:09.150 align:middle line:84%
+if you look through all
+the proteins that occur,
+
+00:50:09.150 --> 00:50:13.080 align:middle line:84%
+you will find proteins that
+occur together, frequently,
+
+00:50:13.080 --> 00:50:17.610 align:middle line:84%
+as either as fusions or
+as separate proteins.
+
+00:50:17.610 --> 00:50:21.240 align:middle line:84%
+Where in operands, they'll
+occur as coding regions
+
+00:50:21.240 --> 00:50:23.580 align:middle line:84%
+that are clustered
+together in some species
+
+00:50:23.580 --> 00:50:27.350 align:middle line:84%
+or maybe less clustered
+in other species.
+
+00:50:27.350 --> 00:50:31.840 align:middle line:84%
+When we have metabolic pathways
+where a small molecule will
+
+00:50:31.840 --> 00:50:34.480 align:middle line:90%
+be shared by--
+
+00:50:34.480 --> 00:50:38.000 align:middle line:84%
+as the product of one will
+be the substrate of another,
+
+00:50:38.000 --> 00:50:43.910 align:middle line:84%
+and so on, you'll have this
+chain of events as in the lower
+
+00:50:43.910 --> 00:50:45.350 align:middle line:90%
+left-hand corner.
+
+00:50:45.350 --> 00:50:54.250 align:middle line:84%
+And these sets of enzymes that
+need to be working together,
+
+00:50:54.250 --> 00:50:55.420 align:middle line:90%
+need to be co-expressed.
+
+00:50:55.420 --> 00:50:59.290 align:middle line:84%
+They need to come up
+together and go down together
+
+00:50:59.290 --> 00:51:00.430 align:middle line:90%
+when they're not needed.
+
+00:51:00.430 --> 00:51:02.620 align:middle line:84%
+They need to come up when
+they're suddenly needed.
+
+00:51:02.620 --> 00:51:05.920 align:middle line:84%
+And so, you might have an entire
+pathway, or a set of pathways,
+
+00:51:05.920 --> 00:51:07.120 align:middle line:90%
+that are co-expressed.
+
+00:51:07.120 --> 00:51:11.200 align:middle line:84%
+And one way to do that is to
+cluster them in the genome.
+
+00:51:11.200 --> 00:51:13.840 align:middle line:84%
+When they are co-expressed,
+you will sometimes
+
+00:51:13.840 --> 00:51:18.250 align:middle line:84%
+find upstream of them,
+motifs, such as this.
+
+00:51:18.250 --> 00:51:23.170 align:middle line:84%
+Again, here's the two bits
+for the vertical scale,
+
+00:51:23.170 --> 00:51:26.650 align:middle line:90%
+where this might be enriched.
+
+00:51:26.650 --> 00:51:29.020 align:middle line:84%
+And so this would be
+another indication-- so
+
+00:51:29.020 --> 00:51:32.290 align:middle line:84%
+when you find these
+in front of genes,
+
+00:51:32.290 --> 00:51:35.670 align:middle line:84%
+you might expect them
+to be co-regulated.
+
+00:51:35.670 --> 00:51:39.990 align:middle line:84%
+When you find a set of proteins
+that are consistently together
+
+00:51:39.990 --> 00:51:42.420 align:middle line:84%
+in different organisms,
+so-called phylogenetic
+
+00:51:42.420 --> 00:51:47.490 align:middle line:84%
+profiles, you will find that
+this set of proteins that is
+
+00:51:47.490 --> 00:51:51.150 align:middle line:84%
+involved in a common enzymatic
+pathway, metabolic pathway,
+
+00:51:51.150 --> 00:51:56.105 align:middle line:84%
+are not only co-regulated
+and found together but in--
+
+00:51:56.105 --> 00:51:57.480 align:middle line:84%
+along the chromosome,
+but they're
+
+00:51:57.480 --> 00:52:00.300 align:middle line:84%
+found together when you go
+through many different species.
+
+00:52:00.300 --> 00:52:03.850 align:middle line:84%
+They will be deleted
+or inserted as a block,
+
+00:52:03.850 --> 00:52:05.850 align:middle line:84%
+or they'll be found
+scattered around the genome.
+
+00:52:05.850 --> 00:52:08.910 align:middle line:84%
+But you'll find that
+when one disappears,
+
+00:52:08.910 --> 00:52:12.030 align:middle line:84%
+they all disappear, in general,
+statistically speaking.
+
+00:52:12.030 --> 00:52:14.610 align:middle line:84%
+It's this phylogenetic
+co-occurrence
+
+00:52:14.610 --> 00:52:16.900 align:middle line:84%
+is another clue that
+you might expect
+
+00:52:16.900 --> 00:52:20.190 align:middle line:84%
+them to be co-regulated in those
+genomes in which there they
+
+00:52:20.190 --> 00:52:22.180 align:middle line:90%
+do co-occur.
+
+00:52:22.180 --> 00:52:25.030 align:middle line:84%
+Anyway, and
+microarrays will be--
+
+00:52:25.030 --> 00:52:27.190 align:middle line:84%
+and variations on that
+theme will be the main thing
+
+00:52:27.190 --> 00:52:28.217 align:middle line:90%
+that we'll talk about.
+
+00:52:28.217 --> 00:52:29.800 align:middle line:84%
+But I wanted to put
+it in the context.
+
+00:52:29.800 --> 00:52:35.390 align:middle line:84%
+And I'll just expand on
+one of these at the bottom
+
+00:52:35.390 --> 00:52:40.980 align:middle line:90%
+here in slide 22.
+
+00:52:40.980 --> 00:52:44.070 align:middle line:84%
+This is an algorithm
+for reconstructing
+
+00:52:44.070 --> 00:52:49.440 align:middle line:84%
+likely combinations
+where in some organisms
+
+00:52:49.440 --> 00:52:52.650 align:middle line:84%
+you might have the entire
+biosynthetic pathway
+
+00:52:52.650 --> 00:52:58.170 align:middle line:84%
+as a series of genes which
+encode one by one, all
+
+00:52:58.170 --> 00:53:00.120 align:middle line:84%
+the proteins in this
+case that are involved
+
+00:53:00.120 --> 00:53:05.380 align:middle line:84%
+in purine biosynthesis
+from simpler molecules.
+
+00:53:05.380 --> 00:53:07.360 align:middle line:84%
+But in other
+organisms, you might
+
+00:53:07.360 --> 00:53:09.790 align:middle line:84%
+have them scattered
+all over the genome,
+
+00:53:09.790 --> 00:53:11.590 align:middle line:90%
+but they might be co-regulated.
+
+00:53:11.590 --> 00:53:13.970 align:middle line:84%
+Their RNAs might go
+up and down together.
+
+00:53:13.970 --> 00:53:17.080 align:middle line:84%
+And so, if you look
+at enough genomes,
+
+00:53:17.080 --> 00:53:23.170 align:middle line:84%
+you can reconstruct the
+likely combination of enzymes.
+
+00:53:23.170 --> 00:53:25.710 align:middle line:90%
+And here's how it might work.
+
+00:53:25.710 --> 00:53:27.935 align:middle line:84%
+In any one of these,
+for example, E. coli,
+
+00:53:27.935 --> 00:53:30.310 align:middle line:84%
+you might see that they're
+scattered about-- a pair here,
+
+00:53:30.310 --> 00:53:31.020 align:middle line:90%
+and a pair there.
+
+00:53:31.020 --> 00:53:32.983 align:middle line:90%
+Singletons don't help much.
+
+00:53:32.983 --> 00:53:34.650 align:middle line:84%
+But if you take all
+the pairs from a lot
+
+00:53:34.650 --> 00:53:40.260 align:middle line:84%
+of different organisms, you
+can reconstruct this network
+
+00:53:40.260 --> 00:53:44.260 align:middle line:84%
+where you say,
+oh, this gene will
+
+00:53:44.260 --> 00:53:47.890 align:middle line:84%
+call L, Q, Y, C-- all
+these are probably
+
+00:53:47.890 --> 00:53:49.330 align:middle line:90%
+involved in the same process.
+
+00:53:49.330 --> 00:53:51.668 align:middle line:84%
+If you get a hint for
+what any one of them does,
+
+00:53:51.668 --> 00:53:53.835 align:middle line:84%
+say, one of them is involved
+in purine biosynthesis,
+
+00:53:53.835 --> 00:53:55.420 align:middle line:84%
+so then you find
+that they all are.
+
+00:53:55.420 --> 00:53:59.870 align:middle line:84%
+And if you guess they might
+be co-regulated very tightly.
+
+00:53:59.870 --> 00:54:01.840 align:middle line:84%
+So now let's figure
+out how we actually
+
+00:54:01.840 --> 00:54:05.840 align:middle line:84%
+measure that they're
+co-regulated very tightly.
+
+00:54:05.840 --> 00:54:08.510 align:middle line:90%
+And the way we can do that--
+
+00:54:08.510 --> 00:54:12.170 align:middle line:84%
+as we do that, whatever
+method we use, we want to ask
+
+00:54:12.170 --> 00:54:15.200 align:middle line:84%
+are we interested in
+ratios, relative changes,
+
+00:54:15.200 --> 00:54:17.090 align:middle line:84%
+or are we interested
+in absolute values?
+
+00:54:17.090 --> 00:54:20.210 align:middle line:84%
+There are various
+things that we can
+
+00:54:20.210 --> 00:54:21.800 align:middle line:84%
+do with absolute
+amounts that are
+
+00:54:21.800 --> 00:54:24.460 align:middle line:90%
+very hard to do with ratios.
+
+00:54:24.460 --> 00:54:28.380 align:middle line:84%
+In particular, if
+we want to ask,
+
+00:54:28.380 --> 00:54:34.170 align:middle line:84%
+is a particular protein level
+high because its translation is
+
+00:54:34.170 --> 00:54:37.680 align:middle line:84%
+efficient or is it high because
+its transcription is efficient,
+
+00:54:37.680 --> 00:54:41.910 align:middle line:84%
+if you find that it's
+full of abundant codons
+
+00:54:41.910 --> 00:54:46.170 align:middle line:84%
+as if it wants to be efficiently
+translated, is it also
+
+00:54:46.170 --> 00:54:48.570 align:middle line:84%
+have a high-level
+promoter as if it wants
+
+00:54:48.570 --> 00:54:51.240 align:middle line:90%
+to be transcriptionally active?
+
+00:54:51.240 --> 00:54:54.630 align:middle line:84%
+These sorts of
+questions really benefit
+
+00:54:54.630 --> 00:54:58.470 align:middle line:84%
+from having absolute
+amounts, meaning
+
+00:54:58.470 --> 00:55:00.400 align:middle line:84%
+so many molecules
+of RNA per cell,
+
+00:55:00.400 --> 00:55:02.550 align:middle line:84%
+so many molecules
+of protein per cell.
+
+00:55:02.550 --> 00:55:04.920 align:middle line:84%
+But we get that to
+direct causality,
+
+00:55:04.920 --> 00:55:06.990 align:middle line:90%
+we want to get at the motifs.
+
+00:55:06.990 --> 00:55:09.960 align:middle line:84%
+This would be one of the
+objectives of doing the RNA
+
+00:55:09.960 --> 00:55:14.280 align:middle line:84%
+quantitation, to allow
+us to cluster RNAs that
+
+00:55:14.280 --> 00:55:17.430 align:middle line:84%
+are co-expressed, and then
+to start looking for motifs
+
+00:55:17.430 --> 00:55:19.140 align:middle line:90%
+and direct causality.
+
+00:55:19.140 --> 00:55:21.540 align:middle line:84%
+Another thing that we might
+want to do is to classify.
+
+00:55:21.540 --> 00:55:26.250 align:middle line:84%
+We can ask whether small
+molecules or mutations,
+
+00:55:26.250 --> 00:55:30.060 align:middle line:84%
+such as occur in cancers,
+cause enough of a signature
+
+00:55:30.060 --> 00:55:36.110 align:middle line:84%
+that you can then use as to say,
+OK, this self state that we see
+
+00:55:36.110 --> 00:55:40.010 align:middle line:84%
+is a recognizable small molecule
+effect, or stress effect,
+
+00:55:40.010 --> 00:55:41.585 align:middle line:90%
+or mutational effect, cancer.
+
+00:55:41.585 --> 00:55:44.280 align:middle line:90%
+
+
+00:55:44.280 --> 00:55:51.420 align:middle line:84%
+Now, when we-- we
+will be talking
+
+00:55:51.420 --> 00:55:55.170 align:middle line:84%
+about microarray
+and related methods,
+
+00:55:55.170 --> 00:56:00.390 align:middle line:84%
+but I want you to question the
+advantages and disadvantages
+
+00:56:00.390 --> 00:56:01.410 align:middle line:90%
+of these methods.
+
+00:56:01.410 --> 00:56:05.100 align:middle line:84%
+And so I'll compare
+it to a number--
+
+00:56:05.100 --> 00:56:08.460 align:middle line:84%
+but let's start with the most
+dramatic comparison, which
+
+00:56:08.460 --> 00:56:11.370 align:middle line:90%
+is with in situ hybridization.
+
+00:56:11.370 --> 00:56:15.930 align:middle line:84%
+So in array hybridization
+you'll have tens of thousands
+
+00:56:15.930 --> 00:56:21.325 align:middle line:84%
+of different gene probes
+mobilized on a solid surface.
+
+00:56:21.325 --> 00:56:23.900 align:middle line:90%
+
+
+00:56:23.900 --> 00:56:29.530 align:middle line:84%
+And you'll label up the RNA from
+a mixture of different cells--
+
+00:56:29.530 --> 00:56:33.070 align:middle line:84%
+different mixture of
+different RNAs within a cell.
+
+00:56:33.070 --> 00:56:34.750 align:middle line:84%
+But you'll be able
+to ask questions
+
+00:56:34.750 --> 00:56:36.670 align:middle line:90%
+about 10,000 genes at a time.
+
+00:56:36.670 --> 00:56:39.070 align:middle line:84%
+In an in situ experiment,
+it's the other way around.
+
+00:56:39.070 --> 00:56:43.690 align:middle line:84%
+You take a cell in it's
+fairly natural environment,
+
+00:56:43.690 --> 00:56:46.930 align:middle line:84%
+usually fixed, but
+fixed with maintaining
+
+00:56:46.930 --> 00:56:49.990 align:middle line:90%
+the spatial aspects.
+
+00:56:49.990 --> 00:56:53.430 align:middle line:84%
+Then, if you look
+within the cell,
+
+00:56:53.430 --> 00:56:56.460 align:middle line:84%
+with a single gene at
+a time, or maybe two
+
+00:56:56.460 --> 00:56:59.560 align:middle line:84%
+or three at a time, a very small
+number, not tens of thousands,
+
+00:56:59.560 --> 00:57:03.177 align:middle line:84%
+you can look to see whether
+the RNA is uniformly
+
+00:57:03.177 --> 00:57:05.760 align:middle line:84%
+spread throughout the cell and
+uniformly spread throughout all
+
+00:57:05.760 --> 00:57:08.130 align:middle line:84%
+the cells in the tissue,
+or in, say, you've
+
+00:57:08.130 --> 00:57:12.010 align:middle line:84%
+got a mixed population
+of yeast cells, whatever.
+
+00:57:12.010 --> 00:57:14.940 align:middle line:84%
+And you can find cases
+in the literature
+
+00:57:14.940 --> 00:57:17.970 align:middle line:84%
+where it is not uniformly
+present in all the cells
+
+00:57:17.970 --> 00:57:19.680 align:middle line:84%
+and not even uniformly
+within a cell.
+
+00:57:19.680 --> 00:57:23.280 align:middle line:84%
+Here is one of the more
+dramatic cases where
+
+00:57:23.280 --> 00:57:28.710 align:middle line:84%
+the two X chromosomes in
+mammals behave differently
+
+00:57:28.710 --> 00:57:30.180 align:middle line:90%
+from one another.
+
+00:57:30.180 --> 00:57:35.070 align:middle line:84%
+The female mammals
+will have one RNA--
+
+00:57:35.070 --> 00:57:38.640 align:middle line:84%
+one chromosome expressing most
+of its RNAs at normal levels,
+
+00:57:38.640 --> 00:57:41.550 align:middle line:84%
+and the other chromosome
+expressing almost no RNAs.
+
+00:57:41.550 --> 00:57:44.670 align:middle line:84%
+It is expressing at least
+one RNA, and that RNA is--
+
+00:57:44.670 --> 00:57:52.860 align:middle line:84%
+which is XIST and it's
+covering that whole chromosome
+
+00:57:52.860 --> 00:57:54.720 align:middle line:84%
+or is localized over
+that chromosome and not
+
+00:57:54.720 --> 00:57:55.720 align:middle line:90%
+the rest of the cell.
+
+00:57:55.720 --> 00:57:58.890 align:middle line:84%
+So this is an extreme
+case of localization
+
+00:57:58.890 --> 00:58:01.890 align:middle line:84%
+that you can monitor
+with microscopic methods,
+
+00:58:01.890 --> 00:58:04.170 align:middle line:90%
+fluorescent microscopic methods.
+
+00:58:04.170 --> 00:58:07.830 align:middle line:84%
+Instead, we'll-- keep this in
+the back of your mind as you
+
+00:58:07.830 --> 00:58:12.780 align:middle line:84%
+look through the microarray
+and other experiments where
+
+00:58:12.780 --> 00:58:16.590 align:middle line:84%
+you're mushing together a
+variety of cells that might be
+
+00:58:16.590 --> 00:58:18.540 align:middle line:84%
+in different stages
+of the cell cycle,
+
+00:58:18.540 --> 00:58:20.530 align:middle line:84%
+might have slightly
+different environments,
+
+00:58:20.530 --> 00:58:22.830 align:middle line:84%
+and even within
+the cell, the RNA--
+
+00:58:22.830 --> 00:58:25.680 align:middle line:84%
+you're losing the information
+about the RNA localization.
+
+00:58:25.680 --> 00:58:28.270 align:middle line:90%
+
+
+00:58:28.270 --> 00:58:37.030 align:middle line:84%
+Let's take a short break and
+then come back and connect on--
+
+00:58:37.030 --> 00:58:41.530 align:middle line:84%
+finish up in situ hybridization,
+and connect to other methods
+
+00:58:41.530 --> 00:58:44.160 align:middle line:90%
+for quantitation of RNA.
+
+00:58:44.160 --> 00:58:45.000 align:middle line:90%

@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Data file for a homework assignment on computations on recorded RP data.</p>\n",
+  "content_type": "resource",
+  "description": "Data file for a homework assignment on computations on recorded RP data.",
+  "draft": false,
+  "file": "/courses/2-017j-design-of-electromechanical-robotic-systems-fall-2009/homework4.dat",
+  "file_size": 340034,
+  "file_type": "chemical/x-mopac-input",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "93ea44dc-663a-95f3-02d4-4a220966879b",
+  "resourcetype": "Other",
+  "title": "Homework 4: Recorded RP Data",
+  "uid": "881b6d37-9c8c-632d-e0a4-b383d07c759c",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

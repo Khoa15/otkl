@@ -1,0 +1,4065 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.610 align:middle line:90%
+
+
+00:00:00.610 --> 00:00:02.440 align:middle line:84%
+The following
+content is provided
+
+00:00:02.440 --> 00:00:06.370 align:middle line:84%
+by MIT OpenCourseWare under
+a Creative Commons license.
+
+00:00:06.370 --> 00:00:08.470 align:middle line:84%
+Additional information
+about our license
+
+00:00:08.470 --> 00:00:10.870 align:middle line:84%
+and MIT OpenCourseWare
+in general
+
+00:00:10.870 --> 00:00:12.730 align:middle line:90%
+is available at ocw.mit.edu.
+
+00:00:12.730 --> 00:00:18.640 align:middle line:90%
+
+
+00:00:18.640 --> 00:00:20.530 align:middle line:90%
+GEORGE CHURCH: OK.
+
+00:00:20.530 --> 00:00:23.710 align:middle line:84%
+Well, even though we've been
+hinting at networks pretty
+
+00:00:23.710 --> 00:00:25.400 align:middle line:84%
+heavily all the way
+through the course,
+
+00:00:25.400 --> 00:00:27.910 align:middle line:84%
+these are the three lectures
+where we actually take it on.
+
+00:00:27.910 --> 00:00:34.090 align:middle line:84%
+We really started this at the
+end of last week's lecture,
+
+00:00:34.090 --> 00:00:35.440 align:middle line:90%
+so-called protein 2.
+
+00:00:35.440 --> 00:00:38.830 align:middle line:84%
+Where in the process of talking
+about protein modifications
+
+00:00:38.830 --> 00:00:41.865 align:middle line:84%
+and quantitating metabolites
+and their interactions
+
+00:00:41.865 --> 00:00:43.240 align:middle line:84%
+with proteins, we
+started talking
+
+00:00:43.240 --> 00:00:47.200 align:middle line:84%
+about the sorts of sources of
+data that you would have that
+
+00:00:47.200 --> 00:00:54.430 align:middle line:84%
+would allow you to get at
+a quantitative analysis
+
+00:00:54.430 --> 00:00:58.310 align:middle line:84%
+of protein networks,
+such as red blood cell.
+
+00:00:58.310 --> 00:01:01.540 align:middle line:84%
+So we're going to
+pick up on that theme
+
+00:01:01.540 --> 00:01:06.070 align:middle line:84%
+by talking about macroscopic
+continuous concentration
+
+00:01:06.070 --> 00:01:07.780 align:middle line:84%
+gradients, and
+then contrast that
+
+00:01:07.780 --> 00:01:11.020 align:middle line:84%
+with mesoscopic or
+discrete molecular numbers.
+
+00:01:11.020 --> 00:01:14.410 align:middle line:84%
+We're just going to very
+briefly touch upon the issues
+
+00:01:14.410 --> 00:01:17.230 align:middle line:84%
+in discriminating between
+the stochastic modeling
+
+00:01:17.230 --> 00:01:19.960 align:middle line:90%
+and the continuous modeling.
+
+00:01:19.960 --> 00:01:23.915 align:middle line:84%
+And it's a very
+interesting connection
+
+00:01:23.915 --> 00:01:25.540 align:middle line:84%
+between the red blood
+cell model, where
+
+00:01:25.540 --> 00:01:28.630 align:middle line:84%
+you have a few examples
+of cooperativity
+
+00:01:28.630 --> 00:01:30.670 align:middle line:84%
+with modest Hill's
+coefficients--
+
+00:01:30.670 --> 00:01:33.550 align:middle line:84%
+to take that to an extreme
+case where you have actually
+
+00:01:33.550 --> 00:01:36.760 align:middle line:84%
+bistability, where you
+have two stable modes which
+
+00:01:36.760 --> 00:01:40.750 align:middle line:84%
+are separated by a very
+cooperative interaction.
+
+00:01:40.750 --> 00:01:44.050 align:middle line:84%
+And then we'll talk about
+copy number controls,
+
+00:01:44.050 --> 00:01:46.810 align:middle line:84%
+another opportunity
+for doing modeling
+
+00:01:46.810 --> 00:01:49.930 align:middle line:84%
+either by macroscopic
+continuous modeling
+
+00:01:49.930 --> 00:01:53.950 align:middle line:90%
+or this stochastic modeling.
+
+00:01:53.950 --> 00:01:56.770 align:middle line:84%
+And then, after the break,
+we'll talk about flux balance
+
+00:01:56.770 --> 00:02:01.930 align:middle line:84%
+optimization, which I think is
+a really exciting and clever way
+
+00:02:01.930 --> 00:02:04.210 align:middle line:84%
+of leveraging the little
+bits of information
+
+00:02:04.210 --> 00:02:07.690 align:middle line:84%
+that you have about
+very complicated
+
+00:02:07.690 --> 00:02:11.120 align:middle line:84%
+regulatory networks,
+biochemical networks.
+
+00:02:11.120 --> 00:02:14.980 align:middle line:84%
+So I think we've kind
+of just barely touched
+
+00:02:14.980 --> 00:02:16.650 align:middle line:90%
+upon this before.
+
+00:02:16.650 --> 00:02:21.880 align:middle line:84%
+The particular networks that
+are being studied, how did they
+
+00:02:21.880 --> 00:02:22.810 align:middle line:90%
+come to be studied?
+
+00:02:22.810 --> 00:02:25.450 align:middle line:90%
+Why and how?
+
+00:02:25.450 --> 00:02:27.670 align:middle line:84%
+And typically, what
+they have in common
+
+00:02:27.670 --> 00:02:32.143 align:middle line:84%
+is that they have large genetic
+and biochemical kinetic data
+
+00:02:32.143 --> 00:02:33.310 align:middle line:90%
+sets to go with it-- and/or.
+
+00:02:33.310 --> 00:02:36.010 align:middle line:90%
+
+
+00:02:36.010 --> 00:02:39.100 align:middle line:84%
+Right now there is no
+model that describes
+
+00:02:39.100 --> 00:02:43.360 align:middle line:84%
+all of the interesting
+aspects of an entire cell
+
+00:02:43.360 --> 00:02:45.215 align:middle line:90%
+or an entire organism.
+
+00:02:45.215 --> 00:02:46.840 align:middle line:84%
+Usually, there are
+little pieces of it.
+
+00:02:46.840 --> 00:02:49.180 align:middle line:84%
+The closest to a whole
+cell is the red blood cell.
+
+00:02:49.180 --> 00:02:53.320 align:middle line:84%
+And this is because there's
+no biopolymer components
+
+00:02:53.320 --> 00:02:56.860 align:middle line:90%
+to it, no biopolymer synthesis.
+
+00:02:56.860 --> 00:02:58.450 align:middle line:84%
+Today, we'll talk
+a little bit more
+
+00:02:58.450 --> 00:03:00.190 align:middle line:84%
+about these two
+related topics, which
+
+00:03:00.190 --> 00:03:05.530 align:middle line:84%
+is cell division cycle and
+the segregation of chromosomes
+
+00:03:05.530 --> 00:03:07.570 align:middle line:90%
+during the cell division.
+
+00:03:07.570 --> 00:03:15.040 align:middle line:84%
+Here, the key point
+is the critical nature
+
+00:03:15.040 --> 00:03:20.530 align:middle line:84%
+of single molecules in
+these that come into play
+
+00:03:20.530 --> 00:03:22.360 align:middle line:90%
+in the dividing cells.
+
+00:03:22.360 --> 00:03:25.540 align:middle line:84%
+And in this, they'll be talking
+about bistability, how there's
+
+00:03:25.540 --> 00:03:29.200 align:middle line:84%
+a decision of either to take
+the next step in dividing
+
+00:03:29.200 --> 00:03:30.520 align:middle line:90%
+the cell or not.
+
+00:03:30.520 --> 00:03:34.200 align:middle line:84%
+And how that bistability can be
+achieved either stochastically,
+
+00:03:34.200 --> 00:03:35.950 align:middle line:84%
+where you're dealing
+with the fluctuations
+
+00:03:35.950 --> 00:03:38.470 align:middle line:84%
+of single molecules
+greatly affecting a switch,
+
+00:03:38.470 --> 00:03:41.337 align:middle line:84%
+such as a phase
+lambda switch, or you
+
+00:03:41.337 --> 00:03:43.420 align:middle line:84%
+can have it involving a
+large number of molecules,
+
+00:03:43.420 --> 00:03:47.440 align:middle line:84%
+where stochastic seems
+to play less of a role.
+
+00:03:47.440 --> 00:03:50.350 align:middle line:84%
+And then, at the end,
+we'll talk about how
+
+00:03:50.350 --> 00:03:52.660 align:middle line:84%
+we can do comparative
+metabolism, where we literally
+
+00:03:52.660 --> 00:03:58.660 align:middle line:84%
+integrate genomics with a
+network model of biochemistry
+
+00:03:58.660 --> 00:04:00.400 align:middle line:90%
+at many different levels.
+
+00:04:00.400 --> 00:04:02.900 align:middle line:84%
+Of course, there's
+the genome encoding
+
+00:04:02.900 --> 00:04:04.580 align:middle line:90%
+the components of that network.
+
+00:04:04.580 --> 00:04:09.280 align:middle line:84%
+But there's also the
+systematic knockouts of genes
+
+00:04:09.280 --> 00:04:12.140 align:middle line:84%
+and their effects
+on the network.
+
+00:04:12.140 --> 00:04:14.892 align:middle line:90%
+Now, this slide is also review.
+
+00:04:14.892 --> 00:04:16.600 align:middle line:84%
+But it puts in context
+where we'll mainly
+
+00:04:16.600 --> 00:04:18.375 align:middle line:90%
+begin talking today.
+
+00:04:18.375 --> 00:04:20.500 align:middle line:84%
+We'll talk a little bit
+about ordinary differential
+
+00:04:20.500 --> 00:04:22.540 align:middle line:84%
+equations, both for--
+at the beginning,
+
+00:04:22.540 --> 00:04:27.850 align:middle line:84%
+under red blood cell, and in
+the bistability discussion,
+
+00:04:27.850 --> 00:04:31.480 align:middle line:84%
+how you can get, even with
+just concentration and time,
+
+00:04:31.480 --> 00:04:33.700 align:middle line:84%
+you can get these very
+interesting behaviors,
+
+00:04:33.700 --> 00:04:35.290 align:middle line:90%
+highly cooperative.
+
+00:04:35.290 --> 00:04:38.020 align:middle line:84%
+And then we'll drop
+concentration and time
+
+00:04:38.020 --> 00:04:39.560 align:middle line:84%
+by a steady-state
+approximation when
+
+00:04:39.560 --> 00:04:42.260 align:middle line:84%
+we talk about flux balance
+in the second half.
+
+00:04:42.260 --> 00:04:45.220 align:middle line:84%
+And of course, before,
+we were talking
+
+00:04:45.220 --> 00:04:49.810 align:middle line:84%
+about molecular mechanics in the
+context of protein structure.
+
+00:04:49.810 --> 00:04:51.790 align:middle line:84%
+And master's
+equations are the way
+
+00:04:51.790 --> 00:04:53.890 align:middle line:84%
+of looking at stochastic
+single molecules, which
+
+00:04:53.890 --> 00:04:57.490 align:middle line:90%
+we'll mention in passing.
+
+00:04:57.490 --> 00:04:59.920 align:middle line:84%
+Eventually, in the
+network, discussions
+
+00:04:59.920 --> 00:05:02.860 align:middle line:84%
+will get to spatially
+inhomogeneous models, where
+
+00:05:02.860 --> 00:05:07.090 align:middle line:84%
+you actually care or realize
+the importance of where
+
+00:05:07.090 --> 00:05:11.920 align:middle line:84%
+particular molecules lie
+in terms of their function.
+
+00:05:11.920 --> 00:05:14.650 align:middle line:84%
+Now, what are the
+limits and problems
+
+00:05:14.650 --> 00:05:20.300 align:middle line:84%
+in connecting the in
+vitro parameters that
+
+00:05:20.300 --> 00:05:25.080 align:middle line:84%
+were so key last time and this
+time in developing a system
+
+00:05:25.080 --> 00:05:25.580 align:middle line:90%
+model?
+
+00:05:25.580 --> 00:05:27.980 align:middle line:84%
+By isolating
+particular molecules,
+
+00:05:27.980 --> 00:05:32.600 align:middle line:84%
+you can cut off, make
+the system simpler.
+
+00:05:32.600 --> 00:05:34.830 align:middle line:84%
+But then there's the
+problem of reintegration.
+
+00:05:34.830 --> 00:05:38.180 align:middle line:84%
+And here, this is more
+historical artifact
+
+00:05:38.180 --> 00:05:42.350 align:middle line:84%
+than really critical
+to this discussion.
+
+00:05:42.350 --> 00:05:46.610 align:middle line:84%
+And originally, enzyme kinetics
+would ignore the products
+
+00:05:46.610 --> 00:05:49.530 align:middle line:84%
+for technical
+mathematical reasons.
+
+00:05:49.530 --> 00:05:51.027 align:middle line:84%
+But as you can see
+from last time,
+
+00:05:51.027 --> 00:05:53.360 align:middle line:84%
+we showed that you could
+represent those equations quite
+
+00:05:53.360 --> 00:05:56.380 align:middle line:84%
+well and even make
+the measurements.
+
+00:05:56.380 --> 00:05:58.130 align:middle line:84%
+In the presence of
+products, it would just
+
+00:05:58.130 --> 00:06:03.170 align:middle line:84%
+be another few terms
+in the rate equations.
+
+00:06:03.170 --> 00:06:08.875 align:middle line:84%
+More critical, however, is that
+including the product along
+
+00:06:08.875 --> 00:06:11.000 align:middle line:84%
+with substrate in the
+measurements and the modeling
+
+00:06:11.000 --> 00:06:13.880 align:middle line:84%
+is just the first step, because
+how many different products
+
+00:06:13.880 --> 00:06:17.480 align:middle line:84%
+and substrates and other
+regulatory molecules
+
+00:06:17.480 --> 00:06:20.900 align:middle line:84%
+might be involved that you
+don't know about initially?
+
+00:06:20.900 --> 00:06:24.020 align:middle line:84%
+In addition, the
+conditions for doing
+
+00:06:24.020 --> 00:06:28.370 align:middle line:84%
+the in vitro measurements,
+it's hard to do them
+
+00:06:28.370 --> 00:06:30.620 align:middle line:90%
+at the concentrations in cells.
+
+00:06:30.620 --> 00:06:33.440 align:middle line:84%
+And in cells, they're nearly
+crystalline densities,
+
+00:06:33.440 --> 00:06:42.980 align:middle line:84%
+as I say, up to 30% or
+so, which is basically
+
+00:06:42.980 --> 00:06:47.600 align:middle line:84%
+the very high concentration
+of solute that occurs--
+
+00:06:47.600 --> 00:06:50.090 align:middle line:84%
+proteins and other
+macromolecules.
+
+00:06:50.090 --> 00:06:54.980 align:middle line:84%
+And the substrates,
+the small molecules,
+
+00:06:54.980 --> 00:06:58.280 align:middle line:84%
+are typically in vast excess
+in in vitro reactions.
+
+00:06:58.280 --> 00:07:00.810 align:middle line:84%
+But they're very close
+to equal molar in vivo
+
+00:07:00.810 --> 00:07:02.810 align:middle line:84%
+because a lot of them are
+bound up with enzymes.
+
+00:07:02.810 --> 00:07:04.352 align:middle line:84%
+And you get interesting
+observations,
+
+00:07:04.352 --> 00:07:06.680 align:middle line:84%
+such as this one mentioned
+at the bottom where
+
+00:07:06.680 --> 00:07:09.620 align:middle line:84%
+a chemical reaction, which is
+spontaneous in solution, which
+
+00:07:09.620 --> 00:07:14.630 align:middle line:84%
+is the epimerization
+of galactose,
+
+00:07:14.630 --> 00:07:20.930 align:middle line:84%
+does not occur in
+normal cells of E. coli
+
+00:07:20.930 --> 00:07:24.020 align:middle line:84%
+unless they have an
+enzyme that catalyzes
+
+00:07:24.020 --> 00:07:25.920 align:middle line:84%
+this normally
+spontaneous reaction.
+
+00:07:25.920 --> 00:07:28.730 align:middle line:84%
+So this is curious that
+it happens in solution.
+
+00:07:28.730 --> 00:07:31.955 align:middle line:84%
+Doesn't happen in the cell
+unless you have the enzyme.
+
+00:07:31.955 --> 00:07:35.900 align:middle line:90%
+
+
+00:07:35.900 --> 00:07:36.470 align:middle line:90%
+OK.
+
+00:07:36.470 --> 00:07:38.840 align:middle line:84%
+So with all those
+caveats in mind,
+
+00:07:38.840 --> 00:07:42.765 align:middle line:84%
+and recognizing that even
+though this model has more
+
+00:07:42.765 --> 00:07:45.140 align:middle line:84%
+measured parameters than almost
+any other cellular model,
+
+00:07:45.140 --> 00:07:47.723 align:middle line:84%
+they were all measured in vitro,
+with the caveats that we just
+
+00:07:47.723 --> 00:07:48.530 align:middle line:90%
+mentioned.
+
+00:07:48.530 --> 00:07:51.140 align:middle line:90%
+And the cell is aimed--
+
+00:07:51.140 --> 00:07:53.390 align:middle line:84%
+the function of
+all these network
+
+00:07:53.390 --> 00:07:55.730 align:middle line:84%
+is mainly to provide
+the redox that
+
+00:07:55.730 --> 00:07:59.510 align:middle line:84%
+keeps the hemoglobin
+reduced and the ATP that
+
+00:07:59.510 --> 00:08:02.255 align:middle line:84%
+keeps the osmotic
+pressure under control.
+
+00:08:02.255 --> 00:08:06.350 align:middle line:90%
+
+
+00:08:06.350 --> 00:08:08.360 align:middle line:84%
+And also, the cell
+is-- even though we've
+
+00:08:08.360 --> 00:08:10.540 align:middle line:84%
+shown a little structure
+in this network,
+
+00:08:10.540 --> 00:08:12.860 align:middle line:84%
+the structure is
+assumed to be fairly
+
+00:08:12.860 --> 00:08:15.140 align:middle line:84%
+continuous within
+the cell, which
+
+00:08:15.140 --> 00:08:18.660 align:middle line:84%
+is a fairly good
+approximation in this case.
+
+00:08:18.660 --> 00:08:21.140 align:middle line:84%
+So this is not
+merely the stapling
+
+00:08:21.140 --> 00:08:25.340 align:middle line:84%
+together of some kinetic
+in vitro parameters.
+
+00:08:25.340 --> 00:08:33.610 align:middle line:84%
+We have other considerations
+in a real cell.
+
+00:08:33.610 --> 00:08:38.679 align:middle line:84%
+We have the sort of
+physical parameters
+
+00:08:38.679 --> 00:08:44.290 align:middle line:84%
+of the mass balance, energy
+balance, and redox balance.
+
+00:08:44.290 --> 00:08:46.510 align:middle line:84%
+We've already mentioned
+energy and redox.
+
+00:08:46.510 --> 00:08:49.720 align:middle line:84%
+But you have to have
+conservation of mass,
+
+00:08:49.720 --> 00:08:52.810 align:middle line:84%
+as we'll see develop quite a
+bit more in the second half
+
+00:08:52.810 --> 00:08:54.910 align:middle line:90%
+of this talk.
+
+00:08:54.910 --> 00:08:58.780 align:middle line:84%
+In addition, there are physics,
+such as the osmotic pressure
+
+00:08:58.780 --> 00:08:59.950 align:middle line:90%
+and electron neutrality.
+
+00:08:59.950 --> 00:09:04.390 align:middle line:84%
+There are cells which
+do have transience
+
+00:09:04.390 --> 00:09:06.205 align:middle line:90%
+of non-electrode neutrality.
+
+00:09:06.205 --> 00:09:09.520 align:middle line:84%
+But for the red blood cells,
+certainly, one of the goals
+
+00:09:09.520 --> 00:09:12.130 align:middle line:84%
+is to maintain very close
+to electron neutrality
+
+00:09:12.130 --> 00:09:14.860 align:middle line:90%
+and osmotically stable.
+
+00:09:14.860 --> 00:09:17.110 align:middle line:84%
+You want to have as many
+non-adjustable constraints as
+
+00:09:17.110 --> 00:09:18.700 align:middle line:90%
+possible.
+
+00:09:18.700 --> 00:09:23.620 align:middle line:84%
+As in other modeling systems, if
+these are measurements, rather
+
+00:09:23.620 --> 00:09:26.440 align:middle line:84%
+than adjustable
+model parameters,
+
+00:09:26.440 --> 00:09:32.950 align:middle line:84%
+then it allows you to test
+the few hypotheses you have,
+
+00:09:32.950 --> 00:09:35.290 align:middle line:84%
+and have them
+overdetermined, and look
+
+00:09:35.290 --> 00:09:39.610 align:middle line:90%
+for contradictions, outliers.
+
+00:09:39.610 --> 00:09:42.820 align:middle line:84%
+And then, eventually,
+we'll see advantages
+
+00:09:42.820 --> 00:09:45.010 align:middle line:84%
+to knowing what the
+maximum fluxes--
+
+00:09:45.010 --> 00:09:49.360 align:middle line:84%
+the maximum rates that you can
+have in these complex networks.
+
+00:09:49.360 --> 00:09:51.700 align:middle line:84%
+And we could incorporate
+gene regulation,
+
+00:09:51.700 --> 00:09:56.110 align:middle line:84%
+as we've seen lots of
+wholesale, increasingly
+
+00:09:56.110 --> 00:09:59.320 align:middle line:84%
+accurate data on gene regulation
+is becoming available.
+
+00:09:59.320 --> 00:10:01.930 align:middle line:84%
+It would be nice
+to integrate these,
+
+00:10:01.930 --> 00:10:04.662 align:middle line:84%
+because the expression
+of the proteins
+
+00:10:04.662 --> 00:10:05.620 align:middle line:90%
+affects their activity.
+
+00:10:05.620 --> 00:10:07.990 align:middle line:84%
+The activity affects
+these fluxes.
+
+00:10:07.990 --> 00:10:11.650 align:middle line:84%
+So these fluxes are represented
+here in slide number 8
+
+00:10:11.650 --> 00:10:15.880 align:middle line:84%
+as dx dt, where each of
+the x sub i's represents
+
+00:10:15.880 --> 00:10:18.910 align:middle line:84%
+one of these blue dots, a
+node in the network, where
+
+00:10:18.910 --> 00:10:22.900 align:middle line:84%
+you have four basic processes
+that affect it-- up to four.
+
+00:10:22.900 --> 00:10:25.420 align:middle line:84%
+You can have synthesis
+steps, degradation steps.
+
+00:10:25.420 --> 00:10:29.740 align:middle line:84%
+So synthesis produces transport,
+can bring it into the cell.
+
+00:10:29.740 --> 00:10:31.000 align:middle line:90%
+Degradation removes it.
+
+00:10:31.000 --> 00:10:32.740 align:middle line:84%
+And it can be
+utilized, incorporated
+
+00:10:32.740 --> 00:10:34.120 align:middle line:90%
+into the body of the cell.
+
+00:10:34.120 --> 00:10:37.120 align:middle line:84%
+And you can think of this
+as a sink removing it
+
+00:10:37.120 --> 00:10:41.320 align:middle line:90%
+from the free population of--
+
+00:10:41.320 --> 00:10:42.850 align:middle line:90%
+for each x molecule.
+
+00:10:42.850 --> 00:10:47.020 align:middle line:84%
+And this can be restated as a
+stoichiometric matrix [? so ?]
+
+00:10:47.020 --> 00:10:52.330 align:middle line:84%
+ij, where that's mainly
+1's and minus 1's.
+
+00:10:52.330 --> 00:10:57.580 align:middle line:84%
+As you can see, in front
+of each of these fluxes,
+
+00:10:57.580 --> 00:11:00.280 align:middle line:84%
+synthesis degradation and so
+forth will be 1's and minus
+
+00:11:00.280 --> 00:11:03.100 align:middle line:84%
+1's that refer to
+the stoichiometry,
+
+00:11:03.100 --> 00:11:05.980 align:middle line:90%
+and sometimes 2's and 0's.
+
+00:11:05.980 --> 00:11:09.175 align:middle line:84%
+And then the transport
+is its own vector.
+
+00:11:09.175 --> 00:11:11.870 align:middle line:90%
+
+
+00:11:11.870 --> 00:11:14.560 align:middle line:84%
+And you'll see the utility
+of the stoichiometric matrix
+
+00:11:14.560 --> 00:11:17.020 align:middle line:84%
+where i is the
+metabolite number,
+
+00:11:17.020 --> 00:11:20.260 align:middle line:84%
+and j is the reaction
+number or the enzyme number
+
+00:11:20.260 --> 00:11:25.790 align:middle line:84%
+for all the possible reactions
+that can occur in a cell.
+
+00:11:25.790 --> 00:11:27.290 align:middle line:84%
+These can be all
+possible reactions.
+
+00:11:27.290 --> 00:11:30.490 align:middle line:84%
+Then you can toggle them on and
+off with mutations or changing
+
+00:11:30.490 --> 00:11:32.530 align:middle line:90%
+different cell types.
+
+00:11:32.530 --> 00:11:38.260 align:middle line:84%
+Now, this particularly rich
+system, the red blood cell,
+
+00:11:38.260 --> 00:11:42.280 align:middle line:84%
+has been modeled many times and
+continues to be modeled since
+
+00:11:42.280 --> 00:11:46.210 align:middle line:84%
+the mid '70s and
+now into the 2000s,
+
+00:11:46.210 --> 00:11:49.390 align:middle line:84%
+starting originally
+just with glycolysis,
+
+00:11:49.390 --> 00:11:53.890 align:middle line:84%
+later adding pentose phosphate,
+nucleotide metabolism,
+
+00:11:53.890 --> 00:11:59.260 align:middle line:84%
+various [? pumps, ?]
+[? osmotic ?] consideration.
+
+00:11:59.260 --> 00:12:02.860 align:middle line:84%
+Hemoglobin ligands have been
+treated from time to time,
+
+00:12:02.860 --> 00:12:07.450 align:middle line:84%
+and less so issues having to
+do with [INAUDIBLE] and shape.
+
+00:12:07.450 --> 00:12:10.930 align:middle line:84%
+No model includes all
+of these in one model,
+
+00:12:10.930 --> 00:12:14.470 align:middle line:90%
+although it's really very close.
+
+00:12:14.470 --> 00:12:18.340 align:middle line:84%
+But there are models that
+include all of the metabolism
+
+00:12:18.340 --> 00:12:22.240 align:middle line:84%
+that we know and the
+transport osmotic properties.
+
+00:12:22.240 --> 00:12:25.330 align:middle line:90%
+
+
+00:12:25.330 --> 00:12:30.550 align:middle line:84%
+Relatively few of those
+were made available broadly.
+
+00:12:30.550 --> 00:12:34.360 align:middle line:84%
+But now they're increasingly
+being made available freely
+
+00:12:34.360 --> 00:12:39.550 align:middle line:90%
+on the web, as models should be.
+
+00:12:39.550 --> 00:12:42.430 align:middle line:84%
+The assumptions
+behind this is that--
+
+00:12:42.430 --> 00:12:45.970 align:middle line:90%
+
+
+00:12:45.970 --> 00:12:47.890 align:middle line:84%
+like I said, not
+everything is modeled.
+
+00:12:47.890 --> 00:12:51.370 align:middle line:84%
+Some of it, for
+mathematical convenience,
+
+00:12:51.370 --> 00:12:55.120 align:middle line:84%
+you will typically, in order
+to do differential equation--
+
+00:12:55.120 --> 00:12:57.490 align:middle line:84%
+since there's vast
+ranges of time constants,
+
+00:12:57.490 --> 00:13:02.050 align:middle line:84%
+from things that happen
+extremely quickly to things
+
+00:13:02.050 --> 00:13:04.870 align:middle line:84%
+that happen extremely slowly,
+typically, what you do
+
+00:13:04.870 --> 00:13:09.550 align:middle line:84%
+is you'll model with a window
+in the middle, where you'll say,
+
+00:13:09.550 --> 00:13:11.110 align:middle line:84%
+things that happened
+very quickly
+
+00:13:11.110 --> 00:13:13.030 align:middle line:84%
+can be treated as a
+pseudo-equilibrium,
+
+00:13:13.030 --> 00:13:16.510 align:middle line:84%
+as we've listed in this
+middle line here on slide 10.
+
+00:13:16.510 --> 00:13:18.310 align:middle line:84%
+Things that happen
+extremely slowly
+
+00:13:18.310 --> 00:13:19.630 align:middle line:90%
+can be treated as a constant.
+
+00:13:19.630 --> 00:13:22.870 align:middle line:84%
+If they happen over
+the period of years,
+
+00:13:22.870 --> 00:13:26.020 align:middle line:84%
+then in the course of an
+experiment that might be hours,
+
+00:13:26.020 --> 00:13:29.020 align:middle line:84%
+they can be treated as
+a constant or something
+
+00:13:29.020 --> 00:13:30.625 align:middle line:90%
+that you systematically explore.
+
+00:13:30.625 --> 00:13:34.450 align:middle line:90%
+
+
+00:13:34.450 --> 00:13:38.500 align:middle line:84%
+Although we'll typically
+be ignoring little pieces
+
+00:13:38.500 --> 00:13:40.420 align:middle line:84%
+of the metabolism, like
+[INAUDIBLE] metabolism
+
+00:13:40.420 --> 00:13:40.920 align:middle line:90%
+calcium--
+
+00:13:40.920 --> 00:13:44.290 align:middle line:90%
+
+
+00:13:44.290 --> 00:13:47.080 align:middle line:84%
+either as data comes
+in from other systems
+
+00:13:47.080 --> 00:13:51.490 align:middle line:84%
+and try to treat it by
+homology or analogy.
+
+00:13:51.490 --> 00:13:55.180 align:middle line:84%
+In addition, when we talk
+about a typical cell,
+
+00:13:55.180 --> 00:13:59.650 align:middle line:84%
+this can mean that we assume
+homogeneous distribution
+
+00:13:59.650 --> 00:14:03.040 align:middle line:84%
+of molecules within the cell
+and homogeneity from cell
+
+00:14:03.040 --> 00:14:05.170 align:middle line:84%
+to cell within a
+particular organism.
+
+00:14:05.170 --> 00:14:07.810 align:middle line:84%
+It also means there's
+a tendency to model
+
+00:14:07.810 --> 00:14:11.800 align:middle line:84%
+a wild type without
+respect to polymorphism.
+
+00:14:11.800 --> 00:14:15.160 align:middle line:84%
+Although in human population,
+with red blood cell function
+
+00:14:15.160 --> 00:14:18.160 align:middle line:84%
+in particular, there's
+quite a literature
+
+00:14:18.160 --> 00:14:24.115 align:middle line:84%
+on mutations that affect the
+functioning of the proteins
+
+00:14:24.115 --> 00:14:25.240 align:middle line:90%
+within the red blood cells.
+
+00:14:25.240 --> 00:14:32.120 align:middle line:84%
+Probably one of the best
+studied human genetic systems.
+
+00:14:32.120 --> 00:14:33.890 align:middle line:90%
+OK.
+
+00:14:33.890 --> 00:14:36.260 align:middle line:84%
+Surface area is not
+absolutely constant,
+
+00:14:36.260 --> 00:14:40.280 align:middle line:84%
+although for the time
+being, it's modeled as such.
+
+00:14:40.280 --> 00:14:42.590 align:middle line:84%
+This is some examples
+of a subset of it.
+
+00:14:42.590 --> 00:14:47.150 align:middle line:84%
+This is a subset that
+refers to glycolysis.
+
+00:14:47.150 --> 00:14:49.250 align:middle line:84%
+You can see they all
+have the same form where
+
+00:14:49.250 --> 00:14:52.100 align:middle line:84%
+you have a change in a
+concentration in moles
+
+00:14:52.100 --> 00:14:55.970 align:middle line:84%
+per liter with respect to time
+of some small molecule-- here
+
+00:14:55.970 --> 00:14:57.380 align:middle line:90%
+glucose-6-phosphate.
+
+00:14:57.380 --> 00:15:03.590 align:middle line:84%
+It's some synthesis rate with
+the subscript being hexokinase.
+
+00:15:03.590 --> 00:15:07.280 align:middle line:84%
+This is the upper
+left-hand corner.
+
+00:15:07.280 --> 00:15:11.480 align:middle line:84%
+And then that's the
+synthesis minus the sinks,
+
+00:15:11.480 --> 00:15:14.315 align:middle line:84%
+the degradation rates, which
+go through two other enzymes.
+
+00:15:14.315 --> 00:15:20.540 align:middle line:90%
+
+
+00:15:20.540 --> 00:15:22.170 align:middle line:84%
+Again, a reminder--
+at the bottom,
+
+00:15:22.170 --> 00:15:25.920 align:middle line:84%
+you'll see this come up a
+few times, just a reminder.
+
+00:15:25.920 --> 00:15:27.380 align:middle line:84%
+Each of these is
+a form of change
+
+00:15:27.380 --> 00:15:31.200 align:middle line:84%
+in the concentration of some
+small molecule with respect
+
+00:15:31.200 --> 00:15:31.820 align:middle line:90%
+to time--
+
+00:15:31.820 --> 00:15:38.120 align:middle line:84%
+is the sum of the synthesis,
+subtracting the degradation
+
+00:15:38.120 --> 00:15:40.400 align:middle line:90%
+transport utilization.
+
+00:15:40.400 --> 00:15:45.740 align:middle line:90%
+
+
+00:15:45.740 --> 00:15:47.360 align:middle line:90%
+OK.
+
+00:15:47.360 --> 00:15:49.640 align:middle line:84%
+Now, remember we focused
+in on one little piece
+
+00:15:49.640 --> 00:15:51.410 align:middle line:90%
+of this a couple of times now.
+
+00:15:51.410 --> 00:15:55.490 align:middle line:84%
+This is a step that
+happens to be allosteric.
+
+00:15:55.490 --> 00:15:58.223 align:middle line:84%
+That means that, depending
+on the concentration of the--
+
+00:15:58.223 --> 00:16:08.653 align:middle line:90%
+
+
+00:16:08.653 --> 00:16:10.070 align:middle line:84%
+the top part of
+this formula tends
+
+00:16:10.070 --> 00:16:13.230 align:middle line:84%
+to be composed of substrates
+and products having an effect.
+
+00:16:13.230 --> 00:16:17.090 align:middle line:84%
+And then this term
+in the denominator
+
+00:16:17.090 --> 00:16:21.440 align:middle line:84%
+has a fourth power dependence
+on a variety of other site
+
+00:16:21.440 --> 00:16:23.300 align:middle line:90%
+effectors, including AMP.
+
+00:16:23.300 --> 00:16:28.250 align:middle line:84%
+And you can see that the
+velocity is either hyperbolic,
+
+00:16:28.250 --> 00:16:32.840 align:middle line:84%
+which is the upper curve--
+which kind goes smoothly up
+
+00:16:32.840 --> 00:16:33.890 align:middle line:90%
+and plateaus.
+
+00:16:33.890 --> 00:16:37.400 align:middle line:84%
+While a sigmoid curve implies
+greater cooperatively,
+
+00:16:37.400 --> 00:16:40.430 align:middle line:84%
+which can be affected by some
+of these other site effectors,
+
+00:16:40.430 --> 00:16:42.380 align:middle line:90%
+which is more sigmoid in shape.
+
+00:16:42.380 --> 00:16:46.100 align:middle line:84%
+And we'll use this
+as a stepping stone
+
+00:16:46.100 --> 00:16:49.010 align:middle line:84%
+to talking about what are
+the various ways of getting
+
+00:16:49.010 --> 00:16:50.325 align:middle line:90%
+that sigmoid shape?
+
+00:16:50.325 --> 00:16:51.950 align:middle line:84%
+We've already talked
+about how proteins
+
+00:16:51.950 --> 00:16:55.190 align:middle line:84%
+can be multimers, dimers,
+tetramers, and so forth.
+
+00:16:55.190 --> 00:16:56.780 align:middle line:84%
+That could be one
+way of achieving
+
+00:16:56.780 --> 00:17:00.080 align:middle line:84%
+the sigmoid shape via
+a conformation change
+
+00:17:00.080 --> 00:17:02.510 align:middle line:90%
+which senses the second site.
+
+00:17:02.510 --> 00:17:06.349 align:middle line:84%
+But we'll talk about another
+way in just a couple of slides.
+
+00:17:06.349 --> 00:17:11.090 align:middle line:84%
+When we have the kinetic
+expressions here,
+
+00:17:11.090 --> 00:17:12.750 align:middle line:84%
+they have the form
+of the previous one.
+
+00:17:12.750 --> 00:17:17.510 align:middle line:84%
+Most of them are simpler
+than the one in slide 12.
+
+00:17:17.510 --> 00:17:20.420 align:middle line:84%
+The model has a total
+of 44 rate expressions.
+
+00:17:20.420 --> 00:17:24.060 align:middle line:84%
+They have about five
+constants, on average,
+
+00:17:24.060 --> 00:17:26.690 align:middle line:90%
+so about 200 parameters.
+
+00:17:26.690 --> 00:17:28.700 align:middle line:84%
+These are not truly
+adjustable in the sense
+
+00:17:28.700 --> 00:17:35.420 align:middle line:84%
+that they're determined
+from the in vitro reactions.
+
+00:17:35.420 --> 00:17:38.240 align:middle line:90%
+What kind of assumptions?
+
+00:17:38.240 --> 00:17:40.820 align:middle line:84%
+We've already mentioned the
+difference between in vitro
+
+00:17:40.820 --> 00:17:43.220 align:middle line:90%
+and in vivo.
+
+00:17:43.220 --> 00:17:47.840 align:middle line:84%
+We have the lingering
+question of how many effectors
+
+00:17:47.840 --> 00:17:50.060 align:middle line:84%
+might there be that
+we don't know about?
+
+00:17:50.060 --> 00:17:51.620 align:middle line:84%
+Typically, these in
+vitro experiments
+
+00:17:51.620 --> 00:17:54.470 align:middle line:84%
+were done with a small number
+of substrates and products
+
+00:17:54.470 --> 00:17:56.060 align:middle line:90%
+that you know about.
+
+00:17:56.060 --> 00:17:59.330 align:middle line:84%
+But as a worst case scenario,
+Mike Savageau you know,
+
+00:17:59.330 --> 00:18:02.150 align:middle line:84%
+likes to trot out the glutamine
+synthetase, which fortunately
+
+00:18:02.150 --> 00:18:04.160 align:middle line:90%
+is not in this particular model.
+
+00:18:04.160 --> 00:18:06.350 align:middle line:84%
+But it could be that
+there's an enzyme that's
+
+00:18:06.350 --> 00:18:08.720 align:middle line:84%
+just as complicated but
+hasn't been studied as much.
+
+00:18:08.720 --> 00:18:10.220 align:middle line:84%
+In the case of
+glutamine synthetase,
+
+00:18:10.220 --> 00:18:11.510 align:middle line:90%
+there are three substrates.
+
+00:18:11.510 --> 00:18:13.430 align:middle line:84%
+Remember, the previous
+example, there
+
+00:18:13.430 --> 00:18:15.848 align:middle line:84%
+were only two substrates
+and two products.
+
+00:18:15.848 --> 00:18:18.140 align:middle line:84%
+Glutamine synthetase, three
+substrates, three products,
+
+00:18:18.140 --> 00:18:20.600 align:middle line:84%
+and has nine allosteric
+effectors, rather than
+
+00:18:20.600 --> 00:18:25.050 align:middle line:84%
+the three or so in
+the previous example.
+
+00:18:25.050 --> 00:18:26.840 align:middle line:84%
+So this gives a
+grand total of 15
+
+00:18:26.840 --> 00:18:28.820 align:middle line:84%
+different molecules
+you need to track.
+
+00:18:28.820 --> 00:18:33.710 align:middle line:84%
+So the number of
+different measurements
+
+00:18:33.710 --> 00:18:36.295 align:middle line:84%
+you might have to
+make, hypothetically--
+
+00:18:36.295 --> 00:18:38.420 align:middle line:84%
+no one's actually made this
+number of measurements.
+
+00:18:38.420 --> 00:18:41.930 align:middle line:84%
+But Mike Savageau
+likes to point out
+
+00:18:41.930 --> 00:18:44.330 align:middle line:84%
+that even if you only
+did four concentration
+
+00:18:44.330 --> 00:18:46.940 align:middle line:84%
+points in this
+multi-dimensional space,
+
+00:18:46.940 --> 00:18:48.830 align:middle line:84%
+you have 4 to the
+15th measurements,
+
+00:18:48.830 --> 00:18:51.260 align:middle line:90%
+or a billion measurements.
+
+00:18:51.260 --> 00:18:53.420 align:middle line:84%
+A billion isn't
+nearly as intimidating
+
+00:18:53.420 --> 00:18:56.030 align:middle line:84%
+as it was when he made
+this statement in '76,
+
+00:18:56.030 --> 00:18:59.330 align:middle line:84%
+but it still is not something
+that's routinely done.
+
+00:18:59.330 --> 00:19:03.217 align:middle line:90%
+
+
+00:19:03.217 --> 00:19:04.175 align:middle line:90%
+What other constraints?
+
+00:19:04.175 --> 00:19:06.110 align:middle line:84%
+There are these physical
+chemical constraints
+
+00:19:06.110 --> 00:19:09.260 align:middle line:84%
+of osmotic pressure and
+electron neutrality,
+
+00:19:09.260 --> 00:19:11.240 align:middle line:84%
+here stated a little
+more explicitly.
+
+00:19:11.240 --> 00:19:14.690 align:middle line:90%
+You have pi i equal to pi e.
+
+00:19:14.690 --> 00:19:16.790 align:middle line:84%
+That means the
+pressure on the inside
+
+00:19:16.790 --> 00:19:18.575 align:middle line:84%
+is equal to the
+pressure on the outside.
+
+00:19:18.575 --> 00:19:20.450 align:middle line:84%
+That sounds like a good
+way to balance things
+
+00:19:20.450 --> 00:19:22.280 align:middle line:84%
+out so that the cell
+doesn't explode.
+
+00:19:22.280 --> 00:19:27.050 align:middle line:84%
+And explicitly, what that
+means is these gas constant r
+
+00:19:27.050 --> 00:19:31.820 align:middle line:84%
+times the absolute
+temperature, degrees Kelvin,
+
+00:19:31.820 --> 00:19:40.070 align:middle line:84%
+times the sum of the pressure
+components for the j molecule,
+
+00:19:40.070 --> 00:19:45.350 align:middle line:84%
+going up to m chemical species,
+for i, standing for Interior,
+
+00:19:45.350 --> 00:19:48.110 align:middle line:84%
+is equal to the same
+sum, equivalent sum
+
+00:19:48.110 --> 00:19:51.650 align:middle line:84%
+for the subscript
+e, for Exterior.
+
+00:19:51.650 --> 00:19:54.260 align:middle line:84%
+Electroneutrality has the
+same set of concentrations
+
+00:19:54.260 --> 00:19:59.240 align:middle line:84%
+for the i, interior, and
+j molecules, where now z
+
+00:19:59.240 --> 00:20:02.180 align:middle line:84%
+is the charge, where charge
+is the same z that we
+
+00:20:02.180 --> 00:20:05.690 align:middle line:84%
+had in m over z for
+the mass spectrometry.
+
+00:20:05.690 --> 00:20:06.920 align:middle line:90%
+So, OK.
+
+00:20:06.920 --> 00:20:11.690 align:middle line:84%
+Now, some of the models
+I give you today,
+
+00:20:11.690 --> 00:20:15.710 align:middle line:84%
+we will compare it to the
+calculated and the observed,
+
+00:20:15.710 --> 00:20:17.510 align:middle line:90%
+as we have done before.
+
+00:20:17.510 --> 00:20:19.730 align:middle line:84%
+And here it's shown a
+little bit differently
+
+00:20:19.730 --> 00:20:22.490 align:middle line:84%
+than how I've done it before
+and how we'll do it later on.
+
+00:20:22.490 --> 00:20:25.388 align:middle line:84%
+Typically, we would have
+observed on one axis
+
+00:20:25.388 --> 00:20:26.555 align:middle line:90%
+and calculated on the other.
+
+00:20:26.555 --> 00:20:30.375 align:middle line:90%
+
+
+00:20:30.375 --> 00:20:32.000 align:middle line:84%
+In general, we're
+looking for outliers.
+
+00:20:32.000 --> 00:20:34.580 align:middle line:84%
+And here we're sorting by
+the degree to which they
+
+00:20:34.580 --> 00:20:37.800 align:middle line:90%
+deviate from observation.
+
+00:20:37.800 --> 00:20:41.180 align:middle line:84%
+And so the deviation is
+going to be observation
+
+00:20:41.180 --> 00:20:43.580 align:middle line:90%
+minus the calculated.
+
+00:20:43.580 --> 00:20:46.520 align:middle line:84%
+And the degree of
+deviation can either
+
+00:20:46.520 --> 00:20:49.070 align:middle line:84%
+be normalized to the standard
+deviation-- which is basically
+
+00:20:49.070 --> 00:20:51.350 align:middle line:84%
+normalizing it to
+how confident we are
+
+00:20:51.350 --> 00:20:53.420 align:middle line:90%
+in the experimental measure.
+
+00:20:53.420 --> 00:20:56.310 align:middle line:84%
+Or it can be normalized
+to the averaged value,
+
+00:20:56.310 --> 00:20:59.780 align:middle line:84%
+which then becomes less
+dependent upon the accuracy
+
+00:20:59.780 --> 00:21:01.730 align:middle line:84%
+of the experiment
+and more dependent
+
+00:21:01.730 --> 00:21:04.010 align:middle line:84%
+upon-- with a fraction
+of the-- and so we've
+
+00:21:04.010 --> 00:21:05.780 align:middle line:90%
+sorted it on the ladder.
+
+00:21:05.780 --> 00:21:07.910 align:middle line:84%
+And you can see
+that most of them
+
+00:21:07.910 --> 00:21:09.510 align:middle line:90%
+are less than two standard--
+
+00:21:09.510 --> 00:21:10.760 align:middle line:90%
+sorry.
+
+00:21:10.760 --> 00:21:15.530 align:middle line:84%
+Deviation is less than
+twofold the average value
+
+00:21:15.530 --> 00:21:18.350 align:middle line:84%
+and less than seven
+standard deviations
+
+00:21:18.350 --> 00:21:21.080 align:middle line:90%
+in terms of the measurements.
+
+00:21:21.080 --> 00:21:23.840 align:middle line:84%
+But the ones that are
+furthest to the right
+
+00:21:23.840 --> 00:21:26.570 align:middle line:84%
+are clearly the ones that
+require the most attention,
+
+00:21:26.570 --> 00:21:28.520 align:middle line:84%
+either in the
+experimental measurements
+
+00:21:28.520 --> 00:21:29.917 align:middle line:90%
+or in the modeling.
+
+00:21:29.917 --> 00:21:31.250 align:middle line:90%
+These are steady-state measures.
+
+00:21:31.250 --> 00:21:34.790 align:middle line:84%
+This is kind of an abuse of
+a beautiful kinetic model.
+
+00:21:34.790 --> 00:21:39.800 align:middle line:84%
+But it reflects the
+limited data that exists.
+
+00:21:39.800 --> 00:21:42.830 align:middle line:84%
+And it's much easier to collect
+steady-state data where,
+
+00:21:42.830 --> 00:21:44.420 align:middle line:90%
+basically, the red blood cell--
+
+00:21:44.420 --> 00:21:46.400 align:middle line:84%
+every particular molecule,
+even though there
+
+00:21:46.400 --> 00:21:49.627 align:middle line:84%
+are fluxes in and out of
+every molecule, the molecule
+
+00:21:49.627 --> 00:21:51.335 align:middle line:84%
+concentration itself
+is staying constant.
+
+00:21:51.335 --> 00:21:53.970 align:middle line:90%
+
+
+00:21:53.970 --> 00:21:55.730 align:middle line:90%
+So that's how you--
+
+00:21:55.730 --> 00:21:58.550 align:middle line:84%
+if you're assuming each
+molecular concentration
+
+00:21:58.550 --> 00:22:01.070 align:middle line:84%
+is staying constant
+with respect to time,
+
+00:22:01.070 --> 00:22:04.680 align:middle line:84%
+you're just measuring
+steady-state levels.
+
+00:22:04.680 --> 00:22:06.920 align:middle line:84%
+But if you're more
+interested in looking
+
+00:22:06.920 --> 00:22:11.090 align:middle line:84%
+at the dynamics, the movie
+of how molecules will change
+
+00:22:11.090 --> 00:22:16.400 align:middle line:84%
+if you perturb the
+system, you can
+
+00:22:16.400 --> 00:22:19.070 align:middle line:84%
+think of a wide variety
+of different curves
+
+00:22:19.070 --> 00:22:21.440 align:middle line:90%
+that the timecourses can take.
+
+00:22:21.440 --> 00:22:23.810 align:middle line:84%
+And then the challenge is
+how do you represent them?
+
+00:22:23.810 --> 00:22:26.810 align:middle line:84%
+You have 40-some
+different small molecules.
+
+00:22:26.810 --> 00:22:28.520 align:middle line:84%
+You're tracking
+the concentrations.
+
+00:22:28.520 --> 00:22:31.680 align:middle line:84%
+And then the timecourse
+can range over hours.
+
+00:22:31.680 --> 00:22:34.340 align:middle line:84%
+But one way of doing
+it is doing pairs
+
+00:22:34.340 --> 00:22:38.990 align:middle line:84%
+of substrates at a
+time, substrate a and b,
+
+00:22:38.990 --> 00:22:41.120 align:middle line:84%
+and then monitoring the
+timecourse as a vector.
+
+00:22:41.120 --> 00:22:44.880 align:middle line:84%
+Think of these as a series
+of little points along here.
+
+00:22:44.880 --> 00:22:51.650 align:middle line:84%
+And let's look in slide 17, look
+in the upper left, number 1.
+
+00:22:51.650 --> 00:22:55.610 align:middle line:84%
+If, let's say, a
+is converted to b,
+
+00:22:55.610 --> 00:22:58.380 align:middle line:84%
+so that a plus b is
+equal to some constant,
+
+00:22:58.380 --> 00:23:03.260 align:middle line:84%
+you can see this
+slope of negative 1.
+
+00:23:03.260 --> 00:23:07.040 align:middle line:84%
+This is exactly negative 1,
+because for every molecule
+
+00:23:07.040 --> 00:23:09.750 align:middle line:84%
+of a that's consumed, a
+molecule of b is produced.
+
+00:23:09.750 --> 00:23:12.620 align:middle line:84%
+And so when you see this
+perfect slope of negative 1,
+
+00:23:12.620 --> 00:23:14.120 align:middle line:84%
+then that's the
+kind of relationship
+
+00:23:14.120 --> 00:23:18.770 align:middle line:84%
+you expect between those
+two, even if you're randomly
+
+00:23:18.770 --> 00:23:20.600 align:middle line:90%
+sampling a dynamic system.
+
+00:23:20.600 --> 00:23:23.750 align:middle line:90%
+Here you're taking a timecourse.
+
+00:23:23.750 --> 00:23:26.020 align:middle line:84%
+Number two is a pair of
+concentrations [? in the ?]
+
+00:23:26.020 --> 00:23:26.660 align:middle line:90%
+equilibrium.
+
+00:23:26.660 --> 00:23:28.130 align:middle line:84%
+You'll get an
+equilibrium constant,
+
+00:23:28.130 --> 00:23:31.640 align:middle line:84%
+and the ratios here
+will not be negative 1.
+
+00:23:31.640 --> 00:23:37.460 align:middle line:84%
+They will be some constant which
+determines that equilibrium.
+
+00:23:37.460 --> 00:23:42.800 align:middle line:84%
+You have two dynamically
+independent metabolites,
+
+00:23:42.800 --> 00:23:45.530 align:middle line:90%
+as in quadrant III here.
+
+00:23:45.530 --> 00:23:51.740 align:middle line:84%
+Basically, as you march
+through increasing b,
+
+00:23:51.740 --> 00:23:54.270 align:middle line:84%
+a can stay constant because
+it doesn't really care.
+
+00:23:54.270 --> 00:23:57.950 align:middle line:84%
+It doesn't respond to
+changes in b or changes
+
+00:23:57.950 --> 00:23:59.660 align:middle line:90%
+that result in b changing.
+
+00:23:59.660 --> 00:24:02.990 align:middle line:84%
+And then maybe some
+other set of dynamics
+
+00:24:02.990 --> 00:24:06.260 align:middle line:84%
+will cause a to change,
+and b stays constant.
+
+00:24:06.260 --> 00:24:08.130 align:middle line:84%
+And if you sample
+enough timecourse,
+
+00:24:08.130 --> 00:24:12.320 align:middle line:84%
+you may find that this
+fills up the entire space
+
+00:24:12.320 --> 00:24:17.750 align:middle line:84%
+concentrations available to a
+and b showing no correlation.
+
+00:24:17.750 --> 00:24:19.910 align:middle line:84%
+Another interesting type
+of phenomena you can see
+
+00:24:19.910 --> 00:24:24.230 align:middle line:84%
+is that not every possible
+concentration of a--
+
+00:24:24.230 --> 00:24:27.260 align:middle line:84%
+and it's not completely
+independent of b.
+
+00:24:27.260 --> 00:24:30.170 align:middle line:84%
+As you might start at a
+particular point in a time
+
+00:24:30.170 --> 00:24:32.690 align:middle line:84%
+series at this gap here
+in the lower right--
+
+00:24:32.690 --> 00:24:36.320 align:middle line:84%
+and you start decreasing
+b and increasing a.
+
+00:24:36.320 --> 00:24:38.840 align:middle line:84%
+And then, at some point, the
+dynamics of the entire network,
+
+00:24:38.840 --> 00:24:43.160 align:middle line:84%
+not just a and b, contribute
+to now a taking a dive down
+
+00:24:43.160 --> 00:24:44.300 align:middle line:90%
+and b increasing.
+
+00:24:44.300 --> 00:24:46.820 align:middle line:84%
+And eventually, you return
+to that steady-state point,
+
+00:24:46.820 --> 00:24:48.590 align:middle line:84%
+and you've described
+all the conditions
+
+00:24:48.590 --> 00:24:54.698 align:middle line:84%
+that you might be able to
+achieve in this closed loop.
+
+00:24:54.698 --> 00:24:56.990 align:middle line:84%
+So we're going to look at
+these kind of phase diagrams.
+
+00:24:56.990 --> 00:25:02.120 align:middle line:84%
+The concentration of a
+versus concentration of b--
+
+00:25:02.120 --> 00:25:05.240 align:middle line:84%
+where a series of time points
+that would be color coded.
+
+00:25:05.240 --> 00:25:08.300 align:middle line:84%
+These can be either lumped,
+as they are in this diagram,
+
+00:25:08.300 --> 00:25:12.140 align:middle line:84%
+or in the next slide, we'll
+see them separated out
+
+00:25:12.140 --> 00:25:13.192 align:middle line:90%
+one metabolite at a time.
+
+00:25:13.192 --> 00:25:14.900 align:middle line:84%
+But it's the same
+concept, whether you've
+
+00:25:14.900 --> 00:25:17.630 align:middle line:84%
+got a group of metabolites
+involved in glycolysis
+
+00:25:17.630 --> 00:25:22.010 align:middle line:84%
+lumped together, compared to,
+say, a group that are redox.
+
+00:25:22.010 --> 00:25:26.562 align:middle line:84%
+You have in the lower left
+of each of these quadrants
+
+00:25:26.562 --> 00:25:28.520 align:middle line:84%
+is this time series that
+we've been looking at.
+
+00:25:28.520 --> 00:25:32.270 align:middle line:84%
+And the upper part is the
+correlation coefficients,
+
+00:25:32.270 --> 00:25:35.510 align:middle line:84%
+color coded so that blue
+is a negative correlation,
+
+00:25:35.510 --> 00:25:38.240 align:middle line:84%
+and gray is very significant
+positive correlation,
+
+00:25:38.240 --> 00:25:40.770 align:middle line:84%
+and everything else is
+something in between.
+
+00:25:40.770 --> 00:25:43.250 align:middle line:84%
+So what you see from these is
+you see, for example, here's
+
+00:25:43.250 --> 00:25:46.130 align:middle line:84%
+this up curve that's very
+close to the negative 1 curve,
+
+00:25:46.130 --> 00:25:48.860 align:middle line:84%
+as if there's a
+conservation reaction here
+
+00:25:48.860 --> 00:25:52.130 align:middle line:84%
+between glycolysis and
+the adjacent steps.
+
+00:25:52.130 --> 00:25:55.500 align:middle line:84%
+You see little
+loops, for example,
+
+00:25:55.500 --> 00:26:04.040 align:middle line:84%
+in the lower left, adenine
+biosynthesis, in that row,
+
+00:26:04.040 --> 00:26:04.730 align:middle line:90%
+and so on.
+
+00:26:04.730 --> 00:26:07.040 align:middle line:84%
+You see examples of each
+of these kind of behaviors
+
+00:26:07.040 --> 00:26:10.040 align:middle line:84%
+here, where you're going
+from the red point--
+
+00:26:10.040 --> 00:26:11.540 align:middle line:90%
+these little dots in red--
+
+00:26:11.540 --> 00:26:16.820 align:middle line:84%
+to green to blue to yellow to
+the end gray in increasing time
+
+00:26:16.820 --> 00:26:20.540 align:middle line:84%
+coarseness, starting with
+0.1-hour resolution and ending
+
+00:26:20.540 --> 00:26:24.950 align:middle line:90%
+with 300-hour resolution.
+
+00:26:24.950 --> 00:26:26.360 align:middle line:84%
+This is lumping,
+where we're kind
+
+00:26:26.360 --> 00:26:28.550 align:middle line:84%
+of looking at things
+like ATP and redox loads.
+
+00:26:28.550 --> 00:26:31.130 align:middle line:84%
+Now, if we look at it
+one molecule at a time,
+
+00:26:31.130 --> 00:26:32.750 align:middle line:84%
+you obviously get
+a more complex--
+
+00:26:32.750 --> 00:26:35.990 align:middle line:84%
+you get every possible pairwise
+combination of molecules.
+
+00:26:35.990 --> 00:26:38.120 align:middle line:84%
+And you can see
+these full dynamics.
+
+00:26:38.120 --> 00:26:39.410 align:middle line:90%
+Now, these are not data.
+
+00:26:39.410 --> 00:26:40.520 align:middle line:90%
+These are all simulations.
+
+00:26:40.520 --> 00:26:44.360 align:middle line:84%
+And unfortunately, we don't have
+that kind of dynamic resolution
+
+00:26:44.360 --> 00:26:46.602 align:middle line:90%
+in experimental data just yet.
+
+00:26:46.602 --> 00:26:47.810 align:middle line:90%
+But this gives you some idea.
+
+00:26:47.810 --> 00:26:50.780 align:middle line:84%
+If you see some particularly
+interesting phenomenon here,
+
+00:26:50.780 --> 00:26:53.870 align:middle line:84%
+then it might be a motivation
+for going in and looking
+
+00:26:53.870 --> 00:26:56.195 align:middle line:90%
+at the data in more detail.
+
+00:26:56.195 --> 00:26:58.730 align:middle line:90%
+
+
+00:26:58.730 --> 00:27:01.210 align:middle line:90%
+OK.
+
+00:27:01.210 --> 00:27:11.290 align:middle line:84%
+Now, we mentioned this
+difference between the ordinary
+
+00:27:11.290 --> 00:27:16.810 align:middle line:84%
+hyperbolic curve-- in the lower
+right of this whole slide,
+
+00:27:16.810 --> 00:27:18.790 align:middle line:90%
+the upper left of the insert--
+
+00:27:18.790 --> 00:27:20.650 align:middle line:84%
+and the sigmoid
+curve that you get
+
+00:27:20.650 --> 00:27:26.810 align:middle line:90%
+from an allosteric interaction.
+
+00:27:26.810 --> 00:27:30.190 align:middle line:84%
+And within-- this
+whole cell is set up
+
+00:27:30.190 --> 00:27:33.250 align:middle line:84%
+for transporting oxygen.
+And as oxygen concentration
+
+00:27:33.250 --> 00:27:36.550 align:middle line:84%
+increases for
+hemoglobin, you'll either
+
+00:27:36.550 --> 00:27:40.360 align:middle line:84%
+get this hyperbolic
+or sigmoid curve
+
+00:27:40.360 --> 00:27:45.280 align:middle line:84%
+as it gets increasingly sigmoid,
+increasingly cooperative,
+
+00:27:45.280 --> 00:27:48.040 align:middle line:84%
+with increasing
+amounts of one of
+
+00:27:48.040 --> 00:27:52.780 align:middle line:84%
+the intermediate metabolites,
+2, 3 diphosphoglyserate.
+
+00:27:52.780 --> 00:27:55.090 align:middle line:84%
+And you can see, this
+is now the connection
+
+00:27:55.090 --> 00:27:57.760 align:middle line:90%
+between the glycolytic pathway.
+
+00:27:57.760 --> 00:28:01.450 align:middle line:84%
+The regulation is sensing the
+state of the glycolytic pathway
+
+00:28:01.450 --> 00:28:05.013 align:middle line:90%
+and the hemoglobin.
+
+00:28:05.013 --> 00:28:06.430 align:middle line:84%
+In addition, there
+are connections
+
+00:28:06.430 --> 00:28:08.890 align:middle line:84%
+with the pH, which
+is also regulated
+
+00:28:08.890 --> 00:28:11.080 align:middle line:90%
+in this, and the redox.
+
+00:28:11.080 --> 00:28:13.300 align:middle line:84%
+You can see just above
+it here, the hemoglobin
+
+00:28:13.300 --> 00:28:16.700 align:middle line:84%
+going to the unproductive
+methemoglobin state.
+
+00:28:16.700 --> 00:28:18.670 align:middle line:84%
+So you can see there
+are connections
+
+00:28:18.670 --> 00:28:20.905 align:middle line:84%
+in the network between this
+ultimate function, which
+
+00:28:20.905 --> 00:28:25.000 align:middle line:84%
+is transporting oxygen, and all
+these intermediate metabolism
+
+00:28:25.000 --> 00:28:25.810 align:middle line:90%
+components.
+
+00:28:25.810 --> 00:28:28.210 align:middle line:84%
+And it also brings us
+to this topic, again,
+
+00:28:28.210 --> 00:28:31.900 align:middle line:84%
+of this cooperativity and
+how does it arise here?
+
+00:28:31.900 --> 00:28:34.600 align:middle line:84%
+And the hemoglobin has a
+tetrameric conformation state
+
+00:28:34.600 --> 00:28:37.900 align:middle line:84%
+change, which is there's
+a second site that
+
+00:28:37.900 --> 00:28:44.750 align:middle line:84%
+binds this organic
+diphosphoglyserate.
+
+00:28:44.750 --> 00:28:46.790 align:middle line:84%
+But another direction
+we can take--
+
+00:28:46.790 --> 00:28:50.780 align:middle line:84%
+so in the lower left-hand
+corner of slide 21
+
+00:28:50.780 --> 00:28:53.600 align:middle line:84%
+is the same icon again of
+how we get increasingly
+
+00:28:53.600 --> 00:28:57.890 align:middle line:84%
+cooperative from hyperbolic to
+sigmoidal, to the point where
+
+00:28:57.890 --> 00:29:01.530 align:middle line:84%
+this becomes almost vertical
+and displaced from the origin
+
+00:29:01.530 --> 00:29:06.050 align:middle line:84%
+so that the cell, at a
+good point in response
+
+00:29:06.050 --> 00:29:09.410 align:middle line:84%
+to a stimulus, will
+make a decision
+
+00:29:09.410 --> 00:29:13.580 align:middle line:84%
+to commit to the next
+phase in cell division.
+
+00:29:13.580 --> 00:29:15.110 align:middle line:84%
+This is similar to
+the cell division
+
+00:29:15.110 --> 00:29:17.300 align:middle line:84%
+that we talked about
+earlier in the context
+
+00:29:17.300 --> 00:29:20.060 align:middle line:84%
+of the microarray analysis
+of yeast cell division.
+
+00:29:20.060 --> 00:29:22.730 align:middle line:84%
+Here we're talking about
+a Xenopus amphibian
+
+00:29:22.730 --> 00:29:27.050 align:middle line:84%
+oocyte, which has nice large
+cells to do this kind of study.
+
+00:29:27.050 --> 00:29:30.050 align:middle line:84%
+Where you need to
+decide to come out of G1
+
+00:29:30.050 --> 00:29:32.450 align:middle line:90%
+and commit to synthesizing DNA--
+
+00:29:32.450 --> 00:29:35.510 align:middle line:84%
+in the S phase, in the
+lower portion of the circle,
+
+00:29:35.510 --> 00:29:37.100 align:middle line:84%
+where you get, now,
+two DNA molecules.
+
+00:29:37.100 --> 00:29:38.750 align:middle line:84%
+And once you're
+convinced that you've
+
+00:29:38.750 --> 00:29:41.120 align:middle line:84%
+finished replicating
+all your DNA,
+
+00:29:41.120 --> 00:29:44.030 align:middle line:84%
+only at that point, then
+can you commit to mitosis,
+
+00:29:44.030 --> 00:29:47.240 align:middle line:90%
+another major decision.
+
+00:29:47.240 --> 00:29:49.130 align:middle line:84%
+And then you get two
+cells, and you go back,
+
+00:29:49.130 --> 00:29:50.930 align:middle line:90%
+and you complete the cell cycle.
+
+00:29:50.930 --> 00:29:52.940 align:middle line:84%
+The little timecourse
+at the bottom
+
+00:29:52.940 --> 00:29:55.340 align:middle line:84%
+here should be
+reminiscent for you
+
+00:29:55.340 --> 00:29:57.530 align:middle line:84%
+of the timecourse we
+had of RNA synthesis
+
+00:29:57.530 --> 00:29:59.810 align:middle line:90%
+of various clusters of RNA.
+
+00:29:59.810 --> 00:30:01.620 align:middle line:90%
+Here it's the DNA synthesis.
+
+00:30:01.620 --> 00:30:05.030 align:middle line:84%
+You can see it ramps up in
+the red S phase and then ramps
+
+00:30:05.030 --> 00:30:08.670 align:middle line:84%
+down in the metaphase due to
+the creation of two new cells.
+
+00:30:08.670 --> 00:30:13.730 align:middle line:84%
+But we want to talk about how
+do we make this as responsive
+
+00:30:13.730 --> 00:30:16.970 align:middle line:84%
+as, say, progesterone or
+something that is signaling
+
+00:30:16.970 --> 00:30:21.710 align:middle line:84%
+cells that might be waiting
+for long periods of time
+
+00:30:21.710 --> 00:30:24.080 align:middle line:84%
+to complete the next
+step in a division
+
+00:30:24.080 --> 00:30:26.750 align:middle line:84%
+cycle for an external
+hormone stimulus
+
+00:30:26.750 --> 00:30:31.955 align:middle line:84%
+that it's time to start the
+next step in cell cycle?
+
+00:30:31.955 --> 00:30:33.830 align:middle line:84%
+We want this to be
+displaced from the origin.
+
+00:30:33.830 --> 00:30:36.230 align:middle line:84%
+You don't want it to be
+just flipping on and off
+
+00:30:36.230 --> 00:30:37.890 align:middle line:90%
+irrespective of a stimulus.
+
+00:30:37.890 --> 00:30:40.830 align:middle line:84%
+But when it does flip, you
+want it to go very quickly.
+
+00:30:40.830 --> 00:30:43.100 align:middle line:90%
+So how would we model this?
+
+00:30:43.100 --> 00:30:49.130 align:middle line:84%
+So look at the upper
+right-hand diagram of slide 22.
+
+00:30:49.130 --> 00:30:53.630 align:middle line:84%
+And you have a set
+of these oocytes kind
+
+00:30:53.630 --> 00:30:57.230 align:middle line:84%
+of diagrammatically
+indicating their state.
+
+00:30:57.230 --> 00:30:59.000 align:middle line:84%
+Their state
+determined by to what
+
+00:30:59.000 --> 00:31:07.190 align:middle line:84%
+extent are they ready to commit
+to the next division state?
+
+00:31:07.190 --> 00:31:09.800 align:middle line:84%
+Here we can think of
+it as the biomarker
+
+00:31:09.800 --> 00:31:14.270 align:middle line:84%
+is the state of phosphorylation
+of a protein MAP kinase.
+
+00:31:14.270 --> 00:31:17.240 align:middle line:84%
+If it's phosphorylated,
+then it's
+
+00:31:17.240 --> 00:31:18.410 align:middle line:90%
+committed to this division.
+
+00:31:18.410 --> 00:31:21.530 align:middle line:84%
+And we can think of this as the
+black side of this gradient,
+
+00:31:21.530 --> 00:31:22.910 align:middle line:90%
+going from white to black.
+
+00:31:22.910 --> 00:31:27.050 align:middle line:84%
+But if you grind up a whole
+population of these oocytes
+
+00:31:27.050 --> 00:31:31.700 align:middle line:84%
+and measure the total MAP kinase
+phosphorylation as a function
+
+00:31:31.700 --> 00:31:34.600 align:middle line:90%
+of increasing stimulus, S--
+
+00:31:34.600 --> 00:31:37.790 align:middle line:84%
+in this case progesterone--
+the response--
+
+00:31:37.790 --> 00:31:39.560 align:middle line:84%
+that is to say, the
+phosphorylated state
+
+00:31:39.560 --> 00:31:42.440 align:middle line:90%
+and the commitment to mitosis--
+
+00:31:42.440 --> 00:31:44.510 align:middle line:84%
+will gradually
+increase, as indicated
+
+00:31:44.510 --> 00:31:47.060 align:middle line:90%
+in the gradient model.
+
+00:31:47.060 --> 00:31:49.010 align:middle line:84%
+But that's if you
+ground up all the cells.
+
+00:31:49.010 --> 00:31:52.220 align:middle line:84%
+But the other way of
+obtaining that result
+
+00:31:52.220 --> 00:31:55.850 align:middle line:84%
+would be if each cell is
+making an all or none decision.
+
+00:31:55.850 --> 00:31:58.820 align:middle line:84%
+And what happens is the
+probability of a cell being
+
+00:31:58.820 --> 00:32:01.700 align:middle line:84%
+in that all or none state
+changes with increasing
+
+00:32:01.700 --> 00:32:03.750 align:middle line:90%
+stimulus to progesterone.
+
+00:32:03.750 --> 00:32:06.480 align:middle line:84%
+And that is the
+lower model and is,
+
+00:32:06.480 --> 00:32:10.400 align:middle line:84%
+in fact, closer to reality,
+as indicated by the experiment
+
+00:32:10.400 --> 00:32:16.610 align:middle line:84%
+at the bottom part of the
+slide here, where you have--
+
+00:32:16.610 --> 00:32:18.727 align:middle line:84%
+this is a part of a
+concentration curve
+
+00:32:18.727 --> 00:32:20.810 align:middle line:84%
+where you're increasing
+the stimulus progesterone.
+
+00:32:20.810 --> 00:32:22.670 align:middle line:84%
+But at this particular
+stimulus, you
+
+00:32:22.670 --> 00:32:24.380 align:middle line:90%
+can sample individual cells.
+
+00:32:24.380 --> 00:32:27.650 align:middle line:84%
+There's enough of the cell that
+you can actually do proteomics
+
+00:32:27.650 --> 00:32:29.090 align:middle line:90%
+on individual cells.
+
+00:32:29.090 --> 00:32:31.670 align:middle line:84%
+And the proteomics
+here is a western blot.
+
+00:32:31.670 --> 00:32:36.050 align:middle line:84%
+We mentioned this a
+couple of lectures back.
+
+00:32:36.050 --> 00:32:40.850 align:middle line:84%
+And here you can see the two
+states of the MAP kinase.
+
+00:32:40.850 --> 00:32:42.950 align:middle line:84%
+The phosphorylated
+state is the slower.
+
+00:32:42.950 --> 00:32:46.280 align:middle line:84%
+Electrophoretically, it's the
+upper band in this diagram.
+
+00:32:46.280 --> 00:32:49.550 align:middle line:84%
+And the lower band is the
+unphosphorylated state.
+
+00:32:49.550 --> 00:32:53.570 align:middle line:84%
+And you can see there's no
+example here of a cell which
+
+00:32:53.570 --> 00:32:55.130 align:middle line:84%
+is in an intermediate
+state, where
+
+00:32:55.130 --> 00:33:00.260 align:middle line:84%
+it has half and half or 40/60
+of the two different protein
+
+00:33:00.260 --> 00:33:01.440 align:middle line:90%
+forms.
+
+00:33:01.440 --> 00:33:04.190 align:middle line:84%
+However, if you, as
+a thought experiment,
+
+00:33:04.190 --> 00:33:07.370 align:middle line:84%
+took all those cells and
+mushed them up, and took this
+
+00:33:07.370 --> 00:33:10.610 align:middle line:84%
+and ran it all in one lane,
+you would see a mixture.
+
+00:33:10.610 --> 00:33:12.560 align:middle line:84%
+You would see all the
+intermediate states,
+
+00:33:12.560 --> 00:33:15.210 align:middle line:84%
+and that would be a
+function of progesterone.
+
+00:33:15.210 --> 00:33:18.980 align:middle line:84%
+So this is a warning, similar
+to ones that I've said before,
+
+00:33:18.980 --> 00:33:23.780 align:middle line:84%
+that when you grind everything
+up and mix populations of cells
+
+00:33:23.780 --> 00:33:26.780 align:middle line:84%
+or molecules, you
+need to be careful
+
+00:33:26.780 --> 00:33:28.950 align:middle line:84%
+because different cells
+may be in different states,
+
+00:33:28.950 --> 00:33:30.908 align:middle line:84%
+different molecules may
+be in different states.
+
+00:33:30.908 --> 00:33:34.580 align:middle line:84%
+And the average behavior is
+not the same as the individual.
+
+00:33:34.580 --> 00:33:37.850 align:middle line:84%
+But now, that's only
+part of the lesson here.
+
+00:33:37.850 --> 00:33:42.000 align:middle line:84%
+The cells are going through
+this all or none process.
+
+00:33:42.000 --> 00:33:44.900 align:middle line:84%
+We can monitor it by
+single-cell proteomics.
+
+00:33:44.900 --> 00:33:46.700 align:middle line:90%
+But how do we model it?
+
+00:33:46.700 --> 00:33:49.970 align:middle line:84%
+Well, in very abstract
+terms, the response
+
+00:33:49.970 --> 00:33:53.090 align:middle line:84%
+here can be modeled as in
+this Hill coefficient, where
+
+00:33:53.090 --> 00:33:57.950 align:middle line:84%
+you have a stimulus, s, some
+kinetic constant, k-- kind
+
+00:33:57.950 --> 00:34:01.640 align:middle line:84%
+of like a Michaelis constant--
+where it's basically,
+
+00:34:01.640 --> 00:34:09.409 align:middle line:84%
+as gets s closer to k, it
+has a larger response here,
+
+00:34:09.409 --> 00:34:10.699 align:middle line:90%
+effect on the response.
+
+00:34:10.699 --> 00:34:17.420 align:middle line:84%
+And that's nonlinear because
+you have the exponent h.
+
+00:34:17.420 --> 00:34:20.929 align:middle line:84%
+And the larger h is, the
+more nonlinear it is.
+
+00:34:20.929 --> 00:34:25.050 align:middle line:84%
+So let's say that h is 1 in this
+little schematic to the right
+
+00:34:25.050 --> 00:34:25.550 align:middle line:90%
+here.
+
+00:34:25.550 --> 00:34:28.639 align:middle line:90%
+It's hyperbolic.
+
+00:34:28.639 --> 00:34:30.500 align:middle line:90%
+No sigmoid character at all.
+
+00:34:30.500 --> 00:34:33.418 align:middle line:84%
+In the case of hemoglobin
+and phosphofructokinase
+
+00:34:33.418 --> 00:34:35.210 align:middle line:84%
+that we talked about
+in the red blood cell,
+
+00:34:35.210 --> 00:34:42.800 align:middle line:84%
+it's more sigmoidal, like an h
+of 2.8, almost cube law there.
+
+00:34:42.800 --> 00:34:45.830 align:middle line:84%
+And in fact, even within
+this system, one of the steps
+
+00:34:45.830 --> 00:34:48.005 align:middle line:84%
+that we'll talk about
+in the next slide--
+
+00:34:48.005 --> 00:34:51.359 align:middle line:90%
+
+
+00:34:51.359 --> 00:34:54.530 align:middle line:84%
+where you have a
+stimulus of a Mos protein
+
+00:34:54.530 --> 00:34:58.700 align:middle line:84%
+and a response of this same
+MAP kinase phosphorylation
+
+00:34:58.700 --> 00:35:03.830 align:middle line:84%
+response, it has a modest
+sigmoid Hill coefficient of 3,
+
+00:35:03.830 --> 00:35:05.390 align:middle line:90%
+just like hemoglobin.
+
+00:35:05.390 --> 00:35:10.160 align:middle line:84%
+But the overall response of
+MAP kinase to progesterone
+
+00:35:10.160 --> 00:35:14.510 align:middle line:90%
+has an enormous exponent of 42.
+
+00:35:14.510 --> 00:35:17.090 align:middle line:84%
+That means it's almost
+vertical, and it's
+
+00:35:17.090 --> 00:35:19.230 align:middle line:90%
+displaced from the origin.
+
+00:35:19.230 --> 00:35:20.880 align:middle line:90%
+How do we get that?
+
+00:35:20.880 --> 00:35:21.380 align:middle line:90%
+OK.
+
+00:35:21.380 --> 00:35:22.340 align:middle line:90%
+So-- whoops.
+
+00:35:22.340 --> 00:35:25.090 align:middle line:90%
+
+
+00:35:25.090 --> 00:35:27.700 align:middle line:90%
+So here is a proposed model.
+
+00:35:27.700 --> 00:35:31.090 align:middle line:84%
+And it's an interesting snapshot
+in the inevitable evolution
+
+00:35:31.090 --> 00:35:33.580 align:middle line:84%
+of a model from something
+very primitive, which
+
+00:35:33.580 --> 00:35:38.950 align:middle line:84%
+might have just been the
+Mos effects on MAP kinase,
+
+00:35:38.950 --> 00:35:42.470 align:middle line:84%
+kind of as a direct effect
+here, which as we said,
+
+00:35:42.470 --> 00:35:45.240 align:middle line:84%
+has a Hill coefficient
+of about threefold--
+
+00:35:45.240 --> 00:35:46.580 align:middle line:90%
+sorry.
+
+00:35:46.580 --> 00:35:49.150 align:middle line:84%
+Hill coefficient
+of 3, no threefold,
+
+00:35:49.150 --> 00:35:51.010 align:middle line:90%
+because that's an exponential.
+
+00:35:51.010 --> 00:35:54.130 align:middle line:84%
+But overall, combination
+of two other factors
+
+00:35:54.130 --> 00:35:56.680 align:middle line:84%
+that you have a chain
+of modifiers, each
+
+00:35:56.680 --> 00:35:59.830 align:middle line:84%
+close to saturation,
+meaning that each one has
+
+00:35:59.830 --> 00:36:03.640 align:middle line:90%
+a slight sigmoid behavior.
+
+00:36:03.640 --> 00:36:07.900 align:middle line:90%
+And you've got-- sorry.
+
+00:36:07.900 --> 00:36:09.370 align:middle line:84%
+It could be a
+hyperbolic function,
+
+00:36:09.370 --> 00:36:12.640 align:middle line:84%
+such as, let's just say,
+this dotted line that's
+
+00:36:12.640 --> 00:36:16.030 align:middle line:84%
+going up smoothly from 0,
+where it says "neither."
+
+00:36:16.030 --> 00:36:18.100 align:middle line:84%
+That would be the
+effect of, if you just
+
+00:36:18.100 --> 00:36:22.330 align:middle line:84%
+have a normal enzymatic
+reaction with no allostery,
+
+00:36:22.330 --> 00:36:25.908 align:middle line:84%
+no feedback, no
+ultrasensitivity.
+
+00:36:25.908 --> 00:36:27.700 align:middle line:84%
+If each of those has
+a component and you're
+
+00:36:27.700 --> 00:36:30.980 align:middle line:84%
+close to saturation-- meaning
+your substrate is very high.
+
+00:36:30.980 --> 00:36:33.380 align:middle line:84%
+And so you're going as
+fast as the enzyme will go.
+
+00:36:33.380 --> 00:36:34.660 align:middle line:90%
+You have a chain of those.
+
+00:36:34.660 --> 00:36:37.450 align:middle line:84%
+You can show through
+kinetic modeling
+
+00:36:37.450 --> 00:36:41.080 align:middle line:84%
+that that will create a high
+sensitivity to the reaction.
+
+00:36:41.080 --> 00:36:46.840 align:middle line:84%
+And that's what the furthest
+dotted curve close to the axis
+
+00:36:46.840 --> 00:36:49.660 align:middle line:90%
+is, ultrasensitivity alone.
+
+00:36:49.660 --> 00:36:52.660 align:middle line:84%
+And then, here, you
+have progesterone
+
+00:36:52.660 --> 00:36:59.740 align:middle line:84%
+going in, in the upper left,
+affecting a complicated rate.
+
+00:36:59.740 --> 00:37:02.470 align:middle line:84%
+Now, these rate constants
+don't necessarily
+
+00:37:02.470 --> 00:37:07.188 align:middle line:84%
+mean a unitary,
+simple kinetic step.
+
+00:37:07.188 --> 00:37:08.980 align:middle line:84%
+They can represent
+something as complicated
+
+00:37:08.980 --> 00:37:13.840 align:middle line:84%
+as going from Amino Acids, AA,
+to a particular protein, Mos.
+
+00:37:13.840 --> 00:37:17.080 align:middle line:84%
+And then the reverse
+reaction, k sub minus 1,
+
+00:37:17.080 --> 00:37:19.420 align:middle line:84%
+is the degradation of Mos
+back to amino acids, which
+
+00:37:19.420 --> 00:37:24.790 align:middle line:84%
+is not a reverse of the same
+enzyme set by any means.
+
+00:37:24.790 --> 00:37:27.260 align:middle line:90%
+The next step, k2, is simpler.
+
+00:37:27.260 --> 00:37:30.010 align:middle line:84%
+It's just Mos being
+phosphorylated by, actually,
+
+00:37:30.010 --> 00:37:34.960 align:middle line:84%
+our friend MAP kinase in
+its [? phosphorous ?] state,
+
+00:37:34.960 --> 00:37:37.960 align:middle line:90%
+producing the--
+
+00:37:37.960 --> 00:37:41.950 align:middle line:84%
+for catalyzing the Mos
+phosphorylation, which
+
+00:37:41.950 --> 00:37:43.630 align:middle line:84%
+catalyzes another
+phosphorylation
+
+00:37:43.630 --> 00:37:46.990 align:middle line:84%
+of another protein, which
+then positively stimulates
+
+00:37:46.990 --> 00:37:48.830 align:middle line:90%
+MAP kinase itself.
+
+00:37:48.830 --> 00:37:51.460 align:middle line:84%
+So this whole thing is a
+set of positive reactions.
+
+00:37:51.460 --> 00:37:54.760 align:middle line:84%
+Each of the
+phosphoproteins increases
+
+00:37:54.760 --> 00:38:00.850 align:middle line:84%
+the enzymatic tendency for each
+of the other phosphoproteins
+
+00:38:00.850 --> 00:38:01.810 align:middle line:90%
+to be produced.
+
+00:38:01.810 --> 00:38:04.060 align:middle line:84%
+So you can see that this is
+kind of on a hair trigger.
+
+00:38:04.060 --> 00:38:06.143 align:middle line:84%
+If any one of these
+phosphoproteins gets produced,
+
+00:38:06.143 --> 00:38:08.230 align:middle line:84%
+then it'll increase
+all the other ones,
+
+00:38:08.230 --> 00:38:11.680 align:middle line:84%
+and it'll be a very
+cooperative procedure.
+
+00:38:11.680 --> 00:38:15.100 align:middle line:84%
+And that's what this, furthest
+towards the axis in the lower
+
+00:38:15.100 --> 00:38:16.150 align:middle line:90%
+left-hand corner--
+
+00:38:16.150 --> 00:38:18.700 align:middle line:84%
+where you have this
+positive feedback
+
+00:38:18.700 --> 00:38:23.410 align:middle line:84%
+alone causes this
+very great tendency
+
+00:38:23.410 --> 00:38:29.470 align:middle line:84%
+to just jump up from 0
+to very high response
+
+00:38:29.470 --> 00:38:31.640 align:middle line:90%
+with very little stimulus.
+
+00:38:31.640 --> 00:38:32.860 align:middle line:90%
+Well, that's dangerous.
+
+00:38:32.860 --> 00:38:34.960 align:middle line:84%
+You want it to be
+nearly vertical,
+
+00:38:34.960 --> 00:38:37.300 align:middle line:84%
+but you don't want to be
+nearly vertical at 0 stimulus,
+
+00:38:37.300 --> 00:38:38.740 align:middle line:90%
+because that's unstable.
+
+00:38:38.740 --> 00:38:40.022 align:middle line:90%
+So you want to move it over.
+
+00:38:40.022 --> 00:38:41.980 align:middle line:84%
+And that's where the
+ultrasensitivity comes in,
+
+00:38:41.980 --> 00:38:44.860 align:middle line:84%
+when you have this chain of
+modifiers putting both together
+
+00:38:44.860 --> 00:38:49.810 align:middle line:84%
+as a solid black line, where
+it's shifted over so you have--
+
+00:38:49.810 --> 00:38:54.340 align:middle line:84%
+this assay was done with Mos,
+rather than progesterone,
+
+00:38:54.340 --> 00:38:54.940 align:middle line:90%
+as the input.
+
+00:38:54.940 --> 00:38:57.460 align:middle line:90%
+
+
+00:38:57.460 --> 00:39:03.370 align:middle line:84%
+But you can see the overall
+increased cooperativity
+
+00:39:03.370 --> 00:39:07.460 align:middle line:90%
+and shifting to the right.
+
+00:39:07.460 --> 00:39:10.210 align:middle line:84%
+So that's an example of how
+you can get this very high Hill
+
+00:39:10.210 --> 00:39:13.630 align:middle line:84%
+coefficient and where
+you can get bistability
+
+00:39:13.630 --> 00:39:15.670 align:middle line:90%
+without stochastic.
+
+00:39:15.670 --> 00:39:18.280 align:middle line:84%
+You can imagine that you can
+have stochastic bistability.
+
+00:39:18.280 --> 00:39:20.950 align:middle line:84%
+If you have one molecule in
+the cell, and either it's there
+
+00:39:20.950 --> 00:39:23.115 align:middle line:84%
+or it's not, then
+you have bistability.
+
+00:39:23.115 --> 00:39:24.490 align:middle line:84%
+You have two states
+for the cell.
+
+00:39:24.490 --> 00:39:27.160 align:middle line:84%
+Either it's the cell with
+the molecule or without.
+
+00:39:27.160 --> 00:39:30.160 align:middle line:84%
+But here you can see that
+even with a very large cell--
+
+00:39:30.160 --> 00:39:32.410 align:middle line:84%
+Xenopus oocytes being one
+of the largest cells--
+
+00:39:32.410 --> 00:39:34.480 align:middle line:84%
+and very large
+amounts of proteins--
+
+00:39:34.480 --> 00:39:37.720 align:middle line:84%
+enough that you can easily
+see them in proteomics--
+
+00:39:37.720 --> 00:39:39.520 align:middle line:84%
+you can still
+achieve bistability
+
+00:39:39.520 --> 00:39:40.930 align:middle line:90%
+with the right kinetic model.
+
+00:39:40.930 --> 00:39:43.990 align:middle line:84%
+Not every random model
+would achieve that high Hill
+
+00:39:43.990 --> 00:39:45.760 align:middle line:90%
+coefficient.
+
+00:39:45.760 --> 00:39:46.270 align:middle line:90%
+OK.
+
+00:39:46.270 --> 00:39:47.950 align:middle line:84%
+So we're just going
+to briefly mention
+
+00:39:47.950 --> 00:39:49.790 align:middle line:84%
+the other way of
+getting bistability,
+
+00:39:49.790 --> 00:39:54.050 align:middle line:84%
+which is via stochastic,
+so small molecules.
+
+00:39:54.050 --> 00:39:59.510 align:middle line:90%
+And here, an example--
+
+00:39:59.510 --> 00:40:01.540 align:middle line:84%
+so instead of dealing
+with very large cells
+
+00:40:01.540 --> 00:40:03.850 align:middle line:84%
+with very large numbers
+of molecules involved,
+
+00:40:03.850 --> 00:40:07.090 align:middle line:84%
+here in, say, bacteria
+in particular,
+
+00:40:07.090 --> 00:40:11.200 align:middle line:84%
+a phage-infected
+bacteria, you generally
+
+00:40:11.200 --> 00:40:14.290 align:middle line:84%
+have the case of very
+small bursts of activity.
+
+00:40:14.290 --> 00:40:18.550 align:middle line:84%
+A transcription factor
+will bind to a promoter.
+
+00:40:18.550 --> 00:40:20.830 align:middle line:84%
+Before the transcription
+factor comes off,
+
+00:40:20.830 --> 00:40:24.390 align:middle line:84%
+it may cause a small burst of
+a couple of RNA transcripts
+
+00:40:24.390 --> 00:40:27.720 align:middle line:84%
+being made by a couple
+of RNA polymerases
+
+00:40:27.720 --> 00:40:29.460 align:middle line:84%
+seeing those
+transcription factors.
+
+00:40:29.460 --> 00:40:32.430 align:middle line:84%
+Then each of those RNAs
+caused its own bursts
+
+00:40:32.430 --> 00:40:34.680 align:middle line:84%
+of protein synthesis where
+a whole series of ribosomes
+
+00:40:34.680 --> 00:40:36.870 align:middle line:90%
+will bind in a polysome.
+
+00:40:36.870 --> 00:40:41.220 align:middle line:84%
+And you'll get this double
+burst of RNA and protein.
+
+00:40:41.220 --> 00:40:44.850 align:middle line:84%
+And the stochastic binding
+of that transcription factor
+
+00:40:44.850 --> 00:40:50.850 align:middle line:84%
+that starts that burst can
+be modeled by reasonably
+
+00:40:50.850 --> 00:40:53.370 align:middle line:84%
+measured parameters for
+each of these steps.
+
+00:40:53.370 --> 00:40:55.620 align:middle line:84%
+And you can see that
+cells one, two, and three,
+
+00:40:55.620 --> 00:40:58.380 align:middle line:90%
+in the lower left of slide 25--
+
+00:40:58.380 --> 00:41:00.510 align:middle line:84%
+where time is the
+horizontal axis up to, say,
+
+00:41:00.510 --> 00:41:04.440 align:middle line:84%
+45 minutes or a cell
+division or two.
+
+00:41:04.440 --> 00:41:08.070 align:middle line:84%
+While the number of
+product proteins here,
+
+00:41:08.070 --> 00:41:11.370 align:middle line:84%
+measured in dimers of
+protein, fluctuates,
+
+00:41:11.370 --> 00:41:14.700 align:middle line:84%
+where cell one gets an early
+start, early burst, and cell
+
+00:41:14.700 --> 00:41:17.880 align:middle line:84%
+three hasn't quite
+hit its burst yet.
+
+00:41:17.880 --> 00:41:19.630 align:middle line:84%
+So you can see there's
+a lot of variation.
+
+00:41:19.630 --> 00:41:22.560 align:middle line:84%
+And this is one way of
+achieving a bistable switch.
+
+00:41:22.560 --> 00:41:24.240 align:middle line:84%
+But as you've seen--
+not the only way.
+
+00:41:24.240 --> 00:41:27.090 align:middle line:84%
+You can also do it where
+all the proteins are
+
+00:41:27.090 --> 00:41:28.920 align:middle line:90%
+present in all large amounts.
+
+00:41:28.920 --> 00:41:31.085 align:middle line:84%
+If you do choose to go
+the stochastic route--
+
+00:41:31.085 --> 00:41:33.460 align:middle line:84%
+and this might be an interesting
+project for some of you.
+
+00:41:33.460 --> 00:41:36.210 align:middle line:84%
+It's by no means shown
+to be mission critical
+
+00:41:36.210 --> 00:41:41.640 align:middle line:84%
+for the community
+of systems modelers.
+
+00:41:41.640 --> 00:41:47.160 align:middle line:84%
+But many people believe
+it is a way to go.
+
+00:41:47.160 --> 00:41:49.950 align:middle line:84%
+There has been great
+progress since 1977
+
+00:41:49.950 --> 00:41:57.960 align:middle line:84%
+when Gillespie proposed the
+algorithm named after him
+
+00:41:57.960 --> 00:42:01.260 align:middle line:84%
+for stochastic simulation,
+a couple of chemical
+
+00:42:01.260 --> 00:42:04.080 align:middle line:84%
+reactions in general, not
+just biological, biochemical
+
+00:42:04.080 --> 00:42:05.340 align:middle line:90%
+reactions.
+
+00:42:05.340 --> 00:42:11.370 align:middle line:84%
+Since then, Gibson and
+Bruck, within the last couple
+
+00:42:11.370 --> 00:42:14.460 align:middle line:84%
+of years, have come up with
+an algorithm, which is now
+
+00:42:14.460 --> 00:42:16.320 align:middle line:84%
+time proportional to
+the logarithm of number
+
+00:42:16.320 --> 00:42:18.403 align:middle line:84%
+of reactions, rather than
+the number of reactions.
+
+00:42:18.403 --> 00:42:22.810 align:middle line:84%
+Any time you go from n to
+log n, this is big progress.
+
+00:42:22.810 --> 00:42:27.900 align:middle line:84%
+And this is done by better
+tracking of calculations
+
+00:42:27.900 --> 00:42:30.360 align:middle line:90%
+that you can reuse.
+
+00:42:30.360 --> 00:42:32.550 align:middle line:84%
+And so I encourage
+you to take a look
+
+00:42:32.550 --> 00:42:36.060 align:middle line:90%
+at this aspect of stochastics.
+
+00:42:36.060 --> 00:42:39.900 align:middle line:84%
+Another aspect is people
+often think of the stochastics
+
+00:42:39.900 --> 00:42:40.920 align:middle line:90%
+as kind of a nuisance.
+
+00:42:40.920 --> 00:42:42.570 align:middle line:84%
+They increase the
+computer time that it
+
+00:42:42.570 --> 00:42:44.160 align:middle line:90%
+takes to do simulations.
+
+00:42:44.160 --> 00:42:47.130 align:middle line:84%
+They increase your uncertainty
+about the simulations
+
+00:42:47.130 --> 00:42:48.990 align:middle line:90%
+that you then produce.
+
+00:42:48.990 --> 00:42:50.940 align:middle line:84%
+But there is an
+aspect of it which
+
+00:42:50.940 --> 00:42:52.410 align:middle line:84%
+is just beginning
+to be harnessed
+
+00:42:52.410 --> 00:42:54.330 align:middle line:84%
+in various fields
+of engineering,
+
+00:42:54.330 --> 00:42:57.130 align:middle line:84%
+and biological engineering
+is no exception.
+
+00:42:57.130 --> 00:43:00.390 align:middle line:84%
+And I give you two examples
+here to just whet your appetite.
+
+00:43:00.390 --> 00:43:02.070 align:middle line:84%
+Again, I'm not going
+to go through them.
+
+00:43:02.070 --> 00:43:04.830 align:middle line:84%
+But you can see that
+you can actually
+
+00:43:04.830 --> 00:43:08.460 align:middle line:84%
+make switches and amplifiers
+for gene expression-- gene
+
+00:43:08.460 --> 00:43:10.270 align:middle line:84%
+expression being one
+of our favorite topics
+
+00:43:10.270 --> 00:43:12.450 align:middle line:84%
+in this course-- which
+are based on noise
+
+00:43:12.450 --> 00:43:16.170 align:middle line:84%
+and where you can
+get bistability
+
+00:43:16.170 --> 00:43:19.770 align:middle line:90%
+using these fluctuations.
+
+00:43:19.770 --> 00:43:21.718 align:middle line:84%
+And that's not too
+unexpected based
+
+00:43:21.718 --> 00:43:23.010 align:middle line:90%
+on what we've just been saying.
+
+00:43:23.010 --> 00:43:24.990 align:middle line:84%
+But in addition, you
+can get stochastic
+
+00:43:24.990 --> 00:43:30.090 align:middle line:84%
+focusing where the fluctuation
+allows enhanced sensitivity.
+
+00:43:30.090 --> 00:43:31.380 align:middle line:90%
+OK.
+
+00:43:31.380 --> 00:43:33.480 align:middle line:84%
+So I encourage you
+to look at that.
+
+00:43:33.480 --> 00:43:34.950 align:middle line:84%
+Now, a particular
+place where you
+
+00:43:34.950 --> 00:43:37.980 align:middle line:84%
+might worry that stochastics
+is coming into play quite a bit
+
+00:43:37.980 --> 00:43:39.780 align:middle line:84%
+is in chromosome copy
+number, whether this
+
+00:43:39.780 --> 00:43:42.420 align:middle line:84%
+is eukaryotic chromosomes or
+in the case we'll illustrate,
+
+00:43:42.420 --> 00:43:45.602 align:middle line:84%
+a very simple case of
+plasmid chromosomes.
+
+00:43:45.602 --> 00:43:47.310 align:middle line:84%
+Now, the interesting
+thing about plasmids
+
+00:43:47.310 --> 00:43:52.440 align:middle line:84%
+is they can either be in
+lockstep with cell division,
+
+00:43:52.440 --> 00:43:53.940 align:middle line:84%
+the way that
+eukaryotic chromosomes
+
+00:43:53.940 --> 00:43:56.398 align:middle line:84%
+are-- in the cases of Xenopus
+oocytes we just talked about,
+
+00:43:56.398 --> 00:43:58.530 align:middle line:90%
+where it makes a big decision.
+
+00:43:58.530 --> 00:44:00.420 align:middle line:84%
+And that's the case
+of the R1 plasmids.
+
+00:44:00.420 --> 00:44:04.080 align:middle line:84%
+Or it can be more of kind
+of a cloud of copy number,
+
+00:44:04.080 --> 00:44:08.010 align:middle line:84%
+where they're trying to be
+close to a target number
+
+00:44:08.010 --> 00:44:11.590 align:middle line:84%
+where you'll have more
+copies than one per cell.
+
+00:44:11.590 --> 00:44:15.330 align:middle line:84%
+And so as the cell divides,
+it kind of randomly
+
+00:44:15.330 --> 00:44:21.180 align:middle line:84%
+takes a partition of
+that number of plasmids.
+
+00:44:21.180 --> 00:44:24.130 align:middle line:90%
+And ColE1 is an example of that.
+
+00:44:24.130 --> 00:44:26.730 align:middle line:84%
+And you model it in
+order to determine
+
+00:44:26.730 --> 00:44:29.970 align:middle line:90%
+the factors that govern it.
+
+00:44:29.970 --> 00:44:31.860 align:middle line:90%
+This has implication.
+
+00:44:31.860 --> 00:44:36.450 align:middle line:84%
+The copy number will affect
+the expression levels.
+
+00:44:36.450 --> 00:44:40.530 align:middle line:84%
+And the expression levels are
+of importance to biotechnology.
+
+00:44:40.530 --> 00:44:43.840 align:middle line:84%
+And plasmids are, of course,
+also important in pathogenesis.
+
+00:44:43.840 --> 00:44:47.010 align:middle line:84%
+The copy number
+affects pathogenesis
+
+00:44:47.010 --> 00:44:49.590 align:middle line:84%
+since plasmids are a major
+way that drug resistance
+
+00:44:49.590 --> 00:44:51.130 align:middle line:90%
+elements are passed around.
+
+00:44:51.130 --> 00:44:55.170 align:middle line:84%
+So let's take a look
+at one, hopefully,
+
+00:44:55.170 --> 00:44:58.170 align:middle line:84%
+highly oversimplified
+version of this.
+
+00:44:58.170 --> 00:45:01.530 align:middle line:84%
+Here you have two
+RNAs, imaginatively
+
+00:45:01.530 --> 00:45:03.870 align:middle line:90%
+called RNA 1 and RNA 2.
+
+00:45:03.870 --> 00:45:08.220 align:middle line:84%
+We'll start-- RNA 2
+is transcribed here,
+
+00:45:08.220 --> 00:45:10.515 align:middle line:84%
+on the bottom strand,
+from right to left.
+
+00:45:10.515 --> 00:45:13.560 align:middle line:90%
+
+
+00:45:13.560 --> 00:45:16.230 align:middle line:84%
+So actually, look at the
+very bottom of slide 30.
+
+00:45:16.230 --> 00:45:21.060 align:middle line:84%
+The magenta RNA polymerase
+is making RNA 2.
+
+00:45:21.060 --> 00:45:27.910 align:middle line:84%
+And if nothing binds to RNA 2,
+if RNA 1 does not bind to it,
+
+00:45:27.910 --> 00:45:29.290 align:middle line:90%
+RNase H will cleave it.
+
+00:45:29.290 --> 00:45:31.420 align:middle line:84%
+It will then bind to
+blue DNA polymerase
+
+00:45:31.420 --> 00:45:34.840 align:middle line:84%
+and will start
+replicating the plasmid.
+
+00:45:34.840 --> 00:45:37.750 align:middle line:84%
+On the other hand, if RNA 1,
+which is made on the opposite
+
+00:45:37.750 --> 00:45:40.510 align:middle line:84%
+strand of RNA 2-- it's
+this antisense story.
+
+00:45:40.510 --> 00:45:44.110 align:middle line:84%
+It will then come and bind
+to RNA 2, sort of in trans.
+
+00:45:44.110 --> 00:45:46.150 align:middle line:84%
+It acts as a
+transacting inhibitor.
+
+00:45:46.150 --> 00:45:49.300 align:middle line:84%
+It's aided and abetted
+by the Rom protein.
+
+00:45:49.300 --> 00:45:51.970 align:middle line:84%
+And now you don't get
+cleavage of RNase H.
+
+00:45:51.970 --> 00:45:54.670 align:middle line:84%
+And so DNA polymerase
+doesn't have a primer
+
+00:45:54.670 --> 00:45:57.190 align:middle line:84%
+upon which to act, and
+you don't get replication.
+
+00:45:57.190 --> 00:46:00.260 align:middle line:84%
+And this is, of course,
+not just a yes or no thing.
+
+00:46:00.260 --> 00:46:02.380 align:middle line:84%
+This is something that's
+regulated and allows
+
+00:46:02.380 --> 00:46:04.870 align:middle line:84%
+it to feed back to get
+the right copy number.
+
+00:46:04.870 --> 00:46:07.210 align:middle line:84%
+You don't want it to get
+an infinite copy number,
+
+00:46:07.210 --> 00:46:10.330 align:middle line:84%
+or else it'll choke the
+cell that's harboring it.
+
+00:46:10.330 --> 00:46:12.410 align:middle line:84%
+But you don't want it
+to drop down low enough
+
+00:46:12.410 --> 00:46:14.080 align:middle line:84%
+so that then many
+cells will segregate
+
+00:46:14.080 --> 00:46:19.420 align:middle line:90%
+with no copies of the plasmid.
+
+00:46:19.420 --> 00:46:20.920 align:middle line:84%
+So you want to have
+a mass balance.
+
+00:46:20.920 --> 00:46:24.340 align:middle line:84%
+You have to have
+conservation of mass.
+
+00:46:24.340 --> 00:46:30.460 align:middle line:84%
+You want to be able to
+model both the initiation
+
+00:46:30.460 --> 00:46:32.270 align:middle line:90%
+and degradation and inhibition.
+
+00:46:32.270 --> 00:46:34.750 align:middle line:84%
+So you do this by making
+some simplifications
+
+00:46:34.750 --> 00:46:36.730 align:middle line:90%
+that the RNase H rate is fast.
+
+00:46:36.730 --> 00:46:38.800 align:middle line:84%
+Remember we had slow
+and fast reactions
+
+00:46:38.800 --> 00:46:46.090 align:middle line:84%
+that we would eliminate, so too
+with the DNA polymerization.
+
+00:46:46.090 --> 00:46:49.930 align:middle line:84%
+By subsuming the RNA 2
+concentration in an RNA
+
+00:46:49.930 --> 00:46:51.860 align:middle line:84%
+1-based model, you
+can simplify it
+
+00:46:51.860 --> 00:46:54.310 align:middle line:84%
+so that you're really only
+considering two species, RNA
+
+00:46:54.310 --> 00:46:56.590 align:middle line:90%
+1 and the plasmid DNA itself.
+
+00:46:56.590 --> 00:47:02.420 align:middle line:84%
+We'll call these r and n for
+the two different molecules.
+
+00:47:02.420 --> 00:47:04.900 align:middle line:84%
+So this is just a
+way of introducing
+
+00:47:04.900 --> 00:47:06.100 align:middle line:90%
+a two-species model.
+
+00:47:06.100 --> 00:47:11.800 align:middle line:84%
+We're going to come up with
+a rate equation for change
+
+00:47:11.800 --> 00:47:13.670 align:middle line:90%
+of RNA 1 with respect to time.
+
+00:47:13.670 --> 00:47:16.010 align:middle line:84%
+And then the next slide
+will show the change
+
+00:47:16.010 --> 00:47:17.800 align:middle line:84%
+in the concentration
+of the plasmid.
+
+00:47:17.800 --> 00:47:20.590 align:middle line:90%
+Concentration of the RNA is r.
+
+00:47:20.590 --> 00:47:22.540 align:middle line:84%
+Concentration of
+the plasmid is n.
+
+00:47:22.540 --> 00:47:25.130 align:middle line:90%
+We have dr dt and dn dt.
+
+00:47:25.130 --> 00:47:26.240 align:middle line:90%
+And this is very simple.
+
+00:47:26.240 --> 00:47:27.698 align:middle line:84%
+It's just like what
+we were talking
+
+00:47:27.698 --> 00:47:30.250 align:middle line:90%
+about with the metabolites.
+
+00:47:30.250 --> 00:47:32.620 align:middle line:90%
+You synthesize the RNA.
+
+00:47:32.620 --> 00:47:33.610 align:middle line:90%
+That's a positive term.
+
+00:47:33.610 --> 00:47:35.860 align:middle line:84%
+You degrade it, or
+you dilute it out.
+
+00:47:35.860 --> 00:47:37.840 align:middle line:84%
+The dilution is based
+on the growth rate.
+
+00:47:37.840 --> 00:47:39.160 align:middle line:90%
+Mu is a typical--
+
+00:47:39.160 --> 00:47:41.753 align:middle line:84%
+it's used in growth rates
+in population genetics,
+
+00:47:41.753 --> 00:47:43.420 align:middle line:84%
+and here it's used
+in chemical kinetics.
+
+00:47:43.420 --> 00:47:45.130 align:middle line:84%
+In fact, this is,
+in a certain sense,
+
+00:47:45.130 --> 00:47:47.290 align:middle line:84%
+an example of a very
+exciting field where you're
+
+00:47:47.290 --> 00:47:53.470 align:middle line:84%
+bringing together population
+genetics and chemical
+
+00:47:53.470 --> 00:47:54.715 align:middle line:90%
+kinetics into one place.
+
+00:47:54.715 --> 00:47:57.370 align:middle line:90%
+
+
+00:47:57.370 --> 00:48:00.160 align:middle line:84%
+And population genetics
+and chemical kinetics,
+
+00:48:00.160 --> 00:48:04.180 align:middle line:84%
+when they come together,
+unite some of the most
+
+00:48:04.180 --> 00:48:06.650 align:middle line:90%
+disparate parts of this course.
+
+00:48:06.650 --> 00:48:07.150 align:middle line:90%
+OK.
+
+00:48:07.150 --> 00:48:08.890 align:middle line:84%
+So now we've got
+an equation here
+
+00:48:08.890 --> 00:48:13.180 align:middle line:84%
+where the positive term is
+k1, the rate of initiation
+
+00:48:13.180 --> 00:48:15.220 align:middle line:90%
+of RNA synthesis.
+
+00:48:15.220 --> 00:48:18.638 align:middle line:84%
+And it's, of course,
+the more molecules, n,
+
+00:48:18.638 --> 00:48:20.680 align:middle line:84%
+the higher the concentration
+of the plasmid, then
+
+00:48:20.680 --> 00:48:21.850 align:middle line:84%
+the more RNA you're
+going to make.
+
+00:48:21.850 --> 00:48:22.990 align:middle line:84%
+So that makes
+sense that you have
+
+00:48:22.990 --> 00:48:25.690 align:middle line:84%
+the product, the rate constant
+times the number of plasmids.
+
+00:48:25.690 --> 00:48:27.670 align:middle line:84%
+Similarly, the
+loss of it is going
+
+00:48:27.670 --> 00:48:29.170 align:middle line:84%
+to be related to
+the number of RNAs.
+
+00:48:29.170 --> 00:48:31.630 align:middle line:84%
+More RNAs you have,
+the more that you're
+
+00:48:31.630 --> 00:48:34.000 align:middle line:84%
+going to lose, more
+that you have to lose.
+
+00:48:34.000 --> 00:48:36.580 align:middle line:90%
+
+
+00:48:36.580 --> 00:48:40.420 align:middle line:84%
+So that's the RNA, and
+this is for the DNA.
+
+00:48:40.420 --> 00:48:47.470 align:middle line:84%
+Here you have
+dependence on the RNA.
+
+00:48:47.470 --> 00:48:49.900 align:middle line:84%
+RNA 1, remember, is
+the thing that we
+
+00:48:49.900 --> 00:48:51.430 align:middle line:90%
+modeled in the previous slide--
+
+00:48:51.430 --> 00:48:53.200 align:middle line:90%
+is an inhibitor.
+
+00:48:53.200 --> 00:48:58.240 align:middle line:84%
+And so it's going to,
+when it binds to RNA 2--
+
+00:48:58.240 --> 00:49:00.380 align:middle line:84%
+which is implicitly
+modeled here--
+
+00:49:00.380 --> 00:49:03.400 align:middle line:84%
+it's going to have this
+inhibitory constant
+
+00:49:03.400 --> 00:49:05.600 align:middle line:90%
+in the denominator.
+
+00:49:05.600 --> 00:49:08.380 align:middle line:84%
+And so as the
+inhibitor RNA goes up,
+
+00:49:08.380 --> 00:49:14.020 align:middle line:84%
+this inhibitory term goes up,
+the forward rate goes down.
+
+00:49:14.020 --> 00:49:17.530 align:middle line:84%
+And the rate of
+replication is going
+
+00:49:17.530 --> 00:49:19.570 align:middle line:84%
+to be also dependent
+on plasmid copy number,
+
+00:49:19.570 --> 00:49:21.550 align:middle line:90%
+so it goes up within.
+
+00:49:21.550 --> 00:49:25.070 align:middle line:84%
+The dilution rate is, of
+course, dependent on n as well.
+
+00:49:25.070 --> 00:49:27.340 align:middle line:84%
+So the idea of this,
+in the next slide,
+
+00:49:27.340 --> 00:49:30.280 align:middle line:84%
+is going to be to solve
+for the plasmid number.
+
+00:49:30.280 --> 00:49:34.750 align:middle line:84%
+So slide 34, we have how you
+would implement those two
+
+00:49:34.750 --> 00:49:38.770 align:middle line:84%
+equations that we had
+in the last two slides--
+
+00:49:38.770 --> 00:49:42.430 align:middle line:84%
+are shown on the very top
+left part of the slide.
+
+00:49:42.430 --> 00:49:45.100 align:middle line:90%
+
+
+00:49:45.100 --> 00:49:50.320 align:middle line:84%
+dr dt is abbreviated dr
+here in mathematical format.
+
+00:49:50.320 --> 00:49:52.990 align:middle line:84%
+It's that same k1
+constant times n
+
+00:49:52.990 --> 00:49:55.800 align:middle line:84%
+is the concentration
+of plasmid molecules.
+
+00:49:55.800 --> 00:50:00.370 align:middle line:84%
+Then the negative is
+the degradation rate.
+
+00:50:00.370 --> 00:50:04.600 align:middle line:84%
+And the dilution by
+cell division, mu.
+
+00:50:04.600 --> 00:50:07.780 align:middle line:84%
+And that's times r, which is the
+concentration of the inhibitory
+
+00:50:07.780 --> 00:50:09.640 align:middle line:90%
+RNA 1.
+
+00:50:09.640 --> 00:50:12.080 align:middle line:84%
+And in an
+[? analysis ?] equation,
+
+00:50:12.080 --> 00:50:15.673 align:middle line:84%
+which we've already seen before
+for the plasmid molecules, n,
+
+00:50:15.673 --> 00:50:17.965 align:middle line:84%
+the change in concentration
+of n is a function of time,
+
+00:50:17.965 --> 00:50:23.130 align:middle line:84%
+dn dt, here abbreviated
+dn, is there.
+
+00:50:23.130 --> 00:50:28.630 align:middle line:84%
+And then we're
+going to solve it.
+
+00:50:28.630 --> 00:50:31.740 align:middle line:84%
+So these first three things
+are setting it up and asking
+
+00:50:31.740 --> 00:50:34.320 align:middle line:90%
+the program to solve it.
+
+00:50:34.320 --> 00:50:35.910 align:middle line:84%
+And we'll do it
+under the constraints
+
+00:50:35.910 --> 00:50:38.880 align:middle line:84%
+of dr dt is equal to
+0, dn dt is equal to 0.
+
+00:50:38.880 --> 00:50:41.370 align:middle line:84%
+You will recognize this as
+the steady-state assumption.
+
+00:50:41.370 --> 00:50:45.300 align:middle line:84%
+Even though there are fluxes
+in and out that are non-zero,
+
+00:50:45.300 --> 00:50:47.970 align:middle line:90%
+the net effect is zero.
+
+00:50:47.970 --> 00:50:50.260 align:middle line:84%
+And so that's the
+formula for steady state.
+
+00:50:50.260 --> 00:50:53.850 align:middle line:84%
+We're going to start at
+a dilution rate of 1,
+
+00:50:53.850 --> 00:50:55.770 align:middle line:84%
+where you'll have some
+steady-state level.
+
+00:50:55.770 --> 00:50:57.770 align:middle line:84%
+And then we're going to
+watch the dynamics as it
+
+00:50:57.770 --> 00:51:01.267 align:middle line:84%
+goes to a dilution rate
+that's slower, that is to say,
+
+00:51:01.267 --> 00:51:02.350 align:middle line:90%
+the growth rate is slower.
+
+00:51:02.350 --> 00:51:04.500 align:middle line:84%
+And as the growth
+rate is slower,
+
+00:51:04.500 --> 00:51:06.060 align:middle line:84%
+you'll expect,
+maybe, to accumulate
+
+00:51:06.060 --> 00:51:07.140 align:middle line:90%
+more plasmid molecules.
+
+00:51:07.140 --> 00:51:10.230 align:middle line:84%
+Because they're not in lockstep
+with the cell division rate,
+
+00:51:10.230 --> 00:51:12.360 align:middle line:90%
+the cell grows more slowly.
+
+00:51:12.360 --> 00:51:13.860 align:middle line:84%
+And there's not
+some other feedback,
+
+00:51:13.860 --> 00:51:16.027 align:middle line:84%
+and we haven't put any other
+feedback in this model,
+
+00:51:16.027 --> 00:51:18.380 align:middle line:84%
+then it should go to
+about twice the level.
+
+00:51:18.380 --> 00:51:22.140 align:middle line:90%
+
+
+00:51:22.140 --> 00:51:29.580 align:middle line:84%
+So you do the symbolic
+solver in the top here.
+
+00:51:29.580 --> 00:51:33.280 align:middle line:84%
+And you get this
+symbolic solution here.
+
+00:51:33.280 --> 00:51:34.740 align:middle line:84%
+And if you do the
+numeric solver,
+
+00:51:34.740 --> 00:51:41.233 align:middle line:84%
+NDSolve, then you get a
+very similar solution.
+
+00:51:41.233 --> 00:51:42.150 align:middle line:90%
+And you could plot it.
+
+00:51:42.150 --> 00:51:44.520 align:middle line:84%
+Here you're plotting y,
+which is a plasmid copy
+
+00:51:44.520 --> 00:51:49.890 align:middle line:84%
+number from over a
+time range of 0 to 3.
+
+00:51:49.890 --> 00:51:52.050 align:middle line:84%
+And you can see it goes
+up from slightly over 1
+
+00:51:52.050 --> 00:51:57.000 align:middle line:84%
+to slightly over 2 in terms
+of a concentration of plasmid,
+
+00:51:57.000 --> 00:52:04.140 align:middle line:84%
+as you might expect from
+lowering the dilution curve.
+
+00:52:04.140 --> 00:52:08.100 align:middle line:84%
+Just as we had stochastic
+models for the bistability
+
+00:52:08.100 --> 00:52:09.840 align:middle line:90%
+that we talked about earlier--
+
+00:52:09.840 --> 00:52:12.840 align:middle line:84%
+the Xenopus bistability
+could be continuous.
+
+00:52:12.840 --> 00:52:17.040 align:middle line:84%
+And the lambda model
+could be stochastic.
+
+00:52:17.040 --> 00:52:20.755 align:middle line:84%
+Here there are stochastic models
+for Copy Number Control, CNC,
+
+00:52:20.755 --> 00:52:21.880 align:middle line:90%
+which are very interesting.
+
+00:52:21.880 --> 00:52:23.580 align:middle line:90%
+I urge you to look at them--
+
+00:52:23.580 --> 00:52:28.680 align:middle line:84%
+where you can have, basically,
+using stochastic modeling to
+
+00:52:28.680 --> 00:52:31.410 align:middle line:84%
+do molecular clocks,
+where you can reduce
+
+00:52:31.410 --> 00:52:32.880 align:middle line:90%
+the rate at plasmid loss.
+
+00:52:32.880 --> 00:52:35.850 align:middle line:84%
+You can see, in that last one,
+if you had a very small number
+
+00:52:35.850 --> 00:52:41.340 align:middle line:84%
+of molecules, you would have
+a loss in some of the cells
+
+00:52:41.340 --> 00:52:46.080 align:middle line:84%
+that would be more accurately
+modeled in a stochastic model.
+
+00:52:46.080 --> 00:52:52.110 align:middle line:84%
+Now, we want to go from these
+models of red blood cell where
+
+00:52:52.110 --> 00:52:54.630 align:middle line:84%
+you have metabolism
+without polymer synthesis,
+
+00:52:54.630 --> 00:52:57.990 align:middle line:84%
+and the CNC model where you
+have polymer synthesis of RNA
+
+00:52:57.990 --> 00:53:03.360 align:middle line:84%
+and DNA, but without metabolism,
+to a more integrated cell
+
+00:53:03.360 --> 00:53:05.460 align:middle line:90%
+where you have both going on.
+
+00:53:05.460 --> 00:53:09.000 align:middle line:84%
+And you want to represent
+the full optimization that
+
+00:53:09.000 --> 00:53:13.740 align:middle line:84%
+must occur, getting metabolism
+optimally suited so that you
+
+00:53:13.740 --> 00:53:18.000 align:middle line:84%
+get the right kinds
+of macromolecules made
+
+00:53:18.000 --> 00:53:20.020 align:middle line:84%
+in a complicated
+cell like E. coli,
+
+00:53:20.020 --> 00:53:23.010 align:middle line:84%
+which can adjust to a wide
+variety of different growth
+
+00:53:23.010 --> 00:53:23.980 align:middle line:90%
+conditions.
+
+00:53:23.980 --> 00:53:25.650 align:middle line:90%
+So what are the problems here?
+
+00:53:25.650 --> 00:53:28.740 align:middle line:84%
+The number of parameters
+that we needed
+
+00:53:28.740 --> 00:53:31.930 align:middle line:84%
+and had for the red
+blood cell was enormous.
+
+00:53:31.930 --> 00:53:32.610 align:middle line:90%
+It was 200.
+
+00:53:32.610 --> 00:53:34.590 align:middle line:84%
+It was a tour de
+force to get those.
+
+00:53:34.590 --> 00:53:38.820 align:middle line:84%
+For E. coli, it's orders of
+magnitude more that are needed.
+
+00:53:38.820 --> 00:53:41.520 align:middle line:84%
+Because instead
+of 40 enzymes, we
+
+00:53:41.520 --> 00:53:48.150 align:middle line:84%
+have somewhere
+between 400 and 4,000.
+
+00:53:48.150 --> 00:53:49.920 align:middle line:84%
+So measuring parameters
+is a problem.
+
+00:53:49.920 --> 00:53:53.040 align:middle line:84%
+And we have the same problem
+about in vitro versus in vivo.
+
+00:53:53.040 --> 00:53:56.790 align:middle line:84%
+We have the same
+set of constraints.
+
+00:53:56.790 --> 00:53:59.280 align:middle line:84%
+And we want to focus
+more of our attention
+
+00:53:59.280 --> 00:54:05.080 align:middle line:90%
+now on the flux constraints.
+
+00:54:05.080 --> 00:54:07.950 align:middle line:84%
+So after a short
+break, we're going
+
+00:54:07.950 --> 00:54:10.830 align:middle line:84%
+to come back and talk about
+the flux balance as a solution
+
+00:54:10.830 --> 00:54:11.730 align:middle line:90%
+to this.
+
+00:54:11.730 --> 00:54:16.050 align:middle line:84%
+And just as we had with
+the red blood cell,
+
+00:54:16.050 --> 00:54:18.000 align:middle line:84%
+we're going to be
+focusing in on ways
+
+00:54:18.000 --> 00:54:23.010 align:middle line:84%
+to relook at the way we
+think about the synthesis
+
+00:54:23.010 --> 00:54:26.580 align:middle line:84%
+and degradation of the
+molecules in this network
+
+00:54:26.580 --> 00:54:28.320 align:middle line:84%
+to see if we can
+rephrase in a way
+
+00:54:28.320 --> 00:54:30.240 align:middle line:84%
+where we can ask
+interesting questions
+
+00:54:30.240 --> 00:54:34.060 align:middle line:84%
+about the optimization
+of these systems.
+
+00:54:34.060 --> 00:54:35.850 align:middle line:90%
+So take a quick break.
+
+00:54:35.850 --> 00:54:40.610 align:middle line:84%
+And the second half, we'll
+talk about the flux balance.
+
+00:54:40.610 --> 00:54:43.000 align:middle line:90%

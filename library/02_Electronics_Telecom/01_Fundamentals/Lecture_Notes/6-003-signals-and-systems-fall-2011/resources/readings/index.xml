@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Back matter (bibliography, index)</title>
+      <link>/resources/mit6_003f11_back/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_back/data.json</guid>
+      <description>&lt;p&gt;This resource contains the bibliographical references to the course reading.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 1: Difference equations</title>
+      <link>/resources/mit6_003f11_chap1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_chap1/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on chapter 1 of book signals and systems; difference Equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 2: Difference equations and modularity</title>
+      <link>/resources/mit6_003f11_chap2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_chap2/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on chapter 2 of book signals and systems; difference equations and modularity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 3: Block diagrams and operators: two new representations</title>
+      <link>/resources/mit6_003f11_chap3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_chap3/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on chapter 3 of book signals and systems; block diagrams and operators: two new representations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 4: Modes</title>
+      <link>/resources/mit6_003f11_chap4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_chap4/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on chapter 4 of book signals and systems; modes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 5: Repeated roots</title>
+      <link>/resources/mit6_003f11_chap5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_chap5/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on chapter 5 of book signals and systems; repeated roots.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 6: The perfect (sine) wave</title>
+      <link>/resources/mit6_003f11_chap6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_chap6/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on chapter 6 of book signals and systems; the perfect (sine) wave.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 7: Control</title>
+      <link>/resources/mit6_003f11_chap7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_chap7/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on chapter 7 of book signals and systems; control.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chapter 8: Proportional and derivative control</title>
+      <link>/resources/mit6_003f11_chap8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_chap8/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on chapter 8 of book signals and systems; proportional and derivative control.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Discrete-time Signals and Systems: Complete course notes</title>
+      <link>/resources/mit6_003f11_notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_notes/data.json</guid>
+      <description>&lt;p&gt;This is the complete refrence to book discrete-time signals and systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Front matter (table of contents, preface)</title>
+      <link>/resources/mit6_003f11_front/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_front/data.json</guid>
+      <description>&lt;p&gt;This resource contains the first page of the book discrete-time signals and systems along with the index.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;p&gt;Reading assignments are broken down by topic, and are assigned from the following textbook unless otherwise noted:&lt;/p&gt;&#xA;&lt;p&gt;Oppenheim, Alan, and Alan Willsky. &lt;em&gt;Signals and Systems&lt;/em&gt;. 2nd ed. Prentice Hall, 1996. ISBN: 9780138147570.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SECTIONS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Discrete-time (DT) systems&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Chapters 1–4 of &lt;a href=&#34;../../pages/readings/index.html#SuppNotes&#34;&gt;supplementary notes&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Continuous-time (CT) systems&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1.0–1.5, 2.4–2.5&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Laplace transforms&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;9.1–9.10&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Z transforms&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;10.1–10.10&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Convolution&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2.0–2.6&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Frequency response&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3.10, 6.0–6.2.3, 6.5–6.5.3&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Feedback&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;11.0–11.2.3&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;CT Fourier series&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3.0–3.5.9&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

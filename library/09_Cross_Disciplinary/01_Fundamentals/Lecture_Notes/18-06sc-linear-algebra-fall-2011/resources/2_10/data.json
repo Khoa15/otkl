@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/38c6002bffe782a07c0377b3686b0c41_2_10.jpg",
+  "file_size": 7024,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from 'Introduction to Linear Algebra' by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Differential Equations and exp(At)",
+  "parent_type": "CourseSection",
+  "parent_uid": "2e8f3fde-52a4-42af-fa1d-8cd0213b4d74",
+  "resourcetype": "Image",
+  "title": "2_10.jpg",
+  "uid": "38c6002b-ffe7-82a0-7c03-77b3686b0c41",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

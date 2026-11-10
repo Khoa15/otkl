@@ -1,0 +1,2994 @@
+1
+00:00:33 --> 00:00:42
+Good morning.
+Good morning.
+
+2
+00:00:42 --> 00:00:49
+So, what I would like to do today
+is pick up on our basic theme of
+
+3
+00:00:49 --> 00:00:56
+molecular biology. We've
+talked about DNA replication.
+
+4
+00:00:56 --> 00:01:03
+The transcription of DNA into
+RNA, and the translation of RNA
+
+5
+00:01:03 --> 00:01:09
+into protein. We discussed last
+time some of the variations between
+
+6
+00:01:09 --> 00:01:15
+different types of organisms:
+viruses, prokaryotes,
+
+7
+00:01:15 --> 00:01:21
+eukaryotes, with respect to the
+details of how they do that in
+
+8
+00:01:21 --> 00:01:27
+general that bacteria have
+circular DNA chromosomes typically
+
+9
+00:01:27 --> 00:01:32
+that eukaryotes have
+linear chromosomes,
+
+10
+00:01:32 --> 00:01:36
+etc. What I'd like to talk
+about today is variation,
+
+11
+00:01:36 --> 00:01:41
+but variation not between organisms
+but within an organism from time to
+
+12
+00:01:41 --> 00:01:46
+time and place to place, namely,
+how it is that some genes or
+
+13
+00:01:46 --> 00:01:50
+gene activities are turned on, on
+some occasions, and turned off on
+
+14
+00:01:50 --> 00:01:55
+other occasions.
+This is, obviously,
+
+15
+00:01:55 --> 00:02:00
+a very important problem
+to an organism, particularly
+
+16
+00:02:00 --> 00:02:03
+to somebody like you who's
+a multi-cellular organism,
+
+17
+00:02:03 --> 00:02:06
+and has the same DNA instruction
+set in all of your cells.
+
+18
+00:02:06 --> 00:02:09
+It's obviously quite important to
+make sure that the same basic code
+
+19
+00:02:09 --> 00:02:13
+is doing different
+things in different cells.
+
+20
+00:02:13 --> 00:02:16
+It's important, also, to a
+bacterium to make sure that
+
+21
+00:02:16 --> 00:02:19
+it's doing different
+things at different times,
+
+22
+00:02:19 --> 00:02:23
+depending on its environment.
+So, I'm going to talk about a very
+
+23
+00:02:23 --> 00:02:26
+particular system today as an
+illustration of how genes are
+
+24
+00:02:26 --> 00:02:30
+regulated, but before
+we do that, let's
+
+25
+00:02:30 --> 00:02:35
+Ask, where are the different
+places in this picture?
+
+26
+00:02:35 --> 00:02:40
+DNA goes to DNA goes to RNA goes
+to protein, in which you might,
+
+27
+00:02:40 --> 00:02:45
+in principle, regulate the activity
+of a gene. Could you regulate the
+
+28
+00:02:45 --> 00:02:50
+activity of a gene by actually
+changing the DNA encoded in the
+
+29
+00:02:50 --> 00:02:55
+genome? So, why not?
+Because what? It becomes a
+
+30
+00:02:55 --> 00:03:00
+different gene. Yeah,
+that's just a definition.
+
+31
+00:03:00 --> 00:03:05
+Why couldn't the cell just decide
+that I want this gene now to change
+
+32
+00:03:05 --> 00:03:10
+in some way? Oh, I don't
+know, I'll alter the DNA
+
+33
+00:03:10 --> 00:03:16
+sequence in some way. And,
+that'll make the gene work.
+
+34
+00:03:16 --> 00:03:21
+Could that happen? Is that allowed?
+Yeah, it turns out to happen.
+
+35
+00:03:21 --> 00:03:27
+It's not the most common thing,
+and it's not the thing they'll talk
+
+36
+00:03:27 --> 00:03:32
+about in the textbooks a lot but
+you can actually do regulation.
+
+37
+00:03:32 --> 00:03:37
+So, the levels of regulation are
+many, and one is actually at the
+
+38
+00:03:37 --> 00:03:42
+level of DNA rearrangement.
+As we'll come to later in the
+
+39
+00:03:42 --> 00:03:47
+course, for example, your
+immune system creates new,
+
+40
+00:03:47 --> 00:03:52
+functional genes by rearranging
+locally some pieces of DNA,
+
+41
+00:03:52 --> 00:03:57
+some bacteria, particularly
+infectious organisms control whether
+
+42
+00:03:57 --> 00:04:01
+genes are turned on or off
+by actually going in there,
+
+43
+00:04:01 --> 00:04:04
+and flipping around a piece
+of DNA in their chromosome.
+
+44
+00:04:04 --> 00:04:07
+And, that's how they turn the gene
+on or off is they actually go in and
+
+45
+00:04:07 --> 00:04:10
+change the genome. There's
+some protein that actually
+
+46
+00:04:10 --> 00:04:13
+flips the orientation of a segment
+of DNA. Now, these are a little
+
+47
+00:04:13 --> 00:04:16
+funky, and we're not going
+to talk a lot about them,
+
+48
+00:04:16 --> 00:04:19
+but you should know, almost
+anything that can happen does
+
+49
+00:04:19 --> 00:04:22
+happen and gets exploited in
+different ways by organisms.
+
+50
+00:04:22 --> 00:04:25
+So, DNA rearrangement
+certainly happens. It's rare,
+
+51
+00:04:25 --> 00:04:29
+but it's always
+cool when it happens.
+
+52
+00:04:29 --> 00:04:34
+So, it's fun to look at.
+And, something like the immune
+
+53
+00:04:34 --> 00:04:40
+system can't be dismissed as simply
+an oddity. That's an incredibly
+
+54
+00:04:40 --> 00:04:45
+important thing. The
+most common form is at the
+
+55
+00:04:45 --> 00:04:51
+level of transcriptional regulation,
+where whether or not a transcript
+
+56
+00:04:51 --> 00:04:57
+gets made is how it's processed
+can be different. First off,
+
+57
+00:04:57 --> 00:05:02
+the initiation of transcription
+that RNA polymerase should happen to
+
+58
+00:05:02 --> 00:05:06
+sit down at this gene on this
+occasion and start transcribing it
+
+59
+00:05:06 --> 00:05:10
+is a potentially regulatable (sic)
+step that maybe you're only going to
+
+60
+00:05:10 --> 00:05:14
+turn on the gene for beta-globin and
+alpha-globin that together make the
+
+61
+00:05:14 --> 00:05:18
+two components of hemoglobin,
+and you're only going to turn them
+
+62
+00:05:18 --> 00:05:22
+on in red blood cells, or
+red blood cell precursors,
+
+63
+00:05:22 --> 00:05:26
+and that could be done at the
+level of whether or not you make the
+
+64
+00:05:26 --> 00:05:30
+message in the first place.
+That's one place it can be done.
+
+65
+00:05:30 --> 00:05:35
+Another place is the splicing
+choices that you make.
+
+66
+00:05:35 --> 00:05:40
+With respect to your message, you
+get this thing with a number of
+
+67
+00:05:40 --> 00:05:45
+different potential exons, and
+you can regulate how this gene
+
+68
+00:05:45 --> 00:05:50
+is used by deciding to splice it
+this way, and skip over that exon
+
+69
+00:05:50 --> 00:05:55
+perhaps, or not skip over that
+exon. That alternative spicing is a
+
+70
+00:05:55 --> 00:06:00
+powerful way to regulate.
+And then finally, you can also
+
+71
+00:06:00 --> 00:06:06
+regulate at the level
+of mRNA stability.
+
+72
+00:06:06 --> 00:06:09
+Stability means the persistence of
+the message, the degradation of the
+
+73
+00:06:09 --> 00:06:12
+message. It could be
+that in certain cells,
+
+74
+00:06:12 --> 00:06:15
+the message is protected so
+that it hangs around longer.
+
+75
+00:06:15 --> 00:06:18
+And, in other cells, perhaps,
+it's unprotected and it's
+
+76
+00:06:18 --> 00:06:21
+degraded very rapidly. If
+it's degraded very rapidly,
+
+77
+00:06:21 --> 00:06:24
+it doesn't get a chance to make a
+protein or maybe it doesn't get to
+
+78
+00:06:24 --> 00:06:27
+make too many copies of the protein.
+If it's persistent for a long time,
+
+79
+00:06:27 --> 00:06:30
+it can make a lot
+of copies of protein.
+
+80
+00:06:30 --> 00:06:35
+All of those things can and
+do occur. Then, of course,
+
+81
+00:06:35 --> 00:06:40
+there is the regulation at
+the level of translation.
+
+82
+00:06:40 --> 00:06:46
+Translation, if I give you an mRNA,
+is it automatically going to be
+
+83
+00:06:46 --> 00:06:51
+translated? Maybe the cell has a
+way to sequester the RNA to ramp it
+
+84
+00:06:51 --> 00:06:57
+up in some way so that it
+doesn't get to the ribosome under
+
+85
+00:06:57 --> 00:07:01
+some conditions, and under
+other conditions it does
+
+86
+00:07:01 --> 00:07:05
+get to the ribosome, or
+some ways to block in other
+
+87
+00:07:05 --> 00:07:08
+manners than just sequestering it,
+but to physically block whether or
+
+88
+00:07:08 --> 00:07:12
+not this message gets translated,
+what turns out that there's a
+
+89
+00:07:12 --> 00:07:15
+tremendous amount of that.
+It's, again, not the most common,
+
+90
+00:07:15 --> 00:07:19
+but we're learning, particularly
+over the last couple of years,
+
+91
+00:07:19 --> 00:07:22
+that regulation of the translation
+of an mRNA is important.
+
+92
+00:07:22 --> 00:07:26
+There are, although I won't
+talk about them at length,
+
+93
+00:07:26 --> 00:07:30
+an exciting new set of
+genes called micro RNA's,
+
+94
+00:07:30 --> 00:07:34
+teeny little RNAs that encode 21-22
+base pair segments that are able to
+
+95
+00:07:34 --> 00:07:39
+pair with a messenger RNA and
+interfere in some ways partially
+
+96
+00:07:39 --> 00:07:43
+with its translatability. And
+so, by the number and the kinds
+
+97
+00:07:43 --> 00:07:48
+of little micro RNAs that are there,
+organisms can tweak up or down how
+
+98
+00:07:48 --> 00:07:52
+actively a particular
+message is being translated.
+
+99
+00:07:52 --> 00:07:57
+So, the ability to regulate
+translation in a number of different
+
+100
+00:07:57 --> 00:08:01
+ways is important.
+And then, of course,
+
+101
+00:08:01 --> 00:08:06
+there's post-translational
+control. Once a protein is made,
+
+102
+00:08:06 --> 00:08:10
+there's post-translational
+regulation that could happen.
+
+103
+00:08:10 --> 00:08:14
+It could be that the protein
+is modified in some way.
+
+104
+00:08:14 --> 00:08:18
+The proteins say completely
+inactive unless you put a phosphate
+
+105
+00:08:18 --> 00:08:22
+group on it, and some enzyme comes
+along and puts a phosphate group on
+
+106
+00:08:22 --> 00:08:26
+it. Or, it's inactive until you
+take off the phosphate group.
+
+107
+00:08:26 --> 00:08:30
+All sorts of post-translational
+modifications can occur to proteins
+
+108
+00:08:30 --> 00:08:33
+after the amino acid chain is made
+that can affect whether or not the
+
+109
+00:08:33 --> 00:08:37
+protein is active. Every
+one of these is potentially a
+
+110
+00:08:37 --> 00:08:41
+step by which an organism can
+regulate whether or not you have a
+
+111
+00:08:41 --> 00:08:45
+certain biochemical activity present
+in a certain amount at a certain
+
+112
+00:08:45 --> 00:08:49
+time. And, every one of these
+gets used. This is the thing about
+
+113
+00:08:49 --> 00:08:53
+coming to a system that has been in
+the process of evolution for three
+
+114
+00:08:53 --> 00:08:57
+and a half billion years is that
+even little differences can be
+
+115
+00:08:57 --> 00:09:01
+fought over as competitive
+advantages, and can be fixed
+
+116
+00:09:01 --> 00:09:05
+by an organism. So, if a
+tiny little thing began to
+
+117
+00:09:05 --> 00:09:10
+help the organism slightly,
+it could reach fixation. And,
+
+118
+00:09:10 --> 00:09:15
+you're coming along to this system,
+which has had about three and a half
+
+119
+00:09:15 --> 00:09:20
+billion years of patches
+to the software code,
+
+120
+00:09:20 --> 00:09:25
+and it's just got all sorts of
+layers and regulation piled on top
+
+121
+00:09:25 --> 00:09:30
+of it. All of these things happen.
+But, what we think is the most
+
+122
+00:09:30 --> 00:09:35
+important out of this whole
+collection is this guy.
+
+123
+00:09:35 --> 00:09:40
+The fundamental place at which
+you're going to regulate whether or
+
+124
+00:09:40 --> 00:09:45
+not you have the product of a gene
+is whether you bother to transcribe
+
+125
+00:09:45 --> 00:09:50
+its RNA. But I do want
+to say because, yes? And,
+
+126
+00:09:50 --> 00:09:55
+which exons you used
+and which aren't? Yeah,
+
+127
+00:09:55 --> 00:10:00
+well, there are tissue-specific
+factors that are gene-specific
+
+128
+00:10:00 --> 00:10:03
+that can influence that. And,
+surprisingly little is known
+
+129
+00:10:03 --> 00:10:06
+about the details. There
+are a couple of cases where
+
+130
+00:10:06 --> 00:10:10
+people know, but as you'd imagine,
+you actually need a regulatory
+
+131
+00:10:10 --> 00:10:13
+system in that tissue to be able
+to decide to skip over that exon.
+
+132
+00:10:13 --> 00:10:17
+And, the mechanics of that
+surprisingly are understood in very
+
+133
+00:10:17 --> 00:10:20
+few cases. And, you
+might think that evolution
+
+134
+00:10:20 --> 00:10:23
+wouldn't like to use that as the
+most common thing because you really
+
+135
+00:10:23 --> 00:10:27
+do have to make a specialized
+thing to do that. So, that's what
+
+136
+00:10:27 --> 00:10:30
+happens on these. That's
+one in particular where I
+
+137
+00:10:30 --> 00:10:33
+think a tremendous amount
+of more work has to happen.
+
+138
+00:10:33 --> 00:10:36
+mRNA stability, we understand some
+of it but not all the factors in
+
+139
+00:10:36 --> 00:10:39
+this business. I was
+telling you about translation
+
+140
+00:10:39 --> 00:10:42
+with these little micro-RNAs is
+stuff that's really only a few years
+
+141
+00:10:42 --> 00:10:45
+old that people have
+come to understand. So,
+
+142
+00:10:45 --> 00:10:48
+there's a lot to be understood about
+these things. I'm going to tell you
+
+143
+00:10:48 --> 00:10:51
+about initiation of mRNAs,
+because it's the area where we know
+
+144
+00:10:51 --> 00:10:54
+the most, and I think it'll give you
+a good idea of the general paradigm.
+
+145
+00:10:54 --> 00:10:57
+But, any of you who want to go
+into this will find that there's a
+
+146
+00:10:57 --> 00:11:00
+tremendous amount more to still
+be discovered about these things.
+
+147
+00:11:00 --> 00:11:05
+So, the amount of protein that
+a cell might make varies wildly.
+
+148
+00:11:05 --> 00:11:10
+Your red blood cells, 80%
+of your red blood cells,
+
+149
+00:11:10 --> 00:11:15
+protein, is alpha or beta-globin.
+It's a huge amount. That's not
+
+150
+00:11:15 --> 00:11:21
+true in any other cell in your body.
+So, we were talking about pretty
+
+151
+00:11:21 --> 00:11:26
+significant ranges of difference
+as to how much protein is made.
+
+152
+00:11:26 --> 00:11:31
+How do things like that happen?
+Well, I'm going to describe the
+
+153
+00:11:31 --> 00:11:37
+simplest and classic case of
+gene regulation and bacteria,
+
+154
+00:11:37 --> 00:11:43
+and in particular, the
+famous lack operon of E coli.
+
+155
+00:11:43 --> 00:11:49
+So, this was the first case in
+which regulation was ever really
+
+156
+00:11:49 --> 00:11:55
+worked out, and it stands today
+as a very good paradigm of how
+
+157
+00:11:55 --> 00:12:00
+regulation works. E
+coli, in order to grow,
+
+158
+00:12:00 --> 00:12:05
+needs a carbon source. In
+particular, E coli is fond of sugar.
+
+159
+00:12:05 --> 00:12:10
+It would like to have a sugar
+to grow on. Given a choice,
+
+160
+00:12:10 --> 00:12:15
+what's E coli's favorite sugar?
+It's glucose, right, because we
+
+161
+00:12:15 --> 00:12:20
+have the whole cycle of glucose.
+The whole pathway of glucose goes
+
+162
+00:12:20 --> 00:12:25
+to pyruvate, which we've talked
+about, and glucose is the preferred
+
+163
+00:12:25 --> 00:12:30
+sugar to go into that
+pathway, OK, of glycolysis.
+
+164
+00:12:30 --> 00:12:36
+Glycolysis: the breakdown of glucose.
+But, suppose there's no glucose
+
+165
+00:12:36 --> 00:12:42
+available. Is E coli willing
+to have a different sugar?
+
+166
+00:12:42 --> 00:12:48
+Sure, because E coli's not stupid.
+If it were to refuse another sugar,
+
+167
+00:12:48 --> 00:12:54
+it wouldn't be able to grow. So, it
+has a variety of pathways that will
+
+168
+00:12:54 --> 00:13:00
+shunt other sugars to glucose,
+which will then allow you to go
+
+169
+00:13:00 --> 00:13:08
+through glycolysis,
+etc. Now, given a choice,
+
+170
+00:13:08 --> 00:13:16
+it would prefer to use the glucose.
+But if not, suppose you gave it
+
+171
+00:13:16 --> 00:13:24
+lactose. Lactose is a disaccharide.
+It's milk sugar, and I'll just
+
+172
+00:13:24 --> 00:13:32
+briefly sketch, so lactose
+is a disaccharide where
+
+173
+00:13:32 --> 00:13:40
+you've got a glucose
+and a galactose.
+
+174
+00:13:40 --> 00:13:50
+Glucose plus galactose equals
+lactose. So, if E coli is given
+
+175
+00:13:50 --> 00:14:00
+galactose, it is able to break it
+down into glucose plus galactose.
+
+176
+00:14:00 --> 00:14:08
+And it does that by a particular
+enzyme called beta galactosidase,
+
+177
+00:14:08 --> 00:14:17
+which breaks down glactosides.
+And, it'll give you galactose plus
+
+178
+00:14:17 --> 00:14:25
+glucose. How much
+beta-galactosidase does an E coli
+
+179
+00:14:25 --> 00:14:32
+cell have around? Sorry?
+None? But how does it do this?
+
+180
+00:14:32 --> 00:14:38
+When it needs it, it'll
+synthesize it. When it needs it,
+
+181
+00:14:38 --> 00:14:43
+like, there's no glucose and
+there's a lot of galactose around,
+
+182
+00:14:43 --> 00:14:49
+how much of it will there be?
+A lot. It turns out that in
+
+183
+00:14:49 --> 00:14:54
+circumstances where E coli is
+dependent on galactose as its fuel,
+
+184
+00:14:54 --> 00:15:00
+something like 10%
+of total protein
+
+185
+00:15:00 --> 00:15:06
+can be beta-gal under the
+circumstances when you have
+
+186
+00:15:06 --> 00:15:13
+galactose but no glucose.
+Sorry? Sorry, when you have
+
+187
+00:15:13 --> 00:15:19
+lactose but no glucose.
+Thank you. So, when you have
+
+188
+00:15:19 --> 00:15:26
+lactose but no glucose, E coli
+has 10% of its protein weight
+
+189
+00:15:26 --> 00:15:33
+as beta-galactosidase. Wow.
+But when you have glucose
+
+190
+00:15:33 --> 00:15:39
+around or you don't have lactose
+around, you have very little.
+
+191
+00:15:39 --> 00:15:45
+It could be almost none,
+trace amounts. So, why do this?
+
+192
+00:15:45 --> 00:15:51
+Why not, for example, just have a
+far more reasonable some compromise?
+
+193
+00:15:51 --> 00:15:57
+Like, let's always just have
+1% of beta-galactosidase.
+
+194
+00:15:57 --> 00:16:04
+Why do we need the 0-10%?
+10%'s actually extremely high.
+
+195
+00:16:04 --> 00:16:09
+So what. It's a good insurance
+policy. So, if I only have
+
+196
+00:16:09 --> 00:16:15
+galactose, I need more. Well,
+I mean, 1% will still digest
+
+197
+00:16:15 --> 00:16:21
+it. I'll still do it.
+What's the problem? Sorry?
+
+198
+00:16:21 --> 00:16:27
+So what, I do it at a slower rate.
+Life's long. Why not? Ah, it has
+
+199
+00:16:27 --> 00:16:31
+to compete. So, if the
+cell to the left had a
+
+200
+00:16:31 --> 00:16:35
+mutation that got it to
+produce four times as much,
+
+201
+00:16:35 --> 00:16:38
+then it would soak up the
+lactose in the environment,
+
+202
+00:16:38 --> 00:16:42
+grow faster, etc. etc.,
+and we could have competed.
+
+203
+00:16:42 --> 00:16:45
+So, these little tuning mutations
+have a huge effect amongst this
+
+204
+00:16:45 --> 00:16:49
+competing population of bacteria.
+And so, if E coli currently thinks
+
+205
+00:16:49 --> 00:16:53
+that it's really good to have almost
+non at sometimes and 10% at other
+
+206
+00:16:53 --> 00:16:56
+times, you can bet that it's worked
+that out through the product of
+
+207
+00:16:56 --> 00:17:00
+pretty rigorous competition,
+that it doesn't want to waste the
+
+208
+00:17:00 --> 00:17:03
+energy making this when you don't
+need it, and that when you do need
+
+209
+00:17:03 --> 00:17:07
+it, you really have to compete hard
+by growing as fast as you can when
+
+210
+00:17:07 --> 00:17:11
+you have that lactose around.
+OK. So, how does it actually get
+
+211
+00:17:11 --> 00:17:16
+the lactose, sorry, keep
+me honest on lactose versus
+
+212
+00:17:16 --> 00:17:22
+galactose, into the cell?
+It turns out that it also has
+
+213
+00:17:22 --> 00:17:27
+another gene product, another
+protein, which is a lactose
+
+214
+00:17:27 --> 00:17:32
+permease. And, any
+guesses as to what a
+
+215
+00:17:32 --> 00:17:38
+lactose permease does? It
+makes the cell permeable to
+
+216
+00:17:38 --> 00:17:43
+lactose, right, good. So,
+the lactose can get into
+
+217
+00:17:43 --> 00:17:49
+the cell, and then beta-gal can
+break it down into galactose plus
+
+218
+00:17:49 --> 00:17:54
+glucose. These two things,
+in fact, both get regulated,
+
+219
+00:17:54 --> 00:18:00
+beta-gal and this lactose
+permease. So, how does it work?
+
+220
+00:18:00 --> 00:18:07
+Let's take a look now at the
+structure of the lack operon.
+
+221
+00:18:07 --> 00:18:14
+So, I mentioned briefly last time,
+what's an operon? Remember we said
+
+222
+00:18:14 --> 00:18:21
+that in bacteria, you often
+made a transcript that had
+
+223
+00:18:21 --> 00:18:29
+multiple proteins that
+were encoded on it.
+
+224
+00:18:29 --> 00:18:33
+A single mRNA could get made, and
+multiple starts for translation
+
+225
+00:18:33 --> 00:18:37
+could occur, and you could
+make multiple proteins.
+
+226
+00:18:37 --> 00:18:41
+And, this would be a good thing
+if you wanted to make a bunch of
+
+227
+00:18:41 --> 00:18:45
+proteins that were a part of
+the same biochemical pathway.
+
+228
+00:18:45 --> 00:18:49
+Such an object, a regulated piece
+of DNA that makes a transcript
+
+229
+00:18:49 --> 00:18:53
+encoding multiple polypeptides is
+called an operon because they're
+
+230
+00:18:53 --> 00:18:57
+operated together. So,
+let's take a look here at the
+
+231
+00:18:57 --> 00:19:03
+lack operon. I said
+there was a promoter.
+
+232
+00:19:03 --> 00:19:09
+Here is a promoter for the operon,
+and we'll call it P lack, promoter
+
+233
+00:19:09 --> 00:19:16
+for the lack operon. Here
+is the first gene that is
+
+234
+00:19:16 --> 00:19:23
+encoded. So, the message will
+start here, actually about here,
+
+235
+00:19:23 --> 00:19:30
+and start going off. And, the
+first gene is given the name lack Z.
+
+236
+00:19:30 --> 00:19:34
+It happens to encode
+beta-galactosidase enzyme.
+
+237
+00:19:34 --> 00:19:38
+Remember, they did a mutant hunt,
+and when they did the mutant hunt,
+
+238
+00:19:38 --> 00:19:42
+they didn't know what each gene
+was as they isolated mutants.
+
+239
+00:19:42 --> 00:19:46
+So, they just gave them
+names of letters. And so,
+
+240
+00:19:46 --> 00:19:50
+it's called lack Z. And,
+everybody in molecular biology
+
+241
+00:19:50 --> 00:19:54
+knows this is the lack Z gene,
+although Z has nothing to do with
+
+242
+00:19:54 --> 00:19:58
+beta-galactosidase. It was
+just the letter given to it.
+
+243
+00:19:58 --> 00:20:02
+But, it's stuck.
+Next is lack Y.
+
+244
+00:20:02 --> 00:20:07
+And, that encodes the permease.
+And, there is also lack A, which
+
+245
+00:20:07 --> 00:20:12
+encodes a transacetylase, and
+as far as I'm concerned you can
+
+246
+00:20:12 --> 00:20:17
+forget about it. OK, but
+I just mentioned that it is
+
+247
+00:20:17 --> 00:20:22
+there, and it actually does
+make three polypeptides.
+
+248
+00:20:22 --> 00:20:27
+We won't worry about it,
+OK, but it does make a
+
+249
+00:20:27 --> 00:20:32
+transacetylase, OK? But it
+won't figure in what we're
+
+250
+00:20:32 --> 00:20:36
+going to talk about, and
+actually remarkably little is
+
+251
+00:20:36 --> 00:20:41
+known about the transacetylase.
+There's also one other gene I need
+
+252
+00:20:41 --> 00:20:46
+to talk about, and
+that's over here,
+
+253
+00:20:46 --> 00:20:50
+and that's called lack I.
+And, it too has a promoter,
+
+254
+00:20:50 --> 00:20:55
+which we can call PI, for
+the promoter for lack I.
+
+255
+00:20:55 --> 00:21:00
+And, this encodes a
+very interesting protein.
+
+256
+00:21:00 --> 00:21:05
+So, we get here one message
+encoding one polypeptide here.
+
+257
+00:21:05 --> 00:21:11
+This mRNA encodes one polypeptide.
+It is monocystronic. This guy here
+
+258
+00:21:11 --> 00:21:17
+is a polycystronic message. It
+has multiple cystrons, which is
+
+259
+00:21:17 --> 00:21:23
+the dusty old name for these regions
+that were translated into distinct
+
+260
+00:21:23 --> 00:21:29
+proteins. And so,
+that's that mRNA.
+
+261
+00:21:29 --> 00:21:40
+So, lack I, this encodes
+a very interesting protein,
+
+262
+00:21:40 --> 00:21:52
+which is called the lack repressor.
+The lack repressor, actually I'll
+
+263
+00:21:52 --> 00:22:04
+bring this down a
+moment, is not an enzyme.
+
+264
+00:22:04 --> 00:22:10
+It's not a self-surface channel
+for putting in galactose.
+
+265
+00:22:10 --> 00:22:17
+It is a DNA binding protein.
+It binds to DNA. But, it's not a
+
+266
+00:22:17 --> 00:22:23
+nonspecific DNA binding protein
+that binds to any old DNA.
+
+267
+00:22:23 --> 00:22:30
+It has a sequence-specific preference.
+
+268
+00:22:30 --> 00:22:35
+It's a protein that has a particular
+confirmation, a particular shape,
+
+269
+00:22:35 --> 00:22:40
+a particular set of amino acids
+sticking out, that it combined into
+
+270
+00:22:40 --> 00:22:46
+the major groove of DNA in a
+sequence-specific fashion such that
+
+271
+00:22:46 --> 00:22:51
+it particularly likes to recognize
+a certain sequence of nucleotides and
+
+272
+00:22:51 --> 00:22:57
+binds there. Where is the specific
+sequence of nucleotides where this
+
+273
+00:22:57 --> 00:23:03
+guy likes to bind? It so
+happens that it's there.
+
+274
+00:23:03 --> 00:23:11
+And this is called the operator
+sequence or the operator site.
+
+275
+00:23:11 --> 00:23:18
+So, this protein likes
+to go and bind there. Now,
+
+276
+00:23:18 --> 00:23:26
+I've drawn this, by the way,
+so that this operator site is
+
+277
+00:23:26 --> 00:23:34
+actually right overlapping
+the promoter site.
+
+278
+00:23:34 --> 00:23:40
+Who likes to bind at the
+promoter site? RNA polymerase.
+
+279
+00:23:40 --> 00:23:46
+What's going to happen if the lack
+repressor protein is sitting there?
+
+280
+00:23:46 --> 00:23:52
+RNA polymerase can't
+bind. It's just physically,
+
+281
+00:23:52 --> 00:23:58
+blocked from binding. So,
+let's examine some cases here.
+
+282
+00:23:58 --> 00:24:06
+Let's suppose that
+we look at here
+
+283
+00:24:06 --> 00:24:14
+at our gene. We've got our promoter,
+P lack. We've got the operator site
+
+284
+00:24:14 --> 00:24:22
+here. We've got the lack Z gene
+here, and we've got the lack
+
+285
+00:24:22 --> 00:24:31
+repressor, lack I, the
+repressor sitting there.
+
+286
+00:24:31 --> 00:24:38
+Polymerase tries to come along
+to this, and it's blocked.
+
+287
+00:24:38 --> 00:24:45
+So, what will happen in terms
+of the transcription of the lack
+
+288
+00:24:45 --> 00:24:52
+operon: no mRNA.
+So, that's great.
+
+289
+00:24:52 --> 00:24:59
+So, we've solved one
+problem right off the bat.
+
+290
+00:24:59 --> 00:25:03
+We want to be sure that sometimes
+there's going to be no mRNA made.
+
+291
+00:25:03 --> 00:25:07
+This way, we're not going to
+waste any metabolic energy,
+
+292
+00:25:07 --> 00:25:11
+making beta-galactosidase.
+Are we done? No? Why not.
+
+293
+00:25:11 --> 00:25:16
+We've got to sometimes
+make beta-galactosidase.
+
+294
+00:25:16 --> 00:25:20
+So, we've got to get that
+repressor off there. Well,
+
+295
+00:25:20 --> 00:25:24
+how is the repressor going to
+come off there? When do we want the
+
+296
+00:25:24 --> 00:25:29
+repressor off there: when
+there's lactose present.
+
+297
+00:25:29 --> 00:25:34
+So, somehow we need to build
+some kind of an elaborate sensory
+
+298
+00:25:34 --> 00:25:39
+mechanism that is able to
+tell when lactose is present,
+
+299
+00:25:39 --> 00:25:44
+and send a signal to the
+repressor protein saying,
+
+300
+00:25:44 --> 00:25:49
+hey, lactose is around. The
+signal gets transmitted all the
+
+301
+00:25:49 --> 00:25:55
+way to the repressor protein, and
+the repressor protein comes off.
+
+302
+00:25:55 --> 00:26:00
+What kind of an elaborate
+sensory mechanism might be built?
+
+303
+00:26:00 --> 00:26:05
+Use lactose as what? So, this
+is actually pretty simple.
+
+304
+00:26:05 --> 00:26:11
+You're saying just take lactose,
+and you want lactose to be its own
+
+305
+00:26:11 --> 00:26:16
+signal? So, if lactose were
+to just bind to the repressor,
+
+306
+00:26:16 --> 00:26:21
+the repressor might then know
+that there was lactose around.
+
+307
+00:26:21 --> 00:26:27
+Well, what would it do if
+lactose bound to it? Sorry? Why
+
+308
+00:26:27 --> 00:26:33
+would it fall off? Yep. More
+interested in the lactose.
+
+309
+00:26:33 --> 00:26:39
+So, if you're suggestion,
+this is good. I like the design
+
+310
+00:26:39 --> 00:26:45
+work going on here. The
+suggestion is that if lactose
+
+311
+00:26:45 --> 00:26:51
+binds to this here,
+binds to our repressor,
+
+312
+00:26:51 --> 00:26:57
+it's going to fall off because
+it's more interested in lactose
+
+313
+00:26:57 --> 00:27:03
+than in the DNA. Now, how
+is the interest actually
+
+314
+00:27:03 --> 00:27:07
+conveyed into something material?
+Because the actual level of
+
+315
+00:27:07 --> 00:27:11
+cognitive like or dislike for DNA
+on the part of this polypeptide is
+
+316
+00:27:11 --> 00:27:15
+unclear, you may be
+anthropomorphizing slightly with
+
+317
+00:27:15 --> 00:27:19
+regard to this polypeptide chain.
+So, mechanistically, what's going
+
+318
+00:27:19 --> 00:27:23
+to happen? Shape. Yes,
+shape? Change confirmation,
+
+319
+00:27:23 --> 00:27:27
+the binding act, the act of
+binding lactose creates some energy,
+
+320
+00:27:27 --> 00:27:31
+may change the
+shape of the protein,
+
+321
+00:27:31 --> 00:27:35
+and that shape of the protein may,
+in the process of wiggling around to
+
+322
+00:27:35 --> 00:27:40
+bind lactose may de-wiggle some
+other part of it that now no longer
+
+323
+00:27:40 --> 00:27:44
+binds so well to DNA. That
+is exactly what happens.
+
+324
+00:27:44 --> 00:27:49
+Good job. So, you guys
+have designed, in fact,
+
+325
+00:27:49 --> 00:27:54
+what really happens. What
+happens is what's called an
+
+326
+00:27:54 --> 00:27:58
+allosteric change. It
+just means other shape.
+
+327
+00:27:58 --> 00:28:03
+So, it just changes its shape,
+that it changes shape on binding of
+
+328
+00:28:03 --> 00:28:10
+lactose. And it falls
+off because it's less
+
+329
+00:28:10 --> 00:28:18
+suitable for binding this particular
+DNA sequence when it's bound to
+
+330
+00:28:18 --> 00:28:26
+lactose there.
+So, in this case,
+
+331
+00:28:26 --> 00:28:34
+in the presence of lactose,
+lack I does not bind.
+
+332
+00:28:34 --> 00:28:44
+And, the lack operon is transcribed.
+Yes? Uh-oh. OK, all right
+
+333
+00:28:44 --> 00:28:54
+designers, here we've got a
+problem. You have such a cool system,
+
+334
+00:28:54 --> 00:29:03
+right? You were going
+to sense lactose.
+
+335
+00:29:03 --> 00:29:10
+Lactose was going to bind
+to the lack repressor,
+
+336
+00:29:10 --> 00:29:17
+change its confirmation falloff:
+uh-oh. But, as you point out,
+
+337
+00:29:17 --> 00:29:25
+how's it going to get any lactose,
+because there's not a lactose
+
+338
+00:29:25 --> 00:29:32
+permease because the
+lactose permease is made by
+
+339
+00:29:32 --> 00:29:37
+the same operon.
+So, what if, in fact,
+
+340
+00:29:37 --> 00:29:40
+instead of getting one of these DOD
+mill speck kind of things of some
+
+341
+00:29:40 --> 00:29:43
+repressor that is absolutely so
+tight that it never falls off under
+
+342
+00:29:43 --> 00:29:47
+any circumstances, what if
+we build a slightly sloppy
+
+343
+00:29:47 --> 00:29:50
+repressor that occasionally
+falls off, and occasionally allows
+
+344
+00:29:50 --> 00:29:53
+transcription of the lack operon?
+Then, we'll have some trace
+
+345
+00:29:53 --> 00:29:56
+quantities of permease around.
+With a little bit of permease
+
+346
+00:29:56 --> 00:30:00
+around, a little
+lactose will get in.
+
+347
+00:30:00 --> 00:30:04
+And, as long as even a
+little lactose gets in,
+
+348
+00:30:04 --> 00:30:08
+it'll now shift the equilibrium
+so that the repressor is off more,
+
+349
+00:30:08 --> 00:30:12
+and of course that will make
+more permease, and shift,
+
+350
+00:30:12 --> 00:30:16
+and shift, and shift, and
+shift. So, as long as it's not
+
+351
+00:30:16 --> 00:30:21
+so perfectly engineered as to
+have nothing being transcribed,
+
+352
+00:30:21 --> 00:30:25
+so no mRNA is really very little
+mRNA. See, this is what's so good,
+
+353
+00:30:25 --> 00:30:29
+I think, about having MIT students
+learn this stuff because there are
+
+354
+00:30:29 --> 00:30:33
+all sorts of wonderful design
+principles here about how
+
+355
+00:30:33 --> 00:30:38
+you build systems. And, I
+think this is just a very
+
+356
+00:30:38 --> 00:30:43
+good example of how you
+build a system like this.
+
+357
+00:30:43 --> 00:30:48
+Now, all right, so we now have the
+ability to have lack on and lack off,
+
+358
+00:30:48 --> 00:30:52
+and that is lack off, mostly
+off because of your permease
+
+359
+00:30:52 --> 00:30:57
+problem: very good. Now,
+let's take a little digression
+
+360
+00:30:57 --> 00:31:02
+about, how do we know this?
+This kind of reasoning,
+
+361
+00:31:02 --> 00:31:06
+I've now told you the answer.
+But let's actually take a look at
+
+362
+00:31:06 --> 00:31:10
+understanding the evidence
+that lets you conclude this.
+
+363
+00:31:10 --> 00:31:14
+So, in order to do this, and
+this is the famous work in
+
+364
+00:31:14 --> 00:31:18
+molecular biology of Jacobin Manoux
+in the late '50s for which they won
+
+365
+00:31:18 --> 00:31:22
+a Nobel Prize, they wanted
+to collect some mutants.
+
+366
+00:31:22 --> 00:31:26
+Remember, this is before the time
+of DNA sequence or anything like
+
+367
+00:31:26 --> 00:31:30
+that, and wanted to collect
+mutants that affected this process.
+
+368
+00:31:30 --> 00:31:37
+So, in order to collect mutants
+that screwed up the regulation,
+
+369
+00:31:37 --> 00:31:45
+they knew that beta-galactosidase
+was produced in much higher quantity
+
+370
+00:31:45 --> 00:31:53
+if lactose was around. The
+difficulty with that was that
+
+371
+00:31:53 --> 00:32:01
+wild type E coli, when
+you had no lactose would
+
+372
+00:32:01 --> 00:32:07
+produce very little beta-gal,
+one unit of beta-gal,
+
+373
+00:32:07 --> 00:32:11
+and in the presence of lactose,
+would produce a lot, let's call it 1,
+
+374
+00:32:11 --> 00:32:16
+00 units of beta-gal. But,
+the problem with playing
+
+375
+00:32:16 --> 00:32:20
+around with this is lactose
+is serving two different roles.
+
+376
+00:32:20 --> 00:32:25
+Lactose is both the inducer of the
+expression of the gene by virtue of
+
+377
+00:32:25 --> 00:32:30
+binding to the
+repressor, etc., etc.
+
+378
+00:32:30 --> 00:32:34
+But, it's also the substrate for the
+enzyme because as beta-galactosidase
+
+379
+00:32:34 --> 00:32:38
+gets made, it breaks down the
+lactose. So, there's less lactose
+
+380
+00:32:38 --> 00:32:43
+in binding, and if you wanted to
+really study the regulatory controls,
+
+381
+00:32:43 --> 00:32:47
+you have the problem that the thing
+that's inducing the gene by binding
+
+382
+00:32:47 --> 00:32:52
+to the repressor is the thing that's
+getting destroyed by the product of
+
+383
+00:32:52 --> 00:32:56
+the gene. So, it's going
+to make the kinetics of
+
+384
+00:32:56 --> 00:33:01
+studying such a process really messy.
+It would be very nice if you could
+
+385
+00:33:01 --> 00:33:05
+make a form of lactose that could
+induce beta-galactosidase by binding
+
+386
+00:33:05 --> 00:33:10
+to the repressor, but
+wasn't itself digested.
+
+387
+00:33:10 --> 00:33:17
+Chemically, in fact, you
+can do that. Chemically,
+
+388
+00:33:17 --> 00:33:24
+it's possible to make a
+molecule called IPTG, which is a
+
+389
+00:33:24 --> 00:33:32
+galactoside analog. And,
+what it does is this molecule
+
+390
+00:33:32 --> 00:33:41
+here which I'll just sketch very
+quickly here, it's a sulfur there,
+
+391
+00:33:41 --> 00:33:50
+and you can see vaguely similar,
+this is able to be an inducer.
+
+392
+00:33:50 --> 00:33:59
+It'll induce beta-gal, but not a
+substrate. It won't get digested.
+
+393
+00:33:59 --> 00:34:04
+So, it'll stick around as long as
+you want. It's also very convenient
+
+394
+00:34:04 --> 00:34:09
+to use a molecule that was
+developed called ex-gal.
+
+395
+00:34:09 --> 00:34:15
+Ex-gal again has a sugar moiety,
+and then it also has this kind of a
+
+396
+00:34:15 --> 00:34:20
+funny double ring here, which
+is a chlorine, and a bromine,
+
+397
+00:34:20 --> 00:34:25
+and etc. And, this guy here is
+not an inducer. It's not capable of
+
+398
+00:34:25 --> 00:34:31
+being induced, of
+inducing beta-galactosidase
+
+399
+00:34:31 --> 00:34:37
+expression. But,
+it is a substrate.
+
+400
+00:34:37 --> 00:34:43
+It will be broken down by the
+enzyme, and rather neatly when it's
+
+401
+00:34:43 --> 00:34:49
+broken down it turns blue.
+These two chemicals turned out to
+
+402
+00:34:49 --> 00:34:55
+be very handy in trying to
+work out the regulation of the
+
+403
+00:34:55 --> 00:35:00
+lack operon. So, if I,
+instead of adding lactose,
+
+404
+00:35:00 --> 00:35:06
+if I think about adding IPTG, my
+inducer, when I add IPTG I'm going
+
+405
+00:35:06 --> 00:35:12
+to get beta-gal produced.
+When I don't have IPTG, I won't
+
+406
+00:35:12 --> 00:35:18
+produce beta-gal. But then
+I don't have a problem of
+
+407
+00:35:18 --> 00:35:24
+this getting used up. So now,
+what kind of a mutant might
+
+408
+00:35:24 --> 00:35:29
+I look for? I might look
+for a mutant that even
+
+409
+00:35:29 --> 00:35:34
+in the absence of the inducer,
+IPTG, still produces a lot of
+
+410
+00:35:34 --> 00:35:39
+beta-gal. Now, I can also
+look for mutants that no
+
+411
+00:35:39 --> 00:35:44
+matter what never produce beta-gal,
+right? But, what would they likely
+
+412
+00:35:44 --> 00:35:50
+be? They'd likely be structural
+mutations affecting the coding
+
+413
+00:35:50 --> 00:35:55
+sequence of beta-gal,
+right? Those will happen.
+
+414
+00:35:55 --> 00:36:00
+I can collect mutations that
+cause the E coli never to
+
+415
+00:36:00 --> 00:36:05
+produce beta-gal. But
+that's not as interesting as
+
+416
+00:36:05 --> 00:36:11
+collecting mutations that block the
+repression that cause beta-gal to be
+
+417
+00:36:11 --> 00:36:16
+produced all of the time. So,
+how would I find such a mutant?
+
+418
+00:36:16 --> 00:36:22
+I want to find a mutant that's
+producing a lot of beta-gal even
+
+419
+00:36:22 --> 00:36:27
+when there's no IPTG. So,
+let's place some E coli on a
+
+420
+00:36:27 --> 00:36:33
+plate. Should we put IPTG
+on a plate? No, so no IPTG.
+
+421
+00:36:33 --> 00:36:37
+What do I look for? How do
+I tell whether or not any of
+
+422
+00:36:37 --> 00:36:42
+these guys here is producing
+a lot of beta-gal? Yep?
+
+423
+00:36:42 --> 00:36:46
+So, no IPTG, but put on ex-gal,
+and if anybody's producing a lot of
+
+424
+00:36:46 --> 00:36:51
+beta-gal, what happens? They
+turn blue: very easy to go
+
+425
+00:36:51 --> 00:36:55
+through lots of E coli like
+that looking for something blue.
+
+426
+00:36:55 --> 00:37:00
+And so, lots of mutants were
+collected that were blue.
+
+427
+00:37:00 --> 00:37:05
+And, these chemicals are still used
+today. They're routinely used in
+
+428
+00:37:05 --> 00:37:10
+labs, ex-gal and stuff like that,
+making bugs turn blue because this
+
+429
+00:37:10 --> 00:37:15
+has turned out to be such a
+well-studied system that we use it
+
+430
+00:37:15 --> 00:37:20
+for a lot of things. So,
+mutants were found that were
+
+431
+00:37:20 --> 00:37:25
+constituative. So, mutants
+were found that were
+
+432
+00:37:25 --> 00:37:30
+constituative mutants.
+Constituative mutants: meaning
+
+433
+00:37:30 --> 00:37:35
+expressing all the time,
+no longer regulated, so,
+
+434
+00:37:35 --> 00:37:40
+characterizing these
+constituative mutants.
+
+435
+00:37:40 --> 00:37:44
+It turns out that they fell into two
+different classes of constituative
+
+436
+00:37:44 --> 00:37:48
+mutants. If we had enough time,
+and you could read the papers and
+
+437
+00:37:48 --> 00:37:52
+all, what I would do is give you
+the descriptions that Jacobin Maneaux
+
+438
+00:37:52 --> 00:37:56
+had of these funny mutants which
+they'd isolated and were trying to
+
+439
+00:37:56 --> 00:38:00
+characterize, and how to
+puzzle out what was going on.
+
+440
+00:38:00 --> 00:38:04
+But, it's complicated and hard,
+and makes your head hurt if you
+
+441
+00:38:04 --> 00:38:08
+don't know what the answer is.
+So, I'm going to first tell you the
+
+442
+00:38:08 --> 00:38:12
+answer of what's going on, and
+then sort of see how you would
+
+443
+00:38:12 --> 00:38:17
+know that this was the case.
+But, imagine that you didn't know
+
+444
+00:38:17 --> 00:38:21
+this answer, and had to
+puzzle this out from the data.
+
+445
+00:38:21 --> 00:38:25
+So, suppose we had, so if
+there were going to be two
+
+446
+00:38:25 --> 00:38:30
+kinds of mutants: mutant number
+one are operator constituents.
+
+447
+00:38:30 --> 00:38:38
+They have a defective operator
+sequence. Mutations have occurred
+
+448
+00:38:38 --> 00:38:46
+at the operator site. Mutant
+number two have a defective
+
+449
+00:38:46 --> 00:38:54
+repressor protein, the gene
+for the repressor protein.
+
+450
+00:38:54 --> 00:39:00
+How can I tell
+the difference?
+
+451
+00:39:00 --> 00:39:04
+So, I could have a problem
+in my operator site.
+
+452
+00:39:04 --> 00:39:08
+What would be the problem
+with the operator site?
+
+453
+00:39:08 --> 00:39:12
+Some mutation to the sequence
+causes the repressor not to bind
+
+454
+00:39:12 --> 00:39:16
+there anymore, OK? So,
+a defective operator site
+
+455
+00:39:16 --> 00:39:20
+doesn't bind repressors.
+Defective repressor, the operator
+
+456
+00:39:20 --> 00:39:24
+site is just fine, but I
+don't have a repressor to bind
+
+457
+00:39:24 --> 00:39:28
+at it. So how do I tell the
+difference? One way to tell the
+
+458
+00:39:28 --> 00:39:32
+difference is to begin crossing
+the mutants together to wild type,
+
+459
+00:39:32 --> 00:39:36
+and asking, are they dominant or
+recessive, or things like that?
+
+460
+00:39:36 --> 00:39:39
+Now, here's a little problem.
+E Coli is not a diploid, so you
+
+461
+00:39:39 --> 00:39:43
+can't cross together two E
+colis and make a diploid E coli,
+
+462
+00:39:43 --> 00:39:46
+right? It's a prokaryote.
+It only has one genome. But,
+
+463
+00:39:46 --> 00:39:50
+it turns out that you can
+make temporary diploids,
+
+464
+00:39:50 --> 00:39:53
+partial diploids out of E coli
+because it turns out you can mate
+
+465
+00:39:53 --> 00:39:57
+bacteria. Bacteria, which
+have a bacterial chromosome
+
+466
+00:39:57 --> 00:40:01
+here also engage in sex and
+in the course of bacterial sex,
+
+467
+00:40:01 --> 00:40:05
+plasmids can be transferred called,
+for example, an F factor, is able to
+
+468
+00:40:05 --> 00:40:10
+be transferred from another bacteria.
+And, through the wonders of partial
+
+469
+00:40:10 --> 00:40:15
+merodiploid, you can temporarily get
+E colis, or you can permanently get
+
+470
+00:40:15 --> 00:40:20
+E colis, that are partially diploid.
+So, you can do what I'm about to
+
+471
+00:40:20 --> 00:40:25
+say. But, in case you were worried
+about my writing diploid genotypes
+
+472
+00:40:25 --> 00:40:30
+for E coli, you can
+actually do this.
+
+473
+00:40:30 --> 00:40:36
+You can make partial diploids.
+So, let's try out a genotype here.
+
+474
+00:40:36 --> 00:40:43
+Suppose the repressor is a wild
+type, the operator is wild type,
+
+475
+00:40:43 --> 00:40:49
+and the lack Z gene is wild type.
+And, suppose I have no IPTG, I'm
+
+476
+00:40:49 --> 00:40:56
+un-induced. I have one unit of
+beta-gal. When I add my inducer,
+
+477
+00:40:56 --> 00:41:03
+what happens? I get
+1,000 units of beta-gal.
+
+478
+00:41:03 --> 00:41:07
+Now, suppose I would have an
+operator constituative mutation.
+
+479
+00:41:07 --> 00:41:12
+Then, the operator site is
+defective. It doesn't bind the
+
+480
+00:41:12 --> 00:41:17
+repressor. Beta-gal is going
+to be expressed all the time,
+
+481
+00:41:17 --> 00:41:22
+even in the absence. All right,
+well that was, of course, what we
+
+482
+00:41:22 --> 00:41:27
+selected for. Now, suppose
+I made the following diploid.
+
+483
+00:41:27 --> 00:41:32
+I plus, O plus, Z
+plus, over I plus,
+
+484
+00:41:32 --> 00:41:38
+O constituative, Z plus. So,
+here's my diploid. What would
+
+485
+00:41:38 --> 00:41:44
+be the phenotype?
+So, in other words,
+
+486
+00:41:44 --> 00:41:50
+one of the chromosomes
+has an operator problem.
+
+487
+00:41:50 --> 00:41:56
+Well, that means that this
+chromosome here is always going to
+
+488
+00:41:56 --> 00:42:02
+be constituatively
+expressing beta-gal.
+
+489
+00:42:02 --> 00:42:06
+But, what about this
+chromosome here? It won't. So,
+
+490
+00:42:06 --> 00:42:10
+this would be about 1, 01,
+give or take, because it's got
+
+491
+00:42:10 --> 00:42:14
+one chromosome doing that
+and one chromosome doing this,
+
+492
+00:42:14 --> 00:42:18
+and this one would be about
+2, 00. Now, that quantitative
+
+493
+00:42:18 --> 00:42:22
+difference doesn't matter a lot.
+What you really saw when you did
+
+494
+00:42:22 --> 00:42:26
+the molecular biology was that when
+you had one copy of the operator
+
+495
+00:42:26 --> 00:42:30
+constituative mutation, you
+still got a lot of beta-gal here
+
+496
+00:42:30 --> 00:42:36
+even in the absence of IPTG. So,
+that operator constituative site
+
+497
+00:42:36 --> 00:42:44
+looked like it was dominant
+to this plus site here.
+
+498
+00:42:44 --> 00:42:52
+But now, let's try this one here.
+I plus, O plus, Z plus, over I plus,
+
+499
+00:42:52 --> 00:43:00
+operator constituative, Z
+minus. What happens then?
+
+500
+00:43:00 --> 00:43:05
+This operator constituative site
+allows constant transcription of
+
+501
+00:43:05 --> 00:43:10
+this particular copy. But,
+can this particular copy make
+
+502
+00:43:10 --> 00:43:15
+a working, functional beta-gal?
+No. So, this looks, when you do
+
+503
+00:43:15 --> 00:43:20
+your genetic crosses,
+you find that the operator
+
+504
+00:43:20 --> 00:43:25
+constituative, now, if
+I reverse these here,
+
+505
+00:43:25 --> 00:43:30
+suppose I reverse these, I
+plus, O plus, Z minus, I plus, O
+
+506
+00:43:30 --> 00:43:35
+constituative, Z
+plus, same genotypes,
+
+507
+00:43:35 --> 00:43:40
+right, except that I flipped
+which chromosome these are on.
+
+508
+00:43:40 --> 00:43:46
+Now, what happens? This chromosome
+here: always making beta-gal and it
+
+509
+00:43:46 --> 00:43:51
+works. This chromosome
+here: not making beta-gal.
+
+510
+00:43:51 --> 00:43:56
+Even though it's regulated, it's
+a mutant. So, in other words,
+
+511
+00:43:56 --> 00:44:01
+from this very experiment, you can
+tell that the operator site is only
+
+512
+00:44:01 --> 00:44:07
+affecting the chromosome
+that it's physically on,
+
+513
+00:44:07 --> 00:44:13
+that it doesn't make a
+protein that floats around.
+
+514
+00:44:13 --> 00:44:19
+What it does is it's said to work
+in cys. In cys means on the same
+
+515
+00:44:19 --> 00:44:26
+chromosome. It physically
+works on the same chromosome.
+
+516
+00:44:26 --> 00:44:32
+Now, let's take a look, by
+contrast, of the properties of
+
+517
+00:44:32 --> 00:44:38
+the lack repressor mutants.
+If I give you a lack repressor
+
+518
+00:44:38 --> 00:44:43
+mutant, I plus, O plus,
+Z plus is the wild type.
+
+519
+00:44:43 --> 00:44:49
+I constituative, O plus,
+Z plus: what happens here?
+
+520
+00:44:49 --> 00:44:54
+This wild type is one in 1,
+00. This guy here: 1,000 and 1,
+
+521
+00:44:54 --> 00:45:00
+00, and then here
+let's look at a diploid:
+
+522
+00:45:00 --> 00:45:05
+I plus, O plus, Z
+plus, I constituative,
+
+523
+00:45:05 --> 00:45:10
+O plus, Z plus. What's the effect?
+The I constituative doesn't make a
+
+524
+00:45:10 --> 00:45:15
+functioning repressor. But,
+I plus makes a functioning
+
+525
+00:45:15 --> 00:45:21
+repressor. So, will
+this show regulation?
+
+526
+00:45:21 --> 00:45:26
+Yeah, this will be regulated just
+fine. This works out just fine,
+
+527
+00:45:26 --> 00:45:32
+and in fact it'll make 2,000,
+and it'll make two copies there.
+
+528
+00:45:32 --> 00:45:37
+But again, the units
+don't matter too much. And,
+
+529
+00:45:37 --> 00:45:42
+by contrast, if I give you I plus,
+O plus, Z minus, and I constituative,
+
+530
+00:45:42 --> 00:45:47
+O plus, Z plus,
+what will happen?
+
+531
+00:45:47 --> 00:45:53
+Here, I have my mutation
+on this chromosome. But,
+
+532
+00:45:53 --> 00:45:58
+it doesn't matter because I've got
+my mutation on this chromosome in
+
+533
+00:45:58 --> 00:46:03
+the repressor. I've got
+a mutation on lack Z here,
+
+534
+00:46:03 --> 00:46:09
+but as long as I have a functional
+copy, one functional copy of the
+
+535
+00:46:09 --> 00:46:15
+lack repressor, it works
+on both chromosomes.
+
+536
+00:46:15 --> 00:46:20
+It will work on both chromosomes,
+and so in other words this lack
+
+537
+00:46:20 --> 00:46:26
+repressor, one copy works on
+both chromosomes. In other words,
+
+538
+00:46:26 --> 00:46:32
+it makes a product that diffuses
+around, and can work on either
+
+539
+00:46:32 --> 00:46:38
+chromosome, and it's said to
+work in trans, that is, across.
+
+540
+00:46:38 --> 00:46:41
+So, the operator is working in
+cys. It's operating on its own
+
+541
+00:46:41 --> 00:46:45
+chromosome only. A mutation
+in the operator only
+
+542
+00:46:45 --> 00:46:48
+affects the chromosome it lives
+on, whereas a functional copy of the
+
+543
+00:46:48 --> 00:46:52
+lack repressor will float
+around because it's a protein,
+
+544
+00:46:52 --> 00:46:55
+and that's how Jacobin
+Maneaux knew the difference.
+
+545
+00:46:55 --> 00:46:59
+They proved their model by showing
+that these two kinds of mutations
+
+546
+00:46:59 --> 00:47:03
+had very different properties.
+Operator mutations affected only the
+
+547
+00:47:03 --> 00:47:07
+physical chromosome on which they
+occurred, which of course they had
+
+548
+00:47:07 --> 00:47:11
+to infer from the genetics they did,
+whereas repressor, a functional copy
+
+549
+00:47:11 --> 00:47:15
+repressor, could act on
+any chromosome in the cell.
+
+550
+00:47:15 --> 00:47:20
+So, OK, we've got that. Now,
+last point, what about glucose?
+
+551
+00:47:20 --> 00:47:24
+I haven't said a word about glucose.
+See, this was a big deal to people.
+
+552
+00:47:24 --> 00:47:28
+This model, the repressor model,
+we have this repressor. What
+
+553
+00:47:28 --> 00:47:36
+about glucose? What's
+glucose doing in this picture?
+
+554
+00:47:36 --> 00:47:47
+So, glucose control: so here's
+my gene. Here's my promoter,
+
+555
+00:47:47 --> 00:47:58
+P lack. Here's my
+operator, beta-gal.
+
+556
+00:47:58 --> 00:48:03
+It's encoded by lack Z. You've
+got all that. When this guy
+
+557
+00:48:03 --> 00:48:08
+is present, sorry,
+when lactose is present,
+
+558
+00:48:08 --> 00:48:13
+the repressor comes off.
+Polymerase sits down. Wait a second,
+
+559
+00:48:13 --> 00:48:18
+polymerase isn't supposed to sit
+down unless there's no glucose.
+
+560
+00:48:18 --> 00:48:23
+We need another sensor to
+tell if there's glucose,
+
+561
+00:48:23 --> 00:48:28
+or if there's low glucose. So,
+we're going to need us a sensor
+
+562
+00:48:28 --> 00:48:34
+that tells that.
+Any ideas? Yep?
+
+563
+00:48:34 --> 00:48:40
+Yeah, if you work that one through,
+I don't think it quite works. But,
+
+564
+00:48:40 --> 00:48:46
+you've got the basic idea.
+You're going to want another
+
+565
+00:48:46 --> 00:48:52
+something, and it turns out
+there's another site over here,
+
+566
+00:48:52 --> 00:48:58
+OK? There's a second site on
+which a completely different
+
+567
+00:48:58 --> 00:49:05
+protein binds. And, this
+protein is the cyclic AMP
+
+568
+00:49:05 --> 00:49:13
+regulatory protein, and it
+so happens that in the cell,
+
+569
+00:49:13 --> 00:49:20
+when there's low amounts of glucose,
+let me make sure I've got this right,
+
+570
+00:49:20 --> 00:49:28
+when there's low amounts of glucose,
+what we have is high amounts of
+
+571
+00:49:28 --> 00:49:34
+cyclic AMP. Cyclic
+AMP turns out,
+
+572
+00:49:34 --> 00:49:38
+whereas lactose is used directly
+as the signal, cyclic AMP is used as
+
+573
+00:49:38 --> 00:49:42
+the signal here. When the
+cell has low amounts of
+
+574
+00:49:42 --> 00:49:46
+glucose, it has high
+amounts of cyclic AMP. Now,
+
+575
+00:49:46 --> 00:49:50
+what do you want your cyclic AMP to
+do? How are we going to design this?
+
+576
+00:49:50 --> 00:49:54
+It's going to bind to a protein,
+cyclic AMP regulatory protein, it's
+
+577
+00:49:54 --> 00:49:58
+going to sit down, and
+now what's it going to do?
+
+578
+00:49:58 --> 00:50:02
+Is it going to
+block RNA polymerase?
+
+579
+00:50:02 --> 00:50:06
+What do we want to do?
+If there's low glucose,
+
+580
+00:50:06 --> 00:50:10
+high cyclic AMP, we sit down
+at the site, we want to turn on
+
+581
+00:50:10 --> 00:50:15
+transcription now, right?
+So, what it's got to do is
+
+582
+00:50:15 --> 00:50:19
+not block RNA polymerase,
+but help RNA polymerase. So,
+
+583
+00:50:19 --> 00:50:24
+what it actually does is
+instead of being a repressor,
+
+584
+00:50:24 --> 00:50:28
+it's an activator. And what it does
+is it makes it more attractive for
+
+585
+00:50:28 --> 00:50:32
+RNA polymerase to bind, and
+it actually does that by,
+
+586
+00:50:32 --> 00:50:36
+actually it does it
+slightly by bending the DNA.
+
+587
+00:50:36 --> 00:50:40
+But, what it does is it makes it
+easier for RNA polymerase to bind.
+
+588
+00:50:40 --> 00:50:44
+It turns out that the promoter
+is kind of a crummy promoter.
+
+589
+00:50:44 --> 00:50:48
+It's actually just like, remember
+the repressor wasn't perfect; the
+
+590
+00:50:48 --> 00:50:52
+promoter's not perfect either.
+The promoter's kind of crummy.
+
+591
+00:50:52 --> 00:50:56
+And, unless RNA polymerase gets
+a little help from this other
+
+592
+00:50:56 --> 00:51:00
+regulatory protein,
+it doesn't work.
+
+593
+00:51:00 --> 00:51:04
+We have two controls: a negative
+regulator responding to an
+
+594
+00:51:04 --> 00:51:09
+environmental cue, a positive
+activator responding to
+
+595
+00:51:09 --> 00:51:13
+an environmental cue, helping
+polymerase decide whether to
+
+596
+00:51:13 --> 00:51:18
+transcribe or not, and
+basically that's how a human egg
+
+597
+00:51:18 --> 00:51:22
+goes to a complete adult
+and lives its entire life,
+
+598
+00:51:22 --> 00:51:27
+minus a few other details.
+There are some details left out,
+
+599
+00:51:27 --> 51:32
+but that's a sketch of how
+you turn genes on and off.
+

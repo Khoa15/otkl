@@ -1,0 +1,21 @@
+{
+  "content": "<p>New image Upload</p>\n",
+  "content_type": "resource",
+  "description": "New image Upload",
+  "draft": false,
+  "file": "/courses/3-012-fundamentals-of-materials-science-fall-2005/2076a47636401d97cb51df9885539bca_3-012f05-th.jpg",
+  "file_size": 10662,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Charge density in paraelectric and ferroelectric PbTiO<sub>3</sub>. See [lecture notes](/courses/3-012-fundamentals-of-materials-science-fall-2005/pages/lecture-notes) for Lec #16, Structure and Bonding. (Figure by Prof. Nicola Marzari.)",
+    "credit": "",
+    "image-alt": "Diagram of two crystal structures."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "3-012f05-th.jpg",
+  "uid": "2076a476-3640-1d97-cb51-df9885539bca"
+}

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Sets on MIT OpenCourseWare</title>
+    <link>/resources/problem-sets/</link>
+    <description>Recent content in Problem Sets on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-sets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ps1_cg_tools.zip</title>
+      <link>/resources/ps1_cg_tools/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps1_cg_tools/data.json</guid>
+      <description>&lt;p&gt;The ZIP file contains: 1 .gif file, 2 .png files, 2 .xls files, and 17 .m files. Courtesy of Seung Chung, Mark Hilstad, and Dan Kwon. Used with permission.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps1_cs_ps1.pdf</title>
+      <link>/resources/ps1_cs_ps1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps1_cs_ps1/data.json</guid>
+      <description>&lt;p&gt;Problem statement provided by students Christopher Hynes and Steve Paschall. Problem statement: Design a launch vehicle decision tool to provide ease of launch vehicle selection given spacecraft design specifications.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps1_cs_tools.zip</title>
+      <link>/resources/ps1_cs_tools/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps1_cs_tools/data.json</guid>
+      <description>&lt;p&gt;These supporting files courtesy of Christopher Hynes and Steve Paschall. The ZIP file contains: 1 .txt file, 5 .asv files, and 22 .m files.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps2_cg_ps2.pdf</title>
+      <link>/resources/ps2_cg_ps2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps2_cg_ps2/data.json</guid>
+      <description>&lt;p&gt;Problem set courtesy of Seung Chung and Namiko Yamamoto. Used with permission. Problem statement: Design a tool that compares a set of feasible orbit transfer and propulsion system combinations for a given mission requirement, in terms of desired orbit transfers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps2_cg_tools.zip</title>
+      <link>/resources/ps2_cg_tools/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps2_cg_tools/data.json</guid>
+      <description>&lt;p&gt;Supporting files courtesy of Seung Chung and Namiko Yamamoto. Used with permission. The ZIP file contains: temp.m, misc.m, compute_spiral_transfer.m, compute_impulsive_Delta_V_max.m, compute_Hohmann_transfer_test.m, compute_Hohmann_transfer_segments.m, compute_Hohmann_transfer.m, compute_high_energy_transfer_test.m, compute_high_energy_transfer.m, and compute_Delta_V_max_test.m.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps2_cs_ps2.pdf</title>
+      <link>/resources/ps2_cs_ps2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps2_cs_ps2/data.json</guid>
+      <description>&lt;p&gt;Problem statement courtesy of Christopher Hynes and Kathryn Weiss. Problem statement: Determine the surface area of a solar panel needed to produce enough power to meet the requirements of a given spacecraft, considering altitude and inclination and type of solar cell.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps2_cs_tools.zip</title>
+      <link>/resources/ps2_cs_tools/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps2_cs_tools/data.json</guid>
+      <description>&lt;p&gt;Supporting files courtesy of Christopher Hynes and Kathryn Weiss. The ZIP file contains: ArrayDesign.asv, pwrBOL.m, perfDegrad.m, calcPW.m, and ArrayDesign.m.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps2_long_ps2.pdf</title>
+      <link>/resources/ps2_long_ps2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps2_long_ps2/data.json</guid>
+      <description>&lt;p&gt;Problem statement courtesy of Andrew Long and Anna Silbovitz. Problem statement: The final orbit of a satellite is a key component of mission planning. Given a payload mass and final orbit, determine the preferred launch vehicle and launch site.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps3_cg_tools.zip</title>
+      <link>/resources/ps3_cg_tools/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps3_cg_tools/data.json</guid>
+      <description>&lt;p&gt;Supporting files courtesy of Seung Chung and Matthew Richards. Used with permission. The ZIP file contains: 1 .asv file, and 40 .m files.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps3_cs_ps3.pdf</title>
+      <link>/resources/ps3_cs_ps3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps3_cs_ps3/data.json</guid>
+      <description>&lt;p&gt;Problem Set 3 Question Definition: Chynes&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps3_cs_tools.zip</title>
+      <link>/resources/ps3_cs_tools/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps3_cs_tools/data.json</guid>
+      <description>&lt;p&gt;Supporting files. The ZIP file contains: thrustersizing.m, t_solar.m, t_gg.m, t_bfield.m, t_aero.m, reacwheelsize.m, reacwheel_cmgsize.m, reachwheel&amp;amp;cmgsize.m, obj2actuator.m, momwheelsizing.m, magtorsizing.m, ae2rv.m, and ACSsize.m.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps4_cg_tools.zip</title>
+      <link>/resources/ps4_cg_tools/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps4_cg_tools/data.json</guid>
+      <description>&lt;p&gt;Supporting files.&#xA;The ZIP file contains: test.m, Scenario.m, compute_feasible_circular_LEO_test.m, compute_feasible_circular_LEO.m, and compute_communication_time.m.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps4_cs_ps4.pdf</title>
+      <link>/resources/ps4_cs_ps4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps4_cs_ps4/data.json</guid>
+      <description>&lt;p&gt;Problem set.&#xA;Problem statement: A satellite being able to communicate with the ground station is an essential part of the spacecraft mission. Determine the optimum communication frequency and optimum data rate that minimized the combined mass requirements of telemetry, communications, and power subsystems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps4_cs_tools.zip</title>
+      <link>/resources/ps4_cs_tools/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps4_cs_tools/data.json</guid>
+      <description>&lt;p&gt;Supporting files. The ZIP file contains: datastorage.xls, and datamassstorage_sizing.m.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps4_rd_tools.zip</title>
+      <link>/resources/ps4_rd_tools/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps4_rd_tools/data.json</guid>
+      <description>&lt;p&gt;Supporting Tools File for Problem Set 4: Matthew Richards&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps5_cg_ps5.pdf</title>
+      <link>/resources/ps5_cg_ps5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps5_cg_ps5/data.json</guid>
+      <description>&lt;p&gt;Problem Set 5 (Structure, ACS and Propulsion): Seung Chung, and Anna Silbovitz&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps5_cg_tools.zip</title>
+      <link>/resources/ps5_cg_tools/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps5_cg_tools/data.json</guid>
+      <description>&lt;p&gt;Supporting Tools File for Problem Set 5: Chung&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps5_cs_ps5.pdf</title>
+      <link>/resources/ps5_cs_ps5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps5_cs_ps5/data.json</guid>
+      <description>&lt;p&gt;Problem Set 5 Question: Chynes&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps5_cs_tools.zip</title>
+      <link>/resources/ps5_cs_tools/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps5_cs_tools/data.json</guid>
+      <description>&lt;p&gt;Supporting Tools File for Problem Set 5: Chynes&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps6_cg_tools.zip</title>
+      <link>/resources/ps6_cg_tools/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps6_cg_tools/data.json</guid>
+      <description>&lt;p&gt;Supporting files. The ZIP file contains: 3 .xls files, and 19 .m files.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps6_cs_tools.zip</title>
+      <link>/resources/ps6_cs_tools/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps6_cs_tools/data.json</guid>
+      <description>&lt;p&gt;Supporting files.&#xA;The ZIP file contains: thermal.m, strength.m, SATELLITE_COST.m, mat.m, and mat.asv.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

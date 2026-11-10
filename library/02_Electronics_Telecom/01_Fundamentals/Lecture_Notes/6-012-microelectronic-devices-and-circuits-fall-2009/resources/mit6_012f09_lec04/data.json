@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture presentation on p-n junctions in thermal equilibrium and under reverse bias, the depletion approximation (DA), and comparison to PE solution.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture presentation on p-n junctions in thermal equilibrium and under reverse bias, the depletion approximation (DA), and comparison to PE solution.",
+  "draft": false,
+  "file": "/courses/6-012-microelectronic-devices-and-circuits-fall-2009/c053714447998e522f02db0776987091_MIT6_012F09_lec04.pdf",
+  "file_size": 422631,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "e4c7985c-766a-2f9c-5bac-08869dd8bade",
+  "resourcetype": "Document",
+  "title": "Lecture 4 - p-n Junctions: Electrostatics",
+  "uid": "c0537144-4799-8e52-2f02-db0776987091"
+}

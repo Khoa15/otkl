@@ -1,0 +1,21 @@
+{
+  "content": "<p>A Mach-Zehnder interferometer, with two beam splitters, two mirrors, and two detectors, is used to test if an  Elitzur-Vaidman bomb is functional without detonating it. Image by MIT OpenCourseWare.</p>\n",
+  "content_type": "resource",
+  "description": "A Mach-Zehnder interferometer, with two beam splitters, two mirrors, and two detectors, is used to test if an  Elitzur-Vaidman bomb is functional without detonating it. Image by MIT OpenCourseWare.",
+  "draft": false,
+  "file": "/courses/8-04-quantum-physics-i-spring-2016/458fa90d4ae8b2d71bca7578a12923af_8-04s16.jpg",
+  "file_size": 29769,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "A Mach-Zehnder interferometer, with two beam splitters, two mirrors, and two detectors, is used to test if an Elitzur-Vaidman bomb is functional without detonating it. (Image by MIT OpenCourseWare.)",
+    "credit": "Image by MIT OpenCourseWare.",
+    "image-alt": "Lines and boxes showing experimental set-up of a Mach-Zehnder interferometer."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "8-04s16.jpg",
+  "uid": "458fa90d-4ae8-b2d7-1bca-7578a12923af"
+}

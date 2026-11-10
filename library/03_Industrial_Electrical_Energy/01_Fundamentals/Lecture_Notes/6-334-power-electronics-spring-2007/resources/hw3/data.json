@@ -1,0 +1,47 @@
+{
+  "content": "<p>Problem set on single-ended primary inductor converters, energy storage requirements, discontinuous conduction mode converters, and magnetic circuit models.</p>\n",
+  "content_type": "resource",
+  "description": "Problem set on single-ended primary inductor converters, energy storage requirements, discontinuous conduction mode converters, and magnetic circuit models.",
+  "draft": false,
+  "file": "/courses/6-334-power-electronics-spring-2007/eb44001505d39c833857c7b38e33ab0f_hw3.pdf",
+  "file_size": 146118,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "5715bb34-b41c-4517-38a4-6b40d2cf0ab9",
+  "resourcetype": "Document",
+  "title": "hw3.pdf",
+  "uid": "eb440015-05d3-9c83-3857-c7b38e33ab0f",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-334-power-electronics-spring-2007"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-334-power-electronics-spring-2007"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

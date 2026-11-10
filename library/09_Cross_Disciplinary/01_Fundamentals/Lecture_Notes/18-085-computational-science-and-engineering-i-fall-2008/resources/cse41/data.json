@@ -1,0 +1,47 @@
+{
+  "audience": [],
+  "content": "<p>Excerpt on Fourier series and integrals from the course textbook.</p>\n",
+  "content_type": "resource",
+  "description": "Excerpt on Fourier series and integrals from the course textbook.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/f1da5a16ff5dfd980ef4dfeb46bd76b7_cse41.pdf",
+  "file_size": 573676,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Study Materials",
+  "parent_type": "CourseSection",
+  "parent_uid": "df610098-8ebd-ba68-b43f-7d3a6f71d7c5",
+  "resourcetype": "Document",
+  "title": "Chapter 4: Fourier Series and Integrals; Section 4.1 Fourier Series for Periodic Functions",
+  "uid": "f1da5a16-ff5d-fd98-0ef4-dfeb46bd76b7",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

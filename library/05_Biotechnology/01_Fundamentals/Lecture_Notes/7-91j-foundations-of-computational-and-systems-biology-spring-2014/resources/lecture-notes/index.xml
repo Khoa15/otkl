@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 10: Markov and Hidden Markov Models of Genomic and Protein Features</title>
+      <link>/resources/mit7_91js14_lecture10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_lecture10/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding markov and hidden markov models of genomic and protein features.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 11: RNA Secondary Structure – Biological Functions and Prediction</title>
+      <link>/resources/mit7_91js14_lecture11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_lecture11/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding  RNA secondary structure – biological functions and prediction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 12: Introduction to Protein Structure; Structure Comparison and Classification</title>
+      <link>/resources/mit7_91js14_lecture12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_lecture12/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding introduction to protein structure; structure comparison and classification.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 13: Predicting Protein Structure </title>
+      <link>/resources/mit7_91js14_lecture13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_lecture13/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding predicting protein structure.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 14: Predicting Protein Interactions </title>
+      <link>/resources/mit7_91js14_lecture14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_lecture14/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding predicting protein interactions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 15: Gene Regulatory Networks</title>
+      <link>/resources/mit7_91js14_lecture15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_lecture15/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding gene regulatory networks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 16: Protein Interaction Networks</title>
+      <link>/resources/mit7_91js14_lecture16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_lecture16/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding protien interaction networks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 17: Logic Modeling of Cell Signaling Networks</title>
+      <link>/resources/mit7_91js14_lecture17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_lecture17/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding logic modeling of cell signaling networks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 18: Analysis of Chromatin Structure</title>
+      <link>/resources/mit7_91js14_lecture18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_lecture18/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding analysis of chromatin structure.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 19: Discovering Quantitative Trait Loci (QTLs)</title>
+      <link>/resources/mit7_91js14_lecture19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_lecture19/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding discovering quantitative trait loci (QTLs).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 20: Human genetics, SNPs, and Genome Wide Associate Studies </title>
+      <link>/resources/mit7_91js14_lecture20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_lecture20/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding human genetics, SNPs, and genome wide associate studies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 5: Library complexity and BWT</title>
+      <link>/resources/mit7_91js14_lecture5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_lecture5/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding library complexity and BWT.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 9: Modeling and Discovery of Sequence Motifs</title>
+      <link>/resources/mit7_91js14_lecture9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_lecture9/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding  modeling and discovery of sequence motifs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Slides</title>
+      <link>/pages/lecture-slides/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-slides/data.json</guid>
+      <description>&lt;h3 id=&#34;lecturer-key&#34;&gt;Lecturer Key&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;[CB] = Christopher Burge&lt;br&gt;&#xA;[DG] = David Gifford&lt;br&gt;&#xA;[EF] = Ernest Fraenkel&lt;br&gt;&#xA;[GL] = Guest Lecturer&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LEC #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LECTURERS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit7_91js14_lecture1/index.html&#34;&gt;Course Introduction: History of Computational Biology; Overview of the Course; Course Policies and Mechanics; DNA Sequencing Technologies (PDF - 5.0MB)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;CB, DG, EF&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td colspan=&#34;4&#34;&gt;&#xA;&#xA;&lt;strong&gt;Genomic Analysis&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit7_91js14_lecture2/index.html&#34;&gt;Local Alignment (BLAST) and Statistics (PDF - 2.0MB)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;CB&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit7_91js14_lecture3/index.html&#34;&gt;Global Alignment of Protein Sequences (NW, SW, PAM, BLOSUM) (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;CB&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture1: Foundations of Computational and Systems Biology</title>
+      <link>/resources/mit7_91js14_lecture1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_lecture1/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding foundations of computational and systems biology.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture2: Local Alignment (BLAST) and Statistics</title>
+      <link>/resources/mit7_91js14_lecture2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_lecture2/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding local alignment (BLAST) and statistics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture3: Global Alignment of Protein Sequences</title>
+      <link>/resources/mit7_91js14_lecture3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_lecture3/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding global alignment of protein sequences.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture4: Comparative Genomics</title>
+      <link>/resources/mit7_91js14_lecture4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_lecture4/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding comparative genomics&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture6: Genome Assembly </title>
+      <link>/resources/mit7_91js14_lecture6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_lecture6/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding genome assembly.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture7: ChIP-Seq analysis; DNA-protein interactions </title>
+      <link>/resources/mit7_91js14_lecture7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_lecture7/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding chIP-seq analysis; DNA-protein interactions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture8: RNA-sequence analysis: expression, isoforms </title>
+      <link>/resources/mit7_91js14_lecture8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_lecture8/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding RNA-sequence analysis: expression, isoforms.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

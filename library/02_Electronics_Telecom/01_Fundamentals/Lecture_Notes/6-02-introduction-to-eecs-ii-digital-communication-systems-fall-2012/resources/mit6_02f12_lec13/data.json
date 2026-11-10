@@ -1,0 +1,21 @@
+{
+  "content": "<p>This file contains information regarding lecture 13: frequency response of LTI systems.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains information regarding lecture 13: frequency response of LTI systems.",
+  "draft": false,
+  "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/e755e873f0d98d5f9b9cb31d6c5ca6ec_MIT6_02F12_lec13.pdf",
+  "file_size": 1510778,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Slides",
+  "parent_type": "CourseSection",
+  "parent_uid": "6293cb2b-b2c9-55e5-230f-875fa43a271f",
+  "resourcetype": "Document",
+  "title": "6.02 Lecture 13: Frequency response of LTI systems",
+  "uid": "e755e873-f0d9-8d5f-9b9c-b31d6c5ca6ec"
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Set Solutions on MIT OpenCourseWare</title>
+    <link>/resources/problem-set-solutions/</link>
+    <description>Recent content in Problem Set Solutions on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-set-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solutions - Problem Set 1</title>
+      <link>/resources/pset1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pset1/data.json</guid>
+      <description>&lt;p&gt;Solutions to a problem set on mathematical methods for engineers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Solutions - Problem Set 2</title>
+      <link>/resources/pset2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pset2/data.json</guid>
+      <description>&lt;p&gt;Solutions to a problem set on mathematical methods for engineers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Solutions - Problem Set 3</title>
+      <link>/resources/pset3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pset3/data.json</guid>
+      <description>&lt;p&gt;Solutions to a problem set on mathematical methods for engineers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Solutions - Problem Set 4</title>
+      <link>/resources/pset4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pset4/data.json</guid>
+      <description>&lt;p&gt;Solutions to a problem set on mathematical methods for engineers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Solutions - Problem Set 5</title>
+      <link>/resources/pset5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pset5/data.json</guid>
+      <description>&lt;p&gt;Solutions to a problem set on mathematical methods for engineers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Solutions - Problem Set 7</title>
+      <link>/resources/pset7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pset7/data.json</guid>
+      <description>&lt;p&gt;Solutions to a problem set on mathematical methods for engineers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Solutions - Problem Set 8</title>
+      <link>/resources/pset8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pset8/data.json</guid>
+      <description>&lt;p&gt;Solutions to a problem set on mathematical methods for engineers.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

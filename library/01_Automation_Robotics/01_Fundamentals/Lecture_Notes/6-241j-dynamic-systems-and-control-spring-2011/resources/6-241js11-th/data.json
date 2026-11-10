@@ -1,0 +1,21 @@
+{
+  "content": "<p>Relation of Nyquist criterion and robust stability. Image from course notes, by Mohammed Dahleh, Munther A. Dahleh, and George Verghese.</p>\n",
+  "content_type": "resource",
+  "description": "Relation of Nyquist criterion and robust stability. Image from course notes, by Mohammed Dahleh, Munther A. Dahleh, and George Verghese.",
+  "draft": false,
+  "file": "/courses/6-241j-dynamic-systems-and-control-spring-2011/66425fb9a6e07ac63ec72137b8d88f9a_6-241js11-th.jpg",
+  "file_size": 13632,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Relation of Nyquist criterion and robust stability. See Chapter 20 in the [Readings](/courses/6-241j-dynamic-systems-and-control-spring-2011/pages/readings) section for more details. (Image from course notes, by Mohammed Dahleh, Munther A. Dahleh, and George Verghese.)",
+    "credit": "Image from course notes, by Mohammed Dahleh, Munther A. Dahleh, and George Verghese.",
+    "image-alt": "Two graphs of the Nyquist criterion and robust stability."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "6-241js11-th.jpg",
+  "uid": "66425fb9-a6e0-7ac6-3ec7-2137b8d88f9a"
+}

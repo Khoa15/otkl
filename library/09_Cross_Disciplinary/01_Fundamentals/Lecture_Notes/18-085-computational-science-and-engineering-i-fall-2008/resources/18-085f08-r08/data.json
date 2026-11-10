@@ -1,0 +1,47 @@
+{
+  "audience": [],
+  "content": "<p>Transcript of a video recitation on finite elements.</p>\n",
+  "content_type": "resource",
+  "description": "Transcript of a video recitation on finite elements.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/3d642388f56284e50b7064aa15bf9a83_18-085F08-R08.pdf",
+  "file_size": 104876,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Video Lectures",
+  "parent_type": "CourseSection",
+  "parent_uid": "4e3ac3b3-1de7-414e-0518-1196c7255bbd",
+  "resourcetype": "Document",
+  "title": "Transcript – Recitation 8",
+  "uid": "3d642388-f562-84e5-0b70-64aa15bf9a83",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

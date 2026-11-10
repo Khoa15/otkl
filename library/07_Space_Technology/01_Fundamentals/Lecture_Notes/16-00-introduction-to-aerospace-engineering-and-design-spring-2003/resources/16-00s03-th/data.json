@@ -1,0 +1,21 @@
+{
+  "content": "<p>The Space Shuttle orbiter Atlantis, framed by the California mountains, as it rides on the back of one of NASA’s Boeing 747 Shuttle Carrier Aircraft (SCA) en route from California to the Kennedy Space Center, Florida. (Image courtesy of NASA.)</p>\n",
+  "content_type": "resource",
+  "description": "The Space Shuttle orbiter Atlantis, framed by the California mountains, as it rides on the back of one of NASA’s Boeing 747 Shuttle Carrier Aircraft (SCA) en route from California to the Kennedy Space Center, Florida. (Image courtesy of NASA.)",
+  "draft": false,
+  "file": "/courses/16-00-introduction-to-aerospace-engineering-and-design-spring-2003/4eb6e349cc245054f3828eb01dc861ba_16-00s03-th.jpg",
+  "file_size": 9925,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "The Space Shuttle orbiter Atlantis, framed by the California mountains, as it rides on the back of one of NASA’s Boeing 747 Shuttle Carrier Aircraft (SCA) en route from California to the Kennedy Space Center, Florida. (Image courtesy of {{% resource_link \"8121e2ac-80b3-4ab2-8395-99b6067f2791\" \"NASA\" %}}.)",
+    "credit": "",
+    "image-alt": "A photo of the Space Shuttle Atlantis, attached to the top of a Boeing 747 in flight for relocation."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Space Shuttle Atlantis on a Boeing 747 (thumbnail)",
+  "uid": "4eb6e349-cc24-5054-f382-8eb01dc861ba"
+}

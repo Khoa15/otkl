@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture presentation on subthreshold operation of MOSFETs, development of the model, comparison to full numerical solution, and comparing and contrasting with BJTs.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture presentation on subthreshold operation of MOSFETs, development of the model, comparison to full numerical solution, and comparing and contrasting with BJTs.",
+  "draft": false,
+  "file": "/courses/6-012-microelectronic-devices-and-circuits-fall-2009/282ca336565ffdd1aeda1c212c3b0696_MIT6_012F09_lec12.pdf",
+  "file_size": 1033122,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "e4c7985c-766a-2f9c-5bac-08869dd8bade",
+  "resourcetype": "Document",
+  "title": "Lecture 12 - Sub-threshold MOSFET Operation",
+  "uid": "282ca336-565f-fdd1-aeda-1c212c3b0696"
+}

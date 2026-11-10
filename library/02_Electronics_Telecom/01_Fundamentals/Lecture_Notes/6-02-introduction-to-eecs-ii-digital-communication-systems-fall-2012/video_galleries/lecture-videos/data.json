@@ -1,0 +1,1074 @@
+
+{
+  "content": "<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-1-overview-information-and-entropy/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/BtaVq2g17G0/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 1: Overview: Information and Entropy</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-2-compression-huffman-and-lzw/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/WafWLM41pQ0/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 2: Compression: Huffman and LZW</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-3-errors-channel-codes/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/HkmAT9eVYSo/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 3: Errors, Channel Codes</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-4-linear-block-codes-parity-relations/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/5YyUArlg8Sg/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 4: Linear Block Codes, Parity Relations</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-5-error-correction-syndrome-decoding/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/jNzdhBVU620/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 5: Error Correction, Syndrome Decoding</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-6-convolutional-codes/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/ytGmd25_10k/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 6: Convolutional Codes</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-7-viterbi-decoding/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/POetF9rX7Zw/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 7: Viterbi Decoding</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-8-noise/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/JJdzY3OTzEg/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 8: Noise</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-9-transmitting-on-a-physical-channel/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/RG3CkwIDYfI/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 9: Transmitting on a Physical Channel</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-10-linear-time-invariant-lti-systems/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/gF9Q0wNGENc/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 10: Linear Time-Invariant (LTI) Systems</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-11-lti-channel-and-intersymbol-interference/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/fQcJNoe-q-s/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 11: LTI Channel and Intersymbol Interference</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-12-filters-and-composition/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/jQM_gpIXBFs/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 12: Filters and Composition</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-13-frequency-response-of-lti-systems/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/Te1qKOJd8aw/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 13: Frequency Response of LTI Systems</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-14-spectral-representation-of-signals/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/U1sAeMwdm6A/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 14: Spectral Representation of Signals</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-15-modulation-demodulation/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/7kpuZgm-3GY/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 15: Modulation/Demodulation</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-16-more-on-modulation-demodulation/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/QfaGCnfWpus/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 16: More on Modulation/Demodulation</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-17-packet-switching/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/9HCUnJB9ovk/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 17: Packet Switching</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-18-mac-protocols/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/y02p8znNAKk/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 18: MAC Protocols</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-19-network-routing-without-failures/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/2QxgN2ugcMY/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 19: Network Routing (without failures)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-20-network-routing-with-failures/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/EG6PPYma050/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 20: Network Routing (with failures)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-21-reliable-transport/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/qpYjftJbGYI/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 21: Reliable Transport</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-22-sliding-window-analysis-littles-law/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/xa38Q2_pnlQ/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 22: Sliding Window Analysis, Little&#39;s Law</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-23-a-brief-history-of-the-internet/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/oIezCGjxV3A/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 23: A Brief History of the Internet</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-24-history-of-the-internet-contd-course-summary/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/RN4gSBTANUY/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 24: History of the Internet cont&#39;d, Course Summary</h5>\n      </div>\n    </div>\n  </a>\n</div>\n\n\n",
+  "content_type": "video_gallery",
+  "description": "This section contains twenty-four full lecture videos on digital communication systems, including two in-class demonstrations.",
+  "draft": false,
+  "is_media_gallery": true,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "ocw_type": "CourseSection",
+  "title": "Lecture Videos",
+  "uid": "67a32217-7928-0e59-09f6-f82a49f4f504",
+  "videos": [
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "177993709",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 1: Overview: Information and Entropy",
+      "uid": "e40572ec-83c5-a423-fdc6-9087e1725dde",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec01_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/a02bdcd60ab3505b89f516594ed777ae_BtaVq2g17G0.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/BtaVq2g17G0/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/e3aafb9534ab3b0e1731165f823004de_BtaVq2g17G0.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, binary coding, digital communication, encoding, entropy, huffman, information, measurement, morse code, samuel morse, shannon, uncertainty, variable-length",
+        "youtube_id": "BtaVq2g17G0"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "180412465",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 2: Compression: Huffman and LZW",
+      "uid": "ec3938ba-be97-fed4-6f36-1b0635fe7f74",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec02_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/f47230553b145303bafc338be8ad8dec_WafWLM41pQ0.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/WafWLM41pQ0/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/3f63e209db5b2c8b329af1d2a8d672b2_WafWLM41pQ0.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, algorithm, coding, compression, encoder, entropy, huffman coding, lempel-ziv-welch, lossless, lzw, variable-length",
+        "youtube_id": "WafWLM41pQ0"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "137037522",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 3: Errors, Channel Codes",
+      "uid": "b045e6c3-fabb-b28f-6e47-3ca479573e9c",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec03_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/fd5cafb862a152509f5182e43bb29672_HkmAT9eVYSo.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/HkmAT9eVYSo/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/477c9e6ae8746e14f2bb26e6684d7be1_HkmAT9eVYSo.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, analog channel, binary symmetric, binary symmetric channel, bit-in, bit-out, channel, channel capacity, channel code, communication, digital, digital signaling, hamming distance, linear block code, mutual information, network architecture",
+        "youtube_id": "HkmAT9eVYSo"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "181161623",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 4: Linear Block Codes, Parity Relations",
+      "uid": "29befe8d-5915-fc2b-241a-5a6a4994e10f",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec04_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/f672023c95cf5eac96d4627f02ec2b99_5YyUArlg8Sg.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/5YyUArlg8Sg/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/6a3d3c9064eba418779a8d2ce7f19538_5YyUArlg8Sg.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, generator matrix, hamming codes, linear block code, linear transformation, matrix notation, parity bits, parity relation, rectangular code, single-bit error correction, syndrome decoding",
+        "youtube_id": "5YyUArlg8Sg"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "177161168",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 5: Error Correction, Syndrome Decoding",
+      "uid": "545bd475-0e48-3795-0b92-dd59fc74c06a",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec05_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/90697f7ad7eb50609ae1446ae75b3326_jNzdhBVU620.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/jNzdhBVU620/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/776c6ce0d8c5d42389a4df752bbb7dc0_jNzdhBVU620.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, bit pattern, burst error, channel coding, codeword, error correction, interleave bit, interleaving, multi-bit error, nullspace check, parity check matrix, parity relation, syndrome decoding, syndrome vector",
+        "youtube_id": "jNzdhBVU620"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "178019526",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 6: Convolutional Codes",
+      "uid": "e5491979-0d86-fcd3-7933-81e07ebaaf84",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec06_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/44a33a78eebd5d66a6e84a8e621452db_ytGmd25_10k.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/ytGmd25_10k/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/20a577dae804ed77154974ffc5a73799_ytGmd25_10k.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, bi-orthogonal code, constraint length, convolutional code, peter elias, shift-register view, space probe, state-machine view, trellis view, viterbi decoding",
+        "youtube_id": "ytGmd25_10k"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "178772727",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 7: Viterbi Decoding",
+      "uid": "63d11e01-53d8-6e8d-6f1d-249f607a0fb4",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec07_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/06ce0ac5ea045379a502e5667b8cc46f_POetF9rX7Zw.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/POetF9rX7Zw/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/ecc71adcdf1c748143bf8c5b29ec4165_POetF9rX7Zw.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, arc, decoding, encoding, hard-decision, parity metric, receiver, soft-decision, state, transmitter, trellis, viterbi",
+        "youtube_id": "POetF9rX7Zw"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "182581283",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 8: Noise",
+      "uid": "04b196f6-fdd1-d54d-c61b-dcb64c4ac33c",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec08_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/562b85139a185883afbab18724871e6a_JJdzY3OTzEg.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/JJdzY3OTzEg/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/6149f5f199e9e1132072718072da0ae1_JJdzY3OTzEg.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, bit energy, central limit theorem, distortion, noise, noise variance, power, probability density function, random variable, sample, signal power, signal-to-noise ratio, zero-mean noise",
+        "youtube_id": "JJdzY3OTzEg"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "175981651",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 9: Transmitting on a Physical Channel",
+      "uid": "a509379d-2eb8-4b43-e127-416d9e6bf688",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec09_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/281c725120ff5e639e402f18629283c9_RG3CkwIDYfI.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/RG3CkwIDYfI/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/8f36f9d43d632f8341f1a839d6f10ecb_RG3CkwIDYfI.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, acoustic channel, bipolar keying, carrier frequency, digitized symbol, expected value, linear, modulation, random variable, superposition, time invariant, unit sample, unit step",
+        "youtube_id": "RG3CkwIDYfI"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "182294026",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 10: Linear Time-Invariant (LTI) Systems",
+      "uid": "2cf471a4-8287-01f8-162f-7d9bafb5187c",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec10_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/5e137b8ea31352e5a3be1a4f35878fcb_gF9Q0wNGENc.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/gF9Q0wNGENc/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/32e0855495bb08c20ed18b4c99c386d9_gF9Q0wNGENc.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, baseband, causal, convolution, linear time-invariant, lti, rectangular wave, time-shift, unit sample response, unit step response",
+        "youtube_id": "gF9Q0wNGENc"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "174180470",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 11: LTI Channel and Intersymbol Interference",
+      "uid": "4542f661-e581-352c-6709-e93f686facfe",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec11_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/16ecfaf0b15f52fbb9245d18e0eb6cf1_fQcJNoe-q-s.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/fQcJNoe-q-s/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/f7a6d27723bb37a9b0da6ddb0ff1df6a_fQcJNoe-q-s.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, audio, audiocom, bits, convolution, demodulation, error, eye diagram, modulation, noise, sampling, signal",
+        "youtube_id": "fQcJNoe-q-s"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "184373918",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 12: Filters and Composition",
+      "uid": "7b965aae-7a1b-6c9c-5f79-1b156a4f0ed3",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec12_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/1bac897cdc69572bbd9ceff1b0aa9846_jQM_gpIXBFs.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/jQM_gpIXBFs/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/b920a529f0b6e960437d7e50d4265ef5_jQM_gpIXBFs.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, bibo stability, complex exponential, frequency domain, frequency response, lti system, moving average filters, sinusoidal input",
+        "youtube_id": "jQM_gpIXBFs"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "179144263",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 13: Frequency Response of LTI Systems",
+      "uid": "4a691b8c-46a9-8782-378e-79680b54866d",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec13_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/872cc96fa6015008ac5cf124aea5e7bb_Te1qKOJd8aw.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/Te1qKOJd8aw/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/ec0da2a34089ca753f158efaddfcbb71_Te1qKOJd8aw.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, decomposition, discrete-time fourier transform, dtft, eigenfunction, filter, filtering response, low-pass, spectral content, spectral response",
+        "youtube_id": "Te1qKOJd8aw"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "177548380",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 14: Spectral Representation of Signals",
+      "uid": "77b46090-fd61-20ea-5957-38f728a00f7b",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec14_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/c2a29def6180511d98f2fa4b29d11055_U1sAeMwdm6A.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/U1sAeMwdm6A/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/c9651b26578f51a70b5c218f0161d275_U1sAeMwdm6A.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, bandpass, channel, distortion, dtft, fast fourier transform, frequency content, ftt, low-pass, spectral content, superposition",
+        "youtube_id": "U1sAeMwdm6A"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "187541782",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 15: Modulation/Demodulation",
+      "uid": "4408c890-97c3-f178-697c-2555d58c5f43",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec15_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/5478f413fdd4559fa2838efcb2f8f7f5_7kpuZgm-3GY.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/7kpuZgm-3GY/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/a0a347b030feb8f7bc1bd49e2761d887_7kpuZgm-3GY.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, audiocom, demodulation, dtft, intersymbol interference, modulation, passband, periodic sinc, phase, spectral representation",
+        "youtube_id": "7kpuZgm-3GY"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "172154359",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 16: More on Modulation/Demodulation",
+      "uid": "d8ca27b5-5aef-83a1-8afe-6d0f6ccb0d0b",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec16_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/c21421515ac054bcb0a1764194693c65_QfaGCnfWpus.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/QfaGCnfWpus/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/a079c770447b6843258b44ba9c58acf2_QfaGCnfWpus.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, am, amplitude modulation, binary phase shift keying, channel delay, demodulation, discrete-time fourier series, dtfs, frequency division multiplexing, heterodyning, phase error, quadrature demodulation",
+        "youtube_id": "QfaGCnfWpus"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "180792696",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 17: Packet Switching",
+      "uid": "568d93bf-9f46-e305-4cb0-b330e14c169a",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec17_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/181f7eb0b7ba5443a80843d7033ab378_9HCUnJB9ovk.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/9HCUnJB9ovk/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/612ee68db22a5ce5ae171650e8b3d865_9HCUnJB9ovk.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, byte, circuit-switching, destination address, hop limit, length, network, packet header, packet-switched, processing delay, propagation delay, source address, switch, transmission delay",
+        "youtube_id": "9HCUnJB9ovk"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "193881216",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 18: MAC Protocols",
+      "uid": "dbd02f13-205f-b5b3-6ce7-2159c97ead5e",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec18_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/f76cd4577db854088212a8309d5ebfb9_y02p8znNAKk.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/y02p8znNAKk/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/03d094480dcbc6b825689e71eec4be5e_y02p8znNAKk.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, aloha, backlog, capture effect, channel, fairness, mac, media access protocol, network, node, shared media, slotted, utilization",
+        "youtube_id": "y02p8znNAKk"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "155062676",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 19: Network Routing (without failures)",
+      "uid": "de71a60b-5da7-5fbb-2afb-f63641880151",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec19_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/f1566b780cb15e6987919e993849d923_2QxgN2ugcMY.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/2QxgN2ugcMY/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/7055c83af7518a6abd32d69ab6f1fa18_2QxgN2ugcMY.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, addressing, advertisement, bellman-ford, dijkstra, distance-vector, flooding, forwarding, integration, link-state, routing, routing table, termination, vector protocol",
+        "youtube_id": "2QxgN2ugcMY"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "184840554",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 20: Network Routing (with failures)",
+      "uid": "cb299071-b5f7-23cd-2906-5ed7bebbe38c",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec20_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/46b3c8654bc25ae7adb746a8cbccaafc_EG6PPYma050.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/EG6PPYma050/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/0827a415c62257647188458086bad267_EG6PPYma050.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, distance-vector, hello protocol, link-state, path vector routing, periodic, protocol, routing loop",
+        "youtube_id": "EG6PPYma050"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "181199556",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 21: Reliable Transport",
+      "uid": "53fa946b-f502-c80e-ea44-eaef1b5ed5c6",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec21_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/d4e22ece4c56578ba01f92342106f777_qpYjftJbGYI.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/qpYjftJbGYI/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/b0208d8aa33817c63b1e0c8896c14638_qpYjftJbGYI.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, acknowledgement, pipelining, receiver, retransmission, sender, sliding window, stop-and-wait, tcp, timeout, transmission control protocol",
+        "youtube_id": "qpYjftJbGYI"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "192877691",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 22: Sliding Window Analysis, Little's Law",
+      "uid": "28e667ba-e934-16fb-fe5a-4042ef7e7811",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec22_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/b6a5c4a776d052e28168ba55ed950c4a_xa38Q2_pnlQ.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/xa38Q2_pnlQ/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/40abf69fd6895d82e1e249f68e3eedbd_xa38Q2_pnlQ.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, ack, little's law, queue, roundtrip time, sequence trace, service rate, sliding window",
+        "youtube_id": "xa38Q2_pnlQ"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "184884701",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 23: A Brief History of the Internet",
+      "uid": "58a456e9-f0bb-eaf4-7f1d-c452c2438abb",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec23_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/65eb90a06cc458cbb4a0c56c125d74d8_oIezCGjxV3A.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/oIezCGjxV3A/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/977223f2d0ff45cac38a782e60f2b1cd_oIezCGjxV3A.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, area identifier, arpanet, domain name system, internet protocol, internetworking, ip address, kahn's rules, osi stack, packet network, packet switching",
+        "youtube_id": "oIezCGjxV3A"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "185280831",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 24: History of the Internet cont'd, Course Summary",
+      "uid": "e86599d4-bd72-c4f0-ced5-a2efe6975312",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec24_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/6ab72eb45a425bdca6c4193c5f4f7597_RN4gSBTANUY.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/RN4gSBTANUY/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/5bd1616af13713678939933899f2b113_RN4gSBTANUY.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, congestion, peer-to-peer, phishing, prefix, reliability, security, subnetwork, tcp/ip, window size, worldwideweb",
+        "youtube_id": "RN4gSBTANUY"
+      }
+    }
+  ]
+}
+

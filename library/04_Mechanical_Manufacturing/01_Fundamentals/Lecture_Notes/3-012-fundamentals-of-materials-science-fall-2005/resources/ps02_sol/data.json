@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>Homework problem solutions.</p>\n",
+  "content_type": "resource",
+  "description": "Homework problem solutions.",
+  "draft": false,
+  "file": "/courses/3-012-fundamentals-of-materials-science-fall-2005/38bc3a2c7e6b3d5b77b90c2103a363d0_ps02_sol.pdf",
+  "file_size": 5205105,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Set Solutions"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "8db023f2-d8ec-7253-d926-88a30e7c44bb",
+  "resourcetype": "Document",
+  "title": "ps02_sol.pdf",
+  "uid": "38bc3a2c-7e6b-3d5b-77b9-0c2103a363d0",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "3-012-fundamentals-of-materials-science-fall-2005"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "3-012-fundamentals-of-materials-science-fall-2005"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

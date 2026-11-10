@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/5264c401e6567924449455218032bd8e_2_11.jpg",
+  "file_size": 4247,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from 'Introduction to Linear Algebra' by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Markov Matrices; Fourier Series",
+  "parent_type": "CourseSection",
+  "parent_uid": "944c197c-016a-0c53-8f01-08eac297793a",
+  "resourcetype": "Image",
+  "title": "2_11.jpg",
+  "uid": "5264c401-e656-7924-4494-55218032bd8e",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

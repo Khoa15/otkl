@@ -1,0 +1,16 @@
+
+{
+  "content": "<p>This page includes the midterm exam and several practice exams for study.</p>\n<p>Midterm Exam (<a href=\"../../resources/midterm_05-1/index.html\">PDF</a>)</p>\n\n    <h3 id=\"exams-for-study\">Exams for Study</h3>\n\n<p>2004 Midterm Exam (<a href=\"../../resources/midterm_04-1/index.html\">PDF</a>)</p>\n<p>Practice Final Exam 1 (<a href=\"../../resources/practicefinal1-1/index.html\">PDF</a>)</p>\n<p>Practice Final Exam 2 (<a href=\"../../resources/practicefinal2-1/index.html\">PDF</a>)</p>\n",
+  "content_type": "page",
+  "description": "This section includes the midterm exam and several practice exams for study.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Exams",
+  "uid": "2a7aec29-a3b1-d440-f01a-db7d5ef272e5"
+}
+

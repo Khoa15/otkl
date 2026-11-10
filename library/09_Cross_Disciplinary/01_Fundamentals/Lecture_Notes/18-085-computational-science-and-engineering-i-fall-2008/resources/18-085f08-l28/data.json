@@ -1,0 +1,47 @@
+{
+  "audience": [],
+  "content": "<p>Transcript of a video lecture on Fourier series.</p>\n",
+  "content_type": "resource",
+  "description": "Transcript of a video lecture on Fourier series.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/40f574eb75dfa0e81dbd3c1736d7251a_18-085F08-L28.pdf",
+  "file_size": 103534,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Video Lectures",
+  "parent_type": "CourseSection",
+  "parent_uid": "4e3ac3b3-1de7-414e-0518-1196c7255bbd",
+  "resourcetype": "Document",
+  "title": "Transcript – Lecture 28",
+  "uid": "40f574eb-75df-a0e8-1dbd-3c1736d7251a",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

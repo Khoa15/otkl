@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Topics covered:</strong> Introducing stochastic optimal control</p>\n<p><strong>Instructors:</strong> Russell Tedrake</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "192407845",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Video Lectures",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Lecture 16: Introducing Stochastic Optimal Control",
+  "uid": "e70786ef-210a-08a6-afa6-3763a0fa1507",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec16_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/6-832-underactuated-robotics-spring-2009/d9b0f2a329b95a048940c50d87e2b9d9_KNRMz9YPCOY.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/KNRMz9YPCOY/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/6-832-underactuated-robotics-spring-2009/aa314c2b4d7f80cb98938d3ef5bb1e4f_KNRMz9YPCOY.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+    "youtube_id": "KNRMz9YPCOY"
+  }
+}

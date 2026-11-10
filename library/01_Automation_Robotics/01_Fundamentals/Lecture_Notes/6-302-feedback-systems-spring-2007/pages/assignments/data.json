@@ -1,0 +1,16 @@
+
+{
+  "content": "<p>Problem Set 1 (<a href=\"../../resources/ps1/index.html\">PDF</a>)</p>\n<p>Problem Set 2 (<a href=\"../../resources/ps2/index.html\">PDF</a>)</p>\n<p>Problem Set 3 (<a href=\"../../resources/ps3/index.html\">PDF</a>)</p>\n<p>Problem Set 4 (<a href=\"../../resources/ps4/index.html\">PDF</a>)</p>\n<p>Problem Set 5 (<a href=\"../../resources/ps5/index.html\">PDF</a>)</p>\n<p>Problem Set 6 (<a href=\"../../resources/ps6/index.html\">PDF</a>)</p>\n<p>Problem Set 7 (<a href=\"../../resources/ps7/index.html\">PDF</a>)</p>\n<p>Problem Set 8 (<a href=\"../../resources/ps8/index.html\">PDF</a>)</p>\n<p>Problem Set 9 (<a href=\"../../resources/ps9/index.html\">PDF</a>)</p>\n<p>Problem Set 10 (<a href=\"../../resources/ps10/index.html\">PDF</a>)</p>\n",
+  "content_type": "page",
+  "description": "This section provides the problem sets assigned for the course.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Assignments",
+  "uid": "32c54c16-930e-7393-a118-8e53accb9078"
+}
+

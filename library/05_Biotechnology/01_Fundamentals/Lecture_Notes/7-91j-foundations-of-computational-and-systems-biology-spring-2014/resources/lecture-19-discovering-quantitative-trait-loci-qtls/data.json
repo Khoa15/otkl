@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Description:</strong> This lecture is guided by the question &ldquo;Where is missing heritability found?&rdquo; Prof. David Gifford discusses computational models that can predict phenotype from genotype. He then discusses how to discover and model quantitative trait loci.</p>\n<p><strong>Instructor:</strong> Prof. David Gifford</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "191644316",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Video Lectures",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Lecture 19: Discovering Quantitative Trait Loci (QTLs)",
+  "uid": "312df3b6-3701-fc8a-063f-99bba7da0c60",
+  "video_files": {
+    "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec19_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/96f156f9c7805ad8b5ba85e629c72110_kx_Hks_-SZM.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/kx_Hks_-SZM/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/8626c7d6dfa0d91fca51d5b19c8462b2_kx_Hks_-SZM.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "5c, 7-91j-foundations-of-computational-and-systems-biology-spring-2014, computational biology, genetic analysis, genetics, genome, genotype, haploid, heritability, inheritance, pharmacogenomics, phenotype, qtl, quantitative trait loci, trait, twin studies",
+    "youtube_id": "kx_Hks_-SZM"
+  }
+}

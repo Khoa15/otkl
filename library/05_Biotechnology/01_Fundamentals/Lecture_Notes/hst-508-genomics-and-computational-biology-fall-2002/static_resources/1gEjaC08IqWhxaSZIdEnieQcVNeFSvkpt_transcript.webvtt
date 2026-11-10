@@ -1,0 +1,4517 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.610 align:middle line:90%
+
+
+00:00:00.610 --> 00:00:02.440 align:middle line:84%
+The following
+content is provided
+
+00:00:02.440 --> 00:00:06.340 align:middle line:84%
+by MIT OpenCourseWare under
+a Creative Commons license.
+
+00:00:06.340 --> 00:00:08.470 align:middle line:84%
+Additional information
+about our license
+
+00:00:08.470 --> 00:00:10.870 align:middle line:84%
+and MIT OpenCourseWare
+in general
+
+00:00:10.870 --> 00:00:12.730 align:middle line:90%
+is available at ocw.mit.edu.
+
+00:00:12.730 --> 00:00:17.170 align:middle line:90%
+
+
+00:00:17.170 --> 00:00:20.410 align:middle line:90%
+GEORGE CHURCH: OK, ready.
+
+00:00:20.410 --> 00:00:22.090 align:middle line:90%
+OK.
+
+00:00:22.090 --> 00:00:29.238 align:middle line:84%
+So welcome to the third phase
+of our omics discussion.
+
+00:00:29.238 --> 00:00:31.030 align:middle line:84%
+Someone pointed out
+that I should point out
+
+00:00:31.030 --> 00:00:35.110 align:middle line:84%
+[? this shirt ?] says
+omics not comics.
+
+00:00:35.110 --> 00:00:39.340 align:middle line:84%
+So we've covered genomics and
+last time transcriptomics,
+
+00:00:39.340 --> 00:00:43.000 align:middle line:84%
+and today we introduce a very
+important all-inclusive subject
+
+00:00:43.000 --> 00:00:45.160 align:middle line:90%
+of proteomics.
+
+00:00:45.160 --> 00:00:48.820 align:middle line:84%
+We'll connect it to last
+week's through the vehicle
+
+00:00:48.820 --> 00:00:53.800 align:middle line:84%
+of focusing on motifs
+that are involved
+
+00:00:53.800 --> 00:00:58.450 align:middle line:84%
+in protein interactions
+with the two nucleic acid
+
+00:00:58.450 --> 00:01:00.610 align:middle line:90%
+macromolecules.
+
+00:01:00.610 --> 00:01:04.540 align:middle line:84%
+So we're going to be covering,
+just as we introduced
+
+00:01:04.540 --> 00:01:08.650 align:middle line:84%
+RNA omics with RNA
+structure, we're
+
+00:01:08.650 --> 00:01:11.260 align:middle line:84%
+going to spend this entire class
+talking about protein three
+
+00:01:11.260 --> 00:01:14.410 align:middle line:84%
+dimensional structure, how
+you get at it experimentally
+
+00:01:14.410 --> 00:01:17.050 align:middle line:84%
+and computationally
+and its implications
+
+00:01:17.050 --> 00:01:22.060 align:middle line:84%
+for the binding of small
+molecules such as drugs.
+
+00:01:22.060 --> 00:01:27.550 align:middle line:84%
+We will in short order get
+to the scary pumpkin-like
+
+00:01:27.550 --> 00:01:29.450 align:middle line:90%
+molecule.
+
+00:01:29.450 --> 00:01:38.980 align:middle line:84%
+So the connection to last
+week was this diagram
+
+00:01:38.980 --> 00:01:43.360 align:middle line:84%
+showing palindromicity in
+three cases and a direct repeat
+
+00:01:43.360 --> 00:01:45.880 align:middle line:90%
+in the fourth case.
+
+00:01:45.880 --> 00:01:48.490 align:middle line:84%
+And I offered that
+this might reflect
+
+00:01:48.490 --> 00:01:51.310 align:middle line:84%
+the symmetry of the
+proteins-- of the three
+
+00:01:51.310 --> 00:01:53.320 align:middle line:84%
+dimensional structure
+of the proteins
+
+00:01:53.320 --> 00:01:55.930 align:middle line:84%
+and the three dimensional
+structure of the nucleic acid
+
+00:01:55.930 --> 00:01:57.910 align:middle line:84%
+and these symmetry
+elements would align.
+
+00:01:57.910 --> 00:02:00.220 align:middle line:84%
+Now in order to introduce
+these symmetry elements
+
+00:02:00.220 --> 00:02:02.370 align:middle line:84%
+and the possibility
+of having codes
+
+00:02:02.370 --> 00:02:05.140 align:middle line:84%
+that you can at
+least program, even
+
+00:02:05.140 --> 00:02:08.065 align:middle line:84%
+if they may have been tinkered
+about during an evolution,
+
+00:02:08.065 --> 00:02:09.880 align:middle line:84%
+the question is to
+what extent can we
+
+00:02:09.880 --> 00:02:13.920 align:middle line:84%
+get our hands on these kind of
+protein and nucleic acid motifs
+
+00:02:13.920 --> 00:02:15.370 align:middle line:90%
+that interact.
+
+00:02:15.370 --> 00:02:19.450 align:middle line:84%
+In order to get at this issue
+of where there is a code--
+
+00:02:19.450 --> 00:02:22.870 align:middle line:84%
+and I just take this as
+one of the ways of dealing
+
+00:02:22.870 --> 00:02:25.840 align:middle line:84%
+with the incredible
+complexity of proteins
+
+00:02:25.840 --> 00:02:29.590 align:middle line:84%
+is to give this a theme that
+connects it to the last class
+
+00:02:29.590 --> 00:02:32.560 align:middle line:84%
+and connects, I think, to many
+of the sentiments of people
+
+00:02:32.560 --> 00:02:34.900 align:middle line:84%
+in this sort of
+audience interested
+
+00:02:34.900 --> 00:02:39.820 align:middle line:84%
+in computational biology is
+ways of having simple codes.
+
+00:02:39.820 --> 00:02:41.980 align:middle line:84%
+And of course,
+the way of one way
+
+00:02:41.980 --> 00:02:44.050 align:middle line:84%
+of breaking up proteins
+and thinking about them
+
+00:02:44.050 --> 00:02:49.060 align:middle line:84%
+is these ABCs-- the alpha helix,
+the beta sheet, and the coil.
+
+00:02:49.060 --> 00:02:51.700 align:middle line:84%
+Each of these can be
+characterized by the hydrogen
+
+00:02:51.700 --> 00:02:53.230 align:middle line:90%
+bonds that hold it together.
+
+00:02:53.230 --> 00:02:57.460 align:middle line:84%
+The weak bonds between the
+hydrogens, the nitrogens,
+
+00:02:57.460 --> 00:02:59.103 align:middle line:90%
+and the oxygens.
+
+00:02:59.103 --> 00:03:00.520 align:middle line:84%
+And the alpha
+helix, these are all
+
+00:03:00.520 --> 00:03:03.280 align:middle line:84%
+kept within the
+helix with a repeat
+
+00:03:03.280 --> 00:03:07.090 align:middle line:90%
+of 3.6 residues per turn.
+
+00:03:07.090 --> 00:03:12.880 align:middle line:84%
+In the beta sheet, they tend
+to have a longer, straighter
+
+00:03:12.880 --> 00:03:17.260 align:middle line:84%
+chains where there are unpaired
+hydrogen bonds inevitably
+
+00:03:17.260 --> 00:03:19.660 align:middle line:84%
+until you form
+enough chains to form
+
+00:03:19.660 --> 00:03:22.480 align:middle line:84%
+a cyclic structure while the
+alpha helix is immediately
+
+00:03:22.480 --> 00:03:25.103 align:middle line:90%
+helical.
+
+00:03:25.103 --> 00:03:26.770 align:middle line:84%
+There are many different
+types of coils.
+
+00:03:26.770 --> 00:03:28.770 align:middle line:84%
+It's a catch-all phrase
+that includes everything
+
+00:03:28.770 --> 00:03:33.340 align:middle line:84%
+except alpha and beta, but a
+particularly well-formed type
+
+00:03:33.340 --> 00:03:38.530 align:middle line:84%
+of coil has its own nomenclature
+and parameters is the turn,
+
+00:03:38.530 --> 00:03:44.110 align:middle line:84%
+and the turn is illustrated
+here at the end of a beta sheet.
+
+00:03:44.110 --> 00:03:45.580 align:middle line:84%
+That beta sheet
+basically is going
+
+00:03:45.580 --> 00:03:47.920 align:middle line:84%
+in on the lower
+right hand corner
+
+00:03:47.920 --> 00:03:49.300 align:middle line:90%
+in the direction of the arrow.
+
+00:03:49.300 --> 00:03:51.820 align:middle line:84%
+The arrows typically
+point from the n terminus
+
+00:03:51.820 --> 00:03:55.000 align:middle line:84%
+to the c terminus just
+as in nucleic acids
+
+00:03:55.000 --> 00:03:56.680 align:middle line:84%
+is from five prime
+to three prime.
+
+00:03:56.680 --> 00:03:58.260 align:middle line:84%
+And here it goes
+in the arrow, it
+
+00:03:58.260 --> 00:04:02.080 align:middle line:84%
+turns around very tightly,
+and goes back out again.
+
+00:04:02.080 --> 00:04:06.100 align:middle line:84%
+OK, now how can we use
+these basic motifs?
+
+00:04:06.100 --> 00:04:10.570 align:middle line:84%
+These are the smallest
+meaningful units of protein
+
+00:04:10.570 --> 00:04:11.750 align:middle line:90%
+three dimensional structure.
+
+00:04:11.750 --> 00:04:13.540 align:middle line:84%
+How can we use
+these to recognize
+
+00:04:13.540 --> 00:04:17.480 align:middle line:84%
+other macromolecules, other
+proteins and nucleic acids?
+
+00:04:17.480 --> 00:04:20.149 align:middle line:84%
+So let's connect this to
+the motifs of last class.
+
+00:04:20.149 --> 00:04:23.020 align:middle line:84%
+We have these motifs
+that we could find,
+
+00:04:23.020 --> 00:04:26.200 align:middle line:84%
+weight matrices for them by
+aligning lots of sequences.
+
+00:04:26.200 --> 00:04:27.720 align:middle line:84%
+Now instead of
+aligning sequences,
+
+00:04:27.720 --> 00:04:33.880 align:middle line:84%
+let's see what we can do by
+mutating both the protein
+
+00:04:33.880 --> 00:04:36.070 align:middle line:90%
+part and the nucleic acid part.
+
+00:04:36.070 --> 00:04:39.340 align:middle line:84%
+And in order to do this,
+just as an illustration,
+
+00:04:39.340 --> 00:04:40.900 align:middle line:84%
+let's say we have
+three zinc fingers.
+
+00:04:40.900 --> 00:04:47.770 align:middle line:84%
+This is a real human and
+mouse DNA binding protein
+
+00:04:47.770 --> 00:04:49.310 align:middle line:84%
+with three zinc
+fingers in a row.
+
+00:04:49.310 --> 00:04:51.910 align:middle line:84%
+So this is an example of the
+direct repeat or tandem repeat
+
+00:04:51.910 --> 00:04:53.020 align:middle line:90%
+type of symmetry.
+
+00:04:53.020 --> 00:04:55.780 align:middle line:84%
+Remember, there's the direct
+repeat and the inverted repeat.
+
+00:04:55.780 --> 00:04:58.390 align:middle line:84%
+And in this tandem repeat,
+let's anchor the two ends
+
+00:04:58.390 --> 00:04:59.710 align:middle line:90%
+and change the middle.
+
+00:04:59.710 --> 00:05:01.630 align:middle line:84%
+Make every possible
+peptide sequence
+
+00:05:01.630 --> 00:05:06.160 align:middle line:84%
+in the middle or randomly
+sample the vast space that
+
+00:05:06.160 --> 00:05:13.060 align:middle line:84%
+might occur in changing
+a few, say, six or more
+
+00:05:13.060 --> 00:05:14.680 align:middle line:90%
+key amino acids.
+
+00:05:14.680 --> 00:05:18.130 align:middle line:84%
+And then we know from the
+three dimensional structure
+
+00:05:18.130 --> 00:05:21.430 align:middle line:84%
+that it interacts mainly with
+the middle three nucleotides,
+
+00:05:21.430 --> 00:05:22.930 align:middle line:84%
+so let's change
+those middle three
+
+00:05:22.930 --> 00:05:26.200 align:middle line:84%
+nucleotides to every possible
+trinucleotide sequence
+
+00:05:26.200 --> 00:05:32.020 align:middle line:84%
+and see quantitatively how much
+that the different sequences
+
+00:05:32.020 --> 00:05:34.450 align:middle line:84%
+in the protein affect
+the different sequences
+
+00:05:34.450 --> 00:05:36.050 align:middle line:90%
+in the nucleic acid.
+
+00:05:36.050 --> 00:05:39.477 align:middle line:84%
+So this is not going to be
+by staring at long sequence
+
+00:05:39.477 --> 00:05:41.810 align:middle line:84%
+alignments where we're going
+to get the weight matrices.
+
+00:05:41.810 --> 00:05:44.290 align:middle line:84%
+We can get them by actual
+experimental measures
+
+00:05:44.290 --> 00:05:47.233 align:middle line:90%
+of the binding in vitro.
+
+00:05:47.233 --> 00:05:49.150 align:middle line:84%
+And so what happens when
+you do this exercise,
+
+00:05:49.150 --> 00:05:51.700 align:middle line:84%
+the wild type, now this--
+the wild type sequence
+
+00:05:51.700 --> 00:05:55.210 align:middle line:84%
+is something that
+may want to recognize
+
+00:05:55.210 --> 00:05:56.260 align:middle line:90%
+a family of sequences.
+
+00:05:56.260 --> 00:05:59.080 align:middle line:84%
+We don't know exactly what
+the wild type sequence
+
+00:05:59.080 --> 00:06:01.540 align:middle line:84%
+is for this particular DNA
+binding protein, this zinc
+
+00:06:01.540 --> 00:06:03.560 align:middle line:90%
+finger from human and mouse.
+
+00:06:03.560 --> 00:06:05.770 align:middle line:84%
+But the subsequence
+of the business end,
+
+00:06:05.770 --> 00:06:09.490 align:middle line:84%
+the amino acid subsequence of
+that recognition alpha helix
+
+00:06:09.490 --> 00:06:11.950 align:middle line:84%
+that's binding into
+the major groove DNA
+
+00:06:11.950 --> 00:06:15.850 align:middle line:84%
+is shown in the upper
+left, [? RSVHLTT. ?]
+
+00:06:15.850 --> 00:06:18.268 align:middle line:84%
+And the sequence that it
+mainly binds to-- remember this
+
+00:06:18.268 --> 00:06:19.060 align:middle line:90%
+is a weight matrix.
+
+00:06:19.060 --> 00:06:22.450 align:middle line:84%
+It's not a consensus
+sequence, this TGG.
+
+00:06:22.450 --> 00:06:24.850 align:middle line:84%
+It obviously recognizes a
+variety of other sequences.
+
+00:06:24.850 --> 00:06:27.340 align:middle line:84%
+So remember, there's
+about three nucleotides
+
+00:06:27.340 --> 00:06:30.850 align:middle line:84%
+on either side of it that the
+other two zinc fingers bind to.
+
+00:06:30.850 --> 00:06:35.197 align:middle line:84%
+When you try all 64 possible
+trinucleotides-- remember
+
+00:06:35.197 --> 00:06:37.155 align:middle line:84%
+from the genetic code,
+this is pure coincidence
+
+00:06:37.155 --> 00:06:39.700 align:middle line:84%
+that these are triplets the
+same as the genetic code.
+
+00:06:39.700 --> 00:06:42.070 align:middle line:84%
+This just happens to be the
+amount of the chunk of DNA
+
+00:06:42.070 --> 00:06:45.460 align:middle line:90%
+that a zinc finger will cover.
+
+00:06:45.460 --> 00:06:47.740 align:middle line:84%
+But it's not coincidence
+that 4 to the third
+
+00:06:47.740 --> 00:06:50.530 align:middle line:84%
+is still 64, just
+like the genetic code.
+
+00:06:50.530 --> 00:06:54.940 align:middle line:84%
+And if you run through all
+possible nucleotide sequences
+
+00:06:54.940 --> 00:06:58.750 align:middle line:84%
+for this wild type, you
+find the winner is TGG,
+
+00:06:58.750 --> 00:07:00.670 align:middle line:84%
+and it has that particular
+binding constant.
+
+00:07:00.670 --> 00:07:04.330 align:middle line:84%
+The binding constant is
+measured in the molarity,
+
+00:07:04.330 --> 00:07:09.070 align:middle line:84%
+roughly where you get half
+maximal or equilibrium binding.
+
+00:07:09.070 --> 00:07:12.970 align:middle line:84%
+That's 10 to the minus
+9 moles per liter.
+
+00:07:12.970 --> 00:07:16.990 align:middle line:84%
+You can now mutagenize the
+peptide and select for peptides
+
+00:07:16.990 --> 00:07:18.970 align:middle line:90%
+that bind to GCC.
+
+00:07:18.970 --> 00:07:21.470 align:middle line:84%
+Remember, the flanks
+are kept constant.
+
+00:07:21.470 --> 00:07:24.250 align:middle line:84%
+You get two peptides,
+both bind to the GCC.
+
+00:07:24.250 --> 00:07:29.830 align:middle line:84%
+They both give matrices very
+similar to this with very--
+
+00:07:29.830 --> 00:07:31.960 align:middle line:84%
+these are very high
+affinity binding constants
+
+00:07:31.960 --> 00:07:33.220 align:middle line:90%
+just like wild type.
+
+00:07:33.220 --> 00:07:39.570 align:middle line:84%
+You've essentially engineered
+by selection a new specificity
+
+00:07:39.570 --> 00:07:41.700 align:middle line:84%
+and two different
+ways of getting it.
+
+00:07:41.700 --> 00:07:44.040 align:middle line:84%
+If you now go for something
+radically different,
+
+00:07:44.040 --> 00:07:45.540 align:middle line:90%
+now no GC--
+
+00:07:45.540 --> 00:07:49.140 align:middle line:84%
+the first one was high GC,
+the second was pure GC,
+
+00:07:49.140 --> 00:07:51.090 align:middle line:84%
+and then the third
+one is pure AT.
+
+00:07:51.090 --> 00:07:54.083 align:middle line:84%
+And you get another peptide
+sequence that binds to that,
+
+00:07:54.083 --> 00:07:55.500 align:middle line:84%
+and you get another
+weight matrix.
+
+00:07:55.500 --> 00:07:57.958 align:middle line:84%
+Now remember, this weight matrix
+is not sequence alignment.
+
+00:07:57.958 --> 00:08:03.000 align:middle line:84%
+This is binding constants
+where the weighting of the 64
+
+00:08:03.000 --> 00:08:06.030 align:middle line:84%
+different sequences is based
+on how much binding you
+
+00:08:06.030 --> 00:08:07.800 align:middle line:90%
+get for each of the 64.
+
+00:08:07.800 --> 00:08:11.550 align:middle line:84%
+And then for some sequences, all
+these different trinucleotides
+
+00:08:11.550 --> 00:08:14.430 align:middle line:84%
+all result in a
+rather poor selection
+
+00:08:14.430 --> 00:08:17.640 align:middle line:84%
+for any kind of peptide out of
+all the vast number of peptides
+
+00:08:17.640 --> 00:08:18.180 align:middle line:90%
+you have.
+
+00:08:18.180 --> 00:08:19.890 align:middle line:84%
+None of them do
+particularly well,
+
+00:08:19.890 --> 00:08:23.590 align:middle line:84%
+and the result is a
+weight matrix here
+
+00:08:23.590 --> 00:08:25.740 align:middle line:84%
+which has very little
+information content.
+
+00:08:25.740 --> 00:08:27.593 align:middle line:90%
+So this is a way.
+
+00:08:27.593 --> 00:08:29.010 align:middle line:84%
+It's not the only
+way, but this is
+
+00:08:29.010 --> 00:08:33.059 align:middle line:84%
+a way of getting a really
+good empirical data set, which
+
+00:08:33.059 --> 00:08:36.419 align:middle line:84%
+in principle, you can combine
+it with similar functions
+
+00:08:36.419 --> 00:08:39.690 align:middle line:84%
+on the flanking ones,
+and you can dial up
+
+00:08:39.690 --> 00:08:44.700 align:middle line:84%
+any sequence of a nucleic acid
+protein interaction, at least
+
+00:08:44.700 --> 00:08:45.900 align:middle line:90%
+with this class of proteins.
+
+00:08:45.900 --> 00:08:48.450 align:middle line:84%
+Others are a little
+more problematic.
+
+00:08:48.450 --> 00:08:50.850 align:middle line:84%
+But you can see how this
+can generate a code even
+
+00:08:50.850 --> 00:08:55.980 align:middle line:84%
+if the actual detailed
+amino acid nucleotide
+
+00:08:55.980 --> 00:08:59.770 align:middle line:90%
+interaction is not so simple.
+
+00:08:59.770 --> 00:09:02.010 align:middle line:84%
+So that those are the
+results of the study.
+
+00:09:02.010 --> 00:09:04.020 align:middle line:84%
+Then I'll show you
+just a snapshot
+
+00:09:04.020 --> 00:09:07.245 align:middle line:84%
+of a schematic of how the
+actual experiments are done.
+
+00:09:07.245 --> 00:09:09.120 align:middle line:84%
+And then finally, I'll
+show you a little math
+
+00:09:09.120 --> 00:09:12.330 align:middle line:84%
+behind how we got those
+apparent binding constants.
+
+00:09:12.330 --> 00:09:16.470 align:middle line:84%
+Remember, in those lower
+binding constant means
+
+00:09:16.470 --> 00:09:19.750 align:middle line:84%
+you can get the binding
+at a lower concentration,
+
+00:09:19.750 --> 00:09:22.180 align:middle line:90%
+which means a stronger binding.
+
+00:09:22.180 --> 00:09:23.670 align:middle line:84%
+So the way you do
+the binding here
+
+00:09:23.670 --> 00:09:27.420 align:middle line:84%
+is you take a
+nucleic acid array,
+
+00:09:27.420 --> 00:09:30.330 align:middle line:84%
+similar to the ones we've been
+talking about in last class.
+
+00:09:30.330 --> 00:09:32.670 align:middle line:84%
+Instead of being single
+stranded, ready to bind
+
+00:09:32.670 --> 00:09:34.800 align:middle line:84%
+fluorescent nucleic acid,
+it's double stranded,
+
+00:09:34.800 --> 00:09:38.040 align:middle line:84%
+ready to bind a fluorescent
+protein complex.
+
+00:09:38.040 --> 00:09:43.290 align:middle line:84%
+The protein complex in this
+case is a bacteriophage,
+
+00:09:43.290 --> 00:09:46.320 align:middle line:84%
+which is displaying the
+three zinc fingers in red.
+
+00:09:46.320 --> 00:09:51.180 align:middle line:84%
+The middle one is the one in
+the past slide was mutagenized.
+
+00:09:51.180 --> 00:09:54.690 align:middle line:84%
+And similarly, the
+array is combinatoric--
+
+00:09:54.690 --> 00:09:57.540 align:middle line:84%
+every possible DNA sequence
+that you're interested in
+
+00:09:57.540 --> 00:09:58.350 align:middle line:90%
+is present.
+
+00:09:58.350 --> 00:10:04.470 align:middle line:84%
+And what you do is quantitate
+the fluorescence of the zinc
+
+00:10:04.470 --> 00:10:08.670 align:middle line:84%
+finger protein
+indirectly by the binding
+
+00:10:08.670 --> 00:10:12.660 align:middle line:84%
+of the covalently-attached
+phage to the antibodies, which
+
+00:10:12.660 --> 00:10:15.097 align:middle line:84%
+are fluorescently labeled
+by [INAUDIBLE] fluorescence.
+
+00:10:15.097 --> 00:10:17.840 align:middle line:90%
+
+
+00:10:17.840 --> 00:10:21.410 align:middle line:84%
+The quantity-- how you relate
+the fluorescence, the more
+
+00:10:21.410 --> 00:10:23.060 align:middle line:90%
+binding, the more fluorescence.
+
+00:10:23.060 --> 00:10:25.490 align:middle line:84%
+But how you relate that
+to the binding constant
+
+00:10:25.490 --> 00:10:28.340 align:middle line:84%
+we had in the previous
+slide is the subject
+
+00:10:28.340 --> 00:10:31.070 align:middle line:90%
+of this slide number eight.
+
+00:10:31.070 --> 00:10:35.660 align:middle line:84%
+Now we call this the apparent
+equilibrium association
+
+00:10:35.660 --> 00:10:37.580 align:middle line:84%
+constant because
+these experiments,
+
+00:10:37.580 --> 00:10:43.850 align:middle line:84%
+just like many binding in living
+cells is not at equilibrium.
+
+00:10:43.850 --> 00:10:48.740 align:middle line:84%
+It's a dynamic process
+in the cell and in vitro.
+
+00:10:48.740 --> 00:10:51.560 align:middle line:84%
+There are ways that you
+can measure the equilibrium
+
+00:10:51.560 --> 00:10:54.680 align:middle line:84%
+constants, but what this
+is apparent in the sense
+
+00:10:54.680 --> 00:10:57.500 align:middle line:84%
+that you need to wash off the
+excess fluorescence in order
+
+00:10:57.500 --> 00:10:59.990 align:middle line:84%
+to detect the fairly
+low signal that you
+
+00:10:59.990 --> 00:11:03.238 align:middle line:84%
+get from the specific
+binding, rather
+
+00:11:03.238 --> 00:11:04.280 align:middle line:90%
+than having fluorescence.
+
+00:11:04.280 --> 00:11:08.870 align:middle line:84%
+You bathe it with 10 to the
+sixford excess of fluorescence.
+
+00:11:08.870 --> 00:11:10.610 align:middle line:84%
+And so as you're
+doing that wash,
+
+00:11:10.610 --> 00:11:12.110 align:middle line:84%
+you're obviously
+not at equilibrium.
+
+00:11:12.110 --> 00:11:17.060 align:middle line:84%
+In the end, you take a snapshot
+before you wash off everything.
+
+00:11:17.060 --> 00:11:20.360 align:middle line:84%
+And so what you're measuring--
+what you're basically measuring
+
+00:11:20.360 --> 00:11:21.290 align:middle line:90%
+is--
+
+00:11:21.290 --> 00:11:23.390 align:middle line:84%
+attempting to measure is
+the equilibrium constant
+
+00:11:23.390 --> 00:11:26.120 align:middle line:84%
+between protein P
+in the upper left
+
+00:11:26.120 --> 00:11:29.900 align:middle line:84%
+here, DNA D, double
+stranded going
+
+00:11:29.900 --> 00:11:35.210 align:middle line:84%
+to the product, which is this
+P.D associated biomolecular
+
+00:11:35.210 --> 00:11:36.230 align:middle line:90%
+product.
+
+00:11:36.230 --> 00:11:42.230 align:middle line:84%
+And this is basic physical
+chemistry and algebra
+
+00:11:42.230 --> 00:11:44.600 align:middle line:84%
+so that-- so you
+rearrange that to get
+
+00:11:44.600 --> 00:11:46.500 align:middle line:90%
+the association constant.
+
+00:11:46.500 --> 00:11:47.570 align:middle line:90%
+That's what you want.
+
+00:11:47.570 --> 00:11:49.910 align:middle line:84%
+And the fraction of DNA
+molecules with the protein
+
+00:11:49.910 --> 00:11:52.910 align:middle line:90%
+bounds can be found from this.
+
+00:11:52.910 --> 00:11:58.460 align:middle line:84%
+It's just by definition, the
+fraction DNA molecules protein
+
+00:11:58.460 --> 00:11:59.810 align:middle line:90%
+bound is--
+
+00:11:59.810 --> 00:12:02.040 align:middle line:84%
+the protein bound
+is the numerator.
+
+00:12:02.040 --> 00:12:04.610 align:middle line:84%
+The brackets mean concentration
+in moles per liter,
+
+00:12:04.610 --> 00:12:06.110 align:middle line:90%
+just like we stated.
+
+00:12:06.110 --> 00:12:09.980 align:middle line:84%
+And then divide the
+complex by the amount
+
+00:12:09.980 --> 00:12:13.940 align:middle line:84%
+of the fraction, which
+is the total DNA, which
+
+00:12:13.940 --> 00:12:16.740 align:middle line:84%
+is the DNA present in the
+complex and the DNA is free.
+
+00:12:16.740 --> 00:12:19.340 align:middle line:90%
+That's the D plus PD.
+
+00:12:19.340 --> 00:12:22.160 align:middle line:84%
+And then you just substitute
+in this definition
+
+00:12:22.160 --> 00:12:23.870 align:middle line:90%
+of the association constant.
+
+00:12:23.870 --> 00:12:29.460 align:middle line:84%
+The definition is
+product over reactants,
+
+00:12:29.460 --> 00:12:31.720 align:middle line:84%
+and then you get this
+intermediate term.
+
+00:12:31.720 --> 00:12:34.770 align:middle line:84%
+Which now you cancel out all
+the concentrations of these,
+
+00:12:34.770 --> 00:12:37.690 align:middle line:84%
+and then you end up with the
+last term on the far right,
+
+00:12:37.690 --> 00:12:41.760 align:middle line:84%
+which is where if you hold
+the protein-- if the protein
+
+00:12:41.760 --> 00:12:44.850 align:middle line:84%
+concentration is known,
+then the whole thing is
+
+00:12:44.850 --> 00:12:47.010 align:middle line:84%
+constant except for
+the association.
+
+00:12:47.010 --> 00:12:49.860 align:middle line:84%
+So that one over the
+association constant
+
+00:12:49.860 --> 00:12:53.400 align:middle line:84%
+is directly related to the
+fraction of DNA molecules
+
+00:12:53.400 --> 00:12:56.220 align:middle line:84%
+with protein bound,
+which is directly
+
+00:12:56.220 --> 00:13:00.630 align:middle line:84%
+proportional to the signal
+intensity and fluorescence.
+
+00:13:00.630 --> 00:13:02.550 align:middle line:84%
+So this is how you
+get the numbers that
+
+00:13:02.550 --> 00:13:03.930 align:middle line:90%
+were on that slide.
+
+00:13:03.930 --> 00:13:06.450 align:middle line:84%
+Now let's return
+the question that
+
+00:13:06.450 --> 00:13:08.460 align:middle line:84%
+connected this talk
+with the last one, which
+
+00:13:08.460 --> 00:13:15.210 align:middle line:84%
+was the symmetry of DNA
+protein interactions.
+
+00:13:15.210 --> 00:13:19.500 align:middle line:84%
+We illustrated already one
+of these three zinc finger
+
+00:13:19.500 --> 00:13:26.850 align:middle line:84%
+complexes, as illustrated
+on the left hand side here.
+
+00:13:26.850 --> 00:13:31.260 align:middle line:84%
+The double-stranded DNA is in
+blue and the three zinc fingers
+
+00:13:31.260 --> 00:13:36.820 align:middle line:84%
+follow along the major groove,
+the large groove of the DNA.
+
+00:13:36.820 --> 00:13:40.320 align:middle line:84%
+And the reason the textbook
+is wrong, first of all,
+
+00:13:40.320 --> 00:13:42.858 align:middle line:84%
+it emphasizes the non-helical
+part of the zinc finger.
+
+00:13:42.858 --> 00:13:45.150 align:middle line:84%
+You can barely see the helix
+with the background there.
+
+00:13:45.150 --> 00:13:47.392 align:middle line:84%
+And also the way it
+loops through the DNA,
+
+00:13:47.392 --> 00:13:49.350 align:middle line:84%
+if you look at this
+carefully in your textbook,
+
+00:13:49.350 --> 00:13:51.420 align:middle line:84%
+this is actually the
+[? Mount ?] book,
+
+00:13:51.420 --> 00:13:54.405 align:middle line:84%
+it actually interdigitates
+with a phosphodiester bond,
+
+00:13:54.405 --> 00:13:56.280 align:middle line:84%
+basically going through
+the base pairs, which
+
+00:13:56.280 --> 00:13:58.380 align:middle line:90%
+is not at all what happens.
+
+00:13:58.380 --> 00:14:00.600 align:middle line:84%
+Similarly, the
+leucine zipper, this
+
+00:14:00.600 --> 00:14:02.910 align:middle line:84%
+is, again, recognition
+with a helix
+
+00:14:02.910 --> 00:14:05.850 align:middle line:90%
+in the major groove of DNA.
+
+00:14:05.850 --> 00:14:08.490 align:middle line:84%
+Here, you can see
+that the helix that
+
+00:14:08.490 --> 00:14:10.500 align:middle line:84%
+causes the dimerization
+of proteins-- you
+
+00:14:10.500 --> 00:14:14.400 align:middle line:84%
+can think of this as your really
+most elementary protein-protein
+
+00:14:14.400 --> 00:14:15.480 align:middle line:90%
+interaction code.
+
+00:14:15.480 --> 00:14:18.090 align:middle line:84%
+A very fundamental one
+that comes again and again,
+
+00:14:18.090 --> 00:14:23.220 align:middle line:84%
+so-called coil-coil, two
+alpha helices interacting.
+
+00:14:23.220 --> 00:14:26.940 align:middle line:84%
+The direct extension of that,
+almost coaxial with a coil-coil
+
+00:14:26.940 --> 00:14:28.500 align:middle line:84%
+[? or ?] protein-protein
+interaction,
+
+00:14:28.500 --> 00:14:30.570 align:middle line:90%
+they go down and touch the DNA.
+
+00:14:30.570 --> 00:14:33.750 align:middle line:84%
+In contrast, the textbook where
+it does the sharp right hand
+
+00:14:33.750 --> 00:14:41.070 align:middle line:84%
+turn and in some way
+poorly schematized there,
+
+00:14:41.070 --> 00:14:42.690 align:middle line:90%
+it goes coaxial to DNA.
+
+00:14:42.690 --> 00:14:45.030 align:middle line:90%
+That's not what happens.
+
+00:14:45.030 --> 00:14:48.120 align:middle line:84%
+The helices are more or
+less direct extensions down
+
+00:14:48.120 --> 00:14:52.620 align:middle line:84%
+from the dimerization
+region of the protein
+
+00:14:52.620 --> 00:14:57.720 align:middle line:84%
+maintaining almost
+perpendicular to the DNA axis.
+
+00:14:57.720 --> 00:15:03.420 align:middle line:84%
+But again, so on the left
+is the three tandem repeats,
+
+00:15:03.420 --> 00:15:08.580 align:middle line:84%
+and on the right is a dyad
+axis, where the twofold 180
+
+00:15:08.580 --> 00:15:10.320 align:middle line:90%
+degrees symmetry--
+
+00:15:10.320 --> 00:15:13.890 align:middle line:84%
+think of it as rotating
+exactly 180 degrees.
+
+00:15:13.890 --> 00:15:14.790 align:middle line:90%
+This is not a mirror.
+
+00:15:14.790 --> 00:15:16.140 align:middle line:90%
+This is a rotation.
+
+00:15:16.140 --> 00:15:20.010 align:middle line:84%
+Of the DNA on itself
+also coincides perfectly
+
+00:15:20.010 --> 00:15:23.220 align:middle line:84%
+with the twofold
+symmetry of the protein
+
+00:15:23.220 --> 00:15:24.790 align:middle line:90%
+association with itself.
+
+00:15:24.790 --> 00:15:26.850 align:middle line:84%
+These are the two
+major symmetry classes,
+
+00:15:26.850 --> 00:15:30.510 align:middle line:84%
+and it's amazing how
+many nucleic acid protein
+
+00:15:30.510 --> 00:15:33.330 align:middle line:84%
+interactions fall into one
+of these two classes-- direct
+
+00:15:33.330 --> 00:15:35.100 align:middle line:90%
+repeat or inverted repeat.
+
+00:15:35.100 --> 00:15:37.710 align:middle line:84%
+And that's the one you find
+direct and inverted repeats
+
+00:15:37.710 --> 00:15:41.020 align:middle line:84%
+in nucleic acid sequences,
+you get a little excited.
+
+00:15:41.020 --> 00:15:45.120 align:middle line:84%
+The other reason is
+the hairpin structures
+
+00:15:45.120 --> 00:15:47.430 align:middle line:84%
+that you found in RNA
+that we talked about
+
+00:15:47.430 --> 00:15:50.070 align:middle line:84%
+in the last classes,
+those also are
+
+00:15:50.070 --> 00:15:51.465 align:middle line:90%
+indicated by inverted repeats.
+
+00:15:51.465 --> 00:15:54.790 align:middle line:90%
+
+
+00:15:54.790 --> 00:16:00.550 align:middle line:84%
+So we now have a semi-empirical
+way of computing--
+
+00:16:00.550 --> 00:16:04.870 align:middle line:84%
+in a certain sense, predicting
+new regulatory protein
+
+00:16:04.870 --> 00:16:07.180 align:middle line:84%
+DNA interactions with
+double-stranded DNA.
+
+00:16:07.180 --> 00:16:08.920 align:middle line:90%
+Can we extend this to RNA?
+
+00:16:08.920 --> 00:16:12.220 align:middle line:84%
+This is a much more
+complicated situation with RNA
+
+00:16:12.220 --> 00:16:15.140 align:middle line:84%
+because you don't have these
+long perfect double helices
+
+00:16:15.140 --> 00:16:15.640 align:middle line:90%
+anymore.
+
+00:16:15.640 --> 00:16:17.740 align:middle line:84%
+You have these very
+short RNA helices
+
+00:16:17.740 --> 00:16:20.350 align:middle line:84%
+that I showed in the
+last couple of classes.
+
+00:16:20.350 --> 00:16:22.930 align:middle line:84%
+This is transfer RNA, one
+of our favorite molecules
+
+00:16:22.930 --> 00:16:24.910 align:middle line:84%
+here, with the
+anticodon at the bottom
+
+00:16:24.910 --> 00:16:26.830 align:middle line:90%
+of each of the pink structures.
+
+00:16:26.830 --> 00:16:31.420 align:middle line:84%
+And the amino acid acceptor
+three prime end of that 70-some
+
+00:16:31.420 --> 00:16:33.220 align:middle line:90%
+nucleotide--
+
+00:16:33.220 --> 00:16:35.560 align:middle line:84%
+70 to 80 nucleotide
+nucleic acid.
+
+00:16:35.560 --> 00:16:37.780 align:middle line:84%
+So the pinks are all
+the tRNAs, and there
+
+00:16:37.780 --> 00:16:40.570 align:middle line:84%
+are at least 20 different
+types of amino acid
+
+00:16:40.570 --> 00:16:43.870 align:middle line:84%
+and has 20 types of-- at least
+20 types of transfer RNAs
+
+00:16:43.870 --> 00:16:46.180 align:middle line:84%
+and 20 types of
+proteins that add
+
+00:16:46.180 --> 00:16:50.350 align:middle line:84%
+the amino acid onto the three
+prime ends of the transfer RNA.
+
+00:16:50.350 --> 00:16:52.990 align:middle line:84%
+These break themselves up
+into two major classes.
+
+00:16:52.990 --> 00:16:55.030 align:middle line:84%
+These can be recognized
+at the structural level.
+
+00:16:55.030 --> 00:16:58.660 align:middle line:84%
+Class 1, which is the single
+letter amino acid code
+
+00:16:58.660 --> 00:17:02.890 align:middle line:84%
+[? CEL, ?] so forth, cysteine,
+glutamate, and so on.
+
+00:17:02.890 --> 00:17:05.170 align:middle line:84%
+That's one class, which
+are structurally similar.
+
+00:17:05.170 --> 00:17:08.770 align:middle line:84%
+Class 2 is structurally
+dissimilar to Class 1,
+
+00:17:08.770 --> 00:17:12.130 align:middle line:84%
+but they are similar
+within the class.
+
+00:17:12.130 --> 00:17:14.573 align:middle line:84%
+Anyway, the point is
+that they recognize
+
+00:17:14.573 --> 00:17:16.240 align:middle line:84%
+all different parts
+of the nucleic acid,
+
+00:17:16.240 --> 00:17:19.480 align:middle line:84%
+not just the anticodon,
+which is the code itself,
+
+00:17:19.480 --> 00:17:20.950 align:middle line:90%
+the trinucleotide code.
+
+00:17:20.950 --> 00:17:22.810 align:middle line:84%
+Not just the amino
+acid end where
+
+00:17:22.810 --> 00:17:26.050 align:middle line:84%
+you need the
+recognize amino acid,
+
+00:17:26.050 --> 00:17:28.930 align:middle line:84%
+but various points
+along the transfer RNA.
+
+00:17:28.930 --> 00:17:32.590 align:middle line:84%
+If you wanted to create a new
+code, as these authors have,
+
+00:17:32.590 --> 00:17:35.950 align:middle line:84%
+or to create hybrids between
+these various things,
+
+00:17:35.950 --> 00:17:40.270 align:middle line:84%
+you'd have to find homology
+among the proteins or graph
+
+00:17:40.270 --> 00:17:43.360 align:middle line:84%
+domains of recognition
+between each one
+
+00:17:43.360 --> 00:17:46.170 align:middle line:84%
+or mutagenize
+particular regions that
+
+00:17:46.170 --> 00:17:47.920 align:middle line:84%
+are known to interact
+with the nucleotides
+
+00:17:47.920 --> 00:17:51.250 align:middle line:84%
+you want to contact,
+and that's been done.
+
+00:17:51.250 --> 00:17:53.260 align:middle line:84%
+You can arrange to
+make a new amino acid
+
+00:17:53.260 --> 00:17:58.990 align:middle line:84%
+by carving the pocket
+the amino acid recognizes
+
+00:17:58.990 --> 00:18:03.400 align:middle line:84%
+and grafting on the
+appropriate nucleotides--
+
+00:18:03.400 --> 00:18:05.950 align:middle line:84%
+the appropriate amino
+acids would recognize, say,
+
+00:18:05.950 --> 00:18:08.200 align:middle line:90%
+a stop codon.
+
+00:18:08.200 --> 00:18:13.810 align:middle line:84%
+OK, you've had some
+programming experience
+
+00:18:13.810 --> 00:18:16.070 align:middle line:84%
+that hopefully will prepare
+you for the real world
+
+00:18:16.070 --> 00:18:21.600 align:middle line:84%
+of interacting with input and
+output from various devices.
+
+00:18:21.600 --> 00:18:25.500 align:middle line:90%
+
+
+00:18:25.500 --> 00:18:27.660 align:middle line:84%
+The topic today is
+proteins, and this
+
+00:18:27.660 --> 00:18:32.730 align:middle line:84%
+really is the main
+contact between
+
+00:18:32.730 --> 00:18:35.070 align:middle line:84%
+the exquisite regulatory
+mechanisms, which
+
+00:18:35.070 --> 00:18:36.790 align:middle line:84%
+will be the topic
+of the [? network ?]
+
+00:18:36.790 --> 00:18:38.790 align:middle line:84%
+that we've already touched
+upon, but will really
+
+00:18:38.790 --> 00:18:43.350 align:middle line:84%
+be the topic of some
+of our network analysis
+
+00:18:43.350 --> 00:18:45.990 align:middle line:90%
+in the last three lectures.
+
+00:18:45.990 --> 00:18:49.590 align:middle line:84%
+Here, we need sensors to
+sense the environment.
+
+00:18:49.590 --> 00:18:51.720 align:middle line:84%
+We need actuators
+to then deliver back
+
+00:18:51.720 --> 00:18:54.870 align:middle line:84%
+into the environment
+what the cell wants to do
+
+00:18:54.870 --> 00:18:56.880 align:middle line:90%
+or to interact with other cells.
+
+00:18:56.880 --> 00:18:59.910 align:middle line:84%
+You have to have
+feedback, synchrony,
+
+00:18:59.910 --> 00:19:04.170 align:middle line:84%
+so on that you can
+basically program the almost
+
+00:19:04.170 --> 00:19:09.600 align:middle line:84%
+digital nucleic acid
+world inside the cell
+
+00:19:09.600 --> 00:19:14.475 align:middle line:84%
+but via clearly analog
+inputs and outputs.
+
+00:19:14.475 --> 00:19:20.760 align:middle line:84%
+So since this is the
+Halloween lecture
+
+00:19:20.760 --> 00:19:26.160 align:middle line:84%
+and I'm masquerading as
+the Wolfman, we also--
+
+00:19:26.160 --> 00:19:32.350 align:middle line:84%
+I've listed some of the scariest
+proteins that I could think of.
+
+00:19:32.350 --> 00:19:35.430 align:middle line:84%
+And we're going to talk
+about three of them.
+
+00:19:35.430 --> 00:19:39.720 align:middle line:84%
+One of them in the slide,
+which is the proteins that
+
+00:19:39.720 --> 00:19:42.210 align:middle line:84%
+are actually involved in
+causing the symptoms that
+
+00:19:42.210 --> 00:19:45.630 align:middle line:84%
+come from when you're
+worried about anthrax.
+
+00:19:45.630 --> 00:19:49.560 align:middle line:84%
+And then we'll talk
+about HIV yet again,
+
+00:19:49.560 --> 00:19:53.850 align:middle line:84%
+this time, polymerase mutants
+that cause drug resistance.
+
+00:19:53.850 --> 00:19:57.390 align:middle line:84%
+And then ApoE yet again, as
+we have in the past, this time
+
+00:19:57.390 --> 00:20:00.630 align:middle line:84%
+talking specifically about
+how protein structure tells us
+
+00:20:00.630 --> 00:20:01.690 align:middle line:90%
+the haplotype.
+
+00:20:01.690 --> 00:20:05.160 align:middle line:84%
+So with anthrax, you start
+out with this simple two
+
+00:20:05.160 --> 00:20:06.510 align:middle line:90%
+component--
+
+00:20:06.510 --> 00:20:08.760 align:middle line:90%
+two protein domains here.
+
+00:20:08.760 --> 00:20:10.760 align:middle line:90%
+They bind to a cellular--
+
+00:20:10.760 --> 00:20:12.420 align:middle line:90%
+something on your cell surface.
+
+00:20:12.420 --> 00:20:15.780 align:middle line:84%
+Hopefully not yours,
+but human cell surface.
+
+00:20:15.780 --> 00:20:18.420 align:middle line:84%
+And then one of the
+domains disappears.
+
+00:20:18.420 --> 00:20:20.400 align:middle line:84%
+And the remaining one
+now self-assembles
+
+00:20:20.400 --> 00:20:23.310 align:middle line:84%
+into a seven-mer,
+seven-fold symmetry.
+
+00:20:23.310 --> 00:20:25.967 align:middle line:84%
+Remember, we were talking about
+two-fold rotational symmetry
+
+00:20:25.967 --> 00:20:27.300 align:middle line:90%
+for the DNA protein interaction.
+
+00:20:27.300 --> 00:20:29.430 align:middle line:84%
+This is now seven-fold
+rotational symmetry.
+
+00:20:29.430 --> 00:20:33.180 align:middle line:84%
+That now allows lethal
+factor, LF, to bind--
+
+00:20:33.180 --> 00:20:35.040 align:middle line:90%
+still not inside the cell.
+
+00:20:35.040 --> 00:20:38.550 align:middle line:84%
+But the whole complex
+gets internalized.
+
+00:20:38.550 --> 00:20:41.838 align:middle line:84%
+Still, topologically, it's as
+if it were outside the cell
+
+00:20:41.838 --> 00:20:43.380 align:middle line:84%
+when it's inside
+this little vesicle.
+
+00:20:43.380 --> 00:20:45.990 align:middle line:84%
+It has to get through
+that membrane.
+
+00:20:45.990 --> 00:20:49.140 align:middle line:84%
+But now the pH change that
+happens when this vesicle goes
+
+00:20:49.140 --> 00:20:53.130 align:middle line:84%
+in the cell, part of the natural
+cell biological processes
+
+00:20:53.130 --> 00:20:54.660 align:middle line:90%
+causes some act--
+
+00:20:54.660 --> 00:20:59.850 align:middle line:84%
+an unfortunate act where,
+now, the seven-mer complex
+
+00:20:59.850 --> 00:21:02.610 align:middle line:84%
+of proteins does yet another
+conformational change
+
+00:21:02.610 --> 00:21:06.420 align:middle line:84%
+and turns into this hairy beast
+that allows the lethal factor
+
+00:21:06.420 --> 00:21:08.290 align:middle line:84%
+to get into your
+cell and kill it.
+
+00:21:08.290 --> 00:21:10.290 align:middle line:84%
+So you can see that
+when we're talking
+
+00:21:10.290 --> 00:21:12.623 align:middle line:84%
+about protein three-dimensional
+structure, whether we're
+
+00:21:12.623 --> 00:21:16.560 align:middle line:84%
+predicting it or solving it,
+protein is not a static object.
+
+00:21:16.560 --> 00:21:18.450 align:middle line:84%
+Here, it associates
+with one factor.
+
+00:21:18.450 --> 00:21:21.150 align:middle line:90%
+It associates seven of itself.
+
+00:21:21.150 --> 00:21:22.800 align:middle line:90%
+It interacts with lethal factor.
+
+00:21:22.800 --> 00:21:26.730 align:middle line:84%
+It opens up a whole new channel
+in the membrane, et cetera.
+
+00:21:26.730 --> 00:21:28.635 align:middle line:84%
+You need to think of
+these as dynamic systems
+
+00:21:28.635 --> 00:21:29.760 align:middle line:90%
+with many different states.
+
+00:21:29.760 --> 00:21:32.570 align:middle line:90%
+
+
+00:21:32.570 --> 00:21:35.420 align:middle line:84%
+We also need to think
+about time scales.
+
+00:21:35.420 --> 00:21:37.460 align:middle line:84%
+Many of-- the
+molecular mechanics
+
+00:21:37.460 --> 00:21:40.250 align:middle line:84%
+we'll be talking about,
+the timescale of relevance
+
+00:21:40.250 --> 00:21:41.660 align:middle line:90%
+is the femtosecond.
+
+00:21:41.660 --> 00:21:45.170 align:middle line:84%
+You need to be able-- this
+is, well, two nanoseconds.
+
+00:21:45.170 --> 00:21:47.990 align:middle line:84%
+So 10 to the minus 15th, 10
+to the minus 9th seconds.
+
+00:21:47.990 --> 00:21:49.730 align:middle line:90%
+That's atomic motion.
+
+00:21:49.730 --> 00:21:53.300 align:middle line:84%
+The turnover of
+an enzyme that is
+
+00:21:53.300 --> 00:21:56.120 align:middle line:84%
+the time it takes to
+for a small molecule,
+
+00:21:56.120 --> 00:21:59.480 align:middle line:84%
+say, to find and
+bind the enzyme,
+
+00:21:59.480 --> 00:22:02.750 align:middle line:84%
+to possibly go through
+a catalytic step,
+
+00:22:02.750 --> 00:22:06.020 align:middle line:90%
+and to dissociate as a product.
+
+00:22:06.020 --> 00:22:08.540 align:middle line:84%
+That's on the order of
+microseconds to milliseconds.
+
+00:22:08.540 --> 00:22:12.760 align:middle line:84%
+And the second range is the time
+that it takes the molecule to--
+
+00:22:12.760 --> 00:22:15.650 align:middle line:84%
+the drug or small molecule-- to
+touch the surface of the cell,
+
+00:22:15.650 --> 00:22:19.400 align:middle line:84%
+maybe diffuse across the
+cell, and find its target.
+
+00:22:19.400 --> 00:22:21.020 align:middle line:84%
+Transcription that
+we talked about,
+
+00:22:21.020 --> 00:22:26.000 align:middle line:84%
+all of the regulatory mechanisms
+of transcription last time,
+
+00:22:26.000 --> 00:22:30.170 align:middle line:84%
+the rate of the constant
+for that process
+
+00:22:30.170 --> 00:22:34.760 align:middle line:84%
+is around 50
+nucleotides per second.
+
+00:22:34.760 --> 00:22:36.320 align:middle line:84%
+Not entirely
+coincidentally, that's
+
+00:22:36.320 --> 00:22:40.220 align:middle line:84%
+about the rate at which it
+is translated into protein.
+
+00:22:40.220 --> 00:22:44.210 align:middle line:84%
+These are important numbers,
+because a typical gene size
+
+00:22:44.210 --> 00:22:49.220 align:middle line:84%
+piece, say, after RNA
+splicing in higher organisms
+
+00:22:49.220 --> 00:22:52.820 align:middle line:84%
+or naturally, it
+might be a kilobase.
+
+00:22:52.820 --> 00:22:56.600 align:middle line:84%
+So that's about a half a minute
+to transcribe and translate.
+
+00:22:56.600 --> 00:22:59.300 align:middle line:90%
+
+
+00:22:59.300 --> 00:23:03.830 align:middle line:84%
+That could be used as a timer
+in a circuit of these longer
+
+00:23:03.830 --> 00:23:09.020 align:middle line:84%
+time frames, like cell
+cycle, circadian rhythm,
+
+00:23:09.020 --> 00:23:12.680 align:middle line:84%
+very long time frames
+in ecological systems
+
+00:23:12.680 --> 00:23:19.760 align:middle line:84%
+with bamboo and various pests,
+which can be not even yearly,
+
+00:23:19.760 --> 00:23:21.680 align:middle line:84%
+and then development
+and aging, which
+
+00:23:21.680 --> 00:23:25.692 align:middle line:84%
+can be on the order of hundreds
+of years, at least for humans,
+
+00:23:25.692 --> 00:23:26.525 align:middle line:90%
+turtles, and whales.
+
+00:23:26.525 --> 00:23:29.420 align:middle line:90%
+
+
+00:23:29.420 --> 00:23:33.320 align:middle line:84%
+So what we think
+proteins are good for
+
+00:23:33.320 --> 00:23:35.940 align:middle line:90%
+depends on the accuracy.
+
+00:23:35.940 --> 00:23:37.790 align:middle line:84%
+And the accuracy
+depends on the method.
+
+00:23:37.790 --> 00:23:44.490 align:middle line:84%
+At the very bottom right, we
+have a very appealing approach,
+
+00:23:44.490 --> 00:23:50.480 align:middle line:84%
+which is de novo, a
+priori, or ab initio
+
+00:23:50.480 --> 00:23:52.873 align:middle line:84%
+prediction of
+secondary-- of protein
+
+00:23:52.873 --> 00:23:55.040 align:middle line:84%
+three-dimensional structure
+from the sequence alone,
+
+00:23:55.040 --> 00:23:56.457 align:middle line:84%
+which we're getting
+in bucketloads
+
+00:23:56.457 --> 00:23:57.740 align:middle line:90%
+from the genome projects.
+
+00:23:57.740 --> 00:23:59.780 align:middle line:84%
+But unfortunately,
+accuracy so far--
+
+00:23:59.780 --> 00:24:02.090 align:middle line:84%
+and we'll delve into this
+in more detail in a moment--
+
+00:24:02.090 --> 00:24:05.300 align:middle line:84%
+is on the order of six
+angstroms of difference
+
+00:24:05.300 --> 00:24:07.610 align:middle line:84%
+between the predicted
+structure and what it actually
+
+00:24:07.610 --> 00:24:11.150 align:middle line:84%
+is by the more precise
+methods up higher on this.
+
+00:24:11.150 --> 00:24:14.270 align:middle line:84%
+The y-axis here,
+the vertical axis,
+
+00:24:14.270 --> 00:24:17.840 align:middle line:84%
+is basically sequence identity
+as you start doing, say,
+
+00:24:17.840 --> 00:24:22.550 align:middle line:84%
+threading or comparative
+modeling here as you get--
+
+00:24:22.550 --> 00:24:26.420 align:middle line:84%
+instead of the ab initio
+or de novo prediction
+
+00:24:26.420 --> 00:24:28.400 align:middle line:84%
+doesn't require any
+sequence similarity.
+
+00:24:28.400 --> 00:24:31.370 align:middle line:84%
+If you want to build it based
+on previously solved structures,
+
+00:24:31.370 --> 00:24:36.080 align:middle line:84%
+you need at least 30%, but
+you're still very far-- say,
+
+00:24:36.080 --> 00:24:37.850 align:middle line:90%
+3 to 4 angstroms away--
+
+00:24:37.850 --> 00:24:40.100 align:middle line:90%
+from the native structure.
+
+00:24:40.100 --> 00:24:43.280 align:middle line:84%
+As you get to 1 Angstrom
+or better in your accuracy,
+
+00:24:43.280 --> 00:24:46.040 align:middle line:84%
+as you can get from NMR
+and X-ray crystallography,
+
+00:24:46.040 --> 00:24:49.460 align:middle line:84%
+you now are in a position
+to study catalytic mechanism
+
+00:24:49.460 --> 00:24:52.130 align:middle line:84%
+and design and improve
+ligands, such as drugs.
+
+00:24:52.130 --> 00:24:53.870 align:middle line:84%
+This is really
+where we want to be.
+
+00:24:53.870 --> 00:24:57.380 align:middle line:84%
+There may be a day where we
+can do this all from ab initio
+
+00:24:57.380 --> 00:24:59.900 align:middle line:84%
+prediction or modeling
+at very great distances.
+
+00:24:59.900 --> 00:25:03.170 align:middle line:84%
+But for now, modeling
+at very short,
+
+00:25:03.170 --> 00:25:07.070 align:middle line:84%
+say, 80% to 90% amino acid
+similarity, is important.
+
+00:25:07.070 --> 00:25:09.440 align:middle line:84%
+Remember, there's
+a-- just like there's
+
+00:25:09.440 --> 00:25:13.710 align:middle line:84%
+a variety of different
+protein structures.
+
+00:25:13.710 --> 00:25:17.180 align:middle line:84%
+This is just an example
+of a vast literature that
+
+00:25:17.180 --> 00:25:21.350 align:middle line:84%
+exists where you can
+use some of the methods
+
+00:25:21.350 --> 00:25:27.140 align:middle line:84%
+that we'll be
+discussing in this class
+
+00:25:27.140 --> 00:25:31.640 align:middle line:84%
+on doing molecular
+mechanics on proteins
+
+00:25:31.640 --> 00:25:34.220 align:middle line:84%
+and predicting their
+three-dimensional structure
+
+00:25:34.220 --> 00:25:37.880 align:middle line:84%
+in complex with
+the various drugs.
+
+00:25:37.880 --> 00:25:40.250 align:middle line:84%
+We will contrast this,
+or show the interplay
+
+00:25:40.250 --> 00:25:41.900 align:middle line:84%
+of the computational
+biology, that
+
+00:25:41.900 --> 00:25:45.560 align:middle line:84%
+can be aided by actual
+measurements of drug binding,
+
+00:25:45.560 --> 00:25:48.290 align:middle line:84%
+just as we had actual
+measurements of zinc finger
+
+00:25:48.290 --> 00:25:50.480 align:middle line:90%
+binding to double-stranded DNA.
+
+00:25:50.480 --> 00:25:53.780 align:middle line:84%
+And ways that you can
+discover the small molecules
+
+00:25:53.780 --> 00:25:57.845 align:middle line:84%
+by a clever use of
+parts of it that you
+
+00:25:57.845 --> 00:26:00.660 align:middle line:84%
+know bind and parts
+of it that you know
+
+00:26:00.660 --> 00:26:06.260 align:middle line:84%
+might be variable
+in a chemical sense.
+
+00:26:06.260 --> 00:26:07.970 align:middle line:90%
+Now, this is what--
+
+00:26:07.970 --> 00:26:13.340 align:middle line:84%
+just as there is this dynamic
+competition between pathogens
+
+00:26:13.340 --> 00:26:18.560 align:middle line:84%
+and their hosts, there's
+this similar lethal game
+
+00:26:18.560 --> 00:26:21.470 align:middle line:84%
+that's played between pathogens
+and the pharmaceutical
+
+00:26:21.470 --> 00:26:22.340 align:middle line:90%
+industry.
+
+00:26:22.340 --> 00:26:26.120 align:middle line:84%
+And here, HIV, for which
+there are many drugs now aimed
+
+00:26:26.120 --> 00:26:29.723 align:middle line:84%
+either at the protease
+or at the polymerase--
+
+00:26:29.723 --> 00:26:31.890 align:middle line:84%
+some of the first ones were
+aimed at the polymerase,
+
+00:26:31.890 --> 00:26:34.010 align:middle line:90%
+and so we have a big collection.
+
+00:26:34.010 --> 00:26:36.230 align:middle line:84%
+This is one of the most
+sequenced molecules on Earth,
+
+00:26:36.230 --> 00:26:40.700 align:middle line:84%
+which is the HIV gene encoding
+the reverse transcriptase
+
+00:26:40.700 --> 00:26:41.690 align:middle line:90%
+polymerase.
+
+00:26:41.690 --> 00:26:43.250 align:middle line:84%
+And it's been
+sequenced many times
+
+00:26:43.250 --> 00:26:45.110 align:middle line:84%
+because as a patient
+takes the drugs,
+
+00:26:45.110 --> 00:26:48.510 align:middle line:84%
+their population of
+the AIDS virus changes.
+
+00:26:48.510 --> 00:26:53.420 align:middle line:84%
+And each of these little
+diamond-shaped substitution
+
+00:26:53.420 --> 00:26:56.375 align:middle line:84%
+sites clustered around the
+binding site in the protein--
+
+00:26:56.375 --> 00:26:58.250 align:middle line:84%
+the binding site here
+indicated the substrate
+
+00:26:58.250 --> 00:27:01.070 align:middle line:84%
+is in space filling,
+which is the triphosphate
+
+00:27:01.070 --> 00:27:05.930 align:middle line:84%
+on the upper left
+and that the template
+
+00:27:05.930 --> 00:27:08.540 align:middle line:84%
+kind of curving around on the
+right-hand side of that space
+
+00:27:08.540 --> 00:27:12.680 align:middle line:90%
+filling bright green structure.
+
+00:27:12.680 --> 00:27:15.138 align:middle line:90%
+The protein is in red.
+
+00:27:15.138 --> 00:27:17.180 align:middle line:84%
+And these little diamonds
+indicate substitutions,
+
+00:27:17.180 --> 00:27:20.120 align:middle line:84%
+where the nomenclature is
+single-letter code for the wild
+
+00:27:20.120 --> 00:27:25.970 align:middle line:84%
+type, the position in amino
+acids from the end terminus is
+
+00:27:25.970 --> 00:27:29.330 align:middle line:90%
+the number, and then the third--
+
+00:27:29.330 --> 00:27:33.330 align:middle line:84%
+or the last far right letter
+is the new amino acids.
+
+00:27:33.330 --> 00:27:37.490 align:middle line:84%
+So for example, D67N means a
+[? sparcade ?] at position 67
+
+00:27:37.490 --> 00:27:40.070 align:middle line:84%
+and wild type changes
+to an asparagine.
+
+00:27:40.070 --> 00:27:44.240 align:middle line:84%
+And that causes a drug
+resistance in the HIV,
+
+00:27:44.240 --> 00:27:46.775 align:middle line:84%
+with unfortunate
+consequences for the patient.
+
+00:27:46.775 --> 00:27:52.240 align:middle line:90%
+
+
+00:27:52.240 --> 00:27:58.110 align:middle line:84%
+We can take-- now, making
+mutations in polymerases
+
+00:27:58.110 --> 00:28:01.390 align:middle line:84%
+is not entirely of
+negative consequences.
+
+00:28:01.390 --> 00:28:04.740 align:middle line:84%
+And I'm going to show you a
+really beautiful example where
+
+00:28:04.740 --> 00:28:09.030 align:middle line:84%
+a DNA polymerase-- a very
+similar kind of dynamic,
+
+00:28:09.030 --> 00:28:13.320 align:middle line:84%
+where the DNA polymerase, you
+want to change it so that it
+
+00:28:13.320 --> 00:28:19.740 align:middle line:84%
+can now handle what would
+normally be an inhibitor of DNA
+
+00:28:19.740 --> 00:28:27.990 align:middle line:84%
+polymerase, a class of
+nucleotides that is incapable
+
+00:28:27.990 --> 00:28:29.310 align:middle line:90%
+of extending--
+
+00:28:29.310 --> 00:28:34.770 align:middle line:84%
+capable of being incorporated
+into the growing replicating
+
+00:28:34.770 --> 00:28:38.160 align:middle line:84%
+genome, but is not
+capable of extending.
+
+00:28:38.160 --> 00:28:40.680 align:middle line:84%
+Is a powerful inhibitor,
+and it's also powerful
+
+00:28:40.680 --> 00:28:43.110 align:middle line:84%
+sequencing reagent,
+these dideoxys.
+
+00:28:43.110 --> 00:28:48.450 align:middle line:84%
+And so one of the
+things that was noticed
+
+00:28:48.450 --> 00:28:52.203 align:middle line:84%
+as the sequences of some
+of these polymerases
+
+00:28:52.203 --> 00:28:54.120 align:middle line:84%
+were being studied, and
+some of the resistance
+
+00:28:54.120 --> 00:28:56.910 align:middle line:84%
+mutants, and so
+on, it was noticed
+
+00:28:56.910 --> 00:29:03.060 align:middle line:84%
+that the complex between
+the nucleotide, whether it's
+
+00:29:03.060 --> 00:29:07.830 align:middle line:84%
+a deoxynucleotide shown here
+with a 3 prime hydroxyl, which
+
+00:29:07.830 --> 00:29:11.790 align:middle line:84%
+could then be extended
+by bringing in the next 5
+
+00:29:11.790 --> 00:29:13.410 align:middle line:90%
+phosphate.
+
+00:29:13.410 --> 00:29:17.610 align:middle line:84%
+This hydroxyl is near
+in space to the position
+
+00:29:17.610 --> 00:29:20.190 align:middle line:84%
+on a phenylalanine
+or a tyrosine,
+
+00:29:20.190 --> 00:29:24.840 align:middle line:84%
+position 762 of this
+polymerase, which can either--
+
+00:29:24.840 --> 00:29:28.988 align:middle line:84%
+if it's a tyrosine,
+it has an OH there.
+
+00:29:28.988 --> 00:29:30.780 align:middle line:84%
+And if it's a phenylalanine,
+you lose the O
+
+00:29:30.780 --> 00:29:32.700 align:middle line:84%
+and you just have
+a hydrogen there.
+
+00:29:32.700 --> 00:29:38.550 align:middle line:84%
+And when you have the
+phenylalanine there,
+
+00:29:38.550 --> 00:29:42.060 align:middle line:90%
+there's a space that--
+
+00:29:42.060 --> 00:29:45.210 align:middle line:84%
+an appropriate space
+that accommodates the 3
+
+00:29:45.210 --> 00:29:46.810 align:middle line:90%
+prime hydroxyl quite well.
+
+00:29:46.810 --> 00:29:49.500 align:middle line:84%
+But if you now put in
+a dideoxy inhibitor,
+
+00:29:49.500 --> 00:29:51.840 align:middle line:84%
+you now have too
+much space in there,
+
+00:29:51.840 --> 00:29:54.330 align:middle line:84%
+and you start trying
+to fill that space
+
+00:29:54.330 --> 00:29:58.050 align:middle line:84%
+with other bulky
+molecules, like water.
+
+00:29:58.050 --> 00:30:02.190 align:middle line:84%
+And basically, the
+binding constant,
+
+00:30:02.190 --> 00:30:04.770 align:middle line:84%
+it becomes much less
+favorable binding
+
+00:30:04.770 --> 00:30:07.960 align:middle line:84%
+when you're lacking
+both oxygens.
+
+00:30:07.960 --> 00:30:12.970 align:middle line:84%
+So this presented an opportunity
+to engineer some polymerases
+
+00:30:12.970 --> 00:30:18.510 align:middle line:84%
+which had a phenylalanine
+there to become
+
+00:30:18.510 --> 00:30:21.960 align:middle line:84%
+more accepting of the
+dideoxys and hence better
+
+00:30:21.960 --> 00:30:25.650 align:middle line:84%
+at using disease in DNA
+sequencing chemistry.
+
+00:30:25.650 --> 00:30:27.810 align:middle line:84%
+And this was simply
+by engineering--
+
+00:30:27.810 --> 00:30:30.450 align:middle line:84%
+putting in that oxygen there,
+by changing the phenylalanine
+
+00:30:30.450 --> 00:30:35.790 align:middle line:84%
+to a tyrosine, it now made
+a better fit between--
+
+00:30:35.790 --> 00:30:38.355 align:middle line:90%
+you can think of it as--
+
+00:30:38.355 --> 00:30:42.330 align:middle line:84%
+you can have either oxygen,
+and by removing this oxygen,
+
+00:30:42.330 --> 00:30:47.730 align:middle line:84%
+you replace it with an
+oxygen on the protein side.
+
+00:30:47.730 --> 00:30:50.130 align:middle line:84%
+I'm trying to emphasize,
+by a few examples here,
+
+00:30:50.130 --> 00:30:52.020 align:middle line:84%
+the idea of
+complementary surfaces
+
+00:30:52.020 --> 00:30:53.530 align:middle line:90%
+and how you can engineer them.
+
+00:30:53.530 --> 00:30:54.600 align:middle line:90%
+This is a beautiful case.
+
+00:30:54.600 --> 00:30:56.910 align:middle line:84%
+Now, we're talking about
+a single atom rather than
+
+00:30:56.910 --> 00:30:59.010 align:middle line:84%
+the complementary surfaces
+of the nucleic acids we
+
+00:30:59.010 --> 00:31:00.480 align:middle line:90%
+were talking about before.
+
+00:31:00.480 --> 00:31:04.530 align:middle line:84%
+This has an 8,000-fold effect
+on the specificity of this
+
+00:31:04.530 --> 00:31:08.610 align:middle line:84%
+polymerase, and a big impact
+on the Genome Project.
+
+00:31:08.610 --> 00:31:11.610 align:middle line:84%
+Now, that's how we
+program a particular atom
+
+00:31:11.610 --> 00:31:13.740 align:middle line:90%
+to achieve an important goal.
+
+00:31:13.740 --> 00:31:15.870 align:middle line:84%
+And of course, the virus
+has its own mechanisms
+
+00:31:15.870 --> 00:31:18.995 align:middle line:84%
+for programming it typically,
+by random mutagenesis
+
+00:31:18.995 --> 00:31:20.370 align:middle line:84%
+and selection, as
+we talked about
+
+00:31:20.370 --> 00:31:21.570 align:middle line:90%
+in the population genetics.
+
+00:31:21.570 --> 00:31:24.240 align:middle line:84%
+But the way we program
+in general proteins
+
+00:31:24.240 --> 00:31:30.840 align:middle line:84%
+are either transgenics, where we
+might overproduce the protein,
+
+00:31:30.840 --> 00:31:32.580 align:middle line:84%
+or homologous
+recombination, which
+
+00:31:32.580 --> 00:31:35.813 align:middle line:84%
+is the ultimate where we go in
+and if the protein is already--
+
+00:31:35.813 --> 00:31:37.980 align:middle line:84%
+if the gene encoding the
+protein is already present,
+
+00:31:37.980 --> 00:31:40.710 align:middle line:84%
+we can change that
+particular nucleotide in situ
+
+00:31:40.710 --> 00:31:43.020 align:middle line:84%
+in the correct place so
+it's properly regulated
+
+00:31:43.020 --> 00:31:43.740 align:middle line:90%
+and everything.
+
+00:31:43.740 --> 00:31:47.160 align:middle line:90%
+That's a great way to do it.
+
+00:31:47.160 --> 00:31:49.037 align:middle line:84%
+Point mutants are
+not the only way
+
+00:31:49.037 --> 00:31:50.370 align:middle line:90%
+to generate conditional mutants.
+
+00:31:50.370 --> 00:31:51.662 align:middle line:90%
+Many of them historically were.
+
+00:31:51.662 --> 00:31:53.820 align:middle line:84%
+But there are ways
+that you can program,
+
+00:31:53.820 --> 00:31:56.610 align:middle line:84%
+and conditional, meaning that
+you can regulate under what
+
+00:31:56.610 --> 00:31:58.470 align:middle line:84%
+conditions the
+protein is expressed
+
+00:31:58.470 --> 00:32:02.250 align:middle line:84%
+or not or active or not
+with an entire domain,
+
+00:32:02.250 --> 00:32:05.970 align:middle line:84%
+or with single
+nucleotide polymorphisms.
+
+00:32:05.970 --> 00:32:07.440 align:middle line:90%
+Now, so this is one way.
+
+00:32:07.440 --> 00:32:11.110 align:middle line:90%
+This is the nucleic acid way.
+
+00:32:11.110 --> 00:32:15.870 align:middle line:84%
+Another way is by modulating
+the activity of the proteins
+
+00:32:15.870 --> 00:32:19.680 align:middle line:84%
+from the outside with drugs
+or drug-like molecules
+
+00:32:19.680 --> 00:32:21.210 align:middle line:90%
+and chemical kinetics.
+
+00:32:21.210 --> 00:32:23.280 align:middle line:84%
+And under the
+subheadings for that,
+
+00:32:23.280 --> 00:32:25.770 align:middle line:84%
+you can make these by
+combinatorial synthesis--
+
+00:32:25.770 --> 00:32:27.240 align:middle line:84%
+and we'll show an
+example of that.
+
+00:32:27.240 --> 00:32:30.990 align:middle line:84%
+But combinatorial synthesis can
+be based on design principles,
+
+00:32:30.990 --> 00:32:33.450 align:middle line:90%
+not just completely random.
+
+00:32:33.450 --> 00:32:34.058 align:middle line:90%
+Usually are.
+
+00:32:34.058 --> 00:32:35.850 align:middle line:84%
+The design principles
+can take into account
+
+00:32:35.850 --> 00:32:38.400 align:middle line:84%
+what you know about the
+nature of the interaction
+
+00:32:38.400 --> 00:32:41.790 align:middle line:90%
+of similar proteins.
+
+00:32:41.790 --> 00:32:49.740 align:middle line:84%
+And you can mine
+whatever biochemical data
+
+00:32:49.740 --> 00:32:52.420 align:middle line:84%
+that you can collect for
+so-called quantitative
+
+00:32:52.420 --> 00:32:53.950 align:middle line:84%
+structure activity
+relationships.
+
+00:32:53.950 --> 00:32:56.560 align:middle line:84%
+This is a slightly
+different discipline
+
+00:32:56.560 --> 00:33:02.447 align:middle line:84%
+than the detailed
+crystallographic
+
+00:33:02.447 --> 00:33:04.780 align:middle line:84%
+and quantitative studies that
+we've talked about so far.
+
+00:33:04.780 --> 00:33:07.360 align:middle line:84%
+Here, you're trying
+to basically mine
+
+00:33:07.360 --> 00:33:11.320 align:middle line:84%
+through the structures
+of the ligand itself
+
+00:33:11.320 --> 00:33:13.450 align:middle line:84%
+for the parts of the
+ligand that might
+
+00:33:13.450 --> 00:33:15.610 align:middle line:84%
+be responsible for the
+activity, the binding
+
+00:33:15.610 --> 00:33:20.090 align:middle line:84%
+activity or the full biological
+activity that you see.
+
+00:33:20.090 --> 00:33:23.320 align:middle line:84%
+So let's look at some
+examples of single-nucleotide
+
+00:33:23.320 --> 00:33:27.610 align:middle line:84%
+polymorphisms that we've been
+talking about before in--
+
+00:33:27.610 --> 00:33:32.440 align:middle line:84%
+actually, this is a class
+that we didn't discuss before.
+
+00:33:32.440 --> 00:33:34.690 align:middle line:90%
+But in previous classes.
+
+00:33:34.690 --> 00:33:37.450 align:middle line:84%
+But it's related to what
+we've been talking about.
+
+00:33:37.450 --> 00:33:40.233 align:middle line:84%
+In the case of the zinc finger,
+we made an altered specificity.
+
+00:33:40.233 --> 00:33:41.650 align:middle line:84%
+We made new zinc
+fingers with bind
+
+00:33:41.650 --> 00:33:44.500 align:middle line:84%
+to completely new
+trinucleotides.
+
+00:33:44.500 --> 00:33:48.310 align:middle line:84%
+With the DNA polymerase,
+by changing one amino acid,
+
+00:33:48.310 --> 00:33:52.450 align:middle line:84%
+we could make it now accept
+almost four logs better
+
+00:33:52.450 --> 00:33:54.920 align:middle line:90%
+an inhibitor is very useful.
+
+00:33:54.920 --> 00:33:58.480 align:middle line:84%
+And here, many
+different-- many of these
+
+00:33:58.480 --> 00:34:03.520 align:middle line:84%
+are enzymes, where you can
+not just knock out the enzyme,
+
+00:34:03.520 --> 00:34:06.190 align:middle line:84%
+but actually make it
+recognize a new substrate,
+
+00:34:06.190 --> 00:34:11.679 align:middle line:84%
+or change radically the binding
+constant and catalytic rate
+
+00:34:11.679 --> 00:34:13.120 align:middle line:90%
+for new substrates.
+
+00:34:13.120 --> 00:34:16.270 align:middle line:90%
+
+
+00:34:16.270 --> 00:34:19.219 align:middle line:84%
+And I just have this long
+fine-print slide just
+
+00:34:19.219 --> 00:34:21.580 align:middle line:84%
+to impress to you-- this
+is actually less than half
+
+00:34:21.580 --> 00:34:23.320 align:middle line:90%
+of the list--
+
+00:34:23.320 --> 00:34:24.469 align:middle line:90%
+just how many examples.
+
+00:34:24.469 --> 00:34:26.320 align:middle line:90%
+These are not that unusual.
+
+00:34:26.320 --> 00:34:30.909 align:middle line:84%
+And those can be designed
+or naturally occurring.
+
+00:34:30.909 --> 00:34:34.900 align:middle line:84%
+Now, we're going to take the
+three-dimensional structure
+
+00:34:34.900 --> 00:34:44.860 align:middle line:84%
+of proteins and connect it with
+our discussion of haplotypes
+
+00:34:44.860 --> 00:34:46.870 align:middle line:84%
+and single-nucleotide
+polymorphisms.
+
+00:34:46.870 --> 00:34:51.100 align:middle line:84%
+And you may recall
+that with-- one
+
+00:34:51.100 --> 00:34:55.270 align:middle line:84%
+of the commonly occurring
+single-nucleotide
+
+00:34:55.270 --> 00:34:59.890 align:middle line:84%
+polymorphisms is
+the ApoE4 allele.
+
+00:34:59.890 --> 00:35:02.020 align:middle line:84%
+It's present in 20% of
+the human population.
+
+00:35:02.020 --> 00:35:06.430 align:middle line:84%
+Even though it has unfortunate
+consequences, we think,
+
+00:35:06.430 --> 00:35:10.480 align:middle line:90%
+mainly for Alzheimer's--
+
+00:35:10.480 --> 00:35:13.360 align:middle line:84%
+it increases the risk of
+Alzheimer's, and probably
+
+00:35:13.360 --> 00:35:20.770 align:middle line:84%
+increases cardiovascular
+fitness through ApoE refers
+
+00:35:20.770 --> 00:35:24.790 align:middle line:84%
+to its involvement in
+cholesterol metabolism
+
+00:35:24.790 --> 00:35:25.960 align:middle line:90%
+and transport.
+
+00:35:25.960 --> 00:35:28.870 align:middle line:84%
+The ApoE3 allele is
+present in about 80%,
+
+00:35:28.870 --> 00:35:31.810 align:middle line:84%
+and is far more common in human
+populations, but both of these
+
+00:35:31.810 --> 00:35:34.370 align:middle line:84%
+would be considered
+very common alleles.
+
+00:35:34.370 --> 00:35:37.510 align:middle line:84%
+And we also mentioned that
+the ancestral form of this,
+
+00:35:37.510 --> 00:35:40.990 align:middle line:84%
+for example, found in
+chimpanzees at nearly 100%,
+
+00:35:40.990 --> 00:35:44.980 align:middle line:84%
+is this arginine 112,
+instead of what's now common
+
+00:35:44.980 --> 00:35:47.170 align:middle line:84%
+in human populations
+was cysteine 112.
+
+00:35:47.170 --> 00:35:50.080 align:middle line:84%
+And that was-- one explanation
+for that might be that it was
+
+00:35:50.080 --> 00:35:52.990 align:middle line:90%
+physiologically--
+
+00:35:52.990 --> 00:35:55.760 align:middle line:84%
+our nutritional
+standards have changed.
+
+00:35:55.760 --> 00:35:57.430 align:middle line:84%
+We now eat a lot
+more fatty things.
+
+00:35:57.430 --> 00:35:59.570 align:middle line:84%
+We live long enough
+to get Alzheimer's.
+
+00:35:59.570 --> 00:36:04.150 align:middle line:84%
+And so maybe this was
+something that was--
+
+00:36:04.150 --> 00:36:07.480 align:middle line:84%
+this bad allele, E4, was
+good in chimpanzees that have
+
+00:36:07.480 --> 00:36:09.940 align:middle line:90%
+different diets or lifespans.
+
+00:36:09.940 --> 00:36:13.870 align:middle line:84%
+But the other possibility--
+and I can't really
+
+00:36:13.870 --> 00:36:15.850 align:middle line:84%
+distinguish between
+these right now--
+
+00:36:15.850 --> 00:36:17.770 align:middle line:84%
+but another one to
+seriously consider,
+
+00:36:17.770 --> 00:36:19.990 align:middle line:84%
+not just in this case,
+but in cases in general,
+
+00:36:19.990 --> 00:36:23.620 align:middle line:84%
+is you no longer just think
+about single nucleotides.
+
+00:36:23.620 --> 00:36:24.910 align:middle line:90%
+You think about haplotypes.
+
+00:36:24.910 --> 00:36:27.970 align:middle line:84%
+Everything insists
+on that DNA strand
+
+00:36:27.970 --> 00:36:29.950 align:middle line:84%
+has a chance of affecting
+either the expression
+
+00:36:29.950 --> 00:36:33.580 align:middle line:84%
+level of the protein or
+insists, on the protein strand,
+
+00:36:33.580 --> 00:36:35.560 align:middle line:90%
+to fall back and interact.
+
+00:36:35.560 --> 00:36:38.230 align:middle line:84%
+And you can see that one
+of the nearest amino acids
+
+00:36:38.230 --> 00:36:41.770 align:middle line:84%
+to this arginine 112, which
+is the main difference
+
+00:36:41.770 --> 00:36:44.710 align:middle line:90%
+between ApoE4 and ApoE3.
+
+00:36:44.710 --> 00:36:47.200 align:middle line:84%
+Arginine 61 is the same
+on the two alleles.
+
+00:36:47.200 --> 00:36:50.320 align:middle line:84%
+But you think of this
+as one haplotype,
+
+00:36:50.320 --> 00:36:53.830 align:middle line:84%
+and in chimpanzees the
+haplotype, is now threonine 61.
+
+00:36:53.830 --> 00:36:59.620 align:middle line:84%
+And you can think that
+a [? 3R ?] in chimps,
+
+00:36:59.620 --> 00:37:05.560 align:middle line:84%
+or ancestrally, is not too
+different from [? Rcys. ?] So
+
+00:37:05.560 --> 00:37:07.250 align:middle line:90%
+the different order.
+
+00:37:07.250 --> 00:37:10.510 align:middle line:84%
+So it's like this compensating,
+complementary mutation,
+
+00:37:10.510 --> 00:37:16.480 align:middle line:84%
+just like we had in the
+oxygens in the polymerase
+
+00:37:16.480 --> 00:37:17.710 align:middle line:90%
+a couple of slides ago.
+
+00:37:17.710 --> 00:37:19.752 align:middle line:84%
+And you can think of the
+compensating mutations--
+
+00:37:19.752 --> 00:37:22.340 align:middle line:84%
+we had the mutual information
+theory for doing the theory
+
+00:37:22.340 --> 00:37:23.230 align:middle line:90%
+structure.
+
+00:37:23.230 --> 00:37:24.700 align:middle line:90%
+Think of complementary surfaces.
+
+00:37:24.700 --> 00:37:27.880 align:middle line:84%
+When you think of
+single nucleotides,
+
+00:37:27.880 --> 00:37:33.070 align:middle line:84%
+don't think of them as haplotype
+and possibly complementing
+
+00:37:33.070 --> 00:37:34.930 align:middle line:90%
+constellations.
+
+00:37:34.930 --> 00:37:40.690 align:middle line:84%
+Especially, now, this brings
+us to the possible impact
+
+00:37:40.690 --> 00:37:42.610 align:middle line:84%
+of three-dimensional
+structure on predicting
+
+00:37:42.610 --> 00:37:43.900 align:middle line:90%
+deleterious human alleles.
+
+00:37:43.900 --> 00:37:46.900 align:middle line:84%
+If we suddenly had the sequence
+of everyone in this room
+
+00:37:46.900 --> 00:37:50.548 align:middle line:84%
+and we wanted our computer
+program to prioritize, which
+
+00:37:50.548 --> 00:37:51.840 align:middle line:90%
+ones should I the attention to?
+
+00:37:51.840 --> 00:37:56.190 align:middle line:84%
+Which deviations from
+the most common allele
+
+00:37:56.190 --> 00:37:57.212 align:middle line:90%
+should I look at first?
+
+00:37:57.212 --> 00:37:59.670 align:middle line:84%
+Well, you might think of these
+things in terms of proteins.
+
+00:37:59.670 --> 00:38:01.470 align:middle line:84%
+We've now gotten to
+the point in the course
+
+00:38:01.470 --> 00:38:03.030 align:middle line:84%
+where we're talking
+about proteins.
+
+00:38:03.030 --> 00:38:05.363 align:middle line:84%
+You need to think about the
+three-dimensional structure.
+
+00:38:05.363 --> 00:38:07.770 align:middle line:90%
+Who's near who in the structure?
+
+00:38:07.770 --> 00:38:09.300 align:middle line:84%
+You can think about
+binding sites.
+
+00:38:09.300 --> 00:38:10.980 align:middle line:90%
+These might be indicated by--
+
+00:38:10.980 --> 00:38:14.250 align:middle line:84%
+if you know the
+three-dimensional structure
+
+00:38:14.250 --> 00:38:16.350 align:middle line:84%
+or you know the
+conservation pattern
+
+00:38:16.350 --> 00:38:18.450 align:middle line:90%
+in this family of proteins.
+
+00:38:18.450 --> 00:38:21.300 align:middle line:90%
+You can ask things about charge.
+
+00:38:21.300 --> 00:38:22.950 align:middle line:84%
+In that last slide,
+we had the charge
+
+00:38:22.950 --> 00:38:28.500 align:middle line:84%
+of the arginines being
+near a compatibly
+
+00:38:28.500 --> 00:38:35.100 align:middle line:84%
+partial negative charge on
+the cysteines or threonines.
+
+00:38:35.100 --> 00:38:40.050 align:middle line:84%
+You can have-- a disulfide is
+a very important thing to lose.
+
+00:38:40.050 --> 00:38:43.410 align:middle line:84%
+They tend to be
+highly conserved.
+
+00:38:43.410 --> 00:38:47.220 align:middle line:84%
+If you introduce a proline into
+what would normally be an alpha
+
+00:38:47.220 --> 00:38:49.223 align:middle line:84%
+helix, this is something
+where knowledge
+
+00:38:49.223 --> 00:38:50.640 align:middle line:84%
+of the three-dimensional
+structure
+
+00:38:50.640 --> 00:38:53.940 align:middle line:84%
+would say, oh, that proline,
+this a priori, without any
+
+00:38:53.940 --> 00:38:56.310 align:middle line:84%
+knowledge of
+conservation, could be
+
+00:38:56.310 --> 00:39:00.240 align:middle line:84%
+a huge change in the
+three-dimensional structure.
+
+00:39:00.240 --> 00:39:02.730 align:middle line:84%
+And then these
+multi-sequence profiles
+
+00:39:02.730 --> 00:39:06.810 align:middle line:84%
+are a good way of looking
+at the conservation.
+
+00:39:06.810 --> 00:39:10.830 align:middle line:84%
+That's a way of prioritizing
+single-nucleotide polymorphisms
+
+00:39:10.830 --> 00:39:14.040 align:middle line:84%
+that might have impact on
+pharmacogenomics or disease
+
+00:39:14.040 --> 00:39:15.240 align:middle line:90%
+in general.
+
+00:39:15.240 --> 00:39:19.920 align:middle line:84%
+Now, as we integrate that
+with the chemical diversity
+
+00:39:19.920 --> 00:39:20.772 align:middle line:90%
+that we can create--
+
+00:39:20.772 --> 00:39:22.980 align:middle line:84%
+that's going to be the topic
+for the next few slides,
+
+00:39:22.980 --> 00:39:26.730 align:middle line:84%
+is how do we create
+chemical diversity?
+
+00:39:26.730 --> 00:39:30.570 align:middle line:84%
+And I'm going to introduce this,
+the idea of chemical diversity,
+
+00:39:30.570 --> 00:39:33.540 align:middle line:84%
+in a way I hope nicely
+connects to where
+
+00:39:33.540 --> 00:39:36.030 align:middle line:90%
+we've been with RNA arrays.
+
+00:39:36.030 --> 00:39:38.820 align:middle line:84%
+RNA arrays, and the
+double-stranded RNA array
+
+00:39:38.820 --> 00:39:41.790 align:middle line:84%
+that we used earlier
+in class today,
+
+00:39:41.790 --> 00:39:43.680 align:middle line:84%
+can be generated in
+a commentorial sense.
+
+00:39:43.680 --> 00:39:45.750 align:middle line:90%
+You can make an exhaustive set.
+
+00:39:45.750 --> 00:39:48.780 align:middle line:84%
+Now, typically, those were
+made where, spatially, they
+
+00:39:48.780 --> 00:39:49.590 align:middle line:90%
+were isolated.
+
+00:39:49.590 --> 00:39:55.650 align:middle line:84%
+Each different nucleic
+acid, oligonucleotide,
+
+00:39:55.650 --> 00:39:58.800 align:middle line:84%
+is present in a different place
+identifiable to the computer
+
+00:39:58.800 --> 00:40:01.780 align:middle line:90%
+by its coordinates on an array.
+
+00:40:01.780 --> 00:40:05.550 align:middle line:84%
+But you can also make
+them in a big mixture
+
+00:40:05.550 --> 00:40:08.610 align:middle line:84%
+and use them as a mixture and
+do selection on them, as we
+
+00:40:08.610 --> 00:40:10.800 align:middle line:90%
+did with the phage display.
+
+00:40:10.800 --> 00:40:14.490 align:middle line:84%
+Or you can make them as
+a mixture of solid phase
+
+00:40:14.490 --> 00:40:17.670 align:middle line:84%
+particles and then separate the
+[INAUDIBLE] phase particles out
+
+00:40:17.670 --> 00:40:19.350 align:middle line:90%
+in some manner.
+
+00:40:19.350 --> 00:40:21.765 align:middle line:84%
+Solid phase comes up
+again and again in arrays.
+
+00:40:21.765 --> 00:40:23.640 align:middle line:84%
+It's very obvious why
+you have a solid phase.
+
+00:40:23.640 --> 00:40:27.360 align:middle line:84%
+You want to be able to address
+it by its positions in x and y
+
+00:40:27.360 --> 00:40:29.700 align:middle line:90%
+on the array.
+
+00:40:29.700 --> 00:40:31.470 align:middle line:84%
+But the other reason--
+technical reasons
+
+00:40:31.470 --> 00:40:33.930 align:middle line:84%
+are, it's a fantastic way
+of getting purification
+
+00:40:33.930 --> 00:40:36.990 align:middle line:84%
+of your products
+simply by washing
+
+00:40:36.990 --> 00:40:40.290 align:middle line:84%
+rather than doing complicated
+purification procedures.
+
+00:40:40.290 --> 00:40:43.110 align:middle line:84%
+And it allows you to,
+in the case of beads,
+
+00:40:43.110 --> 00:40:45.750 align:middle line:84%
+there now-- you can think of
+it as an ultimate and flexible
+
+00:40:45.750 --> 00:40:46.380 align:middle line:90%
+array.
+
+00:40:46.380 --> 00:40:50.460 align:middle line:84%
+You can move the beads around
+and put them in new arrays,
+
+00:40:50.460 --> 00:40:53.250 align:middle line:90%
+and identify them later.
+
+00:40:53.250 --> 00:40:57.870 align:middle line:84%
+Anyway, so we're going to
+introduce the general way
+
+00:40:57.870 --> 00:41:01.230 align:middle line:90%
+of making either--
+
+00:41:01.230 --> 00:41:03.660 align:middle line:84%
+complex chemicals,
+whether they're
+
+00:41:03.660 --> 00:41:07.440 align:middle line:84%
+linear polymers like
+proteins or nucleic acids,
+
+00:41:07.440 --> 00:41:15.150 align:middle line:84%
+or much more tighter
+and small molecules.
+
+00:41:15.150 --> 00:41:17.093 align:middle line:84%
+But they have similar
+concepts that you need.
+
+00:41:17.093 --> 00:41:19.260 align:middle line:84%
+There's the solid phase
+that I already talked about.
+
+00:41:19.260 --> 00:41:23.760 align:middle line:84%
+There's the idea of
+protecting groups,
+
+00:41:23.760 --> 00:41:25.650 align:middle line:84%
+and the protecting
+groups are protecting
+
+00:41:25.650 --> 00:41:27.030 align:middle line:90%
+against a reactive group.
+
+00:41:27.030 --> 00:41:28.980 align:middle line:84%
+So the highly
+reactive group here
+
+00:41:28.980 --> 00:41:33.090 align:middle line:84%
+is the phosphoramidite, which
+is this phosphate nitrogen bond.
+
+00:41:33.090 --> 00:41:39.480 align:middle line:84%
+This is capable of reacting
+with just about any nitrogen
+
+00:41:39.480 --> 00:41:41.400 align:middle line:84%
+or oxygen, such as
+this-- eventually,
+
+00:41:41.400 --> 00:41:44.400 align:middle line:84%
+once you do protect this
+oxygen at the 5 prime position,
+
+00:41:44.400 --> 00:41:46.702 align:middle line:84%
+these two oxygens are 5 and
+3, just like the ones we've
+
+00:41:46.702 --> 00:41:47.910 align:middle line:90%
+been talking about all along.
+
+00:41:47.910 --> 00:41:51.150 align:middle line:84%
+This is the chemical synthesis
+version of the polymerase
+
+00:41:51.150 --> 00:41:52.560 align:middle line:90%
+that we've been talking about.
+
+00:41:52.560 --> 00:41:54.600 align:middle line:84%
+So you have these
+reactive groups
+
+00:41:54.600 --> 00:41:57.660 align:middle line:90%
+and the protecting groups.
+
+00:41:57.660 --> 00:41:59.910 align:middle line:84%
+And those are the
+major concepts.
+
+00:41:59.910 --> 00:42:01.140 align:middle line:90%
+Now, let's go through.
+
+00:42:01.140 --> 00:42:08.250 align:middle line:84%
+This is-- the topic
+here is proteins.
+
+00:42:08.250 --> 00:42:11.610 align:middle line:84%
+And we'll talk more
+about protein synthesis
+
+00:42:11.610 --> 00:42:14.435 align:middle line:84%
+as part of
+quantitation next time,
+
+00:42:14.435 --> 00:42:16.560 align:middle line:84%
+and as part of networks in
+the last three lectures.
+
+00:42:16.560 --> 00:42:18.480 align:middle line:84%
+But here's a completely
+synthetic way
+
+00:42:18.480 --> 00:42:21.780 align:middle line:84%
+of getting short
+peptides, either
+
+00:42:21.780 --> 00:42:23.550 align:middle line:84%
+by directly synthesizing
+the peptides
+
+00:42:23.550 --> 00:42:27.300 align:middle line:84%
+or synthesizing nucleic acid
+that encodes that peptide
+
+00:42:27.300 --> 00:42:29.490 align:middle line:84%
+or interferes with the
+production of that peptide.
+
+00:42:29.490 --> 00:42:32.430 align:middle line:84%
+And you can think of these
+as drug-like molecules.
+
+00:42:32.430 --> 00:42:35.100 align:middle line:90%
+These are naturally related--
+
+00:42:35.100 --> 00:42:37.570 align:middle line:84%
+they can be analogs of
+nucleic acids and proteins,
+
+00:42:37.570 --> 00:42:39.563 align:middle line:90%
+not just straight ones.
+
+00:42:39.563 --> 00:42:40.980 align:middle line:84%
+And we'll talk
+about opportunities
+
+00:42:40.980 --> 00:42:43.530 align:middle line:90%
+for making these analogs.
+
+00:42:43.530 --> 00:42:47.100 align:middle line:84%
+And so by making analogs
+of known proteins
+
+00:42:47.100 --> 00:42:51.230 align:middle line:84%
+or nucleic acids, you kind
+of have a more immediate
+
+00:42:51.230 --> 00:42:54.440 align:middle line:84%
+connection between the thing
+that your computer instructed
+
+00:42:54.440 --> 00:42:57.440 align:middle line:84%
+the synthesizer to
+make and your targets.
+
+00:42:57.440 --> 00:42:59.622 align:middle line:84%
+Well, if you make
+a random chemical,
+
+00:42:59.622 --> 00:43:01.580 align:middle line:84%
+you don't necessarily
+know what your target is.
+
+00:43:01.580 --> 00:43:03.320 align:middle line:84%
+But we'll talk
+about ways of making
+
+00:43:03.320 --> 00:43:05.150 align:middle line:90%
+slightly less random chemicals.
+
+00:43:05.150 --> 00:43:07.640 align:middle line:84%
+But this is one way of
+making a direct connection.
+
+00:43:07.640 --> 00:43:11.150 align:middle line:84%
+And the process is
+cyclic in the sense
+
+00:43:11.150 --> 00:43:15.260 align:middle line:84%
+that each cycle, you
+return, and the polymer
+
+00:43:15.260 --> 00:43:16.370 align:middle line:90%
+gets a little bit longer.
+
+00:43:16.370 --> 00:43:19.580 align:middle line:84%
+You start with one monomer
+on a solid phase, shown
+
+00:43:19.580 --> 00:43:25.940 align:middle line:84%
+by these little hexagons on the
+far right side of the slide.
+
+00:43:25.940 --> 00:43:30.830 align:middle line:84%
+And you add-- you remove
+the protecting group
+
+00:43:30.830 --> 00:43:34.670 align:middle line:84%
+on the immobilized polymer,
+one protecting group.
+
+00:43:34.670 --> 00:43:36.530 align:middle line:84%
+And then you bring in
+this reactive group,
+
+00:43:36.530 --> 00:43:38.240 align:middle line:90%
+otherwise protected.
+
+00:43:38.240 --> 00:43:41.210 align:middle line:84%
+And there's really one major
+product that you expect.
+
+00:43:41.210 --> 00:43:42.860 align:middle line:90%
+You wash off all of the excess.
+
+00:43:42.860 --> 00:43:44.540 align:middle line:90%
+You now have one longer.
+
+00:43:44.540 --> 00:43:45.410 align:middle line:90%
+You deprotect.
+
+00:43:45.410 --> 00:43:48.440 align:middle line:90%
+This DMT group is removed.
+
+00:43:48.440 --> 00:43:51.080 align:middle line:84%
+And you go back up
+and cycle again.
+
+00:43:51.080 --> 00:43:54.300 align:middle line:84%
+There may be additional
+steps, such as oxidation,
+
+00:43:54.300 --> 00:43:57.290 align:middle line:84%
+which will stabilize the
+new bond that you've made.
+
+00:43:57.290 --> 00:44:02.840 align:middle line:84%
+Or you can have a capping
+step that can soak up
+
+00:44:02.840 --> 00:44:05.332 align:middle line:90%
+any excess that was left over.
+
+00:44:05.332 --> 00:44:07.790 align:middle line:84%
+But in general, after you're
+done with all of these cycles,
+
+00:44:07.790 --> 00:44:10.100 align:middle line:84%
+then there'll be
+a step where you
+
+00:44:10.100 --> 00:44:12.800 align:middle line:84%
+remove the protecting
+groups altogether and remove
+
+00:44:12.800 --> 00:44:15.830 align:middle line:84%
+the polymer from the solid
+phase if you so choose.
+
+00:44:15.830 --> 00:44:18.500 align:middle line:84%
+Or you leave it there,
+if you have an array.
+
+00:44:18.500 --> 00:44:21.590 align:middle line:84%
+These are other examples
+of protecting groups.
+
+00:44:21.590 --> 00:44:23.030 align:middle line:90%
+These are now on the bases.
+
+00:44:23.030 --> 00:44:25.940 align:middle line:84%
+Some bases don't need
+protection, like thiamines.
+
+00:44:25.940 --> 00:44:27.830 align:middle line:84%
+If you have an exocyclic
+amine, then you
+
+00:44:27.830 --> 00:44:32.120 align:middle line:84%
+typically need a benzyl or an
+isobutyryl group in blue here,
+
+00:44:32.120 --> 00:44:33.275 align:middle line:90%
+are the protecting groups.
+
+00:44:33.275 --> 00:44:37.100 align:middle line:90%
+
+
+00:44:37.100 --> 00:44:44.750 align:middle line:84%
+I said there's an opportunity
+here for modifying
+
+00:44:44.750 --> 00:44:52.160 align:middle line:84%
+the nucleotides or
+oligopeptides or other chemicals
+
+00:44:52.160 --> 00:44:56.270 align:middle line:84%
+to make them so that
+they're related to, but not
+
+00:44:56.270 --> 00:45:01.400 align:middle line:84%
+identical in every property,
+to normal constituents
+
+00:45:01.400 --> 00:45:06.200 align:middle line:84%
+of your body or of a bacterial
+cell that you're aiming at.
+
+00:45:06.200 --> 00:45:08.210 align:middle line:84%
+And why would you want
+to make derivatives?
+
+00:45:08.210 --> 00:45:09.680 align:middle line:90%
+Why not make the exact thing?
+
+00:45:09.680 --> 00:45:10.940 align:middle line:84%
+And the reason you want
+to make derivatives
+
+00:45:10.940 --> 00:45:13.100 align:middle line:84%
+would be, for example, to
+increase their stability,
+
+00:45:13.100 --> 00:45:19.100 align:middle line:84%
+or decrease their stability,
+or make them bind more faster
+
+00:45:19.100 --> 00:45:20.510 align:middle line:90%
+or more irreversibly.
+
+00:45:20.510 --> 00:45:23.150 align:middle line:84%
+And examples are, in
+the previous slide,
+
+00:45:23.150 --> 00:45:24.710 align:middle line:90%
+you can make modified bases.
+
+00:45:24.710 --> 00:45:28.460 align:middle line:84%
+And in slide 29 here you can
+change the backbone itself.
+
+00:45:28.460 --> 00:45:30.290 align:middle line:84%
+You can change the
+ribosomes so that they
+
+00:45:30.290 --> 00:45:34.430 align:middle line:84%
+have bulky groups that prevent
+the nucleases from getting in,
+
+00:45:34.430 --> 00:45:41.150 align:middle line:84%
+or they can exchange oxygen
+for sulfurs or hydrogens
+
+00:45:41.150 --> 00:45:44.520 align:middle line:84%
+in order to make the
+phosphodiester backbone itself,
+
+00:45:44.520 --> 00:45:47.030 align:middle line:84%
+which is where
+nucleus is cleaved,
+
+00:45:47.030 --> 00:45:51.200 align:middle line:84%
+a less attractive,
+less energetically
+
+00:45:51.200 --> 00:45:54.200 align:middle line:90%
+favorable substrate.
+
+00:45:54.200 --> 00:45:57.990 align:middle line:84%
+So now, those are
+chemical processes
+
+00:45:57.990 --> 00:46:01.340 align:middle line:84%
+that, in a certain sense,
+mimic the normal polymerases
+
+00:46:01.340 --> 00:46:03.680 align:middle line:90%
+and ribosomes in the cell.
+
+00:46:03.680 --> 00:46:07.100 align:middle line:84%
+And there are analogous
+processes to generate chemical
+
+00:46:07.100 --> 00:46:10.580 align:middle line:90%
+diversity on smaller molecules.
+
+00:46:10.580 --> 00:46:14.810 align:middle line:84%
+And then there are,
+analogous to that,
+
+00:46:14.810 --> 00:46:19.910 align:middle line:84%
+biological mechanisms by which
+you can make small molecule
+
+00:46:19.910 --> 00:46:25.460 align:middle line:84%
+diversity which are less
+cyclic than processes
+
+00:46:25.460 --> 00:46:26.720 align:middle line:90%
+we just talked about.
+
+00:46:26.720 --> 00:46:34.580 align:middle line:84%
+These are more a set
+of ordered reactions
+
+00:46:34.580 --> 00:46:38.460 align:middle line:84%
+that has a conceptual
+repeat, but in a sense,
+
+00:46:38.460 --> 00:46:40.970 align:middle line:84%
+you can think of it
+as a linear program
+
+00:46:40.970 --> 00:46:43.710 align:middle line:84%
+that you go from the
+beginning to the end.
+
+00:46:43.710 --> 00:46:46.880 align:middle line:84%
+And that's to make
+these polyketides, which
+
+00:46:46.880 --> 00:46:49.010 align:middle line:84%
+are shown on the right-hand
+side of the slide.
+
+00:46:49.010 --> 00:46:53.060 align:middle line:84%
+A large class of
+pharmaceuticals,
+
+00:46:53.060 --> 00:46:54.950 align:middle line:84%
+including most of
+the antibiotics,
+
+00:46:54.950 --> 00:46:57.860 align:middle line:84%
+are made by a fairly
+small set of organisms,
+
+00:46:57.860 --> 00:47:00.260 align:middle line:84%
+such as streptomyces
+in certain plants.
+
+00:47:00.260 --> 00:47:02.572 align:middle line:84%
+And this process
+by which it's made,
+
+00:47:02.572 --> 00:47:05.030 align:middle line:84%
+which will be illustrated in
+more detail in the next slide,
+
+00:47:05.030 --> 00:47:07.520 align:middle line:84%
+is very akin to
+fatty acid synthesis.
+
+00:47:07.520 --> 00:47:09.830 align:middle line:84%
+Fatty acids are long
+hydrocarbon chains,
+
+00:47:09.830 --> 00:47:12.860 align:middle line:84%
+which you can think
+of, adding each two
+
+00:47:12.860 --> 00:47:15.710 align:middle line:84%
+carbons on that fatty
+acid is a process
+
+00:47:15.710 --> 00:47:20.270 align:middle line:84%
+akin to the one for making these
+polyketide drug-like molecules.
+
+00:47:20.270 --> 00:47:22.580 align:middle line:84%
+Another way of
+biologically making
+
+00:47:22.580 --> 00:47:28.160 align:middle line:84%
+a very compact structure,
+which actually uses ribosomes,
+
+00:47:28.160 --> 00:47:33.440 align:middle line:84%
+but it uses them to make
+very tight short peptides
+
+00:47:33.440 --> 00:47:37.040 align:middle line:84%
+and a precursor that then
+folds with lots of disulfides
+
+00:47:37.040 --> 00:47:41.750 align:middle line:84%
+to make this small and
+highly cross-linked.
+
+00:47:41.750 --> 00:47:47.210 align:middle line:84%
+Now, the fact that these
+cone snails have gone
+
+00:47:47.210 --> 00:47:49.040 align:middle line:84%
+have gone to the trouble
+of making hundreds
+
+00:47:49.040 --> 00:47:52.010 align:middle line:84%
+of these different very
+small peptides that
+
+00:47:52.010 --> 00:47:55.730 align:middle line:84%
+have these properties tells
+you something about what
+
+00:47:55.730 --> 00:47:59.630 align:middle line:84%
+it is that you want-- that
+drug-like molecules have
+
+00:47:59.630 --> 00:48:00.230 align:middle line:90%
+in common.
+
+00:48:00.230 --> 00:48:06.080 align:middle line:84%
+And that is, they're small, so
+they diffuse quickly and get
+
+00:48:06.080 --> 00:48:07.230 align:middle line:90%
+to their site.
+
+00:48:07.230 --> 00:48:09.020 align:middle line:84%
+And so you can have
+large amounts of them
+
+00:48:09.020 --> 00:48:10.050 align:middle line:90%
+in a small space.
+
+00:48:10.050 --> 00:48:12.110 align:middle line:84%
+So you can manufacture
+lots of them.
+
+00:48:12.110 --> 00:48:15.680 align:middle line:84%
+And then they have to be
+highly cross-linked in order
+
+00:48:15.680 --> 00:48:17.060 align:middle line:90%
+to maintain the rigidity.
+
+00:48:17.060 --> 00:48:19.730 align:middle line:84%
+Because they're small,
+they have less surface area
+
+00:48:19.730 --> 00:48:23.640 align:middle line:90%
+to bind to their binding pocket.
+
+00:48:23.640 --> 00:48:26.810 align:middle line:84%
+So to compensate for that, they
+have to have a lot of rigidity.
+
+00:48:26.810 --> 00:48:29.210 align:middle line:84%
+And the thing that
+you lock in rigidly
+
+00:48:29.210 --> 00:48:30.740 align:middle line:90%
+has to be the correct structure.
+
+00:48:30.740 --> 00:48:32.930 align:middle line:84%
+It does you no good to
+have a rigid structure that
+
+00:48:32.930 --> 00:48:36.330 align:middle line:84%
+isn't really perfectly
+complementary to that surface.
+
+00:48:36.330 --> 00:48:40.070 align:middle line:84%
+And the third source
+of biological diversity
+
+00:48:40.070 --> 00:48:41.820 align:middle line:84%
+is one you're probably
+more familiar with,
+
+00:48:41.820 --> 00:48:44.510 align:middle line:84%
+which is the immune
+receptors, the B and T cell
+
+00:48:44.510 --> 00:48:49.680 align:middle line:84%
+receptors, the antibodies,
+and cell-mediated immunity.
+
+00:48:49.680 --> 00:48:57.200 align:middle line:84%
+And these use
+recombination machinery
+
+00:48:57.200 --> 00:49:04.940 align:middle line:84%
+to program various combinations
+of nucleic acid motifs
+
+00:49:04.940 --> 00:49:06.290 align:middle line:90%
+that encode protein motifs.
+
+00:49:06.290 --> 00:49:08.030 align:middle line:84%
+And as they do
+that recombination,
+
+00:49:08.030 --> 00:49:10.130 align:middle line:84%
+they have further
+diversification
+
+00:49:10.130 --> 00:49:12.740 align:middle line:84%
+that occurs due to a
+template-independent
+
+00:49:12.740 --> 00:49:15.290 align:middle line:84%
+polymerase,
+[? thermotransferase, ?]
+
+00:49:15.290 --> 00:49:18.050 align:middle line:84%
+which will extend a few
+nucleotides of completely
+
+00:49:18.050 --> 00:49:23.630 align:middle line:84%
+random nucleic acid sequence
+that basically incredibly
+
+00:49:23.630 --> 00:49:26.690 align:middle line:84%
+accelerates the rate of
+mutagenesis, basically
+
+00:49:26.690 --> 00:49:28.130 align:middle line:90%
+generating sequence de novo.
+
+00:49:28.130 --> 00:49:30.590 align:middle line:84%
+This is one of the
+examples in biology
+
+00:49:30.590 --> 00:49:33.050 align:middle line:84%
+where you generate
+sequence de novo.
+
+00:49:33.050 --> 00:49:40.040 align:middle line:84%
+And I think that's very apropos
+of this combinatorial topic.
+
+00:49:40.040 --> 00:49:44.030 align:middle line:84%
+Now, this is a beautiful
+example from the previous slide.
+
+00:49:44.030 --> 00:49:45.800 align:middle line:84%
+Those polyketides
+on the far right
+
+00:49:45.800 --> 00:49:48.300 align:middle line:90%
+now are the star of this slide.
+
+00:49:48.300 --> 00:49:50.960 align:middle line:84%
+And here, in a certain
+sense, nature has--
+
+00:49:50.960 --> 00:49:54.470 align:middle line:84%
+and now scientists have--
+engineered protein modules
+
+00:49:54.470 --> 00:49:59.240 align:middle line:84%
+to make this linear
+sequence of events.
+
+00:49:59.240 --> 00:50:03.200 align:middle line:84%
+You can think of, here,
+you're using a linear set
+
+00:50:03.200 --> 00:50:07.280 align:middle line:84%
+of protein domains to program
+very complicated series
+
+00:50:07.280 --> 00:50:09.650 align:middle line:84%
+of chemical reactions, the
+same way the linear sequence
+
+00:50:09.650 --> 00:50:12.530 align:middle line:84%
+of messenger RNA
+tells the ribosome
+
+00:50:12.530 --> 00:50:16.680 align:middle line:84%
+to make a series of
+additions in the protein.
+
+00:50:16.680 --> 00:50:21.230 align:middle line:84%
+The ribosome catalytic
+cycle is a cycle,
+
+00:50:21.230 --> 00:50:24.200 align:middle line:84%
+while this is more
+a linear tape,
+
+00:50:24.200 --> 00:50:26.390 align:middle line:90%
+a linear series of events.
+
+00:50:26.390 --> 00:50:29.000 align:middle line:84%
+The proteins themselves, these
+little arrow-shaped things
+
+00:50:29.000 --> 00:50:32.150 align:middle line:84%
+with boxes in them
+along the top,
+
+00:50:32.150 --> 00:50:35.960 align:middle line:84%
+labeled Module 1 through 6,
+those proteins are, of course,
+
+00:50:35.960 --> 00:50:36.860 align:middle line:90%
+made on ribosomes.
+
+00:50:36.860 --> 00:50:40.520 align:middle line:84%
+But then they act kind of like
+the solid phase synthesis,
+
+00:50:40.520 --> 00:50:43.160 align:middle line:84%
+where the acyl carrier
+protein, ACP in the box,
+
+00:50:43.160 --> 00:50:46.070 align:middle line:84%
+binds to the first
+monomer, and it
+
+00:50:46.070 --> 00:50:48.710 align:middle line:84%
+starts transferring
+it from protein
+
+00:50:48.710 --> 00:50:53.977 align:middle line:84%
+to protein along this
+multi-domain huge protein.
+
+00:50:53.977 --> 00:50:56.060 align:middle line:84%
+And there's actually three
+proteins in a row here.
+
+00:50:56.060 --> 00:50:59.120 align:middle line:84%
+And each of the steps are taken
+in order along the protein,
+
+00:50:59.120 --> 00:51:02.210 align:middle line:84%
+and they involve things like a
+synthase step, where you bring
+
+00:51:02.210 --> 00:51:06.290 align:middle line:84%
+in another monomer, or a
+keto reductase step, KR,
+
+00:51:06.290 --> 00:51:08.540 align:middle line:90%
+where you'll bring in--
+
+00:51:08.540 --> 00:51:13.340 align:middle line:84%
+where you'll reduce one
+of the double bonds,
+
+00:51:13.340 --> 00:51:16.910 align:middle line:90%
+or an acyltransferase step, AT.
+
+00:51:16.910 --> 00:51:20.990 align:middle line:90%
+
+
+00:51:20.990 --> 00:51:24.020 align:middle line:84%
+But you can see each of these
+has a substrate specificity.
+
+00:51:24.020 --> 00:51:27.470 align:middle line:84%
+And by changing the order
+of substrate specificities,
+
+00:51:27.470 --> 00:51:31.700 align:middle line:84%
+you can build up a huge
+combinatorial collection here
+
+00:51:31.700 --> 00:51:38.570 align:middle line:84%
+in microbial communities,
+and also in the laboratory.
+
+00:51:38.570 --> 00:51:40.220 align:middle line:90%
+Now, protein interaction.
+
+00:51:40.220 --> 00:51:43.580 align:middle line:84%
+We're just beginning to
+talk seriously about protein
+
+00:51:43.580 --> 00:51:45.680 align:middle line:90%
+interaction assays.
+
+00:51:45.680 --> 00:51:48.710 align:middle line:84%
+I think many of you
+either are or will
+
+00:51:48.710 --> 00:51:52.850 align:middle line:84%
+be more and more familiar with
+the protein interaction assays.
+
+00:51:52.850 --> 00:51:56.570 align:middle line:84%
+In next class, we'll
+talk about ways
+
+00:51:56.570 --> 00:51:59.400 align:middle line:84%
+of getting direct
+information on protein
+
+00:51:59.400 --> 00:52:02.210 align:middle line:84%
+through cross-linking
+and mass spectrometry.
+
+00:52:02.210 --> 00:52:04.370 align:middle line:84%
+Another way is
+indirectly setting up
+
+00:52:04.370 --> 00:52:06.500 align:middle line:84%
+these reporter
+assays, where you take
+
+00:52:06.500 --> 00:52:09.530 align:middle line:84%
+advantage of the binding
+properties of known proteins
+
+00:52:09.530 --> 00:52:12.410 align:middle line:90%
+to analyze two unknown proteins.
+
+00:52:12.410 --> 00:52:14.930 align:middle line:84%
+And so a known protein
+might be, [INAUDIBLE],,
+
+00:52:14.930 --> 00:52:19.070 align:middle line:84%
+which binds to DNA, and B42,
+which activates transcription
+
+00:52:19.070 --> 00:52:23.630 align:middle line:84%
+of something for which you
+have a good visual assay,
+
+00:52:23.630 --> 00:52:27.560 align:middle line:90%
+like [? URO3, ?] life and death.
+
+00:52:27.560 --> 00:52:30.800 align:middle line:84%
+And by taking these
+two knowns, let's say,
+
+00:52:30.800 --> 00:52:33.200 align:middle line:84%
+in B42, which have
+known properties--
+
+00:52:33.200 --> 00:52:35.562 align:middle line:84%
+but they only exert
+their properties
+
+00:52:35.562 --> 00:52:37.520 align:middle line:84%
+when they're brought
+together, and they're only
+
+00:52:37.520 --> 00:52:40.220 align:middle line:84%
+brought together if the
+unknown proteins or partially
+
+00:52:40.220 --> 00:52:44.460 align:middle line:84%
+known proteins to which they're
+bound interact with each other.
+
+00:52:44.460 --> 00:52:47.450 align:middle line:84%
+And so this is a
+so-called two-hybrid assay
+
+00:52:47.450 --> 00:52:49.920 align:middle line:90%
+and variations on it.
+
+00:52:49.920 --> 00:52:52.460 align:middle line:84%
+And I think we
+mentioned one where
+
+00:52:52.460 --> 00:52:55.220 align:middle line:84%
+you can characterize nucleic
+acid-protein interactions
+
+00:52:55.220 --> 00:52:56.600 align:middle line:90%
+with one hybrid assay.
+
+00:52:56.600 --> 00:53:00.680 align:middle line:84%
+And here, you can
+inhibit this interaction
+
+00:53:00.680 --> 00:53:03.590 align:middle line:90%
+between the two knowns--
+
+00:53:03.590 --> 00:53:07.970 align:middle line:84%
+sorry, unknowns or partially
+known molecules in blue here.
+
+00:53:07.970 --> 00:53:16.040 align:middle line:84%
+Here's a TGF beta, a growth
+factor, and a binding protein.
+
+00:53:16.040 --> 00:53:19.880 align:middle line:84%
+You can inhibit that with
+a particular small molecule
+
+00:53:19.880 --> 00:53:21.860 align:middle line:84%
+or a collection of
+small molecules, which
+
+00:53:21.860 --> 00:53:25.580 align:middle line:84%
+can be introduced from one of
+these combinatorial syntheses
+
+00:53:25.580 --> 00:53:29.660 align:middle line:84%
+into an array of
+these cellular assays.
+
+00:53:29.660 --> 00:53:34.040 align:middle line:84%
+And you get this
+information about--
+
+00:53:34.040 --> 00:53:36.020 align:middle line:84%
+you can either
+collect a big data
+
+00:53:36.020 --> 00:53:39.500 align:middle line:84%
+set of proteins that interact
+from a proteomic scale
+
+00:53:39.500 --> 00:53:42.920 align:middle line:84%
+experiment, or from molecules
+that inhibit one or more
+
+00:53:42.920 --> 00:53:44.550 align:middle line:90%
+of those interactions.
+
+00:53:44.550 --> 00:53:47.240 align:middle line:84%
+This is a source of
+information, which
+
+00:53:47.240 --> 00:53:50.292 align:middle line:84%
+is intrinsically computational
+in the sense-- well,
+
+00:53:50.292 --> 00:53:52.250 align:middle line:84%
+in the sense that there's
+a large amount of it.
+
+00:53:52.250 --> 00:53:54.620 align:middle line:84%
+You can model the
+three-dimensional structure
+
+00:53:54.620 --> 00:53:57.600 align:middle line:84%
+of this interaction if you have
+sufficient data to do that.
+
+00:53:57.600 --> 00:54:00.740 align:middle line:84%
+And you can model the impact
+of the small molecules
+
+00:54:00.740 --> 00:54:03.410 align:middle line:84%
+in a structure
+activity [? since. ?]
+
+00:54:03.410 --> 00:54:08.390 align:middle line:84%
+Now, if you look at the top
+right-hand part of slide 34
+
+00:54:08.390 --> 00:54:10.790 align:middle line:84%
+here, you can see
+this huge diversity
+
+00:54:10.790 --> 00:54:12.690 align:middle line:84%
+of all of these
+different colored shapes.
+
+00:54:12.690 --> 00:54:17.570 align:middle line:84%
+And if you wanted to use these
+in a combinatorial assay,
+
+00:54:17.570 --> 00:54:20.960 align:middle line:84%
+you'd connect them in
+every pairwise combination
+
+00:54:20.960 --> 00:54:24.530 align:middle line:84%
+and try them against your
+target by some bioassay.
+
+00:54:24.530 --> 00:54:28.280 align:middle line:84%
+However, if that
+library is too large
+
+00:54:28.280 --> 00:54:29.930 align:middle line:90%
+either to make or to screen--
+
+00:54:29.930 --> 00:54:31.880 align:middle line:84%
+typically, to screen--
+then what you can do
+
+00:54:31.880 --> 00:54:35.880 align:middle line:84%
+is, you can study a
+part of the molecule
+
+00:54:35.880 --> 00:54:39.960 align:middle line:84%
+and see-- and then take the
+subset of the diversity that
+
+00:54:39.960 --> 00:54:47.130 align:middle line:84%
+can bind, and then
+take that subset,
+
+00:54:47.130 --> 00:54:50.760 align:middle line:84%
+characterize it, and now make
+only the pairwise combinations
+
+00:54:50.760 --> 00:54:53.470 align:middle line:90%
+of the two half-molecules.
+
+00:54:53.470 --> 00:55:00.720 align:middle line:84%
+And generally speaking, if
+the geometry is fairly rigid,
+
+00:55:00.720 --> 00:55:05.040 align:middle line:84%
+then the binding
+constant will get--
+
+00:55:05.040 --> 00:55:08.230 align:middle line:84%
+will be roughly the product
+of the two binding constants.
+
+00:55:08.230 --> 00:55:10.890 align:middle line:84%
+So if each one has a very
+low binding constant,
+
+00:55:10.890 --> 00:55:14.830 align:middle line:84%
+then it will be roughly
+the square of that.
+
+00:55:14.830 --> 00:55:18.780 align:middle line:84%
+And you get some point
+of diminishing returns,
+
+00:55:18.780 --> 00:55:21.210 align:middle line:90%
+eventually.
+
+00:55:21.210 --> 00:55:24.240 align:middle line:84%
+So this is an example
+of a strategy where
+
+00:55:24.240 --> 00:55:27.900 align:middle line:84%
+you use a little bit of
+prior knowledge, which
+
+00:55:27.900 --> 00:55:32.460 align:middle line:84%
+can be empirical or it could be
+purely computational, about how
+
+00:55:32.460 --> 00:55:36.030 align:middle line:84%
+to limit your library and
+make interesting combinations.
+
+00:55:36.030 --> 00:55:39.860 align:middle line:90%
+
+
+00:55:39.860 --> 00:55:42.800 align:middle line:84%
+Now, we've been talking mainly
+about the kind of chemical
+
+00:55:42.800 --> 00:55:45.350 align:middle line:84%
+diversity we can get that's
+aimed at the ligands that
+
+00:55:45.350 --> 00:55:46.970 align:middle line:90%
+combine to target proteins.
+
+00:55:46.970 --> 00:55:50.780 align:middle line:84%
+But now, we want to talk about
+the source of information
+
+00:55:50.780 --> 00:55:52.860 align:middle line:84%
+about those target
+proteins itself,
+
+00:55:52.860 --> 00:56:01.250 align:middle line:84%
+which is another genomics
+project, structural genomics.
+
+00:56:01.250 --> 00:56:07.250 align:middle line:84%
+And typically, we want to select
+targets for binding drugs,
+
+00:56:07.250 --> 00:56:10.760 align:middle line:84%
+or select targets for solving
+the structures of proteins
+
+00:56:10.760 --> 00:56:14.720 align:middle line:84%
+in order to look at their
+ligands in more detail.
+
+00:56:14.720 --> 00:56:17.900 align:middle line:90%
+And how can we do this?
+
+00:56:17.900 --> 00:56:20.830 align:middle line:84%
+How can we decide which
+targets are high on our list
+
+00:56:20.830 --> 00:56:21.850 align:middle line:90%
+to go for next?
+
+00:56:21.850 --> 00:56:23.650 align:middle line:84%
+We have hundreds of
+proteins for which we
+
+00:56:23.650 --> 00:56:25.240 align:middle line:84%
+have three-dimensional
+structures,
+
+00:56:25.240 --> 00:56:29.770 align:middle line:84%
+and from some of them,
+we have information
+
+00:56:29.770 --> 00:56:32.530 align:middle line:90%
+on what ligands they bind.
+
+00:56:32.530 --> 00:56:34.210 align:middle line:84%
+But these are
+other criteria that
+
+00:56:34.210 --> 00:56:38.170 align:middle line:84%
+are sometimes used in the
+field for target selection.
+
+00:56:38.170 --> 00:56:44.050 align:middle line:84%
+If they are homologous to
+previous interesting targets,
+
+00:56:44.050 --> 00:56:48.190 align:middle line:84%
+then that puts them
+high on the short list.
+
+00:56:48.190 --> 00:56:50.380 align:middle line:84%
+If they are conserved--
+and we've talked about how
+
+00:56:50.380 --> 00:56:53.620 align:middle line:84%
+important conservation
+is from time to time--
+
+00:56:53.620 --> 00:56:56.650 align:middle line:90%
+then that might be an approach.
+
+00:56:56.650 --> 00:57:01.640 align:middle line:84%
+If they're conserved
+and you knock it out,
+
+00:57:01.640 --> 00:57:03.640 align:middle line:84%
+then you might expect
+that to be lethal.
+
+00:57:03.640 --> 00:57:10.510 align:middle line:84%
+And that might make it a good
+target for an anti-bacterial.
+
+00:57:10.510 --> 00:57:18.700 align:middle line:84%
+If you want to limit the action
+of your therapy to the surface
+
+00:57:18.700 --> 00:57:23.980 align:middle line:84%
+in order to, say, reduce
+the cross-reaction
+
+00:57:23.980 --> 00:57:28.270 align:middle line:84%
+with internal molecules,
+you can sometimes
+
+00:57:28.270 --> 00:57:31.360 align:middle line:84%
+restrict yourself to the
+surface-acceptable proteins.
+
+00:57:31.360 --> 00:57:34.000 align:middle line:84%
+And in fact, a very
+large class of drugs
+
+00:57:34.000 --> 00:57:39.500 align:middle line:84%
+is aimed at surface-accessible
+membrane proteins.
+
+00:57:39.500 --> 00:57:42.100 align:middle line:84%
+And so very often, those
+are prioritized high.
+
+00:57:42.100 --> 00:57:44.590 align:middle line:84%
+There are also-- the
+surface-acceptable proteins are
+
+00:57:44.590 --> 00:57:47.720 align:middle line:84%
+important if you're
+talking about vaccines,
+
+00:57:47.720 --> 00:57:50.500 align:middle line:84%
+which is an
+increasingly important--
+
+00:57:50.500 --> 00:57:55.330 align:middle line:84%
+or diagnostics that
+are non-invasive,
+
+00:57:55.330 --> 00:57:59.620 align:middle line:84%
+or at least not going to
+the interior of the cell.
+
+00:57:59.620 --> 00:58:02.110 align:middle line:84%
+And there are ways,
+say, with microarrays,
+
+00:58:02.110 --> 00:58:04.180 align:middle line:84%
+that you can ask which
+genes are differentially
+
+00:58:04.180 --> 00:58:05.590 align:middle line:90%
+expressed in the disease state.
+
+00:58:05.590 --> 00:58:07.780 align:middle line:84%
+And that causes
+high prioritization.
+
+00:58:07.780 --> 00:58:10.750 align:middle line:84%
+Now, once you have that
+prioritization, which
+
+00:58:10.750 --> 00:58:13.720 align:middle line:84%
+comes from, say,
+genome sequencing
+
+00:58:13.720 --> 00:58:17.680 align:middle line:84%
+and some of those
+other facts, then we
+
+00:58:17.680 --> 00:58:19.570 align:middle line:84%
+would like to have--
+you've got your target.
+
+00:58:19.570 --> 00:58:21.400 align:middle line:84%
+You've got your
+genome sequence--
+
+00:58:21.400 --> 00:58:24.340 align:middle line:90%
+
+
+00:58:24.340 --> 00:58:26.152 align:middle line:90%
+gene sequence for that target.
+
+00:58:26.152 --> 00:58:28.360 align:middle line:84%
+How, then, do you get the
+three-dimensional structure
+
+00:58:28.360 --> 00:58:32.680 align:middle line:84%
+that helps you design
+drugs or improve
+
+00:58:32.680 --> 00:58:34.330 align:middle line:90%
+the drugs that you have?
+
+00:58:34.330 --> 00:58:42.280 align:middle line:84%
+Well, one very
+attractive approach,
+
+00:58:42.280 --> 00:58:44.920 align:middle line:84%
+given a protein
+sequence which might
+
+00:58:44.920 --> 00:58:48.430 align:middle line:84%
+get from their deluge
+of genome sequences,
+
+00:58:48.430 --> 00:58:52.150 align:middle line:84%
+the practical approach
+might be to start
+
+00:58:52.150 --> 00:58:54.370 align:middle line:84%
+with this genome sequence--
+this gene sequence which
+
+00:58:54.370 --> 00:58:59.410 align:middle line:84%
+is 99.99% accurate, and try to
+predict the three dimensional
+
+00:58:59.410 --> 00:59:02.410 align:middle line:84%
+structure of the protein
+and its ligand specificity.
+
+00:59:02.410 --> 00:59:04.105 align:middle line:84%
+And if you walk
+through these, these
+
+00:59:04.105 --> 00:59:05.980 align:middle line:84%
+are kind of ballpark
+estimates, some of them
+
+00:59:05.980 --> 00:59:07.060 align:middle line:90%
+better than others.
+
+00:59:07.060 --> 00:59:08.680 align:middle line:84%
+To get from the
+sequence to exons--
+
+00:59:08.680 --> 00:59:10.120 align:middle line:90%
+we talked about this before--
+
+00:59:10.120 --> 00:59:12.065 align:middle line:90%
+might be an 80%.
+
+00:59:12.065 --> 00:59:14.440 align:middle line:84%
+Remember, these numbers really
+should be false positives,
+
+00:59:14.440 --> 00:59:16.160 align:middle line:90%
+false negatives, so on.
+
+00:59:16.160 --> 00:59:21.670 align:middle line:84%
+But this ballpark, 80%, getting
+to exons, exons to genes.
+
+00:59:21.670 --> 00:59:25.660 align:middle line:84%
+If you aren't privileged
+enough to have the cDNA,
+
+00:59:25.660 --> 00:59:29.800 align:middle line:84%
+then this is an
+error-prone process
+
+00:59:29.800 --> 00:59:34.120 align:middle line:90%
+with maybe a 30% success rate.
+
+00:59:34.120 --> 00:59:36.795 align:middle line:84%
+Once you have genes
+knowing it's regulation,
+
+00:59:36.795 --> 00:59:38.920 align:middle line:84%
+whether it's on or off in
+the particular cell types
+
+00:59:38.920 --> 00:59:43.090 align:middle line:84%
+you're interested in, is
+very difficult right now.
+
+00:59:43.090 --> 00:59:47.410 align:middle line:84%
+Knowing the motifs
+is barely a start
+
+00:59:47.410 --> 00:59:48.950 align:middle line:90%
+on getting the full regulation.
+
+00:59:48.950 --> 00:59:51.670 align:middle line:90%
+So I would say 10% or less.
+
+00:59:51.670 --> 00:59:54.280 align:middle line:84%
+Once you have a regulated gene,
+getting the protein sequence
+
+00:59:54.280 --> 00:59:55.030 align:middle line:90%
+is easy.
+
+00:59:55.030 --> 00:59:56.380 align:middle line:90%
+That's the genetic code.
+
+00:59:56.380 --> 00:59:59.110 align:middle line:84%
+Getting from the sequence
+to secondary structure
+
+00:59:59.110 --> 01:00:03.520 align:middle line:84%
+is easy in the context of
+some of these other things,
+
+01:00:03.520 --> 01:00:06.880 align:middle line:84%
+but still, the accuracy
+is only around 77%.
+
+01:00:06.880 --> 01:00:10.240 align:middle line:84%
+I have next to this the
+reference is [? cast, ?]
+
+01:00:10.240 --> 01:00:13.540 align:middle line:84%
+which is something
+that is a competition
+
+01:00:13.540 --> 01:00:16.420 align:middle line:84%
+for computational assessment
+of three-dimensional structure
+
+01:00:16.420 --> 01:00:20.110 align:middle line:84%
+prediction for proteins that's
+been held since, I think, '94,
+
+01:00:20.110 --> 01:00:22.750 align:middle line:84%
+and the next one is coming
+up in a couple of months.
+
+01:00:22.750 --> 01:00:26.270 align:middle line:84%
+And this is kind of the
+big race or bake-off
+
+01:00:26.270 --> 01:00:27.520 align:middle line:90%
+between the different methods.
+
+01:00:27.520 --> 01:00:28.810 align:middle line:90%
+Very exciting.
+
+01:00:28.810 --> 01:00:31.080 align:middle line:84%
+But unfortunately,
+over decades, it's
+
+01:00:31.080 --> 01:00:34.210 align:middle line:84%
+still hovering around 77%
+for secondary structure
+
+01:00:34.210 --> 01:00:39.010 align:middle line:84%
+and about 25% for ab initio
+three-dimensional structure.
+
+01:00:39.010 --> 01:00:41.560 align:middle line:84%
+Then even if you have the
+three-dimensional structure
+
+01:00:41.560 --> 01:00:45.250 align:middle line:84%
+at adequate accuracy, getting
+the ligand specificity
+
+01:00:45.250 --> 01:00:48.760 align:middle line:84%
+is problematic, and it
+depends on the ligand.
+
+01:00:48.760 --> 01:00:50.620 align:middle line:90%
+If it's DNA, it's a good case.
+
+01:00:50.620 --> 01:00:54.580 align:middle line:84%
+If it's a small molecule, it
+can be as low as 10% or worse.
+
+01:00:54.580 --> 01:00:56.500 align:middle line:84%
+Now, since each of
+these are fairly
+
+01:00:56.500 --> 01:01:01.600 align:middle line:84%
+independent of
+estimates, you can
+
+01:01:01.600 --> 01:01:04.940 align:middle line:84%
+get an approximate
+overall accuracy
+
+01:01:04.940 --> 01:01:06.850 align:middle line:84%
+which is a product of
+all of those, which
+
+01:01:06.850 --> 01:01:13.400 align:middle line:90%
+is dismally small at 0.0005.
+
+01:01:13.400 --> 01:01:18.490 align:middle line:84%
+And so it behooves one to use
+as many extra-experimental data
+
+01:01:18.490 --> 01:01:21.580 align:middle line:84%
+as one can, or improve
+the algorithms that
+
+01:01:21.580 --> 01:01:25.780 align:middle line:84%
+are weakest in this journey
+from genome sequence
+
+01:01:25.780 --> 01:01:28.870 align:middle line:90%
+to ligand specificity.
+
+01:01:28.870 --> 01:01:33.190 align:middle line:84%
+We'll pick up this thread
+right after a break
+
+01:01:33.190 --> 01:01:37.420 align:middle line:84%
+and carry on to
+actually how we get
+
+01:01:37.420 --> 01:01:40.720 align:middle line:84%
+the three-dimensional
+structure, whether it's
+
+01:01:40.720 --> 01:01:45.190 align:middle line:84%
+predictive or experimental, and
+the computational tasks there.
+
+01:01:45.190 --> 01:01:46.570 align:middle line:90%
+Thank you.
+
+01:01:46.570 --> 01:01:48.360 align:middle line:90%
+Take a break.
+
+01:01:48.360 --> 01:01:49.000 align:middle line:90%

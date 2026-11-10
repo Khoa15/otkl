@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Set Solutions on MIT OpenCourseWare</title>
+    <link>/resources/problem-set-solutions/</link>
+    <description>Recent content in Problem Set Solutions on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-set-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Brick VI Solution</title>
+      <link>/resources/brick_vi_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/brick_vi_sol/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a problem set: solution to a problem on value iteration on the double integrator problem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 1 Solutions</title>
+      <link>/resources/mit6_832s09_sol_pset01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_832s09_sol_pset01/data.json</guid>
+      <description>&lt;p&gt;Solutions to a problem set on the definition of underactuated, the simple pendulum, and optimal control of the double integrator.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rimless Wheel</title>
+      <link>/resources/rimlesswheel/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rimlesswheel/data.json</guid>
+      <description>&lt;p&gt;Supporting file for a problem set on simulation of a rimless wheel.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Solution to Problem 2</title>
+      <link>/resources/mit6_832s09_sol_pset02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_832s09_sol_pset02/data.json</guid>
+      <description>&lt;p&gt;Solution to a problem on the Pontryagin minimum principle.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

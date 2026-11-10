@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on MIT OpenCourseWare</title>
+    <link>/resources/projects/</link>
+    <description>Recent content in Projects on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autonomous Navigation of a Quadrotor Helicopter Using GPS and Vision Control</title>
+      <link>/resources/mit2_017jf09_sw1_final/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_sw1_final/data.json</guid>
+      <description>&lt;p&gt;Example of student work: a final report for a group project on autonomous navigation of a quadrotor helicopter using GPS and vsion control.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Autonomous Navigation of a Quadrotor Helicopter Using GPS and Vision Control</title>
+      <link>/resources/mit2_017jf09_sw1_milstone/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_sw1_milstone/data.json</guid>
+      <description>&lt;p&gt;Example of student work: milestone presentation for a group project on autonomous navigation of a quadrotor helicopter using GPS and vision control.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Autonomous Navigation, Position Control, and Landing of a Quadrotor Using GPS and Vision</title>
+      <link>/resources/mit2_017jf09_sw1_proposal/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_sw1_proposal/data.json</guid>
+      <description>&lt;p&gt;Example of student work: project proposal for a group project on autonomous navigation, position control, and landing of a quadrotor using GPS and vision.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Final Presentation Slides: What We Expect</title>
+      <link>/resources/mit2_017jf09_final/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_final/data.json</guid>
+      <description>&lt;p&gt;Grading rubric for the final presentation of the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Final Presentation: Boat Crew</title>
+      <link>/resources/mit2_017jf09_sw2_final/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_sw2_final/data.json</guid>
+      <description>&lt;p&gt;Example of student work: final presentation for a group project on the design of an autonomous bridge-mapping hydroplane.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Milestone Presentation</title>
+      <link>/resources/mit2_017jf09_milestone/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_milestone/data.json</guid>
+      <description>&lt;p&gt;Guidelines and grading rubric for milestone presentations for course projects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Milestone Presentation: Boat Crew</title>
+      <link>/resources/mit2_017jf09_sw2_milstone/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_sw2_milstone/data.json</guid>
+      <description>&lt;p&gt;Example of student work: milestone presentation for a group project on the design of an autonomous bridge-mapping hydroplane.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project Descriptions</title>
+      <link>/resources/mit2_017jf09_options/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_options/data.json</guid>
+      <description>&lt;p&gt;Descriptions of the two field robotics projects of the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project Proposal Guidelines</title>
+      <link>/resources/mit2_017jf09_proposal/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_proposal/data.json</guid>
+      <description>&lt;p&gt;Guidelines for creating a project proposal for the group projects of the course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>/pages/projects/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/projects/data.json</guid>
+      <description>&lt;p&gt;Project Descriptions (&lt;a href=&#34;../../resources/mit2_017jf09_options/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Guidelines for each project document were provided by the instructors. All student work is presented with permission of the authors.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;PROJECTS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;PROPOSALS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;MILESTONES&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;REPORTS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Guidelines&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_proposal/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_milestone/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_final/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Group 1: Autonomous Navigation of a Quadrotor Helicopter&lt;br&gt;&#xA;Using GPS and Vision Control&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_sw1_proposal/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_sw1_milstone/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_sw1_final/index.html&#34;&gt;PDF - 2.4MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Group 2: Design of an Autonomous Bridge-Mapping Hydroplane&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_sw2_proposal/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_sw2_milstone/index.html&#34;&gt;PDF - 3.5MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit2_017jf09_sw2_final/index.html&#34;&gt;PDF - 2.9MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>Proposal for a Design of a Autonomous Bridge-Mapping Hydroplane</title>
+      <link>/resources/mit2_017jf09_sw2_proposal/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_017jf09_sw2_proposal/data.json</guid>
+      <description>&lt;p&gt;Example of student work: project proposal for a group project on the design of a autonomous bridge-mapping hydroplane.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

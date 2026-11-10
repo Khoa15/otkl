@@ -1,0 +1,47 @@
+{
+  "content": "<p>Solutions to an exam on microelectronic devices and circuits.</p>\n",
+  "content_type": "resource",
+  "description": "Solutions to an exam on microelectronic devices and circuits.",
+  "draft": false,
+  "file": "/courses/6-012-microelectronic-devices-and-circuits-fall-2009/12df3e5dc374f56d353f8d4f1f121b8d_MIT6_012F09_exam1_sol.pdf",
+  "file_size": 255311,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exam Solutions"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Exams",
+  "parent_type": "CourseSection",
+  "parent_uid": "4023a661-27dc-40df-ec6b-9fb469221263",
+  "resourcetype": "Document",
+  "title": "Answers to Exam 1 - Fall 2009",
+  "uid": "12df3e5d-c374-f56d-353f-8d4f1f121b8d",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-012-microelectronic-devices-and-circuits-fall-2009"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-012-microelectronic-devices-and-circuits-fall-2009"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

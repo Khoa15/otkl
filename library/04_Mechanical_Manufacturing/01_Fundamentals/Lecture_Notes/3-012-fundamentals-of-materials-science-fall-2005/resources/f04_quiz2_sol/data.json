@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This file contains solutions of the questions based on structure and thermodynamics in quiz 2.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains solutions of the questions based on structure and thermodynamics in quiz 2.",
+  "draft": false,
+  "file": "/courses/3-012-fundamentals-of-materials-science-fall-2005/124b66cb8f44001c5435d0a78220f5b4_f04_quiz2_sol.pdf",
+  "file_size": 1026461,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exam Solutions"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Exams",
+  "parent_type": "CourseSection",
+  "parent_uid": "8afa5fc2-30ba-fc0d-8491-0ca406659fd2",
+  "resourcetype": "Document",
+  "title": "f04_quiz2_sol.pdf",
+  "uid": "124b66cb-8f44-001c-5435-d0a78220f5b4",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "3-012-fundamentals-of-materials-science-fall-2005"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "3-012-fundamentals-of-materials-science-fall-2005"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

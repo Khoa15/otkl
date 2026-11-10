@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/a1cb7469ca23dd11da0d859fb68202fe_2_4.jpg",
+  "file_size": 4932,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from 'Introduction to Linear Algebra' by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Orthogonal Matrices and Gram-Schmidt",
+  "parent_type": "CourseSection",
+  "parent_uid": "2376f3e0-0c4d-e0f6-6346-53041d685aed",
+  "resourcetype": "Image",
+  "title": "2_4.jpg",
+  "uid": "a1cb7469-ca23-dd11-da0d-859fb68202fe",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

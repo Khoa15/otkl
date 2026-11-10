@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Description:</strong> In this lecture, Prof. David Gifford discusses transcriptional regulation. He talks about techniques that can elucidate how genes are regulated, and how gene regulators interact with the genome.</p>\n<p><strong>Instructor:</strong> Prof. David Gifford</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "191377593",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Video Lectures",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Leture 7: ChIP-seq Analysis; DNA-protein Interactions",
+  "uid": "1f66ae49-7991-d30d-22f0-5cc1647622b3",
+  "video_files": {
+    "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec07_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/a79b63ddb4f75fa58ab286aeb12f2b7f_Ob9xGBPvr_s.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/Ob9xGBPvr_s/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/18c5826f6d3976ff54ba7e7cc511b890_Ob9xGBPvr_s.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, chip-seq, gene expression, gene regulation, genome positioning system, molecular switch, transcription factors",
+    "youtube_id": "Ob9xGBPvr_s"
+  }
+}

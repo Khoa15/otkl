@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture presentation on differential amplifiers, large signal transfer characteristics, and small signal analysis using common- and difference-mode inputs.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture presentation on differential amplifiers, large signal transfer characteristics, and small signal analysis using common- and difference-mode inputs.",
+  "draft": false,
+  "file": "/courses/6-012-microelectronic-devices-and-circuits-fall-2009/9932f87a7b5ec3d088d0e0836a05c622_MIT6_012F09_lec19.pdf",
+  "file_size": 704425,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "e4c7985c-766a-2f9c-5bac-08869dd8bade",
+  "resourcetype": "Document",
+  "title": "Lecture 19 - Differential Amplifier Stages",
+  "uid": "9932f87a-7b5e-c3d0-88d0-e0836a05c622"
+}

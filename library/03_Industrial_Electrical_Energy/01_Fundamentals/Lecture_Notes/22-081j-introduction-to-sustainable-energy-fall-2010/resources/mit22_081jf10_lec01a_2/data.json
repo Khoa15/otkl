@@ -1,0 +1,47 @@
+{
+  "audience": [],
+  "content": "<p>This resource contains information related to energy uses in different countries.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information related to energy uses in different countries.",
+  "draft": false,
+  "file": "/courses/22-081j-introduction-to-sustainable-energy-fall-2010/ff50ecb2db48f84755b97c270f386dd0_MIT22_081JF10_lec01a_2.pdf",
+  "file_size": 9823557,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lectures and Readings",
+  "parent_type": "CourseSection",
+  "parent_uid": "e7a00e10-1594-2743-50ff-a5b52e167aa5",
+  "resourcetype": "Document",
+  "title": "MIT22_081JF10_lec01a_2.pdf",
+  "uid": "ff50ecb2-db48-f847-55b9-7c270f386dd0",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": {
+      "content": [],
+      "website": "22-081j-introduction-to-sustainable-energy-fall-2010"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_resources": {
+      "content": [],
+      "website": "22-081j-introduction-to-sustainable-energy-fall-2010"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

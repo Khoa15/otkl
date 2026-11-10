@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Course Introduction</title>
+      <link>/resources/mitesd_33sum10_lec01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitesd_33sum10_lec01/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on systems, systems engineering, and why we study systems engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Critical Parameter Development &amp; Mgt.</title>
+      <link>/resources/mitesd_33sum10_lec07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitesd_33sum10_lec07/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on critical parameter development and management, deriving capability indices, and seven checks for criticality.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Experiments: Strategy, Design, Analysis</title>
+      <link>/resources/mitesd_33sum10_lec10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitesd_33sum10_lec10/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on the role of experiments in systems engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Innovation in Systems  Engineering</title>
+      <link>/resources/mitesd_33sum10_lec05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitesd_33sum10_lec05/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on innovation in systems engineering, individuals&amp;rsquo; creativity in systems design, and innovation in large systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;Notes are available for select lectures below.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SES #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LECTURE NOTES&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Introduction&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mitesd_33sum10_lec01/index.html&#34;&gt;PDF - 2.0MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Systems engineering as a human activity&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mitesd_33sum10_lec02/index.html&#34;&gt;PDF - 2.1MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Student project proposal presentations&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Stakeholders and requirements, requirements and management&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Part 1 (&lt;a href=&#34;../../resources/mitesd_33sum10_lec04a/index.html&#34;&gt;PDF - 1.6MB&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Part 2 (&lt;a href=&#34;../../resources/mitesd_33sum10_lec04b/index.html&#34;&gt;PDF - 2.1MB&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Innovation in systems engineering&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mitesd_33sum10_lec05/index.html&#34;&gt;PDF - 1.1MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;6&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Requirements driven systems design&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mitesd_33sum10_lec06/index.html&#34;&gt;PDF - 3.2MB&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Operating Operating Windows Windows for Robust Concept Design (and other advanced topics in Robust Design)</title>
+      <link>/resources/mitesd_33sum10_lec12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitesd_33sum10_lec12/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on operating window methods methods, concept design strategies, adaptive one-variable-at-a-time (OFAT) for robust design, and noise strategy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PDSS Critical Parameter Development &amp; Mgt. Process Quick Guide</title>
+      <link>/resources/mitesd_33sum10_lec07b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitesd_33sum10_lec07b/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation providing a quick guide to critical parameter development and management.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Requirements Driven Systems Design</title>
+      <link>/resources/mitesd_33sum10_lec06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitesd_33sum10_lec06/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on requirements driven systems design, axiomatic design, design structure matrix for technical systems, and the DM-DSM method.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Requirements Engineering Part 1</title>
+      <link>/resources/mitesd_33sum10_lec04a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitesd_33sum10_lec04a/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on requirements engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Requirements Engineering Part 2</title>
+      <link>/resources/mitesd_33sum10_lec04b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitesd_33sum10_lec04b/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on requirements engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Systems Engineering as a Human Activity</title>
+      <link>/resources/mitesd_33sum10_lec02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitesd_33sum10_lec02/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on the role of humans in systems engineering, the human cognitive limitation, challenges facing organizations designing large systems, challenges facing systems engineers, and an introduction to automotive powertrain systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The 12 Step Process to Develop Critical Parameters</title>
+      <link>/resources/mitesd_33sum10_lec07c/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mitesd_33sum10_lec07c/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on the twelve step process to develop critical parameters.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

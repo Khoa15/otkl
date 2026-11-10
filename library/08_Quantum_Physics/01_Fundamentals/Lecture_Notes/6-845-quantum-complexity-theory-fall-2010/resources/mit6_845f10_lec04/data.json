@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains information related to BQP and classical friends.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information related to BQP and classical friends. ",
+  "draft": false,
+  "file": "/courses/6-845-quantum-complexity-theory-fall-2010/59b32d603954c2f22a331ffb689706f3_MIT6_845F10_lec04.pdf",
+  "file_size": 212511,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "0ae74169-1168-dcc5-4644-05254b3e4264",
+  "resourcetype": "Document",
+  "title": "MIT6_845F10_lec04.pdf",
+  "uid": "59b32d60-3954-c2f2-2a33-1ffb689706f3"
+}

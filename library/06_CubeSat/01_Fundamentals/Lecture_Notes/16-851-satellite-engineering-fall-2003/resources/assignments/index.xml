@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on MIT OpenCourseWare</title>
+    <link>/resources/assignments/</link>
+    <description>Recent content in Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignments</title>
+      <link>/pages/assignments/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/assignments/data.json</guid>
+      <description>&lt;p&gt;Overview&lt;/p&gt;&#xA;&lt;p&gt;Homework assignments for this course will indicate the scope of the design to undertake e.g., how many factors to optimize between, but rarely the specific problem to solve.  Instead, student teams will choose problems of interest, and refine their design objectives in consultation with the faculty.  In that regard, each student team will propose both the problem and the solution.&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;process&#34;&gt;Process&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Homework for this class will be completed in teams that are selected by the instructors and changed during the semester. Homework will be handed out every other Wednesday and will be due one week later. In some cases each team&amp;rsquo;s homework problems may be unique. When homework is turned in you should make two copies of your work, one for the instructor and one for another team to evaluate. In the next week you will prepare an evaluation of the other team&amp;rsquo;s work.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

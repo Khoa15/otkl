@@ -1,0 +1,27 @@
+{
+  "content": "<p>An energy-harvesting autonomous vessel built by students in Fall 2009 to operate in the Charles River. It&rsquo;s based on a Wheeler model sailboat hull, augmented with two pontoons for stability, two thrusters, and a 5W solar panel. Instrumentation includes a sonar range sensor, a camera, GPS, compass, and a computer for control. (Photo by Franz Hover. Used with permission.)</p>\n",
+  "content_type": "resource",
+  "description": "An energy-harvesting autonomous vessel built by students in Fall 2009 to operate in the Charles River. It's based on a Wheeler model sailboat hull, augmented with two pontoons for stability, two thrusters, and a 5W solar panel. Instrumentation includes a sonar range sensor, a camera, GPS, compass, and a computer for control. (Photo by Franz Hover. Used with permission.)",
+  "draft": false,
+  "file": "/courses/2-017j-design-of-electromechanical-robotic-systems-fall-2009/2-017jf09.jpg",
+  "file_size": 33046,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "An energy-harvesting autonomous vessel built by students in Fall 2009 to operate in the Charles River. It's based on a Wheeler model sailboat hull, augmented with two pontoons for stability, two thrusters, and a 5W solar panel. Instrumentation includes a sonar range sensor, a camera, GPS, compass, and a computer for control. (Photo by Franz Hover. Used with permission.)",
+    "credit": "",
+    "image-alt": "A long slim white hull sits in a cradle, with PVC/Styrofoam pontoons extending to the sides, and a solar panel and periscope assembly sitting on top."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "An energy-harvesting autonomous vessel",
+  "uid": "3603c65f-2db2-f010-86d6-8508804bd3f4",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

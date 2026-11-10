@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exams on MIT OpenCourseWare</title>
+    <link>/resources/exams/</link>
+    <description>Recent content in Exams on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>exam1_2004.pdf</title>
+      <link>/resources/exam1_2004/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam1_2004/data.json</guid>
+      <description>&lt;p&gt;Exam problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exam2_2004.pdf</title>
+      <link>/resources/exam2_2004/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam2_2004/data.json</guid>
+      <description>&lt;p&gt;Exam problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exam3_2004.pdf</title>
+      <link>/resources/exam3_2004/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exam3_2004/data.json</guid>
+      <description>&lt;p&gt;Exam problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Exams</title>
+      <link>/pages/exams/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/exams/data.json</guid>
+      <description>&lt;p&gt;Exams listed in the table below cover material from the corresponding lecture sessions.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;lec #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;exams&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Lectures 1-10&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Exam I (&lt;a href=&#34;../../resources/exam1_2004/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Lectures 11-18&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Exam II (&lt;a href=&#34;../../resources/exam2_2004/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Lectures 19-30&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Exam III (&lt;a href=&#34;../../resources/exam3_2004/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;The final exam is comprehensive and covers material from the entire course with an emphasis on material from lectures 31-36.&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Final Exam&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;/table&gt;</description>
+    </item>
+    <item>
+      <title>exams_1993.pdf</title>
+      <link>/resources/exams_1993/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exams_1993/data.json</guid>
+      <description>&lt;p&gt;This collection of exams given in past years is affectionately known as the 7.03 Bible. Using these along with the assignments will give the student a great deal of help in this class.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exams_1994.pdf</title>
+      <link>/resources/exams_1994/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exams_1994/data.json</guid>
+      <description>&lt;p&gt;This collection of exams given in past years is affectionately known as the 7.03 Bible. Using these along with the assignments will give the student a great deal of help in this class.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exams_1995.pdf</title>
+      <link>/resources/exams_1995/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exams_1995/data.json</guid>
+      <description>&lt;p&gt;This collection of exams given in past years is affectionately known as the 7.03 Bible. Using these along with the assignments will give the student a great deal of help in this class.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exams_1996.pdf</title>
+      <link>/resources/exams_1996/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exams_1996/data.json</guid>
+      <description>&lt;p&gt;This collection of exams given in past years is affectionately known as the 7.03 Bible. Using these along with the assignments will give the student a great deal of help in this class.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exams_1997.pdf</title>
+      <link>/resources/exams_1997/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exams_1997/data.json</guid>
+      <description>&lt;p&gt;This collection of exams given in past years is affectionately known as the 7.03 Bible. Using these along with the assignments will give the student a great deal of help in this class.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exams_1998.pdf</title>
+      <link>/resources/exams_1998/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exams_1998/data.json</guid>
+      <description>&lt;p&gt;This collection of exams given in past years is affectionately known as the 7.03 Bible. Using these along with the assignments will give the student a great deal of help in this class.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exams_1999.pdf</title>
+      <link>/resources/exams_1999/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exams_1999/data.json</guid>
+      <description>&lt;p&gt;This collection of exams given in past years is affectionately known as the 7.03 Bible. Using these along with the assignments will give the student a great deal of help in this class.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exams_2000.pdf</title>
+      <link>/resources/exams_2000/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exams_2000/data.json</guid>
+      <description>&lt;p&gt;This collection of exams given in past years is affectionately known as the 7.03 Bible. Using these along with the assignments will give the student a great deal of help in this class.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exams_2001.pdf</title>
+      <link>/resources/exams_2001/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exams_2001/data.json</guid>
+      <description>&lt;p&gt;This collection of exams given in past years is affectionately known as the 7.03 Bible. Using these along with the assignments will give the student a great deal of help in this class.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>exams_2002.pdf</title>
+      <link>/resources/exams_2002/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/exams_2002/data.json</guid>
+      <description>&lt;p&gt;This collection of exams given in past years is affectionately known as the 7.03 Bible. Using these along with the assignments will give the student a great deal of help in this class.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

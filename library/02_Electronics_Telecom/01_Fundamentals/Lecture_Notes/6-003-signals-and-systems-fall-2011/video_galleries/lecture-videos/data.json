@@ -1,0 +1,1118 @@
+
+{
+  "content": "<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-1-signals-and-systems/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/-FHm2pQmiSM/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 1: Signals and Systems</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-2-discrete-time-dt-systems/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/Ih4s5IFphCw/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 2: Discrete-Time (DT) Systems</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-3-feedback-poles-and-fundamental-modes/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/K3OFb7RlbVE/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 3: Feedback, Poles, and Fundamental Modes</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-4-continuous-time-ct-systems/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/4PlHFcfB8DA/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 4: Continuous-Time (CT) Systems</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-5-z-transform/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/iI-ejO9hczw/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 5: Z Transform</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-6-laplace-transform/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/MRy8xxvsZA4/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 6: Laplace Transform</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-7-discrete-approximation-of-continuous-time-systems/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/pqkYqU11ETA/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 7: Discrete Approximation of Continuous-Time Systems</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-8-convolution/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/w1Z2FX8rQc0/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 8: Convolution    </h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-9-frequency-response/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/fKaZeD70p8I/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 9: Frequency Response    </h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-10-feedback-and-control/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/TeVSxZgIHAA/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 10: Feedback and Control    </h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-11-continuous-time-ct-frequency-response-and-bode-plot/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/2X7o37pfdp8/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 11: Continuous-Time (CT) Frequency Response and Bode Plot</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-12-continuous-time-ct-feedback-and-control-part-1/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/5w2BvCPuYY0/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 12: Continuous-Time (CT) Feedback and Control, Part 1</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-13-continuous-time-ct-feedback-and-control-part-2/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/gxgV_oOG7Zc/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 13: Continuous-Time (CT) Feedback and Control, Part 2</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-14-fourier-representations/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/ufU6b7OHb8M/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 14: Fourier Representations</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-15-fourier-series/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/N0CVIoVQkmc/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 15: Fourier Series</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-16-fourier-transform/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/iWZNTM139xQ/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 16: Fourier Transform</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-17-discrete-time-dt-frequency-representations/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/gwa-Rh0u6bs/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 17: Discrete-Time (DT) Frequency Representations</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-18-discrete-time-dt-fourier-representations/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/3D51nqZ-97Q/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 18: Discrete-Time (DT) Fourier Representations</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-19-relations-among-fourier-representations/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/HDYAbIA-DNY/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 19: Relations Among Fourier Representations</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-20-applications-of-fourier-transforms/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/tp_MdKz3fC8/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 20: Applications of Fourier Transforms</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-21-sampling/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/1El4znkRH0g/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 21: Sampling</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-22-sampling-and-quantization/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/bJvv5SckGeA/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 22: Sampling and Quantization</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-23-modulation-part-1/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/OT04cEdpK-M/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 23: Modulation, Part 1</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-24-modulation-part-2/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/OfMhtibbVXU/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 24: Modulation, Part 2</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-25-audio-cd/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/t2hNMFoIv8w/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 25: Audio CD</h5>\n      </div>\n    </div>\n  </a>\n</div>\n\n\n",
+  "content_type": "video_gallery",
+  "description": "This section provides lecture videos for the course.",
+  "draft": false,
+  "is_media_gallery": true,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "ocw_type": "CourseSection",
+  "title": "Lecture Videos",
+  "uid": "47b07fed-f3a3-0be2-5f15-5f62399cdb59",
+  "videos": [
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "112136694",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Signals and Systems (PDF)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec01)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 1: Signals and Systems",
+      "uid": "c726474f-f26b-5217-2619-a8f9bbf81dd5",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec01_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/ffd5c64a93b95e078aa2a1fb6afc56d1_-FHm2pQmiSM.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/-FHm2pQmiSM/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/34f39bd3ed0c3fd1599261bbf550a706_-FHm2pQmiSM.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, composition, continuous time, discrete time, functions, sampling, signals, systems, transform",
+        "youtube_id": "-FHm2pQmiSM"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "112433637",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Discrete-Time (DT) Systems (PDF)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec02)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 2: Discrete-Time (DT) Systems",
+      "uid": "01839aba-a99a-57c7-9339-c66b76c09eec",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec02_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/fce58323db5b5081b7604058331475e5_Ih4s5IFphCw.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/Ih4s5IFphCw/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/4bb4e1495d50becc405b7edcbedf07d9_Ih4s5IFphCw.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, block diagram, convergence, difference equation, discrete time, divergence, fundamental mode, geometric growth, negative feedback, operator notation, polynomial, positive feedback, unit sample",
+        "youtube_id": "Ih4s5IFphCw"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "118160715",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Feedback, Poles, and Fundamental Modes (PDF - 1.0MB)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec03)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 3: Feedback, Poles, and Fundamental Modes",
+      "uid": "c83805c6-55df-4d84-cc69-49ebfbf05b42",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec03_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/e414461b8483533abf1445a2188a4ef4_K3OFb7RlbVE.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/K3OFb7RlbVE/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/95b30078bb96eaee3912cd77529068e5_K3OFb7RlbVE.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, discrete time, feedback, fibonacci sequence, first-order, fundamental mode, geometric growth, partial fraction, poles, polynomial, population growth, second-order, system functional, unit sample",
+        "youtube_id": "K3OFb7RlbVE"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "121900324",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Continuous-Time (CT) Systems (PDF)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec04)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 4: Continuous-Time (CT) Systems",
+      "uid": "611bff0b-5513-782f-1846-01f95841df86",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec04_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/a6c54279a9665de1b5990ffea15edf34_4PlHFcfB8DA.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/4PlHFcfB8DA/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/c6f124d6f8003afca2949c84b4035955_4PlHFcfB8DA.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, complex conjugate, continuous time, convergence, discrete time, divergence, feedback loop, fundamental mode, infinite series, poles, system functional, unit impulse, unit step",
+        "youtube_id": "4PlHFcfB8DA"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "112039486",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Z Transform (PDF)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec05)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 5: Z Transform",
+      "uid": "400326dd-bc2b-7b0d-f39a-d3a9eb7866cc",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec05_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/7e47bf9c5d9d50df8d52cc915f22dffd_iI-ejO9hczw.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/iI-ejO9hczw/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/1e9be9dbb105bc9928efa107b0204c15_iI-ejO9hczw.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, discrete time, inverse z transform, poles, polynomial, region of convergence, system function, z transform, zeros",
+        "youtube_id": "iI-ejO9hczw"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "104637758",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Laplace Transform (PDF)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec06)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 6: Laplace Transform",
+      "uid": "b07bd25e-99c6-1fa1-6354-8ac901a0b605",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec06_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/88768e04b169577e90cfc346369b0994_MRy8xxvsZA4.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/MRy8xxvsZA4/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/adfeeefadde13d524dcd075e65a4be0b_MRy8xxvsZA4.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, continuous time, inverse laplace transform, laplace transform, poles, polynomial, region of convergence, system function",
+        "youtube_id": "MRy8xxvsZA4"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "104518199",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Discrete Approximation of Continuous-Time Systems (PDF)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec07)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 7: Discrete Approximation of Continuous-Time Systems",
+      "uid": "c62cf2d7-d216-e6f3-7bb2-03e9c1a49394",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec07_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/4499a77fc626582583f793a2edc5df71_pqkYqU11ETA.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/pqkYqU11ETA/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/83c06055a4949ea8065de609ce66720d_pqkYqU11ETA.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, backward euler approximation, continuous time, discrete time, forward euler approximation, poles, trapezoidal rule, unit step response",
+        "youtube_id": "pqkYqU11ETA"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "123778155",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Convolution (PDF - 2.0MB)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec08)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 8: Convolution    ",
+      "uid": "8ebc62c8-c0f0-7649-8970-770f7c4e946f",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec08_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/d15acd3c1f48534f81d5622db34db115_w1Z2FX8rQc0.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/w1Z2FX8rQc0/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/9da2f48cf2e15b9dab6dc259444c369b_w1Z2FX8rQc0.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, blurring, convolution, linearity, microscope, superposition, telescope, time-invariance, unit impulse, unit sample",
+        "youtube_id": "w1Z2FX8rQc0"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "116837523",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Lecture 9: Frequency Response (PDF - 1.6MB)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec09)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 9: Frequency Response    ",
+      "uid": "f948bb02-3586-3fe2-45cd-8e7cd1426254",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec09_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/132d4c16c39a58afb5f84ba01f1fb26e_fKaZeD70p8I.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/fKaZeD70p8I/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/18338f7eb06b1ad87b319e4d6b4e9ac8_fKaZeD70p8I.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, complex exponential, eigenfunction, eigenvalue, frequency response, laplace transform, linearity, magnitude, phase, poles, sinusoid, time-invariance, vector diagram, zeros",
+        "youtube_id": "fKaZeD70p8I"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "82973361",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Feedback and Control (PDF - 1.4MB)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec10)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 10: Feedback and Control    ",
+      "uid": "beb682d7-ab19-745c-4e7b-53aa07b17eea",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec10_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/cf8408c0972e54cf9136afdf7e5003a8_TeVSxZgIHAA.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/TeVSxZgIHAA/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/fbdac274e8d193bc22c47d1be02e6746_TeVSxZgIHAA.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, control, convergence, feedback, gain, optimization, poles, stability",
+        "youtube_id": "TeVSxZgIHAA"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "122935045",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Continuous-Time (CT) Frequency Response and Bode Plot (PDF - 1.1MB)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec11)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 11: Continuous-Time (CT) Frequency Response and Bode Plot",
+      "uid": "c11acf8e-4a70-41ee-1718-7122e81d804a",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec11_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/e9e15bb6bd675cbea0e062a71b268604_2X7o37pfdp8.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/2X7o37pfdp8/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/99ec4ca1ff0bf4896d16105e0313ed55_2X7o37pfdp8.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, asymptote, bode plot, complex roots, decibel, frequency response, log-log plot, magnitude, phase, poles, q factor, vector diagram, zeros",
+        "youtube_id": "2X7o37pfdp8"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "114154555",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Continuous-Time (CT) Feedback and Control, Part 1 (PDF)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec12)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 12: Continuous-Time (CT) Feedback and Control, Part 1",
+      "uid": "5277acbc-3461-158b-2e32-12b4e39d343c",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec12_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/6feb07b71d255a6d92fe307fbca5d199_5w2BvCPuYY0.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/5w2BvCPuYY0/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/6530b4a17893d42255fcc8590fef2d80_5w2BvCPuYY0.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, bandwidth, closed-loop, demonstration, feedback, first-order model, gain, motor, op-amp, open-loop, optimization, poles, second-order model, zeros",
+        "youtube_id": "5w2BvCPuYY0"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "112467439",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Continuous-Time (CT) Feedback and Control, Part 2 (PDF)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec13)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 13: Continuous-Time (CT) Feedback and Control, Part 2",
+      "uid": "a4193532-08bc-b51c-6981-72dd97e56753",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec13_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/ca727b30e05558b4b83bbbe338d49649_gxgV_oOG7Zc.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/gxgV_oOG7Zc/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/17978607bd9e9c1d8adc909b838c693b_gxgV_oOG7Zc.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, amplifier, demonstration, feedback, gain, mp3, negative feedback, optimization, poles, positive feedback, stability, transistor, unstable system, zeros",
+        "youtube_id": "gxgV_oOG7Zc"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "115608209",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Fourier Representations (PDF)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec14)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 14: Fourier Representations",
+      "uid": "f6a96c49-7ba7-41bb-923d-a87529a38136",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec14_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/cb17907b1194532f8df7ef8a0f2a7e34_ufU6b7OHb8M.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/ufU6b7OHb8M/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/55aa4350f2f75f225fee9bfdf3b88bd7_ufU6b7OHb8M.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, consonance, convergence, dissonance, eigenfunction, filter, fourier coefficients, fourier series, gibbs phenomenon, harmonic function, low-pass filter, periodic signal, rc circuit, sinusoid, square wave, superposition, triangle wave",
+        "youtube_id": "ufU6b7OHb8M"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "109362831",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Fourier Series (PDF)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec15)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 15: Fourier Series",
+      "uid": "9e7405e7-4156-76a2-b45c-3ff5e3d987d2",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec15_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/bf083d91dac55192916d86b2a5acfabd_N0CVIoVQkmc.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/N0CVIoVQkmc/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/c4d391ded7fe876e51732f3bfc0e6bd9_N0CVIoVQkmc.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, complex conjugate, fourier series, glottis, harmonic, low-pass filter, orthogonality, periodic function, speech synthesis, square wave, triangle wave, vocal tract, vowels",
+        "youtube_id": "N0CVIoVQkmc"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "105655681",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Fourier Transform (PDF)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec16)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 16: Fourier Transform",
+      "uid": "5fbda7f6-0306-2910-9274-f1988f447d39",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec16_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/989882f5adda58a792f480b0afb7069e_iWZNTM139xQ.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/iWZNTM139xQ/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/4880224b3b459c3b3579e19055d58b7d_iWZNTM139xQ.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, aperiodic function, duality, fourier transform, inverse fourier transform, laplace transform, linearity",
+        "youtube_id": "iWZNTM139xQ"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "118583256",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Discrete-Time (DT) Frequency Representations (PDF)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec17)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 17: Discrete-Time (DT) Frequency Representations",
+      "uid": "93758409-1e24-2e23-8868-075269c73291",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec17_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/e6e3248d69ee59c3b799f4a2c621402f_gwa-Rh0u6bs.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/gwa-Rh0u6bs/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/44df893f7ea16f9311027e9f759e6554_gwa-Rh0u6bs.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, audio processing, complex conjugate, continuous time, discrete time, fourier series, frequency response, harmonic function, high-pass filter, matrix, orthogonality, poles, sinusoid, vector diagrams, z transform, zeros",
+        "youtube_id": "gwa-Rh0u6bs"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "119172435",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Discrete-Time (DT) Fourier Representations (PDF - 2.3MB)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec18)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 18: Discrete-Time (DT) Fourier Representations",
+      "uid": "6cf031b7-5b40-b8da-42b0-6246a2633eed",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec18_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/707b71b494935c879f21adcc0c35e01f_3D51nqZ-97Q.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/3D51nqZ-97Q/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/77ac2160d71360f9b7169ff32cb1645b_3D51nqZ-97Q.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, all-pass filter, aperiodic function, audio processing, complex conjugate, discrete time, fast fourier transform, image processing, poles, z transform, zeros",
+        "youtube_id": "3D51nqZ-97Q"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "109703600",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Relations Among Fourier Representations (PDF)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec19)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 19: Relations Among Fourier Representations",
+      "uid": "b337e541-707d-5aef-b6a1-cc3b98184d53",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec19_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/b7fdcf9047cd5eb4aa4cbd5b33bfc785_HDYAbIA-DNY.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/HDYAbIA-DNY/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/d581337403d046f57e857c2057264f7c_HDYAbIA-DNY.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, aperiodic function, continuous time, convolution, discrete time, fourier series, fourier transform, impulse train, interpolation, periodic function, sampling",
+        "youtube_id": "HDYAbIA-DNY"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "115763785",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": " Lecture Slides",
+      "optional_text": "[Applications of Fourier Transforms (PDF)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec20)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 20: Applications of Fourier Transforms",
+      "uid": "df1a3043-4761-d683-568b-462b4508aa9b",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec20_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/03894393da0055e09d433e47951f2560_tp_MdKz3fC8.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/tp_MdKz3fC8/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/40a10eb704ef8a0338335a752a9a277d_tp_MdKz3fC8.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, cd, diffraction grating, dna, dvd, electrocardiogram, fourier transform, high-pass filter, low-pass filter, notch filter, poles, x-ray crystallography, zeros",
+        "youtube_id": "tp_MdKz3fC8"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "120986657",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Sampling (PDF)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec21)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 21: Sampling",
+      "uid": "db78e8d9-93e8-cb81-ea70-001b1b0a34a8",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec21_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/28ec6f0e9640508d9e9768e0577b4b87_1El4znkRH0g.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/1El4znkRH0g/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/c148aa5e8549e31f8a9a7fbcbde7ddfa_1El4znkRH0g.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, anti-aliasing, bandlimited reconstruction, continuous time, discrete time, fourier transform, impulse reconstruction, impulse train, low-pass filter, nyquist rate, sampling",
+        "youtube_id": "1El4znkRH0g"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "122155209",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Sampling and Quantization (PDF - 3.3MB)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec22)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 22: Sampling and Quantization",
+      "uid": "a730ac3a-7a62-a76f-e5b9-f4a5d3a5a860",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec22_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/d830c5b6b78a571187789ca9c02833c3_bJvv5SckGeA.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/bJvv5SckGeA/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/53d6bf2b4ced2e142667cac27f24d6fb_bJvv5SckGeA.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, amplitude, bits, compression, discrete cosine transformation, dithering, encoding, jpeg, pseudorandom noise, quantization, robert's technique, sampling, visual artifact",
+        "youtube_id": "bJvv5SckGeA"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "117930716",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Modulation, Part 1 (PDF)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec23)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 23: Modulation, Part 1",
+      "uid": "205e5d36-58d9-17ac-846f-03984fa26e3b",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec23_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/a7b72b2b51195ec597cff96a53ba402f_OT04cEdpK-M.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/OT04cEdpK-M/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/81ecf59fd505edfd962fc3db6f893b9a_OT04cEdpK-M.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, antenna, carrier wave, cell phone network, communication systems, filter, frequency, modulation, multiplexing, radio receiver, sinusoid, synchronous demodulation, wavelength, wireless",
+        "youtube_id": "OT04cEdpK-M"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "99657304",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Modulation, Part 2 (PDF - 1.5MB)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec24)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 24: Modulation, Part 2",
+      "uid": "694a07eb-db66-3052-6d83-ca5bb6e077a8",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec24_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/f36be472439b5eb397bb6570af8f0222_OfMhtibbVXU.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/OfMhtibbVXU/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/fdbf04c8a930ee296bf732eb4bcb0ef3_OfMhtibbVXU.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, amplitude modulation, bandwidth, carrier wave, fourier transform, frequency modulation, optical microscopy, phase modulation, point-spread function, radio",
+        "youtube_id": "OfMhtibbVXU"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "106292738",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "Lecture Slides",
+      "optional_text": "[Audio CD (PDF - 3.3MB)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec25)",
+      "parent_title": "Lecture Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 25: Audio CD",
+      "uid": "bef5f164-a7bc-077a-9af8-20fdc03a6ea1",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec25_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/89b246b8edc85068b372a7fcde5835e8_t2hNMFoIv8w.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/t2hNMFoIv8w/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-003-signals-and-systems-fall-2011/3ca832a14f917e45a3f70614b2f81eee_t2hNMFoIv8w.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-003-signals-and-systems-fall-2011, anti-aliasing, cd, dvd, feedback control, interferometry, op-amp, phonograph, record player, sampling, thomas edison, vinyl record, wax cylinder",
+        "youtube_id": "t2hNMFoIv8w"
+      }
+    }
+  ]
+}
+

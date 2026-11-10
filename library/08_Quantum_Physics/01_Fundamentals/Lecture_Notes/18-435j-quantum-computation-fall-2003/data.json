@@ -1,0 +1,124 @@
+{
+  "course_description": "This course provides an introduction to the theory and practice of quantum computation. Topics covered include: physics of information processing, quantum logic, quantum algorithms including Shor's factoring algorithm and Grover's search algorithm, quantum error correction, quantum communication, and cryptography.\n",
+  "course_description_html": "This course provides an introduction to the theory and practice of quantum computation. Topics covered include: physics of information processing, quantum logic, quantum algorithms including Shor&rsquo;s factoring algorithm and Grover&rsquo;s search algorithm, quantum error correction, quantum communication, and cryptography.",
+  "course_image": {
+    "content": "16e4d41c-b81f-9011-b985-fc465397aa7e",
+    "website": "18-435j-quantum-computation-fall-2003"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "Circuit for quantum counting. (Figure courtesy of Yuan-Chung Cheng.)",
+    "draft": false,
+    "file": "/courses/18-435j-quantum-computation-fall-2003/16e4d41cb81f9011b985fc465397aa7e_18-435jf03.jpg",
+    "file_size": 69826,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "Circuit for quantum counting. (Figure courtesy of Yuan-Chung Cheng.)",
+      "credit": "",
+      "image-alt": "A diagram of the circuit."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "18-435jf03.jpg",
+    "uid": "16e4d41c-b81f-9011-b985-fc465397aa7e"
+  },
+  "course_image_thumbnail": {
+    "content": "b32e32f4-41bb-8e92-14b1-bcbfcb13f207",
+    "website": "18-435j-quantum-computation-fall-2003"
+  },
+  "course_title": "Quantum Computation",
+  "department_numbers": [
+    "18",
+    "2",
+    "ESD"
+  ],
+  "extra_course_numbers": "2.111J,ESD.79J",
+  "image_src": "./static_resources/16e4d41cb81f9011b985fc465397aa7e_18-435jf03.jpg",
+  "instructors": [
+    {
+      "first_name": "Peter",
+      "last_name": "Shor",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Peter Shor",
+      "uid": "3bf5f61b-2e8c-20df-bdac-e578d6c753de",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Peter+Shor"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Notes",
+    "Problem Sets",
+    "Problem Set Solutions",
+    "Exams",
+    "Exam Solutions"
+  ],
+  "legacy_uid": "d2d30929-9243-8e66-4102-a4039f063df3",
+  "level": [
+    "Graduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Data Science, Analytics & Computer Technology",
+      "Algorithms and Data Structures"
+    ],
+    [
+      "Data Science, Analytics & Computer Technology",
+      "Computer Science"
+    ],
+    [
+      "Engineering"
+    ],
+    [
+      "Science & Math",
+      "Mathematics"
+    ],
+    [
+      "Data Science, Analytics & Computer Technology",
+      "Networks and Security"
+    ],
+    [
+      "Science & Math",
+      "Physics"
+    ]
+  ],
+  "primary_course_number": "18.435J",
+  "site_short_id": "18.435j-fall-2003",
+  "site_uid": "d1ebd128-8270-450e-9f74-fac75a7d381b",
+  "site_url_path": "courses/18-435j-quantum-computation-fall-2003",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Mathematics",
+      "Computation"
+    ],
+    [
+      "Engineering",
+      "Computer Science",
+      "Theory of Computation"
+    ],
+    [
+      "Science",
+      "Physics",
+      "Quantum Mechanics"
+    ],
+    [
+      "Engineering",
+      "Computer Science",
+      "Algorithms and Data Structures"
+    ],
+    [
+      "Engineering",
+      "Computer Science",
+      "Cryptography"
+    ],
+    [
+      "Mathematics",
+      "Discrete Mathematics"
+    ]
+  ],
+  "year": "2003"
+}

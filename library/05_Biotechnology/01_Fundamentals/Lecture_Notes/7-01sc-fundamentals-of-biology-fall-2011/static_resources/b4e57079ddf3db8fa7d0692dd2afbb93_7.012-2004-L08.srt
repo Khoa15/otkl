@@ -1,0 +1,3035 @@
+1
+00:00:05 --> 00:00:09
+Let's dive in
+today and look at
+
+2
+00:00:09 --> 00:00:13
+how geneticists use genetics.
+I've told you up until now about
+
+3
+00:00:13 --> 00:00:17
+some of the history of genetics
+and how it gave rise to our
+
+4
+00:00:17 --> 00:00:21
+understandings about genetic
+transmission in traits, about
+
+5
+00:00:21 --> 00:00:24
+genetic mapping,
+linkage analysis,
+
+6
+00:00:24 --> 00:00:27
+how all this helped confirm
+the Chromosomes Theory.
+
+7
+00:00:27 --> 00:00:31
+And we wove in a number of concepts
+about how scientific theories are
+
+8
+00:00:31 --> 00:00:35
+developed and data is interpreted
+and intuitions are made,
+
+9
+00:00:35 --> 00:00:39
+and then how they're actually proven,
+what sort of evidence it takes to
+
+10
+00:00:39 --> 00:00:43
+actually achieve
+conscientious around theories.
+
+11
+00:00:43 --> 00:00:47
+And that often takes sometimes
+years, many times decades before
+
+12
+00:00:47 --> 00:00:51
+full contentious is achieved around
+things. Today I want to turn a
+
+13
+00:00:51 --> 00:00:55
+little bit to the experimental uses
+of genetics in a more day-to-day
+
+14
+00:00:55 --> 00:01:00
+fashion. And you will recall this
+coat of arms that I put up here.
+
+15
+00:01:00 --> 00:01:05
+Function. Gene.
+Protein. Biochemistry.
+
+16
+00:01:05 --> 00:01:10
+Genetics. And I told you about how
+these were two different ways to
+
+17
+00:01:10 --> 00:01:15
+study biological function.
+Today I want to talk a little bit
+
+18
+00:01:15 --> 00:01:20
+about how we use genetics
+to study biological function.
+
+19
+00:01:20 --> 00:01:25
+And, in particular, I'm going to
+pick some examples of how we use
+
+20
+00:01:25 --> 00:01:30
+genetics to study biological
+function that have to do with the
+
+21
+00:01:30 --> 00:01:35
+biological functions
+of biochemistry.
+
+22
+00:01:35 --> 00:01:40
+So already we're beginning to look
+ahead to this connection between
+
+23
+00:01:40 --> 00:01:46
+gene and protein, which
+molecular biology will
+
+24
+00:01:46 --> 00:01:51
+establish for us. So, suppose
+you want to do genetics.
+
+25
+00:01:51 --> 00:01:57
+You've got to study some organism.
+We talked already about Mendel's
+
+26
+00:01:57 --> 00:02:01
+choice of organism, the pea.
+We talked about some of its
+
+27
+00:02:01 --> 00:02:05
+advantages and disadvantages.
+Advantages you could get pure
+
+28
+00:02:05 --> 00:02:08
+breeding strains in the market,
+you could, when you're done with the
+
+29
+00:02:08 --> 00:02:12
+experiments, feed it to the other
+monks. There were a lot of things
+
+30
+00:02:12 --> 00:02:16
+like that, that were
+advantageous about the pea,
+
+31
+00:02:16 --> 00:02:19
+but it had problems of generation
+time. You would only get,
+
+32
+00:02:19 --> 00:02:23
+certainly in Europe, a generation or
+so a year. In Northern Europe maybe
+
+33
+00:02:23 --> 00:02:27
+you could squeeze a second
+generation in not so good.
+
+34
+00:02:27 --> 00:02:30
+Fruit flies, a very attractive
+system in many respects because you
+
+35
+00:02:30 --> 00:02:33
+could grow many,
+much larger numbers.
+
+36
+00:02:33 --> 00:02:36
+The generation time is on the order
+of two weeks or so to go from a
+
+37
+00:02:36 --> 00:02:40
+fertilized fly embryo, a fly
+egg developing into a fly,
+
+38
+00:02:40 --> 00:02:43
+developing into a mature adult,
+able itself to have offspring.
+
+39
+00:02:43 --> 00:02:46
+So, very attractive. There are
+other systems that people studied.
+
+40
+00:02:46 --> 00:02:50
+And, of course, one of the reasons
+they study this system is because
+
+41
+00:02:50 --> 00:02:53
+it's interesting, I'm sorry,
+because it's tractable.
+
+42
+00:02:53 --> 00:02:56
+And the other reason is
+because it's interesting.
+
+43
+00:02:56 --> 00:03:00
+So, tractability is very
+important to a geneticist, right?
+
+44
+00:03:00 --> 00:03:03
+The number of whale geneticists
+is few, for the most part.
+
+45
+00:03:03 --> 00:03:07
+But we also want to choose our
+system because of what it will tell
+
+46
+00:03:07 --> 00:03:11
+us about the system we want to
+study. Like if you want to study
+
+47
+00:03:11 --> 00:03:15
+distinctive things about the immune
+system, you might want to study them
+
+48
+00:03:15 --> 00:03:18
+in mice, or if you could
+even study them in people,
+
+49
+00:03:18 --> 00:03:22
+although you can't set up crosses
+in people. We'll come to that on
+
+50
+00:03:22 --> 00:03:26
+Monday. If you wanted to study
+things about basic aspects of
+
+51
+00:03:26 --> 00:03:30
+development, you might
+study them in fruit flies.
+
+52
+00:03:30 --> 00:03:34
+And if you wanted to study basic
+biochemistry, the place to study
+
+53
+00:03:34 --> 00:03:38
+basic biochemistry might best be
+done in single-celled organisms,
+
+54
+00:03:38 --> 00:03:42
+which also have to carry out
+biochemical pathways like glycolysis
+
+55
+00:03:42 --> 00:03:46
+and synthesis of amino
+acids and things like that.
+
+56
+00:03:46 --> 00:03:50
+They're going to be, by far,
+the most tractable systems.
+
+57
+00:03:50 --> 00:03:54
+And so, people are particularly
+fond for doing things like studying
+
+58
+00:03:54 --> 00:03:58
+basic biochemistry and many other
+aspects of basic molecular biology
+
+59
+00:03:58 --> 00:04:02
+to studying the organism yeast.
+Yeast is a friend of human beings.
+
+60
+00:04:02 --> 00:04:06
+Certainly, yeast has been an
+intensely studied organism because
+
+61
+00:04:06 --> 00:04:11
+of its practical benefits
+in the making of bread,
+
+62
+00:04:11 --> 00:04:16
+in the making of beer.
+So, fermentation processes,
+
+63
+00:04:16 --> 00:04:20
+dough rising and all that. But
+yeast also is a tremendously
+
+64
+00:04:20 --> 00:04:25
+important organism for the
+geneticist. It is an extremely
+
+65
+00:04:25 --> 00:04:30
+elegant experimental
+system. Yeast is a fungus.
+
+66
+00:04:30 --> 00:04:35
+It is a single-celled eukaryote.
+That is true nucleus. It's got
+
+67
+00:04:35 --> 00:04:40
+chromosomes that pair up. It's
+cells, through a first order
+
+68
+00:04:40 --> 00:04:45
+approximation, that are
+an awful lot like your
+
+69
+00:04:45 --> 00:04:51
+cells in terms of having all of
+the basic important eukaryotic
+
+70
+00:04:51 --> 00:04:56
+organelles in the nucleus,
+mitochondria, other things like that.
+
+71
+00:04:56 --> 00:05:01
+So, yeast is a
+great model for many
+
+72
+00:05:01 --> 00:05:06
+purposes. And we're not going to
+talk much about the cell biology of
+
+73
+00:05:06 --> 00:05:10
+yeast, but I do want to talk
+about the husbandry of yeast,
+
+74
+00:05:10 --> 00:05:15
+how it is that you grow yeast.
+So, the way a geneticists grows
+
+75
+00:05:15 --> 00:05:20
+yeast is take growth medium
+that has lots of rich nutrients.
+
+76
+00:05:20 --> 00:05:25
+You could take a broth with lots of
+amino acids and all sorts of stuff,
+
+77
+00:05:25 --> 00:05:30
+you know, a little bit of
+salt, lots of water of course.
+
+78
+00:05:30 --> 00:05:35
+And if you take a single yeast cell
+and it's got lots and lots of rich
+
+79
+00:05:35 --> 00:05:40
+nutrients in this broth here,
+you put your yeast cell into the
+
+80
+00:05:40 --> 00:05:45
+broth, so I will do that.
+Here's my flask, here's my little
+
+81
+00:05:45 --> 00:05:50
+rod which has a yeast cell or a
+couple of yeast cells on the end of
+
+82
+00:05:50 --> 00:05:55
+it. I put it in there and I grow
+it at an appropriate temperature.
+
+83
+00:05:55 --> 00:06:00
+Let's say 30 degrees, for example,
+would be a nice temperature.
+
+84
+00:06:00 --> 00:06:05
+I could do that if I wanted to.
+Then a C obviously. I grow it up
+
+85
+00:06:05 --> 00:06:10
+and I get a culture of yeast in
+there. And I can tell because this
+
+86
+00:06:10 --> 00:06:15
+nice clear broth is now all cloudy
+with yeast that's grown up in it.
+
+87
+00:06:15 --> 00:06:20
+Now I want to study these guys, so
+what I do is I pour them out onto a
+
+88
+00:06:20 --> 00:06:25
+Petri plate. The Petri plate has
+on it a medium, a solid medium,
+
+89
+00:06:25 --> 00:06:30
+an agar medium that
+again has nutrients.
+
+90
+00:06:30 --> 00:06:34
+And if I pour this out,
+and I pour out a lot of it,
+
+91
+00:06:34 --> 00:06:39
+what will happen? Well, there will
+be yeast all over the place and it
+
+92
+00:06:39 --> 00:06:43
+will be very smootsie. There
+will be like yeast cells
+
+93
+00:06:43 --> 00:06:48
+everywhere and it's
+not very organized. So,
+
+94
+00:06:48 --> 00:06:53
+what I want to do is I want to
+take that and I want to dilute it.
+
+95
+00:06:53 --> 00:06:57
+I want to take only a little bit
+of the broth and put a little bit of
+
+96
+00:06:57 --> 00:07:02
+the broth on my plate. Maybe
+I'll have diluted it first.
+
+97
+00:07:02 --> 00:07:08
+And then I want to spread it
+around with a little spreader,
+
+98
+00:07:08 --> 00:07:13
+here's a little glass spreader maybe
+or something, and push it back and
+
+99
+00:07:13 --> 00:07:19
+forth, so that really there are just
+individual single cells scattered
+
+100
+00:07:19 --> 00:07:24
+randomly, scattered around.
+And so, then this cell begins to
+
+101
+00:07:24 --> 00:07:30
+grow and divide and divide
+and divide and I get a colony.
+
+102
+00:07:30 --> 00:07:34
+A little hill of cells all of which
+descend from a single cell that was
+
+103
+00:07:34 --> 00:07:39
+put into that position. And
+the reason I know that they all
+
+104
+00:07:39 --> 00:07:43
+descend from a single cell is
+because most of this plate does not
+
+105
+00:07:43 --> 00:07:48
+have cells on it. Most
+of the plate is sparse.
+
+106
+00:07:48 --> 00:07:53
+I've just got cells, cells, cells,
+cells scattered about. And because
+
+107
+00:07:53 --> 00:07:57
+of that I know that these
+had of been individual events.
+
+108
+00:07:57 --> 00:08:03
+These things are called colonies.
+Now, when yeast grows and divides
+
+109
+00:08:03 --> 00:08:10
+like that, let's take a moment
+and talk about its life cycle.
+
+110
+00:08:10 --> 00:08:17
+We'll introduce its life cycle
+here. Yeast proper eukaryote,
+
+111
+00:08:17 --> 00:08:24
+so it has a diploid stage. It
+grows as a diploid. And it can
+
+112
+00:08:24 --> 00:08:31
+undergo mitosis in which all
+of the chromosomes line up, as
+
+113
+00:08:31 --> 00:08:38
+we talked about. They've
+already pre-replicated so
+
+114
+00:08:38 --> 00:08:44
+that they'll be ready to divide up
+and give one to each daughter cell,
+
+115
+00:08:44 --> 00:08:50
+and there you go. N for yeast is
+16. Yeast happens to have 16 pairs of
+
+116
+00:08:50 --> 00:08:56
+chromosomes. Peas had seven.
+Humans have 23 pairs. Every
+
+117
+00:08:56 --> 00:09:02
+organism has its own yeast of
+16. Now, what we do is we undergo
+
+118
+00:09:02 --> 00:09:07
+meiosis to make haploid cells,
+sperm or eggs in the human
+
+119
+00:09:07 --> 00:09:12
+population. Yeast also
+undergoes meiosis to make spores.
+
+120
+00:09:12 --> 00:09:17
+It sporulates and it produces
+spores. And it turns out these
+
+121
+00:09:17 --> 00:09:22
+spores, of course as you would
+expect, have N chromosomes.
+
+122
+00:09:22 --> 00:09:27
+They undergo meiosis just
+as we drew it on the board.
+
+123
+00:09:27 --> 00:09:32
+And these can come in two flavors.
+They happen to come not in male and
+
+124
+00:09:32 --> 00:09:37
+females, but A and alpha, there
+you go. A and alpha cells can
+
+125
+00:09:37 --> 00:09:42
+mate together to produce,
+again, a diploid. They fertilize
+
+126
+00:09:42 --> 00:09:47
+and can produce a diploid. They
+fuse to do that. And you now
+
+127
+00:09:47 --> 00:09:52
+get back to a diploid from your
+haploid. So, this looks just
+
+128
+00:09:52 --> 00:09:57
+identical to the human genetic cycle
+here, but there is one difference.
+
+129
+00:09:57 --> 00:10:02
+What's the difference?
+Sorry? Time. Yes,
+
+130
+00:10:02 --> 00:10:07
+it's true. Yeast can divide
+much more rapidly. Yeast can have
+
+131
+00:10:07 --> 00:10:12
+offspring extremely rapidly
+over a course of a day or so.
+
+132
+00:10:12 --> 00:10:17
+And humans take somewhat
+longer than that. They,
+
+133
+00:10:17 --> 00:10:23
+for example, have to wait until
+they get out of college to be able to
+
+134
+00:10:23 --> 00:10:28
+reproduce mostly. What
+else? There's one other
+
+135
+00:10:28 --> 00:10:33
+important thing. It turns
+out that yeast can also
+
+136
+00:10:33 --> 00:10:38
+undergo mitosis as a
+haploid. In other words,
+
+137
+00:10:38 --> 00:10:43
+the haploid cells of yeast, when
+it makes individual haploids,
+
+138
+00:10:43 --> 00:10:49
+they can continue to grow
+indefinitely. By contrast,
+
+139
+00:10:49 --> 00:10:54
+your gametes cannot. You do not
+have an independent human stage in
+
+140
+00:10:54 --> 00:11:00
+which you are haploid, or
+your gametes are haploid.
+
+141
+00:11:00 --> 00:11:03
+Whereas, yeast can hang out as a
+haploid for a very long time until
+
+142
+00:11:03 --> 00:11:06
+it decides it wants to mate.
+This is very convenient for
+
+143
+00:11:06 --> 00:11:09
+geneticists. Geneticists like this
+because it means we can grow the
+
+144
+00:11:09 --> 00:11:12
+thing as a diploid, we can
+grow the thing as a haploid.
+
+145
+00:11:12 --> 00:11:15
+When we want to mate them,
+we can mate them together,
+
+146
+00:11:15 --> 00:11:18
+but we can also study them alone.
+And, you could imagine, this is
+
+147
+00:11:18 --> 00:11:21
+going to be really good for
+studying recessive traits,
+
+148
+00:11:21 --> 00:11:24
+right? So, that's one of the
+reasons why geneticists are fond of
+
+149
+00:11:24 --> 00:11:27
+yeast. There are many reasons
+geneticists are fond of yeast.
+
+150
+00:11:27 --> 00:11:30
+Just growing yeast, it
+smells very nice in the lab.
+
+151
+00:11:30 --> 00:11:40
+For example, try growing E.
+coli by comparison. So, now,
+
+152
+00:11:40 --> 00:11:50
+it turns out that yeast is very
+happy if you grow it on rich medium.
+
+153
+00:11:50 --> 00:12:00
+But yeast can grow on minimal
+media with very few macro molecules.
+
+154
+00:12:00 --> 00:12:08
+It needs a carbon source which
+is some sugar that it can ferment.
+
+155
+00:12:08 --> 00:12:17
+It needs a nitrogen. It needs
+some simple source of nitrogen.
+
+156
+00:12:17 --> 00:12:25
+It needs some simple source of
+nitrogen. It needs a source of
+
+157
+00:12:25 --> 00:12:34
+phosphorus. It needs some other
+trace salts and things like that.
+
+158
+00:12:34 --> 00:12:38
+And obviously it needs some water.
+That's it. If you think about
+
+159
+00:12:38 --> 00:12:43
+what's in a yeast cell, like
+it's got phospholipid bilayers.
+
+160
+00:12:43 --> 00:12:48
+But you're not giving
+it any phospholipids.
+
+161
+00:12:48 --> 00:12:52
+Why is it able to grow? It
+makes them. What about proteins?
+
+162
+00:12:52 --> 00:12:57
+They're made up of 20 amino acids.
+You're not giving it any amino
+
+163
+00:12:57 --> 00:13:01
+acids. Why? It makes them.
+Yeast is extraordinarily
+
+164
+00:13:01 --> 00:13:05
+self-reliant. You, by contrast,
+are not as self-reliant.
+
+165
+00:13:05 --> 00:13:08
+There are a number of amino
+acids which, if I don't give you,
+
+166
+00:13:08 --> 00:13:12
+you can't live because you don't
+actually have the ability to make
+
+167
+00:13:12 --> 00:13:15
+those amino acids. But yeast
+is able to make the vast
+
+168
+00:13:15 --> 00:13:19
+majority of things. Basically,
+you almost just needed
+
+169
+00:13:19 --> 00:13:22
+to give it the elements. As
+for carbon sources and things
+
+170
+00:13:22 --> 00:13:26
+like that, it's very happy with a
+wide variety of fermentable sugars.
+
+171
+00:13:26 --> 00:13:30
+You can give it glucose.
+You can give it sucrose.
+
+172
+00:13:30 --> 00:13:34
+You can give it galactose.
+You can give it fructose and it
+
+173
+00:13:34 --> 00:13:38
+will deal. So, yeast
+is very well set up
+
+174
+00:13:38 --> 00:13:42
+metabolically. So, it's
+got all of these pathways
+
+175
+00:13:42 --> 00:13:46
+of the sort Bob has talked about for
+being able to breakdown the things
+
+176
+00:13:46 --> 00:13:50
+you give it and being able to
+synthesize up the things it needs.
+
+177
+00:13:50 --> 00:13:54
+Now, yeast, of course, is not
+stupid. Because if you give it
+
+178
+00:13:54 --> 00:13:58
+amino acids it will use it. If
+you give it all sorts of other
+
+179
+00:13:58 --> 00:14:04
+things it will use it. So,
+yeast is able to use rich media
+
+180
+00:14:04 --> 00:14:14
+that have lots of complex
+nutrients and macromolecules.
+
+181
+00:14:14 --> 00:14:23
+So, it has an ability, it has
+everything it needs to make
+
+182
+00:14:23 --> 00:14:33
+these things, but it has
+an ability to regulate that.
+
+183
+00:14:33 --> 00:14:37
+So, the processes, the
+enzymatic pathways that produce
+
+184
+00:14:37 --> 00:14:41
+complex macromolecules,
+amino acids, phospholipids,
+
+185
+00:14:41 --> 00:14:45
+et cetera, will be down regulated,
+shut off, or at least decreased if
+
+186
+00:14:45 --> 00:14:49
+you provide it with
+these macromolecules.
+
+187
+00:14:49 --> 00:14:53
+That's an interesting question
+of how it manages to regulate its
+
+188
+00:14:53 --> 00:14:57
+biochemistry. Why does it care?
+Why doesn't it, why not just have
+
+189
+00:14:57 --> 00:15:01
+those pathways be on all the
+time? Sorry? Waste of energy.
+
+190
+00:15:01 --> 00:15:04
+It needs ATP. It costs money.
+So, at the beginning probably they
+
+191
+00:15:04 --> 00:15:06
+were on all the time,
+but some yeast evolves,
+
+192
+00:15:06 --> 00:15:09
+or some precursor to yeast
+evolves that's able to regulate it.
+
+193
+00:15:09 --> 00:15:12
+That one is able to be
+more frugal with its energy.
+
+194
+00:15:12 --> 00:15:14
+It outgrows its other ones
+and then another, dah, dah,
+
+195
+00:15:14 --> 00:15:17
+dah. Any place you can make
+a few ATPs here or there,
+
+196
+00:15:17 --> 00:15:20
+eventually the organism that does
+it will out compete the organism that
+
+197
+00:15:20 --> 00:15:23
+doesn't. And so, rather
+fine control of this,
+
+198
+00:15:23 --> 00:15:25
+which is a topic we'll
+come to in a couple of days,
+
+199
+00:15:25 --> 00:15:28
+gene regulation and other
+kinds of pathway regulation is
+
+200
+00:15:28 --> 00:15:33
+very important. OK. So,
+we want to know how does it
+
+201
+00:15:33 --> 00:15:39
+do it? What are the enzymes?
+What are the pathways? How does it
+
+202
+00:15:39 --> 00:15:46
+actually make,
+oh, I don't know,
+
+203
+00:15:46 --> 00:15:53
+arginine? How does it make arginine,
+amino acid? How would you find out
+
+204
+00:15:53 --> 00:16:00
+how yeast makes arginine? How
+can yeast synthesize arginines?
+
+205
+00:16:00 --> 00:16:03
+So, you remember our picture that
+the biochemist wants to study a
+
+206
+00:16:03 --> 00:16:07
+problem by grinding up the cell
+and purifying a component able to do
+
+207
+00:16:07 --> 00:16:10
+something. So, a biochemist
+might want to grind up
+
+208
+00:16:10 --> 00:16:14
+the cell and purify an
+enzyme that can make arginine.
+
+209
+00:16:14 --> 00:16:17
+Form what, of course, is
+an interesting question?
+
+210
+00:16:17 --> 00:16:21
+And then the thing that made the
+thing that was used to substrate,
+
+211
+00:16:21 --> 00:16:24
+et cetera, et cetera.
+What would a geneticist do?
+
+212
+00:16:24 --> 00:16:28
+How does a geneticist approach
+the problem with how does
+
+213
+00:16:28 --> 00:16:33
+yeast make arginine? Find
+a yeast that cannot make it,
+
+214
+00:16:33 --> 00:16:39
+that's what we do. That is.
+So, what we need is a mutant.
+
+215
+00:16:39 --> 00:16:46
+A geneticist wants a
+yeast that cannot make it.
+
+216
+00:16:46 --> 00:16:53
+A geneticist wants mutants.
+How do you find the mutant? You
+
+217
+00:16:53 --> 00:17:00
+find the mutant by
+going on a mutant hunt.
+
+218
+00:17:00 --> 00:17:04
+That is what geneticists refer to it
+as. And it's a very exciting thing.
+
+219
+00:17:04 --> 00:17:08
+You go off, load up the guns and go
+off into the bush on a mutant hunt.
+
+220
+00:17:08 --> 00:17:12
+And so, I want to talk about
+the strategy for a mutant hunt.
+
+221
+00:17:12 --> 00:17:16
+How do we look for a yeast
+that can't make arginine?
+
+222
+00:17:16 --> 00:17:20
+Sorry? Cannot. I've got a
+yeast that can make arginine,
+
+223
+00:17:20 --> 00:17:24
+because normal wild type yeast
+can grow on minimal media without
+
+224
+00:17:24 --> 00:17:28
+arginine supplied.
+And, when I examine it,
+
+225
+00:17:28 --> 00:17:32
+it's got arginine in it.
+Yes? So, who should I find?
+
+226
+00:17:32 --> 00:17:37
+Proteins that contain arginine and
+then it doesn't have the proteins
+
+227
+00:17:37 --> 00:17:42
+that doesn't have arginine.
+Interesting. Now, the problem is
+
+228
+00:17:42 --> 00:17:47
+almost all proteins will have an
+arginine, or the vast majority of
+
+229
+00:17:47 --> 00:17:52
+them. And a yeast that lacked all
+those proteins that didn't have
+
+230
+00:17:52 --> 00:17:57
+arginine would not be much
+of a yeast. I think it would
+
+231
+00:17:57 --> 00:18:02
+be pretty dead. So, it's
+a good thought if it was a
+
+232
+00:18:02 --> 00:18:06
+more dispensable function.
+But that's going to be tough.
+
+233
+00:18:06 --> 00:18:11
+Or, maybe I can use the fact
+that it's dead. Now in a sense,
+
+234
+00:18:11 --> 00:18:16
+can I find the yeast? Yes?
+You had a thought on this.
+
+235
+00:18:16 --> 00:18:20
+Yes? Kill all yeast that
+make arginine, excellent.
+
+236
+00:18:20 --> 00:18:25
+So, if I had a chemical agent
+that could kill yeast that can make
+
+237
+00:18:25 --> 00:18:30
+arginine, I could only get the yeast
+that make it. How would I do that?
+
+238
+00:18:30 --> 00:18:34
+That's a very interesting idea.
+You're right. You could construct
+
+239
+00:18:34 --> 00:18:38
+the chemical molecule in the
+arginine pathway which when it was
+
+240
+00:18:38 --> 00:18:42
+broken down enzymatically
+made some toxic product,
+
+241
+00:18:42 --> 00:18:46
+and only those yeasts that couldn't
+break it down would be able to grow,
+
+242
+00:18:46 --> 00:18:50
+et cetera, et cetera, and I could
+select. That's a very cleaver idea.
+
+243
+00:18:50 --> 00:18:54
+But I'd also have to know an awful
+lot about the pathway in advance.
+
+244
+00:18:54 --> 00:18:58
+So, suppose I didn't' know the
+pathway. Suppose I knew nothing
+
+245
+00:18:58 --> 00:19:03
+about how arginine gets
+made. Yes? Excellent. So,
+
+246
+00:19:03 --> 00:19:09
+I take, I mean geneticists are
+simpleminded folks and they like
+
+247
+00:19:09 --> 00:19:15
+simple solutions. Take
+medium in which you've given
+
+248
+00:19:15 --> 00:19:21
+the yeast arginine, grow it
+up, and then pour it out on
+
+249
+00:19:21 --> 00:19:27
+a plate that doesn't have arginine.
+Everybody got this idea? So, we're
+
+250
+00:19:27 --> 00:19:32
+going to take yeast. We're
+going to grow it up in medium
+
+251
+00:19:32 --> 00:19:37
+which contains arginine
+with arginine. So,
+
+252
+00:19:37 --> 00:19:42
+now yeasts, those mutants that arose
+by chance that are unable to make
+
+253
+00:19:42 --> 00:19:47
+their own arginine are still able
+to grow here. And then we dump it out
+
+254
+00:19:47 --> 00:19:52
+onto a plate that has minimal
+media without arginine,
+
+255
+00:19:52 --> 00:19:57
+no arginine, and those ones that can
+grow up are the ones that we're not
+
+256
+00:19:57 --> 00:20:02
+interested in. And the
+ones that don't appear are
+
+257
+00:20:02 --> 00:20:07
+the ones we're interested in.
+But, wait a second, that's the
+
+258
+00:20:07 --> 00:20:12
+problem, isn't it,
+because they're not here.
+
+259
+00:20:12 --> 00:20:17
+How do we study them if they're not
+there? What can we do about that?
+
+260
+00:20:17 --> 00:20:22
+Yes. You want to see if you can
+help us. Remove the ones that grew
+
+261
+00:20:22 --> 00:20:27
+up. So, get in there,
+scrap them off, now put some
+
+262
+00:20:27 --> 00:20:34
+arginine on. We're
+getting to the idea.
+
+263
+00:20:34 --> 00:20:42
+Maybe we can set this up
+more elegantly, though.
+
+264
+00:20:42 --> 00:20:51
+Thoughts? How can we, yes?
+Make a bet? Make a guess?
+
+265
+00:20:51 --> 00:21:00
+I can make that guess,
+but how do I find them?
+
+266
+00:21:00 --> 00:21:06
+Here's a simple,
+simple, simple idea.
+
+267
+00:21:06 --> 00:21:13
+Let me try a simple idea. How
+about I grow up these yeast,
+
+268
+00:21:13 --> 00:21:19
+and instead of plating
+them on minimal medium,
+
+269
+00:21:19 --> 00:21:26
+let's be good to them. Let's
+plate them on minimal medium.
+
+270
+00:21:26 --> 00:21:32
+Good. That's interesting. Let's
+plate them on minimal medium
+
+271
+00:21:32 --> 00:21:38
+plus arginine. Or,
+actually, if we wanted to,
+
+272
+00:21:38 --> 00:21:43
+we could even plate them on rich
+medium. We'll be really good to
+
+273
+00:21:43 --> 00:21:49
+them. Either way. So, now,
+let's let each one grow up.
+
+274
+00:21:49 --> 00:21:55
+And here will be the ones that
+can grow and the ones that can't
+
+275
+00:21:55 --> 00:22:00
+grow with arginine. Now
+let me take a plate that is
+
+276
+00:22:00 --> 00:22:04
+minimal medium. And now
+let me take a toothpick,
+
+277
+00:22:04 --> 00:22:08
+put a little toothpick there and
+carry over this colony to there.
+
+278
+00:22:08 --> 00:22:13
+Let me take a toothpick and
+carry this guy over to here and a
+
+279
+00:22:13 --> 00:22:17
+toothpick and carry this
+guy to here, and a toothpick,
+
+280
+00:22:17 --> 00:22:21
+and a toothpick, and a toothpick.
+And all I have to do is keep
+
+281
+00:22:21 --> 00:22:26
+transferring, one at
+a time, these colonies.
+
+282
+00:22:26 --> 00:22:29
+And now I can see that somewhere
+there was a colony that grew fine
+
+283
+00:22:29 --> 00:22:33
+when I gave it,
+say, rich medium,
+
+284
+00:22:33 --> 00:22:36
+or minimal plus arginine, and
+a colony that didn't grow when I
+
+285
+00:22:36 --> 00:22:40
+put it on minimal medium.
+That would at least show,
+
+286
+00:22:40 --> 00:22:43
+so, of course, the issue is I first
+have to find them by growing them on
+
+287
+00:22:43 --> 00:22:47
+something where I've given the
+arginine and then I can see that
+
+288
+00:22:47 --> 00:22:51
+they can't grow. All
+right. This is what
+
+289
+00:22:51 --> 00:22:54
+geneticists basically do. What
+happens if I grew them on rich
+
+290
+00:22:54 --> 00:22:58
+medium and I transferred them
+to minimal medium? Why might
+
+291
+00:22:58 --> 00:23:02
+something not grow? It might
+be missing the ability to
+
+292
+00:23:02 --> 00:23:06
+make tryptophan. It might
+be missing the ability to
+
+293
+00:23:06 --> 00:23:10
+make proline. It might be missing
+the ability to make something else.
+
+294
+00:23:10 --> 00:23:14
+So, what I can do is, if I wanted
+to, make a very broad mutant hunt.
+
+295
+00:23:14 --> 00:23:19
+I could just first grow on rich
+medium and then plate on minimal
+
+296
+00:23:19 --> 00:23:23
+medium and any yeast that has lost
+the ability to make some essential
+
+297
+00:23:23 --> 00:23:27
+nutrient will be evident by its
+absence on the minimal medium plate.
+
+298
+00:23:27 --> 00:23:33
+So, we have for yeasts.
+Yeasts that are able to grow on
+
+299
+00:23:33 --> 00:23:39
+minimal media are called prototrophs.
+They are the wild type that can
+
+300
+00:23:39 --> 00:23:45
+grow on minimal media. They
+can make everything themselves.
+
+301
+00:23:45 --> 00:23:51
+Yeasts that need help, that
+cannot grow by themselves,
+
+302
+00:23:51 --> 00:23:57
+that need help, that need a
+supplement are called auxotrophs.
+
+303
+00:23:57 --> 00:24:03
+Auxo obviously meaning help. So,
+it's a mutant that has lost the
+
+304
+00:24:03 --> 00:24:09
+ability to grow on minimal medium
+and that it needs a supplement of
+
+305
+00:24:09 --> 00:24:15
+some kind. So, if I wanted
+to, I could just first
+
+306
+00:24:15 --> 00:24:21
+collect lots and lots and lots of
+auxotrophs and then figure out what
+
+307
+00:24:21 --> 00:24:27
+they need. So, I might
+collect a large collection
+
+308
+00:24:27 --> 00:24:33
+of auxotrophs. And then
+test to see if supplying
+
+309
+00:24:33 --> 00:24:40
+arginine rescues them. I
+could also test tryptophan.
+
+310
+00:24:40 --> 00:24:48
+So, if I only, only, only cared
+about finding arginine auxotrophs,
+
+311
+00:24:48 --> 00:24:55
+I could just grow them on
+minimal plus arginine and then
+
+312
+00:24:55 --> 00:25:00
+test them on minimal. And
+then I would know in advance,
+
+313
+00:25:00 --> 00:25:04
+these guys all grew with arginine
+on minimal and didn't grow without
+
+314
+00:25:04 --> 00:25:08
+arginine, and I'd know
+it was arginine. Or,
+
+315
+00:25:08 --> 00:25:11
+if I was in an expansive mood,
+I could test them on rich medium,
+
+316
+00:25:11 --> 00:25:15
+collect everybody who's
+unable to grow on minimal,
+
+317
+00:25:15 --> 00:25:19
+and then work out what the
+reason is. Is it arginine?
+
+318
+00:25:19 --> 00:25:22
+Is it proline? Is it whatever?
+And it depends how much work you're
+
+319
+00:25:22 --> 00:25:26
+interested in doing and how
+complete the study is you want to do.
+
+320
+00:25:26 --> 00:25:30
+Either way, we could end up with a
+collection of arginine auxotrophs.
+
+321
+00:25:30 --> 00:25:35
+Organisms that are mutant for the
+ability to make their own arginine
+
+322
+00:25:35 --> 00:25:40
+and require it to be supplied
+to them in the medium.
+
+323
+00:25:40 --> 00:25:45
+All right. I might get,
+depending on how much work I'm
+
+324
+00:25:45 --> 00:25:50
+willing to do, dozens
+of independent colonies
+
+325
+00:25:50 --> 00:25:55
+unable to grow without arginine.
+I might get hundreds if I'm willing
+
+326
+00:25:55 --> 00:26:00
+to do enough work. I can
+get as many as I want.
+
+327
+00:26:00 --> 00:26:08
+Our goal now is to study them and
+find out why they're unable to do
+
+328
+00:26:08 --> 00:26:17
+that. I have a quick question?
+Those yeast cells we plated, where
+
+329
+00:26:17 --> 00:26:25
+they haploid or diploid?
+We didn't say, did we? So,
+
+330
+00:26:25 --> 00:26:33
+should they be haploid or
+diploid? How many vote diploid?
+
+331
+00:26:33 --> 00:26:39
+How many vote haploid? A lot
+of people vote haploid but
+
+332
+00:26:39 --> 00:26:45
+aren't willing to express
+a reason why. Why haploid?
+
+333
+00:26:45 --> 00:26:51
+Right. Excellent. Excellent,
+although genes are not
+
+334
+00:26:51 --> 00:26:57
+recessive, but OK. A little
+detail. Phenotypes are
+
+335
+00:26:57 --> 00:27:02
+recessive. Tell me a
+little more of what you're
+
+336
+00:27:02 --> 00:27:07
+thinking about. We'll
+have it out later on this
+
+337
+00:27:07 --> 00:27:12
+point, yes. So, suppose we
+were looking in a haploid.
+
+338
+00:27:12 --> 00:27:17
+I take your point, even if
+on nomenclature I want to
+
+339
+00:27:17 --> 00:27:22
+push back a bit. So,
+suppose it's a diploid and
+
+340
+00:27:22 --> 00:27:27
+suppose we have now two
+copies of this chromosome here
+
+341
+00:27:27 --> 00:27:32
+in the diploid. And suppose
+there's a gene over here
+
+342
+00:27:32 --> 00:27:36
+that encodes an enzyme that we
+now is necessary to make arginine,
+
+343
+00:27:36 --> 00:27:41
+or that somebody knows is
+necessary to make arginine.
+
+344
+00:27:41 --> 00:27:46
+Let's image that that's the case.
+In order to get haploid yeast that
+
+345
+00:27:46 --> 00:27:50
+is unable to make arginine
+due to a mutation in this gene,
+
+346
+00:27:50 --> 00:27:55
+you need to have some kind
+of a mutation in this copy.
+
+347
+00:27:55 --> 00:28:00
+What about in the diploid yeast?
+In order to make this yeast unable
+
+348
+00:28:00 --> 00:28:05
+to grow without arginine, do we
+need a mutation in both copies?
+
+349
+00:28:05 --> 00:28:09
+Well, the answer is probably.
+The truth is actually a bit more
+
+350
+00:28:09 --> 00:28:13
+complicated, but let's suppose it
+was the case that even one copy of
+
+351
+00:28:13 --> 00:28:17
+the functional gene was sufficient
+to carry out the enzymatic step,
+
+352
+00:28:17 --> 00:28:21
+then the answer would be yeah,
+we'd need a mutation of both copies.
+
+353
+00:28:21 --> 00:28:25
+What's the chance of finding a
+yeast that has a mutation in both
+
+354
+00:28:25 --> 00:28:29
+copies? It's obviously much less
+than the chance of finding a yeast
+
+355
+00:28:29 --> 00:28:33
+that had a mutation of one
+copy. So, we're much better to go
+
+356
+00:28:33 --> 00:28:37
+searching in the haploid where the
+phenotype will be revealed much more
+
+357
+00:28:37 --> 00:28:41
+easily by virtue of just the single
+mutation rather than having to,
+
+358
+00:28:41 --> 00:28:45
+by chance, encounter one that
+had mutations in both copies.
+
+359
+00:28:45 --> 00:28:50
+Now, the reason I'm a little
+bit cautious here is because
+
+360
+00:28:50 --> 00:28:54
+notwithstanding the textbooks,
+it's not always the case that
+
+361
+00:28:54 --> 00:28:58
+everything like this is a
+recessive trait. It's possible that
+
+362
+00:28:58 --> 00:29:03
+auxotrophy for arginine
+could be a dominant trait.
+
+363
+00:29:03 --> 00:29:06
+So, how could that be?
+Well, auxotrophy could be a
+
+364
+00:29:06 --> 00:29:09
+recessive trait. Suppose
+there's some enzymatic
+
+365
+00:29:09 --> 00:29:12
+pathway, A goes to B goes to C goes
+to D, and this encodes an enzyme
+
+366
+00:29:12 --> 00:29:16
+that carries out a
+particular biochemical step.
+
+367
+00:29:16 --> 00:29:19
+Well, if the gene is broken, if
+the gene is missing, if the gene
+
+368
+00:29:19 --> 00:29:22
+doesn't make the protein, as
+you guys all know that that's
+
+369
+00:29:22 --> 00:29:25
+what happens, then you don't have
+the enzyme, you can't do the pathway.
+
+370
+00:29:25 --> 00:29:29
+And it is usually the case that
+having just one copy is sufficient.
+
+371
+00:29:29 --> 00:29:32
+Because having a little bit of
+enzyme the pathway may work slower
+
+372
+00:29:32 --> 00:29:35
+but it will still work just fine and
+you'll eventually get arginine made.
+
+373
+00:29:35 --> 00:29:39
+But it's occasionally possible,
+I note since you guys are
+
+374
+00:29:39 --> 00:29:42
+sophisticated, that
+sometimes a gene can encode a
+
+375
+00:29:42 --> 00:29:46
+protein which not only doesn't
+work but screws up the other working
+
+376
+00:29:46 --> 00:29:49
+copies of the protein. Suppose
+the enzyme that did this
+
+377
+00:29:49 --> 00:29:53
+were a tetramer. It had
+several subunits that had
+
+378
+00:29:53 --> 00:29:57
+come together. A mutant
+copy of an enzyme,
+
+379
+00:29:57 --> 00:30:03
+when it forms into a tetramer,
+might somehow disrupt all the other
+
+380
+00:30:03 --> 00:30:09
+good copies that are around.
+And that does happen sometimes.
+
+381
+00:30:09 --> 00:30:14
+It can happen that you're going to
+have an inability to make your own
+
+382
+00:30:14 --> 00:30:20
+arginine be a dominantly inherited
+trait. So, you actually have to
+
+383
+00:30:20 --> 00:30:26
+test whether it's recessive
+or dominant. Often it will be
+
+384
+00:30:26 --> 00:30:32
+recessive. So, usually
+most of these simple
+
+385
+00:30:32 --> 00:30:37
+auxotrophs are recessive traits.
+Occasionally some are dominant.
+
+386
+00:30:37 --> 00:30:43
+So, now, suppose we get a whole
+collection of Arg auxotrophs,
+
+387
+00:30:43 --> 00:30:49
+and we'll just give them a name.
+I don't know. Here's my collection.
+
+388
+00:30:49 --> 00:30:54
+We'll call the first one,
+for lack of anything terribly
+
+389
+00:30:54 --> 00:31:00
+creative, Arg 1, Arg
+2, Arg 3, et cetera,
+
+390
+00:31:00 --> 00:31:06
+each being an individual strain from
+growing up originally for a single
+
+391
+00:31:06 --> 00:31:12
+colony that is unable to
+produce its own arginine.
+
+392
+00:31:12 --> 00:31:17
+We now want to take this
+collection and characterize it.
+
+393
+00:31:17 --> 00:31:22
+How many distinct genes does this
+affect? Are these mutants perhaps
+
+394
+00:31:22 --> 00:31:28
+all in the same gene? Are
+they in a hundred different
+
+395
+00:31:28 --> 00:31:32
+genes? How could we
+tell? Now, of course,
+
+396
+00:31:32 --> 00:31:36
+if you're a biochemist, you
+already know the protein you can
+
+397
+00:31:36 --> 00:31:39
+see and dah, dah, dah.
+But, if you know the answer,
+
+398
+00:31:39 --> 00:31:42
+well, why are asking then, right?
+A geneticist goes out to ask this
+
+399
+00:31:42 --> 00:31:46
+question because he or she wants to
+know all the possible ways you can
+
+400
+00:31:46 --> 00:31:49
+disrupt the cell so it cannot
+make arginine. And we don't know in
+
+401
+00:31:49 --> 00:31:53
+advance what those ways are, so
+how are we going to be able to
+
+402
+00:31:53 --> 00:31:56
+tell whether or not different
+mutations affect the same gene,
+
+403
+00:31:56 --> 00:32:00
+the same function in yeast?
+It's an interesting question.
+
+404
+00:32:00 --> 00:32:10
+Geneticists do a variety of tests.
+The first test that a geneticist
+
+405
+00:32:10 --> 00:32:20
+does to characterize a mutant is by
+tests of recessivity or dominance,
+
+406
+00:32:20 --> 00:32:30
+whichever way you
+want to put it.
+
+407
+00:32:30 --> 00:32:33
+We want to take each mutant and test
+whether it is recessive or dominant
+
+408
+00:32:33 --> 00:32:37
+as a phenotype,
+whether the phenotype,
+
+409
+00:32:37 --> 00:32:40
+the auxotrophy for arginine
+is recessive or dominant.
+
+410
+00:32:40 --> 00:32:44
+So, here's mutant number one,
+the mutant cell carrying this
+
+411
+00:32:44 --> 00:32:47
+mutation here. Conceptually
+it affects some gene.
+
+412
+00:32:47 --> 00:32:51
+I'm going to label it Arg 1. We
+don't know where it is in the genome.
+
+413
+00:32:51 --> 00:32:54
+There are other chromosomes here
+as well. Here's my mutant cell.
+
+414
+00:32:54 --> 00:32:58
+How am I going to find out whether
+or not the auxotrophy for arginine
+
+415
+00:32:58 --> 00:33:03
+is recessive or
+dominant? Yup? With what?
+
+416
+00:33:03 --> 00:33:09
+Cross it with a haploid that is
+a prototroph, or I could just say
+
+417
+00:33:09 --> 00:33:15
+cross it with wild type,
+right? Perfect. So, make a cross
+
+418
+00:33:15 --> 00:33:21
+here, very good, with
+wild type plus there.
+
+419
+00:33:21 --> 00:33:27
+How do I know it's plus there?
+This is wild type. Wild type is
+
+420
+00:33:27 --> 00:33:32
+defined as the normal form. And
+so, because I said this is what
+
+421
+00:33:32 --> 00:33:37
+we're using as wild type, it's
+necessarily plus because we're
+
+422
+00:33:37 --> 00:33:42
+measuring mutations relative to wild
+type. So, what happens when we get
+
+423
+00:33:42 --> 00:33:47
+here? We now, when we
+cross we get a diploid,
+
+424
+00:33:47 --> 00:33:52
+and Arg 1 plus. Now, how do we know
+whether or not that phenotype was
+
+425
+00:33:52 --> 00:33:57
+recessive or dominant? Sorry?
+It's what shows up when we
+
+426
+00:33:57 --> 00:34:02
+try to grow it. So,
+when we cross it,
+
+427
+00:34:02 --> 00:34:07
+what kind of plate should we grow
+it on first? Should we grow it on
+
+428
+00:34:07 --> 00:34:12
+minimal or rich? We better
+grow it on rich because
+
+429
+00:34:12 --> 00:34:17
+just in case it doesn't, it
+can't make its own arginine,
+
+430
+00:34:17 --> 00:34:22
+we better first let it grow and then
+test it. So, let's grow it on rich
+
+431
+00:34:22 --> 00:34:27
+medium. We'll cross these together,
+grow it on rich medium. So, grow on
+
+432
+00:34:27 --> 00:34:32
+rich, test on minimal. OK?
+And we'll be able to check out
+
+433
+00:34:32 --> 00:34:36
+the phenotype as to whether or not
+the phenotype is wild type or mutant.
+
+434
+00:34:36 --> 00:34:41
+All right. So,
+we could do that.
+
+435
+00:34:41 --> 00:34:45
+And we'll test the first one and
+the second one and third one and the
+
+436
+00:34:45 --> 00:34:50
+fourth one. And,
+for each of these,
+
+437
+00:34:50 --> 00:34:55
+we'll write down whether it's
+recessive or a dominant auxotroph.
+
+438
+00:34:55 --> 00:34:59
+Now, let me assume that all
+the ones we're talking about are
+
+439
+00:34:59 --> 00:35:04
+recessive phenotypes. Because
+everything I'm about to say
+
+440
+00:35:04 --> 00:35:10
+is very much harder if it turned
+out any of them were dominant.
+
+441
+00:35:10 --> 00:35:16
+So, we're going to assume.
+Let's assume now, but it's not
+
+442
+00:35:16 --> 00:35:21
+always the case, we'll
+assume that the collection,
+
+443
+00:35:21 --> 00:35:27
+maybe Arg 100, are all recessive
+auxotrophies, the phenotype
+
+444
+00:35:27 --> 00:35:35
+is recessive. Now, how do
+I tell if they're in the
+
+445
+00:35:35 --> 00:35:45
+same gene or not? So, now
+I want to characterize my
+
+446
+00:35:45 --> 00:35:55
+mutant by some other test that will
+tell me whether or not Arg 1 and Arg
+
+447
+00:35:55 --> 00:36:03
+2 are in the same gene.
+Suppose Arg 1 and Arg 2 are in
+
+448
+00:36:03 --> 00:36:11
+different genes. Cross
+them. What will happen?
+
+449
+00:36:11 --> 00:36:19
+Right. So, to repeat that, if I
+cross together the two mutants and
+
+450
+00:36:19 --> 00:36:26
+they're in different genes,
+each will have at least, the each
+
+451
+00:36:26 --> 00:36:34
+will be contributing a good copy,
+a functional copy, a wild type copy
+
+452
+00:36:34 --> 00:36:40
+of one of the genes. So,
+let's walk this through.
+
+453
+00:36:40 --> 00:36:45
+Interesting. Interesting. So,
+suppose I take a situation where
+
+454
+00:36:45 --> 00:36:50
+I've got Arg 1, a mutation
+in a gene over here,
+
+455
+00:36:50 --> 00:36:55
+on this chromosome, and on the other
+chromosome I've got a wild type copy.
+
+456
+00:36:55 --> 00:37:00
+My Arg 1 mutant is
+mutated in a gene here.
+
+457
+00:37:00 --> 00:37:07
+I've got this other gene here,
+which is normal. And I'm going to
+
+458
+00:37:07 --> 00:37:14
+cross that now by the strain that
+has a wild type copy here for this
+
+459
+00:37:14 --> 00:37:21
+first gene, but it has a
+mutation in the second gene.
+
+460
+00:37:21 --> 00:37:28
+When I cross them together, I
+now get me a diploid cell here,
+
+461
+00:37:28 --> 00:37:35
+which is Arg 1, a mutation
+there, plus there, plus copy
+
+462
+00:37:35 --> 00:37:41
+here, and Arg 2.
+Will having one copy,
+
+463
+00:37:41 --> 00:37:47
+one working copy of this gene
+be enough to make the enzyme?
+
+464
+00:37:47 --> 00:37:53
+No? In other words, is the wild
+type phenotype dominant to this
+
+465
+00:37:53 --> 00:37:59
+auxotrophy, or is the
+auxotrophy attributable to this
+
+466
+00:37:59 --> 00:38:04
+gene recessive? Yes. Why?
+Because we assumed it.
+
+467
+00:38:04 --> 00:38:09
+Why did we assume it? So I
+would be able to say this,
+
+468
+00:38:09 --> 00:38:14
+right? OK. If it wasn't we'd be in
+trouble. But by assuming that we're
+
+469
+00:38:14 --> 00:38:19
+working with a recessive phenotype,
+then we know that this will be
+
+470
+00:38:19 --> 00:38:24
+enough to save the yeast.
+What about here? Enough to save
+
+471
+00:38:24 --> 00:38:30
+the yeast so it will
+grow without arginine.
+
+472
+00:38:30 --> 00:38:38
+By contrast, suppose it was
+the case that this cell here,
+
+473
+00:38:38 --> 00:38:47
+Arg 1, and suppose our other mutant
+that we had isolated in our mutant
+
+474
+00:38:47 --> 00:38:56
+hunt was a mutation Arg 2 in the
+same gene. Suppose these were the
+
+475
+00:38:56 --> 00:39:05
+same gene. When I cross them
+together I now have a cell
+
+476
+00:39:05 --> 00:39:14
+that is Arg 1, Arg
+2. In other words,
+
+477
+00:39:14 --> 00:39:24
+its genotype is Arg 1 over Arg 2,
+name of mutation. And can it grow?
+
+478
+00:39:24 --> 00:39:34
+No growth without arginine. By
+contrast, the genotype here is Arg 1
+
+479
+00:39:34 --> 00:39:43
+over plus, plus over Arg 2. I
+could even write Arg 2 over plus,
+
+480
+00:39:43 --> 00:39:51
+but I just did that to indicate
+the chromosomes that they came from.
+
+481
+00:39:51 --> 00:39:59
+All right. This is called a Test
+of Complementation because these two
+
+482
+00:39:59 --> 00:40:07
+genes are able to compliment
+each other's defect.
+
+483
+00:40:07 --> 00:40:18
+If two mutations compliment each
+other's defect then they are in
+
+484
+00:40:18 --> 00:40:30
+different genes. OK?
+Boy, that's a noisy one.
+
+485
+00:40:30 --> 00:40:36
+So, we're able to make
+a Complementation Table.
+
+486
+00:40:36 --> 00:40:43
+Suppose I take a bunch of yeasts,
+wild type, WT, mutant number one,
+
+487
+00:40:43 --> 00:40:49
+mutant number two,
+mutant number three,
+
+488
+00:40:49 --> 00:40:56
+mutant number four. And suppose I
+cross them with each other in all
+
+489
+00:40:56 --> 00:41:02
+pair-wise combinations. I've
+assumed that all of these
+
+490
+00:41:02 --> 00:41:07
+arginine auxotrophs have
+a recessive phenotype here.
+
+491
+00:41:07 --> 00:41:12
+These are all my Arg mutants,
+and I'm assuming that this is
+
+492
+00:41:12 --> 00:41:17
+recessive. What happens when I
+cross them and I test to see whether
+
+493
+00:41:17 --> 00:41:22
+they can grow without arginine?
+If I cross wild type by wild type,
+
+494
+00:41:22 --> 00:41:27
+can it grow without arginine?
+Yeah. Normal phenotype. So, plus is
+
+495
+00:41:27 --> 00:41:32
+going to mean prototrophic.
+Minus will mean auxotrophic for
+
+496
+00:41:32 --> 00:41:36
+arginine. What happens when I cross
+wild type with mutant number one?
+
+497
+00:41:36 --> 00:41:41
+It grows. Why? By assumption,
+these were all recessive.
+
+498
+00:41:41 --> 00:41:46
+I'm only testing recessive ones.
+Two. Three. Four. When I cross
+
+499
+00:41:46 --> 00:41:50
+in this direction,
+wild type by these guys.
+
+500
+00:41:50 --> 00:41:55
+This is going to be a
+symmetric matrix, of course,
+
+501
+00:41:55 --> 00:42:00
+right? OK. Now, what happens when
+I cross mutant one by mutant one?
+
+502
+00:42:00 --> 00:42:04
+I now have a diploid. Will
+it be able to grow without
+
+503
+00:42:04 --> 00:42:08
+arginine? No. Why not?
+It has no working copies
+
+504
+00:42:08 --> 00:42:12
+of that gene, so I'm going to put
+a minus there. What about mutant two
+
+505
+00:42:12 --> 00:42:16
+with mutant two? Minus.
+What about mutant three
+
+506
+00:42:16 --> 00:42:20
+with mutant three? Minus.
+What about mutant four with
+
+507
+00:42:20 --> 00:42:24
+mutant four? Minus. Now,
+what happens when I cross
+
+508
+00:42:24 --> 00:42:28
+mutant one by mutant two? It
+depends. It might be plus or
+
+509
+00:42:28 --> 00:42:32
+might be minus. If
+they're in the same gene,
+
+510
+00:42:32 --> 00:42:38
+minus. Different genes, could
+be plus. So, here's some data.
+
+511
+00:42:38 --> 00:42:43
+So, all this is compelled.
+But the kind of data, ooh,
+
+512
+00:42:43 --> 00:42:49
+I'll use a color. Isn't that fun?
+They want me to use colors over
+
+513
+00:42:49 --> 00:42:54
+there. Here we go. Suppose
+the data were minus,
+
+514
+00:42:54 --> 00:43:00
+minus, plus, plus, plus, plus,
+minus, minus, plus, plus, plus,
+
+515
+00:43:00 --> 00:43:06
+plus. What
+would it be?
+
+516
+00:43:06 --> 00:43:13
+What conclusion could we draw?
+Is mutant one and mutant three in
+
+517
+00:43:13 --> 00:43:20
+the same gene? They
+compliment each other?
+
+518
+00:43:20 --> 00:43:27
+No. But is one in the same
+gene as two? Yes. In fact,
+
+519
+00:43:27 --> 00:43:34
+this box and this box here
+define the genes beautifully.
+
+520
+00:43:34 --> 00:43:37
+The groups that failed to compliment
+define mutations in the same gene.
+
+521
+00:43:37 --> 00:43:41
+These are called Complementation
+Groups because they don't compliment,
+
+522
+00:43:41 --> 00:43:45
+OK? It's a little complicated
+but that's all right.
+
+523
+00:43:45 --> 00:43:48
+These are called Complementation
+Groups because all the members of
+
+524
+00:43:48 --> 00:43:52
+the complementation group,
+namely Arg 1 and Arg 2, failed to
+
+525
+00:43:52 --> 00:43:56
+compliment each other. They
+could be called failure to
+
+526
+00:43:56 --> 00:44:00
+compliment groups, but
+it would be too long.
+
+527
+00:44:00 --> 00:44:04
+OK? So, there you go. You
+can take hundreds of mutants
+
+528
+00:44:04 --> 00:44:09
+and organize them into
+complementation groups and thereby
+
+529
+00:44:09 --> 00:44:13
+know which ones go to the same
+gene. And now, if I want to study the
+
+530
+00:44:13 --> 00:44:18
+genes, I only have to study the
+distinct complementation groups.
+
+531
+00:44:18 --> 00:44:23
+Last thing, which we'll just have
+time to do, are what's called tests
+
+532
+00:44:23 --> 00:44:28
+of epistasis. We'll probably run
+just a moment or two over on this.
+
+533
+00:44:28 --> 00:44:34
+Suppose a biochemist were
+collaborating with a geneticist and
+
+534
+00:44:34 --> 00:44:40
+had studied what he or she thought
+was the pathway for making arginine.
+
+535
+00:44:40 --> 00:44:47
+Some precursor alpha
+goes to precursor beta,
+
+536
+00:44:47 --> 00:44:53
+goes to precursor gamma,
+goes to arginine. And suppose
+
+537
+00:44:53 --> 00:45:00
+specific genes were needed
+to encode specific proteins.
+
+538
+00:45:00 --> 00:45:05
+I'll call them Arg A, Arg B,
+Arg C to catalyze each step
+
+539
+00:45:05 --> 00:45:10
+of this biochemical reaction.
+The geneticist and the biochemist
+
+540
+00:45:10 --> 00:45:15
+could collaborate with each other
+to study whether these mutants,
+
+541
+00:45:15 --> 00:45:20
+these particular genes now
+that had been identified,
+
+542
+00:45:20 --> 00:45:26
+affected each step of the pathway.
+And here's how they might do it.
+
+543
+00:45:26 --> 00:45:30
+They might take wild type yeast,
+mutant, well, they wouldn't know in
+
+544
+00:45:30 --> 00:45:34
+advance whether or not it was
+missing the ability to grow on each
+
+545
+00:45:34 --> 00:45:38
+of, whether it was missing
+each of these enzymes,
+
+546
+00:45:38 --> 00:45:42
+but let's think conceptually.
+Suppose we had a mutant that was,
+
+547
+00:45:42 --> 00:45:46
+a strain that was wild type,
+Arg A minus, Arg B, minus,
+
+548
+00:45:46 --> 00:45:50
+Arg C minus, unable to make
+this enzyme, this enzyme,
+
+549
+00:45:50 --> 00:45:54
+this enzyme. And suppose we helped
+it along. Suppose we gave the
+
+550
+00:45:54 --> 00:45:58
+mutant arginine. Suppose
+we supplement and grow it
+
+551
+00:45:58 --> 00:46:02
+on media with arginine. Which
+ones will be able to grow with
+
+552
+00:46:02 --> 00:46:08
+arginine? Can wild type
+grow if it's given arginine?
+
+553
+00:46:08 --> 00:46:13
+What about Arg A minus? B
+minus? C minus? What if instead
+
+554
+00:46:13 --> 00:46:19
+we offer it precursor gamma?
+Will wild type be able to grow if
+
+555
+00:46:19 --> 00:46:24
+it's given precursor gamma?
+Sure. What about Arg A minus?
+
+556
+00:46:24 --> 00:46:30
+No, because it still
+is stuck at this step.
+
+557
+00:46:30 --> 00:46:35
+It cannot. What about Arg B minus?
+What about Arg C minus? Really?
+
+558
+00:46:35 --> 00:46:41
+It hasn't got this enzyme.
+What's it going to do with gamma?
+
+559
+00:46:41 --> 00:46:47
+It ain't got anything to
+do with gamma, no enzyme.
+
+560
+00:46:47 --> 00:46:53
+Suppose I gave it beta. Wild
+type, can it grow? What about
+
+561
+00:46:53 --> 00:46:59
+Arg A minus? No, because it
+can go from alpha to beta,
+
+562
+00:46:59 --> 00:47:04
+but it can't go to
+gamma. It cannot grow.
+
+563
+00:47:04 --> 00:47:10
+What about Arg B minus? I've
+given it beta, but it can't do
+
+564
+00:47:10 --> 00:47:16
+anything with beta because
+it hasn't got this gene.
+
+565
+00:47:16 --> 00:47:21
+What about Arg C minus? Wait
+a second. What did I just do?
+
+566
+00:47:21 --> 00:47:27
+We're just backward. Sorry.
+If we gave it gamma, I just
+
+567
+00:47:27 --> 00:47:32
+got lost here. If we gave
+it gamma it was able to
+
+568
+00:47:32 --> 00:47:36
+grow, well, we are completely
+wrong, guys. It's able to grow here.
+
+569
+00:47:36 --> 00:47:40
+Thank you. Let's go back on that.
+You should have caught me before.
+
+570
+00:47:40 --> 00:47:44
+My mistake. If we have it gamma
+it's able to, if it's a mutant here
+
+571
+00:47:44 --> 00:47:48
+it can grow because it bypasses this
+problem. And having gamma is enough.
+
+572
+00:47:48 --> 00:47:52
+If I gave it beta, sorry,
+if I gave it gamma and its
+
+573
+00:47:52 --> 00:47:57
+mutation was here
+it can grow. Sorry.
+
+574
+00:47:57 --> 00:48:02
+Now, if I gave it here beta,
+and its mutation was here, it can
+
+575
+00:48:02 --> 00:48:07
+still grow, right? But
+if its mutation is here it
+
+576
+00:48:07 --> 00:48:12
+can't and if its mutation is
+here it can't. That's better.
+
+577
+00:48:12 --> 00:48:17
+I was getting worried there for
+a while myself. Suppose I gave it
+
+578
+00:48:17 --> 00:48:22
+alpha. Wild type can grow. If
+I give this guy alpha, will that
+
+579
+00:48:22 --> 00:48:27
+help if he's mutant in A? No.
+Can it help if he's mutant in
+
+580
+00:48:27 --> 00:48:32
+B? No. Can it help
+if he's mutant in C?
+
+581
+00:48:32 --> 00:48:37
+No. Sorry. There we go. I
+usually start at the other end of
+
+582
+00:48:37 --> 00:48:42
+this picture. So, what you
+can see is these mutants
+
+583
+00:48:42 --> 00:48:47
+have different phenotypes with
+respect to being able to supplement
+
+584
+00:48:47 --> 00:48:52
+them with different chemicals.
+Now, let me ask in our last two
+
+585
+00:48:52 --> 00:48:57
+minutes, I'll run two minutes over
+here. Suppose I gave you a mutant
+
+586
+00:48:57 --> 00:49:03
+that was a double homozygote.
+Suppose it was Arg B minus,
+
+587
+00:49:03 --> 00:49:09
+Arg B minus, sorry, Arg B minus
+and Arg C minus. Suppose it was a
+
+588
+00:49:09 --> 00:49:16
+double mutant, it lacked
+both this and this.
+
+589
+00:49:16 --> 00:49:23
+Which line of my table would it
+resemble? Would it look like the
+
+590
+00:49:23 --> 00:49:30
+first line, the second line
+or the third line of my table?
+
+591
+00:49:30 --> 00:49:36
+Second line. Why's that? If
+I'm lacking B, I'm already in
+
+592
+00:49:36 --> 00:49:42
+trouble here. And also
+lacking C doesn't matter.
+
+593
+00:49:42 --> 00:49:49
+So, I will look, just
+like a mutant who lacks B.
+
+594
+00:49:49 --> 00:49:55
+So, in other words, I'm able,
+if I know something about the
+
+595
+00:49:55 --> 00:50:02
+biochemistry of a pathway and I can
+break my arginine mutants up into
+
+596
+00:50:02 --> 00:50:08
+different kinds of phenotypes here
+by their response to different steps
+
+597
+00:50:08 --> 00:50:15
+in a pathway, I can then look
+at combinations of mutants.
+
+598
+00:50:15 --> 00:50:20
+And I can say if I have a double
+mutant missing both B and C,
+
+599
+00:50:20 --> 00:50:25
+does it look like B or does it
+look C when I put them together?
+
+600
+00:50:25 --> 00:50:31
+And it turns out that if it looks
+like B then B was further upstream
+
+601
+00:50:31 --> 00:50:36
+in the pathway. So, it
+turns out that geneticists
+
+602
+00:50:36 --> 00:50:40
+and biochemists can collaborate
+based on the phenotype of the
+
+603
+00:50:40 --> 00:50:45
+organism sometimes to infer
+aspects of the biochemical pathway.
+
+604
+00:50:45 --> 00:50:49
+These are the kinds of things
+a geneticist does to be able to
+
+605
+00:50:49 --> 00:50:54
+characterize mutants on a mutant
+hunt. Next time what I want to do
+
+606
+00:50:54 --> 00:50:58
+is talk about characterizing mutants
+in a very different kind of organism,
+
+607
+00:50:58 --> 51:03
+namely the
+human being.
+

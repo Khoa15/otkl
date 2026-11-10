@@ -1,0 +1,24 @@
+
+{
+  "audience": [],
+  "content": "<p>Lecture slides are available for selected topics. Please also see the <a href=\"../../resources/mit2_017j_f09_coursetextbook_pdf/index.html\">course textbook</a> for extensive notes.</p>\n<p><table>\n<thead>\n<tr>\n<th>\n\nTOPICS\n</th>\n<th>\n\nSLIDES\n</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>\n\nConcepts of design\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_design/index.html\">PDF</a>)\n</td>\n</tr>\n<tr>\n<td>\n\nExperiments, tests, and data\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_experiments/index.html\">PDF</a>)\n</td>\n</tr>\n<tr>\n<td>\n\nElectronics essentials\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_electronics/index.html\">PDF</a>)\n</td>\n</tr>\n<tr>\n<td>\n\nDesign for the ocean environment\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_oceans/index.html\">PDF - 2.2MB</a>)\n</td>\n</tr>\n<tr>\n<td>\n\nApplying optimization\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_optimization/index.html\">PDF</a>)\n</td>\n</tr>\n<tr>\n<td>\n\nStability and trim\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_stability/index.html\">PDF</a>)\n</td>\n</tr>\n<tr>\n<td>\n\nGeneral presentation guidelines\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_presntations/index.html\">PDF</a>)\n</td>\n</tr>\n<tr>\n<td>\n\nCorrosion in marine environments\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_corrosion/index.html\">PDF</a>)\n</td>\n</tr>\n<tr>\n<td>\n\nImportant vehicle power sources\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_power/index.html\">PDF</a>)\n</td>\n</tr>\n<tr>\n<td>\n\nTopics in machine elements\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_machines/index.html\">PDF - 1.1MB</a>)\n</td>\n</tr>\n<tr>\n<td>\n\nNavigation sensors and systems\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_navigation/index.html\">PDF</a>)\n</td>\n</tr>\n<tr>\n<td>\n\nBasic physics of underwater acoustics\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_acoustics/index.html\">PDF</a>)\n</td>\n</tr>\n<tr>\n<td>\n\nIntroduction to discrete-time systems\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_discrete/index.html\">PDF</a>)\n</td>\n</tr>\n<tr>\n<td>\n\nFeedback control\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_feedback/index.html\">PDF</a>)\n</td>\n</tr>\n<tr>\n<td>\n\nControl system design\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_control/index.html\">PDF</a>)\n</td>\n</tr>\n</tbody>\n</table>\n</p>\n",
+  "content_type": "page",
+  "description": "This section provides the schedule of lecture topics along with lecture slides for selected topics.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Lecture Notes",
+  "uid": "107bb7c0-9134-4b2f-70e5-eee203b1a371",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

@@ -1,0 +1,6494 @@
+1
+00:00:00,000 --> 00:00:02,520
+The following content is
+provided under a Creative
+
+2
+00:00:02,520 --> 00:00:03,970
+Commons license.
+
+3
+00:00:03,970 --> 00:00:06,360
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:06,360 --> 00:00:10,660
+continue to offer high quality
+educational resources for free.
+
+5
+00:00:10,660 --> 00:00:13,350
+To make a donation or
+view additional materials
+
+6
+00:00:13,350 --> 00:00:17,190
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:17,190 --> 00:00:18,400
+at ocw.mit.edu.
+
+8
+00:00:21,490 --> 00:00:25,000
+RUSS TEDRAKE: OK, let me say the
+big idea for LQR trees again,
+
+9
+00:00:25,000 --> 00:00:28,670
+and you can tell me where
+you want more details.
+
+10
+00:00:28,670 --> 00:00:34,180
+So here's the basic story.
+
+11
+00:00:34,180 --> 00:00:37,090
+I've got some goal
+I want to get to,
+
+12
+00:00:37,090 --> 00:00:38,560
+and I've got a
+lot of potential--
+
+13
+00:00:38,560 --> 00:00:41,210
+I'd like to be able to get there
+from every initial condition,
+
+14
+00:00:41,210 --> 00:00:43,180
+let's say.
+
+15
+00:00:43,180 --> 00:00:45,580
+The idea was we
+know how to design--
+
+16
+00:00:45,580 --> 00:00:47,660
+we know how to
+stabilize trajectories.
+
+17
+00:00:47,660 --> 00:00:50,560
+So let's just pick
+a point at random,
+
+18
+00:00:50,560 --> 00:00:55,000
+design a path to
+the goal like that,
+
+19
+00:00:55,000 --> 00:01:01,207
+design the LTV LQR
+stabilizer on this.
+
+20
+00:01:01,207 --> 00:01:03,040
+The great thing about
+that is, first of all,
+
+21
+00:01:03,040 --> 00:01:06,580
+that it will locally
+stabilize the trajectory,
+
+22
+00:01:06,580 --> 00:01:09,700
+but second of all, because
+we can compute not only--
+
+23
+00:01:09,700 --> 00:01:17,560
+because we are given both
+u equals some time varying,
+
+24
+00:01:17,560 --> 00:01:19,990
+we have a feedback
+policy from that,
+
+25
+00:01:19,990 --> 00:01:24,280
+but we're also given an
+estimate of the cost to go,
+
+26
+00:01:24,280 --> 00:01:31,780
+which is in this
+time varying matrix,
+
+27
+00:01:31,780 --> 00:01:34,634
+yeah, the Riccati
+equation backwards.
+
+28
+00:01:37,360 --> 00:01:40,060
+Because of that, when
+we're doing our LQR design,
+
+29
+00:01:40,060 --> 00:01:41,530
+we actually have
+a good candidate
+
+30
+00:01:41,530 --> 00:01:46,450
+for a Lyapunov function for the
+system around that trajectory.
+
+31
+00:01:46,450 --> 00:01:50,050
+So that's an
+important observation,
+
+32
+00:01:50,050 --> 00:01:58,510
+that when we do LTV LQR on a
+trajectory, we get both, OK.
+
+33
+00:01:58,510 --> 00:02:02,350
+Now this thing, for
+the linear system, even
+
+34
+00:02:02,350 --> 00:02:04,390
+the linear time
+varying system, this
+
+35
+00:02:04,390 --> 00:02:05,620
+is a true Lyapunov function.
+
+36
+00:02:05,620 --> 00:02:10,030
+From all initial
+states, this function
+
+37
+00:02:10,030 --> 00:02:13,150
+will just only get
+smaller with time, OK.
+
+38
+00:02:13,150 --> 00:02:16,060
+But since the actual
+system is non-linear,
+
+39
+00:02:16,060 --> 00:02:19,360
+as I get further
+from my trajectory,
+
+40
+00:02:19,360 --> 00:02:21,880
+some of the non-linearity
+is going to come in
+
+41
+00:02:21,880 --> 00:02:26,890
+and corrupt my
+Lyapunov function.
+
+42
+00:02:26,890 --> 00:02:29,500
+At some point, when I get far
+enough from the trajectory,
+
+43
+00:02:29,500 --> 00:02:31,630
+those higher order
+terms are going
+
+44
+00:02:31,630 --> 00:02:34,630
+to mean that this thing
+doesn't have a negative time
+
+45
+00:02:34,630 --> 00:02:35,580
+derivative.
+
+46
+00:02:35,580 --> 00:02:37,780
+But what I care about
+for a Lyapunov function
+
+47
+00:02:37,780 --> 00:02:41,030
+is that this thing is
+less than or equal to 0.
+
+48
+00:02:44,410 --> 00:02:47,920
+So the idea with
+the certificates
+
+49
+00:02:47,920 --> 00:02:51,910
+is to do a higher order
+polynomial expansion
+
+50
+00:02:51,910 --> 00:02:54,430
+of the dynamics
+along this trajectory
+
+51
+00:02:54,430 --> 00:02:58,540
+and try to estimate
+the threshold where
+
+52
+00:02:58,540 --> 00:03:02,590
+this stops being true, OK.
+
+53
+00:03:02,590 --> 00:03:09,460
+And that gives me,
+essentially, a funnel.
+
+54
+00:03:09,460 --> 00:03:11,590
+If I do it everywhere
+in time, that gives me
+
+55
+00:03:11,590 --> 00:03:20,500
+a funnel along the trajectory
+over which I know the LQR
+
+56
+00:03:20,500 --> 00:03:24,310
+cost to go is a
+Lyapunov function
+
+57
+00:03:24,310 --> 00:03:26,950
+for the nonlinear system.
+
+58
+00:03:26,950 --> 00:03:30,280
+And it's mostly conservative.
+
+59
+00:03:30,280 --> 00:03:33,670
+The way that we
+construct that threshold
+
+60
+00:03:33,670 --> 00:03:35,380
+is mostly conservative.
+
+61
+00:03:35,380 --> 00:03:37,090
+The only weakness
+of it-- meaning
+
+62
+00:03:37,090 --> 00:03:38,965
+the real basin of
+attraction should be bigger
+
+63
+00:03:38,965 --> 00:03:40,893
+than this estimate.
+
+64
+00:03:40,893 --> 00:03:42,310
+The only weakness
+is that I'm only
+
+65
+00:03:42,310 --> 00:03:46,940
+doing it by doing a polynomial
+expansion of the system here.
+
+66
+00:03:46,940 --> 00:03:49,138
+So if there was a hard
+discontinuity right next
+
+67
+00:03:49,138 --> 00:03:50,680
+to the trajectory
+that didn't show up
+
+68
+00:03:50,680 --> 00:03:53,590
+in the Taylor expansion,
+then I wouldn't ever see it.
+
+69
+00:03:53,590 --> 00:03:56,260
+I'm not exhaustively
+searching the non-linearity
+
+70
+00:03:56,260 --> 00:03:58,120
+around the trajectory.
+
+71
+00:03:58,120 --> 00:04:00,640
+I'm just saying, along
+this trajectory, what
+
+72
+00:04:00,640 --> 00:04:02,020
+are the higher order expansion?
+
+73
+00:04:02,020 --> 00:04:04,270
+I do a Taylor expansion-- a
+third order, fourth order,
+
+74
+00:04:04,270 --> 00:04:07,630
+whatever it takes, and
+I use that to check when
+
+75
+00:04:07,630 --> 00:04:13,507
+it breaks the cost to go, OK.
+
+76
+00:04:13,507 --> 00:04:14,590
+So that's the certificate.
+
+77
+00:04:14,590 --> 00:04:16,480
+That's just, if I have
+a single trajectory,
+
+78
+00:04:16,480 --> 00:04:17,800
+that I can use this.
+
+79
+00:04:17,800 --> 00:04:20,649
+The real cool thing is that
+thanks to Pablo and [? Sasha ?]
+
+80
+00:04:20,649 --> 00:04:23,740
+[? McGretzky, ?] we can do
+that efficiently with a convex
+
+81
+00:04:23,740 --> 00:04:25,570
+optimization.
+
+82
+00:04:25,570 --> 00:04:28,990
+And then the idea is, if I can
+do it for a single trajectory,
+
+83
+00:04:28,990 --> 00:04:31,330
+then why not put
+that back into sort
+
+84
+00:04:31,330 --> 00:04:34,240
+of an RRT kind of
+framework and try
+
+85
+00:04:34,240 --> 00:04:36,995
+to build lots of trajectories
+that are stabilized?
+
+86
+00:04:36,995 --> 00:04:39,370
+OK, so the first step was just
+to pick a point at random,
+
+87
+00:04:39,370 --> 00:04:41,260
+design a single trajectory.
+
+88
+00:04:41,260 --> 00:04:43,817
+The second step is, let's
+pick a new random point.
+
+89
+00:04:43,817 --> 00:04:46,150
+I don't actually have to go
+all the way back to my goal.
+
+90
+00:04:46,150 --> 00:04:50,140
+I just have to go to the nearest
+point on the current tree
+
+91
+00:04:50,140 --> 00:04:53,590
+and stabilize that.
+
+92
+00:04:53,590 --> 00:04:56,140
+And then I pick another
+point, find the nearest
+
+93
+00:04:56,140 --> 00:04:59,770
+point on the tree, build
+the trajectory in like that,
+
+94
+00:04:59,770 --> 00:05:01,277
+stabilize that.
+
+95
+00:05:01,277 --> 00:05:02,860
+If I pick a new point
+and it's already
+
+96
+00:05:02,860 --> 00:05:06,430
+in the basin of attraction,
+I don't need to add an edge.
+
+97
+00:05:06,430 --> 00:05:09,800
+That would be a
+waste of my time.
+
+98
+00:05:09,800 --> 00:05:13,780
+So the effect is I get these--
+
+99
+00:05:13,780 --> 00:05:15,698
+I didn't say carefully
+what the results are,
+
+100
+00:05:15,698 --> 00:05:16,990
+because I can't prove them yet.
+
+101
+00:05:16,990 --> 00:05:18,640
+This is still hot off the press.
+
+102
+00:05:18,640 --> 00:05:24,240
+But I think that I can say that
+it probabilistically covers
+
+103
+00:05:24,240 --> 00:05:26,340
+the reachable state space.
+
+104
+00:05:26,340 --> 00:05:28,650
+Every place that I can
+get to the goal from,
+
+105
+00:05:28,650 --> 00:05:30,270
+there exists a controller.
+
+106
+00:05:30,270 --> 00:05:32,310
+If I design enough
+samples, I should
+
+107
+00:05:32,310 --> 00:05:34,560
+be able to get to
+the goal, given I
+
+108
+00:05:34,560 --> 00:05:35,910
+do enough steps in my LQR tree.
+
+109
+00:05:35,910 --> 00:05:39,030
+So as time goes to
+infinity, the entire space
+
+110
+00:05:39,030 --> 00:05:42,220
+will be covered with basin of
+attraction of a controller that
+
+111
+00:05:42,220 --> 00:05:45,330
+gets me to the goal, which is
+a pretty powerful thing to say,
+
+112
+00:05:45,330 --> 00:05:48,030
+if you're willing to wait
+till time goes to infinity.
+
+113
+00:05:48,030 --> 00:05:50,483
+And the practical thing
+that's nice about it is it
+
+114
+00:05:50,483 --> 00:05:52,275
+seems to happen pretty
+quick with a handful
+
+115
+00:05:52,275 --> 00:05:55,040
+of-- with a fairly small
+number of trajectories.
+
+116
+00:05:55,040 --> 00:05:55,805
+Yeah? [? John. ?]
+
+117
+00:05:55,805 --> 00:05:57,260
+AUDIENCE: If you want
+to guarantee [INAUDIBLE]
+
+118
+00:05:57,260 --> 00:05:59,790
+[? in your ?] system has that,
+which property would you have
+
+119
+00:05:59,790 --> 00:06:02,670
+[? to let it ?] sample inside
+the basins of attraction?
+
+120
+00:06:02,670 --> 00:06:04,170
+RUSS TEDRAKE: Yeah,
+so that's why I
+
+121
+00:06:04,170 --> 00:06:05,462
+have to qualify the guarantees.
+
+122
+00:06:05,462 --> 00:06:07,500
+I'm only saying the
+nonlinear system
+
+123
+00:06:07,500 --> 00:06:09,540
+as represented as
+the Taylor expansion
+
+124
+00:06:09,540 --> 00:06:10,695
+around the trajectories.
+
+125
+00:06:10,695 --> 00:06:12,008
+That's the weakness.
+
+126
+00:06:12,008 --> 00:06:13,800
+So it really only works
+for smooth systems.
+
+127
+00:06:13,800 --> 00:06:16,790
+If there's a cliff here and I
+design a trajectory right here,
+
+128
+00:06:16,790 --> 00:06:19,290
+it might come up with [? a ?]
+saying a basin of attraction's
+
+129
+00:06:19,290 --> 00:06:21,570
+here, even though
+that's just not true.
+
+130
+00:06:21,570 --> 00:06:22,070
+OK.
+
+131
+00:06:22,070 --> 00:06:22,380
+AUDIENCE: [INAUDIBLE]
+
+132
+00:06:22,380 --> 00:06:23,922
+RUSS TEDRAKE: If I
+smooth the cliff--
+
+133
+00:06:23,922 --> 00:06:28,050
+[? sorry, John. ?] If I smooth
+the cliff and therefore,
+
+134
+00:06:28,050 --> 00:06:30,840
+when I Taylor expand here, I can
+see that there's a cliff there,
+
+135
+00:06:30,840 --> 00:06:35,920
+then I'd like to think that the
+certificates would do the right
+
+136
+00:06:35,920 --> 00:06:36,420
+thing.
+
+137
+00:06:36,420 --> 00:06:40,440
+But if it's a hard cliff where
+the higher order expansion here
+
+138
+00:06:40,440 --> 00:06:42,823
+doesn't see that cliff,
+then there's no hope.
+
+139
+00:06:42,823 --> 00:06:45,240
+AUDIENCE: [? If ?] [? you ?]
+[INAUDIBLE] inside the basin,
+
+140
+00:06:45,240 --> 00:06:48,128
+[? though, ?] couldn't
+you [INAUDIBLE]??
+
+141
+00:06:48,128 --> 00:06:49,670
+RUSS TEDRAKE: That's
+a good question.
+
+142
+00:06:49,670 --> 00:06:52,200
+So it's just building
+more and more accurate
+
+143
+00:06:52,200 --> 00:06:54,120
+certificates as time
+goes to infinity.
+
+144
+00:06:54,120 --> 00:06:56,130
+It could be.
+
+145
+00:06:56,130 --> 00:06:57,750
+It could be a good idea.
+
+146
+00:06:57,750 --> 00:06:59,845
+My suspicion is
+that, in practice,
+
+147
+00:06:59,845 --> 00:07:02,220
+this is going to be good enough
+for-- and we're not going
+
+148
+00:07:02,220 --> 00:07:03,420
+to want to do the--
+
+149
+00:07:03,420 --> 00:07:06,750
+maybe I'm just the kind of
+guy that cuts the corners,
+
+150
+00:07:06,750 --> 00:07:09,490
+but I think this is a
+pretty good solution.
+
+151
+00:07:09,490 --> 00:07:09,990
+Ernesto.
+
+152
+00:07:09,990 --> 00:07:12,198
+AUDIENCE: [INAUDIBLE]
+[? basin ?] [? of attraction ?]
+
+153
+00:07:12,198 --> 00:07:14,240
+[INAUDIBLE].
+
+154
+00:07:14,240 --> 00:07:15,240
+RUSS TEDRAKE: So I use--
+
+155
+00:07:15,240 --> 00:07:16,657
+whenever I design
+each trajectory,
+
+156
+00:07:16,657 --> 00:07:18,210
+I use [? DR ?]
+[? call. ?] Why not?
+
+157
+00:07:18,210 --> 00:07:21,810
+But it's so I could say they're
+locally optimal in the branches
+
+158
+00:07:21,810 --> 00:07:26,400
+that they are, just because
+that's easy to accomplish.
+
+159
+00:07:26,400 --> 00:07:30,270
+But there's no sense in
+which it's globally optimal.
+
+160
+00:07:30,270 --> 00:07:32,520
+So I just try to say that
+every state will eventually
+
+161
+00:07:32,520 --> 00:07:36,015
+get there and not that
+it'll get there optimally.
+
+162
+00:07:36,015 --> 00:07:37,250
+mm-hmm.
+
+163
+00:07:37,250 --> 00:07:39,250
+AUDIENCE: But again, if
+you allowed it to sample
+
+164
+00:07:39,250 --> 00:07:41,980
+inside the basins
+of attraction, you
+
+165
+00:07:41,980 --> 00:07:44,960
+would probabilistically get
+some kind of convergence
+
+166
+00:07:44,960 --> 00:07:45,740
+to global optimal.
+
+167
+00:07:50,022 --> 00:07:52,480
+RUSS TEDRAKE: There are ways
+to try to get at that problem.
+
+168
+00:07:52,480 --> 00:07:55,560
+I don't think it's a one-step
+change from what I said.
+
+169
+00:07:55,560 --> 00:07:57,510
+I think you have to
+do something more.
+
+170
+00:07:57,510 --> 00:08:00,660
+I mean, any one of
+these trajectories--
+
+171
+00:08:00,660 --> 00:08:01,830
+maybe that's getting busy.
+
+172
+00:08:01,830 --> 00:08:04,470
+Any one of those trajectories
+is just locally optimal.
+
+173
+00:08:04,470 --> 00:08:08,760
+So let's consider the case
+where the goal is here.
+
+174
+00:08:08,760 --> 00:08:12,150
+There's something
+here, and I did this.
+
+175
+00:08:12,150 --> 00:08:14,250
+And for some reason,
+I got a trajectory
+
+176
+00:08:14,250 --> 00:08:18,750
+like that, which is
+locally optimal but not
+
+177
+00:08:18,750 --> 00:08:21,630
+globally optimal, because
+there's a shorter path here.
+
+178
+00:08:21,630 --> 00:08:22,673
+So I need to somehow--
+
+179
+00:08:22,673 --> 00:08:24,840
+I would need to somehow
+include the mechanism, which
+
+180
+00:08:24,840 --> 00:08:26,340
+is, I think, what
+you're getting at,
+
+181
+00:08:26,340 --> 00:08:31,680
+to eventually find a different
+path to the same place
+
+182
+00:08:31,680 --> 00:08:33,280
+and overwrite the old path.
+
+183
+00:08:33,280 --> 00:08:35,598
+And I don't have any
+mechanism for that inside.
+
+184
+00:08:35,598 --> 00:08:37,140
+And it turns out
+to-- that's actually
+
+185
+00:08:37,140 --> 00:08:38,590
+what I was going for initially.
+
+186
+00:08:38,590 --> 00:08:42,059
+Turns out to be a little
+bit nontrivial to do.
+
+187
+00:08:42,059 --> 00:08:44,642
+Chris Atkeson has
+a nice idea that
+
+188
+00:08:44,642 --> 00:08:46,350
+goes towards doing
+that a little bit more
+
+189
+00:08:46,350 --> 00:08:49,140
+on composing
+trajectory libraries.
+
+190
+00:08:49,140 --> 00:08:50,700
+But I gave up
+optimality and tried
+
+191
+00:08:50,700 --> 00:08:53,670
+to get coverage with a basin
+of attraction in that design.
+
+192
+00:08:57,140 --> 00:09:00,375
+So some of you have been
+talking to me about the projects
+
+193
+00:09:00,375 --> 00:09:03,590
+and have been asking
+about these things.
+
+194
+00:09:03,590 --> 00:09:06,640
+So I think Mark and Matt
+are thinking about trying
+
+195
+00:09:06,640 --> 00:09:08,280
+to help with this--
+
+196
+00:09:08,280 --> 00:09:09,640
+I mean, this is new.
+
+197
+00:09:09,640 --> 00:09:14,370
+I mean, you guys can
+definitely help with the idea.
+
+198
+00:09:14,370 --> 00:09:16,810
+So we're trying to
+figure out, for instance,
+
+199
+00:09:16,810 --> 00:09:19,648
+if there's actuator limits.
+
+200
+00:09:19,648 --> 00:09:21,690
+These guys are talking
+about trying to figure out
+
+201
+00:09:21,690 --> 00:09:25,260
+how to compute the certificates,
+and even the LQR stabilizer,
+
+202
+00:09:25,260 --> 00:09:27,602
+if you not only have a
+quadratic [INAUDIBLE] on u
+
+203
+00:09:27,602 --> 00:09:30,060
+but have some hard limits on
+u, because that's a problem we
+
+204
+00:09:30,060 --> 00:09:31,505
+actually hit in practice.
+
+205
+00:09:31,505 --> 00:09:33,630
+So one of the final projects
+in the class, I think,
+
+206
+00:09:33,630 --> 00:09:35,190
+is going to be
+helping with that.
+
+207
+00:09:35,190 --> 00:09:37,680
+There's problems of, how do
+you design the stabilizer
+
+208
+00:09:37,680 --> 00:09:40,250
+through impacts and
+in periodic systems.
+
+209
+00:09:40,250 --> 00:09:41,730
+There's lots of good questions.
+
+210
+00:09:41,730 --> 00:09:43,620
+So if you're excited
+about that idea--
+
+211
+00:09:43,620 --> 00:09:46,410
+I'm definitely excited
+about the idea right now--
+
+212
+00:09:46,410 --> 00:09:49,350
+then I'll see what
+you wrote up today,
+
+213
+00:09:49,350 --> 00:09:52,380
+but we could maybe try to
+find a way to connect that.
+
+214
+00:09:52,380 --> 00:09:55,440
+I'd be thrilled to have
+your help in making
+
+215
+00:09:55,440 --> 00:09:59,680
+that idea more relevant.
+
+216
+00:09:59,680 --> 00:10:02,340
+Yeah?
+
+217
+00:10:02,340 --> 00:10:03,600
+OK.
+
+218
+00:10:03,600 --> 00:10:04,320
+Does that cover?
+
+219
+00:10:09,360 --> 00:10:12,940
+Now for something completely
+different, although related,
+
+220
+00:10:12,940 --> 00:10:15,310
+of course.
+
+221
+00:10:15,310 --> 00:10:18,000
+So in the LQR trees and
+basically in everything
+
+222
+00:10:18,000 --> 00:10:21,480
+that we've done so
+far in class, we've
+
+223
+00:10:21,480 --> 00:10:26,310
+made a handful of
+important assumptions.
+
+224
+00:10:36,330 --> 00:10:38,370
+The most important
+one, probably,
+
+225
+00:10:38,370 --> 00:10:41,020
+is we've always assumed that we
+have the model of the system.
+
+226
+00:10:51,810 --> 00:10:54,870
+So next week we're
+going to get at,
+
+227
+00:10:54,870 --> 00:10:56,730
+how do you do some of
+these optimizations
+
+228
+00:10:56,730 --> 00:10:58,900
+when you don't even
+have a model, OK.
+
+229
+00:11:02,040 --> 00:11:06,340
+We've also assumed so far that
+the current state of the system
+
+230
+00:11:06,340 --> 00:11:06,840
+is known.
+
+231
+00:11:10,230 --> 00:11:12,906
+In other words, the state of
+the robot is fully observable.
+
+232
+00:11:21,660 --> 00:11:23,200
+If I stop assuming
+that, we start
+
+233
+00:11:23,200 --> 00:11:25,200
+getting into discussions
+about state estimation,
+
+234
+00:11:25,200 --> 00:11:28,800
+and we will towards
+the end of the class.
+
+235
+00:11:28,800 --> 00:11:31,510
+And there's another
+assumption we've been making,
+
+236
+00:11:31,510 --> 00:11:39,240
+which is that the dynamics
+are deterministic,
+
+237
+00:11:39,240 --> 00:11:52,860
+let's say, that pretty
+much, the system goes
+
+238
+00:11:52,860 --> 00:11:54,180
+where I think it's going to go.
+
+239
+00:11:57,060 --> 00:12:00,300
+Now I chose to write that
+and then cross it out,
+
+240
+00:12:00,300 --> 00:12:04,015
+because that's not quite
+what we're assuming, OK.
+
+241
+00:12:04,015 --> 00:12:04,890
+I want to write that.
+
+242
+00:12:04,890 --> 00:12:07,185
+But maybe what's
+a-- if we really
+
+243
+00:12:07,185 --> 00:12:09,310
+were assuming that the
+dynamics were deterministic,
+
+244
+00:12:09,310 --> 00:12:11,518
+then we wouldn't have been
+spending much time talking
+
+245
+00:12:11,518 --> 00:12:12,840
+about feedback at all.
+
+246
+00:12:12,840 --> 00:12:16,940
+We would have been just
+focused on open loop things.
+
+247
+00:12:16,940 --> 00:12:17,790
+So let's think.
+
+248
+00:12:17,790 --> 00:12:19,770
+Let's have a short
+philosophical argument
+
+249
+00:12:19,770 --> 00:12:22,530
+about what we're
+actually doing, yeah?
+
+250
+00:12:22,530 --> 00:12:25,980
+So we're not quite assuming
+that it's deterministic.
+
+251
+00:12:25,980 --> 00:12:28,860
+Maybe a better way to
+describe what we're doing
+
+252
+00:12:28,860 --> 00:12:32,640
+is we're assuming something
+specific about the disturbances
+
+253
+00:12:32,640 --> 00:12:34,935
+in the system.
+
+254
+00:12:34,935 --> 00:12:42,060
+We're assuming that
+disturbances look
+
+255
+00:12:42,060 --> 00:12:43,950
+like a change in
+initial conditions.
+
+256
+00:12:43,950 --> 00:12:52,710
+That's one way to say
+it, an un-modeled change
+
+257
+00:12:52,710 --> 00:12:54,159
+in initial conditions.
+
+258
+00:13:11,280 --> 00:13:15,750
+By virtue of talking about
+these feedback stabilizers,
+
+259
+00:13:15,750 --> 00:13:18,900
+the motivation is that, OK,
+I'm following this trajectory.
+
+260
+00:13:18,900 --> 00:13:20,700
+When the model's
+right, all is good.
+
+261
+00:13:20,700 --> 00:13:22,950
+If something does
+happen, then OK,
+
+262
+00:13:22,950 --> 00:13:25,210
+it's going to move me
+somewhere in state space.
+
+263
+00:13:25,210 --> 00:13:26,880
+But as long as that's in
+the basin of attraction--
+
+264
+00:13:26,880 --> 00:13:28,797
+the whole idea of really
+a basin of attraction
+
+265
+00:13:28,797 --> 00:13:31,860
+is going at the idea that
+I can handle disturbances
+
+266
+00:13:31,860 --> 00:13:33,920
+by just being robust in state.
+
+267
+00:13:36,850 --> 00:13:39,117
+But that's actually a
+subtle thing to assume.
+
+268
+00:13:39,117 --> 00:13:41,700
+I want to be a little bit more
+explicit about what that means.
+
+269
+00:13:44,628 --> 00:13:46,170
+Really, it sort of
+implies that we're
+
+270
+00:13:46,170 --> 00:14:02,250
+assuming that disturbances
+are impulsive, not constant,
+
+271
+00:14:02,250 --> 00:14:05,100
+instantaneous, Impulsive.
+
+272
+00:14:05,100 --> 00:14:07,710
+If a disturbance
+for my walking robot
+
+273
+00:14:07,710 --> 00:14:10,740
+was someone put a
+new weight on my leg,
+
+274
+00:14:10,740 --> 00:14:14,250
+then that's not something
+that our designs so far have
+
+275
+00:14:14,250 --> 00:14:16,910
+handled, because that's
+more like the model changed.
+
+276
+00:14:16,910 --> 00:14:19,470
+We're talking about
+something that it moved me,
+
+277
+00:14:19,470 --> 00:14:21,690
+and now I have to deal with it.
+
+278
+00:14:21,690 --> 00:14:23,880
+So if the disturbance
+lasts for a long time,
+
+279
+00:14:23,880 --> 00:14:26,713
+then that actually feels a
+lot more like a model change.
+
+280
+00:14:26,713 --> 00:14:28,380
+But if it's impulsive,
+I can think of it
+
+281
+00:14:28,380 --> 00:14:31,230
+as a change in
+initial condition.
+
+282
+00:14:31,230 --> 00:14:35,340
+And the other thing that
+that implicitly assumes
+
+283
+00:14:35,340 --> 00:14:36,825
+is that the
+disturbances are rare.
+
+284
+00:14:46,530 --> 00:14:52,350
+If I got impulsive disturbances
+1,000 times a second, then,
+
+285
+00:14:52,350 --> 00:14:57,000
+again, my completely
+deterministic analysis
+
+286
+00:14:57,000 --> 00:14:59,280
+isn't probably the
+relevant one, OK.
+
+287
+00:14:59,280 --> 00:15:03,485
+So those are-- implicitly, we've
+been making these assumptions
+
+288
+00:15:03,485 --> 00:15:04,110
+the whole time.
+
+289
+00:15:04,110 --> 00:15:06,277
+The whole idea of talking
+about basins of attraction
+
+290
+00:15:06,277 --> 00:15:08,730
+of deterministic systems
+and doing feedback design
+
+291
+00:15:08,730 --> 00:15:10,530
+implicitly makes
+that assumption.
+
+292
+00:15:10,530 --> 00:15:13,080
+So there's three
+things there, the fact
+
+293
+00:15:13,080 --> 00:15:17,040
+that it's un-modeled and
+impulsive and rare, I guess.
+
+294
+00:15:22,110 --> 00:15:26,460
+If your disturbances are
+not instantaneous rare
+
+295
+00:15:26,460 --> 00:15:29,790
+disturbances, then I think
+I would advocate quickly
+
+296
+00:15:29,790 --> 00:15:32,220
+for starting to think
+about your dynamics
+
+297
+00:15:32,220 --> 00:15:36,000
+as not deterministic dynamics
+but as a stochastic dynamics,
+
+298
+00:15:36,000 --> 00:15:37,560
+OK.
+
+299
+00:15:37,560 --> 00:15:40,290
+And even if they are
+impulsive and rare,
+
+300
+00:15:40,290 --> 00:15:43,380
+but if you have a
+model of them, then
+
+301
+00:15:43,380 --> 00:15:46,920
+you should still be able to do
+better by explicitly letting
+
+302
+00:15:46,920 --> 00:15:52,350
+your feedback design reason
+about the stochastic dynamics,
+
+303
+00:15:52,350 --> 00:15:53,010
+OK.
+
+304
+00:15:53,010 --> 00:15:55,590
+So today I want to
+start talking about--
+
+305
+00:15:55,590 --> 00:15:57,798
+I want to start breaking
+down our assumptions.
+
+306
+00:15:57,798 --> 00:15:59,340
+And throughout the
+rest of the class,
+
+307
+00:15:59,340 --> 00:16:00,965
+we're going to try
+to break these down.
+
+308
+00:16:03,430 --> 00:16:05,340
+Let's start breaking
+down the assumption
+
+309
+00:16:05,340 --> 00:16:08,988
+of deterministic dynamics, OK.
+
+310
+00:16:08,988 --> 00:16:11,970
+AUDIENCE: [INAUDIBLE] [? or ?]
+talking about the LTV LQR.
+
+311
+00:16:11,970 --> 00:16:12,855
+RUSS TEDRAKE: Mm-hmm.
+
+312
+00:16:12,855 --> 00:16:14,730
+AUDIENCE: [INAUDIBLE]
+actually saw something,
+
+313
+00:16:14,730 --> 00:16:17,370
+like if we the actually have
+this [? passive ?] transition
+
+314
+00:16:17,370 --> 00:16:21,180
+model and we move somewhere,
+and then we're a little bit off
+
+315
+00:16:21,180 --> 00:16:23,398
+from the trajectory, then
+you look at the policy,
+
+316
+00:16:23,398 --> 00:16:26,340
+which would bring this back
+[INAUDIBLE] [? projected ?]
+
+317
+00:16:26,340 --> 00:16:28,775
+[? and ?] go back.
+
+318
+00:16:28,775 --> 00:16:31,150
+RUSS TEDRAKE: I think the
+answer to your question is yes.
+
+319
+00:16:31,150 --> 00:16:35,226
+So one of the things we're going
+to do today is show that the--
+
+320
+00:16:35,226 --> 00:16:37,080
+it's sort of subtle
+that that's yes.
+
+321
+00:16:37,080 --> 00:16:41,190
+But anybody who knows linear
+quadratic Gaussian control,
+
+322
+00:16:41,190 --> 00:16:44,790
+yeah, well, it turns
+out that we're actually
+
+323
+00:16:44,790 --> 00:16:46,710
+doing linear quadratic
+Gaussian control,
+
+324
+00:16:46,710 --> 00:16:50,460
+but that's a
+surprising result, OK.
+
+325
+00:16:50,460 --> 00:16:54,510
+So in the specific case
+of linear dynamics,
+
+326
+00:16:54,510 --> 00:16:58,960
+quadratic cost, Gaussian noise,
+then what you said is true.
+
+327
+00:16:58,960 --> 00:17:03,030
+So that's a special case
+that we'll see quickly.
+
+328
+00:17:03,030 --> 00:17:05,430
+But in general, it's not true.
+
+329
+00:17:14,520 --> 00:17:18,210
+Right, so and again, this
+is leading into next week.
+
+330
+00:17:18,210 --> 00:17:20,040
+We're going to start
+talking about doing
+
+331
+00:17:20,040 --> 00:17:24,793
+these optimal controlled
+derivations without any model.
+
+332
+00:17:24,793 --> 00:17:26,460
+But today let's think
+about what happens
+
+333
+00:17:26,460 --> 00:17:27,710
+if we have a stochastic model.
+
+334
+00:17:38,970 --> 00:17:40,332
+OK, lots of ways people--
+
+335
+00:17:40,332 --> 00:17:41,790
+there's lots of
+different notations
+
+336
+00:17:41,790 --> 00:17:43,665
+people use to talk about
+stochastic dynamics.
+
+337
+00:17:43,665 --> 00:17:47,220
+The one I'll use is, I
+think, the most popular one.
+
+338
+00:17:47,220 --> 00:17:55,198
+We still got our standard
+equations of motion,
+
+339
+00:17:55,198 --> 00:17:57,240
+but we're going to add an
+additional input, which
+
+340
+00:17:57,240 --> 00:18:02,430
+is some disturbance w
+as an additional input
+
+341
+00:18:02,430 --> 00:18:11,130
+into our dynamics, where w
+of t is some noise process.
+
+342
+00:18:21,040 --> 00:18:23,790
+OK, but if we let the noise
+come in through an input here,
+
+343
+00:18:23,790 --> 00:18:26,340
+then we can still think about
+it as a deterministic function,
+
+344
+00:18:26,340 --> 00:18:28,350
+our dynamics as a
+deterministic function,
+
+345
+00:18:28,350 --> 00:18:31,410
+and keep it mostly the same as
+what we've been thinking about.
+
+346
+00:18:31,410 --> 00:18:34,860
+Now some people don't like
+defining noise processes
+
+347
+00:18:34,860 --> 00:18:35,760
+in continuous time.
+
+348
+00:18:39,990 --> 00:18:42,690
+It's a little bit more
+natural to describe them
+
+349
+00:18:42,690 --> 00:18:45,990
+in discrete time, and as
+we've done in the other class,
+
+350
+00:18:45,990 --> 00:18:48,640
+let's do the discrete
+time case first.
+
+351
+00:18:48,640 --> 00:19:02,520
+So in discrete time,
+we'll do the same thing.
+
+352
+00:19:09,570 --> 00:19:13,590
+But now maybe we can--
+
+353
+00:19:13,590 --> 00:19:15,940
+it's easier to think about
+what w of n might be.
+
+354
+00:19:15,940 --> 00:19:22,050
+So for instance, w of n might
+be some iid Gaussian process
+
+355
+00:19:22,050 --> 00:19:31,260
+or something like that, which
+is just a complicated way
+
+356
+00:19:31,260 --> 00:19:49,080
+to say that at each n, w
+n is sampled independently
+
+357
+00:19:49,080 --> 00:19:51,320
+from a Gaussian.
+
+358
+00:19:51,320 --> 00:19:56,250
+Let's say a normal distribution,
+like something like that.
+
+359
+00:19:56,250 --> 00:19:59,415
+So when I'm simulating
+this in MATLAB, if I have--
+
+360
+00:19:59,415 --> 00:20:01,260
+I can simulate an
+iid Gaussian process
+
+361
+00:20:01,260 --> 00:20:05,070
+by just every time step
+calling rand n, yeah, as if--
+
+362
+00:20:05,070 --> 00:20:08,010
+and it's independent from the
+[? w's ?] I picked before.
+
+363
+00:20:08,010 --> 00:20:10,800
+That's a pretty good model.
+
+364
+00:20:10,800 --> 00:20:14,770
+Now one thing I want to
+avoid talking about today
+
+365
+00:20:14,770 --> 00:20:24,030
+so far is, let's still assume
+that we have perfect state
+
+366
+00:20:24,030 --> 00:20:25,110
+information.
+
+367
+00:20:34,580 --> 00:20:36,580
+So I don't want to worry
+about sensor noise yet.
+
+368
+00:20:36,580 --> 00:20:38,788
+It turns out it'll be
+pretty natural to think
+
+369
+00:20:38,788 --> 00:20:40,330
+about it with some
+of the same tools,
+
+370
+00:20:40,330 --> 00:20:42,622
+but let's just assume for
+now that when I'm in state x,
+
+371
+00:20:42,622 --> 00:20:45,670
+I know I'm in state x exactly.
+
+372
+00:20:45,670 --> 00:20:47,620
+But if I'm trying
+to think about,
+
+373
+00:20:47,620 --> 00:20:49,360
+into the future,
+what's going to happen,
+
+374
+00:20:49,360 --> 00:20:52,270
+what's the optimal thing to do,
+I have to worry about the fact
+
+375
+00:20:52,270 --> 00:20:56,290
+that the noise in the system
+is going to push me around.
+
+376
+00:21:01,410 --> 00:21:06,672
+OK, so we updated
+our dynamic equation.
+
+377
+00:21:06,672 --> 00:21:08,130
+We better start--
+if we're thinking
+
+378
+00:21:08,130 --> 00:21:11,040
+about this in an
+optimal control sense,
+
+379
+00:21:11,040 --> 00:21:14,616
+we better also update our
+definition for optimality.
+
+380
+00:21:31,170 --> 00:21:37,800
+So it used to be that we said
+J in the discrete time case
+
+381
+00:21:37,800 --> 00:21:45,960
+was just some sum from n
+equals 0 to n of g xn un.
+
+382
+00:21:52,520 --> 00:21:57,500
+The problem with that
+now is that xn, this
+
+383
+00:21:57,500 --> 00:21:59,750
+is going to be-- this is
+now a random process, yeah?
+
+384
+00:22:06,410 --> 00:22:11,240
+If I run from the same
+initial conditions
+
+385
+00:22:11,240 --> 00:22:13,280
+with even the same
+open loop tape,
+
+386
+00:22:13,280 --> 00:22:17,940
+let's say, the
+system five times,
+
+387
+00:22:17,940 --> 00:22:21,050
+this is going to be a different
+value every time I run it.
+
+388
+00:22:21,050 --> 00:22:22,970
+Exit time three will
+be different every time
+
+389
+00:22:22,970 --> 00:22:25,820
+I run it, OK, which
+means J is also
+
+390
+00:22:25,820 --> 00:22:29,030
+going to be a random
+variable, a random.
+
+391
+00:22:35,830 --> 00:22:41,965
+So it doesn't quite make sense
+to say my notion of optimality
+
+392
+00:22:41,965 --> 00:22:43,105
+is some random variable.
+
+393
+00:22:46,520 --> 00:22:48,970
+We want to choose a property
+of that random variable
+
+394
+00:22:48,970 --> 00:22:51,070
+that we care about.
+
+395
+00:22:51,070 --> 00:22:52,750
+There's different
+schools-- again,
+
+396
+00:22:52,750 --> 00:22:54,170
+being philosophical
+a little bit,
+
+397
+00:22:54,170 --> 00:22:57,160
+there's different schools of
+thought in control theory.
+
+398
+00:22:57,160 --> 00:22:59,650
+Some people say the thing
+you should care about,
+
+399
+00:22:59,650 --> 00:23:01,192
+the only thing you
+should worry about
+
+400
+00:23:01,192 --> 00:23:02,410
+is the worst case behavior.
+
+401
+00:23:02,410 --> 00:23:05,230
+You want to worry about the
+tails of your distributions
+
+402
+00:23:05,230 --> 00:23:07,480
+and make absolutely
+sure that my plane--
+
+403
+00:23:07,480 --> 00:23:10,348
+if I'm riding on a plane
+from here to California,
+
+404
+00:23:10,348 --> 00:23:11,890
+it's not going to
+fall out of the sky
+
+405
+00:23:11,890 --> 00:23:16,243
+with five nines of
+probability or something, OK.
+
+406
+00:23:16,243 --> 00:23:17,410
+I actually don't subscribe--
+
+407
+00:23:17,410 --> 00:23:20,320
+OK, when I'm riding on a plane,
+I do subscribe to that, OK.
+
+408
+00:23:20,320 --> 00:23:21,850
+But when I'm building
+robots that I
+
+409
+00:23:21,850 --> 00:23:25,450
+don't have to put my
+life in jeopardy for,
+
+410
+00:23:25,450 --> 00:23:26,830
+I don't believe in that.
+
+411
+00:23:26,830 --> 00:23:29,800
+And I actually don't
+think animals do that.
+
+412
+00:23:29,800 --> 00:23:31,617
+I think if animals
+were so conservative--
+
+413
+00:23:31,617 --> 00:23:33,700
+so that's the robust control
+approach, what I just
+
+414
+00:23:33,700 --> 00:23:37,000
+described, worrying
+about the worst case.
+
+415
+00:23:37,000 --> 00:23:39,650
+And the problem with robust
+control, the well documented,
+
+416
+00:23:39,650 --> 00:23:41,540
+well discussed problem
+with robust control
+
+417
+00:23:41,540 --> 00:23:43,540
+is it tends to come up
+with conservative control
+
+418
+00:23:43,540 --> 00:23:45,250
+strategies.
+
+419
+00:23:45,250 --> 00:23:47,980
+So if I'm worrying about
+never running into the table,
+
+420
+00:23:47,980 --> 00:23:50,147
+then I'm never going to go
+anywhere near that table.
+
+421
+00:23:53,560 --> 00:23:56,770
+There's another
+approach, which I
+
+422
+00:23:56,770 --> 00:23:59,830
+prefer, that tends to be more
+common in the optimal control
+
+423
+00:23:59,830 --> 00:24:02,980
+community, is to worry about
+maximizing the expected
+
+424
+00:24:02,980 --> 00:24:05,440
+returns, OK.
+
+425
+00:24:05,440 --> 00:24:15,920
+So now let's define J as the
+expected value of this cost
+
+426
+00:24:15,920 --> 00:24:16,420
+function.
+
+427
+00:24:29,390 --> 00:24:33,190
+There's a really obvious
+reason why the optimal control
+
+428
+00:24:33,190 --> 00:24:35,050
+people choose to do that.
+
+429
+00:24:35,050 --> 00:24:38,770
+It's because we already made a
+decision to do additive costs.
+
+430
+00:24:38,770 --> 00:24:42,220
+Expectations play
+beautifully with summations,
+
+431
+00:24:42,220 --> 00:24:44,740
+and so our life is going
+to stay clean and good
+
+432
+00:24:44,740 --> 00:24:48,910
+if we're willing to do the
+expected value derivations, OK.
+
+433
+00:24:48,910 --> 00:24:52,990
+But also philosophically, I
+think that me as an animal, I
+
+434
+00:24:52,990 --> 00:24:54,670
+maximize my expected reward.
+
+435
+00:24:54,670 --> 00:24:58,240
+Or a gazelle running
+through the field, I think,
+
+436
+00:24:58,240 --> 00:24:59,860
+is maximizing expected reward.
+
+437
+00:24:59,860 --> 00:25:04,427
+I mean, on average, it's
+doing spectacularly well.
+
+438
+00:25:04,427 --> 00:25:06,010
+And every once in a
+while it wipes out
+
+439
+00:25:06,010 --> 00:25:09,610
+and falls down and breaks
+its leg and gets eaten.
+
+440
+00:25:09,610 --> 00:25:12,350
+But if it was worrying
+about that all the time,
+
+441
+00:25:12,350 --> 00:25:16,210
+then it would never
+run as fast as it does.
+
+442
+00:25:16,210 --> 00:25:18,970
+So-- or as aggressively
+as it does.
+
+443
+00:25:18,970 --> 00:25:20,740
+So I think,
+personally, if you want
+
+444
+00:25:20,740 --> 00:25:22,900
+to build aggressive
+robots, you've
+
+445
+00:25:22,900 --> 00:25:25,480
+got to stop worrying about
+guarantees of stability,
+
+446
+00:25:25,480 --> 00:25:26,545
+of performance.
+
+447
+00:25:26,545 --> 00:25:28,420
+Just try to maximize
+the average performance.
+
+448
+00:25:28,420 --> 00:25:33,910
+I think that's where
+I've put my chips.
+
+449
+00:25:33,910 --> 00:25:38,710
+OK, so now, just to be
+clear here, so x-- again,
+
+450
+00:25:38,710 --> 00:25:42,010
+every time I run it,
+even with an open loop u,
+
+451
+00:25:42,010 --> 00:25:43,660
+if I completely
+control u, so u is not
+
+452
+00:25:43,660 --> 00:25:46,060
+a random variable but
+some open loop tape,
+
+453
+00:25:46,060 --> 00:25:50,020
+lets say, x will still
+be a random variable, OK.
+
+454
+00:25:50,020 --> 00:25:53,140
+But J is not.
+
+455
+00:25:53,140 --> 00:25:55,750
+J is saying that,
+given some control
+
+456
+00:25:55,750 --> 00:25:57,850
+policy, some initial
+conditions, there
+
+457
+00:25:57,850 --> 00:26:03,473
+is a well defined cost that I--
+expected cost that I receive.
+
+458
+00:26:03,473 --> 00:26:05,140
+And that's something
+I can optimize, OK.
+
+459
+00:26:09,710 --> 00:26:11,420
+Does that make sense?
+
+460
+00:26:11,420 --> 00:26:17,990
+OK, so I want to think about
+the implications of having
+
+461
+00:26:17,990 --> 00:26:20,330
+these things turn
+into random variables
+
+462
+00:26:20,330 --> 00:26:22,730
+with a simple example, OK.
+
+463
+00:26:30,710 --> 00:26:32,690
+And that example I
+like, the one I like
+
+464
+00:26:32,690 --> 00:26:36,630
+is a particle sitting in a bowl.
+
+465
+00:26:36,630 --> 00:26:41,510
+Let's say some particle
+in a potential well.
+
+466
+00:26:41,510 --> 00:26:45,710
+So let's say gravity
+is like this,
+
+467
+00:26:45,710 --> 00:26:47,740
+and I've got some
+bowl I'm sitting in,
+
+468
+00:26:47,740 --> 00:26:49,580
+and this particle
+is going to want
+
+469
+00:26:49,580 --> 00:26:52,920
+to roll down that bowl, OK.
+
+470
+00:26:52,920 --> 00:26:54,300
+But to make it
+interesting, we're
+
+471
+00:26:54,300 --> 00:26:57,930
+going to say that this particle
+is subject to Brownian motion.
+
+472
+00:26:57,930 --> 00:27:01,760
+Do you guys know what
+Brownian motion is?
+
+473
+00:27:01,760 --> 00:27:04,460
+I guess-- was it--
+
+474
+00:27:04,460 --> 00:27:09,910
+I guess if you look down at a
+Petri dish of very small things
+
+475
+00:27:09,910 --> 00:27:12,890
+and they don't
+sit still, there's
+
+476
+00:27:12,890 --> 00:27:15,980
+debate about exactly the
+physical mechanisms of it,
+
+477
+00:27:15,980 --> 00:27:20,660
+but phenomenologically, you
+can see very small cells that
+
+478
+00:27:20,660 --> 00:27:23,960
+are not actively
+motile by themselves
+
+479
+00:27:23,960 --> 00:27:27,055
+move around in a random
+fashion, doing random walks
+
+480
+00:27:27,055 --> 00:27:27,930
+and things like this.
+
+481
+00:27:27,930 --> 00:27:32,420
+So people-- I won't get
+into the philosophy of--
+
+482
+00:27:32,420 --> 00:27:35,660
+the philosophical debate
+of whether there exists
+
+483
+00:27:35,660 --> 00:27:38,630
+stochasticity in the world,
+but I think stochasticity
+
+484
+00:27:38,630 --> 00:27:40,520
+is certainly a relevant
+model for a lot
+
+485
+00:27:40,520 --> 00:27:41,675
+of things we're doing here.
+
+486
+00:27:41,675 --> 00:27:45,620
+And I don't want to
+get quantum in class.
+
+487
+00:27:45,620 --> 00:27:48,080
+OK, but let's just
+say that this guy is
+
+488
+00:27:48,080 --> 00:27:50,690
+subject to the
+dynamics of this bowl.
+
+489
+00:27:50,690 --> 00:27:52,490
+But on top of that
+dynamics of this bowl,
+
+490
+00:27:52,490 --> 00:27:55,250
+it has a tendency to jitter
+around a little bit, OK.
+
+491
+00:27:55,250 --> 00:27:58,430
+So I'll write down the dynamics.
+
+492
+00:27:58,430 --> 00:28:00,450
+I'll keep it discrete for now.
+
+493
+00:28:00,450 --> 00:28:05,720
+So let's say at every time
+step, the difference--
+
+494
+00:28:05,720 --> 00:28:12,500
+the update looks like
+the gradient of that bowl
+
+495
+00:28:12,500 --> 00:28:19,940
+it's trying to go down that
+bowl plus some random noise.
+
+496
+00:28:19,940 --> 00:28:22,520
+I'll call it z of n.
+
+497
+00:28:22,520 --> 00:28:27,740
+And this, again, I'll assume
+is iid, Independent Identically
+
+498
+00:28:27,740 --> 00:28:31,850
+Distributed Gaussian noise.
+
+499
+00:28:39,980 --> 00:28:43,330
+So if you've never taken a class
+with all this random variables
+
+500
+00:28:43,330 --> 00:28:45,830
+and everything, I hope most of
+this will still come through.
+
+501
+00:28:45,830 --> 00:28:48,320
+I'll throw a few of these words
+and try to be soft about it.
+
+502
+00:28:48,320 --> 00:28:50,390
+If you have questions about
+any of these, just ask me.
+
+503
+00:28:50,390 --> 00:28:52,160
+I think that we're
+going to be able to say
+
+504
+00:28:52,160 --> 00:28:54,080
+things that are
+fairly mechanically
+
+505
+00:28:54,080 --> 00:28:56,420
+intuitive and helpful.
+
+506
+00:28:56,420 --> 00:28:58,280
+So I hope it's
+accessible to everybody.
+
+507
+00:28:58,280 --> 00:29:01,690
+And if it's not, ask me.
+
+508
+00:29:01,690 --> 00:29:06,440
+OK, so this is a reasonable
+dynamical system now.
+
+509
+00:29:06,440 --> 00:29:08,180
+It's attempting
+to, on each update,
+
+510
+00:29:08,180 --> 00:29:14,480
+having gone down the gradient
+plus some random noise, OK.
+
+511
+00:29:14,480 --> 00:29:22,160
+Let's make our lives easier
+by choosing u of x to be--
+
+512
+00:29:22,160 --> 00:29:22,937
+how about that?
+
+513
+00:29:22,937 --> 00:29:24,020
+That's pretty nice, right?
+
+514
+00:29:27,200 --> 00:29:29,780
+It makes our life good if
+everything is quadratic.
+
+515
+00:29:29,780 --> 00:29:33,500
+Then this thing turns out
+to be negative alpha x.
+
+516
+00:29:42,790 --> 00:29:45,490
+OK, so just to make sure
+we're thinking about it,
+
+517
+00:29:45,490 --> 00:29:49,630
+if the noise is 0, then what's
+going to happen in this system?
+
+518
+00:29:56,650 --> 00:30:00,870
+I've got a discrete
+time system, which,
+
+519
+00:30:00,870 --> 00:30:02,620
+if I move that back
+over to the other side
+
+520
+00:30:02,620 --> 00:30:05,740
+like we're accustomed
+to, it goes like this.
+
+521
+00:30:11,830 --> 00:30:13,890
+So how does that thing behave?
+
+522
+00:30:17,730 --> 00:30:18,730
+Where's the fixed point?
+
+523
+00:30:21,310 --> 00:30:22,540
+At 0.
+
+524
+00:30:22,540 --> 00:30:23,500
+And when is it stable?
+
+525
+00:30:40,710 --> 00:30:42,000
+When's it stable?
+
+526
+00:30:42,000 --> 00:30:44,292
+Discrete time linear system.
+
+527
+00:30:44,292 --> 00:30:47,588
+AUDIENCE: [INAUDIBLE] equals
+0 [? of 1 ?] but [INAUDIBLE]..
+
+528
+00:30:47,588 --> 00:30:48,380
+RUSS TEDRAKE: Yeah.
+
+529
+00:30:48,380 --> 00:30:51,660
+AUDIENCE: [INAUDIBLE]
+[? positive ?] [? x? ?]
+
+530
+00:30:51,660 --> 00:30:55,980
+RUSS TEDRAKE: No, you're
+thinking too continuous time.
+
+531
+00:30:55,980 --> 00:31:02,310
+In discrete time, your bounds on
+your eigenvalues are between--
+
+532
+00:31:02,310 --> 00:31:05,370
+the absolute value has to be
+less than 1, which I think,
+
+533
+00:31:05,370 --> 00:31:10,460
+in this case, means alpha has
+got to be between 0 and 2,
+
+534
+00:31:10,460 --> 00:31:10,960
+yeah?
+
+535
+00:31:14,522 --> 00:31:15,480
+Everybody OK with that?
+
+536
+00:31:15,480 --> 00:31:16,670
+Yeah.
+
+537
+00:31:16,670 --> 00:31:19,420
+That wasn't supposed to be the
+big insight for the lecture,
+
+538
+00:31:19,420 --> 00:31:19,920
+but.
+
+539
+00:31:24,180 --> 00:31:28,440
+OK, so the reason I
+wanted to say that--
+
+540
+00:31:28,440 --> 00:31:33,330
+OK, so we definitely have
+some stable dynamics pushing
+
+541
+00:31:33,330 --> 00:31:34,870
+us this way in this bowl.
+
+542
+00:31:34,870 --> 00:31:36,170
+The picture tells you that.
+
+543
+00:31:36,170 --> 00:31:37,920
+The math tells you that.
+
+544
+00:31:37,920 --> 00:31:40,830
+We have some stable dynamics
+that's pushing us towards here,
+
+545
+00:31:40,830 --> 00:31:42,872
+and then we have something
+that's pushing us out,
+
+546
+00:31:42,872 --> 00:31:44,640
+which is that noise.
+
+547
+00:31:44,640 --> 00:31:46,770
+If I was-- maybe just
+as a thought exercise,
+
+548
+00:31:46,770 --> 00:31:49,350
+if my bowl had been
+flat, if alpha was 0,
+
+549
+00:31:49,350 --> 00:31:53,790
+and I've got this thing
+subject to Brownian motion,
+
+550
+00:31:53,790 --> 00:32:01,310
+then if I look at it at time
+100, where's it going to be?
+
+551
+00:32:01,310 --> 00:32:04,910
+I mean, it could go
+sort of anywhere, yeah?
+
+552
+00:32:04,910 --> 00:32:09,590
+If it's in this bowl and it's
+subject to Brownian motion,
+
+553
+00:32:09,590 --> 00:32:12,944
+then where's it going
+to be at time 100?
+
+554
+00:32:12,944 --> 00:32:14,822
+AUDIENCE: [INAUDIBLE]
+close to [INAUDIBLE]..
+
+555
+00:32:14,822 --> 00:32:17,030
+RUSS TEDRAKE: You'd expect
+it, with high probability,
+
+556
+00:32:17,030 --> 00:32:18,260
+to be around here.
+
+557
+00:32:18,260 --> 00:32:19,310
+There's a chance--
+
+558
+00:32:19,310 --> 00:32:20,450
+I mean, even if it turns--
+
+559
+00:32:20,450 --> 00:32:27,050
+even with small noise, if I
+were to get some abnormally rare
+
+560
+00:32:27,050 --> 00:32:29,970
+large force in this
+direction 10 times in a row,
+
+561
+00:32:29,970 --> 00:32:32,210
+if I watched this Gaussian
+process long enough,
+
+562
+00:32:32,210 --> 00:32:34,040
+I might look and find it here.
+
+563
+00:32:34,040 --> 00:32:36,710
+But that's going to be
+very low probability.
+
+564
+00:32:36,710 --> 00:32:38,930
+So what I'd expect to
+find is if I watch it
+
+565
+00:32:38,930 --> 00:32:40,860
+for some amount of
+time, and I look at it,
+
+566
+00:32:40,860 --> 00:32:44,570
+and time is 100, that it's
+probably going to be here.
+
+567
+00:32:44,570 --> 00:32:46,790
+Going to draw some
+probability distribution here.
+
+568
+00:32:46,790 --> 00:32:50,630
+And sure, there's some tails
+here that'll say if I looked,
+
+569
+00:32:50,630 --> 00:32:53,638
+maybe I'll find it there, but
+that's pretty unlikely, OK.
+
+570
+00:32:53,638 --> 00:32:55,430
+So hopefully when we're
+all done with this,
+
+571
+00:32:55,430 --> 00:32:57,920
+we're going to get that out.
+
+572
+00:32:57,920 --> 00:32:59,720
+And it's not too hard
+to see it, actually.
+
+573
+00:33:03,170 --> 00:33:05,030
+So what's the best
+way to say it?
+
+574
+00:33:05,030 --> 00:33:10,640
+So let's pretend that we're
+going back to our-- so this
+
+575
+00:33:10,640 --> 00:33:12,620
+was the-- we're back
+to the noise case
+
+576
+00:33:12,620 --> 00:33:15,020
+again, putting epsilon back in.
+
+577
+00:33:33,710 --> 00:33:38,450
+Can we compute, then-- so if
+I know where I am at time n--
+
+578
+00:33:38,450 --> 00:33:40,400
+if my sensors are
+perfect, like I
+
+579
+00:33:40,400 --> 00:33:43,160
+said, I know where
+I am at time n,
+
+580
+00:33:43,160 --> 00:33:45,321
+where am I going to
+be a time n plus 1?
+
+581
+00:33:50,140 --> 00:33:54,820
+So let me write that as some
+probability distribution that--
+
+582
+00:33:54,820 --> 00:33:58,810
+I want to write, where
+am I at time n plus 1
+
+583
+00:33:58,810 --> 00:34:02,890
+given I know where
+I am at time n?
+
+584
+00:34:02,890 --> 00:34:05,794
+What's that going to look like?
+
+585
+00:34:05,794 --> 00:34:11,150
+AUDIENCE: [INAUDIBLE]
+Gaussian function [INAUDIBLE]
+
+586
+00:34:11,150 --> 00:34:13,938
+1 minus [INAUDIBLE] n by
+some variance, which is kind
+
+587
+00:34:13,938 --> 00:34:15,230
+of [? problematic, ?] actually.
+
+588
+00:34:15,230 --> 00:34:16,340
+RUSS TEDRAKE: Awesome.
+
+589
+00:34:16,340 --> 00:34:17,090
+Right?
+
+590
+00:34:17,090 --> 00:34:24,139
+So probably, I'm going to be 1
+minus alpha xn away from where
+
+591
+00:34:24,139 --> 00:34:26,300
+I was, but then some
+Gaussian distribution
+
+592
+00:34:26,300 --> 00:34:27,889
+centered around that point.
+
+593
+00:34:27,889 --> 00:34:29,900
+The deterministic
+part puts me here,
+
+594
+00:34:29,900 --> 00:34:33,179
+and this part then
+adds noise to that, OK.
+
+595
+00:34:33,179 --> 00:34:35,870
+So that's going to
+be my full Gaussian
+
+596
+00:34:35,870 --> 00:34:47,690
+here, 2 pi sigma squared e to
+the negative xn plus 1 minus 1
+
+597
+00:34:47,690 --> 00:34:56,000
+minus alpha xn, that whole
+thing squared, all over to sigma
+
+598
+00:34:56,000 --> 00:34:56,630
+squared, yeah?
+
+599
+00:35:01,670 --> 00:35:02,795
+You agree with that?
+
+600
+00:35:02,795 --> 00:35:08,810
+If I know where I am at
+time xn, which, by the way,
+
+601
+00:35:08,810 --> 00:35:12,530
+is equivalent in
+probability space
+
+602
+00:35:12,530 --> 00:35:15,800
+to saying I have a
+delta function here--
+
+603
+00:35:15,800 --> 00:35:17,880
+I know where I am.
+
+604
+00:35:17,880 --> 00:35:19,880
+My probability distribution
+is a delta function.
+
+605
+00:35:23,740 --> 00:35:29,268
+Then on the next step, I'm going
+to be 1 minus alpha times that,
+
+606
+00:35:29,268 --> 00:35:31,060
+and I'm going to have
+a distribution, which
+
+607
+00:35:31,060 --> 00:35:32,140
+is mean of this.
+
+608
+00:35:32,140 --> 00:35:35,980
+This is a Gaussian distribution
+x minus mu over 2 sigma
+
+609
+00:35:35,980 --> 00:35:38,860
+squared, squared.
+
+610
+00:35:38,860 --> 00:35:40,030
+This is the new x.
+
+611
+00:35:40,030 --> 00:35:42,170
+This is mu.
+
+612
+00:35:42,170 --> 00:35:42,670
+Yeah?
+
+613
+00:35:46,510 --> 00:35:47,010
+Good.
+
+614
+00:35:47,010 --> 00:35:53,300
+So now we have everything
+we need, really, to proceed.
+
+615
+00:35:53,300 --> 00:35:57,630
+So let's say I knew
+where I was at x0.
+
+616
+00:35:57,630 --> 00:36:02,152
+On x1, I'm going to be at the
+function described by this.
+
+617
+00:36:02,152 --> 00:36:03,360
+Where am I going to be at x2?
+
+618
+00:36:11,960 --> 00:36:15,620
+Well, in general, I
+have to do the update.
+
+619
+00:36:15,620 --> 00:36:20,870
+And let me use the
+notation P of n plus 1,
+
+620
+00:36:20,870 --> 00:36:22,730
+meaning the probability
+distribution
+
+621
+00:36:22,730 --> 00:36:26,210
+over x at time n plus 1.
+
+622
+00:36:26,210 --> 00:36:29,480
+So think of it as a different
+function at each discrete time.
+
+623
+00:36:29,480 --> 00:36:33,287
+Notationally, it's
+the cleanest, I think.
+
+624
+00:36:33,287 --> 00:36:34,370
+Well, that's going to be--
+
+625
+00:36:51,710 --> 00:36:52,460
+it's going to be--
+
+626
+00:36:52,460 --> 00:36:55,350
+I have to think about--
+
+627
+00:36:55,350 --> 00:36:57,860
+oops, I did--
+sorry, this is a y.
+
+628
+00:36:57,860 --> 00:36:59,600
+Yeah.
+
+629
+00:36:59,600 --> 00:37:03,910
+My fault.
+
+630
+00:37:03,910 --> 00:37:06,130
+So if I was--
+
+631
+00:37:06,130 --> 00:37:08,080
+I have to think about
+all the possibilities.
+
+632
+00:37:08,080 --> 00:37:10,780
+I want the probability
+that I was in y equals 0
+
+633
+00:37:10,780 --> 00:37:13,960
+and then the probability of
+being in x, considering I
+
+634
+00:37:13,960 --> 00:37:14,668
+was in y0.
+
+635
+00:37:14,668 --> 00:37:16,710
+But also, I have to think
+about, what if y was 1?
+
+636
+00:37:16,710 --> 00:37:18,310
+Well, what's the
+probability of that?
+
+637
+00:37:18,310 --> 00:37:21,965
+And I'm going to sum the whole
+thing up in a continuous way,
+
+638
+00:37:21,965 --> 00:37:23,590
+and I'm going to get
+my new probability
+
+639
+00:37:23,590 --> 00:37:24,740
+of being at the new place.
+
+640
+00:37:24,740 --> 00:37:27,140
+You guys OK with this equation?
+
+641
+00:37:27,140 --> 00:37:29,140
+All right, I have to
+consider all possible cases
+
+642
+00:37:29,140 --> 00:37:32,920
+of where I was at time n--
+
+643
+00:37:32,920 --> 00:37:34,210
+that's given by this--
+
+644
+00:37:34,210 --> 00:37:37,330
+and then apply my dynamics,
+which was given by this,
+
+645
+00:37:37,330 --> 00:37:40,190
+to get my new distribution, OK.
+
+646
+00:37:44,738 --> 00:37:47,155
+Hope that's OK, but even if
+it's not, it still should be--
+
+647
+00:37:47,155 --> 00:37:51,080
+you'll still be OK
+here in a second.
+
+648
+00:37:51,080 --> 00:37:53,430
+So we can do that.
+
+649
+00:37:53,430 --> 00:37:59,410
+So let's say that P of
+n y is a delta function.
+
+650
+00:37:59,410 --> 00:38:00,400
+That's what I said.
+
+651
+00:38:00,400 --> 00:38:02,470
+So I know my initial conditions.
+
+652
+00:38:02,470 --> 00:38:09,400
+I should have drawn it right
+here to match that plot.
+
+653
+00:38:09,400 --> 00:38:12,790
+Well, then after
+one step, it's going
+
+654
+00:38:12,790 --> 00:38:21,100
+to just pick out the P of this
+Gaussian centered at that y.
+
+655
+00:38:21,100 --> 00:38:23,830
+And at one step,
+then, I'm going to be
+
+656
+00:38:23,830 --> 00:38:29,042
+at a Gaussian
+distribution 1 minus alpha
+
+657
+00:38:29,042 --> 00:38:31,000
+from where I was, centered
+around 1 minus alpha
+
+658
+00:38:31,000 --> 00:38:33,428
+from where I was.
+
+659
+00:38:33,428 --> 00:38:35,470
+Now in the next step, I
+have to consider the fact
+
+660
+00:38:35,470 --> 00:38:37,220
+that I could be anywhere
+in that Gaussian,
+
+661
+00:38:37,220 --> 00:38:39,082
+weighted appropriately.
+
+662
+00:38:39,082 --> 00:38:41,290
+And I have to consider all
+of the updates from those.
+
+663
+00:38:41,290 --> 00:38:42,980
+That's what this
+integral is doing.
+
+664
+00:38:42,980 --> 00:38:45,550
+And it turns out the
+magic of Gaussians
+
+665
+00:38:45,550 --> 00:38:51,250
+and linearity is that
+if P of y is a Gaussian,
+
+666
+00:38:51,250 --> 00:38:54,730
+and I multiply it by another
+Gaussian and integrate,
+
+667
+00:38:54,730 --> 00:38:56,020
+I get out a Gaussian.
+
+668
+00:38:56,020 --> 00:38:56,620
+Yeah.
+
+669
+00:38:56,620 --> 00:38:57,340
+Life is good.
+
+670
+00:39:00,940 --> 00:39:06,130
+So I'll leave the actual math
+to your-- eh, what the heck.
+
+671
+00:39:06,130 --> 00:39:12,640
+I'll just-- what you get--
+
+672
+00:39:12,640 --> 00:39:14,290
+I can write the answer--
+
+673
+00:39:14,290 --> 00:39:23,280
+if you push a Gaussian
+through, turns out
+
+674
+00:39:23,280 --> 00:39:31,400
+to be 1 over square root of
+2 pi sigma squared integral
+
+675
+00:39:31,400 --> 00:39:35,455
+from negative infinity to
+infinity of e to the negative--
+
+676
+00:39:38,310 --> 00:39:40,230
+let me actually write the--
+
+677
+00:39:40,230 --> 00:39:43,020
+skip that one line just
+to keep things moving.
+
+678
+00:39:46,070 --> 00:39:50,670
+Let's do 1 over 1
+minus alpha square root
+
+679
+00:39:50,670 --> 00:39:52,905
+of 2 pi sigma squared.
+
+680
+00:40:08,700 --> 00:40:16,615
+I have the probability of n at
+y prime minus 1 alpha dy alpha,
+
+681
+00:40:16,615 --> 00:40:22,270
+where y is 1 minus alpha y.
+
+682
+00:40:22,270 --> 00:40:26,770
+It's just-- I haven't
+done a lot of work yet.
+
+683
+00:40:26,770 --> 00:40:30,310
+I just changed
+coordinates into y prime.
+
+684
+00:40:30,310 --> 00:40:35,160
+And it turns out, for
+instance, if I look for a--
+
+685
+00:40:35,160 --> 00:40:38,700
+if I guess that the steady
+state is a Gaussian form,
+
+686
+00:40:38,700 --> 00:40:43,260
+and I look for a place where
+this and this can possibly
+
+687
+00:40:43,260 --> 00:40:45,660
+be the same function,
+if I want to look
+
+688
+00:40:45,660 --> 00:41:00,740
+at the steady state
+of this dynamics,
+
+689
+00:41:00,740 --> 00:41:08,228
+then I find that P
+star of x is 1 over--
+
+690
+00:41:08,228 --> 00:41:16,100
+oh-- square root of
+2 pi sigma 0 squared
+
+691
+00:41:16,100 --> 00:41:24,700
+e to the negative x
+squared 2 sigma 0 squared.
+
+692
+00:41:24,700 --> 00:41:25,820
+It's a Gaussian.
+
+693
+00:41:25,820 --> 00:41:29,660
+It's actually a mean 0 Gaussian,
+is the steady state of that
+
+694
+00:41:29,660 --> 00:41:37,190
+update, OK, which is just a
+few lines in the notes, where
+
+695
+00:41:37,190 --> 00:41:42,260
+sigma 0 squared is
+sigma squared, which
+
+696
+00:41:42,260 --> 00:41:47,630
+is the noise from the Brownian
+motion minus alpha squared.
+
+697
+00:42:08,800 --> 00:42:09,850
+OK?
+
+698
+00:42:09,850 --> 00:42:11,560
+So I think, actually,
+these equations
+
+699
+00:42:11,560 --> 00:42:13,345
+tell the entire story.
+
+700
+00:42:16,000 --> 00:42:20,770
+If I start my system
+even from some--
+
+701
+00:42:20,770 --> 00:42:23,740
+well, specifically, if I start
+my system in a delta function
+
+702
+00:42:23,740 --> 00:42:27,980
+or in a Gaussian distribution
+of initial conditions,
+
+703
+00:42:27,980 --> 00:42:30,460
+then I'm going to be Gaussian
+for the rest of time.
+
+704
+00:42:30,460 --> 00:42:34,450
+Turns out even if it's not,
+it'll go to a stable Gaussian.
+
+705
+00:42:34,450 --> 00:42:36,160
+And if I watch--
+
+706
+00:42:36,160 --> 00:42:38,000
+if I look far enough
+into the future,
+
+707
+00:42:38,000 --> 00:42:41,560
+at the steady state of that
+probability distribution,
+
+708
+00:42:41,560 --> 00:42:44,350
+then it's actually going to
+be what we hoped we'd find.
+
+709
+00:42:44,350 --> 00:42:46,450
+It's a mean 0 Gaussian.
+
+710
+00:42:46,450 --> 00:42:49,360
+This was 0 in my plot.
+
+711
+00:42:49,360 --> 00:42:55,090
+And its width, its variance is
+given by two competing terms.
+
+712
+00:42:55,090 --> 00:42:58,810
+You've got the noise
+from the Brownian motion
+
+713
+00:42:58,810 --> 00:43:01,660
+trying to push you out
+into larger variance,
+
+714
+00:43:01,660 --> 00:43:03,550
+and you've got the
+competing force
+
+715
+00:43:03,550 --> 00:43:09,610
+of the stability of the dynamics
+pushing you back in, OK.
+
+716
+00:43:09,610 --> 00:43:11,500
+So if alpha gets--
+and you actually--
+
+717
+00:43:11,500 --> 00:43:17,470
+this also is valid exactly
+when alpha's between 0 and 2.
+
+718
+00:43:17,470 --> 00:43:20,930
+Doesn't go to 0 in
+that regime yet.
+
+719
+00:43:20,930 --> 00:43:21,430
+OK.
+
+720
+00:43:24,100 --> 00:43:28,300
+So if I want to look at that
+particle at time 100 or time
+
+721
+00:43:28,300 --> 00:43:31,420
+10,000, then I should
+expect to see it
+
+722
+00:43:31,420 --> 00:43:36,550
+somewhere with probability
+given by this distribution
+
+723
+00:43:36,550 --> 00:43:40,210
+in the vicinity of that 0, OK.
+
+724
+00:43:40,210 --> 00:43:43,420
+And that comes
+out of simple math
+
+725
+00:43:43,420 --> 00:43:49,770
+of pushing this Gaussian
+through this equation, OK.
+
+726
+00:43:52,450 --> 00:43:55,540
+Now you all probably-- most of
+you probably knew that before.
+
+727
+00:43:55,540 --> 00:43:57,940
+Why do you know this before?
+
+728
+00:43:57,940 --> 00:44:01,960
+Maybe not in this level of
+detail, but why do many of you
+
+729
+00:44:01,960 --> 00:44:04,660
+know this already?
+
+730
+00:44:04,660 --> 00:44:06,760
+It's a Kalman filter, right?
+
+731
+00:44:06,760 --> 00:44:10,540
+The Kalman filtered forward
+process takes a Gaussian,
+
+732
+00:44:10,540 --> 00:44:13,330
+shoves it through a linear
+system, stays Gaussian.
+
+733
+00:44:13,330 --> 00:44:17,380
+This is the single variable,
+little more careful version
+
+734
+00:44:17,380 --> 00:44:21,010
+maybe than you'd do if you
+call MATLAB's Kalman stuff.
+
+735
+00:44:21,010 --> 00:44:25,190
+But yeah, so that's not
+a surprising result.
+
+736
+00:44:25,190 --> 00:44:27,840
+But I think it forces you to
+think about a couple things.
+
+737
+00:44:27,840 --> 00:44:35,440
+So like I said, the
+stability of the system
+
+738
+00:44:35,440 --> 00:44:41,080
+is critical in determining
+that final distribution.
+
+739
+00:44:41,080 --> 00:44:43,090
+But even more
+significantly than that,
+
+740
+00:44:43,090 --> 00:44:46,580
+there's some implications of
+having noise in the system.
+
+741
+00:45:07,620 --> 00:45:12,270
+Implications of having
+stochastic dynamics, OK.
+
+742
+00:45:12,270 --> 00:45:16,260
+If you want to
+reason about the cost
+
+743
+00:45:16,260 --> 00:45:17,760
+that you're going
+to incur, given
+
+744
+00:45:17,760 --> 00:45:20,940
+some policy, for
+instance, in order
+
+745
+00:45:20,940 --> 00:45:34,110
+to reason about the
+future dynamics,
+
+746
+00:45:34,110 --> 00:45:38,400
+even though you know
+current state, so even given
+
+747
+00:45:38,400 --> 00:45:50,610
+initial conditions, you
+have to reason about--
+
+748
+00:45:50,610 --> 00:45:53,010
+it's not enough to
+just reason about x.
+
+749
+00:45:53,010 --> 00:46:01,290
+You have to reason about that
+entire distribution, what
+
+750
+00:46:01,290 --> 00:46:06,990
+I called Pn of x, not just x.
+
+751
+00:46:13,204 --> 00:46:15,960
+OK, so as soon as we start
+doing stochastic stuff,
+
+752
+00:46:15,960 --> 00:46:19,780
+we have to change our
+view of the world.
+
+753
+00:46:19,780 --> 00:46:21,300
+The state x is
+not the only thing
+
+754
+00:46:21,300 --> 00:46:22,620
+you care about moving forward.
+
+755
+00:46:22,620 --> 00:46:24,882
+You care about the probability
+distribution of states
+
+756
+00:46:24,882 --> 00:46:25,590
+that you live in.
+
+757
+00:46:35,440 --> 00:46:37,690
+What would you say about the
+stability of this system?
+
+758
+00:46:40,840 --> 00:46:44,080
+If I asked you, is that a stable
+system, what would you say?
+
+759
+00:46:53,780 --> 00:46:55,720
+AUDIENCE: [INAUDIBLE]
+[? stable it ?] [? is ?]
+
+760
+00:46:55,720 --> 00:46:56,432
+[? or something? ?]
+
+761
+00:46:56,432 --> 00:46:57,270
+RUSS TEDRAKE: I'm asking--
+
+762
+00:46:57,270 --> 00:46:58,620
+and we're going to
+do that, but I'm
+
+763
+00:46:58,620 --> 00:46:59,610
+asking you for your intuition.
+
+764
+00:46:59,610 --> 00:47:00,645
+What would you guess?
+
+765
+00:47:00,645 --> 00:47:03,370
+Would you feel comfortable if
+I said, it's a stable system,
+
+766
+00:47:03,370 --> 00:47:04,170
+let's move on?
+
+767
+00:47:04,170 --> 00:47:06,420
+AUDIENCE: [INAUDIBLE]
+
+768
+00:47:06,420 --> 00:47:08,010
+RUSS TEDRAKE: In
+some ways, it's OK,
+
+769
+00:47:08,010 --> 00:47:11,310
+because the
+distribution is stable.
+
+770
+00:47:11,310 --> 00:47:14,130
+x is not stable, OK.
+
+771
+00:47:23,100 --> 00:47:25,800
+If I look at a-- if I'm at--
+there's no fixed point in x.
+
+772
+00:47:25,800 --> 00:47:28,290
+The noise is going to
+keep moving me around, OK.
+
+773
+00:47:28,290 --> 00:47:30,722
+But I told you that
+P of x, actually--
+
+774
+00:47:30,722 --> 00:47:32,430
+well, I only told you
+it's a fixed point,
+
+775
+00:47:32,430 --> 00:47:35,520
+but I can tell you it's
+a stable fixed point.
+
+776
+00:47:35,520 --> 00:47:37,950
+P of x is actually stable, OK.
+
+777
+00:47:45,060 --> 00:47:51,000
+OK, so basically, this
+equation right here,
+
+778
+00:47:51,000 --> 00:47:56,970
+this update right here, it's a
+very famous, important thing.
+
+779
+00:47:56,970 --> 00:48:00,460
+Well, so important that it's
+called the master equation,
+
+780
+00:48:00,460 --> 00:48:00,960
+yeah.
+
+781
+00:48:04,370 --> 00:48:06,120
+I mean, don't just
+name it after some guy.
+
+782
+00:48:06,120 --> 00:48:07,287
+Call it the master equation.
+
+783
+00:48:10,962 --> 00:48:13,170
+And there are various versions
+of the master equation
+
+784
+00:48:13,170 --> 00:48:15,060
+and specific problems
+that are named
+
+785
+00:48:15,060 --> 00:48:17,730
+after people's last names,
+but in general, it's
+
+786
+00:48:17,730 --> 00:48:20,700
+the master equation, OK.
+
+787
+00:48:20,700 --> 00:48:23,260
+So you can't forget
+how significant it is.
+
+788
+00:48:23,260 --> 00:48:25,980
+And the idea is that
+in the master equation,
+
+789
+00:48:25,980 --> 00:48:28,138
+you're looking at the
+dynamics of the probability
+
+790
+00:48:28,138 --> 00:48:28,680
+distribution.
+
+791
+00:48:28,680 --> 00:48:30,138
+Not the dynamics
+of a single state,
+
+792
+00:48:30,138 --> 00:48:32,555
+the dynamics of a
+probability distribution, OK.
+
+793
+00:48:32,555 --> 00:48:33,930
+So that probability
+distribution,
+
+794
+00:48:33,930 --> 00:48:38,310
+actually, in the master
+equation, is stable, OK.
+
+795
+00:48:38,310 --> 00:48:41,280
+Now there are more
+complicated cases, actually.
+
+796
+00:48:41,280 --> 00:49:06,100
+So what about this one?
+
+797
+00:49:08,813 --> 00:49:10,730
+What's this thing going
+to do in the long run?
+
+798
+00:49:13,562 --> 00:49:14,980
+AUDIENCE: Bimodal distribution.
+
+799
+00:49:14,980 --> 00:49:17,272
+RUSS TEDRAKE: It's going to
+have a bimodal distribution
+
+800
+00:49:17,272 --> 00:49:18,290
+in the long run.
+
+801
+00:49:18,290 --> 00:49:23,560
+So it would be inappropriate
+to say either of those points--
+
+802
+00:49:23,560 --> 00:49:27,250
+I mean, that either of those
+points are fixed points.
+
+803
+00:49:27,250 --> 00:49:29,920
+For the deterministic
+case, they are.
+
+804
+00:49:29,920 --> 00:49:32,452
+For the stochastic
+case, they're not.
+
+805
+00:49:32,452 --> 00:49:33,160
+And you're right.
+
+806
+00:49:33,160 --> 00:49:38,140
+It's going to go to some
+distribution like this, OK.
+
+807
+00:49:44,770 --> 00:49:48,400
+I have a decision point, which
+of my 10 pages I should do.
+
+808
+00:49:48,400 --> 00:49:53,500
+I could talk about some examples
+of just stochastic dynamics,
+
+809
+00:49:53,500 --> 00:49:55,810
+for instance, on
+walking robots, or I
+
+810
+00:49:55,810 --> 00:49:59,620
+could get to the optimal control
+of the more simple systems.
+
+811
+00:50:02,070 --> 00:50:03,570
+I have to set John
+up for next week,
+
+812
+00:50:03,570 --> 00:50:08,550
+so I guess I got to just tell
+you that, actually, we've
+
+813
+00:50:08,550 --> 00:50:13,050
+done some work thinking
+about, for instance,
+
+814
+00:50:13,050 --> 00:50:13,902
+the rimless wheel--
+
+815
+00:50:13,902 --> 00:50:15,360
+I'll just tell you
+the setup, and I
+
+816
+00:50:15,360 --> 00:50:18,230
+won't tell you all the details.
+
+817
+00:50:18,230 --> 00:50:25,860
+So here's a realistic example
+of that sort of dynamics.
+
+818
+00:50:25,860 --> 00:50:29,610
+Take your rimless
+wheel, OK, dynamics.
+
+819
+00:50:29,610 --> 00:50:33,850
+And let's say, instead
+of walking down
+
+820
+00:50:33,850 --> 00:50:37,620
+some constant ramp,
+let's say on every step,
+
+821
+00:50:37,620 --> 00:50:40,410
+the ramp angle is drawn
+from some distribution.
+
+822
+00:50:40,410 --> 00:50:44,310
+OK, so this is passive walking
+on rough terrain, mm-hmm.
+
+823
+00:50:44,310 --> 00:50:46,590
+And it turns out it's
+not following a limit
+
+824
+00:50:46,590 --> 00:50:49,150
+cycle anymore.
+
+825
+00:50:49,150 --> 00:50:53,940
+But it's always-- its long-term
+probability distribution is--
+
+826
+00:50:53,940 --> 00:50:58,380
+well, there's a slightly
+more complicated story.
+
+827
+00:50:58,380 --> 00:51:02,460
+If I look long enough, this
+thing has an absorbing state.
+
+828
+00:51:02,460 --> 00:51:06,197
+So if I take a big enough
+step, then eventually,
+
+829
+00:51:06,197 --> 00:51:07,530
+I'm going to lose enough energy.
+
+830
+00:51:07,530 --> 00:51:10,862
+Remember, the deterministic
+system had two fixed points.
+
+831
+00:51:10,862 --> 00:51:11,820
+One was standing still.
+
+832
+00:51:11,820 --> 00:51:14,850
+The other one was rolling
+at a constant speed, OK.
+
+833
+00:51:14,850 --> 00:51:17,010
+The standing still fixed
+point on rough terrain
+
+834
+00:51:17,010 --> 00:51:18,700
+is an absorbing fixed point.
+
+835
+00:51:18,700 --> 00:51:21,242
+If I get there and I
+never take another step,
+
+836
+00:51:21,242 --> 00:51:23,200
+then I'm never going to
+leave that fixed point.
+
+837
+00:51:23,200 --> 00:51:26,490
+So that is actually a
+true fixed point, yeah.
+
+838
+00:51:26,490 --> 00:51:28,380
+The rolling fixed
+point, you're going
+
+839
+00:51:28,380 --> 00:51:30,630
+to tend to bounce
+around that fixed point.
+
+840
+00:51:30,630 --> 00:51:36,270
+So maybe this picture is
+something more like this, yeah.
+
+841
+00:51:36,270 --> 00:51:37,200
+OK?
+
+842
+00:51:37,200 --> 00:51:40,440
+So the standing still fixed
+point, if I get in there,
+
+843
+00:51:40,440 --> 00:51:42,900
+it's absorbing.
+
+844
+00:51:42,900 --> 00:51:44,340
+I'm never coming out.
+
+845
+00:51:44,340 --> 00:51:48,090
+But the rolling fixed point,
+you tend to bounce around
+
+846
+00:51:48,090 --> 00:51:50,140
+this limit cycle, OK.
+
+847
+00:51:50,140 --> 00:51:53,472
+And then every once in a while,
+in the stochastic dynamics
+
+848
+00:51:53,472 --> 00:51:54,930
+case, they say that
+these particles
+
+849
+00:51:54,930 --> 00:51:56,205
+make an escape attempt--
+
+850
+00:51:56,205 --> 00:51:57,247
+that's what they call it.
+
+851
+00:52:04,240 --> 00:52:09,450
+OK-- and maybe shoot
+over and fall down, OK.
+
+852
+00:52:09,450 --> 00:52:10,760
+And it's really very beautiful.
+
+853
+00:52:10,760 --> 00:52:12,510
+If you watch the
+probability distributions
+
+854
+00:52:12,510 --> 00:52:14,302
+as they propagate
+through the rimless wheel
+
+855
+00:52:14,302 --> 00:52:17,970
+equations, or the compass
+gait equations or you name it,
+
+856
+00:52:17,970 --> 00:52:22,410
+then what you get is you
+get this probability mass
+
+857
+00:52:22,410 --> 00:52:23,160
+around here.
+
+858
+00:52:23,160 --> 00:52:24,900
+For a long time,
+it's pretty likely
+
+859
+00:52:24,900 --> 00:52:28,920
+that I'm in the vicinity
+of that limit cycle.
+
+860
+00:52:28,920 --> 00:52:31,360
+And then slowly, as
+the time goes on,
+
+861
+00:52:31,360 --> 00:52:33,870
+the escape attempts
+continue to the point
+
+862
+00:52:33,870 --> 00:52:35,820
+where this thing gets
+smaller and smaller
+
+863
+00:52:35,820 --> 00:52:38,340
+until, as time goes
+to infinity, I'm only
+
+864
+00:52:38,340 --> 00:52:41,430
+going to be standing still, OK.
+
+865
+00:52:41,430 --> 00:52:47,730
+So the negative-- the
+pessimistic view of that work
+
+866
+00:52:47,730 --> 00:52:50,407
+is to say that you're
+always going to fall down.
+
+867
+00:52:50,407 --> 00:52:51,990
+You can build the
+best robot you want,
+
+868
+00:52:51,990 --> 00:52:53,790
+but if you have a reasonable
+model of the dynamics,
+
+869
+00:52:53,790 --> 00:52:55,110
+it's always going to fall down.
+
+870
+00:52:55,110 --> 00:52:59,220
+If you wait long enough, a Mack
+truck is going to come along
+
+871
+00:52:59,220 --> 00:53:02,072
+and hit it or it's going
+to walk into a door
+
+872
+00:53:02,072 --> 00:53:03,030
+or something like that.
+
+873
+00:53:03,030 --> 00:53:04,890
+You can do the best you want,
+but it's going to fall down,
+
+874
+00:53:04,890 --> 00:53:07,042
+and it'll end up on
+YouTube, probably, right?
+
+875
+00:53:07,042 --> 00:53:08,190
+[LAUGHTER]
+
+876
+00:53:08,190 --> 00:53:09,107
+So--
+
+877
+00:53:09,107 --> 00:53:11,890
+AUDIENCE: So you're assuming
+your ramp distribution is
+
+878
+00:53:11,890 --> 00:53:13,308
+actually Gaussian?
+
+879
+00:53:13,308 --> 00:53:15,100
+RUSS TEDRAKE: That's
+what we decided, yeah.
+
+880
+00:53:15,100 --> 00:53:15,780
+AUDIENCE: OK.
+
+881
+00:53:15,780 --> 00:53:17,405
+RUSS TEDRAKE: But
+that doesn't actually
+
+882
+00:53:17,405 --> 00:53:20,130
+imply that the posterior is
+Gaussian, because it's going
+
+883
+00:53:20,130 --> 00:53:21,870
+through nonlinear dynamics.
+
+884
+00:53:21,870 --> 00:53:24,060
+AUDIENCE: Right, but
+I mean, in reality,
+
+885
+00:53:24,060 --> 00:53:26,340
+the random distribution
+is never going
+
+886
+00:53:26,340 --> 00:53:27,632
+to be truly Gaussian, right?
+
+887
+00:53:27,632 --> 00:53:28,990
+Because--
+
+888
+00:53:28,990 --> 00:53:31,690
+RUSS TEDRAKE: Everything's
+Gaussian if you get enough of--
+
+889
+00:53:31,690 --> 00:53:32,232
+I don't know.
+
+890
+00:53:32,232 --> 00:53:33,990
+I mean, I think that's--
+
+891
+00:53:33,990 --> 00:53:36,930
+so you want to do stairs
+or something more specific?
+
+892
+00:53:36,930 --> 00:53:38,430
+AUDIENCE: Oh, well,
+I'm just saying,
+
+893
+00:53:38,430 --> 00:53:42,002
+if there is a hard limit
+on how steep your ramp is--
+
+894
+00:53:42,002 --> 00:53:42,710
+RUSS TEDRAKE: Oh.
+
+895
+00:53:42,710 --> 00:53:43,650
+AUDIENCE: --you could
+guarantee that--
+
+896
+00:53:43,650 --> 00:53:44,130
+RUSS TEDRAKE: Good.
+
+897
+00:53:44,130 --> 00:53:44,970
+Very good point.
+
+898
+00:53:44,970 --> 00:53:47,585
+All right, so of
+the distributions
+
+899
+00:53:47,585 --> 00:53:48,960
+didn't have tails,
+then there are
+
+900
+00:53:48,960 --> 00:53:53,100
+cases where I can bound
+it never going over.
+
+901
+00:53:53,100 --> 00:53:55,360
+But those tails actually
+have to be pretty steep--
+
+902
+00:53:55,360 --> 00:53:57,027
+the limitations have
+to be pretty steep,
+
+903
+00:53:57,027 --> 00:53:59,520
+because you have to make
+sure that, on a single step,
+
+904
+00:53:59,520 --> 00:54:04,140
+of the damping overcomes the
+biggest possible perturbation.
+
+905
+00:54:04,140 --> 00:54:06,150
+If on a single-- if
+your noise can ever
+
+906
+00:54:06,150 --> 00:54:08,580
+be bigger than what you can
+take out in a single step,
+
+907
+00:54:08,580 --> 00:54:10,705
+then you will eventually,
+as time goes to infinity,
+
+908
+00:54:10,705 --> 00:54:12,020
+find a way to get out.
+
+909
+00:54:12,020 --> 00:54:14,340
+Yeah?
+
+910
+00:54:14,340 --> 00:54:18,450
+So Katie Mill did some
+nice work in quantifying
+
+911
+00:54:18,450 --> 00:54:20,340
+the metastable
+dynamics of walking.
+
+912
+00:54:20,340 --> 00:54:21,630
+And actually, I think that--
+
+913
+00:54:21,630 --> 00:54:24,555
+so we call it the metastable,
+because that distribution
+
+914
+00:54:24,555 --> 00:54:26,550
+is long-living.
+
+915
+00:54:26,550 --> 00:54:28,318
+It still makes sense
+to talk about where
+
+916
+00:54:28,318 --> 00:54:30,360
+you'd expect this thing
+to be while it's walking.
+
+917
+00:54:30,360 --> 00:54:32,485
+But eventually, we have to
+admit it's going to be--
+
+918
+00:54:32,485 --> 00:54:34,440
+it's going to go
+to falling down.
+
+919
+00:54:34,440 --> 00:54:37,290
+Like a diamond is a diamond
+for a very long time,
+
+920
+00:54:37,290 --> 00:54:40,860
+but eventually, it'll
+turn back into graphite.
+
+921
+00:54:40,860 --> 00:54:44,195
+OK, so good.
+
+922
+00:54:44,195 --> 00:54:45,570
+So there's actually
+a beautiful--
+
+923
+00:54:45,570 --> 00:54:46,770
+even if you don't
+care about control,
+
+924
+00:54:46,770 --> 00:54:48,687
+I think there's actually
+beautiful things that
+
+925
+00:54:48,687 --> 00:54:50,130
+happen in stochastic dynamics.
+
+926
+00:54:50,130 --> 00:54:54,270
+But the thing that matters
+here is, we've switched hats.
+
+927
+00:54:54,270 --> 00:54:57,060
+We've now started thinking
+about probability distributions
+
+928
+00:54:57,060 --> 00:54:58,590
+and how they evolve
+with dynamics,
+
+929
+00:54:58,590 --> 00:55:00,300
+and how we can change
+those probability
+
+930
+00:55:00,300 --> 00:55:03,170
+distributions with control.
+
+931
+00:55:03,170 --> 00:55:05,600
+If I could if I could
+control the shape of that,
+
+932
+00:55:05,600 --> 00:55:08,150
+then I can control those
+probability distributions,
+
+933
+00:55:08,150 --> 00:55:08,720
+for instance.
+
+934
+00:55:13,520 --> 00:55:15,380
+OK.
+
+935
+00:55:15,380 --> 00:55:25,580
+So it turns out it's sort of
+trivial to work stochastic--
+
+936
+00:55:25,580 --> 00:55:29,240
+to solve stochastic
+optimal control problems,
+
+937
+00:55:29,240 --> 00:55:33,330
+at least with dynamic
+programming, OK.
+
+938
+00:55:47,310 --> 00:55:51,250
+And it works out, because of
+this additive cost structure,
+
+939
+00:55:51,250 --> 00:55:57,160
+that it's roughly
+no more expensive
+
+940
+00:55:57,160 --> 00:56:15,730
+to solve the stochastic
+optimal control
+
+941
+00:56:15,730 --> 00:56:17,020
+than the deterministic one.
+
+942
+00:56:25,030 --> 00:56:26,410
+And that matters.
+
+943
+00:56:26,410 --> 00:56:29,080
+Maybe I should even make
+the point that it matters.
+
+944
+00:56:29,080 --> 00:56:33,430
+So if I have a
+stochastic process--
+
+945
+00:56:33,430 --> 00:56:36,580
+and in general,
+the optimal policy
+
+946
+00:56:36,580 --> 00:56:40,390
+that you get from
+stochastic optimal control
+
+947
+00:56:40,390 --> 00:56:42,100
+is going to be different
+than the one you
+
+948
+00:56:42,100 --> 00:56:46,250
+get from deterministic
+optimal control,
+
+949
+00:56:46,250 --> 00:56:49,200
+so potentially,
+in dramatic ways.
+
+950
+00:56:49,200 --> 00:56:50,890
+Let me try to make
+that point here.
+
+951
+00:56:50,890 --> 00:56:51,970
+So imagine I've got my--
+
+952
+00:56:55,540 --> 00:56:57,040
+I've got a trashcan robot.
+
+953
+00:56:57,040 --> 00:56:58,750
+I shouldn't call it a trashcan.
+
+954
+00:56:58,750 --> 00:57:02,803
+I've got a-- what are they?
+
+955
+00:57:02,803 --> 00:57:04,720
+What are the names of
+those little red robots?
+
+956
+00:57:04,720 --> 00:57:06,512
+Pioneer robot or
+something like this, yeah?
+
+957
+00:57:06,512 --> 00:57:11,725
+And I want to get it from--
+
+958
+00:57:11,725 --> 00:57:13,615
+to this goal.
+
+959
+00:57:13,615 --> 00:57:15,490
+Let's say I've got a
+cost function like this,
+
+960
+00:57:15,490 --> 00:57:17,030
+and I start over here.
+
+961
+00:57:17,030 --> 00:57:21,190
+And as I go, I know that
+my wheels slip or something
+
+962
+00:57:21,190 --> 00:57:21,850
+like that.
+
+963
+00:57:21,850 --> 00:57:26,130
+My distributions are going
+to grow as I go, yeah.
+
+964
+00:57:26,130 --> 00:57:27,880
+And I've got some
+ability to control them,
+
+965
+00:57:27,880 --> 00:57:29,505
+so they're not going
+to grow unbounded,
+
+966
+00:57:29,505 --> 00:57:33,800
+but let's say they're going to
+grow in my path to the goal,
+
+967
+00:57:33,800 --> 00:57:34,955
+OK.
+
+968
+00:57:34,955 --> 00:57:36,330
+There'll be two
+competing forces.
+
+969
+00:57:36,330 --> 00:57:40,473
+There'll be my ability
+to measure and fight
+
+970
+00:57:40,473 --> 00:57:41,890
+against disturbances,
+and there'll
+
+971
+00:57:41,890 --> 00:57:43,390
+be the inevitable disturbances.
+
+972
+00:57:43,390 --> 00:57:47,260
+And those two will again combine
+into some sort of distribution
+
+973
+00:57:47,260 --> 00:57:49,780
+over time, OK.
+
+974
+00:57:49,780 --> 00:57:52,810
+Now imagine-- like the scenario
+we talked about in the feedback
+
+975
+00:57:52,810 --> 00:58:05,075
+case, imagine my cost
+function is 0 everywhere,
+
+976
+00:58:05,075 --> 00:58:06,970
+negative 1 at the goal--
+
+977
+00:58:06,970 --> 00:58:08,470
+I want to get to the goal--
+
+978
+00:58:08,470 --> 00:58:14,980
+and say something
+really big here, yeah.
+
+979
+00:58:14,980 --> 00:58:19,150
+There's pits of fire in
+the middle of the lab.
+
+980
+00:58:19,150 --> 00:58:20,380
+OK?
+
+981
+00:58:20,380 --> 00:58:23,205
+No, I mean, right, so we've
+got to make the point.
+
+982
+00:58:23,205 --> 00:58:25,330
+If it was just 1, I wouldn't
+make-- be as dramatic.
+
+983
+00:58:25,330 --> 00:58:32,920
+But OK, so long story short,
+a stochastic optimal control
+
+984
+00:58:32,920 --> 00:58:40,840
+solution is unlikely to
+choose this path, because 0--
+
+985
+00:58:40,840 --> 00:58:43,390
+even if the distributions
+are fairly tight,
+
+986
+00:58:43,390 --> 00:58:47,710
+0 times a big part of the
+probability distribution plus 1
+
+987
+00:58:47,710 --> 00:58:49,960
+e to the 6 times even a
+little part of the probability
+
+988
+00:58:49,960 --> 00:58:52,570
+distribution is still
+a big number, OK.
+
+989
+00:58:52,570 --> 00:58:57,100
+And so therefore, the expected
+value of going through here
+
+990
+00:58:57,100 --> 00:58:59,710
+is that I'm going to
+incur quite a bit of cost.
+
+991
+00:58:59,710 --> 00:59:02,620
+Does that make sense?
+
+992
+00:59:02,620 --> 00:59:06,218
+So if I just did
+deterministic optimal control,
+
+993
+00:59:06,218 --> 00:59:08,260
+we talked about using
+feedback to try to motivate
+
+994
+00:59:08,260 --> 00:59:09,610
+not going through there.
+
+995
+00:59:09,610 --> 00:59:11,140
+But really, the
+more direct way is
+
+996
+00:59:11,140 --> 00:59:15,400
+to think about the
+probability distributions.
+
+997
+00:59:15,400 --> 00:59:18,070
+So if I can control my
+probabilities to the point
+
+998
+00:59:18,070 --> 00:59:20,283
+where I know 0 probability
+is going to be in here,
+
+999
+00:59:20,283 --> 00:59:21,700
+then sure, go ahead
+through there.
+
+1000
+00:59:21,700 --> 00:59:24,280
+And the deterministic one
+will probably find that.
+
+1001
+00:59:24,280 --> 00:59:27,280
+But the stochastic one, if it
+realizes there's something,
+
+1002
+00:59:27,280 --> 00:59:30,790
+will probably try to find
+a different path, OK.
+
+1003
+00:59:30,790 --> 00:59:34,180
+So that's one example.
+
+1004
+00:59:34,180 --> 00:59:37,360
+But in general, the stochastic
+optimal control policies
+
+1005
+00:59:37,360 --> 00:59:40,330
+are going to be different
+than the deterministic ones,
+
+1006
+00:59:40,330 --> 00:59:42,160
+and better.
+
+1007
+00:59:42,160 --> 00:59:44,602
+If you have a reasonable
+model of the disturbances
+
+1008
+00:59:44,602 --> 00:59:46,060
+you'd expect to
+encounter, then you
+
+1009
+00:59:46,060 --> 00:59:48,220
+should allow your
+optimal control tools
+
+1010
+00:59:48,220 --> 00:59:51,920
+to think about them, OK.
+
+1011
+00:59:51,920 --> 00:59:56,380
+AUDIENCE: [INAUDIBLE]
+stochastic environment s times 4
+
+1012
+00:59:56,380 --> 01:00:02,012
+[INAUDIBLE] [? you have ?]
+[INAUDIBLE] [? more states, ?]
+
+1013
+01:00:02,012 --> 01:00:05,330
+because potentially, each
+action can move you to any
+
+1014
+01:00:05,330 --> 01:00:07,520
+of the possible states
+while in deterministic case,
+
+1015
+01:00:07,520 --> 01:00:09,190
+you can go to one state.
+
+1016
+01:00:09,190 --> 01:00:12,897
+So when you do [INAUDIBLE]
+[? worse ?] [? case. ?]
+
+1017
+01:00:12,897 --> 01:00:13,730
+RUSS TEDRAKE: Right.
+
+1018
+01:00:13,730 --> 01:00:15,120
+I knew someone was going to--
+
+1019
+01:00:15,120 --> 01:00:17,630
+so I would say essentially no.
+
+1020
+01:00:17,630 --> 01:00:19,017
+I almost wrote, essentially no.
+
+1021
+01:00:19,017 --> 01:00:21,350
+And the reason I want to make
+that comparison, actually,
+
+1022
+01:00:21,350 --> 01:00:23,017
+is because I want to
+compare it directly
+
+1023
+01:00:23,017 --> 01:00:25,780
+to the barycentric interpolation
+that we were doing before,
+
+1024
+01:00:25,780 --> 01:00:27,530
+which is what I'm going
+to do in a second.
+
+1025
+01:00:27,530 --> 01:00:29,450
+And that is already
+doing an interpolation,
+
+1026
+01:00:29,450 --> 01:00:32,420
+already going through some
+probability, some transition
+
+1027
+01:00:32,420 --> 01:00:33,920
+matrix, yeah.
+
+1028
+01:00:33,920 --> 01:00:36,597
+And it's probably true
+that the-- it may be true,
+
+1029
+01:00:36,597 --> 01:00:38,180
+depending on your
+noise distributions,
+
+1030
+01:00:38,180 --> 01:00:40,220
+that if you add a lot of noise,
+that transition matrix will
+
+1031
+01:00:40,220 --> 01:00:42,680
+be more dense, and therefore,
+it might take more time,
+
+1032
+01:00:42,680 --> 01:00:45,410
+depending on how you computed.
+
+1033
+01:00:45,410 --> 01:00:47,330
+My MATLAB implementation,
+it's the same.
+
+1034
+01:00:47,330 --> 01:00:48,470
+Yeah?
+
+1035
+01:00:48,470 --> 01:00:50,098
+Is that fair?
+
+1036
+01:00:50,098 --> 01:00:51,890
+And it's no more
+complicated to write down.
+
+1037
+01:00:51,890 --> 01:00:52,830
+How about that?
+
+1038
+01:00:52,830 --> 01:00:53,330
+OK?
+
+1039
+01:00:55,997 --> 01:00:57,830
+We'll completely
+understand what [INAUDIBLE]
+
+1040
+01:00:57,830 --> 01:00:59,780
+was asking in just a second.
+
+1041
+01:00:59,780 --> 01:01:03,530
+OK, so why is it no
+more complicated for me
+
+1042
+01:01:03,530 --> 01:01:07,040
+to write down on the board
+the stochastic optimal control
+
+1043
+01:01:07,040 --> 01:01:09,113
+case in dynamic programming?
+
+1044
+01:01:13,460 --> 01:01:15,060
+Remember, I said now this is--
+
+1045
+01:01:15,060 --> 01:01:17,920
+I'm going to take the expected
+value of my additive cost.
+
+1046
+01:01:33,960 --> 01:01:36,705
+First let's just think about
+what the implications are
+
+1047
+01:01:36,705 --> 01:01:38,130
+for doing optimal control.
+
+1048
+01:01:41,678 --> 01:01:43,845
+So first of all, I can take
+that expectation inside.
+
+1049
+01:01:58,520 --> 01:02:02,745
+And now what's the
+probability of g--
+
+1050
+01:02:02,745 --> 01:02:08,490
+or what's the expected
+value of g at xn un?
+
+1051
+01:02:08,490 --> 01:02:13,440
+Well, x has got
+some distribution
+
+1052
+01:02:13,440 --> 01:02:16,590
+given by P of x, and yeah.
+
+1053
+01:02:16,590 --> 01:02:18,240
+So this thing is
+going to work out
+
+1054
+01:02:18,240 --> 01:02:20,910
+to be-- you can always take the
+expected value of a function
+
+1055
+01:02:20,910 --> 01:02:25,620
+of x by just that function times
+its distribution integrated.
+
+1056
+01:02:25,620 --> 01:02:30,600
+This thing's going
+to work out to be
+
+1057
+01:02:30,600 --> 01:02:35,670
+so an integral over all
+possible states of g
+
+1058
+01:02:35,670 --> 01:02:42,834
+of x u of n times P of n x dx.
+
+1059
+01:02:47,840 --> 01:02:48,340
+Right?
+
+1060
+01:02:53,230 --> 01:02:55,750
+OK, so you could imagine
+computing optimal policies
+
+1061
+01:02:55,750 --> 01:03:00,550
+by figuring out the state
+distribution by that evolution
+
+1062
+01:03:00,550 --> 01:03:04,180
+I was talking about before
+and then integrating
+
+1063
+01:03:04,180 --> 01:03:08,740
+over the possible states, yeah?
+
+1064
+01:03:08,740 --> 01:03:11,440
+The costs for each state,
+and figuring out our J,
+
+1065
+01:03:11,440 --> 01:03:13,230
+figuring out a way
+to minimize that.
+
+1066
+01:03:13,230 --> 01:03:16,080
+I only wrote that down
+to make it look hard, OK.
+
+1067
+01:03:16,080 --> 01:03:19,720
+It turns out, again, just like
+before, the recursive form
+
+1068
+01:03:19,720 --> 01:03:22,930
+is beautiful and simple, OK.
+
+1069
+01:03:22,930 --> 01:03:26,600
+So you can imagine doing it
+that way, and that's correct,
+
+1070
+01:03:26,600 --> 01:03:29,200
+but just like before, the
+dynamic programming solution
+
+1071
+01:03:29,200 --> 01:03:31,450
+exploits the recursive--
+the additive form
+
+1072
+01:03:31,450 --> 01:03:33,670
+and does a recursive
+solution which
+
+1073
+01:03:33,670 --> 01:03:35,440
+just works out beautifully, OK.
+
+1074
+01:03:38,740 --> 01:03:45,220
+So if I do J of x from time 0
+being the expected value of,
+
+1075
+01:03:45,220 --> 01:04:06,510
+let's do the final cost also,
+then what's J of x capital N?
+
+1076
+01:04:14,370 --> 01:04:17,110
+My cost to go, given
+I'm at the goal.
+
+1077
+01:04:17,110 --> 01:04:19,500
+The time has expired,
+and I'm at state x.
+
+1078
+01:04:22,818 --> 01:04:26,140
+AUDIENCE: [INAUDIBLE] h of x.
+
+1079
+01:04:26,140 --> 01:04:28,570
+RUSS TEDRAKE: Is it
+expected value of h of x,
+
+1080
+01:04:28,570 --> 01:04:29,620
+or is it just h?
+
+1081
+01:04:29,620 --> 01:04:30,120
+What is it?
+
+1082
+01:04:33,933 --> 01:04:35,350
+AUDIENCE: h is
+[? deterministic ?]
+
+1083
+01:04:35,350 --> 01:04:35,850
+[INAUDIBLE].
+
+1084
+01:04:35,850 --> 01:04:36,767
+RUSS TEDRAKE: Awesome.
+
+1085
+01:04:36,767 --> 01:04:37,420
+Yeah.
+
+1086
+01:04:37,420 --> 01:04:43,570
+If I know I'm already in x, then
+there's no probabilities left,
+
+1087
+01:04:43,570 --> 01:04:44,070
+yeah.
+
+1088
+01:04:46,990 --> 01:04:57,160
+OK, and then if I go
+backwards, J of x at time k
+
+1089
+01:04:57,160 --> 01:05:00,430
+is going to work out
+to be min over u--
+
+1090
+01:05:00,430 --> 01:05:02,080
+I should say J star of x.
+
+1091
+01:05:02,080 --> 01:05:03,940
+Sorry.
+
+1092
+01:05:03,940 --> 01:05:09,100
+J star of x is going to be min
+over u the expected value of g
+
+1093
+01:05:09,100 --> 01:05:30,400
+x, u plus J star of f
+of x u w of n k plus 1.
+
+1094
+01:05:34,442 --> 01:05:35,150
+Can you buy that?
+
+1095
+01:06:09,880 --> 01:06:12,360
+OK, so the reinforcement
+learning people always
+
+1096
+01:06:12,360 --> 01:06:15,870
+like to say that the
+reward or the cost
+
+1097
+01:06:15,870 --> 01:06:22,305
+can also be a random
+process a random variable.
+
+1098
+01:06:22,305 --> 01:06:25,560
+I'm always in this case
+where I design the cost,
+
+1099
+01:06:25,560 --> 01:06:28,690
+it's a function of some random
+x, but g is deterministic.
+
+1100
+01:06:28,690 --> 01:06:33,353
+So actually, I could take that
+expectation right inside here,
+
+1101
+01:06:33,353 --> 01:06:34,770
+and I just have
+to do a min over u
+
+1102
+01:06:34,770 --> 01:06:41,560
+of g of x times the expected
+value of my cost to go, OK.
+
+1103
+01:06:47,500 --> 01:06:49,690
+The nicest way to see how
+to implement that is let's
+
+1104
+01:06:49,690 --> 01:06:51,490
+go ahead and--
+
+1105
+01:06:51,490 --> 01:06:52,970
+we've already discretized time.
+
+1106
+01:06:52,970 --> 01:06:54,428
+Let's discretize
+state and actions.
+
+1107
+01:07:06,470 --> 01:07:10,210
+So now I have S of n plus
+1-- remember I switch
+
+1108
+01:07:10,210 --> 01:07:12,550
+to S's and a's when
+I discretize things--
+
+1109
+01:07:12,550 --> 01:07:22,810
+is now f of S n times some
+action times my noise.
+
+1110
+01:07:22,810 --> 01:07:25,630
+And the advantage of
+discretizing stat and actions
+
+1111
+01:07:25,630 --> 01:07:37,630
+is now I can do P of n plus
+1, which is a function of S.
+
+1112
+01:07:37,630 --> 01:07:41,080
+I could think of
+that as just a vector
+
+1113
+01:07:41,080 --> 01:07:53,320
+where the ith element is the
+probability that S of n plus 1
+
+1114
+01:07:53,320 --> 01:07:54,910
+equals Si.
+
+1115
+01:07:58,710 --> 01:07:59,500
+Is that OK?
+
+1116
+01:08:02,635 --> 01:08:04,760
+The probability distribution,
+remember, in general,
+
+1117
+01:08:04,760 --> 01:08:06,220
+was a function.
+
+1118
+01:08:06,220 --> 01:08:09,950
+In the particle in a bowl case,
+it was a continuous Gaussian
+
+1119
+01:08:09,950 --> 01:08:11,270
+function.
+
+1120
+01:08:11,270 --> 01:08:14,505
+If I discretize the
+state there, then I
+
+1121
+01:08:14,505 --> 01:08:16,130
+can represent that
+as a vector, saying,
+
+1122
+01:08:16,130 --> 01:08:18,140
+what's the probability of
+being in state one, what's
+
+1123
+01:08:18,140 --> 01:08:20,598
+the probability of being in
+state two, probability of being
+
+1124
+01:08:20,598 --> 01:08:23,240
+in state three, and so on, OK.
+
+1125
+01:08:23,240 --> 01:08:25,670
+So the reason to
+discretize states
+
+1126
+01:08:25,670 --> 01:08:29,160
+is I can turn my continuous
+function into a vector.
+
+1127
+01:08:29,160 --> 01:08:29,660
+Yeah.
+
+1128
+01:08:33,000 --> 01:08:37,560
+And I can turn this function
+into a transition probability
+
+1129
+01:08:37,560 --> 01:08:39,210
+matrix.
+
+1130
+01:08:39,210 --> 01:08:49,920
+I can-- so f goes to Tij, which
+is the probability of landing
+
+1131
+01:08:49,920 --> 01:08:50,970
+in Sj--
+
+1132
+01:08:50,970 --> 01:08:54,149
+I should-- it depends
+on the actions--
+
+1133
+01:08:54,149 --> 01:08:57,200
+given I was in Si
+and I took action a.
+
+1134
+01:09:02,010 --> 01:09:04,319
+This is a matrix.
+
+1135
+01:09:04,319 --> 01:09:05,444
+It's the transition matrix.
+
+1136
+01:09:27,500 --> 01:09:35,090
+And now the state
+distribution dynamics
+
+1137
+01:09:35,090 --> 01:09:44,720
+are going to just turn out
+to be a pretty simple matrix
+
+1138
+01:09:44,720 --> 01:09:45,380
+equation.
+
+1139
+01:09:45,380 --> 01:09:48,914
+That's in-- oops.
+
+1140
+01:09:48,914 --> 01:09:52,667
+Tij Pj at time n plus 1.
+
+1141
+01:09:52,667 --> 01:09:55,250
+Yeah, so let me actually write
+the whole vec-- the real vector
+
+1142
+01:09:55,250 --> 01:09:56,360
+form.
+
+1143
+01:09:56,360 --> 01:09:59,600
+That's really for-- that's
+for a single element of it.
+
+1144
+01:09:59,600 --> 01:10:04,340
+I could just write, if I'm
+doing it in column vectors,
+
+1145
+01:10:04,340 --> 01:10:13,070
+then it's actually going to
+be P of n times T of a, OK.
+
+1146
+01:10:13,070 --> 01:10:16,520
+Where these two are
+vectors, that's a matrix.
+
+1147
+01:10:22,000 --> 01:10:28,380
+So and this is
+the discreet time,
+
+1148
+01:10:28,380 --> 01:10:39,390
+discreet action, discreet
+state master equation.
+
+1149
+01:10:46,376 --> 01:10:47,880
+AUDIENCE: [INAUDIBLE]
+
+1150
+01:10:47,880 --> 01:10:51,090
+RUSS TEDRAKE: I use
+it as a column vector.
+
+1151
+01:10:51,090 --> 01:10:56,650
+AUDIENCE: [INAUDIBLE]
+
+1152
+01:10:56,650 --> 01:10:57,900
+RUSS TEDRAKE: Let's make sure.
+
+1153
+01:10:57,900 --> 01:11:06,930
+So the probability of being in
+state J given I was in state i
+
+1154
+01:11:06,930 --> 01:11:08,265
+should be the sum over--
+
+1155
+01:11:11,142 --> 01:11:13,110
+write this thing.
+
+1156
+01:11:13,110 --> 01:11:23,100
+Probability of
+being of S n plus 1
+
+1157
+01:11:23,100 --> 01:11:25,140
+is a probability-- what's that?
+
+1158
+01:11:25,140 --> 01:11:27,240
+I think I had it right, right?
+
+1159
+01:11:27,240 --> 01:11:29,988
+It's not a true loop,
+but I think that's right.
+
+1160
+01:11:29,988 --> 01:11:31,452
+AUDIENCE: [? Don't ?] [? you ?]
+[? need a ?] transpose?
+
+1161
+01:11:31,452 --> 01:11:32,077
+AUDIENCE: Yeah.
+
+1162
+01:11:32,077 --> 01:11:33,852
+AUDIENCE: [INAUDIBLE]
+
+1163
+01:11:33,852 --> 01:11:35,310
+RUSS TEDRAKE: I
+need a T transpose?
+
+1164
+01:11:35,310 --> 01:11:36,210
+AUDIENCE: Get a T transpose.
+
+1165
+01:11:36,210 --> 01:11:37,748
+AUDIENCE: You just
+can't hit the--
+
+1166
+01:11:37,748 --> 01:11:38,194
+AUDIENCE: [INAUDIBLE]
+
+1167
+01:11:38,194 --> 01:11:40,194
+RUSS TEDRAKE: Oh, of
+course, because I did this.
+
+1168
+01:11:40,194 --> 01:11:41,550
+OK, yeah, so sorry.
+
+1169
+01:11:41,550 --> 01:11:43,960
+Yeah, I think the way I've
+got T defined-- but thank you.
+
+1170
+01:11:43,960 --> 01:11:45,790
+That should be a
+transpose, yeah.
+
+1171
+01:11:45,790 --> 01:11:46,290
+Good.
+
+1172
+01:11:46,290 --> 01:11:47,665
+AUDIENCE: [INAUDIBLE]
+T transpose
+
+1173
+01:11:47,665 --> 01:11:50,400
+on the other side [INAUDIBLE].
+
+1174
+01:11:50,400 --> 01:11:52,710
+RUSS TEDRAKE: In which case,
+I could have written it
+
+1175
+01:11:52,710 --> 01:11:54,897
+with the T as a
+transpose too, but if I
+
+1176
+01:11:54,897 --> 01:11:55,980
+transpose the whole thing.
+
+1177
+01:12:04,188 --> 01:12:06,480
+Doesn't really matter if you
+like row vectors or column
+
+1178
+01:12:06,480 --> 01:12:06,750
+vectors.
+
+1179
+01:12:06,750 --> 01:12:08,200
+The point is the
+master equation,
+
+1180
+01:12:08,200 --> 01:12:11,040
+which looked a little
+scary before, yeah, turns
+
+1181
+01:12:11,040 --> 01:12:13,140
+into a simple matrix update
+in the discrete time,
+
+1182
+01:12:13,140 --> 01:12:14,070
+discrete state case.
+
+1183
+01:12:14,070 --> 01:12:16,680
+Yeah?
+
+1184
+01:12:16,680 --> 01:12:19,712
+AUDIENCE: So in this
+[INAUDIBLE] [? truncated ?]
+
+1185
+01:12:19,712 --> 01:12:22,854
+[? the actions ?] or you'd
+just not [? capture things? ?]
+
+1186
+01:12:22,854 --> 01:12:26,570
+Because you have hard limits
+if you discretize things.
+
+1187
+01:12:26,570 --> 01:12:27,395
+RUSS TEDRAKE: Good.
+
+1188
+01:12:27,395 --> 01:12:28,770
+So there's a
+question again, just
+
+1189
+01:12:28,770 --> 01:12:32,037
+like we had the
+question when we did
+
+1190
+01:12:32,037 --> 01:12:33,870
+dynamic programming for
+the value iteration,
+
+1191
+01:12:33,870 --> 01:12:36,210
+of how you go from the
+continuous probabilities
+
+1192
+01:12:36,210 --> 01:12:38,415
+and continuous states
+back to the other one.
+
+1193
+01:12:38,415 --> 01:12:39,040
+So again, yeah.
+
+1194
+01:12:39,040 --> 01:12:41,160
+So I would sample
+for my Gaussian
+
+1195
+01:12:41,160 --> 01:12:43,410
+and fill out a
+transition probabilities
+
+1196
+01:12:43,410 --> 01:12:47,160
+as a close, truncated
+representation of the Gaussian
+
+1197
+01:12:47,160 --> 01:12:53,125
+and still interpolate with
+the barycentric interpolators.
+
+1198
+01:12:58,350 --> 01:13:04,815
+And now the DP update works
+out to be just a simple.
+
+1199
+01:13:08,490 --> 01:13:13,200
+The probability of being in S--
+
+1200
+01:13:13,200 --> 01:13:15,160
+let's see S--
+
+1201
+01:13:15,160 --> 01:13:19,410
+J is the min over a.
+
+1202
+01:13:19,410 --> 01:13:23,640
+The expected value
+from this equation
+
+1203
+01:13:23,640 --> 01:13:27,600
+can be taken care of
+with just the transition
+
+1204
+01:13:27,600 --> 01:13:29,130
+matrix over here.
+
+1205
+01:13:29,130 --> 01:13:32,670
+And I get maybe
+my vector g of a,
+
+1206
+01:13:32,670 --> 01:13:36,360
+which is the cost of
+being in each state
+
+1207
+01:13:36,360 --> 01:13:49,540
+given I took that action, sum
+over j Tij Sj J of Sj k plus 1.
+
+1208
+01:13:49,540 --> 01:13:52,060
+Yeah?
+
+1209
+01:13:52,060 --> 01:13:57,163
+And I get rid of my expected
+values by just using that--
+
+1210
+01:13:57,163 --> 01:13:59,080
+working directly with
+the transition matrices.
+
+1211
+01:14:06,710 --> 01:14:10,010
+i on this side, j on the side.
+
+1212
+01:14:10,010 --> 01:14:11,247
+Many apologies.
+
+1213
+01:14:15,150 --> 01:14:16,650
+This turns out to be exactly--
+
+1214
+01:14:16,650 --> 01:14:20,250
+the reason I said, basically
+no more expensive to solve
+
+1215
+01:14:20,250 --> 01:14:22,170
+than the deterministic
+case is we
+
+1216
+01:14:22,170 --> 01:14:26,000
+already used this form
+when we were doing
+
+1217
+01:14:26,000 --> 01:14:27,860
+the barycentric interpolation.
+
+1218
+01:14:27,860 --> 01:14:30,920
+Because our problem in
+the dynamic programming
+
+1219
+01:14:30,920 --> 01:14:36,920
+originally was that
+when we started
+
+1220
+01:14:36,920 --> 01:14:40,280
+simulating this thing
+from one node forward,
+
+1221
+01:14:40,280 --> 01:14:42,475
+it didn't end up--
+
+1222
+01:14:42,475 --> 01:14:43,850
+unless you were
+very, very lucky,
+
+1223
+01:14:43,850 --> 01:14:46,370
+it didn't end up right
+on top of another node.
+
+1224
+01:14:46,370 --> 01:14:48,020
+So we already had
+said that we're
+
+1225
+01:14:48,020 --> 01:14:50,600
+going to estimate
+the new cost to go
+
+1226
+01:14:50,600 --> 01:14:52,460
+as an interpolation
+of the neighboring
+
+1227
+01:14:52,460 --> 01:14:55,040
+points, of the value of the
+neighboring points, where
+
+1228
+01:14:55,040 --> 01:15:00,770
+that weighting came from the
+barycentric interpolators, OK.
+
+1229
+01:15:00,770 --> 01:15:03,920
+We're doing the
+exact same thing now.
+
+1230
+01:15:03,920 --> 01:15:05,690
+In fact, you could
+actually think
+
+1231
+01:15:05,690 --> 01:15:07,880
+of the barycentric
+interpolators as turning
+
+1232
+01:15:07,880 --> 01:15:11,450
+your deterministic problem into
+a stochastic problem, where
+
+1233
+01:15:11,450 --> 01:15:14,450
+the probability of going
+into each of these neighbors
+
+1234
+01:15:14,450 --> 01:15:17,090
+is the interpolant, OK.
+
+1235
+01:15:17,090 --> 01:15:19,220
+So the reason the
+barycentric works beautifully
+
+1236
+01:15:19,220 --> 01:15:21,650
+is that it turns the
+deterministic case
+
+1237
+01:15:21,650 --> 01:15:24,900
+into a stochastic case.
+
+1238
+01:15:24,900 --> 01:15:25,920
+Yeah?
+
+1239
+01:15:25,920 --> 01:15:29,050
+And that's why I wanted to say
+that it's no more complex, OK.
+
+1240
+01:15:29,050 --> 01:15:30,030
+T might be more--
+
+1241
+01:15:30,030 --> 01:15:32,590
+have less 0s than
+in the general case.
+
+1242
+01:15:32,590 --> 01:15:34,863
+If maybe-- with some
+probability distribution,
+
+1243
+01:15:34,863 --> 01:15:37,530
+it might be that I have to worry
+about hitting a lot more nodes.
+
+1244
+01:15:40,180 --> 01:15:41,940
+So it might take
+few more cycles.
+
+1245
+01:15:41,940 --> 01:15:44,130
+But the equations are the
+same, and my MATLAB code
+
+1246
+01:15:44,130 --> 01:15:47,670
+is the same, OK.
+
+1247
+01:15:47,670 --> 01:15:50,412
+Simultaneously, or
+maybe conversely,
+
+1248
+01:15:50,412 --> 01:15:51,870
+this helps-- actually
+tells you why
+
+1249
+01:15:51,870 --> 01:15:55,720
+we have problems with the
+barycentric interpolators.
+
+1250
+01:15:55,720 --> 01:15:57,720
+This is the-- remember,
+the fundamental problems
+
+1251
+01:15:57,720 --> 01:15:59,250
+with the barycentric
+interpolators
+
+1252
+01:15:59,250 --> 01:16:03,960
+is that things leaked away
+from the nominal trajectories,
+
+1253
+01:16:03,960 --> 01:16:06,000
+and we had our chattering
+happening in the--
+
+1254
+01:16:06,000 --> 01:16:10,050
+and our bang bang solution
+wasn't quite right.
+
+1255
+01:16:10,050 --> 01:16:12,630
+Because now you
+can think of it as,
+
+1256
+01:16:12,630 --> 01:16:14,910
+is my deterministic
+problem assigning
+
+1257
+01:16:14,910 --> 01:16:17,490
+some probability of going
+to each of these neighbors?
+
+1258
+01:16:17,490 --> 01:16:19,710
+And you can see that
+that distribution's
+
+1259
+01:16:19,710 --> 01:16:22,753
+going to start slipping away
+from the nominal trajectory.
+
+1260
+01:16:26,210 --> 01:16:27,350
+OK, excellent.
+
+1261
+01:16:27,350 --> 01:16:31,200
+So this is actually
+very important.
+
+1262
+01:16:31,200 --> 01:16:34,305
+Stochastic optimal control
+is a beautiful thing.
+
+1263
+01:16:34,305 --> 01:16:40,890
+If I can model the disturbances
+in any reasonable way,
+
+1264
+01:16:40,890 --> 01:16:44,160
+then I can get better policies
+by explicitly reasoning
+
+1265
+01:16:44,160 --> 01:16:45,510
+about them.
+
+1266
+01:16:45,510 --> 01:16:48,060
+And just like we said
+dynamic programming
+
+1267
+01:16:48,060 --> 01:16:49,583
+for low dimensional
+problems solves
+
+1268
+01:16:49,583 --> 01:16:51,750
+all these really hard
+problems that are analytically
+
+1269
+01:16:51,750 --> 01:16:53,460
+intractable and
+things like that,
+
+1270
+01:16:53,460 --> 01:16:55,710
+it can even solve a
+stochastic problem
+
+1271
+01:16:55,710 --> 01:16:59,625
+with almost no more work, OK.
+
+1272
+01:16:59,625 --> 01:17:03,300
+The low dimensional problems,
+even complicated ones
+
+1273
+01:17:03,300 --> 01:17:08,380
+with complicated distributions,
+DP can do the work for you.
+
+1274
+01:17:08,380 --> 01:17:09,120
+OK.
+
+1275
+01:17:09,120 --> 01:17:16,590
+So a few more things to say.
+
+1276
+01:17:16,590 --> 01:17:20,250
+There's one particular
+result, which we already
+
+1277
+01:17:20,250 --> 01:17:27,845
+mentioned early, that
+I have to mention here.
+
+1278
+01:17:33,330 --> 01:17:41,450
+This dynamic
+programming update, we
+
+1279
+01:17:41,450 --> 01:17:44,510
+use this in our analytical
+optimal control, too.
+
+1280
+01:17:44,510 --> 01:17:46,880
+We use this as the basis
+to start designing things
+
+1281
+01:17:46,880 --> 01:17:52,130
+like our LQR controllers that
+we turned it into the HPJ.
+
+1282
+01:17:52,130 --> 01:17:54,675
+And in the finite time
+case, we didn't even
+
+1283
+01:17:54,675 --> 01:17:55,550
+turn it into the HPJ.
+
+1284
+01:17:55,550 --> 01:17:57,200
+We just started-- we started--
+
+1285
+01:17:57,200 --> 01:18:00,470
+we can back this out with
+dynamic programming, OK.
+
+1286
+01:18:00,470 --> 01:18:02,060
+So we can actually
+use the same thing
+
+1287
+01:18:02,060 --> 01:18:05,330
+to analytically try to
+design some controllers
+
+1288
+01:18:05,330 --> 01:18:08,150
+for stochastic
+optimal control cases.
+
+1289
+01:18:08,150 --> 01:18:10,940
+And just like in the
+deterministic case,
+
+1290
+01:18:10,940 --> 01:18:14,840
+there's one outstanding result
+that everybody knows and uses,
+
+1291
+01:18:14,840 --> 01:18:19,775
+and that's the linear quadratic
+regulator with Gaussian noise.
+
+1292
+01:18:41,690 --> 01:18:48,170
+LQG is the shorthand.
+
+1293
+01:18:48,170 --> 01:18:49,320
+There's two forms of it.
+
+1294
+01:18:49,320 --> 01:18:52,862
+One of them is Gaussian
+noise also on the sensors,
+
+1295
+01:18:52,862 --> 01:18:54,320
+but let's just
+worry about the case
+
+1296
+01:18:54,320 --> 01:18:57,410
+where we know there's no
+uncertainty in the sensors,
+
+1297
+01:18:57,410 --> 01:19:00,020
+only the dynamic noise.
+
+1298
+01:19:00,020 --> 01:19:05,540
+So x n plus 1 is a.
+
+1299
+01:19:05,540 --> 01:19:06,570
+It could be a of n.
+
+1300
+01:19:06,570 --> 01:19:08,900
+It could be time varying or not.
+
+1301
+01:19:08,900 --> 01:19:15,980
+xn plus B n u of n plus wn.
+
+1302
+01:19:18,540 --> 01:19:21,434
+Cost function, again, is
+the quadratic regulator.
+
+1303
+01:19:41,720 --> 01:19:46,190
+What do you think's going
+to happen with that problem?
+
+1304
+01:19:46,190 --> 01:19:48,230
+Someone who hasn't
+used it extensively
+
+1305
+01:19:48,230 --> 01:19:53,000
+in your work, what's going to
+change about our LQR solution?
+
+1306
+01:19:53,000 --> 01:19:55,850
+Think about stabilizing the
+pendulum or something, OK.
+
+1307
+01:19:55,850 --> 01:19:59,000
+Let's say we're doing optimal
+control on the simple pendulum
+
+1308
+01:19:59,000 --> 01:20:00,860
+linearized around the
+top, and now there's
+
+1309
+01:20:00,860 --> 01:20:03,110
+disturbances bouncing me around.
+
+1310
+01:20:03,110 --> 01:20:06,500
+How would you act
+differently given
+
+1311
+01:20:06,500 --> 01:20:12,520
+some model of disturbances
+in the linear case?
+
+1312
+01:20:12,520 --> 01:20:14,020
+How would you act
+differently if you
+
+1313
+01:20:14,020 --> 01:20:16,540
+know that somebody's going
+to be bumping me around
+
+1314
+01:20:16,540 --> 01:20:17,740
+with a mean 0?
+
+1315
+01:20:17,740 --> 01:20:19,210
+Let's keep w mean 0.
+
+1316
+01:20:27,070 --> 01:20:30,790
+How would you act differently
+if you're a simple pendulum
+
+1317
+01:20:30,790 --> 01:20:32,430
+around the top?
+
+1318
+01:20:32,430 --> 01:20:35,717
+AUDIENCE: [INAUDIBLE]
+
+1319
+01:20:35,717 --> 01:20:37,550
+RUSS TEDRAKE: Anybody
+else want to weigh in?
+
+1320
+01:20:41,342 --> 01:20:42,577
+AUDIENCE: Increase your gain.
+
+1321
+01:20:42,577 --> 01:20:43,660
+RUSS TEDRAKE: What's that?
+
+1322
+01:20:43,660 --> 01:20:44,400
+AUDIENCE: Increase your gain.
+
+1323
+01:20:44,400 --> 01:20:45,960
+RUSS TEDRAKE: You might
+increase your gain or something
+
+1324
+01:20:45,960 --> 01:20:47,370
+like that, you'd think.
+
+1325
+01:20:47,370 --> 01:20:51,220
+Yeah, it turns out you
+wouldn't act different.
+
+1326
+01:20:51,220 --> 01:20:54,135
+It's one of the most
+surprising results, I think,
+
+1327
+01:20:54,135 --> 01:20:57,690
+of stochastic optimal control.
+
+1328
+01:20:57,690 --> 01:21:01,650
+It turns out that
+you work it all out,
+
+1329
+01:21:01,650 --> 01:21:04,110
+you put your costs like this,
+you wouldn't-- you don't turn
+
+1330
+01:21:04,110 --> 01:21:05,850
+your gains up because of the
+disturbances or anything like
+
+1331
+01:21:05,850 --> 01:21:06,450
+that.
+
+1332
+01:21:06,450 --> 01:21:10,200
+The optimal solution
+for the stochastic case
+
+1333
+01:21:10,200 --> 01:21:14,310
+is the same policy as
+the optimal solution
+
+1334
+01:21:14,310 --> 01:21:16,313
+for the deterministic case, OK.
+
+1335
+01:21:16,313 --> 01:21:17,730
+It's also true in
+continuous time.
+
+1336
+01:21:29,250 --> 01:21:34,260
+R inverse B transpose S of n x.
+
+1337
+01:21:34,260 --> 01:21:37,620
+Yeah, it's the same B of n here.
+
+1338
+01:21:51,450 --> 01:21:54,335
+Did I write something funny?
+
+1339
+01:21:54,335 --> 01:21:56,800
+AUDIENCE: Did you know that
+that clock isn't moving?
+
+1340
+01:21:56,800 --> 01:21:57,925
+RUSS TEDRAKE: No, I didn't.
+
+1341
+01:21:57,925 --> 01:21:58,920
+Am I way off time?
+
+1342
+01:21:58,920 --> 01:22:00,322
+AUDIENCE: It's about 4 o'clock.
+
+1343
+01:22:00,322 --> 01:22:01,030
+RUSS TEDRAKE: OK.
+
+1344
+01:22:01,030 --> 01:22:02,280
+Thank you for telling me that.
+
+1345
+01:22:02,280 --> 01:22:03,460
+I thought I had time.
+
+1346
+01:22:03,460 --> 01:22:05,225
+Nice.
+
+1347
+01:22:05,225 --> 01:22:06,658
+AUDIENCE: Is the S the same?
+
+1348
+01:22:06,658 --> 01:22:08,200
+RUSS TEDRAKE: This
+S is the same too.
+
+1349
+01:22:08,200 --> 01:22:08,950
+Oh, sorry, sorry.
+
+1350
+01:22:08,950 --> 01:22:09,820
+Good.
+
+1351
+01:22:09,820 --> 01:22:14,740
+The S I wrote here
+is the same, OK.
+
+1352
+01:22:14,740 --> 01:22:17,500
+That is the same S that you
+get from the Riccati equation,
+
+1353
+01:22:17,500 --> 01:22:21,790
+but the total cost
+is bigger in the--
+
+1354
+01:22:21,790 --> 01:22:24,973
+so the policy is the same, but--
+
+1355
+01:22:24,973 --> 01:22:26,390
+so how much time
+do I really have?
+
+1356
+01:22:26,390 --> 01:22:27,870
+Do I have negative
+time already, or am I--
+
+1357
+01:22:27,870 --> 01:22:28,907
+AUDIENCE: Yeah, kind of.
+
+1358
+01:22:28,907 --> 01:22:29,740
+RUSS TEDRAKE: Sorry.
+
+1359
+01:22:29,740 --> 01:22:31,900
+OK.
+
+1360
+01:22:31,900 --> 01:22:33,520
+But J of n--
+
+1361
+01:22:33,520 --> 01:22:35,460
+I thought it was
+just very exciting--
+
+1362
+01:22:41,020 --> 01:22:47,995
+is this plus some expected
+value of the noise.
+
+1363
+01:22:56,590 --> 01:23:00,430
+I was going to keep going
+for a long time, probably.
+
+1364
+01:23:00,430 --> 01:23:01,420
+OK.
+
+1365
+01:23:01,420 --> 01:23:04,070
+So it's the same S
+that you had before,
+
+1366
+01:23:04,070 --> 01:23:08,290
+but the cost to go that
+you get is actually higher,
+
+1367
+01:23:08,290 --> 01:23:10,450
+in a way that you might
+expect with-- it actually
+
+1368
+01:23:10,450 --> 01:23:13,030
+depends on the cost on the
+other S. And so the S of n
+
+1369
+01:23:13,030 --> 01:23:14,950
+comes from the deterministic
+Riccati equation,
+
+1370
+01:23:14,950 --> 01:23:18,980
+but the cost to go gets bigger.
+
+1371
+01:23:18,980 --> 01:23:20,023
+Yeah?
+
+1372
+01:23:20,023 --> 01:23:21,940
+So that's one of the
+most surprising, I think,
+
+1373
+01:23:21,940 --> 01:23:25,330
+results from stochastic optimal
+control, is that in one case,
+
+1374
+01:23:25,330 --> 01:23:28,510
+it tells you it's OK to do
+deterministic optimal control,
+
+1375
+01:23:28,510 --> 01:23:29,860
+yeah.
+
+1376
+01:23:29,860 --> 01:23:31,180
+In most cases, it's not OK.
+
+1377
+01:23:31,180 --> 01:23:33,480
+It won't give you
+the same thing.

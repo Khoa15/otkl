@@ -1,0 +1,47 @@
+{
+  "content": "<p>Problem set on an isolated SEPIC converter, an 50 W off-line converter, and a forward converter with an active clamp.</p>\n",
+  "content_type": "resource",
+  "description": "Problem set on an isolated SEPIC converter, an 50 W off-line converter, and a forward converter with an active clamp.",
+  "draft": false,
+  "file": "/courses/6-334-power-electronics-spring-2007/e284d4516feed7a0d623d1a0f634ae51_hw5.pdf",
+  "file_size": 130496,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "5715bb34-b41c-4517-38a4-6b40d2cf0ab9",
+  "resourcetype": "Document",
+  "title": "hw5.pdf",
+  "uid": "e284d451-6fee-d7a0-d623-d1a0f634ae51",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-334-power-electronics-spring-2007"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-334-power-electronics-spring-2007"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

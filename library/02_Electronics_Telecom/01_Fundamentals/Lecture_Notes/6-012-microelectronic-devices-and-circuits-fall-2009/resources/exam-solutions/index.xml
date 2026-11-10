@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exam Solutions on MIT OpenCourseWare</title>
+    <link>/resources/exam-solutions/</link>
+    <description>Recent content in Exam Solutions on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exam-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Answers to Exam 1 - Fall 2009</title>
+      <link>/resources/mit6_012f09_exam1_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_012f09_exam1_sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to an exam on microelectronic devices and circuits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Answers to Exam 1 - Spring 2006</title>
+      <link>/resources/mit6_012f09_exam1_s06_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_012f09_exam1_s06_sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to an exam on microelectronic devices and circuits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Answers to Exam 1 - Spring 2008</title>
+      <link>/resources/mit6_012f09_exam1_s08_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_012f09_exam1_s08_sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to an exam on microelectronic devices and circuits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Answers to Exam 2 - Fall 2009</title>
+      <link>/resources/mit6_012f09_exam2_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_012f09_exam2_sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to an exam on microelectronic devices and circuits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Answers to Exam 2 - Spring 2006</title>
+      <link>/resources/mit6_012f09_exam2_s06_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_012f09_exam2_s06_sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to an exam on microelectronic devices and circuits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Answers to Exam 2 - Spring 2008</title>
+      <link>/resources/mit6_012f09_exam2_s08_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_012f09_exam2_s08_sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to an exam on microelectronic devices and circuits.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

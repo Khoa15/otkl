@@ -1,0 +1,86 @@
+{
+  "title": "COVID-19-Hospitalisierungen in Deutschland",
+  "description": "<p>Im Datensatz \"COVID-19-Hospitalisierungen in Deutschland\" des Robert Koch-Instituts werden täglich aktualisierte Informationen zu Hospitalisierungen im Zusammenhang mit COVID-19 basierend auf den Meldungen nach dem Infektionsschutzgesetz (IfSG) bereitgestellt. Neben tagesaktuellen Fallzahlen und Inzidenzen auf Bundes- und Länderebene enthält der Datensatz auch modellgestützte Schätzungen verzögert gemeldeter Hospitalisierungen mittels Nowcasting. Ziel ist es, die tatsächliche Belastung des Gesundheitssystems durch COVID-19 besser abzubilden, insbesondere durch die Berechnung adjustierter 7-Tage-Hospitalisierungsinzidenzen.</p>",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "language": "deu",
+  "communities": [
+    {
+      "identifier": "robertkochinstitut"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Robert Koch-Institut",
+      "affiliation": "Robert Koch-Institut"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Ullrich, Alexander",
+      "affiliation": "Robert Koch-Institut",
+      "type": "DataManager",
+      "orcid": "0000-0002-4894-6124"
+    },
+    {
+      "name": "an der Heiden, Matthias",
+      "affiliation": "Robert Koch-Institut",
+      "type": "Researcher",
+      "orcid": "0000-0001-5863-4549"
+    },
+    {
+      "name": "Diercke, Michaela",
+      "affiliation": "Robert Koch-Institut",
+      "type": "ProjectManager",
+      "orcid": "0000-0002-4678-1813"
+    },
+    {
+      "name": "Wünsche, Hannes",
+      "affiliation": "Robert Koch-Institut",
+      "type": "DataCurator",
+      "orcid": "0000-0002-8837-0326"
+    }
+  ],
+  "keywords": [
+    "Hospitalization",
+    "Krankenhauseinweisung",
+    "Vorhersage",
+    "Forecasting",
+    "COVID-19",
+    "SARS-CoV-2",
+    "Infektionen",
+    "Deutschland",
+    "Infections",
+    "Germany",
+    "Open Data",
+    "RKI",
+    "Gesundheitsberichterstattung",
+    "Epidemiologie",
+    "Public health surveillance",
+    "Epidemiology"
+  ],
+  "subjects": [],
+  "publication_date": "2026-11-08",
+  "version": "2026-11-08",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/robert-koch-institut/COVID-19-Hospitalisierungen_in_Deutschland",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://robert-koch-institut.github.io/COVID-19-Hospitalisierungen_in_Deutschland",
+      "relation": "isDescribedBy",
+      "resource_type": "other"
+    }
+  ],
+  "dates": [
+    {
+      "start": "2026-11-08T07:15:14+01:00",
+      "end": "2026-11-08T07:15:14+01:00",
+      "type": "Created",
+      "description": "Date when the published data was created"
+    }
+  ]
+}

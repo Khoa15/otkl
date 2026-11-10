@@ -1,0 +1,16 @@
+
+{
+  "content": "<p>Each of the quizzes was administered during a 1.5-hour class session.</p>\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nEXAMS\n</th>\n\n<th>\n\nSOLUTIONS\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\n<a href=\"../../resources/mit6_685f13_quiz01/index.html\">Quiz 1 (PDF)</a>\n</td>\n\n<td>\n\n<a href=\"../../resources/mit6_685f13_quiz01ans/index.html\">Solutions to quiz 1 (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n<a href=\"../../resources/mit6_685f13_quiz02/index.html\">Quiz 2 (PDF)</a>\n</td>\n\n<td>\n\n<a href=\"../../resources/mit6_685f13_quiz02ans/index.html\">Solutions to quiz 2 (PDF)</a>\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section provides the two course quizzes and solutions.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Exams",
+  "uid": "cb43f394-88f7-22fc-3c65-612ee72731f0"
+}
+

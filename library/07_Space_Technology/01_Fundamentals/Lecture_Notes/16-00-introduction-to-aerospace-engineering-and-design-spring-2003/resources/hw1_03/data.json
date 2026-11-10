@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>Problem set on aerospace engineering and design.</p>\n",
+  "content_type": "resource",
+  "description": "Problem set on aerospace engineering and design.",
+  "draft": false,
+  "file": "/courses/16-00-introduction-to-aerospace-engineering-and-design-spring-2003/18de3af160e63fdcbb0c1eb34194e0c4_HW1_03.pdf",
+  "file_size": 114663,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "284b22d1-58c0-cd0a-a451-a98fd32b4ade",
+  "resourcetype": "Document",
+  "title": "Problem Set #1",
+  "uid": "18de3af1-60e6-3fdc-bb0c-1eb34194e0c4",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "16-00-introduction-to-aerospace-engineering-and-design-spring-2003"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "16-00-introduction-to-aerospace-engineering-and-design-spring-2003"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

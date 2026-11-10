@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laboratory Assignments on MIT OpenCourseWare</title>
+    <link>/resources/laboratory-assignments/</link>
+    <description>Recent content in Laboratory Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/laboratory-assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>lab1a.pdf</title>
+      <link>/resources/lab1a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab1a/data.json</guid>
+      <description>&lt;p&gt;Lab assignment on specifying a mathematical model for physical system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lab1b.pdf</title>
+      <link>/resources/lab1b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab1b/data.json</guid>
+      <description>&lt;p&gt;Lab assignment on the design of a velocity control loop.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lab1c.pdf</title>
+      <link>/resources/lab1c/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab1c/data.json</guid>
+      <description>&lt;p&gt;Lab assignment on the design of a position control loop.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lab1d.pdf</title>
+      <link>/resources/lab1d/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab1d/data.json</guid>
+      <description>&lt;p&gt;Lab assignment on the design of a position control loop.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Labs</title>
+      <link>/pages/labs/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/labs/data.json</guid>
+      <description>&lt;h3 id=&#34;lab-1-motor-lab&#34;&gt;Lab 1: Motor Lab&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Prelab 1A (&lt;a href=&#34;../../resources/prelab_1a/index.html&#34;&gt;PDF&lt;/a&gt;), Lab 1A (&lt;a href=&#34;../../resources/lab1a/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Prelab 1B (&lt;a href=&#34;../../resources/prelab_1b/index.html&#34;&gt;PDF&lt;/a&gt;), Lab 1B (&lt;a href=&#34;../../resources/lab1b/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Prelab 1C (&lt;a href=&#34;../../resources/prelab_1c/index.html&#34;&gt;PDF&lt;/a&gt;), Lab 1C (&lt;a href=&#34;../../resources/lab1c/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Prelab 1D (&lt;a href=&#34;../../resources/prelab_1d/index.html&#34;&gt;PDF&lt;/a&gt;), Lab 1D (&lt;a href=&#34;../../resources/lab1d/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Motor Lab Take-Home Quiz (&lt;a href=&#34;../../resources/motor_lab/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;lab-2-design-project&#34;&gt;Lab 2: Design Project&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;There are three options for the design project. Here are the individual lab handouts.&lt;/p&gt;&#xA;&lt;p&gt;Phase Locked Loop (&lt;a href=&#34;../../resources/phaselockpage/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Thermal-Control System (&lt;a href=&#34;../../resources/thermal_page/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Magnetic Levitator (&lt;a href=&#34;../../resources/maglev/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>maglev.pdf</title>
+      <link>/resources/maglev/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/maglev/data.json</guid>
+      <description>&lt;p&gt;Lab assignment on building and improving a small magnetic levitation system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>motor_lab.pdf</title>
+      <link>/resources/motor_lab/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/motor_lab/data.json</guid>
+      <description>&lt;p&gt;Take-home quiz on the motor lab.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>phaselockpage.pdf</title>
+      <link>/resources/phaselockpage/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/phaselockpage/data.json</guid>
+      <description>&lt;p&gt;Lab assignment on phase lock loop operation using the CMOS 4046 integrated circuit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>prelab_1a.pdf</title>
+      <link>/resources/prelab_1a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prelab_1a/data.json</guid>
+      <description>&lt;p&gt;Prelab exercises for a lab on specifying a mathematical model for physical system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>prelab_1b.pdf</title>
+      <link>/resources/prelab_1b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prelab_1b/data.json</guid>
+      <description>&lt;p&gt;Prelab exercises for a lab on the design of a velocity control loop.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>prelab_1c.pdf</title>
+      <link>/resources/prelab_1c/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prelab_1c/data.json</guid>
+      <description>&lt;p&gt;Prelab exercises for a lab on the design of a position control loop.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>prelab_1d.pdf</title>
+      <link>/resources/prelab_1d/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prelab_1d/data.json</guid>
+      <description>&lt;p&gt;Prelab exercises for a lab on the design of a position control loop.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>thermal_page.pdf</title>
+      <link>/resources/thermal_page/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/thermal_page/data.json</guid>
+      <description>&lt;p&gt;Lab assignment to evaluate the dynamics of a temperature control system and design a compensator for it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

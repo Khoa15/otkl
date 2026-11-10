@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/f088e466f64ba55ee2731afc8e4760e2_1_10.jpg",
+  "file_size": 5736,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from ‘Introduction to Linear Algebra’ by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "The Four Fundamental Subspaces",
+  "parent_type": "CourseSection",
+  "parent_uid": "0050fe07-f47a-b375-ac0f-3abe492f8ae1",
+  "resourcetype": "Image",
+  "title": "1_10.jpg",
+  "uid": "f088e466-f64b-a55e-e273-1afc8e4760e2",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

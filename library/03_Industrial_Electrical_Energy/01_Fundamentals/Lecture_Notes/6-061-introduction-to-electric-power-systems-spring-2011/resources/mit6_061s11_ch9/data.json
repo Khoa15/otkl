@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains information related to synchronous machine and winding models.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information related to synchronous machine and winding models.",
+  "draft": false,
+  "file": "/courses/6-061-introduction-to-electric-power-systems-spring-2011/f99554aa923748fa210a30a874ee5fc8_MIT6_061S11_ch9.pdf",
+  "file_size": 534225,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Readings"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Readings",
+  "parent_type": "CourseSection",
+  "parent_uid": "89512ca2-aaea-2fbd-2fb1-f0c11a2b49d2",
+  "resourcetype": "Document",
+  "title": "MIT6_061S11_ch9.pdf",
+  "uid": "f99554aa-9237-48fa-210a-30a874ee5fc8"
+}

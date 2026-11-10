@@ -1,0 +1,6109 @@
+1
+00:00:00,000 --> 00:00:02,520
+The following content is
+provided under a Creative
+
+2
+00:00:02,520 --> 00:00:03,970
+Commons license.
+
+3
+00:00:03,970 --> 00:00:06,330
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:06,330 --> 00:00:10,660
+continue to offer high-quality
+educational resources for free.
+
+5
+00:00:10,660 --> 00:00:13,320
+To make a donation or
+view additional materials
+
+6
+00:00:13,320 --> 00:00:17,190
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:17,190 --> 00:00:18,370
+at ocw.mit.edu.
+
+8
+00:00:21,252 --> 00:00:21,960
+RUSS TEDRAKE: OK.
+
+9
+00:00:21,960 --> 00:00:24,990
+Welcome to
+Underactuated Robotics.
+
+10
+00:00:24,990 --> 00:00:26,620
+I'm glad you're all here.
+
+11
+00:00:26,620 --> 00:00:28,500
+Can I get a quick show
+of hands, actually,
+
+12
+00:00:28,500 --> 00:00:33,840
+who considers themselves
+hardcore robotics types?
+
+13
+00:00:33,840 --> 00:00:34,510
+Don't be shy.
+
+14
+00:00:34,510 --> 00:00:35,960
+It's a good thing to do.
+
+15
+00:00:35,960 --> 00:00:38,670
+Who's here to see what
+this is all about?
+
+16
+00:00:41,260 --> 00:00:41,760
+OK.
+
+17
+00:00:41,760 --> 00:00:43,860
+Good, good.
+
+18
+00:00:43,860 --> 00:00:46,770
+So I've thought of
+course twice before.
+
+19
+00:00:46,770 --> 00:00:50,400
+This is the first time that
+it's a TQE course for Area 2.
+
+20
+00:00:50,400 --> 00:00:54,360
+So I'm hoping to excite a
+slightly more general audience.
+
+21
+00:00:54,360 --> 00:00:56,880
+And your
+responsibility, then, is
+
+22
+00:00:56,880 --> 00:00:58,830
+to ask me questions
+if I say things
+
+23
+00:00:58,830 --> 00:01:01,140
+that if I assume prior
+knowledge that people
+
+24
+00:01:01,140 --> 00:01:06,450
+don't have and make sure that
+everything is coming across.
+
+25
+00:01:06,450 --> 00:01:15,000
+The only real prereqs that
+I assume for the course
+
+26
+00:01:15,000 --> 00:01:19,200
+are basically some comfort
+with differential equations
+
+27
+00:01:19,200 --> 00:01:21,600
+and Ordinary Differential
+Equations, ODEs.
+
+28
+00:01:24,720 --> 00:01:27,315
+I assume some comfort
+with linear algebra.
+
+29
+00:01:35,790 --> 00:01:38,310
+And we use a lot of MATLAB, so
+it helps if you know MATLAB.
+
+30
+00:01:44,550 --> 00:01:47,730
+What I don't assume
+is that you're--
+
+31
+00:01:47,730 --> 00:01:50,170
+I mean, it's great if you
+have taken previous robotics
+
+32
+00:01:50,170 --> 00:01:50,670
+courses.
+
+33
+00:01:50,670 --> 00:01:52,390
+That's certainly a good thing.
+
+34
+00:01:52,390 --> 00:01:54,258
+But I'm not going
+to assume everybody
+
+35
+00:01:54,258 --> 00:01:55,800
+knows how to crank
+out the kinematics
+
+36
+00:01:55,800 --> 00:01:59,490
+or dynamics of rigid
+body manipulators
+
+37
+00:01:59,490 --> 00:02:00,880
+and things like that.
+
+38
+00:02:00,880 --> 00:02:03,342
+So hopefully, if you've
+got a background in here,
+
+39
+00:02:03,342 --> 00:02:04,800
+then everything
+else should follow.
+
+40
+00:02:04,800 --> 00:02:07,740
+And the course has got
+a set of course notes
+
+41
+00:02:07,740 --> 00:02:10,410
+that will be published
+on the website
+
+42
+00:02:10,410 --> 00:02:11,820
+just after the lectures.
+
+43
+00:02:11,820 --> 00:02:14,565
+And they should be
+pretty much contain
+
+44
+00:02:14,565 --> 00:02:16,440
+what you need to know,
+or at least have links
+
+45
+00:02:16,440 --> 00:02:18,730
+to the things you need to know.
+
+46
+00:02:18,730 --> 00:02:19,230
+OK.
+
+47
+00:02:19,230 --> 00:02:24,750
+So today is the warm-up.
+
+48
+00:02:29,928 --> 00:02:31,470
+I want to start with
+some motivation.
+
+49
+00:02:31,470 --> 00:02:33,120
+I want to make sure
+everybody leaves
+
+50
+00:02:33,120 --> 00:02:36,510
+understanding the title of
+the course, if nothing else.
+
+51
+00:02:36,510 --> 00:02:38,520
+So I want to tell you
+some motivation why
+
+52
+00:02:38,520 --> 00:02:41,610
+I think underactuated
+robotics is such
+
+53
+00:02:41,610 --> 00:02:44,160
+an important topic in robotics.
+
+54
+00:02:44,160 --> 00:02:50,010
+I'm going to give you some
+basic definitions, including
+
+55
+00:02:50,010 --> 00:02:51,695
+the definition of underactuated.
+
+56
+00:02:56,153 --> 00:02:57,570
+I'm going to go
+through an example
+
+57
+00:02:57,570 --> 00:03:02,250
+with working out the equations
+of motion for a simple system
+
+58
+00:03:02,250 --> 00:03:05,850
+to a review of dynamics.
+
+59
+00:03:16,230 --> 00:03:18,540
+And then I'm going
+to tell you quickly,
+
+60
+00:03:18,540 --> 00:03:20,752
+in the last minutes,
+everything else you're
+
+61
+00:03:20,752 --> 00:03:21,960
+going to learn in the course.
+
+62
+00:03:29,095 --> 00:03:31,470
+And then we'll go through that
+more slowly in the next 25
+
+63
+00:03:31,470 --> 00:03:33,940
+lectures.
+
+64
+00:03:33,940 --> 00:03:34,440
+OK.
+
+65
+00:03:34,440 --> 00:03:36,630
+So let me actually start
+with some motivation.
+
+66
+00:03:36,630 --> 00:03:38,970
+That involves
+plugging in this guy.
+
+67
+00:03:41,860 --> 00:03:42,400
+OK.
+
+68
+00:03:42,400 --> 00:03:45,100
+How many people have
+seen ASIMO before?
+
+69
+00:03:45,100 --> 00:03:46,930
+Good.
+
+70
+00:03:46,930 --> 00:03:47,800
+OK.
+
+71
+00:03:47,800 --> 00:03:51,340
+So ASIMO-- let's watch the
+little promotional video
+
+72
+00:03:51,340 --> 00:03:52,240
+for Honda's ASIMO.
+
+73
+00:03:55,680 --> 00:03:56,910
+This is a few years old now.
+
+74
+00:03:56,910 --> 00:04:00,960
+But ASIMO absolutely
+is the pinnacle
+
+75
+00:04:00,960 --> 00:04:06,090
+of robotics engineering over the
+last 20 years, I'd say, even.
+
+76
+00:04:06,090 --> 00:04:09,690
+So Honda, turns out,
+without telling anybody,
+
+77
+00:04:09,690 --> 00:04:13,800
+was working on walking
+robots from the early '80s
+
+78
+00:04:13,800 --> 00:04:17,117
+till they announced
+to the world in 1997
+
+79
+00:04:17,117 --> 00:04:19,200
+that they'd started building
+these walking robots.
+
+80
+00:04:19,200 --> 00:04:20,825
+And they started
+putting on these shows
+
+81
+00:04:20,825 --> 00:04:23,920
+where they'd kick soccer
+balls and walk up stairs.
+
+82
+00:04:23,920 --> 00:04:26,470
+It's absolutely,
+absolutely amazing.
+
+83
+00:04:26,470 --> 00:04:27,460
+I mean, this is it.
+
+84
+00:04:27,460 --> 00:04:29,490
+This is what we've been
+waiting for in robotics
+
+85
+00:04:29,490 --> 00:04:30,610
+for a very long time.
+
+86
+00:04:30,610 --> 00:04:33,570
+This is a humanoid
+robot absolutely doing
+
+87
+00:04:33,570 --> 00:04:34,560
+fantastic things.
+
+88
+00:04:34,560 --> 00:04:36,630
+It's a marvel of engineering.
+
+89
+00:04:36,630 --> 00:04:41,490
+The precision, the amount of
+computation going on in there--
+
+90
+00:04:41,490 --> 00:04:43,660
+it's something we've been
+waiting a long time for.
+
+91
+00:04:43,660 --> 00:04:44,160
+OK.
+
+92
+00:04:44,160 --> 00:04:46,410
+But let's watch it again and
+be a little more critical
+
+93
+00:04:46,410 --> 00:04:47,590
+this time.
+
+94
+00:04:47,590 --> 00:04:50,970
+So what's wrong with
+ASIMO when it's walking?
+
+95
+00:04:50,970 --> 00:04:52,530
+OK, it looks a little stiff.
+
+96
+00:04:52,530 --> 00:04:54,720
+It looks like a guy
+in a space suit.
+
+97
+00:04:54,720 --> 00:04:56,910
+If you look carefully,
+you'll notice
+
+98
+00:04:56,910 --> 00:05:01,240
+that it's always got one
+foot flat on the ground.
+
+99
+00:05:01,240 --> 00:05:03,060
+That doesn't look quite right.
+
+100
+00:05:03,060 --> 00:05:06,240
+OK, well, we'll
+forgive the goalie.
+
+101
+00:05:06,240 --> 00:05:07,920
+He's work in progress, I guess.
+
+102
+00:05:07,920 --> 00:05:11,970
+But the whole thing
+just looks a little bit
+
+103
+00:05:11,970 --> 00:05:14,010
+like a machine
+that's, let me say,
+
+104
+00:05:14,010 --> 00:05:16,290
+not comfortable with
+its own dynamics.
+
+105
+00:05:16,290 --> 00:05:18,220
+It's taking a very
+conservative approach.
+
+106
+00:05:18,220 --> 00:05:20,550
+The fact that it can go
+upstairs is really remarkable.
+
+107
+00:05:20,550 --> 00:05:22,675
+It does have to know exactly
+where those stairs are
+
+108
+00:05:22,675 --> 00:05:24,330
+and the geometry of the stairs.
+
+109
+00:05:24,330 --> 00:05:26,970
+But you see, it's taking a
+very, very conservative approach
+
+110
+00:05:26,970 --> 00:05:27,510
+to walking.
+
+111
+00:05:27,510 --> 00:05:29,730
+It's always walking
+with its knees bent,
+
+112
+00:05:29,730 --> 00:05:34,620
+its feet flat on the ground,
+and has this rigid astronaut
+
+113
+00:05:34,620 --> 00:05:35,890
+walk to it.
+
+114
+00:05:35,890 --> 00:05:36,390
+OK.
+
+115
+00:05:36,390 --> 00:05:38,970
+Why is that bad?
+
+116
+00:05:38,970 --> 00:05:43,110
+It's bad because it requires
+a lot of energy, first of all.
+
+117
+00:05:43,110 --> 00:05:46,440
+So just imagine walking
+around with your knees bent
+
+118
+00:05:46,440 --> 00:05:47,310
+all the time.
+
+119
+00:05:47,310 --> 00:05:50,250
+It turns out, ASIMO uses
+20 times as much energy
+
+120
+00:05:50,250 --> 00:05:52,738
+if you scale out
+mass and everything
+
+121
+00:05:52,738 --> 00:05:54,030
+as a human does when it walks--
+
+122
+00:05:54,030 --> 00:05:54,918
+20 times.
+
+123
+00:05:54,918 --> 00:05:56,460
+And that makes a
+practical difference
+
+124
+00:05:56,460 --> 00:05:59,190
+because the batteries
+it's got in its belly
+
+125
+00:05:59,190 --> 00:06:03,510
+only last 26 minutes, and
+it's a lot of batteries.
+
+126
+00:06:03,510 --> 00:06:05,070
+It matters because
+it's walking--
+
+127
+00:06:05,070 --> 00:06:07,320
+because of this very
+conservative approach
+
+128
+00:06:07,320 --> 00:06:10,590
+to walking, it's walking a lot
+slower than you or I would.
+
+129
+00:06:10,590 --> 00:06:13,650
+They actually have top
+running speeds of ASIMO.
+
+130
+00:06:13,650 --> 00:06:16,890
+They're six kilometers an hour.
+
+131
+00:06:16,890 --> 00:06:19,620
+But that's a little
+bit below where
+
+132
+00:06:19,620 --> 00:06:21,750
+you are I would sort of
+comfortably transition
+
+133
+00:06:21,750 --> 00:06:23,850
+from walking to running
+if we were just going down
+
+134
+00:06:23,850 --> 00:06:24,390
+the street.
+
+135
+00:06:24,390 --> 00:06:28,650
+So it's considerably slower
+than a human when it runs.
+
+136
+00:06:28,650 --> 00:06:31,140
+And although there's some
+really amazing videos
+
+137
+00:06:31,140 --> 00:06:33,330
+of walking on stairs
+and things like that,
+
+138
+00:06:33,330 --> 00:06:35,070
+the videos you won't
+see are the ones
+
+139
+00:06:35,070 --> 00:06:37,590
+of it walking on terrain
+it doesn't know everything
+
+140
+00:06:37,590 --> 00:06:39,180
+about or even uneven terrain.
+
+141
+00:06:39,180 --> 00:06:42,930
+It doesn't do even
+train particularly well.
+
+142
+00:06:42,930 --> 00:06:44,130
+OK.
+
+143
+00:06:44,130 --> 00:06:48,030
+So in some ways, ASIMO is
+the very natural progression
+
+144
+00:06:48,030 --> 00:06:50,070
+of what robotic arm
+technology, which
+
+145
+00:06:50,070 --> 00:06:54,580
+started in factory room floors,
+matured into a walking robot.
+
+146
+00:06:54,580 --> 00:06:55,080
+OK.
+
+147
+00:06:55,080 --> 00:06:56,915
+It's a very high-gain--
+
+148
+00:06:56,915 --> 00:06:58,540
+we'll talk a lot
+about what that means.
+
+149
+00:06:58,540 --> 00:07:01,530
+It's a very high-gain system.
+
+150
+00:07:01,530 --> 00:07:04,410
+It's using a lot of
+energy and feedback
+
+151
+00:07:04,410 --> 00:07:07,320
+in order to try to rigidly
+follow some trajectory
+
+152
+00:07:07,320 --> 00:07:09,570
+that it's thought a lot about.
+
+153
+00:07:09,570 --> 00:07:12,218
+And it's doing that in a very
+conservative regime-- feet
+
+154
+00:07:12,218 --> 00:07:13,510
+flat on the ground, knees bent.
+
+155
+00:07:16,332 --> 00:07:18,540
+So there's a different
+approach to walking out there.
+
+156
+00:07:21,330 --> 00:07:23,760
+This one was built by Cornell.
+
+157
+00:07:23,760 --> 00:07:26,010
+It's called a passive
+dynamic walker.
+
+158
+00:07:26,010 --> 00:07:27,960
+It's almost not a
+robot whatsoever.
+
+159
+00:07:27,960 --> 00:07:31,290
+It's a bunch of sticks and
+hinges with ball bearings
+
+160
+00:07:31,290 --> 00:07:32,550
+at the joints.
+
+161
+00:07:32,550 --> 00:07:35,400
+But if you put this thing
+on a small ramp going down
+
+162
+00:07:35,400 --> 00:07:40,700
+and give it a little
+push, look what it can do.
+
+163
+00:07:40,700 --> 00:07:42,640
+That's just falling
+down a ramp--
+
+164
+00:07:42,640 --> 00:07:47,410
+completely passive machine
+powered only by gravity.
+
+165
+00:07:47,410 --> 00:07:51,500
+So these passive walkers
+are a fantastic demo.
+
+166
+00:07:51,500 --> 00:07:54,160
+I mean, it's unbelievable
+that they can
+
+167
+00:07:54,160 --> 00:07:55,440
+build these things that walk.
+
+168
+00:07:55,440 --> 00:07:56,680
+It's a glorified slinky.
+
+169
+00:07:56,680 --> 00:07:59,290
+But it's walking like
+you and me, right?
+
+170
+00:07:59,290 --> 00:08:00,230
+Probably more so.
+
+171
+00:08:00,230 --> 00:08:02,855
+Most people would say that looks
+a little bit more like the way
+
+172
+00:08:02,855 --> 00:08:04,053
+we walk than ASIMO does.
+
+173
+00:08:04,053 --> 00:08:05,470
+But what's really
+amazing about it
+
+174
+00:08:05,470 --> 00:08:10,330
+is it says that this really
+conservative, high-gain, feet
+
+175
+00:08:10,330 --> 00:08:12,580
+flat on the ground
+approach to walking,
+
+176
+00:08:12,580 --> 00:08:15,280
+it's certainly not
+a necessary one.
+
+177
+00:08:15,280 --> 00:08:16,780
+And it suggests
+that if you really
+
+178
+00:08:16,780 --> 00:08:19,960
+want to do some energy-efficient
+walking, maybe even
+
+179
+00:08:19,960 --> 00:08:23,800
+more robust walking,
+then what you need to do
+
+180
+00:08:23,800 --> 00:08:26,950
+is not cancel out your dynamics
+with high-gain feedback
+
+181
+00:08:26,950 --> 00:08:28,210
+and follow some trajectory.
+
+182
+00:08:28,210 --> 00:08:31,607
+You need to think a lot about
+the dynamics of your robot.
+
+183
+00:08:31,607 --> 00:08:34,190
+So this is just the dynamics of
+the robot doing all the work--
+
+184
+00:08:34,190 --> 00:08:38,419
+no control system, no
+computers, nothing.
+
+185
+00:08:38,419 --> 00:08:38,919
+OK.
+
+186
+00:08:38,919 --> 00:08:41,440
+So that's a story
+in talking about why
+
+187
+00:08:41,440 --> 00:08:43,080
+maybe dynamics matter a lot.
+
+188
+00:08:43,080 --> 00:08:45,730
+And we should really start
+by understanding the dynamics
+
+189
+00:08:45,730 --> 00:08:49,360
+before we do a whole bunch
+of robotic arm control.
+
+190
+00:08:49,360 --> 00:08:51,400
+It's actually true in a
+lot of different fields.
+
+191
+00:08:51,400 --> 00:08:57,040
+My other favorite story
+these days is flying things.
+
+192
+00:08:57,040 --> 00:09:00,820
+So if you look at
+state-of-the-art military
+
+193
+00:09:00,820 --> 00:09:06,370
+aircraft, this is an F-14
+landing on an aircraft carrier.
+
+194
+00:09:06,370 --> 00:09:09,670
+Even in the most highly
+engineered control systems
+
+195
+00:09:09,670 --> 00:09:14,200
+we have, it tends to be that
+aircraft stay in a very, very
+
+196
+00:09:14,200 --> 00:09:16,128
+conservative flight envelope.
+
+197
+00:09:16,128 --> 00:09:17,920
+The same way that ASIMO
+stays with its feet
+
+198
+00:09:17,920 --> 00:09:22,150
+flat on the ground and does
+this really stiff control,
+
+199
+00:09:22,150 --> 00:09:25,180
+the airplane stays at a very low
+angle relative to the oncoming
+
+200
+00:09:25,180 --> 00:09:28,000
+flow and uses high-gain control
+in order to stabilize it.
+
+201
+00:09:28,000 --> 00:09:30,610
+So fighter jets-- you might
+know, the patent fighter
+
+202
+00:09:30,610 --> 00:09:33,820
+jets tend to be passively
+unstable, and control systems
+
+203
+00:09:33,820 --> 00:09:36,370
+are doing amazing things
+to make these guys work.
+
+204
+00:09:36,370 --> 00:09:39,130
+But they're not doing
+some basic things
+
+205
+00:09:39,130 --> 00:09:42,070
+that you can see every time
+you look out your window.
+
+206
+00:09:42,070 --> 00:09:46,582
+So here's a cardinal doing
+sort of the same thing--
+
+207
+00:09:46,582 --> 00:09:48,790
+landing on an aircraft
+carrier, landing on a branch--
+
+208
+00:09:48,790 --> 00:09:50,350
+about the same thing.
+
+209
+00:09:50,350 --> 00:09:54,010
+But unlike the
+airplane, the cardinal's
+
+210
+00:09:54,010 --> 00:09:57,670
+got his wings spread
+out way out to here.
+
+211
+00:09:57,670 --> 00:10:02,680
+And what that means, if you know
+anything about aerodynamics,
+
+212
+00:10:02,680 --> 00:10:05,950
+if you take a wing and the
+airflow is moving this way,
+
+213
+00:10:05,950 --> 00:10:10,150
+and you have it at a low angle
+relative to the oncoming flow,
+
+214
+00:10:10,150 --> 00:10:14,140
+then you have a very
+simple attached flow
+
+215
+00:10:14,140 --> 00:10:16,670
+on the back of the wings.
+
+216
+00:10:16,670 --> 00:10:20,950
+And it turns out that linear
+control and linear models
+
+217
+00:10:20,950 --> 00:10:23,770
+of the dynamics work
+pretty well in that regime.
+
+218
+00:10:23,770 --> 00:10:26,020
+If you go up to a
+small angle of attack,
+
+219
+00:10:26,020 --> 00:10:28,840
+like the fighter jet's
+doing, then the air
+
+220
+00:10:28,840 --> 00:10:30,100
+can bend around the wing.
+
+221
+00:10:30,100 --> 00:10:32,800
+Everything still stays
+attached, they say, to the wing.
+
+222
+00:10:32,800 --> 00:10:36,830
+And you can still do
+linear control ideas.
+
+223
+00:10:36,830 --> 00:10:37,330
+OK.
+
+224
+00:10:37,330 --> 00:10:39,160
+But if you go up and
+stall your wings out--
+
+225
+00:10:39,160 --> 00:10:40,480
+that's what's happening here.
+
+226
+00:10:40,480 --> 00:10:42,610
+If you go up to a
+higher angle of attack,
+
+227
+00:10:42,610 --> 00:10:47,170
+the air can no longer bend
+around the wing fast enough.
+
+228
+00:10:47,170 --> 00:10:48,650
+Something more dramatic happens.
+
+229
+00:10:48,650 --> 00:10:50,692
+You get a big vortex
+in this picture.
+
+230
+00:10:50,692 --> 00:10:52,900
+And what happens is the flow
+gets much more unsteady.
+
+231
+00:10:52,900 --> 00:10:54,160
+It starts shedding vortices.
+
+232
+00:10:54,160 --> 00:10:57,280
+And you start
+stalling your wing.
+
+233
+00:10:57,280 --> 00:10:59,733
+Now in these regimes
+so far, the dynamics
+
+234
+00:10:59,733 --> 00:11:01,150
+have proven very,
+very complicated
+
+235
+00:11:01,150 --> 00:11:04,870
+to even understand, even
+model, and considerably harder
+
+236
+00:11:04,870 --> 00:11:07,270
+to control.
+
+237
+00:11:07,270 --> 00:11:09,280
+The birds doing it
+every day of the week.
+
+238
+00:11:09,280 --> 00:11:10,970
+Somehow, we don't
+know exactly how,
+
+239
+00:11:10,970 --> 00:11:12,370
+but he does it all the time.
+
+240
+00:11:12,370 --> 00:11:14,050
+And he does it with
+gusty environments.
+
+241
+00:11:14,050 --> 00:11:15,850
+He does it when the
+branch is moving.
+
+242
+00:11:15,850 --> 00:11:17,750
+He probably misses
+every once in a while.
+
+243
+00:11:17,750 --> 00:11:21,190
+But he's doing a
+pretty darn good job.
+
+244
+00:11:21,190 --> 00:11:23,380
+There's a reason why
+he does it too, right?
+
+245
+00:11:23,380 --> 00:11:25,670
+It's not just to show
+off or something.
+
+246
+00:11:25,670 --> 00:11:29,230
+But if you are willing to go
+into this more complicated
+
+247
+00:11:29,230 --> 00:11:31,550
+flight regime by
+stalling your wings,
+
+248
+00:11:31,550 --> 00:11:33,690
+and if your goal is
+stopping, then, actually, you
+
+249
+00:11:33,690 --> 00:11:36,190
+get a huge benefit by going up
+to that high angle of attack.
+
+250
+00:11:36,190 --> 00:11:38,107
+Not only do you get more
+drag just because you
+
+251
+00:11:38,107 --> 00:11:40,510
+have more surface area
+exposed to the flow,
+
+252
+00:11:40,510 --> 00:11:42,220
+but when you start
+getting separation
+
+253
+00:11:42,220 --> 00:11:43,840
+on the back of
+your wing you leave
+
+254
+00:11:43,840 --> 00:11:47,020
+a pocket of low pressure
+behind the wing.
+
+255
+00:11:47,020 --> 00:11:50,500
+The air can't quite come
+in and fill in the space
+
+256
+00:11:50,500 --> 00:11:51,747
+right behind the wing.
+
+257
+00:11:51,747 --> 00:11:53,080
+And that acts like an air brake.
+
+258
+00:11:53,080 --> 00:11:54,430
+It's called pressure drag.
+
+259
+00:11:54,430 --> 00:11:56,290
+So the birds-- the
+planes are coming
+
+260
+00:11:56,290 --> 00:11:58,030
+into this conservative
+approach in order
+
+261
+00:11:58,030 --> 00:11:59,560
+to maintain control authority.
+
+262
+00:11:59,560 --> 00:12:02,860
+The birds are going [GRUNTS],,
+hitting the air brakes
+
+263
+00:12:02,860 --> 00:12:06,130
+and coming to still somehow
+doing enough control
+
+264
+00:12:06,130 --> 00:12:08,710
+to hit that perch, which is
+kinematically more difficult,
+
+265
+00:12:08,710 --> 00:12:12,740
+I think, than even hitting
+an aircraft carrier.
+
+266
+00:12:12,740 --> 00:12:13,240
+All right.
+
+267
+00:12:13,240 --> 00:12:15,340
+So In my group,
+we've been working
+
+268
+00:12:15,340 --> 00:12:18,020
+on trying to make planes
+do that kind of thing.
+
+269
+00:12:18,020 --> 00:12:20,260
+So this is our airplane
+that comes in and tries
+
+270
+00:12:20,260 --> 00:12:23,650
+to execute a very high
+angle of attack maneuver
+
+271
+00:12:23,650 --> 00:12:26,500
+in order to land on a perch.
+
+272
+00:12:26,500 --> 00:12:29,983
+It's a slow-motion
+shot, slowed down
+
+273
+00:12:29,983 --> 00:12:31,150
+so you can see what happens.
+
+274
+00:12:35,690 --> 00:12:37,690
+And actually, just to
+convince you that the flow
+
+275
+00:12:37,690 --> 00:12:38,400
+is complicated.
+
+276
+00:12:38,400 --> 00:12:40,150
+This isn't our best
+flow of visualization,
+
+277
+00:12:40,150 --> 00:12:42,280
+but it shows you
+what's going on here.
+
+278
+00:12:42,280 --> 00:12:43,660
+The airflow, as
+it comes in, this
+
+279
+00:12:43,660 --> 00:12:45,910
+is now that same plane with--
+
+280
+00:12:45,910 --> 00:12:48,550
+we're emitting smoke from the
+front of the wing, the leading
+
+281
+00:12:48,550 --> 00:12:49,630
+edge of the wing.
+
+282
+00:12:49,630 --> 00:12:52,030
+And it comes in at a
+low angle of attack.
+
+283
+00:12:52,030 --> 00:12:53,657
+And you can see
+the air is mostly--
+
+284
+00:12:53,657 --> 00:12:55,990
+it's actually already stalled
+because it's a flat plate.
+
+285
+00:12:55,990 --> 00:12:58,510
+But the air is on top of
+the wing in the same way I
+
+286
+00:12:58,510 --> 00:13:00,800
+showed you in that picture.
+
+287
+00:13:00,800 --> 00:13:03,397
+And as you go up to a
+high angle of attack,
+
+288
+00:13:03,397 --> 00:13:05,230
+you get this big tip
+vortex that rolls over.
+
+289
+00:13:05,230 --> 00:13:07,066
+Everything gets a
+lot more complicated.
+
+290
+00:13:11,830 --> 00:13:14,350
+So the point I'm trying to make
+with these two examples are
+
+291
+00:13:14,350 --> 00:13:18,250
+first of all, robots
+today are just really,
+
+292
+00:13:18,250 --> 00:13:19,230
+really conservative.
+
+293
+00:13:19,230 --> 00:13:21,245
+Dynamically, they're
+very, very conservative.
+
+294
+00:13:21,245 --> 00:13:22,620
+They're operating
+just a fraction
+
+295
+00:13:22,620 --> 00:13:24,787
+of the level of performance
+that they should already
+
+296
+00:13:24,787 --> 00:13:27,660
+expect given the same
+mechanical design.
+
+297
+00:13:27,660 --> 00:13:29,910
+With the same mechanical
+design, a simple little plane
+
+298
+00:13:29,910 --> 00:13:31,950
+but better control, we
+can start doing things
+
+299
+00:13:31,950 --> 00:13:35,040
+that look more like birds.
+
+300
+00:13:35,040 --> 00:13:38,760
+And the second point that I'm
+going to make more formally
+
+301
+00:13:38,760 --> 00:13:42,390
+in a minute is that the
+underactuated systems,
+
+302
+00:13:42,390 --> 00:13:45,670
+underactuated robotics
+is essentially
+
+303
+00:13:45,670 --> 00:13:49,140
+the art, the science of
+trying to build machines which
+
+304
+00:13:49,140 --> 00:13:51,780
+use their dynamics more
+cleverly instead of trying
+
+305
+00:13:51,780 --> 00:13:55,980
+to build control systems
+which use actuation motor
+
+306
+00:13:55,980 --> 00:13:58,080
+output in order to
+override the dynamics.
+
+307
+00:13:58,080 --> 00:14:01,020
+We're going to do an
+underactuated system that just
+
+308
+00:14:01,020 --> 00:14:02,910
+pushes and pulls the
+natural dynamics,
+
+309
+00:14:02,910 --> 00:14:06,210
+tries to do these more
+exciting dynamic things.
+
+310
+00:14:06,210 --> 00:14:09,770
+As a consequence, we need
+to do smarter control.
+
+311
+00:14:09,770 --> 00:14:11,620
+This is a computer
+science course.
+
+312
+00:14:11,620 --> 00:14:14,620
+So what have I said anything to
+do with computer science yet?
+
+313
+00:14:14,620 --> 00:14:17,400
+I believe that there's new
+techniques from computer
+
+314
+00:14:17,400 --> 00:14:22,020
+science, machine learning,
+motion planning that are
+
+315
+00:14:22,020 --> 00:14:23,190
+basically changing the game.
+
+316
+00:14:23,190 --> 00:14:25,080
+It's allowing us to solve
+some of these control problems
+
+317
+00:14:25,080 --> 00:14:26,413
+that haven't been solved before.
+
+318
+00:14:29,040 --> 00:14:33,390
+Just to throw a few
+more cool examples out--
+
+319
+00:14:33,390 --> 00:14:35,970
+so if more willing to
+do more clever things
+
+320
+00:14:35,970 --> 00:14:38,675
+with our dynamics, then
+there's just countless things
+
+321
+00:14:38,675 --> 00:14:39,300
+that we can do.
+
+322
+00:14:39,300 --> 00:14:42,810
+So if you just care
+about efficiency--
+
+323
+00:14:42,810 --> 00:14:47,370
+this is a wandering albatross.
+
+324
+00:14:47,370 --> 00:14:51,840
+If you just measure the energy
+in some metabolic estimate
+
+325
+00:14:51,840 --> 00:14:55,210
+of the energy it consumes
+versus the distance it travels,
+
+326
+00:14:55,210 --> 00:14:58,577
+then it's about the same as
+a 747, which is actually cool
+
+327
+00:14:58,577 --> 00:15:00,160
+because they're quite
+different sizes.
+
+328
+00:15:00,160 --> 00:15:02,430
+But if you just do some
+dimensional cost of transport,
+
+329
+00:15:02,430 --> 00:15:04,680
+it actually works out to be
+almost the same efficiency
+
+330
+00:15:04,680 --> 00:15:05,820
+as a 747.
+
+331
+00:15:05,820 --> 00:15:08,610
+So maybe we haven't
+gained anything.
+
+332
+00:15:08,610 --> 00:15:11,160
+But it turns out if you
+look more carefully,
+
+333
+00:15:11,160 --> 00:15:14,190
+the albatross uses the
+same amount of energy
+
+334
+00:15:14,190 --> 00:15:16,290
+when it's sitting on the
+beach as it does when
+
+335
+00:15:16,290 --> 00:15:18,490
+it's flying across the ocean.
+
+336
+00:15:18,490 --> 00:15:20,940
+So this guy can
+fly for hours, days
+
+337
+00:15:20,940 --> 00:15:24,780
+without ever flapping its wings.
+
+338
+00:15:24,780 --> 00:15:27,870
+Go across the entire ocean
+that way, into the wind,
+
+339
+00:15:27,870 --> 00:15:29,430
+out of the wind-- you name it--
+
+340
+00:15:29,430 --> 00:15:32,850
+because they're sitting there
+and they're just riding on
+
+341
+00:15:32,850 --> 00:15:36,550
+gradients due to the
+wind over the ocean.
+
+342
+00:15:36,550 --> 00:15:39,240
+So the energetic cost
+this guy's experiencing
+
+343
+00:15:39,240 --> 00:15:41,400
+is just digestion
+and things like that.
+
+344
+00:15:41,400 --> 00:15:43,890
+He's actually not doing hardly
+any mechanical work in order
+
+345
+00:15:43,890 --> 00:15:46,820
+to fly across the ocean.
+
+346
+00:15:46,820 --> 00:15:47,750
+OK.
+
+347
+00:15:47,750 --> 00:15:49,730
+If you care about
+maneuverability,
+
+348
+00:15:49,730 --> 00:15:52,790
+you know, so falcons have
+been recently clocked diving
+
+349
+00:15:52,790 --> 00:15:54,710
+at 240 miles an hour.
+
+350
+00:15:54,710 --> 00:15:57,380
+This one is pulling out of that
+240-mile-an-hour dive to catch
+
+351
+00:15:57,380 --> 00:15:59,270
+a sparrow.
+
+352
+00:15:59,270 --> 00:16:00,380
+That's pretty good.
+
+353
+00:16:00,380 --> 00:16:03,560
+I mean, planes-- in
+terms of sheer speed,
+
+354
+00:16:03,560 --> 00:16:05,910
+planes are going to win
+every day of the week.
+
+355
+00:16:05,910 --> 00:16:09,620
+But if you look at some
+sort of dimensionless aspect
+
+356
+00:16:09,620 --> 00:16:12,200
+of maneuverability,
+then birds are still
+
+357
+00:16:12,200 --> 00:16:14,570
+the masters of the sky.
+
+358
+00:16:14,570 --> 00:16:19,700
+Bats can actually be flying full
+speed this way in two flaps,
+
+359
+00:16:19,700 --> 00:16:23,240
+which turns out to be just
+under half of the wingspan,
+
+360
+00:16:23,240 --> 00:16:26,060
+they can be flying
+full-speed the other way--
+
+361
+00:16:26,060 --> 00:16:27,180
+two to five flaps.
+
+362
+00:16:27,180 --> 00:16:30,410
+This guy's at Brown have
+been recording this.
+
+363
+00:16:30,410 --> 00:16:33,368
+Obviously, bats are actually
+some of the most maneuverable.
+
+364
+00:16:33,368 --> 00:16:35,660
+They can fly at high speeds
+through thick rain forests.
+
+365
+00:16:35,660 --> 00:16:38,390
+They can fly in caves with
+1,000 other bats on top of them.
+
+366
+00:16:38,390 --> 00:16:41,030
+At least, that's what I
+get out of the movies.
+
+367
+00:16:41,030 --> 00:16:44,510
+[LAUGHTER] And they're doing
+all these just incredibly
+
+368
+00:16:44,510 --> 00:16:48,080
+dynamic things in ways that
+our control systems can't even
+
+369
+00:16:48,080 --> 00:16:49,130
+come close to right now.
+
+370
+00:16:52,890 --> 00:16:56,330
+And this is one of my
+favorite videos of all time.
+
+371
+00:16:56,330 --> 00:16:58,100
+Again, the story
+about efficiency.
+
+372
+00:16:58,100 --> 00:17:00,390
+This is a fish now, not a bird.
+
+373
+00:17:00,390 --> 00:17:02,370
+But it's almost the same thing.
+
+374
+00:17:02,370 --> 00:17:04,460
+They're both
+operating in a fluid.
+
+375
+00:17:04,460 --> 00:17:06,170
+This is a rainbow trout.
+
+376
+00:17:06,170 --> 00:17:09,410
+So the rainbow trout
+are the fish that
+
+377
+00:17:09,410 --> 00:17:11,510
+swim upstream at mating season.
+
+378
+00:17:11,510 --> 00:17:14,690
+So every year, they make
+their march up the streams.
+
+379
+00:17:14,690 --> 00:17:17,329
+It turns out if you watch
+these rainbow trout,
+
+380
+00:17:17,329 --> 00:17:20,030
+they tend to hang
+out behind rocks.
+
+381
+00:17:20,030 --> 00:17:21,500
+Someone thought,
+it seems like it's
+
+382
+00:17:21,500 --> 00:17:24,125
+tiring work going upstream maybe
+there's something clever going
+
+383
+00:17:24,125 --> 00:17:26,622
+on when they're hanging
+out behind these rocks.
+
+384
+00:17:26,622 --> 00:17:28,830
+So what they did is they
+took that rainbow trout out,
+
+385
+00:17:28,830 --> 00:17:30,700
+and they put it
+in a water tunnel.
+
+386
+00:17:30,700 --> 00:17:32,540
+And you're looking
+at a view from above
+
+387
+00:17:32,540 --> 00:17:35,360
+of the fish swimming
+in the water tunnel.
+
+388
+00:17:35,360 --> 00:17:37,067
+This is George Lauder's
+lab at Harvard.
+
+389
+00:17:37,067 --> 00:17:38,900
+And that's what it looks
+like when it's just
+
+390
+00:17:38,900 --> 00:17:41,900
+swimming in open water.
+
+391
+00:17:41,900 --> 00:17:44,780
+If you take that same fish,
+put it in the water tunnel
+
+392
+00:17:44,780 --> 00:17:46,910
+but put a rock in front of it--
+
+393
+00:17:46,910 --> 00:17:50,240
+now if you've looked at rocks
+in a river, behind a rock,
+
+394
+00:17:50,240 --> 00:17:52,640
+you'll get some swirling
+vortices, some eddies.
+
+395
+00:17:55,550 --> 00:17:57,792
+The fish behind the
+rock just completely
+
+396
+00:17:57,792 --> 00:17:59,250
+changes the kinematics
+of its gait.
+
+397
+00:18:01,760 --> 00:18:03,140
+So that's suggestive
+that there's
+
+398
+00:18:03,140 --> 00:18:04,790
+something clever going on here.
+
+399
+00:18:04,790 --> 00:18:06,830
+But this is the clincher here.
+
+400
+00:18:06,830 --> 00:18:09,680
+The dynamics matter
+if you're a fish.
+
+401
+00:18:09,680 --> 00:18:12,332
+This is now a dead fish.
+
+402
+00:18:12,332 --> 00:18:13,040
+It's a dead fish.
+
+403
+00:18:13,040 --> 00:18:15,707
+There's a piece of string making
+sure it doesn't go back and get
+
+404
+00:18:15,707 --> 00:18:17,060
+caught in the grates.
+
+405
+00:18:17,060 --> 00:18:19,100
+That would be messy.
+
+406
+00:18:19,100 --> 00:18:20,915
+But it's slack.
+
+407
+00:18:20,915 --> 00:18:22,290
+As it's moving
+around, you'll see
+
+408
+00:18:22,290 --> 00:18:24,320
+when the string is catching.
+
+409
+00:18:24,320 --> 00:18:25,370
+This is our rock now.
+
+410
+00:18:25,370 --> 00:18:26,750
+It's a half cylinder.
+
+411
+00:18:26,750 --> 00:18:27,980
+The water's going this way.
+
+412
+00:18:27,980 --> 00:18:29,900
+There's going to be
+swirling vortices
+
+413
+00:18:29,900 --> 00:18:31,470
+off the back of that rock.
+
+414
+00:18:31,470 --> 00:18:32,845
+Let's see what
+happens if you put
+
+415
+00:18:32,845 --> 00:18:36,455
+a dead fish behind the rock.
+
+416
+00:18:36,455 --> 00:18:38,330
+So the vortices are
+knocking the fish around.
+
+417
+00:18:38,330 --> 00:18:40,910
+That's not too surprising.
+
+418
+00:18:40,910 --> 00:18:44,570
+What's really cool
+is when the dead fish
+
+419
+00:18:44,570 --> 00:18:47,880
+starts swimming upstream.
+
+420
+00:18:47,880 --> 00:18:49,430
+That's pretty good.
+
+421
+00:18:49,430 --> 00:18:51,530
+So the water's going that
+way, and the fish just
+
+422
+00:18:51,530 --> 00:18:53,870
+went that way.
+
+423
+00:18:53,870 --> 00:18:56,480
+And it's dead.
+
+424
+00:18:56,480 --> 00:18:58,490
+So dynamics matter
+if you're a fish.
+
+425
+00:19:01,450 --> 00:19:05,440
+And if you care about birds--
+
+426
+00:19:05,440 --> 00:19:08,920
+mechanically, we're capable
+now of building robotic birds.
+
+427
+00:19:08,920 --> 00:19:15,190
+This is our best copy
+of a hobby ornithopter.
+
+428
+00:19:15,190 --> 00:19:18,100
+But we can build
+birds that fly around
+
+429
+00:19:18,100 --> 00:19:19,930
+with Derek at the controls.
+
+430
+00:19:22,470 --> 00:19:25,040
+But if you asked me how
+to control this bird
+
+431
+00:19:25,040 --> 00:19:29,660
+to make it land on a perch,
+pull energy out of the air,
+
+432
+00:19:29,660 --> 00:19:31,650
+we haven't got a clue.
+
+433
+00:19:31,650 --> 00:19:32,840
+We're working on it.
+
+434
+00:19:32,840 --> 00:19:34,340
+We haven't got a clue.
+
+435
+00:19:34,340 --> 00:19:35,270
+Yeah, that hit a tree.
+
+436
+00:19:35,270 --> 00:19:36,650
+And Derek recovered.
+
+437
+00:19:41,480 --> 00:19:47,610
+We've got the first flight
+of our big 2-meter wingspan.
+
+438
+00:19:47,610 --> 00:19:49,340
+This is an autonomous flight.
+
+439
+00:19:49,340 --> 00:19:51,630
+You can tell it's autonomous
+because it flies straight
+
+440
+00:19:51,630 --> 00:19:53,130
+into it about runs
+into the building
+
+441
+00:19:53,130 --> 00:19:54,170
+and then we hit the
+brakes, and it has
+
+442
+00:19:54,170 --> 00:19:55,462
+to go in and hit the trash can.
+
+443
+00:19:55,462 --> 00:19:58,280
+But mechanically,
+we're close to where
+
+444
+00:19:58,280 --> 00:20:02,660
+we want to be to replicate
+some of nature's machines.
+
+445
+00:20:02,660 --> 00:20:04,070
+We've got a long way to go.
+
+446
+00:20:04,070 --> 00:20:05,810
+But really, we're
+at the point where
+
+447
+00:20:05,810 --> 00:20:07,185
+we have to figure
+out how to take
+
+448
+00:20:07,185 --> 00:20:11,030
+these magnificent dynamical
+machines and control them.
+
+449
+00:20:11,030 --> 00:20:12,530
+And that's what the
+course is about.
+
+450
+00:20:27,200 --> 00:20:27,700
+OK.
+
+451
+00:20:27,700 --> 00:20:32,170
+So let's get a little
+bit more careful in what
+
+452
+00:20:32,170 --> 00:20:33,190
+I mean by underactuated.
+
+453
+00:20:33,190 --> 00:20:33,560
+Systems.
+
+454
+00:20:33,560 --> 00:20:34,977
+So we'll give you
+some motivation.
+
+455
+00:20:34,977 --> 00:20:37,960
+We're going to try to make
+robots that run like humans--
+
+456
+00:20:37,960 --> 00:20:41,410
+run like gazelles,
+swim like dead fish,
+
+457
+00:20:41,410 --> 00:20:48,190
+and fly like that falcon
+that comes down-- so not
+
+458
+00:20:48,190 --> 00:20:51,010
+a tall order at all, right?
+
+459
+00:20:51,010 --> 00:20:53,530
+So in order to start
+doing that, let's start
+
+460
+00:20:53,530 --> 00:20:59,170
+by just defining what it
+means to be underactuated.
+
+461
+00:20:59,170 --> 00:21:03,130
+Let me ground things
+in an example.
+
+462
+00:21:03,130 --> 00:21:07,300
+Let's take a
+two-link robotic arm.
+
+463
+00:21:12,880 --> 00:21:18,910
+I'm going to describe the
+state of this system with theta
+
+464
+00:21:18,910 --> 00:21:22,450
+1 and a relative
+angle here, theta 2.
+
+465
+00:21:26,750 --> 00:21:30,480
+And let me quickly
+draw that twice as big.
+
+466
+00:21:52,190 --> 00:21:55,250
+We'll parameterize
+it here with the--
+
+467
+00:21:55,250 --> 00:21:57,850
+that'll be L1 with the length.
+
+468
+00:21:57,850 --> 00:21:59,150
+This will be able L2 here.
+
+469
+00:22:02,120 --> 00:22:05,750
+So we call this mass 1, mass 2.
+
+470
+00:22:05,750 --> 00:22:08,210
+So we'll assume it's a
+massless rod with a point
+
+471
+00:22:08,210 --> 00:22:11,190
+mass at the end, just to keep
+the equations a little cleaner
+
+472
+00:22:11,190 --> 00:22:11,690
+for today.
+
+473
+00:22:14,450 --> 00:22:17,450
+And it's got two angles
+that I care about.
+
+474
+00:22:17,450 --> 00:22:21,620
+And there's a couple
+lengths at play.
+
+475
+00:22:21,620 --> 00:22:24,920
+So throughout the
+class, I'm going
+
+476
+00:22:24,920 --> 00:22:32,450
+to use the convention that q
+is a vector of the joint angles
+
+477
+00:22:32,450 --> 00:22:35,630
+or the coordinates of the robot.
+
+478
+00:22:35,630 --> 00:22:38,120
+In this case, it's going
+to be theta 1 and theta 2.
+
+479
+00:22:42,290 --> 00:22:45,200
+If I have motors
+on the robot, let's
+
+480
+00:22:45,200 --> 00:22:47,600
+say, I can apply a
+torque here because I
+
+481
+00:22:47,600 --> 00:22:50,690
+have a motor at the elbow,
+maybe a torque here.
+
+482
+00:22:50,690 --> 00:22:55,500
+So I'll call this
+torque 1, this torque 2.
+
+483
+00:22:55,500 --> 00:23:00,678
+I'm going to call
+that u, vector u.
+
+484
+00:23:00,678 --> 00:23:02,220
+There's all the
+inputs to the system.
+
+485
+00:23:02,220 --> 00:23:07,705
+So this is the
+joint coordinates.
+
+486
+00:23:14,010 --> 00:23:15,320
+These are the control inputs.
+
+487
+00:23:25,370 --> 00:23:25,870
+OK.
+
+488
+00:23:25,870 --> 00:23:27,670
+So it turns out if
+you want to write out
+
+489
+00:23:27,670 --> 00:23:29,290
+the dynamics of
+this system, if you
+
+490
+00:23:29,290 --> 00:23:30,665
+want to be able
+to, say, simulate
+
+491
+00:23:30,665 --> 00:23:33,995
+the way that this
+pendulum moves, well, most
+
+492
+00:23:33,995 --> 00:23:35,870
+of the robots we care
+about in this class are
+
+493
+00:23:35,870 --> 00:23:37,100
+our second-order.
+
+494
+00:23:37,100 --> 00:23:40,470
+So everything's based on
+their mechanical system.
+
+495
+00:23:40,470 --> 00:23:46,300
+So we've got F equals
+ma governing everything.
+
+496
+00:23:46,300 --> 00:23:56,740
+In this case, a is going to
+be the second derivative of q.
+
+497
+00:23:56,740 --> 00:23:59,040
+So what I really have--
+
+498
+00:23:59,040 --> 00:24:02,320
+I should also say
+that q-dot is going
+
+499
+00:24:02,320 --> 00:24:04,195
+to be the joint velocities.
+
+500
+00:24:09,310 --> 00:24:13,192
+And q-double-dot is the
+joint accelerations.
+
+501
+00:24:29,430 --> 00:24:33,020
+So if I want to describe
+the motion of these systems,
+
+502
+00:24:33,020 --> 00:24:35,660
+of this kind of a
+robot, then what I need
+
+503
+00:24:35,660 --> 00:24:39,380
+is to find an
+equation that tells me
+
+504
+00:24:39,380 --> 00:24:42,530
+the acceleration of
+that system based
+
+505
+00:24:42,530 --> 00:24:46,670
+on the current position,
+velocity of the robot,
+
+506
+00:24:46,670 --> 00:24:50,250
+and the current control inputs.
+
+507
+00:24:50,250 --> 00:24:56,176
+If we're living in second-order
+mechanical systems world,
+
+508
+00:24:56,176 --> 00:24:59,910
+then that means I'm looking
+for a governing equation--
+
+509
+00:24:59,910 --> 00:25:02,610
+equations of motion
+of the form f
+
+510
+00:25:02,610 --> 00:25:08,920
+is some nonlinear function of q,
+q-dot, u, potentially time too,
+
+511
+00:25:08,920 --> 00:25:13,920
+if it's a time-varying dynamics,
+if there's something else going
+
+512
+00:25:13,920 --> 00:25:14,820
+on clocked by time.
+
+513
+00:25:18,590 --> 00:25:20,923
+So basically, the
+entire class, we're
+
+514
+00:25:20,923 --> 00:25:23,090
+going to be looking at
+second-order systems governed
+
+515
+00:25:23,090 --> 00:25:27,200
+by some non-linear
+equations like them.
+
+516
+00:25:27,200 --> 00:25:30,500
+It turns out that actually most
+of the robots we care about,
+
+517
+00:25:30,500 --> 00:25:31,940
+there's even a simpler form.
+
+518
+00:25:34,850 --> 00:25:39,350
+Turns out we can
+almost always find--
+
+519
+00:25:39,350 --> 00:25:41,630
+it's not always--
+but for many robots,
+
+520
+00:25:41,630 --> 00:25:47,990
+we find that the
+equations of motion
+
+521
+00:25:47,990 --> 00:25:51,920
+are actually linear in u.
+
+522
+00:25:51,920 --> 00:25:55,550
+If I'm going to put in torques
+or something to my robot,
+
+523
+00:25:55,550 --> 00:25:59,060
+that it turns out that the
+way that the torques affect
+
+524
+00:25:59,060 --> 00:26:03,120
+accelerations is
+linear in the input.
+
+525
+00:26:03,120 --> 00:26:05,600
+So let me write a
+second form, which takes
+
+526
+00:26:05,600 --> 00:26:07,220
+advantage of that observation.
+
+527
+00:26:13,450 --> 00:26:13,950
+OK.
+
+528
+00:26:21,440 --> 00:26:24,357
+So I've said almost
+nothing here.
+
+529
+00:26:24,357 --> 00:26:25,940
+I'm just saying
+there's some nonlinear
+
+530
+00:26:25,940 --> 00:26:29,510
+terms that depend on the current
+state, and velocity, and time.
+
+531
+00:26:29,510 --> 00:26:32,270
+There's some other nonlinear
+terms that get multiplied by u.
+
+532
+00:26:32,270 --> 00:26:34,130
+But the only power
+in this is that I'm
+
+533
+00:26:34,130 --> 00:26:36,640
+saying that the whole
+thing is linear in u.
+
+534
+00:26:36,640 --> 00:26:37,640
+And it turns out to be--
+
+535
+00:26:37,640 --> 00:26:39,807
+I'll convince you as we go
+forward that that's true.
+
+536
+00:26:45,520 --> 00:26:46,300
+OK.
+
+537
+00:26:46,300 --> 00:26:50,220
+So here's our-- we're finally
+grounding everything here.
+
+538
+00:26:50,220 --> 00:26:51,970
+Let me tell you what
+fully actuated means.
+
+539
+00:27:01,928 --> 00:27:03,720
+Just think about what
+this equation is too.
+
+540
+00:27:03,720 --> 00:27:05,400
+So q is a vector.
+
+541
+00:27:05,400 --> 00:27:07,740
+Q-double-dot is also a vector.
+
+542
+00:27:07,740 --> 00:27:10,980
+In this case, q was
+a 2 by 1 vector.
+
+543
+00:27:10,980 --> 00:27:14,040
+Q-dot then is also
+a 2 by 1 vector.
+
+544
+00:27:14,040 --> 00:27:16,480
+Q-double-dot is also
+a 2 by 1 vector.
+
+545
+00:27:16,480 --> 00:27:21,400
+So this is a vector equation of
+a 2 by 1 vector in this case.
+
+546
+00:27:21,400 --> 00:27:22,290
+This is some vector--
+
+547
+00:27:22,290 --> 00:27:24,930
+2 by 1 vector.
+
+548
+00:27:24,930 --> 00:27:27,790
+In my case, I had also
+two control inputs.
+
+549
+00:27:27,790 --> 00:27:30,210
+So this is also a 2 by
+1 vector, which means
+
+550
+00:27:30,210 --> 00:27:32,750
+what is this thing going to be?
+
+551
+00:27:32,750 --> 00:27:34,875
+That's going to be a 2 by
+2 matrix in that example.
+
+552
+00:27:39,000 --> 00:27:43,740
+What matters, what makes
+life dramatically easier,
+
+553
+00:27:43,740 --> 00:27:46,770
+and what most robots
+today have really assumed
+
+554
+00:27:46,770 --> 00:27:50,470
+is that they assume
+that F2 is full rank.
+
+555
+00:27:53,310 --> 00:28:04,410
+So a robot of this form is fully
+actuated if the rank of F2, q,
+
+556
+00:28:04,410 --> 00:28:09,150
+q-dot, and time is equal--
+
+557
+00:28:09,150 --> 00:28:12,390
+I'll write the
+dimension of q here--
+
+558
+00:28:12,390 --> 00:28:13,110
+its full rank.
+
+559
+00:28:23,860 --> 00:28:24,410
+OK.
+
+560
+00:28:24,410 --> 00:28:25,430
+Why does that matter?
+
+561
+00:28:25,430 --> 00:28:26,530
+What does that mean first?
+
+562
+00:28:31,260 --> 00:28:38,580
+What it means is that
+if I know F1 and F2,
+
+563
+00:28:38,580 --> 00:28:45,430
+then I can use u to do anything
+I want to q-double-dot.
+
+564
+00:28:45,430 --> 00:28:46,740
+OK.
+
+565
+00:28:46,740 --> 00:28:47,820
+I'll show you that.
+
+566
+00:28:47,820 --> 00:28:50,730
+I can say that right
+now pretty explicitly.
+
+567
+00:28:50,730 --> 00:28:53,730
+So let's say I know
+exactly what F1 and F2 are.
+
+568
+00:28:56,340 --> 00:28:59,610
+Let's say I choose
+a control law.
+
+569
+00:28:59,610 --> 00:29:03,900
+I want to choose u
+as some function--
+
+570
+00:29:03,900 --> 00:29:05,130
+I'll just call it pi--
+
+571
+00:29:05,130 --> 00:29:08,757
+of q, q-dot, and time.
+
+572
+00:29:08,757 --> 00:29:10,590
+So I want to come up
+with a controller which
+
+573
+00:29:10,590 --> 00:29:13,110
+looks at my positions, and
+my velocities, what time it
+
+574
+00:29:13,110 --> 00:29:16,290
+is, and comes up with a torque.
+
+575
+00:29:16,290 --> 00:29:30,240
+Let's say, I did F2
+inverse q, q-dot, and time
+
+576
+00:29:30,240 --> 00:29:40,710
+times negative F1, q, q-dot,
+time plus, I don't know,
+
+577
+00:29:40,710 --> 00:29:43,110
+some other controller, but I
+want u-prime, let's call it.
+
+578
+00:29:52,170 --> 00:29:54,980
+So if the rank of F2--
+
+579
+00:29:54,980 --> 00:29:57,410
+if it's full rank, if
+it's got the same rank
+
+580
+00:29:57,410 --> 00:30:00,530
+as the dimension of
+q, then that means
+
+581
+00:30:00,530 --> 00:30:02,570
+that this F2 inverse exists.
+
+582
+00:30:05,150 --> 00:30:08,750
+And I think that if
+you plug this in for u
+
+583
+00:30:08,750 --> 00:30:10,760
+right there, what
+you're going to see
+
+584
+00:30:10,760 --> 00:30:13,820
+is that this cancels out this.
+
+585
+00:30:13,820 --> 00:30:17,840
+If I did it right, then,
+and this cancels out this.
+
+586
+00:30:17,840 --> 00:30:22,990
+And what I'm left with
+is a simple system now.
+
+587
+00:30:22,990 --> 00:30:25,370
+Q-double-dot equals u-prime.
+
+588
+00:30:29,183 --> 00:30:31,628
+AUDIENCE: Shouldn't that be
+q-double-dot [INAUDIBLE]??
+
+589
+00:30:35,115 --> 00:30:36,990
+RUSS TEDRAKE: Where do
+you want q-double-dot?
+
+590
+00:30:36,990 --> 00:30:38,730
+AUDIENCE: Is that u?
+
+591
+00:30:38,730 --> 00:30:41,770
+RUSS TEDRAKE: This is u-prime.
+
+592
+00:30:41,770 --> 00:30:42,950
+So just some other u.
+
+593
+00:30:42,950 --> 00:30:45,180
+So what I'm trying
+to do is now say
+
+594
+00:30:45,180 --> 00:30:47,940
+that I'm going to
+effectively change
+
+595
+00:30:47,940 --> 00:30:52,440
+the equations of motion of
+my system into this, u-prime.
+
+596
+00:30:54,905 --> 00:30:57,030
+I might have called that
+maybe q-double-dot desired
+
+597
+00:30:57,030 --> 00:30:57,720
+or something like that.
+
+598
+00:30:57,720 --> 00:30:58,678
+That would be fine too.
+
+599
+00:31:01,742 --> 00:31:02,700
+So what did we just do?
+
+600
+00:31:02,700 --> 00:31:05,298
+We did a trick called
+feedback linearization.
+
+601
+00:31:17,790 --> 00:31:22,440
+I took what was potentially
+a very complicated nonlinear
+
+602
+00:31:22,440 --> 00:31:26,160
+equations of motion,
+and because I
+
+603
+00:31:26,160 --> 00:31:33,030
+could, using my control input,
+command every q-double-dot,
+
+604
+00:31:33,030 --> 00:31:38,640
+I can essentially effectively
+replace the equations of motion
+
+605
+00:31:38,640 --> 00:31:40,500
+with a simpler equation.
+
+606
+00:31:40,500 --> 00:31:43,680
+This is actually a
+trivially simple equation.
+
+607
+00:31:43,680 --> 00:31:45,300
+For those of you
+that know, this is
+
+608
+00:31:45,300 --> 00:31:49,620
+what would be a series of single
+inputs, single outputs systems.
+
+609
+00:31:49,620 --> 00:31:50,940
+They're decoupled.
+
+610
+00:31:50,940 --> 00:31:54,450
+So q-double-dot 1 is equal
+to the first element of this.
+
+611
+00:31:54,450 --> 00:31:55,590
+It's just two vectors.
+
+612
+00:32:00,527 --> 00:32:01,860
+So that just looks like a trick.
+
+613
+00:32:01,860 --> 00:32:05,700
+I'm going to ground it in
+an example in a second here.
+
+614
+00:32:08,830 --> 00:32:11,890
+But first, let's finish defining
+what underactuated means.
+
+615
+00:32:11,890 --> 00:32:15,110
+So what is underactuated
+going to mean?
+
+616
+00:32:15,110 --> 00:32:17,570
+AUDIENCE: That the other
+two matrices is important.
+
+617
+00:32:17,570 --> 00:32:18,340
+RUSS TEDRAKE: That's right.
+
+618
+00:32:18,340 --> 00:32:18,840
+Good.
+
+619
+00:32:30,370 --> 00:32:34,270
+Yeah, a system of that
+form is underactuated
+
+620
+00:32:34,270 --> 00:32:44,162
+if the rank of F2,
+q, q-dot, and time is
+
+621
+00:32:44,162 --> 00:32:45,370
+less than the dimension of q.
+
+622
+00:32:56,755 --> 00:32:59,860
+In words, what
+underactuated means--
+
+623
+00:33:04,240 --> 00:33:28,330
+a system is under actuated
+if the control input cannot
+
+624
+00:33:28,330 --> 00:33:32,170
+accelerate the system
+in every direction.
+
+625
+00:33:32,170 --> 00:33:35,740
+That's what this equation says.
+
+626
+00:33:35,740 --> 00:33:51,550
+If the control input
+u cannot produce.
+
+627
+00:34:17,511 --> 00:34:18,969
+That's just what
+the equation said.
+
+628
+00:34:18,969 --> 00:34:22,083
+You could imagine if the
+form of the equations
+
+629
+00:34:22,083 --> 00:34:23,500
+wasn't linear in
+u, then we'd have
+
+630
+00:34:23,500 --> 00:34:26,980
+to adapt this rank
+condition to do this.
+
+631
+00:34:26,980 --> 00:34:29,739
+But this, I think, for today is
+a very good working definition
+
+632
+00:34:29,739 --> 00:34:31,010
+of underactuated.
+
+633
+00:34:31,010 --> 00:34:33,969
+And we'll improve it as
+we go through the class.
+
+634
+00:34:33,969 --> 00:34:36,310
+There's a couple of
+things to note about it.
+
+635
+00:34:36,310 --> 00:34:38,872
+First of all, as
+I've defined it here,
+
+636
+00:34:38,872 --> 00:34:40,330
+whether you're
+underactuated or not
+
+637
+00:34:40,330 --> 00:34:42,909
+actually depends on your state.
+
+638
+00:34:42,909 --> 00:34:45,790
+So you could say that
+a robot was fully
+
+639
+00:34:45,790 --> 00:34:49,270
+actuated in some states and
+underactuated in other states.
+
+640
+00:34:49,270 --> 00:34:50,992
+Now why would that happen?
+
+641
+00:34:50,992 --> 00:34:52,659
+Maybe there's a torque
+limit, or there's
+
+642
+00:34:52,659 --> 00:34:55,840
+an obstacle or something
+like this that prevents you
+
+643
+00:34:55,840 --> 00:34:58,000
+from producing
+accelerations when
+
+644
+00:34:58,000 --> 00:35:01,600
+you're in some configurations.
+
+645
+00:35:01,600 --> 00:35:07,120
+Intuitively, what's
+happening in ASIMO
+
+646
+00:35:07,120 --> 00:35:10,903
+is that it's trying to stay in
+this very conservative regime
+
+647
+00:35:10,903 --> 00:35:12,820
+because then those are
+the states where it can
+
+648
+00:35:12,820 --> 00:35:15,250
+act like it's fully actuated.
+
+649
+00:35:15,250 --> 00:35:20,775
+And if it was running like you
+or me, then it's underactuated.
+
+650
+00:35:20,775 --> 00:35:22,150
+But what I want
+to try to impress
+
+651
+00:35:22,150 --> 00:35:27,250
+on you is that this
+dichotomy between fully
+
+652
+00:35:27,250 --> 00:35:30,610
+actuated and underactuated
+systems, it's pervasive.
+
+653
+00:35:30,610 --> 00:35:37,480
+I mean, so robotics, for the
+last 30-some, easily, years,
+
+654
+00:35:37,480 --> 00:35:42,280
+has almost completely
+made this assumption
+
+655
+00:35:42,280 --> 00:35:46,840
+that F2 is full rank when
+designing controllers.
+
+656
+00:35:46,840 --> 00:35:48,940
+If you learn about
+adaptive control,
+
+657
+00:35:48,940 --> 00:35:51,007
+all these manipulated
+control ideas,
+
+658
+00:35:51,007 --> 00:35:52,840
+computer torque methods--
+all these things--
+
+659
+00:35:52,840 --> 00:35:54,850
+you're implicitly
+making this assumption
+
+660
+00:35:54,850 --> 00:35:59,680
+that you can produce
+arbitrary torques.
+
+661
+00:35:59,680 --> 00:36:01,540
+You can use arbitrary
+control effort
+
+662
+00:36:01,540 --> 00:36:04,120
+to produce arbitrary
+accelerations.
+
+663
+00:36:04,120 --> 00:36:07,300
+What that does, that's
+why all these proofs
+
+664
+00:36:07,300 --> 00:36:09,100
+exist for adaptive
+control and the like
+
+665
+00:36:09,100 --> 00:36:11,080
+because you can then
+effectively turn
+
+666
+00:36:11,080 --> 00:36:12,760
+your system into a
+linear system that we
+
+667
+00:36:12,760 --> 00:36:15,790
+know how to think about.
+
+668
+00:36:15,790 --> 00:36:17,680
+And the reason that
+dichotomy is so strong
+
+669
+00:36:17,680 --> 00:36:21,160
+is because what happens if
+you're a control designer
+
+670
+00:36:21,160 --> 00:36:24,760
+and you don't have the ability
+to take your nonlinear system
+
+671
+00:36:24,760 --> 00:36:27,070
+and turn it into
+a linear system is
+
+672
+00:36:27,070 --> 00:36:29,170
+that you have no choice
+but to start reasoning
+
+673
+00:36:29,170 --> 00:36:33,040
+about the nonlinear dynamics
+of your system, reasoning
+
+674
+00:36:33,040 --> 00:36:35,320
+about the long-term nonlinear
+dynamics of the system.
+
+675
+00:36:38,110 --> 00:36:41,410
+And analytics break
+down pretty quick.
+
+676
+00:36:41,410 --> 00:36:43,780
+But computers can help.
+
+677
+00:36:43,780 --> 00:36:47,030
+That's why we're revisiting
+this kind of idea.
+
+678
+00:36:47,030 --> 00:36:50,260
+So factory room
+robotic arms tend
+
+679
+00:36:50,260 --> 00:36:55,047
+to be fully actuated, except
+for very exceptional cases.
+
+680
+00:36:55,047 --> 00:36:57,130
+Walking robots and things
+like that, as we'll see,
+
+681
+00:36:57,130 --> 00:36:58,480
+are underactuated.
+
+682
+00:36:58,480 --> 00:37:00,130
+So let's do that example.
+
+683
+00:37:08,613 --> 00:37:11,607
+AUDIENCE: So are you
+implying that in order
+
+684
+00:37:11,607 --> 00:37:15,120
+to have agile robots, we need
+to have underactuated robotics?
+
+685
+00:37:15,120 --> 00:37:16,165
+RUSS TEDRAKE: Absolutely.
+
+686
+00:37:16,165 --> 00:37:18,540
+I'm going to finish making
+that argument, but absolutely.
+
+687
+00:37:18,540 --> 00:37:20,130
+That's exactly what I'm saying.
+
+688
+00:37:20,130 --> 00:37:23,670
+The question was, am
+I implying that we
+
+689
+00:37:23,670 --> 00:37:26,340
+need to do underactuated
+robotics to have agile robots?
+
+690
+00:37:26,340 --> 00:37:26,880
+Yeah.
+
+691
+00:37:26,880 --> 00:37:28,920
+I would even say
+that I'm implying--
+
+692
+00:37:28,920 --> 00:37:30,930
+I'm a little biased--
+but I'm implying
+
+693
+00:37:30,930 --> 00:37:33,090
+that every interesting
+problem in robotics
+
+694
+00:37:33,090 --> 00:37:35,640
+is interesting because
+it's underactuated.
+
+695
+00:37:35,640 --> 00:37:38,490
+If you think about the problems
+that are unsolved in robotics--
+
+696
+00:37:38,490 --> 00:37:42,780
+maybe manipulation, walking,
+cool flying things--
+
+697
+00:37:42,780 --> 00:37:44,850
+if you look closely,
+if the control
+
+698
+00:37:44,850 --> 00:37:49,430
+problem is considered unsolved,
+it's probably underactuated.
+
+699
+00:37:49,430 --> 00:37:51,180
+The things we know how
+to do really well--
+
+700
+00:37:51,180 --> 00:37:55,230
+picking and placing parts
+on a factory room floor--
+
+701
+00:37:55,230 --> 00:37:57,340
+that's fully actuated.
+
+702
+00:37:57,340 --> 00:37:59,340
+Now manipulation is hard
+for many other reasons.
+
+703
+00:37:59,340 --> 00:38:01,298
+You have to find the
+thing you're manipulating.
+
+704
+00:38:01,298 --> 00:38:03,300
+You have to think about it.
+
+705
+00:38:03,300 --> 00:38:05,460
+But there's
+something fundamental
+
+706
+00:38:05,460 --> 00:38:07,670
+in robotics research
+that happens
+
+707
+00:38:07,670 --> 00:38:10,170
+if your system suddenly-- if
+you don't have complete control
+
+708
+00:38:10,170 --> 00:38:11,370
+authority.
+
+709
+00:38:11,370 --> 00:38:13,950
+And all the interesting
+problems that are left
+
+710
+00:38:13,950 --> 00:38:17,710
+seem to be underactuated.
+
+711
+00:38:17,710 --> 00:38:18,210
+OK.
+
+712
+00:38:18,210 --> 00:38:20,957
+So instead of talking
+about abstract F's, let's
+
+713
+00:38:20,957 --> 00:38:21,665
+make it specific.
+
+714
+00:38:24,600 --> 00:38:27,180
+Let's write the
+equations of motion
+
+715
+00:38:27,180 --> 00:38:28,530
+for our two-link robotic arm.
+
+716
+00:38:31,860 --> 00:38:37,560
+So how many people have
+seen Lagrangian mechanics?
+
+717
+00:38:37,560 --> 00:38:38,970
+Cool.
+
+718
+00:38:38,970 --> 00:38:42,660
+So the class isn't
+going to depend on it.
+
+719
+00:38:42,660 --> 00:38:45,030
+I'm going to do
+it once, quickly.
+
+720
+00:38:45,030 --> 00:38:46,932
+And it's in the notes.
+
+721
+00:38:46,932 --> 00:38:48,640
+If you haven't seen
+Lagrangian mechanics,
+
+722
+00:38:48,640 --> 00:38:50,460
+it's a good thing to know.
+
+723
+00:38:50,460 --> 00:38:52,350
+And it's in the appendix
+of the course notes.
+
+724
+00:38:52,350 --> 00:38:54,060
+It'll be posted.
+
+725
+00:38:54,060 --> 00:38:56,190
+But I want you to see
+it once to just see
+
+726
+00:38:56,190 --> 00:38:58,800
+that there is actually-- if what
+you care about first is just
+
+727
+00:38:58,800 --> 00:39:00,633
+coming up with the
+equations of motion, then
+
+728
+00:39:00,633 --> 00:39:03,300
+there's actually a fairly
+procedural way to do
+
+729
+00:39:03,300 --> 00:39:05,410
+that for even pretty
+complicated systems.
+
+730
+00:39:05,410 --> 00:39:09,340
+So let's do it for this
+not-very-complicated system.
+
+731
+00:39:09,340 --> 00:39:09,840
+OK.
+
+732
+00:39:09,840 --> 00:39:13,450
+So let me do that in pieces.
+
+733
+00:39:13,450 --> 00:39:18,330
+So let's say, this is mass 1.
+
+734
+00:39:18,330 --> 00:39:21,840
+Let's say that it's
+that position x,1.
+
+735
+00:39:21,840 --> 00:39:27,150
+If I call this x,1 and x,2--
+
+736
+00:39:27,150 --> 00:39:30,120
+x and y-- that makes them
+a coordinate system there.
+
+737
+00:39:30,120 --> 00:39:32,760
+Let's say that the
+mass here is that x,1,
+
+738
+00:39:32,760 --> 00:39:34,980
+and the mass 2 is x,2.
+
+739
+00:39:34,980 --> 00:39:39,150
+So the first thing to do is just
+to think about the kinematics
+
+740
+00:39:39,150 --> 00:39:40,110
+of the robot.
+
+741
+00:39:47,160 --> 00:39:49,720
+And in this case,
+they're pretty simple.
+
+742
+00:39:49,720 --> 00:39:54,900
+So as I've written it, x,1 is--
+
+743
+00:39:54,900 --> 00:39:56,400
+what is it?
+
+744
+00:39:56,400 --> 00:40:05,730
+The x position in x,1 here
+is l times sine or cosine?
+
+745
+00:40:05,730 --> 00:40:12,090
+Sine of theta 1.
+
+746
+00:40:12,090 --> 00:40:19,560
+And the other one is
+negative L1 cosine theta 1.
+
+747
+00:40:19,560 --> 00:40:21,850
+Now we're going to
+get bored real quick
+
+748
+00:40:21,850 --> 00:40:23,690
+if I don't adopt a shorthand.
+
+749
+00:40:23,690 --> 00:40:26,430
+So let me just
+call that l,1, s,1.
+
+750
+00:40:26,430 --> 00:40:29,700
+So that'll be shorthand
+for sine of theta 1.
+
+751
+00:40:29,700 --> 00:40:32,040
+And this will be
+negative l,1 cosine, 1.
+
+752
+00:40:36,560 --> 00:40:41,660
+If I want to do the
+kinematics of x,2 here,
+
+753
+00:40:41,660 --> 00:40:43,220
+that's going to
+depend on theta 2.
+
+754
+00:40:43,220 --> 00:40:45,095
+It's actually also going
+to depend on theta 1
+
+755
+00:40:45,095 --> 00:40:48,350
+because I've got this
+in a relative frame.
+
+756
+00:40:48,350 --> 00:40:50,990
+That theta 2 is relative
+to the first link.
+
+757
+00:40:50,990 --> 00:40:53,930
+So it turns out the
+kinematics of x,2,
+
+758
+00:40:53,930 --> 00:40:56,750
+we can actually
+start with just x,1.
+
+759
+00:40:56,750 --> 00:40:59,430
+It's the position of
+x,1 plus another vector,
+
+760
+00:40:59,430 --> 00:41:07,220
+which is l,2 sine of
+theta 1 plus theta 2.
+
+761
+00:41:07,220 --> 00:41:11,420
+If you work it out,
+that's the right thing--
+
+762
+00:41:11,420 --> 00:41:21,170
+cosine theta 1 plus theta 2,
+which are shorthand as x,1 plus
+
+763
+00:41:21,170 --> 00:41:27,860
+l,2 s,1 plus 2 negative
+l,2 c,1 plus 2.
+
+764
+00:41:52,410 --> 00:41:52,910
+OK.
+
+765
+00:41:52,910 --> 00:41:54,327
+So the derivatives
+aren't too bad.
+
+766
+00:41:54,327 --> 00:41:55,860
+I can do those.
+
+767
+00:41:55,860 --> 00:41:56,360
+Let's see.
+
+768
+00:41:56,360 --> 00:41:59,627
+If I want the rate
+of change of x1,
+
+769
+00:41:59,627 --> 00:42:01,460
+intuitively, that's
+going to start depending
+
+770
+00:42:01,460 --> 00:42:07,217
+on the joint velocities, right?
+
+771
+00:42:07,217 --> 00:42:08,300
+So how does that work out?
+
+772
+00:42:08,300 --> 00:42:16,490
+The time derivative of x,1 is
+going to be l,1 cosine theta 1
+
+773
+00:42:16,490 --> 00:42:17,620
+times theta 1 dot.
+
+774
+00:42:20,420 --> 00:42:26,630
+And then l,1 sine theta
+1 times theta 1 dot.
+
+775
+00:42:31,810 --> 00:42:44,950
+And x,2 dot is going to be x,1
+dot plus l,2 c,1 plus 2 times
+
+776
+00:42:44,950 --> 00:42:47,950
+theta 1 dot plus theta 2 dot.
+
+777
+00:42:51,070 --> 00:42:58,040
+And l,2 s,1 plus 2 theta
+1 dot plus theta 2 dot.
+
+778
+00:43:02,710 --> 00:43:08,290
+So we now have solved the
+kinematics of the machine.
+
+779
+00:43:08,290 --> 00:43:20,260
+To write the dynamics
+Lagrangian style
+
+780
+00:43:20,260 --> 00:43:23,120
+we need to think about
+the energy of the system.
+
+781
+00:43:23,120 --> 00:43:26,440
+So let's call T the
+total kinetic energy.
+
+782
+00:43:36,730 --> 00:43:39,580
+And in this case,
+it's pretty simple.
+
+783
+00:43:39,580 --> 00:43:42,480
+This is why I went
+with point masses.
+
+784
+00:43:42,480 --> 00:43:47,490
+It's 1/2 mv squared,
+which in vector form,
+
+785
+00:43:47,490 --> 00:44:00,900
+looks like 1/2x 1 dot transpose
+m,1 x,1 dot plus 1/2 x,2 dot
+
+786
+00:44:00,900 --> 00:44:03,690
+transpose m,2 x,2 dot.
+
+787
+00:44:15,510 --> 00:44:16,020
+OK.
+
+788
+00:44:16,020 --> 00:44:24,330
+And then we're going to define
+the total potential energy
+
+789
+00:44:24,330 --> 00:44:24,990
+as u.
+
+790
+00:44:28,300 --> 00:44:35,850
+And this it's just mg times the
+vertical position of the thing.
+
+791
+00:44:35,850 --> 00:44:45,000
+So it's just mass 1 times
+gravity times I'll call it--
+
+792
+00:44:45,000 --> 00:44:50,130
+I guess I'll just call it y,1,
+which is the second element
+
+793
+00:44:50,130 --> 00:44:52,020
+of that.
+
+794
+00:44:52,020 --> 00:44:53,820
+I want to even not
+introduce new symbol.
+
+795
+00:44:53,820 --> 00:45:00,420
+We'll just do l,1 c,1 negative.
+
+796
+00:45:00,420 --> 00:45:18,020
+And this is minus m,2 g, y,2,
+which is l,1 c,1 plus l,2 c,1
+
+797
+00:45:18,020 --> 00:45:19,970
+plus 2.
+
+798
+00:45:19,970 --> 00:45:21,620
+Sorry for going into the corner.
+
+799
+00:45:21,620 --> 00:45:22,120
+OK.
+
+800
+00:45:22,120 --> 00:45:30,040
+But you can all write the
+kinetic and potential energy
+
+801
+00:45:30,040 --> 00:45:32,500
+of the system.
+
+802
+00:45:32,500 --> 00:45:37,990
+So Lagrangian derivations
+of the equations of motion
+
+803
+00:45:37,990 --> 00:45:43,720
+just uses this Lagrangian,
+which is the difference
+
+804
+00:45:43,720 --> 00:45:46,150
+in the kinetic minus potential.
+
+805
+00:45:46,150 --> 00:45:51,100
+And I think a very good exercise
+is to understand the reason why
+
+806
+00:45:51,100 --> 00:45:52,060
+this works.
+
+807
+00:45:52,060 --> 00:45:54,820
+But for our class, we can
+actually just use it as a crank
+
+808
+00:45:54,820 --> 00:45:55,810
+that we can turn.
+
+809
+00:45:55,810 --> 00:46:14,160
+If we write this out, and then
+you do some simple math on it,
+
+810
+00:46:14,160 --> 00:46:27,340
+where this is called
+a generalized force,
+
+811
+00:46:27,340 --> 00:46:31,510
+it turns out if you plug
+these in to this equation,
+
+812
+00:46:31,510 --> 00:46:34,082
+turn your calculus
+crank, then you end up
+
+813
+00:46:34,082 --> 00:46:35,290
+with the equations of motion.
+
+814
+00:46:35,290 --> 00:46:38,410
+You end up with two equations
+that have the form--
+
+815
+00:46:45,230 --> 00:46:50,840
+they give you some equations
+in terms of F, q, q-dot,
+
+816
+00:46:50,840 --> 00:46:56,750
+q-double-dot, it's
+some function of q,
+
+817
+00:46:56,750 --> 00:46:58,572
+and this is actually
+where the u's come in.
+
+818
+00:46:58,572 --> 00:47:00,530
+So in the simplest form,
+it comes up like this.
+
+819
+00:47:03,530 --> 00:47:05,750
+And with a little
+work, let the call
+
+820
+00:47:05,750 --> 00:47:08,960
+that F-Lagrangian so it's not
+the same F. With a little work,
+
+821
+00:47:08,960 --> 00:47:11,090
+you can separate out
+the q-double-dots
+
+822
+00:47:11,090 --> 00:47:14,082
+and get it to the
+vector equations
+
+823
+00:47:14,082 --> 00:47:15,290
+we were talking about before.
+
+824
+00:47:20,490 --> 00:47:20,990
+OK.
+
+825
+00:47:20,990 --> 00:47:23,720
+If you take those equations
+that you get and you pop them
+
+826
+00:47:23,720 --> 00:47:33,250
+into MATLAB, and
+it's pretty simple
+
+827
+00:47:33,250 --> 00:47:36,250
+to start simulating
+the equations of motion
+
+828
+00:47:36,250 --> 00:47:38,950
+of the two-link arm.
+
+829
+00:47:38,950 --> 00:47:40,890
+This is with zero control input.
+
+830
+00:47:40,890 --> 00:47:45,520
+So this is just what happens
+if you take some two-link arm,
+
+831
+00:47:45,520 --> 00:47:47,920
+apply no torque, let it go.
+
+832
+00:47:47,920 --> 00:47:51,280
+Then you get this.
+
+833
+00:47:51,280 --> 00:47:53,670
+I put some damping in
+there extra so we didn't
+
+834
+00:47:53,670 --> 00:47:56,160
+have a demonstration of chaos.
+
+835
+00:47:56,160 --> 00:48:02,410
+But there's a pretty
+procedural way
+
+836
+00:48:02,410 --> 00:48:04,600
+to go from very
+simple kinematics,
+
+837
+00:48:04,600 --> 00:48:07,810
+doing some pretty simple
+energy calculations,
+
+838
+00:48:07,810 --> 00:48:10,000
+and getting yourself to
+a simulation of even very
+
+839
+00:48:10,000 --> 00:48:13,720
+complicated mechanical systems.
+
+840
+00:48:13,720 --> 00:48:15,598
+So the forward
+dynamics, we understand.
+
+841
+00:48:15,598 --> 00:48:17,890
+Now it turns out, there's
+actually very good algorithms
+
+842
+00:48:17,890 --> 00:48:18,432
+for this too.
+
+843
+00:48:18,432 --> 00:48:20,380
+If you have a 100-link
+robot, you certainly
+
+844
+00:48:20,380 --> 00:48:22,690
+wouldn't want to turn
+the crank by hand.
+
+845
+00:48:22,690 --> 00:48:25,203
+But you can download
+good software packages
+
+846
+00:48:25,203 --> 00:48:27,370
+that write recursive versions
+of this algorithm that
+
+847
+00:48:27,370 --> 00:48:33,440
+have very efficient
+computation of those dynamics.
+
+848
+00:48:33,440 --> 00:48:35,737
+OK.
+
+849
+00:48:35,737 --> 00:48:37,570
+Now let's start thinking
+about what it means
+
+850
+00:48:37,570 --> 00:48:38,862
+to have control in that system.
+
+851
+00:49:07,730 --> 00:49:10,770
+It turns out, if you enough of
+these equations, if you punch
+
+852
+00:49:10,770 --> 00:49:13,890
+in enough different robotic
+arms and walking robots
+
+853
+00:49:13,890 --> 00:49:15,670
+or whatever-- oh, John yeah?
+
+854
+00:49:15,670 --> 00:49:17,380
+AUDIENCE: I think
+maybe minus 3L/3q.
+
+855
+00:49:17,380 --> 00:49:20,040
+RUSS TEDRAKE: Yeah, OK.
+
+856
+00:49:20,040 --> 00:49:20,540
+Good catch.
+
+857
+00:49:32,420 --> 00:49:32,920
+OK.
+
+858
+00:49:32,920 --> 00:49:35,180
+So if you start punching
+these equations enough,
+
+859
+00:49:35,180 --> 00:49:37,240
+then and then you start
+noticing a pattern.
+
+860
+00:49:37,240 --> 00:49:40,750
+Turns out, even very
+complicated robotic arms
+
+861
+00:49:40,750 --> 00:49:44,950
+tend to have equations that
+fall into this stereotyped form.
+
+862
+00:50:09,090 --> 00:50:09,590
+OK.
+
+863
+00:50:09,590 --> 00:50:12,590
+This is almost just f equals ma.
+
+864
+00:50:12,590 --> 00:50:16,025
+This is the mass matrix,
+the inertial matrix.
+
+865
+00:50:27,190 --> 00:50:34,440
+The c here is the
+Coriolis terms.
+
+866
+00:50:42,880 --> 00:50:46,120
+The g here is the
+gravitational terms--
+
+867
+00:50:46,120 --> 00:50:46,900
+potential terms.
+
+868
+00:50:53,010 --> 00:50:55,485
+And then this is the torques.
+
+869
+00:51:04,228 --> 00:51:06,020
+These are called the
+manipulator equations.
+
+870
+00:51:06,020 --> 00:51:07,250
+We're going to revisit them.
+
+871
+00:51:07,250 --> 00:51:09,900
+You don't have to have complete
+intuition about them right now.
+
+872
+00:51:09,900 --> 00:51:22,040
+But what I want
+you to understand
+
+873
+00:51:22,040 --> 00:51:25,340
+is that if you take
+the Lagrangian dynamics
+
+874
+00:51:25,340 --> 00:51:29,335
+on some rigid body
+manipulator, then
+
+875
+00:51:29,335 --> 00:51:30,710
+you're going to
+get something out
+
+876
+00:51:30,710 --> 00:51:32,370
+in a form that looks like this.
+
+877
+00:51:32,370 --> 00:51:34,430
+Now this is actually a
+pretty powerful equation.
+
+878
+00:51:37,782 --> 00:51:38,990
+It tells you a lot of things.
+
+879
+00:51:38,990 --> 00:51:42,230
+So there's a
+q-double-dot term that's
+
+880
+00:51:42,230 --> 00:51:46,910
+multiplied linearly by something
+that only depends on q.
+
+881
+00:51:46,910 --> 00:51:48,920
+So by leaving q-dot
+here, I've already
+
+882
+00:51:48,920 --> 00:51:52,880
+strengthened my form by putting
+q-double-dot in linear here.
+
+883
+00:51:52,880 --> 00:51:54,950
+So arbitrary equations
+don't fit this.
+
+884
+00:51:54,950 --> 00:51:57,440
+This is a pretty special
+set of equations.
+
+885
+00:51:57,440 --> 00:51:59,420
+There's some terms
+that depend on q-dot.
+
+886
+00:51:59,420 --> 00:52:04,257
+And then there's some potential
+terms which only depend on q.
+
+887
+00:52:04,257 --> 00:52:05,840
+And then we have our
+joint torque king
+
+888
+00:52:05,840 --> 00:52:08,090
+of things over here.
+
+889
+00:52:08,090 --> 00:52:10,760
+And in fact, there's actually
+a lot of well-known structure
+
+890
+00:52:10,760 --> 00:52:11,978
+in these equations.
+
+891
+00:52:11,978 --> 00:52:13,520
+So it turns out, I
+could have written
+
+892
+00:52:13,520 --> 00:52:21,710
+the energy of the system as 1/2
+q-dot transpose H, q, q-dot.
+
+893
+00:52:21,710 --> 00:52:25,902
+This inertial matrix
+analogous to mass
+
+894
+00:52:25,902 --> 00:52:27,860
+is related to the kinetic
+energy of the system.
+
+895
+00:52:35,350 --> 00:52:37,060
+And what that means
+actually, just
+
+896
+00:52:37,060 --> 00:52:40,840
+by thinking of it this
+way, it's well-known
+
+897
+00:52:40,840 --> 00:52:43,795
+that H is positive definite.
+
+898
+00:52:43,795 --> 00:52:46,270
+It's uniformly
+positive definite.
+
+899
+00:52:46,270 --> 00:52:49,550
+You can't have a
+negative kinetic energy.
+
+900
+00:52:49,550 --> 00:52:52,520
+And that manifests itself
+that this matrix H, which
+
+901
+00:52:52,520 --> 00:52:56,650
+appears all the
+time, turns out to be
+
+902
+00:52:56,650 --> 00:53:01,540
+equivalent to its
+transpose, its symmetric,
+
+903
+00:53:01,540 --> 00:53:03,084
+and its positive definite.
+
+904
+00:53:05,690 --> 00:53:07,807
+That's shorthand for
+positive definite.
+
+905
+00:53:07,807 --> 00:53:09,140
+It's a matrix greater than zero.
+
+906
+00:53:22,290 --> 00:53:29,070
+And in fact, if you look at
+the equations I punched in
+
+907
+00:53:29,070 --> 00:53:35,330
+for the robotic
+arm, it's exactly
+
+908
+00:53:35,330 --> 00:53:39,080
+just a matter of
+computing H, C, G,
+
+909
+00:53:39,080 --> 00:53:46,990
+and B, which is the matrix
+that maps your control
+
+910
+00:53:46,990 --> 00:53:48,700
+inputs into joint torques.
+
+911
+00:53:51,310 --> 00:53:55,180
+So H is a inertial matrix.
+
+912
+00:53:55,180 --> 00:53:56,020
+C is Coriolis.
+
+913
+00:53:56,020 --> 00:53:57,050
+G is gravity.
+
+914
+00:53:57,050 --> 00:53:58,480
+I think B was this because
+people were running out
+
+915
+00:53:58,480 --> 00:53:58,930
+of letters.
+
+916
+00:53:58,930 --> 00:53:59,472
+I don't know.
+
+917
+00:53:59,472 --> 00:54:01,570
+I don't know a
+reason to call it B.
+
+918
+00:54:01,570 --> 00:54:04,420
+But in general, B could
+be a function of q maybe.
+
+919
+00:54:04,420 --> 00:54:07,210
+But it's just some mapping
+between your control inputs
+
+920
+00:54:07,210 --> 00:54:08,710
+in the torques that
+you want to get.
+
+921
+00:54:16,700 --> 00:54:19,340
+OK.
+
+922
+00:54:19,340 --> 00:54:24,260
+So knowing that I've taken
+my simple manipulator,
+
+923
+00:54:24,260 --> 00:54:28,430
+I found equations of
+motion that take this form.
+
+924
+00:54:28,430 --> 00:54:33,140
+If I have torques to give--
+
+925
+00:54:33,140 --> 00:54:38,420
+torques at both the
+elbow and the shoulder,
+
+926
+00:54:38,420 --> 00:54:48,130
+then it turns out for
+that example, H and c
+
+927
+00:54:48,130 --> 00:54:51,010
+and G all just come
+from the Lagrangian.
+
+928
+00:54:51,010 --> 00:54:55,030
+And B-- what's B going
+to be in that example?
+
+929
+00:54:58,090 --> 00:55:01,318
+What size is it
+going to be first?
+
+930
+00:55:01,318 --> 00:55:02,435
+AUDIENCE: 2 by 2.
+
+931
+00:55:02,435 --> 00:55:03,310
+RUSS TEDRAKE: 2 by 2.
+
+932
+00:55:06,370 --> 00:55:10,510
+And if I'm assuming that my
+control inputs are exactly
+
+933
+00:55:10,510 --> 00:55:15,910
+the torques, then B is just
+the 2 by 2 identity matrix.
+
+934
+00:55:26,020 --> 00:55:28,840
+Is this system fully actuated?
+
+935
+00:55:28,840 --> 00:55:29,970
+AUDIENCE: Yes.
+
+936
+00:55:29,970 --> 00:55:31,595
+RUSS TEDRAKE: Why is
+it fully actuated?
+
+937
+00:55:31,595 --> 00:55:34,540
+AUDIENCE: Because the rank of
+the [INAUDIBLE] matrix is 2.
+
+938
+00:55:34,540 --> 00:55:35,650
+RUSS TEDRAKE: OK.
+
+939
+00:55:35,650 --> 00:55:37,950
+But there's one other term
+that was one other part
+
+940
+00:55:37,950 --> 00:55:40,550
+of that statement.
+
+941
+00:55:40,550 --> 00:55:44,388
+AUDIENCE: That's equal to
+the dimension of q-dot.
+
+942
+00:55:44,388 --> 00:55:46,180
+RUSS TEDRAKE: But I
+need to get the mapping
+
+943
+00:55:46,180 --> 00:55:48,028
+from q-double-dot u.
+
+944
+00:55:48,028 --> 00:55:49,900
+AUDIENCE: Oh, matrix
+is positive definite.
+
+945
+00:55:49,900 --> 00:55:50,800
+RUSS TEDRAKE: Yeah.
+
+946
+00:55:50,800 --> 00:55:53,050
+Because the inertial matrices
+are always also positive
+
+947
+00:55:53,050 --> 00:55:57,910
+definite, that if I actually
+write out q-double-dot that
+
+948
+00:55:57,910 --> 00:56:02,290
+for these systems, I get an
+H inverse q times all that
+
+949
+00:56:02,290 --> 00:56:03,940
+stuff--
+
+950
+00:56:03,940 --> 00:56:08,490
+B, q, u minus C--
+
+951
+00:56:08,490 --> 00:56:19,540
+oh leave the q-dot G. And
+we know H inverse exists.
+
+952
+00:56:19,540 --> 00:56:21,520
+I told you it's
+positive definite.
+
+953
+00:56:21,520 --> 00:56:24,400
+So as long as this thing is
+full rank, which as you said,
+
+954
+00:56:24,400 --> 00:56:26,380
+it is, then that
+system's fully actuated.
+
+955
+00:56:29,830 --> 00:56:30,340
+OK.
+
+956
+00:56:30,340 --> 00:56:33,020
+That means I can do anything
+I want to that system.
+
+957
+00:56:33,020 --> 00:56:34,270
+What should we do that system?
+
+958
+00:56:34,270 --> 00:56:35,020
+What should we do?
+
+959
+00:56:38,127 --> 00:56:40,750
+Let's replace the dynamics
+with something else.
+
+960
+00:56:40,750 --> 00:56:41,920
+Well, I can't do anything.
+
+961
+00:56:41,920 --> 00:56:44,440
+It's going to have to be
+two variables or less,
+
+962
+00:56:44,440 --> 00:56:45,792
+the system I want to simulate.
+
+963
+00:56:45,792 --> 00:56:48,000
+I can't make it simulate a
+whip if I've only got two.
+
+964
+00:56:48,000 --> 00:56:49,800
+But I can make it
+simulate any sort
+
+965
+00:56:49,800 --> 00:56:54,930
+of two-dimensional
+second-order system.
+
+966
+00:56:54,930 --> 00:56:57,720
+OK.
+
+967
+00:56:57,720 --> 00:57:00,740
+How about we take our
+two-link pendulum and make it
+
+968
+00:57:00,740 --> 00:57:03,030
+act like a one-link pendulum.
+
+969
+00:57:03,030 --> 00:57:05,477
+That's a simple
+enough thing to do.
+
+970
+00:57:05,477 --> 00:57:07,560
+So what I'd do is I'd find
+the equations of motion
+
+971
+00:57:07,560 --> 00:57:11,040
+for the one-link
+pendulum, and I just
+
+972
+00:57:11,040 --> 00:57:13,950
+do my feedback
+linearization trick.
+
+973
+00:57:13,950 --> 00:57:17,580
+I'd cancel it out, and
+I'd replace the dynamics
+
+974
+00:57:17,580 --> 00:57:19,110
+with the one-link pendulum.
+
+975
+00:57:26,620 --> 00:57:27,330
+All right.
+
+976
+00:57:27,330 --> 00:57:32,250
+So if you can see this,
+it's just a matter
+
+977
+00:57:32,250 --> 00:57:35,115
+of saying u is C times x-dot.
+
+978
+00:57:41,524 --> 00:57:43,670
+In my MATLAB code
+and in lecture,
+
+979
+00:57:43,670 --> 00:57:49,986
+I'll use x to mean the
+combination of q and q-dot.
+
+980
+00:57:57,110 --> 00:58:00,980
+I can just do my exact
+feedback linear trick--
+
+981
+00:58:00,980 --> 00:58:03,785
+u is C plus G.
+
+982
+00:58:03,785 --> 00:58:05,660
+Let's see if I can make
+this a little better.
+
+983
+00:58:08,460 --> 00:58:10,820
+And there's the equations
+of a simple pendulum
+
+984
+00:58:10,820 --> 00:58:13,560
+with a little damping.
+
+985
+00:58:13,560 --> 00:58:20,120
+In my control system,
+if I say, lecture1--
+
+986
+00:58:20,120 --> 00:58:25,140
+I think I put under simple
+pend, then suddenly, my two-link
+
+987
+00:58:25,140 --> 00:58:27,140
+pendulum-- the dynamics
+of my two-link pendulum,
+
+988
+00:58:27,140 --> 00:58:29,240
+when I'm simulating
+those entire dynamics,
+
+989
+00:58:29,240 --> 00:58:34,235
+work out to be the dynamics
+of my one-link pendulum.
+
+990
+00:58:34,235 --> 00:58:35,870
+So it's maybe not
+a useful trick.
+
+991
+00:58:35,870 --> 00:58:37,495
+If I really wanted
+a one-link pendulum,
+
+992
+00:58:37,495 --> 00:58:39,260
+I could have done a
+one-link pendulum.
+
+993
+00:58:39,260 --> 00:58:41,570
+Let's say I want to do
+something more clever maybe.
+
+994
+00:58:41,570 --> 00:58:43,430
+Let's invert gravity.
+
+995
+00:58:43,430 --> 00:58:46,700
+Let's take my inverted
+pendulum problem
+
+996
+00:58:46,700 --> 00:58:49,400
+and make it work
+by just replacing
+
+997
+00:58:49,400 --> 00:58:52,400
+the dynamics of my pendulum
+with an upside-down pendulum.
+
+998
+00:58:52,400 --> 00:58:55,310
+So maybe if I want to just
+get the pendulum to the top,
+
+999
+00:58:55,310 --> 00:58:58,910
+let's just make it act like
+an upside-down pendulum.
+
+1000
+00:58:58,910 --> 00:59:00,320
+So we can do that too.
+
+1001
+00:59:00,320 --> 00:59:00,820
+Woop.
+
+1002
+00:59:09,070 --> 00:59:10,720
+When I say it the
+way I'm saying it,
+
+1003
+00:59:10,720 --> 00:59:14,530
+I hope it sounds like, of
+course, if the system's
+
+1004
+00:59:14,530 --> 00:59:17,420
+feedback linearizable, you
+can do whatever you want.
+
+1005
+00:59:17,420 --> 00:59:17,920
+It's easy.
+
+1006
+00:59:17,920 --> 00:59:21,910
+It's not worth thinking
+about these kind of things.
+
+1007
+00:59:21,910 --> 00:59:24,550
+I mean, that's what I'm
+trying to communicate.
+
+1008
+00:59:24,550 --> 00:59:31,630
+But almost every cool
+robot that works because
+
+1009
+00:59:31,630 --> 00:59:33,370
+of these kind of tricks.
+
+1010
+00:59:33,370 --> 00:59:37,480
+They're hidden,
+but they're there.
+
+1011
+00:59:37,480 --> 00:59:40,060
+A lot of the reason robotic
+arms work as well as they
+
+1012
+00:59:40,060 --> 00:59:42,370
+do is because you can do this.
+
+1013
+00:59:42,370 --> 00:59:43,720
+Now there's limits, right?
+
+1014
+00:59:43,720 --> 00:59:47,980
+You can only do this if
+you have unlimited torque.
+
+1015
+00:59:47,980 --> 00:59:50,590
+In practice, a lot
+of robotic arms
+
+1016
+00:59:50,590 --> 00:59:52,600
+have almost unlimited
+torque to give.
+
+1017
+00:59:52,600 --> 00:59:56,410
+They've got big
+gearboxes, right?
+
+1018
+00:59:56,410 --> 00:59:58,750
+You'd be surprised how
+pervasive this idea is.
+
+1019
+01:00:01,360 --> 01:00:06,032
+So what this class
+is about is what
+
+1020
+01:00:06,032 --> 01:00:07,240
+happens if you can't do that?
+
+1021
+01:00:11,780 --> 01:00:12,300
+All right.
+
+1022
+01:00:12,300 --> 01:00:14,652
+So let's take our
+hour two-link arm.
+
+1023
+01:00:14,652 --> 01:00:15,860
+How are we going to break it?
+
+1024
+01:00:15,860 --> 01:00:19,530
+How are we going to make it
+so we can't do that anymore?
+
+1025
+01:00:19,530 --> 01:00:21,720
+What's a more
+interesting problem?
+
+1026
+01:00:21,720 --> 01:00:23,460
+AUDIENCE: Get rid of one motor.
+
+1027
+01:00:23,460 --> 01:00:26,040
+RUSS TEDRAKE: Get
+rid of a motor.
+
+1028
+01:00:26,040 --> 01:00:28,410
+Let's get rid of
+the shoulder motor.
+
+1029
+01:00:28,410 --> 01:00:29,790
+That seems like
+an important one.
+
+1030
+01:00:29,790 --> 01:00:33,072
+Let's see what happens if we
+take that right out of there.
+
+1031
+01:00:33,072 --> 01:00:34,530
+So the equations
+of motion actually
+
+1032
+01:00:34,530 --> 01:00:39,120
+stay exactly the same,
+except for now, B of q
+
+1033
+01:00:39,120 --> 01:00:47,430
+is going to have to
+be smaller if u is now
+
+1034
+01:00:47,430 --> 01:00:50,100
+just one-dimensional.
+
+1035
+01:00:50,100 --> 01:00:53,370
+I've got a single control input.
+
+1036
+01:00:53,370 --> 01:00:57,720
+And B of q is just
+going to be what size?
+
+1037
+01:00:57,720 --> 01:00:59,567
+AUDIENCE: 1 by 1?
+
+1038
+01:00:59,567 --> 01:01:00,900
+RUSS TEDRAKE: It's going to be--
+
+1039
+01:01:00,900 --> 01:01:03,502
+it's got to get to a
+two-dimensional thing.
+
+1040
+01:01:03,502 --> 01:01:04,710
+So it's going to be a 2 by 1.
+
+1041
+01:01:07,770 --> 01:01:10,872
+And let's say if as I
+drew it, that 2 by 1
+
+1042
+01:01:10,872 --> 01:01:13,080
+is going to have nothing to
+do to the shoulder motor.
+
+1043
+01:01:13,080 --> 01:01:16,560
+If I assume the first
+one is the shoulder,
+
+1044
+01:01:16,560 --> 01:01:18,840
+it's going to have direct
+control of the elbow.
+
+1045
+01:01:24,260 --> 01:01:27,327
+Suddenly, it's a
+whole different game.
+
+1046
+01:01:27,327 --> 01:01:29,160
+Turns out, you can still
+solve that problem.
+
+1047
+01:01:29,160 --> 01:01:30,577
+I wasn't thinking
+of showing this.
+
+1048
+01:01:30,577 --> 01:01:37,390
+But let me preview something
+to come quickly here.
+
+1049
+01:01:53,550 --> 01:01:54,717
+This is exactly that system.
+
+1050
+01:01:54,717 --> 01:01:56,383
+It's a system we're
+going to talk about.
+
+1051
+01:01:56,383 --> 01:01:57,540
+It's called the Acrobot.
+
+1052
+01:01:57,540 --> 01:02:00,418
+It's got inertia in the
+links instead of the mass.
+
+1053
+01:02:00,418 --> 01:02:02,460
+And if you take these
+computer science techniques
+
+1054
+01:02:02,460 --> 01:02:04,770
+I'm going to tell
+you about, then
+
+1055
+01:02:04,770 --> 01:02:07,860
+you can, for instance, find
+a solution for the torque
+
+1056
+01:02:07,860 --> 01:02:10,837
+at the elbow to try to make
+this thing go to the top.
+
+1057
+01:02:10,837 --> 01:02:12,420
+If you think about
+it, it's actually--
+
+1058
+01:02:12,420 --> 01:02:15,120
+it's called the Acrobot
+because it's like an acrobat
+
+1059
+01:02:15,120 --> 01:02:17,115
+on the high bar,
+where you don't have--
+
+1060
+01:02:17,115 --> 01:02:19,930
+you can only give a little
+bit of torque at the wrist.
+
+1061
+01:02:19,930 --> 01:02:22,920
+You can do a lot with
+your waist, potentially.
+
+1062
+01:02:22,920 --> 01:02:26,400
+So this, if you do
+a clever job, you
+
+1063
+01:02:26,400 --> 01:02:30,900
+can actually pump up energy and
+swing up and get to the top.
+
+1064
+01:02:30,900 --> 01:02:32,650
+But that's a lot harder problem.
+
+1065
+01:02:32,650 --> 01:02:37,170
+And I can't write that
+down in a single board here
+
+1066
+01:02:37,170 --> 01:02:38,670
+at 72-point font.
+
+1067
+01:02:41,340 --> 01:02:43,600
+But we're going to do
+that very, very soon.
+
+1068
+01:02:47,770 --> 01:02:50,760
+So I hope you know what
+underactuated means now.
+
+1069
+01:02:53,880 --> 01:02:55,740
+Why would I care
+about a system that's
+
+1070
+01:02:55,740 --> 01:02:59,430
+missing its shoulder motor?
+
+1071
+01:02:59,430 --> 01:03:01,305
+That seems pretty arbitrary.
+
+1072
+01:03:01,305 --> 01:03:04,350
+If I'm building a robot, I might
+as well order enough motors
+
+1073
+01:03:04,350 --> 01:03:07,050
+to put them everywhere.
+
+1074
+01:03:07,050 --> 01:03:10,740
+It turns out if you care
+about walking robots,
+
+1075
+01:03:10,740 --> 01:03:12,840
+one of the simplest
+models of a walking robot
+
+1076
+01:03:12,840 --> 01:03:14,370
+is called the
+compass gait robot.
+
+1077
+01:03:14,370 --> 01:03:15,960
+It's got a mass at the hip.
+
+1078
+01:03:15,960 --> 01:03:17,940
+It's got two legs.
+
+1079
+01:03:17,940 --> 01:03:20,340
+We can even assume it's
+got a pin joint here.
+
+1080
+01:03:20,340 --> 01:03:24,480
+That's the connection to the--
+that's the foot on the ground.
+
+1081
+01:03:24,480 --> 01:03:28,020
+And it's got to torque
+to give here at the hip.
+
+1082
+01:03:28,020 --> 01:03:30,703
+But it can't apply
+torque to the ground.
+
+1083
+01:03:30,703 --> 01:03:32,370
+It's not because it's
+not an artificial.
+
+1084
+01:03:32,370 --> 01:03:38,070
+If I had a foot, then
+suddenly, my toe--
+
+1085
+01:03:38,070 --> 01:03:40,200
+somewhere, you're not
+bolted to the ground.
+
+1086
+01:03:40,200 --> 01:03:45,190
+So you've got a bunch
+of interesting links,
+
+1087
+01:03:45,190 --> 01:03:47,723
+and you can apply torque
+between your links.
+
+1088
+01:03:47,723 --> 01:03:49,140
+But the place where
+you might want
+
+1089
+01:03:49,140 --> 01:03:51,030
+it the most-- your
+shoulder motor,
+
+1090
+01:03:51,030 --> 01:03:52,560
+your elbow motor,
+whatever it is--
+
+1091
+01:03:52,560 --> 01:03:53,850
+the place that connects
+you to the ground,
+
+1092
+01:03:53,850 --> 01:03:54,720
+you don't have a motor.
+
+1093
+01:03:54,720 --> 01:03:55,830
+And you can't have a
+motor unless you're
+
+1094
+01:03:55,830 --> 01:03:57,540
+willing to stick
+yourself to the ground.
+
+1095
+01:03:57,540 --> 01:04:00,240
+Suction cups are a viable thing
+for walking robots, I guess.
+
+1096
+01:04:00,240 --> 01:04:04,350
+But the more
+interesting problem is
+
+1097
+01:04:04,350 --> 01:04:06,510
+how do you do
+control if you don't
+
+1098
+01:04:06,510 --> 01:04:09,300
+have to be stuck to the ground?
+
+1099
+01:04:09,300 --> 01:04:13,950
+So that two-link
+simple point mass thing
+
+1100
+01:04:13,950 --> 01:04:16,890
+is actually exactly the dynamics
+of the compass gait walker
+
+1101
+01:04:16,890 --> 01:04:20,560
+that we'll talk
+about fairly soon.
+
+1102
+01:04:20,560 --> 01:04:22,870
+OK so I've got no torque here.
+
+1103
+01:04:22,870 --> 01:04:23,850
+Torque equals 0 there.
+
+1104
+01:04:26,370 --> 01:04:31,260
+Every walking robot
+is underactuated.
+
+1105
+01:04:31,260 --> 01:04:33,930
+The same thing is true.
+
+1106
+01:04:33,930 --> 01:04:36,908
+If I'm a humanoid,
+I'm trying to control
+
+1107
+01:04:36,908 --> 01:04:37,950
+all of my state variable.
+
+1108
+01:04:37,950 --> 01:04:39,075
+That's the question, right?
+
+1109
+01:04:39,075 --> 01:04:43,110
+Do I have enough motors
+to instantaneously affect
+
+1110
+01:04:43,110 --> 01:04:44,070
+every state variable?
+
+1111
+01:04:44,070 --> 01:04:46,710
+That's the question.
+
+1112
+01:04:46,710 --> 01:04:51,337
+If you count the number of
+motors on me, it's a lot.
+
+1113
+01:04:51,337 --> 01:04:53,295
+They might not be as
+strong as they used to be.
+
+1114
+01:04:53,295 --> 01:04:54,045
+But they're there.
+
+1115
+01:04:54,045 --> 01:04:55,050
+There's a lot of them.
+
+1116
+01:04:55,050 --> 01:04:56,160
+If you count the number
+of degrees of freedom,
+
+1117
+01:04:56,160 --> 01:04:57,480
+that's hard too.
+
+1118
+01:04:57,480 --> 01:04:59,730
+But no matter what
+your count, your tally
+
+1119
+01:04:59,730 --> 01:05:03,845
+adds up to, if I jump,
+when I'm up in the air--
+
+1120
+01:05:03,845 --> 01:05:05,220
+I'm not going to
+do that for you.
+
+1121
+01:05:05,220 --> 01:05:08,190
+But when I'm up in the
+air, none of those motors,
+
+1122
+01:05:08,190 --> 01:05:10,500
+no matter what I do,
+I could do something
+
+1123
+01:05:10,500 --> 01:05:13,200
+with my arms, whatever,
+ignoring aerodynamic forces.
+
+1124
+01:05:13,200 --> 01:05:15,690
+None of those motors are
+going to change the trajectory
+
+1125
+01:05:15,690 --> 01:05:17,908
+of my center of mass.
+
+1126
+01:05:17,908 --> 01:05:19,950
+There's nothing I can do
+to change the trajectory
+
+1127
+01:05:19,950 --> 01:05:20,825
+of my center of mass.
+
+1128
+01:05:20,825 --> 01:05:22,533
+I can move relative
+to my center mass,
+
+1129
+01:05:22,533 --> 01:05:23,700
+change my angle of momentum.
+
+1130
+01:05:23,700 --> 01:05:24,908
+I can serve angular momentum.
+
+1131
+01:05:24,908 --> 01:05:26,760
+I can move things around.
+
+1132
+01:05:26,760 --> 01:05:29,540
+But nothing I can do is
+going to move my center mass.
+
+1133
+01:05:29,540 --> 01:05:32,070
+A walking robot--
+a jumping robot,
+
+1134
+01:05:32,070 --> 01:05:34,620
+for sure, is underactuated.
+
+1135
+01:05:34,620 --> 01:05:37,920
+A flying machine
+is underactuated.
+
+1136
+01:05:37,920 --> 01:05:39,880
+I mean, fighter jets
+are a good example.
+
+1137
+01:05:39,880 --> 01:05:42,410
+You can go that way pretty well.
+
+1138
+01:05:42,410 --> 01:05:44,160
+You know, they don't
+go backwards so well,
+
+1139
+01:05:44,160 --> 01:05:45,720
+for instance.
+
+1140
+01:05:45,720 --> 01:05:47,880
+All right, they don't
+go directly up so well.
+
+1141
+01:05:47,880 --> 01:05:52,200
+Although, I can show you
+videos of that kind of thing.
+
+1142
+01:05:52,200 --> 01:05:53,550
+birds-- you name it.
+
+1143
+01:05:53,550 --> 01:05:58,065
+These systems tend to have
+control variables that you're
+
+1144
+01:05:58,065 --> 01:05:59,190
+not in complete control of.
+
+1145
+01:05:59,190 --> 01:06:01,470
+Manipulation-- if I'm
+throwing this chalk around,
+
+1146
+01:06:01,470 --> 01:06:05,610
+I don't have complete
+control of that chalk.
+
+1147
+01:06:05,610 --> 01:06:07,655
+If I form a force
+closure with it,
+
+1148
+01:06:07,655 --> 01:06:09,030
+then you can maybe
+start thinking
+
+1149
+01:06:09,030 --> 01:06:12,030
+I'm a fully actuated system.
+
+1150
+01:06:12,030 --> 01:06:13,860
+I can move this thing around.
+
+1151
+01:06:13,860 --> 01:06:14,440
+That's fine.
+
+1152
+01:06:14,440 --> 01:06:16,440
+But I think the interesting
+part of manipulation
+
+1153
+01:06:16,440 --> 01:06:18,040
+is before you get
+that force closure.
+
+1154
+01:06:18,040 --> 01:06:18,540
+OK.
+
+1155
+01:06:18,540 --> 01:06:24,510
+So every interesting problem
+in robotics is underactuated.
+
+1156
+01:06:24,510 --> 01:06:31,470
+I'm going to give a quick sketch
+of what the rest of the term
+
+1157
+01:06:31,470 --> 01:06:33,310
+has for you.
+
+1158
+01:06:33,310 --> 01:06:34,780
+And then we're actually--
+
+1159
+01:06:34,780 --> 01:06:36,915
+we're going to try something
+new on the website.
+
+1160
+01:06:36,915 --> 01:06:38,790
+So the website's going
+to contain everything.
+
+1161
+01:06:38,790 --> 01:06:41,370
+After today, we're a
+paperless existence.
+
+1162
+01:06:41,370 --> 01:06:43,040
+The website will have
+your problem sets.
+
+1163
+01:06:43,040 --> 01:06:44,248
+It'll have the lecture notes.
+
+1164
+01:06:44,248 --> 01:06:46,560
+You can submit your problems
+that's on the website.
+
+1165
+01:06:46,560 --> 01:06:48,060
+We're also going
+to try a new thing.
+
+1166
+01:06:48,060 --> 01:06:50,538
+When I post the PDFs
+of the problem set,
+
+1167
+01:06:50,538 --> 01:06:53,080
+you'll be able to download them
+and print it out if you like.
+
+1168
+01:06:53,080 --> 01:06:57,760
+But you'll also be able to use
+this sort of interactive PDF
+
+1169
+01:06:57,760 --> 01:07:00,700
+viewer where people, instead
+of having a forum or something
+
+1170
+01:07:00,700 --> 01:07:03,940
+on the website, you could
+go right into the PDF
+
+1171
+01:07:03,940 --> 01:07:06,137
+and mark, say, I don't
+understand what this means.
+
+1172
+01:07:06,137 --> 01:07:07,720
+You can choose whether
+it's anonymous.
+
+1173
+01:07:07,720 --> 01:07:10,240
+You can choose whether
+everybody knows who said it.
+
+1174
+01:07:10,240 --> 01:07:12,680
+You can choose if
+it's just private.
+
+1175
+01:07:12,680 --> 01:07:15,683
+In just a minute, I'll
+show us a demo of that.
+
+1176
+01:07:15,683 --> 01:07:16,600
+We'll see if it works.
+
+1177
+01:07:16,600 --> 01:07:20,710
+And it might be a cool
+way to communicate
+
+1178
+01:07:20,710 --> 01:07:23,200
+outside of the room.
+
+1179
+01:07:23,200 --> 01:07:28,253
+But let me tell you-- let me
+forecast what's coming here.
+
+1180
+01:07:28,253 --> 01:07:30,670
+I haven't actually told you
+why this is a computer science
+
+1181
+01:07:30,670 --> 01:07:31,170
+class yet.
+
+1182
+01:07:31,170 --> 01:07:33,310
+So I can't let you
+leave without that.
+
+1183
+01:07:33,310 --> 01:07:35,320
+Here's roughly what we're doing.
+
+1184
+01:07:35,320 --> 01:07:40,450
+On Thursday, we're going to
+talk about the simple pendulum.
+
+1185
+01:07:40,450 --> 01:07:43,838
+So we talked about a
+two-link pendulum just now.
+
+1186
+01:07:43,838 --> 01:07:45,880
+We're going to take a step
+backwards on Thursday.
+
+1187
+01:07:45,880 --> 01:07:48,460
+We're going to talk about the
+dynamics of a simple pendulum.
+
+1188
+01:07:48,460 --> 01:07:49,930
+But we're going to
+talk about everything
+
+1189
+01:07:49,930 --> 01:07:51,640
+there is to know about
+the simple pendulum.
+
+1190
+01:07:51,640 --> 01:07:54,140
+And we're going to really think
+about the nonlinear dynamics
+
+1191
+01:07:54,140 --> 01:07:55,917
+and how to think about that.
+
+1192
+01:07:55,917 --> 01:07:58,000
+And then we're going to
+think about how to control
+
+1193
+01:07:58,000 --> 01:07:59,207
+that simple pendulum.
+
+1194
+01:07:59,207 --> 01:08:00,790
+But as we go in the
+class, we're going
+
+1195
+01:08:00,790 --> 01:08:02,623
+to get to more and more
+interesting systems.
+
+1196
+01:08:05,190 --> 01:08:08,450
+We're going to get to
+a cart pull system.
+
+1197
+01:08:08,450 --> 01:08:10,690
+These are some of
+the model systems
+
+1198
+01:08:10,690 --> 01:08:13,352
+in underactuated robotics.
+
+1199
+01:08:13,352 --> 01:08:15,310
+We're going to get to
+the Acrobot system I just
+
+1200
+01:08:15,310 --> 01:08:18,550
+showed you, a two-link
+thing with a torque here
+
+1201
+01:08:18,550 --> 01:08:19,689
+and no torque there.
+
+1202
+01:08:19,689 --> 01:08:20,850
+This one has a force here.
+
+1203
+01:08:20,850 --> 01:08:22,600
+We're going to think
+about the toy systems
+
+1204
+01:08:22,600 --> 01:08:24,552
+for underactuated robotics.
+
+1205
+01:08:24,552 --> 01:08:26,260
+And then we're going
+to start splintering
+
+1206
+01:08:26,260 --> 01:08:31,250
+into different domains.
+
+1207
+01:08:31,250 --> 01:08:33,340
+If we care about
+walking, then we
+
+1208
+01:08:33,340 --> 01:08:35,800
+can start thinking about these
+compass gait-type robots.
+
+1209
+01:08:35,800 --> 01:08:38,830
+And we'll talk about
+more complicated robots.
+
+1210
+01:08:38,830 --> 01:08:41,290
+And the key difference
+between here and here
+
+1211
+01:08:41,290 --> 01:08:46,090
+is just we added a few
+extra degrees of freedom.
+
+1212
+01:08:46,090 --> 01:08:48,718
+Here to here, the
+dimensionality of walking robots
+
+1213
+01:08:48,718 --> 01:08:50,260
+isn't actually
+necessarily that high.
+
+1214
+01:08:50,260 --> 01:08:51,399
+But what happens is
+you have to think
+
+1215
+01:08:51,399 --> 01:08:52,795
+about systems with impacts.
+
+1216
+01:08:58,359 --> 01:09:00,143
+And you have to think
+about limit cycles.
+
+1217
+01:09:00,143 --> 01:09:01,560
+We'll develop some
+of those tools.
+
+1218
+01:09:05,450 --> 01:09:05,950
+OK.
+
+1219
+01:09:05,950 --> 01:09:06,819
+And then we're
+going to think about
+
+1220
+01:09:06,819 --> 01:09:09,040
+how do you get away
+from these toy systems
+
+1221
+01:09:09,040 --> 01:09:11,050
+by making
+higher-dimensional systems?
+
+1222
+01:09:11,050 --> 01:09:13,399
+And it can come
+from walking too.
+
+1223
+01:09:13,399 --> 01:09:19,420
+We'll have, for instance,
+multi-link robots.
+
+1224
+01:09:19,420 --> 01:09:23,350
+And think about how to control
+the higher-dimensional systems,
+
+1225
+01:09:23,350 --> 01:09:25,235
+more Degrees Of Freedom--
+
+1226
+01:09:25,235 --> 01:09:25,735
+DOFs.
+
+1227
+01:09:29,350 --> 01:09:30,850
+Then we're going
+to think about what
+
+1228
+01:09:30,850 --> 01:09:33,220
+happens if I take
+these model systems
+
+1229
+01:09:33,220 --> 01:09:37,630
+and add some uncertainty
+or stochasticity.
+
+1230
+01:09:46,180 --> 01:09:48,760
+So a toy example for that might
+be a walking robot walking
+
+1231
+01:09:48,760 --> 01:09:50,620
+on rough terrain, let's say.
+
+1232
+01:09:53,735 --> 01:09:55,360
+And then we're going
+to think about how
+
+1233
+01:09:55,360 --> 01:09:57,400
+to take these model
+systems and what happens
+
+1234
+01:09:57,400 --> 01:09:59,620
+if we don't know the model.
+
+1235
+01:10:10,570 --> 01:10:14,470
+And that's certainly the case
+if you've got a little perching
+
+1236
+01:10:14,470 --> 01:10:17,738
+airplane, for instance,
+or a little robotic bird.
+
+1237
+01:10:17,738 --> 01:10:19,030
+I have a two-year-old daughter.
+
+1238
+01:10:19,030 --> 01:10:22,510
+And I've started being asked
+to cartoon everything I say.
+
+1239
+01:10:22,510 --> 01:10:28,825
+So I'll subject you to some
+very bad but quick cartoons.
+
+1240
+01:10:31,430 --> 01:10:31,930
+OK.
+
+1241
+01:10:31,930 --> 01:10:33,940
+So that's the systems
+we're going to think about
+
+1242
+01:10:33,940 --> 01:10:36,080
+and the reasons that
+they're interesting.
+
+1243
+01:10:36,080 --> 01:10:38,580
+Turns out, we're going to take
+a very computational approach
+
+1244
+01:10:38,580 --> 01:10:39,490
+to them.
+
+1245
+01:10:39,490 --> 01:10:42,460
+So in this system,
+we're going to start
+
+1246
+01:10:42,460 --> 01:10:43,750
+introducing optimal control.
+
+1247
+01:10:51,968 --> 01:10:53,510
+We're going to say,
+let's say, I want
+
+1248
+01:10:53,510 --> 01:10:55,677
+to get the pendulum to the
+top, but I want to do it,
+
+1249
+01:10:55,677 --> 01:10:58,340
+for instance, by minimizing
+energy or minimizing
+
+1250
+01:10:58,340 --> 01:11:00,155
+the time I get there.
+
+1251
+01:11:00,155 --> 01:11:02,030
+So we're going to talk
+about optimal control.
+
+1252
+01:11:05,840 --> 01:11:08,000
+And as much as we
+can, we're going
+
+1253
+01:11:08,000 --> 01:11:09,770
+to talk about analytical
+optimal control.
+
+1254
+01:11:14,737 --> 01:11:16,820
+But pretty quick, we're
+going to run out of things
+
+1255
+01:11:16,820 --> 01:11:18,290
+we can do analytically.
+
+1256
+01:11:18,290 --> 01:11:21,950
+And we're going to start looking
+at numerical optimal control--
+
+1257
+01:11:21,950 --> 01:11:27,398
+computer science, again,
+based on dynamic programming.
+
+1258
+01:11:38,390 --> 01:11:40,065
+And that's going to
+get us somewhere.
+
+1259
+01:11:42,920 --> 01:11:45,140
+When we start taking these
+slightly more interesting
+
+1260
+01:11:45,140 --> 01:11:50,915
+systems like this, we're going
+to develop some better tools.
+
+1261
+01:11:54,300 --> 01:12:07,280
+We're going to do numerical
+optimal control with something
+
+1262
+01:12:07,280 --> 01:12:14,420
+called policy search, which
+is a combination of tools
+
+1263
+01:12:14,420 --> 01:12:17,330
+from reinforcement
+learning, machine learning,
+
+1264
+01:12:17,330 --> 01:12:19,612
+and numerical optimization.
+
+1265
+01:12:24,520 --> 01:12:27,460
+We'll be able to do some
+of our impact modeling
+
+1266
+01:12:27,460 --> 01:12:30,677
+with that too, I guess.
+
+1267
+01:12:30,677 --> 01:12:33,010
+When we start getting into
+higher and higher dimensional
+
+1268
+01:12:33,010 --> 01:12:36,430
+systems, we're going have to
+give up on the opportunity
+
+1269
+01:12:36,430 --> 01:12:38,980
+to completely solve an
+optimal control problem
+
+1270
+01:12:38,980 --> 01:12:40,720
+numerically or analytically.
+
+1271
+01:12:40,720 --> 01:12:45,460
+And we're going to start talking
+about approximate policy search
+
+1272
+01:12:45,460 --> 01:12:47,655
+and motion planning.
+
+1273
+01:12:50,780 --> 01:12:52,812
+And I'm drawing it
+like this because I
+
+1274
+01:12:52,812 --> 01:12:54,770
+want you to see that
+we're taking a very spiral
+
+1275
+01:12:54,770 --> 01:12:56,780
+course through the class.
+
+1276
+01:12:56,780 --> 01:12:59,075
+We're going to develop
+tools that every time I
+
+1277
+01:12:59,075 --> 01:13:01,700
+develop a new tool, we're going
+to make sure we understand what
+
+1278
+01:13:01,700 --> 01:13:03,700
+the heck they do to the
+pendulum, the cart pull,
+
+1279
+01:13:03,700 --> 01:13:06,230
+and things like that,
+and work back up.
+
+1280
+01:13:06,230 --> 01:13:08,280
+So we're going to
+cover motion planning.
+
+1281
+01:13:08,280 --> 01:13:11,510
+If you know randomized
+motion planning--
+
+1282
+01:13:11,510 --> 01:13:14,990
+RRTs feedback motion planning--
+you're going to see that here.
+
+1283
+01:13:21,170 --> 01:13:24,530
+And then when you get
+into the really good stuff
+
+1284
+01:13:24,530 --> 01:13:27,530
+here, when you've got
+uncertainty, stochasticity,
+
+1285
+01:13:27,530 --> 01:13:29,450
+and unknown models,
+then we're going
+
+1286
+01:13:29,450 --> 01:13:31,760
+to have to get into pure
+machine learning approaches
+
+1287
+01:13:31,760 --> 01:13:32,780
+in some cases.
+
+1288
+01:13:35,960 --> 01:13:37,737
+That looks just
+like my yellow one.
+
+1289
+01:13:40,940 --> 01:13:45,940
+Control based on reinforcement
+learning, for instance.
+
+1290
+01:13:45,940 --> 01:13:48,020
+And that's how we're
+going to address
+
+1291
+01:13:48,020 --> 01:13:53,060
+some of these systems that
+are more complicated still.
+
+1292
+01:13:56,350 --> 01:13:57,063
+OK.
+
+1293
+01:13:57,063 --> 01:13:58,480
+So we're going to
+route everything
+
+1294
+01:13:58,480 --> 01:14:00,772
+in mechanical systems because
+that's what I care about.
+
+1295
+01:14:00,772 --> 01:14:02,830
+I want things to move.
+
+1296
+01:14:02,830 --> 01:14:06,607
+But we're going to do it in a
+pretty computer science-y way
+
+1297
+01:14:06,607 --> 01:14:08,440
+because I think the
+computer scientists have
+
+1298
+01:14:08,440 --> 01:14:09,857
+turned a corner,
+and they're going
+
+1299
+01:14:09,857 --> 01:14:11,500
+to solve all these problems.

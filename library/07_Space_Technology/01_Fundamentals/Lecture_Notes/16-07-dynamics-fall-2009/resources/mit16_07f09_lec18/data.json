@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture notes on the three-body problem, stability, and application of the Lagrange Points.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on the three-body problem, stability, and application of the Lagrange Points.",
+  "draft": false,
+  "file": "/courses/16-07-dynamics-fall-2009/841521e447f7e8ef98d92c4a9755eef2_MIT16_07F09_Lec18.pdf",
+  "file_size": 606703,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "c74de568-7f12-1be8-c80c-73b2269c3877",
+  "resourcetype": "Document",
+  "title": "Lecture L18 – Exploring the Neighborhood: the Restricted Three-Body Problem",
+  "uid": "841521e4-47f7-e8ef-98d9-2c4a9755eef2"
+}

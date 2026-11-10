@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Problem set 1</p>\n",
+  "content_type": "resource",
+  "description": "Problem set 1",
+  "draft": false,
+  "file": "/courses/hst-508-genomics-and-computational-biology-fall-2002/ps12002.pdf",
+  "file_size": 86287,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "43fbbe59-f66c-1bdd-7edf-018322523e8a",
+  "resourcetype": "Document",
+  "title": "ps12002.pdf",
+  "uid": "90313fab-1707-9dcf-96c6-9f33817258e9",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

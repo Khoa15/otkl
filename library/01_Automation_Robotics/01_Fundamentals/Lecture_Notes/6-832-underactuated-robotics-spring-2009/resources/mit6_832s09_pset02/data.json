@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Problem set on value iteration on the double integrator, Pontryagin&rsquo;s minimum principle, and swing-up and balance for the cart-pole system.</p>\n",
+  "content_type": "resource",
+  "description": "Problem set on value iteration on the double integrator, Pontryagin's minimum principle, and swing-up and balance for the cart-pole system.",
+  "draft": false,
+  "file": "/courses/6-832-underactuated-robotics-spring-2009/fe71d16e51cceb1e62f17f97493adb89_MIT6_832s09_pset02.pdf",
+  "file_size": 139151,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "04c58ca0-0560-b9d1-6ca6-2691ea66babf",
+  "resourcetype": "Document",
+  "title": "Problem Set 2",
+  "uid": "fe71d16e-51cc-eb1e-62f1-7f97493adb89",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

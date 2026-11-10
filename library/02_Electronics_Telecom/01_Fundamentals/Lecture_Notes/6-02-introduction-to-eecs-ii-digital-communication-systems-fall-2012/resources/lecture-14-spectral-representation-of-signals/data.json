@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Description:</strong> This lecture starts with a demonstration of echo cancelation using deconvolution, and then continues to cover the spectral content of signals. Fast Fourier transform, and the effect of a low-pass channel are also discussed.</p>\n<p><strong>Instructor:</strong> George Verghese</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "177548380",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Lecture Videos",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Lecture 14: Spectral Representation of Signals",
+  "uid": "77b46090-fd61-20ea-5957-38f728a00f7b",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec14_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/c2a29def6180511d98f2fa4b29d11055_U1sAeMwdm6A.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/U1sAeMwdm6A/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/c9651b26578f51a70b5c218f0161d275_U1sAeMwdm6A.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, bandpass, channel, distortion, dtft, fast fourier transform, frequency content, ftt, low-pass, spectral content, superposition",
+    "youtube_id": "U1sAeMwdm6A"
+  }
+}

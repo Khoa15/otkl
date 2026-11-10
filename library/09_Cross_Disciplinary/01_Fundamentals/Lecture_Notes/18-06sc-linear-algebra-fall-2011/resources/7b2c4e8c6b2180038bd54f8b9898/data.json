@@ -1,0 +1,41 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "43128366",
+  "file_type": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem-solving Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Exam 2 Review",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "第二次考试例题",
+  "uid": "e56d16d4-a249-bf6b-ce7c-bf6fe96a0778",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110609_L1_zh-hans-cmn_300k.mp4",
+    "video_captions_file": null,
+    "video_thumbnail_file": "https://img.youtube.com/vi/ThxvK9t7DNo/default.jpg",
+    "video_transcript_file": null
+  },
+  "video_metadata": {
+    "video_tags": "18-06sc-linear-algebra-fall-2011, 线性代数，考试复习",
+    "youtube_id": "ThxvK9t7DNo"
+  }
+}

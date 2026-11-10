@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This file contains solutions of problems on bonding and thermodynamics covered in quiz 1.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains solutions of problems on bonding and thermodynamics covered in quiz 1.",
+  "draft": false,
+  "file": "/courses/3-012-fundamentals-of-materials-science-fall-2005/df41a73e5cb9fe57e6136177579072a7_quiz1_soln.pdf",
+  "file_size": 667948,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exam Solutions"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Exams",
+  "parent_type": "CourseSection",
+  "parent_uid": "8afa5fc2-30ba-fc0d-8491-0ca406659fd2",
+  "resourcetype": "Document",
+  "title": "quiz1_soln.pdf",
+  "uid": "df41a73e-5cb9-fe57-e613-6177579072a7",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "3-012-fundamentals-of-materials-science-fall-2005"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "3-012-fundamentals-of-materials-science-fall-2005"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

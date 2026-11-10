@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Description:</strong> This lecture offers a historical account of the development of the Internet and Internet Protocol (IP). The ideal case for area networking is presented, followed by the creation of the domain name system (DNS).</p>\n<p><strong>Instructor:</strong> Hari Balakrishnan</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "184884701",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Lecture Videos",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Lecture 23: A Brief History of the Internet",
+  "uid": "58a456e9-f0bb-eaf4-7f1d-c452c2438abb",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec23_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/65eb90a06cc458cbb4a0c56c125d74d8_oIezCGjxV3A.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/oIezCGjxV3A/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/977223f2d0ff45cac38a782e60f2b1cd_oIezCGjxV3A.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, area identifier, arpanet, domain name system, internet protocol, internetworking, ip address, kahn's rules, osi stack, packet network, packet switching",
+    "youtube_id": "oIezCGjxV3A"
+  }
+}

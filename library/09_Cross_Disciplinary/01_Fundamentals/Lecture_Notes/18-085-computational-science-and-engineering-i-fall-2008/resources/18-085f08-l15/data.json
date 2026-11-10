@@ -1,0 +1,47 @@
+{
+  "audience": [],
+  "content": "<p>Transcript of a video lecture on trusses and A^(T)CA.</p>\n",
+  "content_type": "resource",
+  "description": "Transcript of a video lecture on trusses and A^(T)CA.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/68abcad4b22f2076e6d10240e91805b6_18-085F08-L15.pdf",
+  "file_size": 99600,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Video Lectures",
+  "parent_type": "CourseSection",
+  "parent_uid": "4e3ac3b3-1de7-414e-0518-1196c7255bbd",
+  "resourcetype": "Document",
+  "title": "Transcript – Lecture 15",
+  "uid": "68abcad4-b22f-2076-e6d1-0240e91805b6",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

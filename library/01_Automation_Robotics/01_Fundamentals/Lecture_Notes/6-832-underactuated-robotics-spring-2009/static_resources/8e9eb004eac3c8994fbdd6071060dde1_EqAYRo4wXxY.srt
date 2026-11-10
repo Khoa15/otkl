@@ -1,0 +1,7515 @@
+1
+00:00:00,000 --> 00:00:02,520
+The following content is
+provided under a Creative
+
+2
+00:00:02,520 --> 00:00:03,970
+Commons license.
+
+3
+00:00:03,970 --> 00:00:06,360
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:06,360 --> 00:00:10,660
+continue to offer high quality
+educational resources for free.
+
+5
+00:00:10,660 --> 00:00:13,320
+To make a donation or
+view additional materials
+
+6
+00:00:13,320 --> 00:00:17,160
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:17,160 --> 00:00:18,370
+at ocw.mit.edu.
+
+8
+00:00:21,880 --> 00:00:23,860
+JOHN W. ROBERTS:
+Our investigation
+
+9
+00:00:23,860 --> 00:00:26,110
+of stochastic gradient descent.
+
+10
+00:00:29,398 --> 00:00:31,690
+This time, we'll be talking
+about the stochastic policy
+
+11
+00:00:31,690 --> 00:00:32,500
+interpretation.
+
+12
+00:00:32,500 --> 00:00:35,750
+And I have some examples.
+
+13
+00:00:35,750 --> 00:00:37,547
+Well, a very simple
+sort of system example.
+
+14
+00:00:37,547 --> 00:00:39,880
+But a whole bunch of ways of
+looking and fooling with it
+
+15
+00:00:39,880 --> 00:00:41,922
+in policy parameters that
+hopefully give you some
+
+16
+00:00:41,922 --> 00:00:45,623
+feel for how to actually
+go about using this,
+
+17
+00:00:45,623 --> 00:00:48,040
+if you want to use in your
+project or something like that.
+
+18
+00:00:59,380 --> 00:01:07,480
+So here.
+
+19
+00:01:19,980 --> 00:01:20,480
+OK.
+
+20
+00:01:26,080 --> 00:01:33,820
+So I gave a little
+introduction to the idea
+
+21
+00:01:33,820 --> 00:01:37,420
+of a stochastic
+policy last time.
+
+22
+00:01:37,420 --> 00:01:40,540
+But this time, I'll give maybe
+a little review of the things
+
+23
+00:01:40,540 --> 00:01:42,010
+and also a sketch
+of the algorithm.
+
+24
+00:01:42,010 --> 00:01:46,180
+I think someone asked,
+Joe asked for pseudocode.
+
+25
+00:01:46,180 --> 00:01:48,430
+To get a feel of the process
+you need to go through.
+
+26
+00:01:52,850 --> 00:01:57,900
+So just in sort of words,
+this is the process.
+
+27
+00:01:57,900 --> 00:02:00,580
+I'll just get right into it.
+
+28
+00:02:00,580 --> 00:02:02,110
+Set.
+
+29
+00:02:02,110 --> 00:02:03,003
+Alpha.
+
+30
+00:02:03,003 --> 00:02:04,420
+And again, there's
+a bunch of ways
+
+31
+00:02:04,420 --> 00:02:05,710
+of actually implementing
+this and going
+
+32
+00:02:05,710 --> 00:02:06,370
+through the details of it.
+
+33
+00:02:06,370 --> 00:02:08,590
+But this is a very simple
+way and easy understand.
+
+34
+00:02:08,590 --> 00:02:11,800
+And most of the other
+forms are pretty clearly
+
+35
+00:02:11,800 --> 00:02:12,550
+derived from this.
+
+36
+00:02:12,550 --> 00:02:14,920
+We can sort of tweak it
+maybe to get a little bit
+
+37
+00:02:14,920 --> 00:02:17,770
+better performance or fill in
+the details in different ways.
+
+38
+00:02:17,770 --> 00:02:20,710
+But set alpha to
+an initial guess.
+
+39
+00:02:27,730 --> 00:02:29,116
+Wow.
+
+40
+00:02:29,116 --> 00:02:31,050
+Sorry.
+
+41
+00:02:31,050 --> 00:02:33,460
+So this is what you
+start your policy off as.
+
+42
+00:02:33,460 --> 00:02:36,040
+You can start it as zero or
+a bunch of random numbers.
+
+43
+00:02:36,040 --> 00:02:38,620
+And this can affect your
+results a lot actually.
+
+44
+00:02:38,620 --> 00:02:41,123
+Good initial guesses will
+obviously converge faster.
+
+45
+00:02:41,123 --> 00:02:43,540
+But also they can be a bit
+different base of of attraction
+
+46
+00:02:43,540 --> 00:02:45,080
+for different local minima.
+
+47
+00:02:45,080 --> 00:02:47,783
+So it also makes sense sometimes
+to run it several times
+
+48
+00:02:47,783 --> 00:02:50,200
+from different initial guesses
+and just see where it goes.
+
+49
+00:02:50,200 --> 00:02:51,430
+And if they all converge
+to the same thing,
+
+50
+00:02:51,430 --> 00:02:53,472
+that means you're at least
+in a local minima that
+
+51
+00:02:53,472 --> 00:02:54,850
+has a large base of attraction.
+
+52
+00:02:54,850 --> 00:02:57,020
+While, if they are go to
+very different things,
+
+53
+00:02:57,020 --> 00:02:59,443
+that means that you sort of
+have a local minima problem.
+
+54
+00:02:59,443 --> 00:03:01,360
+And you can take the
+minimum of all those runs
+
+55
+00:03:01,360 --> 00:03:04,330
+or you can try to
+investigate exactly why you
+
+56
+00:03:04,330 --> 00:03:05,247
+keep on getting stuck.
+
+57
+00:03:05,247 --> 00:03:07,080
+So the initial guess
+isn't just like come up
+
+58
+00:03:07,080 --> 00:03:08,350
+with the best thing you can.
+
+59
+00:03:08,350 --> 00:03:10,660
+It also means sort of map out
+the space of policy parameters
+
+60
+00:03:10,660 --> 00:03:12,952
+somewhat so that, when you
+get stuck in a local minima,
+
+61
+00:03:12,952 --> 00:03:16,558
+you have some confidence about
+how good that policy really is.
+
+62
+00:03:16,558 --> 00:03:19,900
+So then this is again,
+you don't have to do this.
+
+63
+00:03:19,900 --> 00:03:27,740
+But run a policy pi alpha.
+
+64
+00:03:27,740 --> 00:03:32,140
+So this is the policy with your
+parameter set of your alpha.
+
+65
+00:03:32,140 --> 00:03:37,952
+And store the cost
+as your baseline.
+
+66
+00:03:40,604 --> 00:03:43,780
+So that gives you
+your first baseline.
+
+67
+00:03:43,780 --> 00:03:48,230
+Then let's see.
+
+68
+00:03:48,230 --> 00:03:51,490
+The Do While loop here.
+
+69
+00:03:51,490 --> 00:04:04,280
+So do draw noise z.
+
+70
+00:04:04,280 --> 00:04:07,700
+So if you remember before, maybe
+I should sketch this first one
+
+71
+00:04:07,700 --> 00:04:09,620
+and fill both these
+boards with the sketch,
+
+72
+00:04:09,620 --> 00:04:11,210
+z is the noise you
+add to your policy.
+
+73
+00:04:11,210 --> 00:04:14,600
+So when you're searching,
+when you sample,
+
+74
+00:04:14,600 --> 00:04:15,690
+that's the vector you add.
+
+75
+00:04:15,690 --> 00:04:17,959
+I'll write out the
+details of it over there.
+
+76
+00:04:17,959 --> 00:04:21,629
+So draw your noise z
+from some distribution.
+
+77
+00:04:29,460 --> 00:04:32,540
+Now, yesterday we talked about
+the example of a Gaussian.
+
+78
+00:04:37,760 --> 00:04:38,760
+That's a common one.
+
+79
+00:04:38,760 --> 00:04:40,218
+But there's a number
+of other ways.
+
+80
+00:04:40,218 --> 00:04:43,140
+And actually, today we'll talk
+about a different distribution
+
+81
+00:04:43,140 --> 00:04:44,682
+and sort of why
+you'd want to use it.
+
+82
+00:04:47,750 --> 00:04:59,973
+Run system with pi alpha plus z.
+
+83
+00:04:59,973 --> 00:05:01,640
+So this is sort of
+when we're evaluating
+
+84
+00:05:01,640 --> 00:05:02,900
+how well that policy does.
+
+85
+00:05:07,930 --> 00:05:16,700
+And then we'll say we'll store
+this just in J. All right.
+
+86
+00:05:16,700 --> 00:05:18,200
+Now, we do the update.
+
+87
+00:05:21,300 --> 00:05:21,800
+Remember?
+
+88
+00:05:21,800 --> 00:05:23,280
+That we were talking about.
+
+89
+00:05:23,280 --> 00:05:38,315
+So alpha gets alpha plus
+negative eta J minus b.
+
+90
+00:05:38,315 --> 00:05:43,190
+b is our baseline up here.
+
+91
+00:05:47,030 --> 00:05:50,575
+So J minus b z.
+
+92
+00:05:53,720 --> 00:05:55,563
+And then update your baseline.
+
+93
+00:05:59,270 --> 00:06:05,680
+Now you can do this
+with a second run
+
+94
+00:06:05,680 --> 00:06:07,077
+where you run your new policy.
+
+95
+00:06:07,077 --> 00:06:08,660
+That's sort of the
+more expensive way.
+
+96
+00:06:08,660 --> 00:06:10,535
+But you can have confidence
+in that baseline,
+
+97
+00:06:10,535 --> 00:06:16,327
+as long as it's not too random
+when you evaluate the system.
+
+98
+00:06:16,327 --> 00:06:17,660
+You could do a decaying average.
+
+99
+00:06:17,660 --> 00:06:21,200
+You could have,
+for example, b gets
+
+100
+00:06:21,200 --> 00:06:28,790
+0.2 times your J plus 0.8
+times your old baseline.
+
+101
+00:06:28,790 --> 00:06:30,358
+Right?
+
+102
+00:06:30,358 --> 00:06:32,900
+And so, this one is sort of an
+exponentially decaying average
+
+103
+00:06:32,900 --> 00:06:35,360
+where I take my new
+one, smooth it out
+
+104
+00:06:35,360 --> 00:06:36,860
+by averaging with
+the previous one.
+
+105
+00:06:36,860 --> 00:06:40,190
+And then if you think
+about what this does,
+
+106
+00:06:40,190 --> 00:06:43,550
+sort of every
+measurement gets sort
+
+107
+00:06:43,550 --> 00:06:46,670
+of exponentially decayed
+away and its significance
+
+108
+00:06:46,670 --> 00:06:48,635
+as you go through time.
+
+109
+00:06:48,635 --> 00:06:50,450
+That's the update.
+
+110
+00:06:50,450 --> 00:06:56,210
+And then you can do this
+while not converged.
+
+111
+00:07:01,160 --> 00:07:04,090
+So many times, you can
+just do a four loop, too.
+
+112
+00:07:04,090 --> 00:07:05,840
+And you can just run
+it for 100 iterations
+
+113
+00:07:05,840 --> 00:07:07,760
+or several iterations
+and see whether or not
+
+114
+00:07:07,760 --> 00:07:09,202
+it looks to have converged.
+
+115
+00:07:09,202 --> 00:07:10,160
+That's what I often do.
+
+116
+00:07:10,160 --> 00:07:12,523
+But this is really what
+I guess you're doing.
+
+117
+00:07:12,523 --> 00:07:14,690
+It's just the four looping
+stuff is sometimes easier
+
+118
+00:07:14,690 --> 00:07:15,860
+and prevents you
+from getting stuck
+
+119
+00:07:15,860 --> 00:07:18,110
+where your convergence
+conditions ever met and you
+
+120
+00:07:18,110 --> 00:07:23,420
+have to Control C.
+So hopefully this
+
+121
+00:07:23,420 --> 00:07:26,390
+is clear enough that, if you
+wanted to implement this,
+
+122
+00:07:26,390 --> 00:07:28,310
+you can go do it and
+try for your project
+
+123
+00:07:28,310 --> 00:07:30,160
+if that's what
+you interested in.
+
+124
+00:07:30,160 --> 00:07:31,140
+All right.
+
+125
+00:07:31,140 --> 00:07:33,432
+So--
+
+126
+00:07:33,432 --> 00:07:36,035
+STUDENT: [INAUDIBLE].
+
+127
+00:07:36,035 --> 00:07:37,160
+JOHN W. ROBERTS: I'm sorry.
+
+128
+00:07:37,160 --> 00:07:37,880
+This is et cetera.
+
+129
+00:07:37,880 --> 00:07:39,260
+There's different ways you
+could update your baseline.
+
+130
+00:07:39,260 --> 00:07:40,440
+You could do it with a-- yeah.
+
+131
+00:07:40,440 --> 00:07:40,940
+Sorry.
+
+132
+00:07:43,310 --> 00:07:45,890
+I mean, these are
+two common ones.
+
+133
+00:07:45,890 --> 00:07:48,770
+I mean, these are the
+two that I usually use.
+
+134
+00:07:48,770 --> 00:07:51,607
+But you could have critics
+and stuff like that, too,
+
+135
+00:07:51,607 --> 00:07:53,690
+where you have more
+complicated updates for having
+
+136
+00:07:53,690 --> 00:07:55,060
+more complicated baseline.
+
+137
+00:07:58,590 --> 00:07:59,090
+All right.
+
+138
+00:07:59,090 --> 00:08:05,030
+So when should you use this?
+
+139
+00:08:10,250 --> 00:08:12,290
+We'll just say stochastic
+gradient descent.
+
+140
+00:08:16,460 --> 00:08:19,370
+Well, it's important
+to remember, one,
+
+141
+00:08:19,370 --> 00:08:29,810
+that it never does better
+than true gradient descent.
+
+142
+00:08:35,292 --> 00:08:37,250
+So if it's cheap to
+evaluate the true gradient,
+
+143
+00:08:37,250 --> 00:08:39,020
+you can follow that
+true gradient down.
+
+144
+00:08:39,020 --> 00:08:40,490
+And you're in pretty good shape.
+
+145
+00:08:40,490 --> 00:08:41,948
+Now the fact that
+it's random maybe
+
+146
+00:08:41,948 --> 00:08:44,150
+gives you some robustness
+to very tiny local minima.
+
+147
+00:08:44,150 --> 00:08:46,150
+But you could add that
+in your gradient descent,
+
+148
+00:08:46,150 --> 00:08:48,560
+too, if you're just [INAUDIBLE]
+yourself around a bit.
+
+149
+00:08:48,560 --> 00:08:51,290
+So stochastic gradient descent,
+if you have an easy way
+
+150
+00:08:51,290 --> 00:08:53,810
+to compute the gradients,
+you can do gradient descent
+
+151
+00:08:53,810 --> 00:08:54,320
+using those.
+
+152
+00:08:54,320 --> 00:08:56,210
+Or you can even do something
+like SNOPT or some high order
+
+153
+00:08:56,210 --> 00:08:57,150
+method.
+
+154
+00:08:57,150 --> 00:09:00,805
+So if it's easy to compute
+the gradients, exactly.
+
+155
+00:09:00,805 --> 00:09:02,180
+It doesn't
+necessarily make sense
+
+156
+00:09:02,180 --> 00:09:04,067
+to do stochastic
+gradient descent.
+
+157
+00:09:04,067 --> 00:09:05,900
+If those gradients are
+impossible to compute
+
+158
+00:09:05,900 --> 00:09:07,822
+or extremely
+expensive to compute,
+
+159
+00:09:07,822 --> 00:09:08,780
+then it can make sense.
+
+160
+00:09:12,920 --> 00:09:26,240
+Then also, if you have
+a good parameterization,
+
+161
+00:09:26,240 --> 00:09:29,690
+it can be quite efficient.
+
+162
+00:09:29,690 --> 00:09:31,940
+Again, I guess this isn't
+a prerequisite because it
+
+163
+00:09:31,940 --> 00:09:38,372
+will work with high dimensions.
+
+164
+00:09:43,790 --> 00:09:47,240
+And just sort of like in
+naive parameterizations.
+
+165
+00:09:56,840 --> 00:09:58,710
+Wow.
+
+166
+00:09:58,710 --> 00:10:03,200
+You just leave params.
+
+167
+00:10:03,200 --> 00:10:06,560
+But it'll be really slow.
+
+168
+00:10:06,560 --> 00:10:10,408
+But is slow.
+
+169
+00:10:10,408 --> 00:10:11,950
+And it can get stuck
+in local minima.
+
+170
+00:10:22,860 --> 00:10:24,920
+So if you have a good
+parameterization,
+
+171
+00:10:24,920 --> 00:10:26,712
+it can be much more
+reasonable to use this.
+
+172
+00:10:26,712 --> 00:10:28,629
+An example is, in our
+lab, we have this glider
+
+173
+00:10:28,629 --> 00:10:29,754
+we're trying to have perch.
+
+174
+00:10:29,754 --> 00:10:31,250
+So we launch it
+out this catapult.
+
+175
+00:10:31,250 --> 00:10:32,960
+It flies through,
+executes a maneuver,
+
+176
+00:10:32,960 --> 00:10:34,700
+and then tries to
+catch this line.
+
+177
+00:10:34,700 --> 00:10:35,210
+Right?
+
+178
+00:10:35,210 --> 00:10:37,647
+Now, in that case, if
+your parameterization
+
+179
+00:10:37,647 --> 00:10:39,230
+were the kind of
+open loop tapes we've
+
+180
+00:10:39,230 --> 00:10:41,870
+previously used, where just
+what elevator angle did
+
+181
+00:10:41,870 --> 00:10:43,817
+you try to serve
+it to, that could
+
+182
+00:10:43,817 --> 00:10:44,900
+be a bad parameterization.
+
+183
+00:10:44,900 --> 00:10:47,520
+It's a course that's going to
+demand sort of rough things.
+
+184
+00:10:47,520 --> 00:10:49,980
+And so, trying to do learning
+on that can be very slow.
+
+185
+00:10:49,980 --> 00:10:52,515
+Especially because
+evaluation is so expensive.
+
+186
+00:10:52,515 --> 00:10:54,890
+So if we can come up with a
+good parameterization though,
+
+187
+00:10:54,890 --> 00:10:56,180
+suddenly it becomes
+reasonable to do this.
+
+188
+00:10:56,180 --> 00:10:58,640
+If we can knock down to five
+parameters that parameterize
+
+189
+00:10:58,640 --> 00:11:00,645
+a very sort of nice
+class of policies,
+
+190
+00:11:00,645 --> 00:11:02,270
+now maybe we don't
+need that much data.
+
+191
+00:11:02,270 --> 00:11:04,270
+And we can actually get
+it just by launching it.
+
+192
+00:11:04,270 --> 00:11:07,260
+So if we can come up with a good
+parameterization, doing this
+
+193
+00:11:07,260 --> 00:11:07,760
+should work.
+
+194
+00:11:07,760 --> 00:11:08,487
+Yeah?
+
+195
+00:11:08,487 --> 00:11:10,036
+STUDENT: What if you had
+a good estimate of what
+
+196
+00:11:10,036 --> 00:11:11,119
+your trajectory should be?
+
+197
+00:11:11,119 --> 00:11:12,644
+Do you parameterize [INAUDIBLE]?
+
+198
+00:11:15,103 --> 00:11:16,520
+JOHN W. ROBERTS:
+Well, I mean, you
+
+199
+00:11:16,520 --> 00:11:17,750
+could start with a
+good initial guess,
+
+200
+00:11:17,750 --> 00:11:19,560
+which maybe means that you
+converge reasonably quickly.
+
+201
+00:11:19,560 --> 00:11:20,570
+But the thing is
+that the learning
+
+202
+00:11:20,570 --> 00:11:22,692
+is going to struggle to
+get a lot of improvement.
+
+203
+00:11:22,692 --> 00:11:23,900
+It will get some improvement.
+
+204
+00:11:23,900 --> 00:11:26,450
+It'll show in these examples
+you have ugly parameterizations,
+
+205
+00:11:26,450 --> 00:11:27,660
+it'll still learn a bit.
+
+206
+00:11:27,660 --> 00:11:31,190
+But the problem is that, if you
+parameters in this open loop
+
+207
+00:11:31,190 --> 00:11:34,670
+tape, let's say we have some
+really nice smooth trajectory
+
+208
+00:11:34,670 --> 00:11:36,620
+like this.
+
+209
+00:11:36,620 --> 00:11:39,380
+And we parameterize it.
+
+210
+00:11:39,380 --> 00:11:40,670
+Is this all clear?
+
+211
+00:11:40,670 --> 00:11:42,830
+Is this is sort of
+off on a tangent?
+
+212
+00:11:45,700 --> 00:11:49,004
+But this is just sort of
+about bad parameterizations.
+
+213
+00:11:51,542 --> 00:11:53,500
+So do you want me to go
+through all this first?
+
+214
+00:11:53,500 --> 00:11:55,250
+And I can talk about
+the points in detail?
+
+215
+00:11:59,070 --> 00:12:00,487
+STUDENT: Do you
+need a microphone?
+
+216
+00:12:00,487 --> 00:12:02,445
+JOHN W. ROBERTS: I believe
+I have a microphone.
+
+217
+00:12:02,445 --> 00:12:03,390
+[INTERPOSING VOICES]
+
+218
+00:12:03,390 --> 00:12:03,890
+Thank you.
+
+219
+00:12:09,070 --> 00:12:10,020
+All right.
+
+220
+00:12:10,020 --> 00:12:12,480
+So are we all on board here?
+
+221
+00:12:12,480 --> 00:12:13,870
+Or are we-- yeah.
+
+222
+00:12:13,870 --> 00:12:14,370
+OK.
+
+223
+00:12:14,370 --> 00:12:15,050
+Good.
+
+224
+00:12:15,050 --> 00:12:15,630
+Yeah.
+
+225
+00:12:15,630 --> 00:12:18,070
+This is sort of disorganized.
+
+226
+00:12:18,070 --> 00:12:25,463
+So if you parameterize by
+setting all these numbers,
+
+227
+00:12:25,463 --> 00:12:26,880
+you have a nice
+smooth trajectory.
+
+228
+00:12:26,880 --> 00:12:28,230
+That's the kind
+of stuff you want.
+
+229
+00:12:28,230 --> 00:12:29,340
+Now if you
+parameterize by saying
+
+230
+00:12:29,340 --> 00:12:31,200
+each one of these numbers,
+stochastic gradient descent
+
+231
+00:12:31,200 --> 00:12:33,240
+when it bounces around
+is going to be like, OK.
+
+232
+00:12:33,240 --> 00:12:34,198
+Send this guy up a bit.
+
+233
+00:12:34,198 --> 00:12:35,240
+Send this guy down a bit.
+
+234
+00:12:35,240 --> 00:12:36,090
+These two guys up.
+
+235
+00:12:36,090 --> 00:12:37,960
+This guy down, this guy down.
+
+236
+00:12:37,960 --> 00:12:38,460
+Up.
+
+237
+00:12:38,460 --> 00:12:39,780
+This guy back in the same place.
+
+238
+00:12:39,780 --> 00:12:39,870
+You know?
+
+239
+00:12:39,870 --> 00:12:40,703
+Something like that.
+
+240
+00:12:40,703 --> 00:12:42,900
+And you get some param
+policy like this.
+
+241
+00:12:42,900 --> 00:12:43,800
+Right?
+
+242
+00:12:43,800 --> 00:12:45,570
+Now your physical system is
+going to smooth that out.
+
+243
+00:12:45,570 --> 00:12:46,260
+It's going to filter it.
+
+244
+00:12:46,260 --> 00:12:46,440
+Right?
+
+245
+00:12:46,440 --> 00:12:47,280
+You're not going to
+execute something
+
+246
+00:12:47,280 --> 00:12:48,360
+like that necessarily.
+
+247
+00:12:48,360 --> 00:12:49,838
+But it's very
+unlikely that that's
+
+248
+00:12:49,838 --> 00:12:50,880
+the right kind of policy.
+
+249
+00:12:50,880 --> 00:12:51,380
+Right?
+
+250
+00:12:51,380 --> 00:12:53,760
+I mean, it's very sort of
+fine-grained tick-tick-tick
+
+251
+00:12:53,760 --> 00:12:55,480
+doesn't really make sense.
+
+252
+00:12:55,480 --> 00:12:56,880
+So if you assume you are going
+to have something smooth,
+
+253
+00:12:56,880 --> 00:12:58,890
+it's nice to do something that's
+going to be sort of always
+
+254
+00:12:58,890 --> 00:12:59,910
+relatively smooth.
+
+255
+00:12:59,910 --> 00:13:02,430
+If you were to use fewer
+points parameters as a spline,
+
+256
+00:13:02,430 --> 00:13:04,380
+that could be a win.
+
+257
+00:13:04,380 --> 00:13:08,130
+So that's what I mean by a good
+parameterization is something
+
+258
+00:13:08,130 --> 00:13:09,930
+that ideally captures
+the kind of behaviors
+
+259
+00:13:09,930 --> 00:13:10,940
+you want in your system.
+
+260
+00:13:15,180 --> 00:13:17,300
+So yeah.
+
+261
+00:13:17,300 --> 00:13:22,330
+I think the main
+point is don't--
+
+262
+00:13:22,330 --> 00:13:23,705
+well, this is not
+the main point.
+
+263
+00:13:23,705 --> 00:13:26,690
+This is a big point that I think
+a lot of people tend to do,
+
+264
+00:13:26,690 --> 00:13:28,070
+and I can be guilty
+of myself, is
+
+265
+00:13:28,070 --> 00:13:41,900
+don't discard Back prop
+through time, RTRL with SNOPT.
+
+266
+00:13:46,550 --> 00:13:50,382
+Many times, because you can
+see how simple this update is,
+
+267
+00:13:50,382 --> 00:13:51,840
+it's very tempting
+just to be like,
+
+268
+00:13:51,840 --> 00:13:54,140
+OK, well, I'll put
+this loop and run it.
+
+269
+00:13:54,140 --> 00:13:55,320
+And I'll be in good shape.
+
+270
+00:13:55,320 --> 00:13:57,320
+I mean, because it's
+trivial to write that code.
+
+271
+00:13:57,320 --> 00:13:58,830
+I mean, you can see it
+from pseudocode here.
+
+272
+00:13:58,830 --> 00:13:59,930
+So when you're working
+on your project,
+
+273
+00:13:59,930 --> 00:14:01,722
+if you're like oh well,
+I want to optimize.
+
+274
+00:14:01,722 --> 00:14:03,020
+I'll just throw this on there.
+
+275
+00:14:03,020 --> 00:14:03,520
+Bam.
+
+276
+00:14:03,520 --> 00:14:08,270
+I mean, it'll take you 30
+minutes to get that code ready.
+
+277
+00:14:08,270 --> 00:14:11,468
+But maybe you think back prop
+through time is more confusing,
+
+278
+00:14:11,468 --> 00:14:13,760
+you have to do with all these
+joint equations and stuff
+
+279
+00:14:13,760 --> 00:14:14,220
+like that.
+
+280
+00:14:14,220 --> 00:14:15,762
+But these give you
+the true gradient.
+
+281
+00:14:15,762 --> 00:14:18,440
+If your gradients are cheap,
+doing this can be a win.
+
+282
+00:14:18,440 --> 00:14:20,060
+And then you can
+get a better policy.
+
+283
+00:14:20,060 --> 00:14:21,690
+You can solve it a lot faster.
+
+284
+00:14:21,690 --> 00:14:23,780
+You can check richer
+classes of parameterizations
+
+285
+00:14:23,780 --> 00:14:25,473
+because it will solve
+them so quickly.
+
+286
+00:14:25,473 --> 00:14:27,140
+So when you're thinking
+about, OK, we're
+
+287
+00:14:27,140 --> 00:14:29,750
+trying to solve this problem
+and you have your project,
+
+288
+00:14:29,750 --> 00:14:33,800
+don't choose this without
+being very conscious that it
+
+289
+00:14:33,800 --> 00:14:34,915
+has a lot of limitations.
+
+290
+00:14:34,915 --> 00:14:36,290
+And there's a lot
+of alternatives
+
+291
+00:14:36,290 --> 00:14:37,620
+which could be better.
+
+292
+00:14:37,620 --> 00:14:39,590
+So first think, are
+there very solid
+
+293
+00:14:39,590 --> 00:14:41,240
+sort of things you
+can do with these
+
+294
+00:14:41,240 --> 00:14:42,650
+using SNOPT converged nicely?
+
+295
+00:14:42,650 --> 00:14:45,275
+If you can't, if you don't have
+a good model, if your system is
+
+296
+00:14:45,275 --> 00:14:47,362
+too complicated,
+stochastic range descent
+
+297
+00:14:47,362 --> 00:14:48,320
+maybe is what you want.
+
+298
+00:14:50,966 --> 00:14:52,810
+All right.
+
+299
+00:14:52,810 --> 00:14:57,920
+So that's sort of a discussion
+coming back from Tuesday
+
+300
+00:14:57,920 --> 00:15:02,150
+on when to do these things and
+also hopefully code that now
+
+301
+00:15:02,150 --> 00:15:03,770
+that you have it in your notes.
+
+302
+00:15:03,770 --> 00:15:06,200
+Now that you have
+it in your notes,
+
+303
+00:15:06,200 --> 00:15:11,190
+you'll be able to implement
+this pretty easily.
+
+304
+00:15:11,190 --> 00:15:17,561
+So now getting onto
+new stuff for today,
+
+305
+00:15:17,561 --> 00:15:20,705
+we're talking about
+stochastic policies.
+
+306
+00:15:29,240 --> 00:15:31,580
+And in particular, we are
+talking about a certain class
+
+307
+00:15:31,580 --> 00:15:34,250
+of these kind of algorithms.
+
+308
+00:15:34,250 --> 00:15:35,827
+Reinforced algorithms.
+
+309
+00:15:43,780 --> 00:15:44,760
+All right.
+
+310
+00:15:44,760 --> 00:15:47,700
+And I think that these were
+introduced by Williams.
+
+311
+00:15:51,080 --> 00:15:58,260
+He's at Northeastern
+in '92 or something.
+
+312
+00:15:58,260 --> 00:16:03,690
+So once again, trying
+to get across the idea
+
+313
+00:16:03,690 --> 00:16:05,410
+of the stochastic policy.
+
+314
+00:16:05,410 --> 00:16:07,235
+So this interpretation
+is very different.
+
+315
+00:16:07,235 --> 00:16:08,610
+We're not going
+to linearization.
+
+316
+00:16:08,610 --> 00:16:11,670
+We're not going to assume
+we have this nominal policy,
+
+317
+00:16:11,670 --> 00:16:13,260
+we sample and try
+something else.
+
+318
+00:16:13,260 --> 00:16:14,677
+We're going to
+assume that we have
+
+319
+00:16:14,677 --> 00:16:16,590
+some distribution of policy.
+
+320
+00:16:16,590 --> 00:16:26,670
+Our policy is a distribution.
+
+321
+00:16:26,670 --> 00:16:30,110
+So we can think about it as, we
+parameterize our distribution
+
+322
+00:16:30,110 --> 00:16:32,720
+with alpha.
+
+323
+00:16:32,720 --> 00:16:37,170
+Our policy then has some
+stochasticity to it,
+
+324
+00:16:37,170 --> 00:16:40,730
+which is going to give us what
+used to be our alpha plus z.
+
+325
+00:16:40,730 --> 00:16:41,510
+Right?
+
+326
+00:16:41,510 --> 00:16:44,840
+So we know that this
+is not a sample.
+
+327
+00:16:44,840 --> 00:16:47,750
+This is the output
+of our policy.
+
+328
+00:16:47,750 --> 00:16:49,250
+This is how we
+represent our policy.
+
+329
+00:16:49,250 --> 00:16:52,040
+Not as the nominal action,
+but as some parameterization
+
+330
+00:16:52,040 --> 00:16:54,030
+of the behavior.
+
+331
+00:16:54,030 --> 00:16:54,530
+Right.
+
+332
+00:16:54,530 --> 00:16:56,690
+So this would be,
+for example, if I
+
+333
+00:16:56,690 --> 00:16:59,540
+were to play a game where
+I was flipping a coin
+
+334
+00:16:59,540 --> 00:17:01,880
+and I bet on something,
+it could be like, OK.
+
+335
+00:17:01,880 --> 00:17:03,860
+My parameter here
+is the percentage
+
+336
+00:17:03,860 --> 00:17:07,121
+of times I'm going to
+bet money on it coming up
+
+337
+00:17:07,121 --> 00:17:08,329
+heads or something like that.
+
+338
+00:17:08,329 --> 00:17:09,650
+I mean, that doesn't
+make sense because you're
+
+339
+00:17:09,650 --> 00:17:12,740
+[INAUDIBLE] is zero or net zero
+if you're playing a fair game.
+
+340
+00:17:12,740 --> 00:17:14,457
+But the point is
+that it's something
+
+341
+00:17:14,457 --> 00:17:16,290
+like, this is the
+probability of doing this.
+
+342
+00:17:16,290 --> 00:17:17,665
+And so here, we're
+going to think
+
+343
+00:17:17,665 --> 00:17:20,900
+about this as the mean
+of a bunch of Gaussians.
+
+344
+00:17:20,900 --> 00:17:22,910
+So our policy is do
+all these actions
+
+345
+00:17:22,910 --> 00:17:27,770
+with the probabilities described
+by a multivariate Gaussian
+
+346
+00:17:27,770 --> 00:17:31,170
+with means described
+by this vector.
+
+347
+00:17:31,170 --> 00:17:31,670
+All right.
+
+348
+00:17:35,310 --> 00:17:35,810
+OK.
+
+349
+00:17:35,810 --> 00:17:38,425
+[INTERPOSING VOICES]
+
+350
+00:17:38,425 --> 00:17:40,050
+STUDENT: So you just
+have alpha plus z,
+
+351
+00:17:40,050 --> 00:17:43,980
+is the policy just to add
+noise to your parameters?
+
+352
+00:17:43,980 --> 00:17:45,740
+JOHN W. ROBERTS: I
+mean, these are the two
+
+353
+00:17:45,740 --> 00:17:46,530
+different interpretations.
+
+354
+00:17:46,530 --> 00:17:46,870
+Right?
+
+355
+00:17:46,870 --> 00:17:48,610
+So I mean, it is
+effectively doing that.
+
+356
+00:17:48,610 --> 00:17:50,980
+I mean over here, we
+have our nominal thing.
+
+357
+00:17:50,980 --> 00:17:53,770
+And then we add this noise.
+
+358
+00:17:53,770 --> 00:17:54,270
+Right?
+
+359
+00:17:54,270 --> 00:17:55,603
+Then we have our nominal policy.
+
+360
+00:17:55,603 --> 00:17:57,870
+We add noise with
+distribution like this.
+
+361
+00:17:57,870 --> 00:18:01,360
+But this one, what
+we can have is this
+
+362
+00:18:01,360 --> 00:18:03,000
+is parameterizing
+a distribution.
+
+363
+00:18:03,000 --> 00:18:05,970
+And our policy is to do these
+things with this probability.
+
+364
+00:18:05,970 --> 00:18:06,640
+Right?
+
+365
+00:18:06,640 --> 00:18:08,983
+STUDENT: And you said
+that alpha is the mean--
+
+366
+00:18:08,983 --> 00:18:11,400
+JOHN W. ROBERTS: For us, it's
+the mean of these Gaussians.
+
+367
+00:18:11,400 --> 00:18:15,058
+But you could parameterize
+it any way you wanted.
+
+368
+00:18:15,058 --> 00:18:17,100
+I mean, you could have a
+policy parameterized by,
+
+369
+00:18:17,100 --> 00:18:18,090
+if you have discrete
+actions, it could
+
+370
+00:18:18,090 --> 00:18:19,740
+be the probability
+of all these actions
+
+371
+00:18:19,740 --> 00:18:21,390
+and force them to sum up to one.
+
+372
+00:18:21,390 --> 00:18:23,730
+It could be some
+parameterization of a PDF
+
+373
+00:18:23,730 --> 00:18:24,707
+or something like that.
+
+374
+00:18:24,707 --> 00:18:26,790
+So we're going to talk
+about it in a limited case.
+
+375
+00:18:26,790 --> 00:18:28,810
+And I think that thinking about
+that way, at least for me,
+
+376
+00:18:28,810 --> 00:18:30,330
+is easier to think
+about where we're going.
+
+377
+00:18:30,330 --> 00:18:31,997
+But remember, that's
+a lot more general.
+
+378
+00:18:31,997 --> 00:18:34,720
+This is just parameterizing
+some distribution of actions.
+
+379
+00:18:34,720 --> 00:18:37,210
+And so, it could be
+something very general.
+
+380
+00:18:37,210 --> 00:18:39,627
+But if you're having trouble
+putting your head around what
+
+381
+00:18:39,627 --> 00:18:41,793
+all that means, you can
+think about it as just like,
+
+382
+00:18:41,793 --> 00:18:44,010
+this is describing the means
+of a bunch of Gaussians.
+
+383
+00:18:44,010 --> 00:18:46,560
+And then our policy
+is do these actions
+
+384
+00:18:46,560 --> 00:18:49,890
+with the probabilities
+described by that.
+
+385
+00:18:49,890 --> 00:18:50,940
+Does that make sense?
+
+386
+00:18:50,940 --> 00:18:55,520
+I think that this is
+sort of, I feel like I'm
+
+387
+00:18:55,520 --> 00:18:57,510
+running around in circles here.
+
+388
+00:18:57,510 --> 00:18:58,010
+All right.
+
+389
+00:18:58,010 --> 00:18:59,210
+I just want to be clear.
+
+390
+00:18:59,210 --> 00:19:02,810
+So in that case, it
+doesn't make sense to say,
+
+391
+00:19:02,810 --> 00:19:13,160
+so this goes through our
+system and produces cost J.
+
+392
+00:19:13,160 --> 00:19:14,840
+But now J is a random variable.
+
+393
+00:19:24,620 --> 00:19:25,610
+All right.
+
+394
+00:19:25,610 --> 00:19:29,100
+So it no longer makes sense to
+say, what is J for this policy?
+
+395
+00:19:29,100 --> 00:19:30,600
+Because running
+that policy is going
+
+396
+00:19:30,600 --> 00:19:32,330
+to produce all sorts
+of different Js.
+
+397
+00:19:32,330 --> 00:19:33,470
+Right?
+
+398
+00:19:33,470 --> 00:19:35,120
+So when you evaluate
+the policy, I
+
+399
+00:19:35,120 --> 00:19:38,300
+mean you could have a question
+of, what is the right way?
+
+400
+00:19:38,300 --> 00:19:39,920
+Should you do the min of J?
+
+401
+00:19:39,920 --> 00:19:42,320
+Should you do, what is the
+worst J it's going to produce?
+
+402
+00:19:42,320 --> 00:19:45,020
+Or what is the maximum
+J it's going to produce?
+
+403
+00:19:45,020 --> 00:19:51,050
+Well, the thing that
+we generally choose
+
+404
+00:19:51,050 --> 00:19:52,250
+in this world--
+
+405
+00:19:52,250 --> 00:19:56,810
+well, not Earth,
+but our discipline--
+
+406
+00:19:56,810 --> 00:20:03,480
+is you want to look at
+the expected value of J.
+
+407
+00:20:03,480 --> 00:20:07,100
+And so, this is a philosophical
+decision to some degree.
+
+408
+00:20:07,100 --> 00:20:09,090
+I think Russ may have
+talked about this a bit.
+
+409
+00:20:09,090 --> 00:20:10,800
+But when you're an
+airliner, you probably
+
+410
+00:20:10,800 --> 00:20:15,410
+want to look at the min of J.
+When you're building a gambling
+
+411
+00:20:15,410 --> 00:20:18,290
+robot, maybe you do want
+the expected value of J.
+
+412
+00:20:18,290 --> 00:20:19,470
+So we have a lot of money.
+
+413
+00:20:19,470 --> 00:20:20,992
+Right?
+
+414
+00:20:20,992 --> 00:20:22,700
+And so, this is a
+philosophical decision.
+
+415
+00:20:22,700 --> 00:20:24,050
+But it's analytically tractable.
+
+416
+00:20:24,050 --> 00:20:27,080
+And it makes sense
+in many cases.
+
+417
+00:20:27,080 --> 00:20:29,060
+And again, like
+Russ says, animals
+
+418
+00:20:29,060 --> 00:20:30,287
+aren't doing robust control.
+
+419
+00:20:30,287 --> 00:20:32,495
+I mean, if they were, we
+wouldn't be sprinting around
+
+420
+00:20:32,495 --> 00:20:34,187
+and jumping, doing gymnastics.
+
+421
+00:20:34,187 --> 00:20:36,020
+Well, some people would
+be doing gymnastics.
+
+422
+00:20:36,020 --> 00:20:36,980
+I'm probably not
+doing them anyway.
+
+423
+00:20:36,980 --> 00:20:39,230
+But my expected value of
+trying to do gymnastics
+
+424
+00:20:39,230 --> 00:20:39,980
+would not be high.
+
+425
+00:20:39,980 --> 00:20:41,970
+I can guarantee that much.
+
+426
+00:20:41,970 --> 00:20:42,470
+All right.
+
+427
+00:20:42,470 --> 00:20:46,110
+So what we're going to look
+at is our stochastic gradient
+
+428
+00:20:46,110 --> 00:20:46,610
+set now.
+
+429
+00:20:46,610 --> 00:20:49,780
+Since we can't just
+dJ d alpha, we're
+
+430
+00:20:49,780 --> 00:20:57,920
+going to have to look at d
+expected value of J d alpha.
+
+431
+00:20:57,920 --> 00:20:59,690
+Right?
+
+432
+00:20:59,690 --> 00:21:00,860
+So this is now our metric.
+
+433
+00:21:00,860 --> 00:21:02,443
+And so we have to
+look at the gradient
+
+434
+00:21:02,443 --> 00:21:05,310
+of that expected value.
+
+435
+00:21:05,310 --> 00:21:14,570
+Now, this then is the
+definition of expected value.
+
+436
+00:21:14,570 --> 00:21:15,500
+Right?
+
+437
+00:21:15,500 --> 00:21:19,070
+We can call, I'm going to call
+this sort of like the policy
+
+438
+00:21:19,070 --> 00:21:23,270
+parameters that you're
+running on under this trial.
+
+439
+00:21:23,270 --> 00:21:25,190
+I'm going to call it
+beta in an attempt
+
+440
+00:21:25,190 --> 00:21:28,920
+to be as unoriginal as possible.
+
+441
+00:21:28,920 --> 00:21:30,950
+So we're going to
+call this beta.
+
+442
+00:21:33,530 --> 00:21:35,540
+So the expected
+value for J we want
+
+443
+00:21:35,540 --> 00:21:37,790
+to integrate over all beta.
+
+444
+00:21:41,030 --> 00:21:43,040
+And your expected
+value is going to be--
+
+445
+00:21:51,990 --> 00:21:52,840
+I'm sorry.
+
+446
+00:21:52,840 --> 00:21:54,090
+I've got an error in my notes.
+
+447
+00:21:56,670 --> 00:22:01,950
+So J of beta,
+probability of beta.
+
+448
+00:22:04,845 --> 00:22:06,720
+So this is just definition
+of expected value.
+
+449
+00:22:09,490 --> 00:22:17,050
+Now, if you push the
+d, d alpha through--
+
+450
+00:22:21,050 --> 00:22:21,770
+yeah, sorry.
+
+451
+00:22:21,770 --> 00:22:27,770
+If you push the
+d, d alpha through
+
+452
+00:22:27,770 --> 00:22:37,550
+for a beta, what you're going
+to find is that J of beta
+
+453
+00:22:37,550 --> 00:22:40,160
+is not a function of alpha.
+
+454
+00:22:40,160 --> 00:22:41,660
+We're saying beta
+up here written up
+
+455
+00:22:41,660 --> 00:22:42,830
+here is a function of alpha.
+
+456
+00:22:42,830 --> 00:22:44,330
+I mean, that's how
+we've derived it.
+
+457
+00:22:44,330 --> 00:22:46,670
+But remember that beta is
+just the actions you've
+
+458
+00:22:46,670 --> 00:22:48,290
+chosen from a distribution.
+
+459
+00:22:48,290 --> 00:22:52,092
+So if you look at running your
+system with these parameters,
+
+460
+00:22:52,092 --> 00:22:53,300
+that's not a random variable.
+
+461
+00:22:53,300 --> 00:22:54,830
+That is just your number.
+
+462
+00:22:54,830 --> 00:22:57,290
+Right?
+
+463
+00:22:57,290 --> 00:23:01,130
+So the thing that varies
+though is the probability
+
+464
+00:23:01,130 --> 00:23:02,540
+of getting beta.
+
+465
+00:23:02,540 --> 00:23:03,100
+Right?
+
+466
+00:23:03,100 --> 00:23:04,975
+This is the function,
+this distribution.
+
+467
+00:23:04,975 --> 00:23:06,350
+So this is what
+depends on alpha.
+
+468
+00:23:18,550 --> 00:23:20,630
+All right.
+
+469
+00:23:20,630 --> 00:23:28,980
+Now, this is where a bit
+of cleverness comes in.
+
+470
+00:23:28,980 --> 00:23:42,780
+You can write this then as a
+handle over beta, J beta P.
+
+471
+00:23:42,780 --> 00:23:45,450
+So you get the
+distribution beta.
+
+472
+00:23:45,450 --> 00:23:57,570
+Then d, d alpha of
+ln of p of beta.
+
+473
+00:23:57,570 --> 00:23:58,740
+d beta.
+
+474
+00:23:58,740 --> 00:23:59,460
+Right?
+
+475
+00:23:59,460 --> 00:24:00,540
+So this is just
+saying, when you take
+
+476
+00:24:00,540 --> 00:24:01,680
+the derivative of
+your natural log,
+
+477
+00:24:01,680 --> 00:24:03,360
+you're going to
+cancel out this one.
+
+478
+00:24:03,360 --> 00:24:03,900
+Right?
+
+479
+00:24:03,900 --> 00:24:05,760
+You'll get the derivative
+of the one inside.
+
+480
+00:24:05,760 --> 00:24:06,605
+That makes sense?
+
+481
+00:24:06,605 --> 00:24:07,980
+When you do a
+chain rule on this,
+
+482
+00:24:07,980 --> 00:24:14,270
+you're going to get one over
+P beta d P beta, d alpha.
+
+483
+00:24:14,270 --> 00:24:16,750
+So this is sort of the
+trick that you need.
+
+484
+00:24:16,750 --> 00:24:19,080
+So you should see this.
+
+485
+00:24:19,080 --> 00:24:19,580
+All right.
+
+486
+00:24:22,980 --> 00:24:25,477
+I can erase the pseudocode.
+
+487
+00:24:36,690 --> 00:24:41,340
+So once you do that, if you look
+at the expression over there,
+
+488
+00:24:41,340 --> 00:24:47,880
+what you can see is that it's
+the same as the expected value
+
+489
+00:24:47,880 --> 00:25:00,030
+of J beta d ln P beta d alpha.
+
+490
+00:25:02,850 --> 00:25:04,650
+Right?
+
+491
+00:25:04,650 --> 00:25:06,330
+Because we're
+integrating overall beta,
+
+492
+00:25:06,330 --> 00:25:08,670
+probability of beta.
+
+493
+00:25:08,670 --> 00:25:09,720
+Right?
+
+494
+00:25:09,720 --> 00:25:12,900
+So what's the expected
+value of this?
+
+495
+00:25:12,900 --> 00:25:23,190
+That means that, if we can make
+this our update, if we can make
+
+496
+00:25:23,190 --> 00:25:25,410
+effectively this our update,
+then the expected value
+
+497
+00:25:25,410 --> 00:25:32,130
+of our update is equal
+to the derivative
+
+498
+00:25:32,130 --> 00:25:34,710
+of the expected value of
+our performance with respect
+
+499
+00:25:34,710 --> 00:25:37,140
+to our policy parameterization.
+
+500
+00:25:37,140 --> 00:25:39,180
+Do you see?
+
+501
+00:25:39,180 --> 00:25:40,433
+That's sort of cool.
+
+502
+00:25:40,433 --> 00:25:42,600
+Because this seems like
+sort of a complicated thing,
+
+503
+00:25:42,600 --> 00:25:45,090
+the derivative of your
+expected value with respect
+
+504
+00:25:45,090 --> 00:25:46,602
+to your policies, other things.
+
+505
+00:25:46,602 --> 00:25:48,810
+It's this big random thing
+over a very complicated J.
+
+506
+00:25:48,810 --> 00:25:50,970
+Like a general J. We haven't
+assumed anything about J.
+
+507
+00:25:50,970 --> 00:25:51,930
+We didn't do a linearization.
+
+508
+00:25:51,930 --> 00:25:52,950
+We didn't do anything like that.
+
+509
+00:25:52,950 --> 00:25:53,520
+Right?
+
+510
+00:25:53,520 --> 00:25:55,750
+So J is still however
+general you want it to be.
+
+511
+00:25:55,750 --> 00:25:57,190
+It's not local anything.
+
+512
+00:25:57,190 --> 00:26:02,820
+The derivative this with respect
+alpha, we can make this update.
+
+513
+00:26:02,820 --> 00:26:05,120
+We follow that derivative.
+
+514
+00:26:05,120 --> 00:26:06,970
+So that's pretty cool.
+
+515
+00:26:06,970 --> 00:26:07,470
+Right?
+
+516
+00:26:10,200 --> 00:26:14,543
+So the question is, now
+what does this update
+
+517
+00:26:14,543 --> 00:26:15,460
+look like in practice?
+
+518
+00:26:15,460 --> 00:26:19,000
+This is kind of an ugly term.
+
+519
+00:26:19,000 --> 00:26:23,940
+So what happens when we actually
+try to do an update like this?
+
+520
+00:26:23,940 --> 00:26:34,872
+Well, we can write
+this as our update
+
+521
+00:26:34,872 --> 00:26:36,330
+in the direction
+of the gradient is
+
+522
+00:26:36,330 --> 00:26:38,910
+going to be delta alpha again.
+
+523
+00:26:38,910 --> 00:26:41,160
+Now we want a learning rate
+because this is again sort
+
+524
+00:26:41,160 --> 00:26:42,410
+of a gradient following thing.
+
+525
+00:26:42,410 --> 00:26:45,570
+So generally, in there, you
+want some sort of learning rate.
+
+526
+00:26:45,570 --> 00:26:48,750
+And you're just going to
+do a gradient descent.
+
+527
+00:26:48,750 --> 00:26:54,720
+You get this J of
+beta, which again now
+
+528
+00:26:54,720 --> 00:26:56,190
+we can write this
+is alpha plus z.
+
+529
+00:27:00,980 --> 00:27:03,080
+All right.
+
+530
+00:27:03,080 --> 00:27:09,140
+And then something to represent
+that d ln d alpha P beta.
+
+531
+00:27:09,140 --> 00:27:13,910
+So we'll call that E. And
+that's called the eligibility.
+
+532
+00:27:13,910 --> 00:27:15,990
+I think that term may
+come from neural networks.
+
+533
+00:27:15,990 --> 00:27:19,850
+But you can think of it as
+this eligibility captures
+
+534
+00:27:19,850 --> 00:27:22,760
+how sensitive each parameter
+should be to an update.
+
+535
+00:27:22,760 --> 00:27:26,420
+So let's say we have 10 alphas.
+
+536
+00:27:26,420 --> 00:27:29,900
+And the eligibility for one
+of those alphas is very high.
+
+537
+00:27:29,900 --> 00:27:33,140
+That means that, if we do
+well, that eligibility should
+
+538
+00:27:33,140 --> 00:27:36,472
+go much more in that direction.
+
+539
+00:27:36,472 --> 00:27:38,180
+The eligibility is
+sort of just capturing
+
+540
+00:27:38,180 --> 00:27:40,280
+the weights of
+how much you think
+
+541
+00:27:40,280 --> 00:27:44,360
+each parameter is responsible
+for affecting that output.
+
+542
+00:27:44,360 --> 00:27:44,930
+Right?
+
+543
+00:27:44,930 --> 00:27:46,790
+So a big eligibility
+on a parameter
+
+544
+00:27:46,790 --> 00:27:48,950
+means that that parameter
+is going to move a lot.
+
+545
+00:27:48,950 --> 00:27:50,510
+If the eligibility
+is small, it's
+
+546
+00:27:50,510 --> 00:27:51,760
+not going to move much at all.
+
+547
+00:27:54,358 --> 00:27:55,400
+So does that makes sense?
+
+548
+00:27:55,400 --> 00:27:57,450
+So that's the way to think
+about the eligibility.
+
+549
+00:27:57,450 --> 00:27:57,950
+All right.
+
+550
+00:27:57,950 --> 00:27:59,790
+So eligibility is
+just capturing what we
+
+551
+00:27:59,790 --> 00:28:01,040
+expect the significance to be.
+
+552
+00:28:01,040 --> 00:28:01,670
+Yeah?
+
+553
+00:28:01,670 --> 00:28:03,715
+STUDENT: Is it the
+quantity inside
+
+554
+00:28:03,715 --> 00:28:05,480
+the expected value brackets?
+
+555
+00:28:05,480 --> 00:28:06,922
+Or is it the expected value?
+
+556
+00:28:08,965 --> 00:28:10,090
+JOHN W. ROBERTS: It's this.
+
+557
+00:28:10,090 --> 00:28:11,140
+It's just this quantity.
+
+558
+00:28:11,140 --> 00:28:12,760
+It's not the expected value.
+
+559
+00:28:12,760 --> 00:28:15,310
+We want our update to be this
+inside the expected value.
+
+560
+00:28:15,310 --> 00:28:20,020
+Then the expected value of
+our update is the gradient.
+
+561
+00:28:20,020 --> 00:28:21,730
+So it's just the
+quantity inside.
+
+562
+00:28:21,730 --> 00:28:24,100
+Right.
+
+563
+00:28:24,100 --> 00:28:31,295
+So I think I remember,
+when I first learned this,
+
+564
+00:28:31,295 --> 00:28:32,920
+Russ was talking
+about the eligibility.
+
+565
+00:28:32,920 --> 00:28:36,155
+And I had no idea
+how to interpret it.
+
+566
+00:28:36,155 --> 00:28:37,780
+And if you still are
+confused about it,
+
+567
+00:28:37,780 --> 00:28:40,450
+I can try to describe it in
+more detail maybe with a picture
+
+568
+00:28:40,450 --> 00:28:42,400
+or something like
+that if you'd like.
+
+569
+00:28:42,400 --> 00:28:44,942
+Do people think they have a good
+idea of what the eligibility
+
+570
+00:28:44,942 --> 00:28:46,510
+means intuitively?
+
+571
+00:28:46,510 --> 00:28:47,010
+OK.
+
+572
+00:28:47,010 --> 00:28:47,510
+Great.
+
+573
+00:28:52,390 --> 00:28:53,850
+STUDENT: [INAUDIBLE]?
+
+574
+00:28:53,850 --> 00:28:55,186
+JOHN W. ROBERTS: Pardon?
+
+575
+00:28:55,186 --> 00:28:57,118
+STUDENT: I know
+eligibility [INAUDIBLE]??
+
+576
+00:28:57,118 --> 00:28:59,660
+JOHN W. ROBERTS: I'm going to
+go through how you calculate it
+
+577
+00:28:59,660 --> 00:29:01,000
+right now.
+
+578
+00:29:01,000 --> 00:29:03,520
+Because E, you see,
+is going to be this.
+
+579
+00:29:03,520 --> 00:29:06,070
+It's going to depend on
+what our distribution is.
+
+580
+00:29:06,070 --> 00:29:08,560
+So I said, if we
+parameterize our policy
+
+581
+00:29:08,560 --> 00:29:10,150
+by the means of a
+bunch of Gaussians,
+
+582
+00:29:10,150 --> 00:29:11,620
+eligibility is going
+to be one thing.
+
+583
+00:29:11,620 --> 00:29:13,953
+If you parameterize it as a
+bunch of Bernoulli variables
+
+584
+00:29:13,953 --> 00:29:17,240
+or something like that,
+it's going to be different.
+
+585
+00:29:17,240 --> 00:29:20,290
+So it depends on the kind of
+distribution your policy uses.
+
+586
+00:29:23,040 --> 00:29:23,540
+All right.
+
+587
+00:29:28,200 --> 00:29:30,663
+So-- yeah?
+
+588
+00:29:30,663 --> 00:29:33,080
+STUDENT: If alpha isn't the
+means of a bunch of Gaussians,
+
+589
+00:29:33,080 --> 00:29:36,810
+then what does
+alpha plus z mean?
+
+590
+00:29:36,810 --> 00:29:46,040
+JOHN W. ROBERTS: z, alpha plus
+z is always the action you take.
+
+591
+00:29:46,040 --> 00:29:50,360
+Sort of the-- we actually
+had some notes on this.
+
+592
+00:29:50,360 --> 00:29:57,260
+If you think about it, let's
+say that the way you represented
+
+593
+00:29:57,260 --> 00:30:00,480
+your controller, there are
+some subtle differences here.
+
+594
+00:30:00,480 --> 00:30:00,980
+But yeah.
+
+595
+00:30:00,980 --> 00:30:03,840
+I think it's worth
+going through.
+
+596
+00:30:03,840 --> 00:30:07,130
+So let's say I parameterize my
+controller by three numbers.
+
+597
+00:30:10,010 --> 00:30:16,790
+Like gain on position,
+gain on the speed,
+
+598
+00:30:16,790 --> 00:30:19,350
+and an interval term.
+
+599
+00:30:19,350 --> 00:30:21,230
+So this is a PID controller.
+
+600
+00:30:21,230 --> 00:30:21,980
+Right?
+
+601
+00:30:21,980 --> 00:30:23,990
+So this is something
+that most of you I think
+
+602
+00:30:23,990 --> 00:30:25,350
+are probably familiar with.
+
+603
+00:30:25,350 --> 00:30:29,540
+So this is a very simple
+parameterization of a policy.
+
+604
+00:30:29,540 --> 00:30:30,113
+Right?
+
+605
+00:30:30,113 --> 00:30:31,280
+Now, this how we control it.
+
+606
+00:30:31,280 --> 00:30:34,370
+Now the thing is that this is
+sort of what the actions are.
+
+607
+00:30:34,370 --> 00:30:36,560
+So this would be, a beta
+would be one of these.
+
+608
+00:30:36,560 --> 00:30:41,000
+An alpha-- and this terminology
+isn't necessarily standard.
+
+609
+00:30:41,000 --> 00:30:42,620
+I think the alpha and z are.
+
+610
+00:30:42,620 --> 00:30:43,730
+My beta just came
+up when I was trying
+
+611
+00:30:43,730 --> 00:30:46,147
+to make these notes so I could
+have a simple term to write
+
+612
+00:30:46,147 --> 00:30:47,930
+down all these expressions.
+
+613
+00:30:47,930 --> 00:30:49,280
+But so this is your beta.
+
+614
+00:30:49,280 --> 00:30:51,740
+This is the thing you're
+running your system under.
+
+615
+00:30:51,740 --> 00:30:56,930
+Your alpha is the
+same size as that.
+
+616
+00:30:56,930 --> 00:30:59,840
+But what it is is
+parameterization
+
+617
+00:30:59,840 --> 00:31:05,300
+for some distribution
+of how you select these.
+
+618
+00:31:05,300 --> 00:31:05,960
+All right?
+
+619
+00:31:05,960 --> 00:31:08,570
+So in a Gaussian, I mean
+I give you a simple one.
+
+620
+00:31:08,570 --> 00:31:10,220
+A Bernoulli
+distribution, this could
+
+621
+00:31:10,220 --> 00:31:14,180
+be-- let's say KP was
+either one or five,
+
+622
+00:31:14,180 --> 00:31:18,063
+then my alpha one could be the
+probability of picking one.
+
+623
+00:31:18,063 --> 00:31:19,730
+And then the probability
+of picking five
+
+624
+00:31:19,730 --> 00:31:21,566
+is one minus alpha one.
+
+625
+00:31:21,566 --> 00:31:25,680
+STUDENT: So in this case,
+it's a specific evaluation
+
+626
+00:31:25,680 --> 00:31:27,370
+of your stochastic policy?
+
+627
+00:31:27,370 --> 00:31:29,660
+JOHN W. ROBERTS: This is
+a specific evaluation.
+
+628
+00:31:29,660 --> 00:31:32,970
+This is the parameterization
+that defines the distribution.
+
+629
+00:31:32,970 --> 00:31:36,170
+So once you tell me alpha, I
+can tell you the probability
+
+630
+00:31:36,170 --> 00:31:38,100
+of getting any of these.
+
+631
+00:31:38,100 --> 00:31:38,600
+Right?
+
+632
+00:31:38,600 --> 00:31:41,460
+But when I run it, I have
+these numbers in there.
+
+633
+00:31:41,460 --> 00:31:43,820
+So this is sort of like a
+sample from a distribution.
+
+634
+00:31:43,820 --> 00:31:45,653
+And this is what I
+actually get the cost of.
+
+635
+00:31:48,460 --> 00:31:49,980
+Yeah.
+
+636
+00:31:49,980 --> 00:31:51,370
+All right.
+
+637
+00:31:51,370 --> 00:31:54,040
+And so, if you look at this
+minus this, that's the noise
+
+638
+00:31:54,040 --> 00:31:56,365
+we talk about in the
+other interpretation.
+
+639
+00:32:04,972 --> 00:32:06,514
+STUDENT: And the
+system you're trying
+
+640
+00:32:06,514 --> 00:32:14,443
+to solve is not, [INAUDIBLE]
+how do you decide [INAUDIBLE]??
+
+641
+00:32:16,363 --> 00:32:17,280
+JOHN W. ROBERTS: Yeah.
+
+642
+00:32:17,280 --> 00:32:19,050
+So we're thinking about this.
+
+643
+00:32:19,050 --> 00:32:21,200
+This is another thing
+I have a note on.
+
+644
+00:32:21,200 --> 00:32:23,200
+We're going about this
+in the context of trials.
+
+645
+00:32:23,200 --> 00:32:25,290
+So you run the
+system under a trial.
+
+646
+00:32:25,290 --> 00:32:27,450
+Right?
+
+647
+00:32:27,450 --> 00:32:29,010
+And then you evaluate the cost.
+
+648
+00:32:29,010 --> 00:32:30,990
+What if your system is
+just running constantly?
+
+649
+00:32:30,990 --> 00:32:32,220
+Right.
+
+650
+00:32:32,220 --> 00:32:35,340
+Well, you can think about
+a short period of time.
+
+651
+00:32:35,340 --> 00:32:37,410
+As a trial, you could
+run it for a while.
+
+652
+00:32:37,410 --> 00:32:39,370
+You can look at discounted cost.
+
+653
+00:32:39,370 --> 00:32:42,728
+And then there's also the
+average cost or average reward
+
+654
+00:32:42,728 --> 00:32:44,520
+formulation where you
+can look at how long,
+
+655
+00:32:44,520 --> 00:32:47,010
+what reward you expect to get
+running it off to infinity.
+
+656
+00:32:47,010 --> 00:32:49,710
+Like, what sort of reward rate.
+
+657
+00:32:49,710 --> 00:32:51,760
+I think about it right
+now in the context of,
+
+658
+00:32:51,760 --> 00:32:53,972
+let's just say we can
+do a trial of something.
+
+659
+00:32:53,972 --> 00:32:55,430
+And if you want to
+worry about what
+
+660
+00:32:55,430 --> 00:32:57,073
+happens if this is
+constantly running,
+
+661
+00:32:57,073 --> 00:32:58,740
+there are ways you
+can still do a trial.
+
+662
+00:32:58,740 --> 00:33:00,720
+And then you can keep track
+of an eligibility trace, which
+
+663
+00:33:00,720 --> 00:33:02,178
+is different than
+this eligibility.
+
+664
+00:33:02,178 --> 00:33:03,838
+So that's a confusing thing.
+
+665
+00:33:03,838 --> 00:33:05,880
+What you can do is you
+can be running constantly.
+
+666
+00:33:05,880 --> 00:33:08,748
+You can just sort of keep
+iterating and take into account
+
+667
+00:33:08,748 --> 00:33:10,290
+the sort of coupling
+or [INAUDIBLE]..
+
+668
+00:33:10,290 --> 00:33:12,240
+You can imagine
+it's sort of like,
+
+669
+00:33:12,240 --> 00:33:15,000
+if I study for my test tonight,
+I don't have a good night.
+
+670
+00:33:15,000 --> 00:33:16,470
+But I do well my test tomorrow.
+
+671
+00:33:16,470 --> 00:33:17,437
+So I was happy.
+
+672
+00:33:17,437 --> 00:33:19,770
+And so, it's sort of like,
+then my action didn't give me
+
+673
+00:33:19,770 --> 00:33:20,603
+an immediate reward.
+
+674
+00:33:20,603 --> 00:33:21,990
+It gave me a reward later.
+
+675
+00:33:21,990 --> 00:33:23,365
+That's sort of
+the delayed reward
+
+676
+00:33:23,365 --> 00:33:24,857
+problem, which is very common.
+
+677
+00:33:24,857 --> 00:33:26,940
+And there are ways of
+dealing with this here where
+
+678
+00:33:26,940 --> 00:33:29,220
+you can still just look at
+your accruing award right now.
+
+679
+00:33:29,220 --> 00:33:30,390
+And you can still
+sort of give yourself
+
+680
+00:33:30,390 --> 00:33:32,580
+a reward for doing good
+things in the past.
+
+681
+00:33:32,580 --> 00:33:35,350
+You can still handle that.
+
+682
+00:33:35,350 --> 00:33:36,982
+So I mean, that is
+a good question.
+
+683
+00:33:36,982 --> 00:33:38,940
+And there's a number of
+ways to deal with this.
+
+684
+00:33:38,940 --> 00:33:41,030
+But right now, just think
+about executing a trial.
+
+685
+00:33:41,030 --> 00:33:41,530
+Right?
+
+686
+00:33:46,590 --> 00:33:48,090
+So then our E here--
+
+687
+00:33:48,090 --> 00:33:51,210
+again, to make it
+look like what we want
+
+688
+00:33:51,210 --> 00:33:53,300
+it to look like, to make it--
+
+689
+00:33:53,300 --> 00:33:56,140
+well, that tells us
+exactly what our E is.
+
+690
+00:33:56,140 --> 00:33:58,200
+So we can write
+it as this vector.
+
+691
+00:33:58,200 --> 00:34:05,790
+d d alpha one of ln
+probability of beta.
+
+692
+00:34:08,820 --> 00:34:10,560
+And this beta is
+still this vector.
+
+693
+00:34:10,560 --> 00:34:12,239
+But the probability
+of that is a scalar.
+
+694
+00:34:12,239 --> 00:34:13,020
+Right?
+
+695
+00:34:13,020 --> 00:34:16,370
+So this element of the
+probability is just a scalar.
+
+696
+00:34:16,370 --> 00:34:18,310
+And that's our
+entire thing here.
+
+697
+00:34:18,310 --> 00:34:20,340
+Right?
+
+698
+00:34:20,340 --> 00:34:26,270
+So then let's say again, this
+is where the distribution you
+
+699
+00:34:26,270 --> 00:34:27,850
+choose comes into play.
+
+700
+00:34:27,850 --> 00:34:30,889
+Let's say that we
+chose our distribution
+
+701
+00:34:30,889 --> 00:34:33,469
+to be a bunch of Gaussians.
+
+702
+00:34:33,469 --> 00:34:39,507
+All the different
+parameters ID, the noise ID.
+
+703
+00:34:39,507 --> 00:34:41,340
+But we'll just think
+about as an independent
+
+704
+00:34:41,340 --> 00:34:42,290
+with the same sigma.
+
+705
+00:34:42,290 --> 00:34:44,540
+So the probability
+of getting a beta,
+
+706
+00:34:44,540 --> 00:34:46,699
+because they're
+all independent, is
+
+707
+00:34:46,699 --> 00:34:52,760
+the product over all the
+different parameters.
+
+708
+00:34:52,760 --> 00:34:57,870
+1 over square root of
+2 pi sigma squared.
+
+709
+00:34:57,870 --> 00:35:00,500
+This is going to
+cramp it if I do that.
+
+710
+00:35:00,500 --> 00:35:04,890
+So I think I have the opposite
+problem of anyone else.
+
+711
+00:35:04,890 --> 00:35:06,920
+I write way too big.
+
+712
+00:35:06,920 --> 00:35:09,890
+Video people will be happy.
+
+713
+00:35:09,890 --> 00:35:12,020
+So let just me
+squish it in here.
+
+714
+00:35:15,760 --> 00:35:23,770
+So probability of beta
+is equal to product
+
+715
+00:35:23,770 --> 00:35:27,750
+over all my different
+parameters with 1 over--
+
+716
+00:35:27,750 --> 00:35:31,345
+well, you know the
+Gaussian distribution.
+
+717
+00:35:31,345 --> 00:35:32,290
+It's like this.
+
+718
+00:35:44,300 --> 00:35:46,420
+Right.
+
+719
+00:35:46,420 --> 00:35:48,760
+So if you give me a beta
+and I have the alpha,
+
+720
+00:35:48,760 --> 00:35:51,300
+I can tell you the probability
+of us picking that beta.
+
+721
+00:35:51,300 --> 00:35:52,270
+All right.
+
+722
+00:35:52,270 --> 00:36:01,960
+So our ln, the
+natural log of this,
+
+723
+00:36:01,960 --> 00:36:06,730
+will then allow you to turn
+this product into a sum.
+
+724
+00:36:06,730 --> 00:36:10,600
+And you'll get the sum
+of over i equals 1 to n.
+
+725
+00:36:27,240 --> 00:36:28,830
+Now we can take this derivative.
+
+726
+00:36:28,830 --> 00:36:30,420
+This is a constant.
+
+727
+00:36:30,420 --> 00:36:31,740
+That won't show up.
+
+728
+00:36:31,740 --> 00:36:34,290
+And we'll just have
+the derivative of--
+
+729
+00:36:37,250 --> 00:36:37,750
+yeah.
+
+730
+00:36:40,860 --> 00:36:41,360
+Yes.
+
+731
+00:36:41,360 --> 00:36:43,922
+So the derivative, now
+we'll get rid of this.
+
+732
+00:36:43,922 --> 00:36:45,130
+This one is simple to do now.
+
+733
+00:36:45,130 --> 00:36:46,460
+It's just a product.
+
+734
+00:36:46,460 --> 00:36:58,150
+So the derivative of
+ln P beta d alpha--
+
+735
+00:36:58,150 --> 00:36:59,435
+I did this again--
+
+736
+00:36:59,435 --> 00:36:59,935
+equals.
+
+737
+00:37:10,230 --> 00:37:13,836
+So beta i minus alpha
+i over sigma squared.
+
+738
+00:37:13,836 --> 00:37:21,750
+Now if you remember how we
+talked about it over there,
+
+739
+00:37:21,750 --> 00:37:27,320
+it ends up being [INAUDIBLE].
+
+740
+00:37:31,450 --> 00:37:37,880
+So here is our eligibility.
+
+741
+00:37:37,880 --> 00:37:40,550
+z over sigma squared.
+
+742
+00:37:40,550 --> 00:37:43,960
+Now what does that
+mean our update is?
+
+743
+00:37:59,080 --> 00:38:02,300
+So hopefully, this
+looks familiar.
+
+744
+00:38:02,300 --> 00:38:05,510
+My voice is struggling today.
+
+745
+00:38:05,510 --> 00:38:07,610
+I'm going to come in next
+time talking like this.
+
+746
+00:38:07,610 --> 00:38:08,380
+It'll be great.
+
+747
+00:38:08,380 --> 00:38:12,400
+So this is our update.
+
+748
+00:38:12,400 --> 00:38:14,112
+Does this look familiar?
+
+749
+00:38:14,112 --> 00:38:15,800
+[INTERPOSING VOICES]
+
+750
+00:38:15,800 --> 00:38:17,320
+Yeah.
+
+751
+00:38:17,320 --> 00:38:18,940
+Actually, let me-- yeah.
+
+752
+00:38:18,940 --> 00:38:20,460
+I guess so.
+
+753
+00:38:20,460 --> 00:38:21,460
+Does that look familiar?
+
+754
+00:38:24,130 --> 00:38:26,080
+Is this no, it does not
+look at all familiar?
+
+755
+00:38:26,080 --> 00:38:28,538
+Or is this yes, it looks so
+familiar, I don't waste my time
+
+756
+00:38:28,538 --> 00:38:31,940
+and embarrass myself
+by saying it does?
+
+757
+00:38:31,940 --> 00:38:32,440
+It does.
+
+758
+00:38:32,440 --> 00:38:32,650
+Right?
+
+759
+00:38:32,650 --> 00:38:33,775
+It's the exact same update.
+
+760
+00:38:33,775 --> 00:38:34,300
+Right?
+
+761
+00:38:34,300 --> 00:38:36,040
+Now this one, we
+don't have a baseline.
+
+762
+00:38:36,040 --> 00:38:39,500
+And we have sigma squared.
+
+763
+00:38:39,500 --> 00:38:41,710
+But that sigma squared
+is just a scalar.
+
+764
+00:38:41,710 --> 00:38:44,650
+And we already said, baseline or
+no baseline, whatever you want,
+
+765
+00:38:44,650 --> 00:38:45,760
+it doesn't affect it.
+
+766
+00:38:45,760 --> 00:38:46,810
+Right?
+
+767
+00:38:46,810 --> 00:38:48,650
+Now, is that true for this case?
+
+768
+00:38:48,650 --> 00:38:50,172
+It didn't affect the other one.
+
+769
+00:38:50,172 --> 00:38:51,130
+This one, it also does.
+
+770
+00:38:51,130 --> 00:38:53,155
+If you think about
+your reward as--
+
+771
+00:38:57,340 --> 00:39:02,290
+if you think about your
+reward as one everywhere,
+
+772
+00:39:02,290 --> 00:39:07,600
+then your derivative, let's see.
+
+773
+00:39:21,788 --> 00:39:22,705
+Where is this exactly?
+
+774
+00:39:49,080 --> 00:39:50,610
+OK.
+
+775
+00:39:50,610 --> 00:39:51,540
+All right.
+
+776
+00:39:51,540 --> 00:39:59,520
+So if this is constant, then
+our derivative expected value
+
+777
+00:39:59,520 --> 00:40:01,860
+is zero.
+
+778
+00:40:01,860 --> 00:40:09,150
+That means that the expected
+value delta alpha over here
+
+779
+00:40:09,150 --> 00:40:11,730
+has to be zero because it's
+equal to that expected value.
+
+780
+00:40:11,730 --> 00:40:15,030
+That means the expected value
+of our eligibility is zero.
+
+781
+00:40:15,030 --> 00:40:16,950
+Right?
+
+782
+00:40:16,950 --> 00:40:21,002
+So the expected value of the
+eligibility is always zero.
+
+783
+00:40:21,002 --> 00:40:22,710
+So that means that
+some constant in there
+
+784
+00:40:22,710 --> 00:40:23,930
+is not going to affect it.
+
+785
+00:40:23,930 --> 00:40:24,430
+Right?
+
+786
+00:40:24,430 --> 00:40:27,898
+When we do this expected value,
+when we put in our baseline,
+
+787
+00:40:27,898 --> 00:40:29,190
+that's going to turn into zero.
+
+788
+00:40:29,190 --> 00:40:30,930
+Because the expected
+value of E is zero.
+
+789
+00:40:30,930 --> 00:40:32,555
+The exact same thing
+we had previously.
+
+790
+00:40:32,555 --> 00:40:33,390
+Right?
+
+791
+00:40:33,390 --> 00:40:36,000
+And you can see it's the case
+for this specific example of z.
+
+792
+00:40:36,000 --> 00:40:38,148
+The expected value
+of z is zero again.
+
+793
+00:40:38,148 --> 00:40:40,440
+So it's not going to affect
+the direction of our update
+
+794
+00:40:40,440 --> 00:40:42,310
+and expectation.
+
+795
+00:40:42,310 --> 00:40:45,300
+So yes, you can do anything
+like this with eligibilities.
+
+796
+00:40:45,300 --> 00:40:47,580
+You can still use a baseline.
+
+797
+00:40:47,580 --> 00:40:48,660
+Right?
+
+798
+00:40:48,660 --> 00:40:52,860
+So this is really the exact same
+update that we already found.
+
+799
+00:40:55,660 --> 00:40:56,160
+All right.
+
+800
+00:40:59,320 --> 00:41:02,020
+So I think that's pretty cool.
+
+801
+00:41:05,020 --> 00:41:06,880
+Update that we
+originally interpreted
+
+802
+00:41:06,880 --> 00:41:10,210
+as locally following
+the gradient
+
+803
+00:41:10,210 --> 00:41:14,530
+is also following the
+true gradient, not
+
+804
+00:41:14,530 --> 00:41:16,330
+some sort of local
+but the true gradient
+
+805
+00:41:16,330 --> 00:41:19,490
+of the expected value of the
+performance of that policy.
+
+806
+00:41:19,490 --> 00:41:21,310
+All right?
+
+807
+00:41:21,310 --> 00:41:23,620
+So if you have some really
+ugly value function,
+
+808
+00:41:23,620 --> 00:41:25,900
+you throw this
+distribution on top of it
+
+809
+00:41:25,900 --> 00:41:27,500
+and you move it around.
+
+810
+00:41:27,500 --> 00:41:31,510
+It's going to be
+some, it's going
+
+811
+00:41:31,510 --> 00:41:34,100
+to follow in the direction
+of true improvement there.
+
+812
+00:41:34,100 --> 00:41:35,290
+And a little test case.
+
+813
+00:41:35,290 --> 00:41:36,650
+I remember when I was trying
+to think about interpreting
+
+814
+00:41:36,650 --> 00:41:38,890
+these things back when
+we were originally
+
+815
+00:41:38,890 --> 00:41:42,730
+doing some of this analysis
+on the signal to noise ratio,
+
+816
+00:41:42,730 --> 00:41:47,500
+if you think of little cusp, if
+you have a value function that
+
+817
+00:41:47,500 --> 00:41:51,760
+has a little plateau on it, I
+can write this on a fixed board
+
+818
+00:41:51,760 --> 00:41:53,980
+because it's not going to stay.
+
+819
+00:41:53,980 --> 00:41:56,770
+If you think you have
+a value function that's
+
+820
+00:41:56,770 --> 00:42:04,370
+sitting around here, my drawing
+isn't going to be too clear.
+
+821
+00:42:04,370 --> 00:42:06,650
+But here, we'll do it in 1D.
+
+822
+00:42:06,650 --> 00:42:16,450
+If you have a value
+function like this,
+
+823
+00:42:16,450 --> 00:42:20,020
+you sit here and follow
+the local true gradient.
+
+824
+00:42:20,020 --> 00:42:21,370
+It is very small.
+
+825
+00:42:21,370 --> 00:42:24,280
+The other one says that
+you'll follow that gradient,
+
+826
+00:42:24,280 --> 00:42:25,570
+no matter how big it is.
+
+827
+00:42:25,570 --> 00:42:27,820
+So what it's sort of doing
+when you have this Gaussian
+
+828
+00:42:27,820 --> 00:42:31,990
+is it smooths out the kinks and
+stuff like this in your policy.
+
+829
+00:42:31,990 --> 00:42:33,100
+Right?
+
+830
+00:42:33,100 --> 00:42:34,910
+Because you think my
+local analysis says,
+
+831
+00:42:34,910 --> 00:42:36,700
+OK, well, I'll just
+get local enough
+
+832
+00:42:36,700 --> 00:42:38,533
+that these little kinks
+in my value function
+
+833
+00:42:38,533 --> 00:42:39,577
+aren't a problem anymore.
+
+834
+00:42:39,577 --> 00:42:41,410
+But here, we say we
+didn't say it was local.
+
+835
+00:42:41,410 --> 00:42:42,568
+We said it was global.
+
+836
+00:42:42,568 --> 00:42:44,110
+And so, it's following
+this gradient,
+
+837
+00:42:44,110 --> 00:42:45,890
+even if we have ugly stuff
+in our value function.
+
+838
+00:42:45,890 --> 00:42:47,723
+The reason is because
+this distribution sort
+
+839
+00:42:47,723 --> 00:42:49,900
+of smooths that stuff out.
+
+840
+00:42:49,900 --> 00:42:52,205
+And now it's able to follow it.
+
+841
+00:42:52,205 --> 00:42:53,830
+So that gradient is
+still well-defined.
+
+842
+00:42:53,830 --> 00:42:56,020
+It takes the stuff and
+smooths it into something.
+
+843
+00:42:56,020 --> 00:42:56,937
+Does that makes sense?
+
+844
+00:43:00,530 --> 00:43:05,100
+I think it's just the big sort
+of difference in interpretation
+
+845
+00:43:05,100 --> 00:43:05,600
+right here.
+
+846
+00:43:05,600 --> 00:43:07,517
+There's the one where
+it's this local analysis
+
+847
+00:43:07,517 --> 00:43:10,550
+and follows the local true
+gradient but only locally.
+
+848
+00:43:10,550 --> 00:43:13,865
+And then we have the other
+one which follows even,
+
+849
+00:43:13,865 --> 00:43:16,490
+it doesn't require a small sigma
+or anything like that anymore.
+
+850
+00:43:16,490 --> 00:43:20,480
+It'll follow the expected
+value, the true gradient
+
+851
+00:43:20,480 --> 00:43:24,578
+of the expected
+value of your reward.
+
+852
+00:43:24,578 --> 00:43:26,120
+And it's too big of
+a mouthful for it
+
+853
+00:43:26,120 --> 00:43:27,370
+to be clear just by saying it.
+
+854
+00:43:27,370 --> 00:43:31,200
+But these are the two
+different interpretations.
+
+855
+00:43:31,200 --> 00:43:31,700
+All right?
+
+856
+00:43:35,930 --> 00:43:37,178
+Good.
+
+857
+00:43:37,178 --> 00:43:40,840
+STUDENT: That function
+is basically the policy.
+
+858
+00:43:40,840 --> 00:43:43,010
+JOHN W. ROBERTS: Oh yes,
+I'll draw this better.
+
+859
+00:43:45,930 --> 00:43:50,750
+So here is sort of our alpha.
+
+860
+00:43:50,750 --> 00:43:53,600
+This is our reward.
+
+861
+00:43:53,600 --> 00:43:58,920
+Here we have our
+[INAUDIBLE] function.
+
+862
+00:43:58,920 --> 00:44:04,250
+Our policy is taking actions
+with this probability.
+
+863
+00:44:04,250 --> 00:44:06,120
+All right?
+
+864
+00:44:06,120 --> 00:44:07,100
+That's our policy.
+
+865
+00:44:07,100 --> 00:44:09,642
+So you can see that this-- even
+though this has a kink in it,
+
+866
+00:44:09,642 --> 00:44:12,440
+as it moves that over a bit,
+this is varying smoothly.
+
+867
+00:44:12,440 --> 00:44:15,298
+So even though this is a
+little disconnected like that,
+
+868
+00:44:15,298 --> 00:44:17,090
+this is going to slide
+over still smoothly.
+
+869
+00:44:17,090 --> 00:44:17,550
+Right?
+
+870
+00:44:17,550 --> 00:44:19,145
+So the gradient is always
+going to be nicely well defined
+
+871
+00:44:19,145 --> 00:44:20,130
+and everything.
+
+872
+00:44:20,130 --> 00:44:22,098
+And this also goes
+out to infinity.
+
+873
+00:44:22,098 --> 00:44:24,140
+So even if there's some
+ugly thing way out there,
+
+874
+00:44:24,140 --> 00:44:25,670
+you're never going to
+suddenly go and start seeing
+
+875
+00:44:25,670 --> 00:44:26,660
+stuff you never saw before.
+
+876
+00:44:26,660 --> 00:44:27,800
+You always sort of saw it.
+
+877
+00:44:27,800 --> 00:44:29,840
+Right?
+
+878
+00:44:29,840 --> 00:44:33,480
+So you'll be following the sort
+of smooth one all the time.
+
+879
+00:44:33,480 --> 00:44:36,710
+And that's nice
+because maybe you
+
+880
+00:44:36,710 --> 00:44:40,498
+won't be following when
+you get really broad.
+
+881
+00:44:40,498 --> 00:44:43,040
+One interpretation says, well,
+we're not in the linear regime
+
+882
+00:44:43,040 --> 00:44:43,590
+anymore.
+
+883
+00:44:43,590 --> 00:44:45,590
+So we're not following
+that local true gradient.
+
+884
+00:44:45,590 --> 00:44:47,988
+This is sort of the
+issue that brought it up.
+
+885
+00:44:47,988 --> 00:44:50,030
+Let's say this one says
+it's the linear analysis.
+
+886
+00:44:50,030 --> 00:44:50,785
+And it says, OK.
+
+887
+00:44:50,785 --> 00:44:52,160
+If my sigma is
+small enough, so I
+
+888
+00:44:52,160 --> 00:44:55,280
+sample close enough so it
+looks approximately linear,
+
+889
+00:44:55,280 --> 00:44:56,810
+I'm going to follow
+that gradient.
+
+890
+00:44:56,810 --> 00:44:58,940
+But instead, when
+it breaks down,
+
+891
+00:44:58,940 --> 00:45:01,202
+you get this really
+broad Gaussian.
+
+892
+00:45:01,202 --> 00:45:02,160
+So what does that mean?
+
+893
+00:45:02,160 --> 00:45:03,950
+Well, this one is still
+following that gradient.
+
+894
+00:45:03,950 --> 00:45:05,950
+So that means that you're
+seeing stuff all over.
+
+895
+00:45:05,950 --> 00:45:08,540
+And it's following that gradient
+instead of this local one.
+
+896
+00:45:08,540 --> 00:45:09,410
+Right?
+
+897
+00:45:09,410 --> 00:45:14,060
+Now the problem is that, if
+you follow that gradient,
+
+898
+00:45:14,060 --> 00:45:16,460
+the stochastic policy
+isn't necessarily actually
+
+899
+00:45:16,460 --> 00:45:18,183
+the optimal one to follow.
+
+900
+00:45:18,183 --> 00:45:19,850
+When you're actually
+running your policy
+
+901
+00:45:19,850 --> 00:45:21,547
+in the end, certain
+systems you do.
+
+902
+00:45:21,547 --> 00:45:23,630
+But in many mechanical
+systems, you don't actually
+
+903
+00:45:23,630 --> 00:45:24,740
+want these random actions.
+
+904
+00:45:24,740 --> 00:45:26,210
+Right?
+
+905
+00:45:26,210 --> 00:45:29,540
+There's the action that
+actually does minimize cost.
+
+906
+00:45:29,540 --> 00:45:31,820
+And so, the sort of
+local interpretation
+
+907
+00:45:31,820 --> 00:45:33,918
+has some value because
+you don't necessarily
+
+908
+00:45:33,918 --> 00:45:35,960
+want to stick with the
+stochastic policy forever.
+
+909
+00:45:35,960 --> 00:45:37,310
+That's why you sort
+of reduce your sigma.
+
+910
+00:45:37,310 --> 00:45:38,540
+And you get tighter and
+tighter and tighter.
+
+911
+00:45:38,540 --> 00:45:40,582
+And you follow the gradient
+so it's more and more
+
+912
+00:45:40,582 --> 00:45:42,320
+biased to the right spot.
+
+913
+00:45:42,320 --> 00:45:47,780
+Because you can imagine, if
+you have a value function
+
+914
+00:45:47,780 --> 00:45:52,510
+that's a global
+min here, and then
+
+915
+00:45:52,510 --> 00:45:54,890
+say this is all extremely high.
+
+916
+00:45:54,890 --> 00:45:58,070
+And this goes down and
+it's like a low plateau.
+
+917
+00:45:58,070 --> 00:46:01,670
+Now, if you have a
+really broad Gaussian,
+
+918
+00:46:01,670 --> 00:46:03,800
+it may say, OK, well,
+even though this
+
+919
+00:46:03,800 --> 00:46:07,970
+is the best spot to execute, I'm
+going to slide way over here.
+
+920
+00:46:07,970 --> 00:46:10,520
+Because I have a sort
+of lower expected cost.
+
+921
+00:46:10,520 --> 00:46:11,210
+Right?
+
+922
+00:46:11,210 --> 00:46:12,502
+That put you in the wrong spot.
+
+923
+00:46:12,502 --> 00:46:15,770
+If it was really tight,
+then I'd say, OK.
+
+924
+00:46:15,770 --> 00:46:17,010
+Sit right here.
+
+925
+00:46:17,010 --> 00:46:20,215
+So do you see that
+sort of distinction?
+
+926
+00:46:20,215 --> 00:46:22,590
+That this broad guy could push
+you in the wrong direction
+
+927
+00:46:22,590 --> 00:46:24,895
+if it's really broad.
+
+928
+00:46:24,895 --> 00:46:26,270
+And you may not,
+in the end, want
+
+929
+00:46:26,270 --> 00:46:28,478
+to execute a stochastic
+policy for this exact reason.
+
+930
+00:46:28,478 --> 00:46:30,740
+Your stochastic
+policy could have
+
+931
+00:46:30,740 --> 00:46:34,820
+a much higher expected
+cost than a small sigma
+
+932
+00:46:34,820 --> 00:46:35,720
+stochastic policy.
+
+933
+00:46:35,720 --> 00:46:37,460
+Down to where, if
+sigma is zero, that's
+
+934
+00:46:37,460 --> 00:46:39,000
+when you actually have
+the minimum expected cost.
+
+935
+00:46:39,000 --> 00:46:39,830
+Yeah?
+
+936
+00:46:39,830 --> 00:46:43,730
+STUDENT: So when is this used?
+
+937
+00:46:43,730 --> 00:46:45,320
+It's used when you're
+starting and you
+
+938
+00:46:45,320 --> 00:46:47,250
+don't know about systems?
+
+939
+00:46:47,250 --> 00:46:48,020
+JOHN W. ROBERTS: When
+you don't have a model,
+
+940
+00:46:48,020 --> 00:46:49,610
+it's used in the same
+context as the other one.
+
+941
+00:46:49,610 --> 00:46:51,860
+Are you saying stochastic
+gradient descent as a whole?
+
+942
+00:46:51,860 --> 00:46:52,560
+Or--
+
+943
+00:46:52,560 --> 00:46:55,670
+STUDENT: I mean
+stochastic policies.
+
+944
+00:46:55,670 --> 00:46:59,008
+[INTERPOSING VOICES]
+
+945
+00:46:59,008 --> 00:47:00,800
+JOHN W. ROBERTS: It's
+used for exploration.
+
+946
+00:47:00,800 --> 00:47:01,190
+Right?
+
+947
+00:47:01,190 --> 00:47:03,482
+Because our other one, where
+we had this nominal policy
+
+948
+00:47:03,482 --> 00:47:06,810
+and we add a noise, that
+doesn't look any different,
+
+949
+00:47:06,810 --> 00:47:09,860
+except from this sort of
+interpretation, than this.
+
+950
+00:47:09,860 --> 00:47:10,890
+Right?
+
+951
+00:47:10,890 --> 00:47:11,390
+So--
+
+952
+00:47:11,390 --> 00:47:14,470
+STUDENT: So for the [INAUDIBLE]
+and learning about systems--
+
+953
+00:47:14,470 --> 00:47:15,440
+JOHN W. ROBERTS: Yeah.
+
+954
+00:47:15,440 --> 00:47:16,700
+It's for exploration.
+
+955
+00:47:16,700 --> 00:47:18,600
+And you need it
+to get more data.
+
+956
+00:47:18,600 --> 00:47:19,100
+Right?
+
+957
+00:47:19,100 --> 00:47:21,017
+Because if I run the
+same policy all the time,
+
+958
+00:47:21,017 --> 00:47:22,700
+I don't know how
+things are sensitive.
+
+959
+00:47:22,700 --> 00:47:24,980
+So my stochastic policy
+gives me this information
+
+960
+00:47:24,980 --> 00:47:26,030
+to where I can learn.
+
+961
+00:47:26,030 --> 00:47:27,590
+Right?
+
+962
+00:47:27,590 --> 00:47:30,260
+So in the end many
+times, yes, you'll
+
+963
+00:47:30,260 --> 00:47:32,420
+want a deterministic policy.
+
+964
+00:47:32,420 --> 00:47:34,300
+But for the development
+of that policy,
+
+965
+00:47:34,300 --> 00:47:36,050
+you'll want to execute
+all sorts of things
+
+966
+00:47:36,050 --> 00:47:38,450
+that could be suboptimal
+to give you information.
+
+967
+00:47:38,450 --> 00:47:41,330
+And so, that is the
+interpretation here.
+
+968
+00:47:41,330 --> 00:47:42,630
+It's for that learning.
+
+969
+00:47:42,630 --> 00:47:44,360
+And if your system
+is evolving and stuff
+
+970
+00:47:44,360 --> 00:47:46,560
+like that, if it's
+not constant in time,
+
+971
+00:47:46,560 --> 00:47:49,010
+you may want to always
+run a stochastic policy.
+
+972
+00:47:49,010 --> 00:47:51,440
+Because you'll be able to
+constantly learn, if that makes
+
+973
+00:47:51,440 --> 00:47:52,003
+sense.
+
+974
+00:47:52,003 --> 00:47:53,420
+So you may never
+want to converge.
+
+975
+00:47:56,282 --> 00:47:57,542
+But I think it's-- yes?
+
+976
+00:47:57,542 --> 00:47:59,250
+STUDENT: How do you
+obtain the parameters
+
+977
+00:47:59,250 --> 00:48:03,170
+of that stochastic policy
+with that probability?
+
+978
+00:48:03,170 --> 00:48:05,115
+It's very sensitive
+to sigma, right?
+
+979
+00:48:05,115 --> 00:48:07,323
+JOHN W. ROBERTS: How do I
+get the parameters of what?
+
+980
+00:48:07,323 --> 00:48:08,190
+STUDENT: Of that distribution.
+
+981
+00:48:08,190 --> 00:48:09,200
+JOHN W. ROBERTS: Distribution?
+
+982
+00:48:09,200 --> 00:48:10,190
+Well, I mean that's
+what I've set.
+
+983
+00:48:10,190 --> 00:48:10,690
+Right?
+
+984
+00:48:10,690 --> 00:48:14,120
+I said I'm going to act with
+the probability described
+
+985
+00:48:14,120 --> 00:48:15,590
+by a certain distribution.
+
+986
+00:48:15,590 --> 00:48:16,730
+And I describe the
+distribution here.
+
+987
+00:48:16,730 --> 00:48:17,780
+So I know these probabilities.
+
+988
+00:48:17,780 --> 00:48:18,380
+Because this, I set.
+
+989
+00:48:18,380 --> 00:48:19,463
+That's from my controller.
+
+990
+00:48:19,463 --> 00:48:20,550
+I designed that myself.
+
+991
+00:48:20,550 --> 00:48:25,010
+What I don't know is this,
+this value function aspect.
+
+992
+00:48:25,010 --> 00:48:27,080
+STUDENT: So that it should
+be based on intuition?
+
+993
+00:48:27,080 --> 00:48:27,440
+JOHN W. ROBERTS: No.
+
+994
+00:48:27,440 --> 00:48:27,940
+No.
+
+995
+00:48:27,940 --> 00:48:28,950
+This up here?
+
+996
+00:48:28,950 --> 00:48:32,270
+Oh, how do you decide
+how broad this?
+
+997
+00:48:32,270 --> 00:48:35,330
+Intuition has something
+to do with it.
+
+998
+00:48:35,330 --> 00:48:37,330
+Also, you can imagine sampling.
+
+999
+00:48:37,330 --> 00:48:40,000
+I think I mentioned
+this on Tuesday.
+
+1000
+00:48:40,000 --> 00:48:40,900
+You could sample.
+
+1001
+00:48:40,900 --> 00:48:44,290
+You can imagine I
+sample a few points
+
+1002
+00:48:44,290 --> 00:48:45,700
+and I'd look at them here.
+
+1003
+00:48:45,700 --> 00:48:47,062
+And they look straight to me.
+
+1004
+00:48:47,062 --> 00:48:47,770
+And I'm like, OK.
+
+1005
+00:48:47,770 --> 00:48:49,090
+Well, what if I sample bigger?
+
+1006
+00:48:49,090 --> 00:48:50,830
+And I get these points.
+
+1007
+00:48:50,830 --> 00:48:52,960
+And it looks relatively rough.
+
+1008
+00:48:52,960 --> 00:48:53,630
+Then I go, OK.
+
+1009
+00:48:53,630 --> 00:48:56,198
+Well, I want to be sampling
+on probably the regime.
+
+1010
+00:48:56,198 --> 00:48:58,240
+We're going to see this
+roughness to some degree.
+
+1011
+00:48:58,240 --> 00:48:59,140
+I don't want to be
+stuck where it's
+
+1012
+00:48:59,140 --> 00:49:00,760
+going to take me forever
+to go anywhere because I'm
+
+1013
+00:49:00,760 --> 00:49:01,642
+in the linear regime.
+
+1014
+00:49:01,642 --> 00:49:03,100
+So you can do some
+sampling and get
+
+1015
+00:49:03,100 --> 00:49:07,220
+sort of the coarseness
+of your value function.
+
+1016
+00:49:07,220 --> 00:49:09,220
+And so, I mean that's
+sort of before you run it,
+
+1017
+00:49:09,220 --> 00:49:09,970
+you do some of those things.
+
+1018
+00:49:09,970 --> 00:49:11,800
+And you figure out how
+big these parameters are.
+
+1019
+00:49:11,800 --> 00:49:13,150
+Because the alternative
+would be you set it,
+
+1020
+00:49:13,150 --> 00:49:15,190
+you see if it how it does,
+and you fool around with them
+
+1021
+00:49:15,190 --> 00:49:15,732
+all the time.
+
+1022
+00:49:15,732 --> 00:49:17,470
+That's another way to do it.
+
+1023
+00:49:17,470 --> 00:49:20,890
+But this way, you sort of
+have a more direct process
+
+1024
+00:49:20,890 --> 00:49:22,030
+for trying to be like, OK.
+
+1025
+00:49:22,030 --> 00:49:23,780
+I want to be sampling
+where I actually get
+
+1026
+00:49:23,780 --> 00:49:25,870
+some interesting information.
+
+1027
+00:49:25,870 --> 00:49:28,450
+And so, you want to be
+sampling where you're probably
+
+1028
+00:49:28,450 --> 00:49:31,308
+getting distributions
+that cover linear--
+
+1029
+00:49:31,308 --> 00:49:32,350
+it's fine if it's linear.
+
+1030
+00:49:32,350 --> 00:49:34,090
+But you want to
+actually sample to where
+
+1031
+00:49:34,090 --> 00:49:36,460
+you're going to move around
+to these different features.
+
+1032
+00:49:36,460 --> 00:49:39,730
+You want to sort
+of be able to get,
+
+1033
+00:49:39,730 --> 00:49:42,010
+you want your updates when
+you change your policy
+
+1034
+00:49:42,010 --> 00:49:43,010
+to be on the scale, too.
+
+1035
+00:49:43,010 --> 00:49:45,093
+Because it was really
+small, it could take forever
+
+1036
+00:49:45,093 --> 00:49:46,300
+to get down to the minimum.
+
+1037
+00:49:46,300 --> 00:49:49,030
+Or if I was over here
+and I had small sigma,
+
+1038
+00:49:49,030 --> 00:49:51,130
+I may never sample over here.
+
+1039
+00:49:51,130 --> 00:49:53,170
+So I'd never know
+to move that way.
+
+1040
+00:49:53,170 --> 00:49:54,190
+Right?
+
+1041
+00:49:54,190 --> 00:49:55,865
+And so, if you have
+a bigger sigma,
+
+1042
+00:49:55,865 --> 00:49:57,615
+you might be to get
+out of this local min.
+
+1043
+00:49:57,615 --> 00:49:59,230
+So I sample over here
+and see it's better.
+
+1044
+00:49:59,230 --> 00:50:00,370
+And move in that direction.
+
+1045
+00:50:00,370 --> 00:50:02,480
+Despite the fact that,
+locally, it was bad.
+
+1046
+00:50:02,480 --> 00:50:04,685
+So there's a number
+of considerations.
+
+1047
+00:50:04,685 --> 00:50:06,310
+But yeah, doing some
+sampling and stuff
+
+1048
+00:50:06,310 --> 00:50:09,390
+like that combined
+with some intuition.
+
+1049
+00:50:09,390 --> 00:50:13,030
+That's probably the
+best I can give you as
+
+1050
+00:50:13,030 --> 00:50:14,440
+to how to set these parameters.
+
+1051
+00:50:14,440 --> 00:50:15,820
+I mean, that's a tricky thing.
+
+1052
+00:50:15,820 --> 00:50:17,528
+That's something that's
+nice about SNOPT.
+
+1053
+00:50:17,528 --> 00:50:18,580
+There's no eta to set.
+
+1054
+00:50:18,580 --> 00:50:19,997
+This one also has
+a stigma to set.
+
+1055
+00:50:29,780 --> 00:50:33,800
+So please, Russ emphasized
+that I was to make all of you
+
+1056
+00:50:33,800 --> 00:50:36,227
+understand this
+stuff really well.
+
+1057
+00:50:36,227 --> 00:50:37,310
+That's why I had two days.
+
+1058
+00:50:37,310 --> 00:50:40,877
+And if you do it on your
+project and you apply it
+
+1059
+00:50:40,877 --> 00:50:42,710
+at the wrong system,
+I'm going to be blamed.
+
+1060
+00:50:42,710 --> 00:50:44,650
+[LAUGHTER]
+
+1061
+00:50:44,650 --> 00:50:45,150
+Yeah.
+
+1062
+00:50:45,150 --> 00:50:47,690
+So if you don't
+have a model and you
+
+1063
+00:50:47,690 --> 00:50:50,990
+don't have anything like
+that, try that back prop first
+
+1064
+00:50:50,990 --> 00:50:52,040
+if you can.
+
+1065
+00:50:52,040 --> 00:50:53,900
+Try SNOPT first if
+you can, I think.
+
+1066
+00:50:53,900 --> 00:50:58,310
+If you can't, this
+maybe won't do as--
+
+1067
+00:50:58,310 --> 00:51:01,100
+this can solve the
+problem, too, I guess.
+
+1068
+00:51:01,100 --> 00:51:04,406
+But sort of appreciate
+its limitations.
+
+1069
+00:51:04,406 --> 00:51:07,835
+STUDENT: So with the stochastic
+gradient and stochastic policy,
+
+1070
+00:51:07,835 --> 00:51:09,590
+you also have to be
+careful about how
+
+1071
+00:51:09,590 --> 00:51:10,757
+you parameterize everything.
+
+1072
+00:51:10,757 --> 00:51:11,270
+Right?
+
+1073
+00:51:11,270 --> 00:51:12,020
+JOHN W. ROBERTS: Oh, very much.
+
+1074
+00:51:12,020 --> 00:51:14,353
+STUDENT: Because, I mean, you
+are taking the expectation
+
+1075
+00:51:14,353 --> 00:51:17,690
+over these betas, which
+are in fact instantiations
+
+1076
+00:51:17,690 --> 00:51:18,950
+of your parameters.
+
+1077
+00:51:18,950 --> 00:51:21,260
+JOHN W. ROBERTS: That
+is a very good point.
+
+1078
+00:51:21,260 --> 00:51:24,200
+STUDENT: Are you still having
+that problem regardless
+
+1079
+00:51:24,200 --> 00:51:25,655
+of which two you use?
+
+1080
+00:51:25,655 --> 00:51:27,530
+JOHN W. ROBERTS: What
+do you mean, which two?
+
+1081
+00:51:27,530 --> 00:51:29,510
+Oh, whether you're using back
+prop or this or something
+
+1082
+00:51:29,510 --> 00:51:29,930
+like that?
+
+1083
+00:51:29,930 --> 00:51:30,680
+STUDENT: Well, no.
+
+1084
+00:51:30,680 --> 00:51:33,930
+Between the stochastic policy
+and the stochastic gradient
+
+1085
+00:51:33,930 --> 00:51:34,430
+descent.
+
+1086
+00:51:34,430 --> 00:51:34,520
+JOHN W. ROBERTS: OK.
+
+1087
+00:51:34,520 --> 00:51:35,780
+I really want to emphasize
+something right now.
+
+1088
+00:51:35,780 --> 00:51:37,110
+They're not different.
+
+1089
+00:51:37,110 --> 00:51:38,580
+OK?
+
+1090
+00:51:38,580 --> 00:51:41,030
+They're not, they're
+the same thing.
+
+1091
+00:51:41,030 --> 00:51:41,910
+All right?
+
+1092
+00:51:41,910 --> 00:51:46,037
+You're correct that
+your parameterization
+
+1093
+00:51:46,037 --> 00:51:47,120
+is going to affect things.
+
+1094
+00:51:47,120 --> 00:51:48,390
+Because you're going
+to get to a minimum,
+
+1095
+00:51:48,390 --> 00:51:49,460
+with respect to your
+parameterization.
+
+1096
+00:51:49,460 --> 00:51:49,820
+STUDENT: Right.
+
+1097
+00:51:49,820 --> 00:51:50,150
+JOHN W. ROBERTS:
+You're going to be
+
+1098
+00:51:50,150 --> 00:51:51,450
+sampling over your parameters.
+
+1099
+00:51:51,450 --> 00:51:52,490
+And so, the cost
+function is going
+
+1100
+00:51:52,490 --> 00:51:53,880
+to be a function
+of your parameters.
+
+1101
+00:51:53,880 --> 00:51:56,047
+So if you imagine, if you
+have different parameters,
+
+1102
+00:51:56,047 --> 00:51:58,713
+the cost function will
+look completely different.
+
+1103
+00:51:58,713 --> 00:51:59,630
+Does that makes sense?
+
+1104
+00:51:59,630 --> 00:52:02,810
+If I were to parameterize with
+an open loop tape or feedback
+
+1105
+00:52:02,810 --> 00:52:05,090
+policy, how would
+the value function
+
+1106
+00:52:05,090 --> 00:52:07,732
+dependent on those parameters
+be completely different?
+
+1107
+00:52:07,732 --> 00:52:08,690
+So it's very important.
+
+1108
+00:52:08,690 --> 00:52:09,110
+That's true.
+
+1109
+00:52:09,110 --> 00:52:10,777
+It's over these
+instantiated parameters.
+
+1110
+00:52:10,777 --> 00:52:12,660
+So picking that
+affects everything.
+
+1111
+00:52:12,660 --> 00:52:16,145
+And picking a sensible
+one can be a hard problem.
+
+1112
+00:52:16,145 --> 00:52:19,790
+STUDENT: So there is
+almost like another,
+
+1113
+00:52:19,790 --> 00:52:22,140
+instead of just having
+the sigma and the rate,
+
+1114
+00:52:22,140 --> 00:52:24,270
+you also have to have
+essentially these alphas
+
+1115
+00:52:24,270 --> 00:52:24,945
+and [INAUDIBLE].
+
+1116
+00:52:24,945 --> 00:52:26,820
+JOHN W. ROBERTS: You
+have it for both, right?
+
+1117
+00:52:26,820 --> 00:52:27,085
+STUDENT: Right.
+
+1118
+00:52:27,085 --> 00:52:27,590
+Exactly.
+
+1119
+00:52:27,590 --> 00:52:28,220
+It's like--
+
+1120
+00:52:28,220 --> 00:52:28,700
+JOHN W. ROBERTS: Yeah.
+
+1121
+00:52:28,700 --> 00:52:31,150
+STUDENT: It's almost you're
+over-parameterizing everything
+
+1122
+00:52:31,150 --> 00:52:32,150
+just so you can get an answer.
+
+1123
+00:52:32,150 --> 00:52:32,810
+JOHN W. ROBERTS:
+Well, I mean you
+
+1124
+00:52:32,810 --> 00:52:34,700
+need to parameterize
+your policy either way.
+
+1125
+00:52:34,700 --> 00:52:37,250
+I mean, whether you choose to
+parameterize it as an open loop
+
+1126
+00:52:37,250 --> 00:52:39,200
+tape where you have 250
+parameters or something
+
+1127
+00:52:39,200 --> 00:52:41,200
+like that, you've still
+chosen parameterization.
+
+1128
+00:52:41,200 --> 00:52:43,760
+I mean, you still
+picked a lot of them.
+
+1129
+00:52:43,760 --> 00:52:47,070
+But you need to
+represent it some way.
+
+1130
+00:52:47,070 --> 00:52:50,495
+And so, I mean, whether you
+do back prop or anything,
+
+1131
+00:52:50,495 --> 00:52:52,620
+you're still going to have
+that exact same problem.
+
+1132
+00:52:52,620 --> 00:52:53,750
+I mean, you could do
+back prop and make
+
+1133
+00:52:53,750 --> 00:52:55,790
+it more efficient if you
+had five parameters, too.
+
+1134
+00:52:55,790 --> 00:52:57,860
+But it also can handle these
+big open loop tapes and stuff
+
+1135
+00:52:57,860 --> 00:52:58,360
+like that.
+
+1136
+00:52:58,360 --> 00:53:02,510
+So there's less of a pressure
+to find concise and sort
+
+1137
+00:53:02,510 --> 00:53:04,550
+of compact representations.
+
+1138
+00:53:04,550 --> 00:53:05,050
+But yeah.
+
+1139
+00:53:05,050 --> 00:53:07,258
+But I want to emphasize that
+these are different ways
+
+1140
+00:53:07,258 --> 00:53:08,300
+of looking at it.
+
+1141
+00:53:08,300 --> 00:53:10,130
+But update's the same.
+
+1142
+00:53:10,130 --> 00:53:11,790
+The algorithm's the same.
+
+1143
+00:53:11,790 --> 00:53:13,610
+The only difference
+is, am I following
+
+1144
+00:53:13,610 --> 00:53:15,230
+this local true gradient?
+
+1145
+00:53:15,230 --> 00:53:18,700
+Am I following the
+expected value of my cost?
+
+1146
+00:53:21,920 --> 00:53:28,580
+So a toy example here to show
+some of the practical issues
+
+1147
+00:53:28,580 --> 00:53:29,990
+of some of these things.
+
+1148
+00:53:29,990 --> 00:53:31,740
+And please, if you
+have any more questions
+
+1149
+00:53:31,740 --> 00:53:34,702
+about any of these things,
+even if it seems tangential,
+
+1150
+00:53:34,702 --> 00:53:35,410
+just let me know.
+
+1151
+00:53:38,520 --> 00:53:39,020
+OK.
+
+1152
+00:53:43,630 --> 00:53:52,420
+So here, we have what we just
+talked about implemented.
+
+1153
+00:53:52,420 --> 00:53:55,030
+You can see how simple
+it is right here.
+
+1154
+00:53:55,030 --> 00:53:57,280
+I'm doing a four loop instead
+of that while converged.
+
+1155
+00:53:57,280 --> 00:54:01,720
+But we have a loop through
+some number of iterations.
+
+1156
+00:54:01,720 --> 00:54:03,490
+I get my sigma and eta.
+
+1157
+00:54:03,490 --> 00:54:05,710
+So this is so I can make
+it dependent on the number
+
+1158
+00:54:05,710 --> 00:54:07,252
+of iterations or
+something like that.
+
+1159
+00:54:07,252 --> 00:54:08,890
+So I can make them decrease.
+
+1160
+00:54:08,890 --> 00:54:12,100
+I generate the noise according
+to a Gaussian distribution
+
+1161
+00:54:12,100 --> 00:54:13,278
+here.
+
+1162
+00:54:13,278 --> 00:54:13,945
+I get my reward.
+
+1163
+00:54:16,455 --> 00:54:17,830
+And the rest of
+this is just sort
+
+1164
+00:54:17,830 --> 00:54:19,622
+of plotting stuff and
+everything like that.
+
+1165
+00:54:19,622 --> 00:54:21,430
+And then here.
+
+1166
+00:54:21,430 --> 00:54:23,080
+Here's my update.
+
+1167
+00:54:23,080 --> 00:54:24,820
+And that's where
+I've got my baseline.
+
+1168
+00:54:24,820 --> 00:54:25,140
+Right?
+
+1169
+00:54:25,140 --> 00:54:26,920
+So you can see that this is just
+sort of that pseudocode right
+
+1170
+00:54:26,920 --> 00:54:27,560
+over there.
+
+1171
+00:54:27,560 --> 00:54:29,207
+There's nothing more.
+
+1172
+00:54:29,207 --> 00:54:30,790
+All these functions
+are just so that I
+
+1173
+00:54:30,790 --> 00:54:32,915
+can switch between different
+things really quickly.
+
+1174
+00:54:32,915 --> 00:54:34,407
+But it's very easy to implement.
+
+1175
+00:54:34,407 --> 00:54:35,740
+STUDENT: So you do the baseline.
+
+1176
+00:54:35,740 --> 00:54:39,312
+And then the
+equations, [INAUDIBLE]??
+
+1177
+00:54:39,312 --> 00:54:40,270
+JOHN W. ROBERTS: Right.
+
+1178
+00:54:40,270 --> 00:54:41,687
+I mean, this is
+what pops out when
+
+1179
+00:54:41,687 --> 00:54:43,000
+you look at that expectation.
+
+1180
+00:54:43,000 --> 00:54:46,000
+But as we said, the
+expected value of E is 0.
+
+1181
+00:54:46,000 --> 00:54:48,610
+So if I have a constant in
+there, my expected value
+
+1182
+00:54:48,610 --> 00:54:50,620
+if I subtract off that
+constant the same way,
+
+1183
+00:54:50,620 --> 00:54:53,380
+it's not going to affect the
+expected direction of my update
+
+1184
+00:54:53,380 --> 00:54:54,310
+at all.
+
+1185
+00:54:54,310 --> 00:54:58,270
+So these say you
+don't need a baseline.
+
+1186
+00:54:58,270 --> 00:55:00,220
+But a baseline has
+performance benefits.
+
+1187
+00:55:00,220 --> 00:55:00,760
+Right?
+
+1188
+00:55:00,760 --> 00:55:01,690
+So that's sort of
+another, if you
+
+1189
+00:55:01,690 --> 00:55:03,190
+go these different
+directions, this one says,
+
+1190
+00:55:03,190 --> 00:55:04,270
+oh you don't need a baseline.
+
+1191
+00:55:04,270 --> 00:55:05,320
+You can put it and it helps.
+
+1192
+00:55:05,320 --> 00:55:06,400
+The other one's more
+natural to think
+
+1193
+00:55:06,400 --> 00:55:07,330
+about starting with a baseline.
+
+1194
+00:55:07,330 --> 00:55:09,020
+Then you can say, oh well,
+you actually don't need it.
+
+1195
+00:55:09,020 --> 00:55:11,140
+So again, they both have
+the same effect there.
+
+1196
+00:55:11,140 --> 00:55:13,580
+Maybe I should have
+been more clear.
+
+1197
+00:55:13,580 --> 00:55:16,300
+But yeah.
+
+1198
+00:55:19,990 --> 00:55:21,640
+So the problem that
+we're looking at
+
+1199
+00:55:21,640 --> 00:55:27,910
+is simply, we have a spline.
+
+1200
+00:55:27,910 --> 00:55:28,912
+So I make a spline.
+
+1201
+00:55:28,912 --> 00:55:30,370
+And then we're
+trying to figure out
+
+1202
+00:55:30,370 --> 00:55:33,225
+a curve that gets as close
+to that spline as possible.
+
+1203
+00:55:33,225 --> 00:55:34,600
+So it's really
+just sort of we're
+
+1204
+00:55:34,600 --> 00:55:37,120
+trying to fit a curve
+to this random spline.
+
+1205
+00:55:37,120 --> 00:55:37,720
+Right?
+
+1206
+00:55:37,720 --> 00:55:41,260
+Now, obviously we don't need
+to do anything fancy for this.
+
+1207
+00:55:41,260 --> 00:55:42,987
+But it's very visual.
+
+1208
+00:55:42,987 --> 00:55:45,070
+And so, I think it's
+probably a good example here.
+
+1209
+00:55:48,700 --> 00:55:50,410
+So we'll start.
+
+1210
+00:55:50,410 --> 00:55:54,160
+The cost function we're
+using is the square distance
+
+1211
+00:55:54,160 --> 00:55:59,410
+between our sort of guessed
+curve and the actual curve.
+
+1212
+00:55:59,410 --> 00:56:01,300
+And try running it.
+
+1213
+00:56:22,240 --> 00:56:23,830
+All right.
+
+1214
+00:56:23,830 --> 00:56:26,740
+So on the left,
+this is our cost.
+
+1215
+00:56:26,740 --> 00:56:28,840
+Well, we have it formulated
+as our reward here.
+
+1216
+00:56:28,840 --> 00:56:31,510
+So it's negative.
+
+1217
+00:56:31,510 --> 00:56:34,720
+And then over here, the blue
+thing is the thing we want.
+
+1218
+00:56:34,720 --> 00:56:35,785
+The red is our nominal.
+
+1219
+00:56:35,785 --> 00:56:36,910
+And the green is our noise.
+
+1220
+00:56:36,910 --> 00:56:38,620
+You see our noise
+is pretty small.
+
+1221
+00:56:38,620 --> 00:56:41,050
+I started it at L zero.
+
+1222
+00:56:41,050 --> 00:56:43,150
+You can see it climbing here.
+
+1223
+00:56:43,150 --> 00:56:44,920
+Right?
+
+1224
+00:56:44,920 --> 00:56:45,980
+And it is getting better.
+
+1225
+00:56:45,980 --> 00:56:49,210
+It's bouncing around a bit.
+
+1226
+00:56:49,210 --> 00:56:50,080
+Yeah.
+
+1227
+00:56:50,080 --> 00:56:52,247
+And so, this is actually
+parameterized, this spline.
+
+1228
+00:56:52,247 --> 00:56:55,400
+So it could be exactly
+correct if we let it.
+
+1229
+00:56:55,400 --> 00:56:57,940
+I mean, it's capable of
+representing the curve exactly.
+
+1230
+00:56:57,940 --> 00:56:59,890
+So the cost could be
+zero, effectively.
+
+1231
+00:56:59,890 --> 00:57:00,490
+Right?
+
+1232
+00:57:00,490 --> 00:57:01,948
+I think actually,
+if I have run it,
+
+1233
+00:57:01,948 --> 00:57:04,060
+it gets stuck in a
+local minimum, which
+
+1234
+00:57:04,060 --> 00:57:06,490
+is a good cautionary tale.
+
+1235
+00:57:06,490 --> 00:57:08,673
+Even if a problem
+is simple like this,
+
+1236
+00:57:08,673 --> 00:57:10,340
+you can still get
+stuck in local minima.
+
+1237
+00:57:10,340 --> 00:57:11,925
+So always be careful for that.
+
+1238
+00:57:11,925 --> 00:57:14,050
+But see, it's actually
+doing a reasonably good job.
+
+1239
+00:57:14,050 --> 00:57:15,610
+Right?
+
+1240
+00:57:15,610 --> 00:57:17,680
+Now you might be
+like, oh well, it
+
+1241
+00:57:17,680 --> 00:57:20,320
+has an ideal parameterization.
+
+1242
+00:57:20,320 --> 00:57:22,810
+It's the minimum
+number of parameters
+
+1243
+00:57:22,810 --> 00:57:25,048
+you need to have a spline
+that can represent it.
+
+1244
+00:57:25,048 --> 00:57:26,590
+And this was the
+same form of spline.
+
+1245
+00:57:26,590 --> 00:57:29,410
+So that's a pretty
+solid parameterization.
+
+1246
+00:57:29,410 --> 00:57:32,200
+But we can try a different one.
+
+1247
+00:57:35,740 --> 00:57:40,810
+This computer is
+showing its age.
+
+1248
+00:57:40,810 --> 00:57:43,877
+When I ran these tests on
+my desktop, it went pfft.
+
+1249
+00:57:43,877 --> 00:57:45,460
+And so, I had my
+number of iterations,
+
+1250
+00:57:45,460 --> 00:57:46,780
+like several thousand.
+
+1251
+00:57:46,780 --> 00:57:48,822
+And then when I realized
+it was going to do this,
+
+1252
+00:57:48,822 --> 00:57:50,350
+I was like oh.
+
+1253
+00:57:50,350 --> 00:57:52,060
+All right.
+
+1254
+00:57:52,060 --> 00:57:53,560
+So here.
+
+1255
+00:57:53,560 --> 00:57:55,540
+What parameterization
+do you want?
+
+1256
+00:57:55,540 --> 00:57:58,230
+Linear, tripolated,
+nearest neighbor?
+
+1257
+00:57:58,230 --> 00:57:59,551
+A polynomial?
+
+1258
+00:58:02,210 --> 00:58:02,710
+All right.
+
+1259
+00:58:09,230 --> 00:58:09,730
+OK.
+
+1260
+00:58:21,430 --> 00:58:24,380
+[INAUDIBLE]
+
+1261
+00:58:24,380 --> 00:58:24,880
+There we go.
+
+1262
+00:58:39,650 --> 00:58:40,420
+Sorry about this.
+
+1263
+00:58:49,857 --> 00:58:50,440
+It's not done.
+
+1264
+00:58:50,440 --> 00:58:53,270
+Here we go.
+
+1265
+00:58:53,270 --> 00:58:56,130
+Here, you see it's
+capable of learning.
+
+1266
+00:58:56,130 --> 00:58:58,380
+It has this is obviously
+inferior parameterization.
+
+1267
+00:58:58,380 --> 00:59:00,080
+It can't represent
+the right answer.
+
+1268
+00:59:00,080 --> 00:59:01,830
+But you can see it is
+getting closer here.
+
+1269
+00:59:01,830 --> 00:59:03,990
+It's not doing a bad job.
+
+1270
+00:59:03,990 --> 00:59:04,530
+Right?
+
+1271
+00:59:04,530 --> 00:59:07,453
+And the question of
+what the optimum is here
+
+1272
+00:59:07,453 --> 00:59:09,120
+is not going to look
+just like the curve
+
+1273
+00:59:09,120 --> 00:59:10,050
+because it has to
+sort of balance
+
+1274
+00:59:10,050 --> 00:59:12,490
+these competing things of
+going over and going under.
+
+1275
+00:59:12,490 --> 00:59:15,450
+So this is a good
+example of where
+
+1276
+00:59:15,450 --> 00:59:16,950
+your policy
+parameterization doesn't
+
+1277
+00:59:16,950 --> 00:59:19,342
+capture the true optimum.
+
+1278
+00:59:19,342 --> 00:59:21,300
+And so, when this thing
+converges to something,
+
+1279
+00:59:21,300 --> 00:59:22,230
+it maybe is the best.
+
+1280
+00:59:22,230 --> 00:59:23,688
+But it's only the
+best with respect
+
+1281
+00:59:23,688 --> 00:59:25,590
+to that way of
+parameterizing a policy.
+
+1282
+00:59:25,590 --> 00:59:26,640
+Right?
+
+1283
+00:59:26,640 --> 00:59:29,120
+So if you guessed that nearest
+neighbor is rich enough,
+
+1284
+00:59:29,120 --> 00:59:30,120
+then you put it in here.
+
+1285
+00:59:30,120 --> 00:59:33,900
+You're going to see
+that it's not optimal.
+
+1286
+00:59:33,900 --> 00:59:34,830
+Right?
+
+1287
+00:59:34,830 --> 00:59:37,303
+That you've limited yourself.
+
+1288
+00:59:37,303 --> 00:59:39,470
+And sometimes I mean, the
+other one with the spline,
+
+1289
+00:59:39,470 --> 00:59:41,150
+you put yourself in the
+regime where you have
+
+1290
+00:59:41,150 --> 00:59:42,358
+a very good parameterization.
+
+1291
+00:59:42,358 --> 00:59:44,270
+You get very close
+to the right answer.
+
+1292
+00:59:44,270 --> 00:59:46,003
+Here, we have poor
+parameterization.
+
+1293
+00:59:46,003 --> 00:59:47,420
+And so, it's still
+going to learn.
+
+1294
+00:59:47,420 --> 00:59:48,380
+It's still going to converge.
+
+1295
+00:59:48,380 --> 00:59:49,755
+But it's not going
+to be as good.
+
+1296
+00:59:59,410 --> 01:00:02,440
+So lin interp, we could
+probably do better.
+
+1297
+01:00:02,440 --> 01:00:03,600
+But here.
+
+1298
+01:00:03,600 --> 01:00:09,405
+Now, we'll go back
+to-- well, we'll
+
+1299
+01:00:09,405 --> 01:00:10,950
+keep it in nearest
+neighbor for now.
+
+1300
+01:00:10,950 --> 01:00:12,052
+You can see lin interp.
+
+1301
+01:00:16,300 --> 01:00:17,650
+All right.
+
+1302
+01:00:17,650 --> 01:00:19,840
+Now I said previously that
+this is partially nice
+
+1303
+01:00:19,840 --> 01:00:22,250
+because it's robust to noise.
+
+1304
+01:00:22,250 --> 01:00:25,300
+So here we're going
+to look at, we're
+
+1305
+01:00:25,300 --> 01:00:29,230
+going to add Gaussian noise with
+a standard distribution of 20.
+
+1306
+01:00:34,480 --> 01:00:37,771
+Let's see.
+
+1307
+01:00:37,771 --> 01:00:42,240
+Here, it's not doing well.
+
+1308
+01:00:42,240 --> 01:00:50,400
+I probably have to
+reduce my sigma eta.
+
+1309
+01:01:03,980 --> 01:01:07,660
+Let's see if we can get
+back to where it started.
+
+1310
+01:01:07,660 --> 01:01:09,908
+Yeah.
+
+1311
+01:01:09,908 --> 01:01:12,200
+STUDENT: I think that's the
+same thing as [INAUDIBLE]..
+
+1312
+01:01:15,890 --> 01:01:18,230
+JOHN W. ROBERTS: You
+multiply by sigma.
+
+1313
+01:01:18,230 --> 01:01:21,890
+The variance is squared.
+
+1314
+01:01:21,890 --> 01:01:25,260
+So this is not
+doing a great job.
+
+1315
+01:01:25,260 --> 01:01:27,750
+You see noise can break it.
+
+1316
+01:01:27,750 --> 01:01:31,385
+If we start with a
+bigger error though,
+
+1317
+01:01:31,385 --> 01:01:34,250
+it's effectively
+standard deviation.
+
+1318
+01:01:34,250 --> 01:01:36,140
+Also maybe our eta
+could have been too big.
+
+1319
+01:01:36,140 --> 01:01:37,932
+Because we're getting
+big measurements just
+
+1320
+01:01:37,932 --> 01:01:39,200
+from this error.
+
+1321
+01:01:39,200 --> 01:01:41,480
+So like a big eta, let's
+try reducing our eta.
+
+1322
+01:01:57,500 --> 01:02:00,222
+So it didn't get worse.
+
+1323
+01:02:00,222 --> 01:02:02,180
+Learning is going to be
+slow though, obviously.
+
+1324
+01:02:02,180 --> 01:02:03,780
+Because it has such
+a small signal.
+
+1325
+01:02:03,780 --> 01:02:11,270
+But at least we prevented it
+from doing that terrible thing.
+
+1326
+01:02:11,270 --> 01:02:13,520
+That's because it was getting
+these giant measurements
+
+1327
+01:02:13,520 --> 01:02:18,350
+of error and updating
+based on them.
+
+1328
+01:02:18,350 --> 01:02:21,005
+But an expected value will still
+go where you want it to go.
+
+1329
+01:02:21,005 --> 01:02:22,880
+If you did a bunch of
+updates, you'd be fine.
+
+1330
+01:02:22,880 --> 01:02:24,505
+But that just gives
+you everything out.
+
+1331
+01:02:28,310 --> 01:02:47,372
+If we reduce that
+down to, let's say,
+
+1332
+01:02:47,372 --> 01:02:48,580
+learning will be really slow.
+
+1333
+01:02:48,580 --> 01:02:50,020
+So let me turn off plotting.
+
+1334
+01:03:02,130 --> 01:03:03,690
+I'm sorry about this.
+
+1335
+01:03:11,969 --> 01:03:13,850
+I don't know what just happened.
+
+1336
+01:03:13,850 --> 01:03:14,350
+OK.
+
+1337
+01:03:20,290 --> 01:03:21,970
+So let's see how this does.
+
+1338
+01:03:27,860 --> 01:03:30,040
+Ah, this is smoothed.
+
+1339
+01:03:30,040 --> 01:03:33,490
+I ran a boxcar filter on it.
+
+1340
+01:03:33,490 --> 01:03:36,470
+But it's not necessarily
+learning quickly.
+
+1341
+01:03:36,470 --> 01:03:38,470
+But with that noise,
+it still learns.
+
+1342
+01:03:38,470 --> 01:03:39,190
+Now if we're going
+to be doing this,
+
+1343
+01:03:39,190 --> 01:03:41,140
+we might as well kick
+ourselves back to 20
+
+1344
+01:03:41,140 --> 01:03:42,390
+and see if we can do anything.
+
+1345
+01:03:57,560 --> 01:03:58,510
+Yeah.
+
+1346
+01:03:58,510 --> 01:04:01,060
+So there, it's got enough
+noise that it's sort of
+
+1347
+01:04:01,060 --> 01:04:02,080
+been walking a bit much.
+
+1348
+01:04:02,080 --> 01:04:02,580
+Maybe.
+
+1349
+01:04:02,580 --> 01:04:04,780
+If you make your eta
+smaller and stuff like that,
+
+1350
+01:04:04,780 --> 01:04:06,197
+maybe make your
+sigma bigger so it
+
+1351
+01:04:06,197 --> 01:04:08,260
+gets a bigger signal when
+it measures the change,
+
+1352
+01:04:08,260 --> 01:04:09,640
+you might be able to be OK.
+
+1353
+01:04:09,640 --> 01:04:15,730
+But I mean, it's still suffered
+from these things definitely.
+
+1354
+01:04:15,730 --> 01:04:17,590
+Now, another point here.
+
+1355
+01:04:17,590 --> 01:04:19,778
+I talked about cost
+functions a bit yesterday.
+
+1356
+01:04:19,778 --> 01:04:21,820
+Here, we have one where
+it's the square distance.
+
+1357
+01:04:21,820 --> 01:04:23,838
+Let's say we--
+
+1358
+01:04:23,838 --> 01:04:25,630
+I think I'm going to
+give away whether it's
+
+1359
+01:04:25,630 --> 01:04:28,810
+going to do better or worse
+by having named it poor grad.
+
+1360
+01:04:28,810 --> 01:04:33,460
+But this one, we're going
+to get a reward of one
+
+1361
+01:04:33,460 --> 01:04:36,605
+for each point that's within
+of 0.05 of the desired point.
+
+1362
+01:04:36,605 --> 01:04:38,980
+So if you're far away at zero
+and if you're close enough,
+
+1363
+01:04:38,980 --> 01:04:39,910
+it's one.
+
+1364
+01:04:39,910 --> 01:04:41,994
+Right?
+
+1365
+01:04:41,994 --> 01:04:44,082
+STUDENT: [INAUDIBLE].
+
+1366
+01:04:44,082 --> 01:04:45,040
+JOHN W. ROBERTS: Right.
+
+1367
+01:04:50,070 --> 01:04:51,252
+Where did my--
+
+1368
+01:04:56,240 --> 01:04:56,740
+Oh.
+
+1369
+01:05:05,280 --> 01:05:07,710
+So you see?
+
+1370
+01:05:07,710 --> 01:05:10,673
+This is a much
+shallower performance.
+
+1371
+01:05:10,673 --> 01:05:12,090
+It still looks
+like it's learning.
+
+1372
+01:05:12,090 --> 01:05:12,630
+And it is.
+
+1373
+01:05:12,630 --> 01:05:14,560
+Because I mean, even the bad
+cost functions can learn.
+
+1374
+01:05:14,560 --> 01:05:15,780
+But now I'm going
+to show you what
+
+1375
+01:05:15,780 --> 01:05:17,490
+that looks like when
+you run it and actually
+
+1376
+01:05:17,490 --> 01:05:18,365
+look at the plotting.
+
+1377
+01:05:32,980 --> 01:05:33,480
+You see?
+
+1378
+01:05:38,540 --> 01:05:41,572
+Now we can give it our--
+
+1379
+01:05:41,572 --> 01:05:43,280
+we're still giving it
+that linear interp.
+
+1380
+01:05:43,280 --> 01:05:44,310
+Let's see if we give it
+the better parameterization
+
+1381
+01:05:44,310 --> 01:05:45,227
+and see how that does.
+
+1382
+01:06:04,450 --> 01:06:07,030
+You can see it's not
+learning nearly as quickly
+
+1383
+01:06:07,030 --> 01:06:09,010
+as the other cost function did.
+
+1384
+01:06:09,010 --> 01:06:11,480
+Right?
+
+1385
+01:06:11,480 --> 01:06:14,800
+Let's get all our things back
+to make eta a bit bigger.
+
+1386
+01:06:47,260 --> 01:06:48,005
+See?
+
+1387
+01:06:48,005 --> 01:06:50,380
+So here the only thing that
+changed between our runs that
+
+1388
+01:06:50,380 --> 01:06:53,680
+looked pretty nice and this run
+right now is the cost function.
+
+1389
+01:06:58,160 --> 01:07:01,040
+You see, it is over the course
+of-- that's a 300 something,
+
+1390
+01:07:01,040 --> 01:07:04,610
+it is getting up there-- but
+if you remember the other one,
+
+1391
+01:07:04,610 --> 01:07:06,470
+it's fitting a lot nicer.
+
+1392
+01:07:06,470 --> 01:07:06,970
+Right?
+
+1393
+01:07:10,683 --> 01:07:12,100
+And the thing is
+that, if you look
+
+1394
+01:07:12,100 --> 01:07:14,080
+at probably the cost
+of the other one,
+
+1395
+01:07:14,080 --> 01:07:16,480
+even using this cost
+function, once you solve it,
+
+1396
+01:07:16,480 --> 01:07:19,420
+the other one would
+be lower as well.
+
+1397
+01:07:19,420 --> 01:07:22,000
+Do you see what I mean?
+
+1398
+01:07:22,000 --> 01:07:23,595
+The problem that,
+if you solved it
+
+1399
+01:07:23,595 --> 01:07:24,970
+with the other
+one then evaluated
+
+1400
+01:07:24,970 --> 01:07:26,530
+this cost function
+on the solution,
+
+1401
+01:07:26,530 --> 01:07:28,090
+that would be better than
+this after some number
+
+1402
+01:07:28,090 --> 01:07:28,900
+of parameters.
+
+1403
+01:07:28,900 --> 01:07:31,180
+And it's because learning
+based on this is hard.
+
+1404
+01:07:31,180 --> 01:07:32,760
+Right?
+
+1405
+01:07:32,760 --> 01:07:34,420
+You can see that
+this is very coarse.
+
+1406
+01:07:34,420 --> 01:07:36,370
+It's very easy just to
+lose one or gain one
+
+1407
+01:07:36,370 --> 01:07:38,480
+if you don't have good
+gradient information.
+
+1408
+01:07:38,480 --> 01:07:40,750
+And so, this is a bad cost
+function for learning.
+
+1409
+01:07:40,750 --> 01:07:41,680
+Right?
+
+1410
+01:07:41,680 --> 01:07:44,712
+The same task, if this were the
+task you really cared about,
+
+1411
+01:07:44,712 --> 01:07:47,170
+formulating it with the other
+cost function and solving it,
+
+1412
+01:07:47,170 --> 01:07:49,150
+you actually probably do
+better than solving with this
+
+1413
+01:07:49,150 --> 01:07:49,840
+directly.
+
+1414
+01:07:49,840 --> 01:07:50,380
+Right?
+
+1415
+01:07:50,380 --> 01:07:53,830
+And that's because the
+gradients in this one are poor.
+
+1416
+01:07:53,830 --> 01:07:55,825
+It's not easy for it
+to define the direction
+
+1417
+01:07:55,825 --> 01:07:57,400
+it's supposed to move in.
+
+1418
+01:07:57,400 --> 01:07:58,590
+And it's even worse.
+
+1419
+01:07:58,590 --> 01:08:01,090
+I was talking before about how
+you could be in regions where
+
+1420
+01:08:01,090 --> 01:08:05,530
+you're getting zero cost
+or zero reward for a while
+
+1421
+01:08:05,530 --> 01:08:07,730
+or there's no gradient at all.
+
+1422
+01:08:07,730 --> 01:08:12,100
+So if we start ourselves
+with an error here,
+
+1423
+01:08:12,100 --> 01:08:13,940
+it's not getting
+any measurement.
+
+1424
+01:08:13,940 --> 01:08:14,440
+You see?
+
+1425
+01:08:18,540 --> 01:08:20,290
+Again, it's not changing
+at all because it
+
+1426
+01:08:20,290 --> 01:08:22,520
+can't measure anything.
+
+1427
+01:08:22,520 --> 01:08:28,930
+So if we go to--
+
+1428
+01:08:28,930 --> 01:08:32,770
+I said the way to solve that,
+if you were stuck with it,
+
+1429
+01:08:32,770 --> 01:08:44,120
+could be to use more
+violent kind of sampling.
+
+1430
+01:08:44,120 --> 01:08:46,635
+And there, you see we actually
+are able to get some reward.
+
+1431
+01:08:46,635 --> 01:08:47,510
+And it takes a while.
+
+1432
+01:08:47,510 --> 01:08:49,040
+But you see that
+there's more violent
+
+1433
+01:08:49,040 --> 01:08:50,873
+sampling at least getting
+out of that region
+
+1434
+01:08:50,873 --> 01:08:52,250
+where we don't get information.
+
+1435
+01:08:52,250 --> 01:08:53,990
+Right?
+
+1436
+01:08:53,990 --> 01:08:54,899
+Still not the best.
+
+1437
+01:08:54,899 --> 01:08:57,439
+But if you're stuck
+with that problem,
+
+1438
+01:08:57,439 --> 01:08:59,279
+that's one way to deal with it.
+
+1439
+01:08:59,279 --> 01:09:00,800
+But you can see that, with the
+other one where it doesn't have
+
+1440
+01:09:00,800 --> 01:09:03,560
+any regions like that-- if
+you go back to our nice grad--
+
+1441
+01:09:15,010 --> 01:09:16,640
+sorry, I need to switch my eta.
+
+1442
+01:09:19,210 --> 01:09:19,710
+Yeah.
+
+1443
+01:09:22,250 --> 01:09:22,750
+Whoops.
+
+1444
+01:09:28,649 --> 01:09:29,609
+We can go back to--
+
+1445
+01:09:37,455 --> 01:09:38,580
+See how much nicer that is?
+
+1446
+01:09:42,189 --> 01:09:45,819
+So there you go.
+
+1447
+01:09:45,819 --> 01:09:47,675
+So here you can see
+the parameterization
+
+1448
+01:09:47,675 --> 01:09:49,210
+can affect it a lot.
+
+1449
+01:09:49,210 --> 01:09:50,979
+The cost function
+can affect it a lot.
+
+1450
+01:09:50,979 --> 01:09:53,049
+The eta and sigma
+can affect it a lot.
+
+1451
+01:09:53,049 --> 01:09:55,000
+There's a lot of concerns.
+
+1452
+01:09:55,000 --> 01:09:55,660
+Right?
+
+1453
+01:09:55,660 --> 01:09:57,910
+And that's why that should
+make SNOPT and stuff more
+
+1454
+01:09:57,910 --> 01:09:59,050
+appealing to you.
+
+1455
+01:09:59,050 --> 01:10:01,300
+Because if you can complete
+those gradients using back
+
+1456
+01:10:01,300 --> 01:10:02,800
+prop, there's no
+guesswork in that.
+
+1457
+01:10:02,800 --> 01:10:03,460
+Right?
+
+1458
+01:10:03,460 --> 01:10:06,970
+You give it to SNOPT,
+there's no parameters to set.
+
+1459
+01:10:06,970 --> 01:10:10,300
+I mean, I guess there's some
+convergence criteria and stuff.
+
+1460
+01:10:10,300 --> 01:10:12,490
+But you don't have
+to play these games.
+
+1461
+01:10:12,490 --> 01:10:14,350
+There's a lot of ways
+to get this wrong.
+
+1462
+01:10:14,350 --> 01:10:16,800
+Right?
+
+1463
+01:10:16,800 --> 01:10:18,383
+So--
+
+1464
+01:10:18,383 --> 01:10:20,050
+STUDENT: So the reason
+that we introduce
+
+1465
+01:10:20,050 --> 01:10:25,555
+the [INAUDIBLE] policy was a
+way to explore [INAUDIBLE]??
+
+1466
+01:10:27,947 --> 01:10:30,030
+JOHN W. ROBERTS: For here,
+I mean they provide you
+
+1467
+01:10:30,030 --> 01:10:30,697
+the exploration.
+
+1468
+01:10:30,697 --> 01:10:31,868
+Yeah.
+
+1469
+01:10:31,868 --> 01:10:34,410
+There's certain situations-- we
+talk about gambling and stuff
+
+1470
+01:10:34,410 --> 01:10:36,202
+like that-- where
+stochasticity, if there's
+
+1471
+01:10:36,202 --> 01:10:37,890
+an adversarial
+kind of component,
+
+1472
+01:10:37,890 --> 01:10:42,250
+stochasticity could be necessary
+for optimality sometimes.
+
+1473
+01:10:42,250 --> 01:10:43,740
+Right?
+
+1474
+01:10:43,740 --> 01:10:49,440
+But in these kind of cases where
+we have a dynamical system,
+
+1475
+01:10:49,440 --> 01:10:54,240
+I don't see how stochasticity
+in a deterministic system
+
+1476
+01:10:54,240 --> 01:10:58,960
+could make you more
+optimal than deterministic.
+
+1477
+01:10:58,960 --> 01:11:00,790
+Right?
+
+1478
+01:11:00,790 --> 01:11:02,540
+That's because the
+system is deterministic
+
+1479
+01:11:02,540 --> 01:11:05,790
+and not trying to guess
+what you're doing and stuff.
+
+1480
+01:11:05,790 --> 01:11:07,730
+So that's pretty nice
+convergence right there.
+
+1481
+01:11:13,800 --> 01:11:16,800
+And you see, if we
+evaluated this solution
+
+1482
+01:11:16,800 --> 01:11:22,110
+with our cost function of
+one of the poor gradients,
+
+1483
+01:11:22,110 --> 01:11:23,970
+I mean this is going
+to be a lot nicer.
+
+1484
+01:11:23,970 --> 01:11:24,780
+Right?
+
+1485
+01:11:24,780 --> 01:11:27,120
+And that's even though we
+wouldn't solve it explicitly.
+
+1486
+01:11:27,120 --> 01:11:29,620
+It's just because the gradients
+of this one are a lot nicer.
+
+1487
+01:11:29,620 --> 01:11:31,690
+So you can solve it a lot nicer.
+
+1488
+01:11:31,690 --> 01:11:34,380
+So remember that,
+that cost functions--
+
+1489
+01:11:34,380 --> 01:11:38,613
+even if it's not explicitly
+what you maybe most care about--
+
+1490
+01:11:38,613 --> 01:11:40,530
+for example, we care
+about catching the perch.
+
+1491
+01:11:40,530 --> 01:11:42,090
+Right?
+
+1492
+01:11:42,090 --> 01:11:43,800
+But if you want to
+catch the perch,
+
+1493
+01:11:43,800 --> 01:11:46,560
+it could be that, by learning
+with something with a distance
+
+1494
+01:11:46,560 --> 01:11:48,432
+in it, maybe we'd learn
+better and actually
+
+1495
+01:11:48,432 --> 01:11:49,890
+end up catching
+the perch more than
+
+1496
+01:11:49,890 --> 01:11:52,260
+if our reward was just one
+that could catch the perch.
+
+1497
+01:11:52,260 --> 01:11:53,610
+Right?
+
+1498
+01:11:53,610 --> 01:11:58,920
+So cost function design
+can matter a lot.
+
+1499
+01:11:58,920 --> 01:12:01,360
+Policy parameterization
+matters a lot.
+
+1500
+01:12:01,360 --> 01:12:10,620
+So hopefully you all feel
+really comfortable using
+
+1501
+01:12:10,620 --> 01:12:12,750
+stochastic gradient descent
+now in the situations
+
+1502
+01:12:12,750 --> 01:12:13,742
+where it's warranted.
+
+1503
+01:12:16,330 --> 01:12:18,980
+STUDENT: Can you talk a
+little bit about the baseline?
+
+1504
+01:12:18,980 --> 01:12:20,463
+How do you get the baseline?
+
+1505
+01:12:20,463 --> 01:12:21,380
+JOHN W. ROBERTS: Yeah.
+
+1506
+01:12:21,380 --> 01:12:24,380
+My baseline here.
+
+1507
+01:12:24,380 --> 01:12:27,200
+I think I have two limitations,
+let's see something we can do.
+
+1508
+01:12:27,200 --> 01:12:32,210
+So my baseline here, right now
+I'm using a second evaluation.
+
+1509
+01:12:32,210 --> 01:12:33,470
+Right?
+
+1510
+01:12:33,470 --> 01:12:35,305
+We can do an average baseline.
+
+1511
+01:12:45,010 --> 01:12:46,060
+I screwed something up.
+
+1512
+01:13:31,010 --> 01:13:31,510
+Yeah.
+
+1513
+01:13:31,510 --> 01:13:35,910
+I probably-- so
+that's gone crazy.
+
+1514
+01:13:35,910 --> 01:13:37,312
+But we'll try a smaller eta.
+
+1515
+01:13:46,050 --> 01:13:46,550
+There.
+
+1516
+01:13:49,280 --> 01:13:51,880
+So this is an average baseline.
+
+1517
+01:13:51,880 --> 01:13:53,742
+See, it's still improving.
+
+1518
+01:13:53,742 --> 01:13:54,700
+It's not doing as nice.
+
+1519
+01:13:54,700 --> 01:13:56,320
+And it's also because we have
+to turn down the eta and stuff.
+
+1520
+01:13:56,320 --> 01:13:57,550
+I don't know that error was.
+
+1521
+01:13:57,550 --> 01:13:59,342
+I'm not going to try
+to debug it right now.
+
+1522
+01:13:59,342 --> 01:14:01,810
+But you can see
+it's still learning.
+
+1523
+01:14:01,810 --> 01:14:04,490
+Now the real question is,
+what if we have no baseline?
+
+1524
+01:14:04,490 --> 01:14:04,990
+Right?
+
+1525
+01:14:28,930 --> 01:14:32,293
+I made a really smart eta
+there because now it's
+
+1526
+01:14:32,293 --> 01:14:33,460
+not getting rid of anything.
+
+1527
+01:15:04,830 --> 01:15:07,190
+Yeah.
+
+1528
+01:15:07,190 --> 01:15:10,510
+You don't really have to
+turn it down even more.
+
+1529
+01:15:10,510 --> 01:15:16,020
+But that's a good example of why
+a good baseline is so critical.
+
+1530
+01:15:16,020 --> 01:15:16,520
+Right?
+
+1531
+01:15:16,520 --> 01:15:17,710
+I mean, you can
+see that all we did
+
+1532
+01:15:17,710 --> 01:15:19,752
+was change how the baseline,
+the average baseline
+
+1533
+01:15:19,752 --> 01:15:20,560
+was working fine.
+
+1534
+01:15:20,560 --> 01:15:21,640
+And it didn't cost us any more.
+
+1535
+01:15:21,640 --> 01:15:23,860
+You have two extra evaluations
+that we just got rid of.
+
+1536
+01:15:23,860 --> 01:15:24,490
+We put in that.
+
+1537
+01:15:24,490 --> 01:15:26,410
+And you see how much
+it struggled there.
+
+1538
+01:15:26,410 --> 01:15:30,617
+So I mean, if you just
+do an average baseline,
+
+1539
+01:15:30,617 --> 01:15:31,450
+you get it for free.
+
+1540
+01:15:31,450 --> 01:15:35,972
+And it's still a huge
+advantage over what
+
+1541
+01:15:35,972 --> 01:15:37,930
+we're trying to do without
+any baseline at all.
+
+1542
+01:15:47,681 --> 01:15:48,556
+STUDENT: But we did--
+
+1543
+01:15:48,556 --> 01:15:50,600
+I mean, it will
+eventually work it out.
+
+1544
+01:15:50,600 --> 01:15:52,583
+The baseline would
+just be a lot slower?
+
+1545
+01:15:52,583 --> 01:15:53,500
+JOHN W. ROBERTS: Yeah.
+
+1546
+01:15:53,500 --> 01:15:54,370
+I mean, it should.
+
+1547
+01:15:54,370 --> 01:15:55,430
+I mean, the thing is
+that, in practice, it
+
+1548
+01:15:55,430 --> 01:15:57,472
+can randomly walk around
+and get stuck in places.
+
+1549
+01:15:57,472 --> 01:15:59,290
+Like right here, you
+see this is that.
+
+1550
+01:15:59,290 --> 01:16:02,082
+It's a big run of
+improvement there.
+
+1551
+01:16:02,082 --> 01:16:03,790
+And it did better than
+it originally did.
+
+1552
+01:16:03,790 --> 01:16:06,050
+You see it's just
+walking all around.
+
+1553
+01:16:06,050 --> 01:16:06,580
+And so, yes.
+
+1554
+01:16:06,580 --> 01:16:08,380
+I mean there's still this
+bias towards improvement.
+
+1555
+01:16:08,380 --> 01:16:09,088
+And it will work.
+
+1556
+01:16:09,088 --> 01:16:13,510
+And if you were to calculate
+a whole bunch of delta alphas
+
+1557
+01:16:13,510 --> 01:16:15,595
+and then add them all
+together, then you probably
+
+1558
+01:16:15,595 --> 01:16:16,870
+wouldn't walk in the
+wrong direction as often.
+
+1559
+01:16:16,870 --> 01:16:17,500
+But here's the thing.
+
+1560
+01:16:17,500 --> 01:16:19,667
+You have to remember that
+it's sort of always moving
+
+1561
+01:16:19,667 --> 01:16:20,570
+in the direction.
+
+1562
+01:16:20,570 --> 01:16:21,070
+Right?
+
+1563
+01:16:21,070 --> 01:16:22,945
+It's just it's moving
+more or less, depending
+
+1564
+01:16:22,945 --> 01:16:24,160
+on how good it is.
+
+1565
+01:16:24,160 --> 01:16:27,160
+And so, yes.
+
+1566
+01:16:27,160 --> 01:16:28,330
+This should still work.
+
+1567
+01:16:28,330 --> 01:16:34,870
+But in practice, a good baseline
+helps a lot, as you've seen.
+
+1568
+01:16:34,870 --> 01:16:36,832
+So hopefully, all
+those examples--
+
+1569
+01:16:36,832 --> 01:16:40,480
+STUDENT: Is it also the case
+that that baseline will not
+
+1570
+01:16:40,480 --> 01:16:41,558
+hurt you?
+
+1571
+01:16:41,558 --> 01:16:42,850
+JOHN W. ROBERTS: Well, how bad?
+
+1572
+01:16:42,850 --> 01:16:44,150
+I mean, this could
+be considered bad.
+
+1573
+01:16:44,150 --> 01:16:44,560
+Right?
+
+1574
+01:16:44,560 --> 01:16:45,640
+A zero baseline did that.
+
+1575
+01:16:45,640 --> 01:16:46,473
+[INTERPOSING VOICES]
+
+1576
+01:16:46,473 --> 01:16:49,340
+STUDENT: Or can you actually
+have a baseline that gives you
+
+1577
+01:16:49,340 --> 01:16:52,810
+worse results than no baseline?
+
+1578
+01:16:52,810 --> 01:16:54,310
+JOHN W. ROBERTS:
+You probably could.
+
+1579
+01:16:54,310 --> 01:16:56,260
+Because you could just
+have it be a bigger error.
+
+1580
+01:16:56,260 --> 01:16:56,500
+Right?
+
+1581
+01:16:56,500 --> 01:16:57,960
+Just more in the
+wrong direction.
+
+1582
+01:16:57,960 --> 01:16:59,868
+STUDENT: Right.
+
+1583
+01:16:59,868 --> 01:17:00,910
+JOHN W. ROBERTS: So Yeah.
+
+1584
+01:17:00,910 --> 01:17:01,570
+But I mean that's
+what I'm saying.
+
+1585
+01:17:01,570 --> 01:17:03,362
+If you average over
+the past several trials
+
+1586
+01:17:03,362 --> 01:17:05,680
+like we did and then reduce
+the rate of your learning
+
+1587
+01:17:05,680 --> 01:17:07,872
+so that those averages are
+relatively representative
+
+1588
+01:17:07,872 --> 01:17:09,580
+and you don't move
+too much on your own--
+
+1589
+01:17:09,580 --> 01:17:10,420
+STUDENT: [INAUDIBLE].
+
+1590
+01:17:10,420 --> 01:17:10,690
+JOHN W. ROBERTS: Yeah.
+
+1591
+01:17:10,690 --> 01:17:11,523
+But I'm saying yeah.
+
+1592
+01:17:11,523 --> 01:17:13,120
+I mean, an average
+baseline is free.
+
+1593
+01:17:13,120 --> 01:17:15,070
+There's no extra
+policy evaluations.
+
+1594
+01:17:15,070 --> 01:17:16,790
+And it still helps a lot.
+
+1595
+01:17:16,790 --> 01:17:19,570
+So an average
+baseline makes sense.
+
+1596
+01:17:19,570 --> 01:17:22,230
+And I mean, in something like
+this where it's so cheap,
+
+1597
+01:17:22,230 --> 01:17:23,980
+if you want those big
+jumps and stuff like
+
+1598
+01:17:23,980 --> 01:17:28,060
+that, the average baseline is
+if the big jump can struggle.
+
+1599
+01:17:28,060 --> 01:17:30,350
+Because the cost is so
+different when you've updated.
+
+1600
+01:17:30,350 --> 01:17:30,850
+Right?
+
+1601
+01:17:30,850 --> 01:17:32,950
+So your average is going
+to make a lot of sense.
+
+1602
+01:17:32,950 --> 01:17:34,700
+But so they're sometimes
+going to be better rather than
+
+1603
+01:17:34,700 --> 01:17:35,830
+reducing your updates.
+
+1604
+01:17:35,830 --> 01:17:37,780
+Like when we're really far
+away from the right policy
+
+1605
+01:17:37,780 --> 01:17:39,322
+and we have a long
+way to move and we
+
+1606
+01:17:39,322 --> 01:17:42,520
+could move in all sorts of
+ways, that'd still be good.
+
+1607
+01:17:42,520 --> 01:17:46,217
+The average baseline,
+if we turn everything
+
+1608
+01:17:46,217 --> 01:17:48,550
+down to the average baseline,
+and it still works nicely,
+
+1609
+01:17:48,550 --> 01:17:51,130
+that probably wouldn't be
+as fast as doing two policy
+
+1610
+01:17:51,130 --> 01:17:53,470
+evaluations and doing big jumps.
+
+1611
+01:17:53,470 --> 01:17:54,160
+Right?
+
+1612
+01:17:54,160 --> 01:17:55,060
+Where every time, you
+just re-evaluate it.
+
+1613
+01:17:55,060 --> 01:17:55,750
+STUDENT: It just resets it.
+
+1614
+01:17:55,750 --> 01:17:57,040
+JOHN W. ROBERTS: And so, yeah.
+
+1615
+01:17:57,040 --> 01:17:58,915
+To move it smoothly with
+an average baseline,
+
+1616
+01:17:58,915 --> 01:18:01,630
+we may need more than
+twice as many iterations
+
+1617
+01:18:01,630 --> 01:18:03,547
+as the one does when you
+do an ideal baseline.
+
+1618
+01:18:03,547 --> 01:18:05,422
+That's something that
+I've seen in practices.
+
+1619
+01:18:05,422 --> 01:18:07,270
+When you're doing
+this big updates,
+
+1620
+01:18:07,270 --> 01:18:11,020
+a real evaluation can be
+fewer evaluations in the end.
+
+1621
+01:18:11,020 --> 01:18:16,840
+So anything else or anything
+else you'd like to see
+
+1622
+01:18:16,840 --> 01:18:20,230
+run on the spline fitting
+problem right here?
+
+1623
+01:18:24,010 --> 01:18:24,510
+OK.
+
+1624
+01:18:24,510 --> 01:18:25,552
+No one has any questions?
+
+1625
+01:18:25,552 --> 01:18:27,030
+We're all good?
+
+1626
+01:18:27,030 --> 01:18:32,070
+I'm going to tell Russ that you
+understand stochastic gradient
+
+1627
+01:18:32,070 --> 01:18:32,820
+descent perfectly.
+
+1628
+01:18:32,820 --> 01:18:36,300
+And it's going to be extremely
+useful in your research
+
+1629
+01:18:36,300 --> 01:18:39,660
+in the problems to
+which it is well suited.
+
+1630
+01:18:39,660 --> 01:18:40,710
+All right.
+
+1631
+01:18:40,710 --> 01:18:42,260
+Great.

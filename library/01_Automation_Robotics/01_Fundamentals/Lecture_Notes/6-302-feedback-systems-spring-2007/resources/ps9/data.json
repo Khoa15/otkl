@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Problem set.</p>\n",
+  "content_type": "resource",
+  "description": "Problem set.",
+  "draft": false,
+  "file": "/courses/6-302-feedback-systems-spring-2007/97a38c9e66de8bda133444ed97808825_ps9.pdf",
+  "file_size": 53043,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "32c54c16-930e-7393-a118-8e53accb9078",
+  "resourcetype": "Document",
+  "title": "ps9.pdf",
+  "uid": "97a38c9e-66de-8bda-1334-44ed97808825",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "audience": [],
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/6-302-feedback-systems-spring-2007/ce14ca3f15871bb02c077d16421a9b1a_quiz1.pdf",
+  "file_size": 73567,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Exams",
+  "parent_type": "CourseSection",
+  "parent_uid": "7b47a09a-07f2-ba1e-d775-a9c636ac0efd",
+  "resourcetype": "Document",
+  "title": "quiz1.pdf",
+  "uid": "ce14ca3f-1587-1bb0-2c07-7d16421a9b1a",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

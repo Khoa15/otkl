@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This file contains the information regarding recitation 12: review of topics covered in lectures 19 and 20.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains the information regarding recitation 12: review of topics covered in lectures 19 and 20.",
+  "draft": false,
+  "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/eb15b2fc04f1d5b30b46656186c6067e_MIT7_91JS14_Rec_4-30-14.pdf",
+  "file_size": 1911210,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem-solving Notes"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Recitations",
+  "parent_type": "CourseSection",
+  "parent_uid": "a8ee1ddc-6c16-9815-a0ec-c3e3d1235220",
+  "resourcetype": "Document",
+  "title": "Recitation 12: Review of topics covered in Lectures 19 and 20",
+  "uid": "eb15b2fc-04f1-d5b3-0b46-656186c6067e",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "7-91j-foundations-of-computational-and-systems-biology-spring-2014"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "7-91j-foundations-of-computational-and-systems-biology-spring-2014"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

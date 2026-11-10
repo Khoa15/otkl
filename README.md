@@ -1,6 +1,6 @@
 # Open Technical Knowledge Library
 
-Every entry is an actual file, not just a link. Each one comes with its source, license, and a SHA256 hash for verification.
+The Open Technical Knowledge Library is a curated collection of open technical resources for engineering and science. It covers nine domains, from automation and robotics to electronics, energy, mechanical manufacturing, biotechnology, CubeSats, space technology, quantum physics, and cross-disciplinary topics. Unlike a list of links, it keeps the actual files: research papers, textbooks, lecture notes, source repositories, images, and video references. Each entry records its source, its licence, and a SHA256 hash, so you can check where it came from and that it is unchanged.
 
 ## Table of Contents
 
@@ -12,7 +12,6 @@ Every entry is an actual file, not just a link. Each one comes with its source, 
 - [Licensing and Attribution](#licensing-and-attribution)
 - [Rebuilding the Library](#rebuilding-the-library)
 - [Limitations](#limitations)
-- [Contributing](#contributing)
 
 ## Overview
 
@@ -264,7 +263,3 @@ Requirements: Python 3 with `requests`, `pypdf`, and `PIL`.
 - Standards such as IEC, IEEE, ISO, and CCSDS are not assumed to be free and are not collected unless the source allows it.
 - Entries that failed to download are recorded in the reports rather than silently dropped.
 - The full ZIP archive (11 GB) is kept local and is not pushed to Git, because it exceeds GitHub's 100 MB per-file limit.
-
-## Contributing
-
-See [`CLAUDE.md`](CLAUDE.md) for structure conventions. When adding or changing a resource, update `Master_Catalog.csv`, `Master_Catalog.json`, and the related reports together.

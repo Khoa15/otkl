@@ -1,0 +1,3793 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.610 align:middle line:90%
+
+
+00:00:00.610 --> 00:00:02.440 align:middle line:84%
+The following
+content is provided
+
+00:00:02.440 --> 00:00:06.340 align:middle line:84%
+by MIT OpenCourseWare under
+a Creative Commons license.
+
+00:00:06.340 --> 00:00:08.470 align:middle line:84%
+Additional information
+about our license
+
+00:00:08.470 --> 00:00:10.870 align:middle line:84%
+and MIT OpenCourseWare
+in general
+
+00:00:10.870 --> 00:00:13.090 align:middle line:90%
+is available at ocw.mit.edu.
+
+00:00:13.090 --> 00:00:19.090 align:middle line:90%
+
+
+00:00:19.090 --> 00:00:22.210 align:middle line:84%
+GEORGE CHURCH: Use
+this slide to review
+
+00:00:22.210 --> 00:00:24.400 align:middle line:84%
+how far the in-situ
+might go, and what
+
+00:00:24.400 --> 00:00:26.640 align:middle line:84%
+its current
+limitations might be.
+
+00:00:26.640 --> 00:00:29.650 align:middle line:84%
+And then we'll
+move on to arrays.
+
+00:00:29.650 --> 00:00:33.730 align:middle line:84%
+One potential advantage to these
+sort of microscopic in-situ
+
+00:00:33.730 --> 00:00:37.600 align:middle line:84%
+analyses is that if you use a
+non-destructive visualization
+
+00:00:37.600 --> 00:00:40.450 align:middle line:84%
+rather than fixing the cells--
+you actually monitor them real
+
+00:00:40.450 --> 00:00:41.200 align:middle line:90%
+time--
+
+00:00:41.200 --> 00:00:43.450 align:middle line:84%
+you can sample this
+basically as quickly
+
+00:00:43.450 --> 00:00:47.680 align:middle line:84%
+as a modern microscopic
+camera system can monitor,
+
+00:00:47.680 --> 00:00:49.600 align:middle line:90%
+on the order of a millisecond.
+
+00:00:49.600 --> 00:00:53.590 align:middle line:84%
+You can obtain a sensitivity on
+the order of a single molecule
+
+00:00:53.590 --> 00:00:56.770 align:middle line:90%
+of fluorescence.
+
+00:00:56.770 --> 00:00:58.190 align:middle line:90%
+This is very challenging.
+
+00:00:58.190 --> 00:01:03.190 align:middle line:84%
+It requires very small pixel
+sizes, but it is possible.
+
+00:01:03.190 --> 00:01:05.440 align:middle line:84%
+And it's the basis of some
+of the sequencing methods
+
+00:01:05.440 --> 00:01:08.630 align:middle line:84%
+that we discussed a
+couple of classes ago.
+
+00:01:08.630 --> 00:01:12.520 align:middle line:84%
+And so that resolution
+itself is typically
+
+00:01:12.520 --> 00:01:15.310 align:middle line:84%
+on the order of a micron
+or a quarter of a micron,
+
+00:01:15.310 --> 00:01:17.800 align:middle line:84%
+sort of set by the
+limit of the optics
+
+00:01:17.800 --> 00:01:22.750 align:middle line:84%
+in terms of the diffraction
+that can typically occur.
+
+00:01:22.750 --> 00:01:25.240 align:middle line:84%
+But you can get below
+that diffraction limit
+
+00:01:25.240 --> 00:01:29.740 align:middle line:84%
+of 250 nanometers down
+as low as 10 nanometers
+
+00:01:29.740 --> 00:01:34.570 align:middle line:84%
+by using tricks such
+as near-field optics
+
+00:01:34.570 --> 00:01:44.530 align:middle line:84%
+and various
+deconvolution methods.
+
+00:01:44.530 --> 00:01:49.690 align:middle line:84%
+Multiplicity is really
+the greatest limitation
+
+00:01:49.690 --> 00:01:52.960 align:middle line:84%
+of the in-situ method right
+now, and it's certainly
+
+00:01:52.960 --> 00:01:56.440 align:middle line:84%
+an opportunity for the creative
+ones in this group to address.
+
+00:01:56.440 --> 00:01:58.150 align:middle line:84%
+How can we get
+through multiplicity,
+
+00:01:58.150 --> 00:02:01.540 align:middle line:84%
+looking at all of the
+RNA simultaneously
+
+00:02:01.540 --> 00:02:04.360 align:middle line:84%
+as we can do in microarrays,
+which is essentially
+
+00:02:04.360 --> 00:02:09.020 align:middle line:84%
+a microscopic method
+as well, But still have
+
+00:02:09.020 --> 00:02:12.190 align:middle line:84%
+the spatial advantages
+of an in-situ?
+
+00:02:12.190 --> 00:02:14.020 align:middle line:90%
+This is an unsolved problem.
+
+00:02:14.020 --> 00:02:17.770 align:middle line:84%
+Multiplicity now is typically
+around one or two or three
+
+00:02:17.770 --> 00:02:18.910 align:middle line:90%
+colors.
+
+00:02:18.910 --> 00:02:23.290 align:middle line:84%
+The colors can be deconvolved
+by using band filters.
+
+00:02:23.290 --> 00:02:25.120 align:middle line:84%
+If you use
+combinations of colors,
+
+00:02:25.120 --> 00:02:27.010 align:middle line:84%
+you can conveniently
+discriminate
+
+00:02:27.010 --> 00:02:31.520 align:middle line:84%
+the 24 different types of
+human metaphase chromosomes.
+
+00:02:31.520 --> 00:02:33.670 align:middle line:84%
+However, this depends,
+you should note--
+
+00:02:33.670 --> 00:02:37.370 align:middle line:84%
+don't get fooled into thinking
+you actually have 24 colors.
+
+00:02:37.370 --> 00:02:39.273 align:middle line:84%
+These are combinations
+of ratios of color,
+
+00:02:39.273 --> 00:02:41.440 align:middle line:84%
+considering them to be
+false-colored by the computer
+
+00:02:41.440 --> 00:02:42.370 align:middle line:90%
+algorithm.
+
+00:02:42.370 --> 00:02:46.270 align:middle line:84%
+But they depend on
+non-overlap or of being
+
+00:02:46.270 --> 00:02:52.000 align:middle line:84%
+able to find objects in the
+visual field and extend them.
+
+00:02:52.000 --> 00:02:55.180 align:middle line:84%
+If where they overlap, you
+now have mixtures of mixtures,
+
+00:02:55.180 --> 00:02:58.990 align:middle line:84%
+this no longer is
+simply deconvolved.
+
+00:02:58.990 --> 00:03:01.070 align:middle line:84%
+So for all and
+practical purposes,
+
+00:03:01.070 --> 00:03:03.475 align:middle line:84%
+we're limited to around
+four or five colors.
+
+00:03:03.475 --> 00:03:06.080 align:middle line:90%
+
+
+00:03:06.080 --> 00:03:10.480 align:middle line:84%
+So in situ, I would
+not call immediately
+
+00:03:10.480 --> 00:03:11.860 align:middle line:90%
+genomics-compatible.
+
+00:03:11.860 --> 00:03:14.740 align:middle line:84%
+The systems biology,
+it takes a vast number
+
+00:03:14.740 --> 00:03:17.950 align:middle line:84%
+of in-situ experiments to get
+the kind of comprehensive data
+
+00:03:17.950 --> 00:03:19.970 align:middle line:84%
+you can get out of
+microarray experiments.
+
+00:03:19.970 --> 00:03:24.040 align:middle line:84%
+So let's focus on the kind of
+experiments like microarrays
+
+00:03:24.040 --> 00:03:29.530 align:middle line:84%
+that can get us full
+genome scale information,
+
+00:03:29.530 --> 00:03:32.740 align:middle line:84%
+and what are the
+limitations in quality
+
+00:03:32.740 --> 00:03:33.820 align:middle line:90%
+for these sort of things.
+
+00:03:33.820 --> 00:03:37.330 align:middle line:84%
+Now, we can either lump
+or split various ways
+
+00:03:37.330 --> 00:03:39.800 align:middle line:90%
+of measuring arrays in cells.
+
+00:03:39.800 --> 00:03:46.330 align:middle line:84%
+The top two items
+on slide 28 either
+
+00:03:46.330 --> 00:03:49.690 align:middle line:84%
+can be characterized--
+microarrays might be associated
+
+00:03:49.690 --> 00:03:52.630 align:middle line:84%
+with, sort of for
+historical reasons,
+
+00:03:52.630 --> 00:03:57.100 align:middle line:84%
+longer probes, maybe the
+length of an entire gene
+
+00:03:57.100 --> 00:04:00.610 align:middle line:90%
+or entire cDNA, messenger RNA.
+
+00:04:00.610 --> 00:04:04.960 align:middle line:84%
+And affymetrix and other
+oligonucleotide-based methods
+
+00:04:04.960 --> 00:04:09.640 align:middle line:84%
+typically use 25-nucleotide-long
+ligament oligomers.
+
+00:04:09.640 --> 00:04:15.340 align:middle line:84%
+Typically, the long
+microarray probes
+
+00:04:15.340 --> 00:04:18.670 align:middle line:84%
+are used as single probes,
+one probe per gene,
+
+00:04:18.670 --> 00:04:21.380 align:middle line:84%
+while the short ones typically
+have 24 probes per gene.
+
+00:04:21.380 --> 00:04:24.820 align:middle line:84%
+These are not
+necessary differences.
+
+00:04:24.820 --> 00:04:26.710 align:middle line:84%
+You can imagine
+various combinations.
+
+00:04:26.710 --> 00:04:29.950 align:middle line:84%
+Another difference is
+in the long probes,
+
+00:04:29.950 --> 00:04:32.163 align:middle line:84%
+typically, you'll do an
+experiment and control
+
+00:04:32.163 --> 00:04:33.580 align:middle line:84%
+with different
+colors, and they're
+
+00:04:33.580 --> 00:04:37.870 align:middle line:84%
+mixed together to control for
+some of the variations that
+
+00:04:37.870 --> 00:04:39.100 align:middle line:90%
+might occur.
+
+00:04:39.100 --> 00:04:41.290 align:middle line:84%
+In the spotting of
+the long probes,
+
+00:04:41.290 --> 00:04:43.090 align:middle line:84%
+this is typically
+spotted mechanically,
+
+00:04:43.090 --> 00:04:46.090 align:middle line:84%
+while the short
+probes are developed
+
+00:04:46.090 --> 00:04:52.120 align:middle line:84%
+by a photochemical method
+in which 100 mass, sort
+
+00:04:52.120 --> 00:04:57.940 align:middle line:84%
+of black and white mass such
+as use in the Silicon Valley
+
+00:04:57.940 --> 00:05:00.670 align:middle line:84%
+for making computer
+chips, which we introduced
+
+00:05:00.670 --> 00:05:05.410 align:middle line:84%
+in the sequencing technology
+lecture, these kind of 100
+
+00:05:05.410 --> 00:05:07.810 align:middle line:84%
+photomass will allow
+you to make 25-mer, four
+
+00:05:07.810 --> 00:05:11.110 align:middle line:90%
+possibilities per base.
+
+00:05:11.110 --> 00:05:13.960 align:middle line:84%
+And you'll make, say,
+20 of these scattered
+
+00:05:13.960 --> 00:05:18.610 align:middle line:84%
+along the gene, and a mismatch
+control for each of those 20
+
+00:05:18.610 --> 00:05:22.150 align:middle line:84%
+perfect matches, PM
+and MM abbreviation.
+
+00:05:22.150 --> 00:05:26.140 align:middle line:84%
+Those mismatched controls help
+you get at the possible cross
+
+00:05:26.140 --> 00:05:28.600 align:middle line:84%
+hybridization by related
+sequences or even
+
+00:05:28.600 --> 00:05:30.370 align:middle line:90%
+distantly related sequences.
+
+00:05:30.370 --> 00:05:36.130 align:middle line:84%
+And then what they typically
+do is subtract the mismatch
+
+00:05:36.130 --> 00:05:38.110 align:middle line:84%
+controls from the
+perfect masses,
+
+00:05:38.110 --> 00:05:41.560 align:middle line:84%
+and then average
+across all 20 of them,
+
+00:05:41.560 --> 00:05:46.660 align:middle line:84%
+or some statistically
+good sampling of those 20.
+
+00:05:46.660 --> 00:05:47.160 align:middle line:90%
+OK.
+
+00:05:47.160 --> 00:05:50.340 align:middle line:84%
+So you typically do ratios
+for the long probes,
+
+00:05:50.340 --> 00:05:54.450 align:middle line:84%
+and you try to get absolute
+amounts from the short probes.
+
+00:05:54.450 --> 00:05:56.550 align:middle line:84%
+And then there are two
+wildly different methods
+
+00:05:56.550 --> 00:05:58.710 align:middle line:90%
+in the bottom of the slide.
+
+00:05:58.710 --> 00:06:02.310 align:middle line:84%
+These are called SAGE, standing
+for Serial Analysis of Gene
+
+00:06:02.310 --> 00:06:07.680 align:middle line:84%
+Expression, and NPSS,
+an acronym for a highly
+
+00:06:07.680 --> 00:06:09.810 align:middle line:90%
+parallel bead-based method.
+
+00:06:09.810 --> 00:06:12.870 align:middle line:84%
+Both of them essentially
+sequence, determine
+
+00:06:12.870 --> 00:06:17.070 align:middle line:84%
+the sequence of somewhere
+between 14 and 22 nucleotides.
+
+00:06:17.070 --> 00:06:21.600 align:middle line:84%
+This is the sort of minimum
+length sequence that's
+
+00:06:21.600 --> 00:06:27.660 align:middle line:84%
+often but not always sufficient
+to identify an RNA molecule.
+
+00:06:27.660 --> 00:06:30.270 align:middle line:84%
+You're basically counting
+individual RNA molecules
+
+00:06:30.270 --> 00:06:31.980 align:middle line:84%
+with a tag that's
+just long enough
+
+00:06:31.980 --> 00:06:34.170 align:middle line:84%
+to be able to recognize
+it in a database.
+
+00:06:34.170 --> 00:06:37.770 align:middle line:84%
+At a 14-mer, you can recognize
+it and say, a human cDNA
+
+00:06:37.770 --> 00:06:39.930 align:middle line:84%
+database, but it's
+not unique enough
+
+00:06:39.930 --> 00:06:42.360 align:middle line:84%
+to identify it in a
+human genomic database.
+
+00:06:42.360 --> 00:06:48.510 align:middle line:84%
+The 22-mer is large enough
+to get an acceptable rate
+
+00:06:48.510 --> 00:06:50.250 align:middle line:84%
+of false positives,
+false negatives
+
+00:06:50.250 --> 00:06:53.537 align:middle line:90%
+in a human genomic library.
+
+00:06:53.537 --> 00:06:55.620 align:middle line:84%
+So that's kind of the range
+which you can do this.
+
+00:06:55.620 --> 00:07:00.690 align:middle line:84%
+And it's just, people
+tend to take shorter tags
+
+00:07:00.690 --> 00:07:03.810 align:middle line:84%
+because the cost goes up
+with the length of the tag.
+
+00:07:03.810 --> 00:07:06.300 align:middle line:84%
+And so these were
+conveniently short tags.
+
+00:07:06.300 --> 00:07:09.870 align:middle line:84%
+So the top ones,
+you get quantitation
+
+00:07:09.870 --> 00:07:12.930 align:middle line:84%
+by integration of the
+fluorescent signals.
+
+00:07:12.930 --> 00:07:15.150 align:middle line:84%
+And the bottom two,
+you get quantitation
+
+00:07:15.150 --> 00:07:19.080 align:middle line:90%
+by counting individual tags.
+
+00:07:19.080 --> 00:07:23.430 align:middle line:84%
+The bottom two methods have
+the opportunity for discovery,
+
+00:07:23.430 --> 00:07:25.620 align:middle line:84%
+while the top
+three, you basically
+
+00:07:25.620 --> 00:07:30.690 align:middle line:84%
+can quantitate any gene
+or segment of the genome
+
+00:07:30.690 --> 00:07:33.630 align:middle line:84%
+that you care to
+put on the array.
+
+00:07:33.630 --> 00:07:36.240 align:middle line:84%
+But you won't necessarily
+discover anything outside
+
+00:07:36.240 --> 00:07:37.275 align:middle line:90%
+of those features.
+
+00:07:37.275 --> 00:07:40.100 align:middle line:90%
+
+
+00:07:40.100 --> 00:07:43.010 align:middle line:84%
+So these are four of
+the key methods that
+
+00:07:43.010 --> 00:07:44.870 align:middle line:84%
+are used for
+quantitating RNAs right
+
+00:07:44.870 --> 00:07:48.620 align:middle line:84%
+now on a genome scale,
+where you'll do hopefully
+
+00:07:48.620 --> 00:07:51.410 align:middle line:84%
+multiple experiments
+for each type.
+
+00:07:51.410 --> 00:07:53.760 align:middle line:84%
+Now, let's just zoom
+in a little bit more
+
+00:07:53.760 --> 00:07:55.520 align:middle line:84%
+so you can have
+appreciation for where
+
+00:07:55.520 --> 00:07:57.650 align:middle line:84%
+some of the systematic
+and random errors
+
+00:07:57.650 --> 00:08:00.080 align:middle line:84%
+might creep in to these
+kind of experiments.
+
+00:08:00.080 --> 00:08:05.630 align:middle line:84%
+And I'll just arbitrarily use
+the 25 oligonucleotide probe
+
+00:08:05.630 --> 00:08:11.120 align:middle line:84%
+arrays as an example for the
+long arrays, the microarrays.
+
+00:08:11.120 --> 00:08:15.890 align:middle line:84%
+You might have, say,
+1,000-nucleotide-long probes.
+
+00:08:15.890 --> 00:08:19.790 align:middle line:84%
+You might have 10,000 of them
+on a glass slide about this big.
+
+00:08:19.790 --> 00:08:22.400 align:middle line:90%
+
+
+00:08:22.400 --> 00:08:25.550 align:middle line:84%
+With the
+photolithography, you can
+
+00:08:25.550 --> 00:08:28.280 align:middle line:84%
+have a more like
+closer to a million
+
+00:08:28.280 --> 00:08:31.280 align:middle line:90%
+features in a square centimeter.
+
+00:08:31.280 --> 00:08:34.850 align:middle line:84%
+And in each of those features,
+each of those million
+
+00:08:34.850 --> 00:08:37.940 align:middle line:84%
+positions on the array,
+in the square array,
+
+00:08:37.940 --> 00:08:42.260 align:middle line:84%
+you will have maybe 10 to the
+5th and 10 to the 6th molecules
+
+00:08:42.260 --> 00:08:46.340 align:middle line:84%
+all identical in position
+1, and then a new set of 10
+
+00:08:46.340 --> 00:08:49.640 align:middle line:84%
+to the 6th molecules
+in position 2, all
+
+00:08:49.640 --> 00:08:53.540 align:middle line:84%
+aimed at a different RNA or
+different part of an RNA.
+
+00:08:53.540 --> 00:08:57.770 align:middle line:84%
+Each of those probe
+cells is ready to accept,
+
+00:08:57.770 --> 00:09:03.530 align:middle line:84%
+fluorescently labeled or using
+biotin as an intermediate
+
+00:09:03.530 --> 00:09:05.240 align:middle line:90%
+in order to get fluorescence.
+
+00:09:05.240 --> 00:09:07.700 align:middle line:84%
+So you take your RNA and you
+directly [? biotinylate ?] it,
+
+00:09:07.700 --> 00:09:10.550 align:middle line:90%
+or you make a cDNA copy.
+
+00:09:10.550 --> 00:09:12.950 align:middle line:84%
+Or in one way or
+another, you introduce
+
+00:09:12.950 --> 00:09:18.410 align:middle line:84%
+a fluorescent or bioitn molecule
+into a copy of your RNA.
+
+00:09:18.410 --> 00:09:20.840 align:middle line:84%
+And then you apply
+that to the chip,
+
+00:09:20.840 --> 00:09:25.430 align:middle line:90%
+and they will bind kinetically.
+
+00:09:25.430 --> 00:09:29.900 align:middle line:84%
+And the more the
+mass action that you
+
+00:09:29.900 --> 00:09:36.650 align:middle line:84%
+get from the original RNA, the
+RNAs that are the most abundant
+
+00:09:36.650 --> 00:09:40.430 align:middle line:84%
+will result in the
+largest number of biotins
+
+00:09:40.430 --> 00:09:45.230 align:middle line:84%
+or fluorescent molecules on
+the array at a given element.
+
+00:09:45.230 --> 00:09:48.920 align:middle line:84%
+Here, an indirect conjugate
+with a fluorescent
+
+00:09:48.920 --> 00:09:51.560 align:middle line:84%
+stripped out of [INAUDIBLE] It's
+like a rift in this covalently
+
+00:09:51.560 --> 00:09:53.960 align:middle line:84%
+attached [INAUDIBLE],, and
+you get a fluorescent signal,
+
+00:09:53.960 --> 00:09:55.502 align:middle line:84%
+which you quantitate,
+which tells you
+
+00:09:55.502 --> 00:09:58.640 align:middle line:84%
+the amount of original
+messenger RNA.
+
+00:09:58.640 --> 00:10:01.430 align:middle line:90%
+
+
+00:10:01.430 --> 00:10:05.330 align:middle line:84%
+If you have 20 different
+oligonucleotides per gene,
+
+00:10:05.330 --> 00:10:07.100 align:middle line:84%
+you can scatter
+this about the array
+
+00:10:07.100 --> 00:10:08.420 align:middle line:90%
+or you can have them in lines.
+
+00:10:08.420 --> 00:10:12.670 align:middle line:84%
+This tends to be back from
+when they had them in lines.
+
+00:10:12.670 --> 00:10:14.588 align:middle line:84%
+So you get the
+streakiness there.
+
+00:10:14.588 --> 00:10:16.130 align:middle line:84%
+Now, one of the
+first things you want
+
+00:10:16.130 --> 00:10:18.680 align:middle line:84%
+to do, much of the
+software from the companies
+
+00:10:18.680 --> 00:10:21.110 align:middle line:84%
+is set up on the assumption
+that you will only
+
+00:10:21.110 --> 00:10:22.940 align:middle line:90%
+do the experiment once.
+
+00:10:22.940 --> 00:10:26.690 align:middle line:84%
+Now, this may have
+been appealing
+
+00:10:26.690 --> 00:10:29.210 align:middle line:84%
+in the early days from
+a cost standpoint,
+
+00:10:29.210 --> 00:10:31.220 align:middle line:84%
+but it's not really
+cost-effective,
+
+00:10:31.220 --> 00:10:33.290 align:middle line:84%
+in that you will
+make mistakes and you
+
+00:10:33.290 --> 00:10:35.690 align:middle line:84%
+will draw incorrect
+conclusions that
+
+00:10:35.690 --> 00:10:36.890 align:middle line:90%
+will require you to go back.
+
+00:10:36.890 --> 00:10:40.610 align:middle line:84%
+But this is an example
+of an early experiment
+
+00:10:40.610 --> 00:10:43.220 align:middle line:84%
+to establish the reproducibility
+from one experiment
+
+00:10:43.220 --> 00:10:46.640 align:middle line:84%
+to another, possibly to
+reassure people that they didn't
+
+00:10:46.640 --> 00:10:49.470 align:middle line:90%
+need to repeat the experiment.
+
+00:10:49.470 --> 00:10:51.320 align:middle line:84%
+But in any case,
+this is the thing
+
+00:10:51.320 --> 00:10:52.940 align:middle line:84%
+that is now commonly
+done in order
+
+00:10:52.940 --> 00:10:56.360 align:middle line:84%
+to assess that your experiments
+are indeed reproducible.
+
+00:10:56.360 --> 00:10:58.430 align:middle line:84%
+And what you expect from
+this as you go along
+
+00:10:58.430 --> 00:11:04.130 align:middle line:84%
+the horizontal axis towards
+higher and higher copies
+
+00:11:04.130 --> 00:11:09.020 align:middle line:84%
+per cell, going off to
+the right or going up
+
+00:11:09.020 --> 00:11:12.770 align:middle line:84%
+on the vertical axis, when
+you get high copies per cell,
+
+00:11:12.770 --> 00:11:19.250 align:middle line:84%
+then you expect there to be
+very close similarity in the two
+
+00:11:19.250 --> 00:11:21.650 align:middle line:84%
+measures from two
+different experiments done
+
+00:11:21.650 --> 00:11:22.710 align:middle line:90%
+at two different days.
+
+00:11:22.710 --> 00:11:25.520 align:middle line:84%
+And then as you get to
+the very rare transcripts,
+
+00:11:25.520 --> 00:11:27.980 align:middle line:84%
+you expect the various
+sources of noise
+
+00:11:27.980 --> 00:11:31.940 align:middle line:84%
+in the experiment to start to
+dominate the light scattering
+
+00:11:31.940 --> 00:11:33.410 align:middle line:90%
+and the array.
+
+00:11:33.410 --> 00:11:36.350 align:middle line:84%
+The background
+fluorescence of the glass,
+
+00:11:36.350 --> 00:11:39.410 align:middle line:84%
+the non-specific
+cross-hybridization
+
+00:11:39.410 --> 00:11:42.507 align:middle line:84%
+between different RNAs, start
+to dominate over the true signal
+
+00:11:42.507 --> 00:11:44.090 align:middle line:84%
+because, the true
+signal is going down
+
+00:11:44.090 --> 00:11:46.340 align:middle line:84%
+and all those background
+signals are staying constant.
+
+00:11:46.340 --> 00:11:48.575 align:middle line:84%
+So you start to get
+spread at a low number
+
+00:11:48.575 --> 00:11:50.570 align:middle line:90%
+of copy numbers per cell.
+
+00:11:50.570 --> 00:11:54.200 align:middle line:84%
+You can see a huge
+fraction of the RNAs
+
+00:11:54.200 --> 00:11:59.540 align:middle line:84%
+in the yeast cells that present
+a single copy, say one or less
+
+00:11:59.540 --> 00:12:01.550 align:middle line:90%
+fewer RNAs per cell.
+
+00:12:01.550 --> 00:12:04.970 align:middle line:84%
+Now, this can either
+indicate that most
+
+00:12:04.970 --> 00:12:08.930 align:middle line:84%
+of the RNAs in the cell are not
+physiologically significant,
+
+00:12:08.930 --> 00:12:13.490 align:middle line:84%
+or it could indicate that all
+it takes is a small burst of one
+
+00:12:13.490 --> 00:12:15.650 align:middle line:84%
+or a few molecules
+of RNA to produce
+
+00:12:15.650 --> 00:12:17.720 align:middle line:84%
+an even larger burst
+of proteins and even
+
+00:12:17.720 --> 00:12:19.980 align:middle line:84%
+larger bursts of activities
+of those proteins.
+
+00:12:19.980 --> 00:12:21.630 align:middle line:90%
+So you get this amplification.
+
+00:12:21.630 --> 00:12:23.540 align:middle line:84%
+And so the stochastics
+that we will
+
+00:12:23.540 --> 00:12:25.580 align:middle line:84%
+study in the systems
+biology part of this
+
+00:12:25.580 --> 00:12:28.770 align:middle line:84%
+becomes a more
+significant consideration.
+
+00:12:28.770 --> 00:12:35.420 align:middle line:84%
+So looking at one
+molecule per cell,
+
+00:12:35.420 --> 00:12:38.440 align:middle line:84%
+it's important to start
+thinking about what
+
+00:12:38.440 --> 00:12:43.960 align:middle line:84%
+the implications of that might
+be for the systems biology,
+
+00:12:43.960 --> 00:12:46.990 align:middle line:84%
+and asking, can we accurately
+measure it down there,
+
+00:12:46.990 --> 00:12:49.900 align:middle line:84%
+and do we believe that it's
+biologically significant.
+
+00:12:49.900 --> 00:12:53.110 align:middle line:84%
+Now, there's a whole variety
+of microarray data analyses,
+
+00:12:53.110 --> 00:12:59.950 align:middle line:84%
+ranging from the very
+hardware-oriented first data
+
+00:12:59.950 --> 00:13:02.500 align:middle line:84%
+acquisition modules
+all the way up
+
+00:13:02.500 --> 00:13:09.700 align:middle line:84%
+through analyzing single array
+data at a statistical level,
+
+00:13:09.700 --> 00:13:14.320 align:middle line:84%
+to multiple related experiments,
+such as the one we showed
+
+00:13:14.320 --> 00:13:15.910 align:middle line:84%
+in the previous
+slide, all the way up
+
+00:13:15.910 --> 00:13:20.500 align:middle line:84%
+to clustering multiple examples
+from multiple different
+
+00:13:20.500 --> 00:13:26.590 align:middle line:84%
+conditions to start asking the
+biological questions about why
+
+00:13:26.590 --> 00:13:28.660 align:middle line:90%
+RNAs go up and down together.
+
+00:13:28.660 --> 00:13:32.980 align:middle line:84%
+For intermediate analyses,
+where we'll be talking today,
+
+00:13:32.980 --> 00:13:38.650 align:middle line:84%
+as introductory issues
+of data analysis,
+
+00:13:38.650 --> 00:13:43.060 align:middle line:84%
+I'll illustrate dChip and
+a couple of other tools
+
+00:13:43.060 --> 00:13:47.530 align:middle line:84%
+that indicate how reproducible
+experiments can be,
+
+00:13:47.530 --> 00:13:50.770 align:middle line:84%
+and the kind of systematic
+errors that can creep in.
+
+00:13:50.770 --> 00:13:54.310 align:middle line:84%
+The reproducibility helps
+you by repeating, helps
+
+00:13:54.310 --> 00:13:56.080 align:middle line:90%
+you reduce the random errors.
+
+00:13:56.080 --> 00:13:59.350 align:middle line:84%
+And here are four
+papers recently
+
+00:13:59.350 --> 00:14:04.000 align:middle line:84%
+that talk about measurements
+from multiple measures
+
+00:14:04.000 --> 00:14:07.360 align:middle line:84%
+from the same experiment, or
+multiple measures by using
+
+00:14:07.360 --> 00:14:09.850 align:middle line:84%
+two completely different
+microarray technologies.
+
+00:14:09.850 --> 00:14:12.520 align:middle line:84%
+And I urge you to
+take a look at these.
+
+00:14:12.520 --> 00:14:16.760 align:middle line:90%
+
+
+00:14:16.760 --> 00:14:20.210 align:middle line:84%
+When we compare
+two distributions
+
+00:14:20.210 --> 00:14:25.550 align:middle line:84%
+from microarray experiments,
+you can think of these.
+
+00:14:25.550 --> 00:14:27.800 align:middle line:84%
+Even if they're not perfectly
+normal distributions,
+
+00:14:27.800 --> 00:14:30.050 align:middle line:84%
+they're going to be roughly
+bell-shaped shaped curves.
+
+00:14:30.050 --> 00:14:31.760 align:middle line:84%
+So let's say that
+this is experiment 1
+
+00:14:31.760 --> 00:14:33.260 align:middle line:90%
+and this is experiment 2.
+
+00:14:33.260 --> 00:14:35.090 align:middle line:90%
+You say, oh, they look the same.
+
+00:14:35.090 --> 00:14:37.550 align:middle line:84%
+This is experiment
+1 under condition 1.
+
+00:14:37.550 --> 00:14:39.920 align:middle line:90%
+This is under condition 2.
+
+00:14:39.920 --> 00:14:41.120 align:middle line:90%
+OK, now they look different.
+
+00:14:41.120 --> 00:14:42.650 align:middle line:90%
+But how do you quantitate that?
+
+00:14:42.650 --> 00:14:47.270 align:middle line:84%
+And the way you ask that is,
+the means of those two roughly
+
+00:14:47.270 --> 00:14:50.600 align:middle line:84%
+bell-shaped distributions
+are far apart from one other.
+
+00:14:50.600 --> 00:14:51.830 align:middle line:90%
+How far apart?
+
+00:14:51.830 --> 00:14:54.410 align:middle line:84%
+Well, they're farther
+apart from one another
+
+00:14:54.410 --> 00:14:57.320 align:middle line:84%
+than the width of the
+distributions individually.
+
+00:14:57.320 --> 00:15:00.790 align:middle line:84%
+And the distance
+between them, you
+
+00:15:00.790 --> 00:15:02.810 align:middle line:84%
+can think of as the
+mean of the difference
+
+00:15:02.810 --> 00:15:05.330 align:middle line:90%
+of the distributions.
+
+00:15:05.330 --> 00:15:09.860 align:middle line:84%
+And then the width is
+a measure of the root
+
+00:15:09.860 --> 00:15:12.770 align:middle line:84%
+mean square standard
+deviation, so [? versus ?]
+
+00:15:12.770 --> 00:15:14.455 align:middle line:90%
+the combined width of the two.
+
+00:15:14.455 --> 00:15:16.580 align:middle line:84%
+If one of them is wide and
+the other one is narrow,
+
+00:15:16.580 --> 00:15:19.370 align:middle line:84%
+you have to have some
+way of combining those.
+
+00:15:19.370 --> 00:15:22.220 align:middle line:84%
+So that's sometimes
+called a student t-test.
+
+00:15:22.220 --> 00:15:25.520 align:middle line:84%
+And the t statistic
+itself is simply
+
+00:15:25.520 --> 00:15:28.880 align:middle line:84%
+the mean over the
+standard deviation.
+
+00:15:28.880 --> 00:15:32.210 align:middle line:84%
+In other words, how many
+standard deviation widths apart
+
+00:15:32.210 --> 00:15:33.320 align:middle line:90%
+are these two means?
+
+00:15:33.320 --> 00:15:35.870 align:middle line:84%
+Or if you take the
+mean of the difference,
+
+00:15:35.870 --> 00:15:37.850 align:middle line:84%
+take the distribution
+of the difference,
+
+00:15:37.850 --> 00:15:40.220 align:middle line:84%
+then you want your
+null hypothesis.
+
+00:15:40.220 --> 00:15:43.930 align:middle line:84%
+H0 here on slide 33 is
+the null hypothesis.
+
+00:15:43.930 --> 00:15:46.160 align:middle line:84%
+If the mean value of
+the difference is 0,
+
+00:15:46.160 --> 00:15:48.500 align:middle line:84%
+there's no difference between
+the two distributions.
+
+00:15:48.500 --> 00:15:52.910 align:middle line:84%
+If you can rule
+that out, then that
+
+00:15:52.910 --> 00:15:54.945 align:middle line:90%
+would be the point of this test.
+
+00:15:54.945 --> 00:15:56.570 align:middle line:84%
+So you can think,
+how many widths apart
+
+00:15:56.570 --> 00:15:59.630 align:middle line:84%
+are the means of these
+two distributions.
+
+00:15:59.630 --> 00:16:02.060 align:middle line:84%
+Now, this requires
+that actually,
+
+00:16:02.060 --> 00:16:04.100 align:middle line:84%
+the distributions be
+very close to normal,
+
+00:16:04.100 --> 00:16:06.950 align:middle line:84%
+not distinguishable
+from normal distribution
+
+00:16:06.950 --> 00:16:09.170 align:middle line:90%
+with all its properties.
+
+00:16:09.170 --> 00:16:11.535 align:middle line:84%
+If you are in
+serious doubt or can
+
+00:16:11.535 --> 00:16:13.160 align:middle line:84%
+prove that they're
+not normal, then you
+
+00:16:13.160 --> 00:16:15.440 align:middle line:90%
+should go to a non-parametric.
+
+00:16:15.440 --> 00:16:16.720 align:middle line:90%
+Normal means it's parametric.
+
+00:16:16.720 --> 00:16:18.290 align:middle line:84%
+It has a mean and
+standard deviation
+
+00:16:18.290 --> 00:16:22.070 align:middle line:90%
+that characterize it well.
+
+00:16:22.070 --> 00:16:23.713 align:middle line:84%
+Then you can use
+a non-parametric.
+
+00:16:23.713 --> 00:16:25.130 align:middle line:84%
+Whenever you see
+the word "ranks,"
+
+00:16:25.130 --> 00:16:27.440 align:middle line:84%
+that's a tip-off that you're
+going into something where
+
+00:16:27.440 --> 00:16:29.090 align:middle line:90%
+you're making fewer assumptions.
+
+00:16:29.090 --> 00:16:30.380 align:middle line:90%
+This has lower power.
+
+00:16:30.380 --> 00:16:33.150 align:middle line:84%
+That means you might miss
+some significant differences.
+
+00:16:33.150 --> 00:16:36.890 align:middle line:84%
+But on the other hand, if
+you can convince yourself
+
+00:16:36.890 --> 00:16:40.977 align:middle line:84%
+with the Wilcoxon matched
+pair sign ranks test,
+
+00:16:40.977 --> 00:16:43.310 align:middle line:84%
+then you don't need to worry
+about whether it's normally
+
+00:16:43.310 --> 00:16:44.300 align:middle line:90%
+distributed.
+
+00:16:44.300 --> 00:16:51.620 align:middle line:84%
+In any case, we're going to
+look at some distributions
+
+00:16:51.620 --> 00:16:57.320 align:middle line:84%
+and ask informally whether
+these are the same distribution
+
+00:16:57.320 --> 00:16:58.970 align:middle line:90%
+or different.
+
+00:16:58.970 --> 00:17:00.442 align:middle line:90%
+Yes.
+
+00:17:00.442 --> 00:17:01.980 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+00:17:01.980 --> 00:17:28.930 align:middle line:90%
+
+
+00:17:28.930 --> 00:17:32.040 align:middle line:84%
+GEORGE CHURCH: So
+the question is,
+
+00:17:32.040 --> 00:17:36.050 align:middle line:84%
+how do you deal with the
+multiple hypothesis testing.
+
+00:17:36.050 --> 00:17:40.160 align:middle line:84%
+And this basically is
+exactly the same answer
+
+00:17:40.160 --> 00:17:44.030 align:middle line:84%
+that we would have given
+in the last lecture
+
+00:17:44.030 --> 00:17:49.310 align:middle line:84%
+on multiple hypothesis
+testing in genotyping.
+
+00:17:49.310 --> 00:17:52.010 align:middle line:84%
+If you apply exactly
+the same-- it's
+
+00:17:52.010 --> 00:17:56.270 align:middle line:84%
+a very good question,
+very appropriate here.
+
+00:17:56.270 --> 00:17:57.950 align:middle line:84%
+Just as before,
+where you would have
+
+00:17:57.950 --> 00:18:02.780 align:middle line:84%
+multiple different
+phenotype-genotype combinations
+
+00:18:02.780 --> 00:18:05.300 align:middle line:84%
+that you might want
+to test, essentially
+
+00:18:05.300 --> 00:18:07.685 align:middle line:84%
+testing every possible single
+nucleotide polymorphism
+
+00:18:07.685 --> 00:18:15.080 align:middle line:84%
+or combination in the genome, to
+a first approximation, whatever
+
+00:18:15.080 --> 00:18:19.070 align:middle line:84%
+your significance is, it
+needs to be that much more
+
+00:18:19.070 --> 00:18:22.230 align:middle line:84%
+significant if you have
+that many hypotheses.
+
+00:18:22.230 --> 00:18:23.710 align:middle line:90%
+AUDIENCE: [INAUDIBLE]
+
+00:18:23.710 --> 00:18:28.370 align:middle line:90%
+
+
+00:18:28.370 --> 00:18:31.850 align:middle line:84%
+GEORGE CHURCH: You either
+have to improve your data.
+
+00:18:31.850 --> 00:18:33.980 align:middle line:84%
+Allows you to test
+more hypotheses.
+
+00:18:33.980 --> 00:18:38.150 align:middle line:84%
+Or you need to reduce the
+hypothesis, that number
+
+00:18:38.150 --> 00:18:43.040 align:middle line:84%
+at the outset, by having a
+sharp biological question
+
+00:18:43.040 --> 00:18:43.760 align:middle line:90%
+at the beginning.
+
+00:18:43.760 --> 00:18:45.385 align:middle line:84%
+It's an excellent
+question, but there's
+
+00:18:45.385 --> 00:18:49.700 align:middle line:84%
+no magic wand except
+those two that I know of.
+
+00:18:49.700 --> 00:18:54.198 align:middle line:84%
+OK, so here's some examples
+of independent experiments.
+
+00:18:54.198 --> 00:18:56.240 align:middle line:84%
+Now, when someone says an
+independent experiment,
+
+00:18:56.240 --> 00:18:59.620 align:middle line:84%
+you have to be
+clear about, is it
+
+00:18:59.620 --> 00:19:06.950 align:middle line:84%
+that the same RNA sample split
+and then labeled independently.
+
+00:19:06.950 --> 00:19:09.420 align:middle line:84%
+That's really not an
+independent experiment.
+
+00:19:09.420 --> 00:19:13.250 align:middle line:84%
+On the other hand, you
+could take two completely,
+
+00:19:13.250 --> 00:19:16.910 align:middle line:84%
+where you repeated the best
+of an independent experiment.
+
+00:19:16.910 --> 00:19:19.340 align:middle line:84%
+If your objective is
+to ask how reproducible
+
+00:19:19.340 --> 00:19:21.050 align:middle line:84%
+is the entire
+biological phenomenon,
+
+00:19:21.050 --> 00:19:27.050 align:middle line:84%
+you should go back as early as
+possible, make a new cell line,
+
+00:19:27.050 --> 00:19:30.320 align:middle line:84%
+try to get the conditions
+exactly the same,
+
+00:19:30.320 --> 00:19:32.810 align:middle line:84%
+but completely
+independently executed,
+
+00:19:32.810 --> 00:19:34.220 align:middle line:84%
+possibly by
+different researchers
+
+00:19:34.220 --> 00:19:36.560 align:middle line:90%
+in different laboratories.
+
+00:19:36.560 --> 00:19:40.040 align:middle line:84%
+In that extreme, you expect
+to have more scatter.
+
+00:19:40.040 --> 00:19:41.810 align:middle line:84%
+Here, these are the
+regression lines.
+
+00:19:41.810 --> 00:19:45.560 align:middle line:84%
+The R squared is the
+number that pops out
+
+00:19:45.560 --> 00:19:48.053 align:middle line:84%
+as an indication of
+deviation from the linear,
+
+00:19:48.053 --> 00:19:50.720 align:middle line:84%
+just like the linear correlation
+coefficient, which is basically
+
+00:19:50.720 --> 00:19:53.330 align:middle line:90%
+a squared term.
+
+00:19:53.330 --> 00:19:56.270 align:middle line:84%
+You can see that as instead
+of splitting one sample,
+
+00:19:56.270 --> 00:19:58.610 align:middle line:84%
+and doing kind of a trivial
+differentiable labeling,
+
+00:19:58.610 --> 00:20:00.740 align:middle line:84%
+if you have more
+independent samples,
+
+00:20:00.740 --> 00:20:04.460 align:middle line:84%
+you get more scatter and
+a lower figure of merit
+
+00:20:04.460 --> 00:20:06.860 align:middle line:90%
+for the regression line.
+
+00:20:06.860 --> 00:20:12.200 align:middle line:84%
+OK, now, what are
+the guidelines for--
+
+00:20:12.200 --> 00:20:13.820 align:middle line:84%
+what are some of
+the considerations
+
+00:20:13.820 --> 00:20:15.080 align:middle line:90%
+in RNA quantitation?
+
+00:20:15.080 --> 00:20:16.940 align:middle line:84%
+I think we've touched
+upon this before,
+
+00:20:16.940 --> 00:20:18.560 align:middle line:84%
+but I just want
+to drive it home,
+
+00:20:18.560 --> 00:20:20.540 align:middle line:84%
+that some people
+will say, I'm only
+
+00:20:20.540 --> 00:20:24.800 align:middle line:84%
+going to look at things that are
+more than a three-fold effect.
+
+00:20:24.800 --> 00:20:28.340 align:middle line:84%
+This is sort of the
+ratio limits that you
+
+00:20:28.340 --> 00:20:32.360 align:middle line:84%
+might perceive in the early
+RNA [? TIP ?] experiments.
+
+00:20:32.360 --> 00:20:34.140 align:middle line:84%
+But I think we're
+getting better at it
+
+00:20:34.140 --> 00:20:36.870 align:middle line:84%
+and the biological
+motivation is high.
+
+00:20:36.870 --> 00:20:41.210 align:middle line:84%
+We've seen that human trisomies,
+where you just have a 1.5-fold
+
+00:20:41.210 --> 00:20:44.210 align:middle line:84%
+increase in dosage, every
+single one of them has a huge
+
+00:20:44.210 --> 00:20:45.500 align:middle line:90%
+phenotypic consequence.
+
+00:20:45.500 --> 00:20:49.700 align:middle line:84%
+Many of them result
+in lethality.
+
+00:20:49.700 --> 00:20:53.840 align:middle line:84%
+We should set as a goal
+to be able to monitor most
+
+00:20:53.840 --> 00:20:57.740 align:middle line:84%
+of the RNAs of biological
+significance down to this
+
+00:20:57.740 --> 00:21:03.740 align:middle line:84%
+1.5-fold effect, which can have
+these dramatic implications.
+
+00:21:03.740 --> 00:21:09.320 align:middle line:84%
+We mentioned the
+Oligonucleotides,
+
+00:21:09.320 --> 00:21:11.300 align:middle line:84%
+we might be able to get
+more of them per gene.
+
+00:21:11.300 --> 00:21:14.000 align:middle line:84%
+How cam we utilize
+this, not only
+
+00:21:14.000 --> 00:21:16.700 align:middle line:84%
+the number that we can
+get, but the specificity?
+
+00:21:16.700 --> 00:21:21.020 align:middle line:84%
+If you have a gene length
+oligonucleotide, or cDNA,
+
+00:21:21.020 --> 00:21:24.470 align:middle line:84%
+then you're going to pick up
+not only the gene of interest,
+
+00:21:24.470 --> 00:21:28.460 align:middle line:84%
+but every related gene, all the
+alternative splice forms, all
+
+00:21:28.460 --> 00:21:30.900 align:middle line:84%
+the very, very close
+family members.
+
+00:21:30.900 --> 00:21:33.680 align:middle line:84%
+So with oligonucleotides,
+you can then go and target
+
+00:21:33.680 --> 00:21:35.810 align:middle line:84%
+individual splice
+forms, but then
+
+00:21:35.810 --> 00:21:38.660 align:middle line:84%
+when you apply your
+algorithms, you
+
+00:21:38.660 --> 00:21:40.790 align:middle line:84%
+have to be careful not
+to lump them all together
+
+00:21:40.790 --> 00:21:41.732 align:middle line:90%
+as if it's one gene.
+
+00:21:41.732 --> 00:21:43.190 align:middle line:84%
+You have to say,
+OK, this is splice
+
+00:21:43.190 --> 00:21:44.780 align:middle line:90%
+form number one, number two.
+
+00:21:44.780 --> 00:21:49.130 align:middle line:84%
+And just having oligonucleotides
+aimed at particular exons
+
+00:21:49.130 --> 00:21:52.820 align:middle line:84%
+is not sufficient to
+tell you which exons
+
+00:21:52.820 --> 00:21:54.800 align:middle line:90%
+insist in particular RNAs.
+
+00:21:54.800 --> 00:22:00.620 align:middle line:84%
+You can have present in the
+population exons 1, 2, 4, 6 12,
+
+00:22:00.620 --> 00:22:01.378 align:middle line:90%
+and so forth.
+
+00:22:01.378 --> 00:22:03.920 align:middle line:84%
+But you don't know whether 1
+and 12 are on the same molecule,
+
+00:22:03.920 --> 00:22:04.420 align:middle line:90%
+however.
+
+00:22:04.420 --> 00:22:09.110 align:middle line:84%
+That requires a more
+specialized method, possibly
+
+00:22:09.110 --> 00:22:10.100 align:middle line:90%
+high-throughput method.
+
+00:22:10.100 --> 00:22:13.070 align:middle line:90%
+
+
+00:22:13.070 --> 00:22:18.140 align:middle line:84%
+There is another set of economic
+forces pushing towards just
+
+00:22:18.140 --> 00:22:21.500 align:middle line:90%
+doing a subset of the genome.
+
+00:22:21.500 --> 00:22:25.172 align:middle line:84%
+Just like not repeating
+the experiment,
+
+00:22:25.172 --> 00:22:27.380 align:middle line:84%
+you probably don't want to
+give in to economic forces
+
+00:22:27.380 --> 00:22:29.880 align:middle line:84%
+unless you absolutely have to,
+because if one person studies
+
+00:22:29.880 --> 00:22:35.590 align:middle line:84%
+a cancer subset, another
+studies a blood-related subset,
+
+00:22:35.590 --> 00:22:40.682 align:middle line:84%
+and another one studies these
+little pieces of the genome,
+
+00:22:40.682 --> 00:22:42.640 align:middle line:84%
+then when they want to
+pool their data in order
+
+00:22:42.640 --> 00:22:45.610 align:middle line:84%
+to ask questions about what
+genes are cluster together
+
+00:22:45.610 --> 00:22:47.860 align:middle line:84%
+because they're in their
+proliferative cells,
+
+00:22:47.860 --> 00:22:49.900 align:middle line:84%
+and which ones cluster
+together because they're
+
+00:22:49.900 --> 00:22:52.822 align:middle line:84%
+in this developmental
+stage or another,
+
+00:22:52.822 --> 00:22:54.280 align:middle line:84%
+they can't do it
+because they don't
+
+00:22:54.280 --> 00:22:55.960 align:middle line:84%
+share enough genes
+on their arrays
+
+00:22:55.960 --> 00:22:58.070 align:middle line:90%
+to do this meta analysis.
+
+00:22:58.070 --> 00:23:00.610 align:middle line:84%
+So that's a
+consideration when you're
+
+00:23:00.610 --> 00:23:02.135 align:middle line:84%
+in the experimental
+design phase.
+
+00:23:02.135 --> 00:23:03.760 align:middle line:84%
+And hopefully,
+computational biologists
+
+00:23:03.760 --> 00:23:06.130 align:middle line:84%
+are involved not only in the
+interpretation of the data,
+
+00:23:06.130 --> 00:23:09.530 align:middle line:84%
+but in the design of
+the experiments as well.
+
+00:23:09.530 --> 00:23:12.970 align:middle line:84%
+Here's yet another way of
+looking at the variation
+
+00:23:12.970 --> 00:23:14.590 align:middle line:90%
+that you have in the experiment.
+
+00:23:14.590 --> 00:23:18.350 align:middle line:84%
+We're introducing, I think, the
+coefficient of variation here,
+
+00:23:18.350 --> 00:23:21.610 align:middle line:84%
+which is simply the standard
+deviation normalized
+
+00:23:21.610 --> 00:23:22.750 align:middle line:90%
+to the mean.
+
+00:23:22.750 --> 00:23:24.930 align:middle line:90%
+So you can just phrase it.
+
+00:23:24.930 --> 00:23:28.690 align:middle line:84%
+It's a way of sharing,
+in a generic sense,
+
+00:23:28.690 --> 00:23:30.100 align:middle line:90%
+how much variation you have.
+
+00:23:30.100 --> 00:23:34.570 align:middle line:84%
+So you can say the coefficient
+of variation is, say, 10%.
+
+00:23:34.570 --> 00:23:40.750 align:middle line:84%
+And that's independent of
+what units you're measuring.
+
+00:23:40.750 --> 00:23:46.300 align:middle line:84%
+And so we have is on the
+horizontal axis, the x-axis
+
+00:23:46.300 --> 00:23:48.790 align:middle line:84%
+here, number of
+messenger RNAs per cell,
+
+00:23:48.790 --> 00:23:52.010 align:middle line:84%
+and in the vertical axis,
+the coefficient of variation.
+
+00:23:52.010 --> 00:23:58.090 align:middle line:84%
+And you can see that when
+you get up above, say,
+
+00:23:58.090 --> 00:24:07.950 align:middle line:84%
+20% coefficient of variation,
+you getting less trustworthy,
+
+00:24:07.950 --> 00:24:10.560 align:middle line:84%
+because here, we've
+used the algorithms that
+
+00:24:10.560 --> 00:24:12.690 align:middle line:84%
+are built in to the
+[INAUDIBLE] software
+
+00:24:12.690 --> 00:24:15.870 align:middle line:84%
+for asking whether it
+thinks an RNA is present
+
+00:24:15.870 --> 00:24:18.030 align:middle line:84%
+or not if the
+intensity is very low,
+
+00:24:18.030 --> 00:24:19.980 align:middle line:90%
+and a variety of other criteria.
+
+00:24:19.980 --> 00:24:24.270 align:middle line:84%
+For a single experiment, it
+will classify whether it thinks
+
+00:24:24.270 --> 00:24:25.680 align:middle line:90%
+the RNA is present or not.
+
+00:24:25.680 --> 00:24:29.640 align:middle line:84%
+But if you use a large number
+of different experiments--
+
+00:24:29.640 --> 00:24:33.480 align:middle line:84%
+each of these dots
+being a different RNA--
+
+00:24:33.480 --> 00:24:35.310 align:middle line:84%
+you use a large
+number of experiments,
+
+00:24:35.310 --> 00:24:38.128 align:middle line:84%
+you can now beat the
+company software,
+
+00:24:38.128 --> 00:24:40.170 align:middle line:84%
+because it's made the
+assumption that you're just
+
+00:24:40.170 --> 00:24:41.650 align:middle line:90%
+doing one experiment.
+
+00:24:41.650 --> 00:24:45.210 align:middle line:84%
+And so here in the
+dark blue are examples
+
+00:24:45.210 --> 00:24:47.610 align:middle line:84%
+where in 3 experiments,
+all three experiments
+
+00:24:47.610 --> 00:24:50.880 align:middle line:90%
+was called f one by one.
+
+00:24:50.880 --> 00:24:54.660 align:middle line:84%
+But you can see
+that even with cases
+
+00:24:54.660 --> 00:24:57.150 align:middle line:84%
+where it's not called
+present in any of the three
+
+00:24:57.150 --> 00:25:00.300 align:middle line:84%
+experiments, these magenta
+ones, you can still
+
+00:25:00.300 --> 00:25:03.900 align:middle line:84%
+find very high
+reproducibility, that
+
+00:25:03.900 --> 00:25:07.350 align:middle line:84%
+is to say, very low coefficient
+of variation, down around 10%.
+
+00:25:07.350 --> 00:25:10.920 align:middle line:84%
+There's some pink dots all
+in this region around 10%,
+
+00:25:10.920 --> 00:25:14.250 align:middle line:84%
+and these are just as
+reliable as the blue dots.
+
+00:25:14.250 --> 00:25:16.890 align:middle line:84%
+Even though they're not called
+present by the software,
+
+00:25:16.890 --> 00:25:18.972 align:middle line:84%
+collectively, they're
+very reproducible,
+
+00:25:18.972 --> 00:25:20.430 align:middle line:84%
+and therefore,
+they're trustworthy.
+
+00:25:20.430 --> 00:25:23.430 align:middle line:84%
+So actually, reproducing
+your experiment
+
+00:25:23.430 --> 00:25:32.730 align:middle line:84%
+is not just something you do
+to appease nature and lower
+
+00:25:32.730 --> 00:25:33.960 align:middle line:90%
+your statistical noise.
+
+00:25:33.960 --> 00:25:37.290 align:middle line:84%
+It actually allows you to get
+data for RNAs that otherwise
+
+00:25:37.290 --> 00:25:39.420 align:middle line:90%
+might be inaccessible.
+
+00:25:39.420 --> 00:25:42.570 align:middle line:84%
+So there's immediate
+gratification there,
+
+00:25:42.570 --> 00:25:44.055 align:middle line:90%
+even at the slight expense.
+
+00:25:44.055 --> 00:25:46.600 align:middle line:90%
+
+
+00:25:46.600 --> 00:25:49.410 align:middle line:84%
+So now let's broaden
+back out a little bit
+
+00:25:49.410 --> 00:25:53.460 align:middle line:84%
+on a number of different
+methods and their advantages
+
+00:25:53.460 --> 00:25:54.300 align:middle line:90%
+and disadvantages.
+
+00:25:54.300 --> 00:25:56.730 align:middle line:84%
+Each one has a
+set of advantages.
+
+00:25:56.730 --> 00:25:58.810 align:middle line:84%
+We've already talked
+about two of them,
+
+00:25:58.810 --> 00:26:04.020 align:middle line:84%
+which is the immobilized
+genes, labeled RNA scenario.
+
+00:26:04.020 --> 00:26:07.350 align:middle line:84%
+That's basically the
+microarrays or chips.
+
+00:26:07.350 --> 00:26:11.730 align:middle line:84%
+And the advantage here is
+that in a very high throughput
+
+00:26:11.730 --> 00:26:14.310 align:middle line:84%
+manner, you can manufacture
+large numbers of these.
+
+00:26:14.310 --> 00:26:16.320 align:middle line:84%
+And you can get
+high multiplicity,
+
+00:26:16.320 --> 00:26:20.922 align:middle line:84%
+all the RNAs that we know
+of monitored simultaneously.
+
+00:26:20.922 --> 00:26:23.550 align:middle line:84%
+The in-situ, we've
+also talked about.
+
+00:26:23.550 --> 00:26:29.160 align:middle line:84%
+The major advantage is retaining
+the spatial relationships.
+
+00:26:29.160 --> 00:26:33.450 align:middle line:84%
+Some of these other methods,
+if instead of immobilizing
+
+00:26:33.450 --> 00:26:36.660 align:middle line:84%
+the probes on a solid
+surface, you immobilize
+
+00:26:36.660 --> 00:26:41.580 align:middle line:84%
+the RNAs, and then one by
+one, you label the probes,
+
+00:26:41.580 --> 00:26:47.010 align:middle line:84%
+this will allow you to
+first, say, separate
+
+00:26:47.010 --> 00:26:51.660 align:middle line:84%
+the entire transcriptome of RNAs
+in electrophoretic separation.
+
+00:26:51.660 --> 00:26:53.820 align:middle line:84%
+And so in a highly
+parallel method,
+
+00:26:53.820 --> 00:26:55.920 align:middle line:84%
+you've now immobilized
+them after they've
+
+00:26:55.920 --> 00:26:57.070 align:middle line:90%
+been separated by size.
+
+00:26:57.070 --> 00:26:59.250 align:middle line:84%
+So if you want to know
+the size of the RNA, which
+
+00:26:59.250 --> 00:27:06.090 align:middle line:84%
+is a big hint as to its
+exon composition and so on,
+
+00:27:06.090 --> 00:27:09.000 align:middle line:84%
+measuring the size of RNA,
+this is one of the few ways
+
+00:27:09.000 --> 00:27:10.290 align:middle line:90%
+to do it.
+
+00:27:10.290 --> 00:27:14.010 align:middle line:84%
+Very hard to do with
+arrays or in situ.
+
+00:27:14.010 --> 00:27:16.080 align:middle line:90%
+OK.
+
+00:27:16.080 --> 00:27:18.570 align:middle line:84%
+If, on the other hand,
+you want sensitivity,
+
+00:27:18.570 --> 00:27:22.560 align:middle line:84%
+where you want to really detect
+at the noise level, which say,
+
+00:27:22.560 --> 00:27:25.860 align:middle line:84%
+for mammalian veterbrate
+RNAs is around 10
+
+00:27:25.860 --> 00:27:28.500 align:middle line:84%
+to the minus 4 copies
+per cell, that's
+
+00:27:28.500 --> 00:27:30.330 align:middle line:84%
+the level at which if
+you look for almost
+
+00:27:30.330 --> 00:27:33.090 align:middle line:84%
+any part of the genome,
+any kind of RNA,
+
+00:27:33.090 --> 00:27:35.010 align:middle line:84%
+even things that
+shouldn't be expressed,
+
+00:27:35.010 --> 00:27:37.530 align:middle line:84%
+you will find them down in
+the minus 4 [? per cell. ?]
+
+00:27:37.530 --> 00:27:39.960 align:middle line:84%
+That probably is not
+biologically significant,
+
+00:27:39.960 --> 00:27:42.870 align:middle line:90%
+but it's a biological fact.
+
+00:27:42.870 --> 00:27:46.920 align:middle line:84%
+Getting down to that level,
+or if you have a mixed tissue
+
+00:27:46.920 --> 00:27:50.730 align:middle line:84%
+and you want to detect 1
+part in 10 to the 10th,
+
+00:27:50.730 --> 00:27:55.540 align:middle line:84%
+you might have 5 times 10 to
+the 5th messenger RNAs per cell.
+
+00:27:55.540 --> 00:27:58.350 align:middle line:84%
+But if you have 10
+to the 5th cells,
+
+00:27:58.350 --> 00:28:02.770 align:middle line:84%
+then a single copy messenger RNA
+would be down to the minus 10.
+
+00:28:02.770 --> 00:28:05.550 align:middle line:84%
+That's feasible with
+reverse transcriptase,
+
+00:28:05.550 --> 00:28:07.680 align:middle line:84%
+quantitative reverse
+transcriptase, [INAUDIBLE]..
+
+00:28:07.680 --> 00:28:12.865 align:middle line:84%
+And it has it is the standard
+which all the others can barely
+
+00:28:12.865 --> 00:28:13.365 align:middle line:90%
+match.
+
+00:28:13.365 --> 00:28:16.640 align:middle line:90%
+
+
+00:28:16.640 --> 00:28:19.490 align:middle line:84%
+Reporter constructs
+are something
+
+00:28:19.490 --> 00:28:22.250 align:middle line:84%
+we do not consider
+generally a high throughput
+
+00:28:22.250 --> 00:28:25.430 align:middle line:84%
+method, although there are
+genomic constructs of reporter
+
+00:28:25.430 --> 00:28:28.310 align:middle line:84%
+constructs for an entire
+genome like yeast.
+
+00:28:28.310 --> 00:28:31.280 align:middle line:84%
+But here, the real
+advantage of that method
+
+00:28:31.280 --> 00:28:33.560 align:middle line:84%
+is there's no worry of
+cross-hybridization.
+
+00:28:33.560 --> 00:28:36.380 align:middle line:84%
+With in-situs, with
+northerns, with arrays,
+
+00:28:36.380 --> 00:28:40.400 align:middle line:84%
+there is a chance that
+if you probe for RNA x,
+
+00:28:40.400 --> 00:28:42.800 align:middle line:84%
+it will happen to
+hybridize, especially
+
+00:28:42.800 --> 00:28:44.690 align:middle line:84%
+if it's present
+in high abundance,
+
+00:28:44.690 --> 00:28:46.970 align:middle line:84%
+it will happen to hybridize
+to one or the other ones.
+
+00:28:46.970 --> 00:28:48.590 align:middle line:84%
+But with a reporter
+construct, we
+
+00:28:48.590 --> 00:28:53.720 align:middle line:84%
+will take a fluorescent protein
+array, a luminescent protein
+
+00:28:53.720 --> 00:28:57.170 align:middle line:84%
+and hook it up to the gene,
+and insist with the gene
+
+00:28:57.170 --> 00:28:59.060 align:middle line:90%
+you're interested in.
+
+00:28:59.060 --> 00:29:01.610 align:middle line:84%
+And that will
+directly or indirectly
+
+00:29:01.610 --> 00:29:06.380 align:middle line:84%
+monitor the expression
+of your favorite gene.
+
+00:29:06.380 --> 00:29:10.370 align:middle line:84%
+That has no possibility
+for cross-hybridization.
+
+00:29:10.370 --> 00:29:13.310 align:middle line:84%
+We've talked about the
+advantages of counting.
+
+00:29:13.310 --> 00:29:16.070 align:middle line:84%
+The disadvantage
+is of course cost.
+
+00:29:16.070 --> 00:29:18.110 align:middle line:84%
+It allows you to
+do gene discovery.
+
+00:29:18.110 --> 00:29:20.810 align:middle line:84%
+It doesn't address
+alternative splicing.
+
+00:29:20.810 --> 00:29:26.800 align:middle line:90%
+
+
+00:29:26.800 --> 00:29:29.470 align:middle line:84%
+Here's an example of comparing
+two of those methods.
+
+00:29:29.470 --> 00:29:32.530 align:middle line:84%
+As microarrays are
+being introduced,
+
+00:29:32.530 --> 00:29:36.940 align:middle line:84%
+one needs to validate them to
+ask whether you're measuring
+
+00:29:36.940 --> 00:29:39.430 align:middle line:84%
+one RNA or multiple
+RNAs of different sizes
+
+00:29:39.430 --> 00:29:42.490 align:middle line:84%
+to ask whether quantifying
+a northern blot
+
+00:29:42.490 --> 00:29:44.680 align:middle line:84%
+correlates with
+quantitating an array.
+
+00:29:44.680 --> 00:29:50.830 align:middle line:84%
+And here, you can see a fairly
+acceptable linear relationship
+
+00:29:50.830 --> 00:29:52.810 align:middle line:84%
+between the two
+quantitative measures.
+
+00:29:52.810 --> 00:29:55.420 align:middle line:84%
+And this has been
+played out many times.
+
+00:29:55.420 --> 00:29:59.830 align:middle line:90%
+
+
+00:29:59.830 --> 00:30:03.550 align:middle line:84%
+The opportunity that you
+have when you make an array,
+
+00:30:03.550 --> 00:30:08.290 align:middle line:84%
+we said that the SAGE and NPSS
+allow you to do discovery.
+
+00:30:08.290 --> 00:30:14.080 align:middle line:84%
+But another way of
+doing it is putting down
+
+00:30:14.080 --> 00:30:16.630 align:middle line:84%
+lots of oligonucleotides,
+even oligonucleotides
+
+00:30:16.630 --> 00:30:19.120 align:middle line:84%
+in regions where your genome
+annotation may not have
+
+00:30:19.120 --> 00:30:20.890 align:middle line:90%
+indicated that there's a gene.
+
+00:30:20.890 --> 00:30:24.430 align:middle line:84%
+So you can see here the
+bottom 60% of this array
+
+00:30:24.430 --> 00:30:27.070 align:middle line:84%
+was in so-called
+non-protein-coding regions.
+
+00:30:27.070 --> 00:30:29.560 align:middle line:84%
+And you can just see what
+you get when you do that.
+
+00:30:29.560 --> 00:30:32.530 align:middle line:84%
+It doesn't cost that much
+more to put down some
+
+00:30:32.530 --> 00:30:34.000 align:middle line:90%
+of these non-coding regions.
+
+00:30:34.000 --> 00:30:39.400 align:middle line:84%
+And you can ask in these
+untranslated regions
+
+00:30:39.400 --> 00:30:42.580 align:middle line:84%
+whether there are maybe
+antisense RNAs that
+
+00:30:42.580 --> 00:30:44.800 align:middle line:84%
+will overlap in the
+translated regions.
+
+00:30:44.800 --> 00:30:47.320 align:middle line:84%
+Or you can look for DNA
+protein interactions
+
+00:30:47.320 --> 00:30:49.070 align:middle line:90%
+in certain kinds of experiments.
+
+00:30:49.070 --> 00:30:50.920 align:middle line:84%
+And you can look for
+RNA fine structure.
+
+00:30:50.920 --> 00:30:52.870 align:middle line:84%
+Where does the
+gene actually end?
+
+00:30:52.870 --> 00:30:55.060 align:middle line:84%
+You may annotate that
+the RNA ends here,
+
+00:30:55.060 --> 00:30:57.620 align:middle line:84%
+but you need ways of
+actually measuring them.
+
+00:30:57.620 --> 00:31:01.390 align:middle line:84%
+So there's a lot of uses
+for nucleic acid probes
+
+00:31:01.390 --> 00:31:05.140 align:middle line:84%
+in so-called non-protein-coding
+regions, which
+
+00:31:05.140 --> 00:31:08.380 align:middle line:84%
+can range from 12% of the
+genome in simple prokaryotes
+
+00:31:08.380 --> 00:31:13.710 align:middle line:84%
+to up to 98% of the
+genome in humans.
+
+00:31:13.710 --> 00:31:17.120 align:middle line:84%
+So what are the sources of
+random systematic errors?
+
+00:31:17.120 --> 00:31:20.240 align:middle line:84%
+We have a secondary
+structure that we
+
+00:31:20.240 --> 00:31:22.670 align:middle line:84%
+talked about at the
+beginning of this lecture.
+
+00:31:22.670 --> 00:31:25.130 align:middle line:84%
+It can cause different
+parts of the array
+
+00:31:25.130 --> 00:31:28.280 align:middle line:84%
+to have different
+hybridization efficiencies.
+
+00:31:28.280 --> 00:31:30.320 align:middle line:84%
+The position on our
+array to have an effect,
+
+00:31:30.320 --> 00:31:34.640 align:middle line:84%
+for example, poor mixing,
+if you're making your array
+
+00:31:34.640 --> 00:31:37.010 align:middle line:84%
+by a non-reproducible
+method, the amount
+
+00:31:37.010 --> 00:31:41.270 align:middle line:84%
+of target nucleic acid
+immobilized on the array
+
+00:31:41.270 --> 00:31:41.930 align:middle line:90%
+can vary.
+
+00:31:41.930 --> 00:31:44.220 align:middle line:84%
+And you need to control
+for that, for example
+
+00:31:44.220 --> 00:31:47.293 align:middle line:90%
+by having an internal standard.
+
+00:31:47.293 --> 00:31:48.710 align:middle line:84%
+Cross-hybridization
+hybridization,
+
+00:31:48.710 --> 00:31:50.900 align:middle line:90%
+we've talked about.
+
+00:31:50.900 --> 00:31:52.430 align:middle line:84%
+The unanticipated
+transcripts, you
+
+00:31:52.430 --> 00:31:54.560 align:middle line:84%
+can handle by
+tiling, by basically
+
+00:31:54.560 --> 00:31:57.450 align:middle line:84%
+putting oligonucleotides
+throughout the genome.
+
+00:31:57.450 --> 00:31:59.930 align:middle line:84%
+So here's an example
+of spatial effects.
+
+00:31:59.930 --> 00:32:04.580 align:middle line:84%
+What you do is spike in
+known amounts of known RNAs
+
+00:32:04.580 --> 00:32:06.980 align:middle line:84%
+which are present
+throughout the array.
+
+00:32:06.980 --> 00:32:10.010 align:middle line:84%
+And so these are internally
+spiked in addition
+
+00:32:10.010 --> 00:32:14.030 align:middle line:84%
+to your unknown fluorescently
+labeled arm probes.
+
+00:32:14.030 --> 00:32:19.240 align:middle line:84%
+And you can ask whether you're
+getting a perfectly uniform,
+
+00:32:19.240 --> 00:32:24.750 align:middle line:84%
+edge-to-edge hybridization
+with the known for the answer.
+
+00:32:24.750 --> 00:32:29.030 align:middle line:84%
+And if you're getting
+peaks and troughs,
+
+00:32:29.030 --> 00:32:31.370 align:middle line:84%
+then you can use these
+internal standards
+
+00:32:31.370 --> 00:32:34.670 align:middle line:84%
+to calibrate that particular
+hybridization experiment
+
+00:32:34.670 --> 00:32:38.065 align:middle line:84%
+and correct for this
+kind of systematic error.
+
+00:32:38.065 --> 00:32:39.440 align:middle line:84%
+This could occur
+again and again.
+
+00:32:39.440 --> 00:32:42.050 align:middle line:84%
+Here's two different experiments
+giving roughly similar edge
+
+00:32:42.050 --> 00:32:43.400 align:middle line:90%
+effects.
+
+00:32:43.400 --> 00:32:45.650 align:middle line:84%
+You need to account
+for these things
+
+00:32:45.650 --> 00:32:48.830 align:middle line:84%
+to avoid that particular
+source of systematic errors,
+
+00:32:48.830 --> 00:32:52.880 align:middle line:84%
+especially if you put all
+of your oligonucleotides
+
+00:32:52.880 --> 00:32:54.620 align:middle line:84%
+for a particular gene
+near one another.
+
+00:32:54.620 --> 00:32:58.550 align:middle line:84%
+A better strategy for
+statistical experimental design
+
+00:32:58.550 --> 00:33:02.640 align:middle line:84%
+is to put your oligos
+randomly throughout the array.
+
+00:33:02.640 --> 00:33:05.420 align:middle line:84%
+Here's another one,
+unanticipated RNAs.
+
+00:33:05.420 --> 00:33:08.570 align:middle line:84%
+Two examples, one an
+open reading frame
+
+00:33:08.570 --> 00:33:10.640 align:middle line:90%
+of unknown function.
+
+00:33:10.640 --> 00:33:12.410 align:middle line:90%
+You can sometimes mis-annotate.
+
+00:33:12.410 --> 00:33:15.500 align:middle line:84%
+If you have two open reading
+frames on opposite strands,
+
+00:33:15.500 --> 00:33:17.970 align:middle line:84%
+it could be one is used,
+generally speaking.
+
+00:33:17.970 --> 00:33:19.160 align:middle line:90%
+One is used and one isn't.
+
+00:33:19.160 --> 00:33:20.270 align:middle line:84%
+And you could pick
+the wrong one.
+
+00:33:20.270 --> 00:33:21.740 align:middle line:84%
+You might pick the
+big one, and it
+
+00:33:21.740 --> 00:33:24.110 align:middle line:84%
+could be the little one is
+the one that's actually used.
+
+00:33:24.110 --> 00:33:26.270 align:middle line:84%
+And that's what
+happened in this case.
+
+00:33:26.270 --> 00:33:28.100 align:middle line:90%
+And another one is--
+
+00:33:28.100 --> 00:33:29.825 align:middle line:90%
+so that was a translated RNA.
+
+00:33:29.825 --> 00:33:32.180 align:middle line:84%
+We just happened to
+pick the wrong strand.
+
+00:33:32.180 --> 00:33:34.910 align:middle line:84%
+Here is an untranslated
+RNA, such as the snow
+
+00:33:34.910 --> 00:33:36.440 align:middle line:90%
+RNAs we saw before.
+
+00:33:36.440 --> 00:33:41.330 align:middle line:84%
+This one is an
+untranslated RNA that
+
+00:33:41.330 --> 00:33:43.565 align:middle line:84%
+was discovered in a
+so-called intergenic region.
+
+00:33:43.565 --> 00:33:49.200 align:middle line:90%
+
+
+00:33:49.200 --> 00:33:53.620 align:middle line:84%
+If you have a statistical
+test for the goodness,
+
+00:33:53.620 --> 00:33:59.970 align:middle line:84%
+the quality of an individual
+oligonucleotide hybridization,
+
+00:33:59.970 --> 00:34:02.190 align:middle line:84%
+based on, say, its
+reproducibility
+
+00:34:02.190 --> 00:34:07.560 align:middle line:84%
+or its relative intensity
+that you expect--
+
+00:34:07.560 --> 00:34:09.690 align:middle line:84%
+if you have 20 different
+oligonucleotides
+
+00:34:09.690 --> 00:34:13.260 align:middle line:84%
+all for one gene, and you
+expect number 1 typically
+
+00:34:13.260 --> 00:34:15.239 align:middle line:84%
+is stronger than
+number 2, and then
+
+00:34:15.239 --> 00:34:18.370 align:middle line:84%
+you find a case where number
+1 is weaker than number 2,
+
+00:34:18.370 --> 00:34:19.860 align:middle line:90%
+then you can flag that.
+
+00:34:19.860 --> 00:34:22.570 align:middle line:84%
+You can say, I don't believe
+that particular spot.
+
+00:34:22.570 --> 00:34:25.060 align:middle line:90%
+And if you color-code them all--
+
+00:34:25.060 --> 00:34:28.920 align:middle line:84%
+see, here is white
+spots, things that
+
+00:34:28.920 --> 00:34:33.034 align:middle line:84%
+don't fit your statistical model
+for the array hybridization.
+
+00:34:33.034 --> 00:34:35.159 align:middle line:84%
+This is the advantage of
+having a statistical model
+
+00:34:35.159 --> 00:34:37.710 align:middle line:90%
+of the entire process.
+
+00:34:37.710 --> 00:34:40.500 align:middle line:84%
+Then you can mark
+those as white,
+
+00:34:40.500 --> 00:34:42.090 align:middle line:84%
+and you can look
+to see whether they
+
+00:34:42.090 --> 00:34:47.159 align:middle line:84%
+have a [? statistically ?]
+significant spatial
+
+00:34:47.159 --> 00:34:48.909 align:middle line:84%
+distribution, which
+they do in this case.
+
+00:34:48.909 --> 00:34:50.820 align:middle line:84%
+They all seem to be
+clumping at this corner.
+
+00:34:50.820 --> 00:34:52.790 align:middle line:90%
+Now, what could cause that?
+
+00:34:52.790 --> 00:34:54.540 align:middle line:84%
+Well, we've already
+illustrated that there
+
+00:34:54.540 --> 00:34:58.200 align:middle line:84%
+are ways that you can
+use internal standards
+
+00:34:58.200 --> 00:34:59.040 align:middle line:90%
+to calibrate.
+
+00:34:59.040 --> 00:35:03.660 align:middle line:84%
+This was not a case where we had
+poor hybridization efficiency
+
+00:35:03.660 --> 00:35:06.280 align:middle line:84%
+or strong hybridization
+efficiency around the edges.
+
+00:35:06.280 --> 00:35:09.480 align:middle line:84%
+This was something where
+the alignment of the grid
+
+00:35:09.480 --> 00:35:12.390 align:middle line:84%
+is done by these little
+squares along the edge,
+
+00:35:12.390 --> 00:35:14.940 align:middle line:84%
+and the computer
+algorithm that finds
+
+00:35:14.940 --> 00:35:18.600 align:middle line:84%
+these spots was distracted
+by this little spot
+
+00:35:18.600 --> 00:35:21.540 align:middle line:84%
+off the side, which is not
+part of the checkerboard.
+
+00:35:21.540 --> 00:35:26.940 align:middle line:84%
+And once you manually correct
+that error, now you snap in.
+
+00:35:26.940 --> 00:35:29.550 align:middle line:84%
+On the right-hand
+side of slide 43
+
+00:35:29.550 --> 00:35:34.950 align:middle line:84%
+is now the statistical
+model of this after getting
+
+00:35:34.950 --> 00:35:36.600 align:middle line:90%
+the alignment right.
+
+00:35:36.600 --> 00:35:40.650 align:middle line:84%
+Here, you had been
+associating the wrong oligos
+
+00:35:40.650 --> 00:35:42.290 align:middle line:90%
+with a particular signal.
+
+00:35:42.290 --> 00:35:43.290 align:middle line:90%
+It didn't fit the model.
+
+00:35:43.290 --> 00:35:46.470 align:middle line:84%
+Now it fits the model, and you
+see the little scattered strips
+
+00:35:46.470 --> 00:35:50.190 align:middle line:84%
+of gray where you have
+individual genes which
+
+00:35:50.190 --> 00:35:54.300 align:middle line:84%
+are misbehaving, rather than
+the entire corner of the array.
+
+00:35:54.300 --> 00:35:56.910 align:middle line:84%
+OK, so now we get the very
+interesting interpretation
+
+00:35:56.910 --> 00:36:03.470 align:middle line:84%
+issues where we're using the
+same kind of information.
+
+00:36:03.470 --> 00:36:07.370 align:middle line:84%
+Once you have a model, a
+very sophisticated model
+
+00:36:07.370 --> 00:36:10.250 align:middle line:84%
+of how the individual
+oligos in the array
+
+00:36:10.250 --> 00:36:14.960 align:middle line:84%
+behave, here, what we do
+is we take genomic DNA
+
+00:36:14.960 --> 00:36:20.090 align:middle line:84%
+as an example of a fairly
+equimolar calibration standard.
+
+00:36:20.090 --> 00:36:22.520 align:middle line:84%
+If you take genomic
+DNA and label it,
+
+00:36:22.520 --> 00:36:25.340 align:middle line:84%
+you expect every
+segment in the genome
+
+00:36:25.340 --> 00:36:28.460 align:middle line:84%
+to be present at
+the same molarity,
+
+00:36:28.460 --> 00:36:32.180 align:middle line:84%
+with the exception of repetitive
+elements, which we'll put aside
+
+00:36:32.180 --> 00:36:33.180 align:middle line:90%
+for the moment.
+
+00:36:33.180 --> 00:36:36.650 align:middle line:84%
+And so that means that
+any place, that is,
+
+00:36:36.650 --> 00:36:39.410 align:middle line:84%
+any oligonucleotide
+that doesn't hybridize
+
+00:36:39.410 --> 00:36:41.660 align:middle line:84%
+with the genomic DNA,
+such as these ones that go
+
+00:36:41.660 --> 00:36:44.240 align:middle line:90%
+close to baseline here at 0--
+
+00:36:44.240 --> 00:36:47.120 align:middle line:84%
+remember this is perfect
+mass versus [? mismatch ?]
+
+00:36:47.120 --> 00:36:49.250 align:middle line:90%
+that we're plotting on this.
+
+00:36:49.250 --> 00:36:52.220 align:middle line:84%
+When you get close to 0 for
+the genomic DNA in black,
+
+00:36:52.220 --> 00:36:54.650 align:middle line:84%
+that means that really
+doesn't hybridize well.
+
+00:36:54.650 --> 00:36:56.610 align:middle line:84%
+It's not that it's
+missing from the genome.
+
+00:36:56.610 --> 00:36:59.542 align:middle line:84%
+It's that it has some
+secondary structure.
+
+00:36:59.542 --> 00:37:01.250 align:middle line:84%
+So this is the secondary
+structure that's
+
+00:37:01.250 --> 00:37:03.710 align:middle line:90%
+been a theme for this plot.
+
+00:37:03.710 --> 00:37:09.680 align:middle line:84%
+And that sort of
+secondary structure
+
+00:37:09.680 --> 00:37:13.070 align:middle line:84%
+is actually a piece of data
+that you can do data mining on.
+
+00:37:13.070 --> 00:37:15.270 align:middle line:84%
+You can go through
+the entire genome
+
+00:37:15.270 --> 00:37:17.567 align:middle line:84%
+and you can look for
+secondary structures.
+
+00:37:17.567 --> 00:37:18.650 align:middle line:90%
+And you can ask for those.
+
+00:37:18.650 --> 00:37:22.760 align:middle line:84%
+Secondary structures depend
+on what part of the genome
+
+00:37:22.760 --> 00:37:23.870 align:middle line:90%
+is transcribed.
+
+00:37:23.870 --> 00:37:25.590 align:middle line:90%
+Now, here is a messenger RNA.
+
+00:37:25.590 --> 00:37:27.770 align:middle line:84%
+This is one of the
+few messenger RNAs
+
+00:37:27.770 --> 00:37:30.470 align:middle line:84%
+for which you have a
+plausible secondary structure.
+
+00:37:30.470 --> 00:37:33.200 align:middle line:84%
+Most secondary structures
+are on structural RNAs
+
+00:37:33.200 --> 00:37:35.780 align:middle line:84%
+or enzyme-related RNAs,
+the ribosomal RNAs,
+
+00:37:35.780 --> 00:37:37.080 align:middle line:90%
+[INAUDIBLE] RNAs, and so forth.
+
+00:37:37.080 --> 00:37:41.270 align:middle line:84%
+This is the messenger RNA
+for this gene product, LTT.
+
+00:37:41.270 --> 00:37:45.770 align:middle line:84%
+And if you look where
+this black arrow is
+
+00:37:45.770 --> 00:37:50.330 align:middle line:84%
+coming from the right-hand
+0 you'll see a long helix.
+
+00:37:50.330 --> 00:37:53.600 align:middle line:84%
+And that helix is at the 3'
+end of the messenger RNA,
+
+00:37:53.600 --> 00:37:57.110 align:middle line:84%
+and it's very well characterized
+both structurally and
+
+00:37:57.110 --> 00:37:57.920 align:middle line:90%
+functionally.
+
+00:37:57.920 --> 00:38:01.940 align:middle line:84%
+And it's known to be
+involved in at least one
+
+00:38:01.940 --> 00:38:03.530 align:middle line:84%
+important biological
+process, which
+
+00:38:03.530 --> 00:38:05.330 align:middle line:84%
+is the termination
+of transcription.
+
+00:38:05.330 --> 00:38:07.850 align:middle line:84%
+When you get close to
+the end of the RNA,
+
+00:38:07.850 --> 00:38:09.920 align:middle line:84%
+that [? pair ?] can reform,
+and it sends a signal
+
+00:38:09.920 --> 00:38:13.040 align:middle line:84%
+to the transcription
+apparatus to stop.
+
+00:38:13.040 --> 00:38:15.710 align:middle line:84%
+So that is a believable
+hairpin of known function.
+
+00:38:15.710 --> 00:38:19.400 align:middle line:84%
+And the interesting
+feature of this microarray
+
+00:38:19.400 --> 00:38:21.410 align:middle line:84%
+is that's one of
+the places where
+
+00:38:21.410 --> 00:38:24.950 align:middle line:84%
+both the genomic DNA in
+black and two completely
+
+00:38:24.950 --> 00:38:27.770 align:middle line:84%
+different RNA samples
+fail to hybridize,
+
+00:38:27.770 --> 00:38:34.070 align:middle line:84%
+consistent with it being a very
+strong hairpin with a dozen
+
+00:38:34.070 --> 00:38:37.190 align:middle line:90%
+G, C and A base pairs.
+
+00:38:37.190 --> 00:38:40.370 align:middle line:84%
+Another thing you can derive
+from this detailed model
+
+00:38:40.370 --> 00:38:43.640 align:middle line:84%
+of the array, here, you have
+60 different oligonucleotides
+
+00:38:43.640 --> 00:38:46.895 align:middle line:84%
+along the gene and adjacent
+intergenic regions.
+
+00:38:46.895 --> 00:38:50.540 align:middle line:84%
+The question is, where does
+the RNA transcription stop.
+
+00:38:50.540 --> 00:38:57.270 align:middle line:84%
+Well, if you look in the places
+where the DNA control is high,
+
+00:38:57.270 --> 00:39:01.880 align:middle line:84%
+you'll find the RNA is high,
+going from right to left.
+
+00:39:01.880 --> 00:39:03.170 align:middle line:90%
+The RNA tracks the DNA.
+
+00:39:03.170 --> 00:39:05.600 align:middle line:84%
+The red and blue
+tracks the black
+
+00:39:05.600 --> 00:39:09.410 align:middle line:90%
+until you get to position -33.
+
+00:39:09.410 --> 00:39:14.360 align:middle line:84%
+And there, the red and blue
+drop to baseline, and the Black
+
+00:39:14.360 --> 00:39:17.870 align:middle line:84%
+stays going up and
+down at a higher level.
+
+00:39:17.870 --> 00:39:21.170 align:middle line:84%
+And that happens to coincide
+with the known transcriptional
+
+00:39:21.170 --> 00:39:21.710 align:middle line:90%
+start.
+
+00:39:21.710 --> 00:39:23.720 align:middle line:84%
+And so that would be
+another way of mapping
+
+00:39:23.720 --> 00:39:25.580 align:middle line:90%
+the transcriptional start.
+
+00:39:25.580 --> 00:39:31.310 align:middle line:84%
+You'll notice that some of
+the hybridization intentially
+
+00:39:31.310 --> 00:39:32.360 align:middle line:90%
+drops below 0.
+
+00:39:32.360 --> 00:39:37.430 align:middle line:84%
+This is just an artifact
+of having the perfect match
+
+00:39:37.430 --> 00:39:38.630 align:middle line:90%
+minus the mismatch.
+
+00:39:38.630 --> 00:39:43.100 align:middle line:84%
+If it happens to be the case
+that your mismatch control is
+
+00:39:43.100 --> 00:39:46.190 align:middle line:84%
+cross-reacting with
+some other DNA,
+
+00:39:46.190 --> 00:39:48.830 align:middle line:84%
+say repetitive DNA
+in the genome or RNA,
+
+00:39:48.830 --> 00:39:53.190 align:middle line:84%
+then it can get actually more
+intense than the perfect match.
+
+00:39:53.190 --> 00:39:54.830 align:middle line:84%
+And so you can get
+a negative value.
+
+00:39:54.830 --> 00:39:58.760 align:middle line:84%
+But otherwise, the negative
+intensity would be meaningless.
+
+00:39:58.760 --> 00:40:01.520 align:middle line:90%
+Now, splice domains.
+
+00:40:01.520 --> 00:40:04.800 align:middle line:84%
+In principle, you can go
+through the whole human genome
+
+00:40:04.800 --> 00:40:06.920 align:middle line:84%
+and you predict where
+all the exons are,
+
+00:40:06.920 --> 00:40:09.530 align:middle line:84%
+where all the splice junctions
+are, and in principle, even all
+
+00:40:09.530 --> 00:40:10.640 align:middle line:90%
+the alternative splicing.
+
+00:40:10.640 --> 00:40:13.110 align:middle line:90%
+In practice, is not that easy.
+
+00:40:13.110 --> 00:40:16.670 align:middle line:84%
+And you can use all the
+hidden Markov models
+
+00:40:16.670 --> 00:40:18.200 align:middle line:84%
+and so forth we've
+been developing.
+
+00:40:18.200 --> 00:40:20.450 align:middle line:84%
+You can do
+multi-sequence alignments
+
+00:40:20.450 --> 00:40:24.710 align:middle line:84%
+to get these motifs here,
+where two bits is a full scale.
+
+00:40:24.710 --> 00:40:27.200 align:middle line:84%
+And you can find
+donors and acceptors
+
+00:40:27.200 --> 00:40:30.560 align:middle line:84%
+in this kind of pattern,
+GT donor, AG acceptor.
+
+00:40:30.560 --> 00:40:32.600 align:middle line:84%
+But when you come
+right down to it,
+
+00:40:32.600 --> 00:40:35.900 align:middle line:84%
+you want to have some way of
+going through this empirically
+
+00:40:35.900 --> 00:40:37.650 align:middle line:90%
+as well.
+
+00:40:37.650 --> 00:40:44.315 align:middle line:84%
+And so what you can do is you
+can basically ignore or look
+
+00:40:44.315 --> 00:40:48.290 align:middle line:84%
+sort of independently,
+do a tiling of the genome
+
+00:40:48.290 --> 00:40:53.875 align:middle line:84%
+with oligonucleotides, as was
+done here by Shoemaker et al.
+
+00:40:53.875 --> 00:40:56.000 align:middle line:84%
+And this was, I think, one
+of the nicer papers that
+
+00:40:56.000 --> 00:41:03.400 align:middle line:84%
+came out in the Nature issue
+on the human genome [INAUDIBLE]
+
+00:41:03.400 --> 00:41:04.360 align:middle line:90%
+sequence.
+
+00:41:04.360 --> 00:41:06.820 align:middle line:84%
+Here, as the sequence
+was coming out,
+
+00:41:06.820 --> 00:41:08.890 align:middle line:84%
+chromosome 22 was one
+of the first chromosomes
+
+00:41:08.890 --> 00:41:11.980 align:middle line:90%
+nearly completed.
+
+00:41:11.980 --> 00:41:17.380 align:middle line:84%
+At the top of slide 47, you see
+how the metaphase chromosome
+
+00:41:17.380 --> 00:41:19.990 align:middle line:90%
+is banded and labeled.
+
+00:41:19.990 --> 00:41:22.540 align:middle line:84%
+If you take a little
+[? 113-kit ?] kilobase chunk
+
+00:41:22.540 --> 00:41:24.490 align:middle line:84%
+of that, it's the
+next line down.
+
+00:41:24.490 --> 00:41:26.980 align:middle line:84%
+Then you blow that
+up further, and all
+
+00:41:26.980 --> 00:41:29.320 align:middle line:84%
+the way down to
+oligonucleotide 60-mers,
+
+00:41:29.320 --> 00:41:32.590 align:middle line:84%
+tiled every 10 base
+pairs as a starting point
+
+00:41:32.590 --> 00:41:36.980 align:middle line:84%
+all the way along this
+100-kilobit chromosome 22.
+
+00:41:36.980 --> 00:41:39.130 align:middle line:84%
+And then you
+hybridize it with RNAs
+
+00:41:39.130 --> 00:41:41.230 align:middle line:84%
+from a variety of
+different human tissues.
+
+00:41:41.230 --> 00:41:45.410 align:middle line:84%
+Then you ask, in
+the vertical axis,
+
+00:41:45.410 --> 00:41:48.160 align:middle line:84%
+what is the log of a
+normalized signal intensity
+
+00:41:48.160 --> 00:41:50.200 align:middle line:90%
+for these various RNAs.
+
+00:41:50.200 --> 00:41:51.970 align:middle line:84%
+And you'll get a
+little histogram here,
+
+00:41:51.970 --> 00:41:55.420 align:middle line:84%
+where purple spike means
+there's a lot of hybridization
+
+00:41:55.420 --> 00:41:57.250 align:middle line:84%
+under at least some
+of the conditions.
+
+00:41:57.250 --> 00:41:59.320 align:middle line:84%
+And then there'll be a
+zone where there's almost
+
+00:41:59.320 --> 00:42:00.280 align:middle line:90%
+no hybridization.
+
+00:42:00.280 --> 00:42:04.180 align:middle line:84%
+And that's because those
+introns that we had,
+
+00:42:04.180 --> 00:42:08.120 align:middle line:84%
+that we showed in the previous
+slide, are spliced out,
+
+00:42:08.120 --> 00:42:10.150 align:middle line:90%
+and they're in low abundance.
+
+00:42:10.150 --> 00:42:11.650 align:middle line:84%
+They're displaced
+out of the nucleus
+
+00:42:11.650 --> 00:42:13.543 align:middle line:84%
+before the RNAs
+accumulate, so they
+
+00:42:13.543 --> 00:42:14.710 align:middle line:90%
+tend to be in low abundance.
+
+00:42:14.710 --> 00:42:18.040 align:middle line:84%
+And they're not found in
+the mature messenger RNA.
+
+00:42:18.040 --> 00:42:20.890 align:middle line:84%
+And so when you label
+these up, you're
+
+00:42:20.890 --> 00:42:23.380 align:middle line:84%
+selectively labeling
+the exons in [? CNA. ?]
+
+00:42:23.380 --> 00:42:26.260 align:middle line:84%
+And if you can see,
+they coincide well
+
+00:42:26.260 --> 00:42:29.115 align:middle line:84%
+with the little green
+exons in the annotation,
+
+00:42:29.115 --> 00:42:30.490 align:middle line:84%
+except every now
+and then, you'll
+
+00:42:30.490 --> 00:42:34.000 align:middle line:84%
+find something-- here's
+a case for exon 3
+
+00:42:34.000 --> 00:42:38.230 align:middle line:84%
+where the green annotation
+in the original sequence
+
+00:42:38.230 --> 00:42:39.550 align:middle line:90%
+is too short.
+
+00:42:39.550 --> 00:42:42.970 align:middle line:84%
+And here's a blow-up near the
+bottom where the purple region
+
+00:42:42.970 --> 00:42:46.360 align:middle line:84%
+clearly extends beyond the green
+annotation in the [INAUDIBLE]
+
+00:42:46.360 --> 00:42:49.750 align:middle line:84%
+from sequence algorithm,
+sequence analysis
+
+00:42:49.750 --> 00:42:51.910 align:middle line:84%
+algorithm, where 102
+base pairs should
+
+00:42:51.910 --> 00:42:54.880 align:middle line:84%
+be extended five times
+to that exon to make it
+
+00:42:54.880 --> 00:42:58.150 align:middle line:90%
+a slightly larger exon.
+
+00:42:58.150 --> 00:43:00.320 align:middle line:84%
+But when you extend
+it by that, you ask,
+
+00:43:00.320 --> 00:43:02.117 align:middle line:84%
+well, does it still
+have the splice site,
+
+00:43:02.117 --> 00:43:04.450 align:middle line:84%
+or does it have a new splice
+site that we can recognize.
+
+00:43:04.450 --> 00:43:05.492 align:middle line:90%
+And sure enough, it does.
+
+00:43:05.492 --> 00:43:08.740 align:middle line:84%
+It has an AG and a fairly
+good match to the motif
+
+00:43:08.740 --> 00:43:11.320 align:middle line:90%
+we had in the previous slide.
+
+00:43:11.320 --> 00:43:15.700 align:middle line:84%
+And you can see that the purple
+intensity drops close to 0
+
+00:43:15.700 --> 00:43:19.750 align:middle line:84%
+here as soon as you get out
+of the exon as now properly
+
+00:43:19.750 --> 00:43:20.780 align:middle line:90%
+defined.
+
+00:43:20.780 --> 00:43:25.570 align:middle line:84%
+So this is a way of including
+additional data in addition
+
+00:43:25.570 --> 00:43:31.210 align:middle line:84%
+to the sequence by tiling and
+by quantitative hybridization.
+
+00:43:31.210 --> 00:43:34.210 align:middle line:90%
+
+
+00:43:34.210 --> 00:43:36.660 align:middle line:84%
+Now, the last topic
+today is time series.
+
+00:43:36.660 --> 00:43:39.300 align:middle line:84%
+This connects the
+quantitative data
+
+00:43:39.300 --> 00:43:43.410 align:middle line:84%
+that we're collecting, where
+you're not just collecting
+
+00:43:43.410 --> 00:43:45.540 align:middle line:84%
+an isolated condition
+and comparing
+
+00:43:45.540 --> 00:43:48.510 align:middle line:90%
+it some other condition.
+
+00:43:48.510 --> 00:43:51.000 align:middle line:84%
+It actually matters the order
+of the different conditions
+
+00:43:51.000 --> 00:43:51.750 align:middle line:90%
+that you have.
+
+00:43:51.750 --> 00:43:56.400 align:middle line:84%
+And this is a great advantage
+in analyzing causality,
+
+00:43:56.400 --> 00:44:02.910 align:middle line:84%
+and we'll illustrate it in the
+context of messenger RNA decay,
+
+00:44:02.910 --> 00:44:07.620 align:middle line:84%
+and finally in ways of aligning
+different time series data.
+
+00:44:07.620 --> 00:44:09.900 align:middle line:84%
+Now, why do we want
+time [? courses? ?]
+
+00:44:09.900 --> 00:44:14.130 align:middle line:84%
+If we do a gene knockout or we
+do a gene deletion, by the time
+
+00:44:14.130 --> 00:44:18.490 align:middle line:84%
+you isolate that mutant and
+characterize and do the RNA,
+
+00:44:18.490 --> 00:44:21.240 align:middle line:84%
+you've now gotten not
+just the primary effects,
+
+00:44:21.240 --> 00:44:25.500 align:middle line:84%
+but all the downstream
+effects of that knockout.
+
+00:44:25.500 --> 00:44:27.360 align:middle line:84%
+So the best would
+be to have some kind
+
+00:44:27.360 --> 00:44:30.910 align:middle line:84%
+of conditional control
+of the transcription,
+
+00:44:30.910 --> 00:44:34.890 align:middle line:84%
+so that when you first either
+turn it on or turn it off,
+
+00:44:34.890 --> 00:44:40.800 align:middle line:84%
+the first events that occur are
+likely to be primary events.
+
+00:44:40.800 --> 00:44:44.470 align:middle line:84%
+Now, the way that you
+control that needs to be,
+
+00:44:44.470 --> 00:44:48.690 align:middle line:84%
+not have too many perturbing
+forces on the whole system.
+
+00:44:48.690 --> 00:44:53.730 align:middle line:84%
+So temperature shift, it's an
+easy class of mutation to get,
+
+00:44:53.730 --> 00:44:57.840 align:middle line:84%
+but it's not suitable because
+there's a huge temperature
+
+00:44:57.840 --> 00:44:59.550 align:middle line:90%
+effect on the entire system.
+
+00:44:59.550 --> 00:45:02.760 align:middle line:84%
+Chemical knockouts
+can be more specific,
+
+00:45:02.760 --> 00:45:05.430 align:middle line:90%
+but you need to prove that.
+
+00:45:05.430 --> 00:45:10.980 align:middle line:84%
+An example of a fairly
+time-honored chemical knockout
+
+00:45:10.980 --> 00:45:14.760 align:middle line:84%
+is rifampicin, which
+fairly specifically affects
+
+00:45:14.760 --> 00:45:18.670 align:middle line:90%
+just the RNA polymerase.
+
+00:45:18.670 --> 00:45:22.800 align:middle line:84%
+And so this is an
+interesting case,
+
+00:45:22.800 --> 00:45:29.770 align:middle line:84%
+where the effect is to stop
+initiation of transcription.
+
+00:45:29.770 --> 00:45:32.640 align:middle line:84%
+And so then, as we do our
+time series, what we see
+
+00:45:32.640 --> 00:45:39.120 align:middle line:84%
+is the RNAs for LPP, which
+we showed a few slides ago,
+
+00:45:39.120 --> 00:45:40.120 align:middle line:90%
+is very stable.
+
+00:45:40.120 --> 00:45:43.680 align:middle line:84%
+It basically lasts
+longer than the lifetime,
+
+00:45:43.680 --> 00:45:48.000 align:middle line:84%
+the doubling time of the cell,
+possibly many cell generations.
+
+00:45:48.000 --> 00:45:53.130 align:middle line:84%
+And other RNAs, such as CSPE,
+have extremely short half-lives
+
+00:45:53.130 --> 00:45:55.170 align:middle line:84%
+in the order of 2
+and 1/2 minutes.
+
+00:45:55.170 --> 00:45:58.545 align:middle line:84%
+And you can compare various
+methods for quantitation.
+
+00:45:58.545 --> 00:46:02.760 align:middle line:84%
+Then you've come up with
+different half-lives here.
+
+00:46:02.760 --> 00:46:06.540 align:middle line:90%
+
+
+00:46:06.540 --> 00:46:10.440 align:middle line:84%
+OK, so that's an example
+of a very significant class
+
+00:46:10.440 --> 00:46:16.530 align:middle line:84%
+of chemically
+manipulated knockouts.
+
+00:46:16.530 --> 00:46:18.810 align:middle line:90%
+So you can precisely phase them.
+
+00:46:18.810 --> 00:46:21.420 align:middle line:84%
+You have very few
+other consequences,
+
+00:46:21.420 --> 00:46:23.430 align:middle line:84%
+and then you can
+measure a time series.
+
+00:46:23.430 --> 00:46:26.160 align:middle line:84%
+It'd be nice to be able to do
+that for any particular RNA
+
+00:46:26.160 --> 00:46:28.650 align:middle line:84%
+and see what the downstream
+consequences are.
+
+00:46:28.650 --> 00:46:31.140 align:middle line:84%
+Now, whenever you do
+a perturbation where
+
+00:46:31.140 --> 00:46:32.700 align:middle line:84%
+you have two time
+series, you want
+
+00:46:32.700 --> 00:46:39.570 align:middle line:84%
+to know how all
+the RNAs occurred
+
+00:46:39.570 --> 00:46:44.310 align:middle line:84%
+during heat shock or some
+other pulse of some chemical
+
+00:46:44.310 --> 00:46:47.940 align:middle line:84%
+relative to pulse of a different
+chemical, or the time series
+
+00:46:47.940 --> 00:46:49.905 align:middle line:84%
+as it would have
+occurred without any.
+
+00:46:49.905 --> 00:46:53.640 align:middle line:84%
+You can see how they
+won't necessarily
+
+00:46:53.640 --> 00:46:55.200 align:middle line:90%
+align up point by point.
+
+00:46:55.200 --> 00:46:56.698 align:middle line:84%
+You can't just
+start them at time 0
+
+00:46:56.698 --> 00:46:57.990 align:middle line:90%
+and expect them all to line up.
+
+00:46:57.990 --> 00:46:59.948 align:middle line:84%
+In fact, you can't even
+expect them necessarily
+
+00:46:59.948 --> 00:47:02.070 align:middle line:84%
+to line up where you
+have a uniform stretch.
+
+00:47:02.070 --> 00:47:05.490 align:middle line:84%
+You might have to have piecewise
+stretch, where certain parts go
+
+00:47:05.490 --> 00:47:06.730 align:middle line:90%
+faster than others.
+
+00:47:06.730 --> 00:47:09.750 align:middle line:84%
+Now, this may hopefully
+click in your mind
+
+00:47:09.750 --> 00:47:11.910 align:middle line:84%
+a connection to the
+dynamic programming, where
+
+00:47:11.910 --> 00:47:15.870 align:middle line:84%
+we had two sequences of
+bases or amino acids.
+
+00:47:15.870 --> 00:47:17.730 align:middle line:84%
+And you wanted to
+expand or contract
+
+00:47:17.730 --> 00:47:24.450 align:middle line:84%
+different sections of those
+by inserting a placeholder.
+
+00:47:24.450 --> 00:47:26.850 align:middle line:84%
+Well, it doesn't make
+quite as much sense here
+
+00:47:26.850 --> 00:47:29.400 align:middle line:84%
+with time series to
+insert a placeholder.
+
+00:47:29.400 --> 00:47:31.030 align:middle line:90%
+So you can do that.
+
+00:47:31.030 --> 00:47:33.720 align:middle line:84%
+You can have a
+discrete block diagram.
+
+00:47:33.720 --> 00:47:40.350 align:middle line:84%
+Just this, here's series A
+and B in middle upper diagram.
+
+00:47:40.350 --> 00:47:43.080 align:middle line:84%
+Or you can have a more
+continuous function,
+
+00:47:43.080 --> 00:47:46.650 align:middle line:84%
+where you've tried to
+more smoothly warp.
+
+00:47:46.650 --> 00:47:49.230 align:middle line:84%
+Both of these are dynamic
+programming algorithms.
+
+00:47:49.230 --> 00:47:52.770 align:middle line:84%
+The smooth warping is slightly
+more a little more complicated.
+
+00:47:52.770 --> 00:47:54.960 align:middle line:84%
+The insertion deletion
+one is exactly
+
+00:47:54.960 --> 00:47:57.240 align:middle line:84%
+the same three conditions
+that we went through
+
+00:47:57.240 --> 00:48:01.730 align:middle line:84%
+for pairwise alignments
+in dynamic programming.
+
+00:48:01.730 --> 00:48:09.440 align:middle line:84%
+But this is partly to drive
+home how many different ways you
+
+00:48:09.440 --> 00:48:11.060 align:middle line:90%
+can use dynamic programming.
+
+00:48:11.060 --> 00:48:14.570 align:middle line:84%
+You can use it in HMMs, which is
+that multi-sequence alignment,
+
+00:48:14.570 --> 00:48:17.360 align:middle line:84%
+and now for time series
+and gene expression.
+
+00:48:17.360 --> 00:48:23.360 align:middle line:84%
+And you can see, from the
+literature on cell cycle,
+
+00:48:23.360 --> 00:48:25.760 align:middle line:84%
+almost all of the
+data time series
+
+00:48:25.760 --> 00:48:29.000 align:middle line:84%
+that we have so far actually
+don't align perfectly point
+
+00:48:29.000 --> 00:48:31.700 align:middle line:84%
+by point, because you use
+wildly physiologically
+
+00:48:31.700 --> 00:48:36.080 align:middle line:84%
+different conditions to get
+cells to synchronize, say,
+
+00:48:36.080 --> 00:48:41.300 align:middle line:84%
+for cell division, or to start
+an event here using a mating
+
+00:48:41.300 --> 00:48:44.120 align:middle line:84%
+pheromone, a small
+peptide that's
+
+00:48:44.120 --> 00:48:48.260 align:middle line:84%
+released in the media that
+kind of controls the cell cycle
+
+00:48:48.260 --> 00:48:50.930 align:middle line:84%
+and allows you to arrest and
+then release from arrest,
+
+00:48:50.930 --> 00:48:52.640 align:middle line:84%
+or a temperature-sensitive
+mutant,
+
+00:48:52.640 --> 00:48:54.410 align:middle line:84%
+even though I malign
+temperature-sensitive
+
+00:48:54.410 --> 00:48:55.590 align:middle line:90%
+in just a moment.
+
+00:48:55.590 --> 00:48:58.910 align:middle line:84%
+It is one of the most
+precise ways of getting
+
+00:48:58.910 --> 00:49:01.730 align:middle line:90%
+synchrony of cell division.
+
+00:49:01.730 --> 00:49:05.612 align:middle line:84%
+Cell division is a particularly
+good illustrative notion,
+
+00:49:05.612 --> 00:49:07.820 align:middle line:84%
+partly because we mentioned
+it earlier in the course.
+
+00:49:07.820 --> 00:49:11.030 align:middle line:84%
+But also, if you think of
+any dividing set of cells,
+
+00:49:11.030 --> 00:49:13.070 align:middle line:84%
+many of the cell types
+that you'd be interested
+
+00:49:13.070 --> 00:49:19.670 align:middle line:84%
+are dividing-- stem cells,
+microbial cells and so on.
+
+00:49:19.670 --> 00:49:23.400 align:middle line:84%
+That automatically is
+a mixture of cells.
+
+00:49:23.400 --> 00:49:25.972 align:middle line:84%
+If you mush them
+up and extract RNA,
+
+00:49:25.972 --> 00:49:27.680 align:middle line:84%
+you're kidding yourself
+if you think this
+
+00:49:27.680 --> 00:49:29.300 align:middle line:90%
+was a homogeneous population.
+
+00:49:29.300 --> 00:49:35.040 align:middle line:84%
+If on the other hand, you
+synchronize the cells,
+
+00:49:35.040 --> 00:49:39.150 align:middle line:84%
+then you've removed one major
+variable that could confound.
+
+00:49:39.150 --> 00:49:42.750 align:middle line:84%
+Now they are much
+more homogeneous cells
+
+00:49:42.750 --> 00:49:44.820 align:middle line:84%
+that are in the same
+state, and the cell cycle
+
+00:49:44.820 --> 00:49:47.607 align:middle line:84%
+can be synchronously
+isolated as a population.
+
+00:49:47.607 --> 00:49:49.440 align:middle line:84%
+There may be other
+sources of heterogeneity,
+
+00:49:49.440 --> 00:49:51.090 align:middle line:90%
+but you've eliminated a big one.
+
+00:49:51.090 --> 00:49:53.850 align:middle line:84%
+In any case, you take
+these two data series.
+
+00:49:53.850 --> 00:49:57.120 align:middle line:84%
+They have different time
+constants, different lengths,
+
+00:49:57.120 --> 00:49:58.470 align:middle line:90%
+and even different warps.
+
+00:49:58.470 --> 00:50:01.350 align:middle line:84%
+Now, you want to take the
+x's and superimpose them
+
+00:50:01.350 --> 00:50:02.790 align:middle line:90%
+on the o's.
+
+00:50:02.790 --> 00:50:05.040 align:middle line:84%
+And here's an
+example of that now.
+
+00:50:05.040 --> 00:50:07.788 align:middle line:84%
+They're both put
+together, and even
+
+00:50:07.788 --> 00:50:09.330 align:middle line:84%
+though there may be
+little deviations
+
+00:50:09.330 --> 00:50:11.220 align:middle line:84%
+for any particular
+gene, when you
+
+00:50:11.220 --> 00:50:14.040 align:middle line:84%
+talk about the thousands
+of different genes, very
+
+00:50:14.040 --> 00:50:15.000 align:middle line:90%
+rich pattern.
+
+00:50:15.000 --> 00:50:20.430 align:middle line:84%
+Lots of information, plenty of
+opportunity for smoothing out
+
+00:50:20.430 --> 00:50:21.420 align:middle line:90%
+individual variations.
+
+00:50:21.420 --> 00:50:24.000 align:middle line:84%
+But here, you get
+superimposed patterns.
+
+00:50:24.000 --> 00:50:26.520 align:middle line:84%
+And here's the traceback
+that tells you exactly where
+
+00:50:26.520 --> 00:50:31.020 align:middle line:84%
+the insertions and deletions
+or smooth warping might occur
+
+00:50:31.020 --> 00:50:35.530 align:middle line:84%
+to align these two different
+cell cycles' data sets.
+
+00:50:35.530 --> 00:50:40.530 align:middle line:84%
+So in summary, we've connected
+the multi-sequence alignments
+
+00:50:40.530 --> 00:50:46.470 align:middle line:84%
+from last class to allow
+you to model RNA structure,
+
+00:50:46.470 --> 00:50:48.360 align:middle line:84%
+how RNA structure
+helps you model it.
+
+00:50:48.360 --> 00:50:52.740 align:middle line:84%
+An interesting class
+of RNA guide sequences
+
+00:50:52.740 --> 00:50:56.310 align:middle line:84%
+involved in methylation
+as an illustration
+
+00:50:56.310 --> 00:50:59.430 align:middle line:84%
+of finding genes that
+don't encode proteins.
+
+00:50:59.430 --> 00:51:02.250 align:middle line:84%
+And we talked about various
+quantitation methods, errors
+
+00:51:02.250 --> 00:51:04.860 align:middle line:84%
+that present and
+solutions of errors,
+
+00:51:04.860 --> 00:51:07.800 align:middle line:84%
+statistical methods for asking
+whether two distributions are
+
+00:51:07.800 --> 00:51:13.950 align:middle line:84%
+related or have no
+difference in their means,
+
+00:51:13.950 --> 00:51:17.340 align:middle line:84%
+interpretation errors about
+where RNAs start and stop,
+
+00:51:17.340 --> 00:51:19.290 align:middle line:84%
+how you get
+alternative splicing,
+
+00:51:19.290 --> 00:51:21.210 align:middle line:84%
+and finally time
+series data, which
+
+00:51:21.210 --> 00:51:25.830 align:middle line:84%
+we will find very useful
+for connecting RNA
+
+00:51:25.830 --> 00:51:31.560 align:middle line:84%
+and protein measures over time
+series for analyzing causality
+
+00:51:31.560 --> 00:51:33.450 align:middle line:90%
+and systems biologies.
+
+00:51:33.450 --> 00:51:35.020 align:middle line:90%
+OK, thank you very much.
+
+00:51:35.020 --> 00:51:36.400 align:middle line:90%
+See you next time.
+
+00:51:36.400 --> 00:51:40.130 align:middle line:84%
+Be sure to get your problem sets
+in to your teaching fellows.
+
+00:51:40.130 --> 00:51:41.000 align:middle line:90%

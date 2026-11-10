@@ -1,0 +1,36 @@
+{
+  "body": "",
+  "content": "",
+  "content_type": "resource",
+  "draft": false,
+  "file": "/courses/3-012-fundamentals-of-materials-science-fall-2005/rec7t_tangent.mov",
+  "file_size": 266014,
+  "file_type": "video/quicktime",
+  "gdrive_url": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Other",
+  "title": "rec7t_tangent.mov",
+  "uid": "0268fdcf-6c1a-44b6-ba51-70c6d76378a6",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": ""
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

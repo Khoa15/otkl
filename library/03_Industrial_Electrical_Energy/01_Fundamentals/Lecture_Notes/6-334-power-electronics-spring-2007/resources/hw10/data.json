@@ -1,0 +1,47 @@
+{
+  "content": "<p>Problem set to determine the smallest magnitude of compensating ramp that will yield stable dynamics for the ripple instability over an input voltage range of 36 V &lt; Vin &lt; 75 V.</p>\n",
+  "content_type": "resource",
+  "description": "Problem set to determine the smallest magnitude of compensating ramp that will yield stable dynamics for the ripple instability over an input voltage range of 36 V < Vin < 75 V.",
+  "draft": false,
+  "file": "/courses/6-334-power-electronics-spring-2007/58433f45e200e70389638ccf0faf1499_hw10.pdf",
+  "file_size": 28538,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "5715bb34-b41c-4517-38a4-6b40d2cf0ab9",
+  "resourcetype": "Document",
+  "title": "hw10.pdf",
+  "uid": "58433f45-e200-e703-8963-8ccf0faf1499",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-334-power-electronics-spring-2007"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-334-power-electronics-spring-2007"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Problem set solutions.</p>\n",
+  "content_type": "resource",
+  "description": "Problem set solutions.",
+  "draft": false,
+  "file": "/courses/2-004-dynamics-and-control-ii-spring-2008/0abb4409d14ef3de8ef550e5a16e2369_ps3soln.pdf",
+  "file_size": 198773,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem Set Solutions"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "fa2f0923-739a-3c19-bfe6-5b7da391e2b7",
+  "resourcetype": "Document",
+  "title": "Problem Set 3 Solutions",
+  "uid": "0abb4409-d14e-f3de-8ef5-50e5a16e2369",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

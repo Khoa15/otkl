@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Sets on MIT OpenCourseWare</title>
+    <link>/resources/problem-sets/</link>
+    <description>Recent content in Problem Sets on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-sets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ecoli_K12.txt</title>
+      <link>/resources/ecoli_k12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ecoli_k12/data.json</guid>
+      <description>&lt;p&gt;Escherichia coli K-12 MG1655 complete genome&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>fba_lf.nb</title>
+      <link>/resources/fba_lf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/fba_lf/data.json</guid>
+      <description>&lt;p&gt;Flux Balance Analysis with Mathematica&#xA;Mathematica notebook&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>hierarchical.pdf</title>
+      <link>/resources/hierarchical/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/hierarchical/data.json</guid>
+      <description>&lt;p&gt;Hierarchial Methods&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mf.xls</title>
+      <link>/resources/mf/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mf/data.json</guid>
+      <description>&lt;p&gt;Flux Balance Analysis spreadsheet: fluxMaster&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps1_skeleton.pl</title>
+      <link>/resources/ps1_skeleton/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps1_skeleton/data.json</guid>
+      <description>&lt;p&gt;The Central Dogma (skeleton code)&#xA;Perl script&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps12002.pdf</title>
+      <link>/resources/ps12002/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps12002/data.json</guid>
+      <description>&lt;p&gt;Problem set 1&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps22002.pdf</title>
+      <link>/resources/ps22002/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps22002/data.json</guid>
+      <description>&lt;p&gt;Problem Set 2&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps32002.pdf</title>
+      <link>/resources/ps32002/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps32002/data.json</guid>
+      <description>&lt;p&gt;Problem Set 3&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps41result.txt</title>
+      <link>/resources/ps41result/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps41result/data.json</guid>
+      <description>&lt;p&gt;Clustering result of sample dataset using complete-linkage Euclidean distance&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps41result2.txt</title>
+      <link>/resources/ps41result2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps41result2/data.json</guid>
+      <description>&lt;p&gt;Clustering result of normalized training dataset using complete/single-linkage Euclidean distance&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps41sample.txt</title>
+      <link>/resources/ps41sample/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps41sample/data.json</guid>
+      <description>&lt;p&gt;Sample dataset of 5 samples&#xA;Gene data&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps41template.pl</title>
+      <link>/resources/ps41template/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps41template/data.json</guid>
+      <description>&lt;p&gt;ps4-1-template file&#xA;Perl script&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps41train.txt</title>
+      <link>/resources/ps41train/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps41train/data.json</guid>
+      <description>&lt;p&gt;Normalized training dataset&#xA;Gene data&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps42002.pdf</title>
+      <link>/resources/ps42002/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps42002/data.json</guid>
+      <description>&lt;p&gt;Problem Set 4&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps52002.pdf</title>
+      <link>/resources/ps52002/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps52002/data.json</guid>
+      <description>&lt;p&gt;Set 5 Questions&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tutorial.nb</title>
+      <link>/resources/tutorial/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tutorial/data.json</guid>
+      <description>&lt;p&gt;[Mathematica tutorial]: interactive calculations using notebooks&#xA;You normally interact with Mathematica through documents called notebooks. This tutorial is an example of a notebook. Notebooks can have many forms. But typically they consist of cells that can contain text, calculations, or graphics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Warmup.nb</title>
+      <link>/resources/warmup/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/warmup/data.json</guid>
+      <description>&lt;p&gt;Problem Set 1, part 3: Warm-up Notebook&#xA;This notebook is for beginners that have done the Mathematica tutorial. Most of it is no harder than a coloring book  It starts with cell manipulation and formatting, and it works its way up to discrete recursive functions that operate on Mathematica tables and arrays. Many of us are new to Mathematica so if you discover anything useful, please include them in your finished notebook.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

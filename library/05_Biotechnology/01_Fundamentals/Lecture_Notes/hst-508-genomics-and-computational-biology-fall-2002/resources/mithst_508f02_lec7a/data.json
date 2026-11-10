@@ -1,0 +1,43 @@
+{
+  "body": "",
+  "content": "<p>Today we introduce a very important all-inclusive subject of proteomics. We&rsquo;re going to talk about protein 3D structure, how you get at it experimentally and computationally and its implications for the binding of small molecules.</p>\n",
+  "content_type": "resource",
+  "draft": false,
+  "file": "/courses/hst-508-genomics-and-computational-biology-fall-2002/mithst_508f02_lec7a_360p_16_9.mp4",
+  "file_size": 86561966,
+  "file_type": "video/mp4",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Audio"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Video",
+  "title": "7A. Protein 1: 3D Structural Genomics, Homology, Catalytic and Regulatory Dynamics, Fun...",
+  "uid": "3d05354a-7d3c-4a27-bf68-ea899673c40a",
+  "video_files": {
+    "video_captions_resources": [
+      {
+        "file": "/courses/hst-508-genomics-and-computational-biology-fall-2002/mithst_508f02_captions.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/2xONWF0XzOI/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/hst-508-genomics-and-computational-biology-fall-2002/mithst_508f02_transcript.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "3d structural genomics, catalytic dynamics, drug design, homology, hst-508-genomics-and-computational-biology-fall-2002, protein, regulatory dynamics",
+    "youtube_description": "MIT HST.508 Genomics and Computational Biology, Fall 2002\nInstructor: George Church\nView the complete course: https://ocw.mit.edu/courses/hst-508-genomics-and-computational-biology-fall-2002/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61gaHWysmlYNeGsuUI8y5GV\n\nToday we introduce a very important all-inclusive subject of proteomics. We're going to talk about protein 3D structure, how you get at it experimentally and computationally and its implications for the binding of small molecules.\n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW‚ YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+    "youtube_id": "2xONWF0XzOI"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "content": "<p>Magnetohydrodynamic generator from the 2003 final exam. The C-core magnetic circuit is excited by a field coil that carries a current and has a rectangular channel with moving conductive fluid that passes through the magnetic circuit gap. (Image by Prof. Markus Zahn.)</p>\n",
+  "content_type": "resource",
+  "description": "Magnetohydrodynamic generator from the 2003 final exam. The C-core magnetic circuit is excited by a field coil that carries a current and has a rectangular channel with moving conductive fluid that passes through the magnetic circuit gap. (Image by Prof. Markus Zahn.)",
+  "draft": false,
+  "file": "/courses/6-641-electromagnetic-fields-forces-and-motion-spring-2009/6-641s09.jpg",
+  "file_size": 51343,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Magnetohydrodynamic generator from the 2003 final exam ([PDF](/courses/6-641-electromagnetic-fields-forces-and-motion-spring-2009/resources/mit6_641s09_chp_final1)). The C-core magnetic circuit is excited by a field coil that carries a current and has a rectangular channel with moving conductive fluid that passes through the magnetic circuit gap. (Image by Prof. Markus Zahn.)",
+    "credit": "",
+    "image-alt": "Diagram of a magnetohydrodynamic generator."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Diagram of a magnetohydrodynamic generator",
+  "uid": "bd67f30b-3755-9925-5596-de1d4fece37a",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

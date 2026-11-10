@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Description:</strong> In this lecture, the professor talked about translation operator, definition and basic properties of coherent states, time evolution and uncertainties, coherent states in the energy basis, general coherent states and time evolution, etc.</p>\n<p><strong>Instructor:</strong> Barton Zwiebach</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "205236828",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "Lecture Notes",
+  "optional_text": "This lecture note covers Lectures 12, 13, 14, 15, and 16.\n\n{{% resource_link \"210c7625-a005-4698-8f72-f70e57e4f106\" \"Quantum Dynamics (PDF)\" %}}",
+  "parent_title": "Video Lectures",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Lecture 14: Quantum Dynamics (cont.)",
+  "uid": "3f3e24d6-e124-2dfa-697c-18aba2cb08e7",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT8.05F13/MIT8_05F13_lec14_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/8-05-quantum-physics-ii-fall-2013/71779ea0d74756d19b84c7e77f9a5f91_4WsMeqCKpgI.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/4WsMeqCKpgI/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/8-05-quantum-physics-ii-fall-2013/31847a23868e3a547e2119d5ebad583f_4WsMeqCKpgI.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "8-05-quantum-physics-ii-fall-2013, coherent state, ground state, harmonic oscillator, translation operator, uncertainty state, wavefunction",
+    "youtube_id": "4WsMeqCKpgI"
+  }
+}

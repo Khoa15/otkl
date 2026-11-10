@@ -1,0 +1,50 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "108334493",
+  "file_type": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "DNA Structure, Classic Experiments",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "DNA Structure and Classic experiments, Excerpt 1",
+  "uid": "f647c673-ec49-b217-f5be-b03ae9d28f85",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT7.01SCF11/MIT7_01SCF11_track05_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/7-01sc-fundamentals-of-biology-fall-2011/8d195a129b5859ef99668c3766e8712b_P-Ry4rRdDbk.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/P-Ry4rRdDbk/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/7-01sc-fundamentals-of-biology-fall-2011/f6b153bc7df1e4de5d1a9e9ce5dc6c97_P-Ry4rRdDbk.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "7-01sc-fundamentals-of-biology-fall-2011, adenine, avery, bacterial viruses, crick, cytosine, deoxyribose, dna, double helix, franklin, griffiths, guanine, heredity, hershey-chase, mccarty, mcleod, meselson and stahl, pneumoccocus bacteria, polymerization, semi-conservative replication, thymine, transforming principle, virulent, watson, x-ray crystallography",
+    "youtube_id": "P-Ry4rRdDbk"
+  }
+}

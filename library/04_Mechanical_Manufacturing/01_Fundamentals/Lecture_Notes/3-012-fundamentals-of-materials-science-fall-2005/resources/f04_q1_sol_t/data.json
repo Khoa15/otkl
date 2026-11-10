@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This file contains solutions of various questions based on thermodynamics.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains solutions of various questions based on thermodynamics.",
+  "draft": false,
+  "file": "/courses/3-012-fundamentals-of-materials-science-fall-2005/f4d086453807bc278c7068f18fb1d936_f04_q1_sol_t.pdf",
+  "file_size": 246895,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exam Solutions"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Exams",
+  "parent_type": "CourseSection",
+  "parent_uid": "8afa5fc2-30ba-fc0d-8491-0ca406659fd2",
+  "resourcetype": "Document",
+  "title": "f04_q1_sol_t.pdf",
+  "uid": "f4d08645-3807-bc27-8c70-68f18fb1d936",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "3-012-fundamentals-of-materials-science-fall-2005"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "3-012-fundamentals-of-materials-science-fall-2005"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "content": "<p>New image Upload</p>\n",
+  "content_type": "resource",
+  "description": "New image Upload",
+  "draft": false,
+  "file": "/courses/hst-508-genomics-and-computational-biology-fall-2002/hst-508f02-th.jpg",
+  "file_size": 13572,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Next-generation DNA sequencing technology from University of California, Berkeley. (Image courtesy of the {{% resource_link \"b7842018-ef0a-460f-86fc-914b31be33d9\" \"U.S. Department of Energy Genomes to Life Program\" %}}.)",
+    "credit": "",
+    "image-alt": "A photo of fast-moving colored lights which appear to be spinning in a circle above a machine."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "hst-508f02-th.jpg",
+  "uid": "5a76bddd-fd47-f6a7-2c4d-3cf98bbabf3f",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

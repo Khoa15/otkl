@@ -1,0 +1,98 @@
+{
+  "course_description": "Satellite Engineering introduces students to subsystem design in engineering spacecraft. The course presents characteristic subsystems, such as power, structure, communication and control, and analyzes the engineering trades necessary to integrate subsystems successfully into a satellite. Discussions of spacecraft operating environment and orbital mechanics help students to understand the functional requirements and key design parameters for satellite systems.\n",
+  "course_description_html": "Satellite Engineering introduces students to subsystem design in engineering spacecraft. The course presents characteristic subsystems, such as power, structure, communication and control, and analyzes the engineering trades necessary to integrate subsystems successfully into a satellite. Discussions of spacecraft operating environment and orbital mechanics help students to understand the functional requirements and key design parameters for satellite systems.",
+  "course_image": {
+    "content": "ae8609b3-b011-23f6-393f-7bc8bb24193f",
+    "website": "16-851-satellite-engineering-fall-2003"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "The Power and Pyrotechnics Subsystem (PPS) of the Cassini Orbiter, which arrived at Saturn on July 1, 2004, having traveled 3.5 billion kilometers across the solar system. (Courtesy of NASA/JPL-Caltech.)",
+    "draft": false,
+    "file": "/courses/16-851-satellite-engineering-fall-2003/ae8609b3b01123f6393f7bc8bb24193f_c16-851f03.jpg",
+    "file_size": 136755,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "The Power and Pyrotechnics Subsystem (PPS) of the Cassini Orbiter, which arrived at Saturn on July 1, 2004, having traveled 3.5 billion kilometers across the solar system. (Courtesy of {{% resource_link \"1dc3ec2a-1436-4fbb-94e4-60b95b08d495\" \"NASA\" %}}/JPL-Caltech.)",
+      "credit": "",
+      "image-alt": "A photo of an electronic circuit board."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "16-851f03.jpg",
+    "uid": "ae8609b3-b011-23f6-393f-7bc8bb24193f"
+  },
+  "course_image_thumbnail": {
+    "content": "dc614694-4d86-ba96-d111-956554276f91",
+    "website": "16-851-satellite-engineering-fall-2003"
+  },
+  "course_title": "Satellite Engineering",
+  "department_numbers": [
+    "16"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/ae8609b3b01123f6393f7bc8bb24193f_c16-851f03.jpg",
+  "instructors": [
+    {
+      "first_name": "David",
+      "last_name": "Miller",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. David Miller",
+      "uid": "ddcbd8ce-d4bd-155c-e4b3-2f432685124a",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+David+Miller"
+    },
+    {
+      "first_name": "John",
+      "last_name": "Keesee",
+      "middle_initial": "",
+      "salutation": "Col.",
+      "title": "Col. John Keesee",
+      "uid": "c1db57bb-2df2-4487-c76f-cf82c883b440",
+      "url": "https://ocw.mit.edu/search/?q=Col.+John+Keesee"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Notes",
+    "Projects with Examples",
+    "Design Assignments with Examples",
+    "Programming Assignments with Examples"
+  ],
+  "legacy_uid": "f0ce6011-8f3d-da5f-a85b-b642b2557c39",
+  "level": [
+    "Graduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Engineering",
+      "Aerospace Engineering"
+    ]
+  ],
+  "primary_course_number": "16.851",
+  "site_short_id": "16.851-fall-2003",
+  "site_uid": "bb168aeb-f401-4840-b601-f94f94984d41",
+  "site_url_path": "courses/16-851-satellite-engineering-fall-2003",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Engineering",
+      "Aerospace Engineering",
+      "Astrodynamics"
+    ],
+    [
+      "Engineering",
+      "Aerospace Engineering",
+      "Guidance and Control Systems"
+    ],
+    [
+      "Engineering",
+      "Aerospace Engineering",
+      "Propulsion Systems"
+    ]
+  ],
+  "year": "2003"
+}

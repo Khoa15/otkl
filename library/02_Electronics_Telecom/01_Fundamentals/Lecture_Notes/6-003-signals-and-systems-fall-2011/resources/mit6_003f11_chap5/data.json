@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource contains information on chapter 5 of book signals and systems; repeated roots.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information on chapter 5 of book signals and systems; repeated roots.",
+  "draft": false,
+  "file": "/courses/6-003-signals-and-systems-fall-2011/844ad344431f53e45e0924161bc3c7c9_MIT6_003F11_chap5.pdf",
+  "file_size": 138386,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Readings"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Readings",
+  "parent_type": "CourseSection",
+  "parent_uid": "998c6675-6fd3-dc4c-dcec-292568f6e2aa",
+  "resourcetype": "Document",
+  "title": "Chapter 5: Repeated roots",
+  "uid": "844ad344-431f-53e4-5e09-24161bc3c7c9",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-003-signals-and-systems-fall-2011"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-003-signals-and-systems-fall-2011"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

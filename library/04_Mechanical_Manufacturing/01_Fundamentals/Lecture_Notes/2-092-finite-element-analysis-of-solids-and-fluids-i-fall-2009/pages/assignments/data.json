@@ -1,0 +1,19 @@
+
+{
+  "content": "<p>This page contains the weekly homework assignments and their solutions. For Homework 5, problem 2, ADINA input files are provided, modeling the system in two different ways:</p>\n<p>Using load displacement constraint (LDC) (<a href=\"../../resources/hw5_ldc/index.html\">IN</a>)</p>\n<p>Using a spring attached at the node (<a href=\"../../resources/hw5_spring/index.html\">IDB</a>)</p>\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nASSIGNMENTS\n</th>\n\n<th>\n\nSOLUTIONS\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\nHomework 1 (<a href=\"../../resources/mit2_092f09_hw1/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit2_092f09_sol1/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nHomework 2 (<a href=\"../../resources/mit2_092f09_hw2/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit2_092f09_sol2/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nHomework 3 (<a href=\"../../resources/mit2_092f09_hw3/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit2_092f09_sol3/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nHomework 4 (<a href=\"../../resources/mit2_092f09_hw4/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit2_092f09_hw4/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nHomework 5 (<a href=\"../../resources/mit2_092f09_hw5/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit2_092f09_sol5/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nHomework 6 (<a href=\"../../resources/mit2_092f09_hw6/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit2_092f09_hw6/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nHomework 7 (<a href=\"../../resources/mit2_092f09_hw7/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit2_092f09_sol7/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nHomework 8 (<a href=\"../../resources/mit2_092f09_hw8/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit2_092f09_sol8/index.html\">PDF</a>)\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section contains the weekly homework assignments, their solutions, and supporting files.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Assignments",
+  "uid": "ab138e96-f294-f0c1-d312-b820228458e7",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

@@ -1,0 +1,47 @@
+{
+  "content": "<p>This is a special file for problem set 1.</p>\n",
+  "content_type": "resource",
+  "description": "This is a special file for problem set 1.",
+  "draft": false,
+  "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/a7f2a8b3ae8da74d4d450c94c32c425a_ps1.zip",
+  "file_size": 33147,
+  "file_type": "application/zip",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "83069da5-d3b4-531b-dd45-1bd51850dba6",
+  "resourcetype": "Other",
+  "title": "ps1.zip",
+  "uid": "a7f2a8b3-ae8d-a74d-4d45-0c94c32c425a",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

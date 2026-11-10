@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Recitation handout on block diagrams and physical modeling.</p>\n",
+  "content_type": "resource",
+  "description": "Recitation handout on block diagrams and physical modeling.",
+  "draft": false,
+  "file": "/courses/6-302-feedback-systems-spring-2007/0482bfdd0ab667fd30b1c91d60df883b_6_302rec2.pdf",
+  "file_size": 171234,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem-solving Notes"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Recitations",
+  "parent_type": "CourseSection",
+  "parent_uid": "5667c63a-09ff-e158-1e89-d49a0035050d",
+  "resourcetype": "Document",
+  "title": "6_302rec2.pdf",
+  "uid": "0482bfdd-0ab6-67fd-30b1-c91d60df883b",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

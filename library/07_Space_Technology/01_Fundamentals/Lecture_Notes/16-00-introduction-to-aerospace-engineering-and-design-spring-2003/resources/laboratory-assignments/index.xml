@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laboratory Assignments on MIT OpenCourseWare</title>
+    <link>/resources/laboratory-assignments/</link>
+    <description>Recent content in Laboratory Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/laboratory-assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aircraft Performance Flight Simulation Lab</title>
+      <link>/resources/ps3_2003/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps3_2003/data.json</guid>
+      <description>&lt;p&gt;An aircraft performance flight simulation lab assignment.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Aircraft Performance Flight Simulation Lab Solution</title>
+      <link>/resources/ps3sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps3sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to an aircraft performance flight simulation lab assignment.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rocket Performance Lab</title>
+      <link>/resources/rocketlab2003/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rocketlab2003/data.json</guid>
+      <description>&lt;p&gt;Lab assignment to design, analyze, and then flight test a model rocket.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

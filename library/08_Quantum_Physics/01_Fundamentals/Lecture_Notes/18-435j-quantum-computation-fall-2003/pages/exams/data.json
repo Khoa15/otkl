@@ -1,0 +1,16 @@
+
+{
+  "content": "<p>Quiz 1 (<a href=\"../../resources/quiz1/index.html\">PDF</a>)</p>\n<p>Quiz 1 Solutions (<a href=\"../../resources/quiz1_sol/index.html\">PDF</a>)</p>\n<p>Quiz 2 (<a href=\"../../resources/test2/index.html\">PDF</a>)</p>\n",
+  "content_type": "page",
+  "description": "This section contains Midterm exam and its solution for the course.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Exams",
+  "uid": "766f9880-d5c8-4376-4bd0-ed6a2d4d63ac"
+}
+

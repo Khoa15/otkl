@@ -1,0 +1,27 @@
+{
+  "content": "<p>A mixed-signal printed circuit board containing both analog and digital components. The board is one component of a 1000-node acoustic beamformer being developed at MIT&rsquo;s Computer Science and Artificial Intelligence Laboratory. The board contains a pair of microphones, several resistors, capacitors, and digital integrated circuit chips. (Image courtesy of Ken Steele and Anant Agarwal.)</p>\n",
+  "content_type": "resource",
+  "description": "A mixed-signal printed circuit board containing both analog and digital components. The board is one component of a 1000-node acoustic beamformer being developed at MIT's Computer Science and Artificial Intelligence Laboratory. The board contains a pair of microphones, several resistors, capacitors, and digital integrated circuit chips. (Image courtesy of Ken Steele and Anant Agarwal.)",
+  "draft": false,
+  "file": "/courses/6-002-circuits-and-electronics-spring-2007/057c5af7b1e9cccd3b069dfe3797a5c8_6-002s07.jpg",
+  "file_size": 64033,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "A mixed-signal printed circuit board containing both analog and digital components. The board is one component of a 1000-node acoustic beamformer being developed at MIT's Computer Science and Artificial Intelligence Laboratory. The board contains a pair of microphones, several resistors, capacitors, and digital integrated circuit chips. (Image courtesy of Ken Steele and Anant Agarwal.)",
+    "credit": "",
+    "image-alt": "A mixed-signal printed circuit board containing both analog and digital components."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "6-002s07.jpg",
+  "uid": "057c5af7-b1e9-cccd-3b06-9dfe3797a5c8",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

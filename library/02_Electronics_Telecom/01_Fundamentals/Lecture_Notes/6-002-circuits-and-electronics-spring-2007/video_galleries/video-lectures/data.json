@@ -1,0 +1,1168 @@
+
+{
+  "content": "<p>The course materials for 6.002 were last updated in Spring 2007. However, the lecture notes, demos, and videos presented in this section are taken from the Fall 2000 version.</p>\n<p>Video for Lecture 24 is not available. Resources from this session may be found alongside the materials from <a href=\"../../resources/lecture-25/index.html\">Lecture 25: Violating the Abstraction Barrier</a>.</p>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-1/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/AfQxyVuLeCs/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 1: Introduction and Lumped Abstraction</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-2/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/2vHGYdepKLw/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 2: Basic Circuit Analysis Method</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-3/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/RsJ1eg7XNVs/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 3: Superposition, Thévenin and Norton</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-4/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/4TCnYYpZxEc/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 4: The Digital Abstraction</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-5/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/v6vqWasIHaw/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 5: Inside the Digital Gate</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-6/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/OGtElTMJidE/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 6: Nonlinear Analysis</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-7/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/JqvKtMNz3RQ/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 7: Incremental Analysis</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-8/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/bEJ0-8pANA4/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 8: Dependent Sources and Amplifiers</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-9-part-1/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/Nijya-QJ45Y/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 9: Mosfet Amplifier Large Signal Analysis (part 1)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-9-part-2/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/jURSAKBlIZA/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 9: Mosfet Amplifier Large Signal Analysis (part 2)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-10/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/9RqFFlZgf60/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 10: Amplifiers - Small Signal Model</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-11/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/R4KxlqsuZ0A/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 11: Small Signal Circuits</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-12/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/COdQmA9g9S8/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 12: Capacitors and First-Order Systems</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-13/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/TXJIhDHtHSI/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 13: Digital Circuit Speed</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-14/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/bX8i2yECWaU/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 14: State and Memory</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-15-part-1/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/ypX20WnHNQw/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 15: Second-Order Systems (part 1)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-15-part-2/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/-gRXU-O1FY4/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 15: Second-Order Systems (part 2)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-16/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/3GdMaDzIUeQ/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 16: Sinusoidal Steady State</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-17/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/Km9YIdkc2Oo/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 17: The Impedance Model</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-18/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/WT-qzgaKeGI/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 18: Filters</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-19/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/V0z_f7qxLcY/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 19: The Operational Amplifier Abstraction</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-20/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/2SwT6JnfCq8/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 20: Operational Amplifier Circuits</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-21/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/ke3SL_R92ys/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 21: Op Amps Positive Feedback</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-22/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/wNuBD4PYWvs/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 22: Energy and Power</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-23/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/JB2HgohNHYQ/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 23: Energy, CMOS</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-25/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/dyxcCoUgETU/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 25: Violating the Abstraction Barrier</h5>\n      </div>\n    </div>\n  </a>\n</div>\n\n\n",
+  "content_type": "video_gallery",
+  "description": "This section contains the list of video lectures covered in the course.",
+  "draft": false,
+  "is_media_gallery": true,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "ocw_type": "CourseSection",
+  "title": "Video Lectures",
+  "uid": "9b4a2ba7-a556-b234-8b0c-3f1bdd4fa8ab",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  },
+  "videos": [
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "82407971",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l1))  \nDemonstration: I-V characteristic of various components ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_01))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 1: Introduction and Lumped Abstraction",
+      "uid": "94706375-90ae-728e-2772-5adc3377a2ce",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/mit-6.002-lec1-04sep2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/516dc2f563e55ec3a35f9a3642853573_AfQxyVuLeCs.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/AfQxyVuLeCs/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/e6224ea101646c756e6fe376ec52fa56_AfQxyVuLeCs.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, abstraction, amplifiers, analog, circuits, digital, mit, networks, opencourseware, switches",
+        "youtube_id": "AfQxyVuLeCs"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "113508442",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l2))  \nDemonstration: KVL and KCL ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_02))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 2: Basic Circuit Analysis Method",
+      "uid": "57209815-d245-3d82-2c41-31e9e8a3de60",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/mit-6.002-lec2-09sep2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/9a6283bea83a55bbb315c2f9df30c88a_2vHGYdepKLw.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/2vHGYdepKLw/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/3edee45e0545a4044ec11d2e6bdf3800_2vHGYdepKLw.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, abstraction, amplifiers, analog, circuits, digital, mit, networks, opencourseware, switches",
+        "youtube_id": "2vHGYdepKLw"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "118171174",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l3))  \nDemonstration: Salt water ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_03))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 3: Superposition, Thévenin and Norton",
+      "uid": "5bf128fe-fa59-5ece-9879-0a6a90657417",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/mit-6.002-lec3-11sep2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/b8623b6bf138526c984990ae11e58e24_RsJ1eg7XNVs.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/RsJ1eg7XNVs/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/c558f62c35d4e1e22fb4579fb45ea663_RsJ1eg7XNVs.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, abstraction, amplifiers, analog, circuits, digital, mit, networks, opencourseware, switches",
+        "youtube_id": "RsJ1eg7XNVs"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "98313953",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l4))  \nDemonstration: Superposition using resistors ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_05))  \nDemonstration: AND gate output, noise ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_05a))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 4: The Digital Abstraction",
+      "uid": "34fd3c70-c116-8fe8-e9fa-13c57bab8293",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/mit-6.002-lec4-16sep2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/0cd7700e899151ab93b2aa797ca4d28e_4TCnYYpZxEc.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/4TCnYYpZxEc/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/ef5ca58a46a732de88670504a73470de_4TCnYYpZxEc.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, coefficients, differential, equations, mathematics, mit, numbers, opencourseware, oscillations, resonance",
+        "youtube_id": "4TCnYYpZxEc"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "102280124",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l5))  \nDemonstration: S/SR/SCS models ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_06))  \nDemonstration: MOS inverter ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_07))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 5: Inside the Digital Gate",
+      "uid": "4f0054f5-076b-953d-b7fe-572d6d701a2a",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/mit-6.002-lec5-18sep2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/e7fecb8001745694bbeaeff402b8634c_v6vqWasIHaw.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/v6vqWasIHaw/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/725c8b44fefc368c1ccd67991150d2f1_v6vqWasIHaw.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, coefficients, differential, equations, mathematics, mit, numbers, opencourseware, oscillations, resonance",
+        "youtube_id": "v6vqWasIHaw"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "89784697",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l6))  \nDemonstration: Nonlinear device ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_04))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 6: Nonlinear Analysis",
+      "uid": "2bdb3b7e-5ed0-12f5-d292-ea9761f2e98f",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/mit-6.002-lec6-23sep2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/efcf54598db25698800a18f9866a3edd_OGtElTMJidE.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/OGtElTMJidE/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/6dc096a3fab89219046cb6226f023a15_OGtElTMJidE.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, abstraction, amplifiers, analog, circuits, digital, mit, networks, opencourseware, switches",
+        "youtube_id": "OGtElTMJidE"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "100436831",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l7))  \nDemonstration: Nonlinear device ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_04))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 7: Incremental Analysis",
+      "uid": "2e470044-3c2e-fe72-5ef9-1d2c94128ac6",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/mit-6.002-lec7-25sep2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/fe470e30691f5cd98b40ef1efa3da348_JqvKtMNz3RQ.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/JqvKtMNz3RQ/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/ecb2cd8c1ded230e02409c0ee23126f9_JqvKtMNz3RQ.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, coefficients, differential, equations, mathematics, mit, numbers, opencourseware, oscillations, resonance",
+        "youtube_id": "JqvKtMNz3RQ"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "104881924",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l8))  \nDemonstration: S/SR/SCS models ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_06))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 8: Dependent Sources and Amplifiers",
+      "uid": "eaf60af4-064b-5d6c-465d-22833456c412",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/mit-6.002-lec8-30sep2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/fbd3eac57c7e54f19156f8721b803522_bEJ0-8pANA4.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/bEJ0-8pANA4/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/b5a0a33274a7363b0d232c313010f60d_bEJ0-8pANA4.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, abstraction, amplifiers, analog, circuits, digital, mit, networks, opencourseware, switches",
+        "youtube_id": "bEJ0-8pANA4"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "101226053",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l9))  \nDemonstration: S/SR/SCS models ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_06))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 9: Mosfet Amplifier Large Signal Analysis (part 1)",
+      "uid": "6b64779b-5126-fd1f-7536-e398e31f8bba",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/mit-6.002-lec9-02oct2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/1de5408f98945e04a78bed087f39cabe_Nijya-QJ45Y.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/Nijya-QJ45Y/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/8d6365ab435a2441f6a391631102c376_Nijya-QJ45Y.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, coefficients, differential, equations, mathematics, mit, numbers, opencourseware, oscillations, resonance",
+        "youtube_id": "Nijya-QJ45Y"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "312694774",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l9))  \nDemonstration: MOSFET inverting amplifier transfer characteristic, large signal ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_08))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 9: Mosfet Amplifier Large Signal Analysis (part 2)",
+      "uid": "985cfc58-bf6a-539b-06c2-5e935cfdfcc1",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/ocw-6.002-lec-mit-10250-07oct2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/a848dd2127815a8ebeb831ef6e1b9ffd_jURSAKBlIZA.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/jURSAKBlIZA/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/85621a938b41beb0feba40552bd5d49a_jURSAKBlIZA.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, abstraction, amplifiers, analog, circuits, digital, mit, networks, opencourseware, switches",
+        "youtube_id": "jURSAKBlIZA"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "312573503",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture Notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l10))  \nDemonstration: MOSFET inverting amplifier-small signal ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_09))  \nDemonstration: IDS vs. VDS load line ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_10))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 10: Amplifiers - Small Signal Model",
+      "uid": "3cd676bf-13e8-3155-e604-a18997f6c102",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/ocw-6.002-lec-mit-10250-09oct2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/f63b04c4232e58669c928a7aad2ce579_9RqFFlZgf60.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/9RqFFlZgf60/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/9c81ffbe8075ee01caf4709269fe5f3a_9RqFFlZgf60.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, abstraction, amplifiers, analog, circuits, digital, mit, networks, opencourseware, switches",
+        "youtube_id": "9RqFFlZgf60"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "309455247",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l11))  \nDemonstration: IDS vs. VDS load line ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_10))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 11: Small Signal Circuits",
+      "uid": "06a5b568-ebe5-7278-9bc1-2135907e523d",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/ocw-6.002-lec-mit-10250-14oct2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/853631ee24e257caa1210c24c3541894_R4KxlqsuZ0A.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/R4KxlqsuZ0A/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/0c685c55c65225543fe56ee2b831975e_R4KxlqsuZ0A.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, abstraction, amplifiers, analog, circuits, digital, mit, networks, opencourseware, switches",
+        "youtube_id": "R4KxlqsuZ0A"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "304238142",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l12))  \nDemonstration: Gate delay ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_11))  \nDemonstration: RC response ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_26))  \nDemonstration: Lead Inductance ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_19a))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 12: Capacitors and First-Order Systems",
+      "uid": "735531e0-e501-fe40-dfa3-c3a46473c715",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/ocw-6.002-lec-mit-10250-16oct2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/ff0e6bea21755b159ff04576ddff676c_COdQmA9g9S8.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/COdQmA9g9S8/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/de8dfbe54c912edf373b016434558d04_COdQmA9g9S8.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, abstraction, amplifiers, analog, circuits, digital, mit, networks, opencourseware, switches",
+        "youtube_id": "COdQmA9g9S8"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "326791641",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l13))  \nDemonstration: Gate delay ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_11))  \nDemonstration: Crosstalk ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_19))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 13: Digital Circuit Speed",
+      "uid": "4376aaa9-2433-5be8-eb07-0468c5a3bf68",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/ocw-6.002-lec-mit-10250-21oct2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/a6ffa0d14f6454cab6f388f257476419_TXJIhDHtHSI.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/TXJIhDHtHSI/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/436f601051b15e6a2eff7b7d2774631e_TXJIhDHtHSI.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, abstraction, amplifiers, analog, circuits, digital, mit, networks, opencourseware, switches",
+        "youtube_id": "TXJIhDHtHSI"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "296744488",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture Notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l14))  \nDemonstration: Digital memory ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_15))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 14: State and Memory",
+      "uid": "eb939a96-10c4-b054-3638-b7043b2786aa",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/ocw-6.002-lec-mit-10250-23oct2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/0768b78e26d75c628ebaa31e1205a4ab_bX8i2yECWaU.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/bX8i2yECWaU/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/ee61c25a3d1e86cd3d52ba3ee5d85570_bX8i2yECWaU.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, abstraction, amplifiers, analog, circuits, digital, mit, networks, opencourseware, switches",
+        "youtube_id": "bX8i2yECWaU"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "310735817",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l15))  \nDemonstrations: Gate ringing ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_12))  \nDemonstration: Demonstrates a resonant LC circuit ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_23))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 15: Second-Order Systems (part 1)",
+      "uid": "001a01ad-b3d3-e2ef-2096-16a9b8fba2ba",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/ocw-6.002-lec-mit-10250-28oct2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/ffa3f5b1a4835fbfaed2b1fcf6174fe7_ypX20WnHNQw.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/ypX20WnHNQw/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/e9f88675e88b1ec5e6f5798fef6138b4_ypX20WnHNQw.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, coefficients, differential, equations, mathematics, mit, numbers, opencourseware, oscillations, resonance",
+        "youtube_id": "ypX20WnHNQw"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "310763305",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture Notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l15b))  \nDemonstrations: Gate ringing ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_12))  \nDemonstration: Demonstrates a resonant LC circuit ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_23))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 15: Second-Order Systems (part 2)",
+      "uid": "39f89db1-f563-14c3-f12e-b1dfbc5f21ab",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/ocw-6.002-lec-mit-10250-30oct2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/6ed5c14baf165862b190ba3fc25ea9c8_-gRXU-O1FY4.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/-gRXU-O1FY4/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/c4ef7c238963a0796fab72deca72720b_-gRXU-O1FY4.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, abstraction, amplifiers, analog, circuits, digital, mit, networks, opencourseware, switches",
+        "youtube_id": "-gRXU-O1FY4"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "322549125",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture Notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l16))  \nDemonstration: First order sinusoidal steady state ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_13))  \nDemonstration: Displays the transfer function of RC lowpass and highpass ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_20))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 16: Sinusoidal Steady State",
+      "uid": "d2c67275-1740-1c7e-e31d-d7e6be5a1185",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/ocw-6.002-lec-mit-10250-04nov2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/68483786508058c2b382225ba96a7ce9_3GdMaDzIUeQ.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/3GdMaDzIUeQ/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/8fe5cd1153e4c0df17034b7e1d9a12e7_3GdMaDzIUeQ.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, coefficients, differential, equations, mathematics, mit, numbers, opencourseware, oscillations, resonance",
+        "youtube_id": "3GdMaDzIUeQ"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "306133326",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture Notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l17))  \nDemonstrations: Displays the transfer function of RC lowpass and highpass ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_20))  \nDemonstrations: Displays the transfer function of an RLC bandpass ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_22))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 17: The Impedance Model",
+      "uid": "1f5322b8-16e4-98b4-c64e-420083745801",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/ocw-6.002-lec-mit-10250-06nov2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/1a944e5a42415fb6b00562687223bbaa_Km9YIdkc2Oo.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/Km9YIdkc2Oo/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/254c07711d0d0afbe138b49944c36adb_Km9YIdkc2Oo.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, abstraction, amplifiers, analog, circuits, digital, mit, networks, opencourseware, switches",
+        "youtube_id": "Km9YIdkc2Oo"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "297163958",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l18))  \nDemonstration: Displays the transfer function of an RLC bandpass ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_22))  \nDemonstration: Parallel LC radio ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_27))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 18: Filters",
+      "uid": "b73cf7ac-8b4d-d35b-59f2-4e1f4a3c2edd",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/ocw-6.002-lec-mit-10250-13nov2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/eb3b0684dec559b48d6ec2afb92fe1b8_WT-qzgaKeGI.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/WT-qzgaKeGI/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/553999402ad00dc024799e71046f6d04_WT-qzgaKeGI.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, coefficients, differential, equations, mathematics, mit, numbers, opencourseware, oscillations, resonance",
+        "youtube_id": "WT-qzgaKeGI"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "324976887",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture Notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l19))  \nDemonstration: Op-amp demo ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_24))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 19: The Operational Amplifier Abstraction",
+      "uid": "4aa4220d-c30f-836d-d684-8ba21f591686",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/ocw-6.002-lec-mit-10250-18nov2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/563075f216b3512e87f162a0e3c68360_V0z_f7qxLcY.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/V0z_f7qxLcY/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/d6b68edd2625696897005ba6717bb7e9_V0z_f7qxLcY.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, abstraction, amplifiers, analog, circuits, digital, mit, networks, opencourseware, switches",
+        "youtube_id": "V0z_f7qxLcY"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "308420677",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture Notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l20))  \nDemonstration: Integrator and differentiator op-amp ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_17))  \nDemonstration: Integrator and differentiator RC network ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_17a))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 20: Operational Amplifier Circuits",
+      "uid": "406b8588-8e78-4963-7303-1ef92300ad37",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/ocw-6.002-lec-mit-10250-20nov2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/fc05b4e68048547faf57b9480e6eb79b_2SwT6JnfCq8.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/2SwT6JnfCq8/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/65d1a318e9a97ce5e0d016d2b48a7efd_2SwT6JnfCq8.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, abstraction, amplifiers, analog, circuits, digital, mit, networks, opencourseware, switches",
+        "youtube_id": "2SwT6JnfCq8"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "316973174",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture Notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l21))  \nDemonstration: Schmitt trigger ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_21))  \nDemonstration: Relaxation oscillator ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_21rp))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 21: Op Amps Positive Feedback",
+      "uid": "786a3d13-34f2-0386-c437-9b2e866b3691",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/ocw-6.002-lec-mit-10250-25nov2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/d0f992e0a99d535db27eb4408c004fbd_ke3SL_R92ys.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/ke3SL_R92ys/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/611cea8b3c59b5f5eba5be0bd8ddb0ef_ke3SL_R92ys.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, abstraction, amplifiers, analog, circuits, digital, mit, networks, opencourseware, switches",
+        "youtube_id": "ke3SL_R92ys"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "320030713",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture Notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l22))  \nDemonstration: Energy and power in RC network ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_18))  \nDemonstration: Energy and power in CMOS ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_18rp))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 22: Energy and Power",
+      "uid": "90779581-eef9-3b56-24c9-0b75bdfdc5f2",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/ocw-6.002-lec-mit-10250-02dec2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/ca37324c5f0d59fea0d77f7d9059333f_wNuBD4PYWvs.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/wNuBD4PYWvs/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/7eb2506dea41998db333c7fbea2c9e26_wNuBD4PYWvs.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, abstraction, amplifiers, analog, circuits, digital, mit, networks, opencourseware, switches",
+        "youtube_id": "wNuBD4PYWvs"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "248950112",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "Lecture Notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l23))  \nDemonstration: Energy and power in RC network ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_18))  \nDemonstration: Energy and power in CMOS ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_18rp))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 23: Energy, CMOS",
+      "uid": "eefb51ff-ea16-4547-b60b-310f1b8bdd11",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/ocw-6.002-lec-mit-10250-04dec2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/a61694beb4f051348d5591857b2a1f72_JB2HgohNHYQ.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/JB2HgohNHYQ/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/e11f02e75143bd0b0c893086533e6643_JB2HgohNHYQ.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, abstraction, amplifiers, analog, circuits, digital, mit, networks, opencourseware, switches",
+        "youtube_id": "JB2HgohNHYQ"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "288738400",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "**Lecture 24**\n\nLecture notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l24))  \nDemonstration: Boost converter ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_28))  \nDemonstration: Diode circuits and characteristic ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_25))\n\n**Lecture 25**\n\nLecture notes ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/6002_l25))  \nDemonstration: Crosstalk ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_19))  \nDemonstration: Impedance matching ([PDF](/courses/6-002-circuits-and-electronics-spring-2007/resources/demo_19b))",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 25: Violating the Abstraction Barrier",
+      "uid": "b1f88029-b907-3e09-23a3-a6ca581e6d52",
+      "video_files": {
+        "archive_url": "http://www.archive.org/download/MIT6.002S07/ocw-6.002-lec-mit-10250-09dec2003-220k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/aae1fdb408e357d4bfe3e63dff69171a_dyxcCoUgETU.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/dyxcCoUgETU/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/6-002-circuits-and-electronics-spring-2007/3d03e2ab93e4c46dd5f15ef41c98b873_dyxcCoUgETU.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "6-002-circuits-and-electronics-spring-2007, coefficients, differential, equations, mathematics, mit, numbers, opencourseware, oscillations, resonance",
+        "youtube_id": "dyxcCoUgETU"
+      }
+    }
+  ]
+}
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on MIT OpenCourseWare</title>
+    <link>/resources/assignments/</link>
+    <description>Recent content in Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignments</title>
+      <link>/pages/assignments/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/assignments/data.json</guid>
+      <description>&lt;p&gt;Some of the assigned problems come from Chapra and Canale.&lt;br&gt;&#xA;Chapra, Steven, and Raymond Canale. &lt;em&gt;Numerical Methods for Engineers&lt;/em&gt;. 7th ed. McGraw-hill Higher Education, 2014. ISBN: 9780073397924.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;PROBLEM SETS and SUPPORTING FILES&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;KEY DATES&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit2_29s15_ps1_sp2015_v3/index.html&#34;&gt;Problem Set 1 (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/newtonraphson_skel/index.html&#34;&gt;NewtonRaphson Skeleton (ZIP)&lt;/a&gt; (This file contains: 1 .m file.)&lt;/p&gt;&#xA;&lt;p&gt;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Posted: Lecture 2&lt;/p&gt;&#xA;&lt;p&gt;Due: Lecture 5&lt;/p&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit2_29s15_ps2_sp2015_v4/index.html&#34;&gt;Problem Set 2 (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/lyn_sys_solver-m/index.html&#34;&gt;Lyn_sys_solver.M (M)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Posted: Lecture 5&lt;/p&gt;&#xA;&lt;p&gt;Due: Lecture 9&lt;/p&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit2_29s15_ps3_sp2015_v1/index.html&#34;&gt;Problem Set 3 (PDF)&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

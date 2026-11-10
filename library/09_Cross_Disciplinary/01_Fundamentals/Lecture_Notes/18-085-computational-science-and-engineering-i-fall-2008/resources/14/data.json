@@ -1,0 +1,27 @@
+{
+  "content": "<p>Thumbnail image accompanying a video lecture that provides a review of materials for an exam on computational science and engineering.</p>\n",
+  "content_type": "resource",
+  "description": "Thumbnail image accompanying a video lecture that provides a review of materials for an exam on computational science and engineering.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/16cc2b60f62f4e057a6400b996f6a7aa_14.jpg",
+  "file_size": 2324,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Lecture 14",
+  "uid": "16cc2b60-f62f-4e05-7a64-00b996f6a7aa",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "content": "<p>Thumbnail image accompanying a video lecture on eigenvalues and eigenvectors.</p>\n",
+  "content_type": "resource",
+  "description": "Thumbnail image accompanying a video lecture on eigenvalues and eigenvectors.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/b0433e5acb7bdbca5dfaac1c10cf83d7_5.jpg",
+  "file_size": 2842,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Lecture 5",
+  "uid": "b0433e5a-cb7b-dbca-5dfa-ac1c10cf83d7",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

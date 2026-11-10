@@ -1,0 +1,5016 @@
+1
+00:00:00,000 --> 00:00:02,520
+The following content is
+provided under a Creative
+
+2
+00:00:02,520 --> 00:00:03,970
+Commons license.
+
+3
+00:00:03,970 --> 00:00:06,330
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:06,330 --> 00:00:10,660
+continue to offer high-quality
+educational resources for free.
+
+5
+00:00:10,660 --> 00:00:13,320
+To make a donation or
+view additional materials
+
+6
+00:00:13,320 --> 00:00:17,170
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:17,170 --> 00:00:18,370
+at ocw.mit.edu.
+
+8
+00:00:21,672 --> 00:00:22,380
+RUSS TEDRAKE: OK.
+
+9
+00:00:22,380 --> 00:00:23,100
+Welcome back.
+
+10
+00:00:26,010 --> 00:00:27,750
+Since we ended abruptly,
+I want to start
+
+11
+00:00:27,750 --> 00:00:30,990
+with a recap of last time.
+
+12
+00:00:30,990 --> 00:00:34,020
+And then we've got a lot
+of new ground to cover.
+
+13
+00:00:34,020 --> 00:00:43,350
+So remember last
+time, we considered
+
+14
+00:00:43,350 --> 00:00:50,550
+the system q double dot equals
+u, which is of a general form,
+
+15
+00:00:50,550 --> 00:00:54,720
+just a linear feedback system,
+which is state space form
+
+16
+00:00:54,720 --> 00:01:00,060
+looks like this, where it
+happens that a and b are
+
+17
+00:01:00,060 --> 00:01:01,050
+particularly simple.
+
+18
+00:01:03,780 --> 00:01:06,520
+And we looked at designing--
+
+19
+00:01:06,520 --> 00:01:08,020
+let's not say
+designing controller--
+
+20
+00:01:08,020 --> 00:01:10,890
+we looked at reshaping
+the phase space
+
+21
+00:01:10,890 --> 00:01:12,850
+a couple of different ways.
+
+22
+00:01:12,850 --> 00:01:17,700
+The first way, which is the
+sort of 6.302 way, maybe,
+
+23
+00:01:17,700 --> 00:01:21,660
+would be designing sort
+of by pole placement,
+
+24
+00:01:21,660 --> 00:01:26,610
+by designing feedback gains
+possibly by hand, possibly
+
+25
+00:01:26,610 --> 00:01:28,960
+by a root locus analysis.
+
+26
+00:01:28,960 --> 00:01:44,700
+So we looked at manually
+designing some linear feedback
+
+27
+00:01:44,700 --> 00:01:48,750
+law, u equals negative Kx.
+
+28
+00:01:48,750 --> 00:02:00,040
+And we did things like plotting
+the phase portrait, which
+
+29
+00:02:00,040 --> 00:02:16,810
+gave us for q, q dot
+a phase portrait that
+
+30
+00:02:16,810 --> 00:02:33,090
+looked like this, where this has
+an eigenvalue of negative 3.75
+
+31
+00:02:33,090 --> 00:02:39,330
+approximately, and this one had
+an eigenvalue of negative 0.25.
+
+32
+00:02:39,330 --> 00:02:43,815
+This was all for K equals 1, 4.
+
+33
+00:02:46,440 --> 00:02:47,700
+OK.
+
+34
+00:02:47,700 --> 00:02:53,130
+And we ended up seeing that
+just from that quick analysis
+
+35
+00:02:53,130 --> 00:02:56,220
+we could see phase portraits
+which looked like this.
+
+36
+00:02:56,220 --> 00:02:58,680
+They come across the
+origin, and then they'd
+
+37
+00:02:58,680 --> 00:03:01,120
+hook in towards the goal.
+
+38
+00:03:04,350 --> 00:03:05,622
+And similarly here.
+
+39
+00:03:05,622 --> 00:03:07,830
+This one's so much faster
+that it would go like this.
+
+40
+00:03:12,340 --> 00:03:15,570
+Then we looked at
+an optimal control
+
+41
+00:03:15,570 --> 00:03:18,930
+way of solving the same thing.
+
+42
+00:03:18,930 --> 00:03:38,220
+We looked at doing a minimum
+time optimal control approach,
+
+43
+00:03:38,220 --> 00:03:41,430
+not specifically so that
+we could get there faster,
+
+44
+00:03:41,430 --> 00:03:45,135
+even though "minimum time"
+is in the name, because here
+
+45
+00:03:45,135 --> 00:03:47,010
+remember, we could get
+there arbitrarily fast
+
+46
+00:03:47,010 --> 00:03:50,190
+by just cranking K as high
+as we wanted, but actually
+
+47
+00:03:50,190 --> 00:03:53,250
+for trying to do something
+a little bit smarter, which
+
+48
+00:03:53,250 --> 00:03:57,630
+is get there in minimum time
+when I have an extra constraint
+
+49
+00:03:57,630 --> 00:04:00,720
+that u was bounded, in the
+case we looked at yesterday
+
+50
+00:04:00,720 --> 00:04:04,680
+was bounded by negative 1, 1.
+
+51
+00:04:04,680 --> 00:04:08,250
+And in that case when
+u was bounded, now
+
+52
+00:04:08,250 --> 00:04:10,270
+the minimum time problem
+becomes nontrivial.
+
+53
+00:04:10,270 --> 00:04:13,380
+It's not just crank
+the gains to infinity.
+
+54
+00:04:13,380 --> 00:04:19,079
+And we had to use some
+better thinking about it.
+
+55
+00:04:19,079 --> 00:04:28,980
+And the result was a phase
+portrait which actually, I
+
+56
+00:04:28,980 --> 00:04:30,990
+don't know if you
+left realizing,
+
+57
+00:04:30,990 --> 00:04:36,880
+it didn't look that
+different in some ways.
+
+58
+00:04:36,880 --> 00:04:42,840
+Remember, we had these
+switching surfaces defined here.
+
+59
+00:04:46,620 --> 00:04:56,820
+And above this, we'd execute one
+policy, one bang-bang solution.
+
+60
+00:04:56,820 --> 00:05:01,500
+And then below it we'd
+execute another one.
+
+61
+00:05:01,500 --> 00:05:03,900
+And the resulting system
+trajectories-- remember,
+
+62
+00:05:03,900 --> 00:05:08,280
+this one hooked down across the
+origin and went into the goal
+
+63
+00:05:08,280 --> 00:05:09,600
+like that.
+
+64
+00:05:09,600 --> 00:05:13,770
+This one really did exactly
+the same thing, right?
+
+65
+00:05:13,770 --> 00:05:15,600
+They would start over here.
+
+66
+00:05:15,600 --> 00:05:18,030
+They'd hook down here with--
+
+67
+00:05:18,030 --> 00:05:21,935
+this time they'd explicitly
+hit that switching surface
+
+68
+00:05:21,935 --> 00:05:23,310
+and then ride that
+into the goal.
+
+69
+00:05:26,780 --> 00:05:31,230
+So it's a little bit of a
+sharper result, possibly,
+
+70
+00:05:31,230 --> 00:05:32,160
+than the other one.
+
+71
+00:05:32,160 --> 00:05:38,520
+And that final surface was a
+curve instead of this line.
+
+72
+00:05:38,520 --> 00:05:43,470
+And for that, we got to
+have good performance
+
+73
+00:05:43,470 --> 00:05:45,150
+with bounded torques.
+
+74
+00:05:48,810 --> 00:05:56,640
+Now, we also did the
+first of two ways
+
+75
+00:05:56,640 --> 00:05:59,610
+that we're going to use
+to sort of analytically
+
+76
+00:05:59,610 --> 00:06:01,230
+investigate optimality.
+
+77
+00:06:07,005 --> 00:06:08,255
+AUDIENCE: Can I interrupt you?
+
+78
+00:06:08,255 --> 00:06:10,410
+RUSS TEDRAKE: Anytime, yeah.
+
+79
+00:06:10,410 --> 00:06:13,980
+AUDIENCE: Was there a good
+reason we just-- basically said
+
+80
+00:06:13,980 --> 00:06:17,544
+we want to do linear
+feedback there?
+
+81
+00:06:17,544 --> 00:06:20,730
+Could we have done
+like x1 times x2?
+
+82
+00:06:20,730 --> 00:06:22,440
+RUSS TEDRAKE: Good, yeah.
+
+83
+00:06:22,440 --> 00:06:24,490
+Because-- well, there's
+a lot of good reasons.
+
+84
+00:06:24,490 --> 00:06:28,570
+So it's because then the closed
+loop dynamics are linear,
+
+85
+00:06:28,570 --> 00:06:32,340
+and we can analyze them
+in every way, including
+
+86
+00:06:32,340 --> 00:06:34,500
+making these plots in
+ways that I couldn't have
+
+87
+00:06:34,500 --> 00:06:35,970
+done if this was nonlinear.
+
+88
+00:06:39,523 --> 00:06:41,940
+Another answer would be that
+this is what 90% of the world
+
+89
+00:06:41,940 --> 00:06:45,210
+would have done, if
+that's satisfying at all.
+
+90
+00:06:45,210 --> 00:06:49,200
+I think that's the
+dominant way of sort
+
+91
+00:06:49,200 --> 00:06:51,540
+of thinking about these things.
+
+92
+00:06:51,540 --> 00:06:55,410
+x1 times x2 is comparably
+much harder to reason about,
+
+93
+00:06:55,410 --> 00:06:56,163
+actually.
+
+94
+00:06:56,163 --> 00:06:57,371
+AUDIENCE: I totally get that.
+
+95
+00:06:57,371 --> 00:07:00,090
+But is there like a system
+that the optimal control that
+
+96
+00:07:00,090 --> 00:07:04,095
+lies in the space that
+you have to take into
+
+97
+00:07:04,095 --> 00:07:06,398
+account these different
+approximations.
+
+98
+00:07:06,398 --> 00:07:07,190
+RUSS TEDRAKE: Good.
+
+99
+00:07:07,190 --> 00:07:12,500
+So this is an example of
+a nonlinear controller.
+
+100
+00:07:12,500 --> 00:07:14,840
+It happens that the
+actual control action
+
+101
+00:07:14,840 --> 00:07:17,810
+is either 1 or negative 1.
+
+102
+00:07:17,810 --> 00:07:21,500
+But the decision plane
+is very nonlinear.
+
+103
+00:07:21,500 --> 00:07:25,620
+So that's absolutely a
+nonlinear controller.
+
+104
+00:07:25,620 --> 00:07:26,660
+It came out of linear--
+
+105
+00:07:26,660 --> 00:07:29,450
+out of optimal control
+on a linear system.
+
+106
+00:07:29,450 --> 00:07:32,040
+But the result is a
+nonlinear controller.
+
+107
+00:07:32,040 --> 00:07:32,540
+OK.
+
+108
+00:07:35,130 --> 00:07:37,048
+Now, certain classes of
+nonlinear controllers
+
+109
+00:07:37,048 --> 00:07:39,090
+are going to pop out and
+be easier to think about
+
+110
+00:07:39,090 --> 00:07:41,610
+than the broad class.
+
+111
+00:07:41,610 --> 00:07:44,910
+But we're going to see lots of
+instances as quickly as we can.
+
+112
+00:07:50,020 --> 00:07:50,520
+OK.
+
+113
+00:07:50,520 --> 00:07:55,740
+So we did-- we actually got that
+curve by thinking just about--
+
+114
+00:07:55,740 --> 00:08:00,155
+just using our intuition to
+reason about bang-bang control.
+
+115
+00:08:00,155 --> 00:08:01,530
+At the end, I
+started to show you
+
+116
+00:08:01,530 --> 00:08:06,360
+that the same thing comes out of
+what I call solution technique
+
+117
+00:08:06,360 --> 00:08:09,360
+1 here.
+
+118
+00:08:13,830 --> 00:08:16,590
+I wouldn't call it that
+outside of the room.
+
+119
+00:08:16,590 --> 00:08:19,770
+That's just me being
+clear here, which
+
+120
+00:08:19,770 --> 00:08:23,388
+was based on Pontryagin's
+minimum principle.
+
+121
+00:08:37,320 --> 00:08:41,674
+Which in this case, is
+nothing more than just--
+
+122
+00:08:41,674 --> 00:08:43,049
+let's write it
+down, exactly what
+
+123
+00:08:43,049 --> 00:08:44,299
+we mean by this cost function.
+
+124
+00:08:47,240 --> 00:08:50,370
+We have some-- let me be
+a little bit more loose.
+
+125
+00:08:50,370 --> 00:08:54,000
+We have J, some cost
+function we want to optimize,
+
+126
+00:08:54,000 --> 00:09:00,780
+which is a finite
+time integral of 1 dt.
+
+127
+00:09:00,780 --> 00:09:06,180
+That sounds ridiculous, but
+we're just optimizing time.
+
+128
+00:09:06,180 --> 00:09:11,010
+But we want to optimize that
+subject to the constraints
+
+129
+00:09:11,010 --> 00:09:17,520
+that x dot equals f of
+x u, which in this case
+
+130
+00:09:17,520 --> 00:09:28,580
+is our linear system;
+and the constraint that u
+
+131
+00:09:28,580 --> 00:09:38,240
+was negative 1 in that regime;
+and the constraint that at time
+
+132
+00:09:38,240 --> 00:09:40,880
+t, x t had better
+be at the origin.
+
+133
+00:09:44,150 --> 00:09:45,950
+Given those
+constraints, we can say
+
+134
+00:09:45,950 --> 00:09:54,275
+let's minimize T. We're going
+to minimize that J, sorry.
+
+135
+00:09:54,275 --> 00:09:55,940
+I already got the
+t in there, so.
+
+136
+00:09:55,940 --> 00:10:04,490
+Minimize with respect to
+the trajectory in x, u,
+
+137
+00:10:04,490 --> 00:10:06,140
+that cost function.
+
+138
+00:10:06,140 --> 00:10:11,060
+I use this overbar to
+denote the entire time
+
+139
+00:10:11,060 --> 00:10:18,680
+history of a variable like x
+t1 to t final, or something
+
+140
+00:10:18,680 --> 00:10:20,090
+like this-- time t0 to t final.
+
+141
+00:10:24,700 --> 00:10:25,270
+OK.
+
+142
+00:10:25,270 --> 00:10:26,645
+That's how we set
+up the problem.
+
+143
+00:10:26,645 --> 00:10:28,680
+It's just optimizing
+some function
+
+144
+00:10:28,680 --> 00:10:33,040
+but subject to a
+handful of constraints.
+
+145
+00:10:33,040 --> 00:10:36,250
+Pontryagin's minimum
+principle is nothing more
+
+146
+00:10:36,250 --> 00:10:39,340
+than putting Lagrange
+multipliers to work
+
+147
+00:10:39,340 --> 00:10:41,800
+to turn that
+constrained optimization
+
+148
+00:10:41,800 --> 00:10:46,180
+into unconstrained optimization.
+
+149
+00:10:46,180 --> 00:10:58,270
+And for this problem, we can
+build our augmented system
+
+150
+00:10:58,270 --> 00:11:03,540
+I'll call J prime here,
+which just is the same thing
+
+151
+00:11:03,540 --> 00:11:05,320
+but taking in the constraints.
+
+152
+00:11:05,320 --> 00:11:08,670
+So first of all, we've got a
+constraint on x T equaling 0.
+
+153
+00:11:08,670 --> 00:11:11,100
+So I can put that in as
+a Lagrange multiplier,
+
+154
+00:11:11,100 --> 00:11:14,370
+let's say lambda times something
+that better equal 0, which
+
+155
+00:11:14,370 --> 00:11:17,940
+in this case was
+just x t And then
+
+156
+00:11:17,940 --> 00:11:26,760
+plus 0 to t1 plus the
+constraint on the dynamics,
+
+157
+00:11:26,760 --> 00:11:29,940
+which I'll call it a different
+Lagrange multiplier p,
+
+158
+00:11:29,940 --> 00:11:37,517
+times f of x, u minus x
+dot, this whole thing dt.
+
+159
+00:11:42,190 --> 00:11:42,760
+Yes?
+
+160
+00:11:42,760 --> 00:11:43,760
+AUDIENCE: How do you
+impose the constraint
+
+161
+00:11:43,760 --> 00:11:44,680
+that u is [INAUDIBLE]?
+
+162
+00:11:44,680 --> 00:11:45,597
+RUSS TEDRAKE: Awesome.
+
+163
+00:11:45,597 --> 00:11:46,910
+Good question.
+
+164
+00:11:46,910 --> 00:11:51,020
+So it turns out what
+we're going to look at--
+
+165
+00:11:51,020 --> 00:11:54,160
+we want to verify that
+this thing is optimal.
+
+166
+00:11:54,160 --> 00:11:56,620
+So you might want to put that
+constraint right in here.
+
+167
+00:11:56,620 --> 00:11:59,870
+But it actually
+is more natural--
+
+168
+00:11:59,870 --> 00:12:02,570
+here, let me finish
+my statement here.
+
+169
+00:12:02,570 --> 00:12:06,920
+The way we're going to verify
+optimality of this policy
+
+170
+00:12:06,920 --> 00:12:12,380
+is by verifying that we're at
+a local minimum in J prime.
+
+171
+00:12:12,380 --> 00:12:17,090
+I want to say that if I
+change x, If I change u,
+
+172
+00:12:17,090 --> 00:12:24,757
+if I change p in any admissible
+way, then J is going to change.
+
+173
+00:12:24,757 --> 00:12:26,840
+Small changes in here is
+not going to change this.
+
+174
+00:12:26,840 --> 00:12:28,215
+I'm at a local
+minima in J prime.
+
+175
+00:12:31,195 --> 00:12:34,398
+That's the minimum
+principle idea, right?
+
+176
+00:12:34,398 --> 00:12:36,440
+I just want my-- if I'm
+at a minimum of function,
+
+177
+00:12:36,440 --> 00:12:37,820
+the gradient is 0.
+
+178
+00:12:37,820 --> 00:12:40,220
+In the Lagrange
+multiplier, the minimum
+
+179
+00:12:40,220 --> 00:12:43,430
+of this augmented function,
+the gradient had to be 0.
+
+180
+00:12:43,430 --> 00:12:46,400
+So if I change any of
+these, I want that to be--
+
+181
+00:12:46,400 --> 00:12:50,420
+that change to be 0.
+
+182
+00:12:50,420 --> 00:12:53,660
+So it turns out that
+the more natural way
+
+183
+00:12:53,660 --> 00:12:59,352
+to look at this
+bound in u is by not
+
+184
+00:12:59,352 --> 00:13:01,810
+changing-- not allowing u to
+change outside of that regime.
+
+185
+00:13:07,610 --> 00:13:09,960
+This is actually
+fairly procedural.
+
+186
+00:13:09,960 --> 00:13:12,290
+So you end up
+doing this calculus
+
+187
+00:13:12,290 --> 00:13:15,530
+of variations on J prime.
+
+188
+00:13:15,530 --> 00:13:17,998
+But I actually-- I made
+a call earlier today.
+
+189
+00:13:17,998 --> 00:13:20,540
+I think it's going to-- if I do
+it right now in the beginning
+
+190
+00:13:20,540 --> 00:13:22,040
+in class, I'm going
+to lose you to--
+
+191
+00:13:22,040 --> 00:13:25,280
+I mean, I'm going to
+bore you and lose you.
+
+192
+00:13:25,280 --> 00:13:28,160
+But it's in the
+notes, and it's clean.
+
+193
+00:13:28,160 --> 00:13:30,380
+So I'm going to
+leave that hanging
+
+194
+00:13:30,380 --> 00:13:32,630
+and let you look
+at it in the notes
+
+195
+00:13:32,630 --> 00:13:36,770
+without typos that I might
+put up on the board, OK?
+
+196
+00:13:36,770 --> 00:13:40,340
+Because I want to move on
+to the dynamic programming
+
+197
+00:13:40,340 --> 00:13:43,250
+view of the world, sort of
+the other possible solution
+
+198
+00:13:43,250 --> 00:13:44,134
+technique.
+
+199
+00:13:50,070 --> 00:13:51,500
+OK.
+
+200
+00:13:51,500 --> 00:13:56,330
+So today, we're going to do--
+
+201
+00:13:56,330 --> 00:13:58,580
+you can think of it as just
+solution technique 2 here.
+
+202
+00:14:04,550 --> 00:14:08,465
+And it's based on
+dynamic programming.
+
+203
+00:14:20,597 --> 00:14:22,430
+Now, the computer
+scientists in the audience
+
+204
+00:14:22,430 --> 00:14:24,742
+say, I know dynamic programming.
+
+205
+00:14:24,742 --> 00:14:27,200
+It's how I find the shortest
+path between point A and point
+
+206
+00:14:27,200 --> 00:14:30,200
+B without reusing memory,
+and things like that.
+
+207
+00:14:30,200 --> 00:14:31,740
+And you're exactly right.
+
+208
+00:14:31,740 --> 00:14:33,225
+That's exactly what it is.
+
+209
+00:14:33,225 --> 00:14:34,850
+It happens that the
+dynamic programming
+
+210
+00:14:34,850 --> 00:14:40,580
+has a slightly bigger
+footprint in the world.
+
+211
+00:14:40,580 --> 00:14:43,340
+There's a continuous form
+of dynamic programming.
+
+212
+00:14:43,340 --> 00:14:44,470
+OK.
+
+213
+00:14:44,470 --> 00:14:46,490
+So a graph search is
+a very discrete form
+
+214
+00:14:46,490 --> 00:14:48,110
+of dynamic programming.
+
+215
+00:14:48,110 --> 00:14:49,610
+So I'm going to
+start with sort of--
+
+216
+00:14:49,610 --> 00:14:52,152
+I'm actually going to work from
+the graph search sort of view
+
+217
+00:14:52,152 --> 00:14:54,350
+of the world, but to make
+the continuous form that
+
+218
+00:14:54,350 --> 00:14:58,490
+works for these continuous
+dynamical systems.
+
+219
+00:14:58,490 --> 00:15:03,530
+And we're going to use this to
+investigate a different cost
+
+220
+00:15:03,530 --> 00:15:30,620
+function, which is just this--
+
+221
+00:15:30,620 --> 00:15:42,860
+still subject to the
+dynamics, which in this case
+
+222
+00:15:42,860 --> 00:15:44,495
+was the linear dynamics.
+
+223
+00:15:51,420 --> 00:15:51,920
+OK.
+
+224
+00:15:56,900 --> 00:15:59,858
+So before we worry
+about solving it,
+
+225
+00:15:59,858 --> 00:16:02,150
+let's take a minute to decide
+if it's a reasonable cost
+
+226
+00:16:02,150 --> 00:16:02,650
+function.
+
+227
+00:16:07,040 --> 00:16:10,380
+It's different in
+a couple of ways.
+
+228
+00:16:10,380 --> 00:16:14,000
+First of all, there's
+no hard limit on u.
+
+229
+00:16:14,000 --> 00:16:17,450
+But I do penalize for
+u being away from 0.
+
+230
+00:16:20,930 --> 00:16:25,760
+So it's sort of a softer
+penalty on u, not a hard limit.
+
+231
+00:16:25,760 --> 00:16:28,557
+And then these terms
+are penalizing it
+
+232
+00:16:28,557 --> 00:16:30,890
+from being-- the system from
+being away from the origin.
+
+233
+00:16:34,160 --> 00:16:36,140
+And instead of going
+for some finite time
+
+234
+00:16:36,140 --> 00:16:42,180
+and minimizing time, I'm going
+to go for an infinite horizon.
+
+235
+00:16:42,180 --> 00:16:47,270
+So the only way to drive this
+thing, the only way, actually,
+
+236
+00:16:47,270 --> 00:16:53,510
+for J to be a finite cost
+over this infinite integral,
+
+237
+00:16:53,510 --> 00:16:59,862
+is if q and q dot get to
+0, and you do u of 0 at 0.
+
+238
+00:16:59,862 --> 00:17:01,570
+Otherwise, this thing's
+going to blow up.
+
+239
+00:17:01,570 --> 00:17:03,690
+It's going to be an
+infinite integral.
+
+240
+00:17:03,690 --> 00:17:05,569
+So the solution
+had better result
+
+241
+00:17:05,569 --> 00:17:08,630
+in us getting to the
+origin, it turns out.
+
+242
+00:17:08,630 --> 00:17:11,480
+But I'm not trying to
+explicitly minimize the time.
+
+243
+00:17:11,480 --> 00:17:13,160
+I'm just penalizing
+it for being away,
+
+244
+00:17:13,160 --> 00:17:16,910
+and I'm penalizing
+it for taking action.
+
+245
+00:17:16,910 --> 00:17:23,900
+Now, what's the name of
+this type of control?
+
+246
+00:17:23,900 --> 00:17:26,180
+Who knows is?
+
+247
+00:17:26,180 --> 00:17:27,650
+I think-- yeah, LQR, right?
+
+248
+00:17:27,650 --> 00:17:29,872
+So this is a Linear
+Quadratic Regulator.
+
+249
+00:17:40,970 --> 00:17:42,410
+OK.
+
+250
+00:17:42,410 --> 00:17:44,210
+It's a staple of--
+
+251
+00:17:44,210 --> 00:17:49,040
+it's sort of the best, most used
+result from optimal control.
+
+252
+00:17:49,040 --> 00:17:52,873
+Everybody opens up
+Matlab and calls lqr.
+
+253
+00:17:52,873 --> 00:17:54,290
+But you're going
+to understand it.
+
+254
+00:17:59,380 --> 00:17:59,880
+Good.
+
+255
+00:17:59,880 --> 00:18:05,310
+But to do LQR, to understand
+how that derivation works,
+
+256
+00:18:05,310 --> 00:18:07,977
+we've got to do-- we're going to
+go through dynamic programming.
+
+257
+00:18:11,386 --> 00:18:14,795
+AUDIENCE: Couldn't we use
+the same cost function
+
+258
+00:18:14,795 --> 00:18:15,378
+there as well?
+
+259
+00:18:15,378 --> 00:18:16,295
+RUSS TEDRAKE: Awesome.
+
+260
+00:18:16,295 --> 00:18:16,920
+OK.
+
+261
+00:18:16,920 --> 00:18:19,170
+So why don't I put that cost
+function down and just do
+
+262
+00:18:19,170 --> 00:18:22,220
+Pontryagin's minimum principal?
+
+263
+00:18:22,220 --> 00:18:24,940
+There's only one sort
+of subtle reason,
+
+264
+00:18:24,940 --> 00:18:27,930
+which is that that's an
+infinite horizon cost.
+
+265
+00:18:31,337 --> 00:18:32,920
+So I was going to
+say this at the end,
+
+266
+00:18:32,920 --> 00:18:34,890
+but let's have this
+discussion now.
+
+267
+00:18:34,890 --> 00:18:37,470
+So this is an infinite horizon.
+
+268
+00:18:37,470 --> 00:18:42,360
+Pontryagin's is used to
+verify the optimality
+
+269
+00:18:42,360 --> 00:18:44,580
+of some finite integral.
+
+270
+00:18:48,000 --> 00:18:53,520
+So let's compare-- well,
+I know you know value--
+
+271
+00:18:53,520 --> 00:18:54,850
+the dynamic programming.
+
+272
+00:18:54,850 --> 00:18:56,400
+So maybe let me say what
+dynamic programming is,
+
+273
+00:18:56,400 --> 00:18:57,510
+and then I'll contrast them.
+
+274
+00:18:57,510 --> 00:18:58,010
+Yeah.
+
+275
+00:19:07,070 --> 00:19:10,213
+But the people sort of--
+
+276
+00:19:10,213 --> 00:19:11,880
+I just want to
+understand what happened.
+
+277
+00:19:11,880 --> 00:19:14,000
+We got two different
+cost functions,
+
+278
+00:19:14,000 --> 00:19:15,898
+two different solution
+techniques for now.
+
+279
+00:19:15,898 --> 00:19:17,690
+And we're going to
+address in a few minutes
+
+280
+00:19:17,690 --> 00:19:20,330
+why I did different
+solution techniques
+
+281
+00:19:20,330 --> 00:19:21,840
+for the different
+cost functions.
+
+282
+00:19:21,840 --> 00:19:24,260
+But I hope they both seem
+like sort of reasonable cost
+
+283
+00:19:24,260 --> 00:19:28,220
+functions if I want to get
+my system to the origin.
+
+284
+00:19:28,220 --> 00:19:30,470
+Different-- we're going to
+look at what the result is,
+
+285
+00:19:30,470 --> 00:19:31,430
+the different results.
+
+286
+00:19:31,430 --> 00:19:33,430
+And actually, something
+I want to leave you with
+
+287
+00:19:33,430 --> 00:19:36,733
+is that you can, in fact, do
+lots of different combinations
+
+288
+00:19:36,733 --> 00:19:37,400
+of these things.
+
+289
+00:19:37,400 --> 00:19:42,761
+You could do quadratic costs and
+try to have some minimum time.
+
+290
+00:19:42,761 --> 00:19:46,740
+There's lots and lots of ways to
+formulate these cost functions.
+
+291
+00:19:46,740 --> 00:19:51,950
+These are two sort
+of examples, but you
+
+292
+00:19:51,950 --> 00:19:55,480
+can do minimum time LQR,
+you can do all these things.
+
+293
+00:19:55,480 --> 00:19:56,078
+OK.
+
+294
+00:19:56,078 --> 00:19:57,620
+But with the way
+we're going to drive
+
+295
+00:19:57,620 --> 00:20:00,380
+the LQR controller
+is by thinking
+
+296
+00:20:00,380 --> 00:20:02,060
+about dynamic programming.
+
+297
+00:20:02,060 --> 00:20:04,370
+And to do that, let me start
+with the discrete world,
+
+298
+00:20:04,370 --> 00:20:05,870
+where people-- where
+it makes sense.
+
+299
+00:20:08,772 --> 00:20:10,730
+So let's imagine I have
+a discrete time system.
+
+300
+00:20:23,120 --> 00:20:30,420
+So x of n plus 1
+is f of x n u n.
+
+301
+00:20:37,626 --> 00:20:39,125
+And I have some cost function.
+
+302
+00:20:42,180 --> 00:20:44,718
+Now remember, in the
+Pontryagin minimum principle,
+
+303
+00:20:44,718 --> 00:20:46,760
+which shows that there's
+a sort of a general form
+
+304
+00:20:46,760 --> 00:20:48,320
+that a lot of these
+cost functions
+
+305
+00:20:48,320 --> 00:20:56,270
+take in the discrete form,
+it's h of x at capital
+
+306
+00:20:56,270 --> 00:21:03,660
+N plus a sum instead
+of an integral of n
+
+307
+00:21:03,660 --> 00:21:12,220
+equals 0 to N minus
+1 g of x n u n.
+
+308
+00:21:21,270 --> 00:21:21,770
+OK.
+
+309
+00:21:24,940 --> 00:21:33,760
+Now, again, I said this sort of
+additive form of cost functions
+
+310
+00:21:33,760 --> 00:21:34,745
+is pretty common.
+
+311
+00:21:34,745 --> 00:21:37,120
+And you're going to see right
+now one of the reasons why.
+
+312
+00:21:37,120 --> 00:21:40,150
+The great thing about
+having these costs that
+
+313
+00:21:40,150 --> 00:21:43,120
+accumulate additively
+over the trajectory
+
+314
+00:21:43,120 --> 00:21:49,600
+is that I can make a recursive
+form of this equation.
+
+315
+00:21:49,600 --> 00:21:52,080
+So in particular, if I--
+
+316
+00:21:52,080 --> 00:21:54,250
+so I should call
+this, really, what
+
+317
+00:21:54,250 --> 00:22:01,390
+I've been calling J, that's
+really the J of being at x 0
+
+318
+00:22:01,390 --> 00:22:02,380
+at time 0.
+
+319
+00:22:06,850 --> 00:22:12,490
+And I can compute J of
+being at x 0 at time 0
+
+320
+00:22:12,490 --> 00:22:16,990
+and incurring the rest
+of the cost recursively
+
+321
+00:22:16,990 --> 00:22:20,620
+by looking at what it would
+be like to be at some state
+
+322
+00:22:20,620 --> 00:22:21,610
+x at time N--
+
+323
+00:22:26,340 --> 00:22:32,267
+and that in this case
+is just h of x of n--
+
+324
+00:22:32,267 --> 00:22:34,350
+and then thinking about
+what it would be like at--
+
+325
+00:22:34,350 --> 00:22:38,070
+to be at some J of x N minus 1--
+
+326
+00:22:42,030 --> 00:22:51,210
+and that's going to be g of
+x n minus 1 u of n minus 1
+
+327
+00:22:51,210 --> 00:22:53,820
+plus h of x n.
+
+328
+00:23:03,900 --> 00:23:06,000
+Let me be even more careful.
+
+329
+00:23:06,000 --> 00:23:07,980
+And I'm going to
+say, let's evaluate
+
+330
+00:23:07,980 --> 00:23:17,022
+the cost of running
+a particular policy,
+
+331
+00:23:17,022 --> 00:23:21,976
+u n is just some pi of J of x n.
+
+332
+00:23:21,976 --> 00:23:24,416
+AUDIENCE: Sorry, why
+is the first x a 0,
+
+333
+00:23:24,416 --> 00:23:26,856
+and then the rest of
+the x's [INAUDIBLE]??
+
+334
+00:23:30,512 --> 00:23:31,220
+RUSS TEDRAKE: OK.
+
+335
+00:23:31,220 --> 00:23:34,100
+So why did I put x 0 here?
+
+336
+00:23:34,100 --> 00:23:35,220
+That was intentional.
+
+337
+00:23:35,220 --> 00:23:38,512
+I'm trying to make x 0 the
+variable that fits in here.
+
+338
+00:23:38,512 --> 00:23:40,220
+Here x is the variable
+that fits in here.
+
+339
+00:23:40,220 --> 00:23:42,220
+But you're right, I could
+be a little bit more--
+
+340
+00:23:42,220 --> 00:23:44,110
+I should be more careful.
+
+341
+00:23:44,110 --> 00:23:48,830
+So now J, a function of
+this variable x at time N
+
+342
+00:23:48,830 --> 00:23:50,390
+should really just be h of x.
+
+343
+00:23:50,390 --> 00:23:51,910
+Yeah, good.
+
+344
+00:23:51,910 --> 00:23:54,320
+So then this is--
+
+345
+00:23:54,320 --> 00:23:56,580
+I could say it this way.
+
+346
+00:23:56,580 --> 00:24:01,400
+The other way I could say
+it is J x minus 1 equals x.
+
+347
+00:24:01,400 --> 00:24:03,320
+Maybe that's the best
+way to rectify it.
+
+348
+00:24:11,960 --> 00:24:13,030
+OK.
+
+349
+00:24:13,030 --> 00:24:20,410
+And when I'm evaluating the
+cost of a particular policy,
+
+350
+00:24:20,410 --> 00:24:27,220
+I'm going to use the
+notation J pi here,
+
+351
+00:24:27,220 --> 00:24:30,190
+say this is the cost I
+should expect to receive
+
+352
+00:24:30,190 --> 00:24:33,370
+given I'm in some state x.
+
+353
+00:24:33,370 --> 00:24:36,162
+To make it even more
+satisfying, let's just
+
+354
+00:24:36,162 --> 00:24:37,120
+be the same everywhere.
+
+355
+00:24:37,120 --> 00:24:43,675
+This is x 0, and here
+I'll say x 0 equals my x.
+
+356
+00:24:46,360 --> 00:24:51,340
+If I'm in some state x at
+time 0 executing policy pi,
+
+357
+00:24:51,340 --> 00:24:53,770
+I'm going to incur this cost.
+
+358
+00:24:53,770 --> 00:24:59,770
+If I'm at some state x at
+time N incurring this--
+
+359
+00:24:59,770 --> 00:25:03,970
+taking this policy,
+I'm going to get this.
+
+360
+00:25:03,970 --> 00:25:06,040
+Here I'm going to get this.
+
+361
+00:25:06,040 --> 00:25:10,420
+And even when I'm
+executing policy pi,
+
+362
+00:25:10,420 --> 00:25:13,780
+I can even furthermore
+say that x n
+
+363
+00:25:13,780 --> 00:25:21,850
+is f of x n minus 1
+pi of x n minus 1.
+
+364
+00:25:24,980 --> 00:25:26,980
+It's probably impossible
+to read in that corner.
+
+365
+00:25:35,570 --> 00:25:36,070
+OK.
+
+366
+00:25:44,045 --> 00:25:45,670
+So you can see where
+I'm going with it.
+
+367
+00:25:50,740 --> 00:26:00,640
+It's pretty easy to see
+that J pi of x at some N
+
+368
+00:26:00,640 --> 00:26:07,330
+is just the one-step
+cost g of x n u
+
+369
+00:26:07,330 --> 00:26:24,980
+n plus the cost I expect to see
+given that x n plus 1 at time
+
+370
+00:26:24,980 --> 00:26:25,520
+equals 1.
+
+371
+00:26:41,730 --> 00:26:42,230
+OK.
+
+372
+00:26:48,630 --> 00:26:54,570
+So the reason we like these
+integral costs or the sum
+
+373
+00:26:54,570 --> 00:26:58,560
+of costs in the
+discrete time case
+
+374
+00:26:58,560 --> 00:27:03,780
+is because I can do these
+recursive computations.
+
+375
+00:27:03,780 --> 00:27:06,150
+And the same thing
+true if I look at--
+
+376
+00:27:06,150 --> 00:27:09,420
+if I define what
+the optimal cost is.
+
+377
+00:27:09,420 --> 00:27:15,720
+So let's now define J
+star to be the cost I
+
+378
+00:27:15,720 --> 00:27:34,430
+incur if I follow the optimal
+policy, which is pi star.
+
+379
+00:27:40,330 --> 00:27:43,060
+Well, it turns out
+the same thing works.
+
+380
+00:27:56,440 --> 00:28:00,920
+But now, there's
+an extra term here.
+
+381
+00:28:31,870 --> 00:28:32,370
+OK.
+
+382
+00:28:43,150 --> 00:28:48,250
+So it's easy to see that
+the cost of following
+
+383
+00:28:48,250 --> 00:28:52,750
+a particular policy
+is recursive.
+
+384
+00:28:52,750 --> 00:28:55,780
+It's more surprising
+that the cost
+
+385
+00:28:55,780 --> 00:28:58,930
+to go of the optimal
+policy is equally
+
+386
+00:28:58,930 --> 00:29:02,080
+recursive with a simple
+form like this, min over u.
+
+387
+00:29:05,500 --> 00:29:07,480
+And this actually follows
+from something called
+
+388
+00:29:07,480 --> 00:29:09,234
+the principle of optimality.
+
+389
+00:29:12,020 --> 00:29:14,500
+Anybody see the principle
+of optimality before?
+
+390
+00:29:14,500 --> 00:29:16,700
+OK.
+
+391
+00:29:16,700 --> 00:29:22,580
+It says that if I want to be
+optimal over some trajectory,
+
+392
+00:29:22,580 --> 00:29:25,397
+I'd better be optimal over--
+
+393
+00:29:25,397 --> 00:29:26,730
+from the end of that trajectory.
+
+394
+00:29:26,730 --> 00:29:32,588
+So if I want to be
+optimal for the last--
+
+395
+00:29:32,588 --> 00:29:35,720
+it's from n minus
+2 to the end, then
+
+396
+00:29:35,720 --> 00:29:38,930
+I'd better be optimal
+from n minus 1 to the end.
+
+397
+00:29:38,930 --> 00:29:43,340
+So it turns out if I act
+optimally in one step
+
+398
+00:29:43,340 --> 00:29:45,500
+by doing this min over
+u, and then follow
+
+399
+00:29:45,500 --> 00:29:50,840
+the policy of acting optimally
+for the rest of time, then
+
+400
+00:29:50,840 --> 00:29:55,310
+that's optimal for the
+entire function, OK?
+
+401
+00:30:17,290 --> 00:30:17,790
+OK.
+
+402
+00:30:21,490 --> 00:30:24,520
+OK, good.
+
+403
+00:30:24,520 --> 00:30:27,400
+So we've got a recursive form
+of this cost-to-go function
+
+404
+00:30:27,400 --> 00:30:32,920
+that we exploited with
+the additive thing,
+
+405
+00:30:32,920 --> 00:30:34,450
+the additive form.
+
+406
+00:30:34,450 --> 00:30:41,170
+And now, the optimal
+policy comes straight out.
+
+407
+00:30:52,540 --> 00:31:03,360
+The best thing to do, if
+you're in state x and a time n.
+
+408
+00:31:03,360 --> 00:31:18,510
+is just the arg min over
+u of g x, u plus J star
+
+409
+00:31:18,510 --> 00:31:30,270
+x, n plus 1 n plus 1 with that
+same x, n plus 1 defined by--
+
+410
+00:31:44,090 --> 00:31:46,430
+So in discrete time,
+optimal control is trivial.
+
+411
+00:31:46,430 --> 00:31:49,040
+If you have an additive cost
+function, all you have to do
+
+412
+00:31:49,040 --> 00:31:52,430
+is figure out what your
+cost is at the end,
+
+413
+00:31:52,430 --> 00:31:56,420
+and then go back one step,
+do the thing that acts--
+
+414
+00:31:56,420 --> 00:31:59,060
+that in one step
+minimizes the cost
+
+415
+00:31:59,060 --> 00:32:02,130
+and gets me to the lowest
+possible cost in the future.
+
+416
+00:32:02,130 --> 00:32:04,130
+And if I just do that
+recursively backwards,
+
+417
+00:32:04,130 --> 00:32:05,750
+I come up with
+the optimal policy
+
+418
+00:32:05,750 --> 00:32:09,860
+that gets me from any x
+in n steps to the end.
+
+419
+00:32:18,590 --> 00:32:21,310
+Does that make sense?
+
+420
+00:32:21,310 --> 00:32:22,460
+Ask questions.
+
+421
+00:32:31,100 --> 00:32:31,950
+Do people buy that?
+
+422
+00:32:31,950 --> 00:32:34,638
+Is that obvious, or does
+that need more explanation?
+
+423
+00:32:46,600 --> 00:32:47,900
+OK.
+
+424
+00:32:47,900 --> 00:32:49,670
+Ask questions if you have them.
+
+425
+00:32:49,670 --> 00:32:50,170
+All right.
+
+426
+00:32:50,170 --> 00:32:58,720
+So we're going to use the
+discrete time form again
+
+427
+00:32:58,720 --> 00:33:00,130
+when we get to the algorithms.
+
+428
+00:33:00,130 --> 00:33:02,290
+But I'm trying to use
+it today to leapfrog
+
+429
+00:33:02,290 --> 00:33:07,030
+into the continuous time
+conditions for optimality.
+
+430
+00:33:10,330 --> 00:33:13,180
+So what happens if we now do
+the same sort of discrete time
+
+431
+00:33:13,180 --> 00:33:17,650
+thinking, but do it in the limit
+where the time between steps
+
+432
+00:33:17,650 --> 00:33:18,970
+goes to 0?
+
+433
+00:33:22,270 --> 00:33:24,760
+So let me try to do the
+limiting argument to get us back
+
+434
+00:33:24,760 --> 00:33:25,600
+to continuous time.
+
+435
+00:33:47,512 --> 00:33:48,050
+OK.
+
+436
+00:33:48,050 --> 00:33:56,860
+Now we've got our cost function,
+again, is h of x at capital T
+
+437
+00:33:56,860 --> 00:34:04,575
+plus the integral from
+0 to T of g x, u dt.
+
+438
+00:34:12,199 --> 00:34:14,840
+The analogous statement
+from this recursion
+
+439
+00:34:14,840 --> 00:34:23,510
+in the discrete time
+is that J x at t
+
+440
+00:34:23,510 --> 00:34:28,520
+is going to be a
+limiting argument as dt
+
+441
+00:34:28,520 --> 00:34:45,679
+goes to 0 of the min over
+u of g x, u dt plus J
+
+442
+00:34:45,679 --> 00:34:51,590
+x of t plus dt t plus dt.
+
+443
+00:35:03,240 --> 00:35:04,560
+OK.
+
+444
+00:35:04,560 --> 00:35:08,220
+This is now-- that's
+just a limiting argument
+
+445
+00:35:08,220 --> 00:35:14,970
+as dt goes to 0 of the
+same recursive statement.
+
+446
+00:35:14,970 --> 00:35:27,270
+I'm going to approximate
+J x of t plus dt as--
+
+447
+00:35:27,270 --> 00:35:30,870
+this is J star let me
+not forget my stars--
+
+448
+00:35:30,870 --> 00:35:41,850
+as J star at x t plus
+partial J star partial x
+
+449
+00:35:41,850 --> 00:35:50,462
+x dot dt plus partial
+J star partial t dt.
+
+450
+00:35:56,240 --> 00:35:59,180
+It's a Taylor
+expansion of that term.
+
+451
+00:36:18,240 --> 00:36:19,590
+OK.
+
+452
+00:36:19,590 --> 00:36:26,100
+If I insert that back in,
+then I have J star x of t
+
+453
+00:36:26,100 --> 00:36:36,375
+equals the limit as dt
+goes to 0 min over u g
+
+454
+00:36:36,375 --> 00:36:46,350
+x, u dt plus partial
+J star partial x--
+
+455
+00:36:46,350 --> 00:36:49,770
+x dot is just f of
+x, u, remember--
+
+456
+00:36:49,770 --> 00:36:59,785
+dt plus partial J partial t dt.
+
+457
+00:36:59,785 --> 00:37:03,400
+And I left off that J x
+there, because that actually
+
+458
+00:37:03,400 --> 00:37:04,330
+doesn't depend on u.
+
+459
+00:37:04,330 --> 00:37:09,730
+So I'm going to put that
+outside here, plus J x and t.
+
+460
+00:37:22,770 --> 00:37:23,760
+Those guys cancel.
+
+461
+00:37:26,650 --> 00:37:29,970
+And now I've got
+a dt everywhere.
+
+462
+00:37:29,970 --> 00:37:33,420
+So I can actually take that
+out, and my limiting argument
+
+463
+00:37:33,420 --> 00:37:35,850
+goes away.
+
+464
+00:37:35,850 --> 00:37:39,615
+And what I'm left
+with, 0 equals min
+
+465
+00:37:39,615 --> 00:37:48,540
+over u g of x, u plus
+partial J partial x star
+
+466
+00:37:48,540 --> 00:37:50,790
+plus partial J partial t.
+
+467
+00:37:55,080 --> 00:37:58,470
+This is a very famous
+equation, will be used a lot.
+
+468
+00:38:13,255 --> 00:38:14,880
+It's called the
+Hamilton-Jacobi-Bellman
+
+469
+00:38:14,880 --> 00:38:15,653
+equation.
+
+470
+00:38:15,653 --> 00:38:16,278
+AUDIENCE: Russ.
+
+471
+00:38:16,278 --> 00:38:17,028
+RUSS TEDRAKE: Yes?
+
+472
+00:38:17,028 --> 00:38:17,550
+Did I miss--
+
+473
+00:38:17,550 --> 00:38:20,250
+AUDIENCE: x dot in
+the middle term there.
+
+474
+00:38:20,250 --> 00:38:21,486
+RUSS TEDRAKE: Here?
+
+475
+00:38:21,486 --> 00:38:23,160
+AUDIENCE: Last equation.
+
+476
+00:38:23,160 --> 00:38:24,808
+That x dot [INAUDIBLE].
+
+477
+00:38:24,808 --> 00:38:25,850
+RUSS TEDRAKE: Oh, thanks.
+
+478
+00:38:25,850 --> 00:38:26,850
+Good.
+
+479
+00:38:26,850 --> 00:38:29,700
+This is f of x, u.
+
+480
+00:38:29,700 --> 00:38:30,200
+Good.
+
+481
+00:38:30,200 --> 00:38:30,700
+Thank you.
+
+482
+00:38:42,750 --> 00:38:43,860
+Good, thank you.
+
+483
+00:38:43,860 --> 00:38:45,390
+That is the
+Hamilton-Jacobi-Bellman
+
+484
+00:38:45,390 --> 00:38:48,840
+equation, often
+known as the HJB.
+
+485
+00:38:52,200 --> 00:38:57,163
+So Hamilton and Jacobi
+are really old guys.
+
+486
+00:38:57,163 --> 00:38:58,080
+Bellman's a newer guy.
+
+487
+00:38:58,080 --> 00:39:00,010
+He was in the '60s or something.
+
+488
+00:39:00,010 --> 00:39:02,700
+A lot of people say
+Hamilton-Bellman-Jacobi.
+
+489
+00:39:02,700 --> 00:39:04,260
+That doesn't seem
+quite right to me.
+
+490
+00:39:04,260 --> 00:39:06,780
+That's some guy in the
+'60s sticking his name
+
+491
+00:39:06,780 --> 00:39:08,100
+in between Hamilton and Jacobi.
+
+492
+00:39:08,100 --> 00:39:10,130
+So I try to--
+
+493
+00:39:10,130 --> 00:39:13,110
+I will probably say HBJ a
+couple of times in the class,
+
+494
+00:39:13,110 --> 00:39:15,780
+but whenever I'm thinking
+about it I say HJB, OK?
+
+495
+00:39:18,640 --> 00:39:19,140
+OK.
+
+496
+00:39:19,140 --> 00:39:21,140
+So we did a little bit
+of work in discrete time.
+
+497
+00:39:21,140 --> 00:39:24,300
+But the absolute output
+of that thinking,
+
+498
+00:39:24,300 --> 00:39:26,790
+the thing you need
+to remember, is
+
+499
+00:39:26,790 --> 00:39:33,330
+this Hamilton-Jacobi-Bellman
+equation, OK?
+
+500
+00:39:33,330 --> 00:39:37,320
+These turn out to be the
+conditions of optimality
+
+501
+00:39:37,320 --> 00:39:38,350
+for continuous time.
+
+502
+00:39:41,410 --> 00:39:42,960
+Let's think about what it means.
+
+503
+00:39:48,570 --> 00:39:54,540
+So do you have yet a picture
+of this sort of what J is.
+
+504
+00:39:54,540 --> 00:39:56,010
+J is a cost-to-go.
+
+505
+00:39:56,010 --> 00:39:58,170
+It's a function over
+the entire landscape.
+
+506
+00:39:58,170 --> 00:40:01,110
+It tells me if I'm in
+some state, how much cost
+
+507
+00:40:01,110 --> 00:40:03,120
+am I going to incur
+with my cost function
+
+508
+00:40:03,120 --> 00:40:05,910
+as it runs off into time.
+
+509
+00:40:05,910 --> 00:40:08,490
+In the finite horizon
+case, it's just an integral
+
+510
+00:40:08,490 --> 00:40:10,290
+to the end of time.
+
+511
+00:40:10,290 --> 00:40:12,000
+In the infinite
+horizon case, I've
+
+512
+00:40:12,000 --> 00:40:14,417
+started this initial condition,
+and I run my cost function
+
+513
+00:40:14,417 --> 00:40:16,290
+forever.
+
+514
+00:40:16,290 --> 00:40:22,330
+So j is a cost landscape,
+a cost-to-go landscape.
+
+515
+00:40:22,330 --> 00:40:26,340
+This statement here
+says that, if I
+
+516
+00:40:26,340 --> 00:40:33,030
+move a little bit in that
+landscape in x, scale
+
+517
+00:40:33,030 --> 00:40:35,175
+by this x dot, then the
+thing I should incur
+
+518
+00:40:35,175 --> 00:40:38,190
+is that is my
+instantaneous cost.
+
+519
+00:40:38,190 --> 00:40:38,690
+OK.
+
+520
+00:40:42,300 --> 00:40:44,337
+The way my cost
+landscape-- the difference
+
+521
+00:40:44,337 --> 00:40:46,170
+of being in initial
+condition 1 versus being
+
+522
+00:40:46,170 --> 00:40:49,740
+in initial condition 2,
+if they're neighboring,
+
+523
+00:40:49,740 --> 00:40:53,230
+goes like the cost function.
+
+524
+00:40:53,230 --> 00:40:57,000
+And there's the cost function--
+the cost-to-go function lives
+
+525
+00:40:57,000 --> 00:41:00,040
+in x, and it lives in time.
+
+526
+00:41:00,040 --> 00:41:00,540
+OK.
+
+527
+00:41:04,800 --> 00:41:08,520
+It's one of the most important
+equations we'll have--
+
+528
+00:41:08,520 --> 00:41:11,470
+Hamilton-Bellman-Jacobi
+equation.
+
+529
+00:41:11,470 --> 00:41:16,976
+AUDIENCE: So we can take out the
+partial case that [INAUDIBLE]??
+
+530
+00:41:19,910 --> 00:41:22,270
+Because that one Is independent
+of u, the last term.
+
+531
+00:41:24,990 --> 00:41:30,770
+So if we take that
+out, basically,
+
+532
+00:41:30,770 --> 00:41:34,340
+the difference between the value
+to [INAUDIBLE] with respect
+
+533
+00:41:34,340 --> 00:41:38,090
+to time, in this time and going
+to the next time that sort
+
+534
+00:41:38,090 --> 00:41:41,022
+of seems like a
+TD error squared--
+
+535
+00:41:41,022 --> 00:41:41,980
+RUSS TEDRAKE: Oh, yeah.
+
+536
+00:41:41,980 --> 00:41:42,480
+Yeah.
+
+537
+00:41:42,480 --> 00:41:43,670
+Good.
+
+538
+00:41:43,670 --> 00:41:46,360
+There's absolutely-- this is
+exactly the source of the TD
+
+539
+00:41:46,360 --> 00:41:47,690
+error and the Bell-- yeah.
+
+540
+00:41:47,690 --> 00:41:49,470
+It's exactly the
+Bellman equation.
+
+541
+00:41:49,470 --> 00:41:49,970
+So yeah.
+
+542
+00:41:49,970 --> 00:41:50,637
+So you're right.
+
+543
+00:41:50,637 --> 00:41:55,355
+Partial J partial t could have
+been outside the min over u.
+
+544
+00:41:55,355 --> 00:41:57,110
+It doesn't actually have u.
+
+545
+00:41:57,110 --> 00:42:01,490
+But we're going to see
+all those connections
+
+546
+00:42:01,490 --> 00:42:03,260
+as we get into the algorithms.
+
+547
+00:42:03,260 --> 00:42:07,640
+But for-- this now is a tool
+for proving analytically
+
+548
+00:42:07,640 --> 00:42:10,370
+and driving analytically
+some optimal controllers.
+
+549
+00:42:14,000 --> 00:42:14,990
+We need one more--
+
+550
+00:42:17,780 --> 00:42:20,750
+we need to say something
+stronger about how useful
+
+551
+00:42:20,750 --> 00:42:21,650
+that tool is.
+
+552
+00:42:34,290 --> 00:42:45,470
+So there's the
+sufficiency theorem
+
+553
+00:42:45,470 --> 00:42:48,000
+is what gives this
+guy teeth, OK?
+
+554
+00:42:48,000 --> 00:42:51,360
+So I told you that the
+Pontryagin's minimum principle
+
+555
+00:42:51,360 --> 00:42:54,615
+was a necessary
+condition for optimality.
+
+556
+00:42:54,615 --> 00:42:56,220
+It wasn't necessarily
+sufficient.
+
+557
+00:42:56,220 --> 00:43:00,630
+If you show that the system
+satisfies the Pontryagin's
+
+558
+00:43:00,630 --> 00:43:05,383
+minimum principle,
+then you're close,
+
+559
+00:43:05,383 --> 00:43:07,800
+but you actually also have to
+say it uniquely solves that,
+
+560
+00:43:07,800 --> 00:43:10,350
+it's the only solution to
+that, solves the Pontryagin's
+
+561
+00:43:10,350 --> 00:43:11,100
+minimum principle.
+
+562
+00:43:11,100 --> 00:43:13,637
+So there's extra work needed.
+
+563
+00:43:13,637 --> 00:43:15,720
+The theorem we're putting
+up here is this saying--
+
+564
+00:43:15,720 --> 00:43:18,402
+is going to say that if
+this equation is satisfied,
+
+565
+00:43:18,402 --> 00:43:19,860
+then that's sufficient
+to guarantee
+
+566
+00:43:19,860 --> 00:43:25,690
+that the policy is optimal.
+
+567
+00:43:25,690 --> 00:43:27,040
+OK.
+
+568
+00:43:27,040 --> 00:43:50,990
+So given a policy pi x of t,
+and a cost-to go function,
+
+569
+00:43:50,990 --> 00:44:07,370
+J pi x of t, if pi is
+the argument of this,
+
+570
+00:44:07,370 --> 00:44:37,535
+if pi is the policy which
+minimizes that for all x
+
+571
+00:44:37,535 --> 00:45:32,760
+and all t, and that condition
+is met, then we can--
+
+572
+00:45:32,760 --> 00:45:41,160
+that's sufficient to
+give that J pi x of t
+
+573
+00:45:41,160 --> 00:45:53,190
+equals J pi of x of t and
+pi x of t pi star x of t.
+
+574
+00:46:01,950 --> 00:46:02,450
+OK.
+
+575
+00:46:10,227 --> 00:46:12,060
+The proof of that I'm
+not even going to try.
+
+576
+00:46:12,060 --> 00:46:15,450
+It's sort of tedious.
+
+577
+00:46:15,450 --> 00:46:17,970
+It's in Bertsekas, if you like--
+
+578
+00:46:17,970 --> 00:46:19,680
+Bertsekas' book.
+
+579
+00:46:19,680 --> 00:46:22,260
+But we're going
+to use this a lot.
+
+580
+00:46:26,160 --> 00:46:31,170
+So if I can find some
+combination of J, pi, and pi
+
+581
+00:46:31,170 --> 00:46:33,960
+that match that condition, then
+I've found an optimal policy.
+
+582
+00:46:40,790 --> 00:46:41,290
+OK.
+
+583
+00:46:46,000 --> 00:46:49,300
+Let's use this to solve
+the problem we want--
+
+584
+00:47:09,900 --> 00:47:12,330
+the linear quadratic
+regulator in its general form.
+
+585
+00:47:26,580 --> 00:47:30,680
+So they've got a system
+x equals Ax plus Bu.
+
+586
+00:47:49,340 --> 00:47:57,440
+And let's say I have a
+cost function J of x 0
+
+587
+00:47:57,440 --> 00:48:00,230
+is h of x, t--
+
+588
+00:48:00,230 --> 00:48:03,570
+the same thing I've been
+writing all day here--
+
+589
+00:48:03,570 --> 00:48:17,270
+g of x, u dt, where x 0
+equals x, where h in general
+
+590
+00:48:17,270 --> 00:48:23,060
+takes the form x
+transpose Qfx, and g
+
+591
+00:48:23,060 --> 00:48:29,360
+takes the form x transpose
+Qx plus u transpose Ru.
+
+592
+00:48:34,690 --> 00:48:39,550
+To make things-- to be careful,
+we're going to assume that--
+
+593
+00:48:42,070 --> 00:48:44,980
+we're going to enforce-- we're
+choosing the cost function.
+
+594
+00:48:44,980 --> 00:48:48,310
+We're going to enforce that this
+is positive definite, making
+
+595
+00:48:48,310 --> 00:48:51,580
+sure we don't get any
+negative cost here.
+
+596
+00:48:51,580 --> 00:48:59,770
+And similarly-- actually, it
+only has to be semi-definite.
+
+597
+00:48:59,770 --> 00:49:03,460
+Q transpose equals
+Q greater than
+
+598
+00:49:03,460 --> 00:49:07,930
+or equal to 0 and R
+transpose equals R.
+
+599
+00:49:07,930 --> 00:49:10,450
+That one does have
+to be positive.
+
+600
+00:49:10,450 --> 00:49:17,690
+Definite
+
+601
+00:49:17,690 --> 00:49:19,070
+OK.
+
+602
+00:49:19,070 --> 00:49:24,530
+Here's a pretty general
+linear dynamical system,
+
+603
+00:49:24,530 --> 00:49:28,070
+quadratic regulator cost.
+
+604
+00:49:28,070 --> 00:49:31,970
+To satisfy the
+HBJ, we simply have
+
+605
+00:49:31,970 --> 00:49:35,600
+to have that this condition--
+
+606
+00:50:00,040 --> 00:50:10,570
+so 0 equals min over u x
+transpose Qx plus u transpose
+
+607
+00:50:10,570 --> 00:50:24,340
+Ru plus partial J partial
+x star times Ax plus Bu
+
+608
+00:50:24,340 --> 00:50:31,480
+plus partial J star partial
+t, that had better equal 0.
+
+609
+00:50:31,480 --> 00:50:35,980
+So I need to find that
+cost-to-go function which
+
+610
+00:50:35,980 --> 00:50:37,350
+makes this thing 0.
+
+611
+00:50:44,394 --> 00:50:49,460
+It turns out the
+solution to these things,
+
+612
+00:50:49,460 --> 00:50:57,260
+we can just guess a form for J.
+Let's guess that J star x of t
+
+613
+00:50:57,260 --> 00:51:09,280
+is also quadratic,
+again with a positive--
+
+614
+00:51:09,280 --> 00:51:11,046
+it's going to have
+to be positive.
+
+615
+00:51:22,026 --> 00:51:32,090
+It could be-- in that
+case, partial J partial
+
+616
+00:51:32,090 --> 00:51:39,860
+x is 2x transpose S of t.
+
+617
+00:51:43,100 --> 00:51:51,265
+Partial J partial t is
+x transpose s dot t x.
+
+618
+00:51:56,540 --> 00:51:57,040
+OK.
+
+619
+00:52:00,197 --> 00:52:01,250
+Let's pop this guy in.
+
+620
+00:52:33,053 --> 00:52:34,470
+I want to just
+crank through here.
+
+621
+00:52:34,470 --> 00:52:40,080
+So does it make sense at
+all, that the J of x, t
+
+622
+00:52:40,080 --> 00:52:42,598
+would be a quadratic
+form like that?
+
+623
+00:52:42,598 --> 00:52:43,890
+Why is that a reasonable guess?
+
+624
+00:52:48,710 --> 00:52:49,760
+Yeah.
+
+625
+00:52:49,760 --> 00:52:52,256
+AUDIENCE: Because the
+final time [INAUDIBLE]
+
+626
+00:52:52,256 --> 00:52:53,612
+match the [INAUDIBLE].
+
+627
+00:52:53,612 --> 00:52:54,320
+RUSS TEDRAKE: OK.
+
+628
+00:52:54,320 --> 00:52:57,080
+So in the final time,
+that's a reasonable guess,
+
+629
+00:52:57,080 --> 00:52:58,940
+because it started like this.
+
+630
+00:53:03,680 --> 00:53:04,590
+Yeah.
+
+631
+00:53:04,590 --> 00:53:05,340
+And it turns out--
+
+632
+00:53:05,340 --> 00:53:08,850
+I mean, we're actually going
+to see it by verification.
+
+633
+00:53:08,850 --> 00:53:13,140
+But for the linear system,
+when I pump the cost backwards
+
+634
+00:53:13,140 --> 00:53:14,940
+in time, this
+quadratic cost, it's
+
+635
+00:53:14,940 --> 00:53:16,426
+going to have to stay quadratic.
+
+636
+00:53:23,210 --> 00:53:23,720
+OK.
+
+637
+00:53:23,720 --> 00:53:31,850
+So I've got 0 equals min over u
+x transpose Qx plus u transpose
+
+638
+00:53:31,850 --> 00:53:37,700
+Ru plus 2x transpose S of t--
+
+639
+00:53:37,700 --> 00:53:51,564
+bless you-- times Ax plus
+Bu plus x transpose S t x.
+
+640
+00:53:54,902 --> 00:53:56,360
+I need that whole
+thing to work out
+
+641
+00:53:56,360 --> 00:54:02,100
+to be 0 for the minimizing u.
+
+642
+00:54:02,100 --> 00:54:06,380
+So let's figure out what
+the minimizing u is now.
+
+643
+00:54:06,380 --> 00:54:08,450
+Is it OK if I just
+sort of shorthand?
+
+644
+00:54:08,450 --> 00:54:11,870
+I'll say the gradient
+of that whole thing
+
+645
+00:54:11,870 --> 00:54:16,760
+in square brackets with respect
+to u here is going to be,
+
+646
+00:54:16,760 --> 00:54:19,070
+what, 2Ru--
+
+647
+00:54:19,070 --> 00:54:20,876
+or u transpose R, I guess?
+
+648
+00:54:26,330 --> 00:54:29,690
+We're going to try to be
+careful that this whole thing is
+
+649
+00:54:29,690 --> 00:54:31,148
+a scalar.
+
+650
+00:54:31,148 --> 00:54:32,815
+We're always talking
+about scalar costs.
+
+651
+00:54:32,815 --> 00:54:35,240
+So I've got vectors and
+matrices going around,
+
+652
+00:54:35,240 --> 00:54:38,870
+but the whole thing has to
+collapse to be a scalar.
+
+653
+00:54:38,870 --> 00:54:44,870
+The gradient of a scalar
+with respect to a vector,
+
+654
+00:54:44,870 --> 00:54:47,090
+I want it to always be a vector.
+
+655
+00:54:47,090 --> 00:54:50,870
+The gradient of a vector
+with respect to a vector
+
+656
+00:54:50,870 --> 00:54:52,220
+is going to be a matrix.
+
+657
+00:54:52,220 --> 00:54:55,550
+So try to be careful
+about making--
+
+658
+00:54:55,550 --> 00:55:03,020
+that gradient better be a
+vector plus what's left here?
+
+659
+00:55:03,020 --> 00:55:07,640
+2x transpose S that
+guy there, right?
+
+660
+00:55:13,880 --> 00:55:17,390
+But I have to take
+the transpose of that.
+
+661
+00:55:17,390 --> 00:55:23,480
+So it's 2B transpose S of t.
+
+662
+00:55:23,480 --> 00:55:27,625
+The S t transpose is not x--
+
+663
+00:55:27,625 --> 00:55:29,150
+I screwed up, sorry.
+
+664
+00:55:29,150 --> 00:55:30,320
+It's still x transpose.
+
+665
+00:55:30,320 --> 00:55:38,570
+I'm trying to-- x transpose S
+t B. That thing has to equal 0.
+
+666
+00:55:41,360 --> 00:55:44,540
+And that's where I
+get my transpose back.
+
+667
+00:55:44,540 --> 00:55:50,760
+So u star, the u that makes this
+gradient 0, is going to be--
+
+668
+00:55:50,760 --> 00:55:53,300
+those 2's cancel.
+
+669
+00:55:53,300 --> 00:55:59,750
+It's going to be negative
+R inverse B transpose
+
+670
+00:55:59,750 --> 00:56:02,720
+S transpose x.
+
+671
+00:56:11,070 --> 00:56:18,170
+Which is important to
+realize that was actually--
+
+672
+00:56:18,170 --> 00:56:22,450
+it's equivalent to writing
+negative 1/2 R inverse
+
+673
+00:56:22,450 --> 00:56:28,630
+B transpose partial J
+partial x transpose.
+
+674
+00:56:42,050 --> 00:56:43,550
+OK.
+
+675
+00:56:43,550 --> 00:56:44,900
+So what does this mean?
+
+676
+00:56:47,760 --> 00:56:52,880
+So I've got some
+quadratic approximation
+
+677
+00:56:52,880 --> 00:56:54,890
+of my value function.
+
+678
+00:56:54,890 --> 00:56:57,530
+It's 0 at the origin
+always and forever.
+
+679
+00:56:57,530 --> 00:57:00,170
+If I'm at the origin, I'm
+going to stay at the origin,
+
+680
+00:57:00,170 --> 00:57:02,060
+my cost-to-go is 0.
+
+681
+00:57:02,060 --> 00:57:06,170
+The exact shape of the quadratic
+bowl changes over time.
+
+682
+00:57:06,170 --> 00:57:11,150
+The best thing to
+do is to go down
+
+683
+00:57:11,150 --> 00:57:13,550
+to negative of the
+partial J partial x
+
+684
+00:57:13,550 --> 00:57:16,790
+is trying to go down
+the cost-to-go function.
+
+685
+00:57:16,790 --> 00:57:19,250
+I want to go down the cost-to-go
+function as fast as I can.
+
+686
+00:57:22,040 --> 00:57:24,560
+But I'm going to wait--
+
+687
+00:57:24,560 --> 00:57:27,560
+I'm going to change,
+possibly, the exact direction.
+
+688
+00:57:27,560 --> 00:57:31,040
+Rather than going straight down
+the cost-to-go function in x,
+
+689
+00:57:31,040 --> 00:57:32,815
+I might orient
+myself a little bit
+
+690
+00:57:32,815 --> 00:57:34,190
+depending on the
+weightings I put
+
+691
+00:57:34,190 --> 00:57:37,700
+on-- the cost I put on
+the different u's. So I'm
+
+692
+00:57:37,700 --> 00:57:41,870
+going to rotate that
+vector a little bit.
+
+693
+00:57:41,870 --> 00:57:45,770
+This is what I can do, and this
+is the weighting I've done.
+
+694
+00:57:45,770 --> 00:57:48,575
+So the best thing to do is to go
+down your cost-to-go function,
+
+695
+00:57:48,575 --> 00:57:50,450
+get to the point where
+my cost-to-go is going
+
+696
+00:57:50,450 --> 00:57:54,290
+to be as small as
+possible, filtered
+
+697
+00:57:54,290 --> 00:57:56,810
+by the direction
+I can actually go
+
+698
+00:57:56,810 --> 00:58:00,650
+and twisted by the way
+I penalize actions.
+
+699
+00:58:00,650 --> 00:58:01,150
+OK.
+
+700
+00:58:04,420 --> 00:58:06,130
+And it's sort of
+amazing, I think,
+
+701
+00:58:06,130 --> 00:58:13,180
+that the whole thing works out
+to be just some linear feedback
+
+702
+00:58:13,180 --> 00:58:15,340
+law negative Kx--
+
+703
+00:58:15,340 --> 00:58:20,230
+yet another reason
+[INAUDIBLE] to use that form.
+
+704
+00:58:28,900 --> 00:58:30,250
+OK.
+
+705
+00:58:30,250 --> 00:58:31,750
+Sorry, I should be
+a little careful.
+
+706
+00:58:31,750 --> 00:58:34,210
+This is-- it depends on time.
+
+707
+00:58:34,210 --> 00:58:36,077
+So it's K of t x.
+
+708
+00:58:39,732 --> 00:58:40,940
+Why should it depend on time?
+
+709
+00:58:48,240 --> 00:58:49,745
+This is a-- what's that?
+
+710
+00:58:49,745 --> 00:58:50,580
+AUDIENCE: We switch.
+
+711
+00:58:50,580 --> 00:58:52,200
+RUSS TEDRAKE: Because
+we switch what?
+
+712
+00:58:52,200 --> 00:58:53,712
+AUDIENCE: The actuation.
+
+713
+00:58:53,712 --> 00:58:56,170
+RUSS TEDRAKE: There's no hard
+switch in the actuation here.
+
+714
+00:58:56,170 --> 00:58:58,870
+This is saying, I'm
+going to smoothly go down
+
+715
+00:58:58,870 --> 00:59:01,853
+a value function.
+
+716
+00:59:01,853 --> 00:59:03,520
+This one isn't the
+bang-bang controller.
+
+717
+00:59:03,520 --> 00:59:06,190
+This turns out to
+be a smooth descent
+
+718
+00:59:06,190 --> 00:59:07,780
+of some cost-to-go function.
+
+719
+00:59:10,530 --> 00:59:11,030
+Yeah?
+
+720
+00:59:11,030 --> 00:59:15,897
+AUDIENCE: The S t equals
+partial [INAUDIBLE]..
+
+721
+00:59:15,897 --> 00:59:18,230
+RUSS TEDRAKE: I mean, S of t
+is time [INAUDIBLE] itself.
+
+722
+00:59:18,230 --> 00:59:20,190
+AUDIENCE: Yeah,
+so it [INAUDIBLE]..
+
+723
+00:59:20,190 --> 00:59:22,040
+RUSS TEDRAKE: So
+intuitively, why should I
+
+724
+00:59:22,040 --> 00:59:25,430
+take a different linear
+control action if I'm at a time
+
+725
+00:59:25,430 --> 00:59:28,080
+1 versus time 2?
+
+726
+00:59:28,080 --> 00:59:30,330
+AUDIENCE: Because
+you're time dependent.
+
+727
+00:59:30,330 --> 00:59:32,250
+So if you're very close
+to the final time,
+
+728
+00:59:32,250 --> 00:59:34,355
+you want to [INAUDIBLE]
+lots of control,
+
+729
+00:59:34,355 --> 00:59:36,480
+because you don't have
+that much time [INAUDIBLE]..
+
+730
+00:59:36,480 --> 00:59:38,480
+RUSS TEDRAKE: Awesome, yeah.
+
+731
+00:59:38,480 --> 00:59:43,020
+This is a quirk of having a
+finite horizon cost function.
+
+732
+00:59:43,020 --> 00:59:45,150
+In the infinite horizon
+case, it turns out
+
+733
+00:59:45,150 --> 00:59:48,525
+you're going to just get
+a u equals negative Kx,
+
+734
+00:59:48,525 --> 00:59:51,360
+where K is a variant of time.
+
+735
+00:59:51,360 --> 00:59:52,620
+But in the time--
+
+736
+00:59:52,620 --> 00:59:56,010
+finite horizon problem,
+there's this quirk,
+
+737
+00:59:56,010 --> 00:59:58,170
+which is the time
+ends at some point,
+
+738
+00:59:58,170 --> 01:00:00,480
+and I have to deal with it.
+
+739
+01:00:00,480 --> 01:00:06,000
+If the bank closes at 5:00,
+if I'm here and it's 4:50,
+
+740
+01:00:06,000 --> 01:00:07,830
+and the bank closes at
+5:00, I'm going to--
+
+741
+01:00:07,830 --> 01:00:10,533
+I'd better get over there
+faster than if it was 4:30
+
+742
+01:00:10,533 --> 01:00:11,700
+and the bank closes at 5:00.
+
+743
+01:00:14,970 --> 01:00:17,610
+In my mind, actually, there's
+a lot of problems that are--
+
+744
+01:00:17,610 --> 01:00:19,800
+bank closing is a
+weird one, but there
+
+745
+01:00:19,800 --> 01:00:22,440
+are a lot of problems that
+are naturally formulated
+
+746
+01:00:22,440 --> 01:00:24,900
+as finite horizon problems.
+
+747
+01:00:24,900 --> 01:00:26,520
+Things-- maybe a pick-and-place.
+
+748
+01:00:26,520 --> 01:00:29,392
+The minimum time problem was a
+finite horizon, pick-and-place.
+
+749
+01:00:29,392 --> 01:00:31,350
+There are a lot of problems
+which are naturally
+
+750
+01:00:31,350 --> 01:00:33,660
+formulated as infinite horizon.
+
+751
+01:00:33,660 --> 01:00:36,900
+I just want to walk as
+well as I possibly can
+
+752
+01:00:36,900 --> 01:00:37,930
+for a very long time.
+
+753
+01:00:37,930 --> 01:00:40,830
+I don't need to get to some
+place at a certain time.
+
+754
+01:00:40,830 --> 01:00:43,170
+OK.
+
+755
+01:00:43,170 --> 01:00:45,900
+But in many ways, the
+finite horizon time ones
+
+756
+01:00:45,900 --> 01:00:47,970
+are the weird ones,
+because you always
+
+757
+01:00:47,970 --> 01:00:49,990
+have to worry about the
+end of time approaching.
+
+758
+01:00:53,850 --> 01:00:54,682
+OK.
+
+759
+01:00:54,682 --> 01:00:56,357
+AUDIENCE: How do we get S t?
+
+760
+01:00:56,357 --> 01:00:57,690
+RUSS TEDRAKE: How do we get S t?
+
+761
+01:00:57,690 --> 01:00:58,190
+OK.
+
+762
+01:01:00,660 --> 01:01:03,930
+Well, it's the thing that
+makes this equation 0.
+
+763
+01:01:08,930 --> 01:01:10,010
+So what is that thing?
+
+764
+01:01:22,150 --> 01:01:24,270
+I figured out what
+the minimizing u is.
+
+765
+01:01:27,180 --> 01:01:29,580
+I can insert that back in.
+
+766
+01:01:29,580 --> 01:01:39,930
+So I get now 0 equals
+Q plus x transpose--
+
+767
+01:01:39,930 --> 01:01:42,420
+I'm going to insert u in--
+
+768
+01:01:42,420 --> 01:01:46,200
+K-- or I'll do the
+whole thing, actually--
+
+769
+01:01:46,200 --> 01:01:56,050
+S of t B R inverse
+times R times R inverse.
+
+770
+01:01:56,050 --> 01:02:00,090
+So I'm going to go ahead
+and cancel those out.
+
+771
+01:02:00,090 --> 01:02:03,846
+B transpose S of t x.
+
+772
+01:02:07,140 --> 01:02:09,780
+And the negative signs,
+because there's two u's there.
+
+773
+01:02:09,780 --> 01:02:13,260
+The negative sign didn't get me.
+
+774
+01:02:13,260 --> 01:02:22,410
+And then plus 2x
+transpose S of t Ax plus--
+
+775
+01:02:22,410 --> 01:02:42,430
+so minus B R inverse B transpose
+S of t x plus x transpose S dot
+
+776
+01:02:42,430 --> 01:02:42,970
+of x.
+
+777
+01:02:50,420 --> 01:02:54,850
+It turns out that
+this term here should
+
+778
+01:02:54,850 --> 01:02:58,220
+be the same as that term
+there, modulo of factor 2.
+
+779
+01:02:58,220 --> 01:03:04,000
+If you look, it's S, B, R
+inverse, B transpose, S.
+
+780
+01:03:04,000 --> 01:03:12,850
+So this one actually, I can
+just turn that into a minus.
+
+781
+01:03:12,850 --> 01:03:13,350
+OK.
+
+782
+01:03:16,510 --> 01:03:22,010
+And it turns out that everything
+has this x transpose matrix x
+
+783
+01:03:22,010 --> 01:03:22,510
+form.
+
+784
+01:03:25,430 --> 01:03:26,900
+So I can actually--
+
+785
+01:03:26,900 --> 01:03:30,350
+in order for this thing
+to be true for all x,
+
+786
+01:03:30,350 --> 01:03:35,450
+it must be that the matrix
+inside had better be 0.
+
+787
+01:03:35,450 --> 01:03:45,900
+So it turns out to be 0
+equals Q minus S t B R
+
+788
+01:03:45,900 --> 01:04:00,950
+inverse B transpose S t
+plus 2 S t A plus S dot t
+
+789
+01:04:00,950 --> 01:04:04,190
+had better be equal to 0.
+
+790
+01:04:04,190 --> 01:04:06,440
+OK.
+
+791
+01:04:06,440 --> 01:04:09,560
+Now, I made some
+assumptions to get here.
+
+792
+01:04:09,560 --> 01:04:12,200
+Know what assumptions I made?
+
+793
+01:04:12,200 --> 01:04:15,050
+The big one is that I guessed
+that form of the value
+
+794
+01:04:15,050 --> 01:04:16,203
+function.
+
+795
+01:04:16,203 --> 01:04:17,870
+And one of the things
+I guessed about it
+
+796
+01:04:17,870 --> 01:04:20,570
+was that it was symmetric.
+
+797
+01:04:20,570 --> 01:04:22,640
+So let's see if we're
+looking symmetric.
+
+798
+01:04:22,640 --> 01:04:25,400
+So Q, we already
+said, was symmetric.
+
+799
+01:04:25,400 --> 01:04:27,200
+That's all good.
+
+800
+01:04:27,200 --> 01:04:29,780
+That guy's nice and symmetric.
+
+801
+01:04:29,780 --> 01:04:31,820
+That's all good.
+
+802
+01:04:31,820 --> 01:04:35,360
+So this is the one we
+have to worry about.
+
+803
+01:04:35,360 --> 01:04:36,604
+Is that guy symmetric?
+
+804
+01:04:42,040 --> 01:04:44,290
+It's actually not
+symmetric like that.
+
+805
+01:04:44,290 --> 01:04:54,430
+But I can equivalently write it
+as S t A plus A transpose S t,
+
+806
+01:04:54,430 --> 01:04:55,992
+since S is symmetric.
+
+807
+01:04:59,370 --> 01:05:00,911
+And that guy is symmetric.
+
+808
+01:05:14,133 --> 01:05:15,300
+I said a very strange thing.
+
+809
+01:05:15,300 --> 01:05:17,202
+I just said that
+the matrices are--
+
+810
+01:05:17,202 --> 01:05:19,410
+this one is not symmetric,
+I can write the same thing
+
+811
+01:05:19,410 --> 01:05:20,460
+as-- it's this.
+
+812
+01:05:20,460 --> 01:05:36,540
+So what I mean to say is that
+these are equivalent for all x.
+
+813
+01:05:47,750 --> 01:05:53,390
+Because this has
+got to equal this.
+
+814
+01:06:02,310 --> 01:06:02,810
+OK.
+
+815
+01:06:02,810 --> 01:06:13,970
+So, good.
+
+816
+01:06:13,970 --> 01:06:15,590
+OK.
+
+817
+01:06:15,590 --> 01:06:16,990
+So this equation,
+which I'm going
+
+818
+01:06:16,990 --> 01:06:19,100
+to write one more
+time since it's
+
+819
+01:06:19,100 --> 01:06:20,690
+an equation that has
+a name associated
+
+820
+01:06:20,690 --> 01:06:22,250
+with someone famous--
+
+821
+01:06:22,250 --> 01:06:25,220
+deserves a box
+around it, I guess.
+
+822
+01:06:25,220 --> 01:06:28,820
+So this is the Riccati equation.
+
+823
+01:06:28,820 --> 01:06:33,816
+I'm going to move the
+S over to this side.
+
+824
+01:06:33,816 --> 01:06:34,910
+It's a Riccati equation.
+
+825
+01:06:58,020 --> 01:06:59,520
+And I also have
+that final condition
+
+826
+01:06:59,520 --> 01:07:02,820
+that you rightly pointed
+out, where S of capital T
+
+827
+01:07:02,820 --> 01:07:03,930
+had better equal Qf.
+
+828
+01:07:12,390 --> 01:07:17,880
+So direct application of
+the Hamilton-Bellman-Jacobi
+
+829
+01:07:17,880 --> 01:07:27,330
+equation, I was able to derive
+this Riccati equation, which
+
+830
+01:07:27,330 --> 01:07:30,720
+gives me a solution
+for the value function.
+
+831
+01:07:30,720 --> 01:07:34,590
+Because it gives me a
+final condition on an S
+
+832
+01:07:34,590 --> 01:07:37,020
+and then the governing
+equation which
+
+833
+01:07:37,020 --> 01:07:40,050
+integrates the equation
+backwards from capital T to 0.
+
+834
+01:07:45,990 --> 01:07:48,150
+And once I have S,
+remember, we said
+
+835
+01:07:48,150 --> 01:07:58,180
+that the u was just negative R
+inverse B transpose S of t x.
+
+836
+01:07:58,180 --> 01:07:59,160
+So I've got everything.
+
+837
+01:07:59,160 --> 01:08:00,955
+Once I have S, I
+have everything.
+
+838
+01:08:09,700 --> 01:08:10,200
+OK.
+
+839
+01:08:10,200 --> 01:08:13,200
+So this is one of the
+absolute fundamental results
+
+840
+01:08:13,200 --> 01:08:15,225
+in optimal control.
+
+841
+01:08:18,930 --> 01:08:26,279
+It turns out that if you want
+to know the infinite horizon
+
+842
+01:08:26,279 --> 01:08:28,829
+solution to the--
+
+843
+01:08:28,829 --> 01:08:32,100
+if you look at the solution
+as time goes to infinity--
+
+844
+01:08:32,100 --> 01:08:35,460
+remember, I wrote my cost
+function initially was--
+
+845
+01:08:35,460 --> 01:08:41,040
+the problem we're trying to
+solve is an infinite integral.
+
+846
+01:08:41,040 --> 01:08:43,140
+It turns out that
+the infinite solution
+
+847
+01:08:43,140 --> 01:08:47,910
+is the steady-state
+solution of this equation.
+
+848
+01:08:47,910 --> 01:08:51,210
+So if you integrate this
+equation back enough,
+
+849
+01:08:51,210 --> 01:08:51,930
+it's stable.
+
+850
+01:08:51,930 --> 01:08:56,819
+It finds a steady
+state where S dot is 0.
+
+851
+01:08:56,819 --> 01:08:59,220
+And that solution
+when S dot equals
+
+852
+01:08:59,220 --> 01:09:18,310
+0, The S which solves this,
+that whole thing minus Q,
+
+853
+01:09:18,310 --> 01:09:19,705
+is the infinite
+horizon solution.
+
+854
+01:09:31,770 --> 01:09:34,260
+OK.
+
+855
+01:09:34,260 --> 01:09:47,340
+If you open up Matlab, and
+you type lqr A, B, Q, R,
+
+856
+01:09:47,340 --> 01:09:50,340
+then it's going to
+output two things.
+
+857
+01:09:50,340 --> 01:09:57,060
+It outputs K, and it outputs S.
+Solving this thing is actually
+
+858
+01:09:57,060 --> 01:09:57,990
+not trivial.
+
+859
+01:09:57,990 --> 01:10:03,060
+So how do you solve that for S?
+
+860
+01:10:03,060 --> 01:10:09,120
+The hard one is it's got
+this S in both places.
+
+861
+01:10:09,120 --> 01:10:13,230
+But this is the
+Lyapunov equation again.
+
+862
+01:10:13,230 --> 01:10:15,870
+It's so famous, it
+comes up so pervasively,
+
+863
+01:10:15,870 --> 01:10:18,870
+that people have really
+good tools for solving it,
+
+864
+01:10:18,870 --> 01:10:20,300
+numerical tools for solving it.
+
+865
+01:10:20,300 --> 01:10:22,050
+So Matlab's got some
+nice routine in there
+
+866
+01:10:22,050 --> 01:10:26,280
+to solve, to find S.
+
+867
+01:10:26,280 --> 01:10:30,660
+And when I call lqr
+with the dynamics
+
+868
+01:10:30,660 --> 01:10:36,960
+and the Q, R gives me exactly
+the infinite horizon S
+
+869
+01:10:36,960 --> 01:10:41,220
+and infinite horizon
+non-time-variant K.
+
+870
+01:10:41,220 --> 01:10:43,895
+If you need to do a finite
+horizon quadratic regulator,
+
+871
+01:10:43,895 --> 01:10:46,020
+then you actually need to
+integrate these equations
+
+872
+01:10:46,020 --> 01:10:48,530
+yourself.
+
+873
+01:10:48,530 --> 01:10:49,590
+OK.
+
+874
+01:10:49,590 --> 01:10:53,220
+I hate going that long with just
+equations and not intuition.
+
+875
+01:10:53,220 --> 01:10:56,175
+So let me connect it
+back to the brick now.
+
+876
+01:10:56,175 --> 01:10:59,620
+That was the point of doing
+everything in the brick world
+
+877
+01:10:59,620 --> 01:11:00,120
+here.
+
+878
+01:11:03,630 --> 01:11:05,580
+OK.
+
+879
+01:11:05,580 --> 01:11:10,140
+So we've got Q
+double dot equals u.
+
+880
+01:11:10,140 --> 01:11:16,980
+We've got now
+infinite horizon J x
+
+881
+01:11:16,980 --> 01:11:25,590
+is infinite horizon g x,
+u dt, where I said g x,
+
+882
+01:11:25,590 --> 01:11:33,015
+u was 1/2 Q squared plus 1/2 Q
+dot squared plus 1/2 u squared.
+
+883
+01:11:36,330 --> 01:11:44,235
+So now that's exactly in
+the LQR form 0, 1, 0, 0.
+
+884
+01:11:46,830 --> 01:11:50,670
+B is 0, 1.
+
+885
+01:11:50,670 --> 01:11:56,850
+Q is the identity matrix.
+
+886
+01:11:56,850 --> 01:11:58,530
+And R is 1.
+
+887
+01:12:02,550 --> 01:12:04,140
+It turns out I
+can actually solve
+
+888
+01:12:04,140 --> 01:12:08,640
+that one algebraically for S.
+If you pump all the symbols in--
+
+889
+01:12:08,640 --> 01:12:11,460
+I won't do it because
+there's a lot of symbols--
+
+890
+01:12:11,460 --> 01:12:15,270
+but in a few lines of algebra,
+you can figure out what S has
+
+891
+01:12:15,270 --> 01:12:19,440
+to be, just because so many
+terms drop out with those
+
+892
+01:12:19,440 --> 01:12:21,400
+0's that actually there's--
+
+893
+01:12:24,130 --> 01:12:28,080
+There's the three equations
+and three unknowns.
+
+894
+01:12:28,080 --> 01:12:38,070
+And it turns out that S has
+to be square root of 2, 1, 1,
+
+895
+01:12:38,070 --> 01:12:38,970
+square root of 2.
+
+896
+01:12:42,610 --> 01:12:43,110
+OK.
+
+897
+01:13:03,540 --> 01:13:14,040
+The u, remember, was negative
+R inverse B transpose
+
+898
+01:13:14,040 --> 01:13:22,620
+B transpose S x, which,
+if I punch those in,
+
+899
+01:13:22,620 --> 01:13:28,440
+gives me 1 square
+root of 2 times
+
+900
+01:13:28,440 --> 01:13:52,370
+x, which gives me closed loop
+dynamics of x dot equals Ax
+
+901
+01:13:52,370 --> 01:14:02,150
+minus BKx is equal
+to 0, 1, negative 1,
+
+902
+01:14:02,150 --> 01:14:06,520
+square root of 2 times x.
+
+903
+01:14:12,150 --> 01:14:13,410
+OK.
+
+904
+01:14:13,410 --> 01:14:15,030
+Now I'm going to
+plot two things here.
+
+905
+01:14:20,030 --> 01:14:30,790
+First thing I'm going
+to plot is J of x.
+
+906
+01:14:30,790 --> 01:14:35,530
+J of x is square root of
+2, 1, 1, square root of 2.
+
+907
+01:14:38,150 --> 01:14:39,650
+A little thinking
+about that, you'll
+
+908
+01:14:39,650 --> 01:14:50,490
+see that it comes out to
+be an ellipsoid that is--
+
+909
+01:14:50,490 --> 01:14:58,400
+[INAUDIBLE]---- sort
+of shaped like this.
+
+910
+01:15:01,180 --> 01:15:03,670
+I draw contours
+of that function,
+
+911
+01:15:03,670 --> 01:15:08,260
+of that x transpose S x.
+
+912
+01:15:14,305 --> 01:15:17,720
+And the cost-to-go is 0 here.
+
+913
+01:15:17,720 --> 01:15:25,950
+And it's a bowl that comes up
+in this sort of elliptic bowl.
+
+914
+01:15:36,110 --> 01:15:36,610
+All right.
+
+915
+01:15:36,610 --> 01:15:39,460
+So what is the optimal
+policy going to look like,
+
+916
+01:15:39,460 --> 01:15:40,780
+given that that's my bowl?
+
+917
+01:15:45,550 --> 01:15:48,350
+We said the best thing to do
+is go down the steepest descent
+
+918
+01:15:48,350 --> 01:15:48,850
+of the bowl.
+
+919
+01:15:52,070 --> 01:15:53,200
+I want to go down--
+
+920
+01:15:53,200 --> 01:15:55,990
+wherever I am, I want to
+go down as fast as I can.
+
+921
+01:15:59,730 --> 01:16:01,470
+But I can't do it exactly.
+
+922
+01:16:01,470 --> 01:16:03,180
+That was actually sort of a--
+
+923
+01:16:03,180 --> 01:16:03,720
+that's OK.
+
+924
+01:16:03,720 --> 01:16:07,110
+I mean, I can't do it exactly,
+because all I'm allowed to do
+
+925
+01:16:07,110 --> 01:16:07,980
+is change--
+
+926
+01:16:07,980 --> 01:16:11,950
+I have one component that I'm
+not allowed to change, right?
+
+927
+01:16:11,950 --> 01:16:19,470
+I have that my Q is going to
+go forward independent of u
+
+928
+01:16:19,470 --> 01:16:20,640
+directly.
+
+929
+01:16:20,640 --> 01:16:25,170
+So B transpose S x is going
+to be give me a projection
+
+930
+01:16:25,170 --> 01:16:27,810
+of that gradient onto this--
+
+931
+01:16:27,810 --> 01:16:30,090
+the thing I can
+actually control,
+
+932
+01:16:30,090 --> 01:16:32,400
+which way I can point
+my phase portrait
+
+933
+01:16:32,400 --> 01:16:33,510
+in that given my control.
+
+934
+01:16:36,690 --> 01:16:39,480
+And then R is going
+to scale it again.
+
+935
+01:16:39,480 --> 01:16:44,080
+And the resulting
+closed loop dynamics,
+
+936
+01:16:44,080 --> 01:16:45,580
+let's see if we can
+figure that out.
+
+937
+01:16:49,210 --> 01:16:52,500
+So if I take the eigenvectors
+and eigenvalues that, well,
+
+938
+01:16:52,500 --> 01:16:55,290
+it turns out I'm not
+going to make the plot.
+
+939
+01:16:55,290 --> 01:17:03,270
+My eigenvalues were square
+root of 2 plus or minus i 1
+
+940
+01:17:03,270 --> 01:17:12,280
+over square root of 2 with v
+being 1 over square root of 2.
+
+941
+01:17:24,980 --> 01:17:28,750
+So the best thing I can
+possibly do is to go down that--
+
+942
+01:17:28,750 --> 01:17:30,920
+if I didn't care about--
+
+943
+01:17:30,920 --> 01:17:32,560
+if I didn't worry
+about penalizing R,
+
+944
+01:17:32,560 --> 01:17:34,310
+I didn't worry about
+my control actuation,
+
+945
+01:17:34,310 --> 01:17:36,680
+would be to go straight
+down that bowl.
+
+946
+01:17:36,680 --> 01:17:38,680
+But because I'm
+scaling things by--
+
+947
+01:17:38,680 --> 01:17:41,180
+I'm filtering things by wearing
+what I can actually control,
+
+948
+01:17:41,180 --> 01:17:43,610
+and I'm penalizing things
+by R, the actual response
+
+949
+01:17:43,610 --> 01:17:47,280
+is a complex response
+which goes down--
+
+950
+01:17:47,280 --> 01:17:50,000
+goes down this bowl
+and oscillates its way
+
+951
+01:17:50,000 --> 01:17:51,230
+into the origin.
+
+952
+01:18:12,610 --> 01:18:13,860
+OK, good.
+
+953
+01:18:13,860 --> 01:18:14,860
+It was a little painful.
+
+954
+01:18:14,860 --> 01:18:21,190
+But that is a set
+of tools that we're
+
+955
+01:18:21,190 --> 01:18:24,220
+going to lean on when we're
+making all our algorithms.
+
+956
+01:18:24,220 --> 01:18:28,120
+You've now seen a pretty
+representative sampling
+
+957
+01:18:28,120 --> 01:18:30,250
+of what people can
+do analytically
+
+958
+01:18:30,250 --> 01:18:32,770
+with optimal control.
+
+959
+01:18:32,770 --> 01:18:36,040
+When you have a linear
+dynamical system,
+
+960
+01:18:36,040 --> 01:18:40,090
+and there's a handful of cost
+functions which you can--
+
+961
+01:18:40,090 --> 01:18:43,480
+either by Pontryagin
+or dynamic programming,
+
+962
+01:18:43,480 --> 01:18:46,240
+the Hamilton-Bellman-Jacobi
+sufficiency theorem,
+
+963
+01:18:46,240 --> 01:18:50,770
+those are really the two big
+tools that are out there.
+
+964
+01:18:50,770 --> 01:18:53,080
+In cases, especially
+for linear systems,
+
+965
+01:18:53,080 --> 01:18:56,680
+you can analytically come up
+with optimal control policies
+
+966
+01:18:56,680 --> 01:19:00,520
+and value functions.
+
+967
+01:19:00,520 --> 01:19:01,870
+Why did we distinguish the two?
+
+968
+01:19:01,870 --> 01:19:06,580
+Why did I use one in
+one place and the other
+
+969
+01:19:06,580 --> 01:19:07,720
+in the other place?
+
+970
+01:19:07,720 --> 01:19:12,100
+Well, it turns out the
+Hamilton-Bellman-Jacobi
+
+971
+01:19:12,100 --> 01:19:18,130
+sufficiency theorem has
+in it these partial J
+
+972
+01:19:18,130 --> 01:19:21,910
+partial x, partial J partial t.
+
+973
+01:19:21,910 --> 01:19:27,040
+So it's only valid, actually, if
+partial J partial x is smooth.
+
+974
+01:19:29,820 --> 01:19:36,720
+The policy we got
+from minimum time
+
+975
+01:19:36,720 --> 01:19:40,336
+has this hard nonlinearity
+in the middle of it.
+
+976
+01:19:40,336 --> 01:19:42,630
+It turns out that
+the value function
+
+977
+01:19:42,630 --> 01:19:46,560
+that you have in the
+minimum time problem
+
+978
+01:19:46,560 --> 01:19:49,140
+also has a hard
+nonlinearity in it.
+
+979
+01:19:49,140 --> 01:19:52,260
+If I'm here versus
+here, it's smooth,
+
+980
+01:19:52,260 --> 01:19:54,690
+but the gradients
+are not smooth.
+
+981
+01:19:54,690 --> 01:19:56,920
+The gradient is discontinuous.
+
+982
+01:19:56,920 --> 01:20:02,580
+So on this cusp, partial
+J partial x is undefined.
+
+983
+01:20:02,580 --> 01:20:04,290
+So that's the only
+reason why I didn't
+
+984
+01:20:04,290 --> 01:20:08,640
+lean on the sufficiency
+theorem completely.
+
+985
+01:20:08,640 --> 01:20:12,300
+How did Pontryagin
+get around that?
+
+986
+01:20:12,300 --> 01:20:15,480
+The sufficiency theorem
+is talking about--
+
+987
+01:20:19,398 --> 01:20:20,730
+it's looking at over--
+
+988
+01:20:20,730 --> 01:20:22,860
+roughly over the
+entire state space.
+
+989
+01:20:22,860 --> 01:20:27,900
+It's looking at variations
+in the cost-to-go function
+
+990
+01:20:27,900 --> 01:20:31,530
+as I move in x and in time.
+
+991
+01:20:31,530 --> 01:20:35,310
+Pontryagin, if you remember, was
+along a particular trajectory.
+
+992
+01:20:35,310 --> 01:20:37,290
+It was verifying that
+a particular trajectory
+
+993
+01:20:37,290 --> 01:20:40,380
+was locally optimal.
+
+994
+01:20:40,380 --> 01:20:42,660
+And it turns out in
+problems like this
+
+995
+01:20:42,660 --> 01:20:48,660
+in these bang-bang problems,
+along a particular trajectory,
+
+996
+01:20:48,660 --> 01:20:53,830
+my cost-to-go is smooth.
+
+997
+01:20:53,830 --> 01:20:55,720
+The cost-to-go in the
+minimum time problem
+
+998
+01:20:55,720 --> 01:20:59,560
+was just time, right?
+
+999
+01:20:59,560 --> 01:21:02,440
+So the time I get--
+
+1000
+01:21:02,440 --> 01:21:04,630
+the time it takes for
+me to go to here to here
+
+1001
+01:21:04,630 --> 01:21:08,950
+is just smoothly decreasing
+as I get closer like time.
+
+1002
+01:21:08,950 --> 01:21:13,690
+Along any trajectory,
+with these additive costs,
+
+1003
+01:21:13,690 --> 01:21:16,180
+the value function is
+going to be smooth.
+
+1004
+01:21:16,180 --> 01:21:19,300
+But along a
+non-system trajectory,
+
+1005
+01:21:19,300 --> 01:21:21,130
+some line like this, partial--
+
+1006
+01:21:21,130 --> 01:21:26,140
+if I just look at J, how J
+varies over x, it's not smooth.
+
+1007
+01:21:26,140 --> 01:21:28,180
+So Pontryagin is a
+weaker statement.
+
+1008
+01:21:28,180 --> 01:21:31,600
+It's a statement about local
+stability along a trajectory.
+
+1009
+01:21:31,600 --> 01:21:34,120
+But it's valid in
+slightly larger domains,
+
+1010
+01:21:34,120 --> 01:21:36,850
+because it doesn't
+rely on value functions
+
+1011
+01:21:36,850 --> 01:21:38,678
+being smoothly differentiable.
+
+1012
+01:21:44,420 --> 01:21:50,660
+Now, for the first-order--
+
+1013
+01:21:50,660 --> 01:21:53,090
+sorry, for the double
+integrator, the brick on ice,
+
+1014
+01:21:53,090 --> 01:21:55,940
+we could have just
+chosen our K's by hand
+
+1015
+01:21:55,940 --> 01:21:58,340
+and pushed them
+higher or smaller.
+
+1016
+01:21:58,340 --> 01:21:59,150
+We could do locus.
+
+1017
+01:21:59,150 --> 01:22:01,070
+We could figure out a
+pretty reasonable set
+
+1018
+01:22:01,070 --> 01:22:06,160
+of K's, of feedback gains, to
+make it stabilize to the goal.
+
+1019
+01:22:06,160 --> 01:22:09,980
+LQR gives us a different set
+of knobs that we could tune.
+
+1020
+01:22:09,980 --> 01:22:12,860
+Now we could more
+explicitly say what
+
+1021
+01:22:12,860 --> 01:22:16,303
+our concern is for getting
+to the goal by the Q matrix,
+
+1022
+01:22:16,303 --> 01:22:18,470
+versus what our concern is
+about using a lot of cost
+
+1023
+01:22:18,470 --> 01:22:19,310
+in the R matrix.
+
+1024
+01:22:21,860 --> 01:22:24,050
+So maybe that's not
+very compelling.
+
+1025
+01:22:24,050 --> 01:22:25,910
+Maybe we just did a
+lot of work to just
+
+1026
+01:22:25,910 --> 01:22:27,493
+have a slightly
+different set of knobs
+
+1027
+01:22:27,493 --> 01:22:29,810
+to turn when I'm designing
+my feedback controller.
+
+1028
+01:22:29,810 --> 01:22:31,430
+But what you're
+going to see is that,
+
+1029
+01:22:31,430 --> 01:22:35,000
+for much more complicated
+systems that are still linear--
+
+1030
+01:22:35,000 --> 01:22:38,660
+or linearizations about
+very complicated systems,
+
+1031
+01:22:38,660 --> 01:22:40,490
+LQR is going to give
+you an explicit way
+
+1032
+01:22:40,490 --> 01:22:45,140
+to design these linear feedback
+controllers in a way that's
+
+1033
+01:22:45,140 --> 01:22:47,060
+optimal.
+
+1034
+01:22:47,060 --> 01:22:50,570
+So we're actually doing
+a variation of LQR
+
+1035
+01:22:50,570 --> 01:22:54,958
+now to make an airplane land
+on a perch, for instance.
+
+1036
+01:22:54,958 --> 01:22:56,750
+We can-- we're going
+to use it to stabilize
+
+1037
+01:22:56,750 --> 01:23:00,840
+the double-inverted pendulum,
+the Acrobot, around the top.
+
+1038
+01:23:00,840 --> 01:23:04,340
+So it's going to be a
+generally more useful tool.
+
+1039
+01:23:04,340 --> 01:23:06,860
+Down at the brick,
+double integrator level,
+
+1040
+01:23:06,860 --> 01:23:09,110
+you can think it's almost
+just a different set of ways
+
+1041
+01:23:09,110 --> 01:23:10,010
+to do your locus.
+
+1042
+01:23:12,570 --> 01:23:13,070
+OK.
+
+1043
+01:23:13,070 --> 01:23:16,580
+You have now, through
+two sort of dry lectures
+
+1044
+01:23:16,580 --> 01:23:18,290
+relative to the
+rest of the class,
+
+1045
+01:23:18,290 --> 01:23:25,567
+learned two ways to do
+analytical optimal control.
+
+1046
+01:23:25,567 --> 01:23:27,650
+One is by means of
+Pontryagin's minimum principle,
+
+1047
+01:23:27,650 --> 01:23:29,990
+one is by means of
+dynamic programming, which
+
+1048
+01:23:29,990 --> 01:23:34,880
+is through the HJB
+sufficiency theorem.
+
+1049
+01:23:34,880 --> 01:23:36,410
+And you've seen
+some representatives
+
+1050
+01:23:36,410 --> 01:23:39,860
+of what people can do with those
+analytical optimal control.
+
+1051
+01:23:39,860 --> 01:23:45,620
+And it got us far enough to
+make a brick go to the origin.
+
+1052
+01:23:45,620 --> 01:23:46,310
+Right.
+
+1053
+01:23:46,310 --> 01:23:48,410
+And it'll do a few
+more things, but.
+
+1054
+01:23:48,410 --> 01:23:52,670
+OK, so that's about as far
+as we get with analytics.
+
+1055
+01:23:52,670 --> 01:23:56,330
+We're going to use this in
+places to start algorithms up.
+
+1056
+01:23:56,330 --> 01:24:02,840
+But if we want to, for instance,
+solve the minimum time problem
+
+1057
+01:24:02,840 --> 01:24:05,390
+or the quadratic
+regulator problem,
+
+1058
+01:24:05,390 --> 01:24:09,610
+for the nonlinear
+dynamics of the pendulum,
+
+1059
+01:24:09,610 --> 01:24:13,540
+if I take my x dot
+equals Ax plus Bu away
+
+1060
+01:24:13,540 --> 01:24:18,970
+and give it the mgL sine
+theta, then most of these tools
+
+1061
+01:24:18,970 --> 01:24:19,540
+break down.
+
+1062
+01:24:22,210 --> 01:24:25,780
+Next Tuesday happens to be
+a holiday, virtual Monday.
+
+1063
+01:24:25,780 --> 01:24:27,830
+So we won't do it
+on next Tuesday.
+
+1064
+01:24:27,830 --> 01:24:30,760
+But next Thursday, I'm
+going to show you algorithms
+
+1065
+01:24:30,760 --> 01:24:31,840
+that are based on these.
+
+1066
+01:24:31,840 --> 01:24:36,400
+This is the important foundation
+that are going to solve
+
+1067
+01:24:36,400 --> 01:24:40,570
+algorithmically the same optimal
+control problems that we're--
+
+1068
+01:24:40,570 --> 01:24:46,180
+more optimal control problems
+that we can solve analytically.
+
+1069
+01:24:46,180 --> 01:24:49,600
+And then the-- we'll
+go on from there
+
+1070
+01:24:49,600 --> 01:24:51,990
+to more and more
+complicated systems.

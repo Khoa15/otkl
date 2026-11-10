@@ -1,0 +1,42 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "draft": false,
+  "file": null,
+  "file_size": null,
+  "file_type": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Video",
+  "title": "The nature of superposition. Mach-Zehnder interferometer",
+  "uid": "4861d8fe-f2d3-4a9f-905f-ddeba98b1377",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "/courses/8-04-quantum-physics-i-spring-2016/CR-eOhdxbes_captions.webvtt",
+    "video_captions_resource": {
+      "content": "",
+      "website": "8-04-quantum-physics-i-spring-2016"
+    },
+    "video_thumbnail_file": "https://img.youtube.com/vi/CR-eOhdxbes/default.jpg",
+    "video_transcript_file": "/courses/8-04-quantum-physics-i-spring-2016/CR-eOhdxbes_transcript.pdf",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "8-04-quantum-physics-i-spring-2016"
+    }
+  },
+  "video_metadata": {
+    "source": "youtube",
+    "video_speakers": "",
+    "video_tags": "8-04-quantum-physics-i-spring-2016, mach-zehnder interferometer, superposition",
+    "youtube_description": "",
+    "youtube_id": "CR-eOhdxbes"
+  }
+}

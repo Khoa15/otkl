@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on MIT OpenCourseWare</title>
+    <link>/resources/assignments/</link>
+    <description>Recent content in Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignments</title>
+      <link>/pages/assignments/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/assignments/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt;: The homework assignments for this class require access to the following online development tools and environments that &lt;strong&gt;may not be freely available to OCW users&lt;/strong&gt;. The assignments are included here as examples of the work MIT students were expected to complete.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;http://www.mcs.anl.gov/research/projects/mpi/&#34;  aria-label=&#34;Message Passing Interface (MPI) (opens in a new tab)&#34;  &gt;Message Passing Interface (MPI)&lt;/a&gt;: Standardized and portable message-passing system designed by a group of researchers from academia and industry to function on a wide variety of parallel computers.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

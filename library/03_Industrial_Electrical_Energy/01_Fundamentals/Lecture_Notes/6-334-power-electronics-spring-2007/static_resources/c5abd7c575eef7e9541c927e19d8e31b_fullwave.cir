@@ -1,0 +1,24 @@
+Lecture 3 - Full Wave Rectifier with Commutating Inductance and I Load
+
+.param LCOMM = 5mH
+.param ILOAD = 20A
+
+Vs 2 1 sin(0 {120*sqrt(2)} 50Hz)
+Lc 2 3 {LCOMM} ic={-ILOAD}
+RLc 2 3 10k
+X1 3 1 4 0 fullbridge
+RIl 4 0 1k
+IL 4 0 {ILOAD}
+
+.subckt fullbridge sp sn lp ln
+D1 sp lp dmod
+D2 sn lp dmod
+D3 ln sp dmod
+D4 ln sn dmod
+.model dmod D
+.ends
+
+.STEP lin param ILOAD 20A 100A 20A
+.TRAN 0.01ms 40ms 0ms 0.01ms UIC
+.PROBE
+.END

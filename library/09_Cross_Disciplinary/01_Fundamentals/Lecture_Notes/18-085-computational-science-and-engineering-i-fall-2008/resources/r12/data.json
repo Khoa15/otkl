@@ -1,0 +1,27 @@
+{
+  "content": "<p>Thumbnail image accompanying a video recitation on Fourier series.</p>\n",
+  "content_type": "resource",
+  "description": "Thumbnail image accompanying a video recitation on Fourier series.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/137ba52170ec3b0e7b3c8b01874dc7ca_r12.jpg",
+  "file_size": 2531,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Recitation 12",
+  "uid": "137ba521-70ec-3b0e-7b3c-8b01874dc7ca",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

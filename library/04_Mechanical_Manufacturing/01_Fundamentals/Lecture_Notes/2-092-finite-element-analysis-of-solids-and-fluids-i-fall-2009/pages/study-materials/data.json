@@ -1,0 +1,17 @@
+
+{
+  "content": "\n    <h3 id=\"dynamic-analysis\">Dynamic Analysis</h3>\n\n<p>The problem of a cantilever beam was explored in class during Session #19. The following materials give more details about the analysis and the 6 modes corresponding to the lowest 6 frequencies. If images/text are blurry, please zoom in.</p>\n<p>Dynamic analysis of a cantilever beam (<a href=\"../../resources/mit2_092f09_dynamics/index.html\">PDF</a>)</p>\n\n    <h3 id=\"animations\">Animations</h3>\n\n<p>Mode 1 (<a href=\"../../resources/mode1/index.html\">AVI</a>)</p>\n<p>Mode 2 (<a href=\"../../resources/mode2/index.html\">AVI</a>)</p>\n<p>Mode 3 (<a href=\"../../resources/mode3/index.html\">AVI</a>)</p>\n<p>Mode 4 (<a href=\"../../resources/mode4/index.html\">AVI</a>)</p>\n<p>Mode 5 (<a href=\"../../resources/mode5/index.html\">AVI</a>)</p>\n<p>Mode 6 (<a href=\"../../resources/mode6/index.html\">AVI</a>)</p>\n\n    <h3 id=\"multiple-frequencies\">Multiple Frequencies</h3>\n\n<p>The natural frequencies of a cube were investigated using ADINA, and the results checked against theory. (<a href=\"../../resources/mit2_092f09_multiple/index.html\">PDF</a>)</p>\n\n    <h3 id=\"video-lectures\">Video Lectures</h3>\n\n<p><a href=\"https://ocw.mit.edu/courses/res-2-002-finite-element-procedures-for-solids-and-structures-spring-2010\" target=\"_blank\" rel=\"noopener\"><em>Finite Element Procedures for Solids and Structures</em></a> presents two video courses by Prof. Bathe, recommended for further study on the topics of linear and nonlinear finite element analysis.</p>\n",
+  "content_type": "page",
+  "description": "This section provides study materials on dynamic analysis and multiple frequencies, and video lectures on linear and nonlinear finite element analysis.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Study Materials",
+  "uid": "e4e511ae-242d-73be-e289-5d97b2816524",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

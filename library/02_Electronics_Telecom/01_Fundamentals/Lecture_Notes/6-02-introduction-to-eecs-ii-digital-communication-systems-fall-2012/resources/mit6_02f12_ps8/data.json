@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource contains information regarding problem set 8.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information regarding problem set 8.",
+  "draft": false,
+  "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/634c92c3c4151409b812e0a56a55eec2_MIT6_02F12_ps8.pdf",
+  "file_size": 285179,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "83069da5-d3b4-531b-dd45-1bd51850dba6",
+  "resourcetype": "Document",
+  "title": "6.02 Introduction to EECS II, Problem Set 8",
+  "uid": "634c92c3-c415-1409-b812-e0a56a55eec2",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

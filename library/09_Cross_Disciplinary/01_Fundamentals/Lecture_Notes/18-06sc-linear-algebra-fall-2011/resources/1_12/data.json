@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/ea19ebb0b8fe89f74aa01b5876da5b66_1_12.jpg",
+  "file_size": 3464,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from ‘Introduction to Linear Algebra’ by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Graphs, Networks, Incidence Matrices",
+  "parent_type": "CourseSection",
+  "parent_uid": "8be90057-9381-41d7-712d-45f0e42d1cfc",
+  "resourcetype": "Image",
+  "title": "1_12.jpg",
+  "uid": "ea19ebb0-b8fe-89f7-4aa0-1b5876da5b66",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

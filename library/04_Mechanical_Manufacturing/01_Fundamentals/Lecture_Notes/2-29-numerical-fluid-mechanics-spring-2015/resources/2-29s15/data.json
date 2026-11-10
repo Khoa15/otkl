@@ -1,0 +1,27 @@
+{
+  "content": "<p>Graphs showing numerical modeling of the following fluid phenomena: lock exchange, warm rising bubble, lid-driven cavity flow, and double-gyre. Image courtesy of Prof. Pierre Lermusiaux.</p>\n",
+  "content_type": "resource",
+  "description": "Graphs showing numerical modeling of the following fluid phenomena: lock exchange, warm rising bubble, lid-driven cavity flow, and double-gyre. Image courtesy of Prof. Pierre Lermusiaux.",
+  "draft": false,
+  "file": "/courses/2-29-numerical-fluid-mechanics-spring-2015/a1736dffb564485d6115d3694f0dfb3c_2-29s15.jpg",
+  "file_size": 48788,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Graphs showing numerical modeling of the following fluid phenomena: lock exchange, warm rising bubble, lid-driven cavity flow, and double-gyre. (Image courtesy of Prof. Pierre Lermusiaux.)",
+    "credit": "Image courtesy of Prof. Pierre Lermusiaux.",
+    "image-alt": "Colorful contour graphs visually demonstrating pressure, velocity, density, and related quantities for lock exchange, warm rising bubble, lid-driven cavity flow, and double-gyre phenomena."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "2-29s15",
+  "uid": "a1736dff-b564-485d-6115-d3694f0dfb3c",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

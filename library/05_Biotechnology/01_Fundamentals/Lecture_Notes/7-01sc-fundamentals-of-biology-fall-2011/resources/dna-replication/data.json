@@ -1,0 +1,50 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "77780707",
+  "file_type": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "DNA Replication",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "DNA Replication",
+  "uid": "5f9953c6-ec35-49a3-7e02-d1dace5eebd8",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT7.01SCF11/MIT7_01SCF11_track07_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/7-01sc-fundamentals-of-biology-fall-2011/b8aaf45d34e15c7fa472fc1b5cfe45dc_DRBREvFL19g.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/DRBREvFL19g/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/7-01sc-fundamentals-of-biology-fall-2011/f61bc9e7c3da53f1fc674820470dee5a_DRBREvFL19g.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "3', 5', 7-01sc-fundamentals-of-biology-fall-2011, assay, bacterial cells, dna polymerase, dna replication, enzyme, fidelity of replication, ligase, nucleotides, primase, primer, topo isomerase, topological problem",
+    "youtube_id": "DRBREvFL19g"
+  }
+}

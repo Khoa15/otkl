@@ -1,0 +1,85 @@
+{
+  "course_description": "This class focuses on chemical rocket propulsion systems for launch, orbital, and interplanetary flight. It studies the modeling of solid, liquid-bipropellant, and hybrid rocket engines. Thermochemistry, prediction of specific impulse, and nozzle flows including real gas and kinetic effects will also be covered. Other topics to be covered include structural constraints, propellant feed systems, turbopumps, and combustion processes in solid, liquid, and hybrid rockets.\n",
+  "course_description_html": "This class focuses on chemical rocket propulsion systems for launch, orbital, and interplanetary flight. It studies the modeling of solid, liquid-bipropellant, and hybrid rocket engines. Thermochemistry, prediction of specific impulse, and nozzle flows including real gas and kinetic effects will also be covered. Other topics to be covered include structural constraints, propellant feed systems, turbopumps, and combustion processes in solid, liquid, and hybrid rockets.",
+  "course_image": {
+    "content": "69bdff0f-76c0-7bfd-a8f3-7bae4776087e",
+    "website": "16-512-rocket-propulsion-fall-2005"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "A NASA Delta II Rocket. (Image courtesy of NASA.)",
+    "draft": false,
+    "file": "/courses/16-512-rocket-propulsion-fall-2005/69bdff0f76c07bfda8f37bae4776087e_16-512f05.jpg",
+    "file_size": 50577,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "A NASA Delta II Rocket. (Image courtesy of {{% resource_link \"325f0e84-e809-4abe-ad3a-d0bf5fa4b963\" \"NASA\" %}}.)",
+      "credit": "",
+      "image-alt": "Photo of a Delta II Rocket launch."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "16-512f05.jpg",
+    "uid": "69bdff0f-76c0-7bfd-a8f3-7bae4776087e"
+  },
+  "course_image_thumbnail": {
+    "content": "708a14eb-94fe-216d-0531-94c17e36fd0f",
+    "website": "16-512-rocket-propulsion-fall-2005"
+  },
+  "course_title": "Rocket Propulsion",
+  "department_numbers": [
+    "16"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/69bdff0f76c07bfda8f37bae4776087e_16-512f05.jpg",
+  "instructors": [
+    {
+      "first_name": "Manuel",
+      "last_name": "Martinez-Sanchez",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Manuel Martinez-Sanchez",
+      "uid": "292dadae-2775-334e-76d0-69610178bb29",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Manuel+Martinez-Sanchez"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "legacy_uid": "ec98e32d-ee24-9ee7-64d4-1021a0c1c497",
+  "level": [
+    "Graduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Engineering",
+      "Aerospace Engineering"
+    ],
+    [
+      "Science & Math",
+      "Physics"
+    ]
+  ],
+  "primary_course_number": "16.512",
+  "site_short_id": "16.512-fall-2005",
+  "site_uid": "97623e7c-21ae-4c42-8567-5387f708b571",
+  "site_url_path": "courses/16-512-rocket-propulsion-fall-2005",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Science",
+      "Physics",
+      "Thermodynamics"
+    ],
+    [
+      "Engineering",
+      "Aerospace Engineering",
+      "Propulsion Systems"
+    ]
+  ],
+  "year": "2005"
+}

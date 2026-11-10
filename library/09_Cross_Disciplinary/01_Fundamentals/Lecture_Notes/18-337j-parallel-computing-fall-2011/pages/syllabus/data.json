@@ -1,0 +1,20 @@
+
+{
+  "content": "\n    <h3 id=\"course-meeting-times\">Course Meeting Times</h3>\n\n<p>Lectures: 2 sessions / week, 1.5 hours / session</p>\n\n    <h3 id=\"prerequisites\">Prerequisites</h3>\n\n<p><a href=\"https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010\" target=\"_blank\" rel=\"noopener\"><em>18.06 Linear Algebra</em></a> or <a href=\"https://ocw.mit.edu/courses/18-701-algebra-i-fall-2010\" target=\"_blank\" rel=\"noopener\"><em>18.701 Algebra I</em></a>.</p>\n\n    <h3 id=\"description\">Description</h3>\n\n<p>This course is an advanced interdisciplinary introduction to applied parallel computing on modern supercomputers. It has a hands-on emphasis on understanding the realities and myths of what is possible on the world&rsquo;s fastest machines.</p>\n<p>Numerical topics include: dense and sparse linear algebra, N-body problems, multigrid, fast-multipole, wavelets and Fourier transforms. Geometrical topics include partitioning and mesh generation. Other topics include: applications oriented architecture, understanding parallel programming paradigms, MPI, data parallel systems, Star-P for parallel Python and parallel MATLAB®, graphics processors, virtualization, caches and vector processors.</p>\n<p>One emphasis for this course will be VHLLs or Very High Level Languages for parallel computing. This includes the <a   class=\"external-link \"   target=\"_blank\"   href=\"https://github.com/JuliaLang/julia\"  aria-label=\"Julia programming language (opens in a new tab)\"  >Julia programming language</a>. Julia is a high-level, high-performance dynamic language for technical computing, with syntax that is familiar to users of other technical computing environments. It provides a sophisticated compiler, distributed parallel execution, numerical accuracy, and an extensive mathematical function library.</p>\n\n    <h3 id=\"readings\">Readings</h3>\n\n<p>There is no textbook for this course. A list of links to suggested readings and videos can be found in the <a href=\"../../pages/related-resources/index.html\">related resources</a> section.</p>\n\n    <h3 id=\"requirements\">Requirements</h3>\n\n<p>There will be two homework assignments and one project that will take roughly one half of the semester. You will need to hand in progress reports, a midterm, and make final presentation. The midterm is to report on your progress and is an opportunity for real feedback. The final project can be presented at the end.</p>\n\n    <h3 id=\"grading\">Grading</h3>\n\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nACTIVITIES\n</th>\n\n<th>\n\nPERCENTAGES\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\nHomework\n</td>\n\n<td>\n\n45%\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nProject\n</td>\n\n<td>\n\n55%\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This syllabus section provides the course description and information on meeting times, prerequisites, readings, requirements, and grading.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Syllabus",
+  "uid": "190845ef-5dbe-4952-5a55-21879fa8600c",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

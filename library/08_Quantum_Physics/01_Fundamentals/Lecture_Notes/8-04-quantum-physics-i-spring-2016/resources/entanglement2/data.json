@@ -1,0 +1,42 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "draft": false,
+  "file": null,
+  "file_size": null,
+  "file_type": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Video",
+  "title": "Entanglement",
+  "uid": "4a53946f-1a34-467a-b2a1-a4af3095e578",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "/courses/8-04-quantum-physics-i-spring-2016/G3HSP3qMgKI_captions.webvtt",
+    "video_captions_resource": {
+      "content": "",
+      "website": "8-04-quantum-physics-i-spring-2016"
+    },
+    "video_thumbnail_file": "https://img.youtube.com/vi/G3HSP3qMgKI/default.jpg",
+    "video_transcript_file": "/courses/8-04-quantum-physics-i-spring-2016/G3HSP3qMgKI_transcript.pdf",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "8-04-quantum-physics-i-spring-2016"
+    }
+  },
+  "video_metadata": {
+    "source": "youtube",
+    "video_speakers": "",
+    "video_tags": "8-04-quantum-physics-i-spring-2016, entanglement",
+    "youtube_description": "",
+    "youtube_id": "G3HSP3qMgKI"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Recitation handout on root locus, continued.</p>\n",
+  "content_type": "resource",
+  "description": "Recitation handout on root locus, continued.",
+  "draft": false,
+  "file": "/courses/6-302-feedback-systems-spring-2007/53c538317c43392020cd0419b6b86fab_6_302rec8.pdf",
+  "file_size": 104879,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem-solving Notes"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Recitations",
+  "parent_type": "CourseSection",
+  "parent_uid": "5667c63a-09ff-e158-1e89-d49a0035050d",
+  "resourcetype": "Document",
+  "title": "6_302rec8.pdf",
+  "uid": "53c53831-7c43-3920-20cd-0419b6b86fab",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

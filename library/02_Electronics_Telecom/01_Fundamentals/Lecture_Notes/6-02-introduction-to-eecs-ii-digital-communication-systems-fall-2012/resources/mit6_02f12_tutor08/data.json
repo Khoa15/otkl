@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource contains information regarding tutorial 8.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information regarding tutorial 8.",
+  "draft": false,
+  "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/986ec2b4d4872b15662d9d6e0acd8412_MIT6_02F12_tutor08.pdf",
+  "file_size": 152010,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Tutorials",
+  "parent_type": "CourseSection",
+  "parent_uid": "50216f2a-736c-9553-2555-2defe4b0c19f",
+  "resourcetype": "Document",
+  "title": "6.02 Tutorial 8",
+  "uid": "986ec2b4-d487-2b15-662d-9d6e0acd8412",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

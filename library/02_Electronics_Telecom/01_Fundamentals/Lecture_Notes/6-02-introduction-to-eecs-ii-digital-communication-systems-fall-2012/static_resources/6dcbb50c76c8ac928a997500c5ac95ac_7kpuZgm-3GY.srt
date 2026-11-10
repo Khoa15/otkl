@@ -1,0 +1,4836 @@
+1
+00:00:00,000 --> 00:00:02,542
+ANNOUNCER: The following content
+is provided under a Creative
+
+2
+00:00:02,542 --> 00:00:04,059
+Commons license.
+
+3
+00:00:04,059 --> 00:00:06,360
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:06,360 --> 00:00:10,720
+continue to offer high-quality
+educational resources for free.
+
+5
+00:00:10,720 --> 00:00:13,350
+To make a donation or
+view additional materials
+
+6
+00:00:13,350 --> 00:00:17,290
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:17,290 --> 00:00:18,294
+at ocw.mit.edu.
+
+8
+00:00:30,410 --> 00:00:33,460
+PROFESSOR: There's quite a
+bit I want to go through here.
+
+9
+00:00:33,460 --> 00:00:36,650
+so we're going to talk
+today about modulation,
+
+10
+00:00:36,650 --> 00:00:39,950
+which you've already
+gotten some notion of,
+
+11
+00:00:39,950 --> 00:00:42,920
+and that's basically the task
+of matching a transmitted signal
+
+12
+00:00:42,920 --> 00:00:44,810
+to the physical medium.
+
+13
+00:00:44,810 --> 00:00:48,710
+And then we'll talk about
+demodulation, as well.
+
+14
+00:00:48,710 --> 00:00:49,210
+Whoops.
+
+15
+00:00:52,820 --> 00:00:56,210
+So just to remind you of
+how we got into this story,
+
+16
+00:00:56,210 --> 00:01:00,650
+we started off
+talking about bits
+
+17
+00:01:00,650 --> 00:01:04,315
+that we had to get across
+to a receiver from a source.
+
+18
+00:01:04,315 --> 00:01:05,940
+And we've been spending
+quite some time
+
+19
+00:01:05,940 --> 00:01:09,440
+now focusing on this
+piece of the system, which
+
+20
+00:01:09,440 --> 00:01:12,020
+is taking the bits,
+converting them
+
+21
+00:01:12,020 --> 00:01:14,570
+to actual physical
+samples of a voltage,
+
+22
+00:01:14,570 --> 00:01:16,580
+for instance, and then
+trying to get them
+
+23
+00:01:16,580 --> 00:01:19,700
+over some physical medium.
+
+24
+00:01:19,700 --> 00:01:22,530
+And then, at the other end,
+converting back to bits,
+
+25
+00:01:22,530 --> 00:01:23,030
+all right?
+
+26
+00:01:23,030 --> 00:01:25,955
+So this is really a key
+piece of the system.
+
+27
+00:01:25,955 --> 00:01:27,830
+If you can't get it over
+the physical medium,
+
+28
+00:01:27,830 --> 00:01:29,862
+then you don't have anything.
+
+29
+00:01:29,862 --> 00:01:31,820
+So we've been spending
+quite some time on that.
+
+30
+00:01:31,820 --> 00:01:34,430
+We've talked about models
+for signals and models
+
+31
+00:01:34,430 --> 00:01:37,490
+for systems, LTI
+models for systems,
+
+32
+00:01:37,490 --> 00:01:38,760
+all in the time domain.
+
+33
+00:01:38,760 --> 00:01:40,790
+And then we came to the
+frequency domain, which
+
+34
+00:01:40,790 --> 00:01:42,980
+we said will make
+things a lot simpler,
+
+35
+00:01:42,980 --> 00:01:45,730
+and actually is the way that
+people think about transmission
+
+36
+00:01:45,730 --> 00:01:50,000
+on physical media, typically.
+
+37
+00:01:50,000 --> 00:01:53,420
+OK, so the actual math.
+
+38
+00:01:53,420 --> 00:01:56,540
+Well, we've seen--
+this is just review.
+
+39
+00:01:56,540 --> 00:01:59,180
+We've seen that, most
+recently, that you can actually
+
+40
+00:01:59,180 --> 00:02:03,650
+represent any signal as
+a weighted combination
+
+41
+00:02:03,650 --> 00:02:06,440
+of exponentials, so this
+was the transform domain
+
+42
+00:02:06,440 --> 00:02:08,000
+representation.
+
+43
+00:02:08,000 --> 00:02:12,380
+And the weights here were given
+by the discrete-time Fourier
+
+44
+00:02:12,380 --> 00:02:13,010
+transform.
+
+45
+00:02:13,010 --> 00:02:15,620
+So you give me a signal,
+I can find for you
+
+46
+00:02:15,620 --> 00:02:18,770
+the discrete-time Fourier
+transform, which then tells me
+
+47
+00:02:18,770 --> 00:02:21,830
+how to assemble complex
+exponentials to get
+
+48
+00:02:21,830 --> 00:02:23,660
+the signal of
+interest, all right?
+
+49
+00:02:23,660 --> 00:02:27,110
+And so this Fourier
+representation of the signal
+
+50
+00:02:27,110 --> 00:02:32,250
+is really the frequency
+domain thinking.
+
+51
+00:02:32,250 --> 00:02:35,350
+And then we saw how to apply
+that actually to a system.
+
+52
+00:02:35,350 --> 00:02:37,620
+We have an LTI system,
+therefore characterized
+
+53
+00:02:37,620 --> 00:02:39,630
+by a frequency response.
+
+54
+00:02:39,630 --> 00:02:41,550
+We first introduced
+the frequency response
+
+55
+00:02:41,550 --> 00:02:44,190
+as a way of thinking about
+what happens to cosines.
+
+56
+00:02:44,190 --> 00:02:46,920
+Put a cosine in,
+and you get a cosine
+
+57
+00:02:46,920 --> 00:02:49,110
+out that's scaled by the
+magnitude of the frequency
+
+58
+00:02:49,110 --> 00:02:50,790
+response and with
+the phase shifted
+
+59
+00:02:50,790 --> 00:02:53,340
+by the angle of the
+frequency response.
+
+60
+00:02:53,340 --> 00:02:57,030
+And then we went from
+cosines, or in parallel we
+
+61
+00:02:57,030 --> 00:03:00,780
+talked about exponential
+inputs, so inputs of this type.
+
+62
+00:03:00,780 --> 00:03:03,120
+And now we have more
+generally a signal
+
+63
+00:03:03,120 --> 00:03:06,000
+that's represented as a weighted
+combination of exponentials
+
+64
+00:03:06,000 --> 00:03:07,350
+of that type.
+
+65
+00:03:07,350 --> 00:03:10,410
+Out comes the same weighted
+combination of exponentials,
+
+66
+00:03:10,410 --> 00:03:12,750
+except each one is
+scaled by the frequency
+
+67
+00:03:12,750 --> 00:03:14,940
+response as appropriate.
+
+68
+00:03:14,940 --> 00:03:16,440
+And then comparing
+that with what
+
+69
+00:03:16,440 --> 00:03:21,000
+we expect as a spectral
+representation for the output.
+
+70
+00:03:21,000 --> 00:03:22,680
+We get this key
+relationship, which
+
+71
+00:03:22,680 --> 00:03:26,550
+is relating the input and
+the output of a system,
+
+72
+00:03:26,550 --> 00:03:30,340
+an LTI system, that's governed
+by a frequency response.
+
+73
+00:03:30,340 --> 00:03:32,580
+So now we're starting
+to think in terms
+
+74
+00:03:32,580 --> 00:03:35,520
+of the spectral content of
+the input, all right, which
+
+75
+00:03:35,520 --> 00:03:37,770
+is the frequency domain
+description of the signal that
+
+76
+00:03:37,770 --> 00:03:39,640
+goes into the system.
+
+77
+00:03:39,640 --> 00:03:41,400
+Then the frequency
+response of the system
+
+78
+00:03:41,400 --> 00:03:45,150
+shaping that spectral content
+to give you the spectral content
+
+79
+00:03:45,150 --> 00:03:46,470
+of what comes out, all right?
+
+80
+00:03:46,470 --> 00:03:48,150
+So this is the language
+and the picture
+
+81
+00:03:48,150 --> 00:03:52,620
+that we have, and it's all
+as simple as multiplication
+
+82
+00:03:52,620 --> 00:03:54,990
+once you've figured out
+what the spectral content is
+
+83
+00:03:54,990 --> 00:03:57,240
+of the signal of interest,
+once you have the frequency
+
+84
+00:03:57,240 --> 00:03:58,570
+response of the system.
+
+85
+00:03:58,570 --> 00:04:01,440
+So we've got to know
+how to do those pieces.
+
+86
+00:04:01,440 --> 00:04:03,780
+And then we talked
+most specifically
+
+87
+00:04:03,780 --> 00:04:07,590
+about a physical medium
+that's close to what you're
+
+88
+00:04:07,590 --> 00:04:11,560
+doing in the lab, which
+is the medium of, well,
+
+89
+00:04:11,560 --> 00:04:14,120
+an acoustic channel
+driven by a loudspeaker,
+
+90
+00:04:14,120 --> 00:04:15,690
+and at the other
+end are a microphone
+
+91
+00:04:15,690 --> 00:04:17,290
+to pick up the signal.
+
+92
+00:04:17,290 --> 00:04:19,740
+And I showed you these
+typical characteristics
+
+93
+00:04:19,740 --> 00:04:23,370
+of loud speakers, the kinds that
+you'll find listed everywhere,
+
+94
+00:04:23,370 --> 00:04:25,590
+three different speakers.
+
+95
+00:04:25,590 --> 00:04:27,090
+I mentioned last
+time that, when you
+
+96
+00:04:27,090 --> 00:04:30,370
+look at frequency
+specs for speakers,
+
+97
+00:04:30,370 --> 00:04:33,930
+people will typically only show
+you the magnitude specification
+
+98
+00:04:33,930 --> 00:04:37,350
+because, for audio applications,
+the phase distortions are
+
+99
+00:04:37,350 --> 00:04:38,370
+a little less important.
+
+100
+00:04:38,370 --> 00:04:41,280
+They tend to not be
+picked up by the ear.
+
+101
+00:04:41,280 --> 00:04:44,820
+All of these-- let's see
+they have passbands from--
+
+102
+00:04:44,820 --> 00:04:47,190
+this pointer's a
+little weak here, but--
+
+103
+00:04:47,190 --> 00:04:51,460
+passbands from around 100 Hertz
+to, let's say, 10 kilohertz.
+
+104
+00:04:51,460 --> 00:04:56,000
+So in that region, they pass
+signals more or less uniformly
+
+105
+00:04:56,000 --> 00:04:59,040
+in at least the magnitude
+characteristic, and then
+
+106
+00:04:59,040 --> 00:05:01,110
+near the edges they taper off.
+
+107
+00:05:01,110 --> 00:05:06,780
+And some speakers will
+have bigger passbands,
+
+108
+00:05:06,780 --> 00:05:10,090
+and will taper off closer to DC.
+
+109
+00:05:10,090 --> 00:05:13,880
+Other speakers actually
+will not pass frequencies
+
+110
+00:05:13,880 --> 00:05:17,453
+till you get till about, oh,
+what is that, 120 Hertz or so
+
+111
+00:05:17,453 --> 00:05:18,870
+on this characteristic,
+but you've
+
+112
+00:05:18,870 --> 00:05:22,500
+got to get way up before you get
+anything through that speaker.
+
+113
+00:05:22,500 --> 00:05:24,990
+But nominally, we can
+think of speakers,
+
+114
+00:05:24,990 --> 00:05:27,160
+since they're aimed at
+audio applications--
+
+115
+00:05:27,160 --> 00:05:27,660
+what?
+
+116
+00:05:27,660 --> 00:05:31,560
+The ear here is something on the
+order of, let's say, 100 Hertz
+
+117
+00:05:31,560 --> 00:05:34,930
+to 10 kilohertz.
+
+118
+00:05:34,930 --> 00:05:39,630
+OK, but the phase characteristic
+is important, too.
+
+119
+00:05:39,630 --> 00:05:41,220
+It's not important,
+maybe, when you're
+
+120
+00:05:41,220 --> 00:05:43,560
+talking about sending
+audio on a speaker,
+
+121
+00:05:43,560 --> 00:05:45,960
+but in Audiocom in the
+lab, you're actually
+
+122
+00:05:45,960 --> 00:05:47,540
+sending pulses across it.
+
+123
+00:05:47,540 --> 00:05:49,797
+You're communicating
+something other than audio.
+
+124
+00:05:49,797 --> 00:05:51,630
+You're actually trying
+to get a signal whose
+
+125
+00:05:51,630 --> 00:05:52,890
+particular shape matters.
+
+126
+00:05:52,890 --> 00:05:54,720
+It's not how you hear
+it, but what it looks
+
+127
+00:05:54,720 --> 00:05:57,390
+like before you sample it, OK?
+
+128
+00:05:57,390 --> 00:06:00,210
+So in settings like that,
+the phase characteristic
+
+129
+00:06:00,210 --> 00:06:01,610
+is important, as well.
+
+130
+00:06:01,610 --> 00:06:04,440
+Now, you haven't
+explicitly probed
+
+131
+00:06:04,440 --> 00:06:07,320
+the frequency characteristic
+of the speaker you're using.
+
+132
+00:06:07,320 --> 00:06:09,300
+You could do that,
+but instead you've
+
+133
+00:06:09,300 --> 00:06:11,977
+been looking at things like step
+responses in the time domain
+
+134
+00:06:11,977 --> 00:06:13,560
+and constructing eye
+diagrams, but you
+
+135
+00:06:13,560 --> 00:06:15,360
+could look in the
+frequency domain
+
+136
+00:06:15,360 --> 00:06:18,090
+and characterize your particular
+channel for your laptop sitting
+
+137
+00:06:18,090 --> 00:06:19,590
+in a particular place.
+
+138
+00:06:19,590 --> 00:06:24,390
+You could look to see what the
+magnitude and phase are like.
+
+139
+00:06:24,390 --> 00:06:28,320
+OK, so I want to go through
+this exercise of looking
+
+140
+00:06:28,320 --> 00:06:29,850
+at the spectral
+content of a signal
+
+141
+00:06:29,850 --> 00:06:32,130
+you want to get across
+this audio channel,
+
+142
+00:06:32,130 --> 00:06:34,650
+and then looking at how the
+audio channel shapes it,
+
+143
+00:06:34,650 --> 00:06:36,460
+and then what you pick
+up at the other end.
+
+144
+00:06:36,460 --> 00:06:40,330
+So just to give you a feel for
+how one thinks through this.
+
+145
+00:06:40,330 --> 00:06:44,100
+So the input in the
+typical application
+
+146
+00:06:44,100 --> 00:06:47,310
+you have for Audiocom you have--
+
+147
+00:06:47,310 --> 00:06:50,010
+let's see, if you wanted to
+signal just a 1 and then all
+
+148
+00:06:50,010 --> 00:06:51,780
+0's.
+
+149
+00:06:51,780 --> 00:06:55,850
+You would have 256
+samples at height 1,
+
+150
+00:06:55,850 --> 00:06:59,430
+and then everything
+from then on 0, OK?
+
+151
+00:06:59,430 --> 00:07:05,370
+So what I'd like to do is think
+through how this pulse gets
+
+152
+00:07:05,370 --> 00:07:10,290
+across the medium, but thinking
+it through in the frequency
+
+153
+00:07:10,290 --> 00:07:11,293
+domain, all right?
+
+154
+00:07:11,293 --> 00:07:12,960
+So the first thing
+we have to figure out
+
+155
+00:07:12,960 --> 00:07:16,443
+is, what's the spectral
+content of this pulse?
+
+156
+00:07:16,443 --> 00:07:18,360
+By the way, if we
+understand it for one pulse,
+
+157
+00:07:18,360 --> 00:07:20,040
+then we can understand
+it-- then we know it
+
+158
+00:07:20,040 --> 00:07:21,748
+for a sequence of
+pulses because if we're
+
+159
+00:07:21,748 --> 00:07:24,620
+modeling the system as
+time-invariant, once we figure
+
+160
+00:07:24,620 --> 00:07:26,370
+out what one pulse
+does, we can figure out
+
+161
+00:07:26,370 --> 00:07:28,080
+what a later pulse will do.
+
+162
+00:07:28,080 --> 00:07:30,570
+It's just the same response
+delayed in time, OK?
+
+163
+00:07:30,570 --> 00:07:32,100
+So the key to it
+is understanding
+
+164
+00:07:32,100 --> 00:07:35,010
+what happens with one pulse.
+
+165
+00:07:35,010 --> 00:07:36,630
+So the spectral
+content of the signal
+
+166
+00:07:36,630 --> 00:07:39,180
+is what we're interested in.
+
+167
+00:07:39,180 --> 00:07:42,030
+And my question is, do
+you have any guesses
+
+168
+00:07:42,030 --> 00:07:45,480
+as to what the spectral
+content might be, just roughly,
+
+169
+00:07:45,480 --> 00:07:47,040
+qualitatively?
+
+170
+00:07:47,040 --> 00:07:52,220
+Where do you think the energy
+of the signal is concentrated?
+
+171
+00:07:52,220 --> 00:07:54,830
+What frequency ranges?
+
+172
+00:07:54,830 --> 00:07:55,400
+Any thoughts?
+
+173
+00:07:59,080 --> 00:08:02,060
+I'll need a hand up and a
+loud voice so I can figure out
+
+174
+00:08:02,060 --> 00:08:02,560
+what's--
+
+175
+00:08:06,240 --> 00:08:08,636
+at least one?
+
+176
+00:08:08,636 --> 00:08:09,564
+Yeah?
+
+177
+00:08:09,564 --> 00:08:10,030
+AUDIENCE: Low frequency.
+
+178
+00:08:10,030 --> 00:08:11,655
+PROFESSOR: Low
+frequency is a good idea
+
+179
+00:08:11,655 --> 00:08:14,660
+because, for most
+of this signal,
+
+180
+00:08:14,660 --> 00:08:16,660
+you've got essentially
+nothing happening, right?
+
+181
+00:08:16,660 --> 00:08:17,285
+It's just flat.
+
+182
+00:08:17,285 --> 00:08:21,790
+So you expect high
+spectral content at DC.
+
+183
+00:08:21,790 --> 00:08:25,540
+But there is this
+sharp transition,
+
+184
+00:08:25,540 --> 00:08:27,730
+so you might expect high
+frequencies associated
+
+185
+00:08:27,730 --> 00:08:28,250
+with that.
+
+186
+00:08:28,250 --> 00:08:31,600
+So do you think it might
+be low frequencies and then
+
+187
+00:08:31,600 --> 00:08:34,870
+high frequencies, not much
+in between, or any thoughts?
+
+188
+00:08:38,350 --> 00:08:41,250
+OK, well, let's look
+at what it actually is.
+
+189
+00:08:41,250 --> 00:08:43,140
+Let's work it out.
+
+190
+00:08:43,140 --> 00:08:54,530
+So we're talking about a
+signal that's at height 1.
+
+191
+00:08:54,530 --> 00:08:56,030
+For-- let's do the general case.
+
+192
+00:08:56,030 --> 00:08:59,050
+So let's say it's for
+n samples, so from 0
+
+193
+00:08:59,050 --> 00:09:04,430
+to n minus 1 its height 1, and
+then it's 0 outside of that,
+
+194
+00:09:04,430 --> 00:09:04,930
+OK?
+
+195
+00:09:04,930 --> 00:09:06,570
+So suppose this is x of n.
+
+196
+00:09:09,250 --> 00:09:12,940
+How do we determine
+the spectral content?
+
+197
+00:09:12,940 --> 00:09:14,470
+Well, we've got to write the--
+
+198
+00:09:14,470 --> 00:09:18,070
+we've got to compute
+the DTFT, right?
+
+199
+00:09:18,070 --> 00:09:19,550
+So what's the DTFT?
+
+200
+00:09:19,550 --> 00:09:28,510
+It's a summation x m e to the
+minus j omega m over all m.
+
+201
+00:09:28,510 --> 00:09:31,360
+But in this case, it
+simplifies, right?
+
+202
+00:09:31,360 --> 00:09:35,000
+Because there are only a few
+non-zero values of the signal.
+
+203
+00:09:35,000 --> 00:09:36,770
+So this is going to be--
+
+204
+00:09:36,770 --> 00:09:37,270
+let's see.
+
+205
+00:09:37,270 --> 00:09:40,720
+It's going to be x0 e to
+the minus j omega 0 plus x1
+
+206
+00:09:40,720 --> 00:09:43,170
+e the minus j
+omega 1, and so on.
+
+207
+00:09:43,170 --> 00:09:47,260
+That's going to be 1 plus
+e to the minus j omega
+
+208
+00:09:47,260 --> 00:09:51,610
+plus e to the
+minus j2 omega plus
+
+209
+00:09:51,610 --> 00:09:56,708
+e to the minus j
+N minus 1 omega.
+
+210
+00:09:56,708 --> 00:09:57,500
+So that's the DTFT.
+
+211
+00:10:00,030 --> 00:10:02,170
+But till you work with
+that and get it in a form
+
+212
+00:10:02,170 --> 00:10:03,970
+that you can make
+sense of, you still
+
+213
+00:10:03,970 --> 00:10:07,150
+don't have a feel for where the
+frequency content is, right?
+
+214
+00:10:07,150 --> 00:10:09,400
+You've got to--
+the best way to get
+
+215
+00:10:09,400 --> 00:10:12,910
+at that is to think of what
+the magnitude of this will be.
+
+216
+00:10:12,910 --> 00:10:14,590
+And even then, it's
+not obvious how
+
+217
+00:10:14,590 --> 00:10:17,230
+to think about the magnitude
+of a sum of complex numbers
+
+218
+00:10:17,230 --> 00:10:22,580
+like this, so you've got to
+play with it a little more.
+
+219
+00:10:22,580 --> 00:10:24,718
+OK, well, this is a
+geometric series, right?
+
+220
+00:10:24,718 --> 00:10:26,510
+Each term is obtained
+from the previous one
+
+221
+00:10:26,510 --> 00:10:28,990
+by multiplying by to
+the minus jam omega.
+
+222
+00:10:28,990 --> 00:10:32,420
+And so if you've got the
+sum of a finite number
+
+223
+00:10:32,420 --> 00:10:34,980
+of geometric series of
+this type, what do we have?
+
+224
+00:10:34,980 --> 00:10:42,790
+We have that as the sum, right?
+
+225
+00:10:42,790 --> 00:10:43,990
+You agree?
+
+226
+00:10:43,990 --> 00:10:48,350
+So this was the factor by
+which we multiply each term.
+
+227
+00:10:48,350 --> 00:10:48,850
+Sorry.
+
+228
+00:10:54,050 --> 00:10:56,100
+And we've got N such
+terms, so you're summing
+
+229
+00:10:56,100 --> 00:10:57,560
+N terms of a geometric series.
+
+230
+00:11:00,720 --> 00:11:05,340
+Well, we might be getting closer
+here to extracting a magnitude,
+
+231
+00:11:05,340 --> 00:11:08,850
+but you really want to do a
+little bit more massaging here.
+
+232
+00:11:08,850 --> 00:11:09,540
+Let's see.
+
+233
+00:11:09,540 --> 00:11:15,900
+If I make this e to
+the j omega N over 2,
+
+234
+00:11:15,900 --> 00:11:21,750
+then here's e to the
+j omega N over 2,
+
+235
+00:11:21,750 --> 00:11:27,810
+minus e to the minus
+j omega N over 2.
+
+236
+00:11:27,810 --> 00:11:32,642
+And this is a trick we've done--
+
+237
+00:11:32,642 --> 00:11:33,975
+we've played a few times before.
+
+238
+00:11:48,100 --> 00:11:48,600
+Right?
+
+239
+00:11:48,600 --> 00:11:51,290
+I've just rearranged things.
+
+240
+00:11:51,290 --> 00:11:51,790
+Let's see.
+
+241
+00:11:51,790 --> 00:11:53,320
+How have I helped myself here?
+
+242
+00:11:53,320 --> 00:11:54,550
+Have I helped myself at all?
+
+243
+00:12:00,298 --> 00:12:03,930
+So what is-- what
+does that simplify to?
+
+244
+00:12:07,240 --> 00:12:10,090
+Well, the factor in front I
+can write as some phase term e
+
+245
+00:12:10,090 --> 00:12:17,370
+to the minus j omega
+N minus 1 over 2.
+
+246
+00:12:17,370 --> 00:12:18,370
+And what's this?
+
+247
+00:12:21,070 --> 00:12:21,943
+Anybody?
+
+248
+00:12:27,750 --> 00:12:28,260
+Numerator?
+
+249
+00:12:28,260 --> 00:12:30,010
+Does the numerator
+remind you of anything?
+
+250
+00:12:32,950 --> 00:12:33,450
+Sine?
+
+251
+00:12:37,870 --> 00:12:39,810
+Sine omega N over 2?
+
+252
+00:12:42,946 --> 00:12:51,280
+And the denominator,
+sine omega over 2, right?
+
+253
+00:12:51,280 --> 00:12:54,520
+So now it starts to look a
+little bit more manageable.
+
+254
+00:12:54,520 --> 00:12:56,680
+If I wanted to get
+the magnitude of this,
+
+255
+00:12:56,680 --> 00:12:58,420
+well, the magnitude
+of this is going
+
+256
+00:12:58,420 --> 00:13:04,690
+to be the magnitude of this
+piece times the magnitude
+
+257
+00:13:04,690 --> 00:13:05,750
+of that piece.
+
+258
+00:13:05,750 --> 00:13:08,110
+What's the magnitude
+of the first term here?
+
+259
+00:13:08,110 --> 00:13:08,800
+Just 1, right?
+
+260
+00:13:08,800 --> 00:13:12,650
+It's e to the j something,
+so its magnitude is 1.
+
+261
+00:13:12,650 --> 00:13:16,690
+So here's the
+magnitude of the DTFT,
+
+262
+00:13:16,690 --> 00:13:19,160
+so that's the spectral
+characteristic,
+
+263
+00:13:19,160 --> 00:13:21,406
+and that's something
+that we can plot.
+
+264
+00:13:21,406 --> 00:13:22,380
+AUDIENCE: Question.
+
+265
+00:13:22,380 --> 00:13:24,140
+PROFESSOR: OK.
+
+266
+00:13:24,140 --> 00:13:24,850
+Sorry.
+
+267
+00:13:24,850 --> 00:13:25,686
+Question, hi.
+
+268
+00:13:25,686 --> 00:13:28,552
+AUDIENCE: [INAUDIBLE]
+
+269
+00:13:28,552 --> 00:13:29,260
+PROFESSOR: Sorry.
+
+270
+00:13:29,260 --> 00:13:29,890
+Say that again?
+
+271
+00:13:29,890 --> 00:13:34,330
+AUDIENCE: [INAUDIBLE]
+
+272
+00:13:34,330 --> 00:13:37,680
+PROFESSOR: Did I make a
+mistake somewhere here, or?
+
+273
+00:13:37,680 --> 00:13:38,440
+Oh, this thing?
+
+274
+00:13:38,440 --> 00:13:39,910
+This term here?
+
+275
+00:13:39,910 --> 00:13:42,550
+I was trying to combine
+numerator and denominator here.
+
+276
+00:13:42,550 --> 00:13:45,623
+AUDIENCE: [INAUDIBLE]
+
+277
+00:13:45,623 --> 00:13:46,540
+PROFESSOR: Which part?
+
+278
+00:13:46,540 --> 00:13:47,200
+Sorry.
+
+279
+00:13:47,200 --> 00:13:48,700
+I have to stand
+where you are to see
+
+280
+00:13:48,700 --> 00:13:51,648
+if I made a mistake because
+it's hard to see close up.
+
+281
+00:13:51,648 --> 00:13:56,151
+AUDIENCE: Over the-- like,
+when we go from the 1 minus e
+
+282
+00:13:56,151 --> 00:13:58,870
+to the minus 2 again
+to the other one,
+
+283
+00:13:58,870 --> 00:14:00,870
+why are we dividing by two?
+
+284
+00:14:04,090 --> 00:14:06,410
+PROFESSOR: Oh, what are we-- oh.
+
+285
+00:14:06,410 --> 00:14:07,480
+Why are we dividing by 2?
+
+286
+00:14:07,480 --> 00:14:10,270
+Because when you multiply it
+out, that's what it takes.
+
+287
+00:14:10,270 --> 00:14:14,980
+I'm trying to group things to
+get something interpretable.
+
+288
+00:14:14,980 --> 00:14:17,260
+I don't know what
+this is, but I know
+
+289
+00:14:17,260 --> 00:14:19,390
+what the numerator
+over sine looks
+
+290
+00:14:19,390 --> 00:14:22,960
+like, so I'm trying to
+make this a little bit more
+
+291
+00:14:22,960 --> 00:14:24,610
+equally distributed, right?
+
+292
+00:14:24,610 --> 00:14:27,920
+So if I pull out that
+factor, what's left?
+
+293
+00:14:27,920 --> 00:14:31,180
+Looks like part of a sine.
+
+294
+00:14:31,180 --> 00:14:31,680
+OK?
+
+295
+00:14:31,680 --> 00:14:34,140
+So I'm just-- so it's
+this time this gives me
+
+296
+00:14:34,140 --> 00:14:35,790
+the numerator here.
+
+297
+00:14:35,790 --> 00:14:38,710
+And this times this gives
+me the denominator here.
+
+298
+00:14:38,710 --> 00:14:40,080
+So it's just rearranging terms.
+
+299
+00:14:40,080 --> 00:14:43,510
+We've used this trick before.
+
+300
+00:14:43,510 --> 00:14:45,427
+Any trick that works
+twice is a method, OK?
+
+301
+00:14:45,427 --> 00:14:46,760
+So we really have a method here.
+
+302
+00:14:46,760 --> 00:14:49,660
+It's not just a trick.
+
+303
+00:14:49,660 --> 00:14:54,160
+If it works three times, you
+can make a religion of it.
+
+304
+00:14:54,160 --> 00:14:59,920
+OK, so that's the
+derivation we have here.
+
+305
+00:15:02,550 --> 00:15:06,720
+What's the height of
+this at the origin?
+
+306
+00:15:06,720 --> 00:15:08,010
+Let's just focus on that term.
+
+307
+00:15:17,280 --> 00:15:19,800
+OK, so this is the magnitude
+we're talking about.
+
+308
+00:15:19,800 --> 00:15:22,920
+What's the height at the
+origin, at omega equals 0?
+
+309
+00:15:22,920 --> 00:15:24,870
+Well, now you can use
+L'Hopital's rule, right?
+
+310
+00:15:24,870 --> 00:15:27,630
+Because omega is something
+that varies continuously.
+
+311
+00:15:27,630 --> 00:15:29,520
+So for small values of
+the argument, you're
+
+312
+00:15:29,520 --> 00:15:33,810
+really looking at something
+of height N. And then,
+
+313
+00:15:33,810 --> 00:15:37,410
+when is the first time
+that this goes to 0?
+
+314
+00:15:37,410 --> 00:15:39,330
+Well, for small
+values of frequency,
+
+315
+00:15:39,330 --> 00:15:43,680
+the numerator is
+not changing sign,
+
+316
+00:15:43,680 --> 00:15:46,740
+and this first
+goes to 0 when you
+
+317
+00:15:46,740 --> 00:15:52,003
+get to omega equals 2 pi
+over N, to private capital N.
+
+318
+00:15:52,003 --> 00:15:53,670
+So actually, instead
+of saying all that,
+
+319
+00:15:53,670 --> 00:15:55,045
+I should just draw
+you a picture.
+
+320
+00:15:58,340 --> 00:16:00,160
+There's a picture of
+one particular case.
+
+321
+00:16:00,160 --> 00:16:03,055
+So this is a case where,
+actually, the pulse
+
+322
+00:16:03,055 --> 00:16:04,190
+didn't start at 0.
+
+323
+00:16:04,190 --> 00:16:07,750
+It was symmetrically
+located around 0, OK?
+
+324
+00:16:07,750 --> 00:16:13,550
+It was a pulse of length 11
+symmetrically located around 0.
+
+325
+00:16:17,570 --> 00:16:19,460
+And because it was
+symmetrically located,
+
+326
+00:16:19,460 --> 00:16:22,640
+this phase factor went away,
+and all you're left with
+
+327
+00:16:22,640 --> 00:16:27,310
+is the sine omega N over 2
+divided by sine omega over 2.
+
+328
+00:16:27,310 --> 00:16:31,770
+So you're looking at the actual
+DTFT of a pulse of that type,
+
+329
+00:16:31,770 --> 00:16:32,270
+OK?
+
+330
+00:16:32,270 --> 00:16:36,960
+So this started at minus
+5 and went to plus 5,
+
+331
+00:16:36,960 --> 00:16:41,600
+and was 11 samples long and was
+0 everywhere outside of that.
+
+332
+00:16:45,810 --> 00:16:47,240
+So that's what
+this function looks
+
+333
+00:16:47,240 --> 00:16:51,753
+like, the sine omega N over 2
+divided by sine omega over 2.
+
+334
+00:16:51,753 --> 00:16:53,920
+Does it remind you of a
+function you've seen before?
+
+335
+00:16:57,565 --> 00:16:58,065
+Sinc?
+
+336
+00:16:58,065 --> 00:16:59,910
+A sinc function?
+
+337
+00:16:59,910 --> 00:17:01,410
+It's very close to a sinc.
+
+338
+00:17:01,410 --> 00:17:03,859
+The sinc, though, had just
+frequency in the denominator.
+
+339
+00:17:03,859 --> 00:17:07,020
+It didn't have sine of
+something in the denominator.
+
+340
+00:17:07,020 --> 00:17:10,380
+And the reason this
+appears is, remember
+
+341
+00:17:10,380 --> 00:17:14,910
+that transforms and
+frequency responses
+
+342
+00:17:14,910 --> 00:17:17,710
+have to be periodic
+with period 2 pi.
+
+343
+00:17:17,710 --> 00:17:19,829
+So it certainly
+wouldn't be possible
+
+344
+00:17:19,829 --> 00:17:21,960
+for the transform of
+a signal to be a sinc
+
+345
+00:17:21,960 --> 00:17:24,172
+because there's no
+periodicity in the sinc.
+
+346
+00:17:24,172 --> 00:17:25,630
+But when you work
+it out carefully,
+
+347
+00:17:25,630 --> 00:17:28,170
+you find that it's
+something close to a sinc,
+
+348
+00:17:28,170 --> 00:17:30,330
+but one that has exactly
+the right periodicity,
+
+349
+00:17:30,330 --> 00:17:33,030
+so this thing will
+repeat periodically
+
+350
+00:17:33,030 --> 00:17:35,470
+with period 2 pi, exactly
+the way it's supposed to.
+
+351
+00:17:35,470 --> 00:17:38,240
+So it's sort of sinc-like.
+
+352
+00:17:38,240 --> 00:17:41,460
+For small values
+of omega, the sine
+
+353
+00:17:41,460 --> 00:17:43,590
+is essentially
+just omega over 2,
+
+354
+00:17:43,590 --> 00:17:45,450
+and it is essentially a sinc.
+
+355
+00:17:45,450 --> 00:17:47,550
+But when you get to
+larger values of omega,
+
+356
+00:17:47,550 --> 00:17:50,215
+this thing starts
+to play a role.
+
+357
+00:17:50,215 --> 00:17:51,090
+AUDIENCE: [INAUDIBLE]
+
+358
+00:17:51,090 --> 00:17:51,990
+PROFESSOR: Yeah?
+
+359
+00:17:51,990 --> 00:17:52,692
+Sorry?
+
+360
+00:17:52,692 --> 00:17:54,780
+AUDIENCE: Does the
+magnitude mean anything?
+
+361
+00:17:54,780 --> 00:17:57,197
+PROFESSOR: I haven't-- I'm not
+plotting the magnitude now.
+
+362
+00:17:57,197 --> 00:17:59,290
+I was plotting the actual
+DTFT for this case.
+
+363
+00:17:59,290 --> 00:18:03,150
+So in this symmetric
+case, the actual DTFT
+
+364
+00:18:03,150 --> 00:18:10,570
+is the sine N omega over
+2 over sine omega over 2.
+
+365
+00:18:10,570 --> 00:18:13,050
+So I was plotting
+the actual DTFT.
+
+366
+00:18:13,050 --> 00:18:18,930
+And the magnitude of the
+DTFT I get just by taking
+
+367
+00:18:18,930 --> 00:18:21,173
+absolute value, right?
+
+368
+00:18:21,173 --> 00:18:24,213
+AUDIENCE: [INAUDIBLE]
+
+369
+00:18:24,213 --> 00:18:26,630
+PROFESSOR: Well, I did this
+for a case of a pulse starting
+
+370
+00:18:26,630 --> 00:18:28,850
+at time 0, OK?
+
+371
+00:18:28,850 --> 00:18:31,430
+So this factor came
+purely from where I
+
+372
+00:18:31,430 --> 00:18:33,510
+located this on the time axis.
+
+373
+00:18:33,510 --> 00:18:35,960
+So different positions of
+this pulse on the time axis
+
+374
+00:18:35,960 --> 00:18:39,590
+will modify this factor but
+won't touch this factor, OK?
+
+375
+00:18:39,590 --> 00:18:42,690
+Shifts in time correspond
+to multiplication by e
+
+376
+00:18:42,690 --> 00:18:44,360
+to the minus j omega
+something, right?
+
+377
+00:18:44,360 --> 00:18:46,310
+You've seen that in recitation.
+
+378
+00:18:46,310 --> 00:18:48,680
+So whenever you shift
+the pulse in time,
+
+379
+00:18:48,680 --> 00:18:52,010
+what it does to the transform
+is it leaves this part intact
+
+380
+00:18:52,010 --> 00:18:53,450
+and affects this
+factor, but that
+
+381
+00:18:53,450 --> 00:18:56,840
+doesn't change the magnitude
+of the transform, OK?
+
+382
+00:18:56,840 --> 00:18:58,740
+So in the case of a
+symmetrical pulse,
+
+383
+00:18:58,740 --> 00:19:00,950
+symmetrical about
+the origin, actually
+
+384
+00:19:00,950 --> 00:19:03,950
+that phase factor goes away,
+and the actual transform
+
+385
+00:19:03,950 --> 00:19:06,210
+is just that piece without
+the e to the anything.
+
+386
+00:19:06,210 --> 00:19:06,710
+Sorry.
+
+387
+00:19:06,710 --> 00:19:11,000
+I jumped over a few
+steps in describing that.
+
+388
+00:19:11,000 --> 00:19:12,140
+Just to go back a second.
+
+389
+00:19:15,210 --> 00:19:17,150
+This is not a sinc
+function, but it's actually
+
+390
+00:19:17,150 --> 00:19:20,420
+referred to as a periodic sinc.
+
+391
+00:19:20,420 --> 00:19:21,800
+It's got a fancier name, also.
+
+392
+00:19:21,800 --> 00:19:25,160
+It crops up all over the place.
+
+393
+00:19:25,160 --> 00:19:27,240
+Height N at the origin
+and the first zero
+
+394
+00:19:27,240 --> 00:19:33,610
+crossing at 2 pi over cap N.
+So as you make the pulse wider
+
+395
+00:19:33,610 --> 00:19:37,480
+in time, you make it
+narrower in frequency, right?
+
+396
+00:19:37,480 --> 00:19:42,610
+As N becomes larger, you
+make this wider in time.
+
+397
+00:19:42,610 --> 00:19:45,970
+The main lobe of this
+frequency distribution
+
+398
+00:19:45,970 --> 00:19:47,770
+gets more concentrated,
+and frequency gets
+
+399
+00:19:47,770 --> 00:19:49,540
+closer to being a DC signal.
+
+400
+00:19:49,540 --> 00:19:50,350
+Makes sense, right?
+
+401
+00:19:50,350 --> 00:19:52,600
+The longer that
+this stays constant,
+
+402
+00:19:52,600 --> 00:19:55,480
+the more the signal looks
+like just DC and the more
+
+403
+00:19:55,480 --> 00:20:00,130
+the frequency is
+concentrated at the origin.
+
+404
+00:20:00,130 --> 00:20:03,760
+But what you can see
+here is there's actually
+
+405
+00:20:03,760 --> 00:20:06,100
+a full spread of frequencies.
+
+406
+00:20:06,100 --> 00:20:09,970
+It's not that there's just low
+frequency for the flat parts
+
+407
+00:20:09,970 --> 00:20:11,710
+and high frequency
+for the vertical edge
+
+408
+00:20:11,710 --> 00:20:12,668
+and nothing in between.
+
+409
+00:20:12,668 --> 00:20:16,840
+There's actually a full
+spread of frequency components
+
+410
+00:20:16,840 --> 00:20:21,610
+that it takes to
+make up that step.
+
+411
+00:20:21,610 --> 00:20:24,030
+OK.
+
+412
+00:20:24,030 --> 00:20:26,410
+If you had a pulse
+that wasn't centered--
+
+413
+00:20:26,410 --> 00:20:28,420
+this is just to show you.
+
+414
+00:20:28,420 --> 00:20:31,470
+Here is a pulse-- actually,
+this is not centered.
+
+415
+00:20:31,470 --> 00:20:34,260
+It's only 10 long, but
+the magnitude here you're
+
+416
+00:20:34,260 --> 00:20:37,740
+only seeing half the
+frequency scale, so 0 to pi
+
+417
+00:20:37,740 --> 00:20:39,630
+essentially, except
+this is in terms
+
+418
+00:20:39,630 --> 00:20:43,830
+of f, which is omega over 2 pi.
+
+419
+00:20:43,830 --> 00:20:46,020
+You get the same kind of
+magnitude characteristic,
+
+420
+00:20:46,020 --> 00:20:48,060
+but now because you've
+shifted it off-center,
+
+421
+00:20:48,060 --> 00:20:50,700
+you've got a linear-phase
+characteristic,
+
+422
+00:20:50,700 --> 00:20:53,880
+and what you're seeing here is
+a linear-phase characteristic,
+
+423
+00:20:53,880 --> 00:20:56,970
+except every time you
+have a flip in sign,
+
+424
+00:20:56,970 --> 00:20:59,220
+you jump the phase by
+180 degrees, right?
+
+425
+00:20:59,220 --> 00:21:01,440
+When you change the
+sign of something
+
+426
+00:21:01,440 --> 00:21:04,440
+from a plus to a minus,
+that's like adding 180 degrees
+
+427
+00:21:04,440 --> 00:21:06,980
+to the phase or subtracting
+180 degrees to the phase.
+
+428
+00:21:06,980 --> 00:21:10,120
+So you can spend time on all
+of this and make sense of it.
+
+429
+00:21:10,120 --> 00:21:15,540
+But the basic idea is that you
+get the sinc-like distribution
+
+430
+00:21:15,540 --> 00:21:17,520
+and frequency.
+
+431
+00:21:17,520 --> 00:21:20,010
+OK, so let's get back to
+the particular pulse that's
+
+432
+00:21:20,010 --> 00:21:25,650
+of interest to us,
+which is that pulse.
+
+433
+00:21:25,650 --> 00:21:29,230
+So it's the same kind of
+thing, except N is 256.
+
+434
+00:21:29,230 --> 00:21:31,110
+And what I've
+plotted for you here
+
+435
+00:21:31,110 --> 00:21:35,070
+is the magnitude of the DTFT.
+
+436
+00:21:35,070 --> 00:21:37,400
+It has the sinc-like shape.
+
+437
+00:21:37,400 --> 00:21:40,470
+I haven't actually plotted it as
+a continuous function of omega.
+
+438
+00:21:40,470 --> 00:21:42,058
+Instead, I've used the FFT.
+
+439
+00:21:42,058 --> 00:21:42,600
+You remember?
+
+440
+00:21:42,600 --> 00:21:46,770
+We talked about the
+Fast Fourier Transform.
+
+441
+00:21:46,770 --> 00:21:50,330
+So what the fast Fourier
+transform is going to do
+
+442
+00:21:50,330 --> 00:21:57,120
+is, if the actual magnitude
+DTFT was some continuous thing
+
+443
+00:21:57,120 --> 00:21:59,760
+like this, the fast
+Fourier transform
+
+444
+00:21:59,760 --> 00:22:05,900
+is going to give me samples
+of it, as many as I want.
+
+445
+00:22:05,900 --> 00:22:07,900
+But the more samples
+I ask for, the more
+
+446
+00:22:07,900 --> 00:22:10,420
+work I have to
+do, of course, OK?
+
+447
+00:22:10,420 --> 00:22:14,598
+I asked for 48,000
+samples of the DTFT
+
+448
+00:22:14,598 --> 00:22:16,390
+so that I could get a
+nice big spread here.
+
+449
+00:22:18,970 --> 00:22:22,690
+If your samples came from
+sampling at 48 kilohertz,
+
+450
+00:22:22,690 --> 00:22:29,530
+for instance, then
+the rightmost end
+
+451
+00:22:29,530 --> 00:22:33,250
+that corresponds to pi in
+terms of actual frequency
+
+452
+00:22:33,250 --> 00:22:35,740
+would correspond to the
+sampling frequency divided by 2,
+
+453
+00:22:35,740 --> 00:22:38,410
+so that's 24 kilohertz
+sitting there.
+
+454
+00:22:38,410 --> 00:22:42,580
+So I actually have 24,000
+points for 24,000 Hertz,
+
+455
+00:22:42,580 --> 00:22:45,640
+so I've got one point
+at every Hertz position,
+
+456
+00:22:45,640 --> 00:22:48,232
+but I could pick anything else.
+
+457
+00:22:48,232 --> 00:22:49,690
+The other thing I
+wanted to mention
+
+458
+00:22:49,690 --> 00:22:52,270
+was that the reason
+I could do this
+
+459
+00:22:52,270 --> 00:22:54,430
+is because I'm using the FFT.
+
+460
+00:22:54,430 --> 00:22:57,790
+Because I told you
+if I just did sort
+
+461
+00:22:57,790 --> 00:23:01,430
+of simple-minded
+implementation of the formula,
+
+462
+00:23:01,430 --> 00:23:03,610
+I would take order p
+squared computations,
+
+463
+00:23:03,610 --> 00:23:07,240
+where p is the length of the
+signal that I'm looking at.
+
+464
+00:23:07,240 --> 00:23:11,375
+If I use the FFT, I
+go from p squared to--
+
+465
+00:23:14,045 --> 00:23:19,270
+I go down to p log to the
+base 2 of p, all right?
+
+466
+00:23:19,270 --> 00:23:22,080
+Well, the number of points
+I have here is 48,000,
+
+467
+00:23:22,080 --> 00:23:29,530
+so going from p to log 2 p is
+going from 48,000 to 16, which
+
+468
+00:23:29,530 --> 00:23:31,670
+is a factor of 3,000.
+
+469
+00:23:31,670 --> 00:23:33,670
+So the difference is I'm
+sitting at the terminal
+
+470
+00:23:33,670 --> 00:23:37,540
+and I hit the Return
+key to get the FFT,
+
+471
+00:23:37,540 --> 00:23:40,180
+and maybe at 0.1
+seconds later, I
+
+472
+00:23:40,180 --> 00:23:42,700
+get the answer,
+versus if I didn't
+
+473
+00:23:42,700 --> 00:23:44,395
+use the FFT I'd
+wait five minutes,
+
+474
+00:23:44,395 --> 00:23:46,270
+and then I wouldn't be
+trying to put together
+
+475
+00:23:46,270 --> 00:23:48,970
+these figures for you.
+
+476
+00:23:48,970 --> 00:23:52,860
+OK, so the FFT really makes
+a real practical difference,
+
+477
+00:23:52,860 --> 00:23:58,690
+and it really revolutionized
+how numerical computations
+
+478
+00:23:58,690 --> 00:23:59,830
+were done.
+
+479
+00:23:59,830 --> 00:24:03,735
+OK, so here you now see the
+full spectral distribution
+
+480
+00:24:03,735 --> 00:24:05,110
+if you're willing
+to let your eye
+
+481
+00:24:05,110 --> 00:24:07,135
+interpolate between these
+samples that I've got.
+
+482
+00:24:07,135 --> 00:24:10,240
+You see the full
+spectral distribution
+
+483
+00:24:10,240 --> 00:24:12,220
+of that rectangular pulse, OK?
+
+484
+00:24:12,220 --> 00:24:14,890
+So a short pulse in time.
+
+485
+00:24:14,890 --> 00:24:17,530
+It's got certainly
+high DC content,
+
+486
+00:24:17,530 --> 00:24:21,040
+but it's got tremendous
+frequency distribution, all
+
+487
+00:24:21,040 --> 00:24:22,420
+the way out to high frequencies.
+
+488
+00:24:22,420 --> 00:24:23,753
+In fact, all the way to the end.
+
+489
+00:24:23,753 --> 00:24:26,560
+You're still seeing
+frequency content.
+
+490
+00:24:26,560 --> 00:24:28,070
+It's visible to the eye.
+
+491
+00:24:28,070 --> 00:24:30,040
+So all the way out
+to 24,000 Hertz,
+
+492
+00:24:30,040 --> 00:24:33,010
+and you could keep
+going all right?
+
+493
+00:24:33,010 --> 00:24:34,810
+This is not a sinc.
+
+494
+00:24:34,810 --> 00:24:37,600
+It's a sinc-like function
+because if you extended it,
+
+495
+00:24:37,600 --> 00:24:39,190
+it would go back up again.
+
+496
+00:24:39,190 --> 00:24:42,520
+It's got that period, 2
+pi, exactly as it should.
+
+497
+00:24:42,520 --> 00:24:44,260
+But for all intents
+and purposes,
+
+498
+00:24:44,260 --> 00:24:49,450
+for small values of frequency,
+the sine omega over 2 here--
+
+499
+00:24:49,450 --> 00:24:50,890
+this is essentially
+omega over 2,
+
+500
+00:24:50,890 --> 00:24:53,665
+and this is a
+sinc-like function, OK?
+
+501
+00:24:53,665 --> 00:24:55,665
+Now, this is different
+from what you saw before.
+
+502
+00:24:55,665 --> 00:25:02,000
+Before you had a constant
+segment and frequency.
+
+503
+00:25:02,000 --> 00:25:03,750
+At least, I think it's
+different from what
+
+504
+00:25:03,750 --> 00:25:05,125
+you've seen before,
+unless you've
+
+505
+00:25:05,125 --> 00:25:06,360
+done examples in recitation.
+
+506
+00:25:06,360 --> 00:25:10,060
+But before what we
+had was, for instance,
+
+507
+00:25:10,060 --> 00:25:14,720
+trying to get a
+frequency response that
+
+508
+00:25:14,720 --> 00:25:19,430
+was like this, right?
+
+509
+00:25:19,430 --> 00:25:23,150
+We ended up with a unit
+sample response that
+
+510
+00:25:23,150 --> 00:25:24,980
+was a sinc function in time.
+
+511
+00:25:28,103 --> 00:25:29,270
+This is going the other way.
+
+512
+00:25:29,270 --> 00:25:32,610
+This is a rectangular
+function in time,
+
+513
+00:25:32,610 --> 00:25:35,270
+giving rise to a sinc-like
+distribution in frequency.
+
+514
+00:25:39,734 --> 00:25:43,210
+All right.
+
+515
+00:25:43,210 --> 00:25:47,740
+Let's zoom in a little bit
+just to see what we have here.
+
+516
+00:25:47,740 --> 00:25:50,310
+And this is exactly what
+we expect to be seeing,
+
+517
+00:25:50,310 --> 00:25:51,660
+the sinc-like distribution.
+
+518
+00:25:51,660 --> 00:25:54,030
+The height there is
+256, as it should be.
+
+519
+00:25:54,030 --> 00:25:56,910
+That's the N. And then
+this should be at 2 pi
+
+520
+00:25:56,910 --> 00:25:59,910
+over capital N. If you
+translate that to what it means
+
+521
+00:25:59,910 --> 00:26:05,370
+in actual frequency, this first
+null there is at 187.5 Hertz.
+
+522
+00:26:05,370 --> 00:26:09,140
+That's 48 kilohertz
+divided by N, so that's--
+
+523
+00:26:17,410 --> 00:26:20,200
+OK, so that's that number.
+
+524
+00:26:20,200 --> 00:26:22,200
+So that gives you some
+idea of how this thing is
+
+525
+00:26:22,200 --> 00:26:23,550
+spread in frequency.
+
+526
+00:26:26,590 --> 00:26:31,840
+OK, so if this pulse is applied
+directly to the loudspeaker--
+
+527
+00:26:31,840 --> 00:26:35,450
+well, here, the
+loudspeaker passband
+
+528
+00:26:35,450 --> 00:26:38,890
+goes from about 100 Hertz
+to, let's say, 10,000 Hertz.
+
+529
+00:26:38,890 --> 00:26:42,460
+You see there's huge
+amounts of the energy that's
+
+530
+00:26:42,460 --> 00:26:46,180
+not in the passband
+of the loudspeaker.
+
+531
+00:26:46,180 --> 00:26:46,680
+All right?
+
+532
+00:26:46,680 --> 00:26:49,470
+So this is not going to do very
+well if you just directly apply
+
+533
+00:26:49,470 --> 00:26:51,990
+that pulse to the loudspeaker.
+
+534
+00:26:51,990 --> 00:26:56,073
+You have to match the
+frequency content of the input
+
+535
+00:26:56,073 --> 00:26:57,990
+to the frequency response
+of the system you're
+
+536
+00:26:57,990 --> 00:27:01,540
+trying to get this over.
+
+537
+00:27:01,540 --> 00:27:02,040
+OK.
+
+538
+00:27:04,990 --> 00:27:06,950
+Now, just as an
+experiment before we
+
+539
+00:27:06,950 --> 00:27:09,890
+get back to sending this
+across a loudspeaker,
+
+540
+00:27:09,890 --> 00:27:12,560
+let's take a look
+at what happens
+
+541
+00:27:12,560 --> 00:27:17,392
+if we send that rectangular
+pulse over a lowpass channel.
+
+542
+00:27:17,392 --> 00:27:19,100
+So let's save the
+bandpass channel, which
+
+543
+00:27:19,100 --> 00:27:21,610
+is a little more
+involved, for later,
+
+544
+00:27:21,610 --> 00:27:26,720
+and just look at
+what happens if we
+
+545
+00:27:26,720 --> 00:27:30,120
+send this pulse over
+a lowpass channel.
+
+546
+00:27:30,120 --> 00:27:33,710
+So I'm thinking about a
+channel whose frequency
+
+547
+00:27:33,710 --> 00:27:36,450
+characteristic--
+
+548
+00:27:36,450 --> 00:27:39,320
+this is h of omega--
+
+549
+00:27:39,320 --> 00:27:41,120
+it passes low
+frequencies, and then it
+
+550
+00:27:41,120 --> 00:27:43,321
+truncates higher frequencies.
+
+551
+00:27:47,400 --> 00:27:47,900
+OK?
+
+552
+00:27:47,900 --> 00:27:51,200
+And what I'm going to
+do is send in an x of N,
+
+553
+00:27:51,200 --> 00:27:54,440
+which is this pulse in time.
+
+554
+00:27:54,440 --> 00:28:00,410
+256 at height 1, and
+then everything 0.
+
+555
+00:28:04,900 --> 00:28:07,430
+All right, so if I'm thinking
+of it in the frequency domain,
+
+556
+00:28:07,430 --> 00:28:10,097
+then I take the spectral content
+of the signal, which we've just
+
+557
+00:28:10,097 --> 00:28:13,990
+worked out, and multiplied
+by the frequency response
+
+558
+00:28:13,990 --> 00:28:17,470
+characteristic, which
+just basically selects out
+
+559
+00:28:17,470 --> 00:28:19,600
+the frequency content
+that's in the passband
+
+560
+00:28:19,600 --> 00:28:21,550
+and rejects everything else.
+
+561
+00:28:21,550 --> 00:28:24,460
+And then that gives me the
+spectral content of the output,
+
+562
+00:28:24,460 --> 00:28:27,820
+and I can translate
+that back to what
+
+563
+00:28:27,820 --> 00:28:29,060
+happens in the time domain.
+
+564
+00:28:29,060 --> 00:28:33,160
+So here is-- well, actually,
+let's take a zoomed-in version.
+
+565
+00:28:33,160 --> 00:28:39,040
+I've taken a lowpass filter,
+where this cutoff corresponds
+
+566
+00:28:39,040 --> 00:28:40,960
+to actually a
+cutoff at 400 Hertz
+
+567
+00:28:40,960 --> 00:28:44,740
+if you're thinking in terms
+of the underlying waveform.
+
+568
+00:28:44,740 --> 00:28:48,850
+So what we've done is take
+the rectangular pulse,
+
+569
+00:28:48,850 --> 00:28:50,230
+put it through a
+lowpass filter--
+
+570
+00:28:50,230 --> 00:28:53,020
+and I'm assuming an
+ideal lowpass filter--
+
+571
+00:28:53,020 --> 00:28:56,860
+passes everything in this
+frequency band and nothing
+
+572
+00:28:56,860 --> 00:28:59,680
+outside of it, OK?
+
+573
+00:28:59,680 --> 00:29:01,780
+So here again, we see
+we're selecting out
+
+574
+00:29:01,780 --> 00:29:03,640
+part of the spectral
+structure of the input,
+
+575
+00:29:03,640 --> 00:29:06,010
+but there's huge
+amounts of the energy
+
+576
+00:29:06,010 --> 00:29:08,410
+of the input that
+are being left out
+
+577
+00:29:08,410 --> 00:29:11,450
+of the output of the filter.
+
+578
+00:29:11,450 --> 00:29:15,400
+Now, in the time domain, look
+at what this corresponds to.
+
+579
+00:29:15,400 --> 00:29:18,790
+It's an approximation
+to this pulse,
+
+580
+00:29:18,790 --> 00:29:21,132
+but it's one in which all the
+high-frequency content has
+
+581
+00:29:21,132 --> 00:29:23,590
+disappeared because we've only
+let the low-frequency pieces
+
+582
+00:29:23,590 --> 00:29:24,250
+through.
+
+583
+00:29:24,250 --> 00:29:28,450
+So what you have is a very
+rounded kind of pulse.
+
+584
+00:29:28,450 --> 00:29:34,450
+It spreads out well over the 256
+mark, so here's the 0 to 256,
+
+585
+00:29:34,450 --> 00:29:38,200
+but this thing actually spills
+over into adjacent bit slots.
+
+586
+00:29:38,200 --> 00:29:40,850
+We've taken out the
+high-frequency components,
+
+587
+00:29:40,850 --> 00:29:43,370
+so it can't make any
+sharp turns anymore.
+
+588
+00:29:43,370 --> 00:29:46,900
+It's got this
+lower-frequency wiggling.
+
+589
+00:29:46,900 --> 00:29:51,040
+As you can imagine, if I
+made this even smaller,
+
+590
+00:29:51,040 --> 00:29:54,520
+my wiggling would become
+even more leisurely here,
+
+591
+00:29:54,520 --> 00:29:57,767
+and I would spill further into
+the adjacent bit slots, OK?
+
+592
+00:29:57,767 --> 00:29:59,350
+So this is what
+lowpass filtering will
+
+593
+00:29:59,350 --> 00:30:03,810
+do to that rectangular pulse.
+
+594
+00:30:03,810 --> 00:30:05,880
+Any questions on this piece?
+
+595
+00:30:08,810 --> 00:30:09,310
+OK.
+
+596
+00:30:13,672 --> 00:30:15,630
+Now, we've actually seen
+examples of this type.
+
+597
+00:30:15,630 --> 00:30:18,140
+I flashed these up last time.
+
+598
+00:30:18,140 --> 00:30:21,230
+It's the same idea, except it
+was not just a single pulse.
+
+599
+00:30:21,230 --> 00:30:23,838
+It was a succession
+of pulses like this.
+
+600
+00:30:23,838 --> 00:30:25,130
+So you could do the same thing.
+
+601
+00:30:25,130 --> 00:30:27,500
+Have a succession
+of pulses like this.
+
+602
+00:30:27,500 --> 00:30:31,520
+Take its DTFT to assess
+the spectral content.
+
+603
+00:30:31,520 --> 00:30:34,520
+I'm showing you not actually the
+DTFT but something proportional
+
+604
+00:30:34,520 --> 00:30:35,180
+to it here.
+
+605
+00:30:35,180 --> 00:30:38,690
+This is-- so ignore
+the labels there.
+
+606
+00:30:38,690 --> 00:30:40,550
+Think of this as
+essentially the DTFT.
+
+607
+00:30:40,550 --> 00:30:43,770
+To within the
+scale factor it is.
+
+608
+00:30:43,770 --> 00:30:47,120
+So you can see that I
+have spectral content
+
+609
+00:30:47,120 --> 00:30:50,210
+all the way out to the edges.
+
+610
+00:30:50,210 --> 00:30:52,310
+But now send it through
+a lowpass channel
+
+611
+00:30:52,310 --> 00:30:55,040
+which zeros out all
+the spectral content
+
+612
+00:30:55,040 --> 00:30:57,415
+outside of some central
+region, and what
+
+613
+00:30:57,415 --> 00:30:58,790
+you have coming
+out the other end
+
+614
+00:30:58,790 --> 00:31:01,560
+is something that can't take
+the sharp turns anymore,
+
+615
+00:31:01,560 --> 00:31:03,410
+so it's much more rounded.
+
+616
+00:31:03,410 --> 00:31:05,330
+And as you narrow it
+down still further,
+
+617
+00:31:05,330 --> 00:31:08,870
+you get even more rounding,
+and you get a spilling over.
+
+618
+00:31:08,870 --> 00:31:12,170
+You see this sharply confined
+rectangular pulse now spills
+
+619
+00:31:12,170 --> 00:31:15,500
+over into the adjacent slots.
+
+620
+00:31:15,500 --> 00:31:17,600
+And you can go still
+further on that.
+
+621
+00:31:17,600 --> 00:31:19,880
+The top plot here is the
+same as the bottom plot
+
+622
+00:31:19,880 --> 00:31:21,560
+in the previous one.
+
+623
+00:31:21,560 --> 00:31:23,270
+But this is just
+showing the sequence.
+
+624
+00:31:23,270 --> 00:31:27,350
+So as you narrow it down
+further and further and further,
+
+625
+00:31:27,350 --> 00:31:29,990
+what comes out
+the other end gets
+
+626
+00:31:29,990 --> 00:31:34,400
+much less distinctive
+in its features, OK?
+
+627
+00:31:34,400 --> 00:31:37,370
+It can only-- this only has
+very low-frequency content,
+
+628
+00:31:37,370 --> 00:31:39,380
+so it can't do any sharp turns.
+
+629
+00:31:39,380 --> 00:31:42,010
+And this is an eye
+diagram corresponding to--
+
+630
+00:31:42,010 --> 00:31:45,140
+in each of these
+received signals-- just
+
+631
+00:31:45,140 --> 00:31:48,113
+to show you how
+detection gets difficult
+
+632
+00:31:48,113 --> 00:31:50,030
+if you've got a lowpass
+channel and you've got
+
+633
+00:31:50,030 --> 00:31:54,050
+this pulse that's
+not well-defined.
+
+634
+00:31:54,050 --> 00:31:56,240
+Now, how might you actually--
+
+635
+00:31:56,240 --> 00:31:58,520
+how might you get a
+better-defined pulse
+
+636
+00:31:58,520 --> 00:31:59,580
+for a given channel?
+
+637
+00:31:59,580 --> 00:32:03,020
+So if I gave you this channel--
+
+638
+00:32:03,020 --> 00:32:06,685
+we sent in this pulse
+of length 256 samples,
+
+639
+00:32:06,685 --> 00:32:08,810
+and we got something that
+we didn't like because it
+
+640
+00:32:08,810 --> 00:32:12,057
+spilled over into other slots.
+
+641
+00:32:12,057 --> 00:32:13,640
+The reason it spilled
+into other slots
+
+642
+00:32:13,640 --> 00:32:17,480
+is we were cutting out too
+much of its spectral content.
+
+643
+00:32:17,480 --> 00:32:22,540
+What could you do to this
+pulse to get more of its energy
+
+644
+00:32:22,540 --> 00:32:23,890
+across that bandpass channel?
+
+645
+00:32:27,243 --> 00:32:28,180
+Yeah?
+
+646
+00:32:28,180 --> 00:32:28,680
+Sorry?
+
+647
+00:32:28,680 --> 00:32:30,120
+AUDIENCE: Set a longer pulse.
+
+648
+00:32:30,120 --> 00:32:31,698
+PROFESSOR: Set a longer pulse.
+
+649
+00:32:31,698 --> 00:32:32,490
+How does that work?
+
+650
+00:32:32,490 --> 00:32:34,440
+Now, you see, if
+you make N longer,
+
+651
+00:32:34,440 --> 00:32:37,680
+you make the pulse longer, you
+shrink this correspondingly
+
+652
+00:32:37,680 --> 00:32:39,270
+in the frequency domain, right?
+
+653
+00:32:39,270 --> 00:32:47,120
+We said that on these
+sinc-type characteristics,
+
+654
+00:32:47,120 --> 00:32:49,890
+the height was N.
+This first null was
+
+655
+00:32:49,890 --> 00:32:53,550
+2 pi over N. Make
+the pulse longer,
+
+656
+00:32:53,550 --> 00:32:56,430
+you pull the main lobe in
+tighter, and more of this
+
+657
+00:32:56,430 --> 00:32:58,780
+is going to go through, OK?
+
+658
+00:32:58,780 --> 00:33:00,630
+And you can see that clearly.
+
+659
+00:33:00,630 --> 00:33:03,160
+That's something you can
+explore in your experiment.
+
+660
+00:33:03,160 --> 00:33:06,630
+So if you wanted to get
+more clearly defined
+
+661
+00:33:06,630 --> 00:33:11,703
+output for a given
+lowpass channel,
+
+662
+00:33:11,703 --> 00:33:13,870
+you might want to increase
+the length of your pulse.
+
+663
+00:33:13,870 --> 00:33:16,245
+Of course, that's going to
+slow down your signaling rate,
+
+664
+00:33:16,245 --> 00:33:18,090
+so there's a trade-off
+involved, right?
+
+665
+00:33:22,740 --> 00:33:24,680
+Now, we've actually--
+this is just
+
+666
+00:33:24,680 --> 00:33:29,190
+to sort of step back and point
+out that what we're seeing here
+
+667
+00:33:29,190 --> 00:33:35,510
+are some properties that are
+inherent to Fourier transforms,
+
+668
+00:33:35,510 --> 00:33:36,010
+OK?
+
+669
+00:33:36,010 --> 00:33:38,310
+So it's typically the
+case that if you've
+
+670
+00:33:38,310 --> 00:33:42,155
+got a signal that's wide in
+time, it's narrow in frequency.
+
+671
+00:33:42,155 --> 00:33:43,530
+And if you make
+it wider in time,
+
+672
+00:33:43,530 --> 00:33:45,670
+it gets narrower in frequency.
+
+673
+00:33:45,670 --> 00:33:48,630
+In fact, as I mentioned
+up there, the uncertainty
+
+674
+00:33:48,630 --> 00:33:52,150
+principle in physics really
+comes from this result.
+
+675
+00:33:52,150 --> 00:33:59,130
+It says that the spread in time
+times the spread in frequency
+
+676
+00:33:59,130 --> 00:34:00,330
+has some lower bound, OK?
+
+677
+00:34:00,330 --> 00:34:04,270
+So this is some number
+that's strictly positive.
+
+678
+00:34:04,270 --> 00:34:07,260
+So you can't make a signal
+arbitrarily concentrated
+
+679
+00:34:07,260 --> 00:34:10,020
+in time and concentrated
+in frequency.
+
+680
+00:34:10,020 --> 00:34:11,550
+If you make one
+small, the other one
+
+681
+00:34:11,550 --> 00:34:13,438
+will have to grow
+correspondingly.
+
+682
+00:34:13,438 --> 00:34:15,480
+So actually, the uncertainty
+principle in physics
+
+683
+00:34:15,480 --> 00:34:18,040
+is precisely a theorem
+in Fourier transforms
+
+684
+00:34:18,040 --> 00:34:20,350
+if you study it.
+
+685
+00:34:20,350 --> 00:34:25,260
+Here is another such
+complementarity or duality.
+
+686
+00:34:25,260 --> 00:34:28,500
+The smoother you make a
+signal in time, the more sharp
+
+687
+00:34:28,500 --> 00:34:30,590
+it is in frequency.
+
+688
+00:34:30,590 --> 00:34:31,090
+Let's see.
+
+689
+00:34:31,090 --> 00:34:33,840
+We saw that here,
+for instance, right?
+
+690
+00:34:33,840 --> 00:34:36,840
+We had a signal in time,
+namely the unit sample
+
+691
+00:34:36,840 --> 00:34:39,150
+response of the ideal filter.
+
+692
+00:34:39,150 --> 00:34:42,050
+This was-- this didn't
+have any sharp edges to it.
+
+693
+00:34:42,050 --> 00:34:44,820
+It was a sinc function.
+
+694
+00:34:44,820 --> 00:34:47,219
+You got something
+that's smooth in time,
+
+695
+00:34:47,219 --> 00:34:51,313
+it ends up having sharp
+edges in frequency, OK?
+
+696
+00:34:51,313 --> 00:34:52,980
+And the more smooth
+you make it in time,
+
+697
+00:34:52,980 --> 00:34:56,313
+the sharper it
+gets in frequency.
+
+698
+00:34:56,313 --> 00:34:57,480
+And this we've already seen.
+
+699
+00:34:57,480 --> 00:35:00,030
+This is the kind of trade-off
+we're talking about.
+
+700
+00:35:00,030 --> 00:35:03,280
+So these are characteristics
+to be on the lookout for.
+
+701
+00:35:03,280 --> 00:35:07,310
+In fact, I just did a
+little experiment here.
+
+702
+00:35:07,310 --> 00:35:11,090
+What if we decided not to try
+and send a rectangular pulse
+
+703
+00:35:11,090 --> 00:35:14,000
+over, but we smoothed out
+the pulse a little bit
+
+704
+00:35:14,000 --> 00:35:16,200
+to get rid of that sharp edge?
+
+705
+00:35:16,200 --> 00:35:20,630
+So that's another way
+that you can try and get
+
+706
+00:35:20,630 --> 00:35:25,735
+a pulse over a lowpass
+channel like this.
+
+707
+00:35:25,735 --> 00:35:27,110
+So you see, what
+I'm trying to do
+
+708
+00:35:27,110 --> 00:35:30,740
+is not have the sharp
+discontinuities, the 0 to 1
+
+709
+00:35:30,740 --> 00:35:32,000
+and the 1 to 0.
+
+710
+00:35:32,000 --> 00:35:35,460
+I want a more rounded
+behavior in the time domain
+
+711
+00:35:35,460 --> 00:35:39,950
+so I get a sharper concentration
+in the frequency domain,
+
+712
+00:35:39,950 --> 00:35:41,850
+and you can actually
+see how that works.
+
+713
+00:35:41,850 --> 00:35:54,180
+So what I've actually done here
+is, instead of a signal that--
+
+714
+00:35:54,180 --> 00:35:55,770
+well, if you'll
+permit me, I don't
+
+715
+00:35:55,770 --> 00:35:59,010
+want to draw these stem
+plots, the lollipop figures,
+
+716
+00:35:59,010 --> 00:36:03,000
+because they get painful
+to draw, but just assume
+
+717
+00:36:03,000 --> 00:36:05,460
+that this is 256 such things.
+
+718
+00:36:05,460 --> 00:36:08,220
+That's the rectangular pulse
+we were trying to send before.
+
+719
+00:36:08,220 --> 00:36:10,320
+What I've done now
+is instead say,
+
+720
+00:36:10,320 --> 00:36:11,880
+well, let me around
+the edges, so I'm
+
+721
+00:36:11,880 --> 00:36:17,160
+going to have a half cycle of
+a cosine for that edge, OK?
+
+722
+00:36:17,160 --> 00:36:18,870
+So that's what--
+these are the samples
+
+723
+00:36:18,870 --> 00:36:20,760
+I'm going to use at
+this edge, and I'm
+
+724
+00:36:20,760 --> 00:36:23,640
+going to have a half-cycle
+of a cosine at this edge.
+
+725
+00:36:23,640 --> 00:36:26,820
+This is actually something
+that's used quite a bit
+
+726
+00:36:26,820 --> 00:36:28,898
+in applications.
+
+727
+00:36:28,898 --> 00:36:30,190
+All right, so what have I done?
+
+728
+00:36:30,190 --> 00:36:33,690
+I've removed the
+sharp edge and gotten
+
+729
+00:36:33,690 --> 00:36:35,860
+a much-rounded transition.
+
+730
+00:36:35,860 --> 00:36:39,330
+In fact, if you're thinking
+of continuous functions,
+
+731
+00:36:39,330 --> 00:36:41,610
+the original had
+a discontinuity,
+
+732
+00:36:41,610 --> 00:36:43,920
+whereas here I've got to
+take two derivatives before I
+
+733
+00:36:43,920 --> 00:36:47,430
+encounter a discontinuity
+because the function itself
+
+734
+00:36:47,430 --> 00:36:49,943
+and its slope at these
+ends are well-matched,
+
+735
+00:36:49,943 --> 00:36:51,360
+so I've got to
+differentiate twice
+
+736
+00:36:51,360 --> 00:36:52,630
+before I get a discontinuity.
+
+737
+00:36:52,630 --> 00:36:56,160
+So actually, it has quite
+some smoothness to it.
+
+738
+00:36:56,160 --> 00:36:58,980
+Smooth in time means
+more tightly concentrated
+
+739
+00:36:58,980 --> 00:37:00,000
+in frequency.
+
+740
+00:37:00,000 --> 00:37:05,050
+So all I'm doing
+on the next slide
+
+741
+00:37:05,050 --> 00:37:08,440
+is showing you, so
+your eye can compare,
+
+742
+00:37:08,440 --> 00:37:12,160
+what the spectral content
+is of the original pulse
+
+743
+00:37:12,160 --> 00:37:13,438
+and of this rounded pulse.
+
+744
+00:37:13,438 --> 00:37:14,980
+And for the rounded
+pulse, I actually
+
+745
+00:37:14,980 --> 00:37:17,810
+just flipped it over so that
+you can compare more easily.
+
+746
+00:37:17,810 --> 00:37:21,250
+So this is the negative
+of the DTFT magnitude
+
+747
+00:37:21,250 --> 00:37:23,140
+of the shaped pulse.
+
+748
+00:37:23,140 --> 00:37:25,690
+And you can sort of
+see right away here
+
+749
+00:37:25,690 --> 00:37:29,000
+that the frequency content
+has essentially settled out.
+
+750
+00:37:29,000 --> 00:37:32,230
+It's almost all contained
+in this smaller region,
+
+751
+00:37:32,230 --> 00:37:34,590
+whereas the
+rectangular pulse had
+
+752
+00:37:34,590 --> 00:37:37,160
+a frequency content that went
+way off to high frequencies,
+
+753
+00:37:37,160 --> 00:37:37,660
+right?
+
+754
+00:37:37,660 --> 00:37:42,250
+Went off to 24 kilohertz,
+for instance, in our example.
+
+755
+00:37:42,250 --> 00:37:45,065
+So the frequency content
+of the shaped pulse
+
+756
+00:37:45,065 --> 00:37:46,690
+is much more tightly
+contained, and you
+
+757
+00:37:46,690 --> 00:37:48,398
+have a much better
+chance of getting that
+
+758
+00:37:48,398 --> 00:37:50,480
+across a lowpass channel.
+
+759
+00:37:50,480 --> 00:37:53,470
+So this is just a
+little bit of shaping
+
+760
+00:37:53,470 --> 00:37:55,570
+that can make a big
+difference in terms
+
+761
+00:37:55,570 --> 00:37:59,480
+of adapting the signal you're
+trying to send to the channel.
+
+762
+00:37:59,480 --> 00:38:02,020
+So if I look in the time
+domain, sending these two
+
+763
+00:38:02,020 --> 00:38:05,740
+pulses over the same
+lowpass channel,
+
+764
+00:38:05,740 --> 00:38:08,780
+you can do a visual
+comparison of what comes out.
+
+765
+00:38:08,780 --> 00:38:13,300
+So here's the original 256
+rectangular pulse coming out
+
+766
+00:38:13,300 --> 00:38:14,950
+the other end.
+
+767
+00:38:14,950 --> 00:38:17,770
+Here is my shaped pulse
+coming out the other end.
+
+768
+00:38:17,770 --> 00:38:20,980
+And you can see the shaped pulse
+is much more tightly confined
+
+769
+00:38:20,980 --> 00:38:23,600
+in the bit slot that
+I assigned to it,
+
+770
+00:38:23,600 --> 00:38:25,420
+so it's much more
+tightly confined
+
+771
+00:38:25,420 --> 00:38:30,040
+around the 256-sample width, OK?
+
+772
+00:38:30,040 --> 00:38:32,697
+So this is another
+thing that is done,
+
+773
+00:38:32,697 --> 00:38:34,780
+and it's done by thinking
+in the frequency domain.
+
+774
+00:38:34,780 --> 00:38:36,360
+People designed
+these pulses thinking
+
+775
+00:38:36,360 --> 00:38:37,360
+in the frequency domain.
+
+776
+00:38:37,360 --> 00:38:41,250
+They're not doing convolution.
+
+777
+00:38:41,250 --> 00:38:44,160
+OK, that was all
+lowpass, but we want
+
+778
+00:38:44,160 --> 00:38:49,075
+to look at bandpass, so just a
+couple of quick examples there.
+
+779
+00:38:49,075 --> 00:38:50,325
+So we're back to the speakers.
+
+780
+00:38:53,280 --> 00:38:56,460
+And we're taking our
+rectangular pulse
+
+781
+00:38:56,460 --> 00:38:58,590
+and applying it to the speaker.
+
+782
+00:38:58,590 --> 00:39:02,630
+So here's what the spectrum
+looks like after ideal bandpass
+
+783
+00:39:02,630 --> 00:39:03,130
+filtering.
+
+784
+00:39:03,130 --> 00:39:04,590
+So I'm not actually
+filtering with the speaker
+
+785
+00:39:04,590 --> 00:39:05,550
+characteristic.
+
+786
+00:39:05,550 --> 00:39:07,860
+I'm assuming an
+ideal bandpass that
+
+787
+00:39:07,860 --> 00:39:10,650
+extends from 100
+Hertz to 10,000 Hertz
+
+788
+00:39:10,650 --> 00:39:13,450
+and zeros out everything
+outside that range.
+
+789
+00:39:13,450 --> 00:39:16,950
+So I send in the
+spectral characteristic
+
+790
+00:39:16,950 --> 00:39:18,890
+of my rectangular pulse.
+
+791
+00:39:18,890 --> 00:39:20,880
+I shape it with the bandpass.
+
+792
+00:39:20,880 --> 00:39:22,680
+So what comes out is
+something that has
+
+793
+00:39:22,680 --> 00:39:23,982
+this spectral characteristic.
+
+794
+00:39:23,982 --> 00:39:26,190
+And you can see that the
+frequency content is sharply
+
+795
+00:39:26,190 --> 00:39:32,400
+limited 10 kilohertz
+above 0, and then there
+
+796
+00:39:32,400 --> 00:39:35,010
+is actually a central region
+that's entirely missing.
+
+797
+00:39:35,010 --> 00:39:39,820
+So remember, this had to
+go originally up to 256,
+
+798
+00:39:39,820 --> 00:39:42,780
+but because we've chopped
+out the center portion,
+
+799
+00:39:42,780 --> 00:39:46,410
+we're only going out to
+150-something out there.
+
+800
+00:39:46,410 --> 00:39:47,910
+So actually, if I
+zoom in, you can
+
+801
+00:39:47,910 --> 00:39:50,500
+see that a lot more closely.
+
+802
+00:39:50,500 --> 00:39:52,920
+So this is a zoomed-in
+version of what
+
+803
+00:39:52,920 --> 00:39:58,340
+comes out from a loudspeaker,
+from a bandpass filter,
+
+804
+00:39:58,340 --> 00:40:00,830
+if I send in a
+rectangular pulse.
+
+805
+00:40:00,830 --> 00:40:03,512
+The very low frequencies
+are entirely missing,
+
+806
+00:40:03,512 --> 00:40:05,220
+and we saw in the
+previous characteristic
+
+807
+00:40:05,220 --> 00:40:08,260
+that the very high frequencies
+are missing, as well.
+
+808
+00:40:08,260 --> 00:40:12,750
+So what's the shape of the
+pulse that you get out?
+
+809
+00:40:12,750 --> 00:40:15,630
+Not very good.
+
+810
+00:40:15,630 --> 00:40:17,370
+Because the low
+frequencies are missing,
+
+811
+00:40:17,370 --> 00:40:19,620
+this thing tends to
+sag in the middle.
+
+812
+00:40:19,620 --> 00:40:23,160
+It can't hold up DC.
+
+813
+00:40:23,160 --> 00:40:25,680
+And it can't make the very
+sharp transitions, either,
+
+814
+00:40:25,680 --> 00:40:27,550
+so there is a more
+leisurely transition.
+
+815
+00:40:27,550 --> 00:40:30,060
+But again, this can't
+stay at that level.
+
+816
+00:40:30,060 --> 00:40:32,040
+It actually asymptotes.
+
+817
+00:40:32,040 --> 00:40:37,530
+So the actual pulse occupies--
+before it settles, occupies way
+
+818
+00:40:37,530 --> 00:40:41,760
+over the 256 bits that
+I've allotted to it, OK?
+
+819
+00:40:41,760 --> 00:40:44,310
+So taking that rectangular
+pulse and directly putting it
+
+820
+00:40:44,310 --> 00:40:48,090
+on the speaker is going to
+give you something not pretty
+
+821
+00:40:48,090 --> 00:40:52,270
+at the other end and something
+that you cannot signal with.
+
+822
+00:40:52,270 --> 00:40:58,140
+So the question is what
+to do about that, OK?
+
+823
+00:40:58,140 --> 00:41:02,552
+And the answer to that is this
+thing that we call modulation.
+
+824
+00:41:02,552 --> 00:41:04,260
+We've already seen it
+in different forms.
+
+825
+00:41:08,198 --> 00:41:10,240
+Let's think about it now
+in the frequency domain.
+
+826
+00:41:14,190 --> 00:41:18,130
+OK, so here's what
+we're going to do.
+
+827
+00:41:18,130 --> 00:41:19,400
+Want the big stick of chalk.
+
+828
+00:41:19,400 --> 00:41:19,900
+OK.
+
+829
+00:41:27,430 --> 00:41:29,717
+We're going to shape the
+spectral characteristics
+
+830
+00:41:29,717 --> 00:41:30,300
+of the signal.
+
+831
+00:41:30,300 --> 00:41:34,600
+We started off with some
+time-domain signal links, x N,
+
+832
+00:41:34,600 --> 00:41:38,920
+corresponding DTFT x omega.
+
+833
+00:41:38,920 --> 00:41:42,010
+It wasn't well-matched to
+our channel characteristics,
+
+834
+00:41:42,010 --> 00:41:46,600
+and so what we're
+going to do is multiply
+
+835
+00:41:46,600 --> 00:41:51,260
+by some carrier frequency.
+
+836
+00:41:51,260 --> 00:41:55,150
+And this is simple
+amplitude modulation.
+
+837
+00:41:55,150 --> 00:41:57,790
+We're just referring to
+it as modulation here.
+
+838
+00:42:05,210 --> 00:42:06,740
+We get some signal out here.
+
+839
+00:42:12,400 --> 00:42:15,720
+And the question is, what is
+the frequency characteristic
+
+840
+00:42:15,720 --> 00:42:17,226
+of that signal?
+
+841
+00:42:17,226 --> 00:42:18,990
+OK, we've already seen
+what the frequency
+
+842
+00:42:18,990 --> 00:42:21,355
+characteristic of the input is.
+
+843
+00:42:21,355 --> 00:42:23,480
+What's the frequency
+characteristic of that signal?
+
+844
+00:42:34,240 --> 00:42:40,260
+So just to give you an
+example, we had our x of omega
+
+845
+00:42:40,260 --> 00:42:43,800
+looking something
+like the sinc shape.
+
+846
+00:42:48,220 --> 00:42:49,570
+Remember height N there?
+
+847
+00:42:56,630 --> 00:42:59,180
+And the question is, what's
+the spectrum of this?
+
+848
+00:42:59,180 --> 00:43:00,980
+And there's a
+computation up there
+
+849
+00:43:00,980 --> 00:43:03,560
+that I don't want to go
+through, but it shows you
+
+850
+00:43:03,560 --> 00:43:05,510
+that the answer is
+actually quite simple.
+
+851
+00:43:05,510 --> 00:43:08,120
+So if I call this--
+
+852
+00:43:08,120 --> 00:43:11,567
+let me call this t
+of N because it's
+
+853
+00:43:11,567 --> 00:43:13,025
+the signal we're
+going to transmit.
+
+854
+00:43:17,280 --> 00:43:21,510
+Here's what the spectrum of the
+transmitted signal looks like.
+
+855
+00:43:26,610 --> 00:43:27,870
+There is omega.
+
+856
+00:43:27,870 --> 00:43:29,430
+There's pi.
+
+857
+00:43:29,430 --> 00:43:30,560
+Here's omega c.
+
+858
+00:43:35,690 --> 00:43:37,800
+OK, so the
+prescription is simple.
+
+859
+00:43:37,800 --> 00:43:42,430
+Take the spectral characteristic
+and replicate it at omega c
+
+860
+00:43:42,430 --> 00:43:46,640
+and replicate it at minus
+omega c, and scale by 1/2.
+
+861
+00:43:46,640 --> 00:43:52,310
+So what you're going to get
+is this characteristic here,
+
+862
+00:43:52,310 --> 00:43:57,680
+this characteristic here, and
+the height will be N over 2.
+
+863
+00:43:57,680 --> 00:43:58,580
+It's that simple.
+
+864
+00:43:58,580 --> 00:44:00,347
+So you can go through the math.
+
+865
+00:44:00,347 --> 00:44:02,180
+When you're done with
+the math, what it says
+
+866
+00:44:02,180 --> 00:44:04,310
+is that the spectral
+characteristic
+
+867
+00:44:04,310 --> 00:44:09,260
+of this modulated signal is
+the spectral characteristic
+
+868
+00:44:09,260 --> 00:44:13,550
+of the envelope of the baseband
+signal, or the envelope,
+
+869
+00:44:13,550 --> 00:44:17,642
+but translated to the
+position of the carrier.
+
+870
+00:44:17,642 --> 00:44:19,100
+So you can begin
+to see how this is
+
+871
+00:44:19,100 --> 00:44:21,980
+going to help us shift
+a signal to get it
+
+872
+00:44:21,980 --> 00:44:23,323
+across a bandpass channel.
+
+873
+00:44:23,323 --> 00:44:24,740
+We started off
+with something that
+
+874
+00:44:24,740 --> 00:44:28,370
+was not well-suited to the
+loudspeaker we now have a way
+
+875
+00:44:28,370 --> 00:44:30,740
+to shift its energy
+to get it right
+
+876
+00:44:30,740 --> 00:44:33,170
+in the passband of the
+speaker by picking the carrier
+
+877
+00:44:33,170 --> 00:44:34,830
+frequency appropriately.
+
+878
+00:44:34,830 --> 00:44:35,330
+All right?
+
+879
+00:44:39,990 --> 00:44:44,370
+I think I'm going to
+skip some of this.
+
+880
+00:44:44,370 --> 00:44:47,060
+But let's look at
+what this does.
+
+881
+00:44:47,060 --> 00:44:48,560
+It's really this
+picture, but I just
+
+882
+00:44:48,560 --> 00:44:51,520
+want to show you how it
+works with actual waveforms.
+
+883
+00:44:51,520 --> 00:44:57,650
+So here is the rectangular
+pulse times the cosine.
+
+884
+00:44:57,650 --> 00:44:59,270
+I've picked-- what did I pick?
+
+885
+00:44:59,270 --> 00:45:01,120
+1 kilohertz as my carrier?
+
+886
+00:45:01,120 --> 00:45:02,210
+Yeah.
+
+887
+00:45:02,210 --> 00:45:04,280
+1,000 Hertz was the carrier.
+
+888
+00:45:04,280 --> 00:45:07,400
+1,000 Hertz sits comfortably
+in the passband of a speaker,
+
+889
+00:45:07,400 --> 00:45:10,780
+so it's a reasonable choice.
+
+890
+00:45:10,780 --> 00:45:13,480
+By the way, in typical AM,
+the carrier frequencies
+
+891
+00:45:13,480 --> 00:45:15,458
+are much higher
+than-- or the ratio
+
+892
+00:45:15,458 --> 00:45:17,500
+of the carrier frequency
+to the rate of variation
+
+893
+00:45:17,500 --> 00:45:20,387
+of the envelope is
+much higher than what
+
+894
+00:45:20,387 --> 00:45:21,470
+we have in these examples.
+
+895
+00:45:21,470 --> 00:45:25,060
+So the audio channel is
+actually very challenging.
+
+896
+00:45:25,060 --> 00:45:28,060
+OK, so this is my
+modulated signal.
+
+897
+00:45:28,060 --> 00:45:31,130
+The question is, what does
+its spectrum look like?
+
+898
+00:45:31,130 --> 00:45:34,660
+So I run it through
+the FFT, and indeed I
+
+899
+00:45:34,660 --> 00:45:38,470
+get the replication here.
+
+900
+00:45:38,470 --> 00:45:39,970
+Let's zoom in a
+little bit so we can
+
+901
+00:45:39,970 --> 00:45:41,178
+see it a little more closely.
+
+902
+00:45:47,030 --> 00:45:49,390
+So what I have is those
+two sinc-like spectral
+
+903
+00:45:49,390 --> 00:45:53,440
+characteristics, but translated
+to sit centered at 1,000
+
+904
+00:45:53,440 --> 00:45:55,240
+Hertz and minus 1,000 Hertz.
+
+905
+00:45:55,240 --> 00:45:58,270
+Remember that this
+is 0 out here, OK?
+
+906
+00:45:58,270 --> 00:45:59,770
+And the height,
+well, it's now it's
+
+907
+00:45:59,770 --> 00:46:02,980
+128, which is half the
+256 that I had before.
+
+908
+00:46:14,000 --> 00:46:16,720
+So in terms of positioning
+this within where
+
+909
+00:46:16,720 --> 00:46:18,680
+the loudspeaker
+will transmit it,
+
+910
+00:46:18,680 --> 00:46:20,935
+we were taking the lower
+cutoff of the loudspeaker
+
+911
+00:46:20,935 --> 00:46:22,900
+as being around 100 Hertz.
+
+912
+00:46:22,900 --> 00:46:24,920
+This is where 100 Hertz sits.
+
+913
+00:46:24,920 --> 00:46:26,350
+So you can see
+that a huge amount
+
+914
+00:46:26,350 --> 00:46:28,730
+of the energy of the
+pulse is getting through.
+
+915
+00:46:28,730 --> 00:46:29,980
+It's at the wrong frequencies.
+
+916
+00:46:29,980 --> 00:46:32,300
+We'll have to deal
+with getting it back.
+
+917
+00:46:32,300 --> 00:46:36,300
+But at least getting the energy
+across is working here, OK?
+
+918
+00:46:36,300 --> 00:46:38,927
+And the upper cutoff of the
+speaker is way off over here.
+
+919
+00:46:38,927 --> 00:46:40,510
+So this is 10,000,
+but I'm showing you
+
+920
+00:46:40,510 --> 00:46:45,520
+a zoomed-in version, so the
+upper frequency is way off.
+
+921
+00:46:45,520 --> 00:46:47,650
+In fact, that also
+brings up the idea
+
+922
+00:46:47,650 --> 00:46:50,830
+that you could actually do
+this trick multiple times.
+
+923
+00:46:50,830 --> 00:46:53,470
+You could actually pick another
+carrier frequency somewhat
+
+924
+00:46:53,470 --> 00:46:56,517
+higher than this with some
+other modulating signal on it
+
+925
+00:46:56,517 --> 00:46:57,850
+and tuck that in there, as well.
+
+926
+00:46:57,850 --> 00:47:00,790
+So you could simultaneously
+transmit messages
+
+927
+00:47:00,790 --> 00:47:03,190
+on multiple carriers
+through that same speaker,
+
+928
+00:47:03,190 --> 00:47:05,210
+and you'll be exploring
+that, as well.
+
+929
+00:47:05,210 --> 00:47:05,710
+OK.
+
+930
+00:47:08,500 --> 00:47:10,960
+So what does the-- what's
+the time-domain signal that
+
+931
+00:47:10,960 --> 00:47:13,490
+corresponds to this looks like?
+
+932
+00:47:13,490 --> 00:47:17,650
+So when you get it, you
+impress this modulated signal
+
+933
+00:47:17,650 --> 00:47:20,830
+on the loudspeaker, on
+this bandpass filter.
+
+934
+00:47:20,830 --> 00:47:23,760
+What's the output of
+the bandpass filter?
+
+935
+00:47:23,760 --> 00:47:28,390
+You can see it's almost
+exactly what you put in, OK?
+
+936
+00:47:28,390 --> 00:47:30,300
+There's a little
+bit of distortion
+
+937
+00:47:30,300 --> 00:47:34,290
+at the different places,
+but it's basically exactly
+
+938
+00:47:34,290 --> 00:47:36,000
+the pulse that you put in.
+
+939
+00:47:36,000 --> 00:47:38,340
+So almost all the
+energy has gone through,
+
+940
+00:47:38,340 --> 00:47:41,280
+and you don't have
+significant distortion
+
+941
+00:47:41,280 --> 00:47:43,200
+because you've squarely
+placed the energy
+
+942
+00:47:43,200 --> 00:47:44,580
+in the passband of the filter.
+
+943
+00:47:44,580 --> 00:47:47,880
+OK, now how do we recover?
+
+944
+00:47:47,880 --> 00:47:52,470
+How do we get back the
+original baseband signal?
+
+945
+00:47:52,470 --> 00:47:56,970
+Well, it turns out
+it's very easy.
+
+946
+00:47:56,970 --> 00:47:59,800
+Let me actually
+do it in pictures,
+
+947
+00:47:59,800 --> 00:48:03,030
+and then we'll look at the math.
+
+948
+00:48:03,030 --> 00:48:05,940
+This is what's coming
+in to our receiver,
+
+949
+00:48:05,940 --> 00:48:10,140
+and now we've got to process
+this to get back a signal that
+
+950
+00:48:10,140 --> 00:48:12,850
+has this spectrum.
+
+951
+00:48:12,850 --> 00:48:15,010
+We've learned a trick,
+which is modulation.
+
+952
+00:48:15,010 --> 00:48:17,680
+Multiply it by a cosine,
+and you'll take the spectrum
+
+953
+00:48:17,680 --> 00:48:22,257
+and replicate it at omega
+c and at minus omega c.
+
+954
+00:48:22,257 --> 00:48:23,840
+I'm going to use the
+same trick again.
+
+955
+00:48:23,840 --> 00:48:27,130
+I'm going to take the
+received signal multiplied
+
+956
+00:48:27,130 --> 00:48:30,010
+by a cosine of the
+same carrier frequency,
+
+957
+00:48:30,010 --> 00:48:32,300
+and what's that going to do?
+
+958
+00:48:32,300 --> 00:48:37,500
+Well, my scale is getting
+bigger here each time.
+
+959
+00:48:41,250 --> 00:48:45,180
+So here's my omega c.
+
+960
+00:48:45,180 --> 00:48:47,640
+Here's my minus omega c.
+
+961
+00:48:47,640 --> 00:48:50,520
+What's coming in is this signal.
+
+962
+00:48:50,520 --> 00:48:52,890
+I'm going to multiply it
+by cosine omega c, so what
+
+963
+00:48:52,890 --> 00:48:54,510
+does that do in the spectrum?
+
+964
+00:48:54,510 --> 00:48:58,770
+It takes this spectrum,
+replicates it at omega c.
+
+965
+00:48:58,770 --> 00:48:59,890
+So what does that do?
+
+966
+00:48:59,890 --> 00:49:05,330
+Well, it puts a piece here,
+and it puts a piece here,
+
+967
+00:49:05,330 --> 00:49:08,580
+at 2 omega c, right?
+
+968
+00:49:08,580 --> 00:49:11,612
+Because I've taken
+this spectrum--
+
+969
+00:49:11,612 --> 00:49:13,320
+you've got to imagine
+the change of scale
+
+970
+00:49:13,320 --> 00:49:14,760
+so I can draw all of this.
+
+971
+00:49:14,760 --> 00:49:16,320
+I've taken this
+spectrum and I've
+
+972
+00:49:16,320 --> 00:49:19,800
+placed it centered on omega c.
+
+973
+00:49:19,800 --> 00:49:21,270
+And this is now--
+
+974
+00:49:21,270 --> 00:49:22,845
+this is the N over 2 here.
+
+975
+00:49:22,845 --> 00:49:24,720
+Oh, but now it's going
+to be N over 4, right?
+
+976
+00:49:24,720 --> 00:49:28,140
+Because I divide by 2.
+
+977
+00:49:28,140 --> 00:49:30,840
+And then I take
+the same spectrum
+
+978
+00:49:30,840 --> 00:49:33,630
+and I center it
+on minus omega c.
+
+979
+00:49:33,630 --> 00:49:37,440
+OK, so I've got
+the N over 4 piece
+
+980
+00:49:37,440 --> 00:49:41,250
+here, but I'm going
+to have the other--
+
+981
+00:49:41,250 --> 00:49:43,080
+oh, sorry.
+
+982
+00:49:43,080 --> 00:49:45,610
+I drew it in the wrong place.
+
+983
+00:49:45,610 --> 00:49:47,520
+I'm going to center
+it at omega c.
+
+984
+00:49:47,520 --> 00:49:52,590
+So this is going to end
+up at minus 2 omega c.
+
+985
+00:49:52,590 --> 00:49:54,280
+And the replication here.
+
+986
+00:49:54,280 --> 00:49:58,380
+So there's going to be a second
+one sitting here at the origin.
+
+987
+00:49:58,380 --> 00:50:01,190
+So the net effect
+at the origin is
+
+988
+00:50:01,190 --> 00:50:10,460
+that I get the original
+spectrum, but scaled by a half,
+
+989
+00:50:10,460 --> 00:50:14,360
+and then I get vestiges
+of this, if you like,
+
+990
+00:50:14,360 --> 00:50:18,188
+centered at twice the
+carrier frequency, OK?
+
+991
+00:50:18,188 --> 00:50:19,980
+And that's actually
+what the algebra shows.
+
+992
+00:50:19,980 --> 00:50:22,290
+The algebra is very simple.
+
+993
+00:50:22,290 --> 00:50:24,700
+You're receiving this.
+
+994
+00:50:24,700 --> 00:50:26,720
+Multiply it again by a cosine.
+
+995
+00:50:26,720 --> 00:50:29,870
+So take the received signal and
+multiply it again by a cosine.
+
+996
+00:50:29,870 --> 00:50:33,290
+Well, if you substitute for
+what the received signal is,
+
+997
+00:50:33,290 --> 00:50:36,380
+you get x n times
+cosine squared.
+
+998
+00:50:36,380 --> 00:50:39,110
+Cosine squared, if you
+use a standard identity,
+
+999
+00:50:39,110 --> 00:50:40,595
+splits into these two terms.
+
+1000
+00:50:43,140 --> 00:50:43,640
+Let's see.
+
+1001
+00:50:43,640 --> 00:50:45,610
+Do I have that right?
+
+1002
+00:50:45,610 --> 00:50:46,250
+Yeah.
+
+1003
+00:50:46,250 --> 00:50:52,100
+So here's the 0.5 x n
+sitting here at the origin,
+
+1004
+00:50:52,100 --> 00:50:57,210
+and here's another term,
+which is x n times the cosine.
+
+1005
+00:50:57,210 --> 00:50:59,420
+So this is like a
+modulated signal,
+
+1006
+00:50:59,420 --> 00:51:03,030
+but modulated by twice
+the carrier frequency.
+
+1007
+00:51:03,030 --> 00:51:05,060
+So what does this translate to?
+
+1008
+00:51:05,060 --> 00:51:10,730
+Well, it's actually 0.5 times
+x n times cosine 2 omega c.
+
+1009
+00:51:10,730 --> 00:51:12,890
+What does that do in
+the spectral domain?
+
+1010
+00:51:12,890 --> 00:51:16,190
+It's going to take half of
+that and place it at minus 2
+
+1011
+00:51:16,190 --> 00:51:18,410
+omega c and plus 2 omega
+c, so it's completely
+
+1012
+00:51:18,410 --> 00:51:20,310
+consistent with this picture.
+
+1013
+00:51:20,310 --> 00:51:22,310
+So what is it that we
+have to do now to extract
+
+1014
+00:51:22,310 --> 00:51:23,268
+the signal of interest?
+
+1015
+00:51:26,100 --> 00:51:28,920
+Just a lowpass
+filtering here, OK?
+
+1016
+00:51:28,920 --> 00:51:32,850
+So if you can select out this
+piece with a lowpass filter,
+
+1017
+00:51:32,850 --> 00:51:34,800
+you've recovered the
+signal of interest.
+
+1018
+00:51:34,800 --> 00:51:36,570
+You can adjust the
+scale factor, too,
+
+1019
+00:51:36,570 --> 00:51:39,470
+so you can have a lowpass
+filter with a gain of 2
+
+1020
+00:51:39,470 --> 00:51:41,320
+and you've recovered
+your original signal.
+
+1021
+00:51:41,320 --> 00:51:43,410
+All right, we'll
+build on Monday.
+
+1022
+00:51:43,410 --> 00:51:46,380
+And that'll be the last
+lecture on this material.
+
+1023
+00:51:46,380 --> 00:51:49,150
+Relative to the calendar,
+we're just sliding forward,
+
+1024
+00:51:49,150 --> 00:51:51,210
+so we'll wrap up
+this stuff on Monday
+
+1025
+00:51:51,210 --> 00:51:54,830
+and then continue with packets.

@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture notes on variational equations using the disturbing function, Lagrange’s planetary equations, eﬀect of the second dynamic form factor term on satellite orbits, averaged variational equations, and coeﬃcients of the Earth’s gravitational potential.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on variational equations using the disturbing function, Lagrange’s planetary equations, eﬀect of the second dynamic form factor term on satellite orbits, averaged variational equations, and coeﬃcients of the Earth’s gravitational potential.",
+  "draft": false,
+  "file": "/courses/16-346-astrodynamics-fall-2008/1a557e264b9ec2e5c71c39ed62d84c1d_lec_30.pdf",
+  "file_size": 147764,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "a1a1abb8-4dab-27d9-534c-f2b87a3fc3af",
+  "resourcetype": "Document",
+  "title": "Effect of J2 on a satellite orbit of the Earth",
+  "uid": "1a557e26-4b9e-c2e5-c71c-39ed62d84c1d"
+}

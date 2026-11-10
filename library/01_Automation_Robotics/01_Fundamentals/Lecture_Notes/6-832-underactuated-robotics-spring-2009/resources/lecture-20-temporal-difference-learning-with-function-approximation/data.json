@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Topics covered:</strong> Temporal difference learning with function approximation</p>\n<p><strong>Instructors:</strong> Russell Tedrake</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "178143493",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Video Lectures",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Lecture 20: Temporal Difference Learning with Function Approximation",
+  "uid": "d27c9d53-358c-6bf9-3c86-2d574c2cdca8",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec20_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/6-832-underactuated-robotics-spring-2009/172b03f02c5759ffa91a42e1bc653531_ja56bJ8ogUw.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/ja56bJ8ogUw/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/6-832-underactuated-robotics-spring-2009/e5c60ab87fda2593c6e63d5956a1bda3_ja56bJ8ogUw.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+    "youtube_id": "ja56bJ8ogUw"
+  }
+}

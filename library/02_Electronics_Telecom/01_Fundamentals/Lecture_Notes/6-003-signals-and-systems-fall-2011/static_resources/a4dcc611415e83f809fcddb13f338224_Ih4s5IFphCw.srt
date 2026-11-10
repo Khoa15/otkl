@@ -1,0 +1,4014 @@
+1
+00:00:00,090 --> 00:00:02,490
+The following content is
+provided under a Creative
+
+2
+00:00:02,490 --> 00:00:04,030
+Commons license.
+
+3
+00:00:04,030 --> 00:00:06,330
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:06,330 --> 00:00:10,720
+continue to offer high quality
+educational resources for free.
+
+5
+00:00:10,720 --> 00:00:13,320
+To make a donation or
+view additional materials
+
+6
+00:00:13,320 --> 00:00:17,280
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:17,280 --> 00:00:21,132
+at ocw.mit.edu
+
+8
+00:00:21,132 --> 00:00:22,340
+PROFESSOR: Hello and welcome.
+
+9
+00:00:24,839 --> 00:00:27,380
+So today I want to start to talk
+about discrete time systems.
+
+10
+00:00:29,940 --> 00:00:33,200
+But before beginning there, I
+want to say just a quick word
+
+11
+00:00:33,200 --> 00:00:35,479
+about homework.
+
+12
+00:00:35,479 --> 00:00:37,520
+I tried to stress this
+last time that the way you
+
+13
+00:00:37,520 --> 00:00:40,730
+get to know this stuff
+is by doing the homework,
+
+14
+00:00:40,730 --> 00:00:44,780
+and we'd like to provide
+positive feedback
+
+15
+00:00:44,780 --> 00:00:48,530
+in a direction that
+will help you get
+
+16
+00:00:48,530 --> 00:00:50,390
+the most out of the homework.
+
+17
+00:00:50,390 --> 00:00:52,700
+So to that end, we've
+already talked about there's
+
+18
+00:00:52,700 --> 00:00:54,620
+two kinds of problems.
+
+19
+00:00:54,620 --> 00:00:56,870
+Each homework will have
+tutor problems that
+
+20
+00:00:56,870 --> 00:01:01,670
+are intended to be problems
+like you will see on an exam,
+
+21
+00:01:01,670 --> 00:01:03,140
+but they will also
+have the feature
+
+22
+00:01:03,140 --> 00:01:04,790
+that they can be
+automatically graded
+
+23
+00:01:04,790 --> 00:01:08,570
+so that you can get immediate
+feedback about whether you're
+
+24
+00:01:08,570 --> 00:01:11,170
+doing it right or not.
+
+25
+00:01:11,170 --> 00:01:13,760
+There will also be harder
+questions questions
+
+26
+00:01:13,760 --> 00:01:15,470
+that look more like
+real world questions
+
+27
+00:01:15,470 --> 00:01:17,300
+so you don't think
+that this class is only
+
+28
+00:01:17,300 --> 00:01:20,310
+about toy problems.
+
+29
+00:01:20,310 --> 00:01:22,370
+The idea is to give
+you problems that you
+
+30
+00:01:22,370 --> 00:01:25,520
+can imagine running into.
+
+31
+00:01:25,520 --> 00:01:29,450
+Those are harder to grade
+automatically so we won't.
+
+32
+00:01:29,450 --> 00:01:33,500
+Instead they'll be
+graded by a human.
+
+33
+00:01:33,500 --> 00:01:36,710
+Those problems often admit
+several different lines
+
+34
+00:01:36,710 --> 00:01:37,920
+of reasoning.
+
+35
+00:01:37,920 --> 00:01:40,760
+So there isn't
+necessarily a unique right
+
+36
+00:01:40,760 --> 00:01:43,460
+way to think about it.
+
+37
+00:01:43,460 --> 00:01:47,710
+So what we would like to do is
+encourage you to-- after you
+
+38
+00:01:47,710 --> 00:01:49,180
+finish the homework--
+
+39
+00:01:49,180 --> 00:01:52,014
+read the solutions.
+
+40
+00:01:52,014 --> 00:01:54,430
+Now we think it's kind of an
+impediment to wait for a week
+
+41
+00:01:54,430 --> 00:01:58,090
+till you get your graded
+homework back because people--
+
+42
+00:01:58,090 --> 00:02:00,760
+in my experience--
+just don't bother.
+
+43
+00:02:00,760 --> 00:02:03,880
+So what we would like to do is
+post the solutions immediately
+
+44
+00:02:03,880 --> 00:02:05,980
+after your solutions are due.
+
+45
+00:02:05,980 --> 00:02:08,880
+Your solutions are due-- if
+you submit electronically--
+
+46
+00:02:08,880 --> 00:02:10,160
+at 5:00 p.m.
+
+47
+00:02:10,160 --> 00:02:11,170
+on the due date.
+
+48
+00:02:11,170 --> 00:02:14,680
+So homework one is due
+tomorrow, 5:00 p.m.
+
+49
+00:02:14,680 --> 00:02:16,976
+electronic submission.
+
+50
+00:02:16,976 --> 00:02:18,100
+You can also turn in paper.
+
+51
+00:02:18,100 --> 00:02:20,890
+You have to do that
+in your recitation.
+
+52
+00:02:20,890 --> 00:02:23,320
+Immediately after it
+was due at 5:00 p.m.
+
+53
+00:02:23,320 --> 00:02:26,110
+we'll post the
+solutions, and we'll
+
+54
+00:02:26,110 --> 00:02:31,710
+encourage you, in
+quotes, to read them,
+
+55
+00:02:31,710 --> 00:02:33,990
+because it's good
+for you, right?
+
+56
+00:02:33,990 --> 00:02:36,720
+We hope that that will help you
+find the errors that you made,
+
+57
+00:02:36,720 --> 00:02:40,080
+but also expose you to other
+ways that maybe will be
+
+58
+00:02:40,080 --> 00:02:42,060
+simpler, maybe will be harder.
+
+59
+00:02:42,060 --> 00:02:45,090
+Your feedback on your
+coming up with a simpler way
+
+60
+00:02:45,090 --> 00:02:47,640
+would be greatly appreciated,
+so please send me email anytime
+
+61
+00:02:47,640 --> 00:02:49,420
+you think you have a
+better way of doing things,
+
+62
+00:02:49,420 --> 00:02:50,610
+which is entirely possible.
+
+63
+00:02:53,130 --> 00:02:55,770
+But as further
+encouragement, if you mark up
+
+64
+00:02:55,770 --> 00:02:59,470
+all of your errors
+and resubmit, we'll
+
+65
+00:02:59,470 --> 00:03:03,190
+give you back half of
+the points you lost.
+
+66
+00:03:03,190 --> 00:03:05,060
+So you get to submit
+every homework twice.
+
+67
+00:03:05,060 --> 00:03:09,756
+Once for the due date
+5:00 p.m. on Wednesday.
+
+68
+00:03:09,756 --> 00:03:11,130
+Immediately after
+that, you'll be
+
+69
+00:03:11,130 --> 00:03:13,650
+able to see the
+published solutions.
+
+70
+00:03:13,650 --> 00:03:18,450
+You can circle all the errors
+and say algebra, or conceptual,
+
+71
+00:03:18,450 --> 00:03:21,480
+or I'm an idiot, or whatever
+is the right way of thinking
+
+72
+00:03:21,480 --> 00:03:24,670
+about what you did.
+
+73
+00:03:24,670 --> 00:03:27,930
+And if you get
+all of the errors,
+
+74
+00:03:27,930 --> 00:03:30,150
+you'll get back half
+of the points you lost.
+
+75
+00:03:30,150 --> 00:03:32,950
+If you say, I'm
+right, you're wrong,
+
+76
+00:03:32,950 --> 00:03:34,690
+maybe you won't get
+all your points back.
+
+77
+00:03:34,690 --> 00:03:35,190
+Yes?
+
+78
+00:03:35,190 --> 00:03:38,450
+AUDIENCE: [INAUDIBLE]
+
+79
+00:03:38,450 --> 00:03:42,210
+PROFESSOR: The resubmission
+is the same rules.
+
+80
+00:03:42,210 --> 00:03:43,710
+If you want to
+submit by paper, you
+
+81
+00:03:43,710 --> 00:03:46,150
+can turn them in on
+Friday's recitation.
+
+82
+00:03:46,150 --> 00:03:49,350
+You have until Friday
+at 5:00 p.m. otherwise.
+
+83
+00:03:49,350 --> 00:03:52,810
+Please notice that,
+if you're using paper,
+
+84
+00:03:52,810 --> 00:03:58,020
+we will not have returned
+your solutions in time for you
+
+85
+00:03:58,020 --> 00:04:02,980
+to write on them,
+so make a copy.
+
+86
+00:04:02,980 --> 00:04:04,650
+If you want to do
+the paper route,
+
+87
+00:04:04,650 --> 00:04:08,010
+make a photocopy before you
+turn it in the first time,
+
+88
+00:04:08,010 --> 00:04:11,310
+so that you have something to
+write on for the second time.
+
+89
+00:04:11,310 --> 00:04:13,460
+If you submit
+electronically, there's
+
+90
+00:04:13,460 --> 00:04:17,730
+a feedback button on the
+tutor, so you can see the thing
+
+91
+00:04:17,730 --> 00:04:19,255
+that you just submitted.
+
+92
+00:04:19,255 --> 00:04:20,630
+So that's not a
+problem if you're
+
+93
+00:04:20,630 --> 00:04:22,880
+doing the electronic thing,
+but if you're doing paper,
+
+94
+00:04:22,880 --> 00:04:27,210
+please, make a photocopy
+before you submit.
+
+95
+00:04:27,210 --> 00:04:29,650
+Otherwise, it will be hard
+to mark up your solutions.
+
+96
+00:04:29,650 --> 00:04:30,489
+Yes?
+
+97
+00:04:30,489 --> 00:04:35,480
+AUDIENCE: [INAUDIBLE]
+
+98
+00:04:35,480 --> 00:04:38,900
+PROFESSOR: No, but you
+should probably tell us
+
+99
+00:04:38,900 --> 00:04:41,060
+what you'd like us to do.
+
+100
+00:04:41,060 --> 00:04:44,920
+We would normally try
+to make our best guess.
+
+101
+00:04:44,920 --> 00:04:48,450
+So if you turn in everything
+in the paper copy,
+
+102
+00:04:48,450 --> 00:04:51,480
+we will look at your
+previous submissions,
+
+103
+00:04:51,480 --> 00:04:55,320
+but it would be best if
+you said some remark like,
+
+104
+00:04:55,320 --> 00:04:58,830
+this overrides the
+electronic submission,
+
+105
+00:04:58,830 --> 00:05:03,780
+or please ignore problems 1
+to 4, just make sure we know.
+
+106
+00:05:03,780 --> 00:05:07,280
+We're going to try to do
+what you want us to do.
+
+107
+00:05:07,280 --> 00:05:09,440
+Other issues about logistics?
+
+108
+00:05:09,440 --> 00:05:10,063
+Yes?
+
+109
+00:05:10,063 --> 00:05:13,525
+AUDIENCE: So just
+to make sure, we
+
+110
+00:05:13,525 --> 00:05:17,118
+don't have to submit
+homework both electronically
+
+111
+00:05:17,118 --> 00:05:18,555
+and in paper?
+
+112
+00:05:18,555 --> 00:05:20,997
+PROFESSOR: No, absolutely not.
+
+113
+00:05:20,997 --> 00:05:23,330
+If you do the electronic
+route-- which is the preferred,
+
+114
+00:05:23,330 --> 00:05:26,680
+we like electronic because
+it won't get lost--
+
+115
+00:05:26,680 --> 00:05:29,240
+the graders will absolutely
+have access to it
+
+116
+00:05:29,240 --> 00:05:31,620
+because they're
+all in one place.
+
+117
+00:05:31,620 --> 00:05:34,241
+We like the electronic route,
+but if you'd prefer paper,
+
+118
+00:05:34,241 --> 00:05:36,865
+just make sure you give us paper
+and one or the other suffices.
+
+119
+00:05:40,070 --> 00:05:40,747
+Yes?
+
+120
+00:05:40,747 --> 00:05:44,020
+AUDIENCE: Did we ever submit
+the tutor questions on paper?
+
+121
+00:05:44,020 --> 00:05:46,860
+PROFESSOR: You don't need to.
+
+122
+00:05:46,860 --> 00:05:49,200
+If you submit the
+tutor problems online
+
+123
+00:05:49,200 --> 00:05:52,650
+and it says you're 100%
+correct, you're done.
+
+124
+00:05:52,650 --> 00:05:54,540
+We don't ever need
+to see anything else.
+
+125
+00:05:54,540 --> 00:05:55,500
+You've got full credit.
+
+126
+00:05:58,560 --> 00:05:59,190
+Other issues?
+
+127
+00:06:01,490 --> 00:06:01,990
+Yes?
+
+128
+00:06:01,990 --> 00:06:03,798
+AUDIENCE: If people are
+having technical problems
+
+129
+00:06:03,798 --> 00:06:05,154
+with the tutor, please tell us.
+
+130
+00:06:05,154 --> 00:06:06,862
+Don't just feel like
+you have to kick out
+
+131
+00:06:06,862 --> 00:06:08,380
+and do the paper version.
+
+132
+00:06:08,380 --> 00:06:10,313
+We're trying make
+sure that everything
+
+133
+00:06:10,313 --> 00:06:11,350
+is in place this week.
+
+134
+00:06:11,350 --> 00:06:13,224
+PROFESSOR: We will try
+to be very responsive.
+
+135
+00:06:13,224 --> 00:06:17,020
+As I told you, this
+is a brand new tutor.
+
+136
+00:06:17,020 --> 00:06:21,550
+We're very optimistic about
+it, but we're also realistic.
+
+137
+00:06:21,550 --> 00:06:23,429
+Software has bugs,
+but don't tell
+
+138
+00:06:23,429 --> 00:06:25,720
+any of my software people--
+my software friends-- that.
+
+139
+00:06:29,650 --> 00:06:32,470
+Software has bugs,
+so we're trying
+
+140
+00:06:32,470 --> 00:06:35,895
+to get rid of all of ours.
+
+141
+00:06:35,895 --> 00:06:37,356
+Yeah?
+
+142
+00:06:37,356 --> 00:06:38,820
+AUDIENCE: [INAUDIBLE]
+
+143
+00:06:38,820 --> 00:06:39,810
+PROFESSOR: I'm sorry?
+
+144
+00:06:39,810 --> 00:06:41,447
+AUDIENCE: [INAUDIBLE]
+
+145
+00:06:41,447 --> 00:06:43,780
+PROFESSOR: You have to shout
+because my hearing is gone.
+
+146
+00:06:43,780 --> 00:06:47,320
+AUDIENCE: What happens if you
+run out of submits on tutor?
+
+147
+00:06:47,320 --> 00:06:51,220
+PROFESSOR: If you run out
+of submits, that's bad.
+
+148
+00:06:51,220 --> 00:06:52,860
+During this sort
+of ramp up phase,
+
+149
+00:06:52,860 --> 00:06:55,240
+just send us an email,
+because the goal is not
+
+150
+00:06:55,240 --> 00:07:01,270
+to have you run
+out of submits yet.
+
+151
+00:07:01,270 --> 00:07:02,921
+Yes?
+
+152
+00:07:02,921 --> 00:07:04,504
+AUDIENCE: So if you
+run out of submits
+
+153
+00:07:04,504 --> 00:07:06,504
+and your last submission
+was an incorrect answer
+
+154
+00:07:06,504 --> 00:07:08,995
+and [INAUDIBLE] that
+has the correct equation
+
+155
+00:07:08,995 --> 00:07:11,262
+for that answer, will you
+still get full credit?
+
+156
+00:07:11,262 --> 00:07:12,970
+PROFESSOR: If you
+continue to hit submit,
+
+157
+00:07:12,970 --> 00:07:16,540
+we will continue
+to be aware of it.
+
+158
+00:07:16,540 --> 00:07:17,590
+It's all in the grade.
+
+159
+00:07:17,590 --> 00:07:20,590
+We know everything you've done.
+
+160
+00:07:20,590 --> 00:07:24,990
+So just go ahead and hit
+submit some more times.
+
+161
+00:07:24,990 --> 00:07:27,130
+You can always turn in
+paper to override it,
+
+162
+00:07:27,130 --> 00:07:28,960
+or you can always
+send me an email
+
+163
+00:07:28,960 --> 00:07:32,971
+and say, I ran out of
+submits, the answer is blah.
+
+164
+00:07:32,971 --> 00:07:34,720
+We're going to try to
+be very cooperative.
+
+165
+00:07:34,720 --> 00:07:36,830
+This is new.
+
+166
+00:07:36,830 --> 00:07:39,500
+This is supposed to be helpful.
+
+167
+00:07:39,500 --> 00:07:40,215
+Yes?
+
+168
+00:07:40,215 --> 00:07:43,872
+AUDIENCE: [INAUDIBLE]
+
+169
+00:07:43,872 --> 00:07:46,080
+PROFESSOR: That's not supposed
+to be on your website.
+
+170
+00:07:46,080 --> 00:07:48,270
+That's supposed to
+be on my website.
+
+171
+00:07:48,270 --> 00:07:49,470
+I'll have to look into that.
+
+172
+00:07:53,100 --> 00:07:55,580
+If it works, use it.
+
+173
+00:07:59,730 --> 00:08:04,830
+OK, other obvious
+errors that we've made?
+
+174
+00:08:04,830 --> 00:08:07,290
+OK, let's go on
+and talk about 003.
+
+175
+00:08:07,290 --> 00:08:10,090
+What I want to do today--
+
+176
+00:08:10,090 --> 00:08:12,060
+last time, I
+introduced what I call
+
+177
+00:08:12,060 --> 00:08:21,490
+the 6.003 abstraction which
+is the idea that we represent
+
+178
+00:08:21,490 --> 00:08:22,060
+a system--
+
+179
+00:08:22,060 --> 00:08:30,850
+whatever it is-- by the way
+it transforms an input signal
+
+180
+00:08:30,850 --> 00:08:31,780
+to an output signal.
+
+181
+00:08:34,720 --> 00:08:37,720
+The goal for today is
+to start to develop
+
+182
+00:08:37,720 --> 00:08:42,390
+machinery that takes advantage
+of that representation.
+
+183
+00:08:42,390 --> 00:08:44,610
+We'll start by
+thinking about DT.
+
+184
+00:08:44,610 --> 00:08:47,100
+DT is conceptually
+easier than CT.
+
+185
+00:08:47,100 --> 00:08:48,740
+That's why we start there.
+
+186
+00:08:48,740 --> 00:08:51,180
+Algebra is slightly
+easier than calculus.
+
+187
+00:08:51,180 --> 00:08:51,950
+That's the idea.
+
+188
+00:08:54,720 --> 00:08:57,900
+What we learn in DT will
+transfer almost verbatim
+
+189
+00:08:57,900 --> 00:09:00,060
+into CT.
+
+190
+00:09:00,060 --> 00:09:02,850
+CT is like DT but
+a little harder
+
+191
+00:09:02,850 --> 00:09:06,470
+so there is some extra stuff,
+but the things we learned in DT
+
+192
+00:09:06,470 --> 00:09:09,320
+will still be applicable in CT.
+
+193
+00:09:09,320 --> 00:09:13,330
+Discrete time, continuous time.
+
+194
+00:09:13,330 --> 00:09:15,860
+Furthermore, DT
+is just important.
+
+195
+00:09:15,860 --> 00:09:19,310
+So, increasingly,
+applications of this field
+
+196
+00:09:19,310 --> 00:09:21,350
+are in discrete time.
+
+197
+00:09:21,350 --> 00:09:24,290
+That wasn't necessarily
+true 20 years ago.
+
+198
+00:09:24,290 --> 00:09:26,647
+It's still the case that
+there's lots of applications
+
+199
+00:09:26,647 --> 00:09:28,730
+that are intrinsically
+married to the physics that
+
+200
+00:09:28,730 --> 00:09:30,290
+underlie it.
+
+201
+00:09:30,290 --> 00:09:32,870
+That makes it intrinsically
+CT, but a lot of stuff
+
+202
+00:09:32,870 --> 00:09:34,910
+is done in DT.
+
+203
+00:09:34,910 --> 00:09:37,507
+So for a lot of reasons, we're
+going to start with DT first,
+
+204
+00:09:37,507 --> 00:09:39,590
+and we're going to look
+today at several different
+
+205
+00:09:39,590 --> 00:09:42,860
+representations of DT.
+
+206
+00:09:42,860 --> 00:09:45,380
+In particular, we're going to
+look at difference equations
+
+207
+00:09:45,380 --> 00:09:48,360
+and block diagrams.
+
+208
+00:09:48,360 --> 00:09:52,170
+And we're always interested
+in verbal descriptions,
+
+209
+00:09:52,170 --> 00:09:56,750
+because that's the way the
+real world is described to you.
+
+210
+00:09:56,750 --> 00:09:59,334
+So what we want to do
+is understand these.
+
+211
+00:09:59,334 --> 00:10:01,250
+Understand there are
+strengths and weaknesses,
+
+212
+00:10:01,250 --> 00:10:04,249
+so that we can capitalize
+on their strengths,
+
+213
+00:10:04,249 --> 00:10:05,540
+and go around their weaknesses.
+
+214
+00:10:05,540 --> 00:10:07,950
+That's the idea.
+
+215
+00:10:07,950 --> 00:10:10,439
+So the easiest
+possible representation
+
+216
+00:10:10,439 --> 00:10:11,480
+is a difference equation.
+
+217
+00:10:11,480 --> 00:10:15,050
+Difference equations are good
+because they are absolutely
+
+218
+00:10:15,050 --> 00:10:19,610
+precise, and they are the
+absolutely most concise
+
+219
+00:10:19,610 --> 00:10:22,330
+representation we will have.
+
+220
+00:10:22,330 --> 00:10:23,710
+Precise and concise.
+
+221
+00:10:23,710 --> 00:10:25,660
+Those are good features.
+
+222
+00:10:25,660 --> 00:10:27,460
+So here's an example.
+
+223
+00:10:27,460 --> 00:10:35,790
+What if my output Y were my
+input X minus X, n minus 1.
+
+224
+00:10:35,790 --> 00:10:38,360
+Let's say that the
+input is a unit sample.
+
+225
+00:10:38,360 --> 00:10:40,940
+We will often ask for
+the unit sample response.
+
+226
+00:10:40,940 --> 00:10:47,780
+The unit sample signal is the
+most simple non-trivial signal
+
+227
+00:10:47,780 --> 00:10:49,370
+that we can have.
+
+228
+00:10:49,370 --> 00:10:53,900
+It is 0 almost everywhere,
+and the only place it's not 0
+
+229
+00:10:53,900 --> 00:10:59,060
+is at 0, and when
+it's not 0 it's 1.
+
+230
+00:10:59,060 --> 00:11:02,817
+So that's sort of the
+easiest thing we can imagine.
+
+231
+00:11:02,817 --> 00:11:04,400
+So what we're going
+to want to do then
+
+232
+00:11:04,400 --> 00:11:06,380
+is think about what
+happens if we put
+
+233
+00:11:06,380 --> 00:11:09,530
+this signal into that system.
+
+234
+00:11:09,530 --> 00:11:10,820
+OK, that's completely trivial.
+
+235
+00:11:10,820 --> 00:11:12,650
+You've done this a
+gazillion times before,
+
+236
+00:11:12,650 --> 00:11:14,780
+and now is your
+chance to prove it.
+
+237
+00:11:14,780 --> 00:11:18,320
+How many of those statements
+are true about the output
+
+238
+00:11:18,320 --> 00:11:20,784
+of this system when
+that's the input?
+
+239
+00:11:20,784 --> 00:11:21,700
+Talk to your neighbor.
+
+240
+00:11:21,700 --> 00:11:22,910
+You've got 15 seconds.
+
+241
+00:11:22,910 --> 00:11:25,580
+Is it too simple?
+
+242
+00:11:25,580 --> 00:11:28,100
+Figure out how many of
+those statements are true.
+
+243
+00:12:30,076 --> 00:12:31,950
+OK, you're either all
+bored out of your minds
+
+244
+00:12:31,950 --> 00:12:33,240
+or paralyzed with fear.
+
+245
+00:12:33,240 --> 00:12:35,366
+I can't tell.
+
+246
+00:12:35,366 --> 00:12:36,750
+So everybody raise your hand.
+
+247
+00:12:36,750 --> 00:12:38,333
+How many of these
+statements are true?
+
+248
+00:12:40,461 --> 00:12:41,710
+More hands, more hands, c'mon.
+
+249
+00:12:48,550 --> 00:12:56,940
+OK, less than half
+correct, so I'll just
+
+250
+00:12:56,940 --> 00:13:01,227
+assume that you ran out
+of time, and I'll go on.
+
+251
+00:13:01,227 --> 00:13:02,310
+So this is trivial, right?
+
+252
+00:13:02,310 --> 00:13:02,851
+What do I do?
+
+253
+00:13:02,851 --> 00:13:04,190
+How do I figure this out?
+
+254
+00:13:04,190 --> 00:13:04,690
+Yeah?
+
+255
+00:13:04,690 --> 00:13:05,640
+AUDIENCE: Step by step?
+
+256
+00:13:05,640 --> 00:13:07,098
+PROFESSOR: Step by
+step, of course.
+
+257
+00:13:07,098 --> 00:13:11,730
+Yes, so if I think about
+applying this equation
+
+258
+00:13:11,730 --> 00:13:16,550
+to that input, then I can
+think about just substituting
+
+259
+00:13:16,550 --> 00:13:19,455
+n equals minus 1, n
+equals 0, n equals 1,
+
+260
+00:13:19,455 --> 00:13:23,570
+n equals 2, et cetera.
+
+261
+00:13:23,570 --> 00:13:25,550
+And you can sort of
+see that I'm only
+
+262
+00:13:25,550 --> 00:13:28,790
+looking at the input of
+two instances of time.
+
+263
+00:13:28,790 --> 00:13:32,649
+So there's a finite range
+over which the input--
+
+264
+00:13:32,649 --> 00:13:34,190
+there's a finite
+range of inputs that
+
+265
+00:13:34,190 --> 00:13:36,600
+can contribute to the output.
+
+266
+00:13:36,600 --> 00:13:38,780
+And in particular,
+if I were to say--
+
+267
+00:13:38,780 --> 00:13:41,380
+if I were to substitute
+n equals minus 1,
+
+268
+00:13:41,380 --> 00:13:45,850
+I would see that the output
+of time-- y minus 1--
+
+269
+00:13:45,850 --> 00:13:50,000
+depends on inputs before
+the delta function started.
+
+270
+00:13:52,880 --> 00:13:56,160
+So therefore the answer is 0.
+
+271
+00:13:56,160 --> 00:14:03,700
+If I look at the output of
+time 1, the time 0 input is 1,
+
+272
+00:14:03,700 --> 00:14:05,720
+the time minus 1 input is 0.
+
+273
+00:14:05,720 --> 00:14:08,840
+So my total answer
+is 1, et cetera.
+
+274
+00:14:08,840 --> 00:14:10,260
+This is very straightforward.
+
+275
+00:14:10,260 --> 00:14:16,220
+It's just plug and chug, and
+what you see is a waveform.
+
+276
+00:14:16,220 --> 00:14:18,410
+From which is
+pretty easy to infer
+
+277
+00:14:18,410 --> 00:14:24,500
+that Y2 is bigger than Y1,
+so Y2 was bigger than Y1--
+
+278
+00:14:24,500 --> 00:14:27,540
+bigger in a math sense.
+
+279
+00:14:27,540 --> 00:14:30,300
+And Y3 is bigger than Y2--
+
+280
+00:14:30,300 --> 00:14:31,510
+not.
+
+281
+00:14:31,510 --> 00:14:38,500
+Y3 and Y2 are identical,
+so that's not true.
+
+282
+00:14:38,500 --> 00:14:41,050
+Y2 and, in fact,
+everything above that is 0.
+
+283
+00:14:41,050 --> 00:14:45,340
+That's true, and if you do a
+little bit of manipulation,
+
+284
+00:14:45,340 --> 00:14:48,350
+you can show that this
+must have also been true.
+
+285
+00:14:48,350 --> 00:14:49,230
+Everyone see that?
+
+286
+00:14:52,414 --> 00:14:54,705
+I'm assuming you've seen all
+this sort of stuff before,
+
+287
+00:14:54,705 --> 00:14:56,621
+so I'm going to go through
+it kind of quickly,
+
+288
+00:14:56,621 --> 00:14:58,160
+but the answer was 4.
+
+289
+00:14:58,160 --> 00:15:00,440
+4 of those statements were true.
+
+290
+00:15:00,440 --> 00:15:02,110
+It was just a refresher
+on how to think
+
+291
+00:15:02,110 --> 00:15:04,750
+about difference equations.
+
+292
+00:15:04,750 --> 00:15:08,579
+By comparison, I want to
+contrast a difference equation
+
+293
+00:15:08,579 --> 00:15:09,370
+on a block diagram.
+
+294
+00:15:12,550 --> 00:15:16,840
+This is the same system but
+represented graphically.
+
+295
+00:15:16,840 --> 00:15:18,310
+Why would you want to do that?
+
+296
+00:15:18,310 --> 00:15:20,440
+Well there's advantages
+and disadvantages.
+
+297
+00:15:20,440 --> 00:15:23,950
+This is a direct way of
+expressing the system
+
+298
+00:15:23,950 --> 00:15:26,350
+if you wanted to
+implement it in hardware.
+
+299
+00:15:26,350 --> 00:15:30,580
+So you can imagine building a
+delay box, building an adder,
+
+300
+00:15:30,580 --> 00:15:34,620
+building an inverter,
+and constructing
+
+301
+00:15:34,620 --> 00:15:37,800
+a piece of hardware that
+does the computation.
+
+302
+00:15:37,800 --> 00:15:40,410
+So this is more like a
+hardware realization.
+
+303
+00:15:40,410 --> 00:15:45,420
+It's not as compact as
+the difference equation.
+
+304
+00:15:45,420 --> 00:15:48,630
+It has another idiosyncrasy
+that we have to have,
+
+305
+00:15:48,630 --> 00:15:52,000
+the notion of rest.
+
+306
+00:15:52,000 --> 00:15:54,550
+When we say the system
+starts at rest-- which
+
+307
+00:15:54,550 --> 00:15:56,840
+we will say all the
+time, and in fact,
+
+308
+00:15:56,840 --> 00:15:58,930
+you can always assume
+that unless we tell you
+
+309
+00:15:58,930 --> 00:16:02,060
+something to the contrary.
+
+310
+00:16:02,060 --> 00:16:04,280
+When we say a system is
+at rest, what we mean
+
+311
+00:16:04,280 --> 00:16:09,320
+is that all of the delays in
+the system start out being 0.
+
+312
+00:16:09,320 --> 00:16:13,220
+So at rest means that this
+signal starts out at 0,
+
+313
+00:16:13,220 --> 00:16:14,720
+because that's the only--
+
+314
+00:16:14,720 --> 00:16:16,395
+there's only one
+delay in the system.
+
+315
+00:16:19,020 --> 00:16:21,240
+Its output is initially 0.
+
+316
+00:16:21,240 --> 00:16:23,550
+So now we think about
+the input chugging along.
+
+317
+00:16:23,550 --> 00:16:25,860
+So the input starts out being 1.
+
+318
+00:16:25,860 --> 00:16:27,990
+That means the inverted
+input is minus 1.
+
+319
+00:16:27,990 --> 00:16:30,054
+That doesn't propagate
+through the delay,
+
+320
+00:16:30,054 --> 00:16:31,470
+because we're still
+at the instant
+
+321
+00:16:31,470 --> 00:16:35,970
+when the input just became
+one for the first time.
+
+322
+00:16:35,970 --> 00:16:39,690
+So this one goes through, and
+adds to this 0 to give us 1,
+
+323
+00:16:39,690 --> 00:16:40,570
+and our answer is 1.
+
+324
+00:16:43,300 --> 00:16:47,760
+Now the clock goes kachunk,
+and at that instant,
+
+325
+00:16:47,760 --> 00:16:50,790
+the input changes from
+1 to 0, because that's
+
+326
+00:16:50,790 --> 00:16:53,310
+what happens here.
+
+327
+00:16:53,310 --> 00:16:55,860
+And at precisely
+the same instant,
+
+328
+00:16:55,860 --> 00:16:58,920
+the delay signal went from 0--
+
+329
+00:16:58,920 --> 00:17:01,080
+which it was because
+it started at rest--
+
+330
+00:17:01,080 --> 00:17:05,940
+to minus 1 which was its
+input just before kachunk.
+
+331
+00:17:08,839 --> 00:17:12,710
+Then-- after the
+signal settle down--
+
+332
+00:17:12,710 --> 00:17:18,950
+this becomes 0, and this becomes
+minus 1, and that's our output.
+
+333
+00:17:18,950 --> 00:17:23,000
+Then, again, kachunk.
+
+334
+00:17:23,000 --> 00:17:24,920
+The input doesn't change,
+because it was zero.
+
+335
+00:17:24,920 --> 00:17:25,586
+It's still zero.
+
+336
+00:17:28,440 --> 00:17:31,750
+The output of the delay
+goes from minus 1 to 0,
+
+337
+00:17:31,750 --> 00:17:37,899
+and after things settle
+down, we get 0 at the output,
+
+338
+00:17:37,899 --> 00:17:39,315
+and that is a state
+that persists.
+
+339
+00:17:42,262 --> 00:17:44,220
+So we have these two
+different representations.
+
+340
+00:17:44,220 --> 00:17:46,800
+We have difference equations
+and block diagrams,
+
+341
+00:17:46,800 --> 00:17:47,890
+so here's a question.
+
+342
+00:17:47,890 --> 00:17:49,150
+How are they different?
+
+343
+00:17:52,492 --> 00:17:54,700
+In particular, I've told
+you the difference equations
+
+344
+00:17:54,700 --> 00:17:56,880
+are concise and precise.
+
+345
+00:18:00,370 --> 00:18:02,550
+Are there advantages
+to a block diagram?
+
+346
+00:18:05,324 --> 00:18:06,240
+Talk to your neighbor.
+
+347
+00:18:06,240 --> 00:18:10,390
+Come up with a good hypothesis.
+
+348
+00:18:10,390 --> 00:18:12,250
+What's good about a
+block diagram, anything?
+
+349
+00:18:48,184 --> 00:18:50,350
+So can anybody think of
+something good about a block
+
+350
+00:18:50,350 --> 00:18:53,250
+diagram?
+
+351
+00:18:53,250 --> 00:18:54,696
+Yeah?
+
+352
+00:18:54,696 --> 00:18:57,588
+AUDIENCE: It changes
+the [INAUDIBLE]
+
+353
+00:18:57,588 --> 00:18:59,516
+and it's easy to see
+what's happening.
+
+354
+00:18:59,516 --> 00:19:01,690
+PROFESSOR: So it's easy to see.
+
+355
+00:19:01,690 --> 00:19:05,420
+So that could be something to do
+with a graphic representation,
+
+356
+00:19:05,420 --> 00:19:06,560
+but it could be deeper too.
+
+357
+00:19:06,560 --> 00:19:09,332
+Can somebody say a deeper reason
+why it might be easier to see?
+
+358
+00:19:09,332 --> 00:19:11,040
+So that might be a
+very good-- that might
+
+359
+00:19:11,040 --> 00:19:13,140
+be a deep comment too.
+
+360
+00:19:13,140 --> 00:19:15,630
+Why might it be easier
+to use the block diagram
+
+361
+00:19:15,630 --> 00:19:17,421
+than it is to use that
+difference equation?
+
+362
+00:19:20,830 --> 00:19:21,357
+Yeah?
+
+363
+00:19:21,357 --> 00:19:24,160
+AUDIENCE: Because equations
+are broken down into steps?
+
+364
+00:19:24,160 --> 00:19:25,220
+PROFESSOR: How so?
+
+365
+00:19:25,220 --> 00:19:27,854
+AUDIENCE: So there's
+[INAUDIBLE] and then
+
+366
+00:19:27,854 --> 00:19:31,926
+there's the feedback [INAUDIBLE]
+difference equations are
+
+367
+00:19:31,926 --> 00:19:32,890
+[INAUDIBLE]
+
+368
+00:19:32,890 --> 00:19:34,610
+PROFESSOR: So that's
+kind of right.
+
+369
+00:19:34,610 --> 00:19:37,740
+I'm wondering if you
+could say, I mean,
+
+370
+00:19:37,740 --> 00:19:39,330
+you just do this, right?
+
+371
+00:19:39,330 --> 00:19:41,070
+You do this, and
+then you do that.
+
+372
+00:19:41,070 --> 00:19:42,390
+What's the difference?
+
+373
+00:19:44,421 --> 00:19:46,420
+There's something very
+different about these two
+
+374
+00:19:46,420 --> 00:19:47,710
+representations.
+
+375
+00:19:47,710 --> 00:19:49,900
+There is more
+information in the bottom
+
+376
+00:19:49,900 --> 00:19:52,520
+than there is in the top.
+
+377
+00:19:52,520 --> 00:19:54,020
+Can somebody tell
+me the information
+
+378
+00:19:54,020 --> 00:19:55,561
+that's available in
+the bottom that's
+
+379
+00:19:55,561 --> 00:19:56,870
+not available in the top?
+
+380
+00:19:56,870 --> 00:19:59,066
+Yes?
+
+381
+00:19:59,066 --> 00:20:00,533
+AUDIENCE: Actually
+solving circuits
+
+382
+00:20:00,533 --> 00:20:05,423
+it becomes a lot easier to
+use graphical representation.
+
+383
+00:20:05,423 --> 00:20:08,390
+PROFESSOR: Circuits,
+graphical, but is there
+
+384
+00:20:08,390 --> 00:20:12,460
+additional information here
+that wasn't available there?
+
+385
+00:20:12,460 --> 00:20:12,960
+Yes?
+
+386
+00:20:12,960 --> 00:20:15,142
+AUDIENCE: The number
+of signal paths?
+
+387
+00:20:15,142 --> 00:20:16,350
+PROFESSOR: Number of signal--
+
+388
+00:20:16,350 --> 00:20:17,160
+AUDIENCE: Paths
+
+389
+00:20:17,160 --> 00:20:17,868
+PROFESSOR: Paths.
+
+390
+00:20:17,868 --> 00:20:19,710
+Signal paths is a good idea.
+
+391
+00:20:19,710 --> 00:20:20,552
+Yes?
+
+392
+00:20:20,552 --> 00:20:23,444
+AUDIENCE: Is it that
+X and negative 1 is 0?
+
+393
+00:20:23,444 --> 00:20:26,830
+[INTERPOSING VOICES]
+
+394
+00:20:26,830 --> 00:20:30,940
+PROFESSOR: Well that sort of
+goes with specifying X, yes?
+
+395
+00:20:30,940 --> 00:20:32,920
+AUDIENCE: The structure
+is more emphasized,
+
+396
+00:20:32,920 --> 00:20:36,880
+so you can just look at
+it, and [INAUDIBLE] or not,
+
+397
+00:20:36,880 --> 00:20:41,350
+and it's more easy to
+see structure [INAUDIBLE]
+
+398
+00:20:41,350 --> 00:20:44,090
+PROFESSOR: It is easier, but
+there's a very precise reason
+
+399
+00:20:44,090 --> 00:20:44,770
+why it's easier.
+
+400
+00:20:44,770 --> 00:20:45,395
+There's arrows.
+
+401
+00:20:49,210 --> 00:20:53,090
+Arrows tell you what to do next.
+
+402
+00:20:53,090 --> 00:20:56,150
+So the thing that's
+different is that.
+
+403
+00:20:56,150 --> 00:21:00,249
+From the structure of the
+arrows, everything starts here,
+
+404
+00:21:00,249 --> 00:21:02,540
+and you should worry about
+what goes that way, and what
+
+405
+00:21:02,540 --> 00:21:04,250
+goes that way, and
+what goes that way,
+
+406
+00:21:04,250 --> 00:21:05,750
+and how that comes
+together there.
+
+407
+00:21:05,750 --> 00:21:08,540
+There's more information.
+
+408
+00:21:08,540 --> 00:21:11,960
+In computer science terms, we
+would say that the difference
+
+409
+00:21:11,960 --> 00:21:15,110
+equation is declarative.
+
+410
+00:21:15,110 --> 00:21:18,200
+It tells you a
+statement of fact,
+
+411
+00:21:18,200 --> 00:21:22,990
+not necessarily what
+you can do with it.
+
+412
+00:21:22,990 --> 00:21:26,240
+The block diagram is imperative.
+
+413
+00:21:26,240 --> 00:21:29,480
+It tells you how
+to do something,
+
+414
+00:21:29,480 --> 00:21:31,500
+and those are very different.
+
+415
+00:21:31,500 --> 00:21:35,900
+So the difference equation
+is concise, precise,
+
+416
+00:21:35,900 --> 00:21:38,270
+and declarative.
+
+417
+00:21:38,270 --> 00:21:40,760
+The block diagram is imperative.
+
+418
+00:21:40,760 --> 00:21:43,190
+Do this, do this, do this.
+
+419
+00:21:43,190 --> 00:21:45,140
+It shows you the
+signal flow path.
+
+420
+00:21:45,140 --> 00:21:49,310
+There's no question
+about who causes what.
+
+421
+00:21:49,310 --> 00:21:54,230
+In this, we could be computing
+X from Y or Y from X.
+
+422
+00:21:54,230 --> 00:21:57,620
+There's no indication other than
+some convention-- some place--
+
+423
+00:21:57,620 --> 00:21:59,480
+that the x is the input.
+
+424
+00:21:59,480 --> 00:22:02,270
+That make sense?
+
+425
+00:22:02,270 --> 00:22:05,110
+So there's a very
+big difference.
+
+426
+00:22:05,110 --> 00:22:07,740
+There's another step
+we want to take.
+
+427
+00:22:07,740 --> 00:22:10,070
+So imperative and
+declarative is one step.
+
+428
+00:22:10,070 --> 00:22:13,630
+Another step is lumping
+things in the same sense
+
+429
+00:22:13,630 --> 00:22:17,590
+that we lump the coordinates
+of a three space point
+
+430
+00:22:17,590 --> 00:22:20,770
+into a single thing called
+a point, or in the same way
+
+431
+00:22:20,770 --> 00:22:23,560
+we make a vector
+in linear algebra.
+
+432
+00:22:23,560 --> 00:22:25,270
+The idea is going
+to be that we're
+
+433
+00:22:25,270 --> 00:22:28,090
+going to want to think about
+whole signals at a time.
+
+434
+00:22:33,320 --> 00:22:37,150
+In the notation that we will
+use, we will think about--
+
+435
+00:22:37,150 --> 00:22:42,360
+this will be the X signal,
+this will be the Y signal,
+
+436
+00:22:42,360 --> 00:22:45,690
+and we can re-interpret
+the block diagram
+
+437
+00:22:45,690 --> 00:22:51,090
+to be operations on signals
+rather than operations
+
+438
+00:22:51,090 --> 00:22:54,030
+on samples.
+
+439
+00:22:54,030 --> 00:22:58,320
+So I'm trying to develop a
+level of abstraction that
+
+440
+00:22:58,320 --> 00:23:02,160
+helps us predict the
+way systems will behave,
+
+441
+00:23:02,160 --> 00:23:05,100
+so the next level of abstraction
+I want to think about
+
+442
+00:23:05,100 --> 00:23:08,770
+is thinking about
+whole signals at once.
+
+443
+00:23:08,770 --> 00:23:11,580
+So if we take this
+signal idea, we
+
+444
+00:23:11,580 --> 00:23:13,050
+would say there's an X signal.
+
+445
+00:23:13,050 --> 00:23:14,730
+It gets operated
+by this inverter
+
+446
+00:23:14,730 --> 00:23:19,070
+to give an inverted
+signal, then this signal
+
+447
+00:23:19,070 --> 00:23:24,097
+goes through a delay box to give
+us a delayed inverted signal.
+
+448
+00:23:24,097 --> 00:23:26,680
+The delayed inverted signal gets
+added to the original signal,
+
+449
+00:23:26,680 --> 00:23:28,138
+and that gives us
+an output signal.
+
+450
+00:23:28,138 --> 00:23:32,250
+So we think about the
+nodes being whole signals,
+
+451
+00:23:32,250 --> 00:23:36,240
+and the boxes being operators
+on signals, not samples.
+
+452
+00:23:36,240 --> 00:23:39,480
+That's a huge
+difference, and to make
+
+453
+00:23:39,480 --> 00:23:42,960
+sure to be explicit about
+that we'll develop a notation.
+
+454
+00:23:42,960 --> 00:23:45,390
+We will say there's
+an operator R--
+
+455
+00:23:45,390 --> 00:23:48,090
+the right shift operator--
+
+456
+00:23:48,090 --> 00:23:50,940
+that operates on signals.
+
+457
+00:23:50,940 --> 00:23:55,500
+So we'll think about if X is the
+whole input signal, not the nth
+
+458
+00:23:55,500 --> 00:23:58,720
+sample, the whole thing.
+
+459
+00:23:58,720 --> 00:24:02,800
+If X is a signal, we can
+operate on it by the R operator.
+
+460
+00:24:02,800 --> 00:24:07,000
+We can apply R-- the right shift
+operator-- to the signal X,
+
+461
+00:24:07,000 --> 00:24:08,560
+and generate a whole
+new signal which
+
+462
+00:24:08,560 --> 00:24:13,060
+I'll call Y which will be
+a shifted version of the X
+
+463
+00:24:13,060 --> 00:24:14,350
+signal.
+
+464
+00:24:14,350 --> 00:24:17,080
+OK, you all got that?
+
+465
+00:24:17,080 --> 00:24:20,380
+And that leads us then to
+a concise representation
+
+466
+00:24:20,380 --> 00:24:24,460
+similar to the
+difference equation,
+
+467
+00:24:24,460 --> 00:24:28,360
+but that has the features
+of the block diagram.
+
+468
+00:24:28,360 --> 00:24:32,750
+Because it's imperative,
+R operating on X
+
+469
+00:24:32,750 --> 00:24:35,880
+tells me start with
+X and apply R to it.
+
+470
+00:24:35,880 --> 00:24:37,750
+There's a direction.
+
+471
+00:24:37,750 --> 00:24:40,300
+R applied to X is imperative.
+
+472
+00:24:40,300 --> 00:24:42,740
+It tells me what to do.
+
+473
+00:24:42,740 --> 00:24:48,310
+So this is a way that I
+can make a notation that
+
+474
+00:24:48,310 --> 00:24:51,640
+is as concise as
+difference equations,
+
+475
+00:24:51,640 --> 00:24:57,430
+but has the same imperative
+feature as a block diagram.
+
+476
+00:24:57,430 --> 00:25:01,240
+So it's an improved
+notation in that sense.
+
+477
+00:25:01,240 --> 00:25:03,040
+Make sure that you
+know what it means.
+
+478
+00:25:03,040 --> 00:25:05,950
+If I said that Y is RX, how
+many of the following is true?
+
+479
+00:25:09,360 --> 00:25:10,770
+Now you have to redeem yourself.
+
+480
+00:25:10,770 --> 00:25:14,940
+You were less than 50% right,
+so now I want 90% right.
+
+481
+00:25:25,630 --> 00:25:27,150
+Oh, excuse me, not
+how many, which?
+
+482
+00:25:48,210 --> 00:25:51,520
+OK, everybody raise
+your hands, c'mon.
+
+483
+00:25:51,520 --> 00:25:52,790
+This is redemption time.
+
+484
+00:25:52,790 --> 00:25:54,170
+Wonderful, you're redeemed.
+
+485
+00:25:54,170 --> 00:25:57,080
+So you're about 100% correct.
+
+486
+00:25:57,080 --> 00:25:58,970
+So to think about that.
+
+487
+00:25:58,970 --> 00:26:01,709
+One easy way to think
+about it is by example.
+
+488
+00:26:01,709 --> 00:26:03,500
+Examples can't prove
+that something's true,
+
+489
+00:26:03,500 --> 00:26:06,344
+but they can quickly prove
+that something's false.
+
+490
+00:26:06,344 --> 00:26:08,510
+So if you think about the
+simplest possible signal--
+
+491
+00:26:08,510 --> 00:26:10,850
+say you had a unit sample.
+
+492
+00:26:10,850 --> 00:26:13,370
+If you applied R to that, it
+would shift it to the right.
+
+493
+00:26:15,890 --> 00:26:18,200
+If it shifts it to the
+right, it's pretty clear
+
+494
+00:26:18,200 --> 00:26:25,670
+that Y at time 1 is the
+same as X at time 0,
+
+495
+00:26:25,670 --> 00:26:30,100
+and that's a feature
+of this equation
+
+496
+00:26:30,100 --> 00:26:33,050
+and none of the others.
+
+497
+00:26:33,050 --> 00:26:35,175
+So that proves the
+others are wrong,
+
+498
+00:26:35,175 --> 00:26:36,800
+and if you think
+about it a little bit,
+
+499
+00:26:36,800 --> 00:26:38,508
+you can generalize
+that argument to prove
+
+500
+00:26:38,508 --> 00:26:42,240
+that the second one is actually
+true for all the cases.
+
+501
+00:26:45,700 --> 00:26:47,650
+So the idea then is
+that we want to think
+
+502
+00:26:47,650 --> 00:26:51,669
+about this hybrid notation,
+this operator notation,
+
+503
+00:26:51,669 --> 00:26:53,460
+and we want to think
+about how to represent
+
+504
+00:26:53,460 --> 00:26:55,240
+simple systems that way.
+
+505
+00:26:55,240 --> 00:26:56,460
+So here's an example.
+
+506
+00:26:56,460 --> 00:26:59,640
+Say I have this system.
+
+507
+00:26:59,640 --> 00:27:02,880
+I can think about that as
+the cascade of a system that
+
+508
+00:27:02,880 --> 00:27:08,400
+starts with X, X as a
+signal, and this whole thing
+
+509
+00:27:08,400 --> 00:27:12,170
+gets turned into an operator.
+
+510
+00:27:12,170 --> 00:27:16,040
+That operator can be
+written mathematically as 1.
+
+511
+00:27:16,040 --> 00:27:20,750
+This path added to
+minus 1 times a delay
+
+512
+00:27:20,750 --> 00:27:23,930
+minus 1 times a delay, so
+one minus R operating on X
+
+513
+00:27:23,930 --> 00:27:26,860
+gives me Y1.
+
+514
+00:27:26,860 --> 00:27:34,100
+Then a very similar system
+operates on Y1 to give me Y2
+
+515
+00:27:34,100 --> 00:27:37,510
+and if the rules
+of math apply, I
+
+516
+00:27:37,510 --> 00:27:43,880
+ought to be able to
+substitute 1 minus RX for Y1
+
+517
+00:27:43,880 --> 00:27:47,650
+and get that expression.
+
+518
+00:27:47,650 --> 00:27:51,910
+And if the world
+were nice and it is.
+
+519
+00:27:51,910 --> 00:27:54,790
+If the world were nice,
+then this expression,
+
+520
+00:27:54,790 --> 00:27:58,100
+since it looks like
+a polynomial in R,
+
+521
+00:27:58,100 --> 00:28:01,056
+might behave like
+a polynomial in R,
+
+522
+00:28:01,056 --> 00:28:03,680
+and it's pretty easy to convince
+yourself that that's, in fact,
+
+523
+00:28:03,680 --> 00:28:06,160
+true.
+
+524
+00:28:06,160 --> 00:28:09,820
+So think about the
+primitive definition.
+
+525
+00:28:09,820 --> 00:28:16,402
+Sample by sample, difference
+equation, what should this do?
+
+526
+00:28:16,402 --> 00:28:18,110
+Well, there's a
+difference representation
+
+527
+00:28:18,110 --> 00:28:20,342
+for this, which is here.
+
+528
+00:28:20,342 --> 00:28:21,800
+There's a difference
+representation
+
+529
+00:28:21,800 --> 00:28:26,520
+for this, which I
+can substitute twice
+
+530
+00:28:26,520 --> 00:28:28,650
+so I can generate an
+equivalent difference
+
+531
+00:28:28,650 --> 00:28:35,330
+equation for the whole
+thing, and then I
+
+532
+00:28:35,330 --> 00:28:38,000
+can think about term wise
+translating all of those
+
+533
+00:28:38,000 --> 00:28:40,580
+into R expressions.
+
+534
+00:28:40,580 --> 00:28:43,570
+And I see that I
+have proved the idea
+
+535
+00:28:43,570 --> 00:28:48,480
+that this particular
+system at least
+
+536
+00:28:48,480 --> 00:28:53,150
+behaves as though the
+operator expressions follow
+
+537
+00:28:53,150 --> 00:28:54,500
+the rules of polynomials.
+
+538
+00:28:57,090 --> 00:29:01,080
+So that's important
+because you know
+
+539
+00:29:01,080 --> 00:29:04,100
+how to deal with polynomials.
+
+540
+00:29:04,100 --> 00:29:07,970
+If there's an isomorphism
+between these kinds
+
+541
+00:29:07,970 --> 00:29:12,164
+of discrete time
+signals and polynomials,
+
+542
+00:29:12,164 --> 00:29:13,580
+the fact that you
+know how to deal
+
+543
+00:29:13,580 --> 00:29:17,030
+with polynomials
+translates into you
+
+544
+00:29:17,030 --> 00:29:21,120
+already know how to
+do systems, right?
+
+545
+00:29:21,120 --> 00:29:23,670
+So it's a very
+powerful kind of thing
+
+546
+00:29:23,670 --> 00:29:26,859
+to draw an isomorphism
+between two systems,
+
+547
+00:29:26,859 --> 00:29:29,150
+especially when you already
+know how to do one of them.
+
+548
+00:29:33,602 --> 00:29:35,560
+So let's think about
+equivalence a little more.
+
+549
+00:29:35,560 --> 00:29:38,180
+Here's another example.
+
+550
+00:29:38,180 --> 00:29:41,080
+So here is that
+same system that's
+
+551
+00:29:41,080 --> 00:29:46,170
+composed of two cascaded
+difference engines,
+
+552
+00:29:46,170 --> 00:29:48,585
+and the hypothesis is
+that this is the same.
+
+553
+00:29:53,230 --> 00:29:54,450
+Two things I want you to see.
+
+554
+00:29:54,450 --> 00:29:57,250
+First, it should be
+pretty clear that you
+
+555
+00:29:57,250 --> 00:29:59,410
+can see how you would
+derive that thinking
+
+556
+00:29:59,410 --> 00:30:04,660
+about the system as
+operators R. You should also
+
+557
+00:30:04,660 --> 00:30:07,630
+be able to derive the
+equivalence by thinking
+
+558
+00:30:07,630 --> 00:30:12,510
+about the individual blocks
+as difference equations,
+
+559
+00:30:12,510 --> 00:30:17,440
+but more importantly, I'm hoping
+that you can see a caveat.
+
+560
+00:30:17,440 --> 00:30:19,689
+Assuming both are
+initially at rest--
+
+561
+00:30:19,689 --> 00:30:21,730
+that will come up over
+and over and over and over
+
+562
+00:30:21,730 --> 00:30:25,980
+again for exactly this reason--
+
+563
+00:30:25,980 --> 00:30:30,250
+the equivalence is only true
+if they started that rest.
+
+564
+00:30:30,250 --> 00:30:33,050
+That's not quite the
+right way to say it.
+
+565
+00:30:33,050 --> 00:30:36,140
+The equivalence is always
+true if they start at rest.
+
+566
+00:30:36,140 --> 00:30:39,060
+That is precisely right.
+
+567
+00:30:39,060 --> 00:30:41,880
+If they start at rest it
+will always be equivalent.
+
+568
+00:30:41,880 --> 00:30:44,070
+Can you think of why
+they have to be at rest?
+
+569
+00:30:49,230 --> 00:30:50,790
+Why do they have to be at rest?
+
+570
+00:30:59,990 --> 00:31:02,670
+OK, smile.
+
+571
+00:31:02,670 --> 00:31:04,350
+It's not torture.
+
+572
+00:31:04,350 --> 00:31:05,124
+Yes?
+
+573
+00:31:05,124 --> 00:31:10,932
+AUDIENCE: [INAUDIBLE]
+
+574
+00:31:10,932 --> 00:31:15,260
+PROFESSOR: So if they weren't at
+rest, the outputs of the delays
+
+575
+00:31:15,260 --> 00:31:16,640
+wouldn't necessarily be zero.
+
+576
+00:31:20,090 --> 00:31:22,100
+There is no simple
+correspondence
+
+577
+00:31:22,100 --> 00:31:24,155
+between these two delays
+and those two delays.
+
+578
+00:31:26,960 --> 00:31:30,260
+If I told you what
+are these two delays,
+
+579
+00:31:30,260 --> 00:31:34,970
+it may or may not be possible to
+make an equivalent system where
+
+580
+00:31:34,970 --> 00:31:39,110
+there are two
+different numbers here.
+
+581
+00:31:39,110 --> 00:31:42,860
+Say this delay starts at 1,
+and this delay starts at 7.
+
+582
+00:31:42,860 --> 00:31:46,310
+There may or may not
+be a set of numbers
+
+583
+00:31:46,310 --> 00:31:48,800
+for the bottom
+delays that will have
+
+584
+00:31:48,800 --> 00:31:56,030
+the same behavior as those
+numbers did in a top system.
+
+585
+00:31:56,030 --> 00:31:58,610
+But what is guaranteed is
+if they all start at 0,
+
+586
+00:31:58,610 --> 00:32:00,850
+everything's fine.
+
+587
+00:32:00,850 --> 00:32:03,220
+That's the reason
+we put in the caveat
+
+588
+00:32:03,220 --> 00:32:05,820
+initially that both
+systems start at rest.
+
+589
+00:32:05,820 --> 00:32:08,350
+The equivalence
+that we talk about
+
+590
+00:32:08,350 --> 00:32:10,180
+is equivalence
+starting from rest.
+
+591
+00:32:13,930 --> 00:32:20,530
+So think about these systems.
+
+592
+00:32:20,530 --> 00:32:23,594
+They are equivalent.
+
+593
+00:32:23,594 --> 00:32:25,260
+You can try to convince
+yourself they're
+
+594
+00:32:25,260 --> 00:32:32,100
+equivalent by thinking about
+operations on block diagrams,
+
+595
+00:32:32,100 --> 00:32:34,380
+but what I'd like you
+to think about is,
+
+596
+00:32:34,380 --> 00:32:40,060
+they are a statement of what
+property of polynomials?
+
+597
+00:32:40,060 --> 00:32:41,860
+The equivalence of
+those two systems
+
+598
+00:32:41,860 --> 00:32:47,000
+is a statement about what
+property of polynomials?
+
+599
+00:32:47,000 --> 00:32:49,400
+Is it the commutative property,
+the associative property,
+
+600
+00:32:49,400 --> 00:32:52,040
+the distributive property, the
+transitive property, or none
+
+601
+00:32:52,040 --> 00:32:52,950
+of the above?
+
+602
+00:33:10,870 --> 00:33:12,050
+OK, you're far too quiet.
+
+603
+00:33:14,630 --> 00:33:16,170
+Take a break.
+
+604
+00:33:16,170 --> 00:33:18,110
+Turn to your neighbor.
+
+605
+00:33:18,110 --> 00:33:21,500
+Tell your neighbor what
+living group you're in.
+
+606
+00:33:21,500 --> 00:33:24,320
+Become accustomed to
+talking to your neighbor,
+
+607
+00:33:24,320 --> 00:33:26,608
+and then figure this out.
+
+608
+00:33:26,608 --> 00:34:18,100
+[INTERPOSING VOICES]
+
+609
+00:34:18,100 --> 00:34:21,121
+PROFESSOR: a equals
+b means b equals a.
+
+610
+00:34:21,121 --> 00:34:24,940
+AUDIENCE: [INAUDIBLE]
+
+611
+00:34:24,940 --> 00:34:25,630
+PROFESSOR: Or 5.
+
+612
+00:34:25,630 --> 00:34:35,760
+AUDIENCE: [INAUDIBLE]
+
+613
+00:34:35,760 --> 00:34:39,029
+PROFESSOR: OK, what property
+is being described here.
+
+614
+00:34:39,029 --> 00:34:40,820
+Everybody raise your
+hand with some number.
+
+615
+00:34:44,110 --> 00:34:45,520
+Excellent, excellent.
+
+616
+00:34:45,520 --> 00:34:47,290
+More than 90% correct.
+
+617
+00:34:47,290 --> 00:34:52,850
+So the idea is that we write
+this as an R expression.
+
+618
+00:34:52,850 --> 00:34:55,719
+So this system
+says, start with X,
+
+619
+00:34:55,719 --> 00:34:59,080
+apply this operator to X. It's
+a little confusing that one
+
+620
+00:34:59,080 --> 00:35:01,000
+goes left and one goes right.
+
+621
+00:35:01,000 --> 00:35:03,090
+So start with X,
+apply this to X--
+
+622
+00:35:03,090 --> 00:35:06,610
+that's the 1 minus R operator--
+then take whatever comes out,
+
+623
+00:35:06,610 --> 00:35:09,850
+and apply R again.
+
+624
+00:35:09,850 --> 00:35:14,330
+Similarly, down
+here, start with X.
+
+625
+00:35:14,330 --> 00:35:18,310
+You've got the sum of two
+things, an R in the top,
+
+626
+00:35:18,310 --> 00:35:21,140
+and an R squared
+minus 1 in the bottom,
+
+627
+00:35:21,140 --> 00:35:24,410
+and the equivalence of those
+is the distributive principle.
+
+628
+00:35:24,410 --> 00:35:28,770
+R distributes so
+multiplication over addition.
+
+629
+00:35:33,520 --> 00:35:35,850
+OK, in the interest of
+time, let me skip that.
+
+630
+00:35:35,850 --> 00:35:39,000
+That's an exercise that you
+can work on on your own.
+
+631
+00:35:39,000 --> 00:35:41,930
+It's very straightforward.
+
+632
+00:35:41,930 --> 00:35:46,440
+What I want to do is talk about
+another more slightly deeper
+
+633
+00:35:46,440 --> 00:35:53,670
+issue, and that's the difference
+between recipes and constraints
+
+634
+00:35:53,670 --> 00:35:55,005
+for whole block diagrams.
+
+635
+00:35:57,600 --> 00:36:03,180
+So we can think about this
+as a recipe in the sense
+
+636
+00:36:03,180 --> 00:36:07,110
+that we can take
+the R operators,
+
+637
+00:36:07,110 --> 00:36:11,680
+and think about signals as the
+composition of other signals.
+
+638
+00:36:11,680 --> 00:36:17,250
+So this says, add this
+signal to that signal.
+
+639
+00:36:17,250 --> 00:36:19,630
+This signal is just the
+delay of that signal.
+
+640
+00:36:19,630 --> 00:36:22,230
+This signal is just the
+minus 1 of that signal.
+
+641
+00:36:22,230 --> 00:36:26,400
+So you can think about,
+there's a recipe start with X,
+
+642
+00:36:26,400 --> 00:36:32,030
+invert it, delay it, add
+it to the original, that's
+
+643
+00:36:32,030 --> 00:36:33,810
+the output.
+
+644
+00:36:33,810 --> 00:36:35,620
+Let's contrast that to this.
+
+645
+00:36:35,620 --> 00:36:36,435
+This is harder.
+
+646
+00:36:39,850 --> 00:36:42,800
+So let's think about
+the R operators.
+
+647
+00:36:42,800 --> 00:36:45,750
+What we can say here
+is that this output
+
+648
+00:36:45,750 --> 00:36:49,770
+is composed of the sum
+of two things, the input
+
+649
+00:36:49,770 --> 00:36:51,395
+and the delayed
+version of the output.
+
+650
+00:36:56,020 --> 00:36:59,165
+That's a recipe for finding
+the input from the output.
+
+651
+00:37:01,960 --> 00:37:05,380
+That's not what we want to do.
+
+652
+00:37:05,380 --> 00:37:11,620
+So there's a recipe here that
+says, start with the output,
+
+653
+00:37:11,620 --> 00:37:14,650
+shift it to the right, subtract
+that from the original,
+
+654
+00:37:14,650 --> 00:37:16,030
+and that will tell
+you the input.
+
+655
+00:37:16,030 --> 00:37:22,030
+But I don't know the
+output, I know the input.
+
+656
+00:37:22,030 --> 00:37:24,284
+What that says is if
+you knew the output,
+
+657
+00:37:24,284 --> 00:37:25,450
+it would have this property.
+
+658
+00:37:25,450 --> 00:37:26,410
+It's declarative.
+
+659
+00:37:29,840 --> 00:37:34,480
+Whatever the output is, it
+has to have that property
+
+660
+00:37:34,480 --> 00:37:38,290
+but it didn't tell
+me how to get it.
+
+661
+00:37:38,290 --> 00:37:41,990
+The R operator is imperative.
+
+662
+00:37:41,990 --> 00:37:46,270
+Start with the input, apply
+R to it, you get the output.
+
+663
+00:37:46,270 --> 00:37:52,080
+But you can compose systems
+using an imperative operator
+
+664
+00:37:52,080 --> 00:37:57,482
+that is not-- where the overall
+system is not imperative,
+
+665
+00:37:57,482 --> 00:37:59,690
+so what are you going to do
+with something like that?
+
+666
+00:37:59,690 --> 00:38:02,060
+Well it's a constraint,
+so the question
+
+667
+00:38:02,060 --> 00:38:05,180
+is how do you think about that?
+
+668
+00:38:05,180 --> 00:38:09,830
+The thing to do in this case
+is the thing you should always
+
+669
+00:38:09,830 --> 00:38:11,060
+do in this course.
+
+670
+00:38:11,060 --> 00:38:12,710
+Fall back to a simpler method.
+
+671
+00:38:15,207 --> 00:38:17,040
+The idea is we're going
+to start by teaching
+
+672
+00:38:17,040 --> 00:38:20,460
+simple methods, then more
+abstract methods and more
+
+673
+00:38:20,460 --> 00:38:21,434
+abstract methods.
+
+674
+00:38:21,434 --> 00:38:23,850
+The reason being that as the
+methods become more abstract,
+
+675
+00:38:23,850 --> 00:38:24,933
+they become more powerful.
+
+676
+00:38:24,933 --> 00:38:28,770
+You can do things
+quicker, but if they fail,
+
+677
+00:38:28,770 --> 00:38:31,090
+revert to the easier method.
+
+678
+00:38:31,090 --> 00:38:34,890
+So here the easier method
+is sample by sample,
+
+679
+00:38:34,890 --> 00:38:37,140
+so let's just think
+about how signals would
+
+680
+00:38:37,140 --> 00:38:40,120
+propagate through this system.
+
+681
+00:38:40,120 --> 00:38:46,580
+So think about this as a sample
+by sample block diagram system.
+
+682
+00:38:46,580 --> 00:38:49,890
+Say that it starts at rest.
+
+683
+00:38:49,890 --> 00:38:52,250
+So the output before
+any inputs come in
+
+684
+00:38:52,250 --> 00:38:54,530
+have to be 0, because
+the initial condition was
+
+685
+00:38:54,530 --> 00:38:58,040
+that delays were all 0.
+
+686
+00:38:58,040 --> 00:39:02,050
+Now the input
+comes in at time 1.
+
+687
+00:39:02,050 --> 00:39:07,640
+So X of 0 is 1, so the
+output becomes one.
+
+688
+00:39:07,640 --> 00:39:12,210
+And now because of the way
+the feedback path works,
+
+689
+00:39:12,210 --> 00:39:14,370
+the output as a
+second signal is--
+
+690
+00:39:14,370 --> 00:39:16,090
+the second sample is also one.
+
+691
+00:39:18,720 --> 00:39:21,190
+Everybody see that?
+
+692
+00:39:21,190 --> 00:39:22,340
+And in fact, it's stuck.
+
+693
+00:39:25,280 --> 00:39:28,740
+So the idea in this system--
+if you think about it
+
+694
+00:39:28,740 --> 00:39:33,810
+from a sample by sample point of
+view, the signal at the output
+
+695
+00:39:33,810 --> 00:39:35,680
+persists long.
+
+696
+00:39:35,680 --> 00:39:38,670
+In fact, infinitely long
+after the signal as the input
+
+697
+00:39:38,670 --> 00:39:39,910
+goes away.
+
+698
+00:39:39,910 --> 00:39:43,110
+That's very different from
+what we saw in the simpler
+
+699
+00:39:43,110 --> 00:39:47,010
+systems that were imperative.
+
+700
+00:39:47,010 --> 00:39:49,380
+If in the previous system
+you had a finite length
+
+701
+00:39:49,380 --> 00:39:53,240
+signal at the input,
+any number of operations
+
+702
+00:39:53,240 --> 00:39:55,670
+that you did to it and
+then combined those
+
+703
+00:39:55,670 --> 00:39:57,380
+would give you a
+finite length output.
+
+704
+00:39:57,380 --> 00:39:59,240
+Maybe bigger than
+the last one because
+
+705
+00:39:59,240 --> 00:40:02,510
+of extra delays in the system,
+but if it started finite,
+
+706
+00:40:02,510 --> 00:40:04,940
+it's finite.
+
+707
+00:40:04,940 --> 00:40:06,130
+This is different here.
+
+708
+00:40:06,130 --> 00:40:09,400
+I'm having a persisting
+response persists
+
+709
+00:40:09,400 --> 00:40:14,900
+to infinity from a transient
+input and that's because--
+
+710
+00:40:14,900 --> 00:40:16,570
+it's because of feedback.
+
+711
+00:40:16,570 --> 00:40:19,880
+It's because there's a path
+that wraps back on itself.
+
+712
+00:40:22,950 --> 00:40:25,950
+How do we think about that
+in terms of R operators?
+
+713
+00:40:25,950 --> 00:40:28,680
+Well having figured out what
+the response looks like,
+
+714
+00:40:28,680 --> 00:40:34,050
+there's a perfectly valid R
+expression for this signal.
+
+715
+00:40:34,050 --> 00:40:39,210
+This is just the unit sample
+plus R times the unit sample
+
+716
+00:40:39,210 --> 00:40:41,700
+plus R squared times the
+unit sample plus R cubed
+
+717
+00:40:41,700 --> 00:40:44,370
+times the unit
+sample, ad infinitum.
+
+718
+00:40:44,370 --> 00:40:46,930
+That's that system.
+
+719
+00:40:46,930 --> 00:40:50,870
+So I've done something very
+powerful and not all that
+
+720
+00:40:50,870 --> 00:40:51,890
+obvious.
+
+721
+00:40:51,890 --> 00:40:59,030
+I've taken a system
+that was not imperative,
+
+722
+00:40:59,030 --> 00:41:01,628
+and I've turned it into a
+system that is imperative.
+
+723
+00:41:04,440 --> 00:41:07,360
+This system gives me a
+recipe for how to do things.
+
+724
+00:41:07,360 --> 00:41:09,525
+Start with X, delay
+it by one, and add
+
+725
+00:41:09,525 --> 00:41:11,920
+it delay by another one, and
+add it delay by another one,
+
+726
+00:41:11,920 --> 00:41:14,400
+and add it delay it by
+another one, and add it.
+
+727
+00:41:14,400 --> 00:41:18,660
+I've converted a
+declarative statement
+
+728
+00:41:18,660 --> 00:41:22,230
+about how the system should work
+into an imperative statement
+
+729
+00:41:22,230 --> 00:41:24,390
+about how the
+system should work,
+
+730
+00:41:24,390 --> 00:41:26,760
+and I've got an equivalent
+system representation
+
+731
+00:41:26,760 --> 00:41:28,020
+like this.
+
+732
+00:41:28,020 --> 00:41:32,400
+And you should be saying to
+yourself, do I really buy that?
+
+733
+00:41:32,400 --> 00:41:34,770
+So is it really
+going to be the case
+
+734
+00:41:34,770 --> 00:41:40,590
+that a system that was
+previously described this way?
+
+735
+00:41:40,590 --> 00:41:44,280
+Tell me the output operate
+on it by 1 minus R,
+
+736
+00:41:44,280 --> 00:41:45,990
+and that'll be the
+input should that
+
+737
+00:41:45,990 --> 00:41:49,640
+be the same as this system.
+
+738
+00:41:49,640 --> 00:41:54,710
+If you think about that
+mathematically, here's a proof.
+
+739
+00:41:54,710 --> 00:41:57,290
+It is OK to think
+about it that way.
+
+740
+00:41:57,290 --> 00:41:59,955
+Start with the idea
+that X2 equals X1.
+
+741
+00:42:02,940 --> 00:42:06,450
+This is a statement of
+the right hand side.
+
+742
+00:42:06,450 --> 00:42:07,930
+Substitute X1 for X2.
+
+743
+00:42:10,830 --> 00:42:15,620
+Substitute this equivalent
+expression for X1,
+
+744
+00:42:15,620 --> 00:42:16,797
+and multiply it out.
+
+745
+00:42:19,600 --> 00:42:22,420
+When you do that, you
+find Y2 equals Y1.
+
+746
+00:42:22,420 --> 00:42:26,440
+It's true, and
+what we've done is
+
+747
+00:42:26,440 --> 00:42:28,690
+showed a very important thing.
+
+748
+00:42:28,690 --> 00:42:31,690
+This and this are reciprocals.
+
+749
+00:42:31,690 --> 00:42:33,710
+When you multiply two
+polynomials together
+
+750
+00:42:33,710 --> 00:42:39,350
+and the answer is one,
+they're reciprocals.
+
+751
+00:42:39,350 --> 00:42:43,130
+So that implies that we can
+treat that first expression--
+
+752
+00:42:43,130 --> 00:42:44,930
+we can think about this--
+
+753
+00:42:44,930 --> 00:42:46,320
+let's see, backup.
+
+754
+00:42:46,320 --> 00:42:48,680
+So here, we had an
+expression that said,
+
+755
+00:42:48,680 --> 00:42:54,690
+start with the output, operate
+on it with this, get the input.
+
+756
+00:42:54,690 --> 00:43:02,630
+We can think about that
+instead as operate on the input
+
+757
+00:43:02,630 --> 00:43:06,540
+by the reciprocal operator.
+
+758
+00:43:06,540 --> 00:43:09,780
+Now I've defined what
+this reciprocal mean.
+
+759
+00:43:12,530 --> 00:43:15,870
+Reciprocal means that
+thing in the last slide,
+
+760
+00:43:15,870 --> 00:43:19,230
+so now I know from
+the last slide
+
+761
+00:43:19,230 --> 00:43:22,790
+the reciprocal of 1 minus R
+is 1 plus R plus R squared
+
+762
+00:43:22,790 --> 00:43:25,550
+plus R cubed, blah,
+blah, blah, and that
+
+763
+00:43:25,550 --> 00:43:27,710
+follows the normal
+rules of polynomials.
+
+764
+00:43:27,710 --> 00:43:29,180
+This is not a surprise.
+
+765
+00:43:29,180 --> 00:43:30,290
+You could have done that.
+
+766
+00:43:30,290 --> 00:43:32,081
+You could have derived
+that same expression
+
+767
+00:43:32,081 --> 00:43:35,830
+by thinking about
+synthetic division.
+
+768
+00:43:35,830 --> 00:43:38,890
+You could have thought
+about it as a Taylor series.
+
+769
+00:43:38,890 --> 00:43:43,730
+Anything you know about
+polynomials should have worked.
+
+770
+00:43:43,730 --> 00:43:48,110
+So this idea of representing
+a signal by a system--
+
+771
+00:43:48,110 --> 00:43:50,650
+by an operator R--
+
+772
+00:43:50,650 --> 00:43:53,300
+is extraordinarily powerful.
+
+773
+00:43:53,300 --> 00:43:54,890
+We've been able
+to take advantage
+
+774
+00:43:54,890 --> 00:43:59,180
+of non-trivial
+properties of polynomials
+
+775
+00:43:59,180 --> 00:44:02,720
+by having done that, and
+we'll continue that way.
+
+776
+00:44:02,720 --> 00:44:11,465
+So the overriding feature of
+this system that was not--
+
+777
+00:44:11,465 --> 00:44:15,710
+that could not-- so this
+system was not a recipe.
+
+778
+00:44:15,710 --> 00:44:16,770
+It was a constraint.
+
+779
+00:44:19,370 --> 00:44:21,650
+The feature that made
+it that way is something
+
+780
+00:44:21,650 --> 00:44:25,190
+we'll call feedback,
+and we'll be
+
+781
+00:44:25,190 --> 00:44:28,400
+able to visualize feedback very
+simply by looking at the block
+
+782
+00:44:28,400 --> 00:44:29,240
+diagram.
+
+783
+00:44:29,240 --> 00:44:32,060
+Feedback means that
+there's a cycle somewhere.
+
+784
+00:44:34,680 --> 00:44:37,130
+So if there's no
+cycles then it has
+
+785
+00:44:37,130 --> 00:44:38,990
+to be-- so we call
+this the network that
+
+786
+00:44:38,990 --> 00:44:42,220
+results when there's no
+cycles, we say it's acyclic.
+
+787
+00:44:42,220 --> 00:44:43,820
+What a clever word, right?
+
+788
+00:44:43,820 --> 00:44:45,320
+So no cycles.
+
+789
+00:44:45,320 --> 00:44:48,230
+And when it's a acyclic,
+it will have the property
+
+790
+00:44:48,230 --> 00:44:52,380
+that transient inputs give
+rise to transient outputs.
+
+791
+00:44:52,380 --> 00:44:56,400
+If it has a cycle in it, then
+it has feedback and feedback has
+
+792
+00:44:56,400 --> 00:44:59,700
+the potential-- doesn't always
+do it but has the potential--
+
+793
+00:44:59,700 --> 00:45:04,930
+to generate a persisting
+output to a transient input.
+
+794
+00:45:08,050 --> 00:45:14,650
+So if we think about a slightly
+more complicated example where
+
+795
+00:45:14,650 --> 00:45:19,060
+I've put a number p0 in the
+feedback loop that was not
+
+796
+00:45:19,060 --> 00:45:23,740
+in the previous example,
+we can see that the way
+
+797
+00:45:23,740 --> 00:45:25,210
+you can conceive of this--
+
+798
+00:45:25,210 --> 00:45:27,042
+since there's a
+single time when we're
+
+799
+00:45:27,042 --> 00:45:28,750
+thinking about the
+unit sample response--
+
+800
+00:45:28,750 --> 00:45:33,020
+there's a single
+input that's not 0.
+
+801
+00:45:33,020 --> 00:45:35,450
+And what you can do is
+think about the feedback--
+
+802
+00:45:35,450 --> 00:45:37,220
+the block diagram--
+
+803
+00:45:37,220 --> 00:45:41,900
+you can think about
+it separating times,
+
+804
+00:45:41,900 --> 00:45:46,500
+because there's one unit
+of delay in every cycle.
+
+805
+00:45:46,500 --> 00:45:48,860
+So you can think about
+that as the only way
+
+806
+00:45:48,860 --> 00:45:51,510
+you can get from the input at
+times 0 to the output of times
+
+807
+00:45:51,510 --> 00:45:53,370
+0 is through the
+straightforward path.
+
+808
+00:45:53,370 --> 00:45:55,610
+The one highlighted by red.
+
+809
+00:45:55,610 --> 00:45:57,620
+The only way you can get
+from the input of times
+
+810
+00:45:57,620 --> 00:46:02,480
+0 to the output of times 1 is to
+make the circle at least once--
+
+811
+00:46:02,480 --> 00:46:07,300
+to make the circle
+exactly once there.
+
+812
+00:46:07,300 --> 00:46:11,350
+If you make the circle
+exactly once then,
+
+813
+00:46:11,350 --> 00:46:12,790
+instead of being
+height one, it's
+
+814
+00:46:12,790 --> 00:46:16,435
+height p0, because you had to
+have gone through the p0 once.
+
+815
+00:46:19,320 --> 00:46:22,870
+If you go around a third
+time, it's p-not squared,
+
+816
+00:46:22,870 --> 00:46:25,170
+p-not to the fourth, et cetera.
+
+817
+00:46:25,170 --> 00:46:31,130
+So there's a way of thinking
+about why the way is there
+
+818
+00:46:31,130 --> 00:46:36,210
+this persistent response by
+looking at the block diagrams.
+
+819
+00:46:36,210 --> 00:46:38,520
+What I'm trying to
+emphasize is that it's
+
+820
+00:46:38,520 --> 00:46:42,510
+useful to be able to think about
+difference equations, block
+
+821
+00:46:42,510 --> 00:46:48,240
+diagrams, R operators,
+they're all useful.
+
+822
+00:46:48,240 --> 00:46:50,790
+What you want to know is the
+strengths and limitations
+
+823
+00:46:50,790 --> 00:46:51,420
+of each.
+
+824
+00:46:51,420 --> 00:46:53,700
+So here what I've showed
+is a very good way
+
+825
+00:46:53,700 --> 00:46:58,710
+to think about feedback in
+terms of block diagrams.
+
+826
+00:47:03,230 --> 00:47:07,480
+How many of these
+networks are cyclic?
+
+827
+00:47:07,480 --> 00:47:09,360
+How many of these
+networks are acyclic?
+
+828
+00:47:13,190 --> 00:47:14,300
+Is this cyclic?
+
+829
+00:47:14,300 --> 00:47:16,430
+This network?
+
+830
+00:47:16,430 --> 00:47:21,250
+No, so none of the paths
+wrap that back on itself.
+
+831
+00:47:21,250 --> 00:47:22,410
+Here's a path.
+
+832
+00:47:22,410 --> 00:47:23,580
+Here's a path.
+
+833
+00:47:23,580 --> 00:47:24,290
+Here's a path.
+
+834
+00:47:24,290 --> 00:47:25,790
+None of those wrap on itself.
+
+835
+00:47:25,790 --> 00:47:28,240
+Is this network cyclic?
+
+836
+00:47:28,240 --> 00:47:31,810
+Sure, this is cyclic over here.
+
+837
+00:47:31,810 --> 00:47:33,380
+This one, Yeah.
+
+838
+00:47:33,380 --> 00:47:35,020
+The input, this is cyclic.
+
+839
+00:47:35,020 --> 00:47:36,250
+This one?
+
+840
+00:47:36,250 --> 00:47:38,140
+Doubly cyclic.
+
+841
+00:47:38,140 --> 00:47:47,150
+So that's the idea, and
+this gives rise to a notion
+
+842
+00:47:47,150 --> 00:47:48,380
+that we will call a pole.
+
+843
+00:47:51,250 --> 00:47:54,250
+A pole is the base of
+the geometric sequence
+
+844
+00:47:54,250 --> 00:47:58,400
+that results in these
+simple sequences whenever
+
+845
+00:47:58,400 --> 00:48:02,620
+you have feedback, and we'll
+be saying a whole lot more
+
+846
+00:48:02,620 --> 00:48:05,470
+about those in upcoming times.
+
+847
+00:48:08,320 --> 00:48:11,540
+In the interest of time,
+I have to stop now,
+
+848
+00:48:11,540 --> 00:48:13,960
+but so the idea from
+today is supposed
+
+849
+00:48:13,960 --> 00:48:17,370
+to have been lots
+of representations
+
+850
+00:48:17,370 --> 00:48:22,740
+for DT signals, DT signals
+and systems, strengths
+
+851
+00:48:22,740 --> 00:48:26,370
+and weaknesses of each,
+difference equations--
+
+852
+00:48:26,370 --> 00:48:31,020
+concise, precise-- block
+diagrams, visualizing signals
+
+853
+00:48:31,020 --> 00:48:35,910
+flow paths, operators, thinking
+about things as polynomials,
+
+854
+00:48:35,910 --> 00:48:39,060
+and what we'll do in
+the next few sessions
+
+855
+00:48:39,060 --> 00:48:41,640
+is try to build on that
+polynomial representation
+
+856
+00:48:41,640 --> 00:48:45,990
+to gain further insights into
+the way that systems will work.
+
+857
+00:48:45,990 --> 00:48:47,720
+Thank you.

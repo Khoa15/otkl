@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analytic Design Evaluation of Induction Machines</title>
+      <link>/resources/mit6_061s11_ch10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_061s11_ch10/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on induction machines, the induction motor transformer model , energy balance, the squirrel cage machine model, solid iron rotor bodies, and induction motor speed control.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_061S11_ch1.pdf</title>
+      <link>/resources/mit6_061s11_ch1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_061s11_ch1/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to review of network theory.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_061S11_ch11.pdf</title>
+      <link>/resources/mit6_061s11_ch11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_061s11_ch11/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to DC (commutator) and permanent magnet machines.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_061S11_ch12.pdf</title>
+      <link>/resources/mit6_061s11_ch12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_061s11_ch12/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to permanent magnet &amp;ldquo;Brushless DC&amp;rdquo; motors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_061S11_ch2.pdf</title>
+      <link>/resources/mit6_061s11_ch2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_061s11_ch2/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to AC power flow in linear networks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_061S11_ch3.pdf</title>
+      <link>/resources/mit6_061s11_ch3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_061s11_ch3/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to polyphase networks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_061S11_ch4.pdf</title>
+      <link>/resources/mit6_061s11_ch4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_061s11_ch4/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to introduction to symmetrical components.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_061S11_ch5.pdf</title>
+      <link>/resources/mit6_061s11_ch5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_061s11_ch5/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to introduction to load flow.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_061S11_ch6.pdf</title>
+      <link>/resources/mit6_061s11_ch6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_061s11_ch6/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to magnetic circuit analog to electric circuits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_061S11_ch8.pdf</title>
+      <link>/resources/mit6_061s11_ch8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_061s11_ch8/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to electromagnetic forces and loss mechanisms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_061S11_ch9.pdf</title>
+      <link>/resources/mit6_061s11_ch9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_061s11_ch9/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to synchronous machine and winding models.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;h3 id=&#34;introduction-to-the-notes-by-prof-james-kirtley&#34;&gt;Introduction to the Notes, by Prof. James Kirtley&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;The notes included here have been written over about thirty years of teaching this material. They were intended for students with some, but not necessarily a deep background in electromagnetics and circuit theory. Initially the notes included three-wire electric power, including standard circuit theory: balanced networks amenable to one-line diagram analysis, simple ways of handling unbalanced situations using delta-wye transforms, etc. and then symmetrical components. The chapters on electromechanics and electric machines were intended to supplement the textbook by Fitzgerald, Kingsley and Umans. Eventually they became comprehensive enough to stand alone.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

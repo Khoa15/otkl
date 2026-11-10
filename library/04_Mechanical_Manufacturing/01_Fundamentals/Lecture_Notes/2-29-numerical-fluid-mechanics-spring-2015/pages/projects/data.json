@@ -1,0 +1,22 @@
+
+{
+  "content": "<p>There will be a final project for this class. Students can select the topic of their project in consultation with the instructor. Possible projects include:</p>\n<ol>\n<li>Comprehensive reviews of material not covered in detail in class, with some numerical examples;</li>\n<li>Specific fluid-related problems or questions that are numerically studied or solved by the applications of approaches, methods or schemes covered in class;</li>\n<li>A combination of 1) and 2).</li>\n</ol>\n<p>Projects will be due at the end of term. There will be a final session where all students will make a presentation of their projects to the whole class and staff. We have found that such presentations provide an excellent means for additional learning and sharing.</p>\n<p>These are the titles of the student project presentations:</p>\n<ul>\n<li>Numerical Investigation of Turbulence Models</li>\n<li>Exploring Different Sub‐grid Scale Models in LES</li>\n<li>Crash‐testing and Optimizing a FV Code for Turbulent, Swirling Flows in OpenFOAM: Part I</li>\n<li>Crash‐testing and Optimizing a FV Code for Turbulent, Swirling Flows in OpenFOAM: Part II</li>\n<li>Studying Bacterial Biofilms with a Molecular Dynamics Simulation Framework</li>\n<li>Application of Lattice‐boltzmann Method in Wind Field Modeling for Urban Canyons and Their Neighborhoods</li>\n<li>Modeling Two‐way Airflow under Pure Buoyancy Natural Ventilation</li>\n<li>A 2D Numerical Model for Annular Pulleys (Ligaments)</li>\n<li>Modeling Desalination in a Flow Cell with Porous Media</li>\n<li>Modeling Temperature Distribution in a Server Room of a Data Center</li>\n<li>Thin Film Evaporation in Porous Wicking Media</li>\n<li>CG, DG and HDG (Continuous, Discontinuous and Hybridizable Discontinuous Galerkin)</li>\n<li>Physical Control of the Distributions of a Key Arctic Copepod in the Northeast Chukchi Sea</li>\n<li>Wave Absorption Methods and Wave Damping Schemes for an Open Boundary</li>\n<li>Performance of &ldquo;Lilypad&rdquo;: an Open‐source Immersed Boundary Method for Unsteady Flows</li>\n<li>Simulation of Sub‐sea Oil Well Blowout as a Buoyant Plume</li>\n<li>Modeling Flows in Needle‐free Injection with Different Nozzles</li>\n<li>Liquid Eyeballs</li>\n<li>Pressure from PIV: Algorithms and Comparison with Simulations</li>\n<li>The Fluid Mechanics Inside a Drip Irrigation Emitter</li>\n<li>Boundary‐following Sigma Coordinate for a 2D Fluid Dynamics Finite Volume Framework</li>\n<li>A Review of Computational Methods for Multiphase Flow</li>\n<li>Approximating Derivatives of Noisy Measurements to Characterize the Rheology of Non‐newtonian Fluids</li>\n<li>Modeling Beehives using FLUENT</li>\n<li>Annular Turbulent Jet Simulation using FLUENT</li>\n<li>Analysis of Higher Order Schemes and Their Implementation in Time‐Optimal Path Planning Algorithms</li>\n</ul>\n",
+  "content_type": "page",
+  "description": "This section describes the final project for the course and gives examples of titles of past student project presentations.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Projects"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Projects",
+  "uid": "996024c1-a9cb-eb2b-defb-af4318f9b536",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains information related to electromagnetic forces and loss mechanisms.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information related to electromagnetic forces and loss mechanisms.",
+  "draft": false,
+  "file": "/courses/6-061-introduction-to-electric-power-systems-spring-2011/c26f6204e05bd4c47875a96452982b6f_MIT6_061S11_ch8.pdf",
+  "file_size": 894913,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Readings"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Readings",
+  "parent_type": "CourseSection",
+  "parent_uid": "89512ca2-aaea-2fbd-2fb1-f0c11a2b49d2",
+  "resourcetype": "Document",
+  "title": "MIT6_061S11_ch8.pdf",
+  "uid": "c26f6204-e05b-d4c4-7875-a96452982b6f"
+}

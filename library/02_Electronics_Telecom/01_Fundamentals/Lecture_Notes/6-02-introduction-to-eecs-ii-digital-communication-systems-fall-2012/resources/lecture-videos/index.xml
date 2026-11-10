@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Videos on MIT OpenCourseWare</title>
+    <link>/resources/lecture-videos/</link>
+    <description>Recent content in Lecture Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 1: Overview: Information and Entropy</title>
+      <link>/resources/lecture-1-overview-information-and-entropy/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-1-overview-information-and-entropy/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture covers some history of digital communication, with a focus on Samuel Morse and Claude Shannon, measuring information and defining information, the significance of entropy on encodings, and Huffman&amp;rsquo;s coding algorithm.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; George Verghese&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 10: Linear Time-Invariant (LTI) Systems</title>
+      <link>/resources/lecture-10-linear-time-invariant-lti-systems/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-10-linear-time-invariant-lti-systems/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture covers modeling channel behavior, relating the unit sample and step responses, decomposing a signal into unit samples, modeling LTI systems, and properties of convolutions.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; George Verghese&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 11: LTI Channel and Intersymbol Interference</title>
+      <link>/resources/lecture-11-lti-channel-and-intersymbol-interference/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-11-lti-channel-and-intersymbol-interference/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture provides an introduction to Audiocom, which is used for the unit&amp;rsquo;s assignments. The demonstration addresses troubleshooting and reading the output, and places it in context with course content discussed so far.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Hari Balakrishnan and George Verghese&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 12: Filters and Composition</title>
+      <link>/resources/lecture-12-filters-and-composition/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-12-filters-and-composition/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture covers the limitation of time-domain and convolutions, and introduces frequency-domain and sinusoidal inputs to LTI systems. Application of complex exponentials to representing sinusoids is shown.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; George Verghese&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 13: Frequency Response of LTI Systems</title>
+      <link>/resources/lecture-13-frequency-response-of-lti-systems/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-13-frequency-response-of-lti-systems/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture continues the discussion of properties of the frequency response and the shift from time to frequency domain. Examples of deconvolution in frequency-domain view, designing an ideal low-pass filter, and spectral decomposition are provided.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; George Verghese&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 14: Spectral Representation of Signals</title>
+      <link>/resources/lecture-14-spectral-representation-of-signals/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-14-spectral-representation-of-signals/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture starts with a demonstration of echo cancelation using deconvolution, and then continues to cover the spectral content of signals. Fast Fourier transform, and the effect of a low-pass channel are also discussed.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; George Verghese&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 15: Modulation/Demodulation</title>
+      <link>/resources/lecture-15-modulation-demodulation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-15-modulation-demodulation/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture introduces phase characteristic in the frequency response, and the derivation of DTFT for a rectangular pulse. An example of how to send a pulse over a low-pass and a bandpass channel opens discussion about modulation and demodulation.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; George Verghese&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 16: More on Modulation/Demodulation</title>
+      <link>/resources/lecture-16-more-on-modulation-demodulation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-16-more-on-modulation-demodulation/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture starts with applying FFT for a finite duration and the difference between DTFT and DTFS. The remainder of the lecture covers the demodulation frequency diagram, correcting error in demodulation and phase ambiguity, and multiple trasnmitters.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; George Verghese&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 17: Packet Switching</title>
+      <link>/resources/lecture-17-packet-switching/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-17-packet-switching/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture introduces communication networks, with MIT&amp;rsquo;s network serving as an example. Packet-switched networks are discussed with examples of packet headers, traffic, and the sources of delay.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Hari Balakrishnan&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 18: MAC Protocols</title>
+      <link>/resources/lecture-18-mac-protocols/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-18-mac-protocols/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture focuses on shared media networks and shared communications channels. Measures for optimization such as utilization, fairness, and bounded delay are introduced, along with an example model using slotted and stabilized Aloha.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Hari Balakrishnan&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 19: Network Routing (without failures)</title>
+      <link>/resources/lecture-19-network-routing-without-failures/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-19-network-routing-without-failures/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture covers networking routing in multi-hop networks. After an interactive simulation game, distributed routing, distance-vector routing, and link-state routing are discussed with minimum cost path in mind.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Hari Balakrishnan&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 2: Compression: Huffman and LZW</title>
+      <link>/resources/lecture-2-compression-huffman-and-lzw/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-2-compression-huffman-and-lzw/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture covers examples of Huffman coding and limitations of coding. Lempel-Ziv-Welch is introduced as an adaptive variable-length code, and an example is done in lecture.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; George Verghese&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 20: Network Routing (with failures)</title>
+      <link>/resources/lecture-20-network-routing-with-failures/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-20-network-routing-with-failures/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture continues to cover routing protocols within the context of failure. Failure resilience for the different protocols is discussed along with the solution of periodic communication for eventual convergence.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Hari Balakrishnan&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 21: Reliable Transport</title>
+      <link>/resources/lecture-21-reliable-transport/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-21-reliable-transport/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture covers implementation of TCP and providing reliable data transfer. The stop-and-wait and sliding window protocols are discussed with their benefits and disadvantages in preventing lost or duplicate packets.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Hari Balakrishnan&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 22: Sliding Window Analysis, Little&#39;s Law</title>
+      <link>/resources/lecture-22-sliding-window-analysis-littles-law/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-22-sliding-window-analysis-littles-law/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture continues with an analysis of sliding window protocol and how it handles packet loss. Little&amp;rsquo;s Law is introduced to relate the average number of packets to the average service rate and average delay of a stable system.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Hari Balakrishnan&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 23: A Brief History of the Internet</title>
+      <link>/resources/lecture-23-a-brief-history-of-the-internet/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-23-a-brief-history-of-the-internet/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture offers a historical account of the development of the Internet and Internet Protocol (IP). The ideal case for area networking is presented, followed by the creation of the domain name system (DNS).&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Hari Balakrishnan&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 24: History of the Internet cont&#39;d, Course Summary</title>
+      <link>/resources/lecture-24-history-of-the-internet-contd-course-summary/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-24-history-of-the-internet-contd-course-summary/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture continues the history of the Internet through the recent decades and addresses problems such as rapid growth, congestion, service attacks, and security threats. A summary of the course content is then presented at the end.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Hari Balakrishnan&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 3: Errors, Channel Codes</title>
+      <link>/resources/lecture-3-errors-channel-codes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-3-errors-channel-codes/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture places in context the abstraction layers in the network communication model and covers digital signaling. Metrics such as channel capacity and Hamming distance are introduced.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; George Verghese&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 4: Linear Block Codes, Parity Relations</title>
+      <link>/resources/lecture-4-linear-block-codes-parity-relations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-4-linear-block-codes-parity-relations/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture continues to cover linear block codes. The generator matrix and matrix notation are introduced, along with examples of error correction through rectangular code and Hamming code.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; George Verghese&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 5: Error Correction, Syndrome Decoding</title>
+      <link>/resources/lecture-5-error-correction-syndrome-decoding/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-5-error-correction-syndrome-decoding/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture continues to explore error correction through a closer look at the generator matrix and the parity check matrix. Syndrome decoding is presented in its matrix form by example, and better error protection is discussed afterward.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; George Verghese&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 6: Convolutional Codes</title>
+      <link>/resources/lecture-6-convolutional-codes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-6-convolutional-codes/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture starts with historical applications of error control and convolutional codes in space programs. Convolutional codes are introduced along with examples and transformations in shift-register, state-machine, and trellis view.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; George Verghese&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 7: Viterbi Decoding</title>
+      <link>/resources/lecture-7-viterbi-decoding/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-7-viterbi-decoding/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture starts with a review of encoding and decoding. The Viterbi algorithm, which includes a branch metric and a path metric, is introduced as a way to find the maximum-likelihood path during decoding.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; George Verghese&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 8: Noise</title>
+      <link>/resources/lecture-8-noise/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-8-noise/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture introduces a noise model based on a Gaussian random variable. Background on calculating mean and variance of probability density function is given alongside steps to estimate noise parameters and calculate bit energy.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; George Verghese&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 9: Transmitting on a Physical Channel</title>
+      <link>/resources/lecture-9-transmitting-on-a-physical-channel/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-9-transmitting-on-a-physical-channel/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture begins with background on probability for working with random variables. Conversion, and signal modulation and demodulation are explained. The unit step and sample are introduced alongside time invariant and linear systems.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; George Verghese&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Videos</title>
+      <link>/video_galleries/lecture-videos/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/video_galleries/lecture-videos/data.json</guid>
+      <description>&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-1-overview-information-and-entropy/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/BtaVq2g17G0/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 1: Overview: Information and Entropy&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-2-compression-huffman-and-lzw/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/WafWLM41pQ0/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 2: Compression: Huffman and LZW&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-3-errors-channel-codes/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/HkmAT9eVYSo/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 3: Errors, Channel Codes&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-4-linear-block-codes-parity-relations/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/5YyUArlg8Sg/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 4: Linear Block Codes, Parity Relations&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-5-error-correction-syndrome-decoding/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/jNzdhBVU620/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 5: Error Correction, Syndrome Decoding&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-6-convolutional-codes/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/ytGmd25_10k/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 6: Convolutional Codes&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-7-viterbi-decoding/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/POetF9rX7Zw/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 7: Viterbi Decoding&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-8-noise/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/JJdzY3OTzEg/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 8: Noise&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-9-transmitting-on-a-physical-channel/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/RG3CkwIDYfI/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 9: Transmitting on a Physical Channel&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-10-linear-time-invariant-lti-systems/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/gF9Q0wNGENc/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 10: Linear Time-Invariant (LTI) Systems&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-11-lti-channel-and-intersymbol-interference/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/fQcJNoe-q-s/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 11: LTI Channel and Intersymbol Interference&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-12-filters-and-composition/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/jQM_gpIXBFs/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 12: Filters and Composition&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-13-frequency-response-of-lti-systems/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/Te1qKOJd8aw/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 13: Frequency Response of LTI Systems&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-14-spectral-representation-of-signals/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/U1sAeMwdm6A/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 14: Spectral Representation of Signals&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-15-modulation-demodulation/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/7kpuZgm-3GY/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 15: Modulation/Demodulation&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-16-more-on-modulation-demodulation/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/QfaGCnfWpus/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 16: More on Modulation/Demodulation&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-17-packet-switching/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/9HCUnJB9ovk/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 17: Packet Switching&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-18-mac-protocols/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/y02p8znNAKk/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 18: MAC Protocols&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-19-network-routing-without-failures/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/2QxgN2ugcMY/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 19: Network Routing (without failures)&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-20-network-routing-with-failures/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/EG6PPYma050/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 20: Network Routing (with failures)&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-21-reliable-transport/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/qpYjftJbGYI/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 21: Reliable Transport&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-22-sliding-window-analysis-littles-law/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/xa38Q2_pnlQ/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 22: Sliding Window Analysis, Little&amp;#39;s Law&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-23-a-brief-history-of-the-internet/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/oIezCGjxV3A/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 23: A Brief History of the Internet&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-24-history-of-the-internet-contd-course-summary/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/RN4gSBTANUY/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 24: History of the Internet cont&amp;#39;d, Course Summary&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains information related to minimal realizations.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information related to minimal realizations.",
+  "draft": false,
+  "file": "/courses/6-241j-dynamic-systems-and-control-spring-2011/c4b2f9d80e51e07a7f1ff6e7be4308e7_MIT6_241JS11_lec21.pdf",
+  "file_size": 371839,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "ee668e05-ff75-8895-0bb1-7bddd4117378",
+  "resourcetype": "Document",
+  "title": "MIT6_241JS11_lec21.pdf",
+  "uid": "c4b2f9d8-0e51-e07a-7f1f-f6e7be4308e7"
+}

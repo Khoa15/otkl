@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/a26793429534b75a1c47bda84e444859_2_5.jpg",
+  "file_size": 6023,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from 'Introduction to Linear Algebra' by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Properties of Determinants",
+  "parent_type": "CourseSection",
+  "parent_uid": "db45d276-fad6-eb49-f42e-287aaa9e22b6",
+  "resourcetype": "Image",
+  "title": "2_5.jpg",
+  "uid": "a2679342-9534-b75a-1c47-bda84e444859",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

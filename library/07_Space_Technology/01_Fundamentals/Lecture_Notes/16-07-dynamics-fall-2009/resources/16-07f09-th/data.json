@@ -1,0 +1,21 @@
+{
+  "content": "<p>Cropped diagram of an assembly experiencing multi-axial rotation. Image by MIT Open Courseware.</p>\n",
+  "content_type": "resource",
+  "description": "Cropped diagram of an assembly experiencing multi-axial rotation. Image by MIT Open Courseware.",
+  "draft": false,
+  "file": "/courses/16-07-dynamics-fall-2009/780eb197bbe3d2e4b205da95fdf0e6b1_16-07f09-th.jpg",
+  "file_size": 9261,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "An assembly experiencing multi-axial rotation. (Image by MIT OpenCourseWare.)",
+    "credit": "",
+    "image-alt": "An orthographic projection of a swiveling pulley."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "An orthographic projection of a swiveling pulley",
+  "uid": "780eb197-bbe3-d2e4-b205-da95fdf0e6b1"
+}

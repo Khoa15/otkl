@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exam Solutions on MIT OpenCourseWare</title>
+    <link>/resources/exam-solutions/</link>
+    <description>Recent content in Exam Solutions on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exam-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exam 1 Solutions, Fall 2002</title>
+      <link>/resources/f02q1sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/f02q1sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to a quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 1 Solutions, Fall 2004</title>
+      <link>/resources/q1sols18085f04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/q1sols18085f04/data.json</guid>
+      <description>&lt;p&gt;Solutions to a quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 1 Solutions, Fall 2005</title>
+      <link>/resources/q1sols18085f05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/q1sols18085f05/data.json</guid>
+      <description>&lt;p&gt;Solutions to a quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 1 Solutions, Fall 2006</title>
+      <link>/resources/q1_sol_18085_f06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/q1_sol_18085_f06/data.json</guid>
+      <description>&lt;p&gt;Solutions to a quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 1 Solutions, Fall 2007</title>
+      <link>/resources/quiz1_sols_18085/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz1_sols_18085/data.json</guid>
+      <description>&lt;p&gt;Solutions to a quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 1 Solutions, Fall 2008</title>
+      <link>/resources/q118085f03sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/q118085f03sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to a quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 1 Solutions, Fall 2008</title>
+      <link>/resources/quiz1sol_f08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz1sol_f08/data.json</guid>
+      <description>&lt;p&gt;Solutions to a quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2 Solutions, Fall 2002</title>
+      <link>/resources/f02q2sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/f02q2sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to a quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2 Solutions, Fall 2003</title>
+      <link>/resources/q218085f03sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/q218085f03sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to a quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2 Solutions, Fall 2004</title>
+      <link>/resources/q2sols18085f04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/q2sols18085f04/data.json</guid>
+      <description>&lt;p&gt;Solutions to a quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2 Solutions, Fall 2005</title>
+      <link>/resources/q2sols18085f05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/q2sols18085f05/data.json</guid>
+      <description>&lt;p&gt;Solutions to a quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2 Solutions, Fall 2006</title>
+      <link>/resources/q2_sol_18085_f06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/q2_sol_18085_f06/data.json</guid>
+      <description>&lt;p&gt;Solutions to a quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2 Solutions, Fall 2007</title>
+      <link>/resources/quiz2solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz2solutions/data.json</guid>
+      <description>&lt;p&gt;Solutions to a quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2 Solutions, Fall 2008</title>
+      <link>/resources/fall08qz2sol12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/fall08qz2sol12/data.json</guid>
+      <description>&lt;p&gt;Solutions to a quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 3 Solutions, Fall 2002</title>
+      <link>/resources/f02q3sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/f02q3sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to a quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 3 Solutions, Fall 2003</title>
+      <link>/resources/q318085f03sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/q318085f03sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to a quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 3 Solutions, Fall 2004</title>
+      <link>/resources/q3sols18085f04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/q3sols18085f04/data.json</guid>
+      <description>&lt;p&gt;Solutions to a quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 3 Solutions, Fall 2006</title>
+      <link>/resources/q3_sol_18085_f06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/q3_sol_18085_f06/data.json</guid>
+      <description>&lt;p&gt;Solutions to a quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 3 Solutions, Fall 2007</title>
+      <link>/resources/quiz3solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz3solutions/data.json</guid>
+      <description>&lt;p&gt;Solutions to a quiz on computational science and engineering.Quiz 3 Solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 3 Solutions, Fall 2008</title>
+      <link>/resources/q3sols18085f05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/q3sols18085f05/data.json</guid>
+      <description>&lt;p&gt;Solutions to a quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

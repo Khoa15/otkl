@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Recitation handout on Nyquist stability.</p>\n",
+  "content_type": "resource",
+  "description": "Recitation handout on Nyquist stability.",
+  "draft": false,
+  "file": "/courses/6-302-feedback-systems-spring-2007/d839b5656f210c82935142b30d9ae616_6_302rec10.pdf",
+  "file_size": 92748,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem-solving Notes"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Recitations",
+  "parent_type": "CourseSection",
+  "parent_uid": "5667c63a-09ff-e158-1e89-d49a0035050d",
+  "resourcetype": "Document",
+  "title": "6_302rec10.pdf",
+  "uid": "d839b565-6f21-0c82-9351-42b30d9ae616",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

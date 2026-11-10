@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Videos on MIT OpenCourseWare</title>
+    <link>/resources/lecture-videos/</link>
+    <description>Recent content in Lecture Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 1: Signals and Systems</title>
+      <link>/resources/lecture-1-signals-and-systems/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-1-signals-and-systems/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture introduces the administrative details of the course, and uses examples from several engineering fields to illustrate the central abstraction of 6.003: analysis and design of systems via their signal transform properties.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 10: Feedback and Control    </title>
+      <link>/resources/lecture-10-feedback-and-control/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-10-feedback-and-control/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Russ Tedrake&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Prof. Tedrake introduces the power and complexity of modern control systems, which use feedback to stabilize and compensate for delays and other errors. Examples are taken from his research into perching planes and other high-performance aircraft.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 11: Continuous-Time (CT) Frequency Response and Bode Plot</title>
+      <link>/resources/lecture-11-continuous-time-ct-frequency-response-and-bode-plot/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-11-continuous-time-ct-frequency-response-and-bode-plot/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Bode plots are a simpler method of graphing the frequency response, using the poles and zeros of the system to construct asymptotes for each segment on a log-log plot. The Q factor affects the sharpness of peaks and drop-offs in the system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 12: Continuous-Time (CT) Feedback and Control, Part 1</title>
+      <link>/resources/lecture-12-continuous-time-ct-feedback-and-control-part-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-12-continuous-time-ct-feedback-and-control-part-1/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Today&amp;rsquo;s lecture continues the discussion of control systems by demonstrating how feedback loops can add speed and bandwidth to the LM741 op-amp, and allow better control of a robot arm&amp;rsquo;s angular position.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 13: Continuous-Time (CT) Feedback and Control, Part 2</title>
+      <link>/resources/lecture-13-continuous-time-ct-feedback-and-control-part-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-13-continuous-time-ct-feedback-and-control-part-2/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Additional examples today illustrate the use of feedback to reduce sensitivity to variable component parameters and crossover distortion in audio systems, and to control two unstable systems (magnetic levitation, inverted pendulum).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 14: Fourier Representations</title>
+      <link>/resources/lecture-14-fourier-representations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-14-fourier-representations/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; In the next half of the course, periodic functions are represented as sums of harmonic functions, via Fourier decomposition. Linear time-invariant systems amplify and phase-shift these inputs to produce filtered output, an important new concept.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 15: Fourier Series</title>
+      <link>/resources/lecture-15-fourier-series/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-15-fourier-series/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Today&amp;rsquo;s lecture discusses an application of Fourier series, exploring how the vocal tract filters frequencies generated by the vocal cords. Speech synthesis and recognition technology uses frequency analysis to accurately reconstruct vowels.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 16: Fourier Transform</title>
+      <link>/resources/lecture-16-fourier-transform/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-16-fourier-transform/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; The concept of the Fourier series can be applied to aperiodic functions by treating it as a periodic function with period T = infinity. This new transform has some key similarities and differences with the Laplace transform, its properties, and domains.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 17: Discrete-Time (DT) Frequency Representations</title>
+      <link>/resources/lecture-17-discrete-time-dt-frequency-representations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-17-discrete-time-dt-frequency-representations/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; As digital signal processing components have become cheaper, traditional design problems in audio and video systems have converted to discrete-time. This lecture compares system responses and Fourier representations in discrete- and continuous-time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 18: Discrete-Time (DT) Fourier Representations</title>
+      <link>/resources/lecture-18-discrete-time-dt-fourier-representations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-18-discrete-time-dt-fourier-representations/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Continuing the comparison of continuous- and discrete-time signals, today&amp;rsquo;s lecture discusses the DT Fourier transform, computation of Fourier series via the Fast Fourier Transform (FFT), and examples from digital image processing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 19: Relations Among Fourier Representations</title>
+      <link>/resources/lecture-19-relations-among-fourier-representations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-19-relations-among-fourier-representations/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Today&amp;rsquo;s lecture solidifies the connections between continuous- and discrete-time Fourier series and transforms, converting between the time and frequency domains with familiar tools such as convolution, periodic extension, and sampling.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 2: Discrete-Time (DT) Systems</title>
+      <link>/resources/lecture-2-discrete-time-dt-systems/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-2-discrete-time-dt-systems/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Discrete-time systems can be represented in several ways: difference equations, block diagrams, and operators. Each method requires a different analytical approach. Feedback loops in cyclic systems lead to convergent or divergent responses.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 20: Applications of Fourier Transforms</title>
+      <link>/resources/lecture-20-applications-of-fourier-transforms/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-20-applications-of-fourier-transforms/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Three examples of Fourier transforms in action are given: removing noise from an electrocardiogram signal, using laser diffraction to calculate the groove spacing on CDs and DVDs, and determining the structure of DNA via x-ray crystallography.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 21: Sampling</title>
+      <link>/resources/lecture-21-sampling/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-21-sampling/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Sampling produces a discrete-time (digital) signal from a continuous-time (physical) phenomenon. Anti-aliasing and reconstruction filters remove unnecessary frequencies while retaining enough information to reconstruct the original signal.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 22: Sampling and Quantization</title>
+      <link>/resources/lecture-22-sampling-and-quantization/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-22-sampling-and-quantization/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Digital audio, images, video, and communication signals use quantization to create discrete representations of continuous phenomena. Efficient transmission and reconstruction uses techniques such as dithering, progressive refinement, and the JPEG encoding.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 23: Modulation, Part 1</title>
+      <link>/resources/lecture-23-modulation-part-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-23-modulation-part-1/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Efficient signal transmission and reception requires wavelengths matching the size of the antenna; for speech, this requires frequencies around the GHz range. Broadcast radio developed AM and FM to produce accurate reception of multiplexed signals.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 24: Modulation, Part 2</title>
+      <link>/resources/lecture-24-modulation-part-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-24-modulation-part-2/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Continuing the previous discussion of AM in radio, Prof. Freeman analyzes phase and frequency modulated (PM/FM) signals, before presenting research showing improvement in optical microscopy via phase-modulated illumination.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 25: Audio CD</title>
+      <link>/resources/lecture-25-audio-cd/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-25-audio-cd/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; The final Signals and Systems lecture explains how audio playback evolved from the fragile Edison cylinder phonograph to durable modern optical disks, through the application of digital signal processing concepts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 3: Feedback, Poles, and Fundamental Modes</title>
+      <link>/resources/lecture-3-feedback-poles-and-fundamental-modes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-3-feedback-poles-and-fundamental-modes/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; To analyze complicated systems of adders, delays, and gains, factor their polynomial expression into simpler components using the poles. These fundamental modes combine to produce the unit response of a system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 4: Continuous-Time (CT) Systems</title>
+      <link>/resources/lecture-4-continuous-time-ct-systems/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-4-continuous-time-ct-systems/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Drawing analogies with previous concepts in discrete-time systems, this lecture discusses the block diagrams, polynomial expressions, poles, convergence regions, and fundamental modes of continuous-time systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 5: Z Transform</title>
+      <link>/resources/lecture-5-z-transform/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-5-z-transform/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; After reviewing concepts in discrete-time systems, the Z transform is introduced, connecting the unit sample response h[n] and the system function H(z). The lecture covers the Z transform&amp;rsquo;s definition, properties, examples, and inverse transform.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 6: Laplace Transform</title>
+      <link>/resources/lecture-6-laplace-transform/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-6-laplace-transform/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Building on concepts from the previous lecture, the Laplace transform is introduced as the continuous-time analogue of the Z transform. The lecture discusses the Laplace transform&amp;rsquo;s definition, properties, applications, and inverse transform.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 7: Discrete Approximation of Continuous-Time Systems</title>
+      <link>/resources/lecture-7-discrete-approximation-of-continuous-time-systems/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-7-discrete-approximation-of-continuous-time-systems/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Having established representations and analytical methods for discrete-time and continuous-time systems, today&amp;rsquo;s lecture uses the example of a leaky tank to show how Euler and trapezoidal approximations can convert a continuous system to a discrete one.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 8: Convolution    </title>
+      <link>/resources/lecture-8-convolution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-8-convolution/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; In linear time-invariant systems, breaking an input signal into individual time-shifted unit impulses allows the output to be expressed as the superposition of unit impulse responses. Convolution is the general method of calculating these output signals.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 9: Frequency Response    </title>
+      <link>/resources/lecture-9-frequency-response/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-9-frequency-response/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Dennis Freeman&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; The response of a system to sinusoidal input gives valuable information about its behavior in the frequency domain, similar to convolution in the time domain. Eigenfunctions and vector plots are used to explore this frequency response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Videos</title>
+      <link>/video_galleries/lecture-videos/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/video_galleries/lecture-videos/data.json</guid>
+      <description>&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-1-signals-and-systems/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/-FHm2pQmiSM/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 1: Signals and Systems&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-2-discrete-time-dt-systems/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/Ih4s5IFphCw/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 2: Discrete-Time (DT) Systems&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-3-feedback-poles-and-fundamental-modes/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/K3OFb7RlbVE/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 3: Feedback, Poles, and Fundamental Modes&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-4-continuous-time-ct-systems/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/4PlHFcfB8DA/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 4: Continuous-Time (CT) Systems&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-5-z-transform/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/iI-ejO9hczw/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 5: Z Transform&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-6-laplace-transform/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/MRy8xxvsZA4/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 6: Laplace Transform&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-7-discrete-approximation-of-continuous-time-systems/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/pqkYqU11ETA/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 7: Discrete Approximation of Continuous-Time Systems&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-8-convolution/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/w1Z2FX8rQc0/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 8: Convolution    &lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-9-frequency-response/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/fKaZeD70p8I/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 9: Frequency Response    &lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-10-feedback-and-control/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/TeVSxZgIHAA/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 10: Feedback and Control    &lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-11-continuous-time-ct-frequency-response-and-bode-plot/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/2X7o37pfdp8/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 11: Continuous-Time (CT) Frequency Response and Bode Plot&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-12-continuous-time-ct-feedback-and-control-part-1/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/5w2BvCPuYY0/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 12: Continuous-Time (CT) Feedback and Control, Part 1&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-13-continuous-time-ct-feedback-and-control-part-2/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/gxgV_oOG7Zc/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 13: Continuous-Time (CT) Feedback and Control, Part 2&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-14-fourier-representations/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/ufU6b7OHb8M/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 14: Fourier Representations&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-15-fourier-series/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/N0CVIoVQkmc/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 15: Fourier Series&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-16-fourier-transform/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/iWZNTM139xQ/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 16: Fourier Transform&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-17-discrete-time-dt-frequency-representations/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/gwa-Rh0u6bs/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 17: Discrete-Time (DT) Frequency Representations&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-18-discrete-time-dt-fourier-representations/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/3D51nqZ-97Q/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 18: Discrete-Time (DT) Fourier Representations&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-19-relations-among-fourier-representations/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/HDYAbIA-DNY/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 19: Relations Among Fourier Representations&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-20-applications-of-fourier-transforms/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/tp_MdKz3fC8/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 20: Applications of Fourier Transforms&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-21-sampling/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/1El4znkRH0g/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 21: Sampling&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-22-sampling-and-quantization/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/bJvv5SckGeA/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 22: Sampling and Quantization&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-23-modulation-part-1/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/OT04cEdpK-M/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 23: Modulation, Part 1&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-24-modulation-part-2/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/OfMhtibbVXU/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 24: Modulation, Part 2&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-25-audio-cd/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/t2hNMFoIv8w/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 25: Audio CD&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

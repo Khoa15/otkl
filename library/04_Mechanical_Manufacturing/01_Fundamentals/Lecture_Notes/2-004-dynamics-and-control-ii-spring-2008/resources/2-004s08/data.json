@@ -1,0 +1,21 @@
+{
+  "content": "<p>A diagram of a boat on autopilot, deviating from the desired course, with a block diagram of the feedback system that controls it. A ship&rsquo;s autopilot uses dynamic feedback to adjust its heading compared to the compass setting. (Image by Prof. Rowell.)</p>\n",
+  "content_type": "resource",
+  "description": "A diagram of a boat on autopilot, deviating from the desired course, with a block diagram of the feedback system that controls it. A ship's autopilot uses dynamic feedback to adjust its heading compared to the compass setting. (Image by Prof. Rowell.)",
+  "draft": false,
+  "file": "/courses/2-004-dynamics-and-control-ii-spring-2008/c4768f524c35138e3b5f70eada96a3c1_2-004s08.jpg",
+  "file_size": 50636,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "A ship's autopilot uses dynamic feedback to adjust its heading compared to the compass setting. (Image by Prof. Rowell.)",
+    "credit": "",
+    "image-alt": "A diagram of a boat on autopilot, deviating from the desired course, with a block diagram of the feedback system that controls it."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Diagram of a Boat on Autopilot",
+  "uid": "c4768f52-4c35-138e-3b5f-70eada96a3c1"
+}

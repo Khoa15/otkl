@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/bef2d41648c0b324d4096a02c846c947_3_7.jpg",
+  "file_size": 6715,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from 'Introduction to Linear Algebra' by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Change of Basis; Image Compression",
+  "parent_type": "CourseSection",
+  "parent_uid": "7b90bea0-f6ce-9bfd-c750-ada6103da88c",
+  "resourcetype": "Image",
+  "title": "3_7.jpg",
+  "uid": "bef2d416-48c0-b324-d409-6a02c846c947",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Videos on MIT OpenCourseWare</title>
+    <link>/resources/lecture-videos/</link>
+    <description>Recent content in Lecture Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algebraic solution of the harmonic oscillator</title>
+      <link>/resources/algebraic-solution-of-the-harmonic-oscillator/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/algebraic-solution-of-the-harmonic-oscillator/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Angular momentum operators and their algebra</title>
+      <link>/resources/angular-momentum-operators-and-their-algebra/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/angular-momentum-operators-and-their-algebra/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Associated Legendre functions and spherical harmonics</title>
+      <link>/resources/associated-legendre-functions-and-spherical-harmonics/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/associated-legendre-functions-and-spherical-harmonics/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Behavior of the differential equation</title>
+      <link>/resources/behavior-of-the-differential-equation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/behavior-of-the-differential-equation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Center of mass and relative motion wavefunctions</title>
+      <link>/resources/center-of-mass-and-relative-motion-wavefunctions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/center-of-mass-and-relative-motion-wavefunctions/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Comments on the spectrum and continuity conditions</title>
+      <link>/resources/comments-on-the-spectrum-and-continuity-conditions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/comments-on-the-spectrum-and-continuity-conditions/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Commutators, matrices, and 3-dimensional Schrödinger equation</title>
+      <link>/resources/commutators-matrices-and-3-dimensional-schroedinger-equation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/commutators-matrices-and-3-dimensional-schroedinger-equation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Commuting observables for angular momentum</title>
+      <link>/resources/commuting-observables-for-angular-momentum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/commuting-observables-for-angular-momentum/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Completeness of eigenvectors and measurement postulate</title>
+      <link>/resources/completeness-of-eigenvectors-and-measurement-postulate/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/completeness-of-eigenvectors-and-measurement-postulate/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Compton Scattering</title>
+      <link>/resources/compton-scattering/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/compton-scattering/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Consistency condition. Particle on a circle</title>
+      <link>/resources/consistency-condition/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/consistency-condition/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Correspondence principle: amplitude as a function of position</title>
+      <link>/resources/correspondence-principle-amplitude-as-a-function-of-position/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/correspondence-principle-amplitude-as-a-function-of-position/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Creation and annihilation operators acting on energy eigenstates</title>
+      <link>/resources/creation-and-annihilation-operators-acting-on-energy-eigenstates/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/creation-and-annihilation-operators-acting-on-energy-eigenstates/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>de Broglie wavelength in different frames</title>
+      <link>/resources/de-broglie-wavelength-in-different-frames/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/de-broglie-wavelength-in-different-frames/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>de Broglie’s proposal</title>
+      <link>/resources/de-broglie2019s-proposal/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/de-broglie2019s-proposal/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Defining uncertainty</title>
+      <link>/resources/defining-uncertainty/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/defining-uncertainty/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Degeneracy in the spectrum and features of the solution</title>
+      <link>/resources/degeneracy-in-the-spectrum-and-features-of-the-solution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/degeneracy-in-the-spectrum-and-features-of-the-solution/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Delta function potential I: Preliminaries</title>
+      <link>/resources/delta-function-potential-i-preliminaries/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/delta-function-potential-i-preliminaries/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Delta function potential I: Solving for the bound state</title>
+      <link>/resources/delta-function-potential-i-solving-for-the-bound-state/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/delta-function-potential-i-solving-for-the-bound-state/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Effective potential and boundary conditions at r=0</title>
+      <link>/resources/effective-potential-and-boundary-conditions-at-r-0/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/effective-potential-and-boundary-conditions-at-r-0/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Effects of resonance on phase shifts, wave amplitude and time delay</title>
+      <link>/resources/effects-of-resonance-on-phase-shifts-wave-amplitude-and-time-delay/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/effects-of-resonance-on-phase-shifts-wave-amplitude-and-time-delay/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eigenfunctions of a Hermitian operator</title>
+      <link>/resources/eigenfunctions-of-a-hermitian-operator/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/eigenfunctions-of-a-hermitian-operator/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eigenstates of the Hamiltonian</title>
+      <link>/resources/eigenstates-of-the-hamiltonian/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/eigenstates-of-the-hamiltonian/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elitzur-Vaidman bombs</title>
+      <link>/resources/elitzur-vaidman-bombs/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/elitzur-vaidman-bombs/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Energy below the barrier and phase shift</title>
+      <link>/resources/energy-below-the-barrier-and-phase-shift/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/energy-below-the-barrier-and-phase-shift/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Energy eigenstates for particle on a circle</title>
+      <link>/resources/energy-eigenstates-for-particle-on-a-circle/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/energy-eigenstates-for-particle-on-a-circle/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Energy eigenstates of hydrogen</title>
+      <link>/resources/energy-eigenstates-of-hydrogen/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/energy-eigenstates-of-hydrogen/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Energy eigenstates on a generic symmetric potential. Shooting method</title>
+      <link>/resources/energy-eigenstates-on-a-generic-symmetric-potential/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/energy-eigenstates-on-a-generic-symmetric-potential/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Energy levels and diagram for hydrogen</title>
+      <link>/resources/energy-levels-and-diagram-for-hydrogen/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/energy-levels-and-diagram-for-hydrogen/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Entanglement</title>
+      <link>/resources/entanglement/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/entanglement/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Entanglement</title>
+      <link>/resources/entanglement2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/entanglement2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Excited states of the harmonic oscillator</title>
+      <link>/resources/excited-states-of-the-harmonic-oscillator/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/excited-states-of-the-harmonic-oscillator/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Excursion of the phase shift</title>
+      <link>/resources/excursion-of-the-phase-shift/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/excursion-of-the-phase-shift/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Expectation value of Hermitian operators</title>
+      <link>/resources/expectation-value-of-hermitian-operators/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/expectation-value-of-hermitian-operators/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Expectation values of operators</title>
+      <link>/resources/expectation-values-of-operators/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/expectation-values-of-operators/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Expectation values on stationary states</title>
+      <link>/resources/expectation-values-on-stationary-states/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/expectation-values-on-stationary-states/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Finite square well energy eigenstates</title>
+      <link>/resources/finite-square-well-energy-eigenstates/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/finite-square-well-energy-eigenstates/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Finite square well. Setting up the problem</title>
+      <link>/resources/finite-square-well/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/finite-square-well/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fourier transforms and delta functions</title>
+      <link>/resources/fourier-transforms-and-delta-functions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/fourier-transforms-and-delta-functions/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Free Schrödinger equation</title>
+      <link>/resources/free-schroedinger-equation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/free-schroedinger-equation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Galilean transformation of ordinary waves</title>
+      <link>/resources/galilean-transformation-of-ordinary-waves/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/galilean-transformation-of-ordinary-waves/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ground state wavefunction</title>
+      <link>/resources/ground-state-wavefunction/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ground-state-wavefunction/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Group velocity and stationary phase approximation</title>
+      <link>/resources/group-velocity-and-stationary-phase-approximation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/group-velocity-and-stationary-phase-approximation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Half-width and time delay</title>
+      <link>/resources/half-width-and-time-delay/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/half-width-and-time-delay/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hamiltonian and emerging spin angular momentum</title>
+      <link>/resources/hamiltonian-and-emerging-spin-angular-momentum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/hamiltonian-and-emerging-spin-angular-momentum/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Harmonic oscillator: Differential equation</title>
+      <link>/resources/harmonic-oscillator-differential-equation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/harmonic-oscillator-differential-equation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hydrogen atom two-body problem</title>
+      <link>/resources/hydrogen-atom-two-body-problem/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/hydrogen-atom-two-body-problem/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Incident packet and delay for reflection</title>
+      <link>/resources/incident-packet-and-delay-for-reflection/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/incident-packet-and-delay-for-reflection/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infinite square well energy eigenstates</title>
+      <link>/resources/infinite-square-well-energy-eigenstates/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/infinite-square-well-energy-eigenstates/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Interferometer and interference</title>
+      <link>/resources/interferometer-and-interference/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/interferometer-and-interference/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Interpretation of the wavefunction</title>
+      <link>/resources/interpretation-of-the-wavefunction/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/interpretation-of-the-wavefunction/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Is probability conserved? Hermiticity of the Hamiltonian</title>
+      <link>/resources/is-probability-conserved-hermiticity-of-the-hamiltonian/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/is-probability-conserved-hermiticity-of-the-hamiltonian/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Levinson&#39;s theorem, part 1</title>
+      <link>/resources/levinsons-theorem-part-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/levinsons-theorem-part-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Levinson&#39;s theorem, part 2</title>
+      <link>/resources/levinsons-theorem-part-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/levinsons-theorem-part-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linearity and nonlinear theories. Schrödinger&#39;s equation</title>
+      <link>/resources/linearity-and-nonlinear-theories-schr%C3%B6dingers-equation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/linearity-and-nonlinear-theories-schr%C3%B6dingers-equation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linearity and nonlinear theories. Schrödinger&#39;s equation</title>
+      <link>/resources/linearity-and-nonlinear-theories/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/linearity-and-nonlinear-theories/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Local picture of the wavefunction</title>
+      <link>/resources/local-picture-of-the-wavefunction/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/local-picture-of-the-wavefunction/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mach-Zehnder interferometers and beam splitters</title>
+      <link>/resources/mach-zehnder-interferometers-and-beam-splitters/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mach-zehnder-interferometers-and-beam-splitters/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Modelling a resonance</title>
+      <link>/resources/modelling-a-resonance/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/modelling-a-resonance/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Momentum operator, energy operator, and a differential equation</title>
+      <link>/resources/momentum-operator-energy-operator-and-a-differential-equation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/momentum-operator-energy-operator-and-a-differential-equation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>More on superposition. General state of a photon and spin states</title>
+      <link>/resources/more-on-superposition-general-state-of-a-photon-and-spin-states/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/more-on-superposition-general-state-of-a-photon-and-spin-states/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>More on superposition. General state of a photon and spin states</title>
+      <link>/resources/more-on-superposition/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/more-on-superposition/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>More on the hydrogen atom degeneracies and orbits</title>
+      <link>/resources/more-on-the-hydrogen-atom-degeneracies-and-orbits/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/more-on-the-hydrogen-atom-degeneracies-and-orbits/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Motion of a wave-packet</title>
+      <link>/resources/motion-of-a-wave-packet/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/motion-of-a-wave-packet/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Necessity of complex numbers</title>
+      <link>/resources/necessity-of-complex-numbers/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/necessity-of-complex-numbers/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Necessity of complex numbers</title>
+      <link>/resources/necessity-of-complex-numbers2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/necessity-of-complex-numbers2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Node Theorem</title>
+      <link>/resources/node-theorem/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/node-theorem/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nodes and symmetries of the infinite square well eigenstates</title>
+      <link>/resources/nodes-and-symmetries-of-the-infinite-square-well-eigenstates/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/nodes-and-symmetries-of-the-infinite-square-well-eigenstates/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nondegeneracy of bound states in 1D. Real solutions</title>
+      <link>/resources/nondegeneracy-of-bound-states-in-1d/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/nondegeneracy-of-bound-states-in-1d/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Normalizable wavefunctions and the question of time evolution</title>
+      <link>/resources/normalizable-wavefunctions-and-the-question-of-time-evolution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/normalizable-wavefunctions-and-the-question-of-time-evolution/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Number operator and commutators</title>
+      <link>/resources/number-operator-and-commutators/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/number-operator-and-commutators/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Orbits in the hydrogen atom</title>
+      <link>/resources/orbits-in-the-hydrogen-atom/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/orbits-in-the-hydrogen-atom/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Orthonormality of spherical harmonics</title>
+      <link>/resources/orthonormality-of-spherical-harmonics/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/orthonormality-of-spherical-harmonics/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Parseval identity</title>
+      <link>/resources/parseval-identity/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/parseval-identity/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part 1: Basic Concepts</title>
+      <link>/pages/video-lectures/part-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/video-lectures/part-1/data.json</guid>
+      <description>&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;lec #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;topics&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Lecture 1: An overview of quantum mechanics.&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L1.1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/quantum-mechanics-as-a-framework/index.html&#34;&gt;Quantum mechanics as a framework. Defining linearity&lt;/a&gt; (17:46)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L1.2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/linearity-and-nonlinear-theories/index.html&#34;&gt;Linearity and nonlinear theories. Schrödinger&amp;rsquo;s equation&lt;/a&gt; (10:01)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L1.3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/necessity-of-complex-numbers/index.html&#34;&gt;Necessity of complex numbers&lt;/a&gt; (07:38)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L1.4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/photons-and-the-loss-of-determinism/index.html&#34;&gt;Photons and the loss of determinism&lt;/a&gt; (17:20)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L1.5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/the-nature-of-superposition/index.html&#34;&gt;The nature of superposition. Mach-Zehnder interferometer&lt;/a&gt; (14:30)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Lecture 2: Overview of quantum mechanics (cont.). Interaction-free measurements.&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L2.1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/more-on-superposition/index.html&#34;&gt;More on superposition. General state of a photon and spin states&lt;/a&gt; (17:10)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Part 2: Quantum Physics in One-dimensional Potentials</title>
+      <link>/pages/video-lectures/part-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/video-lectures/part-2/data.json</guid>
+      <description>&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;lec #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;topics&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Lecture 10: Uncertainty (cont.). Stationary states. Particle on a circle.&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L10.1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/uncertainty-and-eigenstates/index.html&#34;&gt;Uncertainty and eigenstates&lt;/a&gt; (15:53)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L10.2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/stationary-states-key-equations/index.html&#34;&gt;Stationary states: key equations&lt;/a&gt; (18:43)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L﻿10.3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/expectation-values-on-stationary-states/index.html&#34;&gt;Expectation values on stationary states&lt;/a&gt; (09:00)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L﻿10.4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/comments-on-the-spectrum-and-continuity-conditions/index.html&#34;&gt;Comments on the spectrum and continuity conditions&lt;/a&gt; (13:09)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L﻿10.5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/solving-particle-on-a-circle/index.html&#34;&gt;Solving particle on a circle&lt;/a&gt; (11:05)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Lecture 11: Uncertainty (cont.). Stationary states. Particle on a circle.&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L11.1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/energy-eigenstates-for-particle-on-a-circle/index.html&#34;&gt;Energy eigenstates for particle on a circle&lt;/a&gt; (16:12)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L11.2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/infinite-square-well-energy-eigenstates/index.html&#34;&gt;Infinite square well energy eigenstates&lt;/a&gt; (13:15)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Part 3: One-dimensional Scattering, Angular Momentum, and Central Potentials</title>
+      <link>/pages/video-lectures/part-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/video-lectures/part-3/data.json</guid>
+      <description>&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;lec #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;topics&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Lecture 19: Resonances and Breit-Wigner distribution. The complex k-plane.&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L19.1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/time-delay-and-resonances/index.html&#34;&gt;Time delay and resonances&lt;/a&gt; (18:18)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L19.2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/effects-of-resonance-on-phase-shifts-wave-amplitude-and-time-delay/index.html&#34;&gt;Effects of resonance on phase shifts, wave amplitude and time delay&lt;/a&gt; (14:53)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L19.3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/modelling-a-resonance/index.html&#34;&gt;Modelling a resonance&lt;/a&gt; (15:37)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L19.4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/half-width-and-time-delay/index.html&#34;&gt;Half-width and time delay&lt;/a&gt; (08:17)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L19.5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/resonances-in-the-complex-k-plane/index.html&#34;&gt;Resonances in the complex k plane&lt;/a&gt; (15:14)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Lecture 20: Central potentials and angular momentum.&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L20.1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/translation-operator/index.html&#34;&gt;Translation operator. Central potentials&lt;/a&gt; (19:13)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L20.2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../../resources/angular-momentum-operators-and-their-algebra/index.html&#34;&gt;Angular momentum operators and their algebra&lt;/a&gt; (14:28)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Particle on the forbidden region</title>
+      <link>/resources/particle-on-the-forbidden-region/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/particle-on-the-forbidden-region/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phase shift for a potential well</title>
+      <link>/resources/phase-shift-for-a-potential-well/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/phase-shift-for-a-potential-well/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Photons and the loss of determinism</title>
+      <link>/resources/photons-and-the-loss-of-determinism/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/photons-and-the-loss-of-determinism/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Photons and the loss of determinism</title>
+      <link>/resources/photons-and-the-loss-of-determinism2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/photons-and-the-loss-of-determinism2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Potentials that satisfy V(-x) = V(x)</title>
+      <link>/resources/potentials-that-satisfy-v-x-v-x/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/potentials-that-satisfy-v-x-v-x/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Probability current and current conservation</title>
+      <link>/resources/probability-current-and-current-conservation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/probability-current-and-current-conservation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Qualitative insights: Local de Broglie wavelength</title>
+      <link>/resources/qualitative-insights-local-de-broglie-wavelength/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/qualitative-insights-local-de-broglie-wavelength/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quantization of the energy</title>
+      <link>/resources/quantization-of-the-energy/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quantization-of-the-energy/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quantum mechanics as a framework. Defining linearity</title>
+      <link>/resources/quantum-mechanics-as-a-framework/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quantum-mechanics-as-a-framework/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ramsauer-Townsend phenomenology</title>
+      <link>/resources/ramsauer-townsend-phenomenology/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ramsauer-townsend-phenomenology/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reality condition in Fourier transforms</title>
+      <link>/resources/reality-condition-in-fourier-transforms/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/reality-condition-in-fourier-transforms/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recursion relation for the solution</title>
+      <link>/resources/recursion-relation-for-the-solution/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/recursion-relation-for-the-solution/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reflection and transmission coefficients</title>
+      <link>/resources/reflection-and-transmission-coefficients/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/reflection-and-transmission-coefficients/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resonances in the complex k plane</title>
+      <link>/resources/resonances-in-the-complex-k-plane/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/resonances-in-the-complex-k-plane/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resonant transmission</title>
+      <link>/resources/resonant-transmission/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/resonant-transmission/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rydberg atoms</title>
+      <link>/resources/rydberg-atoms/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rydberg-atoms/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scales of the hydrogen atom</title>
+      <link>/resources/scales-of-the-hydrogen-atom/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/scales-of-the-hydrogen-atom/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scattered wave and phase shift</title>
+      <link>/resources/scattered-wave-and-phase-shift/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/scattered-wave-and-phase-shift/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scattering in 1D. Incoming and outgoing waves</title>
+      <link>/resources/scattering-in-1d/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/scattering-in-1d/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scattering states and the step potential</title>
+      <link>/resources/scattering-states-and-the-step-potential/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/scattering-states-and-the-step-potential/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Schrödinger equation for hydrogen</title>
+      <link>/resources/schroedinger-equation-for-hydrogen/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/schroedinger-equation-for-hydrogen/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Series solution and quantization of the energy</title>
+      <link>/resources/series-solution-and-quantization-of-the-energy/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/series-solution-and-quantization-of-the-energy/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shape changes in a wave</title>
+      <link>/resources/shape-changes-in-a-wave/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/shape-changes-in-a-wave/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Simultaneous eigenstates and quantization of angular momentum</title>
+      <link>/resources/simultaneous-eigenstates-and-quantization-of-angular-momentum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/simultaneous-eigenstates-and-quantization-of-angular-momentum/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Solving particle on a circle</title>
+      <link>/resources/solving-particle-on-a-circle/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solving-particle-on-a-circle/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stationary states: key equations</title>
+      <link>/resources/stationary-states-key-equations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/stationary-states-key-equations/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Step potential probability current</title>
+      <link>/resources/step-potential-probability-current/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/step-potential-probability-current/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The frequency of a matter wave</title>
+      <link>/resources/the-frequency-of-a-matter-wave/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/the-frequency-of-a-matter-wave/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The general Schrödinger equation. x, p commutator</title>
+      <link>/resources/the-general-schroedinger-equation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/the-general-schroedinger-equation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The nature of superposition. Mach-Zehnder interferometer</title>
+      <link>/resources/the-nature-of-superposition-mach-zehnder-interferometer/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/the-nature-of-superposition-mach-zehnder-interferometer/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The nature of superposition. Mach-Zehnder interferometer</title>
+      <link>/resources/the-nature-of-superposition/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/the-nature-of-superposition/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The photoelectric effect</title>
+      <link>/resources/the-photoelectric-effect/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/the-photoelectric-effect/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The simplest quantum system</title>
+      <link>/resources/the-simplest-quantum-system/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/the-simplest-quantum-system/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The wave for a free particle</title>
+      <link>/resources/the-wave-for-a-free-particle/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/the-wave-for-a-free-particle/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Three dimensional current and conservation</title>
+      <link>/resources/three-dimensional-current-and-conservation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/three-dimensional-current-and-conservation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Three-dimensional Fourier transforms</title>
+      <link>/resources/three-dimensional-fourier-transforms/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/three-dimensional-fourier-transforms/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Time delay and resonances</title>
+      <link>/resources/time-delay-and-resonances/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/time-delay-and-resonances/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Time dependence of expectation values</title>
+      <link>/resources/time-dependence-of-expectation-values/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/time-dependence-of-expectation-values/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Time evolution of a free particle wavepacket</title>
+      <link>/resources/time-evolution-of-a-free-particle-wavepacket/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/time-evolution-of-a-free-particle-wavepacket/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Translation operator. Central potentials</title>
+      <link>/resources/translation-operator/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/translation-operator/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Uncertainty and eigenstates</title>
+      <link>/resources/uncertainty-and-eigenstates/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/uncertainty-and-eigenstates/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Units of h and Compton wavelength of particles</title>
+      <link>/resources/units-of-h-and-compton-wavelength-of-particles/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/units-of-h-and-compton-wavelength-of-particles/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Video Lectures</title>
+      <link>/pages/video-lectures/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/video-lectures/data.json</guid>
+      <description>&lt;p&gt;The videos in this course are broadly divided into three parts:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../pages/video-lectures/part-1/index.html&#34;&gt;&lt;strong&gt;Part 1: Basic Concepts&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;In Part 1, we introduce the basic concepts: Interpretation of the wavefunction, relation to probability, Schrödinger equation, Hermitian operators and inner products. We also discuss wave-packets, time evolution, Ehrenfest theorem and uncertainty.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../pages/video-lectures/part-2/index.html&#34;&gt;&lt;strong&gt;Part 2: Quantum Physics in One-dimensional Potentials&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../pages/video-lectures/part-2/index.html&#34;&gt;&lt;/a&gt;Part 2 deals with solutions of the Schrödinger equation for one-dimensional potentials. We discuss stationary states and the key problems of a particle moving in: A circle, an infinite well, a finite square well, and a delta-function potential. We examine qualitative properties of the wavefunction. The harmonic oscillator is solved in two ways: Using the differential equation and using creation and annihilation operators. We study barrier penetration and the Ramsaur—Townsend effect.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wavepackets</title>
+      <link>/resources/wavepackets/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/wavepackets/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wavepackets and Fourier representation</title>
+      <link>/resources/wavepackets-and-fourier-representation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/wavepackets-and-fourier-representation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wavepackets with energy below the barrier</title>
+      <link>/resources/wavepackets-with-energy-below-the-barrier/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/wavepackets-with-energy-below-the-barrier/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Waves on the finite square well</title>
+      <link>/resources/waves-on-the-finite-square-well/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/waves-on-the-finite-square-well/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Widths and uncertainties</title>
+      <link>/resources/widths-and-uncertainties/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/widths-and-uncertainties/data.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

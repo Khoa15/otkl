@@ -1,0 +1,51 @@
+{
+  "content": "<p><strong>Description:</strong> In this lecture, students had interactive discussion with <a   class=\"external-link \"   target=\"_blank\"   href=\"http://www.incose.org/\"  aria-label=\"INCOSE (opens in a new tab)\"  >INCOSE</a> Board of Directors.</p>\n<p><strong>Instructor:</strong> Olivier de Weck</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "220255692",
+  "file_type": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Class Videos",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Session 7: Miscellaneous Topics - MBSE and Introduction to CAD",
+  "uid": "3fcf152b-5867-a483-7d6e-0f7de78eaba6",
+  "video_files": {
+    "archive_url": "https://archive.org/download/MIT16.842F15/MIT16_842F15_S07_SPOC_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/0ee06b4905155719af34d41d4ee55fde_dv8Dbyfcrd4.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/dv8Dbyfcrd4/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/6d1ebbe9ac93931527a09c41e2865de7_dv8Dbyfcrd4.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "16-842-fundamentals-of-systems-engineering-fall-2015, design process, design review, incose, international council on systems engineering, systems engineering",
+    "youtube_id": "dv8Dbyfcrd4"
+  }
+}

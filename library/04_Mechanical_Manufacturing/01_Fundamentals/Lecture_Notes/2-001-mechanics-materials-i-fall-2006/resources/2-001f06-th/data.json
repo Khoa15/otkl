@@ -1,0 +1,21 @@
+{
+  "content": "<p>New image Upload</p>\n",
+  "content_type": "resource",
+  "description": "New image Upload",
+  "draft": false,
+  "file": "/courses/2-001-mechanics-materials-i-fall-2006/3846e0ea5496e87280359458c7103530_2-001f06-th.jpg",
+  "file_size": 10868,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "The loading caused by Hurricane Katrina brought down this roadway over Bay St. Louis, Mississippi. (Photo courtesy of {{% resource_link \"92865c59-51a9-4726-8146-06dd933ae6d9\" \"NIST\" %}}.)",
+    "credit": "",
+    "image-alt": "Photo of collapsed concrete bridge roadway over water."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "2-001f06-th.jpg",
+  "uid": "3846e0ea-5496-e872-8035-9458c7103530"
+}

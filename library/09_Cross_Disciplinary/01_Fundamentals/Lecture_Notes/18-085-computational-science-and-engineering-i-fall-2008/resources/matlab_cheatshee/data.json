@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>Reference material for using MATLAB.</p>\n",
+  "content_type": "resource",
+  "description": "Reference material for using MATLAB.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/d0a8d324b565f8ad93661a7961d9e3f0_matlab_cheatshee.pdf",
+  "file_size": 81322,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Readings"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Study Materials",
+  "parent_type": "CourseSection",
+  "parent_uid": "df610098-8ebd-ba68-b43f-7d3a6f71d7c5",
+  "resourcetype": "Document",
+  "title": "MATLAB cheat sheet",
+  "uid": "d0a8d324-b565-f8ad-9366-1a7961d9e3f0",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

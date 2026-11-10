@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;Along with the complete set of &lt;a href=&#34;../../pages/lecture-notes/index.html&#34;&gt;lecture notes&lt;/a&gt;, the following readings were assigned in the class:&lt;/p&gt;&#xA;&lt;p&gt;Sutton, George, and Oscar Biblarz. &lt;em&gt;Rocket Propulsion Elements&lt;/em&gt;. New York, NY: Wiley-Interscience, 2000. ISBN: 0471326429.&lt;/p&gt;&#xA;&lt;p&gt;Hill, Philip and Carl Peterson. &lt;em&gt;Mechanics and Thermodynamics of Propulsion&lt;/em&gt;. Upper Saddle River, NJ: Prentice Hall, 1991. ISBN: 0201146592.&lt;/p&gt;&#xA;&lt;p&gt;Rohsenow, Warren, James Hartnett, and Young Cho. &lt;em&gt;Handbook of Heat Transfer&lt;/em&gt;. New York, NY: McGraw-Hill, 1998. ISBN: 0070535558.&lt;/p&gt;&#xA;&lt;p&gt;McAdams, William Henry. &lt;em&gt;Heat Transmission&lt;/em&gt;. Melbourne, FL: Krieger Publishing, 1985, pp. 82-97. ISBN: 0898748763.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_1.pdf</title>
+      <link>/resources/lecture_1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_1/data.json</guid>
+      <description>&lt;p&gt;This resource contains types of rockets and types of engines used in them.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_10.pdf</title>
+      <link>/resources/lecture_10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_10/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>lecture_11.pdf</title>
+      <link>/resources/lecture_11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_11/data.json</guid>
+      <description>&lt;p&gt;This resource contains radiative losses, emissivity of water vapours and carbon dioxide.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_12.pdf</title>
+      <link>/resources/lecture_12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_12/data.json</guid>
+      <description>&lt;p&gt;This resource contains frozen, equilibrium expansion, Stoichiometry and Jet engine combustors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_13.pdf</title>
+      <link>/resources/lecture_13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_13/data.json</guid>
+      <description>&lt;p&gt;This resource contains numerical iteration procedure, corrected temperature, corrected minor species and entropy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_14.pdf</title>
+      <link>/resources/lecture_14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_14/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about reacting Nozzle Flow, Frozen Flow calculation and shuttle main engine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_15.pdf</title>
+      <link>/resources/lecture_15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_15/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about solid propellant and rocket fundamentals.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_16.pdf</title>
+      <link>/resources/lecture_16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_16/data.json</guid>
+      <description>&lt;p&gt;This resource contains information about solid propellants.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_17_18.pdf</title>
+      <link>/resources/lecture_17_18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_17_18/data.json</guid>
+      <description>&lt;p&gt;This resource contains combustion of solid propellants, combustion of composite propellant, burn rates, and rates and AP flame structure.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_19.pdf</title>
+      <link>/resources/lecture_19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_19/data.json</guid>
+      <description>&lt;p&gt;This resource contains table on fuels and oxidizers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_2.pdf</title>
+      <link>/resources/lecture_2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_2/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about rocket thrust, momentum balance, thrust equation, jet power and Stagnation Enthalpy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_20.pdf</title>
+      <link>/resources/lecture_20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_20/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about simplified drop-wise liquid combustion theory, drop vaporization and spray combustion, single-drop combustion, order of magnitude and vaporization time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_21.pdf</title>
+      <link>/resources/lecture_21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_21/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about liquid motors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_22.pdf</title>
+      <link>/resources/lecture_22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_22/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about combustion stability and methods of analysis for low frequency instabilities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_23.pdf</title>
+      <link>/resources/lecture_23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_23/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about combustion instability, methods of analysis for high frequency instabilities, general conditions for instability, control of instabilities and acoustic absorbers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_24.pdf</title>
+      <link>/resources/lecture_24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_24/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about thrust chamber pressurization, gas pressurization systems, titanium and figure on schematic of gas pressurization system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_25.pdf</title>
+      <link>/resources/lecture_25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_25/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about turbopump pressurization systems, pressurization cycles, gas generator cycle, expander cycle and staged combustion cycle.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_26.pdf</title>
+      <link>/resources/lecture_26/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_26/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about turbopump components and centrifugal turbopumps.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_27.pdf</title>
+      <link>/resources/lecture_27/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_27/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about impulse turbine, velocity compounding, general performance relationships for turbines and blade root stress.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_28.pdf</title>
+      <link>/resources/lecture_28/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_28/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about integration and rotordynamics of turbo pumps and table on hydrostatic bearing benefits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_29.pdf</title>
+      <link>/resources/lecture_29/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_29/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about Turbopump Rotor Dynamics, forced and self- excited vibrations, sources of Rotor-Dynamic excitation and cross-coupled forces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_3.pdf</title>
+      <link>/resources/lecture_3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_3/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about Ideal Nozzle Flow with no separation, choice of optimum expansion for a rocket flying through an atmosphere, Ideal gas, and Nozzle Flow separation effects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_30.pdf</title>
+      <link>/resources/lecture_30/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_30/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about dynamics of the space shuttle main engine oxidizer pressurization subsystems, inertia of LOX in pre-burner common supply line, Fluid Capacitance in preburner LOX supply line and table on dynamics of LOX pressurization subsystem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_32.pdf</title>
+      <link>/resources/lecture_32/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_32/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about mission planning and staging, impulsive Thrusting-Gravity losses, optimum staging and review of Orbital Dynamics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_33.pdf</title>
+      <link>/resources/lecture_33/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_33/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about calculations for launches to low earth orbit, ideal Earth-to-Orbit launch, effects of Earth?s rotation and orbit inclination.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_34.pdf</title>
+      <link>/resources/lecture_34/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_34/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about calculations for launch to geostationary orbit, idealized direct GTO injection, idealized two burn GTO injection and equatorial launch.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_35_36.pdf</title>
+      <link>/resources/lecture_35_36/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_35_36/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about low thrust maneuvers and re-positing within an orbit, hyperbolic orbits, interplanetary transfer, impact parameter and spheres of influence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_37.pdf</title>
+      <link>/resources/lecture_37/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_37/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about liquid rockets, solid rockets, hybrid rockets and nuclear rockets.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_4_5.pdf</title>
+      <link>/resources/lecture_4_5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_4_5/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about boundary with prescribed pressure, 2-D Spike Nozzle and XRS-2200 engine data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_6.pdf</title>
+      <link>/resources/lecture_6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_6/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about effect of solid or liquid particles in Nozzle Flow and criterion for slip.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_7.pdf</title>
+      <link>/resources/lecture_7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_7/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about heat transfer in Rocket Nozzles, convective heat transfer, enthalpy, heat flux at the wall, viscous dissipation and Bartz heat flux formula.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_8.pdf</title>
+      <link>/resources/lecture_8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_8/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about overall heat loss and performance effects of heat loss.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture_9.pdf</title>
+      <link>/resources/lecture_9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_9/data.json</guid>
+      <description>&lt;p&gt;This resource contains informations about cooling of liquid propellant rockets, regenerative cooling and stresses in cooled Nozzle Walls.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

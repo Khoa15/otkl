@@ -1,0 +1,3499 @@
+1
+00:00:00,090 --> 00:00:02,490
+The following content is
+provided under a Creative
+
+2
+00:00:02,490 --> 00:00:04,030
+Commons license.
+
+3
+00:00:04,030 --> 00:00:06,330
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:06,330 --> 00:00:10,720
+continue to offer high quality
+educational resources for free.
+
+5
+00:00:10,720 --> 00:00:13,320
+To make a donation or
+view additional materials
+
+6
+00:00:13,320 --> 00:00:17,280
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:17,280 --> 00:00:18,450
+at ocw.mit.edu.
+
+8
+00:00:21,970 --> 00:00:24,790
+DENNIS FREEMAN:
+So today the idea
+
+9
+00:00:24,790 --> 00:00:27,880
+is to think about CT systems
+in exactly the same way
+
+10
+00:00:27,880 --> 00:00:31,852
+that we thought about
+DT systems last time.
+
+11
+00:00:31,852 --> 00:00:33,310
+For the past couple
+of weeks, we've
+
+12
+00:00:33,310 --> 00:00:36,320
+been looking at many
+representations of both CT
+
+13
+00:00:36,320 --> 00:00:37,360
+and DT systems.
+
+14
+00:00:37,360 --> 00:00:42,250
+Last lecture we made a picture
+of a bunch of different ways
+
+15
+00:00:42,250 --> 00:00:43,960
+to think about DT
+systems and we tried
+
+16
+00:00:43,960 --> 00:00:47,610
+to think about
+relations between them.
+
+17
+00:00:47,610 --> 00:00:49,690
+The new thing from
+last time was this idea
+
+18
+00:00:49,690 --> 00:00:53,200
+of a z transform, which formally
+is the link between a system
+
+19
+00:00:53,200 --> 00:00:56,380
+function, a function
+of z, and a unit sample
+
+20
+00:00:56,380 --> 00:01:00,849
+response, a function of n.
+
+21
+00:01:00,849 --> 00:01:02,640
+We showed last time
+that because we already
+
+22
+00:01:02,640 --> 00:01:04,800
+understand a whole lot of
+these other connections
+
+23
+00:01:04,800 --> 00:01:08,292
+that connection is
+very straightforward.
+
+24
+00:01:08,292 --> 00:01:10,000
+What we're going to
+do today is precisely
+
+25
+00:01:10,000 --> 00:01:13,150
+the same thing for CT.
+
+26
+00:01:13,150 --> 00:01:15,559
+The boxes barely changed.
+
+27
+00:01:15,559 --> 00:01:17,350
+You should see the
+relationship immediately
+
+28
+00:01:17,350 --> 00:01:19,600
+between the former set of
+boxes and this set of boxes.
+
+29
+00:01:23,200 --> 00:01:25,750
+And we'll do a
+very similar thing.
+
+30
+00:01:25,750 --> 00:01:27,790
+We'll look at a relationship
+between the system
+
+31
+00:01:27,790 --> 00:01:30,280
+function, which is
+a function of s,
+
+32
+00:01:30,280 --> 00:01:33,820
+and the impulse response,
+which is a function of t.
+
+33
+00:01:33,820 --> 00:01:35,980
+We'll look at that
+similar function for CT,
+
+34
+00:01:35,980 --> 00:01:39,100
+the thing that's analogous
+to the z transform in DT.
+
+35
+00:01:39,100 --> 00:01:42,790
+So Laplace transform,
+just like in DT
+
+36
+00:01:42,790 --> 00:01:45,360
+where it maps a function
+of time to a function of z,
+
+37
+00:01:45,360 --> 00:01:48,790
+here it maps a function
+of time, which in CT we'll
+
+38
+00:01:48,790 --> 00:01:49,840
+write that way.
+
+39
+00:01:49,840 --> 00:01:54,100
+It maps that to a function of s.
+
+40
+00:01:54,100 --> 00:02:01,564
+So s is going to be
+something like x of t
+
+41
+00:02:01,564 --> 00:02:04,500
+e to the minus st dt.
+
+42
+00:02:04,500 --> 00:02:07,000
+So the idea is going to be that
+this was a function of time.
+
+43
+00:02:07,000 --> 00:02:08,465
+This is only a function of s.
+
+44
+00:02:08,465 --> 00:02:10,090
+We get the function
+of s by integrating
+
+45
+00:02:10,090 --> 00:02:12,610
+some function of time,
+but we integrate time out
+
+46
+00:02:12,610 --> 00:02:14,390
+so time disappears.
+
+47
+00:02:14,390 --> 00:02:15,820
+So the idea then
+is that we end up
+
+48
+00:02:15,820 --> 00:02:21,940
+with a map linking a function
+of time to a function of s.
+
+49
+00:02:21,940 --> 00:02:24,080
+Presumably you've
+seen this before.
+
+50
+00:02:24,080 --> 00:02:27,860
+This is a topic in 1803.
+
+51
+00:02:27,860 --> 00:02:29,060
+Smile.
+
+52
+00:02:29,060 --> 00:02:29,900
+Nod your head.
+
+53
+00:02:29,900 --> 00:02:32,090
+Make me feel like I'm
+connecting to you, right.
+
+54
+00:02:32,090 --> 00:02:33,960
+Right, so you've all
+seen this before.
+
+55
+00:02:33,960 --> 00:02:35,180
+Nothing's new.
+
+56
+00:02:35,180 --> 00:02:37,640
+Actually there is one
+tiny thing that's new.
+
+57
+00:02:37,640 --> 00:02:39,770
+In 1803 they use a
+variant of the Laplace
+
+58
+00:02:39,770 --> 00:02:42,800
+transform that we will
+call the unilateral Laplace
+
+59
+00:02:42,800 --> 00:02:45,485
+transform, which means they
+started their integrals at 0.
+
+60
+00:02:47,990 --> 00:02:50,930
+For reasons that will be clear
+at the very end of the course,
+
+61
+00:02:50,930 --> 00:02:55,200
+when we do Fourier
+transforms to make
+
+62
+00:02:55,200 --> 00:02:57,840
+the transition between this kind
+of a transform and a Fourier
+
+63
+00:02:57,840 --> 00:03:01,200
+transform easier we
+will do something
+
+64
+00:03:01,200 --> 00:03:03,930
+called a bilateral transform.
+
+65
+00:03:03,930 --> 00:03:06,540
+The only difference being that
+we will start our integrals
+
+66
+00:03:06,540 --> 00:03:09,040
+at minus infinity.
+
+67
+00:03:09,040 --> 00:03:13,650
+There are subtle differences
+between those two transforms.
+
+68
+00:03:13,650 --> 00:03:18,360
+Rest assured, that the
+big picture is identical.
+
+69
+00:03:18,360 --> 00:03:20,880
+And when there is an
+important difference
+
+70
+00:03:20,880 --> 00:03:23,740
+we will point that out.
+
+71
+00:03:23,740 --> 00:03:27,030
+So for the rest of today and
+for the rest of two weeks
+
+72
+00:03:27,030 --> 00:03:29,910
+I will only talk about
+bilateral transforms, the kind
+
+73
+00:03:29,910 --> 00:03:31,710
+that we integrate
+over all of time.
+
+74
+00:03:34,602 --> 00:03:36,310
+And the easiest way
+I know to get started
+
+75
+00:03:36,310 --> 00:03:38,050
+is to just try some, right.
+
+76
+00:03:38,050 --> 00:03:40,570
+You could study
+properties of the math.
+
+77
+00:03:40,570 --> 00:03:42,750
+That's probably the way
+it was studied in 1803.
+
+78
+00:03:42,750 --> 00:03:47,700
+I find it easier to develop some
+intuition for what's going on
+
+79
+00:03:47,700 --> 00:03:50,760
+here by just doing some.
+
+80
+00:03:50,760 --> 00:03:52,500
+So here's probably
+the simplest Laplace
+
+81
+00:03:52,500 --> 00:03:55,140
+transform we'll look at.
+
+82
+00:03:55,140 --> 00:03:59,220
+What's the Laplace transform
+of a function of time
+
+83
+00:03:59,220 --> 00:04:02,370
+that exponentially decays
+with positive time in a 0
+
+84
+00:04:02,370 --> 00:04:06,000
+for time less than 0?
+
+85
+00:04:06,000 --> 00:04:09,000
+As you might expect, the
+first transform we'll do
+
+86
+00:04:09,000 --> 00:04:12,420
+involve simply plugging
+that mathematical formula
+
+87
+00:04:12,420 --> 00:04:14,890
+into the definition.
+
+88
+00:04:14,890 --> 00:04:18,240
+So the x of s, the
+Laplace transform,
+
+89
+00:04:18,240 --> 00:04:20,910
+is always the function of
+time integrated against e
+
+90
+00:04:20,910 --> 00:04:23,370
+to the minus st.
+
+91
+00:04:23,370 --> 00:04:25,680
+We're only doing
+bilateral but notice
+
+92
+00:04:25,680 --> 00:04:29,460
+that the 0 for t less than
+0 cuts off the bottom.
+
+93
+00:04:29,460 --> 00:04:31,230
+So in fact, you would
+get the same answer
+
+94
+00:04:31,230 --> 00:04:35,760
+if you did bilateral
+or unilateral.
+
+95
+00:04:35,760 --> 00:04:40,170
+And then we're left with
+running this integral
+
+96
+00:04:40,170 --> 00:04:43,950
+over infinite time this kind
+of a function, which comes out
+
+97
+00:04:43,950 --> 00:04:45,880
+looking like this.
+
+98
+00:04:45,880 --> 00:04:49,650
+The only tricky thing is
+thinking about the implications
+
+99
+00:04:49,650 --> 00:04:53,080
+of that infinity thing.
+
+100
+00:04:53,080 --> 00:04:56,550
+There's going to be certain
+values of s for which
+
+101
+00:04:56,550 --> 00:05:00,180
+that integral diverges.
+
+102
+00:05:00,180 --> 00:05:03,140
+So to think about that,
+think about the thing
+
+103
+00:05:03,140 --> 00:05:04,480
+that we're integrating.
+
+104
+00:05:04,480 --> 00:05:09,480
+We're integrating something
+that looks like e to the pt.
+
+105
+00:05:09,480 --> 00:05:12,620
+We're integrating
+against some function.
+
+106
+00:05:12,620 --> 00:05:16,240
+So define the original function
+of time is e to the minus t,
+
+107
+00:05:16,240 --> 00:05:17,990
+here we have e to the
+minus st. Let's just
+
+108
+00:05:17,990 --> 00:05:22,970
+focus on that one for a
+moment, the e to the st thing.
+
+109
+00:05:22,970 --> 00:05:25,280
+We're going to generally be
+worried about values of s,
+
+110
+00:05:25,280 --> 00:05:28,550
+or here, values of p,
+that have complex values.
+
+111
+00:05:28,550 --> 00:05:30,800
+We're going to be looking
+at the s plane just the same
+
+112
+00:05:30,800 --> 00:05:32,665
+as last time we
+looked at the z plane.
+
+113
+00:05:32,665 --> 00:05:34,790
+So we're going to think
+about this thing might have
+
+114
+00:05:34,790 --> 00:05:36,155
+a real and imaginary component.
+
+115
+00:05:36,155 --> 00:05:38,155
+So we might have something
+like looks like this.
+
+116
+00:05:41,860 --> 00:05:45,280
+Sigma would be the
+real part of p.
+
+117
+00:05:45,280 --> 00:05:48,790
+Omega would be the
+imaginary part of p.
+
+118
+00:05:48,790 --> 00:05:52,420
+And somebody want
+to hazard a guess
+
+119
+00:05:52,420 --> 00:05:55,720
+at what that might look
+like if I tried to expand it
+
+120
+00:05:55,720 --> 00:05:58,880
+as a real and imaginary part?
+
+121
+00:05:58,880 --> 00:06:01,360
+Someone wanted to hazard
+a guess at the name
+
+122
+00:06:01,360 --> 00:06:02,920
+of the equation I might use?
+
+123
+00:06:05,430 --> 00:06:06,760
+AUDIENCE: Euler.
+
+124
+00:06:06,760 --> 00:06:08,700
+DENNIS FREEMAN:
+Euler's equation, sure.
+
+125
+00:06:08,700 --> 00:06:10,500
+So I would expand this
+by Euler's equation
+
+126
+00:06:10,500 --> 00:06:12,840
+and I get something of
+the form e to the sigma t,
+
+127
+00:06:12,840 --> 00:06:17,460
+cos omega t plus j sine omega t.
+
+128
+00:06:20,547 --> 00:06:22,880
+The point of writing
+that out is that I
+
+129
+00:06:22,880 --> 00:06:25,220
+hope it's clear that
+convergence of the integral
+
+130
+00:06:25,220 --> 00:06:29,765
+is going to depend critically on
+the real or the imaginary part?
+
+131
+00:06:29,765 --> 00:06:32,890
+Real, right?
+
+132
+00:06:32,890 --> 00:06:35,169
+So the convergence is going
+to be determined by this.
+
+133
+00:06:35,169 --> 00:06:37,210
+This is the thing that's
+affecting the magnitude.
+
+134
+00:06:37,210 --> 00:06:39,251
+That's the thing that's
+getting smaller or bigger
+
+135
+00:06:39,251 --> 00:06:42,980
+as I go to infinity
+or minus infinity.
+
+136
+00:06:42,980 --> 00:06:48,330
+The cosine term, the sine
+term, those are oscillating.
+
+137
+00:06:48,330 --> 00:06:53,460
+They don't make the function
+be more or less convergent
+
+138
+00:06:53,460 --> 00:06:55,867
+than it was or originally.
+
+139
+00:06:55,867 --> 00:06:57,450
+So when I'm thinking
+about convergence
+
+140
+00:06:57,450 --> 00:07:00,240
+I'm going to be thinking
+about the real part.
+
+141
+00:07:00,240 --> 00:07:04,320
+So over here if I want to
+make this integral converge
+
+142
+00:07:04,320 --> 00:07:07,305
+I want to be thinking about
+t going from 0 to infinity.
+
+143
+00:07:07,305 --> 00:07:08,730
+Well, 0 is not a problem.
+
+144
+00:07:08,730 --> 00:07:11,530
+e to the 0 is 1,
+that's going to work.
+
+145
+00:07:11,530 --> 00:07:13,420
+It's the infinity
+part that's a problem.
+
+146
+00:07:13,420 --> 00:07:17,160
+So if I have infinity
+plugged in for t,
+
+147
+00:07:17,160 --> 00:07:21,060
+what's the range of values for
+s for plus 1 that makes sense?
+
+148
+00:07:21,060 --> 00:07:24,300
+That's the important
+question, right.
+
+149
+00:07:24,300 --> 00:07:26,010
+So I'm going to
+want to constrain
+
+150
+00:07:26,010 --> 00:07:31,770
+the real part of that number,
+s plus 1, to be bigger than 0.
+
+151
+00:07:31,770 --> 00:07:34,320
+If the real part of that
+number is bigger than 0,
+
+152
+00:07:34,320 --> 00:07:36,300
+then this thing
+will converge to 0.
+
+153
+00:07:39,560 --> 00:07:42,180
+If that converges to 0 then
+I have a simple answer,
+
+154
+00:07:42,180 --> 00:07:43,940
+it's just the answer
+in the bottom.
+
+155
+00:07:43,940 --> 00:07:46,190
+It's in the bottom so I have
+to put a minus sign, that
+
+156
+00:07:46,190 --> 00:07:47,340
+kills that minus sign.
+
+157
+00:07:47,340 --> 00:07:50,000
+So my answer is 1 over s plus 1.
+
+158
+00:07:50,000 --> 00:07:51,230
+Easy, right?
+
+159
+00:07:51,230 --> 00:07:54,680
+And we will say that the Laplace
+transform has a functional
+
+160
+00:07:54,680 --> 00:07:56,322
+form, 1 over s plus 1.
+
+161
+00:07:56,322 --> 00:07:58,280
+And it has region of
+convergence, the real part
+
+162
+00:07:58,280 --> 00:07:59,485
+of s bigger then minus 1.
+
+163
+00:07:59,485 --> 00:08:02,030
+Just solving that inequality
+for the real part of s so
+
+164
+00:08:02,030 --> 00:08:04,190
+I can draw it on an s plane.
+
+165
+00:08:04,190 --> 00:08:06,590
+So we'll associate
+then with this
+
+166
+00:08:06,590 --> 00:08:11,480
+s transform a picture which we
+will commonly call the pole 0
+
+167
+00:08:11,480 --> 00:08:12,630
+pattern.
+
+168
+00:08:12,630 --> 00:08:16,350
+Is just a picture
+of the s plane which
+
+169
+00:08:16,350 --> 00:08:20,890
+shows me the singularities, the
+poles and zeroes of the Laplace
+
+170
+00:08:20,890 --> 00:08:23,469
+transform and the
+region of convergence.
+
+171
+00:08:23,469 --> 00:08:24,510
+So there's a single pole.
+
+172
+00:08:24,510 --> 00:08:27,110
+There's a pole at
+s equals a minus 1,
+
+173
+00:08:27,110 --> 00:08:29,940
+so I indicate that by the x.
+
+174
+00:08:29,940 --> 00:08:32,880
+And I have region of convergence
+which I'll illustrate here
+
+175
+00:08:32,880 --> 00:08:35,650
+with the gray area.
+
+176
+00:08:35,650 --> 00:08:39,480
+So it converges for all values
+of s that are in the gray area.
+
+177
+00:08:39,480 --> 00:08:41,010
+OK, easy right?
+
+178
+00:08:41,010 --> 00:08:43,140
+Trivial.
+
+179
+00:08:43,140 --> 00:08:46,400
+OK, so now you get to
+talk to your neighbor.
+
+180
+00:08:46,400 --> 00:08:47,700
+OK, turn to your neighbor.
+
+181
+00:08:47,700 --> 00:08:49,110
+Say, hi.
+
+182
+00:08:49,110 --> 00:08:51,030
+[INTERPOSING VOICES]
+
+183
+00:08:51,030 --> 00:08:53,190
+And figure out the
+Laplace transform
+
+184
+00:08:53,190 --> 00:08:56,090
+of a slightly more, but not
+very complicated, function.
+
+185
+00:09:01,080 --> 00:09:04,573
+[INTERPOSING VOICES]
+
+186
+00:10:53,060 --> 00:10:54,999
+DENNIS FREEMAN: So
+what's the answer?
+
+187
+00:10:54,999 --> 00:10:57,290
+Everybody raise your hands,
+show some number of fingers
+
+188
+00:10:57,290 --> 00:11:01,700
+equal to the number of
+the correct solution.
+
+189
+00:11:01,700 --> 00:11:04,620
+Wonderful.
+
+190
+00:11:04,620 --> 00:11:08,000
+The universal answer-- I think
+it was universal-- was 1.
+
+191
+00:11:08,000 --> 00:11:09,210
+So how do you get 1?
+
+192
+00:11:09,210 --> 00:11:12,057
+What do I do?
+
+193
+00:11:12,057 --> 00:11:14,390
+How do I find the Laplace
+transform of the top function?
+
+194
+00:11:14,390 --> 00:11:17,680
+[INAUDIBLE]
+
+195
+00:11:21,450 --> 00:11:22,900
+DENNIS FREEMAN: Precisely.
+
+196
+00:11:22,900 --> 00:11:27,060
+So what I do is just stick it
+in the formula, do it twice.
+
+197
+00:11:27,060 --> 00:11:30,030
+Laplace transform, like
+the z transform, is linear.
+
+198
+00:11:30,030 --> 00:11:32,400
+It will turn out that
+the Laplace of a sum
+
+199
+00:11:32,400 --> 00:11:33,585
+is the sum of the Laplaces.
+
+200
+00:11:39,190 --> 00:11:44,142
+If I simply stick the expression
+for x2 into the definition,
+
+201
+00:11:44,142 --> 00:11:45,725
+you can see it splits
+into two pieces.
+
+202
+00:11:48,320 --> 00:11:50,090
+And I get two parts.
+
+203
+00:11:50,090 --> 00:11:52,520
+1 over s plus 1
+just like I got--
+
+204
+00:11:52,520 --> 00:11:56,820
+so the first part looks just
+like x1, the first example.
+
+205
+00:11:56,820 --> 00:11:58,340
+The second one looks
+almost the same
+
+206
+00:11:58,340 --> 00:12:00,980
+except there's a 2 where
+there used to be 1.
+
+207
+00:12:00,980 --> 00:12:06,050
+Shockingly, it changes
+one of the ones into a 2.
+
+208
+00:12:06,050 --> 00:12:09,570
+And then the only issue is where
+is the region of convergence.
+
+209
+00:12:09,570 --> 00:12:13,160
+So this part converges
+if the real part of s
+
+210
+00:12:13,160 --> 00:12:15,758
+is bigger than minus 1.
+
+211
+00:12:15,758 --> 00:12:21,030
+This converges if the real part
+of s is bigger than minus 2.
+
+212
+00:12:21,030 --> 00:12:22,950
+So they both converge
+if the real part of s
+
+213
+00:12:22,950 --> 00:12:24,740
+is bigger than minus?
+
+214
+00:12:24,740 --> 00:12:26,000
+AUDIENCE: 1.
+
+215
+00:12:26,000 --> 00:12:29,110
+DENNIS FREEMAN: 1, right.
+
+216
+00:12:29,110 --> 00:12:32,680
+If I'm in the region of s
+where both the first part
+
+217
+00:12:32,680 --> 00:12:37,449
+and the second part
+converges then I'm fine.
+
+218
+00:12:37,449 --> 00:12:38,990
+So that was all very
+straightforward.
+
+219
+00:12:38,990 --> 00:12:44,020
+I get an answer that
+was number one, OK.
+
+220
+00:12:44,020 --> 00:12:48,050
+So the transform is just
+the sum of those two pieces.
+
+221
+00:12:48,050 --> 00:12:49,750
+And the region is the
+region of overlap.
+
+222
+00:12:54,450 --> 00:12:55,980
+A more interesting
+case, and where
+
+223
+00:12:55,980 --> 00:12:57,390
+things are a little
+bit different when
+
+224
+00:12:57,390 --> 00:12:59,306
+we think about the
+bilateral Laplace transform
+
+225
+00:12:59,306 --> 00:13:01,890
+than unilateral,
+is that the regions
+
+226
+00:13:01,890 --> 00:13:05,850
+can be more complicated.
+
+227
+00:13:05,850 --> 00:13:12,020
+So here's an example where
+I've got a backwards traveling
+
+228
+00:13:12,020 --> 00:13:13,710
+function.
+
+229
+00:13:13,710 --> 00:13:15,980
+So now the function only
+exists for t less than 0.
+
+230
+00:13:20,059 --> 00:13:22,100
+As you might expect, just
+stick it in the formula
+
+231
+00:13:22,100 --> 00:13:24,240
+and see what happens.
+
+232
+00:13:24,240 --> 00:13:27,800
+So stick this
+expression into here.
+
+233
+00:13:27,800 --> 00:13:32,580
+Now it lips off the
+top of the integral.
+
+234
+00:13:32,580 --> 00:13:34,330
+But when you're grinding
+through integrals
+
+235
+00:13:34,330 --> 00:13:35,880
+it's hard to tell
+the difference.
+
+236
+00:13:35,880 --> 00:13:39,090
+You get something that
+looks very much the same.
+
+237
+00:13:39,090 --> 00:13:41,730
+The thing that is different,
+notice that the function
+
+238
+00:13:41,730 --> 00:13:42,960
+was upside down.
+
+239
+00:13:42,960 --> 00:13:45,720
+It was minus something
+rather than plus something
+
+240
+00:13:45,720 --> 00:13:48,600
+like the first example was.
+
+241
+00:13:48,600 --> 00:13:52,110
+So the first example was e to
+the minus t, t bigger than 0.
+
+242
+00:13:52,110 --> 00:13:55,470
+This example is minus e to
+the minus t, t less than 0.
+
+243
+00:13:58,540 --> 00:14:05,700
+That gave me a minus sign
+here but the nontrivial limit
+
+244
+00:14:05,700 --> 00:14:08,001
+is at the top rather
+than at the bottom.
+
+245
+00:14:08,001 --> 00:14:09,750
+That's the reason I
+put the minus sign in.
+
+246
+00:14:09,750 --> 00:14:11,333
+So it would kill the
+other minus sign.
+
+247
+00:14:14,180 --> 00:14:20,530
+Also, since I need convergence
+at t equals minus infinity,
+
+248
+00:14:20,530 --> 00:14:23,870
+the region flips.
+
+249
+00:14:23,870 --> 00:14:27,830
+I still need to have
+that sort of thing decay
+
+250
+00:14:27,830 --> 00:14:30,920
+so that the integral exists.
+
+251
+00:14:30,920 --> 00:14:34,620
+But now the functions
+are flipped in time.
+
+252
+00:14:34,620 --> 00:14:40,920
+So the important range
+of s is now flipped.
+
+253
+00:14:40,920 --> 00:14:46,980
+So now I get the same functional
+form exactly, but a region
+
+254
+00:14:46,980 --> 00:14:50,119
+that's on the other side.
+
+255
+00:14:50,119 --> 00:14:51,660
+That's one of the
+central differences
+
+256
+00:14:51,660 --> 00:14:57,560
+between the bilateral and
+the unilateral transform.
+
+257
+00:14:57,560 --> 00:14:59,540
+I need to tell you the
+region of convergence
+
+258
+00:14:59,540 --> 00:15:02,572
+for you to know which
+of those two functions
+
+259
+00:15:02,572 --> 00:15:03,530
+that I'm talking about.
+
+260
+00:15:07,400 --> 00:15:10,260
+OK, so the important
+thing from this example
+
+261
+00:15:10,260 --> 00:15:13,920
+is the functional form
+looks exactly the same.
+
+262
+00:15:13,920 --> 00:15:16,290
+I had a functional form
+in time, e to the minus t,
+
+263
+00:15:16,290 --> 00:15:18,390
+e to the minus t.
+
+264
+00:15:18,390 --> 00:15:21,000
+It was that functional
+form of time
+
+265
+00:15:21,000 --> 00:15:24,132
+that I crank through
+the integration for,
+
+266
+00:15:24,132 --> 00:15:25,590
+and it's not
+surprising then that I
+
+267
+00:15:25,590 --> 00:15:29,762
+get a functional form for the s
+transform that looks the same.
+
+268
+00:15:29,762 --> 00:15:31,720
+If you start with functional
+forms in time that
+
+269
+00:15:31,720 --> 00:15:34,875
+look the same, you get
+functional forms in s
+
+270
+00:15:34,875 --> 00:15:37,160
+that look the same.
+
+271
+00:15:37,160 --> 00:15:40,420
+However, since the
+region of t was
+
+272
+00:15:40,420 --> 00:15:45,990
+different for the two functions
+the region of s is different.
+
+273
+00:15:45,990 --> 00:15:47,400
+There's also the negative sign.
+
+274
+00:15:47,400 --> 00:15:52,190
+There's the fact that
+this flipped this way,
+
+275
+00:15:52,190 --> 00:15:55,220
+and that's related to the fact
+that my region of integration
+
+276
+00:15:55,220 --> 00:15:59,060
+extends from minus infinity
+to 0 versus 0 to infinity.
+
+277
+00:15:59,060 --> 00:16:04,160
+The important limit flipped
+from being the bottom limit
+
+278
+00:16:04,160 --> 00:16:06,020
+to the top limit.
+
+279
+00:16:06,020 --> 00:16:07,380
+OK, that's roughly it.
+
+280
+00:16:10,610 --> 00:16:12,960
+So just to make sure that
+everybody is with me,
+
+281
+00:16:12,960 --> 00:16:15,112
+what's the Laplace
+transform of this symmetric
+
+282
+00:16:15,112 --> 00:16:15,820
+looking function?
+
+283
+00:17:50,670 --> 00:17:53,147
+So which of those functions
+is the Laplace transform
+
+284
+00:17:53,147 --> 00:17:54,230
+of the symmetric function?
+
+285
+00:17:57,390 --> 00:18:00,750
+It's about 3 calories to
+raise your hand, right?
+
+286
+00:18:00,750 --> 00:18:03,420
+Good exercise,
+makes you breathe.
+
+287
+00:18:03,420 --> 00:18:06,130
+The answer is?
+
+288
+00:18:06,130 --> 00:18:07,110
+Oh, come on.
+
+289
+00:18:10,540 --> 00:18:14,960
+OK, it's more like 90% correct.
+
+290
+00:18:14,960 --> 00:18:17,540
+So not everybody has it right.
+
+291
+00:18:17,540 --> 00:18:19,330
+What am I going to do?
+
+292
+00:18:19,330 --> 00:18:21,330
+It's just like the
+last one, right?
+
+293
+00:18:21,330 --> 00:18:22,640
+Just stick it in.
+
+294
+00:18:25,850 --> 00:18:29,810
+If you think about writing
+the integral of this
+
+295
+00:18:29,810 --> 00:18:33,560
+the complicated part is this
+absolute value sine thing.
+
+296
+00:18:33,560 --> 00:18:36,050
+So split it into two parts,
+that way the absolute value
+
+297
+00:18:36,050 --> 00:18:37,790
+is one thing when
+t is bigger than 0
+
+298
+00:18:37,790 --> 00:18:39,831
+and it's a different thing
+when t is less than 0.
+
+299
+00:18:43,120 --> 00:18:45,910
+Now looks like just the
+sum of two functions that
+
+300
+00:18:45,910 --> 00:18:47,080
+are both trivial.
+
+301
+00:18:47,080 --> 00:18:49,689
+One is right sided, the
+other is left sided,
+
+302
+00:18:49,689 --> 00:18:51,730
+so we might be expecting
+something a little funky
+
+303
+00:18:51,730 --> 00:18:52,790
+compared to the last one.
+
+304
+00:18:57,230 --> 00:19:01,640
+So this guy that is
+left sided in time
+
+305
+00:19:01,640 --> 00:19:06,420
+ends up with a
+left-sided transform,
+
+306
+00:19:06,420 --> 00:19:09,040
+just like the previous examples.
+
+307
+00:19:09,040 --> 00:19:12,390
+So we see that this
+part, which looks
+
+308
+00:19:12,390 --> 00:19:17,680
+like a pole at 1, so
+we're going to get
+
+309
+00:19:17,680 --> 00:19:20,940
+a part of the transform
+that has a pole at 1.
+
+310
+00:19:20,940 --> 00:19:24,360
+And it's going to be valid
+for regions in s space
+
+311
+00:19:24,360 --> 00:19:28,450
+for s magnitude less than 1, OK.
+
+312
+00:19:28,450 --> 00:19:33,510
+Then we're going to get
+this other piece, that
+
+313
+00:19:33,510 --> 00:19:37,215
+corresponds to a pole minus 1.
+
+314
+00:19:37,215 --> 00:19:40,260
+And it's right sided, so
+like the right sided examples
+
+315
+00:19:40,260 --> 00:19:42,060
+that we saw before
+there's a right sided
+
+316
+00:19:42,060 --> 00:19:44,500
+region of convergence here.
+
+317
+00:19:44,500 --> 00:19:49,240
+So it's going to be right of its
+pole, but it's pole is minus 1.
+
+318
+00:19:49,240 --> 00:19:51,100
+So in sum, the
+region is going to be
+
+319
+00:19:51,100 --> 00:19:54,450
+to the right of the
+pole at minus 1,
+
+320
+00:19:54,450 --> 00:19:58,270
+and to the left of the
+pole at 1 because we
+
+321
+00:19:58,270 --> 00:19:59,650
+have to be in the
+part of s space
+
+322
+00:19:59,650 --> 00:20:04,520
+where both of those two
+integrals converged.
+
+323
+00:20:04,520 --> 00:20:09,870
+So we end up with the ROC
+being the intersection, OK.
+
+324
+00:20:09,870 --> 00:20:12,540
+So we get a pole 0 pattern
+that looks like this.
+
+325
+00:20:12,540 --> 00:20:14,580
+There are two poles now.
+
+326
+00:20:14,580 --> 00:20:16,329
+When you add
+together a part that
+
+327
+00:20:16,329 --> 00:20:18,120
+looks like a pole a
+minus 1 and a part that
+
+328
+00:20:18,120 --> 00:20:20,285
+looks like a pole at
+1, you get two poles.
+
+329
+00:20:23,500 --> 00:20:27,600
+And the region becomes
+the band in between.
+
+330
+00:20:27,600 --> 00:20:30,570
+Again, because the
+regions of s transforms
+
+331
+00:20:30,570 --> 00:20:32,640
+because of Euler's
+expression is determined
+
+332
+00:20:32,640 --> 00:20:35,750
+by the real part of s.
+
+333
+00:20:35,750 --> 00:20:39,926
+So that we're always going to
+get some kind of vertical band.
+
+334
+00:20:39,926 --> 00:20:42,050
+The band is always going
+to be delimited by a pole,
+
+335
+00:20:42,050 --> 00:20:45,810
+just like it was
+in a z transform.
+
+336
+00:20:45,810 --> 00:20:46,740
+There's two poles.
+
+337
+00:20:46,740 --> 00:20:48,240
+So all we really
+need to worry about
+
+338
+00:20:48,240 --> 00:20:51,330
+is which region
+bounded by two poles
+
+339
+00:20:51,330 --> 00:20:54,110
+we're going to correspond to.
+
+340
+00:20:54,110 --> 00:20:59,244
+OK, so the answer was two.
+
+341
+00:20:59,244 --> 00:21:00,910
+Written in a little
+bit of a funky form,
+
+342
+00:21:00,910 --> 00:21:03,160
+but if factor this you can
+see that there's two poles,
+
+343
+00:21:03,160 --> 00:21:04,881
+one at 1, and one at minus 1.
+
+344
+00:21:08,570 --> 00:21:11,930
+So hopefully that's all
+trivial, that's all stuff
+
+345
+00:21:11,930 --> 00:21:14,655
+you can do in your sleep.
+
+346
+00:21:14,655 --> 00:21:16,280
+What I want to do is
+think a little bit
+
+347
+00:21:16,280 --> 00:21:18,050
+about what the implications are.
+
+348
+00:21:18,050 --> 00:21:19,520
+What are we doing?
+
+349
+00:21:19,520 --> 00:21:24,440
+What is a region of convergence?
+
+350
+00:21:24,440 --> 00:21:28,330
+So I want to think now about
+four different functions,
+
+351
+00:21:28,330 --> 00:21:30,100
+in four different
+poles zero patterns,
+
+352
+00:21:30,100 --> 00:21:32,721
+in four different regions.
+
+353
+00:21:32,721 --> 00:21:34,720
+And I want to think about
+the defining integral,
+
+354
+00:21:34,720 --> 00:21:36,430
+that one up there.
+
+355
+00:21:36,430 --> 00:21:42,530
+I want to think about x of s is
+the integral over all of time
+
+356
+00:21:42,530 --> 00:21:46,210
+of x of te to the minus st dt.
+
+357
+00:21:46,210 --> 00:21:48,959
+What are we doing when we
+take a Laplace transform?
+
+358
+00:21:48,959 --> 00:21:50,500
+And what are we
+doing when we specify
+
+359
+00:21:50,500 --> 00:21:53,260
+a region of convergence?
+
+360
+00:21:53,260 --> 00:21:55,030
+Because I can help
+you think about
+
+361
+00:21:55,030 --> 00:21:57,280
+what should the answer
+be, which is helpful
+
+362
+00:21:57,280 --> 00:21:58,690
+when you're trying
+to think about
+
+363
+00:21:58,690 --> 00:22:00,160
+does my answer make any sense?
+
+364
+00:22:00,160 --> 00:22:03,520
+Or what am I doing anyway?
+
+365
+00:22:03,520 --> 00:22:07,870
+So x1, this was
+e to the minus t.
+
+366
+00:22:07,870 --> 00:22:10,292
+So it had a pole at minus 1
+in the region to the right.
+
+367
+00:22:10,292 --> 00:22:12,000
+Right-sided function,
+right-sided region.
+
+368
+00:22:14,840 --> 00:22:17,370
+Here we have a more
+complicated function,
+
+369
+00:22:17,370 --> 00:22:20,600
+which can be the sum
+of two poles, one
+
+370
+00:22:20,600 --> 00:22:23,962
+at minus 1 and 1 at minus 2.
+
+371
+00:22:23,962 --> 00:22:25,670
+And we got a region
+that was to the right
+
+372
+00:22:25,670 --> 00:22:27,770
+of the rightmost pole.
+
+373
+00:22:27,770 --> 00:22:29,540
+Right-sided function,
+right-sided region.
+
+374
+00:22:32,620 --> 00:22:36,080
+Here was x3, which was the
+negative part of that one.
+
+375
+00:22:36,080 --> 00:22:40,340
+We got the same pole minus
+1 one the left-sided region.
+
+376
+00:22:40,340 --> 00:22:42,619
+And here was the symmetric
+one where we found
+
+377
+00:22:42,619 --> 00:22:43,910
+that the region was in between.
+
+378
+00:22:43,910 --> 00:22:45,950
+So what I want to
+think now is what
+
+379
+00:22:45,950 --> 00:22:49,400
+happens when we have a
+particular value of s that
+
+380
+00:22:49,400 --> 00:22:51,110
+is inside or outside
+those regions.
+
+381
+00:22:51,110 --> 00:22:53,439
+What's really going on?
+
+382
+00:22:53,439 --> 00:22:54,980
+So let's start by
+thinking about what
+
+383
+00:22:54,980 --> 00:22:59,455
+would happen if I considered
+an s depicted by this red x.
+
+384
+00:22:59,455 --> 00:23:00,830
+I probably shouldn't
+have used x.
+
+385
+00:23:00,830 --> 00:23:02,900
+I should have
+probably used a star.
+
+386
+00:23:02,900 --> 00:23:04,550
+That's not a pole.
+
+387
+00:23:04,550 --> 00:23:09,050
+That's the value of
+s in this integral.
+
+388
+00:23:09,050 --> 00:23:12,970
+What happens if I choose to
+integrate against the function
+
+389
+00:23:12,970 --> 00:23:15,705
+e to the minus st where s is 0?
+
+390
+00:23:19,272 --> 00:23:21,230
+If I choose to integrate
+against that function,
+
+391
+00:23:21,230 --> 00:23:25,120
+that function as
+depicted by red here.
+
+392
+00:23:25,120 --> 00:23:26,660
+So the convergence
+of the integral,
+
+393
+00:23:26,660 --> 00:23:27,740
+the convergence of
+the thing that I'm
+
+394
+00:23:27,740 --> 00:23:29,690
+calling a Laplace
+transform depends entirely
+
+395
+00:23:29,690 --> 00:23:32,500
+on the convergence of x.
+
+396
+00:23:32,500 --> 00:23:34,030
+That's what s equals 0 means.
+
+397
+00:23:36,760 --> 00:23:40,820
+s equals 0 says, the
+converge of the transform
+
+398
+00:23:40,820 --> 00:23:44,810
+depends entirely on the
+convergence of the function.
+
+399
+00:23:44,810 --> 00:23:46,900
+So that means that this
+function converges,
+
+400
+00:23:46,900 --> 00:23:51,070
+it's in the region
+of convergence.
+
+401
+00:23:51,070 --> 00:23:55,310
+This one converges, it's in
+the region of convergence.
+
+402
+00:23:55,310 --> 00:23:59,750
+This one does not converge,
+this one diverges.
+
+403
+00:23:59,750 --> 00:24:03,890
+As you go to minus infinity
+the function is unbounded.
+
+404
+00:24:03,890 --> 00:24:06,320
+The transform doesn't exist.
+
+405
+00:24:06,320 --> 00:24:09,261
+s equals 0 is not in the region.
+
+406
+00:24:09,261 --> 00:24:10,135
+That's what it means.
+
+407
+00:24:12,920 --> 00:24:18,680
+Here, if I integrate against e
+to the 0 both sides converge,
+
+408
+00:24:18,680 --> 00:24:20,640
+there is no problem.
+
+409
+00:24:20,640 --> 00:24:21,440
+I'm in the region.
+
+410
+00:24:25,120 --> 00:24:27,960
+So now if I think about a
+different s, what if I move
+
+411
+00:24:27,960 --> 00:24:30,220
+s a little bit to the left?
+
+412
+00:24:30,220 --> 00:24:31,315
+Say, minus 1/2.
+
+413
+00:24:34,150 --> 00:24:38,000
+If I'm thinking about
+integrating against e
+
+414
+00:24:38,000 --> 00:24:40,410
+to the minus st, and
+if s is minus 1/2,
+
+415
+00:24:40,410 --> 00:24:44,120
+that's e to the 1/2 t.
+
+416
+00:24:44,120 --> 00:24:48,020
+e to the 1/2 t is a
+function that for all time
+
+417
+00:24:48,020 --> 00:24:50,730
+becomes greater as I go
+toward positive infinity,
+
+418
+00:24:50,730 --> 00:24:52,850
+exponentially greater.
+
+419
+00:24:52,850 --> 00:24:57,080
+So if I think about what happens
+if I multiplied this x of t
+
+420
+00:24:57,080 --> 00:25:01,500
+by that weighting
+function, does the product
+
+421
+00:25:01,500 --> 00:25:02,460
+converge or diverge?
+
+422
+00:25:05,990 --> 00:25:10,860
+It converges because the
+convergence of the blue line
+
+423
+00:25:10,860 --> 00:25:15,250
+is faster than the
+divergence of the red line.
+
+424
+00:25:15,250 --> 00:25:18,400
+Even though the red
+line is diverging,
+
+425
+00:25:18,400 --> 00:25:22,460
+the product is
+overall convergent.
+
+426
+00:25:22,460 --> 00:25:24,570
+OK that's because of
+the relative positions
+
+427
+00:25:24,570 --> 00:25:27,470
+of the red x and the blue x.
+
+428
+00:25:27,470 --> 00:25:30,860
+The blue function is converging
+faster than the red function is
+
+429
+00:25:30,860 --> 00:25:31,640
+diverging.
+
+430
+00:25:31,640 --> 00:25:34,010
+The product converges.
+
+431
+00:25:34,010 --> 00:25:36,050
+So this x is in the
+region of convergence.
+
+432
+00:25:36,050 --> 00:25:38,670
+That's what it means.
+
+433
+00:25:38,670 --> 00:25:41,880
+Similarly here,
+this is diverging.
+
+434
+00:25:41,880 --> 00:25:43,379
+The red curve is
+still diverging.
+
+435
+00:25:43,379 --> 00:25:45,420
+It's the same red curves
+are all these red curves
+
+436
+00:25:45,420 --> 00:25:47,700
+are diverging to the right.
+
+437
+00:25:47,700 --> 00:25:49,960
+This one is converging.
+
+438
+00:25:49,960 --> 00:25:53,200
+It's ultimately converging
+as the sum of two things, e
+
+439
+00:25:53,200 --> 00:25:55,740
+to the minus t and e to
+the minus 2t, both of which
+
+440
+00:25:55,740 --> 00:26:01,670
+are fast compared to the
+explosion e to the 1/2 t.
+
+441
+00:26:01,670 --> 00:26:04,880
+So I'm in the region.
+
+442
+00:26:04,880 --> 00:26:08,286
+Here it's exploding
+in a region of time
+
+443
+00:26:08,286 --> 00:26:09,285
+that I don't care about.
+
+444
+00:26:12,230 --> 00:26:14,320
+And it's convergent
+for this region of time
+
+445
+00:26:14,320 --> 00:26:17,005
+that I do care about, but
+it's not convergent enough.
+
+446
+00:26:20,620 --> 00:26:25,720
+So the integral still diverges,
+I'm not in the region.
+
+447
+00:26:25,720 --> 00:26:28,540
+And finally, this one
+is more complicated.
+
+448
+00:26:28,540 --> 00:26:32,950
+The integrand, this thing
+that I'm integrating against,
+
+449
+00:26:32,950 --> 00:26:38,380
+it's always becoming greater as
+I go toward positive infinity.
+
+450
+00:26:38,380 --> 00:26:42,460
+That tends to be
+convergent on this side
+
+451
+00:26:42,460 --> 00:26:44,410
+and divergent on that
+side, but it's not
+
+452
+00:26:44,410 --> 00:26:49,390
+divergent enough to make
+the function not converge.
+
+453
+00:26:49,390 --> 00:26:52,430
+So I'm in the region.
+
+454
+00:26:52,430 --> 00:26:55,220
+If I make an even bigger pole.
+
+455
+00:26:55,220 --> 00:27:03,890
+So say I put e to the st, if
+I put that at minus 1 1/2,
+
+456
+00:27:03,890 --> 00:27:08,000
+then that is fast enough
+that it breaks the product.
+
+457
+00:27:08,000 --> 00:27:11,520
+The product is no
+longer integrable.
+
+458
+00:27:11,520 --> 00:27:15,990
+So this divergent trend is
+enough to make that diverge.
+
+459
+00:27:15,990 --> 00:27:19,080
+I'm not in the region anymore.
+
+460
+00:27:19,080 --> 00:27:22,080
+Similarly here, I'm
+not in the region
+
+461
+00:27:22,080 --> 00:27:26,775
+because I've made it fast enough
+that one of the parts diverges.
+
+462
+00:27:29,991 --> 00:27:31,490
+One of the parts
+coverages, but they
+
+463
+00:27:31,490 --> 00:27:37,190
+have to both converge in order
+for the interval to converge.
+
+464
+00:27:37,190 --> 00:27:40,070
+Here, I have finally
+made the left-hand side
+
+465
+00:27:40,070 --> 00:27:44,750
+convergent enough to make
+the product converge.
+
+466
+00:27:44,750 --> 00:27:46,880
+So that's fine.
+
+467
+00:27:46,880 --> 00:27:50,030
+And here, this is
+accelerating so fast
+
+468
+00:27:50,030 --> 00:27:52,820
+that although it
+was stabilizing here
+
+469
+00:27:52,820 --> 00:27:57,050
+it became non-convergent
+over here.
+
+470
+00:27:57,050 --> 00:27:59,090
+What I want you to get
+from this is the idea
+
+471
+00:27:59,090 --> 00:28:00,770
+that you can think
+physically about what
+
+472
+00:28:00,770 --> 00:28:02,230
+the region of convergence is.
+
+473
+00:28:02,230 --> 00:28:04,670
+The region of
+convergence is a function
+
+474
+00:28:04,670 --> 00:28:10,010
+that I stick into the integral
+to make the integral converge.
+
+475
+00:28:10,010 --> 00:28:11,810
+So the region of
+convergence corresponds
+
+476
+00:28:11,810 --> 00:28:15,770
+to those exponents that
+makes sense for which
+
+477
+00:28:15,770 --> 00:28:17,990
+the integral will converge.
+
+478
+00:28:17,990 --> 00:28:22,465
+OK, with that vast new insight
+this problem is now trivial.
+
+479
+00:28:25,080 --> 00:28:31,950
+Enumerate all possible
+functions x of t
+
+480
+00:28:31,950 --> 00:28:33,648
+for which that's the transform.
+
+481
+00:30:12,077 --> 00:30:13,410
+So how many functions are there?
+
+482
+00:30:19,492 --> 00:30:20,450
+Keep going, keep going.
+
+483
+00:30:20,450 --> 00:30:24,140
+I'm still looking
+for a right answer.
+
+484
+00:30:24,140 --> 00:30:25,587
+That's a clue.
+
+485
+00:30:25,587 --> 00:30:27,170
+Right, I don't see
+a right answer yet.
+
+486
+00:30:27,170 --> 00:30:27,990
+So keep going.
+
+487
+00:30:27,990 --> 00:30:28,790
+Keep going.
+
+488
+00:30:28,790 --> 00:30:31,030
+Actually, I do now.
+
+489
+00:30:31,030 --> 00:30:32,470
+I see two right answers.
+
+490
+00:30:32,470 --> 00:30:34,000
+Can we make it three?
+
+491
+00:30:34,000 --> 00:30:34,650
+Going once.
+
+492
+00:30:34,650 --> 00:30:36,390
+Going twice.
+
+493
+00:30:36,390 --> 00:30:37,150
+Two right answers?
+
+494
+00:30:40,790 --> 00:30:43,650
+OK, the right answer is three.
+
+495
+00:30:43,650 --> 00:30:45,480
+So now that I've told
+you the right answer,
+
+496
+00:30:45,480 --> 00:30:47,900
+you rationalize for me why
+is the right answer three?
+
+497
+00:30:53,060 --> 00:30:54,230
+Talk to your neighbor.
+
+498
+00:30:54,230 --> 00:30:56,968
+Why is the right answer three?
+
+499
+00:30:56,968 --> 00:31:00,447
+[INTERPOSING VOICES]
+
+500
+00:32:03,640 --> 00:32:08,060
+OK, who can volunteer
+a concise statement
+
+501
+00:32:08,060 --> 00:32:10,520
+for why the right answer
+is three and not four?
+
+502
+00:32:13,570 --> 00:32:14,524
+Yes?
+
+503
+00:32:14,524 --> 00:32:17,863
+[INAUDIBLE]
+
+504
+00:32:19,300 --> 00:32:20,460
+That's exactly right.
+
+505
+00:32:20,460 --> 00:32:21,920
+There are two
+poles, and there are
+
+506
+00:32:21,920 --> 00:32:27,920
+three ways you can divide
+up the s plane by two poles.
+
+507
+00:32:27,920 --> 00:32:33,390
+So there's four functions
+here, let's think about four s
+
+508
+00:32:33,390 --> 00:32:33,890
+planes.
+
+509
+00:32:38,680 --> 00:32:42,940
+So each of these functions--
+so here's a pole at minus 2.
+
+510
+00:32:42,940 --> 00:32:44,740
+Here's a pole at 2.
+
+511
+00:32:44,740 --> 00:32:46,630
+Minus 2, 2, minus
+2, 2, minus 2, 2.
+
+512
+00:32:46,630 --> 00:32:48,175
+They all have the same poles.
+
+513
+00:32:54,390 --> 00:32:58,700
+OK, where's the region that
+corresponds to function one?
+
+514
+00:33:03,660 --> 00:33:07,280
+So here's pole at
+minus 2. e to the minus
+
+515
+00:33:07,280 --> 00:33:11,510
+2t corresponds to
+a pole at minus 2.
+
+516
+00:33:11,510 --> 00:33:13,490
+u of t is right-sided function.
+
+517
+00:33:13,490 --> 00:33:15,110
+Where's the region
+that corresponds
+
+518
+00:33:15,110 --> 00:33:17,450
+to the pole minus 2?
+
+519
+00:33:17,450 --> 00:33:18,980
+To the right of minus 2.
+
+520
+00:33:21,650 --> 00:33:27,140
+So this first function converges
+to the right of minus 2.
+
+521
+00:33:27,140 --> 00:33:36,970
+This function is a pole at 2, e
+to the 2t and it's right sided.
+
+522
+00:33:36,970 --> 00:33:41,700
+So it's right sided with
+regard to a pole at 2.
+
+523
+00:33:41,700 --> 00:33:43,380
+So what's the region
+that corresponds
+
+524
+00:33:43,380 --> 00:33:46,140
+to a right-sided
+time function that
+
+525
+00:33:46,140 --> 00:33:48,060
+corresponds to a pole
+at 2, or that's right
+
+526
+00:33:48,060 --> 00:33:49,365
+sided with regard to here.
+
+527
+00:33:51,870 --> 00:33:54,540
+So the net region of
+convergence is that region.
+
+528
+00:33:57,160 --> 00:33:57,710
+Make sense?
+
+529
+00:34:00,700 --> 00:34:05,520
+So then I have a pole at
+minus 2 with the right sided.
+
+530
+00:34:05,520 --> 00:34:06,620
+OK, so that's this.
+
+531
+00:34:09,139 --> 00:34:13,650
+And a pole as 2,
+which is left sided.
+
+532
+00:34:13,650 --> 00:34:16,820
+So that's this.
+
+533
+00:34:16,820 --> 00:34:19,250
+So that corresponds
+to a region here.
+
+534
+00:34:23,929 --> 00:34:27,980
+Then the third one I have a
+pole at minus 2, which is left
+
+535
+00:34:27,980 --> 00:34:30,350
+sided.
+
+536
+00:34:30,350 --> 00:34:32,905
+So that means I want to
+have convergence here.
+
+537
+00:34:36,199 --> 00:34:38,480
+And I have a pole at 2
+which is right sided,
+
+538
+00:34:38,480 --> 00:34:40,280
+and I need convergence here.
+
+539
+00:34:40,280 --> 00:34:43,610
+There's no way to
+make that convergent.
+
+540
+00:34:43,610 --> 00:34:46,010
+If I choose my s to make the
+first part convergent then
+
+541
+00:34:46,010 --> 00:34:49,330
+my second part is not
+convergent, and vice versa.
+
+542
+00:34:49,330 --> 00:34:52,330
+So there's no way
+to do that one.
+
+543
+00:34:52,330 --> 00:34:53,130
+So this is no.
+
+544
+00:34:53,130 --> 00:34:53,820
+This is yes.
+
+545
+00:34:53,820 --> 00:34:56,460
+This is yes.
+
+546
+00:34:56,460 --> 00:35:00,825
+And then finally, this is a
+pole at minus 2 to the left.
+
+547
+00:35:03,670 --> 00:35:08,920
+And a pole at 2 to the left.
+
+548
+00:35:08,920 --> 00:35:10,590
+So that's that one.
+
+549
+00:35:10,590 --> 00:35:11,970
+So that's OK.
+
+550
+00:35:11,970 --> 00:35:15,890
+So the idea is that there's
+only three ways to chop up
+
+551
+00:35:15,890 --> 00:35:19,000
+a space delimited by two poles.
+
+552
+00:35:19,000 --> 00:35:21,372
+OK, so it looks like
+you to have four
+
+553
+00:35:21,372 --> 00:35:23,830
+because we're used to thinking
+about the two by two matrix.
+
+554
+00:35:23,830 --> 00:35:24,996
+That's not the way it works.
+
+555
+00:35:29,460 --> 00:35:32,880
+OK, two last things.
+
+556
+00:35:32,880 --> 00:35:34,230
+First last thing.
+
+557
+00:35:34,230 --> 00:35:35,850
+Probably the most
+important thing
+
+558
+00:35:35,850 --> 00:35:38,250
+about the Laplace transform,
+probably the only reason
+
+559
+00:35:38,250 --> 00:35:41,190
+we bother with that whatever
+is that you can use it to solve
+
+560
+00:35:41,190 --> 00:35:42,810
+differential equations.
+
+561
+00:35:42,810 --> 00:35:45,420
+That's probably the
+most important reason
+
+562
+00:35:45,420 --> 00:35:47,010
+for even talking about it.
+
+563
+00:35:47,010 --> 00:35:49,600
+The fact that we can take
+it is of zero consequence.
+
+564
+00:35:49,600 --> 00:35:52,052
+We can take lots of integrals.
+
+565
+00:35:52,052 --> 00:35:53,760
+The interesting thing
+about this integral
+
+566
+00:35:53,760 --> 00:35:57,360
+is that it helps us to solve
+differential equations.
+
+567
+00:35:57,360 --> 00:36:01,020
+And the trick is that if we
+start with the differential
+
+568
+00:36:01,020 --> 00:36:03,504
+equation we can take
+the Laplace transform
+
+569
+00:36:03,504 --> 00:36:04,920
+of the whole
+differential equation
+
+570
+00:36:04,920 --> 00:36:07,260
+and that will end
+up making sense.
+
+571
+00:36:07,260 --> 00:36:12,050
+Just like the z transform, the
+Laplace transform is linear.
+
+572
+00:36:12,050 --> 00:36:13,710
+The Laplace
+transform of a sum is
+
+573
+00:36:13,710 --> 00:36:16,020
+sum of the Laplace transforms.
+
+574
+00:36:16,020 --> 00:36:18,660
+That's pretty simple just
+by looking at the definition
+
+575
+00:36:18,660 --> 00:36:22,380
+because we can distribute the
+e to the minus st over a sum,
+
+576
+00:36:22,380 --> 00:36:26,280
+if x were a sum it distributes.
+
+577
+00:36:26,280 --> 00:36:27,790
+So that's easy.
+
+578
+00:36:27,790 --> 00:36:30,750
+The other important
+thing is the derivative.
+
+579
+00:36:30,750 --> 00:36:33,210
+What's the Laplace
+transform of a derivative?
+
+580
+00:36:33,210 --> 00:36:35,250
+That turns out to be easy.
+
+581
+00:36:35,250 --> 00:36:38,160
+If that weren't easy, we
+wouldn't even bother with it.
+
+582
+00:36:38,160 --> 00:36:40,390
+But it is easy.
+
+583
+00:36:40,390 --> 00:36:43,020
+You can see that if we
+make the assumption that x
+
+584
+00:36:43,020 --> 00:36:48,190
+is the Laplace transform
+of x, and then if we define
+
+585
+00:36:48,190 --> 00:36:50,170
+y is the derivative
+of x, we can ask
+
+586
+00:36:50,170 --> 00:36:51,944
+what's the Laplace
+transform of y
+
+587
+00:36:51,944 --> 00:36:53,610
+and that will tell
+us what's the Laplace
+
+588
+00:36:53,610 --> 00:36:57,420
+transform of the derivative.
+
+589
+00:36:57,420 --> 00:36:58,950
+Take the definition
+of transform,
+
+590
+00:36:58,950 --> 00:37:04,910
+stick in y equals x dot
+and integrate by parts.
+
+591
+00:37:04,910 --> 00:37:07,400
+You all can integrate
+by parts much better
+
+592
+00:37:07,400 --> 00:37:12,650
+than I can because I
+took it 35 years ago.
+
+593
+00:37:12,650 --> 00:37:18,195
+But it's very easy to see that
+if we call this u and this v
+
+594
+00:37:18,195 --> 00:37:23,240
+dot, integral u dv is uv
+minus the integral v du.
+
+595
+00:37:26,240 --> 00:37:29,030
+The trick is that taking
+integrals and derivatives
+
+596
+00:37:29,030 --> 00:37:34,180
+of this part is easy,
+it's an exponential.
+
+597
+00:37:34,180 --> 00:37:37,150
+Exponentials are
+the one function
+
+598
+00:37:37,150 --> 00:37:40,510
+whose derivative has the
+same shape as the function.
+
+599
+00:37:40,510 --> 00:37:43,800
+That's the reason it's easy.
+
+600
+00:37:43,800 --> 00:37:50,300
+So that means that I can
+easily integrate that part.
+
+601
+00:37:50,300 --> 00:37:51,960
+I can easily
+differentiate that part
+
+602
+00:37:51,960 --> 00:37:54,626
+to get something that looks just
+like this, except as multiplied
+
+603
+00:37:54,626 --> 00:37:55,370
+by minus s.
+
+604
+00:37:58,250 --> 00:37:59,810
+And that minus s
+is the only thing
+
+605
+00:37:59,810 --> 00:38:02,570
+that ends up being important.
+
+606
+00:38:02,570 --> 00:38:05,450
+The Laplace transform
+of the derivative
+
+607
+00:38:05,450 --> 00:38:10,980
+is s times the Laplace transform
+of the original function.
+
+608
+00:38:10,980 --> 00:38:14,090
+OK, differentiating
+time is the same
+
+609
+00:38:14,090 --> 00:38:18,350
+as multiplying by s in
+a Laplace transform.
+
+610
+00:38:18,350 --> 00:38:20,900
+Because of that it's
+trivial to think
+
+611
+00:38:20,900 --> 00:38:26,050
+about the Laplace transform
+of a differential equation.
+
+612
+00:38:26,050 --> 00:38:28,720
+Linearity says you
+can do it term wise.
+
+613
+00:38:28,720 --> 00:38:30,610
+And a differential
+equation is something
+
+614
+00:38:30,610 --> 00:38:32,500
+that has a bunch of
+derivatives in it.
+
+615
+00:38:32,500 --> 00:38:35,170
+Those all turn
+into multiply by s.
+
+616
+00:38:35,170 --> 00:38:37,990
+So you end up then with
+this differential equation
+
+617
+00:38:37,990 --> 00:38:39,175
+being replaced by this.
+
+618
+00:38:45,360 --> 00:38:49,810
+So the Laplace transform of
+the derivative is s times y.
+
+619
+00:38:49,810 --> 00:38:52,240
+The Laplace transform of y is y.
+
+620
+00:38:52,240 --> 00:38:55,530
+Now I have to figure out the
+Laplace transform of delta.
+
+621
+00:38:55,530 --> 00:38:59,037
+OK, turns out that's easy.
+
+622
+00:38:59,037 --> 00:39:00,620
+What's the Laplace
+transform of delta?
+
+623
+00:39:00,620 --> 00:39:02,630
+That's why we like
+delta functions.
+
+624
+00:39:02,630 --> 00:39:04,580
+Delta functions seem
+mathematically bizarre
+
+625
+00:39:04,580 --> 00:39:06,530
+but they're so
+easy to work with,
+
+626
+00:39:06,530 --> 00:39:08,990
+that's the only
+reason we use them.
+
+627
+00:39:08,990 --> 00:39:11,180
+If you think about the
+Laplace transform of delta
+
+628
+00:39:11,180 --> 00:39:13,760
+just stick it in the formula.
+
+629
+00:39:13,760 --> 00:39:15,830
+The interesting thing
+about the delta function
+
+630
+00:39:15,830 --> 00:39:20,950
+is that it's 0
+almost everywhere.
+
+631
+00:39:20,950 --> 00:39:23,040
+So we don't need to
+worry about the product
+
+632
+00:39:23,040 --> 00:39:25,080
+except where the delta
+function is not 0.
+
+633
+00:39:28,250 --> 00:39:32,740
+Because the delta function
+makes the time axis mostly 0.
+
+634
+00:39:32,740 --> 00:39:36,540
+The only place
+that's not 0 is 0.
+
+635
+00:39:36,540 --> 00:39:39,690
+So the only value of this
+function that matters
+
+636
+00:39:39,690 --> 00:39:44,437
+in the least is its value at 0.
+
+637
+00:39:44,437 --> 00:39:46,770
+If you think about what that
+looks like is as a picture.
+
+638
+00:39:50,340 --> 00:39:55,730
+So if we have something that
+looks like e to the minus st
+
+639
+00:39:55,730 --> 00:39:59,480
+and if we multiply
+by an impulse.
+
+640
+00:39:59,480 --> 00:40:01,260
+The impulse is 0 except at 0.
+
+641
+00:40:01,260 --> 00:40:03,260
+The only thing that
+survives that multiplication
+
+642
+00:40:03,260 --> 00:40:08,360
+is the value of e to the
+minus st at t equals 0.
+
+643
+00:40:08,360 --> 00:40:10,280
+We can think about
+that as a limit.
+
+644
+00:40:10,280 --> 00:40:12,290
+We thought about
+the delta function
+
+645
+00:40:12,290 --> 00:40:16,010
+as a limit of a function that
+looks like this, minus epsilon,
+
+646
+00:40:16,010 --> 00:40:18,770
+epsilon t, 1 over 2 epsilon.
+
+647
+00:40:18,770 --> 00:40:22,820
+So that the limit as epsilon
+goes to 0 becomes a delta.
+
+648
+00:40:22,820 --> 00:40:26,060
+That's how we defined
+the impulse function.
+
+649
+00:40:26,060 --> 00:40:28,430
+If we think about that
+definition in terms
+
+650
+00:40:28,430 --> 00:40:32,300
+of this product you
+can see that you
+
+651
+00:40:32,300 --> 00:40:36,270
+get exactly this expression.
+
+652
+00:40:36,270 --> 00:40:41,510
+So if you multiply this
+times this all you pick out
+
+653
+00:40:41,510 --> 00:40:42,330
+is this part.
+
+654
+00:40:45,800 --> 00:40:48,410
+As you make epsilon smaller,
+and smaller, and smaller,
+
+655
+00:40:48,410 --> 00:40:52,262
+you focus just on
+that point right at 0.
+
+656
+00:40:52,262 --> 00:40:53,470
+The area of the impulse is 1.
+
+657
+00:40:53,470 --> 00:40:58,880
+Therefore, the integral of
+this thing is everywhere 1.
+
+658
+00:40:58,880 --> 00:41:00,530
+So this sifts out.
+
+659
+00:41:00,530 --> 00:41:01,710
+That's what we'll call it.
+
+660
+00:41:01,710 --> 00:41:03,335
+So this is called
+the sifting property.
+
+661
+00:41:08,130 --> 00:41:11,370
+It's the nice part about
+the delta function.
+
+662
+00:41:11,370 --> 00:41:13,500
+If you integrate a
+function with regard
+
+663
+00:41:13,500 --> 00:41:18,110
+to time where the function
+is multiplied by delta,
+
+664
+00:41:18,110 --> 00:41:20,600
+that integral is the value
+of the function at 0.
+
+665
+00:41:20,600 --> 00:41:23,840
+It sifts out the 0 value.
+
+666
+00:41:23,840 --> 00:41:27,260
+That means that the Laplace
+transform of the delta function
+
+667
+00:41:27,260 --> 00:41:29,370
+is 1.
+
+668
+00:41:29,370 --> 00:41:31,830
+It's the most simple
+function you can imagine.
+
+669
+00:41:31,830 --> 00:41:35,330
+So the net effect of that
+is that this differential
+
+670
+00:41:35,330 --> 00:41:38,690
+equation, the Laplace transform
+of the differential equation
+
+671
+00:41:38,690 --> 00:41:40,565
+becomes an algebraic equation.
+
+672
+00:41:45,400 --> 00:41:49,050
+That means that we can
+solve it by doing algebra.
+
+673
+00:41:49,050 --> 00:41:52,500
+So in particular, we can
+readily solve the equation
+
+674
+00:41:52,500 --> 00:41:54,830
+to find an expression for y.
+
+675
+00:41:54,830 --> 00:41:57,530
+We saw that previously.
+
+676
+00:41:57,530 --> 00:41:59,720
+We recognize ys.
+
+677
+00:41:59,720 --> 00:42:01,580
+It's a recognition thing.
+
+678
+00:42:01,580 --> 00:42:03,950
+It's a table look
+up sort of thing.
+
+679
+00:42:03,950 --> 00:42:09,110
+We know the form
+1 over s plus 1.
+
+680
+00:42:09,110 --> 00:42:11,150
+So we know the time
+function that is the answer.
+
+681
+00:42:13,670 --> 00:42:15,440
+So notice that when
+we do this just
+
+682
+00:42:15,440 --> 00:42:17,390
+the way that happened
+with the z transform.
+
+683
+00:42:17,390 --> 00:42:18,950
+When we solve a
+differential equation
+
+684
+00:42:18,950 --> 00:42:22,190
+by using Laplace transform we
+basically don't use calculus.
+
+685
+00:42:24,662 --> 00:42:26,870
+We use the Laplace transform
+to turn the differential
+
+686
+00:42:26,870 --> 00:42:30,620
+equation which is calculus in
+1803 and that kind of stuff,
+
+687
+00:42:30,620 --> 00:42:33,200
+into algebra, which
+is high school.
+
+688
+00:42:33,200 --> 00:42:35,060
+We do everything with algebra.
+
+689
+00:42:35,060 --> 00:42:39,014
+The only annoying thing is
+this table look up thing.
+
+690
+00:42:39,014 --> 00:42:40,430
+It's a little
+annoying that we had
+
+691
+00:42:40,430 --> 00:42:46,975
+to do the inverse Laplace
+transform by table look up.
+
+692
+00:42:46,975 --> 00:42:50,410
+It's a little dissatisfying.
+
+693
+00:42:50,410 --> 00:42:55,630
+So I'll just mention that
+there is a formal way of not
+
+694
+00:42:55,630 --> 00:42:57,220
+doing table look up.
+
+695
+00:42:59,656 --> 00:43:01,030
+For the kinds of
+problems we will
+
+696
+00:43:01,030 --> 00:43:03,910
+look at using this
+formula is so much more
+
+697
+00:43:03,910 --> 00:43:07,880
+difficult than table look
+up that we will never
+
+698
+00:43:07,880 --> 00:43:11,240
+use that formula.
+
+699
+00:43:11,240 --> 00:43:13,160
+It will be useful
+for proving things,
+
+700
+00:43:13,160 --> 00:43:16,496
+it will not be useful
+for inverting things.
+
+701
+00:43:16,496 --> 00:43:17,870
+Because of the
+form of the things
+
+702
+00:43:17,870 --> 00:43:19,640
+we do, linear
+differential equations
+
+703
+00:43:19,640 --> 00:43:22,010
+with constant coefficients,
+it will always
+
+704
+00:43:22,010 --> 00:43:23,960
+be easier to do
+table look up then
+
+705
+00:43:23,960 --> 00:43:25,970
+it will be to run this integral.
+
+706
+00:43:25,970 --> 00:43:29,247
+If you're interested in that
+integral, fine, take 1804.
+
+707
+00:43:29,247 --> 00:43:30,830
+There's a bunch of
+people who know all
+
+708
+00:43:30,830 --> 00:43:33,000
+about how that integral works.
+
+709
+00:43:33,000 --> 00:43:37,320
+It's spectacularly interesting
+but we won't use it here.
+
+710
+00:43:37,320 --> 00:43:42,020
+So the upshot then is that
+the Laplace transform,
+
+711
+00:43:42,020 --> 00:43:47,840
+we learn about it
+because it's very useful
+
+712
+00:43:47,840 --> 00:43:53,110
+and its utility comes from
+a bunch of properties.
+
+713
+00:43:53,110 --> 00:43:55,600
+The ones we illustrated
+today, we use the fact
+
+714
+00:43:55,600 --> 00:43:58,990
+that it was linear
+and we use the fact
+
+715
+00:43:58,990 --> 00:44:00,550
+that there's a
+simple relationship
+
+716
+00:44:00,550 --> 00:44:02,590
+with differentiation.
+
+717
+00:44:02,590 --> 00:44:05,470
+Using just those facts
+it turns out easy
+
+718
+00:44:05,470 --> 00:44:09,550
+to do differential equations
+using the Laplace transform.
+
+719
+00:44:09,550 --> 00:44:11,290
+And there's many
+other things I've
+
+720
+00:44:11,290 --> 00:44:12,850
+illustrated in the
+last two slides
+
+721
+00:44:12,850 --> 00:44:16,360
+but I won't go over
+them right now.
+
+722
+00:44:16,360 --> 00:44:20,860
+The idea of taking limits
+using Laplace transforms.
+
+723
+00:44:20,860 --> 00:44:22,990
+It turns out that the
+Laplace transform is what
+
+724
+00:44:22,990 --> 00:44:25,880
+we call a reciprocal function.
+
+725
+00:44:25,880 --> 00:44:29,695
+Since the integrand depends
+and the product of s and t,
+
+726
+00:44:29,695 --> 00:44:33,950
+s gets large, corresponds
+to t gets small.
+
+727
+00:44:33,950 --> 00:44:37,570
+So you can take the
+limit for things
+
+728
+00:44:37,570 --> 00:44:41,900
+with time getting small by
+looking at s getting big.
+
+729
+00:44:41,900 --> 00:44:44,530
+Similarly, you can
+do the reverse.
+
+730
+00:44:44,530 --> 00:44:48,490
+You can look at time gets big
+by looking at s gets small.
+
+731
+00:44:48,490 --> 00:44:50,876
+That's just properties
+of the Laplace transform.
+
+732
+00:44:50,876 --> 00:44:52,000
+And there's lots of others.
+
+733
+00:44:52,000 --> 00:44:54,670
+Besides the table there's
+lots of properties
+
+734
+00:44:54,670 --> 00:44:56,920
+we won't have time
+to go over but I
+
+735
+00:44:56,920 --> 00:44:58,060
+will hint at some of them.
+
+736
+00:44:58,060 --> 00:45:00,880
+And in particular, there's
+a very useful transformation
+
+737
+00:45:00,880 --> 00:45:02,990
+where you take the Laplace
+transform of a circuit.
+
+738
+00:45:02,990 --> 00:45:05,720
+And that's in the homework.
+
+739
+00:45:05,720 --> 00:45:08,540
+So that's extremely useful.
+
+740
+00:45:08,540 --> 00:45:11,099
+The major point then
+is just that there's
+
+741
+00:45:11,099 --> 00:45:12,890
+lots of relationships,
+there's lots of ways
+
+742
+00:45:12,890 --> 00:45:14,370
+we think about CT systems.
+
+743
+00:45:14,370 --> 00:45:17,480
+This Laplace
+transform is a new one
+
+744
+00:45:17,480 --> 00:45:22,360
+and it's very useful because of
+the properties in that table.
+
+745
+00:45:22,360 --> 00:45:24,470
+OK, thanks a lot.

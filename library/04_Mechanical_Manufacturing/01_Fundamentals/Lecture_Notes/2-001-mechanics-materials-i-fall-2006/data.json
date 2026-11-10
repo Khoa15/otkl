@@ -1,0 +1,112 @@
+{
+  "course_description": "This course provides an introduction to the mechanics of solids with applications to science and engineering. We emphasize the three essential features of all mechanics analyses, namely: (a) the geometry of the motion and/or deformation of the structure, and conditions of geometric fit, (b) the forces on and within structures and assemblages; and (c) the physical aspects of the structural system (including material properties) which quantify relations between the forces and motions/deformation.\n",
+  "course_description_html": "This course provides an introduction to the mechanics of solids with applications to science and engineering. We emphasize the three essential features of all mechanics analyses, namely: (a) the geometry of the motion and/or deformation of the structure, and conditions of geometric fit, (b) the forces on and within structures and assemblages; and (c) the physical aspects of the structural system (including material properties) which quantify relations between the forces and motions/deformation.",
+  "course_image": {
+    "content": "6126af1c-c9c9-96a7-cf06-d82795560219",
+    "website": "2-001-mechanics-materials-i-fall-2006"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "The loading caused by Hurricane Katrina brought down this roadway over Bay St. Louis, Mississippi. (Photo courtesy of NIST.)",
+    "draft": false,
+    "file": "/courses/2-001-mechanics-materials-i-fall-2006/6126af1cc9c996a7cf06d82795560219_2-001f06.jpg",
+    "file_size": 46011,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "The loading caused by Hurricane Katrina brought down this roadway over Bay St. Louis, Mississippi. (Photo courtesy of {{% resource_link \"92865c59-51a9-4726-8146-06dd933ae6d9\" \"NIST\" %}}.)",
+      "credit": "",
+      "image-alt": "Photo of collapsed concrete bridge roadway over water."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "2-001f06.jpg",
+    "uid": "6126af1c-c9c9-96a7-cf06-d82795560219"
+  },
+  "course_image_thumbnail": {
+    "content": "3846e0ea-5496-e872-8035-9458c7103530",
+    "website": "2-001-mechanics-materials-i-fall-2006"
+  },
+  "course_title": "Mechanics & Materials I",
+  "department_numbers": [
+    "2"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/6126af1cc9c996a7cf06d82795560219_2-001f06.jpg",
+  "instructors": [
+    {
+      "first_name": "Carol",
+      "last_name": "Livermore",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Carol Livermore",
+      "uid": "fdaa39cf-8d06-11e9-ccf3-4a93d42cabb3",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Carol+Livermore"
+    },
+    {
+      "first_name": "Henrik",
+      "last_name": "Schmidt",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Henrik Schmidt",
+      "uid": "ac95a6d2-c06d-6397-cf8e-2f18cfab7ab7",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Henrik+Schmidt"
+    },
+    {
+      "first_name": "James",
+      "last_name": "Williams",
+      "middle_initial": "H.",
+      "salutation": "Prof.",
+      "title": "Prof. James H. Williams",
+      "uid": "2bc336e4-567f-e051-c532-8336eda7584b",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+James+H.+Williams"
+    },
+    {
+      "first_name": "Simona",
+      "last_name": "Socrate",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Simona Socrate",
+      "uid": "36187eda-fdca-ce1d-9166-0b5981c533bd",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Simona+Socrate"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Notes",
+    "Problem Sets"
+  ],
+  "legacy_uid": "dd0c6232-959d-53dd-b445-ba3889282ff0",
+  "level": [
+    "Undergraduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Engineering",
+      "Materials Science and Engineering"
+    ],
+    [
+      "Engineering",
+      "Mechanical Engineering"
+    ]
+  ],
+  "primary_course_number": "2.001",
+  "site_short_id": "2.001-fall-2006",
+  "site_uid": "c1aec3a8-930f-41e0-8a70-79532910689e",
+  "site_url_path": "courses/2-001-mechanics-materials-i-fall-2006",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Engineering",
+      "Mechanical Engineering",
+      "Solid Mechanics"
+    ],
+    [
+      "Engineering",
+      "Materials Science and Engineering"
+    ]
+  ],
+  "year": "2006"
+}

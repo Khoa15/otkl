@@ -1,0 +1,16 @@
+
+{
+  "content": "<p>This page presents the course quizzes and selected solutions, plus some quizzes from a previous version of the course.</p>\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nQuizzes\n</th>\n\n<th>\n\nSolutions\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\nQuiz 1 (<a href=\"../../resources/quiz1_v2/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/quiz1_soln/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nQuiz 2 (<a href=\"../../resources/quiz2/index.html\">PDF</a>)\n</td>\n\n<td>\n\nThermodynamics (<a href=\"../../resources/quiz2_sol_thermo/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nQuiz 3 (<a href=\"../../resources/quiz3/index.html\">PDF</a>)\n</td>\n\n<td>\n\nBonding (<a href=\"../../resources/quiz3_sol_bond/index.html\">PDF</a>)\n</td>\n</p>\n</tr>\n\n</table>\n\n\n    <h3 id=\"2004-quizzes\">2004 Quizzes</h3>\n\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nQuizzes\n</th>\n\n<th>\n\nSolutions\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\nQuiz 1 (<a href=\"../../resources/f04_quiz1/index.html\">PDF</a>)\n</td>\n\n<td>\n\nThermodynamics (<a href=\"../../resources/f04_q1_sol_t/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nQuiz 2 (<a href=\"../../resources/f04_quiz2/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/f04_quiz2_sol/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td colspan=\"2\">\n\nQuiz 3 with Solutions (<a href=\"../../resources/f04_quiz3_sol/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nQuiz 4 (<a href=\"../../resources/f04_quiz4/index.html\">PDF</a>)\n</td>\n\n<td>\n\nThermodynamics (<a href=\"../../resources/f04_q4_sol_t/index.html\">PDF</a>)\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section includes the course quizzes and selected solutions plus some quizzes from a previous version of the course.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Exams",
+  "uid": "8afa5fc2-30ba-fc0d-8491-0ca406659fd2"
+}
+

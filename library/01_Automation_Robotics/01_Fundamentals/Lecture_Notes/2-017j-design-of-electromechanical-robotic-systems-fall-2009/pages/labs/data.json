@@ -1,0 +1,22 @@
+
+{
+  "content": "<p>Lab Rules and Safety (<a href=\"../../resources/mit2_017jf09_rules/index.html\">PDF</a>)</p>\n<p>The first four weeks of lab are dedicated to exploring the Arduino board and specific topics necessary for designing autonomous robots. All lab sessions after that are free time for groups to work on their final projects.</p>\n<p><table>\n<thead>\n<tr>\n<th>\n\nTOPICS\n</th>\n<th>\n\nSLIDES\n</th>\n<th>\n\nHANDOUTS\n</th>\n<th>\n\nFILES\n</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>\n\nLab 1: Lab introduction and safety, Arduino microprocessor\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_slides1/index.html\">PDF</a>)\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_lab1/index.html\">PDF</a>)\n</td>\n<td>\n\n \n</td>\n</tr>\n<tr>\n<td>\n\nLab 2: Sensors and signals, A/D, D/A, PWM\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_slides2/index.html\">PDF - 1.6MB</a>)\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_lab2/index.html\">PDF</a>)\n</td>\n<td>\n\n \n</td>\n</tr>\n<tr>\n<td>\n\nLab 3: GPS and data logging\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_slides3/index.html\">PDF</a>)\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_lab3/index.html\">PDF</a>)\n</td>\n<td>\n\n(<a href=\"../../resources/lab3files/index.html\">ZIP</a>) (This ZIP file contains: 2 .pde files and 1 .m file.)\n</td>\n</tr>\n<tr>\n<td>\n\nLab 4: Motor control\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_slides4/index.html\">PDF - 1.0MB</a>)\n</td>\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_lab4/index.html\">PDF</a>)\n</td>\n<td>\n\n(<a href=\"../../resources/lab4files/index.html\">ZIP</a>) (This ZIP file contains: 2 .zip files, 1 .pdf file, and 2 .pde files.)\n</td>\n</tr>\n</tbody>\n</table>\n</p>\n\n    <h3 id=\"arduino-documentation\">Arduino Documentation</h3>\n\n<p><a   class=\"external-link \"   target=\"_blank\"   href=\"https://content.instructables.com/F3J/MTJN/FVW22MXN/F3JMTJNFVW22MXN.pdf\"  aria-label=\"Arduino Experimenter&amp;rsquo;s Guide (PDF (opens in a new tab)\"  >Arduino Experimenter&rsquo;s Guide (PDF</a>)</p>\n<p><a   class=\"external-link \"   target=\"_blank\"   href=\"http://www.lulu.com/product/paperback/arduino-programming-notebook/3524026\"  aria-label=\"Arduino Programming Notebook (opens in a new tab)\"  >Arduino Programming Notebook</a></p>\n<p>ATMEL ATmega328P Basic Datasheet (<a   class=\"external-link \"   target=\"_blank\"   href=\"http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf\"  aria-label=\"PDF - 33.6MB) (opens in a new tab)\"  >PDF - 33.6MB)</a> / Full Datasheet (<a   class=\"external-link \"   target=\"_blank\"   href=\"http://www.atmel.com/dyn/resources/prod_documents/doc8161.pdf\"  aria-label=\"PDF - 12.5MB (opens in a new tab)\"  >PDF - 12.5MB</a>)</p>\n",
+  "content_type": "page",
+  "description": "This section provides the lab assignments for the course, related handouts and files, information on lab rules and safety, and documentation for the Arduino microprocessor.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Laboratory Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Labs",
+  "uid": "eec7391f-a43a-696f-8f85-b7b86b7f34db",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

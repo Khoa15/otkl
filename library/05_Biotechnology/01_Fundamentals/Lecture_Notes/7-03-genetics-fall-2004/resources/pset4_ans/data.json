@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>Solutions for assigned homework problems.</p>\n",
+  "content_type": "resource",
+  "description": "Solutions for assigned homework problems.",
+  "draft": false,
+  "file": "/courses/7-03-genetics-fall-2004/ab4b45787fcc87c56d95c57a80f1c730_pset4_ans.pdf",
+  "file_size": 119696,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Set Solutions"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "439282d7-2438-1439-aa2a-634bf6e6428c",
+  "resourcetype": "Document",
+  "title": "pset4_ans.pdf",
+  "uid": "ab4b4578-7fcc-87c5-6d95-c57a80f1c730",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "7-03-genetics-fall-2004"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "7-03-genetics-fall-2004"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

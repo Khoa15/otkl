@@ -1,0 +1,16 @@
+
+{
+  "content": "<p>Problem Set 1 (<a href=\"../../resources/ps1/index.html\">PDF</a>)</p>\n<p>Problem Set 2 (<a href=\"../../resources/ps2/index.html\">PDF</a>)<br>\nsimple_sim program for Problem Set 2 (<a href=\"../../resources/ps2_simple_sim/index.html\">ZIP</a>) (The ZIP file contains C++ source code; see \\doc\\simple_sim.pdf for documentation.)</p>\n<p>Problem Set 3 (<a href=\"../../resources/ps3/index.html\">PDF</a>)</p>\n<p>Problem Set 4 (<a href=\"../../resources/ps4/index.html\">PDF</a>)</p>\n<p>Problem Set 5 (<a href=\"../../resources/ps5/index.html\">PDF</a>)</p>\n<p>Problem Set 6 (<a href=\"../../resources/ps6/index.html\">PDF</a>)</p>\n<p>Problem Set 7 (<a href=\"../../resources/ps7/index.html\">PDF</a>)</p>\n<p>Problem Set 8 (<a href=\"../../resources/ps8/index.html\">PDF</a>)</p>\n",
+  "content_type": "page",
+  "description": "This section contains problem sets for the course.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Assignments",
+  "uid": "c1b3f464-e564-d4f7-8f33-88e237134695"
+}
+

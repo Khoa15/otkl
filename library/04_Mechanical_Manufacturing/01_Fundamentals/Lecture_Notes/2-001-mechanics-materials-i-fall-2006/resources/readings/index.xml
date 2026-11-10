@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;h3 id=&#34;required-textbook&#34;&gt;Required Textbook&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Hibbeler, R. C. &lt;em&gt;Mechanics of Materials&lt;/em&gt;. 6th ed. East Rutherford, NJ: Pearson Prentice Hall, 2004. ISBN: 9780131913455.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;&#xA;&#xA;LEC #&#xA;&lt;/th&gt;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&lt;th&gt;&#xA;&#xA;READINGS&#xA;&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Part 1: Statics - Elements of Equilibrium&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;1-4&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Course Outline, Review of Forces and Moments, Introduction to Equilibrium&lt;/p&gt;&#xA;&lt;p&gt;Forces, Moments, Equilibrium&lt;/p&gt;&#xA;&lt;p&gt;Applying the Equations of Equilibrium, Planar Trusses&lt;/p&gt;&#xA;&lt;p&gt;Friction&lt;/p&gt;&#xA;&lt;p&gt;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Hibbeler. Chapter 1.1-1.2.&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Part 2: Forces and Moments Transmitted by Slender Members&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;5-6&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Shear Force and Bending Moment Diagrams&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Hibbeler. Chapter 6.1-6.2.&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Part 3: Mechanics of Deformable Bodies - Introduction&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;7-11&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

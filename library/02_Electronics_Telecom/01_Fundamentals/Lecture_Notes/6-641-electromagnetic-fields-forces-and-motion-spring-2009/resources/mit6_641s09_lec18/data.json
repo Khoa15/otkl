@@ -1,0 +1,27 @@
+{
+  "content": "<p>Lecture notes on waves and instabilities in elastic media, transverse motions of wires under tension, transverse motions of membranes, non-dispersive waves on a string, cut-off or evanescent waves, absolute or non convective instability, and electric field levitation of membrane.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on waves and instabilities in elastic media, transverse motions of wires under tension, transverse motions of membranes, non-dispersive waves on a string, cut-off or evanescent waves, absolute or non convective instability, and electric field levitation of membrane.",
+  "draft": false,
+  "file": "/courses/6-641-electromagnetic-fields-forces-and-motion-spring-2009/MIT6_641s09_lec18.pdf",
+  "file_size": 1409930,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "dda578c4-8b9d-5d90-3bed-c932f0409540",
+  "resourcetype": "Document",
+  "title": "Lecture 18: Waves and Instabilities In Elastic Media",
+  "uid": "adec66e1-ae8f-0c5c-9d1e-049c28a8a1f5",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/hst-508-genomics-and-computational-biology-fall-2002/mithst_508f02_captions.vtt",
+  "file_size": 105446,
+  "file_type": "application/x-subrip",
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "resourcetype": "Other",
+  "title": "6A. RNA 2: Clustering by Gene or Condition and Other Regulon Data Sources Nucleic Acid ... captions",
+  "uid": "dedf2c1e-e39a-4dac-b067-f0b224c9bdf5",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": "axiNLT3tkqg"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "audience": [],
+  "course_description": "An introduction to several fundamental ideas in electrical engineering and computer science, using digital communication systems as the vehicle. The three parts of the course—bits, signals, and packets—cover three corresponding layers of abstraction that form the basis of communication systems like the Internet.\n\nThe course teaches ideas that are useful in other parts of EECS: abstraction, probabilistic analysis, superposition, time and frequency-domain representations, system design principles and trade-offs, and centralized and distributed algorithms. The course emphasizes connections between theoretical concepts and practice using programming tasks and some experiments with real-world communication channels.\n",
+  "course_description_html": "<p>An introduction to several fundamental ideas in electrical engineering and computer science, using digital communication systems as the vehicle. The three parts of the course—bits, signals, and packets—cover three corresponding layers of abstraction that form the basis of communication systems like the Internet.</p>\n<p>The course teaches ideas that are useful in other parts of EECS: abstraction, probabilistic analysis, superposition, time and frequency-domain representations, system design principles and trade-offs, and centralized and distributed algorithms. The course emphasizes connections between theoretical concepts and practice using programming tasks and some experiments with real-world communication channels.</p>\n",
+  "course_image": {
+    "content": "b2c2937f-360b-27a0-d800-99dc9fec7b8b",
+    "website": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "Phoning home using a K=15, rate=1/6 convolutional code. See Lecture 6 for more information. Image in the public domain. Source: NASA.",
+    "draft": false,
+    "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/b2c2937f360b27a0d80099dc9fec7b8b_6-02f12.jpg",
+    "file_size": 13044,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "Phoning home using a K=15, rate=1/6 convolutional code. See [Lecture 6](/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/pages/lecture-slides) for more information. (Image in the public domain. Source: NASA.)",
+      "credit": "Image in the public domain. Source: NASA.",
+      "image-alt": "Artist's depiction of the Cassini spacecraft, with Saturn in the foreground and a dark blue, starry background."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "6-02f12.jpg",
+    "uid": "b2c2937f-360b-27a0-d800-99dc9fec7b8b",
+    "video_files": {
+      "archive_url": "",
+      "video_captions_file": "",
+      "video_thumbnail_file": "",
+      "video_transcript_file": ""
+    },
+    "video_metadata": {
+      "video_speakers": "",
+      "video_tags": "",
+      "youtube_description": "",
+      "youtube_id": ""
+    }
+  },
+  "course_image_thumbnail": {
+    "content": "3ec76b35-3644-eecb-22b2-da20ff39bd1c",
+    "website": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012"
+  },
+  "course_title": "Introduction to EECS II: Digital Communication Systems",
+  "department_numbers": [
+    "6"
+  ],
+  "extra_course_numbers": "",
+  "hide_download": false,
+  "image_src": "./static_resources/b2c2937f360b27a0d80099dc9fec7b8b_6-02f12.jpg",
+  "instructors": [
+    {
+      "first_name": "Hari",
+      "last_name": "Balakrishnan",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Hari Balakrishnan",
+      "uid": "042ee882-aea2-271b-b1e6-f030603d034a",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Hari+Balakrishnan"
+    },
+    {
+      "first_name": "George",
+      "last_name": "Verghese",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. George Verghese",
+      "uid": "a8144fe8-f2c3-2c36-c757-9f7d0f4fd80d",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+George+Verghese"
+    }
+  ],
+  "learning_resource_types": [
+    "Problem Sets",
+    "Exams",
+    "Lecture Notes",
+    "Lecture Videos",
+    "Open Textbooks"
+  ],
+  "legacy_uid": "7032101b-8a5d-8958-43b8-10c7a6214b70",
+  "level": [
+    "Undergraduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Data Science, Analytics & Computer Technology",
+      "Computer Science"
+    ],
+    [
+      "Engineering",
+      "Electrical Engineering"
+    ],
+    [
+      "Data Science, Analytics & Computer Technology",
+      "Networks and Security"
+    ]
+  ],
+  "primary_course_number": "6.02",
+  "site_short_id": "6.02-fall-2012",
+  "site_uid": "e4a582d0-eea4-4d44-8620-f2bd8856f65d",
+  "site_url_path": "courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Engineering",
+      "Computer Science",
+      "Computer Networks"
+    ],
+    [
+      "Engineering",
+      "Electrical Engineering",
+      "Digital Systems"
+    ],
+    [
+      "Engineering",
+      "Electrical Engineering",
+      "Signal Processing"
+    ],
+    [
+      "Engineering",
+      "Electrical Engineering",
+      "Telecommunications"
+    ]
+  ],
+  "year": "2012"
+}

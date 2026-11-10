@@ -1,0 +1,27 @@
+{
+  "content": "<p>Lecture notes on the method of images, point charge above ground plane, point charge and sphere, charge induced in ground plane by overhead conductor, point electric dipole, and line current above a perfect conductor.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on the method of images, point charge above ground plane, point charge and sphere, charge induced in ground plane by overhead conductor, point electric dipole, and line current above a perfect conductor.",
+  "draft": false,
+  "file": "/courses/6-641-electromagnetic-fields-forces-and-motion-spring-2009/MIT6_641s09_lec05.pdf",
+  "file_size": 419852,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "dda578c4-8b9d-5d90-3bed-c932f0409540",
+  "resourcetype": "Document",
+  "title": "Lecture 5: Method of Images",
+  "uid": "db465c8c-a43a-50f8-9146-6f3db5af4328",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

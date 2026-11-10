@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This resource contains solutions for exercises 1.1, 1.2, 1.3(a)-(b), 1.6, and 1.8.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains solutions for exercises 1.1, 1.2, 1.3(a)-(b), 1.6, and 1.8.",
+  "draft": false,
+  "file": "/courses/6-241j-dynamic-systems-and-control-spring-2011/655ecae8b148b631e8fe1aa7115810a1_MIT6_241JS11_assn01_sol.pdf",
+  "file_size": 205166,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Set Solutions"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "56ce52f6-36c6-4ef9-0273-ac63da10d835",
+  "resourcetype": "Document",
+  "title": "MIT6_241JS11_assn01_sol.pdf",
+  "uid": "655ecae8-b148-b631-e8fe-1aa7115810a1",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-241j-dynamic-systems-and-control-spring-2011"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-241j-dynamic-systems-and-control-spring-2011"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

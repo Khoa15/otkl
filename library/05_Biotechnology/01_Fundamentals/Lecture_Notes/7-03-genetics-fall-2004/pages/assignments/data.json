@@ -1,0 +1,16 @@
+
+{
+  "content": "<p>The first six problem sets are graded. The seventh problem set is for practice only and will not be graded. Assignments cover the topics discussed in the corresponding lecture sessions.</p>\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nLEC #\n</th>\n\n<th>\n\nASSIGNMENTs\n</th>\n\n<th>\n\nSOLUTIONS\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\n1-5\n</td>\n\n<td>\n\nProblem Set 1 (<a href=\"../../resources/pset1/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/pset1_ans/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n6-9\n</td>\n\n<td>\n\nProblem Set 2 (<a href=\"../../resources/pset2/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/pset2_ans/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n11-15\n</td>\n\n<td>\n\nProblem Set 3 (<a href=\"../../resources/pset3/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/pset3_ans/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n16-19\n</td>\n\n<td>\n\nProblem Set 4 (<a href=\"../../resources/pset4/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/pset4_ans/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n20-24\n</td>\n\n<td>\n\nProblem Set 5 (<a href=\"../../resources/pset5/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/pset5_ans/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n25-30\n</td>\n\n<td>\n\nProblem Set 6 (<a href=\"../../resources/pset6/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/pset6_ans/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n31-35\n</td>\n\n<td>\n\nProblem Set 7 (<a href=\"../../resources/pset7/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/pset7_ans/index.html\">PDF</a>)\n</td>\n</p>\n</tr>\n\n</table>\n\n<p>The teaching staff also recommends that students practice on problem sets and exams from previous years. An archive of past assignments and exams can be found in the <a href=\"../../pages/study-materials/index.html\">study materials</a> section of this course site.</p>\n",
+  "content_type": "page",
+  "description": "Problem Sets and Solutions.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Assignments",
+  "uid": "439282d7-2438-1439-aa2a-634bf6e6428c"
+}
+

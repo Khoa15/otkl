@@ -1,0 +1,27 @@
+{
+  "content": "<p>Folding of deca-alanine molecule simulated at various temperatures in parallel. (Image courtesy Zachary Ulissi.)</p>\n",
+  "content_type": "resource",
+  "description": "Folding of deca-alanine molecule simulated at various temperatures in parallel. (Image courtesy Zachary Ulissi.)",
+  "draft": false,
+  "file": "/courses/18-337j-parallel-computing-fall-2011/ca2e2fa651c837e543d6ed4b32951e4a_18-337jf11-th.jpg",
+  "file_size": 3024,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Folding of deca-alanine molecule simulated at various temperatures in parallel. (Image courtesy Zachary Ulissi.)",
+    "credit": "Image courtesy Zachary Ulissi.",
+    "image-alt": "Computer-generated image of colorful, twisted bands."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Computer-generated image of colorful, twisted bands",
+  "uid": "ca2e2fa6-51c8-37e5-43d6-ed4b32951e4a",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "content": "<p>Powering cube satellites, or CubeSats, with an electric propulsion technology developed at the MIT Space Propulsion Lab. Christine Daniloff / MIT.</p>\n",
+  "content_type": "resource",
+  "description": "Powering cube satellites, or CubeSats, with an electric propulsion technology developed at the MIT Space Propulsion Lab. Christine Daniloff / MIT.",
+  "draft": false,
+  "file": "/courses/16-522-space-propulsion-spring-2015/9182d43ae4d76a66f462e2b062952b65_16-522s15-th.jpg",
+  "file_size": 11466,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Powering cube satellites, or CubeSats, with an electric propulsion technology developed at the {{% resource_link \"d12d154a-db41-4146-87dc-a01a4898112f\" \"MIT Space Propulsion Lab\" %}}. (Christine Daniloff / MIT.)",
+    "credit": "Christine Daniloff / MIT.",
+    "image-alt": "The graphic shows two cube satellites, or CubeSats, orbiting around Earth, which is shown far off in the background."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "16-522s15-th.jpg",
+  "uid": "9182d43a-e4d7-6a66-f462-e2b062952b65"
+}

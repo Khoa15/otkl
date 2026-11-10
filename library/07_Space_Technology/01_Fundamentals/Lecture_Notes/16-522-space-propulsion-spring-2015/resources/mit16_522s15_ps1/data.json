@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>This file contains information regarding problem set 1.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains information regarding problem set 1.",
+  "draft": false,
+  "file": "/courses/16-522-space-propulsion-spring-2015/6a1651edc2a587b39e4742023b627930_MIT16_522S15_PS1.pdf",
+  "file_size": 151379,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "c1300c9d-1b2c-a592-3cce-24633b6b329d",
+  "resourcetype": "Document",
+  "title": "16.522 Spring 2015 Problem Set 1",
+  "uid": "6a1651ed-c2a5-87b3-9e47-42023b627930",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

@@ -1,0 +1,19 @@
+
+{
+  "content": "<p>This page contains both exams and their solutions.</p>\n<p>Exam 1 (<a href=\"../../resources/mit2_092f09_exam1/index.html\">PDF</a>), Solutions (<a href=\"../../resources/mit2_092f09_sol_exam1/index.html\">PDF</a>)</p>\n<p>Exam 2 (<a href=\"../../resources/mit2_092f09_exam2/index.html\">PDF</a>), Solutions (<a href=\"../../resources/mit2_092f09_sol_exam2/index.html\">PDF</a>)</p>\n",
+  "content_type": "page",
+  "description": "This section provides the course exams and their solutions.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Exams",
+  "uid": "6294467c-c96c-7d94-e500-9d3666fae61a",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

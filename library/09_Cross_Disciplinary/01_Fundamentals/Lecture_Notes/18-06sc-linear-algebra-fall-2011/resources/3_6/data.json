@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/94cdc4af9e1094bf8301b6eca90fa986_3_6.jpg",
+  "file_size": 5812,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from 'Introduction to Linear Algebra' by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Linear Transformations and their Matrices",
+  "parent_type": "CourseSection",
+  "parent_uid": "9b3392d9-9beb-d110-47c3-6d07bc404bbc",
+  "resourcetype": "Image",
+  "title": "3_6.jpg",
+  "uid": "94cdc4af-9e10-94bf-8301-b6eca90fa986",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

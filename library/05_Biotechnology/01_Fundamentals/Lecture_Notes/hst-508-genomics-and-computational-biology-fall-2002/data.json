@@ -1,0 +1,108 @@
+{
+  "course_description": "This course will assess the relationships among sequence, structure, and function in complex biological networks as well as progress in realistic modeling of quantitative, comprehensive, functional genomics analyses. Exercises will include algorithmic, statistical, database, and simulation approaches and practical applications to medicine, biotechnology, drug discovery, and genetic engineering. Future opportunities and current limitations will be critically addressed. In addition to the regular lecture sessions, supplementary sections are scheduled to address issues related to Perl, Mathematica and biology.\n",
+  "course_description_html": "This course will assess the relationships among sequence, structure, and function in complex biological networks as well as progress in realistic modeling of quantitative, comprehensive, functional genomics analyses. Exercises will include algorithmic, statistical, database, and simulation approaches and practical applications to medicine, biotechnology, drug discovery, and genetic engineering. Future opportunities and current limitations will be critically addressed. In addition to the regular lecture sessions, supplementary sections are scheduled to address issues related to Perl, Mathematica and biology.",
+  "course_image": {
+    "content": "c4a9c2a6-9935-576a-8afa-5b3a5e0e94e2",
+    "website": "hst-508-genomics-and-computational-biology-fall-2002"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "",
+    "draft": false,
+    "file": "/courses/hst-508-genomics-and-computational-biology-fall-2002/hst-508f02.jpg",
+    "file_size": 98048,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "Next-generation DNA sequencing technology from University of California, Berkeley. (Image courtesy of the {{% resource_link \"b7842018-ef0a-460f-86fc-914b31be33d9\" \"U.S. Department of Energy Genomes to Life Program\" %}}.)",
+      "credit": "",
+      "image-alt": "A photo of fast-moving colored lights which appear to be spinning in a circle above a machine."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "hst-508f02.jpg",
+    "uid": "c4a9c2a6-9935-576a-8afa-5b3a5e0e94e2",
+    "video_files": {
+      "video_thumbnail_file": null
+    },
+    "video_metadata": {
+      "youtube_id": null
+    }
+  },
+  "course_image_thumbnail": {
+    "content": "5a76bddd-fd47-f6a7-2c4d-3cf98bbabf3f",
+    "website": "hst-508-genomics-and-computational-biology-fall-2002"
+  },
+  "course_title": "Genomics and Computational Biology",
+  "department_numbers": [
+    "HST"
+  ],
+  "extra_course_numbers": "",
+  "hide_download": false,
+  "image_src": "./static_resources/hst-508f02.jpg",
+  "instructors": [
+    {
+      "first_name": "George",
+      "last_name": "Church",
+      "middle_initial": "",
+      "salutation": "Dr.",
+      "title": "Dr. George Church",
+      "uid": "21f4d75c-6b7a-bf37-e743-856aeb242993",
+      "url": "https://ocw.mit.edu/search/?q=Dr.+George+Church"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Notes",
+    "Projects",
+    "Lecture Audio"
+  ],
+  "legacy_uid": "5b6ccbd9-cf38-a72c-cd6e-1af019b14760",
+  "level": [
+    "Graduate",
+    "Undergraduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Engineering",
+      "Biological Engineering"
+    ],
+    [
+      "Science & Math",
+      "Biology"
+    ],
+    [
+      "Health & Medicine",
+      "Biomedical Technologies"
+    ]
+  ],
+  "primary_course_number": "HST.508",
+  "site_short_id": "hst.508-fall-2002",
+  "site_uid": "52e4f859-78f3-4ab5-9c38-f5540373b941",
+  "site_url_path": "courses/hst-508-genomics-and-computational-biology-fall-2002",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Health and Medicine",
+      "Functional Genomics"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Genetics"
+    ],
+    [
+      "Engineering",
+      "Biological Engineering",
+      "Computational Biology"
+    ],
+    [
+      "Science",
+      "Biology",
+      "Computation and Systems Biology"
+    ]
+  ],
+  "year": "2002"
+}

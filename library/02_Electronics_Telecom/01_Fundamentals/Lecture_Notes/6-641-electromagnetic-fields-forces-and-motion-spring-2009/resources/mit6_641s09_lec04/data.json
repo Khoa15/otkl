@@ -1,0 +1,27 @@
+{
+  "content": "<p>Lecture notes on the scalar electric potential, quasistatics, irrotational EQS electric field, vector identity, Poisson&rsquo;s equation, and Coulomb superposition integral.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on the scalar electric potential, quasistatics, irrotational EQS electric field, vector identity, Poisson's equation, and Coulomb superposition integral.",
+  "draft": false,
+  "file": "/courses/6-641-electromagnetic-fields-forces-and-motion-spring-2009/MIT6_641s09_lec04.pdf",
+  "file_size": 191963,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "dda578c4-8b9d-5d90-3bed-c932f0409540",
+  "resourcetype": "Document",
+  "title": "Lecture 4: The Scalar Electric Potential and the Coulomb Superposition Integral",
+  "uid": "86b002b4-8f34-5842-de0f-cdb0b1a0a619",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

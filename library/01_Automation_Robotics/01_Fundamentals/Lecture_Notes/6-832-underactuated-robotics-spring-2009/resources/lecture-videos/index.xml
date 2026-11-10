@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Videos on MIT OpenCourseWare</title>
+    <link>/resources/lecture-videos/</link>
+    <description>Recent content in Lecture Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 1: Introduction</title>
+      <link>/resources/lecture-1-introduction/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-1-introduction/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Introduction&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Russell Tedrake&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 10: Trajectory Stabilization and Iterative Linear Quadratic Regulator</title>
+      <link>/resources/lecture-10-trajectory-stabilization-and-iterative-linear-quadratic-regulator/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-10-trajectory-stabilization-and-iterative-linear-quadratic-regulator/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Trajectory stabilization and iterative linear quadratic regulator (iLQR)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Russell Tedrake&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 11: Walking</title>
+      <link>/resources/lecture-11-walking/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-11-walking/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Walking&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Russell Tedrake&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 12: Walking (cont.)</title>
+      <link>/resources/lecture-12-walking-cont/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-12-walking-cont/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Walking (continued)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Russell Tedrake&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 13: Running</title>
+      <link>/resources/lecture-13-running/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-13-running/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Running&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Russell Tedrake&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 14: Feasible Motion Planning</title>
+      <link>/resources/lecture-14-feasible-motion-planning/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-14-feasible-motion-planning/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Feasible motion planning&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Russell Tedrake&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 15: Global Policies from Local Policies</title>
+      <link>/resources/lecture-15-global-policies-from-local-policies/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-15-global-policies-from-local-policies/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Global policies from local policies&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Russell Tedrake&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 16: Introducing Stochastic Optimal Control</title>
+      <link>/resources/lecture-16-introducing-stochastic-optimal-control/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-16-introducing-stochastic-optimal-control/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Introducing stochastic optimal control&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Russell Tedrake&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 17: Stochastic Gradient Descent</title>
+      <link>/resources/lecture-17-stochastic-gradient-descent/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-17-stochastic-gradient-descent/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Stochastic gradient descent&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; John W. Roberts&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 18: Stochastic Gradient Descent 2</title>
+      <link>/resources/lecture-18-stochastic-gradient-descent-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-18-stochastic-gradient-descent-2/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Stochastic gradient descent 2&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; John W. Roberts&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 19: Temporal Difference Learning</title>
+      <link>/resources/lecture-19-temporal-difference-learning/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-19-temporal-difference-learning/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Temporal difference learning&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Russell Tedrake&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 2: The Simple Pendulum</title>
+      <link>/resources/lecture-2-the-simple-pendulum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-2-the-simple-pendulum/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; The simple pendulum&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Russell Tedrake&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 20: Temporal Difference Learning with Function Approximation</title>
+      <link>/resources/lecture-20-temporal-difference-learning-with-function-approximation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-20-temporal-difference-learning-with-function-approximation/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Temporal difference learning with function approximation&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Russell Tedrake&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 21: Policy Improvement</title>
+      <link>/resources/lecture-21-policy-improvement/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-21-policy-improvement/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Policy improvement&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Russell Tedrake&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 22: Actor-critic Methods</title>
+      <link>/resources/lecture-22-actor-critic-methods/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-22-actor-critic-methods/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Actor-critic methods&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Russell Tedrake&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 23: Case Studies in Computational Underactuated Control</title>
+      <link>/resources/lecture-23-case-studies-in-computational-underactuated-control/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-23-case-studies-in-computational-underactuated-control/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Case studies in computational underactuated control&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Russell Tedrake&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 3: Optimal Control of the Double Integrator</title>
+      <link>/resources/lecture-3-optimal-control-of-the-double-integrator/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-3-optimal-control-of-the-double-integrator/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Optimal control of the double integrator&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Russell Tedrake&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 4: Optimal Control of the Double Integrator (cont.)</title>
+      <link>/resources/lecture-4-optimal-control-of-the-double-integrator-cont/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-4-optimal-control-of-the-double-integrator-cont/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Optimal control of the double integrator (continued)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Russell Tedrake&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 5: Numerical Optimal Control (Dynamic Programming)</title>
+      <link>/resources/lecture-5-numerical-optimal-control-dynamic-programming/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-5-numerical-optimal-control-dynamic-programming/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Numerical optimal control (dynamic programming)&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Russell Tedrake&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 6: Acrobot and Cart-pole</title>
+      <link>/resources/lecture-6-acrobot-and-cart-pole/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-6-acrobot-and-cart-pole/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Acrobot and cart-pole&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Russell Tedrake&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 7: Swing-up Control of Acrobot and Cart-pole Systems</title>
+      <link>/resources/lecture-7-swing-up-control-of-acrobot-and-cart-pole-systems/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-7-swing-up-control-of-acrobot-and-cart-pole-systems/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Swing-up control of acrobot and cart-pole systems&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Russell Tedrake&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 8: Dynamic Programming (DP) and Policy Search</title>
+      <link>/resources/lecture-8-dynamic-programming-dp-and-policy-search/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-8-dynamic-programming-dp-and-policy-search/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Dynamic programming (DP) and policy search&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Russell Tedrake&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 9: Trajectory Optimization</title>
+      <link>/resources/lecture-9-trajectory-optimization/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture-9-trajectory-optimization/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Topics covered:&lt;/strong&gt; Trajectory optimization&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructors:&lt;/strong&gt; Russell Tedrake&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Video Lectures</title>
+      <link>/video_galleries/video-lectures/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/video_galleries/video-lectures/data.json</guid>
+      <description>&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-1-introduction/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/Z8oMbOj9IWM/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 1: Introduction&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-2-the-simple-pendulum/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/-RRYZ-b9NpI/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 2: The Simple Pendulum&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-3-optimal-control-of-the-double-integrator/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/oWr1_LybOZI/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 3: Optimal Control of the Double Integrator&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-4-optimal-control-of-the-double-integrator-cont/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/89GQHKOeUcU/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 4: Optimal Control of the Double Integrator (cont.)&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-5-numerical-optimal-control-dynamic-programming/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/4kB94UDwJ0M/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 5: Numerical Optimal Control (Dynamic Programming)&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-6-acrobot-and-cart-pole/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/QI09XKVW_8E/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 6: Acrobot and Cart-pole&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-7-swing-up-control-of-acrobot-and-cart-pole-systems/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/9qnpQ1hVlqw/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 7: Swing-up Control of Acrobot and Cart-pole Systems&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-8-dynamic-programming-dp-and-policy-search/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/Gho0bmTsnA4/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 8: Dynamic Programming (DP) and Policy Search&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-9-trajectory-optimization/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/g-VehRFsDcI/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 9: Trajectory Optimization&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-10-trajectory-stabilization-and-iterative-linear-quadratic-regulator/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/xwgIkdBQku4/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 10: Trajectory Stabilization and Iterative Linear Quadratic Regulator&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-11-walking/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/-fCLJ1pGht4/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 11: Walking&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-12-walking-cont/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/E-sOMfDVe8o/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 12: Walking (cont.)&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-13-running/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/CUygqWS7occ/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 13: Running&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-14-feasible-motion-planning/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/ufM3HLTZ47k/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 14: Feasible Motion Planning&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-15-global-policies-from-local-policies/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/7nnFGxqRwNE/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 15: Global Policies from Local Policies&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-16-introducing-stochastic-optimal-control/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/KNRMz9YPCOY/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 16: Introducing Stochastic Optimal Control&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-17-stochastic-gradient-descent/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/6v3Ln2ACtqI/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 17: Stochastic Gradient Descent&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-18-stochastic-gradient-descent-2/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/EqAYRo4wXxY/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 18: Stochastic Gradient Descent 2&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-19-temporal-difference-learning/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/qtmmwILxVR4/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 19: Temporal Difference Learning&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-20-temporal-difference-learning-with-function-approximation/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/ja56bJ8ogUw/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 20: Temporal Difference Learning with Function Approximation&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-21-policy-improvement/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/7LLUz7A1--Q/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 21: Policy Improvement&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-22-actor-critic-methods/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/Bhbk4bWV1Uc/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 22: Actor-critic Methods&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;mb-2 border-gray rounded video-gallery-card&#34;&gt;&#xA;  &lt;a class=&#34;video-link&#34; href=&#34;../../resources/lecture-23-case-studies-in-computational-underactuated-control/index.html&#34;&gt;&#xA;    &lt;div class=&#34;inner-container&#34;&gt;&#xA;      &lt;div class=&#34;left-col&#34;&gt;&lt;img class=&#34;thumbnail&#34; src=&#34;https://img.youtube.com/vi/7la43dvoLh0/default.jpg&#34; alt=&#34;&#34; /&gt;&lt;/div&gt;&#xA;      &lt;div class=&#34;right-col&#34;&gt;&#xA;        &lt;h5 class=&#34;video-title&#34;&gt;Lecture 23: Case Studies in Computational Underactuated Control&lt;/h5&gt;&#xA;      &lt;/div&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>

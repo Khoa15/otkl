@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on MIT OpenCourseWare</title>
+    <link>/resources/projects/</link>
+    <description>Recent content in Projects on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>final_project.pdf</title>
+      <link>/resources/final_project/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/final_project/data.json</guid>
+      <description>&lt;p&gt;This resource contains information on rescue robot.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lab1_response.pdf</title>
+      <link>/resources/lab1_response/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab1_response/data.json</guid>
+      <description>&lt;p&gt;This file contains questions based on an activity performed in the laboratory.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lab1.pdf</title>
+      <link>/resources/lab1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab1/data.json</guid>
+      <description>&lt;p&gt;This file contains topics: initial set up of a robot control system, power amplifier, DC Motor, digital input and radio link.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lab2.pdf</title>
+      <link>/resources/lab2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab2/data.json</guid>
+      <description>&lt;p&gt;This file contains a set of activities performed in the laboratory.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lab3.pdf</title>
+      <link>/resources/lab3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab3/data.json</guid>
+      <description>&lt;p&gt;This file contains basic robot functions and the de-mining robot project task statement.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>/pages/projects/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/projects/data.json</guid>
+      <description>&lt;p&gt;Lab sessions are devoted to two projects. The first project, spanning Labs 1 through 4, is to build a de-mining robot. The second project, covering Labs 5 through 10, is to build a robot that finds and rescues disaster victims.&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;first-project-de-mining-robot&#34;&gt;First Project: De-Mining Robot&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;The goal of this project to produce a robot capable of searching for hidden metal disks (&amp;ldquo;mines&amp;rdquo;) in a open space. Students design and implement a search algorithm that lets the robot hunt autonomously, and when a mine is found to pause on top of it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

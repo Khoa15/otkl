@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 1: Signals and systems</title>
+      <link>/resources/mit6_003f11_lec01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec01/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 1: Signals and systems&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 10: Feedback and control</title>
+      <link>/resources/mit6_003f11_lec10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec10/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 10: feedback and control.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 11: Continuous-time frequency response and Bode plots</title>
+      <link>/resources/mit6_003f11_lec11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec11/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 11: continuous-time frequency response and Bode plots&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 12: Continuous-time feedback and control, part 1</title>
+      <link>/resources/mit6_003f11_lec12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec12/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 12: continuous-time feedback and control, part 1&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 13: Continuous-time feedback and control, part 2</title>
+      <link>/resources/mit6_003f11_lec13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec13/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 13: continuous-time feedback and control, part 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 14: Fourier representations</title>
+      <link>/resources/mit6_003f11_lec14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec14/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 14: fourier representations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 15: Fourier series</title>
+      <link>/resources/mit6_003f11_lec15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec15/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 15: fourier series.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 16: Fourier transform</title>
+      <link>/resources/mit6_003f11_lec16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec16/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 16: fourier transform.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 17: Discrete-time frequency representations</title>
+      <link>/resources/mit6_003f11_lec17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec17/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 17: discrete-time frequency representations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 18: Discrete-time Fourier representations</title>
+      <link>/resources/mit6_003f11_lec18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec18/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 18: discrete-time Fourier representations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 19: Relations among Fourier representations</title>
+      <link>/resources/mit6_003f11_lec19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec19/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 19: relations among Fourier representations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 2: Discrete-time systems</title>
+      <link>/resources/mit6_003f11_lec02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec02/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 2: discrete-time systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 20: Applications of Fourier transforms</title>
+      <link>/resources/mit6_003f11_lec20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec20/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 20: applications of Fourier transforms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 21: Sampling</title>
+      <link>/resources/mit6_003f11_lec21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec21/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 21: sampling.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 22: Sampling and quantization</title>
+      <link>/resources/mit6_003f11_lec22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec22/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 22: sampling and quantization&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 23: Modulation, part 1</title>
+      <link>/resources/mit6_003f11_lec23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec23/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 23: modulation, part 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 24: Modulation, part 2</title>
+      <link>/resources/mit6_003f11_lec24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec24/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 24: modulation, part 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 25: Audio CD</title>
+      <link>/resources/mit6_003f11_lec25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec25/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 25: audio CD.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 3: Feedback, poles, and fundamental modes</title>
+      <link>/resources/mit6_003f11_lec03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec03/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 3: feedback, poles, and fundamental modes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 4: Continuous-time systems</title>
+      <link>/resources/mit6_003f11_lec04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec04/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 4: continuous-time systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 5: Z transform</title>
+      <link>/resources/mit6_003f11_lec05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec05/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 5: Z transform.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 6: Laplace transform</title>
+      <link>/resources/mit6_003f11_lec06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec06/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 6: laplace transform.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 7: Discrete approximation of continuous-time systems</title>
+      <link>/resources/mit6_003f11_lec07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec07/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 7: dapproximation of continuous-time systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 8: Convolution</title>
+      <link>/resources/mit6_003f11_lec08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec08/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 8: convolution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture 9: Frequency response</title>
+      <link>/resources/mit6_003f11_lec09/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_003f11_lec09/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding lecture 9: frequency response.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SES #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LECTURE NOTES&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit6_003f11_lec01/index.html&#34;&gt;Signals and Systems (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit6_003f11_lec02/index.html&#34;&gt;Discrete-Time (DT) Systems (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit6_003f11_lec03/index.html&#34;&gt;Feedback, Poles, and Fundamental Modes (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit6_003f11_lec04/index.html&#34;&gt;Continuous-Time (CT) Systems (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit6_003f11_lec05/index.html&#34;&gt;Z Transform (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;6&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit6_003f11_lec06/index.html&#34;&gt;Laplace Transform (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;7&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit6_003f11_lec07/index.html&#34;&gt;Discrete Approximation of Continuous-Time Systems (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;8&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit6_003f11_lec08/index.html&#34;&gt;Convolution (PDF - 2.0MB)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;9&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit6_003f11_lec09/index.html&#34;&gt;Frequency Response (PDF - 1.6MB)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;10&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit6_003f11_lec10/index.html&#34;&gt;Feedback and Control (PDF - 1.4MB)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;11&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit6_003f11_lec11/index.html&#34;&gt;Continuous-Time (CT) Frequency Response and Bode Plot (PDF - 1.1MB)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

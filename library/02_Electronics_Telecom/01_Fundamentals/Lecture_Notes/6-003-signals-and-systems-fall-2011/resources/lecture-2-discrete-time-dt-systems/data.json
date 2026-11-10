@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Instructor:</strong> Dennis Freeman</p>\n<p><strong>Description:</strong> Discrete-time systems can be represented in several ways: difference equations, block diagrams, and operators. Each method requires a different analytical approach. Feedback loops in cyclic systems lead to convergent or divergent responses.</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "112433637",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "Lecture Slides",
+  "optional_text": "[Discrete-Time (DT) Systems (PDF)](/courses/6-003-signals-and-systems-fall-2011/resources/mit6_003f11_lec02)",
+  "parent_title": "Lecture Videos",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Lecture 2: Discrete-Time (DT) Systems",
+  "uid": "01839aba-a99a-57c7-9339-c66b76c09eec",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT6.003F11/MIT6_003F11_lec02_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/6-003-signals-and-systems-fall-2011/fce58323db5b5081b7604058331475e5_Ih4s5IFphCw.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/Ih4s5IFphCw/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/6-003-signals-and-systems-fall-2011/4bb4e1495d50becc405b7edcbedf07d9_Ih4s5IFphCw.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "6-003-signals-and-systems-fall-2011, block diagram, convergence, difference equation, discrete time, divergence, fundamental mode, geometric growth, negative feedback, operator notation, polynomial, positive feedback, unit sample",
+    "youtube_id": "Ih4s5IFphCw"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "content": "<p>Lecture notes on force densities, stress tensors, and forces, the Maxwell stress tensor, air-gap magnetic machines, electrostatic machines, and compressible media.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on force densities, stress tensors, and forces, the Maxwell stress tensor, air-gap magnetic machines, electrostatic machines, and compressible media.",
+  "draft": false,
+  "file": "/courses/6-641-electromagnetic-fields-forces-and-motion-spring-2009/MIT6_641s09_lec15.pdf",
+  "file_size": 587198,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "dda578c4-8b9d-5d90-3bed-c932f0409540",
+  "resourcetype": "Document",
+  "title": "Lecture 15: Force Densities, Stress Tensors, and Forces",
+  "uid": "d73e79c9-e065-499b-da53-7452d5278d1a",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

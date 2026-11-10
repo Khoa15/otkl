@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This file contains the information regarding questions- bayesian networks, refining protein structures in pyRosetta, mutual information of protein residues.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains the information regarding questions- bayesian networks, refining protein structures in pyRosetta, mutual information of protein residues.",
+  "draft": false,
+  "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/6d52a17800a4be9e2ae605c1c83d65ba_MIT7_91JS14_pset4_ques.pdf",
+  "file_size": 237326,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "215564a7-c7bc-a140-74c5-d9096008982b",
+  "resourcetype": "Document",
+  "title": "Problem Set 4: Questions- Bayesian Networks, Refining Protein Structures in PyRosetta, Mutual information of protein residues",
+  "uid": "6d52a178-00a4-be9e-2ae6-05c1c83d65ba",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "7-91j-foundations-of-computational-and-systems-biology-spring-2014"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "7-91j-foundations-of-computational-and-systems-biology-spring-2014"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

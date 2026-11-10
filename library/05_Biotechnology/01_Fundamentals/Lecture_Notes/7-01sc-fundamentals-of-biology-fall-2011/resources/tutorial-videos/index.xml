@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorial Videos on MIT OpenCourseWare</title>
+    <link>/resources/tutorial-videos/</link>
+    <description>Recent content in Tutorial Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/tutorial-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Complementation</title>
+      <link>/resources/complementation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/complementation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Complementation (Part II)</title>
+      <link>/resources/complementation-part-ii/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/complementation-part-ii/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Explanation of 5&#39; and 3&#39;, C terminus, and N terminus</title>
+      <link>/resources/explanation-of-5-and-3-c-terminus-and-n-terminus/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/explanation-of-5-and-3-c-terminus-and-n-terminus/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Genomic and cDNA Libraries</title>
+      <link>/resources/genomic-and-cdna-libraries/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/genomic-and-cdna-libraries/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lipids, Carbohydrates, and Nucleic Acids Practice Problem</title>
+      <link>/resources/lipids-carbohydrates-and-nucleic-acids-practice-problem/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lipids-carbohydrates-and-nucleic-acids-practice-problem/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pedigrees</title>
+      <link>/resources/pedigrees/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pedigrees/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Polymerase Chain Reaction (PCR)</title>
+      <link>/resources/polymerase-chain-reaction-pcr/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/polymerase-chain-reaction-pcr/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The lac operon</title>
+      <link>/resources/the-lac-operon/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/the-lac-operon/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Transcription and Translation</title>
+      <link>/resources/transcription-and-translation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/transcription-and-translation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Transformation and Protein Expression</title>
+      <link>/resources/transformation-and-protein-expression/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/transformation-and-protein-expression/data.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

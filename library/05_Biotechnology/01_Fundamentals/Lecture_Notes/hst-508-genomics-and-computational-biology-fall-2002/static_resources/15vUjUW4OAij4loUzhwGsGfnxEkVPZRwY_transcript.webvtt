@@ -1,0 +1,3497 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.610 align:middle line:90%
+
+
+00:00:00.610 --> 00:00:02.440 align:middle line:84%
+The following
+content is provided
+
+00:00:02.440 --> 00:00:06.370 align:middle line:84%
+by MIT OpenCourseWare under
+a Creative Commons license.
+
+00:00:06.370 --> 00:00:10.120 align:middle line:84%
+Additional information about our
+license and MIT OpenCourseWare,
+
+00:00:10.120 --> 00:00:12.730 align:middle line:84%
+in general, is available
+at ocw.mit.edu.
+
+00:00:12.730 --> 00:00:16.600 align:middle line:90%
+
+
+00:00:16.600 --> 00:00:19.030 align:middle line:90%
+GEORGE CHURCH: OK, welcome back.
+
+00:00:19.030 --> 00:00:21.650 align:middle line:84%
+I'm sure you're all
+dying to know the answer,
+
+00:00:21.650 --> 00:00:24.040 align:middle line:84%
+so y'all came back
+faster than usual.
+
+00:00:24.040 --> 00:00:26.440 align:middle line:90%
+[LAUGHTER]
+
+00:00:26.440 --> 00:00:29.860 align:middle line:84%
+So how do we get from
+the first top motif
+
+00:00:29.860 --> 00:00:31.840 align:middle line:90%
+score to the second one?
+
+00:00:31.840 --> 00:00:36.400 align:middle line:84%
+And I'll show you,
+just to spice this up,
+
+00:00:36.400 --> 00:00:40.000 align:middle line:84%
+I'll see two different
+algorithms they actually,
+
+00:00:40.000 --> 00:00:46.480 align:middle line:84%
+historically, done and the
+100-fold improvement in speed
+
+00:00:46.480 --> 00:00:50.320 align:middle line:84%
+and also in accuracy that
+comes from the change.
+
+00:00:50.320 --> 00:00:52.900 align:middle line:84%
+So the first way,
+and you already
+
+00:00:52.900 --> 00:00:54.680 align:middle line:84%
+can see negatively
+predisposed to this,
+
+00:00:54.680 --> 00:01:01.180 align:middle line:84%
+but if you look at the motif,
+the winner, if you will,
+
+00:01:01.180 --> 00:01:04.269 align:middle line:84%
+the first time around, it
+has certain base positions
+
+00:01:04.269 --> 00:01:08.830 align:middle line:84%
+which are particularly
+high-information concept.
+
+00:01:08.830 --> 00:01:10.870 align:middle line:84%
+That is to say they
+really dominate,
+
+00:01:10.870 --> 00:01:15.790 align:middle line:84%
+and they probably are
+critical to finding a motif.
+
+00:01:15.790 --> 00:01:19.210 align:middle line:84%
+If you had a way of, say,
+knocking out one of those
+
+00:01:19.210 --> 00:01:22.240 align:middle line:84%
+from the sequence,
+from all the sequences
+
+00:01:22.240 --> 00:01:24.250 align:middle line:84%
+which contributed
+to this motif, then
+
+00:01:24.250 --> 00:01:25.830 align:middle line:84%
+it would greatly
+reduce your chances
+
+00:01:25.830 --> 00:01:27.530 align:middle line:90%
+that you would find it again.
+
+00:01:27.530 --> 00:01:31.360 align:middle line:84%
+And so that's what we are
+going to do in slide 47
+
+00:01:31.360 --> 00:01:33.640 align:middle line:84%
+is we're just going
+to go through and pick
+
+00:01:33.640 --> 00:01:40.180 align:middle line:84%
+on one of those bases
+and turn it into an X.
+
+00:01:40.180 --> 00:01:42.820 align:middle line:84%
+So an X doesn't really match
+any of the weight matrices.
+
+00:01:42.820 --> 00:01:48.100 align:middle line:84%
+And so whenever you have
+an motif that overlaps it,
+
+00:01:48.100 --> 00:01:49.760 align:middle line:90%
+it won't have a good score.
+
+00:01:49.760 --> 00:01:51.880 align:middle line:90%
+And so you won't build up--
+
+00:01:51.880 --> 00:01:53.770 align:middle line:90%
+you won't have this transition.
+
+00:01:53.770 --> 00:01:56.780 align:middle line:84%
+The Gibbs sampler won't
+go in that direction.
+
+00:01:56.780 --> 00:02:02.110 align:middle line:84%
+Now, this has a couple of
+disadvantages from a accuracy
+
+00:02:02.110 --> 00:02:04.840 align:middle line:84%
+standpoint in that there may
+be some motifs that you really
+
+00:02:04.840 --> 00:02:13.750 align:middle line:84%
+like that overlap the
+original motif slightly.
+
+00:02:13.750 --> 00:02:17.170 align:middle line:90%
+
+
+00:02:17.170 --> 00:02:20.110 align:middle line:84%
+And you'll miss those
+during the sampling.
+
+00:02:20.110 --> 00:02:22.820 align:middle line:90%
+
+
+00:02:22.820 --> 00:02:30.510 align:middle line:84%
+So an alternative way of looking
+for these sort of things,
+
+00:02:30.510 --> 00:02:37.740 align:middle line:84%
+rather than taking the best
+continuous sampling in this Xed
+
+00:02:37.740 --> 00:02:40.920 align:middle line:84%
+out version, instead,
+what you can do
+
+00:02:40.920 --> 00:02:43.450 align:middle line:84%
+is maintain a list
+of all the motifs
+
+00:02:43.450 --> 00:02:44.700 align:middle line:90%
+you've found up to this point.
+
+00:02:44.700 --> 00:02:46.710 align:middle line:90%
+In this case, we have just one.
+
+00:02:46.710 --> 00:02:49.950 align:middle line:84%
+And now, because we were
+using AlignACE to do this
+
+00:02:49.950 --> 00:02:54.120 align:middle line:84%
+multi-sequence
+alignment by sampling--
+
+00:02:54.120 --> 00:02:59.610 align:middle line:84%
+but now, as you're going
+along, building up,
+
+00:02:59.610 --> 00:03:06.450 align:middle line:84%
+initially, a random motif, you
+compare it to the first winner.
+
+00:03:06.450 --> 00:03:09.660 align:middle line:84%
+And you say, is this
+random motif, or this motif
+
+00:03:09.660 --> 00:03:11.880 align:middle line:84%
+that's emerging out of
+this random process,
+
+00:03:11.880 --> 00:03:14.820 align:middle line:84%
+does it look at all
+like the previous one?
+
+00:03:14.820 --> 00:03:16.260 align:middle line:84%
+If it starts to
+look convincingly
+
+00:03:16.260 --> 00:03:19.382 align:middle line:84%
+like the winner before, you
+know where it's going to go.
+
+00:03:19.382 --> 00:03:21.340 align:middle line:84%
+It's just going to get
+more and more like that.
+
+00:03:21.340 --> 00:03:22.900 align:middle line:90%
+So you might as well quit early.
+
+00:03:22.900 --> 00:03:24.810 align:middle line:84%
+And so that's what
+you do is now you
+
+00:03:24.810 --> 00:03:26.340 align:middle line:84%
+haven't Xed out any
+particular base.
+
+00:03:26.340 --> 00:03:27.780 align:middle line:90%
+All the information is there.
+
+00:03:27.780 --> 00:03:30.630 align:middle line:84%
+You can take any kind of
+motif that expands and changes
+
+00:03:30.630 --> 00:03:31.680 align:middle line:90%
+the columns and so forth.
+
+00:03:31.680 --> 00:03:34.200 align:middle line:90%
+
+
+00:03:34.200 --> 00:03:36.510 align:middle line:84%
+And if you're building
+up towards a motif you've
+
+00:03:36.510 --> 00:03:40.830 align:middle line:90%
+seen before, you can reject it.
+
+00:03:40.830 --> 00:03:49.550 align:middle line:90%
+
+
+00:03:49.550 --> 00:03:51.770 align:middle line:84%
+This process has
+the dual advantage
+
+00:03:51.770 --> 00:03:56.270 align:middle line:84%
+of now allowing you to get
+overlapping motifs that
+
+00:03:56.270 --> 00:03:58.820 align:middle line:84%
+might have a different
+enough column structure
+
+00:03:58.820 --> 00:04:02.420 align:middle line:84%
+or differ enough weight
+matrix or are slightly
+
+00:04:02.420 --> 00:04:05.210 align:middle line:84%
+offset so that it really
+is a different motif.
+
+00:04:05.210 --> 00:04:07.220 align:middle line:90%
+You can find those.
+
+00:04:07.220 --> 00:04:09.470 align:middle line:84%
+The algorithm that you're
+using to compare these we'll
+
+00:04:09.470 --> 00:04:12.620 align:middle line:90%
+use a couple of times today.
+
+00:04:12.620 --> 00:04:17.180 align:middle line:84%
+We'll call it CompareACE for
+comparing these consensus
+
+00:04:17.180 --> 00:04:20.930 align:middle line:84%
+elements, or these
+weight matrices.
+
+00:04:20.930 --> 00:04:27.530 align:middle line:84%
+And so it not only
+improves your ability
+
+00:04:27.530 --> 00:04:34.700 align:middle line:84%
+to discriminate related
+but statistically separable
+
+00:04:34.700 --> 00:04:38.810 align:middle line:84%
+consensus elements but it also
+has about 100-fold increase
+
+00:04:38.810 --> 00:04:39.830 align:middle line:90%
+in speed.
+
+00:04:39.830 --> 00:04:43.740 align:middle line:84%
+Because you can stop 100 times
+earlier in this motif sampling,
+
+00:04:43.740 --> 00:04:45.553 align:middle line:84%
+which goes-- once you
+lock into a motif,
+
+00:04:45.553 --> 00:04:46.970 align:middle line:84%
+you go and you go
+until you really
+
+00:04:46.970 --> 00:04:49.400 align:middle line:90%
+get the best possible score.
+
+00:04:49.400 --> 00:04:52.500 align:middle line:84%
+But now you can reject these
+weaker ones earlier on.
+
+00:04:52.500 --> 00:04:54.598 align:middle line:84%
+Now, you may have been
+wondering all along,
+
+00:04:54.598 --> 00:04:57.140 align:middle line:84%
+you probably have an intuitive
+feeling for what the MAP score
+
+00:04:57.140 --> 00:04:59.113 align:middle line:90%
+is-- and I'm going to take--
+
+00:04:59.113 --> 00:05:00.530 align:middle line:84%
+and at the end of
+this, you're not
+
+00:05:00.530 --> 00:05:04.807 align:middle line:84%
+going to be able to rederive
+this from first principles
+
+00:05:04.807 --> 00:05:06.890 align:middle line:84%
+because I'm not going to
+go into it in that depth.
+
+00:05:06.890 --> 00:05:09.440 align:middle line:84%
+But I want to expose you
+to some of the terms that
+
+00:05:09.440 --> 00:05:12.440 align:middle line:84%
+are involved in this
+maximum a posteriori score.
+
+00:05:12.440 --> 00:05:14.955 align:middle line:90%
+
+
+00:05:14.955 --> 00:05:21.680 align:middle line:84%
+Of course, the hero of any
+kind of scoring function
+
+00:05:21.680 --> 00:05:25.700 align:middle line:84%
+is the weight matrix, the
+actual number of counts of As,
+
+00:05:25.700 --> 00:05:29.000 align:middle line:84%
+Cs, Gs, and Ts you
+have at every position
+
+00:05:29.000 --> 00:05:31.010 align:middle line:90%
+in every column in this matrix.
+
+00:05:31.010 --> 00:05:34.310 align:middle line:84%
+Now, remember, we've
+critiqued this already,
+
+00:05:34.310 --> 00:05:38.000 align:middle line:84%
+that the typical
+weight matrices,
+
+00:05:38.000 --> 00:05:41.060 align:middle line:84%
+there is no codependence
+of columns the way
+
+00:05:41.060 --> 00:05:42.800 align:middle line:84%
+there was in RNA
+secondary structural
+
+00:05:42.800 --> 00:05:46.280 align:middle line:84%
+or in CpG islands or
+other Markov chains.
+
+00:05:46.280 --> 00:05:47.780 align:middle line:90%
+These are independent columns.
+
+00:05:47.780 --> 00:05:53.090 align:middle line:84%
+So the key player, the
+hero here, is f sub jb.
+
+00:05:53.090 --> 00:05:55.130 align:middle line:90%
+This is the weight matrix.
+
+00:05:55.130 --> 00:05:58.850 align:middle line:84%
+And this is not a frequency,
+but this is the actual number
+
+00:05:58.850 --> 00:06:00.740 align:middle line:90%
+of occurrences of each base--
+
+00:06:00.740 --> 00:06:04.220 align:middle line:84%
+A, C, G, or T, which
+is B, at position j
+
+00:06:04.220 --> 00:06:06.020 align:middle line:90%
+in the column matrix.
+
+00:06:06.020 --> 00:06:10.160 align:middle line:84%
+These can be the active
+columns, j going--
+
+00:06:10.160 --> 00:06:12.470 align:middle line:84%
+and then the number
+of occurrences
+
+00:06:12.470 --> 00:06:16.910 align:middle line:84%
+is just the sum of
+those occurrences.
+
+00:06:16.910 --> 00:06:20.750 align:middle line:84%
+We've already been talking about
+how the width of the motif can
+
+00:06:20.750 --> 00:06:23.180 align:middle line:84%
+include some columns that
+are basically on and off,
+
+00:06:23.180 --> 00:06:25.620 align:middle line:84%
+columns that you believe are
+significant and those that
+
+00:06:25.620 --> 00:06:26.120 align:middle line:90%
+aren't.
+
+00:06:26.120 --> 00:06:28.730 align:middle line:84%
+So the number of
+columns, c, is less than
+
+00:06:28.730 --> 00:06:32.090 align:middle line:90%
+or equal to the width.
+
+00:06:32.090 --> 00:06:36.820 align:middle line:84%
+So for example, when we
+were doing the GCN4 example,
+
+00:06:36.820 --> 00:06:39.700 align:middle line:84%
+we had a width of 10
+or might at one point
+
+00:06:39.700 --> 00:06:43.435 align:middle line:84%
+expand to the width of 11 with
+10 active columns, c equal 10.
+
+00:06:43.435 --> 00:06:46.360 align:middle line:90%
+
+
+00:06:46.360 --> 00:06:52.480 align:middle line:84%
+You'll recognize-- here's
+the star, the f sub jb here.
+
+00:06:52.480 --> 00:06:57.370 align:middle line:84%
+And you're adding these
+pseudocounts here,
+
+00:06:57.370 --> 00:07:01.510 align:middle line:84%
+these betas, which you remember
+that every time that you have
+
+00:07:01.510 --> 00:07:04.060 align:middle line:84%
+a danger that you
+might, because you
+
+00:07:04.060 --> 00:07:06.670 align:middle line:84%
+have a limited database
+that you're looking through,
+
+00:07:06.670 --> 00:07:08.710 align:middle line:84%
+a limited number of
+actually observed sites,
+
+00:07:08.710 --> 00:07:11.200 align:middle line:84%
+you could get a number
+of sites equal to 0.
+
+00:07:11.200 --> 00:07:13.900 align:middle line:84%
+And you don't want to
+have zeros in there.
+
+00:07:13.900 --> 00:07:16.090 align:middle line:84%
+Because you're
+basically acknowledging,
+
+00:07:16.090 --> 00:07:18.700 align:middle line:84%
+because I did lambda sampling,
+it could have been 1.
+
+00:07:18.700 --> 00:07:20.830 align:middle line:84%
+If I had sampled one more,
+it could have been 1.
+
+00:07:20.830 --> 00:07:24.460 align:middle line:84%
+And so an estimate might be that
+you add another pseudocount.
+
+00:07:24.460 --> 00:07:27.850 align:middle line:84%
+And this can be
+represented here.
+
+00:07:27.850 --> 00:07:30.370 align:middle line:84%
+You don't want to have-- and
+these gammas you can think of,
+
+00:07:30.370 --> 00:07:34.600 align:middle line:90%
+they're kind of like factorials.
+
+00:07:34.600 --> 00:07:36.760 align:middle line:90%
+And you're taking products.
+
+00:07:36.760 --> 00:07:37.900 align:middle line:90%
+The pi is products.
+
+00:07:37.900 --> 00:07:41.740 align:middle line:90%
+
+
+00:07:41.740 --> 00:07:45.190 align:middle line:84%
+And then I may have
+mentioned that you
+
+00:07:45.190 --> 00:07:47.830 align:middle line:84%
+might want to take into
+account the background
+
+00:07:47.830 --> 00:07:49.160 align:middle line:90%
+levels of the bases.
+
+00:07:49.160 --> 00:07:53.320 align:middle line:84%
+If you get, say, a motif
+that's just a string of As
+
+00:07:53.320 --> 00:07:57.370 align:middle line:84%
+and you're doing it in a
+genome that's very AT-rich,
+
+00:07:57.370 --> 00:07:59.240 align:middle line:90%
+then you want to account.
+
+00:07:59.240 --> 00:08:01.570 align:middle line:84%
+It's less surprising if
+you find a string of As
+
+00:08:01.570 --> 00:08:04.090 align:middle line:90%
+in a genome that's GC-rich.
+
+00:08:04.090 --> 00:08:07.510 align:middle line:84%
+And that's what this g sub
+b is the background genome
+
+00:08:07.510 --> 00:08:09.520 align:middle line:90%
+frequency for base b.
+
+00:08:09.520 --> 00:08:14.123 align:middle line:84%
+Now, in a double-stranded
+DNA, the frequency of As
+
+00:08:14.123 --> 00:08:15.790 align:middle line:84%
+is going to be equal
+to frequency of Ts.
+
+00:08:15.790 --> 00:08:19.180 align:middle line:84%
+But a single-stranded RNA
+virus, for example, there's
+
+00:08:19.180 --> 00:08:22.030 align:middle line:84%
+going to really be a very
+independent set of backgrounds
+
+00:08:22.030 --> 00:08:26.560 align:middle line:90%
+for Gs, As, Ts, and Cs, or Us.
+
+00:08:26.560 --> 00:08:29.740 align:middle line:84%
+So this gives you some flavor
+of what's in the MAP score.
+
+00:08:29.740 --> 00:08:35.320 align:middle line:84%
+A greatly oversimplified version
+of this detailed slide 49
+
+00:08:35.320 --> 00:08:38.049 align:middle line:90%
+is in slide 50--
+
+00:08:38.049 --> 00:08:40.870 align:middle line:84%
+laughably oversimplified--
+is it's basically
+
+00:08:40.870 --> 00:08:42.669 align:middle line:84%
+the overrepresentation
+of these sites
+
+00:08:42.669 --> 00:08:45.040 align:middle line:90%
+is what we're talking about.
+
+00:08:45.040 --> 00:08:48.340 align:middle line:84%
+It means that
+these sites, you're
+
+00:08:48.340 --> 00:08:51.490 align:middle line:84%
+giving a higher score if
+there's an overrepresentation
+
+00:08:51.490 --> 00:08:53.590 align:middle line:90%
+in that learning set.
+
+00:08:53.590 --> 00:08:55.690 align:middle line:84%
+It tells you nothing about
+the rest of the genome.
+
+00:08:55.690 --> 00:08:57.010 align:middle line:84%
+It could be they're
+overrepresented
+
+00:08:57.010 --> 00:08:58.302 align:middle line:90%
+in the rest of the genome, too.
+
+00:08:58.302 --> 00:09:00.490 align:middle line:84%
+And that's what we're
+going to go into next.
+
+00:09:00.490 --> 00:09:05.260 align:middle line:84%
+But you get a bonus for
+the number of aligned sites
+
+00:09:05.260 --> 00:09:08.380 align:middle line:84%
+and the overrepresentation
+of those sites.
+
+00:09:08.380 --> 00:09:11.021 align:middle line:90%
+That's what the MAP score is.
+
+00:09:11.021 --> 00:09:14.077 align:middle line:84%
+STUDENT: Does the
+background [INAUDIBLE]??
+
+00:09:14.077 --> 00:09:14.869 align:middle line:90%
+GEORGE CHURCH: Hmm?
+
+00:09:14.869 --> 00:09:17.873 align:middle line:84%
+STUDENT: Does the
+background [INAUDIBLE]??
+
+00:09:17.873 --> 00:09:19.540 align:middle line:84%
+GEORGE CHURCH: The
+background is ignored
+
+00:09:19.540 --> 00:09:22.525 align:middle line:84%
+in this oversimplification,
+but it's explicit in slide 49.
+
+00:09:22.525 --> 00:09:25.302 align:middle line:90%
+
+
+00:09:25.302 --> 00:09:30.072 align:middle line:84%
+You really should ignore
+this and think more
+
+00:09:30.072 --> 00:09:31.030 align:middle line:90%
+about the previous one.
+
+00:09:31.030 --> 00:09:32.590 align:middle line:84%
+But the main point
+that I'm making
+
+00:09:32.590 --> 00:09:37.760 align:middle line:84%
+is the overrepresentation
+is just half of the story.
+
+00:09:37.760 --> 00:09:40.825 align:middle line:84%
+The other half is
+the specificity.
+
+00:09:40.825 --> 00:09:42.850 align:middle line:84%
+In other words, if it's
+present in your learning
+
+00:09:42.850 --> 00:09:45.713 align:middle line:84%
+set or your enriched set,
+you want to next ask,
+
+00:09:45.713 --> 00:09:47.380 align:middle line:84%
+is it present in the
+rest of the genome?
+
+00:09:47.380 --> 00:09:48.370 align:middle line:84%
+Because if it's
+present-- and maybe
+
+00:09:48.370 --> 00:09:49.810 align:middle line:84%
+that's what you
+mean by background--
+
+00:09:49.810 --> 00:09:51.560 align:middle line:84%
+if it's present in the
+rest of the genome,
+
+00:09:51.560 --> 00:09:54.220 align:middle line:90%
+then that's not great.
+
+00:09:54.220 --> 00:10:03.730 align:middle line:84%
+And so what we're going to do
+is this is an example of running
+
+00:10:03.730 --> 00:10:05.878 align:middle line:84%
+through-- after you
+get the first motif--
+
+00:10:05.878 --> 00:10:07.420 align:middle line:84%
+running through lots
+of other motifs.
+
+00:10:07.420 --> 00:10:11.788 align:middle line:84%
+So the best motif of all for
+a larger set than the ones
+
+00:10:11.788 --> 00:10:12.580 align:middle line:90%
+we were looking at.
+
+00:10:12.580 --> 00:10:14.122 align:middle line:84%
+We were looking at
+seven, but there's
+
+00:10:14.122 --> 00:10:15.289 align:middle line:90%
+116 of these in [INAUDIBLE].
+
+00:10:15.289 --> 00:10:16.830 align:middle line:84%
+When you run through
+the whole thing,
+
+00:10:16.830 --> 00:10:19.180 align:middle line:84%
+the top MAP score, the one
+that's most overrepresented,
+
+00:10:19.180 --> 00:10:20.620 align:middle line:90%
+is this A-rich one.
+
+00:10:20.620 --> 00:10:24.070 align:middle line:84%
+Now you want to ask, is that
+specific to the amino acid
+
+00:10:24.070 --> 00:10:25.390 align:middle line:90%
+biosynthetic genes?
+
+00:10:25.390 --> 00:10:26.830 align:middle line:84%
+Or is it found all
+over the place?
+
+00:10:26.830 --> 00:10:29.038 align:middle line:84%
+And we're going to get to
+that, how you measure that,
+
+00:10:29.038 --> 00:10:30.042 align:middle line:90%
+in just a moment.
+
+00:10:30.042 --> 00:10:31.750 align:middle line:84%
+The one we were kind
+of highlighting here
+
+00:10:31.750 --> 00:10:36.010 align:middle line:84%
+is in GCN4 is kind of modestly--
+this is not a rank order list.
+
+00:10:36.010 --> 00:10:37.360 align:middle line:90%
+This is kind of in random order.
+
+00:10:37.360 --> 00:10:40.390 align:middle line:84%
+But we'll show how you can do
+the rank ordering, as well, how
+
+00:10:40.390 --> 00:10:43.600 align:middle line:90%
+you can order this.
+
+00:10:43.600 --> 00:10:47.470 align:middle line:84%
+But you see all kinds of motifs,
+some that are stretched out,
+
+00:10:47.470 --> 00:10:49.210 align:middle line:90%
+different compositions.
+
+00:10:49.210 --> 00:10:52.480 align:middle line:84%
+So to evaluate
+motif significance,
+
+00:10:52.480 --> 00:10:57.760 align:middle line:84%
+we have these five examples
+that we'll go through.
+
+00:10:57.760 --> 00:11:00.440 align:middle line:84%
+There's the specificity
+that I've been talking about
+
+00:11:00.440 --> 00:11:02.540 align:middle line:84%
+and will be the subject
+of the next slide.
+
+00:11:02.540 --> 00:11:05.170 align:middle line:84%
+That little arrow means
+the slide that's due here.
+
+00:11:05.170 --> 00:11:08.680 align:middle line:84%
+Group specificity-- is
+this specific to the group
+
+00:11:08.680 --> 00:11:11.415 align:middle line:84%
+that you found by clustering,
+or is it all over the place?
+
+00:11:11.415 --> 00:11:12.790 align:middle line:84%
+Functional
+enrichment-- we talked
+
+00:11:12.790 --> 00:11:15.100 align:middle line:90%
+about this a couple of times.
+
+00:11:15.100 --> 00:11:17.530 align:middle line:84%
+Are the genes that
+you're finding
+
+00:11:17.530 --> 00:11:20.500 align:middle line:84%
+in the cluster or
+the genes that you're
+
+00:11:20.500 --> 00:11:24.970 align:middle line:84%
+finding this motif in front
+of, are they enriched by some
+
+00:11:24.970 --> 00:11:26.710 align:middle line:90%
+fairly objective criteria?
+
+00:11:26.710 --> 00:11:30.550 align:middle line:84%
+Is the motifs you're finding
+in a particular position
+
+00:11:30.550 --> 00:11:32.440 align:middle line:90%
+in the upstream elements?
+
+00:11:32.440 --> 00:11:36.580 align:middle line:84%
+Because they have a position
+in the promoters or enhancers.
+
+00:11:36.580 --> 00:11:39.550 align:middle line:84%
+Does the motif that you found
+have interesting symmetry
+
+00:11:39.550 --> 00:11:42.550 align:middle line:84%
+properties, as you might
+expect from proteins,
+
+00:11:42.550 --> 00:11:43.870 align:middle line:90%
+which bind as multimers?
+
+00:11:43.870 --> 00:11:51.780 align:middle line:84%
+They might have inverted
+or tandem repeats,
+
+00:11:51.780 --> 00:11:54.390 align:middle line:84%
+where the elements either
+point towards each other
+
+00:11:54.390 --> 00:11:56.910 align:middle line:90%
+or in tandem.
+
+00:11:56.910 --> 00:11:59.130 align:middle line:84%
+Is the motifs that you're
+finding, are they related
+
+00:11:59.130 --> 00:12:01.230 align:middle line:84%
+in any way to motifs
+that were known
+
+00:12:01.230 --> 00:12:05.653 align:middle line:84%
+before by more complicated
+biochemical and genetic assays?
+
+00:12:05.653 --> 00:12:07.320 align:middle line:84%
+So the first one, the
+group specificity,
+
+00:12:07.320 --> 00:12:09.840 align:middle line:84%
+in order to ask whether
+the motif you found
+
+00:12:09.840 --> 00:12:11.418 align:middle line:84%
+in the small subset
+of the genome
+
+00:12:11.418 --> 00:12:12.960 align:middle line:84%
+is present in the
+rest of the genome,
+
+00:12:12.960 --> 00:12:14.530 align:middle line:90%
+we need a way of scanning.
+
+00:12:14.530 --> 00:12:17.670 align:middle line:84%
+Now, when we introduce
+weight matrices
+
+00:12:17.670 --> 00:12:19.860 align:middle line:84%
+in the multi-sequence
+alignment lecture
+
+00:12:19.860 --> 00:12:23.070 align:middle line:84%
+and we say we would put off
+the motif Gibbs sampling
+
+00:12:23.070 --> 00:12:25.080 align:middle line:84%
+until today, we
+already introduced
+
+00:12:25.080 --> 00:12:27.210 align:middle line:84%
+one really trivial way
+of scanning the genome,
+
+00:12:27.210 --> 00:12:29.940 align:middle line:84%
+where you basically
+take the weight matrix,
+
+00:12:29.940 --> 00:12:32.070 align:middle line:84%
+move it in each position,
+and you do a simple sum.
+
+00:12:32.070 --> 00:12:34.830 align:middle line:84%
+That's basically what
+this is is a simple sum.
+
+00:12:34.830 --> 00:12:39.930 align:middle line:84%
+But we're taking log
+ratios of these counts.
+
+00:12:39.930 --> 00:12:43.180 align:middle line:84%
+Again, the hero, the
+counts, just like the f--
+
+00:12:43.180 --> 00:12:46.530 align:middle line:84%
+so bj before, now
+it's n sub l b,
+
+00:12:46.530 --> 00:12:49.710 align:middle line:84%
+slightly different nomenclature
+taken from different articles,
+
+00:12:49.710 --> 00:12:50.890 align:middle line:90%
+but it's the same idea.
+
+00:12:50.890 --> 00:12:55.410 align:middle line:84%
+This is a number of occurrences
+of base b at position l.
+
+00:12:55.410 --> 00:12:59.820 align:middle line:84%
+This is the weight matrix as
+counts, not as frequencies.
+
+00:12:59.820 --> 00:13:04.590 align:middle line:84%
+And in the denominator is
+the number of occurrences
+
+00:13:04.590 --> 00:13:05.903 align:middle line:90%
+of the most common base.
+
+00:13:05.903 --> 00:13:08.070 align:middle line:84%
+Now, this could be b, or
+it could be some other one.
+
+00:13:08.070 --> 00:13:09.430 align:middle line:90%
+But this is the most common one.
+
+00:13:09.430 --> 00:13:11.430 align:middle line:84%
+This is going to
+tend to be larger
+
+00:13:11.430 --> 00:13:15.540 align:middle line:84%
+than or equal to the ends of
+lb, which is the weight matrix.
+
+00:13:15.540 --> 00:13:19.520 align:middle line:84%
+And you're going to sum over l,
+over the length of the binding
+
+00:13:19.520 --> 00:13:20.020 align:middle line:90%
+site.
+
+00:13:20.020 --> 00:13:25.380 align:middle line:90%
+This was w in the previous one.
+
+00:13:25.380 --> 00:13:28.110 align:middle line:84%
+And you're going to just scan
+this along the entire genome,
+
+00:13:28.110 --> 00:13:29.640 align:middle line:84%
+stepping it over
+one base at a time
+
+00:13:29.640 --> 00:13:31.480 align:middle line:84%
+and coming back on
+the opposite strand.
+
+00:13:31.480 --> 00:13:33.660 align:middle line:90%
+And that's going to be ScanACE.
+
+00:13:33.660 --> 00:13:36.060 align:middle line:84%
+So you've got AlignACE
+compares to ScanACE.
+
+00:13:36.060 --> 00:13:38.700 align:middle line:84%
+Now we're going to scan
+it to see for specificity.
+
+00:13:38.700 --> 00:13:40.370 align:middle line:90%
+Again, you've got these 0.5's.
+
+00:13:40.370 --> 00:13:42.840 align:middle line:84%
+You can think of
+these as pseudocounts.
+
+00:13:42.840 --> 00:13:44.130 align:middle line:90%
+Keep the zeros out.
+
+00:13:44.130 --> 00:13:46.590 align:middle line:84%
+You don't want to
+have a logarithm of 0.
+
+00:13:46.590 --> 00:13:52.140 align:middle line:84%
+Now, let's walk this through a
+particular biological data set.
+
+00:13:52.140 --> 00:14:03.420 align:middle line:84%
+This is a cell cycle data set
+going through two cycles, cell
+
+00:14:03.420 --> 00:14:04.300 align:middle line:90%
+division cycles.
+
+00:14:04.300 --> 00:14:04.800 align:middle line:90%
+here.
+
+00:14:04.800 --> 00:14:07.920 align:middle line:84%
+There are points, 15
+significant time points,
+
+00:14:07.920 --> 00:14:10.150 align:middle line:90%
+along the horizontal axis.
+
+00:14:10.150 --> 00:14:11.835 align:middle line:84%
+And this is a
+particular cluster.
+
+00:14:11.835 --> 00:14:15.030 align:middle line:84%
+Out of 30 different
+clusters, this particular one
+
+00:14:15.030 --> 00:14:18.000 align:middle line:84%
+has a peak just before the S
+phase, the phase and the cell
+
+00:14:18.000 --> 00:14:23.850 align:middle line:84%
+cycle where you're trying to
+get the replication of the cell
+
+00:14:23.850 --> 00:14:26.490 align:middle line:84%
+at the S phase is where
+you actually synthesize
+
+00:14:26.490 --> 00:14:28.802 align:middle line:90%
+a new set of DNA molecules.
+
+00:14:28.802 --> 00:14:30.510 align:middle line:84%
+You duplicate it, just
+as we talked about
+
+00:14:30.510 --> 00:14:32.890 align:middle line:90%
+in the first lecture.
+
+00:14:32.890 --> 00:14:36.610 align:middle line:84%
+And actually, since you've
+recorded a time series
+
+00:14:36.610 --> 00:14:38.250 align:middle line:84%
+through two cell
+division cycles,
+
+00:14:38.250 --> 00:14:40.380 align:middle line:84%
+you expect there
+to be periodicity.
+
+00:14:40.380 --> 00:14:43.062 align:middle line:84%
+Or genes that are acquired
+in the first S phase,
+
+00:14:43.062 --> 00:14:45.270 align:middle line:84%
+you expect them to be acquired
+in the second S phase.
+
+00:14:45.270 --> 00:14:49.560 align:middle line:84%
+That's the underlying
+thought behind designing
+
+00:14:49.560 --> 00:14:52.080 align:middle line:84%
+this experiment is you would
+synchronize all the cells.
+
+00:14:52.080 --> 00:14:53.952 align:middle line:84%
+Normally, cells are
+all over the place.
+
+00:14:53.952 --> 00:14:55.410 align:middle line:84%
+Some of them are
+in S. Some of them
+
+00:14:55.410 --> 00:14:59.830 align:middle line:84%
+are in M, which is where the
+metaphase chromosomes separate.
+
+00:14:59.830 --> 00:15:02.610 align:middle line:84%
+But in this, you synchronize
+them all up by a method
+
+00:15:02.610 --> 00:15:04.480 align:middle line:84%
+we'll talk about
+in just a moment.
+
+00:15:04.480 --> 00:15:06.240 align:middle line:84%
+And then this is
+that diagram where
+
+00:15:06.240 --> 00:15:08.573 align:middle line:84%
+we have the number of standard
+deviations from the mean.
+
+00:15:08.573 --> 00:15:11.910 align:middle line:84%
+This is a normalized signal
+of the RNA expression.
+
+00:15:11.910 --> 00:15:15.300 align:middle line:84%
+On the vertical axis
+and horizontal axis
+
+00:15:15.300 --> 00:15:19.980 align:middle line:84%
+is this time series
+categorically described as G1--
+
+00:15:19.980 --> 00:15:23.280 align:middle line:84%
+gap 1-- synthesis,
+gap 2-- metaphase--
+
+00:15:23.280 --> 00:15:25.900 align:middle line:90%
+mitosis, and so on.
+
+00:15:25.900 --> 00:15:28.890 align:middle line:84%
+Now, what do we learn from
+this particular cluster?
+
+00:15:28.890 --> 00:15:33.090 align:middle line:84%
+This cluster has
+186 genes in it.
+
+00:15:33.090 --> 00:15:36.000 align:middle line:84%
+That means the RNAs
+for those 186 genes
+
+00:15:36.000 --> 00:15:39.000 align:middle line:90%
+were in a nice envelope.
+
+00:15:39.000 --> 00:15:43.920 align:middle line:84%
+It doesn't mean that they're
+strictly couldn't be 185, 187.
+
+00:15:43.920 --> 00:15:46.137 align:middle line:84%
+There may be some
+outliers on the edges.
+
+00:15:46.137 --> 00:15:47.970 align:middle line:84%
+But that's the number
+that we're going to be
+
+00:15:47.970 --> 00:15:49.380 align:middle line:90%
+doing these calculations for.
+
+00:15:49.380 --> 00:15:52.878 align:middle line:90%
+
+
+00:15:52.878 --> 00:15:54.687 align:middle line:84%
+The ways we're
+going to evaluate it
+
+00:15:54.687 --> 00:15:56.520 align:middle line:84%
+is, first, whether the
+functional categories
+
+00:15:56.520 --> 00:15:57.280 align:middle line:90%
+make sense.
+
+00:15:57.280 --> 00:15:59.820 align:middle line:84%
+Is there an enrichment for a
+particular functional category?
+
+00:15:59.820 --> 00:16:02.520 align:middle line:84%
+You may have already,
+those biologists among you,
+
+00:16:02.520 --> 00:16:05.102 align:middle line:84%
+may have already had
+a hypothesis of what
+
+00:16:05.102 --> 00:16:06.810 align:middle line:84%
+functional categories
+should be enriched.
+
+00:16:06.810 --> 00:16:08.977 align:middle line:84%
+If it's going to peak, if
+these are the RNAs that
+
+00:16:08.977 --> 00:16:10.560 align:middle line:84%
+are going to peak
+just before S phase,
+
+00:16:10.560 --> 00:16:12.630 align:middle line:84%
+just before you need
+them for DNA synthesis,
+
+00:16:12.630 --> 00:16:15.358 align:middle line:84%
+maybe these can encode
+genes that are involved--
+
+00:16:15.358 --> 00:16:17.400 align:middle line:84%
+genes [? possibly ?]
+involved-- in DNA synthesis.
+
+00:16:17.400 --> 00:16:22.800 align:middle line:84%
+Sure enough, that's the
+most striking observation
+
+00:16:22.800 --> 00:16:26.603 align:middle line:84%
+is that in this
+database, this MIPS
+
+00:16:26.603 --> 00:16:28.020 align:middle line:84%
+database of
+functional categories,
+
+00:16:28.020 --> 00:16:31.320 align:middle line:84%
+you have 82 genes that are
+described as involved in DNA
+
+00:16:31.320 --> 00:16:32.580 align:middle line:90%
+synthesis.
+
+00:16:32.580 --> 00:16:36.990 align:middle line:84%
+And of this cluster that are
+co-expressed at peak, at S,
+
+00:16:36.990 --> 00:16:40.990 align:middle line:84%
+you have an overlap
+of 23 with that.
+
+00:16:40.990 --> 00:16:43.530 align:middle line:84%
+And that may not sound like
+a huge overlap-- a few--
+
+00:16:43.530 --> 00:16:45.450 align:middle line:84%
+but it's very
+statistically significant.
+
+00:16:45.450 --> 00:16:48.750 align:middle line:84%
+It's 10 to the -16 is the
+probability of that occurring
+
+00:16:48.750 --> 00:16:51.600 align:middle line:84%
+at random, out of the 6,000
+or so [INAUDIBLE] genes,
+
+00:16:51.600 --> 00:16:55.450 align:middle line:84%
+that having this overlap
+of 23 is very significant.
+
+00:16:55.450 --> 00:16:56.400 align:middle line:90%
+So that's the first.
+
+00:16:56.400 --> 00:16:58.140 align:middle line:84%
+And we'll, in just
+a moment, show
+
+00:16:58.140 --> 00:16:59.760 align:middle line:90%
+how we did that calculation.
+
+00:16:59.760 --> 00:17:01.320 align:middle line:90%
+But that's your first test.
+
+00:17:01.320 --> 00:17:03.900 align:middle line:84%
+There is a functional
+category enrichment.
+
+00:17:03.900 --> 00:17:05.730 align:middle line:90%
+Next, you find the motifs.
+
+00:17:05.730 --> 00:17:07.050 align:middle line:90%
+You use the AlignACE.
+
+00:17:07.050 --> 00:17:07.800 align:middle line:90%
+You go through.
+
+00:17:07.800 --> 00:17:08.940 align:middle line:90%
+You find the top motif.
+
+00:17:08.940 --> 00:17:09.930 align:middle line:90%
+It's MCB.
+
+00:17:09.930 --> 00:17:13.349 align:middle line:84%
+You go and you find the very
+close second-highest motif.
+
+00:17:13.349 --> 00:17:14.220 align:middle line:90%
+It's SCB.
+
+00:17:14.220 --> 00:17:16.710 align:middle line:90%
+These are not chosen by hand.
+
+00:17:16.710 --> 00:17:18.839 align:middle line:84%
+This is all done
+algorithmically.
+
+00:17:18.839 --> 00:17:21.030 align:middle line:84%
+The only input-- there's
+no literature input
+
+00:17:21.030 --> 00:17:24.300 align:middle line:84%
+except for checking these
+functional categories--
+
+00:17:24.300 --> 00:17:29.910 align:middle line:84%
+for finding the motifs, it's
+just the microarray data
+
+00:17:29.910 --> 00:17:33.090 align:middle line:84%
+and the sequence
+upstream from the genes
+
+00:17:33.090 --> 00:17:35.160 align:middle line:90%
+that come out of this cluster.
+
+00:17:35.160 --> 00:17:36.940 align:middle line:90%
+That's how these were found.
+
+00:17:36.940 --> 00:17:38.160 align:middle line:90%
+Now, they have to have names.
+
+00:17:38.160 --> 00:17:40.800 align:middle line:84%
+MCB and SCB, we could have
+just called them x and y.
+
+00:17:40.800 --> 00:17:47.400 align:middle line:84%
+But these names do mean that the
+CompareACE score to something
+
+00:17:47.400 --> 00:17:49.480 align:middle line:84%
+that was in the
+literature is good.
+
+00:17:49.480 --> 00:17:54.900 align:middle line:84%
+But a very profound
+accomplishment of this
+
+00:17:54.900 --> 00:17:56.430 align:middle line:90%
+is that now--
+
+00:17:56.430 --> 00:17:58.920 align:middle line:84%
+unlike the literature, where
+it's rather challenging
+
+00:17:58.920 --> 00:18:02.460 align:middle line:84%
+to find the connection
+from a conclusion,
+
+00:18:02.460 --> 00:18:06.150 align:middle line:84%
+like this motif is
+likely to regulate
+
+00:18:06.150 --> 00:18:08.100 align:middle line:84%
+this gene is likely
+to be enriched
+
+00:18:08.100 --> 00:18:10.860 align:middle line:84%
+in this class of genes--
+here, it's directly traceable.
+
+00:18:10.860 --> 00:18:12.930 align:middle line:84%
+You can see the logic
+that connects this motif
+
+00:18:12.930 --> 00:18:16.690 align:middle line:84%
+MCB to this cluster
+via Gibbs algorithm.
+
+00:18:16.690 --> 00:18:20.040 align:middle line:84%
+And this cluster is traceable
+back to the RNA profiles
+
+00:18:20.040 --> 00:18:21.120 align:middle line:90%
+on the microarray.
+
+00:18:21.120 --> 00:18:26.010 align:middle line:84%
+This is all a very simple,
+comprehensive study.
+
+00:18:26.010 --> 00:18:28.950 align:middle line:84%
+But now you want to
+ask, is this motif--
+
+00:18:28.950 --> 00:18:31.530 align:middle line:84%
+we know that it's
+got a high MAP score.
+
+00:18:31.530 --> 00:18:32.430 align:middle line:90%
+It's highly enriched.
+
+00:18:32.430 --> 00:18:36.330 align:middle line:84%
+And it's highly unlikely
+that a motif this strong
+
+00:18:36.330 --> 00:18:41.192 align:middle line:84%
+would have occurred in
+this size cluster of genes.
+
+00:18:41.192 --> 00:18:42.900 align:middle line:84%
+But what you want to
+ask, is it specific?
+
+00:18:42.900 --> 00:18:45.400 align:middle line:84%
+This is the thing we've been
+putting off for a little while.
+
+00:18:45.400 --> 00:18:46.800 align:middle line:90%
+Is it specific?
+
+00:18:46.800 --> 00:18:49.560 align:middle line:84%
+And if you look
+at the 30 clusters
+
+00:18:49.560 --> 00:18:52.080 align:middle line:84%
+when you cluster this
+whole set of genes
+
+00:18:52.080 --> 00:18:55.380 align:middle line:84%
+that vary during the
+cell cycle into 30
+
+00:18:55.380 --> 00:18:59.190 align:middle line:84%
+envelopes, this particular
+one, envelope number 2, cluster
+
+00:18:59.190 --> 00:19:04.320 align:middle line:84%
+number 2, which is
+displayed in the upper left,
+
+00:19:04.320 --> 00:19:06.120 align:middle line:84%
+down in the lower
+left, you can see
+
+00:19:06.120 --> 00:19:09.030 align:middle line:84%
+that all the MCB motifs,
+almost all of them,
+
+00:19:09.030 --> 00:19:11.430 align:middle line:84%
+are found in cluster 2
+when you use ScanACE,
+
+00:19:11.430 --> 00:19:15.240 align:middle line:84%
+and very few of them are found
+in the rest of the genome--
+
+00:19:15.240 --> 00:19:19.950 align:middle line:84%
+similarly for the
+second-most impressive motif
+
+00:19:19.950 --> 00:19:22.380 align:middle line:90%
+by AlignACE MAP scores, SCB.
+
+00:19:22.380 --> 00:19:25.470 align:middle line:84%
+And it's also
+specific to cluster 2.
+
+00:19:25.470 --> 00:19:29.460 align:middle line:84%
+The fact that you're seeing
+this non-random enrichment
+
+00:19:29.460 --> 00:19:31.920 align:middle line:84%
+for functional category,
+this non-random enrichment
+
+00:19:31.920 --> 00:19:37.080 align:middle line:84%
+for a motif, this non-random
+specificity of that motif
+
+00:19:37.080 --> 00:19:40.050 align:middle line:84%
+and a second motif, kind of
+tells you that everything is
+
+00:19:40.050 --> 00:19:42.870 align:middle line:84%
+working, that your RNA data
+collection is working--
+
+00:19:42.870 --> 00:19:45.730 align:middle line:84%
+which, you may spend a lot of
+money to get to this point,
+
+00:19:45.730 --> 00:19:48.060 align:middle line:90%
+you should be gratified--
+
+00:19:48.060 --> 00:19:51.210 align:middle line:84%
+and the clustering is
+working, and the motif finding
+
+00:19:51.210 --> 00:19:53.070 align:middle line:84%
+and specificity scores,
+all this is working.
+
+00:19:53.070 --> 00:19:55.740 align:middle line:84%
+It doesn't mean that it's
+absolutely perfectly tuned
+
+00:19:55.740 --> 00:19:57.390 align:middle line:84%
+and everything,
+but it's giving you
+
+00:19:57.390 --> 00:20:00.880 align:middle line:84%
+feedback that you're taking a
+step in the right direction.
+
+00:20:00.880 --> 00:20:05.070 align:middle line:84%
+Similarly, the position of
+this motif in the promoter
+
+00:20:05.070 --> 00:20:06.000 align:middle line:90%
+is non-random.
+
+00:20:06.000 --> 00:20:09.210 align:middle line:84%
+You see this little spike that's
+coming up just before the--
+
+00:20:09.210 --> 00:20:11.370 align:middle line:84%
+it could be the transcription
+or translation start.
+
+00:20:11.370 --> 00:20:14.220 align:middle line:84%
+In this case, the ATG is
+the translation start.
+
+00:20:14.220 --> 00:20:15.420 align:middle line:90%
+And it's non-random.
+
+00:20:15.420 --> 00:20:17.650 align:middle line:84%
+How do we measure
+each of these things?
+
+00:20:17.650 --> 00:20:18.840 align:middle line:90%
+How do we get this?
+
+00:20:18.840 --> 00:20:20.465 align:middle line:84%
+Well, before we get
+that, I'll give you
+
+00:20:20.465 --> 00:20:23.670 align:middle line:84%
+two more examples, same
+format, just to show you
+
+00:20:23.670 --> 00:20:25.440 align:middle line:84%
+that you get
+different motifs when
+
+00:20:25.440 --> 00:20:28.260 align:middle line:84%
+you go to different
+clusters-- two more clusters.
+
+00:20:28.260 --> 00:20:31.140 align:middle line:90%
+The next one is also periodic.
+
+00:20:31.140 --> 00:20:38.340 align:middle line:84%
+It has a peak now
+slightly shifted
+
+00:20:38.340 --> 00:20:41.040 align:middle line:84%
+to the right from the
+previous periodic function.
+
+00:20:41.040 --> 00:20:44.010 align:middle line:84%
+And it repeats at exactly
+the same periodicity
+
+00:20:44.010 --> 00:20:47.700 align:middle line:84%
+as if they're part of the
+same periodic function, which
+
+00:20:47.700 --> 00:20:50.280 align:middle line:84%
+is exactly how the
+experiment was designed.
+
+00:20:50.280 --> 00:20:53.130 align:middle line:84%
+The difference between this
+and the previous one is now,
+
+00:20:53.130 --> 00:20:57.230 align:middle line:84%
+the two top motifs are not
+previously known motifs.
+
+00:20:57.230 --> 00:20:59.020 align:middle line:84%
+It doesn't mean
+they're any worse.
+
+00:20:59.020 --> 00:21:02.160 align:middle line:90%
+But they're new ones.
+
+00:21:02.160 --> 00:21:05.198 align:middle line:84%
+And the way you evaluate
+whether they're specific
+
+00:21:05.198 --> 00:21:06.990 align:middle line:84%
+is the same way we got
+the specificity for.
+
+00:21:06.990 --> 00:21:09.990 align:middle line:84%
+Now they're in cluster 14,
+which is this cluster up
+
+00:21:09.990 --> 00:21:11.040 align:middle line:90%
+in the upper left.
+
+00:21:11.040 --> 00:21:14.130 align:middle line:84%
+And both of them are
+about as specific
+
+00:21:14.130 --> 00:21:16.170 align:middle line:84%
+as the ones in the
+previous slide.
+
+00:21:16.170 --> 00:21:19.380 align:middle line:84%
+The functional category
+is not as impressive.
+
+00:21:19.380 --> 00:21:22.326 align:middle line:84%
+It's 10 to the
+minus 6 instead of--
+
+00:21:22.326 --> 00:21:25.770 align:middle line:84%
+sorry, 10 to the minus
+4, no 10 to the minus 6,
+
+00:21:25.770 --> 00:21:28.660 align:middle line:84%
+the previous one's
+10 to the minus 16.
+
+00:21:28.660 --> 00:21:32.580 align:middle line:84%
+Now, this is still
+statistically significant.
+
+00:21:32.580 --> 00:21:35.430 align:middle line:84%
+But it could mean that
+this particular way
+
+00:21:35.430 --> 00:21:38.610 align:middle line:84%
+of functional categorization
+which the curators use
+
+00:21:38.610 --> 00:21:41.520 align:middle line:84%
+may not be ideal for this
+particular regulatory
+
+00:21:41.520 --> 00:21:46.650 align:middle line:90%
+mechanism, regulatory regulon.
+
+00:21:46.650 --> 00:21:51.110 align:middle line:84%
+So this may be a discovery
+both of a new regulatory set
+
+00:21:51.110 --> 00:21:54.050 align:middle line:90%
+and of two new motifs.
+
+00:21:54.050 --> 00:21:56.330 align:middle line:84%
+But in order to
+establish that, you'd
+
+00:21:56.330 --> 00:21:59.210 align:middle line:84%
+need some experiments to really,
+say, knock out these motifs
+
+00:21:59.210 --> 00:22:01.520 align:middle line:84%
+and see what the
+consequences are.
+
+00:22:01.520 --> 00:22:05.870 align:middle line:84%
+Now, the third cluster
+illustrates yet another set
+
+00:22:05.870 --> 00:22:07.010 align:middle line:90%
+of ideas.
+
+00:22:07.010 --> 00:22:10.670 align:middle line:84%
+Here, even though the
+experiment was designed
+
+00:22:10.670 --> 00:22:14.240 align:middle line:84%
+specifically to enrich
+for the most abundant--
+
+00:22:14.240 --> 00:22:18.980 align:middle line:84%
+or sorry, for the most
+periodic gene expression,
+
+00:22:18.980 --> 00:22:24.420 align:middle line:84%
+there were inevitably features
+of the experimental design
+
+00:22:24.420 --> 00:22:25.790 align:middle line:90%
+which were not periodic.
+
+00:22:25.790 --> 00:22:28.310 align:middle line:84%
+In particular, when you
+synchronize the cells,
+
+00:22:28.310 --> 00:22:31.010 align:middle line:84%
+you force them all to be in
+synchrony for the cell division
+
+00:22:31.010 --> 00:22:34.370 align:middle line:84%
+cycle, you did that by taking
+a temperature-sensitive mutant
+
+00:22:34.370 --> 00:22:39.260 align:middle line:84%
+in the cell division
+cycle, say CDC15 or 28.
+
+00:22:39.260 --> 00:22:41.840 align:middle line:84%
+And that
+temperature-sensitive mutant,
+
+00:22:41.840 --> 00:22:44.900 align:middle line:84%
+that requires that you raise
+the temperature to shut down
+
+00:22:44.900 --> 00:22:49.320 align:middle line:84%
+the function of that gene
+by unfolding the protein.
+
+00:22:49.320 --> 00:22:51.290 align:middle line:84%
+And so you have a
+temperature shift
+
+00:22:51.290 --> 00:22:53.165 align:middle line:84%
+to allow them to go back
+into the cell cycle.
+
+00:22:53.165 --> 00:22:55.040 align:middle line:84%
+So you're going from
+high temperature to low.
+
+00:22:55.040 --> 00:22:55.980 align:middle line:90%
+That's one thing.
+
+00:22:55.980 --> 00:22:59.210 align:middle line:84%
+And so that temperature
+essentially decays rapidly.
+
+00:22:59.210 --> 00:23:04.080 align:middle line:84%
+And then you have the residual
+of that going out in time.
+
+00:23:04.080 --> 00:23:06.513 align:middle line:84%
+In addition, there's all
+the physiological effects.
+
+00:23:06.513 --> 00:23:08.180 align:middle line:84%
+You had all these
+things kind of waiting
+
+00:23:08.180 --> 00:23:09.860 align:middle line:84%
+in this funny
+physiological state.
+
+00:23:09.860 --> 00:23:11.340 align:middle line:90%
+And then that decays with time.
+
+00:23:11.340 --> 00:23:13.190 align:middle line:90%
+So that's not cyclic.
+
+00:23:13.190 --> 00:23:20.000 align:middle line:84%
+That perturbation is
+a linear or decay.
+
+00:23:20.000 --> 00:23:24.200 align:middle line:84%
+And sure enough, you
+find examples of clusters
+
+00:23:24.200 --> 00:23:25.520 align:middle line:90%
+which are not periodic.
+
+00:23:25.520 --> 00:23:28.340 align:middle line:84%
+This one peaks in
+the second cell cycle
+
+00:23:28.340 --> 00:23:31.320 align:middle line:84%
+but not in the corresponding
+point of the first cell cycle.
+
+00:23:31.320 --> 00:23:34.430 align:middle line:84%
+And in fact, most
+of the 30 clusters,
+
+00:23:34.430 --> 00:23:36.770 align:middle line:84%
+when you divide
+this up into 30--
+
+00:23:36.770 --> 00:23:39.020 align:middle line:84%
+the entire expression
+space up into 30--
+
+00:23:39.020 --> 00:23:39.930 align:middle line:90%
+are like this.
+
+00:23:39.930 --> 00:23:41.630 align:middle line:90%
+They're not periodic.
+
+00:23:41.630 --> 00:23:42.830 align:middle line:90%
+But that's OK.
+
+00:23:42.830 --> 00:23:45.140 align:middle line:84%
+Because what you're
+looking for is clustering,
+
+00:23:45.140 --> 00:23:47.030 align:middle line:84%
+as if these were different
+conditions or different time
+
+00:23:47.030 --> 00:23:47.530 align:middle line:90%
+points.
+
+00:23:47.530 --> 00:23:49.040 align:middle line:90%
+It doesn't matter what it is.
+
+00:23:49.040 --> 00:23:52.220 align:middle line:84%
+Because they are coexpressed,
+so going up and down together,
+
+00:23:52.220 --> 00:23:55.260 align:middle line:84%
+possibly during
+serendipitous factors.
+
+00:23:55.260 --> 00:23:57.500 align:middle line:84%
+But you can still
+apply the same criteria
+
+00:23:57.500 --> 00:23:59.970 align:middle line:84%
+for asking whether you're
+impressed with this cluster
+
+00:23:59.970 --> 00:24:00.470 align:middle line:90%
+or not.
+
+00:24:00.470 --> 00:24:04.190 align:middle line:84%
+Does it have enrichment
+for a functional category
+
+00:24:04.190 --> 00:24:06.920 align:middle line:84%
+in the upper
+left-hand part of 556?
+
+00:24:06.920 --> 00:24:08.540 align:middle line:90%
+And wow, it really does.
+
+00:24:08.540 --> 00:24:11.570 align:middle line:84%
+This is the most impressive
+one of all 30 clusters.
+
+00:24:11.570 --> 00:24:15.050 align:middle line:84%
+It has a probability of 10 to
+the minus 54 that you would
+
+00:24:15.050 --> 00:24:18.590 align:middle line:84%
+find this degree of overlap
+between the functional
+
+00:24:18.590 --> 00:24:22.100 align:middle line:84%
+category-- think of this as
+a Venn diagram of overlapping
+
+00:24:22.100 --> 00:24:23.310 align:middle line:90%
+circles--
+
+00:24:23.310 --> 00:24:26.390 align:middle line:84%
+the overlap between the
+class of ribosomal proteins
+
+00:24:26.390 --> 00:24:30.530 align:middle line:84%
+and the class of this particular
+cluster, which is not periodic,
+
+00:24:30.530 --> 00:24:34.910 align:middle line:90%
+is amazingly significant.
+
+00:24:34.910 --> 00:24:36.770 align:middle line:84%
+In addition, you
+find two motifs.
+
+00:24:36.770 --> 00:24:40.340 align:middle line:84%
+The top two motifs
+are highly enriched.
+
+00:24:40.340 --> 00:24:46.250 align:middle line:84%
+That's what the Snyder
+information content
+
+00:24:46.250 --> 00:24:47.330 align:middle line:90%
+logo means--
+
+00:24:47.330 --> 00:24:48.770 align:middle line:90%
+and is highly specific.
+
+00:24:48.770 --> 00:24:51.740 align:middle line:84%
+That's what the
+bottom line means.
+
+00:24:51.740 --> 00:24:53.480 align:middle line:84%
+This is-- it's
+present in cluster 1
+
+00:24:53.480 --> 00:24:58.340 align:middle line:84%
+and very little in any of
+the other clusters by ScanACE
+
+00:24:58.340 --> 00:25:00.895 align:middle line:90%
+using the motif matrix.
+
+00:25:00.895 --> 00:25:03.270 align:middle line:84%
+So these are three clusters,
+each with a different story.
+
+00:25:03.270 --> 00:25:05.690 align:middle line:84%
+The first one was
+two known motifs.
+
+00:25:05.690 --> 00:25:08.390 align:middle line:84%
+The second was two unknown
+motifs and possibly
+
+00:25:08.390 --> 00:25:09.900 align:middle line:90%
+a new functional category.
+
+00:25:09.900 --> 00:25:13.250 align:middle line:84%
+The third one is a whopping
+match to a functional category,
+
+00:25:13.250 --> 00:25:16.430 align:middle line:84%
+one known, one unknown
+motif, and the whole thing
+
+00:25:16.430 --> 00:25:18.558 align:middle line:84%
+non-periodic, even though
+the experimental design
+
+00:25:18.558 --> 00:25:19.100 align:middle line:90%
+was periodic.
+
+00:25:19.100 --> 00:25:21.800 align:middle line:90%
+
+
+00:25:21.800 --> 00:25:25.610 align:middle line:84%
+So now we've shown that you
+can quantitate all these things
+
+00:25:25.610 --> 00:25:28.850 align:middle line:84%
+that are often casually
+treated in the discussion
+
+00:25:28.850 --> 00:25:30.443 align:middle line:90%
+section of biological papers.
+
+00:25:30.443 --> 00:25:32.360 align:middle line:84%
+Here, they've all been
+treated quantitatively.
+
+00:25:32.360 --> 00:25:33.350 align:middle line:90%
+But how do we do that?
+
+00:25:33.350 --> 00:25:36.110 align:middle line:84%
+What is the algorithm
+behind each of these things?
+
+00:25:36.110 --> 00:25:38.100 align:middle line:84%
+We won't talk about how
+we measure periodicity.
+
+00:25:38.100 --> 00:25:42.110 align:middle line:84%
+But you can imagine you can
+measure the periodicity.
+
+00:25:42.110 --> 00:25:43.490 align:middle line:90%
+And we have.
+
+00:25:43.490 --> 00:25:47.570 align:middle line:90%
+You could ask specificity.
+
+00:25:47.570 --> 00:25:49.370 align:middle line:84%
+How did we measure
+the specificity
+
+00:25:49.370 --> 00:25:50.662 align:middle line:90%
+and the functional assignments?
+
+00:25:50.662 --> 00:25:54.382 align:middle line:84%
+It turns out that's almost
+the same statistical function
+
+00:25:54.382 --> 00:25:56.840 align:middle line:84%
+we use for those two things--
+functional assignments, group
+
+00:25:56.840 --> 00:25:57.800 align:middle line:90%
+specificity.
+
+00:25:57.800 --> 00:25:59.750 align:middle line:84%
+Positional bias is
+a different one.
+
+00:25:59.750 --> 00:26:02.300 align:middle line:84%
+And CompareACE we
+can use not only
+
+00:26:02.300 --> 00:26:04.970 align:middle line:84%
+for looking for
+previous motifs, as we
+
+00:26:04.970 --> 00:26:07.260 align:middle line:84%
+did in the AlignACE
+algorithm itself
+
+00:26:07.260 --> 00:26:10.220 align:middle line:84%
+and as we do as we want to look
+through databases of motifs,
+
+00:26:10.220 --> 00:26:14.430 align:middle line:84%
+we can also look as the motif
+looks symmetry on itself.
+
+00:26:14.430 --> 00:26:17.720 align:middle line:84%
+So this is how we
+do each of these.
+
+00:26:17.720 --> 00:26:20.840 align:middle line:90%
+We have a choice.
+
+00:26:20.840 --> 00:26:24.830 align:middle line:84%
+When we ask whether the
+intersection of two subsets
+
+00:26:24.830 --> 00:26:27.050 align:middle line:90%
+of all of the possible genes--
+
+00:26:27.050 --> 00:26:29.870 align:middle line:84%
+let's say our cluster
+and a functional category
+
+00:26:29.870 --> 00:26:33.710 align:middle line:84%
+or a cluster and all the
+best hits with ScanACE--
+
+00:26:33.710 --> 00:26:36.290 align:middle line:84%
+if those overlap in
+a significant way,
+
+00:26:36.290 --> 00:26:39.888 align:middle line:84%
+we can think of that as
+sampling from a population.
+
+00:26:39.888 --> 00:26:41.930 align:middle line:84%
+The question is, are we
+sampling with replacement
+
+00:26:41.930 --> 00:26:43.400 align:middle line:90%
+or without replacement?
+
+00:26:43.400 --> 00:26:46.080 align:middle line:84%
+It's an easy thing to
+get confused about.
+
+00:26:46.080 --> 00:26:48.500 align:middle line:84%
+And I urge you to just look
+back at the definitions
+
+00:26:48.500 --> 00:26:49.880 align:middle line:90%
+of these offline.
+
+00:26:49.880 --> 00:26:58.002 align:middle line:84%
+But there actually-- a mistake
+was made in the literature
+
+00:26:58.002 --> 00:27:00.460 align:middle line:84%
+by an author who should have
+known better because he got it
+
+00:27:00.460 --> 00:27:04.120 align:middle line:84%
+right the first time and
+wrong the second time.
+
+00:27:04.120 --> 00:27:07.930 align:middle line:84%
+But the correct use-- and
+in fact, in widespread use--
+
+00:27:07.930 --> 00:27:09.520 align:middle line:90%
+is the hypergeometric.
+
+00:27:09.520 --> 00:27:12.490 align:middle line:84%
+Because we are actually, here,
+sampling without replacement.
+
+00:27:12.490 --> 00:27:16.570 align:middle line:84%
+When you do that, the two sets,
+the two subsets of the big
+
+00:27:16.570 --> 00:27:20.260 align:middle line:84%
+set-- the big set is n, and
+the two subsets are s1 and s2--
+
+00:27:20.260 --> 00:27:24.320 align:middle line:84%
+you have these combinatoric,
+this simple combinatoric,
+
+00:27:24.320 --> 00:27:27.130 align:middle line:84%
+where you have s1
+choose x where x
+
+00:27:27.130 --> 00:27:29.690 align:middle line:84%
+is the intersection
+between the two sets.
+
+00:27:29.690 --> 00:27:30.190 align:middle line:90%
+And
+
+00:27:30.190 --> 00:27:32.500 align:middle line:84%
+This will be much clearer
+in the next slide, where
+
+00:27:32.500 --> 00:27:34.480 align:middle line:84%
+we have a kind of a
+diagram to go with it.
+
+00:27:34.480 --> 00:27:38.057 align:middle line:84%
+But this is the chance
+of getting exactly x.
+
+00:27:38.057 --> 00:27:39.640 align:middle line:84%
+In the next slide,
+we're going to show
+
+00:27:39.640 --> 00:27:45.820 align:middle line:84%
+how we need to consider
+the possibility that it
+
+00:27:45.820 --> 00:27:48.100 align:middle line:90%
+could be x or larger.
+
+00:27:48.100 --> 00:27:50.320 align:middle line:90%
+Now, so this is the diagram.
+
+00:27:50.320 --> 00:27:53.740 align:middle line:84%
+n is the total number of genes
+in [? yeast, ?] somewhere
+
+00:27:53.740 --> 00:27:55.330 align:middle line:90%
+upwards of 6,000.
+
+00:27:55.330 --> 00:27:57.413 align:middle line:84%
+And then the subset
+1 might be the number
+
+00:27:57.413 --> 00:27:59.080 align:middle line:84%
+of genes in the cluster
+that you got out
+
+00:27:59.080 --> 00:28:00.330 align:middle line:90%
+of your microarray experiment.
+
+00:28:00.330 --> 00:28:01.810 align:middle line:84%
+And s2 is the number
+of genes found
+
+00:28:01.810 --> 00:28:03.160 align:middle line:90%
+in the functional category.
+
+00:28:03.160 --> 00:28:04.510 align:middle line:90%
+This is the MIPS database.
+
+00:28:04.510 --> 00:28:06.520 align:middle line:84%
+How surprised are
+we that we found
+
+00:28:06.520 --> 00:28:09.070 align:middle line:84%
+x as the intersection
+between those two sets?
+
+00:28:09.070 --> 00:28:12.980 align:middle line:84%
+Well, let's say x were 1, and
+the two sets were about 100
+
+00:28:12.980 --> 00:28:13.480 align:middle line:90%
+each.
+
+00:28:13.480 --> 00:28:15.880 align:middle line:84%
+That's not too
+surprising, right?
+
+00:28:15.880 --> 00:28:18.940 align:middle line:84%
+But that hypergeometric
+formula, if you plug in 1,
+
+00:28:18.940 --> 00:28:21.580 align:middle line:84%
+it's very surprising
+that you got exactly one.
+
+00:28:21.580 --> 00:28:27.310 align:middle line:84%
+But the reason is because it
+could have been bigger than--
+
+00:28:27.310 --> 00:28:28.900 align:middle line:84%
+we're saying that
+it's significant
+
+00:28:28.900 --> 00:28:31.060 align:middle line:90%
+that they overlap that much.
+
+00:28:31.060 --> 00:28:33.970 align:middle line:84%
+Well, if it's 1, we have
+to consider 1 or greater.
+
+00:28:33.970 --> 00:28:37.730 align:middle line:84%
+Because we're basically saying
+it could be 1 or greater.
+
+00:28:37.730 --> 00:28:42.100 align:middle line:84%
+And so what you have to
+do is do a sum from 1 up.
+
+00:28:42.100 --> 00:28:47.500 align:middle line:84%
+And what you'll
+find is that that's
+
+00:28:47.500 --> 00:28:51.640 align:middle line:90%
+very likely, not surprising.
+
+00:28:51.640 --> 00:28:58.390 align:middle line:84%
+On the other hand, if we had
+a very significant overlap
+
+00:28:58.390 --> 00:29:02.860 align:middle line:84%
+with these two, then the
+hypothesis that these two
+
+00:29:02.860 --> 00:29:03.793 align:middle line:90%
+are very related--
+
+00:29:03.793 --> 00:29:05.710 align:middle line:84%
+in other words, that
+you've got an enrichment,
+
+00:29:05.710 --> 00:29:08.620 align:middle line:84%
+that your cluster is enriched
+for this functional category
+
+00:29:08.620 --> 00:29:12.460 align:middle line:84%
+because you've got,
+say, 100 in s1 and 100
+
+00:29:12.460 --> 00:29:15.100 align:middle line:84%
+in S2 and the
+overlap is 99, then
+
+00:29:15.100 --> 00:29:16.600 align:middle line:84%
+you would have been
+surprised by 99,
+
+00:29:16.600 --> 00:29:18.460 align:middle line:84%
+and you would have
+been surprised by 100.
+
+00:29:18.460 --> 00:29:23.840 align:middle line:84%
+But both 99 and 100 together
+are still very rare.
+
+00:29:23.840 --> 00:29:26.110 align:middle line:90%
+And so you're surprised.
+
+00:29:26.110 --> 00:29:30.630 align:middle line:84%
+And so the sum has to go from
+whatever you've got on up.
+
+00:29:30.630 --> 00:29:31.630 align:middle line:90%
+And that's what this is.
+
+00:29:31.630 --> 00:29:33.370 align:middle line:90%
+And that's easy to forget, too.
+
+00:29:33.370 --> 00:29:36.160 align:middle line:84%
+People might just say, oh,
+this particular intersection
+
+00:29:36.160 --> 00:29:37.172 align:middle line:90%
+is surprising.
+
+00:29:37.172 --> 00:29:38.380 align:middle line:90%
+So you have to have that sum.
+
+00:29:38.380 --> 00:29:41.110 align:middle line:90%
+
+
+00:29:41.110 --> 00:29:43.720 align:middle line:84%
+Now, I'm going to go
+from slide 59 to 60.
+
+00:29:43.720 --> 00:29:46.930 align:middle line:84%
+And there's going to be
+relatively, graphically, very
+
+00:29:46.930 --> 00:29:47.840 align:middle line:90%
+little difference.
+
+00:29:47.840 --> 00:29:51.490 align:middle line:84%
+But it's a radically different
+thing that we're doing.
+
+00:29:51.490 --> 00:29:53.960 align:middle line:84%
+Now we're doing group
+specificity score.
+
+00:29:53.960 --> 00:30:01.990 align:middle line:84%
+This is the motif you
+found in the cluster s1.
+
+00:30:01.990 --> 00:30:03.340 align:middle line:90%
+You looked through s1.
+
+00:30:03.340 --> 00:30:04.905 align:middle line:90%
+AlignACE found your motif.
+
+00:30:04.905 --> 00:30:07.030 align:middle line:84%
+Now you want to ask whether
+that's specific or not.
+
+00:30:07.030 --> 00:30:08.870 align:middle line:84%
+So you search through
+the entire genome,
+
+00:30:08.870 --> 00:30:11.260 align:middle line:90%
+and you pick top 100 matches.
+
+00:30:11.260 --> 00:30:16.960 align:middle line:84%
+And those are upstream of
+the genes in s2, subset 2.
+
+00:30:16.960 --> 00:30:20.170 align:middle line:84%
+If there's a huge
+overlap of s1 and s2
+
+00:30:20.170 --> 00:30:23.530 align:middle line:84%
+we'll call x, then you're
+going to be surprised.
+
+00:30:23.530 --> 00:30:27.130 align:middle line:84%
+And so again, you take the
+sum over this hypergeometric
+
+00:30:27.130 --> 00:30:28.220 align:middle line:90%
+distribution.
+
+00:30:28.220 --> 00:30:30.910 align:middle line:84%
+And if that's a small
+number, a small probability,
+
+00:30:30.910 --> 00:30:34.720 align:middle line:84%
+then that's a measure of
+how surprised you are.
+
+00:30:34.720 --> 00:30:41.360 align:middle line:84%
+So if that's 10 to the minus
+6, then you're very surprised.
+
+00:30:41.360 --> 00:30:43.090 align:middle line:90%
+Now, those were hypergeometric.
+
+00:30:43.090 --> 00:30:47.185 align:middle line:84%
+But positional bias
+now, it is binomial.
+
+00:30:47.185 --> 00:30:49.780 align:middle line:90%
+
+
+00:30:49.780 --> 00:30:52.630 align:middle line:84%
+And you should be
+able to remember
+
+00:30:52.630 --> 00:30:57.670 align:middle line:84%
+the binomial is this
+combinatoric term where
+
+00:30:57.670 --> 00:31:01.720 align:middle line:84%
+t is the total number
+of sites, and i
+
+00:31:01.720 --> 00:31:05.080 align:middle line:90%
+is the amount you're surprised.
+
+00:31:05.080 --> 00:31:09.790 align:middle line:84%
+So m is the number
+of sites that are
+
+00:31:09.790 --> 00:31:12.160 align:middle line:90%
+in the most enriched window.
+
+00:31:12.160 --> 00:31:14.290 align:middle line:84%
+Now, you can take a
+window any size you want.
+
+00:31:14.290 --> 00:31:16.660 align:middle line:84%
+If you make it too
+small, you're going
+
+00:31:16.660 --> 00:31:18.640 align:middle line:90%
+to get sampling statistics.
+
+00:31:18.640 --> 00:31:21.640 align:middle line:84%
+If you make it too big, it'll
+include the entire 600 base
+
+00:31:21.640 --> 00:31:23.573 align:middle line:90%
+pair non-coding region.
+
+00:31:23.573 --> 00:31:25.990 align:middle line:84%
+So you can try a bunch of--
+you can try different windows.
+
+00:31:25.990 --> 00:31:28.540 align:middle line:84%
+But basically,
+what you're looking
+
+00:31:28.540 --> 00:31:35.200 align:middle line:84%
+for is how surprised
+you are that you have
+
+00:31:35.200 --> 00:31:38.560 align:middle line:90%
+m or more sites in that window.
+
+00:31:38.560 --> 00:31:41.560 align:middle line:84%
+If you're surprised by
+10 sites, then you'd
+
+00:31:41.560 --> 00:31:43.643 align:middle line:84%
+be even more surprised
+by more than 10.
+
+00:31:43.643 --> 00:31:44.810 align:middle line:90%
+So you have to take the sum.
+
+00:31:44.810 --> 00:31:47.350 align:middle line:84%
+So it's a sum just like the
+previous hypergeometric ones.
+
+00:31:47.350 --> 00:31:48.850 align:middle line:90%
+But now it's over a binomial.
+
+00:31:48.850 --> 00:31:51.190 align:middle line:84%
+And remember, the binomial
+is this combinatorial term,
+
+00:31:51.190 --> 00:31:54.790 align:middle line:84%
+a probability to the i power
+and 1 minus that probability
+
+00:31:54.790 --> 00:31:56.540 align:middle line:90%
+to the total minus i power.
+
+00:31:56.540 --> 00:32:00.423 align:middle line:84%
+So this should be
+very recognizable.
+
+00:32:00.423 --> 00:32:03.090 align:middle line:84%
+This is the chance that you have
+enrichment in a particular part
+
+00:32:03.090 --> 00:32:04.510 align:middle line:90%
+of the promoter.
+
+00:32:04.510 --> 00:32:07.110 align:middle line:90%
+Now, if we can compare motifs--
+
+00:32:07.110 --> 00:32:08.742 align:middle line:90%
+we've mentioned this already--
+
+00:32:08.742 --> 00:32:10.200 align:middle line:84%
+we use it in the
+AlignACE algorithm
+
+00:32:10.200 --> 00:32:14.940 align:middle line:84%
+itself to cut our
+losses when we start
+
+00:32:14.940 --> 00:32:19.050 align:middle line:90%
+refinding the same motif again.
+
+00:32:19.050 --> 00:32:22.830 align:middle line:84%
+We use it to find whether
+there were similar motifs.
+
+00:32:22.830 --> 00:32:26.310 align:middle line:84%
+And through experience
+and training sets--
+
+00:32:26.310 --> 00:32:29.130 align:middle line:84%
+and you can find that, just
+kind of like a correlation
+
+00:32:29.130 --> 00:32:35.100 align:middle line:84%
+coefficient, the CompareACE
+score, as it gets closer to 1,
+
+00:32:35.100 --> 00:32:36.330 align:middle line:90%
+is more and more believable.
+
+00:32:36.330 --> 00:32:39.690 align:middle line:84%
+And about 0.7 is where
+you get statistically
+
+00:32:39.690 --> 00:32:44.340 align:middle line:84%
+significant matches
+to other motifs.
+
+00:32:44.340 --> 00:32:46.380 align:middle line:84%
+And here's an example
+where you can actually
+
+00:32:46.380 --> 00:32:48.810 align:middle line:84%
+treat the distances
+to other motifs,
+
+00:32:48.810 --> 00:32:52.020 align:middle line:84%
+so similar to other motifs,
+where 1 is perfectly similar.
+
+00:32:52.020 --> 00:32:57.090 align:middle line:84%
+As you get along the diagonal,
+any motif is similar to itself,
+
+00:32:57.090 --> 00:32:58.350 align:middle line:90%
+by definition.
+
+00:32:58.350 --> 00:33:00.720 align:middle line:84%
+And you can build
+up a little matrix
+
+00:33:00.720 --> 00:33:03.190 align:middle line:90%
+of similarities of motifs.
+
+00:33:03.190 --> 00:33:05.490 align:middle line:84%
+And then you can do hierarchical
+clustering of motifs.
+
+00:33:05.490 --> 00:33:08.590 align:middle line:84%
+And you can, if a and b are
+sufficiently close together,
+
+00:33:08.590 --> 00:33:12.420 align:middle line:84%
+then you might consider
+that they're the same motif
+
+00:33:12.420 --> 00:33:16.110 align:middle line:84%
+or they're transcription
+factors where the transcription
+
+00:33:16.110 --> 00:33:18.330 align:middle line:84%
+factor that binds
+to that DNA motif
+
+00:33:18.330 --> 00:33:21.270 align:middle line:84%
+may be related to the
+protein sequence level.
+
+00:33:21.270 --> 00:33:22.770 align:middle line:84%
+These are predictions
+that you might
+
+00:33:22.770 --> 00:33:25.200 align:middle line:84%
+make from this kind
+of clustering based
+
+00:33:25.200 --> 00:33:28.380 align:middle line:90%
+on comparing weight matrices.
+
+00:33:28.380 --> 00:33:33.090 align:middle line:84%
+Now, if you compare a motif to
+itself, what does that mean?
+
+00:33:33.090 --> 00:33:36.330 align:middle line:84%
+If you just compare it to
+itself over its entirety
+
+00:33:36.330 --> 00:33:39.720 align:middle line:84%
+in the same orientation-- that's
+what the previous one-- you'll
+
+00:33:39.720 --> 00:33:41.730 align:middle line:90%
+get a comparative score of 1.
+
+00:33:41.730 --> 00:33:43.560 align:middle line:84%
+However, if you
+flip it-- remember,
+
+00:33:43.560 --> 00:33:46.110 align:middle line:84%
+DNA being double-stranded,
+unlike proteins-- when
+
+00:33:46.110 --> 00:33:48.840 align:middle line:84%
+you flip it and compare
+the weight matrices,
+
+00:33:48.840 --> 00:33:51.600 align:middle line:84%
+now you're asking whether
+it has twofold symmetry.
+
+00:33:51.600 --> 00:33:54.180 align:middle line:84%
+And this is another very
+profound connection, I think,
+
+00:33:54.180 --> 00:33:57.180 align:middle line:84%
+between the weight
+matrices, which
+
+00:33:57.180 --> 00:34:03.030 align:middle line:84%
+are kind of a summary of an
+alignment of many sequences
+
+00:34:03.030 --> 00:34:06.530 align:middle line:84%
+of evolutionary significance
+or, in this case,
+
+00:34:06.530 --> 00:34:07.860 align:middle line:90%
+regulatory significance.
+
+00:34:07.860 --> 00:34:10.170 align:middle line:84%
+But it's a weight matrix
+of aligned sequence.
+
+00:34:10.170 --> 00:34:14.880 align:middle line:84%
+That is actually directly
+related, conceptually related,
+
+00:34:14.880 --> 00:34:18.510 align:middle line:84%
+to a very different
+thought, which
+
+00:34:18.510 --> 00:34:20.639 align:middle line:84%
+is that the
+three-dimensional structure
+
+00:34:20.639 --> 00:34:22.710 align:middle line:84%
+of the protein-nucleic
+acid interaction
+
+00:34:22.710 --> 00:34:26.010 align:middle line:90%
+has some symmetry in it.
+
+00:34:26.010 --> 00:34:29.550 align:middle line:84%
+If you have a protein dimer
+or a protein domain that's
+
+00:34:29.550 --> 00:34:33.210 align:middle line:84%
+duplicated, if you
+have a cell symmetry
+
+00:34:33.210 --> 00:34:36.030 align:middle line:84%
+to a reverse complement
+of a motif, that means,
+
+00:34:36.030 --> 00:34:40.679 align:middle line:84%
+in three-dimensional structure,
+the two protein motifs
+
+00:34:40.679 --> 00:34:44.580 align:middle line:90%
+are related by a dyad symmetry.
+
+00:34:44.580 --> 00:34:48.360 align:middle line:84%
+That means a twofold axis where
+you rotate 180 degrees in three
+
+00:34:48.360 --> 00:34:49.620 align:middle line:90%
+dimensions.
+
+00:34:49.620 --> 00:34:52.500 align:middle line:84%
+On the other hand,
+if the element,
+
+00:34:52.500 --> 00:34:55.199 align:middle line:84%
+if the halves of the element
+or thirds of the element
+
+00:34:55.199 --> 00:35:00.030 align:middle line:84%
+are related by a direct
+translation in the motif space,
+
+00:35:00.030 --> 00:35:04.170 align:middle line:84%
+in the multisequence
+alignment, then that
+
+00:35:04.170 --> 00:35:06.330 align:middle line:84%
+means that you have
+a direct repeat
+
+00:35:06.330 --> 00:35:11.940 align:middle line:84%
+of DNA-protein interactions
+where the helical translation
+
+00:35:11.940 --> 00:35:15.410 align:middle line:84%
+and rotation of the axis is
+reflected in the protein DNA.
+
+00:35:15.410 --> 00:35:17.970 align:middle line:84%
+So anyway, there's a connection
+between motif matrices
+
+00:35:17.970 --> 00:35:20.370 align:middle line:84%
+and three-dimensional
+structures.
+
+00:35:20.370 --> 00:35:23.370 align:middle line:84%
+And here's how it plays out
+when you do a CompareACE where
+
+00:35:23.370 --> 00:35:26.460 align:middle line:84%
+you actually go and
+you compare, column
+
+00:35:26.460 --> 00:35:29.340 align:middle line:84%
+by column, the weight
+matrices of motif 1
+
+00:35:29.340 --> 00:35:31.410 align:middle line:84%
+with itself in
+reverse complement.
+
+00:35:31.410 --> 00:35:36.690 align:middle line:84%
+And you can see these three
+PRRs are in [INAUDIBLE] taken
+
+00:35:36.690 --> 00:35:42.480 align:middle line:84%
+from bacterial genomes are very
+significant when you compare it
+
+00:35:42.480 --> 00:35:43.740 align:middle line:90%
+to its reverse complement.
+
+00:35:43.740 --> 00:35:45.660 align:middle line:84%
+That means that,
+very likely, there's
+
+00:35:45.660 --> 00:35:50.490 align:middle line:84%
+a protein dimer or maybe
+a closely sequenced
+
+00:35:50.490 --> 00:35:55.650 align:middle line:84%
+related heterodimer which
+binds 180 degrees symmetry.
+
+00:35:55.650 --> 00:36:00.930 align:middle line:84%
+On the other hand, here, when
+you compare CPXR to itself
+
+00:36:00.930 --> 00:36:03.870 align:middle line:84%
+reverse complemented, a
+very poor AlignACE score.
+
+00:36:03.870 --> 00:36:07.380 align:middle line:84%
+It means it doesn't
+have this dyad symmetry.
+
+00:36:07.380 --> 00:36:10.290 align:middle line:84%
+However, if you took the two
+halves and compared them--
+
+00:36:10.290 --> 00:36:11.790 align:middle line:84%
+I don't show it--
+but no doubt you
+
+00:36:11.790 --> 00:36:14.360 align:middle line:84%
+would get a very
+strong AlignACE--
+
+00:36:14.360 --> 00:36:16.740 align:middle line:84%
+a CompareACE score
+between the two halves,
+
+00:36:16.740 --> 00:36:20.190 align:middle line:84%
+indicating a direct
+repeat in sequence space
+
+00:36:20.190 --> 00:36:23.100 align:middle line:84%
+and sort of a helical repeat
+in three-dimensional structure
+
+00:36:23.100 --> 00:36:24.330 align:middle line:90%
+space.
+
+00:36:24.330 --> 00:36:27.330 align:middle line:84%
+I think this is a very powerful
+connection between these two.
+
+00:36:27.330 --> 00:36:30.450 align:middle line:84%
+And that, of course,
+can be quantitated.
+
+00:36:30.450 --> 00:36:33.210 align:middle line:84%
+Now we want to say,
+behind the scenes,
+
+00:36:33.210 --> 00:36:37.620 align:middle line:84%
+all along, you've had to
+have some confidence in what
+
+00:36:37.620 --> 00:36:40.890 align:middle line:90%
+the AlignACE scores meant.
+
+00:36:40.890 --> 00:36:43.140 align:middle line:84%
+And you do this by
+doing a test set.
+
+00:36:43.140 --> 00:36:46.230 align:middle line:84%
+A test that has to be
+composed of negative controls
+
+00:36:46.230 --> 00:36:48.840 align:middle line:84%
+and positive controls
+and very large set
+
+00:36:48.840 --> 00:36:51.750 align:middle line:84%
+of functional
+categories from which
+
+00:36:51.750 --> 00:36:54.303 align:middle line:84%
+we've shown a few
+examples in the context
+
+00:36:54.303 --> 00:36:55.970 align:middle line:84%
+of negative controls,
+positive controls.
+
+00:36:55.970 --> 00:36:59.760 align:middle line:84%
+So negative controls can
+be randomly selected genes.
+
+00:36:59.760 --> 00:37:03.000 align:middle line:84%
+And you want to try
+different cluster sizes
+
+00:37:03.000 --> 00:37:05.910 align:middle line:84%
+to see the effect of cluster
+size on the whole algorithm.
+
+00:37:05.910 --> 00:37:08.670 align:middle line:84%
+You might be able to predict
+this completely theoretically.
+
+00:37:08.670 --> 00:37:11.220 align:middle line:84%
+But it's very
+gratifying, whether you
+
+00:37:11.220 --> 00:37:14.470 align:middle line:84%
+can or can't, to run it through
+exactly the same algorithm,
+
+00:37:14.470 --> 00:37:17.433 align:middle line:84%
+the same software, with
+randomly selected sets.
+
+00:37:17.433 --> 00:37:18.600 align:middle line:90%
+Now, this is very expensive.
+
+00:37:18.600 --> 00:37:20.720 align:middle line:84%
+Because you can
+generate-- you need
+
+00:37:20.720 --> 00:37:22.470 align:middle line:84%
+to generate-- a lot
+more randomly selected
+
+00:37:22.470 --> 00:37:26.718 align:middle line:90%
+sets than the actual test sets.
+
+00:37:26.718 --> 00:37:28.260 align:middle line:84%
+And then for positive
+controls, there
+
+00:37:28.260 --> 00:37:29.820 align:middle line:84%
+are actually relatively
+few of these.
+
+00:37:29.820 --> 00:37:31.620 align:middle line:84%
+These are cases
+where you have really
+
+00:37:31.620 --> 00:37:34.260 align:middle line:84%
+well-defined transcription
+factors, which
+
+00:37:34.260 --> 00:37:36.930 align:middle line:84%
+have to have the
+additional fact that they
+
+00:37:36.930 --> 00:37:38.430 align:middle line:90%
+have five or more known sites.
+
+00:37:38.430 --> 00:37:41.370 align:middle line:84%
+Because you need to have
+five or more sites in order
+
+00:37:41.370 --> 00:37:44.760 align:middle line:84%
+for AlignACE to get
+a grip on the problem
+
+00:37:44.760 --> 00:37:47.560 align:middle line:84%
+and produce a nice
+multisequence alignment.
+
+00:37:47.560 --> 00:37:49.770 align:middle line:84%
+OK, so let's go through,
+first, the results
+
+00:37:49.770 --> 00:37:51.210 align:middle line:90%
+of the functional categories--
+
+00:37:51.210 --> 00:37:54.810 align:middle line:84%
+248 functional categories--
+from these different databases
+
+00:37:54.810 --> 00:37:57.120 align:middle line:84%
+and then go through the
+negative and positive controls.
+
+00:37:57.120 --> 00:38:00.300 align:middle line:84%
+So here are some of the friends
+that we happen to find-- now,
+
+00:38:00.300 --> 00:38:02.160 align:middle line:84%
+this is all done from
+functional categories.
+
+00:38:02.160 --> 00:38:03.662 align:middle line:84%
+This was not done
+from microarrays.
+
+00:38:03.662 --> 00:38:06.120 align:middle line:84%
+But here are some of the friends
+that we found in this cell
+
+00:38:06.120 --> 00:38:07.380 align:middle line:90%
+cycle microarray data.
+
+00:38:07.380 --> 00:38:09.660 align:middle line:90%
+RAF1 was the ribosomal one.
+
+00:38:09.660 --> 00:38:13.020 align:middle line:90%
+GCN4 we've seen before.
+
+00:38:13.020 --> 00:38:17.910 align:middle line:84%
+And MCB was the one
+that was in the S phase.
+
+00:38:17.910 --> 00:38:21.840 align:middle line:90%
+
+
+00:38:21.840 --> 00:38:23.700 align:middle line:84%
+And you can see these
+have been ranked.
+
+00:38:23.700 --> 00:38:24.690 align:middle line:84%
+And remember, so
+you could rank them
+
+00:38:24.690 --> 00:38:26.857 align:middle line:84%
+by three different methods--
+by the MAP score, which
+
+00:38:26.857 --> 00:38:32.250 align:middle line:84%
+is the unlikeliness of finding
+this good an information
+
+00:38:32.250 --> 00:38:34.590 align:middle line:84%
+content motif in
+the learning set.
+
+00:38:34.590 --> 00:38:36.360 align:middle line:84%
+It doesn't tell you
+about specificity.
+
+00:38:36.360 --> 00:38:39.300 align:middle line:84%
+That's the next
+column to the right.
+
+00:38:39.300 --> 00:38:41.650 align:middle line:84%
+There's MAP, the
+specificity score,
+
+00:38:41.650 --> 00:38:44.160 align:middle line:84%
+which means that it's
+present in that functional
+
+00:38:44.160 --> 00:38:47.640 align:middle line:84%
+category and not in lots of
+other parts of the genome,
+
+00:38:47.640 --> 00:38:48.870 align:middle line:90%
+and then position the bot.
+
+00:38:48.870 --> 00:38:52.410 align:middle line:84%
+And remember, that was done by
+the intersecting Venn diagram
+
+00:38:52.410 --> 00:38:53.400 align:middle line:90%
+hypergeometric.
+
+00:38:53.400 --> 00:38:56.370 align:middle line:84%
+And then the positional
+bias-- that was the binomial--
+
+00:38:56.370 --> 00:39:02.700 align:middle line:84%
+is how non-randomly positioned
+is it in the promoters?
+
+00:39:02.700 --> 00:39:05.070 align:middle line:84%
+And so this is ranked
+by the specificity.
+
+00:39:05.070 --> 00:39:09.420 align:middle line:84%
+And you can see RAF1 is
+very specific to that
+
+00:39:09.420 --> 00:39:11.850 align:middle line:90%
+particular functional category.
+
+00:39:11.850 --> 00:39:14.190 align:middle line:84%
+Now let's rank them
+by positional bias.
+
+00:39:14.190 --> 00:39:16.018 align:middle line:84%
+And you get a very
+different story.
+
+00:39:16.018 --> 00:39:18.060 align:middle line:84%
+The ones that were on the
+top of the previous one
+
+00:39:18.060 --> 00:39:19.110 align:middle line:90%
+are off the chart here.
+
+00:39:19.110 --> 00:39:21.720 align:middle line:84%
+MCB just barely makes
+it as number 14.
+
+00:39:21.720 --> 00:39:24.750 align:middle line:84%
+And this A-rich sequence
+logo, which you might think
+
+00:39:24.750 --> 00:39:29.400 align:middle line:84%
+is something that is all over
+the place, and in fact, it is.
+
+00:39:29.400 --> 00:39:31.620 align:middle line:84%
+It has a pretty poor
+specificity score.
+
+00:39:31.620 --> 00:39:33.060 align:middle line:90%
+It has a high MAP score.
+
+00:39:33.060 --> 00:39:35.410 align:middle line:84%
+Its positional bias
+is astronomical.
+
+00:39:35.410 --> 00:39:39.720 align:middle line:84%
+It is found in a particular
+place in many promoters
+
+00:39:39.720 --> 00:39:41.640 align:middle line:90%
+throughout the genome.
+
+00:39:41.640 --> 00:39:45.060 align:middle line:84%
+So this is a way that you
+quantitate each of these three
+
+00:39:45.060 --> 00:39:50.010 align:middle line:84%
+things, the non-randomness
+in a learning set,
+
+00:39:50.010 --> 00:39:53.250 align:middle line:84%
+the specificity for that
+set, and the positional bias
+
+00:39:53.250 --> 00:39:56.620 align:middle line:90%
+within promoters, in general.
+
+00:39:56.620 --> 00:39:58.245 align:middle line:84%
+So what are the
+negative controls here?
+
+00:39:58.245 --> 00:40:01.500 align:middle line:90%
+
+
+00:40:01.500 --> 00:40:06.180 align:middle line:84%
+Clusters of size 20, 40, 60,
+80, 100 open reading frames,
+
+00:40:06.180 --> 00:40:09.330 align:middle line:84%
+meaning genes for
+which you might
+
+00:40:09.330 --> 00:40:12.720 align:middle line:90%
+have functional categories.
+
+00:40:12.720 --> 00:40:17.730 align:middle line:84%
+And this allows you to calibrate
+the false positive rates.
+
+00:40:17.730 --> 00:40:20.040 align:middle line:84%
+And what you do is
+you're looking for--
+
+00:40:20.040 --> 00:40:22.380 align:middle line:90%
+we could use any criteria here.
+
+00:40:22.380 --> 00:40:25.170 align:middle line:84%
+We said that a MAP score
+might, on average, be 0
+
+00:40:25.170 --> 00:40:26.110 align:middle line:90%
+if it's random.
+
+00:40:26.110 --> 00:40:29.520 align:middle line:84%
+But if we go up
+above 10, we'll get
+
+00:40:29.520 --> 00:40:33.090 align:middle line:84%
+a higher enrichment
+specificity score of 10
+
+00:40:33.090 --> 00:40:37.170 align:middle line:84%
+to the minus 5 or
+lower, meaning--
+
+00:40:37.170 --> 00:40:39.720 align:middle line:84%
+and then we apply
+these two criteria
+
+00:40:39.720 --> 00:40:42.450 align:middle line:84%
+to the functional categories
+and to the random controls.
+
+00:40:42.450 --> 00:40:45.630 align:middle line:84%
+And the functional categories
+is gratifyingly higher
+
+00:40:45.630 --> 00:40:46.890 align:middle line:90%
+than the random controls.
+
+00:40:46.890 --> 00:40:48.900 align:middle line:84%
+And so we can say
+that about half
+
+00:40:48.900 --> 00:40:53.970 align:middle line:84%
+of the functional category runs
+are likely to be real motifs.
+
+00:40:53.970 --> 00:40:57.070 align:middle line:84%
+Of these, about half
+of those are known.
+
+00:40:57.070 --> 00:41:02.850 align:middle line:84%
+And so the rest are
+probably new discovered
+
+00:41:02.850 --> 00:41:08.220 align:middle line:84%
+motifs and new discovered
+regulatons-- regulatory
+
+00:41:08.220 --> 00:41:10.170 align:middle line:90%
+connected genes.
+
+00:41:10.170 --> 00:41:13.170 align:middle line:84%
+Now, the positive controls, it's
+said, are harder to come by.
+
+00:41:13.170 --> 00:41:15.340 align:middle line:84%
+There are 29
+transcription factors.
+
+00:41:15.340 --> 00:41:17.820 align:middle line:90%
+These are incompletely curated.
+
+00:41:17.820 --> 00:41:21.720 align:middle line:84%
+One of the boons that will come
+from this systematic analysis
+
+00:41:21.720 --> 00:41:24.390 align:middle line:84%
+of microarray data and
+functional categories
+
+00:41:24.390 --> 00:41:27.570 align:middle line:84%
+will be a lot of new
+positive controls.
+
+00:41:27.570 --> 00:41:30.180 align:middle line:84%
+But until we get them,
+we can't use them.
+
+00:41:30.180 --> 00:41:33.480 align:middle line:84%
+So this is what one
+can use right now.
+
+00:41:33.480 --> 00:41:37.920 align:middle line:84%
+And in 21 out of 29 cases, an
+appropriate motif-- meaning you
+
+00:41:37.920 --> 00:41:40.887 align:middle line:84%
+have to basically rerun AlignACE
+because you can't really
+
+00:41:40.887 --> 00:41:42.720 align:middle line:84%
+use the weight matrices
+from the literature.
+
+00:41:42.720 --> 00:41:44.720 align:middle line:84%
+They were derived by
+slightly different methods.
+
+00:41:44.720 --> 00:41:46.480 align:middle line:84%
+But you can use those
+to prime AlignACE.
+
+00:41:46.480 --> 00:41:48.420 align:middle line:84%
+It's a trivial
+thing for AlignACE
+
+00:41:48.420 --> 00:41:51.360 align:middle line:90%
+to now derive a weight matrix.
+
+00:41:51.360 --> 00:41:53.280 align:middle line:84%
+And then you compare
+it to weight matrices
+
+00:41:53.280 --> 00:41:57.960 align:middle line:90%
+that come out of the tests.
+
+00:41:57.960 --> 00:42:00.360 align:middle line:90%
+And 21 and 29 work.
+
+00:42:00.360 --> 00:42:03.825 align:middle line:90%
+And of the eight--
+
+00:42:03.825 --> 00:42:06.450 align:middle line:84%
+the difference between these two
+is eight-- and of those eight,
+
+00:42:06.450 --> 00:42:08.610 align:middle line:84%
+five were actually an
+appropriate functional
+
+00:42:08.610 --> 00:42:09.420 align:middle line:90%
+category.
+
+00:42:09.420 --> 00:42:12.510 align:middle line:84%
+So depending on how you
+interpret these two facts,
+
+00:42:12.510 --> 00:42:15.960 align:middle line:84%
+you can say the false
+negative rate is 10% to 30%--
+
+00:42:15.960 --> 00:42:19.140 align:middle line:84%
+not great, but neither
+the positive control set
+
+00:42:19.140 --> 00:42:22.710 align:middle line:84%
+nor the algorithm
+are perfect here.
+
+00:42:22.710 --> 00:42:24.030 align:middle line:90%
+Now, where do we go from here?
+
+00:42:24.030 --> 00:42:27.774 align:middle line:90%
+
+
+00:42:27.774 --> 00:42:32.250 align:middle line:84%
+We need to both generalize
+and to reduce the assumptions
+
+00:42:32.250 --> 00:42:35.950 align:middle line:84%
+so that we can
+discover new things.
+
+00:42:35.950 --> 00:42:38.340 align:middle line:84%
+So for example, one of the
+assumptions we've been making
+
+00:42:38.340 --> 00:42:40.440 align:middle line:90%
+is that motifs act in isolation.
+
+00:42:40.440 --> 00:42:42.950 align:middle line:84%
+We've been discovering
+motifs one at a time.
+
+00:42:42.950 --> 00:42:43.950 align:middle line:90%
+We'll find the best one.
+
+00:42:43.950 --> 00:42:46.680 align:middle line:84%
+We'll cross it off
+our list, or we'll
+
+00:42:46.680 --> 00:42:48.150 align:middle line:90%
+filter out subsequence ones.
+
+00:42:48.150 --> 00:42:49.300 align:middle line:90%
+We'll find all the rest.
+
+00:42:49.300 --> 00:42:51.940 align:middle line:84%
+But what may really be
+statistically significant,
+
+00:42:51.940 --> 00:42:54.270 align:middle line:84%
+and we may be missing by
+looking at it one at a time,
+
+00:42:54.270 --> 00:42:56.040 align:middle line:90%
+is motif interactions.
+
+00:42:56.040 --> 00:42:59.700 align:middle line:84%
+And [INAUDIBLE]
+and coworkers have
+
+00:42:59.700 --> 00:43:02.070 align:middle line:90%
+pursued this with a vengeance.
+
+00:43:02.070 --> 00:43:04.870 align:middle line:84%
+And I think this is a
+very exciting direction
+
+00:43:04.870 --> 00:43:10.260 align:middle line:90%
+this can go is what proteins--
+
+00:43:10.260 --> 00:43:13.860 align:middle line:84%
+how two or three or
+more motifs can interact
+
+00:43:13.860 --> 00:43:17.520 align:middle line:90%
+to produce coregulation.
+
+00:43:17.520 --> 00:43:21.030 align:middle line:84%
+Then we have these DNA
+motifs that come out
+
+00:43:21.030 --> 00:43:22.420 align:middle line:90%
+of this microarray data.
+
+00:43:22.420 --> 00:43:25.050 align:middle line:90%
+But what's binding to it?
+
+00:43:25.050 --> 00:43:26.370 align:middle line:90%
+How do we find that connection?
+
+00:43:26.370 --> 00:43:29.310 align:middle line:84%
+Well, one way of many
+is in vivo crosslinking.
+
+00:43:29.310 --> 00:43:32.070 align:middle line:84%
+There are also so-called
+one-hybrid acids and so forth.
+
+00:43:32.070 --> 00:43:33.570 align:middle line:84%
+But just think of
+this conceptually.
+
+00:43:33.570 --> 00:43:35.820 align:middle line:84%
+As you're catching it
+in the act, you grab it.
+
+00:43:35.820 --> 00:43:38.370 align:middle line:84%
+And then you do
+proteomics to find
+
+00:43:38.370 --> 00:43:42.570 align:middle line:84%
+which proteins are connected
+to which nucleic acids.
+
+00:43:42.570 --> 00:43:45.570 align:middle line:84%
+And the final direction
+this might be going
+
+00:43:45.570 --> 00:43:49.380 align:middle line:84%
+is we've said that the different
+columns in the weight matrices
+
+00:43:49.380 --> 00:43:50.350 align:middle line:90%
+are independent.
+
+00:43:50.350 --> 00:43:53.440 align:middle line:84%
+And we've already seen multiple
+examples in the past fact--
+
+00:43:53.440 --> 00:43:56.760 align:middle line:84%
+in fact, I emphasize
+them on purpose--
+
+00:43:56.760 --> 00:43:59.970 align:middle line:84%
+where the columns are
+not independent in RNA
+
+00:43:59.970 --> 00:44:02.970 align:middle line:84%
+secondary structure,
+in CpGs and so forth.
+
+00:44:02.970 --> 00:44:05.370 align:middle line:84%
+And there's some
+evidence from this paper
+
+00:44:05.370 --> 00:44:09.630 align:middle line:84%
+that the interdependence
+between columns
+
+00:44:09.630 --> 00:44:12.730 align:middle line:84%
+might be something
+that you can question.
+
+00:44:12.730 --> 00:44:15.360 align:middle line:84%
+So in summary,
+we've talked mainly
+
+00:44:15.360 --> 00:44:16.890 align:middle line:84%
+about clustering
+and then where you
+
+00:44:16.890 --> 00:44:22.230 align:middle line:84%
+go to check that your clusters
+are biologically significant,
+
+00:44:22.230 --> 00:44:24.388 align:middle line:84%
+whether you've made
+discoveries and know
+
+00:44:24.388 --> 00:44:25.680 align:middle line:90%
+the limits of your discoveries.
+
+00:44:25.680 --> 00:44:27.888 align:middle line:84%
+What are the false positive
+and false negative rates?
+
+00:44:27.888 --> 00:44:30.420 align:middle line:84%
+How do you measure the
+specificity of your motifs?
+
+00:44:30.420 --> 00:44:35.160 align:middle line:84%
+How do you measure the
+functional enrichment,
+
+00:44:35.160 --> 00:44:39.060 align:middle line:84%
+things that are casual in
+the classic literature?
+
+00:44:39.060 --> 00:44:43.510 align:middle line:84%
+So I look forward to
+seeing you next week.
+
+00:44:43.510 --> 00:44:45.170 align:middle line:90%
+Thank you.
+
+00:44:45.170 --> 00:44:46.155 align:middle line:90%

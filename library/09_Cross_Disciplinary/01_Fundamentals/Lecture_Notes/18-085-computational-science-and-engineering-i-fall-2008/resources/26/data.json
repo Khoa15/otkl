@@ -1,0 +1,27 @@
+{
+  "content": "<p>Thumbnail image accompanying a video lecture on fast Poisson solvers and finite elements in two dimensions.</p>\n",
+  "content_type": "resource",
+  "description": "Thumbnail image accompanying a video lecture on fast Poisson solvers and finite elements in two dimensions.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/9b59ac11738247a69d8d44976bbd5f6e_26.jpg",
+  "file_size": 2481,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Lecture 26",
+  "uid": "9b59ac11-7382-47a6-9d8d-44976bbd5f6e",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

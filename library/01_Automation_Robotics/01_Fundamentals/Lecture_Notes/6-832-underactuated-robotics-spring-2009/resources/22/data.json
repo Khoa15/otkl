@@ -1,0 +1,27 @@
+{
+  "content": "<p>Thumbnail image accompanying a video lecture on underactuated robotics.</p>\n",
+  "content_type": "resource",
+  "description": "Thumbnail image accompanying a video lecture on underactuated robotics.",
+  "draft": false,
+  "file": "/courses/6-832-underactuated-robotics-spring-2009/a774cfdcbf2dd96f55f2b4cc634fc3c7_22.jpg",
+  "file_size": 3607,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "22",
+  "uid": "a774cfdc-bf2d-d96f-55f2-b4cc634fc3c7",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/f3a1135f0ea96db373ef141535eee996_2_2.jpg",
+  "file_size": 5467,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from 'Introduction to Linear Algebra' by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Projections onto Subspaces",
+  "parent_type": "CourseSection",
+  "parent_uid": "1ff24ba8-67b5-ac72-fcad-41dcf3e79e10",
+  "resourcetype": "Image",
+  "title": "2_2.jpg",
+  "uid": "f3a1135f-0ea9-6db3-73ef-141535eee996",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

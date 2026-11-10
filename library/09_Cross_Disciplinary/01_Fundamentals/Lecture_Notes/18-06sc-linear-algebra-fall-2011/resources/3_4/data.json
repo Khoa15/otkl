@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/bfd7faabe01671d68d35acd3909a0756_3_4.jpg",
+  "file_size": 14644,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from 'Introduction to Linear Algebra' by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Similar Matrices and Jordan Form",
+  "parent_type": "CourseSection",
+  "parent_uid": "b358f2d2-8636-54b7-503b-47b34cc0953a",
+  "resourcetype": "Image",
+  "title": "3_4.jpg",
+  "uid": "bfd7faab-e016-71d6-8d35-acd3909a0756",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

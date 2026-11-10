@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture notes on conservative internal forces, conservation of energy, equilibrium and stability, and potential energy.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on conservative internal forces, conservation of energy, equilibrium and stability, and potential energy.",
+  "draft": false,
+  "file": "/courses/16-07-dynamics-fall-2009/829aa41320d60fbb4ce9287c3d74afb6_MIT16_07F09_Lec13.pdf",
+  "file_size": 389981,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "c74de568-7f12-1be8-c80c-73b2269c3877",
+  "resourcetype": "Document",
+  "title": "Lecture L13 – Conservative Internal Forces and Potential Energy",
+  "uid": "829aa413-20d6-0fbb-4ce9-287c3d74afb6"
+}

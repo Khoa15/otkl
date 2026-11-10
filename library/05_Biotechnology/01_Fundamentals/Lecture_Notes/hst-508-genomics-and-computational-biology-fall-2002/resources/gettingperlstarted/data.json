@@ -1,0 +1,25 @@
+{
+  "content": "<p>Getting Started with Perl</p>\n",
+  "content_type": "resource",
+  "description": "Getting Started with Perl",
+  "draft": false,
+  "file": "/courses/hst-508-genomics-and-computational-biology-fall-2002/gettingperlstarted.pdf",
+  "file_size": 67387,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Study Materials",
+  "parent_type": "CourseSection",
+  "parent_uid": "a2126f88-c4d3-03b6-e851-2464a13b968e",
+  "resourcetype": "Document",
+  "title": "gettingperlstarted.pdf",
+  "uid": "f1785f0d-07c9-2f25-9e7d-7e3c7b779be8",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

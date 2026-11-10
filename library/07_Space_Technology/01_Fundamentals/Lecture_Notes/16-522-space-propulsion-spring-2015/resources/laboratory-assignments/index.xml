@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laboratory Assignments on MIT OpenCourseWare</title>
+    <link>/resources/laboratory-assignments/</link>
+    <description>Recent content in Laboratory Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/laboratory-assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>16.522 Spring 2015 Lab Project: Assignment Description</title>
+      <link>/resources/mit16_522s15_labassignment/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_522s15_labassignment/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding assignment description.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>16.522 Spring 2015 Lab Project: SPL Lab Rules</title>
+      <link>/resources/mit16_522s15_labrules/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_522s15_labrules/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding lab project: SPL lab rules.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>16.522 Spring 2015 Lab Project: Tensorial Notation</title>
+      <link>/resources/mit16_522s15_tensorial/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_522s15_tensorial/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding tensorial notation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>16.522 Spring 2015 Lab project: TRL NASA Definitions</title>
+      <link>/resources/mit16_522s15_trldefinition/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_522s15_trldefinition/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding TRL NASA definitions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>16.522 Spring 2015 Lab Project: Vacuum Chamber Procedures</title>
+      <link>/resources/mit16_522s15_labvacuumspl2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_522s15_labvacuumspl2/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding vacuum chamber procedures.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

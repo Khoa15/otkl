@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This collection of problem sets given in past years is affectionately known as the 7.03 Bible. Using these along with the assignments will give the student a great deal of help in this class.</p>\n",
+  "content_type": "resource",
+  "description": "This collection of problem sets given in past years is affectionately known as the 7.03 Bible. Using these along with the assignments will give the student a great deal of help in this class.",
+  "draft": false,
+  "file": "/courses/7-03-genetics-fall-2004/5d5969140290d5afa5cbb0ebc20fa9e1_ps_1997.pdf",
+  "file_size": 1640918,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Study Materials",
+  "parent_type": "CourseSection",
+  "parent_uid": "d36bbc09-9d2a-744e-a855-91169f13cc83",
+  "resourcetype": "Document",
+  "title": "ps_1997.pdf",
+  "uid": "5d596914-0290-d5af-a5cb-b0ebc20fa9e1",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "7-03-genetics-fall-2004"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "7-03-genetics-fall-2004"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

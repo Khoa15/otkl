@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recitations on MIT OpenCourseWare</title>
+    <link>/resources/recitations/</link>
+    <description>Recent content in Recitations on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/recitations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recitations</title>
+      <link>/pages/recitations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/recitations/data.json</guid>
+      <description>&lt;h3 id=&#34;ses--key&#34;&gt;SES # Key&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Rb = Recitation: Structure and Bonding    &lt;br&gt;&#xA;Rt = Recitation: Thermodynamics&lt;/p&gt;&#xA;&lt;p&gt;This page presents information covered in recitation sessions. While each lecture session includes both thermodynamics and structure/bonding content, recitations alternate their focus between thermodynamics and structure/bonding.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;&#xA;&#xA;Ses #&#xA;&lt;/th&gt;&#xA;&lt;th colspan=&#34;2&#34;&gt;&#xA;&#xA;Structure and Bonding RECITATIONS&#xA;&lt;/th&gt;&#xA;&lt;th colspan=&#34;2&#34;&gt;&#xA;&#xA;Thermodynamics RECITATIONS&#xA;&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td colspan=&#34;5&#34;&gt;&#xA;&#xA;Orientation: Research and Careers in Materials Science and Engineering&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;Rt1&#xA;&lt;/td&gt;&#xA;&lt;td colspan=&#34;2&#34;&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;td colspan=&#34;2&#34;&gt;&#xA;&#xA;Practice Problem Solutions (&lt;a href=&#34;../../resources/rec1t_sol/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;Rb1&#xA;&lt;/td&gt;&#xA;&lt;td colspan=&#34;2&#34;&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Practice Problems (&lt;a href=&#34;../../resources/rec1b/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Solutions (&lt;a href=&#34;../../resources/rec1b_sol/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;&lt;/td&gt;&#xA;&lt;td colspan=&#34;2&#34;&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;Rt2&#xA;&lt;/td&gt;&#xA;&lt;td colspan=&#34;2&#34;&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;td colspan=&#34;2&#34;&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

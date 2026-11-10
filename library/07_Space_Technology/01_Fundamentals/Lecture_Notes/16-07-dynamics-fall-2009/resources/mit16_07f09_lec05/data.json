@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture notes on polar coordinates in two dimensions and cylindrical and spherical coordinates in three dimensions.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on polar coordinates in two dimensions and cylindrical and spherical coordinates in three dimensions.",
+  "draft": false,
+  "file": "/courses/16-07-dynamics-fall-2009/57081b546fff23e6b88dbac0ab859c7d_MIT16_07F09_Lec05.pdf",
+  "file_size": 254995,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "c74de568-7f12-1be8-c80c-73b2269c3877",
+  "resourcetype": "Document",
+  "title": "Lecture L5 – Other Coordinate Systems",
+  "uid": "57081b54-6fff-23e6-b88d-bac0ab859c7d"
+}

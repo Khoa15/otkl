@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Homework assignment to compare the performance of random verus regular sampling on a specific stochastic dynamics problem</p>\n",
+  "content_type": "resource",
+  "description": "Homework assignment to compare the performance of random verus regular sampling on a specific stochastic dynamics problem",
+  "draft": false,
+  "file": "/courses/2-017j-design-of-electromechanical-robotic-systems-fall-2009/MIT2_017JF09_p38.pdf",
+  "file_size": 142302,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "93ea44dc-663a-95f3-02d4-4a220966879b",
+  "resourcetype": "Document",
+  "title": "Monte Carlo and Grid-Based Techniques for Stochastic Simulation",
+  "uid": "37ae77bd-238c-e71b-5caa-6baec12300aa",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

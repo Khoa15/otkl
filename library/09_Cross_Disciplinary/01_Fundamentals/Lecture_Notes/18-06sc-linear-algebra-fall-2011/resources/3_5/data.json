@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/319b1b83d1cce88496ae7e7fb923aec4_3_5.jpg",
+  "file_size": 6129,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from 'Introduction to Linear Algebra' by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Singular Value Decomposition",
+  "parent_type": "CourseSection",
+  "parent_uid": "30164ec6-9f85-8d02-0a13-78d8b9c366fe",
+  "resourcetype": "Image",
+  "title": "3_5.jpg",
+  "uid": "319b1b83-d1cc-e884-96ae-7e7fb923aec4",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

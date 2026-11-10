@@ -1,0 +1,17 @@
+
+{
+  "content": "<p>« <a href=\"../../pages/least-squares-determinants-and-eigenvalues/exam-2/index.html\">Previous</a> | <a href=\"../../pages/positive-definite-matrices-and-applications/symmetric-matrices-and-positive-definiteness/index.html\">Next</a> »</p>\n<img src=\"../../static_resources/c130e36d70eba3fea7a7830c2ac2f7b7_Unit_3_WIDE.jpg\" alt=\"\" loading=\"lazy\" decoding=\"async\" />\n<p>Positive definite and semidefinite: graphs of x&rsquo;Ax.</p>\n<p>In this unit we discuss matrices with special properties – symmetric, possibly complex, and positive definite. The central topic of this unit is converting matrices to nice form (diagonal or nearly-diagonal) through multiplication by other matrices. Generally, this process requires some knowledge of the eigenvectors and eigenvalues of the matrix.</p>\n<p>Looking for something specific in this course? The <a href=\"../../pages/resource-index/index.html\">Resource Index</a> compiles links to most course resources in a single page.</p>\n<p>« <a href=\"../../pages/least-squares-determinants-and-eigenvalues/exam-2/index.html\">Previous</a> | <a href=\"../../pages/positive-definite-matrices-and-applications/symmetric-matrices-and-positive-definiteness/index.html\">Next</a> »</p>\n",
+  "content_type": "page",
+  "description": "This section provides the third unit of the course: positive definite matrices and applications.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Unit III: Positive Definite Matrices and Applications",
+  "uid": "34f596bc-2328-22be-5fba-75646f6970c5",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

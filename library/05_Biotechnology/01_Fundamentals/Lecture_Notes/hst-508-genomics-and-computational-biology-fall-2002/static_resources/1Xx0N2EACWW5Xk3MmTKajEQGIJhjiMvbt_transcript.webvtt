@@ -1,0 +1,3624 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.610 align:middle line:90%
+
+
+00:00:00.610 --> 00:00:02.440 align:middle line:84%
+The following
+content is provided
+
+00:00:02.440 --> 00:00:06.340 align:middle line:84%
+by MIT OpenCourseWare under
+a Creative Commons license.
+
+00:00:06.340 --> 00:00:08.470 align:middle line:84%
+Additional information
+about our license,
+
+00:00:08.470 --> 00:00:10.870 align:middle line:84%
+and MIT OpenCourseWare
+in general,
+
+00:00:10.870 --> 00:00:12.730 align:middle line:90%
+is available at ocw.mit.edu.
+
+00:00:12.730 --> 00:00:16.788 align:middle line:90%
+
+
+00:00:16.788 --> 00:00:18.780 align:middle line:90%
+GEORGE CHURCH: OK.
+
+00:00:18.780 --> 00:00:25.350 align:middle line:84%
+Welcome back to the
+second half, where
+
+00:00:25.350 --> 00:00:30.610 align:middle line:84%
+we'll talk about multisequence
+alignment, for starters.
+
+00:00:30.610 --> 00:00:35.100 align:middle line:84%
+And I said that I would
+show this slide again.
+
+00:00:35.100 --> 00:00:38.340 align:middle line:84%
+This time-- before,
+it was to introduce
+
+00:00:38.340 --> 00:00:42.000 align:middle line:84%
+how we would go about getting
+an empirical substitution
+
+00:00:42.000 --> 00:00:45.750 align:middle line:84%
+matrix from distantly
+related protein
+
+00:00:45.750 --> 00:00:49.980 align:middle line:84%
+sequences, such as distantly
+related immunoglobulin family
+
+00:00:49.980 --> 00:00:52.320 align:middle line:90%
+members.
+
+00:00:52.320 --> 00:00:58.110 align:middle line:84%
+Now, we would like to
+ask, how did we get
+
+00:00:58.110 --> 00:00:59.550 align:middle line:90%
+that multisequence alignment?
+
+00:00:59.550 --> 00:01:03.000 align:middle line:90%
+
+
+00:01:03.000 --> 00:01:06.180 align:middle line:84%
+This is one way of
+thinking about it
+
+00:01:06.180 --> 00:01:12.180 align:middle line:84%
+as a generalization of
+the two-dimensional array
+
+00:01:12.180 --> 00:01:17.080 align:middle line:84%
+that we had before, where we
+would have, say, two sequences,
+
+00:01:17.080 --> 00:01:18.660 align:middle line:90%
+one horizontal, one vertical.
+
+00:01:18.660 --> 00:01:23.460 align:middle line:84%
+Now, the third dimension
+is the third sequence.
+
+00:01:23.460 --> 00:01:25.477 align:middle line:84%
+This gets harder and
+harder to visualize
+
+00:01:25.477 --> 00:01:27.060 align:middle line:84%
+as the number of
+sequences you put in,
+
+00:01:27.060 --> 00:01:30.390 align:middle line:84%
+but let's think about
+it in three dimensions
+
+00:01:30.390 --> 00:01:31.830 align:middle line:90%
+for just a moment here.
+
+00:01:31.830 --> 00:01:35.760 align:middle line:84%
+And when you have a
+multiple alignment,
+
+00:01:35.760 --> 00:01:37.620 align:middle line:84%
+you can think of it
+as dynamic programming
+
+00:01:37.620 --> 00:01:41.760 align:middle line:84%
+on this hyperlattice
+and that the indels
+
+00:01:41.760 --> 00:01:45.660 align:middle line:84%
+for any pairwise combination may
+not be optimal for the triple.
+
+00:01:45.660 --> 00:01:48.190 align:middle line:90%
+
+
+00:01:48.190 --> 00:01:52.090 align:middle line:84%
+And let's go beyond triple, but
+to a very simple dinucleotide
+
+00:01:52.090 --> 00:01:52.780 align:middle line:90%
+alignment.
+
+00:01:52.780 --> 00:02:00.490 align:middle line:84%
+And we will say that this is
+the optimal multiple alignment.
+
+00:02:00.490 --> 00:02:03.460 align:middle line:84%
+You can see here that the
+multiple examples of AT
+
+00:02:03.460 --> 00:02:08.050 align:middle line:84%
+anchor the A and T as
+being separate positions,
+
+00:02:08.050 --> 00:02:10.990 align:middle line:84%
+even though normally, if you
+just did a pairwise alignment
+
+00:02:10.990 --> 00:02:15.850 align:middle line:84%
+with a high gap penalty,
+there would be a tendency
+
+00:02:15.850 --> 00:02:20.260 align:middle line:84%
+to line the A up with
+the T. You would not
+
+00:02:20.260 --> 00:02:22.180 align:middle line:90%
+have these canceling indels.
+
+00:02:22.180 --> 00:02:25.180 align:middle line:84%
+But in the context of
+the multialignment,
+
+00:02:25.180 --> 00:02:27.350 align:middle line:84%
+you now have a different
+interpretation.
+
+00:02:27.350 --> 00:02:31.418 align:middle line:84%
+So we want to
+generalize the kind
+
+00:02:31.418 --> 00:02:32.710 align:middle line:90%
+of algorithms we've been using.
+
+00:02:32.710 --> 00:02:35.440 align:middle line:84%
+And again, this will be
+a recursive algorithm
+
+00:02:35.440 --> 00:02:42.600 align:middle line:84%
+where the score of a
+two-character string
+
+00:02:42.600 --> 00:02:46.020 align:middle line:84%
+is defined in terms of the
+maximum of various shorter
+
+00:02:46.020 --> 00:02:47.640 align:middle line:90%
+strings.
+
+00:02:47.640 --> 00:02:51.470 align:middle line:84%
+So at the very top is the case
+where we have no insertions--
+
+00:02:51.470 --> 00:02:53.970 align:middle line:84%
+the simplest case, where we
+have no insertions or deletions.
+
+00:02:53.970 --> 00:02:57.780 align:middle line:84%
+And we just ask what
+is the score of having
+
+00:02:57.780 --> 00:03:02.940 align:middle line:84%
+a [? VSA, ?] that is to say,
+this triple single-amino-acid
+
+00:03:02.940 --> 00:03:06.270 align:middle line:84%
+comparison, just like what
+was the score of having
+
+00:03:06.270 --> 00:03:07.530 align:middle line:90%
+a V substituted for an s.
+
+00:03:07.530 --> 00:03:09.270 align:middle line:84%
+Now, we're asking
+a V substituted
+
+00:03:09.270 --> 00:03:11.040 align:middle line:90%
+for an S substituted for an A.
+
+00:03:11.040 --> 00:03:14.070 align:middle line:84%
+Now, the number of different
+cases we have here--
+
+00:03:14.070 --> 00:03:17.580 align:middle line:84%
+before, it was 3 for
+a global alignment,
+
+00:03:17.580 --> 00:03:23.550 align:middle line:84%
+which was k, being the
+number of sequences, was 2.
+
+00:03:23.550 --> 00:03:26.700 align:middle line:84%
+Now k is 3 for a
+three-way comparison.
+
+00:03:26.700 --> 00:03:33.930 align:middle line:84%
+And all possible subsets is 2
+to the k minus 1, in this case,
+
+00:03:33.930 --> 00:03:36.180 align:middle line:90%
+so it's 7.
+
+00:03:36.180 --> 00:03:38.610 align:middle line:84%
+So seven cases, and you
+can just walk through them.
+
+00:03:38.610 --> 00:03:43.290 align:middle line:84%
+You can see the first one is
+no insertions or deletions.
+
+00:03:43.290 --> 00:03:46.200 align:middle line:84%
+The next three are two
+insertions or deletions
+
+00:03:46.200 --> 00:03:49.030 align:middle line:84%
+in the three different
+ways that can happen.
+
+00:03:49.030 --> 00:03:55.130 align:middle line:84%
+And then the last three
+are one placeholder,
+
+00:03:55.130 --> 00:03:58.010 align:middle line:84%
+one of these dashes, which
+means that the other two
+
+00:03:58.010 --> 00:04:02.590 align:middle line:84%
+sequences have insertions
+relative to the one dashed.
+
+00:04:02.590 --> 00:04:08.670 align:middle line:84%
+So this is the seven cases
+for a three-way comparison.
+
+00:04:08.670 --> 00:04:14.460 align:middle line:84%
+Now, as k grows, then both
+the space complexity--
+
+00:04:14.460 --> 00:04:17.700 align:middle line:84%
+the amount of lattice points
+that you have to store
+
+00:04:17.700 --> 00:04:21.660 align:middle line:84%
+somewhere, either in RAM,
+or disk, or somewhere--
+
+00:04:21.660 --> 00:04:25.650 align:middle line:84%
+grows by n to the
+k-th power where
+
+00:04:25.650 --> 00:04:28.710 align:middle line:84%
+the sequences are roughly n
+long and the number of sequences
+
+00:04:28.710 --> 00:04:30.060 align:middle line:90%
+is k.
+
+00:04:30.060 --> 00:04:34.290 align:middle line:84%
+Now to compute each
+of those nodes--
+
+00:04:34.290 --> 00:04:38.760 align:middle line:84%
+well, I mean, what will be on
+the order of 2 to the k power,
+
+00:04:38.760 --> 00:04:47.130 align:middle line:84%
+because remember I said that
+the number of subsets in general
+
+00:04:47.130 --> 00:04:50.820 align:middle line:84%
+is going to be 2 to the k minus
+1 or about roughly 2 to the k.
+
+00:04:50.820 --> 00:04:54.120 align:middle line:84%
+And so the time
+complexity is have to do 2
+
+00:04:54.120 --> 00:04:56.910 align:middle line:90%
+to the k comparisons per node.
+
+00:04:56.910 --> 00:04:59.430 align:middle line:84%
+And there are n to the k
+nodes, so it's of the order 2
+
+00:04:59.430 --> 00:05:00.630 align:middle line:90%
+the k times n to the k.
+
+00:05:00.630 --> 00:05:02.280 align:middle line:90%
+Now, this is not a straw man.
+
+00:05:02.280 --> 00:05:07.020 align:middle line:84%
+This is not some
+naive algorithm.
+
+00:05:07.020 --> 00:05:09.600 align:middle line:84%
+This is using all
+the power that we
+
+00:05:09.600 --> 00:05:13.770 align:middle line:84%
+developed for the
+pairwise comparison
+
+00:05:13.770 --> 00:05:15.520 align:middle line:90%
+and we're just generalizing it.
+
+00:05:15.520 --> 00:05:18.030 align:middle line:84%
+And so this is actually
+a hard problem.
+
+00:05:18.030 --> 00:05:21.300 align:middle line:84%
+This does scale
+exponentially with k.
+
+00:05:21.300 --> 00:05:24.750 align:middle line:84%
+And it's not like we only
+want to do k equals 2.
+
+00:05:24.750 --> 00:05:28.980 align:middle line:84%
+There are very good reasons for
+inferring structure or function
+
+00:05:28.980 --> 00:05:31.770 align:middle line:84%
+without experiments,
+just from sequence.
+
+00:05:31.770 --> 00:05:35.820 align:middle line:84%
+And the larger k is, the
+more you can explore.
+
+00:05:35.820 --> 00:05:38.670 align:middle line:84%
+It's like doing a huge
+mutagenesis experiment
+
+00:05:38.670 --> 00:05:42.750 align:middle line:90%
+and exploring viable mutants.
+
+00:05:42.750 --> 00:05:45.138 align:middle line:84%
+So we want to do
+multisequence alignments, so
+
+00:05:45.138 --> 00:05:46.180 align:middle line:90%
+how do we deal with this?
+
+00:05:46.180 --> 00:05:49.110 align:middle line:84%
+This is the way
+we deal with most
+
+00:05:49.110 --> 00:05:52.650 align:middle line:84%
+non-polynomial calculations,
+that is to say,
+
+00:05:52.650 --> 00:05:58.140 align:middle line:84%
+in this case, exponential,
+which is we approximate.
+
+00:05:58.140 --> 00:05:59.760 align:middle line:84%
+Now, you can get
+something that's
+
+00:05:59.760 --> 00:06:04.830 align:middle line:84%
+very close to the
+true optimum if how
+
+00:06:04.830 --> 00:06:06.630 align:middle line:90%
+to prune this hyperlattice.
+
+00:06:06.630 --> 00:06:09.210 align:middle line:84%
+Remember, one of the
+examples I showed was you
+
+00:06:09.210 --> 00:06:10.620 align:middle line:90%
+could take this band.
+
+00:06:10.620 --> 00:06:14.040 align:middle line:84%
+If you know where
+the band should start
+
+00:06:14.040 --> 00:06:16.710 align:middle line:84%
+and how wide it should
+be, you can essentially
+
+00:06:16.710 --> 00:06:19.410 align:middle line:84%
+prune off many of the
+nodes without really
+
+00:06:19.410 --> 00:06:22.680 align:middle line:90%
+losing any optimality.
+
+00:06:22.680 --> 00:06:25.440 align:middle line:84%
+But you have to be very sure
+you know where to start it
+
+00:06:25.440 --> 00:06:28.950 align:middle line:90%
+and how wide it should be.
+
+00:06:28.950 --> 00:06:31.860 align:middle line:84%
+So it's optimal within
+those constraints.
+
+00:06:31.860 --> 00:06:34.410 align:middle line:84%
+Then there are others
+which are more heuristic.
+
+00:06:34.410 --> 00:06:38.050 align:middle line:84%
+They are not guaranteed to be
+optimal, but on the other hand,
+
+00:06:38.050 --> 00:06:40.740 align:middle line:84%
+they don't necessarily
+require arbitrary pruning.
+
+00:06:40.740 --> 00:06:42.990 align:middle line:84%
+And the two that
+we'll illustrate
+
+00:06:42.990 --> 00:06:45.840 align:middle line:84%
+in the next couple of
+slides is a tree alignment,
+
+00:06:45.840 --> 00:06:48.420 align:middle line:90%
+as illustrated by ClustalW.
+
+00:06:48.420 --> 00:06:50.070 align:middle line:84%
+By the way, pruning
+is illustrated
+
+00:06:50.070 --> 00:06:51.630 align:middle line:84%
+by a program called
+MSA, which is
+
+00:06:51.630 --> 00:06:53.640 align:middle line:84%
+short for multisequence
+alignment.
+
+00:06:53.640 --> 00:06:55.560 align:middle line:90%
+And we'll show a star alignment.
+
+00:06:55.560 --> 00:06:59.940 align:middle line:84%
+And then when we get, later
+on into the transcriptome part
+
+00:06:59.940 --> 00:07:05.140 align:middle line:84%
+of the course, we will talk
+about the Gibbs algorithm.
+
+00:07:05.140 --> 00:07:11.310 align:middle line:84%
+So let's walk through ClustalW,
+and then a star algorithm.
+
+00:07:11.310 --> 00:07:13.360 align:middle line:84%
+So here's progressive
+multiple alignment.
+
+00:07:13.360 --> 00:07:16.140 align:middle line:84%
+And I think most of
+you, if I had given you
+
+00:07:16.140 --> 00:07:20.478 align:middle line:84%
+the luxury of just thinking this
+through during the break, how
+
+00:07:20.478 --> 00:07:22.020 align:middle line:84%
+you would do the
+multialignment, this
+
+00:07:22.020 --> 00:07:25.320 align:middle line:84%
+might be the algorithm
+you would come up with.
+
+00:07:25.320 --> 00:07:27.480 align:middle line:84%
+Almost always it
+makes sense to start
+
+00:07:27.480 --> 00:07:29.190 align:middle line:84%
+with the pairwise
+alignments because that
+
+00:07:29.190 --> 00:07:33.250 align:middle line:84%
+is a solved problem, and we have
+fairly good scaling for that.
+
+00:07:33.250 --> 00:07:37.800 align:middle line:84%
+And so here, you take each of
+the, let's say four sequences
+
+00:07:37.800 --> 00:07:39.270 align:middle line:90%
+and do all pairwise alignments.
+
+00:07:39.270 --> 00:07:41.340 align:middle line:90%
+And you get this 4 by 4 matrix.
+
+00:07:41.340 --> 00:07:43.830 align:middle line:84%
+It's going to be
+symmetric, so you only
+
+00:07:43.830 --> 00:07:47.430 align:middle line:84%
+have to do the diagonal and the
+off diagonals on one-half of it
+
+00:07:47.430 --> 00:07:48.990 align:middle line:90%
+and.
+
+00:07:48.990 --> 00:07:52.440 align:middle line:84%
+And you get the best
+score is S1 with S3,
+
+00:07:52.440 --> 00:07:55.470 align:middle line:90%
+which has a score of 9.
+
+00:07:55.470 --> 00:07:59.425 align:middle line:90%
+And so you can construct a tree.
+
+00:07:59.425 --> 00:08:01.050 align:middle line:84%
+And this is-- basically,
+we're starting
+
+00:08:01.050 --> 00:08:03.125 align:middle line:84%
+to describe the method
+by which we construct
+
+00:08:03.125 --> 00:08:04.500 align:middle line:84%
+a tree, such as
+that tree of life
+
+00:08:04.500 --> 00:08:08.080 align:middle line:84%
+that I've shown a
+couple of times now.
+
+00:08:08.080 --> 00:08:09.990 align:middle line:84%
+And so when you
+construct a tree,
+
+00:08:09.990 --> 00:08:14.010 align:middle line:84%
+you take the two closest
+scoring sequences,
+
+00:08:14.010 --> 00:08:18.030 align:middle line:84%
+and you indicate them as
+terminal branches of the tree.
+
+00:08:18.030 --> 00:08:26.430 align:middle line:84%
+And you connect them to
+a fork, a branch point.
+
+00:08:26.430 --> 00:08:31.410 align:middle line:84%
+And the distance of each
+from the common ancestor
+
+00:08:31.410 --> 00:08:34.000 align:middle line:84%
+is indicated by the
+length of these lines.
+
+00:08:34.000 --> 00:08:38.100 align:middle line:84%
+And so the second-best
+score is S2 and S4.
+
+00:08:38.100 --> 00:08:42.419 align:middle line:84%
+It's a little bit weaker
+similarity than S1 and S3.
+
+00:08:42.419 --> 00:08:43.950 align:middle line:84%
+So you have these
+longer branches
+
+00:08:43.950 --> 00:08:46.050 align:middle line:90%
+indicating greater divergence.
+
+00:08:46.050 --> 00:08:49.120 align:middle line:84%
+And they're in
+their own cluster.
+
+00:08:49.120 --> 00:08:54.143 align:middle line:84%
+Now, it turns out that
+then the common ancestor
+
+00:08:54.143 --> 00:08:55.560 align:middle line:84%
+for all the
+sequences, which would
+
+00:08:55.560 --> 00:08:58.410 align:middle line:84%
+be the common ancestor
+of the common ancestors
+
+00:08:58.410 --> 00:09:00.630 align:middle line:84%
+of the first two
+clusters, is represented
+
+00:09:00.630 --> 00:09:05.810 align:middle line:84%
+by this final branching closest
+to the trunk of the tree
+
+00:09:05.810 --> 00:09:06.890 align:middle line:90%
+or the roots of tree.
+
+00:09:06.890 --> 00:09:09.410 align:middle line:90%
+
+
+00:09:09.410 --> 00:09:13.800 align:middle line:84%
+And here, distance is
+this horizontal axis.
+
+00:09:13.800 --> 00:09:19.550 align:middle line:84%
+And then, once you have this
+dendrogram, the next step,
+
+00:09:19.550 --> 00:09:23.690 align:middle line:84%
+or the full steps, are aligning
+each of the sequences, which
+
+00:09:23.690 --> 00:09:25.550 align:middle line:84%
+you already had to
+have done in order
+
+00:09:25.550 --> 00:09:27.390 align:middle line:84%
+to calculate the
+similarity matrix--
+
+00:09:27.390 --> 00:09:32.510 align:middle line:84%
+and again, these are a pairwise
+alignment of S1, S2, and S4.
+
+00:09:32.510 --> 00:09:35.300 align:middle line:84%
+Steps 1 and 2 were already done
+to get a similarity matrix.
+
+00:09:35.300 --> 00:09:36.650 align:middle line:90%
+Now, step 3 is new.
+
+00:09:36.650 --> 00:09:43.820 align:middle line:84%
+You align this alignment,
+we'll call it the pair S1, S3,
+
+00:09:43.820 --> 00:09:45.800 align:middle line:90%
+with the pair S2, S4.
+
+00:09:45.800 --> 00:09:47.630 align:middle line:84%
+And you could
+imagine keeping doing
+
+00:09:47.630 --> 00:09:49.310 align:middle line:90%
+this hierarchical process.
+
+00:09:49.310 --> 00:09:51.020 align:middle line:84%
+If there were additional
+sequences which
+
+00:09:51.020 --> 00:09:53.900 align:middle line:84%
+are even more distant
+related, let's say S5,
+
+00:09:53.900 --> 00:09:58.430 align:middle line:84%
+you would take this
+alignment of S1, S2, S3, S4,
+
+00:09:58.430 --> 00:10:01.880 align:middle line:84%
+and align it with a
+single sequence S5.
+
+00:10:01.880 --> 00:10:04.560 align:middle line:84%
+So you can see how you can
+align not only sequences,
+
+00:10:04.560 --> 00:10:07.340 align:middle line:84%
+but you can align
+pseudosequences,
+
+00:10:07.340 --> 00:10:10.850 align:middle line:84%
+which have these little
+indel bashes in them.
+
+00:10:10.850 --> 00:10:11.870 align:middle line:90%
+So that's one method.
+
+00:10:11.870 --> 00:10:13.980 align:middle line:90%
+This is a different method.
+
+00:10:13.980 --> 00:10:16.550 align:middle line:84%
+And here, the premise
+is that you've
+
+00:10:16.550 --> 00:10:19.850 align:middle line:84%
+got one sequence which is
+sufficiently close to all
+
+00:10:19.850 --> 00:10:23.360 align:middle line:84%
+the other sequences that you can
+use it as an anchor sequence.
+
+00:10:23.360 --> 00:10:27.160 align:middle line:84%
+And whatever indels you put
+in individually pairwise,
+
+00:10:27.160 --> 00:10:29.660 align:middle line:84%
+for that sequence,
+can be propagated
+
+00:10:29.660 --> 00:10:31.970 align:middle line:84%
+throughout the entire
+multisequence alignment.
+
+00:10:31.970 --> 00:10:35.060 align:middle line:90%
+So here, we start the same way.
+
+00:10:35.060 --> 00:10:37.010 align:middle line:84%
+Here, we have five
+sequences instead of four,
+
+00:10:37.010 --> 00:10:38.060 align:middle line:90%
+but it's the same thing.
+
+00:10:38.060 --> 00:10:40.640 align:middle line:84%
+You do all pairwise
+similarities,
+
+00:10:40.640 --> 00:10:41.690 align:middle line:90%
+and you give a score.
+
+00:10:41.690 --> 00:10:44.660 align:middle line:84%
+These scores are the scores
+that would have come out
+
+00:10:44.660 --> 00:10:48.260 align:middle line:84%
+at the end of that traceback
+in the pairwise alignments.
+
+00:10:48.260 --> 00:10:49.910 align:middle line:84%
+So this is not a
+pairwise matrix.
+
+00:10:49.910 --> 00:10:56.720 align:middle line:84%
+This is the results of 5 times
+4 over 2 pairwise alignments.
+
+00:10:56.720 --> 00:11:00.920 align:middle line:84%
+Each of these boxes itself is
+the outcome of a full matrix
+
+00:11:00.920 --> 00:11:03.110 align:middle line:90%
+on S1 versus S2, for example.
+
+00:11:03.110 --> 00:11:05.270 align:middle line:84%
+And you can see from
+these set of scores
+
+00:11:05.270 --> 00:11:09.515 align:middle line:84%
+that the best score, or the best
+set of scores for any sequence,
+
+00:11:09.515 --> 00:11:12.650 align:middle line:84%
+is S1 has the best
+score to S2, and it
+
+00:11:12.650 --> 00:11:15.440 align:middle line:84%
+has the best score overall
+to all of the sequences.
+
+00:11:15.440 --> 00:11:21.830 align:middle line:84%
+And so we'll use S1 as the
+focus of the star geometry.
+
+00:11:21.830 --> 00:11:26.945 align:middle line:84%
+And we'll say OK we've already
+compared every sequence to S1.
+
+00:11:26.945 --> 00:11:28.820 align:middle line:84%
+We compared every sequence
+to every sequence.
+
+00:11:28.820 --> 00:11:30.210 align:middle line:90%
+But let's focus on that.
+
+00:11:30.210 --> 00:11:32.330 align:middle line:84%
+And now take wherever
+the indels were
+
+00:11:32.330 --> 00:11:35.120 align:middle line:84%
+that were required to
+get the best score for S1
+
+00:11:35.120 --> 00:11:42.320 align:middle line:84%
+with each of the others, and
+have S1 in red in each case,
+
+00:11:42.320 --> 00:11:46.290 align:middle line:90%
+and use that as the anchor.
+
+00:11:46.290 --> 00:11:48.020 align:middle line:84%
+And so then in the
+multialignment,
+
+00:11:48.020 --> 00:11:50.720 align:middle line:84%
+you take all the indels
+relative to the red one,
+
+00:11:50.720 --> 00:11:56.150 align:middle line:84%
+and introduce them so
+that it's the anchor.
+
+00:11:56.150 --> 00:11:58.440 align:middle line:84%
+So those are two
+radically different ways.
+
+00:11:58.440 --> 00:12:01.290 align:middle line:84%
+And we'll get to the
+Gibbs sampling later.
+
+00:12:01.290 --> 00:12:04.130 align:middle line:84%
+But the Gibbs sampling,
+just in a nutshell,
+
+00:12:04.130 --> 00:12:07.310 align:middle line:84%
+is in general when you
+have a hard problem,
+
+00:12:07.310 --> 00:12:12.790 align:middle line:84%
+where you can't comprehensively
+go through the entire space,
+
+00:12:12.790 --> 00:12:14.260 align:middle line:90%
+what you do is sample it.
+
+00:12:14.260 --> 00:12:18.820 align:middle line:84%
+You say, let's try a few things,
+and try to randomly sample it,
+
+00:12:18.820 --> 00:12:22.340 align:middle line:90%
+and maybe even develop locally.
+
+00:12:22.340 --> 00:12:25.930 align:middle line:84%
+If, after randomly sampling
+in certain places look better,
+
+00:12:25.930 --> 00:12:29.470 align:middle line:84%
+then look near there,
+and find other solutions,
+
+00:12:29.470 --> 00:12:31.270 align:middle line:90%
+and keep optimizing.
+
+00:12:31.270 --> 00:12:34.970 align:middle line:90%
+That's the Gibbs in a nutshell.
+
+00:12:34.970 --> 00:12:44.200 align:middle line:84%
+Now, we have explored the
+space-time accuracy trade-offs.
+
+00:12:44.200 --> 00:12:49.840 align:middle line:84%
+You can improve time by having
+this storing, this pairwise
+
+00:12:49.840 --> 00:12:52.640 align:middle line:90%
+or multi sequence in a matrix--
+
+00:12:52.640 --> 00:12:54.430 align:middle line:84%
+so that's actually
+you've done a trade-off
+
+00:12:54.430 --> 00:12:59.375 align:middle line:84%
+where you've taken up computer
+memory in order to save time.
+
+00:12:59.375 --> 00:13:01.000 align:middle line:84%
+And then if you're
+willing to sacrifice
+
+00:13:01.000 --> 00:13:03.190 align:middle line:84%
+a little accuracy or a
+little comprehensiveness,
+
+00:13:03.190 --> 00:13:07.240 align:middle line:84%
+then you can save even
+more time or memory.
+
+00:13:07.240 --> 00:13:12.940 align:middle line:84%
+Now we want to use motifs,
+which is the sort of thing
+
+00:13:12.940 --> 00:13:16.960 align:middle line:84%
+that you get out of local
+alignments, to find genes.
+
+00:13:16.960 --> 00:13:19.600 align:middle line:84%
+And we're going to use the
+motifs and the finding genes
+
+00:13:19.600 --> 00:13:22.510 align:middle line:84%
+as a way of introducing
+a particular motif, which
+
+00:13:22.510 --> 00:13:27.610 align:middle line:84%
+is a CG motif, as a simple
+example of a hidden Markov
+
+00:13:27.610 --> 00:13:28.810 align:middle line:90%
+model.
+
+00:13:28.810 --> 00:13:31.900 align:middle line:90%
+Now, how do we find genes?
+
+00:13:31.900 --> 00:13:37.958 align:middle line:84%
+Genes have little bits of
+sequence at the beginning,
+
+00:13:37.958 --> 00:13:40.000 align:middle line:84%
+in the middle, or the end,
+which are distinctive.
+
+00:13:40.000 --> 00:13:42.100 align:middle line:84%
+They have distinctive
+properties, typically
+
+00:13:42.100 --> 00:13:43.210 align:middle line:90%
+sequence properties.
+
+00:13:43.210 --> 00:13:46.330 align:middle line:84%
+So at the beginning
+of the gene, before
+
+00:13:46.330 --> 00:13:49.180 align:middle line:84%
+the protein-coding region
+or RNA-coding region,
+
+00:13:49.180 --> 00:13:52.120 align:middle line:84%
+you'll have regulatory
+elements such as promoters
+
+00:13:52.120 --> 00:13:53.887 align:middle line:90%
+and so-called CG islands.
+
+00:13:53.887 --> 00:13:55.720 align:middle line:84%
+Now, remember the CG
+islands, because that's
+
+00:13:55.720 --> 00:13:57.790 align:middle line:84%
+what we're going to use
+to illustrate the HMMs.
+
+00:13:57.790 --> 00:14:02.170 align:middle line:84%
+The CG islands are
+basically an abundance
+
+00:14:02.170 --> 00:14:03.760 align:middle line:90%
+of the CG dinucleotide.
+
+00:14:03.760 --> 00:14:07.150 align:middle line:84%
+Of the 16 different
+dinucleotides,
+
+00:14:07.150 --> 00:14:09.280 align:middle line:84%
+CG happens to be
+underrepresented
+
+00:14:09.280 --> 00:14:12.550 align:middle line:84%
+in general invertebrate
+genomes, and over-represented
+
+00:14:12.550 --> 00:14:15.175 align:middle line:84%
+in promoter regions
+upstream from genes.
+
+00:14:15.175 --> 00:14:17.860 align:middle line:90%
+
+
+00:14:17.860 --> 00:14:20.020 align:middle line:84%
+And the reason is
+probably that they
+
+00:14:20.020 --> 00:14:22.540 align:middle line:84%
+bind to transcription factors,
+and the transcription factors
+
+00:14:22.540 --> 00:14:28.630 align:middle line:84%
+protect them from methylation,
+and thereby protect them
+
+00:14:28.630 --> 00:14:33.400 align:middle line:84%
+from a mutagenic process
+that would otherwise
+
+00:14:33.400 --> 00:14:36.520 align:middle line:90%
+cause them to become a TG.
+
+00:14:36.520 --> 00:14:43.840 align:middle line:84%
+Now, that's the example of a
+distinctive sequence element
+
+00:14:43.840 --> 00:14:45.962 align:middle line:84%
+that indicates the
+beginning of a gene or just
+
+00:14:45.962 --> 00:14:47.170 align:middle line:90%
+before beginning of the gene.
+
+00:14:47.170 --> 00:14:49.690 align:middle line:84%
+Within the gene,
+especially-- well,
+
+00:14:49.690 --> 00:14:51.370 align:middle line:84%
+only-- if it's a
+protein-coding region,
+
+00:14:51.370 --> 00:14:53.253 align:middle line:90%
+you'll have preferred codons.
+
+00:14:53.253 --> 00:14:54.670 align:middle line:84%
+These are preferences
+that are set
+
+00:14:54.670 --> 00:14:58.360 align:middle line:84%
+by the particular abundances
+of transfer RNAs in the cell,
+
+00:14:58.360 --> 00:15:01.120 align:middle line:84%
+as well as other
+constraints on the sequence.
+
+00:15:01.120 --> 00:15:03.768 align:middle line:84%
+If you're in an organism
+that does RNA splicing,
+
+00:15:03.768 --> 00:15:05.560 align:middle line:84%
+you'll have RNA splice
+signals, and they'll
+
+00:15:05.560 --> 00:15:10.180 align:middle line:84%
+have distinctive
+sequence features.
+
+00:15:10.180 --> 00:15:14.830 align:middle line:84%
+You will have-- if
+you have RNA splicing,
+
+00:15:14.830 --> 00:15:18.730 align:middle line:84%
+then you will have to maintain
+the translational reading frame
+
+00:15:18.730 --> 00:15:20.200 align:middle line:90%
+across the splice junctions.
+
+00:15:20.200 --> 00:15:22.690 align:middle line:90%
+That's a hint.
+
+00:15:22.690 --> 00:15:26.920 align:middle line:84%
+If you have
+multisequence alignments,
+
+00:15:26.920 --> 00:15:30.580 align:middle line:84%
+then you can look for conserved
+positions and interspecies
+
+00:15:30.580 --> 00:15:31.600 align:middle line:90%
+conservation.
+
+00:15:31.600 --> 00:15:35.215 align:middle line:90%
+
+
+00:15:35.215 --> 00:15:39.530 align:middle line:84%
+The ultimate cheat
+is if you have
+
+00:15:39.530 --> 00:15:45.890 align:middle line:84%
+a cDNA in the case of
+species that are spliced,
+
+00:15:45.890 --> 00:15:48.110 align:middle line:84%
+then you can figure
+out the splicing just
+
+00:15:48.110 --> 00:15:52.730 align:middle line:84%
+empirically by the
+presence of actually
+
+00:15:52.730 --> 00:15:55.027 align:middle line:84%
+sequencing the messenger
+RNA that encodes your gene.
+
+00:15:55.027 --> 00:15:57.110 align:middle line:84%
+So you know there's a gene
+there because you found
+
+00:15:57.110 --> 00:15:59.150 align:middle line:84%
+it present in the
+messenger RNA population,
+
+00:15:59.150 --> 00:16:00.320 align:middle line:90%
+and you sequenced it.
+
+00:16:00.320 --> 00:16:03.140 align:middle line:84%
+Now, there are problems with
+each of these approaches.
+
+00:16:03.140 --> 00:16:06.350 align:middle line:84%
+Promoters and CG islands
+are sort of degenerate.
+
+00:16:06.350 --> 00:16:10.170 align:middle line:84%
+They're weak
+sequence signatures.
+
+00:16:10.170 --> 00:16:12.890 align:middle line:84%
+There's a high variety, and
+they're used in combinations.
+
+00:16:12.890 --> 00:16:14.780 align:middle line:84%
+When we're looking
+at preferred codons,
+
+00:16:14.780 --> 00:16:18.200 align:middle line:84%
+we need a lot of codons in
+a row to see a preference
+
+00:16:18.200 --> 00:16:19.550 align:middle line:90%
+over random sequences.
+
+00:16:19.550 --> 00:16:21.230 align:middle line:84%
+Random sequences
+will also contain
+
+00:16:21.230 --> 00:16:22.520 align:middle line:90%
+some of the same codons.
+
+00:16:22.520 --> 00:16:26.090 align:middle line:84%
+And if you need longer ones,
+then you'll miss tiny proteins.
+
+00:16:26.090 --> 00:16:30.350 align:middle line:84%
+And we'll talk about
+this in just a moment,
+
+00:16:30.350 --> 00:16:32.120 align:middle line:90%
+specific examples.
+
+00:16:32.120 --> 00:16:36.440 align:middle line:84%
+Similarly for RNA splicing, you
+can have weak motifs, again.
+
+00:16:36.440 --> 00:16:38.180 align:middle line:84%
+And alternative
+splicing-- it's not
+
+00:16:38.180 --> 00:16:40.940 align:middle line:84%
+like there's one specific
+splice that occurs
+
+00:16:40.940 --> 00:16:42.320 align:middle line:90%
+in a particular gene segment.
+
+00:16:42.320 --> 00:16:45.560 align:middle line:90%
+There can be multiple kinds.
+
+00:16:45.560 --> 00:16:48.260 align:middle line:84%
+Conservation requires that
+you have the right species,
+
+00:16:48.260 --> 00:16:51.367 align:middle line:84%
+that at least some
+of the species
+
+00:16:51.367 --> 00:16:53.450 align:middle line:84%
+in your multisequence
+alignment are just the right
+
+00:16:53.450 --> 00:16:55.850 align:middle line:84%
+distance-- not too
+close, not too far away.
+
+00:16:55.850 --> 00:16:57.780 align:middle line:84%
+And cDNAs are great,
+if you have them.
+
+00:16:57.780 --> 00:16:59.405 align:middle line:84%
+But if you have very
+rare [? trends, ?]
+
+00:16:59.405 --> 00:17:03.830 align:middle line:84%
+you need to have the cell
+type and the rare [INAUDIBLE],,
+
+00:17:03.830 --> 00:17:07.500 align:middle line:84%
+rare messenger RNA
+within a cell type.
+
+00:17:07.500 --> 00:17:10.560 align:middle line:84%
+So let's talk about
+the sizes of proteins.
+
+00:17:10.560 --> 00:17:19.140 align:middle line:84%
+If you look here, I plotted
+the sizes of proteins
+
+00:17:19.140 --> 00:17:20.640 align:middle line:90%
+in annotated genomes--
+
+00:17:20.640 --> 00:17:22.064 align:middle line:84%
+two of the first
+annotated genomes
+
+00:17:22.064 --> 00:17:25.980 align:middle line:84%
+is the smallest eukaryote yeast
+and the smallest prokaryote
+
+00:17:25.980 --> 00:17:29.070 align:middle line:90%
+Mycoplasma--
+
+00:17:29.070 --> 00:17:33.030 align:middle line:84%
+and asked what were the
+sizes of the proteins that
+
+00:17:33.030 --> 00:17:33.720 align:middle line:90%
+are annotated?
+
+00:17:33.720 --> 00:17:35.700 align:middle line:84%
+Proteins in quotes,
+because this is
+
+00:17:35.700 --> 00:17:40.980 align:middle line:84%
+what humans and computer
+programs together
+
+00:17:40.980 --> 00:17:43.320 align:middle line:90%
+chose to represent.
+
+00:17:43.320 --> 00:17:45.430 align:middle line:90%
+This is not truth, necessarily.
+
+00:17:45.430 --> 00:17:48.650 align:middle line:84%
+And you can see it goes out
+to over 900 amino acids.
+
+00:17:48.650 --> 00:17:50.400 align:middle line:84%
+And if you go to humans,
+this would go out
+
+00:17:50.400 --> 00:17:52.800 align:middle line:84%
+to 10s of thousands
+of amino acids
+
+00:17:52.800 --> 00:17:54.240 align:middle line:90%
+long for the largest proteins.
+
+00:17:54.240 --> 00:17:57.270 align:middle line:84%
+But let's focus attention
+on the smallest proteins.
+
+00:17:57.270 --> 00:18:04.780 align:middle line:84%
+How is it that it precipitously
+drops off at 100 amino acids?
+
+00:18:04.780 --> 00:18:11.880 align:middle line:84%
+Why are there so few
+proteins that are short?
+
+00:18:11.880 --> 00:18:15.110 align:middle line:84%
+And there are slightly more
+short proteins in Mycoplasma?
+
+00:18:15.110 --> 00:18:18.840 align:middle line:90%
+
+
+00:18:18.840 --> 00:18:20.610 align:middle line:90%
+Any guesses why they're so few?
+
+00:18:20.610 --> 00:18:24.172 align:middle line:84%
+Why does it drop off
+at 100 amino acids?
+
+00:18:24.172 --> 00:18:26.130 align:middle line:84%
+STUDENT: There are more
+but we can't find them?
+
+00:18:26.130 --> 00:18:29.590 align:middle line:84%
+GEORGE CHURCH: Right,
+there probably are more.
+
+00:18:29.590 --> 00:18:32.040 align:middle line:84%
+It's not that we can't,
+it's that the annotators
+
+00:18:32.040 --> 00:18:34.530 align:middle line:90%
+chose not to.
+
+00:18:34.530 --> 00:18:38.850 align:middle line:90%
+And why did they choose not to?
+
+00:18:38.850 --> 00:18:41.070 align:middle line:84%
+They just agreed that
+they would stop at 100.
+
+00:18:41.070 --> 00:18:42.420 align:middle line:90%
+That was getting too short.
+
+00:18:42.420 --> 00:18:44.940 align:middle line:84%
+And this is what kind
+of illustrates why.
+
+00:18:44.940 --> 00:18:49.560 align:middle line:84%
+Here, every genome has its
+own GC content, its own codon
+
+00:18:49.560 --> 00:18:50.520 align:middle line:90%
+usage, and so forth.
+
+00:18:50.520 --> 00:18:54.420 align:middle line:84%
+Here, we're just talking
+about just the first order
+
+00:18:54.420 --> 00:18:58.050 align:middle line:90%
+percentage of GC versus AT.
+
+00:18:58.050 --> 00:19:03.300 align:middle line:84%
+And the genetic code,
+theoretically and as observed,
+
+00:19:03.300 --> 00:19:05.730 align:middle line:84%
+can restrict genomes
+so that they really
+
+00:19:05.730 --> 00:19:11.910 align:middle line:84%
+can have a minimum of
+25% GC content, or 28%,
+
+00:19:11.910 --> 00:19:14.190 align:middle line:90%
+and a maximum of 75%.
+
+00:19:14.190 --> 00:19:17.740 align:middle line:84%
+And essentially all
+genomes fall in that range,
+
+00:19:17.740 --> 00:19:21.010 align:middle line:90%
+and yeast is around 39% or so.
+
+00:19:21.010 --> 00:19:23.700 align:middle line:90%
+And then if you plot--
+
+00:19:23.700 --> 00:19:29.490 align:middle line:84%
+stop codons tend to be
+made up of As and Ts.
+
+00:19:29.490 --> 00:19:36.990 align:middle line:84%
+The stop codons are
+TAG, TGA, and TAA.
+
+00:19:36.990 --> 00:19:40.050 align:middle line:84%
+So if you have an
+AT-rich genome,
+
+00:19:40.050 --> 00:19:41.640 align:middle line:84%
+you're going to
+tend to have a lot.
+
+00:19:41.640 --> 00:19:43.680 align:middle line:84%
+You tend to run into
+a stop codon at random
+
+00:19:43.680 --> 00:19:44.560 align:middle line:90%
+quite frequently.
+
+00:19:44.560 --> 00:19:47.190 align:middle line:84%
+So if you have a long open
+reading frame in an AT-rich
+
+00:19:47.190 --> 00:19:48.690 align:middle line:90%
+genome, that's very--
+
+00:19:48.690 --> 00:19:50.782 align:middle line:84%
+if you have a modestly
+long open reading
+
+00:19:50.782 --> 00:19:52.740 align:middle line:84%
+frame, that's very
+significant, AT-rich genome.
+
+00:19:52.740 --> 00:19:54.593 align:middle line:84%
+But you have a
+GC-rich genome, then
+
+00:19:54.593 --> 00:19:56.760 align:middle line:84%
+you can go for a long time
+at random without running
+
+00:19:56.760 --> 00:19:58.690 align:middle line:84%
+into the stop codon, so
+it's less significant.
+
+00:19:58.690 --> 00:20:01.830 align:middle line:84%
+So you need to have more codons
+in a row in a CG-rich genome
+
+00:20:01.830 --> 00:20:03.150 align:middle line:90%
+in order to convince yourself.
+
+00:20:03.150 --> 00:20:04.692 align:middle line:84%
+So it's usually
+somewhere in between.
+
+00:20:04.692 --> 00:20:07.800 align:middle line:84%
+And you can see that
+there's this general trend.
+
+00:20:07.800 --> 00:20:10.170 align:middle line:84%
+You need to have
+more codons in a row
+
+00:20:10.170 --> 00:20:13.590 align:middle line:84%
+to convince yourself as the GC
+content on the horizontal axis
+
+00:20:13.590 --> 00:20:14.520 align:middle line:90%
+goes higher.
+
+00:20:14.520 --> 00:20:18.750 align:middle line:84%
+And basically, the
+place where you
+
+00:20:18.750 --> 00:20:20.700 align:middle line:84%
+start getting too
+many false positives
+
+00:20:20.700 --> 00:20:22.080 align:middle line:90%
+is around 100 amino acids.
+
+00:20:22.080 --> 00:20:25.200 align:middle line:84%
+And so that's why the community
+just decided to cut off there.
+
+00:20:25.200 --> 00:20:27.660 align:middle line:84%
+When we get to proteomics,
+we'll talk about ways
+
+00:20:27.660 --> 00:20:31.620 align:middle line:84%
+that you can empirically, by
+mass spectrometry and so forth,
+
+00:20:31.620 --> 00:20:33.600 align:middle line:90%
+find those small proteins.
+
+00:20:33.600 --> 00:20:36.562 align:middle line:84%
+And genetically, of
+course, you can find them.
+
+00:20:36.562 --> 00:20:38.520 align:middle line:84%
+Let's talk about the most
+extremely small ones,
+
+00:20:38.520 --> 00:20:42.450 align:middle line:84%
+and ask whether these extremely
+small open reading frames
+
+00:20:42.450 --> 00:20:43.890 align:middle line:90%
+are interesting.
+
+00:20:43.890 --> 00:20:49.030 align:middle line:84%
+And I think they're very extreme
+examples are very interesting.
+
+00:20:49.030 --> 00:20:54.240 align:middle line:84%
+So the smallest that I
+know of is a pentapeptide,
+
+00:20:54.240 --> 00:20:57.810 align:middle line:84%
+which is actually
+encoded in not just
+
+00:20:57.810 --> 00:21:00.360 align:middle line:84%
+one, but many different
+phylogenetically
+
+00:21:00.360 --> 00:21:03.900 align:middle line:90%
+diverse, large ribosomal RNAs.
+
+00:21:03.900 --> 00:21:07.800 align:middle line:84%
+So here, ribosomal RNA normally
+acts as part of the translation
+
+00:21:07.800 --> 00:21:09.840 align:middle line:84%
+apparatus, but
+here, it is acting
+
+00:21:09.840 --> 00:21:14.610 align:middle line:84%
+as the messenger RNA, as well,
+presumably a separate molecule,
+
+00:21:14.610 --> 00:21:17.280 align:middle line:84%
+maybe possibly a
+degraded version of it.
+
+00:21:17.280 --> 00:21:19.890 align:middle line:84%
+But in some way or
+another, the 23 sRNA
+
+00:21:19.890 --> 00:21:22.200 align:middle line:84%
+encodes this
+pentapeptide, which is not
+
+00:21:22.200 --> 00:21:24.240 align:middle line:84%
+just some junk-- you
+can have junk DNA,
+
+00:21:24.240 --> 00:21:25.500 align:middle line:90%
+you can have junk peptides.
+
+00:21:25.500 --> 00:21:29.580 align:middle line:84%
+But this one actually confers
+erythromycin resistance
+
+00:21:29.580 --> 00:21:31.380 align:middle line:90%
+at low levels in wild type.
+
+00:21:31.380 --> 00:21:34.380 align:middle line:84%
+It is not a mutant
+kind of peptide.
+
+00:21:34.380 --> 00:21:37.350 align:middle line:90%
+It's the normal pentapeptide.
+
+00:21:37.350 --> 00:21:40.395 align:middle line:84%
+Now, here's three examples that
+are related to one another.
+
+00:21:40.395 --> 00:21:44.490 align:middle line:90%
+
+
+00:21:44.490 --> 00:21:47.430 align:middle line:84%
+They have somewhere
+between 14 and 16 codons,
+
+00:21:47.430 --> 00:21:51.150 align:middle line:84%
+and they have this very
+strange amino acid composition
+
+00:21:51.150 --> 00:21:56.010 align:middle line:84%
+when you do the translation
+conceptually in the computer.
+
+00:21:56.010 --> 00:21:58.823 align:middle line:84%
+Remember, tryptophan
+were a rare amino acid.
+
+00:21:58.823 --> 00:22:00.240 align:middle line:84%
+Well, here's two
+of them in a row.
+
+00:22:00.240 --> 00:22:01.900 align:middle line:90%
+That's pretty unusual.
+
+00:22:01.900 --> 00:22:06.650 align:middle line:84%
+Here's seven phenylalanines
+in a short stretch.
+
+00:22:06.650 --> 00:22:09.380 align:middle line:84%
+And here's seven
+histidines right in a row.
+
+00:22:09.380 --> 00:22:11.300 align:middle line:90%
+This is really bizarre.
+
+00:22:11.300 --> 00:22:15.710 align:middle line:84%
+And what furthermore gets
+even more conspiratorial
+
+00:22:15.710 --> 00:22:21.110 align:middle line:84%
+because these seven histidines
+in a row happen to be--
+
+00:22:21.110 --> 00:22:26.130 align:middle line:84%
+the next gene down is a
+histidine biosynthetic gene.
+
+00:22:26.130 --> 00:22:29.850 align:middle line:84%
+And not only that, but about
+eight histidine genes in a row
+
+00:22:29.850 --> 00:22:31.882 align:middle line:90%
+come after that.
+
+00:22:31.882 --> 00:22:33.840 align:middle line:84%
+And the same thing with
+phenylalanines upstream
+
+00:22:33.840 --> 00:22:35.670 align:middle line:84%
+of phenylalanine
+biosynthetic genes,
+
+00:22:35.670 --> 00:22:38.850 align:middle line:84%
+and this weird
+excess of tryptophan
+
+00:22:38.850 --> 00:22:41.650 align:middle line:84%
+is upstream of tryptophan
+biosynthetic genes.
+
+00:22:41.650 --> 00:22:42.970 align:middle line:90%
+So what does this all mean?
+
+00:22:42.970 --> 00:22:45.930 align:middle line:90%
+What it means, probably--
+
+00:22:45.930 --> 00:22:47.940 align:middle line:84%
+and there's actually
+quite a bit of experiments
+
+00:22:47.940 --> 00:22:53.640 align:middle line:84%
+on this-- is that this is an
+excellent feedback loop, where
+
+00:22:53.640 --> 00:22:57.910 align:middle line:84%
+you want to do feedback
+in the most relevant way.
+
+00:22:57.910 --> 00:23:00.570 align:middle line:84%
+So here, if you want
+to know whether you
+
+00:23:00.570 --> 00:23:02.910 align:middle line:84%
+need to make tryptophan,
+phenylalanine, or histidine,
+
+00:23:02.910 --> 00:23:06.810 align:middle line:84%
+you ask whether there's enough
+of it around to do translation.
+
+00:23:06.810 --> 00:23:08.010 align:middle line:90%
+That's very relevant.
+
+00:23:08.010 --> 00:23:11.520 align:middle line:84%
+And so this has to be sensing
+the translation process itself.
+
+00:23:11.520 --> 00:23:14.970 align:middle line:84%
+It's asking whether the
+transfer RNAs are charged up
+
+00:23:14.970 --> 00:23:17.380 align:middle line:84%
+with amino acids
+enough that you're
+
+00:23:17.380 --> 00:23:18.630 align:middle line:90%
+getting efficient translation.
+
+00:23:18.630 --> 00:23:20.610 align:middle line:84%
+If you're not, then
+you'll pause here.
+
+00:23:20.610 --> 00:23:23.460 align:middle line:84%
+That ribosome will hesitate,
+waiting for the right transfer
+
+00:23:23.460 --> 00:23:24.780 align:middle line:90%
+RNA.
+
+00:23:24.780 --> 00:23:29.840 align:middle line:84%
+And as it hesitates,
+this RNA changes.
+
+00:23:29.840 --> 00:23:30.620 align:middle line:90%
+It's folding.
+
+00:23:30.620 --> 00:23:33.560 align:middle line:84%
+And a series of
+events results in--
+
+00:23:33.560 --> 00:23:35.120 align:middle line:84%
+if it's hesitating,
+then it wants
+
+00:23:35.120 --> 00:23:37.190 align:middle line:84%
+to make the biosynthetic
+genes downstream
+
+00:23:37.190 --> 00:23:39.390 align:middle line:90%
+to make more of the amino acids.
+
+00:23:39.390 --> 00:23:40.770 align:middle line:84%
+So the tRNA has
+to be charged up.
+
+00:23:40.770 --> 00:23:42.590 align:middle line:84%
+So you get this nice,
+little feedback loop
+
+00:23:42.590 --> 00:23:44.930 align:middle line:84%
+that the hesitation causes
+a change in RNA, which
+
+00:23:44.930 --> 00:23:46.760 align:middle line:84%
+causes change of
+transcription, and you
+
+00:23:46.760 --> 00:23:49.200 align:middle line:90%
+make more of what you need.
+
+00:23:49.200 --> 00:23:53.750 align:middle line:84%
+So I think these are
+interesting examples.
+
+00:23:53.750 --> 00:23:58.580 align:middle line:84%
+And of course, if
+you knew in advance
+
+00:23:58.580 --> 00:24:00.560 align:middle line:84%
+you were looking for
+runs of histidines,
+
+00:24:00.560 --> 00:24:01.590 align:middle line:90%
+that would be great.
+
+00:24:01.590 --> 00:24:04.640 align:middle line:84%
+But for other open
+reading frames,
+
+00:24:04.640 --> 00:24:06.120 align:middle line:90%
+there may be a different story.
+
+00:24:06.120 --> 00:24:08.810 align:middle line:84%
+And so you need to have
+methods for looking
+
+00:24:08.810 --> 00:24:11.840 align:middle line:90%
+for very short motifs.
+
+00:24:11.840 --> 00:24:15.860 align:middle line:84%
+So let's go back to the
+bigger question of motifs,
+
+00:24:15.860 --> 00:24:18.583 align:middle line:84%
+and ask, how do we deal
+with them more rigorously?
+
+00:24:18.583 --> 00:24:20.000 align:middle line:84%
+And the way we
+deal with them more
+
+00:24:20.000 --> 00:24:26.840 align:middle line:90%
+rigorously is these profiles.
+
+00:24:26.840 --> 00:24:31.400 align:middle line:84%
+Now, what we're
+going to do is we're
+
+00:24:31.400 --> 00:24:33.170 align:middle line:84%
+going to take a
+multisequence alignment.
+
+00:24:33.170 --> 00:24:35.330 align:middle line:84%
+You now know how to do
+multisequence alignments.
+
+00:24:35.330 --> 00:24:39.290 align:middle line:84%
+And we now want to
+capture that information,
+
+00:24:39.290 --> 00:24:43.310 align:middle line:84%
+and deal with these
+position-specific profiles.
+
+00:24:43.310 --> 00:24:47.990 align:middle line:84%
+Remember I mentioned the
+PSI-BLAST and other algorithms.
+
+00:24:47.990 --> 00:24:51.290 align:middle line:84%
+You acknowledge that you don't
+have a generic substitution
+
+00:24:51.290 --> 00:24:54.890 align:middle line:84%
+matrix for all positions in all
+proteins or all nucleic acids.
+
+00:24:54.890 --> 00:24:57.260 align:middle line:84%
+You have a different
+substitution matrix
+
+00:24:57.260 --> 00:24:58.310 align:middle line:90%
+for every position.
+
+00:24:58.310 --> 00:25:01.460 align:middle line:84%
+Because one position might
+be, say, an alpha helix.
+
+00:25:01.460 --> 00:25:03.020 align:middle line:90%
+We have one substitution matrix.
+
+00:25:03.020 --> 00:25:05.600 align:middle line:84%
+And another one
+might be in a coil.
+
+00:25:05.600 --> 00:25:10.760 align:middle line:84%
+So here, this is all about
+what motifs are all about.
+
+00:25:10.760 --> 00:25:13.260 align:middle line:84%
+Each position has a
+different set of rules.
+
+00:25:13.260 --> 00:25:15.920 align:middle line:84%
+So the first position in
+this tetranucleotide--
+
+00:25:15.920 --> 00:25:17.310 align:middle line:90%
+it doesn't care what it is.
+
+00:25:17.310 --> 00:25:18.470 align:middle line:90%
+It can be A, C, G, or T.
+
+00:25:18.470 --> 00:25:22.010 align:middle line:84%
+These are four different
+sequences, real start sites,
+
+00:25:22.010 --> 00:25:26.000 align:middle line:84%
+that we've aligned, either
+manually or by computer.
+
+00:25:26.000 --> 00:25:29.000 align:middle line:84%
+This is dead easy
+to do the alignment,
+
+00:25:29.000 --> 00:25:32.750 align:middle line:84%
+but the interpretation
+here is the position
+
+00:25:32.750 --> 00:25:35.780 align:middle line:84%
+upstream of the start
+codon doesn't matter.
+
+00:25:35.780 --> 00:25:38.735 align:middle line:90%
+So your matrix down below is--
+
+00:25:38.735 --> 00:25:42.650 align:middle line:84%
+A, C, G and T each get
+a 1, which is a count.
+
+00:25:42.650 --> 00:25:45.085 align:middle line:84%
+We could do it in terms of
+frequencies, percentages.
+
+00:25:45.085 --> 00:25:46.460 align:middle line:84%
+We're doing it in
+terms of counts
+
+00:25:46.460 --> 00:25:49.340 align:middle line:84%
+here because that's just
+a restatement of the data.
+
+00:25:49.340 --> 00:25:54.110 align:middle line:84%
+The T and the G position at
+the 3-prime end of the codons
+
+00:25:54.110 --> 00:25:58.070 align:middle line:84%
+are, in this small
+sample, invariant.
+
+00:25:58.070 --> 00:26:01.100 align:middle line:84%
+And so they get a count of 4 for
+the correct base and count of 0
+
+00:26:01.100 --> 00:26:03.830 align:middle line:84%
+for all the alternatives,
+A, C, and G,
+
+00:26:03.830 --> 00:26:05.900 align:middle line:90%
+for example, instead of T.
+
+00:26:05.900 --> 00:26:09.770 align:middle line:84%
+And the A position is not
+quite invariant in this sample.
+
+00:26:09.770 --> 00:26:14.420 align:middle line:84%
+GTG is a perfectly good start
+codon in, say, 1 sequence
+
+00:26:14.420 --> 00:26:17.610 align:middle line:90%
+in 10 or 1 in 4 in this case.
+
+00:26:17.610 --> 00:26:19.430 align:middle line:90%
+And so you get 3 and a 1.
+
+00:26:19.430 --> 00:26:23.520 align:middle line:84%
+So this is the weight matrix or
+position-sensitive substitution
+
+00:26:23.520 --> 00:26:24.020 align:middle line:90%
+matrix.
+
+00:26:24.020 --> 00:26:26.600 align:middle line:90%
+
+
+00:26:26.600 --> 00:26:29.600 align:middle line:84%
+This is more precise than,
+say, a consensus sequence
+
+00:26:29.600 --> 00:26:32.240 align:middle line:84%
+or a single sequence
+from the sample.
+
+00:26:32.240 --> 00:26:35.600 align:middle line:84%
+But it's not the most precise
+way of representing this.
+
+00:26:35.600 --> 00:26:38.840 align:middle line:84%
+It's position sensitive, but
+we've lost the higher order
+
+00:26:38.840 --> 00:26:40.860 align:middle line:90%
+correlations between positions.
+
+00:26:40.860 --> 00:26:43.820 align:middle line:84%
+In other words, we've lost the
+dependencies of adjacent bases,
+
+00:26:43.820 --> 00:26:48.110 align:middle line:84%
+or bases that are
+a few bases away.
+
+00:26:48.110 --> 00:26:51.440 align:middle line:84%
+But let's see how this plays
+out, this position sensitive.
+
+00:26:51.440 --> 00:26:53.300 align:middle line:84%
+This is another
+way of representing
+
+00:26:53.300 --> 00:26:56.180 align:middle line:84%
+is in terms-- is an
+information theory
+
+00:26:56.180 --> 00:26:59.480 align:middle line:84%
+version of this, where the full
+height of each of the bases
+
+00:26:59.480 --> 00:27:01.640 align:middle line:90%
+is 2 bits.
+
+00:27:01.640 --> 00:27:06.740 align:middle line:84%
+And that's the same 2
+bits we talked about
+
+00:27:06.740 --> 00:27:10.850 align:middle line:84%
+in the first lecture,
+since there are four bases.
+
+00:27:10.850 --> 00:27:16.670 align:middle line:90%
+And this is the same motif, ATG.
+
+00:27:16.670 --> 00:27:20.420 align:middle line:84%
+The T and G were invariant
+in this larger sample,
+
+00:27:20.420 --> 00:27:21.920 align:middle line:84%
+or nearly invariant
+in the sample
+
+00:27:21.920 --> 00:27:26.840 align:middle line:84%
+size of now instead of just 4,
+but more than 1,000 sequences.
+
+00:27:26.840 --> 00:27:30.250 align:middle line:84%
+And again, A and G were
+the predominant ones.
+
+00:27:30.250 --> 00:27:33.240 align:middle line:84%
+You can see a little bit of a
+T there in the first position.
+
+00:27:33.240 --> 00:27:35.900 align:middle line:84%
+And then the base just
+upstream from the ATG
+
+00:27:35.900 --> 00:27:38.790 align:middle line:90%
+is almost completely random.
+
+00:27:38.790 --> 00:27:42.350 align:middle line:84%
+And so its information
+content is close to nil,
+
+00:27:42.350 --> 00:27:45.290 align:middle line:90%
+and so it's 0 bits.
+
+00:27:45.290 --> 00:27:47.390 align:middle line:84%
+Now, this is easy
+enough that you can just
+
+00:27:47.390 --> 00:27:50.270 align:middle line:84%
+do a big search aligning
+on the ATG, which
+
+00:27:50.270 --> 00:27:51.840 align:middle line:84%
+is a very striking
+thing, and look
+
+00:27:51.840 --> 00:27:53.840 align:middle line:84%
+to see if there's any
+other residual information
+
+00:27:53.840 --> 00:27:55.350 align:middle line:90%
+content to the side.
+
+00:27:55.350 --> 00:28:00.290 align:middle line:84%
+And sure enough, you find
+this little blip of Gs and As,
+
+00:28:00.290 --> 00:28:05.300 align:middle line:84%
+mostly, at minus 9 relative
+to the A of ATG at 0.
+
+00:28:05.300 --> 00:28:07.520 align:middle line:90%
+And it turns out that--
+
+00:28:07.520 --> 00:28:13.190 align:middle line:84%
+again, experimentally
+verified-- this motif--
+
+00:28:13.190 --> 00:28:16.160 align:middle line:84%
+so the ATG motif
+binds to transfer RNA,
+
+00:28:16.160 --> 00:28:21.380 align:middle line:84%
+and the GA-rich motif actually
+binds to a ribosomal RNA
+
+00:28:21.380 --> 00:28:22.110 align:middle line:90%
+sequence.
+
+00:28:22.110 --> 00:28:25.610 align:middle line:84%
+And so then basically,
+the messenger RNA
+
+00:28:25.610 --> 00:28:30.650 align:middle line:84%
+is coaxed into the
+right position,
+
+00:28:30.650 --> 00:28:33.530 align:middle line:84%
+to be in the right
+position of the ribosomes
+
+00:28:33.530 --> 00:28:36.020 align:middle line:84%
+where the tRNA can
+bind the initiator.
+
+00:28:36.020 --> 00:28:38.330 align:middle line:84%
+So here's an example
+where you can
+
+00:28:38.330 --> 00:28:39.860 align:middle line:90%
+do a multisequence alignment.
+
+00:28:39.860 --> 00:28:43.340 align:middle line:84%
+Here are 1,000 of
+sequences. k equals 1055--
+
+00:28:43.340 --> 00:28:46.460 align:middle line:84%
+remember, this is
+exponential of k.
+
+00:28:46.460 --> 00:28:48.980 align:middle line:84%
+And you can find
+these motifs that have
+
+00:28:48.980 --> 00:28:51.350 align:middle line:90%
+great biological significance.
+
+00:28:51.350 --> 00:28:53.990 align:middle line:84%
+Now, once you've done
+multisequence alignment
+
+00:28:53.990 --> 00:28:56.690 align:middle line:84%
+and you've derived
+the weight matrix,
+
+00:28:56.690 --> 00:29:01.670 align:middle line:84%
+this position-sensitive
+substitution matrix, now
+
+00:29:01.670 --> 00:29:05.480 align:middle line:84%
+you want to be able to search
+the genome for these things.
+
+00:29:05.480 --> 00:29:08.690 align:middle line:84%
+You know what a start
+motif looks like.
+
+00:29:08.690 --> 00:29:10.640 align:middle line:90%
+You want to find them all.
+
+00:29:10.640 --> 00:29:13.490 align:middle line:84%
+And it wouldn't just be the
+ATG, it would be this full,
+
+00:29:13.490 --> 00:29:16.370 align:middle line:90%
+including the GA-rich motif.
+
+00:29:16.370 --> 00:29:20.090 align:middle line:84%
+And the way you do that is
+now take this weight matrix,
+
+00:29:20.090 --> 00:29:22.890 align:middle line:90%
+and ask for each--
+
+00:29:22.890 --> 00:29:24.530 align:middle line:84%
+we're scanning
+the genome, and we
+
+00:29:24.530 --> 00:29:28.340 align:middle line:84%
+run into the sequence
+[? AAT ?] AATG.
+
+00:29:28.340 --> 00:29:32.180 align:middle line:84%
+Now you want to know,
+how good a match
+
+00:29:32.180 --> 00:29:36.650 align:middle line:84%
+is that to this weight matrix,
+which was taken from either 4
+
+00:29:36.650 --> 00:29:38.600 align:middle line:90%
+sequences or 1,000 sequences?
+
+00:29:38.600 --> 00:29:40.790 align:middle line:84%
+And the way you do it
+is for each position,
+
+00:29:40.790 --> 00:29:45.890 align:middle line:84%
+you ask what was the score
+in the whole learning set?
+
+00:29:45.890 --> 00:29:48.110 align:middle line:84%
+And now this should be
+a now independent test
+
+00:29:48.110 --> 00:29:50.750 align:middle line:90%
+set you're trying this out on.
+
+00:29:50.750 --> 00:29:53.030 align:middle line:84%
+Here, the learning set and
+the test site are the same.
+
+00:29:53.030 --> 00:29:58.130 align:middle line:84%
+But you basically have the A
+is a score of 1, which is not
+
+00:29:58.130 --> 00:30:01.620 align:middle line:84%
+going to be a big contribution
+because they were all the same.
+
+00:30:01.620 --> 00:30:06.140 align:middle line:84%
+So then the second
+A is a score of 3,
+
+00:30:06.140 --> 00:30:07.705 align:middle line:84%
+and the T and G
+are a score of 4,
+
+00:30:07.705 --> 00:30:11.360 align:middle line:84%
+for a total score of 12 for
+this particular tetranucleotide
+
+00:30:11.360 --> 00:30:16.430 align:middle line:84%
+instance of this motif
+represented by this weight
+
+00:30:16.430 --> 00:30:18.770 align:middle line:90%
+matrix.
+
+00:30:18.770 --> 00:30:22.820 align:middle line:84%
+And then you can see that the
+top three sequences, which all
+
+00:30:22.820 --> 00:30:24.590 align:middle line:90%
+have ATG, have the best scores.
+
+00:30:24.590 --> 00:30:27.110 align:middle line:84%
+And the bottom one,
+GTG, even though it's
+
+00:30:27.110 --> 00:30:29.930 align:middle line:84%
+a valid member of
+the learning set,
+
+00:30:29.930 --> 00:30:34.280 align:middle line:84%
+it was something which was
+underrepresented statistically.
+
+00:30:34.280 --> 00:30:39.950 align:middle line:84%
+GTG tended to be less
+frequently encountered than ATG,
+
+00:30:39.950 --> 00:30:41.450 align:middle line:84%
+and so it gets a
+lower score when
+
+00:30:41.450 --> 00:30:43.620 align:middle line:90%
+you search the genome for it.
+
+00:30:43.620 --> 00:30:45.920 align:middle line:84%
+So if you prioritize
+these, they would
+
+00:30:45.920 --> 00:30:53.420 align:middle line:84%
+be prioritized in this
+order by 12, 12, 12, 10.
+
+00:30:53.420 --> 00:30:56.750 align:middle line:84%
+So now the final
+topic, which talks
+
+00:30:56.750 --> 00:31:01.100 align:middle line:84%
+about a very simple
+and short motif, which
+
+00:31:01.100 --> 00:31:03.440 align:middle line:84%
+is the CG motif,
+which we claimed
+
+00:31:03.440 --> 00:31:08.900 align:middle line:84%
+is over-represented in
+promoters in vertebrates.
+
+00:31:08.900 --> 00:31:12.230 align:middle line:84%
+But before we talk about
+these very short motifs, let's
+
+00:31:12.230 --> 00:31:17.450 align:middle line:84%
+talk about why we have
+probabilistic models
+
+00:31:17.450 --> 00:31:19.280 align:middle line:90%
+in sequence analysis in general.
+
+00:31:19.280 --> 00:31:21.890 align:middle line:90%
+And there are three main uses.
+
+00:31:21.890 --> 00:31:24.560 align:middle line:90%
+One of them is recognition--
+
+00:31:24.560 --> 00:31:26.780 align:middle line:84%
+for example, the recognition
+that we've been doing
+
+00:31:26.780 --> 00:31:29.450 align:middle line:84%
+is, is a particular
+sequence of protein start?
+
+00:31:29.450 --> 00:31:31.730 align:middle line:84%
+In other words, does
+it have a score which
+
+00:31:31.730 --> 00:31:33.150 align:middle line:90%
+is statistically significant?
+
+00:31:33.150 --> 00:31:37.190 align:middle line:84%
+That's basically what we
+were doing, very anecdotally,
+
+00:31:37.190 --> 00:31:39.110 align:middle line:90%
+in the previous slides.
+
+00:31:39.110 --> 00:31:42.650 align:middle line:84%
+Or another task
+is discrimination.
+
+00:31:42.650 --> 00:31:46.640 align:middle line:84%
+We ask questions like, is this
+protein more like a hemoglobin
+
+00:31:46.640 --> 00:31:48.200 align:middle line:90%
+or like a myoglobin?
+
+00:31:48.200 --> 00:31:51.690 align:middle line:90%
+
+
+00:31:51.690 --> 00:31:54.690 align:middle line:84%
+The first question is
+about one sequence relative
+
+00:31:54.690 --> 00:31:55.732 align:middle line:90%
+to, say, a weight matrix.
+
+00:31:55.732 --> 00:31:56.232 align:middle line:90%
+The
+
+00:31:56.232 --> 00:31:58.185 align:middle line:84%
+Other one is about two
+sequences, asking how--
+
+00:31:58.185 --> 00:32:00.628 align:middle line:90%
+
+
+00:32:00.628 --> 00:32:02.670 align:middle line:84%
+or three sequences--
+whether a particular protein
+
+00:32:02.670 --> 00:32:04.270 align:middle line:90%
+is more like one than another.
+
+00:32:04.270 --> 00:32:07.080 align:middle line:84%
+And in a database search,
+we would go through.
+
+00:32:07.080 --> 00:32:08.820 align:middle line:84%
+A question might be
+like, what are all
+
+00:32:08.820 --> 00:32:11.880 align:middle line:84%
+sequences in [INAUDIBLE] that
+look like a serine protease?
+
+00:32:11.880 --> 00:32:14.940 align:middle line:84%
+This would be asking for
+recognition multiple times,
+
+00:32:14.940 --> 00:32:16.970 align:middle line:90%
+over and over.
+
+00:32:16.970 --> 00:32:19.850 align:middle line:90%
+So here is the basic idea--
+
+00:32:19.850 --> 00:32:23.330 align:middle line:84%
+which will be a Bayesian idea
+soon, in the next slide--
+
+00:32:23.330 --> 00:32:27.350 align:middle line:84%
+is assign a number to
+every possible sequence
+
+00:32:27.350 --> 00:32:34.530 align:middle line:84%
+such that the probability of
+that sequence given a model--
+
+00:32:34.530 --> 00:32:40.750 align:middle line:84%
+so this jargon here,
+P of s/m, s bar m--
+
+00:32:40.750 --> 00:32:42.670 align:middle line:84%
+is the probability
+that you would get
+
+00:32:42.670 --> 00:32:46.070 align:middle line:90%
+that sequence given a model.
+
+00:32:46.070 --> 00:32:48.040 align:middle line:84%
+So the model might
+be this weight matrix
+
+00:32:48.040 --> 00:32:49.540 align:middle line:84%
+we've been talking
+about or it could
+
+00:32:49.540 --> 00:32:51.140 align:middle line:90%
+be something more complicated.
+
+00:32:51.140 --> 00:32:55.510 align:middle line:84%
+So what's the probability
+that we get the sequence ATG,
+
+00:32:55.510 --> 00:32:59.050 align:middle line:84%
+given the model, the
+full weight matrix model?
+
+00:32:59.050 --> 00:33:01.270 align:middle line:84%
+And as with any
+good probability,
+
+00:33:01.270 --> 00:33:05.320 align:middle line:84%
+as we mentioned in the first
+class, they should sum to 1.
+
+00:33:05.320 --> 00:33:10.360 align:middle line:84%
+If you sum up the sigmas of
+s, you sum over all sequences,
+
+00:33:10.360 --> 00:33:14.220 align:middle line:84%
+then the probability given
+the models should sum to 1.
+
+00:33:14.220 --> 00:33:22.710 align:middle line:84%
+Now, that will be true
+for the p of the sequences
+
+00:33:22.710 --> 00:33:28.080 align:middle line:84%
+given a model summed
+over all sequences.
+
+00:33:28.080 --> 00:33:30.720 align:middle line:84%
+We can also have the
+probability of a sequence
+
+00:33:30.720 --> 00:33:34.770 align:middle line:84%
+in your population of sequences
+irrespective of model.
+
+00:33:34.770 --> 00:33:36.450 align:middle line:90%
+And those should sum to 1.
+
+00:33:36.450 --> 00:33:38.910 align:middle line:84%
+And the probability of
+models in your collection
+
+00:33:38.910 --> 00:33:41.920 align:middle line:84%
+of models, irrespective
+of sequence.
+
+00:33:41.920 --> 00:33:48.870 align:middle line:84%
+And here's a very useful
+theorem, called Bayes' theorem.
+
+00:33:48.870 --> 00:33:51.930 align:middle line:90%
+And this is completely general.
+
+00:33:51.930 --> 00:33:53.880 align:middle line:84%
+It doesn't depend on
+models and sequences.
+
+00:33:53.880 --> 00:33:56.130 align:middle line:84%
+You could just call
+it m and s, where
+
+00:33:56.130 --> 00:33:59.970 align:middle line:90%
+m and s are just two things.
+
+00:33:59.970 --> 00:34:02.340 align:middle line:84%
+And this is generally true,
+is that the probability
+
+00:34:02.340 --> 00:34:04.620 align:middle line:84%
+that the model
+given the sequence
+
+00:34:04.620 --> 00:34:07.500 align:middle line:84%
+is equal to the probability of
+the model times the probability
+
+00:34:07.500 --> 00:34:09.389 align:middle line:84%
+of the sequence given
+the model divided
+
+00:34:09.389 --> 00:34:11.489 align:middle line:84%
+by the probability
+of the sequence.
+
+00:34:11.489 --> 00:34:16.199 align:middle line:84%
+And more jargon, but explanation
+of some of these terms here,
+
+00:34:16.199 --> 00:34:19.170 align:middle line:84%
+is that the probability of
+the model and the probability
+
+00:34:19.170 --> 00:34:21.000 align:middle line:84%
+of the sequence are
+prior probabilities.
+
+00:34:21.000 --> 00:34:23.790 align:middle line:84%
+These are probabilities
+which are not conditional.
+
+00:34:23.790 --> 00:34:26.610 align:middle line:84%
+They do not depend
+on something else.
+
+00:34:26.610 --> 00:34:28.960 align:middle line:84%
+Well, when you have this
+little bar in the middle,
+
+00:34:28.960 --> 00:34:32.010 align:middle line:84%
+it means that you have the
+probability of the model given
+
+00:34:32.010 --> 00:34:33.190 align:middle line:90%
+the sequence.
+
+00:34:33.190 --> 00:34:37.239 align:middle line:84%
+It's called a
+posterior probability.
+
+00:34:37.239 --> 00:34:42.150 align:middle line:84%
+Now let's see what all this
+Bayesian stuff is useful for.
+
+00:34:42.150 --> 00:34:43.469 align:middle line:90%
+We're going to be doing--
+
+00:34:43.469 --> 00:34:52.330 align:middle line:84%
+of the various applications, we
+had recognition discrimination
+
+00:34:52.330 --> 00:34:53.750 align:middle line:90%
+and database search.
+
+00:34:53.750 --> 00:34:57.040 align:middle line:84%
+So here's the example
+of a database search.
+
+00:34:57.040 --> 00:35:02.920 align:middle line:84%
+We'll have two models,
+a model that we actually
+
+00:35:02.920 --> 00:35:09.430 align:middle line:84%
+have a hydrolase and the
+model that we have randomness.
+
+00:35:09.430 --> 00:35:13.180 align:middle line:84%
+So we call this the
+null model or n model,
+
+00:35:13.180 --> 00:35:15.910 align:middle line:84%
+and m is the model that
+we're interested in,
+
+00:35:15.910 --> 00:35:17.500 align:middle line:90%
+they're hydrolases.
+
+00:35:17.500 --> 00:35:19.940 align:middle line:84%
+So we have random bases
+or random amino acids.
+
+00:35:19.940 --> 00:35:21.830 align:middle line:84%
+This is hydrolase
+and amino acids.
+
+00:35:21.830 --> 00:35:23.770 align:middle line:84%
+So we want to report
+all the sequences
+
+00:35:23.770 --> 00:35:31.120 align:middle line:84%
+where the probability that
+that sequence, given the model,
+
+00:35:31.120 --> 00:35:33.070 align:middle line:84%
+is better than
+that sequence given
+
+00:35:33.070 --> 00:35:36.130 align:middle line:84%
+a null model or
+random amino acids,
+
+00:35:36.130 --> 00:35:37.720 align:middle line:84%
+that that is
+significant, and it's
+
+00:35:37.720 --> 00:35:42.730 align:middle line:84%
+significant by the
+delta between just
+
+00:35:42.730 --> 00:35:47.980 align:middle line:84%
+the null versus the probability
+of the model in general.
+
+00:35:47.980 --> 00:35:58.450 align:middle line:84%
+So if we look, if we, let's
+say, do a database search
+
+00:35:58.450 --> 00:36:00.520 align:middle line:84%
+where we have scoring
+metrics just as the ones
+
+00:36:00.520 --> 00:36:03.010 align:middle line:84%
+we developed
+earlier in the talk,
+
+00:36:03.010 --> 00:36:07.360 align:middle line:84%
+and we score for
+random sequences,
+
+00:36:07.360 --> 00:36:09.350 align:middle line:84%
+we'll get one
+distribution in orange.
+
+00:36:09.350 --> 00:36:12.100 align:middle line:84%
+And if we score for
+fide hydrolases,
+
+00:36:12.100 --> 00:36:14.470 align:middle line:84%
+we might get this
+distribution in blue.
+
+00:36:14.470 --> 00:36:19.480 align:middle line:84%
+And we're asking
+whether the probability
+
+00:36:19.480 --> 00:36:21.975 align:middle line:84%
+of getting a particular
+sequence given the model this
+
+00:36:21.975 --> 00:36:24.040 align:middle line:84%
+is a hydrolase is
+better than probability
+
+00:36:24.040 --> 00:36:30.250 align:middle line:84%
+of getting that sequence
+at random, the orange.
+
+00:36:30.250 --> 00:36:33.490 align:middle line:84%
+And you want that to be
+statistically significant.
+
+00:36:33.490 --> 00:36:36.330 align:middle line:90%
+
+
+00:36:36.330 --> 00:36:39.230 align:middle line:84%
+So you can rephrase
+this in terms of bits,
+
+00:36:39.230 --> 00:36:43.550 align:middle line:84%
+or in terms of significance
+level of probability
+
+00:36:43.550 --> 00:36:47.650 align:middle line:84%
+of 5%, which is
+typically the case.
+
+00:36:47.650 --> 00:36:53.910 align:middle line:84%
+Now, when we're talking
+about the probability
+
+00:36:53.910 --> 00:37:01.140 align:middle line:84%
+of a particular sequence,
+where we can have deviations
+
+00:37:01.140 --> 00:37:04.350 align:middle line:84%
+from randomness at the
+mononucleotide level,
+
+00:37:04.350 --> 00:37:09.690 align:middle line:84%
+at the dinucleotide level, and
+so on, and rather than just
+
+00:37:09.690 --> 00:37:12.490 align:middle line:84%
+dump this on you as
+a mathematical fact,
+
+00:37:12.490 --> 00:37:15.480 align:middle line:84%
+I want to give you some
+biological rationale for why
+
+00:37:15.480 --> 00:37:20.490 align:middle line:84%
+you can have nonrandomness at
+every order of a Markov chain,
+
+00:37:20.490 --> 00:37:24.100 align:middle line:84%
+meaning every
+length of sequence.
+
+00:37:24.100 --> 00:37:28.140 align:middle line:84%
+So the first-order chain,
+the lowest-order chain,
+
+00:37:28.140 --> 00:37:29.790 align:middle line:90%
+would be mononucleotides.
+
+00:37:29.790 --> 00:37:37.860 align:middle line:84%
+And you might have a bias where
+C would be rare because the Cs
+
+00:37:37.860 --> 00:37:39.450 align:middle line:90%
+mutate into Us.
+
+00:37:39.450 --> 00:37:42.570 align:middle line:84%
+And in organisms that lack
+a uracil glycosylase, which
+
+00:37:42.570 --> 00:37:44.430 align:middle line:84%
+would then return
+it back to a C,
+
+00:37:44.430 --> 00:37:47.490 align:middle line:84%
+Cs will change into Us because
+it's a very common chemical
+
+00:37:47.490 --> 00:37:48.340 align:middle line:90%
+reaction.
+
+00:37:48.340 --> 00:37:51.420 align:middle line:84%
+It's called cytosine
+deamination.
+
+00:37:51.420 --> 00:37:55.110 align:middle line:84%
+But a deoxy U is
+an abnormal base.
+
+00:37:55.110 --> 00:37:57.360 align:middle line:84%
+It's recognizable
+as an abnormal base,
+
+00:37:57.360 --> 00:37:59.880 align:middle line:84%
+and there's repair in most
+organisms that [INAUDIBLE],,
+
+00:37:59.880 --> 00:38:01.080 align:middle line:90%
+but there's some that don't.
+
+00:38:01.080 --> 00:38:02.895 align:middle line:84%
+And there's a tendency
+of those genomes
+
+00:38:02.895 --> 00:38:05.370 align:middle line:90%
+to aim towards high content.
+
+00:38:05.370 --> 00:38:10.590 align:middle line:84%
+The Cs disappear, and hence,
+take the Gs with them.
+
+00:38:10.590 --> 00:38:12.930 align:middle line:84%
+Similarly, many
+organisms repair--
+
+00:38:12.930 --> 00:38:17.730 align:middle line:84%
+well a T near a T in the
+presence of ultraviolet light
+
+00:38:17.730 --> 00:38:19.930 align:middle line:84%
+will get mutated
+to something else.
+
+00:38:19.930 --> 00:38:24.750 align:middle line:84%
+And if you can't repair
+that back to a T-T sequence,
+
+00:38:24.750 --> 00:38:26.430 align:middle line:84%
+it gets repaired
+to something else
+
+00:38:26.430 --> 00:38:29.050 align:middle line:84%
+or it gets mutated
+to something else.
+
+00:38:29.050 --> 00:38:31.530 align:middle line:84%
+And so you'll lose that
+particular dinucleotide out
+
+00:38:31.530 --> 00:38:33.970 align:middle line:84%
+of the 16 possible
+dinucleotides.
+
+00:38:33.970 --> 00:38:36.310 align:middle line:84%
+We've already mentioned
+that CG is rare.
+
+00:38:36.310 --> 00:38:40.680 align:middle line:84%
+And the reason is that
+this is methylated
+
+00:38:40.680 --> 00:38:42.700 align:middle line:90%
+for various regulatory reasons.
+
+00:38:42.700 --> 00:38:45.570 align:middle line:84%
+And now, because
+it's methylated,
+
+00:38:45.570 --> 00:38:50.490 align:middle line:84%
+even if you have uracil
+glycosylase, which would then
+
+00:38:50.490 --> 00:38:54.030 align:middle line:84%
+take all the regular
+Cs that turn into Us,
+
+00:38:54.030 --> 00:38:58.170 align:middle line:84%
+deoxy Us, and turn them
+back into deoxy Cs,
+
+00:38:58.170 --> 00:39:02.100 align:middle line:84%
+now a 5-methyl C turns
+into a T, and you
+
+00:39:02.100 --> 00:39:03.840 align:middle line:90%
+can't tell that it's abnormal.
+
+00:39:03.840 --> 00:39:06.280 align:middle line:84%
+T is a perfectly
+reasonable thing to get.
+
+00:39:06.280 --> 00:39:09.870 align:middle line:84%
+And so every place you've got
+a methyl CG turns into a TG,
+
+00:39:09.870 --> 00:39:14.910 align:middle line:84%
+and you tend to lose the CGs,
+unless they're not methylated.
+
+00:39:14.910 --> 00:39:16.960 align:middle line:90%
+And we'll get to that.
+
+00:39:16.960 --> 00:39:20.610 align:middle line:84%
+And similarly, you
+can have rare codons.
+
+00:39:20.610 --> 00:39:22.890 align:middle line:84%
+And hence, these turn
+into rare triplets.
+
+00:39:22.890 --> 00:39:26.250 align:middle line:84%
+You can have rare
+tetranucleotides
+
+00:39:26.250 --> 00:39:28.230 align:middle line:84%
+if you, for example,
+have a methylase,
+
+00:39:28.230 --> 00:39:30.690 align:middle line:84%
+the methylase is
+a pentanucleotide,
+
+00:39:30.690 --> 00:39:32.580 align:middle line:90%
+and every time you see that--
+
+00:39:32.580 --> 00:39:37.553 align:middle line:84%
+every time the bacteria sees
+this related CTAG-G sequence,
+
+00:39:37.553 --> 00:39:38.970 align:middle line:84%
+that says, oh,
+that must have been
+
+00:39:38.970 --> 00:39:41.760 align:middle line:84%
+one of these methylation
+deamination problems.
+
+00:39:41.760 --> 00:39:42.970 align:middle line:90%
+Let's fix it up.
+
+00:39:42.970 --> 00:39:44.520 align:middle line:84%
+Let's make it this
+pentanucleotide.
+
+00:39:44.520 --> 00:39:48.450 align:middle line:84%
+And the CTAG tends to
+be underrepresented
+
+00:39:48.450 --> 00:39:51.150 align:middle line:90%
+as a consequence.
+
+00:39:51.150 --> 00:39:53.940 align:middle line:84%
+Similarly, very long
+stretches of As-- not just
+
+00:39:53.940 --> 00:39:55.560 align:middle line:84%
+tetranucleotides,
+but you can get
+
+00:39:55.560 --> 00:40:00.105 align:middle line:84%
+excesses of As due to the
+fact that messenger RNAs end
+
+00:40:00.105 --> 00:40:01.170 align:middle line:90%
+in polyA.
+
+00:40:01.170 --> 00:40:04.080 align:middle line:84%
+They get reverse transcribed,
+reinserted into the genome,
+
+00:40:04.080 --> 00:40:05.670 align:middle line:84%
+and now you've
+got a polyA track.
+
+00:40:05.670 --> 00:40:10.260 align:middle line:84%
+Or you can get polymers in
+general by polymerase slippage.
+
+00:40:10.260 --> 00:40:12.750 align:middle line:84%
+So all these things
+can cause biases.
+
+00:40:12.750 --> 00:40:15.690 align:middle line:84%
+And I just elaborated
+on one of them
+
+00:40:15.690 --> 00:40:19.050 align:middle line:84%
+here, which is the triplet
+bias, documented here
+
+00:40:19.050 --> 00:40:23.640 align:middle line:84%
+that this 10 times lower
+frequency of ATG than of some
+
+00:40:23.640 --> 00:40:25.290 align:middle line:90%
+of the other arginine codons.
+
+00:40:25.290 --> 00:40:28.640 align:middle line:90%
+
+
+00:40:28.640 --> 00:40:31.050 align:middle line:84%
+So now let's talk
+about a Markov model.
+
+00:40:31.050 --> 00:40:34.760 align:middle line:84%
+This is not a hidden
+Markov model yet.
+
+00:40:34.760 --> 00:40:38.210 align:middle line:90%
+In just a moment, it will be.
+
+00:40:38.210 --> 00:40:42.170 align:middle line:84%
+It's a Markov model because
+we're asking what is--
+
+00:40:42.170 --> 00:40:47.090 align:middle line:84%
+the columns that we
+had kept independent
+
+00:40:47.090 --> 00:40:54.650 align:middle line:84%
+when we were making profiles
+or weight matrices, we said
+
+00:40:54.650 --> 00:40:59.090 align:middle line:84%
+the two nucleotides, whether
+CG or AA or whatever,
+
+00:40:59.090 --> 00:41:01.220 align:middle line:90%
+were independent.
+
+00:41:01.220 --> 00:41:03.620 align:middle line:84%
+Now, we're no longer going
+to make them independent.
+
+00:41:03.620 --> 00:41:10.910 align:middle line:84%
+We will allow them to
+recognize the co-dependence.
+
+00:41:10.910 --> 00:41:12.650 align:middle line:90%
+Forget the pluses right now.
+
+00:41:12.650 --> 00:41:15.380 align:middle line:84%
+Just assume they'll
+be explained when we
+
+00:41:15.380 --> 00:41:17.420 align:middle line:90%
+get to the hidden part of this.
+
+00:41:17.420 --> 00:41:18.860 align:middle line:90%
+So they're hidden for now.
+
+00:41:18.860 --> 00:41:22.100 align:middle line:84%
+But what we're talking about
+is, what's the probability
+
+00:41:22.100 --> 00:41:24.290 align:middle line:90%
+of getting an A given an A?
+
+00:41:24.290 --> 00:41:26.918 align:middle line:84%
+We've got an A in the first,
+in the 5-prime position.
+
+00:41:26.918 --> 00:41:28.460 align:middle line:84%
+What's the probability
+now of getting
+
+00:41:28.460 --> 00:41:29.970 align:middle line:90%
+an A dependent on that one?
+
+00:41:29.970 --> 00:41:33.320 align:middle line:84%
+So we're recognizing
+that dependence.
+
+00:41:33.320 --> 00:41:36.560 align:middle line:84%
+We've said that CGs
+are underrepresented
+
+00:41:36.560 --> 00:41:39.380 align:middle line:84%
+in the genome as a
+whole, and they're
+
+00:41:39.380 --> 00:41:42.590 align:middle line:90%
+over-represented in promoters.
+
+00:41:42.590 --> 00:41:45.170 align:middle line:84%
+So this particular
+transition of what's
+
+00:41:45.170 --> 00:41:47.540 align:middle line:84%
+the probability of
+getting a G given
+
+00:41:47.540 --> 00:41:49.420 align:middle line:84%
+a C in the 5-prime
+position-- this
+
+00:41:49.420 --> 00:41:51.170 align:middle line:84%
+is one of those
+conditional probabilities.
+
+00:41:51.170 --> 00:41:54.900 align:middle line:84%
+This is a Bayesian that we had
+set up a couple of slides back.
+
+00:41:54.900 --> 00:41:58.010 align:middle line:84%
+And so this particular
+arrow going from a C to a G
+
+00:41:58.010 --> 00:42:00.570 align:middle line:84%
+is represented by
+this probability.
+
+00:42:00.570 --> 00:42:03.380 align:middle line:84%
+And you can see going the other
+way is a different probability.
+
+00:42:03.380 --> 00:42:07.940 align:middle line:90%
+That would be p of C given G.
+
+00:42:07.940 --> 00:42:11.750 align:middle line:84%
+And these little arrows
+will refer to itself,
+
+00:42:11.750 --> 00:42:14.390 align:middle line:84%
+is example of a p of
+an A given an A. So
+
+00:42:14.390 --> 00:42:16.160 align:middle line:90%
+this is an AA dinucleotide.
+
+00:42:16.160 --> 00:42:19.250 align:middle line:84%
+And you can see there's 16
+possible transitions, including
+
+00:42:19.250 --> 00:42:27.980 align:middle line:84%
+four homopolymers, AA, TT,
+CC, GG, and 12 transitions
+
+00:42:27.980 --> 00:42:31.820 align:middle line:90%
+of the other dinucleotides.
+
+00:42:31.820 --> 00:42:34.160 align:middle line:90%
+Now, what do we mean by hidden?
+
+00:42:34.160 --> 00:42:37.970 align:middle line:84%
+We've got CG islands
+where the CGs have
+
+00:42:37.970 --> 00:42:40.460 align:middle line:84%
+been protected from
+methylation, and hence,
+
+00:42:40.460 --> 00:42:41.600 align:middle line:90%
+protected from mutations.
+
+00:42:41.600 --> 00:42:43.260 align:middle line:90%
+So they're fairly abundant.
+
+00:42:43.260 --> 00:42:46.100 align:middle line:84%
+They're involved in regulation
+in binding transcription
+
+00:42:46.100 --> 00:42:46.860 align:middle line:90%
+factors.
+
+00:42:46.860 --> 00:42:50.660 align:middle line:84%
+And these islands will
+be a variable length
+
+00:42:50.660 --> 00:42:54.740 align:middle line:84%
+and just have an increased
+concentration of CGs.
+
+00:42:54.740 --> 00:42:57.380 align:middle line:84%
+And then outside are the
+ocean, which are not protected.
+
+00:42:57.380 --> 00:43:01.190 align:middle line:84%
+They're not involved in
+transcription, and they mutate.
+
+00:43:01.190 --> 00:43:03.452 align:middle line:90%
+And they are very low in CGs.
+
+00:43:03.452 --> 00:43:05.660 align:middle line:84%
+And you want to know where
+the island begins and ends
+
+00:43:05.660 --> 00:43:07.035 align:middle line:84%
+because that helps
+you know where
+
+00:43:07.035 --> 00:43:08.660 align:middle line:90%
+the regulatory factors are.
+
+00:43:08.660 --> 00:43:14.090 align:middle line:84%
+So now, the hidden part is when
+you look at a new sequence,
+
+00:43:14.090 --> 00:43:17.670 align:middle line:84%
+you won't know whether
+you're in an island or not.
+
+00:43:17.670 --> 00:43:20.150 align:middle line:84%
+And so this Markov
+model that you have
+
+00:43:20.150 --> 00:43:22.760 align:middle line:84%
+has to be different for whether
+you're in an island or not,
+
+00:43:22.760 --> 00:43:24.230 align:middle line:84%
+but you don't know
+what you're in.
+
+00:43:24.230 --> 00:43:33.740 align:middle line:90%
+So here is the hidden part.
+
+00:43:33.740 --> 00:43:38.830 align:middle line:84%
+So you've got a Markov
+model for the transitions
+
+00:43:38.830 --> 00:43:40.150 align:middle line:90%
+within an island.
+
+00:43:40.150 --> 00:43:43.480 align:middle line:84%
+And so in that case, you
+expect the CGs to be high,
+
+00:43:43.480 --> 00:43:46.960 align:middle line:84%
+roughly the same as the other
+dinucleotides, possibly higher.
+
+00:43:46.960 --> 00:43:50.830 align:middle line:84%
+And in the oceans
+where they're lost,
+
+00:43:50.830 --> 00:43:53.320 align:middle line:84%
+you expect the CG, this
+particular transition
+
+00:43:53.320 --> 00:43:56.830 align:middle line:84%
+from C to G, to be low, and
+most of the other transitions
+
+00:43:56.830 --> 00:44:01.030 align:middle line:84%
+to be normal, maybe taking
+up some of the slots.
+
+00:44:01.030 --> 00:44:06.280 align:middle line:84%
+So there's 16
+different dinucleotides
+
+00:44:06.280 --> 00:44:08.450 align:middle line:90%
+in islands on the left.
+
+00:44:08.450 --> 00:44:10.940 align:middle line:84%
+And there are 16 in
+oceans on the right.
+
+00:44:10.940 --> 00:44:13.540 align:middle line:84%
+In addition, there's a
+whole set of transitions
+
+00:44:13.540 --> 00:44:16.120 align:middle line:90%
+between islands and oceans.
+
+00:44:16.120 --> 00:44:18.170 align:middle line:90%
+The genome is not just blocks.
+
+00:44:18.170 --> 00:44:19.150 align:middle line:90%
+They're all connected.
+
+00:44:19.150 --> 00:44:24.190 align:middle line:84%
+And so you can make a
+transition from any nucleotide
+
+00:44:24.190 --> 00:44:27.190 align:middle line:84%
+in an island to any
+nucleotide in an ocean.
+
+00:44:27.190 --> 00:44:28.840 align:middle line:84%
+And so here's one
+that's illustrated,
+
+00:44:28.840 --> 00:44:30.520 align:middle line:84%
+this dotted, brown
+line, where it
+
+00:44:30.520 --> 00:44:33.340 align:middle line:90%
+says probability of a C minus--
+
+00:44:33.340 --> 00:44:35.350 align:middle line:90%
+meaning in an ocean--
+
+00:44:35.350 --> 00:44:38.260 align:middle line:84%
+given that you have an A
+plus-- meaning in an island--
+
+00:44:38.260 --> 00:44:40.010 align:middle line:90%
+in the 5-prime position.
+
+00:44:40.010 --> 00:44:42.490 align:middle line:84%
+So that would be a
+transition point going
+
+00:44:42.490 --> 00:44:46.210 align:middle line:84%
+5-prime to 3-prime, from
+an island into an ocean,
+
+00:44:46.210 --> 00:44:51.100 align:middle line:90%
+going from an A to a C.
+
+00:44:51.100 --> 00:44:53.080 align:middle line:84%
+Aren't you glad that I
+picked a dinucleotide
+
+00:44:53.080 --> 00:44:55.330 align:middle line:90%
+to illustrate this?
+
+00:44:55.330 --> 00:44:59.440 align:middle line:90%
+OK, here's a real example.
+
+00:44:59.440 --> 00:45:03.130 align:middle line:84%
+Here's an example where
+I've cut and pasted
+
+00:45:03.130 --> 00:45:08.620 align:middle line:84%
+a very short sequence with only
+one ocean on the left, and one
+
+00:45:08.620 --> 00:45:12.670 align:middle line:84%
+island on the right, in
+bold and capital letters.
+
+00:45:12.670 --> 00:45:15.880 align:middle line:84%
+You're given this
+as a learning set.
+
+00:45:15.880 --> 00:45:22.060 align:middle line:84%
+Somebody has, by hand, decided
+that the boundary occurs
+
+00:45:22.060 --> 00:45:24.700 align:middle line:90%
+at this first CG dinucleotide.
+
+00:45:24.700 --> 00:45:26.740 align:middle line:84%
+There are no CGs to
+the left, and there
+
+00:45:26.740 --> 00:45:28.670 align:middle line:90%
+are three CGs to the right.
+
+00:45:28.670 --> 00:45:30.940 align:middle line:84%
+And so when you
+make this table--
+
+00:45:30.940 --> 00:45:34.930 align:middle line:84%
+we'll call this an
+A table later on--
+
+00:45:34.930 --> 00:45:39.040 align:middle line:84%
+this A table has the
+transition from an A
+
+00:45:39.040 --> 00:45:43.750 align:middle line:84%
+in the 5-prime position to
+an A in the 3-prime position.
+
+00:45:43.750 --> 00:45:47.710 align:middle line:84%
+So that's the p A
+given A. And here's
+
+00:45:47.710 --> 00:45:53.410 align:middle line:84%
+the CG dinucleotide,
+C to G transition,
+
+00:45:53.410 --> 00:45:55.840 align:middle line:84%
+all in an island
+indicated by plus.
+
+00:45:55.840 --> 00:45:59.440 align:middle line:84%
+And you can see
+that's quite frequent.
+
+00:45:59.440 --> 00:46:03.790 align:middle line:84%
+And then below it, let's look
+at the same CG dinucleotide
+
+00:46:03.790 --> 00:46:08.320 align:middle line:90%
+going from C to G in an ocean.
+
+00:46:08.320 --> 00:46:10.840 align:middle line:84%
+And here it's unobserved
+in this little toy example
+
+00:46:10.840 --> 00:46:12.670 align:middle line:90%
+that I gave you, so it's a 0.
+
+00:46:12.670 --> 00:46:17.050 align:middle line:84%
+So 43% in this actual example--
+and you can work the numbers
+
+00:46:17.050 --> 00:46:19.090 align:middle line:90%
+out because it's all here--
+
+00:46:19.090 --> 00:46:22.000 align:middle line:84%
+and there's only one transition
+between islands and oceans,
+
+00:46:22.000 --> 00:46:26.860 align:middle line:84%
+and that happens to be a CC,
+a C in an ocean going to a C
+
+00:46:26.860 --> 00:46:27.910 align:middle line:90%
+in an island.
+
+00:46:27.910 --> 00:46:29.110 align:middle line:90%
+And that gives us 0.2.
+
+00:46:29.110 --> 00:46:30.460 align:middle line:90%
+And all the rest are 0s.
+
+00:46:30.460 --> 00:46:33.340 align:middle line:84%
+Now, 0s are a problem, both
+for the CG dinucleotide
+
+00:46:33.340 --> 00:46:35.830 align:middle line:84%
+in the ocean and
+for the transitions
+
+00:46:35.830 --> 00:46:37.240 align:middle line:90%
+between oceans and islands.
+
+00:46:37.240 --> 00:46:39.460 align:middle line:84%
+And the way you handle it
+is called pseudocounts.
+
+00:46:39.460 --> 00:46:43.660 align:middle line:84%
+You basically say, what if we
+just missed finding that thing?
+
+00:46:43.660 --> 00:46:46.660 align:middle line:84%
+We're going to add 1 to
+it because however big
+
+00:46:46.660 --> 00:46:48.880 align:middle line:84%
+the counts are, you
+can always add 1,
+
+00:46:48.880 --> 00:46:54.370 align:middle line:84%
+and that would give you
+some feeling for the--
+
+00:46:54.370 --> 00:46:55.870 align:middle line:90%
+you don't really have 0s there.
+
+00:46:55.870 --> 00:46:57.970 align:middle line:90%
+You can't trust 0s.
+
+00:46:57.970 --> 00:47:01.750 align:middle line:84%
+And there's even a
+more rigorous way
+
+00:47:01.750 --> 00:47:04.570 align:middle line:84%
+of doing it called
+Dirichlet, where
+
+00:47:04.570 --> 00:47:07.918 align:middle line:90%
+you can do these pseudocounts.
+
+00:47:07.918 --> 00:47:08.710 align:middle line:90%
+And so you can see.
+
+00:47:08.710 --> 00:47:11.650 align:middle line:84%
+You can actually calculate
+these conditional probabilities
+
+00:47:11.650 --> 00:47:16.750 align:middle line:84%
+by hand in the
+privacy of your home,
+
+00:47:16.750 --> 00:47:19.390 align:middle line:84%
+not while the hordes are
+waiting to get into the room.
+
+00:47:19.390 --> 00:47:21.460 align:middle line:84%
+And you can recreate
+these numbers
+
+00:47:21.460 --> 00:47:23.120 align:middle line:90%
+with that simple formula there.
+
+00:47:23.120 --> 00:47:26.350 align:middle line:84%
+Now this, is a real training
+set based on 48 known islands,
+
+00:47:26.350 --> 00:47:28.930 align:middle line:90%
+again annotated by some person.
+
+00:47:28.930 --> 00:47:31.893 align:middle line:84%
+And you can see those
+that this A matrix,
+
+00:47:31.893 --> 00:47:33.310 align:middle line:84%
+focusing on those
+things that were
+
+00:47:33.310 --> 00:47:36.130 align:middle line:84%
+43 and 0 before, now more
+realistic numbers are
+
+00:47:36.130 --> 00:47:42.530 align:middle line:84%
+27% and 8% for an island
+and an ocean, respectively.
+
+00:47:42.530 --> 00:47:44.800 align:middle line:84%
+Now we're going to
+plug these numbers--
+
+00:47:44.800 --> 00:47:47.710 align:middle line:84%
+basically, I've cut off
+the transition tables,
+
+00:47:47.710 --> 00:47:49.190 align:middle line:90%
+which are off to the right.
+
+00:47:49.190 --> 00:47:53.770 align:middle line:84%
+Now let's use them to
+actually do an HMM.
+
+00:47:53.770 --> 00:47:55.930 align:middle line:84%
+In the Viterbi
+algorithm-- remember
+
+00:47:55.930 --> 00:47:57.380 align:middle line:84%
+we said dynamic
+program is a hero,
+
+00:47:57.380 --> 00:47:59.170 align:middle line:90%
+and we're going to end on this.
+
+00:47:59.170 --> 00:48:03.490 align:middle line:84%
+The recursion we have here,
+the Viterbi score for--
+
+00:48:03.490 --> 00:48:06.310 align:middle line:90%
+so l and k are the states.
+
+00:48:06.310 --> 00:48:10.840 align:middle line:84%
+There are two states,
+island plus, ocean minus.
+
+00:48:10.840 --> 00:48:13.750 align:middle line:90%
+And i is the sequence.
+
+00:48:13.750 --> 00:48:16.570 align:middle line:84%
+Here, the sequence length
+is 4. i goes from 1 to 4.
+
+00:48:16.570 --> 00:48:18.550 align:middle line:84%
+And the sequence
+we're testing is, is
+
+00:48:18.550 --> 00:48:21.700 align:middle line:90%
+CGCG in an ocean or an island?
+
+00:48:21.700 --> 00:48:23.620 align:middle line:90%
+What's your guess?
+
+00:48:23.620 --> 00:48:25.280 align:middle line:90%
+That's a pretty extreme case.
+
+00:48:25.280 --> 00:48:27.023 align:middle line:84%
+But this is actually
+using the numbers
+
+00:48:27.023 --> 00:48:29.440 align:middle line:84%
+from the previous slide, which
+were taken from real oceans
+
+00:48:29.440 --> 00:48:30.220 align:middle line:90%
+and islands.
+
+00:48:30.220 --> 00:48:34.080 align:middle line:84%
+And so you start out
+with the probabilities
+
+00:48:34.080 --> 00:48:37.470 align:middle line:84%
+being just equally probable
+that you can start at the C.
+
+00:48:37.470 --> 00:48:39.180 align:middle line:84%
+So there are eight
+different states,
+
+00:48:39.180 --> 00:48:43.800 align:middle line:84%
+and so we just divide 1 over 8
+is a starting point, or 0.125.
+
+00:48:43.800 --> 00:48:46.102 align:middle line:84%
+And so there are two
+possible places it can be,
+
+00:48:46.102 --> 00:48:47.310 align:middle line:90%
+and they're equally probable.
+
+00:48:47.310 --> 00:48:50.940 align:middle line:84%
+It's in an ocean or island,
+just given the C, 1/8.
+
+00:48:50.940 --> 00:48:53.670 align:middle line:84%
+Now you make a transition
+where you multiply
+
+00:48:53.670 --> 00:48:59.220 align:middle line:84%
+this times the A matrix, A sub k
+l, so you're going from state 1
+
+00:48:59.220 --> 00:49:02.580 align:middle line:84%
+to state 1, from an
+island to an island.
+
+00:49:02.580 --> 00:49:05.550 align:middle line:84%
+And if you look
+back one slide, you
+
+00:49:05.550 --> 00:49:10.710 align:middle line:84%
+remember there is a 0.27 for
+going to a CG dinucleotide.
+
+00:49:10.710 --> 00:49:17.490 align:middle line:84%
+So the recursion here
+is you multiply this--
+
+00:49:17.490 --> 00:49:19.890 align:middle line:84%
+is an emission,
+which is always 1.
+
+00:49:19.890 --> 00:49:25.620 align:middle line:84%
+You multiply the maximum
+of the previous Viterbi,
+
+00:49:25.620 --> 00:49:29.040 align:middle line:84%
+so i plus 1 and i, times
+the A matrix, which
+
+00:49:29.040 --> 00:49:30.630 align:middle line:90%
+in the previous slide is .27.
+
+00:49:30.630 --> 00:49:35.550 align:middle line:84%
+So the previous one was 1/8, and
+then times 0.27, you get 0.034.
+
+00:49:35.550 --> 00:49:41.100 align:middle line:84%
+And if you started in an
+ocean and stayed in an ocean,
+
+00:49:41.100 --> 00:49:42.840 align:middle line:90%
+it would already drop to 0.01.
+
+00:49:42.840 --> 00:49:45.360 align:middle line:84%
+So you can see the better
+probability is already
+
+00:49:45.360 --> 00:49:46.590 align:middle line:90%
+that you're in an island.
+
+00:49:46.590 --> 00:49:49.290 align:middle line:84%
+And if you carry this all
+the way out to all four
+
+00:49:49.290 --> 00:49:52.290 align:middle line:84%
+tetranucleotides, you get
+a much higher probability
+
+00:49:52.290 --> 00:49:54.990 align:middle line:84%
+of being in the
+island, of 0.032,
+
+00:49:54.990 --> 00:49:58.590 align:middle line:90%
+than being in the ocean, 0.002.
+
+00:49:58.590 --> 00:49:59.100 align:middle line:90%
+Question.
+
+00:49:59.100 --> 00:50:01.790 align:middle line:84%
+STUDENT: Do you know
+the basis for thinking
+
+00:50:01.790 --> 00:50:04.133 align:middle line:84%
+that the context
+for a dinucleotide
+
+00:50:04.133 --> 00:50:08.810 align:middle line:84%
+is either an ocean or an
+island, in other words, only
+
+00:50:08.810 --> 00:50:09.800 align:middle line:90%
+two states?
+
+00:50:09.800 --> 00:50:12.370 align:middle line:84%
+Why couldn't the
+context be five states?
+
+00:50:12.370 --> 00:50:13.920 align:middle line:90%
+GEORGE CHURCH: OK.

@@ -1,0 +1,22 @@
+
+{
+  "content": "<p>Problem sets (including full program source code and output) are to be submitted before the start of the lecture listed below. Answers are posted 48 hours later. Problems may be done collaboratively but each student should work hard on every problem. Students should state clearly the contributions of everyone involved or that they worked alone.</p>\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nProblem Sets &amp; Associated Files\n</th>\n\n<th>\n\nAnswers &amp; Explanations\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\nSet 1 Questions (<a href=\"../../resources/ps12002/index.html\">PDF</a>)</p>\n<ul>\n<li>Skeleton Code (<a href=\"../../resources/ps1_skeleton/index.html\">PL</a>)</li>\n<li>Perl resources</li>\n<li>Warmup File (<a href=\"../../resources/warmup/index.html\">NB</a>)</li>\n<li>Tutorial File(<a href=\"../../resources/tutorial/index.html\">NB - 1.1 MB</a>)</li>\n</ul>\n<p></td>\n\n<td>\n</p>\n<p>Set 1 Answers</p>\n<ul>\n<li>Biology (<a href=\"../../resources/ps1_bio_answers_2002/index.html\">PDF</a>)</li>\n<li>Perl (<a href=\"../../resources/ps1_perl_answers_2002/index.html\">PL</a>)</li>\n<li>Perl Bonus (<a href=\"../../resources/ps1_reading_frames/index.html\">PL</a>)</li>\n<li>Mathematica (<a href=\"../../resources/ps1_mathematica_answers_2002/index.html\">NB</a>)</li>\n</ul>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n\nSet 2 Questions (<a href=\"../../resources/ps22002/index.html\">PDF</a>)\n</td>\n\n<td>\n\nSet 2 Answers (<a href=\"../../resources/ps2answers2002/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nSet 3 Questions (<a href=\"../../resources/ps32002/index.html\">PDF</a>)</p>\n<ul>\n<li>E.coli Genome File (<a href=\"../../resources/ecoli_k12/index.html\">TXT - 4.5 MB</a>)</li>\n</ul>\n<p></td>\n\n<td>\n\nSet 3 Answers (<a href=\"../../resources/ps3answers2002/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nSet 4 Questions (<a href=\"../../resources/ps42002/index.html\">PDF</a>)</p>\n<ul>\n<li>Hierarchical File (<a href=\"../../resources/hierarchical/index.html\">PDF</a>)</li>\n<li>ps4-1-template File (<a href=\"../../resources/ps41template/index.html\">PL</a>)</li>\n<li>Sample Dataset of 5 Samples (<a href=\"../../resources/ps41sample/index.html\">TXT</a>)</li>\n<li>Clustering Result of Sample Dataset Using Complete-linkage Euclidean Distance (<a href=\"../../resources/ps41result/index.html\">TXT</a>)</li>\n<li>Normalized Training Dataset (<a href=\"../../resources/ps41train/index.html\">TXT</a>)</li>\n<li>Clustering Result of Normalized Training dataset Using Complete/Single-linkage Euclidean distance (<a href=\"../../resources/ps41result2/index.html\">TXT</a>)</li>\n</ul>\n<p></td>\n\n<td>\n\nSet 4 Answers (<a href=\"../../resources/ps4answers2002/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nSet 5 Questions (<a href=\"../../resources/ps52002/index.html\">PDF</a>)</p>\n<ul>\n<li>FBA Notebook (<a href=\"../../resources/fba_lf/index.html\">NB - 1.9 MB</a>)</li>\n<li>FBA Spreadsheet (<a href=\"../../resources/mf/index.html\">XLS</a>)</li>\n</ul>\n<p></td>\n\n<td>\n\n \n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Assignments",
+  "uid": "43fbbe59-f66c-1bdd-7edf-018322523e8a",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Sets on MIT OpenCourseWare</title>
+    <link>/resources/problem-sets/</link>
+    <description>Recent content in Problem Sets on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-sets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignment 1</title>
+      <link>/resources/mit8_04s16_ps1_2016/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit8_04s16_ps1_2016/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding quantum physics: Assignment 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 10</title>
+      <link>/resources/mit8_04s16_ps10_2016/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit8_04s16_ps10_2016/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding quantum physics: Assignment 10.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 2</title>
+      <link>/resources/mit8_04s16_ps2_2016/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit8_04s16_ps2_2016/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding quantum physics: Assignment 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 3</title>
+      <link>/resources/mit8_04s16_ps3_2016/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit8_04s16_ps3_2016/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding quantum physics: Assignment 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 4</title>
+      <link>/resources/mit8_04s16_ps4_2016/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit8_04s16_ps4_2016/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding quantum physics: Assignment 4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 5</title>
+      <link>/resources/mit8_04s16_ps5_2016/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit8_04s16_ps5_2016/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding quantum physics: Assignment 5.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 6</title>
+      <link>/resources/mit8_04s16_ps6_2016/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit8_04s16_ps6_2016/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding quantum physics: Assignment 6.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 7</title>
+      <link>/resources/mit8_04s16_ps7_2016/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit8_04s16_ps7_2016/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding quantum physics: Assignment 7.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 8</title>
+      <link>/resources/mit8_04s16_ps8_2016/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit8_04s16_ps8_2016/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding quantum physics: Assignment 8.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Assignment 9</title>
+      <link>/resources/mit8_04s16_ps9_2016/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit8_04s16_ps9_2016/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding quantum physics: Assignment 9.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

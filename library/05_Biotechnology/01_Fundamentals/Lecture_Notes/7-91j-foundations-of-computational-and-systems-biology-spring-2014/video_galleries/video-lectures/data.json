@@ -1,0 +1,989 @@
+
+{
+  "content": "<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-1-course-introduction-history-of-computational-biology-overview-of-the-course-course-policies-and-mechanics-dna-seque/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/lJzybEXmIj0/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 1: Introduction to Computational and Systems Biology</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-2-local-alignment-blast-and-statistics/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/6Udqou3vmng/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 2: Local Alignment (BLAST) and Statistics</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-3-global-alignment-of-protein-sequences-nw-sw-pam-blosum/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/PdyARRNwi7I/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 3: Global Alignment of Protein Sequences (NW, SW, PAM, BLOSUM)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-4-comparative-genomic-analysis-of-gene-regulation/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/14m9MW-qMhg/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 4: Comparative Genomic Analysis of Gene Regulation</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-5-library-complexity-and-short-read-alignment-mapping/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/P3ORBMon8aw/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 5: Library Complexity and Short Read Alignment (Mapping)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-6-genome-assembly/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/ZYW2AeDE6wU/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 6: Genome Assembly</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/leture-7-chip-seq-analysis-dna-protein-interactions/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/Ob9xGBPvr_s/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Leture 7: ChIP-seq Analysis; DNA-protein Interactions</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-8-rna-sequence-analysis-expression-isoforms/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/MniYgsZSp30/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 8: RNA-sequence Analysis: Expression, Isoforms</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-9-modeling-and-discovery-of-sequence-motifs-gibbs-sampler-alternatives/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/1EMonM7qAU8/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 9: Modeling and Discovery of Sequence Motifs</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-10-markov-and-hidden-markov-models-of-genomic-and-protein-features/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/d5NMrA2HkG4/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 10: Markov and Hidden Markov Models of Genomic and Protein Features</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-11-rna-secondary-structure-2013-biological-functions-and-prediction/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/kUN6rJ21Hno/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 11: RNA Secondary Structure – Biological Functions and Prediction</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/leture-12-introduction-to-protein-structure-structure-comparison-and-classification/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/6ROBp57G2ZI/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Leture 12: Introduction to Protein Structure; Structure Comparison and Classification</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-13-predicting-protein-structure/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/j1s9JfZKFqU/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 13: Predicting Protein Structure</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-14-predicting-protein-interactions/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/C95294_vvQY/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 14: Predicting Protein Interactions</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-15-gene-regulatory-networks/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/So6MK_FcP4E/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 15: Gene Regulatory Networks</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-16-protein-interaction-networks/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/RBPcKbEvK3U/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 16: Protein Interaction Networks</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-17-logic-modeling-of-cell-signaling-networks/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/i59JDQ9hk10/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 17: Logic Modeling of Cell Signaling Networks</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-18-analysis-of-chromatin-structure/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/iKLvCuFD1MA/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 18: Analysis of Chromatin Structure</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-19-discovering-quantitative-trait-loci-qtls/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/kx_Hks_-SZM/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 19: Discovering Quantitative Trait Loci (QTLs)</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-20-human-genetics-snps-and-genome-wide-associate-studies/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/KYQ2dPW5nEU/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 20: Human Genetics, SNPs, and Genome Wide Associate Studies</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-21-synthetic-biology-from-parts-to-modules-to-therapeutic-systems/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/kKyrR0cFrEg/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 21: Synthetic Biology: From Parts to Modules to Therapeutic Systems</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/lecture-22-causality-natural-computing-and-engineering-genomes/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/uD4-fOWeXAY/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Lecture 22: Causality, Natural Computing, and Engineering Genomes</h5>\n      </div>\n    </div>\n  </a>\n</div>\n\n\n",
+  "content_type": "video_gallery",
+  "description": "This section provides videos of the course lectures.",
+  "draft": false,
+  "is_media_gallery": true,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "ocw_type": "CourseSection",
+  "title": "Video Lectures",
+  "uid": "9d10da45-8147-3110-fdde-3ec1be251d38",
+  "video_metadata": {
+    "youtube_id": null
+  },
+  "videos": [
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "155585255",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 1: Introduction to Computational and Systems Biology",
+      "uid": "d4628db4-5e7b-f591-a7c7-8d8de2e037da",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec01_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/d4da5cf6330b53d696296bfb3ca399aa_lJzybEXmIj0.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/lJzybEXmIj0/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/616835ae3c1b035255bde7894c5289b8_lJzybEXmIj0.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, bioinformatics, blast, computational biology, genomics, informatics, sequence alignment, sequence databases, systems biology",
+        "youtube_id": "lJzybEXmIj0"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "179919848",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 2: Local Alignment (BLAST) and Statistics",
+      "uid": "e67db013-6503-ed07-699c-2c137a8ba773",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec02_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/eb284b16382459e3b274b708457a4f57_6Udqou3vmng.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/6Udqou3vmng/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/41dbdf84acd16d09ce0170abac752741_6Udqou3vmng.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, blast, dna, illumina sequencing, next-gen, next-generation sequencing, nucleotides, sanger sequencing, sequencing, solexa sequencing, statistics",
+        "youtube_id": "6Udqou3vmng"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "187054627",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 3: Global Alignment of Protein Sequences (NW, SW, PAM, BLOSUM)",
+      "uid": "3f056ef5-fe62-4658-df7f-57e2dbce0c15",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec03_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/1efcd73d2deb563d8ed38d89b5486f76_PdyARRNwi7I.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/PdyARRNwi7I/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/7670305271aa420379b5a5585cadf087_PdyARRNwi7I.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, blast, computational efficiency, dayhoff matrix, global sequence alignment, markov chains, sequencing",
+        "youtube_id": "PdyARRNwi7I"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "193952375",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 4: Comparative Genomic Analysis of Gene Regulation",
+      "uid": "67e5b463-43c0-bb8e-1d74-400def742d98",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec04_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/6ce7d072ca2c5b8a892b5c74e8c0318b_14m9MW-qMhg.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/14m9MW-qMhg/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/6efb14d2c8355c7c30e64faae02a239c_14m9MW-qMhg.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, compartive genomics, computational biology, conditional probability, markov model",
+        "youtube_id": "14m9MW-qMhg"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "188531315",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 5: Library Complexity and Short Read Alignment (Mapping)",
+      "uid": "9e2f20d5-a913-7258-e031-263d5facba10",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec05_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/382e69ea17eb525fbb89f4403d5f5ecf_P3ORBMon8aw.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/P3ORBMon8aw/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/109dd4dec3d27d8c6cfc16bb39b3c4d2_P3ORBMon8aw.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, burrows-wheeler transform, bwt, dna sequencing, full-text minute-size index, genome, library complexity, poisson, read mapping, sequencing adapter, short read alignment",
+        "youtube_id": "P3ORBMon8aw"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "186709186",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 6: Genome Assembly",
+      "uid": "67d48b4e-2e1b-5db8-96c0-764d02f5bda0",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec06_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/049685492f4a5775b35a37ca9ed047e2_ZYW2AeDE6wU.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/ZYW2AeDE6wU/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/18b601767baa48ff7984697ee8045339_ZYW2AeDE6wU.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, contigs, de bruijn graph, de novo assembly, directed graph, eulerian walk, genome assembly, human genome, overlap layout consensus, shortest common superstring, string graph",
+        "youtube_id": "ZYW2AeDE6wU"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "191377593",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Leture 7: ChIP-seq Analysis; DNA-protein Interactions",
+      "uid": "1f66ae49-7991-d30d-22f0-5cc1647622b3",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec07_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/a79b63ddb4f75fa58ab286aeb12f2b7f_Ob9xGBPvr_s.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/Ob9xGBPvr_s/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/18c5826f6d3976ff54ba7e7cc511b890_Ob9xGBPvr_s.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, chip-seq, gene expression, gene regulation, genome positioning system, molecular switch, transcription factors",
+        "youtube_id": "Ob9xGBPvr_s"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "188868976",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 8: RNA-sequence Analysis: Expression, Isoforms",
+      "uid": "9dfaa482-1f2a-5dfa-5c08-fe73af1d4b1b",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec08_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/4c4cb76b36a65e57ac1d2cac6eede795_MniYgsZSp30.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/MniYgsZSp30/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/47d8a2550c1745747f84c2c5680aed3c_MniYgsZSp30.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, exon, isoform, mrna, multivariate guassian, principle component analysis, rna sequencing, rna-seq, single cell rna-seq, transcription",
+        "youtube_id": "MniYgsZSp30"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "192576538",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 9: Modeling and Discovery of Sequence Motifs",
+      "uid": "bf839863-0142-47fa-79c6-897a3706b679",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec09_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/acd9a81fe2255852b5966d7bd1c2b36b_1EMonM7qAU8.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/1EMonM7qAU8/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/de5830d2a08df555105a1dfe754f7e2d_1EMonM7qAU8.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, background model, biotechnology, core splice, gibbs sampling algorithm, in vitro binding, information content, monte carlo algorithm, selex, sequence motif, statistical entropy, tata box, weight matrix",
+        "youtube_id": "1EMonM7qAU8"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "183676492",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 10: Markov and Hidden Markov Models of Genomic and Protein Features",
+      "uid": "f6f9494d-ac91-24b2-ebb4-6f3b229e7c7d",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec10_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/b83f0ffb1c115768aae81d430afd7776_d5NMrA2HkG4.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/d5NMrA2HkG4/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/a3d9412cc3cc709edc5bf714f5cf35e3_d5NMrA2HkG4.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, bayes', biotechnology, genome, hidden markov model, hmm, markov model, relative entropy, viterbi algorithm cpg island hmm",
+        "youtube_id": "d5NMrA2HkG4"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "192497092",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 11: RNA Secondary Structure – Biological Functions and Prediction",
+      "uid": "8eaf7445-0703-3b4e-f17c-045950330866",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec11_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/6493ea79d05555e2bee6aa942cd95251_kUN6rJ21Hno.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/kUN6rJ21Hno/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/a55f66beeb318266288693f37e35f337_kUN6rJ21Hno.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, hidden markov model, hmm, markov model, mutual information, ncrna, nusinov algorithm, ribosome, ribozyme, rna, secondary structure, trna",
+        "youtube_id": "kUN6rJ21Hno"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "180322121",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Leture 12: Introduction to Protein Structure; Structure Comparison and Classification",
+      "uid": "0baf5c08-1fcd-02c0-9a07-bf670f4e710e",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec12_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/46480fcbb76f549f8b4da337d5a9f5f7_6ROBp57G2ZI.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/6ROBp57G2ZI/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/2593416a2759696d33f3ac0e529632aa_6ROBp57G2ZI.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "3d, 7-91j-foundations-of-computational-and-systems-biology-spring-2014, charmm, function, gene, nmr, p53, protein, protein database, protein model, rosetta, structure, x-ray crystallography",
+        "youtube_id": "6ROBp57G2ZI"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "175562351",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 13: Predicting Protein Structure",
+      "uid": "f4b9a522-1b3f-720a-ae05-e404250bc9d7",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec13_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/54167d69ce10507dbaf3dbf298caad03_j1s9JfZKFqU.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/j1s9JfZKFqU/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/8db39b529409ce90bdc124f42dad2ccf_j1s9JfZKFqU.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, anton, biochemistry, boltzmann equation, casp1, de novo, docking, energy minimization, foldit, homology, metropolis algorithm, molecular dynamics, monte carlo search, protein, radius of convergence, rosetta, side chain, simulated annealing, solvation, structure",
+        "youtube_id": "j1s9JfZKFqU"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "169039399",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 14: Predicting Protein Interactions",
+      "uid": "72ddeeaf-66a8-d56a-0c25-fa67fa58c132",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec14_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/2ddf8cedb21f57f39d96d50442b2c1ce_C95294_vvQY.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/C95294_vvQY/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/f3f10cd44ea9b0da91816ae3215b8bb6_C95294_vvQY.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, bayes net, binding, docking, free energy, homology, hotspots, inhibitor, mutation, preppi, prism, protein, protein-protein interaction, structural alignment, structure, subtilisin, tap-tag",
+        "youtube_id": "C95294_vvQY"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "217316976",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 15: Gene Regulatory Networks",
+      "uid": "0d89e0c0-a995-c945-89e1-8fd13b089264",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec15_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/a5ea752f83aa56b698eb3b2bc8fe2f82_So6MK_FcP4E.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/So6MK_FcP4E/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/9830f34d6e956293b79dd03ef7945eea_So6MK_FcP4E.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, bayesian networks, clustering, gene expression, gene regulatory networks, modules, mutual information, protein-protein interaction, regression, signatures",
+        "youtube_id": "So6MK_FcP4E"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "220894532",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 16: Protein Interaction Networks",
+      "uid": "aaa9648b-6d59-5bd0-2f23-ba6b5327b12f",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec16_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/0764a15eedbb5e5c88820d19fcac0c24_RBPcKbEvK3U.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/RBPcKbEvK3U/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/ac0552dc3221f3cef4cd2673e2972d25_RBPcKbEvK3U.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, biochemistry, computer science, data integration, gene expression, gene network, network model, protein, protein function, protein structure",
+        "youtube_id": "RBPcKbEvK3U"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "175980745",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 17: Logic Modeling of Cell Signaling Networks",
+      "uid": "179aaebb-9cec-9a64-f35c-b3a8ccc6354e",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec17_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/f6b774b0464a5961bb97a3d60d76dd83_i59JDQ9hk10.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/i59JDQ9hk10/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/43b21aa08c55f0767f8e09db5da3bbf4_i59JDQ9hk10.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, cell biology, cell signaling, computational modeling, dysregulation, interactome, logic modeling, mammalian cells, mutation",
+        "youtube_id": "i59JDQ9hk10"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "218048562",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 18: Analysis of Chromatin Structure",
+      "uid": "555d4417-fd06-b600-6985-605cdb068572",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec18_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/bb9b6b2710725aa0a5d220d85a356c3e_iKLvCuFD1MA.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/iKLvCuFD1MA/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/7e9cdba57d55122387a50a4d4addab74_iKLvCuFD1MA.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, bayesian networks, chia-pet, chromatin, computational methods, dna, dna-seq, epigenetics, gene function, hypergeometric distribution, proteins, regulator, transcription factors",
+        "youtube_id": "iKLvCuFD1MA"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "191644316",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 19: Discovering Quantitative Trait Loci (QTLs)",
+      "uid": "312df3b6-3701-fc8a-063f-99bba7da0c60",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec19_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/96f156f9c7805ad8b5ba85e629c72110_kx_Hks_-SZM.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/kx_Hks_-SZM/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/8626c7d6dfa0d91fca51d5b19c8462b2_kx_Hks_-SZM.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "5c, 7-91j-foundations-of-computational-and-systems-biology-spring-2014, computational biology, genetic analysis, genetics, genome, genotype, haploid, heritability, inheritance, pharmacogenomics, phenotype, qtl, quantitative trait loci, trait, twin studies",
+        "youtube_id": "kx_Hks_-SZM"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "181839763",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 20: Human Genetics, SNPs, and Genome Wide Associate Studies",
+      "uid": "68b886e5-019d-fca5-019f-10517280e2d0",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec20_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/de035682b6ba5f56a5ec99bbc4a596b3_KYQ2dPW5nEU.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/KYQ2dPW5nEU/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/5dec4445382f969442ebf59148e53c6a_KYQ2dPW5nEU.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, allele, causation, chi-squared test, contingency tables, correlation, disease, fisher's exact test, gene, human genetics, human genome, mendelian disorder, microarray",
+        "youtube_id": "KYQ2dPW5nEU"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "192224335",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 21: Synthetic Biology: From Parts to Modules to Therapeutic Systems",
+      "uid": "47a00b63-3ed0-e9eb-cb1e-e4acdbb45ea0",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec21_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/0e90c670c07257ddaa7de915d1967423_kKyrR0cFrEg.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/kKyrR0cFrEg/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/7f432fd8c6cef51f7f85e04d86fefaf3_kKyrR0cFrEg.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, biocompiler, circuits, computer science, design, genetic engineering, lisp, logic, microrna, synthetic biology, systems",
+        "youtube_id": "kKyrR0cFrEg"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "122575069",
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Video Lectures",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Lecture 22: Causality, Natural Computing, and Engineering Genomes",
+      "uid": "60deb6eb-97f9-f2a9-abf4-955fadae9142",
+      "video_files": {
+        "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec22_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/f9e483221ebf581698fecbea4dd97105_uD4-fOWeXAY.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/uD4-fOWeXAY/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/ed482c8986c5163f482bca1988ed2ee0_uD4-fOWeXAY.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, bioengineering, causality, causation, cohort, design, experimental design, genome, human genome",
+        "youtube_id": "uD4-fOWeXAY"
+      }
+    }
+  ]
+}
+

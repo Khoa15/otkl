@@ -1,0 +1,14 @@
+
+{
+  "content": "<img src=\"../../static_resources/ee70f2043b433862da38fd53c83c350a_MIT6_302_S07_banner.jpg\" alt=\"Four screencaps of the instructor lectuering.\" loading=\"lazy\" decoding=\"async\" />\n<p>Associated with this course are <a href=\"https://ocw.mit.edu/courses/res-6-010-electronic-feedback-systems-spring-2013/video_galleries/course-videos\" target=\"_blank\" rel=\"noopener\">lecture videos</a> that are featured in the supplemental resource, <a href=\"https://ocw.mit.edu/courses/res-6-010-electronic-feedback-systems-spring-2013\" target=\"_blank\" rel=\"noopener\"><em>Electronic Feedback Systems</em></a>. These videos, recorded in 1985, still provide an excellent way to learn classical feedback as it was practiced then and is practiced now.</p>\n<p>Much of the basis for classical feedback was developed at Bell Labs in the 1930’s, and the people that are associated with it (Bode, Nyquist, Black and others) were at Bell Labs at that time. Their interest was to use feedback to improve the performance of the repeater amplifiers necessary for long distanced telephone signal transmission. They did not make this material widely available, since they had no interest in helping their competitors.</p>\n<p>Classical feedback was used at the Radiation Laboratory<sup>1</sup> and Servomechanisms Laboratory<sup>2</sup> at MIT during the Second World War. Two books on the topic were written shortly after the war by staff at those labs and one by Bode at Bell Labs<sup>3</sup>.</p>\n<p>The only other significant technique used in classical feedback that was developed somewhat later was root locus. Prof. Roberge&rsquo;s own book, <a href=\"https://ocw.mit.edu/courses/res-6-010-electronic-feedback-systems-spring-2013/pages/textbook\" target=\"_blank\" rel=\"noopener\"><em>Operational Amplifiers: Theory and Practice</em></a>, published in 1975, includes the classical feedback concepts there were known then and are essentially all of the ones currently in use.</p>\n<p>__________</p>\n<p><sup>1</sup>James, Hurbert M., Nathaniel B. Nichols, and Ralph S. Phillip. <em>Theory of Servomechanisms</em>. Vol. 25 of <em>MIT Radiation Laboratory Series</em>. McGraw-Hill, 1947.</p>\n<p><sup>2</sup>Brown, Gordon S., and Donald P. Campbell. <em>Principles of Servomechanisms</em>. Wiley, 1948.</p>\n<p><sup>3</sup>Bode, Hendrik W. <em>Network Analysis and Feedback Amplifier Design</em>. Van Norstrand, 1945.</p>\n",
+  "content_type": "page",
+  "description": "This section provides a link to lecture videos in RES.6.010 and provides some historical context for the videos' relevance.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Video Resources",
+  "uid": "36d8014a-ab80-064a-7079-ff3fff516356"
+}
+

@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture notes on central force motion, orbits, conservation of energy, and trajectories.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on central force motion, orbits, conservation of energy, and trajectories.",
+  "draft": false,
+  "file": "/courses/16-07-dynamics-fall-2009/0bb19205a6316ba88f88284bf7257ec6_MIT16_07F09_Lec16.pdf",
+  "file_size": 297293,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "c74de568-7f12-1be8-c80c-73b2269c3877",
+  "resourcetype": "Document",
+  "title": "Lecture L16 – Central Force Motion: Orbits",
+  "uid": "0bb19205-a631-6ba8-8f88-284bf7257ec6"
+}

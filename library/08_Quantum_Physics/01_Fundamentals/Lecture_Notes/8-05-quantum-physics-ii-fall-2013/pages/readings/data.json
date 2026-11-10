@@ -1,0 +1,16 @@
+
+{
+  "content": "\n    <h3 id=\"required-textbooks\">Required Textbooks</h3>\n\n<p>[Griffiths] = Griffiths, David J. <em>Introduction to Quantum Mechanics</em>. 2nd ed. Pearson Prentice Hall, 2004. ISBN: 9780131118928.</p>\n<p>[Shankar] = Shankar, Ramamurti. <em>Principles of Quantum Mechanics</em>. 2nd ed. Plenum Press, 1994. ISBN: 9780306447907.</p>\n\n    <h3 id=\"references\">References</h3>\n\n<p>Cohen-Tannoudji, Claude. <em>Quantum Mechanics</em>. 2 vols. Wiley, 2006. ISBN: 9780471164326. (Useful for 8.05 and 8.06: Some students find it too encyclopedic.)</p>\n<p>Dirac, P. A. M. <em>The Principles of Quantum Mechanics</em>. 4th ed. Oxford at the Clarendon Press, 1958. (Quantum mechanics from the Master. Deep, hard and rewarding to read, but probably in the summer.)</p>\n<p>Feynman, R. P. <em>Feynman Lectures On Physics</em>. Vol. 3. Addison Wesley Longman, 1970. ISBN: 9780201021158. (Ch. 6 on spin and Ch. 9 on the ammonia maser are particularly useful.)</p>\n<p>[Ohanian] = Ohanian, Hans. <em>Principles of Quantum Mechanics</em>. Prentice Hall, 1989. ISBN: 9780137127955. (More emphasis than Griffiths on operator methods but less depth on some other topics.)</p>\n<p>Sakurai, J. J. <em>Modern Quantum Mechanics</em>. Addison-Wesley Pub., 1993. ISBN: 9780201539295. (A revision of the text by Sakurai. Advanced for 8.05.)</p>\n<p>Axler, Sheldon. <em>Linear Algebra Done Right</em>. 2nd ed. Springer, 1997. ISBN: 9780387982595. (A conceptual introduction to vector spaces and linear operators.)</p>\n\n    <h3 id=\"reading-assignments\">Reading Assignments</h3>\n\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nWEEK #\n</th>\n\n<th>\n\nASSIGNMENTS\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\n1\n</td>\n\n<td>\n</p>\n<p>[Shankar] Sections 5.2, 5.3, and 5.6.</p>\n<p>[Griffiths] Sections 2.1, 2.2, 2.5, and 2.6.</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n\n2\n</td>\n\n<td>\n</p>\n<p>[Griffiths] Section 7.1.</p>\n<p>[Griffiths] Appendix.</p>\n<p>[Shankar] Chapter 1.</p>\n<p>[Griffiths] Chapter 3.</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n\n5\n</td>\n\n<td>\n</p>\n<p>[Griffiths] Section 3.5.</p>\n<p>[Shankar] Chapter 9.</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n\n10\n</td>\n\n<td>\n</p>\n<p>[Griffiths] Sections 4.1, 4.2, and 4.3.</p>\n<p>For further reading on angular momentum with more emphasis on operators than Griffiths, you should consult one or more of the following:<br>\n[Ohanian] Chapter 7.<br>\n[Shankar] Section 12.5.</p>\n</td>\n\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section provides the list of required textbooks for the course, a list of references, and the schedule of reading assignments.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Readings"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Readings",
+  "uid": "ab4e5622-d2ff-0c29-b752-58ed12c6dc17"
+}
+

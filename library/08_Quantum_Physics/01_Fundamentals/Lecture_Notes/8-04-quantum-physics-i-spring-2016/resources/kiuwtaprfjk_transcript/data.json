@@ -1,0 +1,22 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/8-04-quantum-physics-i-spring-2016/kiuwtaprFjk_transcript.pdf",
+  "file_size": 26790,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "resourcetype": "Document",
+  "title": "Linearity and nonlinear theories. Schrödinger's equation transcript",
+  "uid": "d52fce6e-11ca-466f-a8d3-ae87fb22ac5a",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": "kiuwtaprFjk"
+  }
+}

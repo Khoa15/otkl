@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem-Solving Notes on MIT OpenCourseWare</title>
+    <link>/resources/problem-solving-notes/</link>
+    <description>Recent content in Problem-Solving Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-solving-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>rec1b_sol.pdf</title>
+      <link>/resources/rec1b_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec1b_sol/data.json</guid>
+      <description>&lt;p&gt;This file contains solutions of recitation 1 on erratum, wave-particle duality, schrodinger equation, electron density, prabability, normalization and spectrum.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec1b.pdf</title>
+      <link>/resources/rec1b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec1b/data.json</guid>
+      <description>&lt;p&gt;This file contains problems of recitation 1 on wave-particle duality, schrodinger equation, electron density, probability, normalization and spectrum.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec1t_sol.pdf</title>
+      <link>/resources/rec1t_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec1t_sol/data.json</guid>
+      <description>&lt;p&gt;This file contains questions and answers on systems and thermodynamic processes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec2b_sol.pdf</title>
+      <link>/resources/rec2b_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec2b_sol/data.json</guid>
+      <description>&lt;p&gt;This file contains solutions of the problems on spherical coordinates, expectation values, spectrum contained in recitation 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec2b.pdf</title>
+      <link>/resources/rec2b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec2b/data.json</guid>
+      <description>&lt;p&gt;This file contains problems on spherical coordinates, expectation values and spectrum covered in recitation 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec2t_responses.pdf</title>
+      <link>/resources/rec2t_responses/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec2t_responses/data.json</guid>
+      <description>&lt;p&gt;This file contains responses to questions of thermo recitation 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec2t_sol.pdf</title>
+      <link>/resources/rec2t_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec2t_sol/data.json</guid>
+      <description>&lt;p&gt;This file contains practice answers for the recitation 2 problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec3b_responses.pdf</title>
+      <link>/resources/rec3b_responses/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec3b_responses/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>rec3b_sol.pdf</title>
+      <link>/resources/rec3b_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec3b_sol/data.json</guid>
+      <description>&lt;p&gt;This file contains solutions on spherical harmonics, radial functions contained in recitation 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec3b.pdf</title>
+      <link>/resources/rec3b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec3b/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>rec3t_notes.pdf</title>
+      <link>/resources/rec3t_notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec3t_notes/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>rec3t_sol.pdf</title>
+      <link>/resources/rec3t_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec3t_sol/data.json</guid>
+      <description>&lt;p&gt;This file contains solutions on chemical work in a multi-component system and heat and temperature changes contained in recitation 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec4b_sol.pdf</title>
+      <link>/resources/rec4b_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec4b_sol/data.json</guid>
+      <description>&lt;p&gt;This file contains solutions on the problems of recitation 4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec4b.pdf</title>
+      <link>/resources/rec4b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec4b/data.json</guid>
+      <description>&lt;p&gt;This file contains problems on variational principle and trends across periodic table covered in recitation 4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec4t_q1review.pdf</title>
+      <link>/resources/rec4t_q1review/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec4t_q1review/data.json</guid>
+      <description>&lt;p&gt;This file contains information about the agenda,laws and graphs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec5b_sol.pdf</title>
+      <link>/resources/rec5b_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec5b_sol/data.json</guid>
+      <description>&lt;p&gt;This file contains solutions of the recitation 5 problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec5b.pdf</title>
+      <link>/resources/rec5b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec5b/data.json</guid>
+      <description>&lt;p&gt;This file contains problems on hydrogen molecular ion, orbital energies contained in recitation 5.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec5t_sol.pdf</title>
+      <link>/resources/rec5t_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec5t_sol/data.json</guid>
+      <description>&lt;p&gt;This file contains some practice questions for recitation 4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec6b_mercury.pdf</title>
+      <link>/resources/rec6b_mercury-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec6b_mercury-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>rec6b_mercury.zip</title>
+      <link>/resources/rec6b_mercury/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec6b_mercury/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>rec6t_responses.pdf</title>
+      <link>/resources/rec6t_responses/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec6t_responses/data.json</guid>
+      <description>&lt;p&gt;This file contains the recitation format, some problems and miscellaneous questions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec7b_review.pdf</title>
+      <link>/resources/rec7b_review/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec7b_review/data.json</guid>
+      <description>&lt;p&gt;This file contains keywords and information about hydrogen, variational principle and LCAO mathod.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec8b_xrd.pdf</title>
+      <link>/resources/rec8b_xrd/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec8b_xrd/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>rec8t_notes.pdf</title>
+      <link>/resources/rec8t_notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec8t_notes/data.json</guid>
+      <description>&lt;p&gt;This file contains notes for recitation 8.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec9b_xrd_notes.pdf</title>
+      <link>/resources/rec9b_xrd_notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec9b_xrd_notes/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>rec9t_stat_sol.pdf</title>
+      <link>/resources/rec9t_stat_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec9t_stat_sol/data.json</guid>
+      <description>&lt;p&gt;This file contains solutions to thermo/stat mech practice problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec9t_statmech.pdf</title>
+      <link>/resources/rec9t_statmech/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec9t_statmech/data.json</guid>
+      <description>&lt;p&gt;This file contains some practice problems on statistical mechanics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>rec9t_xrd_sol.pdf</title>
+      <link>/resources/rec9t_xrd_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rec9t_xrd_sol/data.json</guid>
+      <description>&lt;p&gt;This file contains some idle mind solutions.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

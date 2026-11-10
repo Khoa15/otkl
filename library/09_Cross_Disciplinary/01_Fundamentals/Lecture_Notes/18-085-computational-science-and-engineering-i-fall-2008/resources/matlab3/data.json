@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>Homework assignment on MATLAB and bridge trusses.</p>\n",
+  "content_type": "resource",
+  "description": "Homework assignment on MATLAB and bridge trusses.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/4a4dcfb71b991ee04f62a7fa8d4b7286_matlab3.pdf",
+  "file_size": 118661,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Readings"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Study Materials",
+  "parent_type": "CourseSection",
+  "parent_uid": "df610098-8ebd-ba68-b43f-7d3a6f71d7c5",
+  "resourcetype": "Document",
+  "title": "MATLAB Homework 3",
+  "uid": "4a4dcfb7-1b99-1ee0-4f62-a7fa8d4b7286",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

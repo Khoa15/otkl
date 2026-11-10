@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/c4720565728a46170e430305bec41488_1_9.jpg",
+  "file_size": 4904,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from ‘Introduction to Linear Algebra’ by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Independence, Basis and Dimension",
+  "parent_type": "CourseSection",
+  "parent_uid": "f4986e82-13a7-cf7c-ebaa-aba5fa7882f0",
+  "resourcetype": "Image",
+  "title": "1_9.jpg",
+  "uid": "c4720565-728a-4617-0e43-0305bec41488",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

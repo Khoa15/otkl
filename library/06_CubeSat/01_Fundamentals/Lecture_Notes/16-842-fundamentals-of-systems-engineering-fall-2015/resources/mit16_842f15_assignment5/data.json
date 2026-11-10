@@ -1,0 +1,47 @@
+{
+  "content": "<p>This is a file that contains information regarding fundamentals of systems engineering assignment5.</p>\n",
+  "content_type": "resource",
+  "description": "This is a file that contains information regarding fundamentals of systems engineering assignment5.",
+  "draft": false,
+  "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/5aa0cf4268223a0a3a202d88b8bf661c_MIT16_842F15_Assignment5.pdf",
+  "file_size": 548179,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Projects"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "e05910ee-9d33-4170-6aa3-011adcee6fe1",
+  "resourcetype": "Document",
+  "title": "Fundamentals of Systems Engineering: Preliminary Design Review (PDR) Package and Presentation",
+  "uid": "5aa0cf42-6822-3a0a-3a20-2d88b8bf661c",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "16-842-fundamentals-of-systems-engineering-fall-2015"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "16-842-fundamentals-of-systems-engineering-fall-2015"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

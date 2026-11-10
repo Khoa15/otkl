@@ -1,0 +1,21 @@
+{
+  "content": "<p>An illustration showing the double helix structure of DNA</p>\n",
+  "content_type": "resource",
+  "description": "An illustration showing the double helix structure of DNA",
+  "draft": false,
+  "file": "/courses/7-01sc-fundamentals-of-biology-fall-2011/533499c2943939be949d7aed93782793_7-01scf11.jpg",
+  "file_size": 70027,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "An illustration showing the double helix structure of DNA (Image courtesy of the {{% resource_link \"67951534-2864-4f1b-8fbc-02c011158914\" \"National Human Genome Research Institute\" %}}).",
+    "credit": "Image courtesy of NHGRI",
+    "image-alt": "An illustration showing the double helix structure of DNA"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "7-01scf11",
+  "uid": "533499c2-9439-39be-949d-7aed93782793"
+}

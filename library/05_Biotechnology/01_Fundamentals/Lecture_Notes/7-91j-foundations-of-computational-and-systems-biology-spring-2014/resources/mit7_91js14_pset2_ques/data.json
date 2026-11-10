@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This file contains the information regarding questions- BWT, library complexity, RNA-seq, genome assembly, motifs, multiple hypothesis testing.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains the information regarding questions- BWT, library complexity, RNA-seq, genome assembly, motifs, multiple hypothesis testing.",
+  "draft": false,
+  "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/429b782e48f79a33a6ce938e18f40d49_MIT7_91JS14_pset2_ques.pdf",
+  "file_size": 339094,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "215564a7-c7bc-a140-74c5-d9096008982b",
+  "resourcetype": "Document",
+  "title": "Problem Set 2: Questions- BWT, Library complexity, RNA-seq, Genome assembly, Motifs, Multiple hypothesis testing",
+  "uid": "429b782e-48f7-9a33-a6ce-938e18f40d49",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "7-91j-foundations-of-computational-and-systems-biology-spring-2014"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "7-91j-foundations-of-computational-and-systems-biology-spring-2014"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

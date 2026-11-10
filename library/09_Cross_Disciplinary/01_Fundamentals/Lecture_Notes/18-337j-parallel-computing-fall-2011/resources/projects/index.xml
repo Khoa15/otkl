@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on MIT OpenCourseWare</title>
+    <link>/resources/projects/</link>
+    <description>Recent content in Projects on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Parallel Fast Fourier Transform implementations in Julia Report</title>
+      <link>/resources/mit18_337jf11_fft_rpt/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_337jf11_fft_rpt/data.json</guid>
+      <description>&lt;p&gt;Example of student work: student project report on parallel fast Fourier transform implementations in Julia.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Parallel FFT in Julia</title>
+      <link>/resources/mit18_337jf11_fft_pres/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_337jf11_fft_pres/data.json</guid>
+      <description>&lt;p&gt;Example of student work: student project presentation on parallel fast Fourier transform implementations in Julia.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Parallel_FFT</title>
+      <link>/resources/parallel_fft/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/parallel_fft/data.json</guid>
+      <description>&lt;p&gt;Example of student work: student project code on parallel fast Fourier transform implementations in Julia.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>/pages/projects/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/projects/data.json</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;../../pages/projects/index.html#1&#34;&gt;Kinds of Projects&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../pages/projects/index.html#2&#34;&gt;Julia-related Project Ideas&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../pages/projects/index.html#3&#34;&gt;Modern Parallel Linear Algebra Project Ideas&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../pages/projects/index.html#4&#34;&gt;Parallel Algorithms, Libraries Project Ideas&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../pages/projects/index.html#5&#34;&gt;Abstractions and Infrastructure Project Ideas&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../pages/projects/index.html#6&#34;&gt;Tools&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../pages/projects/index.html#7&#34;&gt;Sample Student Projects&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;hahahugoshortcode31s7hbhbkinds-of-projects&#34;&gt;&#xA;&#xA;&lt;a name=&#34;1&#34;&gt;&lt;/a&gt;Kinds of Projects&lt;/h3&gt;&#xA;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;problem X on parallel architecture/environment Y&lt;/li&gt;&#xA;&lt;li&gt;parallel algorithm for X&lt;/li&gt;&#xA;&lt;li&gt;performance comparisons&#xA;&lt;ul&gt;&#xA;&lt;li&gt;what is best algorithm in environment X?&lt;/li&gt;&#xA;&lt;li&gt;or in input data case X?&lt;/li&gt;&#xA;&lt;li&gt;how good is, e.g. MPI message latency and could it be better?&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;debugging and monitoring parallel programs&lt;/li&gt;&#xA;&lt;li&gt;parallel abstractions, platforms (e.g. MapReduce)&lt;/li&gt;&#xA;&lt;li&gt;resource sharing infrastructure&lt;/li&gt;&#xA;&lt;li&gt;cloud infrastructure&lt;/li&gt;&#xA;&lt;li&gt;making technical computing more fun&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;    &lt;h3 id=&#34;hahahugoshortcode31s8hbhbjulia-related-project-ideas&#34;&gt;&#xA;&#xA;&lt;a name=&#34;2&#34;&gt;&lt;/a&gt;Julia-related Project Ideas&lt;/h3&gt;&#xA;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Can use as an implementation language&#xA;&lt;ul&gt;&#xA;&lt;li&gt;many parallel algorithms are likely to be much easier in Julia than MPI&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Or work on the platform itself&#xA;&lt;ul&gt;&#xA;&lt;li&gt;whole parallel computing system written in Julia, quite compact&lt;/li&gt;&#xA;&lt;li&gt;parallel computing base: 1600 lines (multi.j)&lt;/li&gt;&#xA;&lt;li&gt;distributed arrays: 762 lines&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;    &lt;h3 id=&#34;hahahugoshortcode31s9hbhbmodern-parallel-linear-algebra-project-ideas&#34;&gt;&#xA;&#xA;&lt;a name=&#34;3&#34;&gt;&lt;/a&gt;Modern Parallel Linear Algebra Project Ideas&lt;/h3&gt;&#xA;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;LU without block-cyclic&lt;/li&gt;&#xA;&lt;li&gt;LU with dynamic # of CPUs&lt;/li&gt;&#xA;&lt;li&gt;new SVD algorithm&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;    &lt;h3 id=&#34;hahahugoshortcode31s10hbhbparallel-algorithms-libraries-project-ideas&#34;&gt;&#xA;&#xA;&lt;a name=&#34;4&#34;&gt;&lt;/a&gt;Parallel Algorithms, Libraries Project Ideas&lt;/h3&gt;&#xA;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;optimization&lt;/li&gt;&#xA;&lt;li&gt;numerical integration&lt;/li&gt;&#xA;&lt;li&gt;multigrid&lt;/li&gt;&#xA;&lt;li&gt;parallel data structures other than arrays&#xA;&lt;ul&gt;&#xA;&lt;li&gt;graphs, tables, sparse arrays&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;    &lt;h3 id=&#34;hahahugoshortcode31s11hbhbabstractions-and-infrastructure-project-ideas&#34;&gt;&#xA;&#xA;&lt;a name=&#34;5&#34;&gt;&lt;/a&gt;Abstractions and Infrastructure Project Ideas&lt;/h3&gt;&#xA;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;a MapReduce or dataflow framework in Julia&lt;/li&gt;&#xA;&lt;li&gt;some other highly-reusable parallel computation&lt;/li&gt;&#xA;&lt;li&gt;high-level EC2 interface&lt;/li&gt;&#xA;&lt;li&gt;storage&#xA;&lt;ul&gt;&#xA;&lt;li&gt;persistent distributed arrays&lt;/li&gt;&#xA;&lt;li&gt;integrate a distributed FS (HDFS, scidb, sector)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;cluster sharing tools&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;    &lt;h3 id=&#34;hahahugoshortcode31s12hbhbtools&#34;&gt;&#xA;&#xA;&lt;a name=&#34;6&#34;&gt;&lt;/a&gt;Tools&lt;/h3&gt;&#xA;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;What would make technical computing more fun?&lt;/li&gt;&#xA;&lt;li&gt;Watching/choreographing parallel computations&lt;/li&gt;&#xA;&lt;li&gt;Social coding features&#xA;&lt;ul&gt;&#xA;&lt;li&gt;collaboration&lt;/li&gt;&#xA;&lt;li&gt;shared &amp;ldquo;wisdom&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Visualization&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;    &lt;h3 id=&#34;hahahugoshortcode31s13hbhbsample-student-final-projects&#34;&gt;&#xA;&#xA;&lt;a name=&#34;7&#34;&gt;&lt;/a&gt;Sample Student Final Projects&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Three of the students in the class have provided their final projects for publication on OCW and they are presented here with their permission.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Replica-Exchange Molecular Dynamics on Hadoop Report</title>
+      <link>/resources/mit18_337jf11_hadoop_rpt/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_337jf11_hadoop_rpt/data.json</guid>
+      <description>&lt;p&gt;Example of student work: student project report on replica-exchange molecular dynamics on Hadoop.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Social Coding: A Case Study with Julia Report</title>
+      <link>/resources/mit18_337jf11_social_rpt/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_337jf11_social_rpt/data.json</guid>
+      <description>&lt;p&gt;Example of student work: student report presentation on social coding with Julia.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Social Coding: A Case Study with Julia Report Represent</title>
+      <link>/resources/mit18_337jf11_social_pres/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit18_337jf11_social_pres/data.json</guid>
+      <description>&lt;p&gt;Example of student work: student project presentation on social coding with Julia.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

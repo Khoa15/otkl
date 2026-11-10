@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/6afa43439fd1599fdf6afc8a66641e30_1_6.jpg",
+  "file_size": 5469,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from ‘Introduction to Linear Algebra’ by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Column Space and Nullspace",
+  "parent_type": "CourseSection",
+  "parent_uid": "bb16f055-bb0c-2fa6-b00b-24a82c138877",
+  "resourcetype": "Image",
+  "title": "1_6.jpg",
+  "uid": "6afa4343-9fd1-599f-df6a-fc8a66641e30",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "content": "<p>Thumbnail image accompanying a video recitation on finite elements.</p>\n",
+  "content_type": "resource",
+  "description": "Thumbnail image accompanying a video recitation on finite elements.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/13aee5f90d4af53c0109d871b1f41efd_r8.jpg",
+  "file_size": 2716,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Recitation 8",
+  "uid": "13aee5f9-0d4a-f53c-0109-d871b1f41efd",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

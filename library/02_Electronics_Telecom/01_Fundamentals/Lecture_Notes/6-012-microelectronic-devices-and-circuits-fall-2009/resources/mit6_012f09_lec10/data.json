@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture presentation on the three-terminal MOS capacitor, MOSFETs, and gradual channel approximation (GCA) using DA and ignoring subthreshold carriers.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture presentation on the three-terminal MOS capacitor, MOSFETs, and gradual channel approximation (GCA) using DA and ignoring subthreshold carriers.",
+  "draft": false,
+  "file": "/courses/6-012-microelectronic-devices-and-circuits-fall-2009/2a94c4436b68993a04ad47bda22eb067_MIT6_012F09_lec10.pdf",
+  "file_size": 638402,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "e4c7985c-766a-2f9c-5bac-08869dd8bade",
+  "resourcetype": "Document",
+  "title": "Lecture 10 - MOS Caps II; MOSFETs I",
+  "uid": "2a94c443-6b68-993a-04ad-47bda22eb067"
+}

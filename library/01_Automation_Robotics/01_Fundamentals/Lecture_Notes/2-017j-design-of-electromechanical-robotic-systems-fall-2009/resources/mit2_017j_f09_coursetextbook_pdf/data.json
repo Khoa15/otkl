@@ -1,0 +1,40 @@
+{
+  "audience": [],
+  "body": "",
+  "content": "<p>The key ingredient in this course - and what differentiates it from many other related courses - is the uncertainty that is encountered whenever a built system is actually installed in the field. We may find uncertainty in the operating environment, whether it is a windy airspace, a bumpy road, or an obstacle-strewn factory floor. We also find uncertainty in the parameters that define a system, for example, masses and stiffnesses and dampings, torque constants, and physical size. Finally, since complex electromechanical systems involve sensors and actuators, we have to acknowledge uncertainty in measurement and feedback control. Ultimately, such systems are meant to accomplish specific objectives, and the designer&rsquo;s task is to achieve robustness, performance, and cost-effectiveness in the presence of uncertainty.</p>\n<p> </p>\n<p>The notes given here are terse but intended to be self-contained. The goal is to provide fundamental relations useful for modeling and creating systems that have to operate with uncertainty. As a motivation, we focus a lot of attention on ocean waves as a prototypical random environment, and carry out simplified, linear motion and force analysis for marine structures and vehicles. A separate compilation of solved homework problems is also available on the <a href=\"../../pages/assignments/index.html\">assignments</a> page.</p>\n<p> </p>\n<p>This text guides learners to design practical solutions that hold up amid variability and risk. Through grounded methods and cases, it builds the ability to quantify uncertainty and make defensible engineering decisions.</p>\n<p> </p>\n<p><strong>Key Topics</strong></p>\n<ul>\n<li>Linear systems</li>\n<li>Probability</li>\n<li>Random processes</li>\n<li>Stochastic simulation</li>\n<li>Control loopshaping</li>\n</ul>\n<p>Hover, Franz S., and Michael S. Triantafyllou. <em>System Design for Uncertainty</em>. Cambridge, MA: MIT Center for Ocean Engineering, 2010. (Courtesy of Michael S. Triantafyllou. Used with permission.)</p>\n",
+  "content_type": "resource",
+  "draft": false,
+  "file": "/courses/2-017j-design-of-electromechanical-robotic-systems-fall-2009/mit2_017j_f09_coursetextbook.pdf",
+  "file_size": 4093318,
+  "file_type": "application/pdf",
+  "gdrive_url": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Open Textbooks"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "resourcetype": "Document",
+  "title": "System Design for Uncertainty",
+  "uid": "6ed6e4ce-964a-49cb-8cfa-34cbfc363919",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

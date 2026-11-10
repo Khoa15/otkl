@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Supporting file for a problem set: the file contains a (nearly) complete implementation of the weight perturbation algorithm for the cart-pole swing-up task.</p>\n",
+  "content_type": "resource",
+  "description": "Supporting file for a problem set: the file contains a (nearly) complete implementation of the weight perturbation algorithm for the cart-pole swing-up task.",
+  "draft": false,
+  "file": "/courses/6-832-underactuated-robotics-spring-2009/0fd15e22412132efa4ba98c7f1a7e7f5_cartpole_wp.m",
+  "file_size": 5709,
+  "file_type": "text/plain",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "04c58ca0-0560-b9d1-6ca6-2691ea66babf",
+  "resourcetype": "Other",
+  "title": "Cartpole WP",
+  "uid": "0fd15e22-4121-32ef-a4ba-98c7f1a7e7f5",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

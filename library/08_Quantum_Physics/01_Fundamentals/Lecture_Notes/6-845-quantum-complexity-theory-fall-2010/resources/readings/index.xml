@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;h3 id=&#34;textbooks&#34;&gt;Textbooks&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;The course has no official textbook. However, students may find the following books helpful:&lt;/p&gt;&#xA;&lt;p&gt;Nielsen, Michael, and Issac Chuang. &lt;em&gt;Quantum Computation and Quantum Information&lt;/em&gt;. Cambridge University Press, 2011. ISBN: 9781107002173.&lt;/p&gt;&#xA;&lt;p&gt;Mermin, David. &lt;em&gt;Quantum Computer Science: An Introduction&lt;/em&gt;. Cambridge University Press, 2007. ISBN: 9780521876582.&lt;/p&gt;&#xA;&lt;p&gt;Arora, Sanjeev, and Boaz Barak. &lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;http://www.cs.princeton.edu/theory/complexity/&#34;  aria-label=&#34;Computational Complexity: A Modern Approach (opens in a new tab)&#34;  &gt;&lt;em&gt;Computational Complexity: A Modern Approach&lt;/em&gt;&lt;/a&gt;. Cambridge University Press, 2009. ISBN: 9780521424264.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+{
+  "content": "<p>Thumbnail image accompanying a video lecture on the fast Fourier transform and convolution.</p>\n",
+  "content_type": "resource",
+  "description": "Thumbnail image accompanying a video lecture on the fast Fourier transform and convolution.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/20b0c228f7ca902a53e5b62cda47412a_31.jpg",
+  "file_size": 2736,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Lecture 31",
+  "uid": "20b0c228-f7ca-902a-53e5-b62cda47412a",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

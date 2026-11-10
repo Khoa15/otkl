@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Set Solutions on MIT OpenCourseWare</title>
+    <link>/resources/problem-set-solutions/</link>
+    <description>Recent content in Problem Set Solutions on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-set-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ps1_bio_answers_2002.pdf</title>
+      <link>/resources/ps1_bio_answers_2002/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps1_bio_answers_2002/data.json</guid>
+      <description>&lt;p&gt;Problem set 1 solutions: Biology&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps1_mathematica_answers_2002.nb</title>
+      <link>/resources/ps1_mathematica_answers_2002/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps1_mathematica_answers_2002/data.json</guid>
+      <description>&lt;p&gt;Warm-up answers&#xA;Mathematica notebook file&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps1_perl_answers_2002.pl</title>
+      <link>/resources/ps1_perl_answers_2002/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps1_perl_answers_2002/data.json</guid>
+      <description>&lt;p&gt;The Central Dogma: Solutions&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps1_reading_frames.pl</title>
+      <link>/resources/ps1_reading_frames/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps1_reading_frames/data.json</guid>
+      <description>&lt;p&gt;Perl Bonus&#xA;Perl script&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps2answers2002.pdf</title>
+      <link>/resources/ps2answers2002/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps2answers2002/data.json</guid>
+      <description>&lt;p&gt;Problem Set 2 Solutions&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps3answers2002.pdf</title>
+      <link>/resources/ps3answers2002/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps3answers2002/data.json</guid>
+      <description>&lt;p&gt;Problem Set 3 Solutions&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps4answers2002.pdf</title>
+      <link>/resources/ps4answers2002/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps4answers2002/data.json</guid>
+      <description>&lt;p&gt;Problem Set 4 Solutions&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

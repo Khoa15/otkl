@@ -1,0 +1,21 @@
+{
+  "content": "<p>The BQP (bounded-error, quantum, polynomial time) class of problems. Adapted from Scientific American image. (Image by MIT OpenCourseWare.)</p>\n",
+  "content_type": "resource",
+  "description": "The BQP (bounded-error, quantum, polynomial time) class of problems. Adapted from Scientific American image. (Image by MIT OpenCourseWare.)\r\n\r\n",
+  "draft": false,
+  "file": "/courses/6-845-quantum-complexity-theory-fall-2010/acdd93c4cbe49235acf0eaf834d3213d_6-845f10.jpg",
+  "file_size": 52425,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "The BQP (bounded-error, quantum, polynomial time) class of problems. Adapted from Aaronson, Scott. \"The limits of quantum computers.\" _Scientific American_ 298, no. 3 (2008): 50-57. (Image by MIT OpenCourseWare.)",
+    "credit": "",
+    "image-alt": "Diagram showing how the BQP class of problems relates to P, NP, and PSPACE."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "6-845f10.jpg",
+  "uid": "acdd93c4-cbe4-9235-acf0-eaf834d3213d"
+}

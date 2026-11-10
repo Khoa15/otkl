@@ -1,0 +1,27 @@
+{
+  "content": "<p>A bidirectional DC/DC converter for automotive applications. (Image by David Perreault.)</p>\n",
+  "content_type": "resource",
+  "description": "A bidirectional DC/DC converter for automotive applications. (Image by David Perreault.)",
+  "draft": false,
+  "file": "/courses/6-334-power-electronics-spring-2007/5d4e39a4b370838f9b55ecec98ec9e81_6-334s07.jpg",
+  "file_size": 57126,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "A bidirectional DC/DC converter for automotive applications. (Image by David Perreault.)",
+    "credit": "",
+    "image-alt": "A bidirectional DC/DC converter for automotive applications."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "6-334s07.jpg",
+  "uid": "5d4e39a4-b370-838f-9b55-ecec98ec9e81",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

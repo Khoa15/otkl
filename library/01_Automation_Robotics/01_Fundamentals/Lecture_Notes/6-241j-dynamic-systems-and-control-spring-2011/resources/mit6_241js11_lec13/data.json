@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains information related to I/O stability.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information related to I/O stability.",
+  "draft": false,
+  "file": "/courses/6-241j-dynamic-systems-and-control-spring-2011/1bd200633247a44fbdbd6309441631b3_MIT6_241JS11_lec13.pdf",
+  "file_size": 294563,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "ee668e05-ff75-8895-0bb1-7bddd4117378",
+  "resourcetype": "Document",
+  "title": "MIT6_241JS11_lec13.pdf",
+  "uid": "1bd20063-3247-a44f-bdbd-6309441631b3"
+}

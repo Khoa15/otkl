@@ -1,0 +1,5107 @@
+1
+00:00:00,040 --> 00:00:02,460
+The following content is
+provided under a Creative
+
+2
+00:00:02,460 --> 00:00:03,870
+Commons license.
+
+3
+00:00:03,870 --> 00:00:06,910
+Your support will help MIT
+OpenCourseWare continue to
+
+4
+00:00:06,910 --> 00:00:10,560
+offer high quality educational
+resources for free.
+
+5
+00:00:10,560 --> 00:00:13,460
+To make a donation or view
+additional materials from
+
+6
+00:00:13,460 --> 00:00:17,390
+hundreds of MIT courses, visit
+MIT OpenCourseWare at
+
+7
+00:00:17,390 --> 00:00:18,640
+ocw.mit.edu.
+
+8
+00:00:21,295 --> 00:00:23,590
+PROFESSOR: Some funny things
+happened on the way to the
+
+9
+00:00:23,590 --> 00:00:27,690
+moon, as a takeoff of Funny
+Things Happened on
+
+10
+00:00:27,690 --> 00:00:29,730
+the Way to the Forum.
+
+11
+00:00:29,730 --> 00:00:34,220
+And probably not too
+many people in this
+
+12
+00:00:34,220 --> 00:00:35,660
+audience know that.
+
+13
+00:00:38,630 --> 00:00:49,020
+Also, in particular, a thing
+that's happening this year is
+
+14
+00:00:49,020 --> 00:00:54,450
+the 40th anniversary of
+the lunar landing.
+
+15
+00:00:54,450 --> 00:00:57,660
+And we're going to
+talk a little bit
+
+16
+00:00:57,660 --> 00:00:59,840
+about how MIT got involved.
+
+17
+00:00:59,840 --> 00:01:03,870
+And let's see if we can
+move this along.
+
+18
+00:01:08,040 --> 00:01:15,920
+Sputnik was about the size of a
+large, maybe oversized beach
+
+19
+00:01:15,920 --> 00:01:23,360
+ball, or a basketball.
+
+20
+00:01:23,360 --> 00:01:34,800
+And it was launched in
+June, of 1957, or
+
+21
+00:01:34,800 --> 00:01:36,730
+later, maybe not June.
+
+22
+00:01:36,730 --> 00:01:38,730
+I thought I had it
+on the screen.
+
+23
+00:01:38,730 --> 00:01:46,150
+But anyhow, if it hadn't been
+for Sputnik, I doubt if
+
+24
+00:01:46,150 --> 00:01:50,360
+anything would have happened in
+terms of the United States
+
+25
+00:01:50,360 --> 00:01:54,170
+getting interested in
+the space program.
+
+26
+00:01:54,170 --> 00:01:59,680
+So we have to have a lot of
+gratitude for the Russians for
+
+27
+00:01:59,680 --> 00:02:00,730
+doing this.
+
+28
+00:02:00,730 --> 00:02:06,000
+I remember Wernher von Braun in
+a meeting was asked, this
+
+29
+00:02:06,000 --> 00:02:10,770
+was after maybe six months of
+the program, says, "Wouldn't
+
+30
+00:02:10,770 --> 00:02:13,780
+we do a lot better if we
+collaborated with the
+
+31
+00:02:13,780 --> 00:02:17,810
+Russians?" And he, without
+hesitation, said, "If there
+
+32
+00:02:17,810 --> 00:02:20,330
+were collaboration with the
+Russians, there wouldn't be a
+
+33
+00:02:20,330 --> 00:02:24,990
+program in either country." So
+it had all to do with the
+
+34
+00:02:24,990 --> 00:02:27,380
+race, the race for the moon.
+
+35
+00:02:29,950 --> 00:02:34,760
+It was October 4,
+I'm sorry, 1957.
+
+36
+00:02:34,760 --> 00:02:39,810
+Right after the lunar landing,
+Dave Hoag and I were invited
+
+37
+00:02:39,810 --> 00:02:46,080
+to the Soviet Union as their
+guests, all expenses paid.
+
+38
+00:02:46,080 --> 00:02:49,400
+It was really quite
+an experience.
+
+39
+00:02:49,400 --> 00:02:51,990
+And they gave us a good show.
+
+40
+00:02:51,990 --> 00:02:53,240
+Everywhere we went--
+
+41
+00:02:58,970 --> 00:03:01,250
+we had some movies of
+the lunar landing.
+
+42
+00:03:01,250 --> 00:03:08,690
+And as soon as they knew we had
+movies, they wanted to--
+
+43
+00:03:08,690 --> 00:03:12,170
+they took them and set
+up their screen.
+
+44
+00:03:12,170 --> 00:03:14,970
+If the didn't have a screen,
+they'd put up a bed sheet.
+
+45
+00:03:14,970 --> 00:03:18,240
+And they oohed and aahed in all
+of the right places for
+
+46
+00:03:18,240 --> 00:03:19,340
+the landing.
+
+47
+00:03:19,340 --> 00:03:22,400
+And it was really quite
+an experience.
+
+48
+00:03:22,400 --> 00:03:26,840
+And also they asked us, when
+will the Americans go to the
+
+49
+00:03:26,840 --> 00:03:28,290
+moon again?
+
+50
+00:03:28,290 --> 00:03:30,200
+Well that was Apollo 14.
+
+51
+00:03:30,200 --> 00:03:37,120
+And the date was sometime
+in November.
+
+52
+00:03:37,120 --> 00:03:45,710
+And I was always grateful that
+it went on time and on that
+
+53
+00:03:45,710 --> 00:03:52,020
+date, because the Russians never
+gave any indication of
+
+54
+00:03:52,020 --> 00:03:55,970
+what they were planning on doing
+until it was all over.
+
+55
+00:03:55,970 --> 00:03:58,480
+And then they would
+take bows, or they
+
+56
+00:03:58,480 --> 00:04:00,230
+would hide the results.
+
+57
+00:04:00,230 --> 00:04:07,740
+But anyhow, I happened to
+buy this little device.
+
+58
+00:04:07,740 --> 00:04:09,920
+It's actually a music box.
+
+59
+00:04:09,920 --> 00:04:13,360
+It plays the Russian
+national anthem.
+
+60
+00:04:13,360 --> 00:04:15,730
+It used to, but it's all rusted
+out in there now.
+
+61
+00:04:15,730 --> 00:04:18,399
+It's been around a long time.
+
+62
+00:04:18,399 --> 00:04:21,899
+And when we were in Moscow,
+we went to the
+
+63
+00:04:21,899 --> 00:04:24,380
+GUM department store.
+
+64
+00:04:24,380 --> 00:04:28,550
+And I saw this there
+and bought it.
+
+65
+00:04:28,550 --> 00:04:30,190
+I'm so glad that I did.
+
+66
+00:04:30,190 --> 00:04:32,010
+And I brought it home.
+
+67
+00:04:38,050 --> 00:04:41,020
+1957 is particularly interesting
+to me, it's
+
+68
+00:04:41,020 --> 00:04:51,150
+because my son, my youngest son,
+was born in that year.
+
+69
+00:04:51,150 --> 00:04:56,280
+And so he really became--
+
+70
+00:04:56,280 --> 00:05:02,490
+everything that happened in
+space, he was right there to
+
+71
+00:05:02,490 --> 00:05:05,670
+watch it on TV, or whatever
+news there was.
+
+72
+00:05:05,670 --> 00:05:08,760
+And he's still much
+like that today.
+
+73
+00:05:12,530 --> 00:05:17,920
+This the MIT Instrumentation
+Laboratory responded to--
+
+74
+00:05:17,920 --> 00:05:24,390
+we're going to go into space,
+so why don't we design a
+
+75
+00:05:24,390 --> 00:05:32,820
+spacecraft which will indeed
+take us, not to the moon-- we
+
+76
+00:05:32,820 --> 00:05:34,540
+aren't going to think about the
+moon-- but actually into
+
+77
+00:05:34,540 --> 00:05:37,780
+interplanetary space.
+
+78
+00:05:37,780 --> 00:05:46,420
+In 1957, when the Sputnik
+was flying, the MIT
+
+79
+00:05:46,420 --> 00:05:51,665
+Instrumentation Laboratory
+was--
+
+80
+00:05:51,665 --> 00:05:55,060
+that building on the
+right is the
+
+81
+00:05:55,060 --> 00:05:58,980
+Whittemore Shoe Polish factory.
+
+82
+00:05:58,980 --> 00:06:04,730
+And the one on the left is the
+old Hood's Milk factory.
+
+83
+00:06:04,730 --> 00:06:08,780
+And the railroad tracks there
+are the same tracks that cross
+
+84
+00:06:08,780 --> 00:06:11,690
+Mass Avenue today.
+
+85
+00:06:11,690 --> 00:06:14,180
+The buildings, of course,
+are gone.
+
+86
+00:06:14,180 --> 00:06:19,190
+And Doc Draper's office is
+indicated as a little, the
+
+87
+00:06:19,190 --> 00:06:21,940
+corner of these warehouses.
+
+88
+00:06:21,940 --> 00:06:27,510
+So we didn't really have
+plush surroundings.
+
+89
+00:06:27,510 --> 00:06:34,480
+The thing we wanted to do was
+to build a Mars probe.
+
+90
+00:06:34,480 --> 00:06:38,770
+We would like to launch
+this spacecraft.
+
+91
+00:06:38,770 --> 00:06:47,670
+And it would coast to Mars and
+pass close by, take a picture,
+
+92
+00:06:47,670 --> 00:06:54,500
+and then return to Earth so we
+could collect the photograph,
+
+93
+00:06:54,500 --> 00:06:58,040
+not a whole series of
+photographs, just one picture,
+
+94
+00:06:58,040 --> 00:07:01,990
+because we didn't want to have
+all that time and effort
+
+95
+00:07:01,990 --> 00:07:11,500
+invested and find that the
+wheel which would change
+
+96
+00:07:11,500 --> 00:07:13,870
+pictures was screwed up.
+
+97
+00:07:13,870 --> 00:07:17,390
+So it was just the simplest
+thing to do, would be to just
+
+98
+00:07:17,390 --> 00:07:20,000
+have it open the shutter
+and close it.
+
+99
+00:07:20,000 --> 00:07:23,490
+And that was the only thing
+that had to be done.
+
+100
+00:07:23,490 --> 00:07:27,810
+And we'd do that at the point
+of closest approach to Mars.
+
+101
+00:07:30,380 --> 00:07:36,180
+The round trip from Earth to
+Mars and return, there it is.
+
+102
+00:07:36,180 --> 00:07:37,980
+We were serious about this.
+
+103
+00:07:37,980 --> 00:07:42,680
+We were thinking of launching
+it in December of 1962.
+
+104
+00:07:42,680 --> 00:07:49,100
+And we would intercept
+Mars on February 15.
+
+105
+00:07:49,100 --> 00:07:52,870
+And then we would pass
+by the planet.
+
+106
+00:07:52,870 --> 00:07:55,290
+It's not a two-dimensional
+problem.
+
+107
+00:07:55,290 --> 00:07:59,300
+This is the relative motion of
+the spacecraft with respect to
+
+108
+00:07:59,300 --> 00:08:07,410
+the planet during the
+planetary contact.
+
+109
+00:08:10,130 --> 00:08:13,130
+Then after that, we have to
+get back to the earth.
+
+110
+00:08:13,130 --> 00:08:20,650
+And unfortunately, we had to
+make two trips around the sun
+
+111
+00:08:20,650 --> 00:08:22,120
+to get back.
+
+112
+00:08:22,120 --> 00:08:25,650
+And so the total trip time was
+more than three years.
+
+113
+00:08:25,650 --> 00:08:30,780
+That did not play very well with
+those who are interested
+
+114
+00:08:30,780 --> 00:08:33,760
+in getting some attention
+for the work that the
+
+115
+00:08:33,760 --> 00:08:37,080
+laboratory was doing.
+
+116
+00:08:37,080 --> 00:08:41,440
+But they did get some.
+
+117
+00:08:41,440 --> 00:08:43,089
+This is a picture from
+the newspaper.
+
+118
+00:08:45,880 --> 00:08:53,120
+And I'm on the right hand side,
+a younger version of me.
+
+119
+00:08:53,120 --> 00:08:58,990
+And there's Hal Laning and Milt
+Trageser, all of whom
+
+120
+00:08:58,990 --> 00:09:03,610
+were involved in this program.
+
+121
+00:09:03,610 --> 00:09:09,070
+And it said, this project
+may solve the
+
+122
+00:09:09,070 --> 00:09:12,040
+life on Mars mystery.
+
+123
+00:09:12,040 --> 00:09:14,260
+But it didn't.
+
+124
+00:09:14,260 --> 00:09:18,670
+In fact, it did do
+a lot of things.
+
+125
+00:09:18,670 --> 00:09:22,050
+But it never flew.
+
+126
+00:09:22,050 --> 00:09:26,610
+The Mars probe involved always
+a three year round trip to
+
+127
+00:09:26,610 --> 00:09:29,290
+photograph the planet.
+
+128
+00:09:29,290 --> 00:09:33,670
+And we had to have onboard,
+self-contained navigation.
+
+129
+00:09:33,670 --> 00:09:39,400
+For three years, this little
+vehicle was going to be
+
+130
+00:09:39,400 --> 00:09:43,080
+cruising and making measurements
+to determine
+
+131
+00:09:43,080 --> 00:09:47,320
+where it was and when to make
+velocity corrections, all done
+
+132
+00:09:47,320 --> 00:09:49,230
+on board the spacecraft --
+
+133
+00:09:49,230 --> 00:09:52,590
+unheard of at that time.
+
+134
+00:09:52,590 --> 00:09:55,780
+And after the three-year trip,
+it would splash down in the
+
+135
+00:09:55,780 --> 00:09:57,360
+Gulf of Mexico.
+
+136
+00:09:57,360 --> 00:10:04,520
+And this little model, which is
+a good size, is hanging in
+
+137
+00:10:04,520 --> 00:10:05,770
+the Draper Laboratory.
+
+138
+00:10:08,240 --> 00:10:10,950
+I used to know where it was,
+but then they moved it.
+
+139
+00:10:10,950 --> 00:10:13,320
+But they said, it's somewhere
+in the building.
+
+140
+00:10:13,320 --> 00:10:16,620
+So if you want to take a look
+at it, and you can get into
+
+141
+00:10:16,620 --> 00:10:23,370
+the Draper Lab building,
+then you can see this.
+
+142
+00:10:23,370 --> 00:10:29,880
+The big red, that's the entry
+vehicle, which was, in it was
+
+143
+00:10:29,880 --> 00:10:37,900
+the film of the picture
+that we took of Mars.
+
+144
+00:10:37,900 --> 00:10:42,750
+The major problem was how to
+design a small computer and
+
+145
+00:10:42,750 --> 00:10:48,970
+its memory in 1960 to survive
+a three year round trip to
+
+146
+00:10:48,970 --> 00:10:54,620
+Mars, with no data uplink
+and no inflight service.
+
+147
+00:10:54,620 --> 00:10:57,430
+That doesn't mean
+what you think.
+
+148
+00:10:57,430 --> 00:10:59,870
+Inflight service means
+if something breaks,
+
+149
+00:10:59,870 --> 00:11:00,980
+you can't fix it.
+
+150
+00:11:00,980 --> 00:11:04,320
+It's got to be perfect.
+
+151
+00:11:04,320 --> 00:11:11,900
+But then came 1961.
+
+152
+00:11:11,900 --> 00:11:14,290
+Alan Shepard was ready
+to fly the
+
+153
+00:11:14,290 --> 00:11:18,350
+Mercury-Redstone on May 5 of 1961.
+
+154
+00:11:18,350 --> 00:11:21,770
+It was the first American in
+space, not the first human
+
+155
+00:11:21,770 --> 00:11:25,740
+being in space, the
+first American.
+
+156
+00:11:25,740 --> 00:11:30,450
+The Russians had already
+capitalized on their Sputnik,
+
+157
+00:11:30,450 --> 00:11:36,160
+and they had a man in space
+somewhat before we did.
+
+158
+00:11:36,160 --> 00:11:44,215
+And you look at the picture,
+there's the blockhouse.
+
+159
+00:11:44,215 --> 00:11:48,010
+It looks like about the
+size of a garage.
+
+160
+00:11:48,010 --> 00:11:55,280
+And the space vehicle, not very
+big, all it was going to
+
+161
+00:11:55,280 --> 00:12:01,050
+do was just fly a 20-minute
+flight and land in the ocean
+
+162
+00:12:01,050 --> 00:12:03,190
+and be fished out.
+
+163
+00:12:03,190 --> 00:12:07,620
+That was what we were going to
+do, when in fact, the Russians
+
+164
+00:12:07,620 --> 00:12:10,595
+were already putting
+men in orbit.
+
+165
+00:12:13,490 --> 00:12:29,080
+Now, I will never be as amazed
+that three weeks after Alan
+
+166
+00:12:29,080 --> 00:12:35,990
+Shepard made his flight, that
+John F. Kennedy said that he
+
+167
+00:12:35,990 --> 00:12:38,600
+believed that this nation
+should commit itself to
+
+168
+00:12:38,600 --> 00:12:42,180
+achieve the goal, before this
+decade is out, of landing a
+
+169
+00:12:42,180 --> 00:12:45,175
+man on the moon and returning
+him safely to Earth.
+
+170
+00:12:45,175 --> 00:12:50,990
+Now, that's pretty gutsy to do
+when your only success is a
+
+171
+00:12:50,990 --> 00:12:55,240
+20-minute splashdown in
+the Atlantic with one
+
+172
+00:12:55,240 --> 00:12:56,880
+person at the helm.
+
+173
+00:13:03,000 --> 00:13:06,940
+Now, 1961, let's look at some
+of the other things.
+
+174
+00:13:06,940 --> 00:13:12,400
+Alan Shepard's flight on May 5;
+May 25, President Kennedy's
+
+175
+00:13:12,400 --> 00:13:15,880
+message to the Congress
+and to the world.
+
+176
+00:13:15,880 --> 00:13:22,410
+And then on August 10, MIT is
+awarded the first NASA Prime
+
+177
+00:13:22,410 --> 00:13:23,910
+Contract for Apollo.
+
+178
+00:13:23,910 --> 00:13:27,180
+NASA had just barely
+been created.
+
+179
+00:13:27,180 --> 00:13:31,420
+And in response to President
+Kennedy's "we're going to go
+
+180
+00:13:31,420 --> 00:13:38,540
+to the moon," they gave
+the job to MIT.
+
+181
+00:13:42,850 --> 00:13:47,680
+That's pretty amazing when
+you think about it.
+
+182
+00:13:47,680 --> 00:13:53,740
+And we'll say a word more
+about that in a minute.
+
+183
+00:13:53,740 --> 00:14:01,240
+The Mars probe never flew, but
+the onboard computer did
+
+184
+00:14:01,240 --> 00:14:05,310
+evolve into becoming the Apollo
+guidance computer.
+
+185
+00:14:05,310 --> 00:14:08,710
+There was a computer that we
+had to have in our little
+
+186
+00:14:08,710 --> 00:14:13,790
+space probe, and that did
+evolve into the guidance
+
+187
+00:14:13,790 --> 00:14:19,430
+computer, the Apollo
+onboard computer,
+
+188
+00:14:19,430 --> 00:14:23,330
+for the lunar mission.
+
+189
+00:14:23,330 --> 00:14:25,660
+We moved into better quarters.
+
+190
+00:14:25,660 --> 00:14:30,800
+This is the home of the Apollo
+project from 1962 on.
+
+191
+00:14:30,800 --> 00:14:33,310
+That building no
+longer exists.
+
+192
+00:14:33,310 --> 00:14:40,200
+It was originally a storage
+warehouse for underwear.
+
+193
+00:14:40,200 --> 00:14:51,360
+And we took over the whole
+building, refurbished it, and
+
+194
+00:14:51,360 --> 00:14:56,670
+my office was on the other
+side of the building.
+
+195
+00:14:56,670 --> 00:15:01,680
+And it was on the corner.
+
+196
+00:15:01,680 --> 00:15:03,160
+It was a nice office.
+
+197
+00:15:03,160 --> 00:15:05,950
+Here's what the place
+looks like today.
+
+198
+00:15:08,700 --> 00:15:14,780
+This is the luxury waterfront
+condominiums that they made
+
+199
+00:15:14,780 --> 00:15:19,350
+long after the space
+program ended.
+
+200
+00:15:19,350 --> 00:15:24,350
+And the underwear factory or
+underwear warehouse was
+
+201
+00:15:24,350 --> 00:15:29,900
+replaced by these
+condominiums.
+
+202
+00:15:29,900 --> 00:15:34,080
+Now, MIT was chosen for the
+GN&C. And quite a big question
+
+203
+00:15:34,080 --> 00:15:42,620
+is "Why?" Well, Jim Webb, who
+was the administrator of NASA,
+
+204
+00:15:42,620 --> 00:15:44,880
+knew Doc Draper.
+
+205
+00:15:44,880 --> 00:15:49,730
+And this is Doc's version
+of what happened.
+
+206
+00:15:49,730 --> 00:15:54,620
+Jim Webb called Doc Draper on
+the telephone, says, "Doc," he
+
+207
+00:15:54,620 --> 00:15:57,730
+says, "Can you develop the
+guidance and navigation system
+
+208
+00:15:57,730 --> 00:16:00,530
+for Apollo?"
+
+209
+00:16:00,530 --> 00:16:03,000
+What would you say if
+you were Doc Draper.
+
+210
+00:16:03,000 --> 00:16:05,010
+You would say, "Yes,
+of course.
+
+211
+00:16:05,010 --> 00:16:09,330
+We'll do that." "When will it
+be ready?" "Well, when you
+
+212
+00:16:09,330 --> 00:16:13,650
+need it." (Laughter) That's
+a good schedule.
+
+213
+00:16:13,650 --> 00:16:16,840
+"And how do I know it will
+work?" And you say, "I will go
+
+214
+00:16:16,840 --> 00:16:21,210
+along and operate it for you."
+
+215
+00:16:21,210 --> 00:16:26,050
+Now that's the story that
+Doc always told.
+
+216
+00:16:26,050 --> 00:16:29,710
+And I believe it, because
+he did know Jim Webb.
+
+217
+00:16:29,710 --> 00:16:33,300
+Jim Webb was not a scientist.
+Jim Webb was good at getting
+
+218
+00:16:33,300 --> 00:16:35,050
+money out of Congress.
+
+219
+00:16:35,050 --> 00:16:36,030
+He was a lawyer.
+
+220
+00:16:36,030 --> 00:16:41,630
+And his job was to make sure
+that the Apollo program was
+
+221
+00:16:41,630 --> 00:16:44,230
+adequately funded.
+
+222
+00:16:44,230 --> 00:16:54,530
+Now, was it Doc Draper's phone
+call from Jim Webb, or was it
+
+223
+00:16:54,530 --> 00:16:55,480
+Bob Chilton's memo?
+
+224
+00:16:55,480 --> 00:16:58,910
+Bob Chilton worked for
+NASA all of his life.
+
+225
+00:16:58,910 --> 00:16:59,460
+He's retired.
+
+226
+00:16:59,460 --> 00:17:07,240
+He lives down in Texas, at Texas
+A&M. And I hear from him
+
+227
+00:17:07,240 --> 00:17:09,920
+once a year.
+
+228
+00:17:09,920 --> 00:17:13,960
+And here's what Bob
+Chilton did.
+
+229
+00:17:13,960 --> 00:17:17,390
+He wrote this memo to the Chief
+of the Flight Systems
+
+230
+00:17:17,390 --> 00:17:21,406
+Division in November 7, 1960.
+
+231
+00:17:21,406 --> 00:17:25,119
+He said, "Development of the
+onboard capability to
+
+232
+00:17:25,119 --> 00:17:29,260
+determine position and velocity
+by optical means is
+
+233
+00:17:29,260 --> 00:17:35,320
+important to the principle of
+onboard command for Apollo.
+
+234
+00:17:35,320 --> 00:17:40,060
+The Instrumentation Laboratory
+of MIT has shown a strong
+
+235
+00:17:40,060 --> 00:17:43,260
+interest in the problem of
+self-contained navigation.
+
+236
+00:17:43,260 --> 00:17:47,500
+The position and velocity
+determination schemes proposed
+
+237
+00:17:47,500 --> 00:17:50,940
+in the reference report by
+Battin and Laning called A
+
+238
+00:17:50,940 --> 00:17:55,280
+Recoverable Interplanetary Space
+Probe in 1959 are alike
+
+239
+00:17:55,280 --> 00:18:00,110
+in principle to that desired
+for Apollo."
+
+240
+00:18:00,110 --> 00:18:02,310
+At the time, Bob Chilton was
+the head of the Flight
+
+241
+00:18:02,310 --> 00:18:06,240
+Dynamics Branch at
+Langley Field.
+
+242
+00:18:09,860 --> 00:18:15,350
+Bob Chilton's memo, the memo
+was stamped Confidential.
+
+243
+00:18:15,350 --> 00:18:18,690
+Everything was classified in
+those days, and Bob gave me
+
+244
+00:18:18,690 --> 00:18:23,180
+his original carbon copy,
+which I still treasure.
+
+245
+00:18:23,180 --> 00:18:26,020
+Here we are sending men to the
+moon, and we had not even
+
+246
+00:18:26,020 --> 00:18:31,450
+invented a good copy machine.
+
+247
+00:18:31,450 --> 00:18:35,600
+Why was onboard navigation
+a basic requirement?
+
+248
+00:18:35,600 --> 00:18:37,900
+Well, one of the reasons would
+be that the Russians
+
+249
+00:18:37,900 --> 00:18:38,860
+might not play fair.
+
+250
+00:18:38,860 --> 00:18:41,760
+They might jam the communication
+links and we
+
+251
+00:18:41,760 --> 00:18:44,720
+would not be able to communicate
+with our
+
+252
+00:18:44,720 --> 00:18:45,970
+spacecraft.
+
+253
+00:18:49,550 --> 00:18:54,830
+1961 was a long time ago.
+
+254
+00:18:54,830 --> 00:18:58,880
+We had to use typewriters
+and carbon paper.
+
+255
+00:18:58,880 --> 00:19:02,340
+Xerox had not been invented.
+
+256
+00:19:02,340 --> 00:19:04,910
+You could watch TV,
+but not in color.
+
+257
+00:19:04,910 --> 00:19:06,870
+There were just black
+and white TVs and
+
+258
+00:19:06,870 --> 00:19:09,620
+not very good quality.
+
+259
+00:19:09,620 --> 00:19:13,220
+You could do calculations
+using electromechanical
+
+260
+00:19:13,220 --> 00:19:17,440
+machines, no personal computers
+or even pocket
+
+261
+00:19:17,440 --> 00:19:19,280
+calculators.
+
+262
+00:19:19,280 --> 00:19:22,390
+These things would cost about
+$800 to $1,000, and all the
+
+263
+00:19:22,390 --> 00:19:27,110
+would do is add and subtract
+and divide.
+
+264
+00:19:27,110 --> 00:19:29,490
+If you spent $500 more,
+you could get one
+
+265
+00:19:29,490 --> 00:19:31,720
+that did square root.
+
+266
+00:19:31,720 --> 00:19:37,220
+And that was a pretty amazing
+thing, because every day, just
+
+267
+00:19:37,220 --> 00:19:41,320
+about, the repairman would be
+there to fix it, because it
+
+268
+00:19:41,320 --> 00:19:43,870
+was such a complicated
+piece of equipment.
+
+269
+00:19:46,540 --> 00:19:49,940
+When we'd go on business
+trips, no jets.
+
+270
+00:19:49,940 --> 00:19:52,690
+We had propeller-driven
+aircraft.
+
+271
+00:19:52,690 --> 00:19:55,570
+And the per diem rates
+were $12 a day.
+
+272
+00:19:55,570 --> 00:20:00,240
+With that $12, I was supposed
+to pay for my hotel bill and
+
+273
+00:20:00,240 --> 00:20:04,160
+buy three meals, and do
+it for $12 a day.
+
+274
+00:20:04,160 --> 00:20:08,020
+And that was plenty
+good enough.
+
+275
+00:20:08,020 --> 00:20:14,370
+In fact, if you just said, give
+me the $12, and then if
+
+276
+00:20:14,370 --> 00:20:17,330
+you didn't spend it, you could
+keep the dollar or
+
+277
+00:20:17,330 --> 00:20:20,140
+two which was left.
+
+278
+00:20:20,140 --> 00:20:24,370
+Those were different days
+than they are today.
+
+279
+00:20:24,370 --> 00:20:29,130
+Now let's look at, this came
+about only relatively
+
+280
+00:20:29,130 --> 00:20:37,080
+recently, the numerology
+of 1961.
+
+281
+00:20:37,080 --> 00:20:38,350
+It's an invertible number.
+
+282
+00:20:42,030 --> 00:20:50,140
+That is, if you turn it
+upside-down, it's still 1961.
+
+283
+00:20:50,140 --> 00:20:58,692
+Earlier invertible years,
+1001, 1111, 1691, 1881.
+
+284
+00:20:58,692 --> 00:21:03,235
+When will the next invertible
+year take place?
+
+285
+00:21:06,170 --> 00:21:08,190
+6009.
+
+286
+00:21:08,190 --> 00:21:13,460
+You've got a long wait for
+the next invertible year.
+
+287
+00:21:13,460 --> 00:21:15,160
+OK, that's one thing.
+
+288
+00:21:15,160 --> 00:21:16,410
+But there's more.
+
+289
+00:21:19,160 --> 00:21:22,210
+President Kennedy's
+Special Message to
+
+290
+00:21:22,210 --> 00:21:25,830
+Congress was 5/25/61.
+
+291
+00:21:25,830 --> 00:21:31,590
+5 plus 25 plus 6 plus 1 is 37,
+which is a prime factor of
+
+292
+00:21:31,590 --> 00:21:36,540
+1961, which is only
+interesting.
+
+293
+00:21:36,540 --> 00:21:48,090
+But if you take the prime
+factor, which is 37, there's
+
+294
+00:21:48,090 --> 00:21:51,130
+only one other prime factor,
+and that's 53.
+
+295
+00:21:51,130 --> 00:21:55,820
+So 53 times 37 is 1961.
+
+296
+00:21:55,820 --> 00:22:01,620
+If you take 53, and you get the
+month of August, 5 plus 3
+
+297
+00:22:01,620 --> 00:22:08,550
+is 8, and the 10th, 3 plus 7
+is 10, and it's all written
+
+298
+00:22:08,550 --> 00:22:15,590
+there forever that MIT would
+get the Apollo contract on
+
+299
+00:22:15,590 --> 00:22:19,930
+August 10 of 1961.
+
+300
+00:22:19,930 --> 00:22:21,980
+Isn't that-- that's
+pretty amazing.
+
+301
+00:22:21,980 --> 00:22:25,615
+I was going to give
+a talk on Apollo.
+
+302
+00:22:25,615 --> 00:22:27,810
+And I had it in the afternoon.
+
+303
+00:22:27,810 --> 00:22:33,540
+And I was fiddling around,
+and I came up with this.
+
+304
+00:22:33,540 --> 00:22:35,560
+And I was really impressed.
+
+305
+00:22:35,560 --> 00:22:42,640
+And so were the audiences when
+they realized that this was,
+
+306
+00:22:42,640 --> 00:22:46,030
+as I pointed out, this
+is not an accident.
+
+307
+00:22:46,030 --> 00:22:50,880
+This is the way it was all
+planned ahead of time.
+
+308
+00:22:50,880 --> 00:22:55,690
+Now also, Apollo is
+Greek mythology.
+
+309
+00:22:55,690 --> 00:23:01,150
+Apollo is America's Program for
+Orbital and Lunar Landing
+
+310
+00:23:01,150 --> 00:23:04,550
+Operations, so even the Greeks
+knew that we were
+
+311
+00:23:04,550 --> 00:23:07,076
+going to do the job.
+
+312
+00:23:09,980 --> 00:23:12,890
+1961 was a vintage year.
+
+313
+00:23:12,890 --> 00:23:14,866
+A lot of things happened then.
+
+314
+00:23:14,866 --> 00:23:16,910
+There they are.
+
+315
+00:23:16,910 --> 00:23:23,000
+In January 26, the first
+multiple fly-by orbit of the
+
+316
+00:23:23,000 --> 00:23:29,250
+planets was determined,
+by going from
+
+317
+00:23:29,250 --> 00:23:36,805
+Earth to Mars via Venus.
+
+318
+00:23:39,530 --> 00:23:49,190
+You go from Earth to Venus to
+Mars and back to Earth, all in
+
+319
+00:23:49,190 --> 00:23:50,900
+one launch.
+
+320
+00:23:50,900 --> 00:24:00,770
+And that was discovered by
+me in January 26 of 1961.
+
+321
+00:24:00,770 --> 00:24:06,510
+I have to emphasize that that
+date is very important.
+
+322
+00:24:06,510 --> 00:24:16,380
+Because there was a lawsuit by
+somebody whose name I must not
+
+323
+00:24:16,380 --> 00:24:22,480
+mention, who brought suit
+against me, because he said he
+
+324
+00:24:22,480 --> 00:24:25,280
+did it first. But he
+didn't really.
+
+325
+00:24:28,250 --> 00:24:32,820
+In the spring of that year, the
+first offering, that is
+
+326
+00:24:32,820 --> 00:24:35,990
+the first class in Astronautical
+Guidance, is
+
+327
+00:24:35,990 --> 00:24:39,560
+what my course used to be called
+until it was changed to
+
+328
+00:24:39,560 --> 00:24:40,810
+Astrodynamics.
+
+329
+00:24:42,440 --> 00:24:48,130
+On April 12, Yuri Gagarin flew
+three orbits of the earth.
+
+330
+00:24:48,130 --> 00:24:54,640
+And then to respond to that, on
+May 5, Alan Shepard did a
+
+331
+00:24:54,640 --> 00:24:56,800
+quarter-orbit flight.
+
+332
+00:24:56,800 --> 00:25:02,250
+And then, three weeks later,
+President Kennedy commits us
+
+333
+00:25:02,250 --> 00:25:04,410
+to going to the moon.
+
+334
+00:25:04,410 --> 00:25:14,030
+And in August, Gherman Titov
+flies 16 orbits of the Earth.
+
+335
+00:25:14,030 --> 00:25:22,480
+And MIT is awarded the first
+Apollo contract.
+
+336
+00:25:26,410 --> 00:25:31,970
+In October 13, the American
+Rocket Society had a meeting,
+
+337
+00:25:31,970 --> 00:25:34,650
+because Kennedy said he
+wanted to know what
+
+338
+00:25:34,650 --> 00:25:36,230
+progress had been made.
+
+339
+00:25:36,230 --> 00:25:39,415
+And so we had a spaceflight
+report to the nation of all
+
+340
+00:25:39,415 --> 00:25:42,210
+the stuff that we were doing.
+
+341
+00:25:42,210 --> 00:25:49,230
+Later, on November 21, Draper,
+who had said to Jim Webb that
+
+342
+00:25:49,230 --> 00:25:52,400
+yes, he would make sure it
+worked, because he'd fly it,
+
+343
+00:25:52,400 --> 00:25:57,240
+he volunteered formally
+to be an astronaut.
+
+344
+00:25:57,240 --> 00:26:04,200
+And then, I thought of this much
+later, December 23 was
+
+345
+00:26:04,200 --> 00:26:06,290
+Christina Shue's [?]
+
+346
+00:26:06,290 --> 00:26:08,520
+100th birthday.
+
+347
+00:26:08,520 --> 00:26:12,610
+Who in the world was Christina
+Shue [?] ?
+
+348
+00:26:12,610 --> 00:26:13,860
+My grandmother.
+
+349
+00:26:18,590 --> 00:26:21,680
+So in 1961, a lot of
+things happened.
+
+350
+00:26:24,600 --> 00:26:27,860
+Here is the first round
+trip to Venus.
+
+351
+00:26:27,860 --> 00:26:30,680
+We were a little discouraged by
+taking three years to get
+
+352
+00:26:30,680 --> 00:26:32,230
+to Mars and back home.
+
+353
+00:26:32,230 --> 00:26:36,610
+So we said, maybe we could
+go to Venus and
+
+354
+00:26:36,610 --> 00:26:38,990
+return in less time.
+
+355
+00:26:38,990 --> 00:26:41,500
+And as a matter of
+fact, you can.
+
+356
+00:26:41,500 --> 00:26:49,090
+If you see the launch, and you
+go past Venus, and then you're
+
+357
+00:26:49,090 --> 00:26:49,980
+coming back to Earth.
+
+358
+00:26:49,980 --> 00:26:54,190
+But look, you're almost out
+to the Martian border.
+
+359
+00:26:54,190 --> 00:26:56,870
+And wouldn't it be nice
+if Mars were there?
+
+360
+00:26:56,870 --> 00:27:02,780
+And that was what we did.
+
+361
+00:27:02,780 --> 00:27:05,460
+We had a Venus fly-by.
+
+362
+00:27:05,460 --> 00:27:10,320
+And then following that is
+the return to Earth.
+
+363
+00:27:10,320 --> 00:27:14,160
+And it is all done in just
+a little over a year.
+
+364
+00:27:14,160 --> 00:27:20,430
+And we visit two planets for
+the price of one, first to
+
+365
+00:27:20,430 --> 00:27:24,820
+Venus and then to Mars, and
+then back to Earth.
+
+366
+00:27:24,820 --> 00:27:28,150
+And this was the very
+first one of these
+
+367
+00:27:28,150 --> 00:27:30,650
+that was ever done.
+
+368
+00:27:30,650 --> 00:27:37,960
+We do that all the time today,
+using fly-bys of planets to
+
+369
+00:27:37,960 --> 00:27:42,390
+change the velocity to get to
+another location to accomplish
+
+370
+00:27:42,390 --> 00:27:44,610
+something else.
+
+371
+00:27:44,610 --> 00:27:51,530
+But this was the first time it
+was ever done on a computer.
+
+372
+00:27:55,380 --> 00:27:59,450
+Now saying that the first
+offering of astronautical
+
+373
+00:27:59,450 --> 00:28:01,130
+guidance, it's kind
+of interesting.
+
+374
+00:28:01,130 --> 00:28:05,830
+Because there are the people
+who took that course, Buzz
+
+375
+00:28:05,830 --> 00:28:16,335
+Aldrin, who flew in 1961, in
+Apollo 11, and then Dave
+
+376
+00:28:16,335 --> 00:28:23,630
+Scott, who flew Apollo 15, in
+1962, and Ed Mitchell, who was
+
+377
+00:28:23,630 --> 00:28:28,160
+on Apollo 14 in 1963.
+
+378
+00:28:28,160 --> 00:28:31,820
+Each of these gentlemen, and
+they're all still alive and
+
+379
+00:28:31,820 --> 00:28:36,720
+well, they walked on the moon.
+
+380
+00:28:36,720 --> 00:28:38,655
+And they took astronautical
+guidance.
+
+381
+00:28:48,160 --> 00:28:59,200
+Apollo 14, I always thought that
+Ed Mitchell, it had more
+
+382
+00:28:59,200 --> 00:29:03,320
+people watching that launch than
+any time in the past or
+
+383
+00:29:03,320 --> 00:29:04,320
+the future.
+
+384
+00:29:04,320 --> 00:29:05,570
+Why?
+
+385
+00:29:08,620 --> 00:29:10,050
+Why?
+
+386
+00:29:10,050 --> 00:29:12,860
+It was Apollo 14.
+
+387
+00:29:12,860 --> 00:29:16,200
+What was the flight
+before that?
+
+388
+00:29:16,200 --> 00:29:17,300
+Apollo 13.
+
+389
+00:29:17,300 --> 00:29:19,770
+And that was pretty serious.
+
+390
+00:29:19,770 --> 00:29:22,910
+We almost didn't
+get them home.
+
+391
+00:29:22,910 --> 00:29:28,850
+And then to be a crew for the
+next flight, I think, took a
+
+392
+00:29:28,850 --> 00:29:33,960
+little gutsy.
+
+393
+00:29:33,960 --> 00:29:36,630
+Here's the textbook for
+the graduate course in
+
+394
+00:29:36,630 --> 00:29:40,040
+astronautical guidance.
+
+395
+00:29:40,040 --> 00:29:43,600
+The book is Astronautical
+Guidance.
+
+396
+00:29:43,600 --> 00:29:49,870
+The diagram, if you take my
+course, you'll find out how to
+
+397
+00:29:49,870 --> 00:29:54,710
+navigate in space by making
+measurements of angles between
+
+398
+00:29:54,710 --> 00:29:57,080
+stars and near bodies.
+
+399
+00:29:57,080 --> 00:30:03,240
+And so that little diagram was
+on the flyleaf, and was also
+
+400
+00:30:03,240 --> 00:30:10,490
+on the inside of the
+book in color.
+
+401
+00:30:10,490 --> 00:30:17,430
+Now when the book came out, we
+were having a heavy load of
+
+402
+00:30:17,430 --> 00:30:19,290
+important visitors.
+
+403
+00:30:19,290 --> 00:30:24,600
+And Doc, he took my book, and he
+said, "Battin," he says, "I
+
+404
+00:30:24,600 --> 00:30:26,630
+want you to buy a
+lot of these.
+
+405
+00:30:26,630 --> 00:30:28,520
+And I want you to
+autograph them.
+
+406
+00:30:28,520 --> 00:30:33,390
+We're going to have important
+people here." And sure enough,
+
+407
+00:30:33,390 --> 00:30:35,540
+let's see who the important
+people are.
+
+408
+00:30:35,540 --> 00:30:37,550
+Well, there's Doc.
+
+409
+00:30:37,550 --> 00:30:38,880
+And then there's Kurt Debus.
+
+410
+00:30:38,880 --> 00:30:45,120
+He was the head of the Space
+Center in Florida.
+
+411
+00:30:45,120 --> 00:30:50,600
+Wernher von Braun needs
+no introduction.
+
+412
+00:30:50,600 --> 00:30:57,740
+Bob Gilruth, who was the head of
+the NASA team in Texas, and
+
+413
+00:30:57,740 --> 00:31:01,670
+then me, looking smug.
+
+414
+00:31:01,670 --> 00:31:04,950
+And everybody, you see, has
+got a copy of the book in
+
+415
+00:31:04,950 --> 00:31:06,100
+front of them.
+
+416
+00:31:06,100 --> 00:31:09,830
+And I was pretty excited
+about that.
+
+417
+00:31:13,160 --> 00:31:16,900
+There was an unauthorized
+version of the book,
+
+418
+00:31:16,900 --> 00:31:21,090
+Astronautical Guidance,
+in Russian.
+
+419
+00:31:21,090 --> 00:31:27,600
+And this was about
+four years later.
+
+420
+00:31:27,600 --> 00:31:29,470
+And everything is in Russian.
+
+421
+00:31:33,020 --> 00:31:36,252
+There is Battin in Russian.
+
+422
+00:31:36,252 --> 00:31:41,520
+And the diagram is exactly
+the same diagram
+
+423
+00:31:41,520 --> 00:31:43,030
+that appeared on--
+
+424
+00:31:43,030 --> 00:31:47,950
+but it's an unauthorized, that
+is, they didn't ask permission
+
+425
+00:31:47,950 --> 00:31:50,870
+to do this or give
+us any royalties.
+
+426
+00:31:50,870 --> 00:31:56,890
+But they did give us an all
+expenses paid, round trip
+
+427
+00:31:56,890 --> 00:32:06,990
+visit to Moscow and Leningrad
+and Tbilisi after the Apollo
+
+428
+00:32:06,990 --> 00:32:11,940
+11 landing.
+
+429
+00:32:11,940 --> 00:32:18,120
+MIT awarded the first
+Apollo contract, and
+
+430
+00:32:18,120 --> 00:32:20,690
+here was the team.
+
+431
+00:32:20,690 --> 00:32:24,220
+We have Jim Webb, the
+one in the center.
+
+432
+00:32:26,750 --> 00:32:30,750
+And to the left is
+Hugh Dryden.
+
+433
+00:32:30,750 --> 00:32:33,970
+He was the deputy administrator,
+but he passed
+
+434
+00:32:33,970 --> 00:32:37,690
+away in December of 1965.
+
+435
+00:32:37,690 --> 00:32:43,460
+And then there's Bob Seamans,
+the associate administrator.
+
+436
+00:32:43,460 --> 00:32:49,780
+He was promoted to deputy
+administrator.
+
+437
+00:32:49,780 --> 00:32:55,030
+And Bob Seamans, as you are
+well aware, passed away.
+
+438
+00:32:55,030 --> 00:32:59,230
+I was very happy that when I
+give this talk at this time
+
+439
+00:32:59,230 --> 00:33:02,490
+last year, Bob Seamans came.
+
+440
+00:33:02,490 --> 00:33:03,900
+He had not heard it before.
+
+441
+00:33:03,900 --> 00:33:05,650
+But he came and listened.
+
+442
+00:33:05,650 --> 00:33:09,880
+And I was so pleased
+that he was there.
+
+443
+00:33:09,880 --> 00:33:14,530
+But he passed away shortly
+thereafter.
+
+444
+00:33:22,620 --> 00:33:24,160
+MIT was chosen.
+
+445
+00:33:24,160 --> 00:33:24,590
+Why?
+
+446
+00:33:24,590 --> 00:33:30,390
+Well, Bob Seaman's book, Aiming
+at Targets, says, it
+
+447
+00:33:30,390 --> 00:33:31,960
+doesn't give you much
+information.
+
+448
+00:33:31,960 --> 00:33:34,390
+It just says, "When the decision
+was made to go to the
+
+449
+00:33:34,390 --> 00:33:37,340
+moon, the Draper Lab got the
+contract for the navigation
+
+450
+00:33:37,340 --> 00:33:40,140
+system."
+
+451
+00:33:40,140 --> 00:33:46,350
+He really knew why, but he
+didn't want to put in print.
+
+452
+00:33:46,350 --> 00:33:51,160
+Because after all, he was
+from MIT Instrumentation
+
+453
+00:33:51,160 --> 00:33:53,330
+Laboratory.
+
+454
+00:33:53,330 --> 00:33:55,510
+Doc headed the laboratory.
+
+455
+00:33:55,510 --> 00:34:00,180
+And then all of a sudden,
+we get the job for
+
+456
+00:34:00,180 --> 00:34:03,770
+the GN&C for Apollo.
+
+457
+00:34:03,770 --> 00:34:05,370
+But we deserved it.
+
+458
+00:34:05,370 --> 00:34:07,970
+And we performed well.
+
+459
+00:34:07,970 --> 00:34:15,260
+So was it Doc Draper's
+phone call, or was it
+
+460
+00:34:15,260 --> 00:34:16,510
+Bob Chilton's memo?
+
+461
+00:34:20,170 --> 00:34:21,724
+I guess I got this
+in there twice.
+
+462
+00:34:21,724 --> 00:34:22,974
+I shouldn't.
+
+463
+00:34:26,630 --> 00:34:31,750
+I have to do a little
+surgery on this.
+
+464
+00:34:31,750 --> 00:34:33,650
+Doc Draper volunteers
+to be an astronaut.
+
+465
+00:34:33,650 --> 00:34:34,699
+He really did.
+
+466
+00:34:34,699 --> 00:34:37,260
+And he had a letter.
+
+467
+00:34:37,260 --> 00:34:38,480
+This is part of his letter.
+
+468
+00:34:38,480 --> 00:34:44,320
+"I would like formally to
+volunteer as a crew member on
+
+469
+00:34:44,320 --> 00:34:47,560
+the Apollo mission to the moon,
+and also for whatever
+
+470
+00:34:47,560 --> 00:34:50,520
+sub-orbital and orbital flights
+that may be made in
+
+471
+00:34:50,520 --> 00:34:52,820
+preparation for this
+lunar trip.
+
+472
+00:34:52,820 --> 00:34:57,860
+I realize that my age of 60
+years is a negative factor in
+
+473
+00:34:57,860 --> 00:35:01,180
+considering my request, but
+General Flickinger tells me
+
+474
+00:35:01,180 --> 00:35:06,130
+that this is no sure bar to my
+selection as a crew member."
+
+475
+00:35:06,130 --> 00:35:15,690
+And we had a system, a real
+system, put on the roof of one
+
+476
+00:35:15,690 --> 00:35:23,020
+of the buildings on the river,
+where you could practice
+
+477
+00:35:23,020 --> 00:35:24,170
+navigating.
+
+478
+00:35:24,170 --> 00:35:28,350
+And there's Doc Draper making
+a navigational fix.
+
+479
+00:35:28,350 --> 00:35:31,510
+And you can recognize the Boston
+skyline, or what the
+
+480
+00:35:31,510 --> 00:35:34,410
+Boston skyline looked
+like in those days.
+
+481
+00:35:34,410 --> 00:35:37,180
+Some buildings are missing.
+
+482
+00:35:37,180 --> 00:35:44,170
+And you could actually make
+measurements, and the computer
+
+483
+00:35:44,170 --> 00:35:48,100
+would calculate where it was
+on the basis of that.
+
+484
+00:35:48,100 --> 00:35:58,140
+And the result was always the
+particular spot on the roof of
+
+485
+00:35:58,140 --> 00:36:01,480
+the building, even though you
+could start off with very bad
+
+486
+00:36:01,480 --> 00:36:06,160
+guesses of where you were.
+
+487
+00:36:06,160 --> 00:36:10,740
+And then by utilizing the
+navigation algorithm, you
+
+488
+00:36:10,740 --> 00:36:12,815
+could to get a navigation fix.
+
+489
+00:36:16,840 --> 00:36:19,580
+The guidance navigation
+laboratory system, you could
+
+490
+00:36:19,580 --> 00:36:25,710
+see that today, if you get
+somebody to take you through
+
+491
+00:36:25,710 --> 00:36:26,960
+the Draper Lab.
+
+492
+00:36:31,040 --> 00:36:34,480
+This is actual--
+
+493
+00:36:34,480 --> 00:36:35,240
+it's not a mock up.
+
+494
+00:36:35,240 --> 00:36:37,280
+It's really the equipment.
+
+495
+00:36:37,280 --> 00:36:42,800
+And you have the means of
+communicating with the
+
+496
+00:36:42,800 --> 00:36:46,220
+computer on the right,
+that was the DSKY,
+
+497
+00:36:46,220 --> 00:36:47,670
+the display and keyboard.
+
+498
+00:36:47,670 --> 00:36:50,440
+where you could get information,
+and you could
+
+499
+00:36:50,440 --> 00:36:59,280
+also call up different
+things that you
+
+500
+00:36:59,280 --> 00:37:02,300
+wanted to do in flight.
+
+501
+00:37:02,300 --> 00:37:16,350
+For navigation purposes, we had
+a scanning telescope and a
+
+502
+00:37:16,350 --> 00:37:21,200
+good sextant to make
+these measurements.
+
+503
+00:37:21,200 --> 00:37:28,770
+You could get a view of the
+stars and the planets through
+
+504
+00:37:28,770 --> 00:37:36,760
+the sextant and then make
+the actual measurements.
+
+505
+00:37:36,760 --> 00:37:40,360
+You'd try to line them up,
+line up these two images,
+
+506
+00:37:40,360 --> 00:37:43,540
+press a button to get
+information to the computer.
+
+507
+00:37:43,540 --> 00:38:00,950
+In fact, what we have here does
+not show behind, where
+
+508
+00:38:00,950 --> 00:38:07,280
+the ball for getting information
+with respect to
+
+509
+00:38:07,280 --> 00:38:13,860
+attitude and velocity, all done
+on the back side of the--
+
+510
+00:38:13,860 --> 00:38:18,840
+but this is the front side, is
+this what the astronauts saw
+
+511
+00:38:18,840 --> 00:38:25,320
+and used in their flights.
+
+512
+00:38:25,320 --> 00:38:29,390
+There's the Apollo guidance
+computer.
+
+513
+00:38:29,390 --> 00:38:36,980
+The fact that it's approximately
+one cubic foot,
+
+514
+00:38:36,980 --> 00:38:40,270
+it's a really interesting
+story.
+
+515
+00:38:40,270 --> 00:38:50,560
+When the spacecraft contractor
+was chosen, you got a phone
+
+516
+00:38:50,560 --> 00:38:53,030
+call from them, saying, "Oh, I
+understand that you're going
+
+517
+00:38:53,030 --> 00:38:54,650
+to have a computer on board.
+
+518
+00:38:54,650 --> 00:38:57,140
+How big is it?"
+
+519
+00:38:57,140 --> 00:39:00,420
+Well, we had no idea.
+
+520
+00:39:00,420 --> 00:39:03,500
+All we could see was
+all this equipment
+
+521
+00:39:03,500 --> 00:39:04,900
+that was on the wall.
+
+522
+00:39:04,900 --> 00:39:07,480
+And somehow or other, we were
+going to have to package this
+
+523
+00:39:07,480 --> 00:39:10,570
+down to something that would
+fit in the spacecraft.
+
+524
+00:39:10,570 --> 00:39:17,045
+So they said, "Well, we've got
+to give him a number." And so
+
+525
+00:39:17,045 --> 00:39:21,470
+I said, "Well, just tell
+him it's a cubic foot."
+
+526
+00:39:21,470 --> 00:39:23,140
+And it was.
+
+527
+00:39:23,140 --> 00:39:24,840
+We were able to squeeze it.
+
+528
+00:39:24,840 --> 00:39:31,560
+You couldn't make it two cubic
+feet, because that's all they
+
+529
+00:39:31,560 --> 00:39:34,360
+had room for, planned for.
+
+530
+00:39:34,360 --> 00:39:40,270
+It was a computer
+of that size.
+
+531
+00:39:40,270 --> 00:39:45,290
+And it weighed about 70 pounds,
+consumed 55 watts,
+
+532
+00:39:45,290 --> 00:39:48,090
+which, that's pretty good.
+
+533
+00:39:48,090 --> 00:39:54,580
+And then this up close is the
+display and keyboard.
+
+534
+00:39:54,580 --> 00:39:58,840
+The core rope memory was a--
+
+535
+00:39:58,840 --> 00:40:02,350
+we're not going to spend much
+time dwelling on it.
+
+536
+00:40:02,350 --> 00:40:09,350
+But it was an invention of Hal
+Laning, primarily Hal and
+
+537
+00:40:09,350 --> 00:40:16,580
+others, that you could have a
+memory system which you would
+
+538
+00:40:16,580 --> 00:40:23,930
+wire in place, so that if you
+lost electricity, you wouldn't
+
+539
+00:40:23,930 --> 00:40:25,820
+lose your memory.
+
+540
+00:40:25,820 --> 00:40:29,760
+And there is the way
+it was done.
+
+541
+00:40:29,760 --> 00:40:32,200
+Each core would store a word.
+
+542
+00:40:32,200 --> 00:40:36,200
+In fact, we got it down to
+where a single core could
+
+543
+00:40:36,200 --> 00:40:41,940
+store 12 words, and each word
+was 16 bits or 2 bytes.
+
+544
+00:40:41,940 --> 00:40:46,470
+And to read, to get information
+out, all you have
+
+545
+00:40:46,470 --> 00:40:49,560
+to do was select the
+core and switch it.
+
+546
+00:40:49,560 --> 00:40:51,650
+And then all of the sense wires
+that went through the
+
+547
+00:40:51,650 --> 00:40:54,850
+core would produce 1s, and those
+that did not go through
+
+548
+00:40:54,850 --> 00:40:57,150
+the core would produce 0s.
+
+549
+00:40:57,150 --> 00:41:01,880
+And lo and behold, this
+was our system.
+
+550
+00:41:01,880 --> 00:41:04,435
+The trouble is that you had
+to make these things.
+
+551
+00:41:04,435 --> 00:41:06,080
+You had to manufacture them.
+
+552
+00:41:06,080 --> 00:41:08,650
+And after you've made it, and
+if there was a mistake, you
+
+553
+00:41:08,650 --> 00:41:11,420
+couldn't change it.
+
+554
+00:41:11,420 --> 00:41:15,680
+Here's the speed in kilobytes.
+
+555
+00:41:18,250 --> 00:41:23,240
+For our Mars probe, it had
+eight read only memory
+
+556
+00:41:23,240 --> 00:41:30,870
+kilobytes, and change, this
+would be Random Access Memory,
+
+557
+00:41:30,870 --> 00:41:35,230
+is a half of a kilobyte.
+
+558
+00:41:35,230 --> 00:41:44,130
+The Apollo Guidance Computer
+had 74 ROMs and 4 read and
+
+559
+00:41:44,130 --> 00:41:48,550
+write memory, and it was
+actually a little slower in
+
+560
+00:41:48,550 --> 00:41:52,180
+speed than the Mars probe.
+
+561
+00:41:52,180 --> 00:41:58,940
+Now today, the kind of memory
+that we're talking about, you
+
+562
+00:41:58,940 --> 00:42:01,520
+can carry around
+in your pocket.
+
+563
+00:42:01,520 --> 00:42:06,120
+In fact, I do have it in my
+pocket for this talk.
+
+564
+00:42:06,120 --> 00:42:14,005
+And it's just absolutely amazing
+that first of all,
+
+565
+00:42:14,005 --> 00:42:16,410
+that they had the idea that
+this was the way to do it,
+
+566
+00:42:16,410 --> 00:42:24,890
+because in Apollo 12, the
+spacecraft was struck by
+
+567
+00:42:24,890 --> 00:42:26,000
+lightning on the way up.
+
+568
+00:42:26,000 --> 00:42:31,210
+And all of the read and
+write memory vanished.
+
+569
+00:42:31,210 --> 00:42:33,580
+They had to put that
+back in by hand.
+
+570
+00:42:33,580 --> 00:42:35,680
+But the read-only
+memory was fine.
+
+571
+00:42:35,680 --> 00:42:42,030
+There was no trouble
+with it whatsoever.
+
+572
+00:42:42,030 --> 00:42:46,190
+Here's a photograph of the core
+rope memory up close.
+
+573
+00:42:46,190 --> 00:42:51,010
+And how would you manufacture
+something like that?
+
+574
+00:42:51,010 --> 00:42:58,010
+Well, we used the LOL method,
+the Little Old Lady method,
+
+575
+00:42:58,010 --> 00:43:01,480
+which I'll show you
+in a second.
+
+576
+00:43:01,480 --> 00:43:04,350
+The computers and the memory
+were manufactured by Raytheon.
+
+577
+00:43:04,350 --> 00:43:06,670
+The flight software was written
+and tested at the
+
+578
+00:43:06,670 --> 00:43:07,860
+Instrumentation Laboratory.
+
+579
+00:43:07,860 --> 00:43:12,100
+The core ropes required six
+weeks to build, and you
+
+580
+00:43:12,100 --> 00:43:14,510
+couldn't make any last-minute
+changes.
+
+581
+00:43:14,510 --> 00:43:19,120
+And there's one of the women
+who's wiring this thing.
+
+582
+00:43:19,120 --> 00:43:32,130
+It was set up to be like a
+weaving machine that the
+
+583
+00:43:32,130 --> 00:43:34,540
+computer would tell you where
+you're supposed to
+
+584
+00:43:34,540 --> 00:43:36,060
+put the next wire.
+
+585
+00:43:36,060 --> 00:43:39,990
+In fact, it would set it up for
+you so that you could put
+
+586
+00:43:39,990 --> 00:43:42,410
+the wire through
+the right core.
+
+587
+00:43:42,410 --> 00:43:46,030
+And all this was done
+at Raytheon.
+
+588
+00:43:46,030 --> 00:43:51,090
+And it must have been very
+tedious for these women to do
+
+589
+00:43:51,090 --> 00:43:53,930
+that kind of work.
+
+590
+00:43:53,930 --> 00:43:57,190
+But they were always so proud
+when the astronauts
+
+591
+00:43:57,190 --> 00:43:58,080
+would come and visit.
+
+592
+00:43:58,080 --> 00:44:02,070
+Oh, it gave them the feeling
+that we can't screw up.
+
+593
+00:44:02,070 --> 00:44:05,330
+We have to do this right,
+because we just met the men
+
+594
+00:44:05,330 --> 00:44:08,000
+whose whole lives depend upon.
+
+595
+00:44:12,230 --> 00:44:13,520
+How many computers?
+
+596
+00:44:13,520 --> 00:44:19,060
+Well, we wound up with one for
+the Command Module and one for
+
+597
+00:44:19,060 --> 00:44:21,320
+the Lunar Module.
+
+598
+00:44:21,320 --> 00:44:24,210
+And there would be no
+inflight repair.
+
+599
+00:44:24,210 --> 00:44:26,770
+There would be no built-in
+redundancy.
+
+600
+00:44:26,770 --> 00:44:31,590
+That is, if one of the circuits
+fails, that's it.
+
+601
+00:44:31,590 --> 00:44:34,670
+There would be no uplink
+from the ground.
+
+602
+00:44:34,670 --> 00:44:39,160
+And there were many possible
+single-point failures, but
+
+603
+00:44:39,160 --> 00:44:41,100
+none of them ever happened.
+
+604
+00:44:41,100 --> 00:44:45,510
+The quality control people
+couldn't calculate the mean
+
+605
+00:44:45,510 --> 00:44:50,560
+time between failures, because
+they never had any failure of
+
+606
+00:44:50,560 --> 00:44:52,460
+the AGC at all.
+
+607
+00:44:56,570 --> 00:45:02,665
+Software, the early NASA
+manned flights.
+
+608
+00:45:06,260 --> 00:45:14,820
+The first one was
+Mercury flight.
+
+609
+00:45:14,820 --> 00:45:16,640
+There were 6 Mercury flights.
+
+610
+00:45:16,640 --> 00:45:20,850
+And there were 10
+Gemini flights.
+
+611
+00:45:20,850 --> 00:45:22,810
+The first one was May 5.
+
+612
+00:45:22,810 --> 00:45:26,440
+We've already seen Shepard's.
+
+613
+00:45:26,440 --> 00:45:32,900
+And the last one of the Mercury
+group was May in 1963.
+
+614
+00:45:32,900 --> 00:45:35,180
+Then there were Gemini flights,
+where there were two
+
+615
+00:45:35,180 --> 00:45:38,940
+astronauts in a capsule,
+rather than just one.
+
+616
+00:45:38,940 --> 00:45:47,400
+And there were 10 of those,
+from '65 to '66.
+
+617
+00:45:47,400 --> 00:45:51,790
+George Mueller was the Associate
+Administrator for
+
+618
+00:45:51,790 --> 00:45:54,750
+Manned Spaceflight.
+
+619
+00:45:54,750 --> 00:45:58,620
+And he was a NASA person.
+
+620
+00:45:58,620 --> 00:46:06,160
+And he was very much concerned
+with the computer software.
+
+621
+00:46:06,160 --> 00:46:15,040
+In fact, he was in charge of the
+software for the Mariner 1
+
+622
+00:46:15,040 --> 00:46:19,800
+spacecraft to Venus, which
+was launched in 1962.
+
+623
+00:46:19,800 --> 00:46:22,280
+And it went off course due
+to a software error.
+
+624
+00:46:22,280 --> 00:46:24,670
+There was a missing minus
+sign in the code.
+
+625
+00:46:24,670 --> 00:46:28,620
+He had this minus sign framed
+and hanging in his office.
+
+626
+00:46:28,620 --> 00:46:31,820
+Do not take for granted.
+
+627
+00:46:31,820 --> 00:46:35,780
+That you've got to check
+everything to make sure that
+
+628
+00:46:35,780 --> 00:46:37,030
+it's going to work.
+
+629
+00:46:40,350 --> 00:46:43,190
+The astronauts used to
+come and visit us.
+
+630
+00:46:43,190 --> 00:46:47,295
+And in the fall of 1966,
+we had six astronauts.
+
+631
+00:46:47,295 --> 00:46:49,740
+There were all sitting down
+there in the front row.
+
+632
+00:46:49,740 --> 00:46:53,160
+And we had them autograph
+these.
+
+633
+00:46:53,160 --> 00:46:57,140
+And then the people in the back
+were the ones that were
+
+634
+00:46:57,140 --> 00:46:59,170
+working on the job.
+
+635
+00:46:59,170 --> 00:47:00,650
+There is me.
+
+636
+00:47:00,650 --> 00:47:05,410
+And there is Dave Hoag, and
+there's a whole bunch of other
+
+637
+00:47:05,410 --> 00:47:08,900
+people all there to be
+photographed with the
+
+638
+00:47:08,900 --> 00:47:11,210
+astronauts.
+
+639
+00:47:11,210 --> 00:47:16,350
+This is a very sad picture,
+because Virgil Grissom and
+
+640
+00:47:16,350 --> 00:47:19,455
+Roger Chaffee and Ed White,
+who where in that picture,
+
+641
+00:47:19,455 --> 00:47:21,840
+were in Apollo 1.
+
+642
+00:47:21,840 --> 00:47:25,350
+What happened to Apollo 1?
+
+643
+00:47:25,350 --> 00:47:27,920
+It burned up on the ground.
+
+644
+00:47:27,920 --> 00:47:33,320
+And so those guys, next to them
+was Dave Scott, who was
+
+645
+00:47:33,320 --> 00:47:37,260
+one of my students, and Jim
+McDivitt and Russell
+
+646
+00:47:37,260 --> 00:47:38,020
+Schweickart.
+
+647
+00:47:38,020 --> 00:47:41,540
+Russell Schweickart was
+an MIT student, but he
+
+648
+00:47:41,540 --> 00:47:43,480
+didn't take my course.
+
+649
+00:47:43,480 --> 00:47:45,790
+And they flew on Apollo 9.
+
+650
+00:47:45,790 --> 00:47:52,970
+Apollo 9 was the first flight
+using the Lunar Module.
+
+651
+00:47:59,900 --> 00:48:01,150
+Apollo 8.
+
+652
+00:48:02,900 --> 00:48:06,260
+This was the round trip
+trajectory to the moon.
+
+653
+00:48:06,260 --> 00:48:16,270
+And you notice you're going from
+Earth to moon, go around
+
+654
+00:48:16,270 --> 00:48:17,640
+the moon and back.
+
+655
+00:48:17,640 --> 00:48:23,020
+And of course, what you want
+to do is to go on an orbit
+
+656
+00:48:23,020 --> 00:48:27,030
+which is going to arrive at the
+lunar orbit ahead of the
+
+657
+00:48:27,030 --> 00:48:33,740
+moon, and then we'll go
+around and then be
+
+658
+00:48:33,740 --> 00:48:36,830
+swept back to Earth.
+
+659
+00:48:36,830 --> 00:48:43,100
+Instead, if you had gone behind
+the moon, then the
+
+660
+00:48:43,100 --> 00:48:46,820
+energy exchange would have been
+such that you would go
+
+661
+00:48:46,820 --> 00:48:50,220
+off into the solar
+system someplace.
+
+662
+00:48:50,220 --> 00:48:57,410
+You had to do this just right
+in order to get on an orbit
+
+663
+00:48:57,410 --> 00:48:59,240
+back to the Earth.
+
+664
+00:49:01,740 --> 00:49:04,010
+This picture is also
+in my book.
+
+665
+00:49:04,010 --> 00:49:06,570
+And you can look at it.
+
+666
+00:49:06,570 --> 00:49:12,290
+And they made a big deal out
+of the fact that it is a
+
+667
+00:49:12,290 --> 00:49:15,140
+figure eight.
+
+668
+00:49:15,140 --> 00:49:27,150
+And Apollo 8 was the
+first manned flight
+
+669
+00:49:27,150 --> 00:49:29,420
+away from the Earth.
+
+670
+00:49:29,420 --> 00:49:38,130
+And so Apollo 8, which was the
+Christmas flight, you may
+
+671
+00:49:38,130 --> 00:49:41,550
+remember that, maybe
+you don't know.
+
+672
+00:49:41,550 --> 00:49:42,450
+You don't have to remember it.
+
+673
+00:49:42,450 --> 00:49:47,320
+But it was the time when the
+astronauts were for the first
+
+674
+00:49:47,320 --> 00:49:49,710
+time in orbit around the moon.
+
+675
+00:49:49,710 --> 00:50:01,110
+And they were in this
+particular mission.
+
+676
+00:50:01,110 --> 00:50:03,680
+Of course, you always worry
+about, what if the engine
+
+677
+00:50:03,680 --> 00:50:04,530
+doesn't work.
+
+678
+00:50:04,530 --> 00:50:05,990
+You're going to stay
+there forever.
+
+679
+00:50:05,990 --> 00:50:08,460
+You're not going to come
+back to the Earth.
+
+680
+00:50:08,460 --> 00:50:11,610
+There's nothing the ground
+could do to help you out.
+
+681
+00:50:11,610 --> 00:50:23,230
+And this design for the Apollo 8
+is really a Earth around the
+
+682
+00:50:23,230 --> 00:50:29,670
+moon, just as the real
+mission showed.
+
+683
+00:50:29,670 --> 00:50:32,210
+Here's the crew.
+
+684
+00:50:32,210 --> 00:50:34,670
+Frank Borman was
+the commander.
+
+685
+00:50:34,670 --> 00:50:38,290
+And Bill Landers was the
+Lunar Module pilot.
+
+686
+00:50:38,290 --> 00:50:43,240
+Even though we didn't
+have a Lunar Module,
+
+687
+00:50:43,240 --> 00:50:48,070
+they had work to do.
+
+688
+00:50:48,070 --> 00:50:52,150
+And Jim Lovell was the
+Command Module pilot.
+
+689
+00:50:52,150 --> 00:50:55,130
+And he was the one that
+did the navigation.
+
+690
+00:50:55,130 --> 00:51:03,500
+He did all the measurements to
+do the orbit determination,
+
+691
+00:51:03,500 --> 00:51:12,940
+the navigation, for the first
+time, on a flight to the moon.
+
+692
+00:51:12,940 --> 00:51:21,330
+And what he had to do, this is
+the navigator measuring an
+
+693
+00:51:21,330 --> 00:51:24,280
+angle between a star
+and a landmark.
+
+694
+00:51:24,280 --> 00:51:32,080
+And you would put a mark in
+the computer, which would
+
+695
+00:51:32,080 --> 00:51:35,340
+register the time and the
+direction of each of these,
+
+696
+00:51:35,340 --> 00:51:42,470
+and then it would calculate the
+angle, the shaft angle and
+
+697
+00:51:42,470 --> 00:51:45,580
+trunnion angle, or two angles.
+
+698
+00:51:45,580 --> 00:51:52,560
+And you'd get one piece
+of information.
+
+699
+00:51:52,560 --> 00:51:56,050
+But when you added all these
+different measurements
+
+700
+00:51:56,050 --> 00:52:02,010
+together, separated in time and
+position, you were able to
+
+701
+00:52:02,010 --> 00:52:05,400
+do a very credible job of
+navigating to the moon.
+
+702
+00:52:05,400 --> 00:52:12,120
+As a matter of fact, it was so
+close that it was decided that
+
+703
+00:52:12,120 --> 00:52:14,550
+we didn't need an update
+from the ground.
+
+704
+00:52:14,550 --> 00:52:18,720
+In the rule book, it said,
+before you make any velocity
+
+705
+00:52:18,720 --> 00:52:24,460
+change, you have to get your
+state vector information from
+
+706
+00:52:24,460 --> 00:52:25,950
+the ground.
+
+707
+00:52:25,950 --> 00:52:31,750
+And Chris Kraft said, he
+couldn't see any difference.
+
+708
+00:52:31,750 --> 00:52:37,790
+The onboard computer and the
+ground were almost identical.
+
+709
+00:52:37,790 --> 00:52:41,410
+But they did have to follow
+the rules and make the
+
+710
+00:52:41,410 --> 00:52:42,850
+correction.
+
+711
+00:52:42,850 --> 00:52:46,290
+And Jim Lovell navigated
+all the way back.
+
+712
+00:52:46,290 --> 00:52:50,770
+So he was the very first person
+to ever navigate a
+
+713
+00:52:50,770 --> 00:52:56,730
+spacecraft by making telescopic
+
+714
+00:52:56,730 --> 00:52:57,980
+measurements on board.
+
+715
+00:53:01,660 --> 00:53:06,110
+Jim Lovell, he trained
+at MIT using the
+
+716
+00:53:06,110 --> 00:53:09,580
+Earth horizon simulator.
+
+717
+00:53:09,580 --> 00:53:10,860
+He was calibrated.
+
+718
+00:53:10,860 --> 00:53:15,290
+That is, he would tell you where
+he thought the horizon
+
+719
+00:53:15,290 --> 00:53:21,430
+was, and it would be different
+than what the computer thought
+
+720
+00:53:21,430 --> 00:53:22,715
+the horizon was.
+
+721
+00:53:22,715 --> 00:53:28,500
+And so eventually, at least
+he was consistent.
+
+722
+00:53:28,500 --> 00:53:39,680
+And so he had demonstrated that
+his consistency was such
+
+723
+00:53:39,680 --> 00:53:42,390
+that we would calibrate him.
+
+724
+00:53:42,390 --> 00:53:45,700
+That is, when he looked at the
+horizon, and there was a
+
+725
+00:53:45,700 --> 00:53:50,810
+little difference, that
+that particular offset
+
+726
+00:53:50,810 --> 00:53:54,680
+would be Jim Lovell.
+
+727
+00:53:54,680 --> 00:53:58,960
+And other astronauts would
+have their own.
+
+728
+00:53:58,960 --> 00:54:02,250
+And it says here that Jim was
+the first to demonstrate that
+
+729
+00:54:02,250 --> 00:54:04,840
+man could navigate
+in space without
+
+730
+00:54:04,840 --> 00:54:06,310
+assistance from the ground.
+
+731
+00:54:09,190 --> 00:54:11,240
+He wrote a book called
+Lost Moon.
+
+732
+00:54:11,240 --> 00:54:17,200
+This was the Apollo 13 book.
+
+733
+00:54:17,200 --> 00:54:23,890
+And he was the Command Module
+navigator on Apollo 8.
+
+734
+00:54:23,890 --> 00:54:27,640
+There he is when
+he was younger.
+
+735
+00:54:27,640 --> 00:54:32,200
+And that's just kind of sad,
+because on Apollo 8
+
+736
+00:54:32,200 --> 00:54:35,050
+navigational measurements, he
+said, "After leaving Earth
+
+737
+00:54:35,050 --> 00:54:40,770
+orbit, the astronauts took a few
+rapturous sightings of the
+
+738
+00:54:40,770 --> 00:54:46,230
+receding planet, and then turn
+their spacecraft around to fly
+
+739
+00:54:46,230 --> 00:54:53,570
+in a proper, nose-forward
+attitude." That always,
+
+740
+00:54:53,570 --> 00:54:56,630
+whenever I see that, it's
+sort of upsetting.
+
+741
+00:54:56,630 --> 00:54:59,490
+We went to all kinds
+of trouble.
+
+742
+00:54:59,490 --> 00:55:02,180
+And he was the navigator.
+
+743
+00:55:02,180 --> 00:55:07,130
+And when he wrote the book, he
+didn't mention anything about
+
+744
+00:55:07,130 --> 00:55:08,170
+how he did this.
+
+745
+00:55:08,170 --> 00:55:11,730
+He just took some rapturous
+sightings of
+
+746
+00:55:11,730 --> 00:55:14,720
+the receding planet.
+
+747
+00:55:14,720 --> 00:55:17,580
+Oh, well.
+
+748
+00:55:17,580 --> 00:55:19,980
+Here are the flights.
+
+749
+00:55:19,980 --> 00:55:22,570
+Apollo 1 was destroyed
+by the fire.
+
+750
+00:55:22,570 --> 00:55:25,940
+Then there was Apollo 7,
+which was to try it
+
+751
+00:55:25,940 --> 00:55:27,640
+out in Earth orbit.
+
+752
+00:55:27,640 --> 00:55:30,120
+Apollo 8 went to the moon.
+
+753
+00:55:30,120 --> 00:55:34,260
+Apollo 9 was a flight for that
+the first time, the lunar
+
+754
+00:55:34,260 --> 00:55:38,610
+module flew in Earth orbit.
+
+755
+00:55:38,610 --> 00:55:42,350
+Apollo 10 was a dress rehearsal
+to fly to the moon.
+
+756
+00:55:42,350 --> 00:55:45,010
+You do everything except land.
+
+757
+00:55:45,010 --> 00:55:48,540
+And then Apollo 11, you land.
+
+758
+00:55:48,540 --> 00:55:51,850
+Then there were a bunch of
+others, as you can see.
+
+759
+00:55:51,850 --> 00:55:57,405
+12, 13 was, it took a while
+before they were ready, over a
+
+760
+00:55:57,405 --> 00:56:02,680
+year and a half, to go
+from Apollo 13 to 14.
+
+761
+00:56:02,680 --> 00:56:05,410
+And at the very end,
+they had Apollo 17.
+
+762
+00:56:05,410 --> 00:56:08,440
+But there were 18, 19, and 20.
+
+763
+00:56:08,440 --> 00:56:09,990
+The rockets were there.
+
+764
+00:56:09,990 --> 00:56:11,400
+The spacecraft were there.
+
+765
+00:56:11,400 --> 00:56:13,730
+They could have flown.
+
+766
+00:56:13,730 --> 00:56:17,870
+But I think that probably the
+reason was that with all these
+
+767
+00:56:17,870 --> 00:56:22,070
+successes, why don't we
+quit when we're ahead?
+
+768
+00:56:22,070 --> 00:56:25,070
+And there's another reason why
+you might want to quit.
+
+769
+00:56:25,070 --> 00:56:29,315
+And that is numerology, again,
+more numerology.
+
+770
+00:56:32,230 --> 00:56:36,480
+1 plus 9 plus 6 plus 1 is 17.
+
+771
+00:56:36,480 --> 00:56:42,190
+And Alan Shepard's flight was
+on 5/5/61, which is 17.
+
+772
+00:56:42,190 --> 00:56:47,930
+So Apollo 17 was going to be the
+last flight to the moon,
+
+773
+00:56:47,930 --> 00:56:51,260
+all set by the very beginning.
+
+774
+00:56:51,260 --> 00:56:55,510
+But not only that, 17 is
+an important number.
+
+775
+00:56:55,510 --> 00:56:56,320
+It's a Fermat number.
+
+776
+00:56:56,320 --> 00:56:59,480
+It's a Fermat prime.
+
+777
+00:56:59,480 --> 00:57:03,670
+Fermat numbers are 2 to the 2 to
+the, and so on up the line.
+
+778
+00:57:03,670 --> 00:57:08,580
+And Fermat had suggested
+that all such
+
+779
+00:57:08,580 --> 00:57:11,640
+numbers would be prime.
+
+780
+00:57:11,640 --> 00:57:16,070
+And they're not.
+
+781
+00:57:16,070 --> 00:57:20,670
+In fact, the only numbers which
+are known to be Fermat
+
+782
+00:57:20,670 --> 00:57:30,910
+primes are the ones at the
+bottom 6, or 0, 1, 2, 3, and 4
+
+783
+00:57:30,910 --> 00:57:37,950
+are the only known primes, and
+F2, which is 2 to the 2 to the
+
+784
+00:57:37,950 --> 00:57:40,030
+2 plus 1 is seventeen.
+
+785
+00:57:40,030 --> 00:57:46,080
+And so it is one of the
+only known primes
+
+786
+00:57:46,080 --> 00:57:49,000
+generated by this formula.
+
+787
+00:57:49,000 --> 00:57:54,557
+So obviously, 17 had to be the
+last flight to the moon.
+
+788
+00:57:57,360 --> 00:58:00,750
+Then Apollo 11.
+
+789
+00:58:00,750 --> 00:58:05,060
+Here are the guys that
+flew Apollo 11.
+
+790
+00:58:05,060 --> 00:58:07,090
+There's Neil Armstrong.
+
+791
+00:58:07,090 --> 00:58:08,040
+And there's Buzz Aldrin.
+
+792
+00:58:08,040 --> 00:58:13,150
+These pictures were taken
+when they were young.
+
+793
+00:58:13,150 --> 00:58:15,710
+They don't look like
+that anymore.
+
+794
+00:58:15,710 --> 00:58:24,380
+And Mike Collins stayed in
+orbit while Neil and Buzz
+
+795
+00:58:24,380 --> 00:58:25,630
+landed on the moon.
+
+796
+00:58:30,350 --> 00:58:34,110
+And there is a picture
+of, this is the arm
+
+797
+00:58:34,110 --> 00:58:37,020
+patch for Apollo 11.
+
+798
+00:58:37,020 --> 00:58:38,445
+It's the Eagle.
+
+799
+00:58:38,445 --> 00:58:43,140
+The spacecraft, the Lunar
+Module was the Eagle.
+
+800
+00:58:43,140 --> 00:58:47,850
+And there it is, landing
+on the moon.
+
+801
+00:58:50,730 --> 00:58:56,610
+Now, in the aftermath of Apollo
+11, this is Newton's
+
+802
+00:58:56,610 --> 00:59:00,370
+tomb in Westminster Abbey.
+
+803
+00:59:00,370 --> 00:59:08,100
+And I recently went to
+Westminster Abbey to see,
+
+804
+00:59:08,100 --> 00:59:10,270
+again, Newton's tomb.
+
+805
+00:59:10,270 --> 00:59:12,550
+And they wouldn't let
+you go up to it.
+
+806
+00:59:12,550 --> 00:59:14,330
+Before, you could
+walk up to it.
+
+807
+00:59:14,330 --> 00:59:17,195
+And you could pat the--
+
+808
+00:59:17,195 --> 00:59:19,180
+but now you couldn't.
+
+809
+00:59:19,180 --> 00:59:24,800
+And I was talking to one
+of the guides there.
+
+810
+00:59:24,800 --> 00:59:29,000
+And I told them what had
+happened in Apollo 11.
+
+811
+00:59:29,000 --> 00:59:32,160
+I said, there was a
+message left on
+
+812
+00:59:32,160 --> 00:59:35,220
+Newton's tomb with flowers.
+
+813
+00:59:35,220 --> 00:59:38,790
+And it said, "The Eagle
+has landed."
+
+814
+00:59:38,790 --> 00:59:41,410
+And his eyes just lit up.
+
+815
+00:59:41,410 --> 00:59:45,480
+He said, "I was here
+when that happened.
+
+816
+00:59:45,480 --> 00:59:46,880
+This was my job.
+
+817
+00:59:46,880 --> 00:59:51,720
+And I saw the symbol,
+the flowers.
+
+818
+00:59:51,720 --> 00:59:55,690
+And I saw the note at that
+time." He said, "It really did
+
+819
+00:59:55,690 --> 00:59:58,800
+happen." And there it is.
+
+820
+00:59:58,800 --> 01:00:01,105
+There is Newton's tomb.
+
+821
+01:00:01,105 --> 01:00:02,850
+It's a huge thing.
+
+822
+01:00:06,040 --> 01:00:13,200
+If you stand in front
+of it, you're no
+
+823
+01:00:13,200 --> 01:00:17,630
+taller than the base.
+
+824
+01:00:17,630 --> 01:00:28,420
+And so that was the story about
+Westminster Abbey and
+
+825
+01:00:28,420 --> 01:00:32,510
+"Sir Isaac, the Eagle
+has landed."
+
+826
+01:00:32,510 --> 01:00:35,430
+It was Howard Johnson
+who knew about this.
+
+827
+01:00:35,430 --> 01:00:40,070
+Howard Johnson was president
+of MIT not too long ago.
+
+828
+01:00:40,070 --> 01:00:44,600
+And a friend of his was killing
+time between flights.
+
+829
+01:00:44,600 --> 01:00:49,040
+And he went to Westminster
+Abbey, and he saw this note.
+
+830
+01:00:49,040 --> 01:00:54,540
+And he told Howard
+Johnson about it.
+
+831
+01:00:54,540 --> 01:00:56,810
+And Howard Johnson told me.
+
+832
+01:00:56,810 --> 01:01:00,590
+And it's very, very-- brings
+tears to your eye when you
+
+833
+01:01:00,590 --> 01:01:05,885
+think that they were able
+to actually do this.
+
+834
+01:01:10,120 --> 01:01:12,600
+And I'm still pretty
+emotional.
+
+835
+01:01:12,600 --> 01:01:20,476
+"Sir Isaac, the Eagle has
+landed." So thank you.
+
+836
+01:01:20,476 --> 01:01:29,670
+[APPLAUSE]
+
+837
+01:01:29,670 --> 01:01:34,220
+If you have any questions,
+fire away.
+
+838
+01:01:34,220 --> 01:01:36,590
+If you don't have any questions,
+I had a good time.
+
+839
+01:01:36,590 --> 01:01:37,840
+I hope you did, too.
+
+840
+01:01:47,720 --> 01:01:51,960
+AUDIENCE: First of all, on the
+numerology, was that all your
+
+841
+01:01:51,960 --> 01:01:52,720
+personal touch?
+
+842
+01:01:52,720 --> 01:01:54,800
+Or was that an active
+discussion topic?
+
+843
+01:01:54,800 --> 01:01:58,570
+PROFESSOR: No, that was just
+me talking to nobody.
+
+844
+01:02:01,470 --> 01:02:11,910
+No, I was really struck by the
+factoring 1961 and getting the
+
+845
+01:02:11,910 --> 01:02:13,620
+date out of that.
+
+846
+01:02:13,620 --> 01:02:20,400
+That just didn't seem like it
+should be, unless somebody was
+
+847
+01:02:20,400 --> 01:02:29,140
+moving the hands, and we were
+able to get the job.
+
+848
+01:02:29,140 --> 01:02:39,830
+And the number 17, I was just
+fiddling around one day, and I
+
+849
+01:02:39,830 --> 01:02:47,090
+said, oh, maybe that's why 17
+was the last flight to the
+
+850
+01:02:47,090 --> 01:02:54,310
+moon, because there's only
+one other prime Fermat
+
+851
+01:02:54,310 --> 01:02:56,990
+number beyond 17.
+
+852
+01:02:56,990 --> 01:03:05,040
+And if you used that number,
+it'd be much too big for
+
+853
+01:03:05,040 --> 01:03:10,208
+having anything to do with the
+number of the flights.
+
+854
+01:03:10,208 --> 01:03:15,020
+AUDIENCE: I have a question
+about the orbital mechanics
+
+855
+01:03:15,020 --> 01:03:19,870
+that you were looking at
+of that early period.
+
+856
+01:03:19,870 --> 01:03:23,150
+I was in high school several
+weeks ago, and somewhere
+
+857
+01:03:23,150 --> 01:03:31,060
+around 1951 or 1952, in an
+advanced math class, we were
+
+858
+01:03:31,060 --> 01:03:34,935
+doing celestial orbital
+mechanics.
+
+859
+01:03:34,935 --> 01:03:37,700
+And we were doing it from
+a small textbook
+
+860
+01:03:37,700 --> 01:03:38,840
+imported from England.
+
+861
+01:03:38,840 --> 01:03:42,640
+And it was written by somebody
+who I didn't recognize as a
+
+862
+01:03:42,640 --> 01:03:45,690
+mathematician that year,
+Arthur C. Clarke.
+
+863
+01:03:45,690 --> 01:03:48,220
+PROFESSOR: Oh yes, of course.
+
+864
+01:03:48,220 --> 01:03:49,630
+He just passed away recently.
+
+865
+01:03:49,630 --> 01:03:52,680
+AUDIENCE: Yeah, and now I've got
+to go home and find out if
+
+866
+01:03:52,680 --> 01:03:56,240
+multiple body orbits
+were in it or not.
+
+867
+01:03:56,240 --> 01:03:57,830
+PROFESSOR: No, he didn't--
+
+868
+01:03:57,830 --> 01:04:00,050
+you mean the one I
+was showing you?
+
+869
+01:04:00,050 --> 01:04:05,430
+No, he said he was not impressed
+at all by that.
+
+870
+01:04:05,430 --> 01:04:07,460
+I didn't send it to him.
+
+871
+01:04:07,460 --> 01:04:08,590
+Somebody else did.
+
+872
+01:04:08,590 --> 01:04:12,490
+And he said, well, that's
+not a problem.
+
+873
+01:04:12,490 --> 01:04:15,650
+Well, it's not a problem
+until you try to do it.
+
+874
+01:04:15,650 --> 01:04:18,068
+So he was just not interested.
+
+875
+01:04:18,068 --> 01:04:22,052
+AUDIENCE: Work it on the
+blackboard for him.
+
+876
+01:04:22,052 --> 01:04:22,550
+Thank you.
+
+877
+01:04:22,550 --> 01:04:24,050
+PROFESSOR: OK.
+
+878
+01:04:24,050 --> 01:04:24,762
+Yes?
+
+879
+01:04:24,762 --> 01:04:29,440
+AUDIENCE: Where were you
+when Neil Armstrong
+
+880
+01:04:29,440 --> 01:04:30,440
+walked on the moon?
+
+881
+01:04:30,440 --> 01:04:32,130
+PROFESSOR: I was in Houston.
+
+882
+01:04:32,130 --> 01:04:36,440
+And I was in the center there.
+
+883
+01:04:36,440 --> 01:04:39,520
+And we were all wringing
+our hands.
+
+884
+01:04:44,370 --> 01:04:52,210
+The alarm that came off just
+before landing, none of us
+
+885
+01:04:52,210 --> 01:04:56,470
+knew, except the one person who
+had to know, and that was
+
+886
+01:04:56,470 --> 01:05:01,630
+the, what's his name.
+
+887
+01:05:01,630 --> 01:05:04,470
+I can't think of his name.
+
+888
+01:05:04,470 --> 01:05:07,780
+But he was the one who said, he
+knew what the alarms were.
+
+889
+01:05:07,780 --> 01:05:08,350
+Forget it.
+
+890
+01:05:08,350 --> 01:05:11,400
+They're OK.
+
+891
+01:05:11,400 --> 01:05:14,830
+Because everyone else, if he
+hadn't spoken up, they were
+
+892
+01:05:14,830 --> 01:05:18,600
+ready to scrub it, because they
+
+893
+01:05:18,600 --> 01:05:20,040
+didn't know what happened.
+
+894
+01:05:20,040 --> 01:05:24,360
+And they would have just
+decided to play it
+
+895
+01:05:24,360 --> 01:05:26,460
+safe and not land.
+
+896
+01:05:26,460 --> 01:05:30,320
+But it was not a problem.
+
+897
+01:05:30,320 --> 01:05:36,520
+Actually, what was happening
+was that the computer had a
+
+898
+01:05:36,520 --> 01:05:40,080
+lot of jobs to do
+simultaneously.
+
+899
+01:05:40,080 --> 01:05:42,300
+It can only do one
+thing at a time.
+
+900
+01:05:42,300 --> 01:05:46,030
+But it would do a piece of a
+job, and then it would switch
+
+901
+01:05:46,030 --> 01:05:46,870
+to another one.
+
+902
+01:05:46,870 --> 01:05:53,990
+And all the time, it had to be
+reading the accelerometer
+
+903
+01:05:53,990 --> 01:05:57,870
+information and calculating what
+the x-acceleration was,
+
+904
+01:05:57,870 --> 01:06:00,180
+lots of things to do.
+
+905
+01:06:00,180 --> 01:06:04,150
+And it had more to do than
+it had time to do it.
+
+906
+01:06:04,150 --> 01:06:08,770
+And the reason was that
+somebody, and Buzz Aldrin has
+
+907
+01:06:08,770 --> 01:06:17,110
+admitted to it now, that he put
+on the ascent radar, just
+
+908
+01:06:17,110 --> 01:06:24,670
+in case they were told to not
+land but leave, they'd be all
+
+909
+01:06:24,670 --> 01:06:28,610
+set with their radar.
+
+910
+01:06:28,610 --> 01:06:36,070
+And by leaving that on, which
+the computer would do, if they
+
+911
+01:06:36,070 --> 01:06:39,200
+were actually launching to
+the moon, it was just an
+
+912
+01:06:39,200 --> 01:06:42,230
+additional task which was
+not supposed to be
+
+913
+01:06:42,230 --> 01:06:44,370
+done at that time.
+
+914
+01:06:44,370 --> 01:06:53,040
+And so fortunately, the guy who
+was in charge knew that
+
+915
+01:06:53,040 --> 01:06:57,655
+that was what the problem was,
+and he just said forget it.
+
+916
+01:06:57,655 --> 01:06:58,905
+Let's go.
+
+917
+01:07:01,395 --> 01:07:04,000
+It's one of those things that
+you don't want to be
+
+918
+01:07:04,000 --> 01:07:06,790
+responsible for.
+
+919
+01:07:06,790 --> 01:07:09,480
+You don't want to have to be
+the one who says, go ahead,
+
+920
+01:07:09,480 --> 01:07:12,840
+and then have it smashed into
+the surface of the moon.
+
+921
+01:07:12,840 --> 01:07:18,600
+You'd be very serious about
+what you would do with the
+
+922
+01:07:18,600 --> 01:07:19,850
+rest of your life.
+
+923
+01:07:22,878 --> 01:07:24,854
+Any other questions?
+
+924
+01:07:24,854 --> 01:07:25,720
+AUDIENCE: Dr. Battin?
+
+925
+01:07:25,720 --> 01:07:26,660
+On your left.
+
+926
+01:07:26,660 --> 01:07:30,746
+I worked at the lab on
+the guidance system.
+
+927
+01:07:30,746 --> 01:07:33,920
+And I think the astronaut
+students, your old students,
+
+928
+01:07:33,920 --> 01:07:36,530
+might be interested knowing,
+it wasn't just one program.
+
+929
+01:07:36,530 --> 01:07:40,400
+But the Lunar Module and the
+Command Module were very
+
+930
+01:07:40,400 --> 01:07:43,730
+different, because of the
+ascent and landing.
+
+931
+01:07:43,730 --> 01:07:46,240
+And also, the lunar
+module was a very
+
+932
+01:07:46,240 --> 01:07:47,610
+early digital autopilot.
+
+933
+01:07:47,610 --> 01:07:51,876
+It worked on a phase plane to
+decide when to fire its jets.
+
+934
+01:07:51,876 --> 01:07:55,700
+And for ascent, it didn't have a
+"gimbal-able" engine, so the
+
+935
+01:07:55,700 --> 01:07:59,525
+whole scheme for controlling
+it was very different.
+
+936
+01:07:59,525 --> 01:08:05,010
+PROFESSOR: Well, the interesting
+thing about the
+
+937
+01:08:05,010 --> 01:08:10,490
+LEM computer was that the people
+who were responsible
+
+938
+01:08:10,490 --> 01:08:13,100
+for the LEM said, "OK, well,
+we'll put a computer in.
+
+939
+01:08:13,100 --> 01:08:19,439
+We'll do our own." And we kept
+saying, and NASA kept saying,
+
+940
+01:08:19,439 --> 01:08:21,529
+why do we want to do that?
+
+941
+01:08:21,529 --> 01:08:26,840
+I mean, if the Command Module
+computer will functionally do
+
+942
+01:08:26,840 --> 01:08:30,460
+the same things that the Lunar
+Module computer is supposed to
+
+943
+01:08:30,460 --> 01:08:32,149
+do, then let's do it.
+
+944
+01:08:32,149 --> 01:08:34,109
+Let's just change the program.
+
+945
+01:08:34,109 --> 01:08:39,149
+Let's don't reinvent a new
+computer for that job.
+
+946
+01:08:39,149 --> 01:08:45,649
+And fortunately, the decision
+was that there would only be
+
+947
+01:08:45,649 --> 01:08:47,090
+one computer.
+
+948
+01:08:47,090 --> 01:08:50,939
+We had two sets of software to
+design, but we didn't do it
+
+949
+01:08:50,939 --> 01:08:54,390
+for two different computers.
+
+950
+01:08:54,390 --> 01:09:02,649
+Actually, the Lunar
+Module had, I
+
+951
+01:09:02,649 --> 01:09:03,960
+forget what it's called.
+
+952
+01:09:03,960 --> 01:09:13,859
+But it was a little computer
+which could do basic things.
+
+953
+01:09:13,859 --> 01:09:19,590
+And if you couldn't do
+anything with the big
+
+954
+01:09:19,590 --> 01:09:23,810
+computer, at least with
+that, it could run
+
+955
+01:09:23,810 --> 01:09:25,490
+the engine, for example.
+
+956
+01:09:25,490 --> 01:09:29,899
+It may not calculate what the
+result's supposed to be.
+
+957
+01:09:29,899 --> 01:09:31,859
+You'd just give it
+to the astronaut.
+
+958
+01:09:31,859 --> 01:09:37,490
+And the simple jobs that you
+expected the computer to do,
+
+959
+01:09:37,490 --> 01:09:40,174
+you would do.
+
+960
+01:09:40,174 --> 01:09:45,000
+And again, they never,
+ever had to do that.
+
+961
+01:09:45,000 --> 01:09:45,890
+They never had to use it.
+
+962
+01:09:45,890 --> 01:09:46,809
+But it was always there.
+
+963
+01:09:46,809 --> 01:09:49,290
+And they were always
+trained for it.
+
+964
+01:09:49,290 --> 01:09:53,985
+But it didn't ever
+have to be used.
+
+965
+01:10:00,490 --> 01:10:01,800
+Yes?
+
+966
+01:10:01,800 --> 01:10:03,180
+AUDIENCE: I had hear
+about Draper
+
+967
+01:10:03,180 --> 01:10:04,540
+attempting to be an astronaut.
+
+968
+01:10:04,540 --> 01:10:05,565
+Whatever happened with that?
+
+969
+01:10:05,565 --> 01:10:06,830
+Did they just decide--
+
+970
+01:10:06,830 --> 01:10:07,680
+PROFESSOR: Draper what?
+
+971
+01:10:07,680 --> 01:10:08,710
+AUDIENCE: Wanting to
+be an astronaut.
+
+972
+01:10:08,710 --> 01:10:10,170
+Did they just determine--
+
+973
+01:10:10,170 --> 01:10:11,990
+PROFESSOR: Oh, well,
+I mean ha ha.
+
+974
+01:10:14,740 --> 01:10:18,205
+Actually, Draper would have gone
+if they had picked him.
+
+975
+01:10:21,790 --> 01:10:25,970
+The Instrumentation Laboratory
+existed before Apollo.
+
+976
+01:10:25,970 --> 01:10:30,810
+And he personally designed
+instruments for aircraft.
+
+977
+01:10:30,810 --> 01:10:34,340
+And then he would test-fly
+them in the plane, and he
+
+978
+01:10:34,340 --> 01:10:35,720
+would be the pilot.
+
+979
+01:10:35,720 --> 01:10:42,240
+So he was a test pilot
+in that sense.
+
+980
+01:10:42,240 --> 01:10:47,600
+But the fact that he was 60
+years old, that's unheard of.
+
+981
+01:10:50,110 --> 01:10:51,870
+I remember when I was
+60 years old.
+
+982
+01:10:51,870 --> 01:10:54,470
+It was a while ago.
+
+983
+01:10:54,470 --> 01:11:04,820
+But no, I don't know whether
+he was actually
+
+984
+01:11:04,820 --> 01:11:06,230
+serious about it.
+
+985
+01:11:06,230 --> 01:11:13,130
+He did write a letter to Bob
+Seamans saying that he would
+
+986
+01:11:13,130 --> 01:11:15,280
+like to be considered.
+
+987
+01:11:15,280 --> 01:11:23,370
+And they could say, well, we
+considered you, but you
+
+988
+01:11:23,370 --> 01:11:25,750
+couldn't do it, physically
+couldn't do it.
+
+989
+01:11:29,420 --> 01:11:31,762
+AUDIENCE: Also, in those days,
+all of the astronauts were
+
+990
+01:11:31,762 --> 01:11:33,630
+military pilots.
+
+991
+01:11:33,630 --> 01:11:37,145
+PROFESSOR: And there
+weren't any women.
+
+992
+01:11:37,145 --> 01:11:41,420
+There weren't any women, because
+there weren't any
+
+993
+01:11:41,420 --> 01:11:43,310
+women test pilots.
+
+994
+01:11:43,310 --> 01:11:46,900
+Had there been women test
+pilots, that'd be OK.
+
+995
+01:11:46,900 --> 01:11:55,390
+Janice Voss was the first female
+astronaut from MIT.
+
+996
+01:11:55,390 --> 01:12:03,220
+And she helped me
+with my course.
+
+997
+01:12:03,220 --> 01:12:07,630
+She was really a very
+good student.
+
+998
+01:12:07,630 --> 01:12:13,900
+And when she graduated, she
+applied to be an astronaut.
+
+999
+01:12:13,900 --> 01:12:22,120
+And she was turned down once,
+twice, and she was turned down
+
+1000
+01:12:22,120 --> 01:12:24,490
+three times.
+
+1001
+01:12:24,490 --> 01:12:27,550
+The fourth time, she
+was selected.
+
+1002
+01:12:27,550 --> 01:12:29,780
+And so she says, don't
+ever give up.
+
+1003
+01:12:29,780 --> 01:12:32,050
+If you want to do something,
+make sure that
+
+1004
+01:12:32,050 --> 01:12:33,790
+you don't give up.
+
+1005
+01:12:33,790 --> 01:12:37,800
+It may not come right away, but
+it could come eventually.
+
+1006
+01:12:37,800 --> 01:12:41,090
+So she was very excited
+about that.
+
+1007
+01:12:41,090 --> 01:12:48,890
+And she was actually the first
+female astronaut from MIT.
+
+1008
+01:12:48,890 --> 01:12:50,410
+We've had other--
+
+1009
+01:12:50,410 --> 01:12:58,920
+well, you just saw some of the
+guys who went to the moon were
+
+1010
+01:12:58,920 --> 01:13:02,410
+all MIT students.
+
+1011
+01:13:02,410 --> 01:13:06,430
+Incidentally, when Buzz Aldrin
+was a student, he did not have
+
+1012
+01:13:06,430 --> 01:13:09,260
+a label on saying I'm going
+to be flying to the moon.
+
+1013
+01:13:09,260 --> 01:13:12,890
+He was a military pilot.
+
+1014
+01:13:12,890 --> 01:13:18,060
+And he was interested in,
+I guess they had begun
+
+1015
+01:13:18,060 --> 01:13:19,570
+to talk about it.
+
+1016
+01:13:19,570 --> 01:13:25,650
+He was interested in doing
+some of the rendezvous
+
+1017
+01:13:25,650 --> 01:13:26,900
+calculations.
+
+1018
+01:13:29,475 --> 01:13:32,440
+But he was not representing
+NASA.
+
+1019
+01:13:32,440 --> 01:13:38,780
+He was just there to get
+a Master's degree.
+
+1020
+01:13:38,780 --> 01:13:46,630
+And all the other astronauts,
+none of them arrived and said,
+
+1021
+01:13:46,630 --> 01:13:48,800
+I am an astronaut, and I want
+to [UNINTELLIGIBLE].
+
+1022
+01:13:48,800 --> 01:13:50,460
+They were all just students.
+
+1023
+01:13:50,460 --> 01:13:55,435
+Mostly, they were from
+the military.
+
+1024
+01:13:55,435 --> 01:14:00,680
+They might be from the
+Air Force Academy,
+
+1025
+01:14:00,680 --> 01:14:01,810
+that sort of thing.
+
+1026
+01:14:01,810 --> 01:14:07,720
+But it was only afterwards that
+they got an assignment,
+
+1027
+01:14:07,720 --> 01:14:10,765
+actually being an astronaut.
+
+1028
+01:14:19,724 --> 01:14:21,110
+Yes?
+
+1029
+01:14:21,110 --> 01:14:23,190
+AUDIENCE: Can I ask your
+opinion on the
+
+1030
+01:14:23,190 --> 01:14:24,777
+Constellation program?
+
+1031
+01:14:24,777 --> 01:14:28,500
+I imagine you think it's long
+overdue, but are they doing it
+
+1032
+01:14:28,500 --> 01:14:29,590
+the right way?
+
+1033
+01:14:29,590 --> 01:14:32,910
+Do we still have the skills
+to go back to the moon?
+
+1034
+01:14:32,910 --> 01:14:34,356
+PROFESSOR: I don't know.
+
+1035
+01:14:34,356 --> 01:14:35,628
+I really don't know.
+
+1036
+01:14:43,490 --> 01:14:49,790
+They're doing so many things
+which are just unbelievable,
+
+1037
+01:14:49,790 --> 01:14:55,950
+the Messenger program
+of getting a
+
+1038
+01:14:55,950 --> 01:14:59,670
+spacecraft to Mercury.
+
+1039
+01:14:59,670 --> 01:15:06,130
+And they did that by at least
+a dozen or more fly-bys of
+
+1040
+01:15:06,130 --> 01:15:12,390
+Earth and/or Venus in order to
+get the energy lowered down to
+
+1041
+01:15:12,390 --> 01:15:17,620
+where you could actually contact
+Venus and maybe go
+
+1042
+01:15:17,620 --> 01:15:20,140
+around, orbit it, or take
+pictures of it,
+
+1043
+01:15:20,140 --> 01:15:21,390
+or what have you.
+
+1044
+01:15:24,730 --> 01:15:31,440
+But I don't know any more about
+that today than anybody
+
+1045
+01:15:31,440 --> 01:15:32,690
+who reads the paper.
+
+1046
+01:15:35,150 --> 01:15:39,140
+The Constellation is,
+I'm not sure.
+
+1047
+01:15:39,140 --> 01:15:42,000
+Is this is a new program
+or what?
+
+1048
+01:15:42,000 --> 01:15:46,686
+AUDIENCE: No, that's the return
+to the moon, and then
+
+1049
+01:15:46,686 --> 01:15:48,150
+to continue on to Mars.
+
+1050
+01:15:48,150 --> 01:15:52,060
+PROFESSOR: They got a
+name for it now, oh.
+
+1051
+01:15:52,060 --> 01:16:01,640
+Well, I think it's certainly a
+great idea to do what we did.
+
+1052
+01:16:01,640 --> 01:16:05,980
+And it would be wonderful to
+be able to do it again.
+
+1053
+01:16:05,980 --> 01:16:09,910
+And I had a student,
+she was actually a
+
+1054
+01:16:09,910 --> 01:16:11,455
+freshman at the time.
+
+1055
+01:16:11,455 --> 01:16:14,120
+And she was Japanese.
+
+1056
+01:16:14,120 --> 01:16:18,155
+And I was a freshman advisor.
+
+1057
+01:16:18,155 --> 01:16:21,040
+We were going around to ask,
+what would you like to do?
+
+1058
+01:16:21,040 --> 01:16:21,580
+What would you like?
+
+1059
+01:16:21,580 --> 01:16:22,960
+And it got to her.
+
+1060
+01:16:22,960 --> 01:16:29,160
+She said, I would like to be
+the first woman on Mars.
+
+1061
+01:16:29,160 --> 01:16:30,150
+And she was serious.
+
+1062
+01:16:30,150 --> 01:16:32,110
+I want to be an astronaut.
+
+1063
+01:16:32,110 --> 01:16:35,530
+The fact that I'm Japanese
+shouldn't have any problem.
+
+1064
+01:16:38,630 --> 01:16:40,130
+I said, well, that's great.
+
+1065
+01:16:40,130 --> 01:16:42,880
+I'll be there to cheer you on.
+
+1066
+01:16:42,880 --> 01:16:50,420
+But the Japanese do seem to be
+getting more interested in
+
+1067
+01:16:50,420 --> 01:16:53,470
+space, as are the Chinese.
+
+1068
+01:16:53,470 --> 01:16:58,700
+And the only thing that's
+going to get us really
+
+1069
+01:16:58,700 --> 01:17:02,760
+interested is when it looks like
+they're going to do it,
+
+1070
+01:17:02,760 --> 01:17:09,370
+and we're going to be left in
+the dust. If as von Braun
+
+1071
+01:17:09,370 --> 01:17:17,830
+said, if you had tried to
+cooperate with the Russians,
+
+1072
+01:17:17,830 --> 01:17:19,310
+there wouldn't be a program.
+
+1073
+01:17:32,330 --> 01:17:33,580
+What was I going to say?
+
+1074
+01:17:40,378 --> 01:17:42,240
+I've forgotten what I
+was going to say.
+
+1075
+01:17:42,240 --> 01:17:49,990
+But anyhow, there are so many
+opportunities that we
+
+1076
+01:17:49,990 --> 01:17:56,640
+hopefully will not ignore, just
+because there isn't any
+
+1077
+01:17:56,640 --> 01:17:57,890
+particular competition.
+
+1078
+01:18:01,230 --> 01:18:07,750
+The whole business of Apollo,
+we learned how to make these
+
+1079
+01:18:07,750 --> 01:18:09,930
+computer chips.
+
+1080
+01:18:09,930 --> 01:18:15,400
+And the chips were manufactured
+by Raytheon for
+
+1081
+01:18:15,400 --> 01:18:27,930
+Apollo, and the largest number
+of computer chips that were
+
+1082
+01:18:27,930 --> 01:18:37,030
+being made were the
+ones for Apollo.
+
+1083
+01:18:37,030 --> 01:18:40,650
+There were very few
+applications.
+
+1084
+01:18:40,650 --> 01:18:47,400
+And so you might say that the
+Apollo computer really was the
+
+1085
+01:18:47,400 --> 01:18:52,780
+original device that
+we have here.
+
+1086
+01:18:52,780 --> 01:19:01,200
+And I think that that is true,
+that with an application,
+
+1087
+01:19:01,200 --> 01:19:03,770
+demand, you're going
+to learn how to do
+
+1088
+01:19:03,770 --> 01:19:05,020
+it better and cheaper.
+
+1089
+01:19:21,330 --> 01:19:21,770
+OK.
+
+1090
+01:19:21,770 --> 01:19:22,970
+[APPLAUSE]
+
+1091
+01:19:22,970 --> 01:19:23,870
+Thank you for coming.
+
+1092
+01:19:23,870 --> 01:19:25,420
+[APPLAUSE]

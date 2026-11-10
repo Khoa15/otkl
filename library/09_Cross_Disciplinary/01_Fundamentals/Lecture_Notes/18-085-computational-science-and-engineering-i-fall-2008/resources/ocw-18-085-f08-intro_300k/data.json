@@ -1,0 +1,22 @@
+{
+  "content": "<p>Transcript of an introductory video lecture on computational science and engineering.</p>\n",
+  "content_type": "resource",
+  "description": "Transcript of an introductory video lecture on computational science and engineering.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/aa2843c56cfa88d369c4ffe0e61a81bf_ocw-18.085-f08-intro_300k.pdf",
+  "file_size": 47072,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "resourcetype": "Document",
+  "title": "Transcript – Course Introduction ",
+  "uid": "aa2843c5-6cfa-88d3-69c4-ffe0e61a81bf",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

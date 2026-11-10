@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>New file Upload</p>\n",
+  "content_type": "resource",
+  "description": "New file Upload",
+  "draft": false,
+  "file": "/courses/2-092-finite-element-analysis-of-solids-and-fluids-i-fall-2009/6a6350bb7b1bb3cc03b8ba91f074b2f3_MIT2_092F09_hw3.pdf",
+  "file_size": 32015,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "ab138e96-f294-f0c1-d312-b820228458e7",
+  "resourcetype": "Document",
+  "title": "MIT2_092F09_hw3.pdf",
+  "uid": "6a6350bb-7b1b-b3cc-03b8-ba91f074b2f3",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "2-092-finite-element-analysis-of-solids-and-fluids-i-fall-2009"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "2-092-finite-element-analysis-of-solids-and-fluids-i-fall-2009"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

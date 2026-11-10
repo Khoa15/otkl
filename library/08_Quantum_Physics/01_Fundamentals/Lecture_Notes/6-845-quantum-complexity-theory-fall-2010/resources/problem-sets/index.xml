@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Sets on MIT OpenCourseWare</title>
+    <link>/resources/problem-sets/</link>
+    <description>Recent content in Problem Sets on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-sets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MIT6_845F10_assn01.pdf</title>
+      <link>/resources/mit6_845f10_assn01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_assn01/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem set 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_assn02.pdf</title>
+      <link>/resources/mit6_845f10_assn02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_assn02/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem set 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_assn04.pdf</title>
+      <link>/resources/mit6_845f10_assn04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_assn04/data.json</guid>
+      <description>&lt;p&gt;This resource contains problem set 4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 3: Quantum Algorithms and Lower Bounds</title>
+      <link>/resources/mit6_845f10_assn03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_assn03/data.json</guid>
+      <description>&lt;p&gt;Problem set on quantum algorithms and lower bounds, the Bernstein-Vazirani problem, Simon’s problem, oracle separations, Grover’s algorithm, the polynomial method, and the &amp;ldquo;Almost-As-Good-As-New Lemma.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

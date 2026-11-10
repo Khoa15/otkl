@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;p&gt;The textbook, written by the instructor, covers the topics examined in this course in greater detail.&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;interactive-aerospace-engineering-and-design-with-cd-rom&#34;&gt;Interactive Aerospace Engineering and Design with CD-ROM&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Author: Dava Newman, Massachusetts Institute of Technology&lt;br&gt;&#xA;ISBN: 0-07-235124-1&lt;br&gt;&#xA;Description: ©2002 / Hardcover with CDROM &lt;br&gt;&#xA;Publication Date: July 2001&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;overview&#34;&gt;Overview&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Intended for both majors and non-majors taking a first course in Introduction to Aerospace Engineering or Introduction to Flight. This new text will inspire students with its integrated bound-in CD-ROM and its strong emphasis in design. Its active visual approach and inclusion of space-oriented engineering makes it ideal for the changing needs of the Aerospace Engineering field. Newman&amp;rsquo;s book is the first to include integrated multimedia, strong coverage of space flight, the design process, and extensive coverage of space flight. A CD-ROM, bound in with the book, provides extensive animations, QuickTime movies, and MATLAB&lt;sup&gt;®&lt;/sup&gt; based simulations to motivate student readers. A student design project is included to convey the importance of team orientated design in an accessible manner. All resource and multimedia materials are provided on the CD-ROM, including: PDF files of the book chapters; additional color photographs, figures, and pictures referenced in the text; multimedia animations, simulations, and vrml files. The icons in the book, namely, the CD-ROM and World Wide Web (WWW) icons, refer you to materials that are on the CD-ROM and website, respectively, not in the text. In the margins of the text you will see the CD-ROM icon with a filename, which means that the referenced resource material (photograph, animation, simulation, etc.) is linked to the CD-ROM and should be accessed and studied at that point in the chapter. The lighter-than-air (LTA) vehicle and electronics laboratory (&amp;lsquo;Ornithopter Lab&amp;rsquo;) contain extensive multimedia materials and are referenced throughout the book, especially in Chapter 12. The WWW icon refers to the website for the text and CD-ROM where one will find a chronological listing of all the URLs referenced throughout the book.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

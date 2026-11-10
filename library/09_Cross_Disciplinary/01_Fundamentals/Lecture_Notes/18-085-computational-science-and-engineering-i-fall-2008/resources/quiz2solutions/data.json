@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>Solutions to a quiz on computational science and engineering.</p>\n",
+  "content_type": "resource",
+  "description": "Solutions to a quiz on computational science and engineering.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/6f376149b5e6206dc2b46aa8124e9068_quiz2solutions.pdf",
+  "file_size": 150389,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exam Solutions"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Exams",
+  "parent_type": "CourseSection",
+  "parent_uid": "9b478d87-1396-5227-2cfb-83235a2e9dde",
+  "resourcetype": "Document",
+  "title": "Quiz 2 Solutions, Fall 2007",
+  "uid": "6f376149-b5e6-206d-c2b4-6aa8124e9068",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

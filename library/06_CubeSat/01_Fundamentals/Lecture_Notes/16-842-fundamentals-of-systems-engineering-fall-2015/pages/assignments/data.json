@@ -1,0 +1,16 @@
+
+{
+  "content": "<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nASSIGNMENTS\n</th>\n\n<th>\n\nTOPICS\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\nA1 (group project)\n</td>\n\n<td>\n\n<a href=\"../../resources/mit16_842f15_assignment1/index.html\">Team Formation, Definitions, Stakeholders, Concept of Operations (CONOPS) (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nA2 (group project)\n</td>\n\n<td>\n\n<a href=\"../../resources/mit16_842f15_assignment2/index.html\">Requirements Definition and Analysis; Margins Allocation (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nA3 (group project)\n</td>\n\n<td>\n\n<a href=\"../../resources/mit16_842f15_assignment3/index.html\">System Architecture, Concept Generation (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nA4 (group project)\n</td>\n\n<td>\n\n<a href=\"../../resources/mit16_842f15_assignment4/index.html\">Tradespace Exploration, Concept Selection (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nA5 (group project)\n</td>\n\n<td>\n\n<a href=\"../../resources/mit16_842f15_assignment5/index.html\">Preliminary Design Review (PDR) Package and Presentation (PDF)</a>\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section provides the group projects assigned for the course.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Assignments",
+  "uid": "e05910ee-9d33-4170-6aa3-011adcee6fe1"
+}
+

@@ -1,0 +1,39 @@
+{
+  "content": "<p>This resource contains information regarding quantum physics: Assignment 8.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information regarding quantum physics: Assignment 8.",
+  "draft": false,
+  "file": "/courses/8-04-quantum-physics-i-spring-2016/67574eeda2314554048c13a823b23d7a_MIT8_04S16_ps8_2016.pdf",
+  "file_size": 156267,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "023ba687-86a7-e018-674d-9ae5887715ed",
+  "resourcetype": "Document",
+  "title": "Assignment 8",
+  "uid": "67574eed-a231-4554-048c-13a823b23d7a",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

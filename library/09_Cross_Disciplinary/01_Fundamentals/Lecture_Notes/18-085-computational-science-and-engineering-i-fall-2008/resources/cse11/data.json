@@ -1,0 +1,47 @@
+{
+  "audience": [],
+  "content": "<p>Excerpt on applied linearalgebra and four special matrices from the course textbook.</p>\n",
+  "content_type": "resource",
+  "description": "Excerpt on applied linearalgebra and four special matrices from the course textbook.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/2a7a1ba282fc47199e3081b82d7fe8d5_cse11.pdf",
+  "file_size": 398768,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Study Materials",
+  "parent_type": "CourseSection",
+  "parent_uid": "df610098-8ebd-ba68-b43f-7d3a6f71d7c5",
+  "resourcetype": "Document",
+  "title": "Chapter 1: Applied Linear Algebra; Section 1.1 Four Special Matrices",
+  "uid": "2a7a1ba2-82fc-4719-9e30-81b82d7fe8d5",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

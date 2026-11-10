@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>l1_launch_system.pdf</title>
+      <link>/resources/l1_launch_system/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l1_launch_system/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l10_emformflight.pdf</title>
+      <link>/resources/l10_emformflight/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l10_emformflight/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 10.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l11_ff_1_imaging.pdf</title>
+      <link>/resources/l11_ff_1_imaging/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l11_ff_1_imaging/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 11.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l12_ff2_resizing.pdf</title>
+      <link>/resources/l12_ff2_resizing/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l12_ff2_resizing/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 12.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l13_ff_3_orbits.pdf</title>
+      <link>/resources/l13_ff_3_orbits/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l13_ff_3_orbits/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 13.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l14_structures.pdf</title>
+      <link>/resources/l14_structures/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l14_structures/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 14.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l15_costmodellec.pdf</title>
+      <link>/resources/l15_costmodellec/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l15_costmodellec/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 15.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l16_software.pdf</title>
+      <link>/resources/l16_software/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l16_software/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 16.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l17_software_eng.pdf</title>
+      <link>/resources/l17_software_eng/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l17_software_eng/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 17.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l18_autonomy_lec.pdf</title>
+      <link>/resources/l18_autonomy_lec/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l18_autonomy_lec/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 18.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l19scraftcompsys.pdf</title>
+      <link>/resources/l19scraftcompsys/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l19scraftcompsys/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 19.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l2_orbital_mech.pdf</title>
+      <link>/resources/l2_orbital_mech/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l2_orbital_mech/data.json</guid>
+      <description>&lt;p&gt;Handwritten notes from Lecture 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l20_satellitettc.pdf</title>
+      <link>/resources/l20_satellitettc/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l20_satellitettc/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 20.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l21satelitecomm2_done.pdf</title>
+      <link>/resources/l21satelitecomm2_done/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l21satelitecomm2_done/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 21.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l22_reentry.pdf</title>
+      <link>/resources/l22_reentry/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l22_reentry/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 22.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l23thermalcontro.pdf</title>
+      <link>/resources/l23thermalcontro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l23thermalcontro/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 23.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l24_groundsysdes.pdf</title>
+      <link>/resources/l24_groundsysdes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l24_groundsysdes/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 24.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l3_scpowersys_dm_done2.pdf</title>
+      <link>/resources/l3_scpowersys_dm_done2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l3_scpowersys_dm_done2/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l4_propulsion.pdf</title>
+      <link>/resources/l4_propulsion/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l4_propulsion/data.json</guid>
+      <description>&lt;p&gt;Handwritten notes from Lecture 4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l5_space_environ_done2.pdf</title>
+      <link>/resources/l5_space_environ_done2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l5_space_environ_done2/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 5.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l6_optics_1.pdf</title>
+      <link>/resources/l6_optics_1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l6_optics_1/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 6.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l7_optics_2.pdf</title>
+      <link>/resources/l7_optics_2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l7_optics_2/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 7.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l8_optics_3.pdf</title>
+      <link>/resources/l8_optics_3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l8_optics_3/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 8.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>l9_acs.pdf</title>
+      <link>/resources/l9_acs/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/l9_acs/data.json</guid>
+      <description>&lt;p&gt;Slides for presentation of Lecture 9.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LEC #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Launch Systems (&lt;a href=&#34;../../resources/l1_launch_system/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Orbital Mechanics (&lt;a href=&#34;../../resources/l2_orbital_mech/index.html&#34;&gt;PDF&lt;/a&gt;) (Courtesy of Raymond Sedwick. Used with permission.)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Spacecraft Power Systems (&lt;a href=&#34;../../resources/l3_scpowersys_dm_done2/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Propulsion (&lt;a href=&#34;../../resources/l4_propulsion/index.html&#34;&gt;PDF&lt;/a&gt;) (Courtesy of Raymond Sedwick. Used with permission.)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;The Environment of Space (&lt;a href=&#34;../../resources/l5_space_environ_done2/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;6&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Optics 1:&lt;br&gt;&#xA;Introduction to Optics (&lt;a href=&#34;../../resources/l6_optics_1/index.html&#34;&gt;PDF&lt;/a&gt;) (Courtesy of Olivier de Weck and Soon-Jo Chung. Used with permission.)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;7&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Optics 2:&lt;br&gt;&#xA;Introduction to Optics (cont.) (&lt;a href=&#34;../../resources/l7_optics_2/index.html&#34;&gt;PDF&lt;/a&gt;) (Courtesy of Olivier de Weck and Soon-Jo Chung. Used with permission.)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

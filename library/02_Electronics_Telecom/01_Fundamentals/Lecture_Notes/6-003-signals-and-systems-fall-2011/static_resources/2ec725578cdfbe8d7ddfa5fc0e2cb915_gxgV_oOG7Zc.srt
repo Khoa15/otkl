@@ -1,0 +1,4642 @@
+1
+00:00:00,090 --> 00:00:02,490
+The following content is
+provided under a Creative
+
+2
+00:00:02,490 --> 00:00:04,030
+Commons license.
+
+3
+00:00:04,030 --> 00:00:06,330
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:06,330 --> 00:00:10,720
+continue to offer high quality
+educational resources for free.
+
+5
+00:00:10,720 --> 00:00:13,320
+To make a donation or
+view additional materials
+
+6
+00:00:13,320 --> 00:00:17,280
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:17,280 --> 00:00:18,450
+at ocw.mit.edu.
+
+8
+00:00:28,320 --> 00:00:31,020
+DENNIS FREEMAN:
+Hello and welcome.
+
+9
+00:00:31,020 --> 00:00:33,330
+As before, as you
+might be expecting,
+
+10
+00:00:33,330 --> 00:00:36,030
+the big new news is, of
+course-- well it's not new news.
+
+11
+00:00:36,030 --> 00:00:38,640
+The big news is
+exam, tomorrow night.
+
+12
+00:00:38,640 --> 00:00:40,980
+This should be very
+familiar stuff to you.
+
+13
+00:00:40,980 --> 00:00:43,470
+I apologize, a couple
+people asked me right before
+
+14
+00:00:43,470 --> 00:00:45,770
+lecture about Fourier
+because there was Fourier
+
+15
+00:00:45,770 --> 00:00:47,670
+on one of the previous exams.
+
+16
+00:00:47,670 --> 00:00:50,310
+There is no Fourier.
+
+17
+00:00:50,310 --> 00:00:53,620
+I should have probably
+axed that problem.
+
+18
+00:00:53,620 --> 00:00:56,850
+So in my head I was trying
+to be complete disclosure.
+
+19
+00:00:56,850 --> 00:00:59,400
+This is what the
+exam looked like.
+
+20
+00:00:59,400 --> 00:01:02,200
+I didn't mean to send the false
+message that there is Fourier.
+
+21
+00:01:02,200 --> 00:01:05,099
+There is no Fourier.
+
+22
+00:01:05,099 --> 00:01:07,650
+Next time we'll have
+lots of opportunities
+
+23
+00:01:07,650 --> 00:01:10,930
+to ask Fourier questions,
+so no Fourier this time.
+
+24
+00:01:10,930 --> 00:01:13,800
+On the other hand, yes, Bode,
+Root Locus, that kind of stuff,
+
+25
+00:01:13,800 --> 00:01:14,880
+yes.
+
+26
+00:01:14,880 --> 00:01:18,960
+So, that kind of stuff
+you should get on top of.
+
+27
+00:01:18,960 --> 00:01:21,750
+Questions or comments
+about the exam?
+
+28
+00:01:21,750 --> 00:01:24,360
+I guess the one thing to
+remember is it's in Walker.
+
+29
+00:01:24,360 --> 00:01:26,460
+It's not on the
+third floor of 26.
+
+30
+00:01:26,460 --> 00:01:29,460
+Other than that, you should
+be kind of in a good position
+
+31
+00:01:29,460 --> 00:01:30,912
+to know roughly what to expect.
+
+32
+00:01:30,912 --> 00:01:31,412
+Yes?
+
+33
+00:01:31,412 --> 00:01:33,450
+AUDIENCE: When you say
+two pages of notes,
+
+34
+00:01:33,450 --> 00:01:36,270
+do you mean two separate
+8 and a half by 11 cards?
+
+35
+00:01:36,270 --> 00:01:37,680
+DENNIS FREEMAN: Yes.
+
+36
+00:01:37,680 --> 00:01:41,010
+So the idea is if you made
+one 8 and a half by 11 front
+
+37
+00:01:41,010 --> 00:01:44,280
+and back for the last exam,
+please just bring that.
+
+38
+00:01:44,280 --> 00:01:46,387
+Don't bother making a new one.
+
+39
+00:01:46,387 --> 00:01:48,720
+But you might want to make a
+new one that contains stuff
+
+40
+00:01:48,720 --> 00:01:50,190
+that we've done since then.
+
+41
+00:01:50,190 --> 00:01:51,330
+That's the idea.
+
+42
+00:01:51,330 --> 00:01:53,730
+But we of course don't
+care what you do.
+
+43
+00:01:53,730 --> 00:01:58,420
+Micro, you know, if you want
+to bring-- so, no electronics.
+
+44
+00:01:58,420 --> 00:02:00,854
+But optical
+magnification is fine.
+
+45
+00:02:00,854 --> 00:02:03,020
+If you want to bring a
+little microscope, it's fine.
+
+46
+00:02:03,020 --> 00:02:04,480
+We don't mind.
+
+47
+00:02:04,480 --> 00:02:07,420
+If you can have an all optics,
+no electronic, microfiche
+
+48
+00:02:07,420 --> 00:02:10,120
+reader, fine.
+
+49
+00:02:10,120 --> 00:02:13,960
+So the idea is just
+to send the message
+
+50
+00:02:13,960 --> 00:02:16,540
+that you shouldn't be
+spending a lot of time
+
+51
+00:02:16,540 --> 00:02:18,100
+leafing through 300 pages.
+
+52
+00:02:18,100 --> 00:02:20,364
+That's what we don't
+want you to do.
+
+53
+00:02:20,364 --> 00:02:21,340
+AUDIENCE: Question.
+
+54
+00:02:21,340 --> 00:02:21,550
+DENNIS FREEMAN: Yes
+
+55
+00:02:21,550 --> 00:02:23,530
+AUDIENCE: Can we bring our
+abacus, or is that not allowed?
+
+56
+00:02:23,530 --> 00:02:24,400
+DENNIS FREEMAN:
+Can you bring your?
+
+57
+00:02:24,400 --> 00:02:25,349
+AUDIENCE: Abacus.
+
+58
+00:02:25,349 --> 00:02:26,890
+DENNIS FREEMAN:
+Abacuses are welcome.
+
+59
+00:02:26,890 --> 00:02:29,620
+In fact, I would love to
+race somebody with an abacus.
+
+60
+00:02:29,620 --> 00:02:31,900
+I will take you on
+with a slide rule.
+
+61
+00:02:31,900 --> 00:02:32,950
+[LAUGHTER]
+
+62
+00:02:32,950 --> 00:02:36,587
+Okay, so I learned with a slide
+rule and the question was--
+
+63
+00:02:36,587 --> 00:02:38,170
+Well, no, you don't
+want to know that.
+
+64
+00:02:38,170 --> 00:02:40,810
+I don't want to tell
+you that, actually.
+
+65
+00:02:40,810 --> 00:02:42,860
+Okay, other questions, comments?
+
+66
+00:02:42,860 --> 00:02:46,090
+Abacuses, fine.
+
+67
+00:02:46,090 --> 00:02:47,755
+Non electronic devices.
+
+68
+00:02:53,150 --> 00:02:58,060
+So today is the final
+lecture on feedback.
+
+69
+00:02:58,060 --> 00:03:00,910
+What we've done over the
+course of the last week
+
+70
+00:03:00,910 --> 00:03:03,730
+and a half or so is looked
+at a variety of applications.
+
+71
+00:03:03,730 --> 00:03:06,100
+Last time we looked
+at how to perform--
+
+72
+00:03:06,100 --> 00:03:07,900
+how to improve
+performance with feedback.
+
+73
+00:03:07,900 --> 00:03:10,316
+We looked at how you could
+increase the bandwidth of an op
+
+74
+00:03:10,316 --> 00:03:13,390
+amp, increase the
+speed of an op amp,
+
+75
+00:03:13,390 --> 00:03:16,780
+change a motor so that
+its natural output, which
+
+76
+00:03:16,780 --> 00:03:18,790
+is a voltage
+controlled velocity,
+
+77
+00:03:18,790 --> 00:03:21,580
+could be perturbed into a
+voltage controlled position.
+
+78
+00:03:21,580 --> 00:03:23,740
+Today I want to just
+do a few more examples.
+
+79
+00:03:23,740 --> 00:03:26,590
+Because what I want you to do
+is leave this place thinking
+
+80
+00:03:26,590 --> 00:03:28,480
+feedback's really useful.
+
+81
+00:03:28,480 --> 00:03:29,680
+It's not just torture.
+
+82
+00:03:29,680 --> 00:03:30,736
+I mean it is torture.
+
+83
+00:03:30,736 --> 00:03:32,860
+We do torture you and you're
+supposed to figure out
+
+84
+00:03:32,860 --> 00:03:34,568
+how it works quantitatively
+and all that.
+
+85
+00:03:34,568 --> 00:03:36,010
+But it's not just torture.
+
+86
+00:03:36,010 --> 00:03:37,870
+It's actually very useful.
+
+87
+00:03:37,870 --> 00:03:41,800
+And that's what I
+want you to take away.
+
+88
+00:03:41,800 --> 00:03:44,650
+The first application today
+that I want to think about
+
+89
+00:03:44,650 --> 00:03:47,390
+is reducing unwanted
+parameter variation.
+
+90
+00:03:47,390 --> 00:03:50,140
+So the idea that I
+want you to think about
+
+91
+00:03:50,140 --> 00:03:53,590
+is what do you have in a power
+amplifier of the type that you
+
+92
+00:03:53,590 --> 00:03:55,900
+would drive speakers--
+
+93
+00:03:55,900 --> 00:03:58,270
+of the type that you would
+use to drive speakers.
+
+94
+00:03:58,270 --> 00:04:01,090
+That's a kind of a
+complicated electronic device.
+
+95
+00:04:01,090 --> 00:04:03,250
+It's kind of hard
+to make high power.
+
+96
+00:04:03,250 --> 00:04:05,500
+You end up having to
+generate high power in order
+
+97
+00:04:05,500 --> 00:04:10,517
+to make a loud speaker that
+fills this hall for example.
+
+98
+00:04:10,517 --> 00:04:12,100
+And if you were to
+try to do something
+
+99
+00:04:12,100 --> 00:04:14,935
+bigger like a concert,
+it's even harder.
+
+100
+00:04:14,935 --> 00:04:17,050
+And the problem with
+those kinds of devices
+
+101
+00:04:17,050 --> 00:04:19,779
+is that they are active.
+
+102
+00:04:19,779 --> 00:04:21,370
+They generate signals
+that are bigger
+
+103
+00:04:21,370 --> 00:04:23,560
+that generate more
+power at their output
+
+104
+00:04:23,560 --> 00:04:25,870
+than there was
+available at the input.
+
+105
+00:04:25,870 --> 00:04:28,280
+And we're very good
+at such things.
+
+106
+00:04:28,280 --> 00:04:32,260
+Unfortunately, such things
+are intrinsically non-linear.
+
+107
+00:04:32,260 --> 00:04:36,430
+So we actually take advantage
+of non-linearities in materials
+
+108
+00:04:36,430 --> 00:04:38,030
+in order to do that.
+
+109
+00:04:38,030 --> 00:04:40,000
+The result though is
+that at a high level
+
+110
+00:04:40,000 --> 00:04:41,350
+the thing's still non-linear.
+
+111
+00:04:41,350 --> 00:04:43,720
+And we can see some of that.
+
+112
+00:04:43,720 --> 00:04:46,120
+And not only non-linear,
+but other things.
+
+113
+00:04:46,120 --> 00:04:48,480
+They can be
+temperature dependent.
+
+114
+00:04:48,480 --> 00:04:50,560
+So if you were to make
+a high power amplifier
+
+115
+00:04:50,560 --> 00:04:52,540
+it's very likely
+that the performance
+
+116
+00:04:52,540 --> 00:04:55,270
+would depend on temperature.
+
+117
+00:04:55,270 --> 00:04:57,090
+Who cares, it's always
+room temperature.
+
+118
+00:04:57,090 --> 00:05:00,310
+No, not inside the amplifier.
+
+119
+00:05:00,310 --> 00:05:02,050
+It may start out
+at room temperature
+
+120
+00:05:02,050 --> 00:05:04,300
+every time you turn it on,
+but within a few minutes
+
+121
+00:05:04,300 --> 00:05:06,200
+it's going to be much higher
+than room temperature.
+
+122
+00:05:06,200 --> 00:05:07,866
+And if you didn't do
+something about it,
+
+123
+00:05:07,866 --> 00:05:10,730
+the gain would change.
+
+124
+00:05:10,730 --> 00:05:13,280
+If you didn't do something
+about it in your car,
+
+125
+00:05:13,280 --> 00:05:15,500
+it would track the
+weather, which may be good.
+
+126
+00:05:15,500 --> 00:05:17,530
+Maybe it would
+provide a distraction
+
+127
+00:05:17,530 --> 00:05:18,980
+and provide utility to winter.
+
+128
+00:05:18,980 --> 00:05:21,740
+But short of that
+normally we don't
+
+129
+00:05:21,740 --> 00:05:25,940
+want the sound level that
+comes out of a stereo system
+
+130
+00:05:25,940 --> 00:05:28,380
+to depend on temperature.
+
+131
+00:05:28,380 --> 00:05:30,770
+So how do you take a
+device that intrinsically
+
+132
+00:05:30,770 --> 00:05:31,980
+depends on temperature?
+
+133
+00:05:31,980 --> 00:05:34,580
+Here I am imagining that I
+have a power amplifier whose
+
+134
+00:05:34,580 --> 00:05:38,600
+gain can go between 8
+and 12, say, depending
+
+135
+00:05:38,600 --> 00:05:40,340
+on what the temperature is.
+
+136
+00:05:40,340 --> 00:05:43,040
+How could you fix that
+so that its behavior
+
+137
+00:05:43,040 --> 00:05:47,570
+was more consistent from day
+to day, from hour to hour.
+
+138
+00:05:47,570 --> 00:05:50,480
+And of course, not too
+surprisingly, the answer
+
+139
+00:05:50,480 --> 00:05:53,272
+is use feedback.
+
+140
+00:05:53,272 --> 00:05:54,920
+So how do you do that?
+
+141
+00:05:54,920 --> 00:05:57,800
+So you want to connect the
+amplifier to the speaker.
+
+142
+00:05:57,800 --> 00:05:59,847
+After all, it's
+inside the amplifier
+
+143
+00:05:59,847 --> 00:06:01,430
+that you have all
+the transistors that
+
+144
+00:06:01,430 --> 00:06:03,020
+are able to drive the speaker.
+
+145
+00:06:03,020 --> 00:06:06,790
+So you don't want to
+perturb that connection.
+
+146
+00:06:06,790 --> 00:06:08,280
+But what you can
+do with feedback
+
+147
+00:06:08,280 --> 00:06:12,180
+is monitor what was the voltage
+that actually got produced
+
+148
+00:06:12,180 --> 00:06:15,020
+and try to rig the feedback
+system to coerce it
+
+149
+00:06:15,020 --> 00:06:18,410
+to the voltage you wish it were.
+
+150
+00:06:18,410 --> 00:06:21,180
+So the way you can do that is
+to generate a feedback loop.
+
+151
+00:06:21,180 --> 00:06:26,130
+Precede the power amplifier
+with a voltage amplifier
+
+152
+00:06:26,130 --> 00:06:28,890
+that does not necessarily
+significantly increase
+
+153
+00:06:28,890 --> 00:06:29,400
+the power.
+
+154
+00:06:29,400 --> 00:06:31,566
+That makes that kind of an
+amplifier somewhat easier
+
+155
+00:06:31,566 --> 00:06:34,400
+to make.
+
+156
+00:06:34,400 --> 00:06:36,860
+So imagine that
+this power amplifier
+
+157
+00:06:36,860 --> 00:06:38,720
+has big chunky
+transistors because it
+
+158
+00:06:38,720 --> 00:06:43,160
+has to generate amps in order
+to make your speakers work.
+
+159
+00:06:43,160 --> 00:06:46,460
+This, by comparison, could be
+a much less power hungry kind
+
+160
+00:06:46,460 --> 00:06:47,060
+of amplifier.
+
+161
+00:06:47,060 --> 00:06:48,850
+And it's easier to
+make, and in particular
+
+162
+00:06:48,850 --> 00:06:51,260
+would be easy to make it
+with a gain of 10 or 100
+
+163
+00:06:51,260 --> 00:06:52,730
+or 1,000 or 10,000.
+
+164
+00:06:52,730 --> 00:06:56,270
+We're very good at doing
+that kind of stuff.
+
+165
+00:06:56,270 --> 00:07:00,440
+Then the idea of feedback
+is to compare the signal
+
+166
+00:07:00,440 --> 00:07:04,490
+that you generated to the signal
+that you might have desired.
+
+167
+00:07:04,490 --> 00:07:06,080
+So here's the signal
+you generated.
+
+168
+00:07:06,080 --> 00:07:07,430
+Here is the signal you desired.
+
+169
+00:07:07,430 --> 00:07:09,650
+I'm comparing it
+through a monitor
+
+170
+00:07:09,650 --> 00:07:14,710
+that's feeding back beta
+times the output voltage.
+
+171
+00:07:14,710 --> 00:07:16,750
+The reason I do that
+can be seen if you just
+
+172
+00:07:16,750 --> 00:07:17,666
+work through the math.
+
+173
+00:07:17,666 --> 00:07:21,700
+So if I just write the
+closed loop transfer function
+
+174
+00:07:21,700 --> 00:07:27,890
+for x goes to y, the easy
+way to think about that's
+
+175
+00:07:27,890 --> 00:07:29,630
+Black's formula,
+of course, right?
+
+176
+00:07:29,630 --> 00:07:33,500
+So think about the forward
+path, k times f naught divided
+
+177
+00:07:33,500 --> 00:07:35,580
+by 1 plus the loop gain.
+
+178
+00:07:35,580 --> 00:07:42,342
+So 1 plus the gain around
+the loop is beta k f naught.
+
+179
+00:07:42,342 --> 00:07:43,800
+And now just think
+about what would
+
+180
+00:07:43,800 --> 00:07:47,280
+happen if I coerced it so
+that I made k the thing that's
+
+181
+00:07:47,280 --> 00:07:51,230
+under my control big.
+
+182
+00:07:51,230 --> 00:07:53,750
+If I make k big
+enough, then I can
+
+183
+00:07:53,750 --> 00:07:57,660
+arrange so that beta k f naught,
+independent of beta and k,
+
+184
+00:07:57,660 --> 00:08:00,110
+I can always choose k so
+that the product is big
+
+185
+00:08:00,110 --> 00:08:03,600
+compared to the one.
+
+186
+00:08:03,600 --> 00:08:07,460
+If I do that, I
+can ignore the one.
+
+187
+00:08:07,460 --> 00:08:09,650
+If I ignore the
+one, the k's cancel,
+
+188
+00:08:09,650 --> 00:08:13,100
+the f naughts cancel, and
+I'm left with whatever beta.
+
+189
+00:08:13,100 --> 00:08:15,170
+Beta didn't depend on f naught.
+
+190
+00:08:15,170 --> 00:08:18,230
+That's what I wanted.
+
+191
+00:08:18,230 --> 00:08:22,390
+It didn't even depend
+on k, other than k
+
+192
+00:08:22,390 --> 00:08:25,960
+had to be big enough so
+that the division worked.
+
+193
+00:08:25,960 --> 00:08:32,110
+So the result is that you
+can make a stable gain
+
+194
+00:08:32,110 --> 00:08:35,799
+by incorporating an amplifier
+with an unstable gain.
+
+195
+00:08:35,799 --> 00:08:38,080
+Unstable meaning that it
+varies in time, not that it's
+
+196
+00:08:38,080 --> 00:08:40,496
+unstable in the sense that we
+often use the word unstable.
+
+197
+00:08:40,496 --> 00:08:41,350
+I should avoid that.
+
+198
+00:08:41,350 --> 00:08:43,630
+The parameter of
+the gain changes.
+
+199
+00:08:43,630 --> 00:08:46,300
+It changes between 8 and 12.
+
+200
+00:08:46,300 --> 00:08:48,740
+And I can illustrate that
+with this kind of a picture.
+
+201
+00:08:48,740 --> 00:08:52,840
+If I plot the
+variation at f naught.
+
+202
+00:08:52,840 --> 00:08:54,850
+I've showed a range
+here from 0 to 20.
+
+203
+00:08:54,850 --> 00:08:57,220
+I'm imagining that in
+a practical situation
+
+204
+00:08:57,220 --> 00:09:00,850
+it could vary between 8 and 12.
+
+205
+00:09:00,850 --> 00:09:03,880
+And then in red,
+I'm showing the gain
+
+206
+00:09:03,880 --> 00:09:07,850
+that would result if
+there were no feedback.
+
+207
+00:09:07,850 --> 00:09:11,770
+And as you can see that
+over the range of 8 to 12,
+
+208
+00:09:11,770 --> 00:09:15,700
+the output gain, the
+total gain of the system,
+
+209
+00:09:15,700 --> 00:09:17,710
+varies between 8 and
+12, not surprisingly.
+
+210
+00:09:17,710 --> 00:09:19,720
+That's what it would
+mean to have no feedback.
+
+211
+00:09:19,720 --> 00:09:25,270
+But if I crank in feedback, if
+I set the k to 100 and feedback
+
+212
+00:09:25,270 --> 00:09:30,820
+ratio to 1/10, the 100 is
+sufficient to make the one
+
+213
+00:09:30,820 --> 00:09:34,660
+negligible which means that
+my overall gain is 1 over 10
+
+214
+00:09:34,660 --> 00:09:37,780
+determined only by the
+feedback ratio, beta.
+
+215
+00:09:37,780 --> 00:09:41,050
+And so the result
+is this line shows
+
+216
+00:09:41,050 --> 00:09:44,830
+the solution to that equation.
+
+217
+00:09:44,830 --> 00:09:47,850
+And you can see that
+it's ruler straight
+
+218
+00:09:47,850 --> 00:09:50,370
+through the interesting region.
+
+219
+00:09:50,370 --> 00:09:51,540
+Does that makes sense?
+
+220
+00:09:51,540 --> 00:09:54,090
+So what I've been able
+to do is use feedback
+
+221
+00:09:54,090 --> 00:09:57,240
+in order to control the
+value of a parameter that
+
+222
+00:09:57,240 --> 00:10:00,480
+was otherwise variable,
+or sensitive to something,
+
+223
+00:10:00,480 --> 00:10:01,590
+often temperature.
+
+224
+00:10:01,590 --> 00:10:04,020
+Is that all clear?
+
+225
+00:10:04,020 --> 00:10:07,110
+That kind of a thing--
+
+226
+00:10:07,110 --> 00:10:09,150
+Question?
+
+227
+00:10:09,150 --> 00:10:12,891
+I got rid of all the
+variations, except beta.
+
+228
+00:10:12,891 --> 00:10:14,140
+What about variations in beta?
+
+229
+00:10:16,970 --> 00:10:19,247
+Right, the premise was
+I couldn't control this,
+
+230
+00:10:19,247 --> 00:10:20,830
+it was going to vary
+between 8 and 12.
+
+231
+00:10:20,830 --> 00:10:23,120
+But what if beta changes.
+
+232
+00:10:23,120 --> 00:10:25,550
+What if beta went
+from 1/8th to 1/12th,
+
+233
+00:10:25,550 --> 00:10:28,960
+would that affect things?
+
+234
+00:10:28,960 --> 00:10:30,675
+AUDIENCE: So yeah,
+so we could put
+
+235
+00:10:30,675 --> 00:10:31,900
+a feedback loop [INAUDIBLE].
+
+236
+00:10:31,900 --> 00:10:34,191
+DENNIS FREEMAN: You could
+put in another feedback loop.
+
+237
+00:10:34,191 --> 00:10:37,510
+That doesn't sound like it's
+going to converge quickly.
+
+238
+00:10:37,510 --> 00:10:38,824
+Yes?
+
+239
+00:10:38,824 --> 00:10:42,185
+AUDIENCE: Typically we want to
+be able to control beta anyway.
+
+240
+00:10:42,185 --> 00:10:43,060
+DENNIS FREEMAN: Right
+
+241
+00:10:43,060 --> 00:10:44,240
+AUDIENCE: There's
+nothing users control.
+
+242
+00:10:44,240 --> 00:10:45,790
+DENNIS FREEMAN: That's right,
+we'd want to control it.
+
+243
+00:10:45,790 --> 00:10:46,950
+Is there any reason we--
+
+244
+00:10:46,950 --> 00:10:48,520
+but that's what we wanted
+to do with f naught too.
+
+245
+00:10:48,520 --> 00:10:49,603
+We wanted to control that.
+
+246
+00:10:49,603 --> 00:10:51,730
+We'd like that to be 10.
+
+247
+00:10:51,730 --> 00:10:52,700
+Yes.
+
+248
+00:10:52,700 --> 00:10:56,095
+AUDIENCE: It will depend on
+how that beta would change.
+
+249
+00:10:56,095 --> 00:10:58,520
+Changes, say, from
+1/8th to 1/12th,
+
+250
+00:10:58,520 --> 00:10:59,975
+probably nothing to worry about.
+
+251
+00:10:59,975 --> 00:11:04,957
+If it changes from
+1/8th to 1 over 8,000,
+
+252
+00:11:04,957 --> 00:11:07,739
+then you may want to think
+about what k and f are.
+
+253
+00:11:07,739 --> 00:11:09,780
+DENNIS FREEMAN: So what
+do you think will happen?
+
+254
+00:11:09,780 --> 00:11:11,571
+Do you think it will
+vary a lot or a little
+
+255
+00:11:11,571 --> 00:11:13,590
+compared to 8 to 12?
+
+256
+00:11:13,590 --> 00:11:14,970
+AUDIENCE: Probably
+not that much.
+
+257
+00:11:14,970 --> 00:11:15,930
+DENNIS FREEMAN: Why?
+
+258
+00:11:15,930 --> 00:11:18,602
+AUDIENCE: Because
+the k is already--
+
+259
+00:11:18,602 --> 00:11:21,506
+1/8th and 1/12th is not
+really much of a difference
+
+260
+00:11:21,506 --> 00:11:22,357
+in terms of--
+
+261
+00:11:22,357 --> 00:11:24,690
+DENNIS FREEMAN: So why do I
+think about beta differently
+
+262
+00:11:24,690 --> 00:11:27,650
+from the way I think
+about f naught?
+
+263
+00:11:27,650 --> 00:11:30,950
+Is there a good reason
+for that or is that just
+
+264
+00:11:30,950 --> 00:11:32,810
+wishful thinking, right?
+
+265
+00:11:32,810 --> 00:11:34,230
+Engineering by wishful thinking.
+
+266
+00:11:34,230 --> 00:11:36,320
+I wish I could get a beta
+that was exactly right.
+
+267
+00:11:36,320 --> 00:11:38,135
+Yes?
+
+268
+00:11:38,135 --> 00:11:41,105
+AUDIENCE: For amplification,
+beta needs to be less than 1
+
+269
+00:11:41,105 --> 00:11:44,060
+[INAUDIBLE] so [INAUDIBLE]
+the resistor, it's not
+
+270
+00:11:44,060 --> 00:11:46,060
+going to have a very big
+temperature [INAUDIBLE]
+
+271
+00:11:46,060 --> 00:11:47,390
+DENNIS FREEMAN: Precisely.
+
+272
+00:11:47,390 --> 00:11:52,150
+So the problem is getting
+gain in a stable and reliable
+
+273
+00:11:52,150 --> 00:11:56,360
+fashion, not in
+getting attenuation.
+
+274
+00:11:56,360 --> 00:12:02,370
+We can control the value of a
+resistor with great precision.
+
+275
+00:12:02,370 --> 00:12:05,490
+And so it's easy,
+by comparison, it's
+
+276
+00:12:05,490 --> 00:12:12,310
+relatively easy to control the
+gain of a resistor network,
+
+277
+00:12:12,310 --> 00:12:17,140
+and much harder to control the
+gain of a transistor network.
+
+278
+00:12:17,140 --> 00:12:19,150
+Transistors have gain.
+
+279
+00:12:19,150 --> 00:12:22,870
+Gain is hard to make in a non
+temperature dependent fashion.
+
+280
+00:12:22,870 --> 00:12:25,990
+Division by a resistor, it's
+not hard to make a resistor.
+
+281
+00:12:25,990 --> 00:12:28,810
+I mean it's not trivial,
+but it's not hard.
+
+282
+00:12:28,810 --> 00:12:32,020
+Even in the dark ages--
+
+283
+00:12:32,020 --> 00:12:35,980
+even in the dark ages, resistors
+were made by winding wires,
+
+284
+00:12:35,980 --> 00:12:37,750
+and they were very
+stable with temperature
+
+285
+00:12:37,750 --> 00:12:41,080
+or could be made to be very
+stable with temperatures.
+
+286
+00:12:41,080 --> 00:12:45,460
+So one of the tricks in
+feedback is that we usually--
+
+287
+00:12:45,460 --> 00:12:47,500
+so we move the--
+
+288
+00:12:47,500 --> 00:12:52,120
+we move the parameter dependence
+out of the forward path
+
+289
+00:12:52,120 --> 00:12:55,330
+and into the feedback
+path with the idea
+
+290
+00:12:55,330 --> 00:12:57,310
+that we're moving it
+out of the part that
+
+291
+00:12:57,310 --> 00:13:00,550
+has active parts like
+transistors and into the part
+
+292
+00:13:00,550 --> 00:13:02,920
+that we can build
+with passive parts.
+
+293
+00:13:02,920 --> 00:13:05,040
+And we almost always
+do feedback that way.
+
+294
+00:13:05,040 --> 00:13:06,290
+Not always, but almost always.
+
+295
+00:13:09,200 --> 00:13:11,930
+Another important point
+is that this could
+
+296
+00:13:11,930 --> 00:13:15,320
+work at a very high speed.
+
+297
+00:13:15,320 --> 00:13:17,270
+As an illustration
+of that I want
+
+298
+00:13:17,270 --> 00:13:22,160
+to think about what would be
+inside of that f naught box.
+
+299
+00:13:22,160 --> 00:13:23,900
+Here's a very
+simple idea of what
+
+300
+00:13:23,900 --> 00:13:27,770
+you could put in there that's
+based on two power transistors.
+
+301
+00:13:27,770 --> 00:13:30,040
+This is not a course
+in power transistors.
+
+302
+00:13:30,040 --> 00:13:32,060
+I am not going to give
+you a very good model
+
+303
+00:13:32,060 --> 00:13:32,810
+for a transistor.
+
+304
+00:13:32,810 --> 00:13:34,851
+There's other courses that
+do much better justice
+
+305
+00:13:34,851 --> 00:13:36,300
+to that topic.
+
+306
+00:13:36,300 --> 00:13:38,270
+But what I do want to
+say is that the idea
+
+307
+00:13:38,270 --> 00:13:41,030
+would be that turning those
+transistors on and off
+
+308
+00:13:41,030 --> 00:13:43,370
+represents a significant
+source of distortion,
+
+309
+00:13:43,370 --> 00:13:45,420
+or potentially a
+source of distortion.
+
+310
+00:13:45,420 --> 00:13:48,140
+So for example, the
+simplest possible model
+
+311
+00:13:48,140 --> 00:13:51,860
+I could think about
+would say that in order
+
+312
+00:13:51,860 --> 00:13:54,740
+to generate, in order to
+push this voltage to a higher
+
+313
+00:13:54,740 --> 00:13:59,600
+number, what I want to do
+is turn this transistor on
+
+314
+00:13:59,600 --> 00:14:01,760
+because this will
+pull this voltage up
+
+315
+00:14:01,760 --> 00:14:04,470
+toward the positive rail.
+
+316
+00:14:04,470 --> 00:14:07,110
+So if the input is such
+that I'd like this to go up
+
+317
+00:14:07,110 --> 00:14:09,570
+what I would like to have
+happen is that this transistor
+
+318
+00:14:09,570 --> 00:14:12,900
+would come on and conduct
+current this way, which would
+
+319
+00:14:12,900 --> 00:14:15,930
+suck this voltage up to there.
+
+320
+00:14:15,930 --> 00:14:20,130
+To do that, the voltage here
+has to exceed the voltage there.
+
+321
+00:14:20,130 --> 00:14:23,590
+For a BJT, that's not the
+only kind of transistor
+
+322
+00:14:23,590 --> 00:14:26,950
+I'm just illustrating one
+particular kind of example.
+
+323
+00:14:26,950 --> 00:14:31,780
+For a bipolar
+transistor of this type,
+
+324
+00:14:31,780 --> 00:14:33,660
+the way you would turn
+that transistor on
+
+325
+00:14:33,660 --> 00:14:35,880
+would be to have
+this voltage exceed
+
+326
+00:14:35,880 --> 00:14:39,150
+this voltage by at least some
+threshold voltage, nominally
+
+327
+00:14:39,150 --> 00:14:43,530
+0.6 volts, which means that
+the kind of relationship
+
+328
+00:14:43,530 --> 00:14:48,360
+between v out and v in that you
+would get is illustrated here.
+
+329
+00:14:48,360 --> 00:14:51,450
+If the input voltage differed
+from the output voltage
+
+330
+00:14:51,450 --> 00:14:54,480
+by less than plus or minus
+the threshold voltage, then
+
+331
+00:14:54,480 --> 00:14:57,070
+nothing would happen because
+neither transistor would be on.
+
+332
+00:14:59,760 --> 00:15:03,270
+If the input exceeded what
+was desired for the output
+
+333
+00:15:03,270 --> 00:15:06,150
+by more than 0.6, the
+transistor on the top
+
+334
+00:15:06,150 --> 00:15:10,960
+would start to come on, and you
+would get roughly linear growth
+
+335
+00:15:10,960 --> 00:15:14,830
+in the output voltage in
+relation to the input voltage.
+
+336
+00:15:14,830 --> 00:15:16,090
+Similarly with negative.
+
+337
+00:15:16,090 --> 00:15:20,500
+If you make the voltage at the
+input sufficiently negative,
+
+338
+00:15:20,500 --> 00:15:22,010
+you can cause the
+bottom transistor
+
+339
+00:15:22,010 --> 00:15:26,636
+to come on and suck the
+voltage down toward minus 50.
+
+340
+00:15:26,636 --> 00:15:28,510
+But again, you have to
+exceed the difference.
+
+341
+00:15:28,510 --> 00:15:30,885
+The difference has to exceed
+something like the threshold
+
+342
+00:15:30,885 --> 00:15:34,960
+voltage, normally about
+0.6 volts, which means then
+
+343
+00:15:34,960 --> 00:15:39,280
+that you get this piecewise
+linear approximation
+
+344
+00:15:39,280 --> 00:15:43,400
+to the relation between the
+input and the output voltage.
+
+345
+00:15:43,400 --> 00:15:46,070
+The problem with that is that
+it distorts the waveform.
+
+346
+00:15:46,070 --> 00:15:49,040
+So if I imagine a
+purely sinusoidal input,
+
+347
+00:15:49,040 --> 00:15:53,720
+what I get at the output then is
+not a purely sinusoidal output.
+
+348
+00:15:53,720 --> 00:15:56,170
+And, in fact, that's
+quite objectionable
+
+349
+00:15:56,170 --> 00:15:57,760
+for many purposes.
+
+350
+00:15:57,760 --> 00:15:59,560
+In particular, in
+the example where
+
+351
+00:15:59,560 --> 00:16:02,560
+we're listening to a sound, if
+we were to listen to this sound
+
+352
+00:16:02,560 --> 00:16:05,500
+it would sound very
+different from the way
+
+353
+00:16:05,500 --> 00:16:09,340
+a sine wave would sound.
+
+354
+00:16:09,340 --> 00:16:11,350
+So the way I can do that
+is, not surprisingly,
+
+355
+00:16:11,350 --> 00:16:14,000
+fix it with feedback.
+
+356
+00:16:14,000 --> 00:16:16,670
+Again imagine that this
+is the complicated part.
+
+357
+00:16:16,670 --> 00:16:19,230
+v f naught, followed
+by the speaker,
+
+358
+00:16:19,230 --> 00:16:22,030
+put some gain in front
+of it, gain's cheap.
+
+359
+00:16:22,030 --> 00:16:24,250
+We can do that run
+relatively well.
+
+360
+00:16:24,250 --> 00:16:26,320
+And put in feedback
+so that I can directly
+
+361
+00:16:26,320 --> 00:16:29,650
+compare how is the speaker
+voltage compare to the voltage
+
+362
+00:16:29,650 --> 00:16:32,440
+that I'd like to listen to.
+
+363
+00:16:32,440 --> 00:16:35,380
+The result then
+is that, depending
+
+364
+00:16:35,380 --> 00:16:38,710
+on how big is the
+gain, I can change
+
+365
+00:16:38,710 --> 00:16:40,630
+how big is this dead zone.
+
+366
+00:16:40,630 --> 00:16:47,060
+The zone of input voltages that
+produce no change in output.
+
+367
+00:16:47,060 --> 00:16:50,380
+So if I turn up the gain, here
+I am illustrating k equals one.
+
+368
+00:16:50,380 --> 00:16:53,680
+If I turn it up to k equals two
+the dead zone gets smaller--
+
+369
+00:16:53,680 --> 00:16:57,520
+k equals four,
+eight, 10, whatever.
+
+370
+00:16:57,520 --> 00:16:59,950
+So the idea is that
+by adjusting the gain,
+
+371
+00:16:59,950 --> 00:17:02,710
+I control how much
+feedback there is.
+
+372
+00:17:02,710 --> 00:17:07,410
+And I can control how
+distorted the wave form looks.
+
+373
+00:17:07,410 --> 00:17:11,910
+And I can illustrate how
+bad it is to not do that
+
+374
+00:17:11,910 --> 00:17:15,540
+by comparing an
+original clip of music
+
+375
+00:17:15,540 --> 00:17:17,550
+to different values
+of the feedback.
+
+376
+00:17:17,550 --> 00:17:20,670
+So what I'm going to do
+is play this many clips,
+
+377
+00:17:20,670 --> 00:17:22,920
+some original--
+
+378
+00:17:22,920 --> 00:17:27,310
+the original that
+came off the mp3.
+
+379
+00:17:27,310 --> 00:17:29,310
+Put it through the system
+with no feedback, that
+
+380
+00:17:29,310 --> 00:17:30,660
+is to say there isn't a k here.
+
+381
+00:17:30,660 --> 00:17:31,701
+There's no feedback loop.
+
+382
+00:17:31,701 --> 00:17:35,220
+You just put v in a v out.
+
+383
+00:17:35,220 --> 00:17:38,415
+Then k of two, four, eight, 16,
+and then back to the original.
+
+384
+00:17:38,415 --> 00:17:40,290
+And if you listen, you
+should be able to hear
+
+385
+00:17:40,290 --> 00:17:42,220
+the effects of the distortion.
+
+386
+00:17:42,220 --> 00:17:42,720
+OK.
+
+387
+00:17:42,720 --> 00:17:44,494
+Ready?
+
+388
+00:17:44,494 --> 00:17:46,486
+[MUSIC PLAYING]
+
+389
+00:18:00,960 --> 00:18:01,590
+You hear?
+
+390
+00:18:01,590 --> 00:18:03,586
+[MUSIC PLAYING]
+
+391
+00:19:05,471 --> 00:19:05,970
+OK.
+
+392
+00:19:05,970 --> 00:19:07,840
+Everybody get to hear it?
+
+393
+00:19:07,840 --> 00:19:10,510
+So the point-- although the
+acoustics in this room are
+
+394
+00:19:10,510 --> 00:19:12,130
+terrible--
+
+395
+00:19:12,130 --> 00:19:16,480
+but even somebody with
+as old ears as mine, I
+
+396
+00:19:16,480 --> 00:19:19,610
+can hear a very big
+difference even between k
+
+397
+00:19:19,610 --> 00:19:23,230
+equals 16 and the original if
+I listen to it over headphones,
+
+398
+00:19:23,230 --> 00:19:25,630
+or if I listen to it in
+a better environment.
+
+399
+00:19:25,630 --> 00:19:27,680
+So the point is that we're
+very sensitive to it.
+
+400
+00:19:27,680 --> 00:19:29,630
+In fact, 16 isn't even close.
+
+401
+00:19:29,630 --> 00:19:31,420
+I mean, in a real
+kind of an amplifier
+
+402
+00:19:31,420 --> 00:19:33,670
+you would use gains
+of at least 1,000
+
+403
+00:19:33,670 --> 00:19:35,620
+in order to make it acceptable.
+
+404
+00:19:35,620 --> 00:19:38,900
+So the point is that
+we can use feedback.
+
+405
+00:19:38,900 --> 00:19:40,870
+So the overall point
+is to try to illustrate
+
+406
+00:19:40,870 --> 00:19:43,090
+the kinds of things we
+can do with feedback.
+
+407
+00:19:43,090 --> 00:19:45,700
+Here what we're doing is making
+a system that's intrinsically
+
+408
+00:19:45,700 --> 00:19:49,190
+non-linear more linear.
+
+409
+00:19:52,210 --> 00:19:52,710
+Questions?
+
+410
+00:19:52,710 --> 00:19:54,510
+Comments?
+
+411
+00:19:54,510 --> 00:19:57,630
+Left turn approaching.
+
+412
+00:19:57,630 --> 00:19:59,770
+So what I want to
+close with then
+
+413
+00:19:59,770 --> 00:20:02,610
+is two more examples
+that are much more fun.
+
+414
+00:20:02,610 --> 00:20:05,220
+They're examples of
+the use of feedback
+
+415
+00:20:05,220 --> 00:20:06,690
+to stabilize unstable systems.
+
+416
+00:20:06,690 --> 00:20:09,390
+This is kind of connecting
+back to the very first lecture
+
+417
+00:20:09,390 --> 00:20:11,370
+in this series that
+Russ gave where
+
+418
+00:20:11,370 --> 00:20:14,010
+he did some very
+complicated control
+
+419
+00:20:14,010 --> 00:20:17,460
+problems by doing feedback.
+
+420
+00:20:17,460 --> 00:20:19,330
+I'm going to do some
+slightly simpler ones.
+
+421
+00:20:19,330 --> 00:20:23,940
+But they're hard
+enough to be clear
+
+422
+00:20:23,940 --> 00:20:26,342
+that they were a hard
+problem, and easy enough
+
+423
+00:20:26,342 --> 00:20:28,800
+that every one of you should
+be able to write the equations
+
+424
+00:20:28,800 --> 00:20:31,789
+and figure out what
+I'm about to do.
+
+425
+00:20:31,789 --> 00:20:34,080
+If you are interested to do
+the more complicated things
+
+426
+00:20:34,080 --> 00:20:36,570
+like having owls
+come in and swoop,
+
+427
+00:20:36,570 --> 00:20:38,400
+that's a research project.
+
+428
+00:20:38,400 --> 00:20:43,110
+So this is supposed to be in the
+middle ground between research
+
+429
+00:20:43,110 --> 00:20:44,670
+and trivial, right?
+
+430
+00:20:44,670 --> 00:20:48,420
+So I'm going to do some examples
+now of some unstable systems
+
+431
+00:20:48,420 --> 00:20:54,200
+to illustrate how you would
+use feedback for stability.
+
+432
+00:20:54,200 --> 00:20:56,660
+First example, is
+magnetic levitation.
+
+433
+00:20:56,660 --> 00:20:58,700
+You've probably heard
+of magnetic levitation.
+
+434
+00:20:58,700 --> 00:21:00,170
+Magnetic levitation is hard.
+
+435
+00:21:02,840 --> 00:21:05,390
+We've talked about magnetic
+levitation since the 70s
+
+436
+00:21:05,390 --> 00:21:07,760
+at least, perhaps the 60s.
+
+437
+00:21:07,760 --> 00:21:10,580
+It's hard because
+magnetic systems tend
+
+438
+00:21:10,580 --> 00:21:12,090
+to be intrinsically unstable.
+
+439
+00:21:12,090 --> 00:21:15,080
+Not always, but
+the easy ways you
+
+440
+00:21:15,080 --> 00:21:18,260
+can imagine using a
+magnet to levitate things.
+
+441
+00:21:18,260 --> 00:21:20,870
+We'd all like to
+make anti-grav right?
+
+442
+00:21:20,870 --> 00:21:23,810
+Anti-grav would be
+a really good thing.
+
+443
+00:21:23,810 --> 00:21:25,760
+And it seems like you
+ought to be able to do
+
+444
+00:21:25,760 --> 00:21:27,050
+that with a magnet, right?
+
+445
+00:21:27,050 --> 00:21:31,010
+So the idea is what I would
+like to do is levitate
+
+446
+00:21:31,010 --> 00:21:35,470
+a mass with a magnet.
+
+447
+00:21:35,470 --> 00:21:36,707
+Anti-grav, right?
+
+448
+00:21:36,707 --> 00:21:38,290
+We've had that since
+Star Trek, right?
+
+449
+00:21:38,290 --> 00:21:39,460
+It's time somebody built it.
+
+450
+00:21:39,460 --> 00:21:44,872
+But it's hard even though
+we can make magnets.
+
+451
+00:21:44,872 --> 00:21:46,330
+Even though we can
+make things that
+
+452
+00:21:46,330 --> 00:21:49,450
+seemed like they would do it.
+
+453
+00:21:49,450 --> 00:21:53,110
+It's hard because it's
+intrinsically unstable.
+
+454
+00:21:53,110 --> 00:21:54,850
+This particular system
+is intrinsically
+
+455
+00:21:54,850 --> 00:21:58,360
+unstable in the sense
+that if the mass, let's
+
+456
+00:21:58,360 --> 00:22:02,170
+say that it was at
+equilibrium by which I mean,
+
+457
+00:22:02,170 --> 00:22:04,270
+in the absence of
+somebody touching it,
+
+458
+00:22:04,270 --> 00:22:06,100
+it would stay exactly
+the way it is.
+
+459
+00:22:06,100 --> 00:22:08,050
+That's what I mean
+by equilibrium.
+
+460
+00:22:08,050 --> 00:22:10,390
+Let's say it was
+at equilibrium so
+
+461
+00:22:10,390 --> 00:22:13,450
+that the magnetic force I found
+was just sufficient to hold up
+
+462
+00:22:13,450 --> 00:22:17,640
+the weight, Mg.
+
+463
+00:22:17,640 --> 00:22:21,360
+If I came over and
+just very gently bumped
+
+464
+00:22:21,360 --> 00:22:26,045
+the mass up a little, what
+would happen to the force?
+
+465
+00:22:29,680 --> 00:22:30,577
+Force will go up.
+
+466
+00:22:30,577 --> 00:22:32,785
+So you're supposed to remember
+this from some subject
+
+467
+00:22:32,785 --> 00:22:34,960
+that you took before, right?
+
+468
+00:22:34,960 --> 00:22:36,290
+Yes, no, yes?
+
+469
+00:22:36,290 --> 00:22:39,190
+It started with an 8, yes?
+
+470
+00:22:39,190 --> 00:22:42,250
+So the idea is something
+to do with if you
+
+471
+00:22:42,250 --> 00:22:47,440
+have a magnet of that type,
+you generate magnetic fields.
+
+472
+00:22:47,440 --> 00:22:49,660
+You remember they're not
+supposed to cross, right?
+
+473
+00:22:49,660 --> 00:22:51,201
+One of the rules is
+they don't cross.
+
+474
+00:22:51,201 --> 00:22:53,170
+[LAUGHTER]
+
+475
+00:22:53,170 --> 00:22:57,610
+But the idea is that the
+density of flux lines
+
+476
+00:22:57,610 --> 00:23:00,850
+decreases as you
+leave the magnet,
+
+477
+00:23:00,850 --> 00:23:02,830
+and the force
+that's generated has
+
+478
+00:23:02,830 --> 00:23:06,460
+something to do with the change
+in the density of flux lines.
+
+479
+00:23:06,460 --> 00:23:08,140
+If you move an object
+through a region
+
+480
+00:23:08,140 --> 00:23:10,056
+where the number of flux
+lines doesn't change,
+
+481
+00:23:10,056 --> 00:23:11,320
+it takes no force.
+
+482
+00:23:11,320 --> 00:23:13,300
+If you move an object
+into a region that
+
+483
+00:23:13,300 --> 00:23:16,151
+has fewer or more flux
+lines, it requires force
+
+484
+00:23:16,151 --> 00:23:16,900
+to make that move.
+
+485
+00:23:16,900 --> 00:23:18,400
+That's the idea.
+
+486
+00:23:18,400 --> 00:23:24,250
+So, since the flux lines are
+thinning as you move away,
+
+487
+00:23:24,250 --> 00:23:26,837
+if I push up it will generate--
+
+488
+00:23:26,837 --> 00:23:28,420
+I'm moving the mass
+into a place where
+
+489
+00:23:28,420 --> 00:23:32,110
+there is a greater density of
+flux lines, that will generate
+
+490
+00:23:32,110 --> 00:23:37,150
+force up on the mass.
+
+491
+00:23:37,150 --> 00:23:40,240
+That's bad, right?
+
+492
+00:23:40,240 --> 00:23:43,060
+I had the force exactly where
+I needed it to be in order
+
+493
+00:23:43,060 --> 00:23:44,782
+to levitate the mass.
+
+494
+00:23:44,782 --> 00:23:46,240
+If the force goes
+up, what happens?
+
+495
+00:23:49,460 --> 00:23:50,870
+It accelerates up.
+
+496
+00:23:50,870 --> 00:23:53,730
+Well, OK, so it
+accelerates up, then what?
+
+497
+00:23:53,730 --> 00:23:55,660
+Well, it gets closer.
+
+498
+00:23:55,660 --> 00:23:57,510
+Then what?
+
+499
+00:23:57,510 --> 00:24:00,640
+It accelerates faster.
+
+500
+00:24:00,640 --> 00:24:05,950
+So, the problem is that
+the position is unstable,
+
+501
+00:24:05,950 --> 00:24:09,370
+or we might say quasi stable.
+
+502
+00:24:09,370 --> 00:24:11,410
+So what we can do is
+make a model of this
+
+503
+00:24:11,410 --> 00:24:15,670
+to try to understand how we
+could fix it with feedback.
+
+504
+00:24:15,670 --> 00:24:17,560
+Imagine that I
+represent the magnet
+
+505
+00:24:17,560 --> 00:24:20,770
+by a function that
+maps for every value
+
+506
+00:24:20,770 --> 00:24:26,890
+of the position of the mass
+why it generates a force, f m.
+
+507
+00:24:26,890 --> 00:24:29,270
+Then, because of the
+shape of the field lines,
+
+508
+00:24:29,270 --> 00:24:31,805
+I'm expecting that
+the force increases
+
+509
+00:24:31,805 --> 00:24:33,430
+on the right of the
+curve and decreases
+
+510
+00:24:33,430 --> 00:24:36,010
+on the left of the curve.
+
+511
+00:24:36,010 --> 00:24:40,630
+If I'm sitting for y zero
+at equilibrium what matters
+
+512
+00:24:40,630 --> 00:24:46,320
+is the difference between y
+and the equilibrium place.
+
+513
+00:24:46,320 --> 00:24:48,390
+And the important
+force is the difference
+
+514
+00:24:48,390 --> 00:24:53,220
+between the magnetic
+force and Mg, the weight.
+
+515
+00:24:53,220 --> 00:24:54,870
+So I get a simple
+relationship that
+
+516
+00:24:54,870 --> 00:24:59,010
+says that this force,
+this vertical line, f,
+
+517
+00:24:59,010 --> 00:25:02,040
+should be m a.
+
+518
+00:25:02,040 --> 00:25:07,320
+F equals m a which
+is m y double dot.
+
+519
+00:25:07,320 --> 00:25:11,960
+So having generated
+that kind of a model
+
+520
+00:25:11,960 --> 00:25:15,780
+I can now imagine putting
+that into a feedback system.
+
+521
+00:25:15,780 --> 00:25:19,400
+So now I put the model into the
+feedback system and this junk
+
+522
+00:25:19,400 --> 00:25:23,400
+over here, this is f equals m a.
+
+523
+00:25:23,400 --> 00:25:27,195
+f gets multiplied by
+one over m, that a.
+
+524
+00:25:27,195 --> 00:25:29,050
+a is y double dot.
+
+525
+00:25:29,050 --> 00:25:30,500
+Integrate it to get y dot.
+
+526
+00:25:30,500 --> 00:25:32,150
+Integrate it again to get y.
+
+527
+00:25:32,150 --> 00:25:34,400
+But y was the thing that
+controlled the magnet
+
+528
+00:25:34,400 --> 00:25:37,170
+in the first place.
+
+529
+00:25:37,170 --> 00:25:40,560
+So I'm trying to cast magnetic
+levitation into a frame
+
+530
+00:25:40,560 --> 00:25:42,030
+for understanding feedback.
+
+531
+00:25:45,270 --> 00:25:48,690
+So now if I want to
+further simplify things
+
+532
+00:25:48,690 --> 00:25:54,330
+I can replace the magnet model,
+at least for small deviations
+
+533
+00:25:54,330 --> 00:25:58,059
+in position, by a linear gain.
+
+534
+00:25:58,059 --> 00:25:59,850
+So I'm making a straight
+line approximation
+
+535
+00:25:59,850 --> 00:26:02,234
+to this curvy line.
+
+536
+00:26:02,234 --> 00:26:03,650
+And then we have
+something that we
+
+537
+00:26:03,650 --> 00:26:06,140
+analyze all the
+time, simple feedback
+
+538
+00:26:06,140 --> 00:26:11,160
+system that has integrators,
+gains, that kind of stuff.
+
+539
+00:26:11,160 --> 00:26:15,590
+It's surprisingly similar
+to the mass spring dashpot.
+
+540
+00:26:15,590 --> 00:26:23,100
+Springs, by contrast to magnets,
+springs levitate stably.
+
+541
+00:26:23,100 --> 00:26:24,964
+What happens if I
+push-- so I'm suspending
+
+542
+00:26:24,964 --> 00:26:26,880
+a mass from a spring,
+if I push up on the mass
+
+543
+00:26:26,880 --> 00:26:29,700
+how does the force
+in the spring change?
+
+544
+00:26:29,700 --> 00:26:30,780
+Gets less.
+
+545
+00:26:30,780 --> 00:26:33,000
+That's what you want.
+
+546
+00:26:33,000 --> 00:26:35,970
+It's no longer sufficient
+to hold the mass up,
+
+547
+00:26:35,970 --> 00:26:38,040
+so the mass falls.
+
+548
+00:26:38,040 --> 00:26:39,990
+Push up, the mass tries to fall.
+
+549
+00:26:39,990 --> 00:26:43,880
+Pull down on the mass,
+it tries to pull up.
+
+550
+00:26:43,880 --> 00:26:46,620
+Spring levitates stably.
+
+551
+00:26:46,620 --> 00:26:50,300
+Magnet levitates unstably.
+
+552
+00:26:50,300 --> 00:26:50,840
+OK?
+
+553
+00:26:50,840 --> 00:26:52,700
+Almost the same system though.
+
+554
+00:26:52,700 --> 00:26:55,580
+Here's a way of thinking
+about the magnetic levitation
+
+555
+00:26:55,580 --> 00:26:56,720
+like we just saw.
+
+556
+00:26:56,720 --> 00:26:59,210
+Here's an equivalent diagram
+for the spring levitation.
+
+557
+00:26:59,210 --> 00:27:01,340
+Almost the same thing.
+
+558
+00:27:01,340 --> 00:27:05,600
+The critical thing is that
+minus sign and that plus sign.
+
+559
+00:27:05,600 --> 00:27:11,300
+So what's the relationship
+between the poles of the spring
+
+560
+00:27:11,300 --> 00:27:15,600
+and mass system and the poles
+of the levitation system?
+
+561
+00:27:15,600 --> 00:27:17,730
+Look at your neighbor.
+
+562
+00:27:17,730 --> 00:27:19,950
+Say the word poles.
+
+563
+00:27:19,950 --> 00:27:22,780
+We say that a lot in this class.
+
+564
+00:27:22,780 --> 00:27:24,750
+How do the poles relate
+in those two systems?
+
+565
+00:27:24,750 --> 00:27:26,718
+[AUDIENCE CHATTER]
+
+566
+00:27:54,800 --> 00:27:57,340
+OK, so draw the poles in
+the air for the two systems.
+
+567
+00:27:57,340 --> 00:27:59,530
+How do they relate?
+
+568
+00:27:59,530 --> 00:28:00,030
+Excellent.
+
+569
+00:28:00,030 --> 00:28:00,529
+Excellent.
+
+570
+00:28:00,529 --> 00:28:01,630
+I saw one right answer.
+
+571
+00:28:01,630 --> 00:28:05,350
+Somebody else draw some--
+
+572
+00:28:05,350 --> 00:28:08,896
+I'm not sure if I
+caught that one.
+
+573
+00:28:08,896 --> 00:28:10,020
+So how do the poles relate?
+
+574
+00:28:10,020 --> 00:28:11,040
+Come on, somebody
+drawn it in the air.
+
+575
+00:28:11,040 --> 00:28:12,123
+I've got one right answer.
+
+576
+00:28:14,700 --> 00:28:18,360
+OK, your air drawings
+are a little cryptic.
+
+577
+00:28:18,360 --> 00:28:20,490
+Here's a not so air drawing.
+
+578
+00:28:20,490 --> 00:28:23,430
+So here's a picture of what they
+look like for a spring and mass
+
+579
+00:28:23,430 --> 00:28:24,810
+system.
+
+580
+00:28:24,810 --> 00:28:28,670
+And all you do is think about
+the differential equation,
+
+581
+00:28:28,670 --> 00:28:33,030
+turn it into system
+function, there's two poles,
+
+582
+00:28:33,030 --> 00:28:35,610
+factor the denominator,
+you find that the two poles
+
+583
+00:28:35,610 --> 00:28:38,160
+are on the j omega axis.
+
+584
+00:28:38,160 --> 00:28:39,810
+j omega axis, that sounds bad.
+
+585
+00:28:39,810 --> 00:28:41,550
+Yeah, it is bad,
+right? what happens
+
+586
+00:28:41,550 --> 00:28:44,450
+if they're on the j omega axis?
+
+587
+00:28:44,450 --> 00:28:45,250
+Oscillate.
+
+588
+00:28:45,250 --> 00:28:47,750
+If they're right on the j omega
+axis, it oscillates forever.
+
+589
+00:28:47,750 --> 00:28:49,458
+That's exactly what
+a mass spring dashpot
+
+590
+00:28:49,458 --> 00:28:52,220
+does if you have no damping.
+
+591
+00:28:52,220 --> 00:28:53,610
+OK, it's bad.
+
+592
+00:28:53,610 --> 00:28:57,480
+But it's not nearly as bad
+as magnetic levitation.
+
+593
+00:28:57,480 --> 00:29:00,970
+Magnetic levitation, you get the
+same distance from the origin,
+
+594
+00:29:00,970 --> 00:29:06,380
+but it's turned to plus
+and minus something.
+
+595
+00:29:06,380 --> 00:29:07,170
+That one.
+
+596
+00:29:07,170 --> 00:29:08,090
+I like.
+
+597
+00:29:08,090 --> 00:29:10,700
+That one I don't like.
+
+598
+00:29:10,700 --> 00:29:13,384
+That one is unstable.
+
+599
+00:29:13,384 --> 00:29:15,800
+So the question is, how can
+you make a magnetic levitation
+
+600
+00:29:15,800 --> 00:29:16,299
+system?
+
+601
+00:29:16,299 --> 00:29:18,200
+How do you make a
+system that we use
+
+602
+00:29:18,200 --> 00:29:23,250
+a magnet to levitate a mass when
+the physics are intrinsically
+
+603
+00:29:23,250 --> 00:29:23,910
+stable?
+
+604
+00:29:23,910 --> 00:29:26,980
+And the answer is--
+
+605
+00:29:26,980 --> 00:29:29,170
+feedback, of course, yes.
+
+606
+00:29:29,170 --> 00:29:31,900
+So the idea is that
+here is our system that
+
+607
+00:29:31,900 --> 00:29:34,090
+was intrinsically unstable.
+
+608
+00:29:34,090 --> 00:29:37,992
+What we'd like to do is
+somehow change the physics.
+
+609
+00:29:37,992 --> 00:29:39,700
+One of the ways we
+can change the physics
+
+610
+00:29:39,700 --> 00:29:43,656
+is by modifying the current
+that runs through the magnet.
+
+611
+00:29:43,656 --> 00:29:45,280
+If we changed the
+current from i naught
+
+612
+00:29:45,280 --> 00:29:47,225
+to 1.1 times i naught,
+then the forces
+
+613
+00:29:47,225 --> 00:29:48,350
+everywhere would be bigger.
+
+614
+00:29:50,970 --> 00:29:54,690
+We could use that idea to
+introduce a second feedback
+
+615
+00:29:54,690 --> 00:29:55,540
+path.
+
+616
+00:29:55,540 --> 00:29:57,480
+There is the intrinsic
+one that comes just
+
+617
+00:29:57,480 --> 00:29:58,950
+from the physical layout.
+
+618
+00:29:58,950 --> 00:30:03,720
+But I'm going to add a path that
+senses the position of the mass
+
+619
+00:30:03,720 --> 00:30:06,100
+and feeds back a
+change in current.
+
+620
+00:30:06,100 --> 00:30:10,350
+And if I do this carefully,
+I can arrange this path,
+
+621
+00:30:10,350 --> 00:30:14,310
+the intrinsic one has positive
+feedback that was bad,
+
+622
+00:30:14,310 --> 00:30:19,600
+but the one I add has negative
+feedback, which is good.
+
+623
+00:30:19,600 --> 00:30:23,920
+Then the overall system looks
+more like this where I've got
+
+624
+00:30:23,920 --> 00:30:27,930
+k, which I cannot
+affect, that's physics.
+
+625
+00:30:27,930 --> 00:30:29,990
+But I've got k two
+that I can affect.
+
+626
+00:30:32,910 --> 00:30:35,160
+And what's showed
+here is a root locus.
+
+627
+00:30:35,160 --> 00:30:39,550
+As I change k two, what
+happens to the poles?
+
+628
+00:30:39,550 --> 00:30:41,890
+And what you can see is since
+they were equally disposed
+
+629
+00:30:41,890 --> 00:30:45,220
+on the two sides of the j omega
+axis, as I turned up the gain--
+
+630
+00:30:45,220 --> 00:30:47,140
+you can do this just by doing--
+
+631
+00:30:47,140 --> 00:30:48,560
+factor the polynomial.
+
+632
+00:30:48,560 --> 00:30:49,060
+Right?
+
+633
+00:30:49,060 --> 00:30:55,330
+So I factored this to
+generate this plot.
+
+634
+00:30:55,330 --> 00:30:57,610
+As you increase k two the
+poles go toward each other
+
+635
+00:30:57,610 --> 00:31:00,010
+and then they split,
+and they become complex.
+
+636
+00:31:00,010 --> 00:31:02,545
+Complex is good.
+
+637
+00:31:02,545 --> 00:31:05,450
+But this still has the
+problem that the mass spring
+
+638
+00:31:05,450 --> 00:31:08,640
+dashpot had if it
+didn't have any damping.
+
+639
+00:31:08,640 --> 00:31:11,166
+So it's better because
+at least it's stable--
+
+640
+00:31:11,166 --> 00:31:12,290
+Oh well no it's not stable.
+
+641
+00:31:12,290 --> 00:31:13,640
+It's marginally stable.
+
+642
+00:31:13,640 --> 00:31:16,160
+It's now oscillatory.
+
+643
+00:31:16,160 --> 00:31:20,320
+It no longer has eigenfunctions
+that grow with time.
+
+644
+00:31:20,320 --> 00:31:23,000
+The problem is they
+don't shrink either.
+
+645
+00:31:23,000 --> 00:31:26,500
+They state constant
+in amplitude.
+
+646
+00:31:26,500 --> 00:31:28,580
+But you can fix that,
+and what I'll do now
+
+647
+00:31:28,580 --> 00:31:32,810
+is show a demo that was done by
+Professor James Roberge where
+
+648
+00:31:32,810 --> 00:31:38,320
+the idea was you don't have
+to just put the extra gain in.
+
+649
+00:31:38,320 --> 00:31:43,090
+What Jim did was put a zero too.
+
+650
+00:31:43,090 --> 00:31:46,930
+So these are the intrinsic poles
+from the magnetic levitation.
+
+651
+00:31:46,930 --> 00:31:50,400
+This is a zero introduced
+by electronics.
+
+652
+00:31:50,400 --> 00:31:52,740
+The zero has the effect
+of bending the poles,
+
+653
+00:31:52,740 --> 00:31:55,540
+the closed loop poles
+around, so that you can then
+
+654
+00:31:55,540 --> 00:31:56,890
+make it stable.
+
+655
+00:31:56,890 --> 00:31:58,840
+So [INAUDIBLE].
+
+656
+00:31:58,840 --> 00:32:00,070
+So here's Jim's device.
+
+657
+00:32:02,950 --> 00:32:05,920
+And the goal now
+is to smash fingers
+
+658
+00:32:05,920 --> 00:32:08,830
+because it will try to levitate.
+
+659
+00:32:08,830 --> 00:32:11,980
+So this is a hunky magnet.
+
+660
+00:32:11,980 --> 00:32:15,560
+This is a hunky power supply.
+
+661
+00:32:15,560 --> 00:32:17,980
+And that is-- well this
+is the power supply.
+
+662
+00:32:17,980 --> 00:32:21,970
+This generates DC voltage that
+drives the amplifier that's
+
+663
+00:32:21,970 --> 00:32:23,680
+inside this box.
+
+664
+00:32:23,680 --> 00:32:27,160
+So the idea then is we
+have this metal ball.
+
+665
+00:32:27,160 --> 00:32:29,840
+So we have this metal ball,
+and it's kind of heavy, right?
+
+666
+00:32:29,840 --> 00:32:33,250
+You know, it's not
+like some nuclear--
+
+667
+00:32:33,250 --> 00:32:36,350
+it's not uranium or
+anything, but it's heavy.
+
+668
+00:32:36,350 --> 00:32:40,374
+And the idea is going to
+be to use the hunky magnet.
+
+669
+00:32:40,374 --> 00:32:41,290
+Let's see, can we see?
+
+670
+00:32:41,290 --> 00:32:43,660
+Oh yeah, OK, so you
+can see it up there.
+
+671
+00:32:43,660 --> 00:32:47,440
+So you can see
+maybe that here is
+
+672
+00:32:47,440 --> 00:32:49,840
+the pole of the magnet,
+which is right there.
+
+673
+00:32:52,362 --> 00:32:54,320
+So there is the pole, a
+different kind of pole.
+
+674
+00:32:54,320 --> 00:32:55,160
+[LAUGHTER]
+
+675
+00:32:55,160 --> 00:32:55,955
+Not to be confused.
+
+676
+00:32:55,955 --> 00:32:57,614
+[LAUGHTER]
+
+677
+00:32:59,370 --> 00:33:03,110
+So that's the iron
+core of the magnet.
+
+678
+00:33:03,110 --> 00:33:05,570
+And you can see
+the turns up here.
+
+679
+00:33:05,570 --> 00:33:08,030
+And here you can see some light.
+
+680
+00:33:08,030 --> 00:33:11,090
+So what's going on here
+is a source of light
+
+681
+00:33:11,090 --> 00:33:14,270
+is being aimed
+toward a photo sensor
+
+682
+00:33:14,270 --> 00:33:19,070
+so that when the mass, the
+ball, is levitating at exactly
+
+683
+00:33:19,070 --> 00:33:22,250
+the right place, there's a
+signal that gets fed back
+
+684
+00:33:22,250 --> 00:33:25,370
+into the control box to do the
+thing that I have illustrated
+
+685
+00:33:25,370 --> 00:33:26,700
+here.
+
+686
+00:33:26,700 --> 00:33:29,510
+OK, everybody knows
+what's going on?
+
+687
+00:33:29,510 --> 00:33:31,340
+I'll smash my
+fingers now and then
+
+688
+00:33:31,340 --> 00:33:33,644
+ask Lorenzo to do it correctly.
+
+689
+00:33:33,644 --> 00:33:35,060
+So what I'm going
+to do now is try
+
+690
+00:33:35,060 --> 00:33:39,290
+to move the mass into
+the air so it levitates.
+
+691
+00:33:39,290 --> 00:33:41,420
+so successful would be
+you're watching up there
+
+692
+00:33:41,420 --> 00:33:45,030
+and there's going to be a ball
+up here, and it will levitate.
+
+693
+00:33:45,030 --> 00:33:47,080
+Unsuccessful is I'll
+have a black and white--
+
+694
+00:33:47,080 --> 00:33:49,680
+a black and blue fingernail.
+
+695
+00:33:49,680 --> 00:33:50,540
+So, let's see--
+
+696
+00:33:55,267 --> 00:33:56,350
+Lorenzo is laughing at me.
+
+697
+00:33:56,350 --> 00:33:58,306
+[LAUGHTER]
+
+698
+00:33:59,284 --> 00:34:00,751
+LORENZO: See your hand can move.
+
+699
+00:34:00,751 --> 00:34:02,220
+OK.
+
+700
+00:34:02,220 --> 00:34:04,224
+DENNIS FREEMAN: Nope,
+that's not going to work.
+
+701
+00:34:04,224 --> 00:34:06,177
+LORENZO: You don't
+have a way to move?
+
+702
+00:34:06,177 --> 00:34:07,010
+DENNIS FREEMAN: Yes.
+
+703
+00:34:07,010 --> 00:34:08,280
+LORENZO: Yes.
+
+704
+00:34:08,280 --> 00:34:10,110
+DENNIS FREEMAN: OK,
+this will work better.
+
+705
+00:34:10,110 --> 00:34:14,310
+If I get coached
+enough, I can do things.
+
+706
+00:34:14,310 --> 00:34:15,640
+LORENZO: Yeah!
+
+707
+00:34:15,640 --> 00:34:16,139
+Oh!
+
+708
+00:34:16,139 --> 00:34:16,562
+DENNIS FREEMAN: Almost!
+
+709
+00:34:16,562 --> 00:34:17,409
+[LAUGHTER]
+
+710
+00:34:17,409 --> 00:34:18,310
+OK, it was close.
+
+711
+00:34:22,900 --> 00:34:24,100
+No, no, no.
+
+712
+00:34:24,100 --> 00:34:25,300
+Failing once is fine.
+
+713
+00:34:25,300 --> 00:34:28,350
+Failing twice, no
+that's not acceptable.
+
+714
+00:34:28,350 --> 00:34:30,060
+Wonderful.
+
+715
+00:34:30,060 --> 00:34:33,449
+OK, so that's magnetic
+levitation made possible
+
+716
+00:34:33,449 --> 00:34:34,120
+by feedback.
+
+717
+00:34:34,120 --> 00:34:35,190
+That's the point, OK?
+
+718
+00:34:35,190 --> 00:34:36,856
+Everybody sort of
+knows what's going on?
+
+719
+00:34:41,000 --> 00:34:43,832
+OK, so to redeem myself
+we'll leave the demo set up
+
+720
+00:34:43,832 --> 00:34:45,290
+and after lecture
+you can come down
+
+721
+00:34:45,290 --> 00:34:46,998
+and you can do it and
+smash your fingers.
+
+722
+00:34:50,230 --> 00:34:53,949
+Questions, comments,
+everybody knows the point?
+
+723
+00:34:53,949 --> 00:34:56,184
+So we'll leave it there just
+for entertainment value.
+
+724
+00:34:56,184 --> 00:34:57,225
+LORENZO: It will get hot.
+
+725
+00:34:57,225 --> 00:34:58,360
+DENNIS FREEMAN: Oh, OK.
+
+726
+00:34:58,360 --> 00:34:59,020
+OK.
+
+727
+00:34:59,020 --> 00:35:00,436
+You don't want to
+burn it up, huh?
+
+728
+00:35:03,951 --> 00:35:04,450
+Good.
+
+729
+00:35:04,450 --> 00:35:04,960
+Thank you.
+
+730
+00:35:04,960 --> 00:35:06,198
+Thank you.
+
+731
+00:35:06,198 --> 00:35:08,114
+[APPLAUSE]
+
+732
+00:35:10,990 --> 00:35:15,040
+So the next demo is the
+famous inverted pendulum.
+
+733
+00:35:15,040 --> 00:35:18,360
+The idea is that if
+you have a pendulum--
+
+734
+00:35:18,360 --> 00:35:18,860
+Yes?
+
+735
+00:35:18,860 --> 00:35:21,141
+AUDIENCE: Was k
+oscillating also?
+
+736
+00:35:21,141 --> 00:35:21,640
+With the--
+
+737
+00:35:21,640 --> 00:35:22,640
+DENNIS FREEMAN: Correct.
+
+738
+00:35:22,640 --> 00:35:23,770
+Correct.
+
+739
+00:35:23,770 --> 00:35:25,390
+So, that's a good question.
+
+740
+00:35:25,390 --> 00:35:28,010
+OK, so did I screw up?
+
+741
+00:35:28,010 --> 00:35:30,460
+Not a chance, right?
+
+742
+00:35:30,460 --> 00:35:33,340
+Or for those of
+you who know me--
+
+743
+00:35:33,340 --> 00:35:35,957
+what would you conclude
+if it was oscillating
+
+744
+00:35:35,957 --> 00:35:37,540
+and I told you I
+thought I built this?
+
+745
+00:35:41,020 --> 00:35:44,030
+I screw up the circuit.
+
+746
+00:35:44,030 --> 00:35:48,000
+I screwed up the
+root locus diagram.
+
+747
+00:35:48,000 --> 00:35:51,310
+Everything's hunky dory,
+and I did everything right.
+
+748
+00:35:51,310 --> 00:35:52,540
+None of the above.
+
+749
+00:35:52,540 --> 00:35:53,332
+Yes?
+
+750
+00:35:53,332 --> 00:35:55,657
+AUDIENCE: [INAUDIBLE]
+
+751
+00:35:55,657 --> 00:35:56,740
+DENNIS FREEMAN: Positions.
+
+752
+00:35:56,740 --> 00:35:58,570
+OK, so flaky hardware.
+
+753
+00:35:58,570 --> 00:36:00,540
+Universal solution right?
+
+754
+00:36:00,540 --> 00:36:01,140
+Could be.
+
+755
+00:36:01,140 --> 00:36:01,639
+Could be.
+
+756
+00:36:01,639 --> 00:36:03,320
+Could be.
+
+757
+00:36:03,320 --> 00:36:07,360
+There's a different
+explanation, which is possible,
+
+758
+00:36:07,360 --> 00:36:09,130
+but your explanation
+may be right.
+
+759
+00:36:09,130 --> 00:36:12,639
+What's another explanation
+besides flaky hardware?
+
+760
+00:36:12,639 --> 00:36:13,138
+Yes?
+
+761
+00:36:13,138 --> 00:36:14,952
+AUDIENCE: [INAUDIBLE]
+complex poles.
+
+762
+00:36:14,952 --> 00:36:17,410
+DENNIS FREEMAN: Complex poles,
+but didn't I stabilize them?
+
+763
+00:36:20,340 --> 00:36:23,160
+Leading question.
+
+764
+00:36:23,160 --> 00:36:24,720
+Didn't I stabilize them?
+
+765
+00:36:24,720 --> 00:36:27,220
+Leading question.
+
+766
+00:36:27,220 --> 00:36:29,500
+The answer is, didn't
+I stabilize them?
+
+767
+00:36:32,270 --> 00:36:32,770
+Yes?
+
+768
+00:36:32,770 --> 00:36:35,320
+No?
+
+769
+00:36:35,320 --> 00:36:37,455
+Completely cryptic he is.
+
+770
+00:36:37,455 --> 00:36:40,904
+AUDIENCE: I mean they can
+still have complex values.
+
+771
+00:36:40,904 --> 00:36:42,820
+DENNIS FREEMAN: They
+could have complex-- how?
+
+772
+00:36:42,820 --> 00:36:44,360
+AUDIENCE: [INAUDIBLE]
+don't know where they are.
+
+773
+00:36:44,360 --> 00:36:45,901
+DENNIS FREEMAN: And
+so what depends--
+
+774
+00:36:45,901 --> 00:36:47,520
+what determines where they are?
+
+775
+00:36:47,520 --> 00:36:48,330
+AUDIENCE: Sorry?
+
+776
+00:36:48,330 --> 00:36:52,085
+DENNIS FREEMAN: What
+determines what they are?
+
+777
+00:36:52,085 --> 00:36:55,965
+AUDIENCE: Whatever your--
+whatever you set [INAUDIBLE]
+
+778
+00:36:55,965 --> 00:36:56,940
+k or gain.
+
+779
+00:36:56,940 --> 00:36:57,886
+DENNIS FREEMAN: k
+
+780
+00:36:57,886 --> 00:36:58,800
+AUDIENCE: Yeah.
+
+781
+00:36:58,800 --> 00:36:59,799
+DENNIS FREEMAN: Exactly.
+
+782
+00:36:59,799 --> 00:37:03,150
+So I get to control
+this k two thing.
+
+783
+00:37:03,150 --> 00:37:07,660
+And as I change k two,
+the poles start out here,
+
+784
+00:37:07,660 --> 00:37:09,980
+they go toward each other.
+
+785
+00:37:09,980 --> 00:37:12,070
+So if k equals
+zero they're here.
+
+786
+00:37:12,070 --> 00:37:13,615
+As k gets bigger they do this.
+
+787
+00:37:16,810 --> 00:37:20,550
+So it's possible that
+they're just simply here.
+
+788
+00:37:20,550 --> 00:37:21,370
+Right?
+
+789
+00:37:21,370 --> 00:37:23,180
+The poles could
+still be complex.
+
+790
+00:37:25,810 --> 00:37:28,300
+If that were true, you would
+expect the oscillations
+
+791
+00:37:28,300 --> 00:37:30,250
+to die with time.
+
+792
+00:37:30,250 --> 00:37:30,760
+Right?
+
+793
+00:37:30,760 --> 00:37:33,160
+If the oscillations
+didn't die with time,
+
+794
+00:37:33,160 --> 00:37:36,050
+it's still possible-- well,
+if they don't die with time,
+
+795
+00:37:36,050 --> 00:37:38,591
+then I guess I
+screwed something up.
+
+796
+00:37:38,591 --> 00:37:39,090
+Right?
+
+797
+00:37:39,090 --> 00:37:40,590
+Because even if
+they just come here,
+
+798
+00:37:40,590 --> 00:37:44,400
+they're oscillating but they're
+on the left part of the axis so
+
+799
+00:37:44,400 --> 00:37:46,800
+they should decay eventually.
+
+800
+00:37:46,800 --> 00:37:48,570
+So I guess to the
+extent that they
+
+801
+00:37:48,570 --> 00:37:53,460
+didn't die eventually, something
+screwed up with the analysis,
+
+802
+00:37:53,460 --> 00:37:55,500
+the hardware is
+screwed up, something.
+
+803
+00:37:55,500 --> 00:37:56,238
+Yes?
+
+804
+00:37:56,238 --> 00:37:58,680
+AUDIENCE: So is root
+locus due to k or k two.
+
+805
+00:37:58,680 --> 00:38:00,130
+DENNIS FREEMAN: k two.
+
+806
+00:38:00,130 --> 00:38:03,340
+You can draw a root
+locus for anything.
+
+807
+00:38:03,340 --> 00:38:05,680
+You can change any
+parameter and sketch
+
+808
+00:38:05,680 --> 00:38:08,750
+the locus of points
+where the roots move to,
+
+809
+00:38:08,750 --> 00:38:10,870
+hence the name, root locus.
+
+810
+00:38:10,870 --> 00:38:12,970
+This is for k two.
+
+811
+00:38:12,970 --> 00:38:19,550
+So z zero was fixed here,
+held constant, and k two
+
+812
+00:38:19,550 --> 00:38:21,160
+was modified to
+trace out that loop.
+
+813
+00:38:26,150 --> 00:38:28,950
+The next example is pendulum.
+
+814
+00:38:28,950 --> 00:38:32,720
+So just like spring
+mass system, spring
+
+815
+00:38:32,720 --> 00:38:35,990
+levitated mass in
+a stable fashion,
+
+816
+00:38:35,990 --> 00:38:39,020
+although perhaps oscillatory.
+
+817
+00:38:39,020 --> 00:38:44,420
+So this pendulum is also
+stable in that same sense.
+
+818
+00:38:44,420 --> 00:38:47,780
+Might be oscillatory, but
+it will eventually stop.
+
+819
+00:38:47,780 --> 00:38:49,910
+Of course pendula are
+not very interesting.
+
+820
+00:38:49,910 --> 00:38:51,670
+What's interesting
+is inverted pendula
+
+821
+00:38:51,670 --> 00:38:54,260
+where the rule is
+what I have to do
+
+822
+00:38:54,260 --> 00:39:01,580
+is stabilize this by moving
+my hand to compensate.
+
+823
+00:39:01,580 --> 00:39:05,270
+So let's say that it
+starts to move this way.
+
+824
+00:39:05,270 --> 00:39:09,470
+I've got positive feedback
+that tends to make it continue.
+
+825
+00:39:09,470 --> 00:39:15,710
+So if I started at equilibrium,
+by which I mean a state
+
+826
+00:39:15,710 --> 00:39:19,530
+that would persist
+if nothing changed.
+
+827
+00:39:19,530 --> 00:39:22,610
+So if I started at
+equilibrium, but then
+
+828
+00:39:22,610 --> 00:39:25,780
+perturbed it by
+breathing, or whatever,
+
+829
+00:39:25,780 --> 00:39:29,060
+or by just not being quite
+at equilibrium, it'll move
+
+830
+00:39:29,060 --> 00:39:31,280
+and then I have to do
+something to compensate,
+
+831
+00:39:31,280 --> 00:39:33,590
+otherwise it'll fall down.
+
+832
+00:39:33,590 --> 00:39:37,130
+And there are people who
+can do this better than me.
+
+833
+00:39:37,130 --> 00:39:39,049
+But we don't need to have--
+
+834
+00:39:39,049 --> 00:39:40,340
+I don't need to be coordinated.
+
+835
+00:39:40,340 --> 00:39:42,890
+I can build a system
+that's coordinated instead.
+
+836
+00:39:42,890 --> 00:39:44,570
+That's the value of feedback.
+
+837
+00:39:44,570 --> 00:39:46,790
+So I can be uncoordinated.
+
+838
+00:39:46,790 --> 00:39:50,110
+Before I do that--
+
+839
+00:39:50,110 --> 00:39:52,050
+no, let's do this first.
+
+840
+00:39:52,050 --> 00:39:56,120
+So, here is a
+mechanical system that
+
+841
+00:39:56,120 --> 00:39:58,090
+uses feedback to stabilize--
+
+842
+00:39:58,090 --> 00:39:59,750
+I'm not going to
+read anything right?
+
+843
+00:39:59,750 --> 00:40:04,490
+So here is a pendulum,
+an inverted pendulum.
+
+844
+00:40:04,490 --> 00:40:05,810
+There's some stuff down here.
+
+845
+00:40:05,810 --> 00:40:08,480
+There's no active parts.
+
+846
+00:40:08,480 --> 00:40:10,190
+This stuff is a
+potentiometer, just
+
+847
+00:40:10,190 --> 00:40:12,148
+like the potentiometer
+on the back of the motor
+
+848
+00:40:12,148 --> 00:40:13,130
+that I demonstrated.
+
+849
+00:40:13,130 --> 00:40:15,650
+And what it's doing
+is providing a signal
+
+850
+00:40:15,650 --> 00:40:20,690
+to electronics that will let
+the electronics say, oh, it's
+
+851
+00:40:20,690 --> 00:40:23,190
+moving this way.
+
+852
+00:40:23,190 --> 00:40:26,390
+Now, the cart is on
+wheels, and the wheels
+
+853
+00:40:26,390 --> 00:40:29,480
+are connected to a hunky motor.
+
+854
+00:40:29,480 --> 00:40:31,400
+If the weight starts
+to move this way
+
+855
+00:40:31,400 --> 00:40:34,040
+what should the hunky motor do?
+
+856
+00:40:34,040 --> 00:40:37,440
+Push the cart that way.
+
+857
+00:40:37,440 --> 00:40:38,700
+So that's the idea.
+
+858
+00:40:38,700 --> 00:40:44,030
+So I've got a one
+dimensional inverted pendulum
+
+859
+00:40:44,030 --> 00:40:48,290
+and I'm explicitly modeling the
+idea that I'm-- that the base
+
+860
+00:40:48,290 --> 00:40:49,670
+is moving.
+
+861
+00:40:49,670 --> 00:40:51,770
+So over here is an
+outline of the way you
+
+862
+00:40:51,770 --> 00:40:53,960
+think about that-- the way
+you can think about that.
+
+863
+00:40:53,960 --> 00:40:59,100
+I got the car and
+it's in a not invert--
+
+864
+00:40:59,100 --> 00:41:00,700
+the car as supporting
+a pendulum.
+
+865
+00:41:00,700 --> 00:41:04,770
+The pendulum is in
+a non inertial frame
+
+866
+00:41:04,770 --> 00:41:06,780
+because the mass--
+
+867
+00:41:06,780 --> 00:41:09,150
+let's say that I'm approximating
+the pendulum as having
+
+868
+00:41:09,150 --> 00:41:10,740
+all of its mass at the end.
+
+869
+00:41:10,740 --> 00:41:12,900
+That's an approximation,
+but it's not
+
+870
+00:41:12,900 --> 00:41:15,190
+a critical approximation.
+
+871
+00:41:15,190 --> 00:41:17,970
+So I can imagine now that I've
+got an input variable, which
+
+872
+00:41:17,970 --> 00:41:21,060
+is x, the position of the car.
+
+873
+00:41:21,060 --> 00:41:23,760
+And I've got a
+feedback signal that's
+
+874
+00:41:23,760 --> 00:41:26,350
+trying to feedback
+to me how much is
+
+875
+00:41:26,350 --> 00:41:30,070
+theta, the angle that
+the pendulum is making.
+
+876
+00:41:30,070 --> 00:41:31,860
+And so what I want
+you to do now--
+
+877
+00:41:31,860 --> 00:41:36,360
+so if you just write
+801 kinds of stuff
+
+878
+00:41:36,360 --> 00:41:37,950
+you can imagine that the if--
+
+879
+00:41:37,950 --> 00:41:41,550
+So, first off, you've got--
+
+880
+00:41:41,550 --> 00:41:44,840
+instead of f equals m a, you
+have torque equals i omega.
+
+881
+00:41:44,840 --> 00:41:47,520
+Everybody's happy about
+torque equals i omega, right?
+
+882
+00:41:47,520 --> 00:41:51,570
+And, if I want to be in
+a non inertial frame,
+
+883
+00:41:51,570 --> 00:41:54,450
+one way to account for the
+fact that the car is moving
+
+884
+00:41:54,450 --> 00:41:57,930
+is to compute torques about
+the point of insertion.
+
+885
+00:41:57,930 --> 00:42:01,110
+Then I can represent the
+effect of the moving car
+
+886
+00:42:01,110 --> 00:42:05,620
+as a pseudo force on the mass.
+
+887
+00:42:05,620 --> 00:42:07,120
+That pseudo force
+is in proportion
+
+888
+00:42:07,120 --> 00:42:11,000
+to the acceleration of the car.
+
+889
+00:42:11,000 --> 00:42:14,750
+And I've got the weight of
+the inverted pendulum trying
+
+890
+00:42:14,750 --> 00:42:16,290
+to pull it in the
+other direction.
+
+891
+00:42:16,290 --> 00:42:17,270
+And if you think
+about all this stuff
+
+892
+00:42:17,270 --> 00:42:18,840
+you get this kind
+of an equation.
+
+893
+00:42:18,840 --> 00:42:25,340
+So this is i omega dot, i
+omega dot equals, and then
+
+894
+00:42:25,340 --> 00:42:27,110
+I have to worry about torques.
+
+895
+00:42:27,110 --> 00:42:31,730
+There's the torque
+that's due to the weight,
+
+896
+00:42:31,730 --> 00:42:34,620
+and there's the torque that's
+due to the cart movement.
+
+897
+00:42:37,460 --> 00:42:42,944
+so the question then is, what
+are the poles of this system?
+
+898
+00:42:42,944 --> 00:42:45,360
+We want to think about all of
+these kinds of systems using
+
+899
+00:42:45,360 --> 00:42:48,030
+003, because it's
+such a powerful thing.
+
+900
+00:42:48,030 --> 00:42:52,480
+So what are the poles of
+the inverted pendulum?
+
+901
+00:42:55,640 --> 00:42:56,620
+Look at your neighbor.
+
+902
+00:42:56,620 --> 00:42:57,410
+Say the word pole.
+
+903
+00:42:57,410 --> 00:42:59,270
+[AUDIENCE CHATTER]
+
+904
+00:43:02,007 --> 00:43:02,840
+Where do the poles--
+
+905
+00:43:02,840 --> 00:43:04,832
+[AUDIENCE CHATTER]
+
+906
+00:43:33,716 --> 00:43:35,210
+Bump the car.
+
+907
+00:43:35,210 --> 00:43:41,260
+[AUDIENCE CHATTER]
+
+908
+00:43:41,260 --> 00:43:44,770
+OK, so where's the poles?
+
+909
+00:43:44,770 --> 00:43:45,950
+Sketch them in the air.
+
+910
+00:43:45,950 --> 00:43:48,480
+No that didn't work at all.
+
+911
+00:43:48,480 --> 00:43:51,020
+So to think about
+where are the poles you
+
+912
+00:43:51,020 --> 00:43:52,700
+can think of-- the
+hard part is just
+
+913
+00:43:52,700 --> 00:43:55,630
+the sinusoidal
+trigonometric non-linearity,
+
+914
+00:43:55,630 --> 00:43:59,060
+so what do I do with that?
+
+915
+00:43:59,060 --> 00:44:00,980
+AUDIENCE: [INAUDIBLE]
+
+916
+00:44:00,980 --> 00:44:03,010
+DENNIS FREEMAN: Throw
+it away, absolutely.
+
+917
+00:44:03,010 --> 00:44:06,700
+So I'll assume that
+the sine of theta is--
+
+918
+00:44:06,700 --> 00:44:07,390
+AUDIENCE: Theta.
+
+919
+00:44:07,390 --> 00:44:07,720
+DENNIS FREEMAN: Theta.
+
+920
+00:44:07,720 --> 00:44:08,757
+And the cos of theta is?
+
+921
+00:44:08,757 --> 00:44:09,340
+AUDIENCE: One.
+
+922
+00:44:09,340 --> 00:44:10,330
+DENNIS FREEMAN: One.
+
+923
+00:44:10,330 --> 00:44:13,240
+For small angular deflections,
+just make a small angle
+
+924
+00:44:13,240 --> 00:44:14,500
+approximation.
+
+925
+00:44:14,500 --> 00:44:17,830
+When you do that it
+comes out surprisingly
+
+926
+00:44:17,830 --> 00:44:23,270
+to look just like the
+levitated mass problem.
+
+927
+00:44:23,270 --> 00:44:27,980
+You get real poles on each
+side of the j omega axis.
+
+928
+00:44:27,980 --> 00:44:32,690
+So in fact, you have to do a
+similar kind of stability thing
+
+929
+00:44:32,690 --> 00:44:34,012
+to make this work.
+
+930
+00:44:34,012 --> 00:44:35,720
+And so that's what
+we'll demonstrate now.
+
+931
+00:44:35,720 --> 00:44:40,190
+So the idea is going to
+be to turn on electronics
+
+932
+00:44:40,190 --> 00:44:42,710
+to stabilize the inverted
+pendulum so that I don't
+
+933
+00:44:42,710 --> 00:44:45,566
+need to do it with my hand.
+
+934
+00:44:45,566 --> 00:44:48,518
+LORENZO: I'm not sure it's going
+to work, because I [INAUDIBLE]
+
+935
+00:44:48,518 --> 00:44:50,000
+the cord.
+
+936
+00:44:50,000 --> 00:44:54,127
+So if [INAUDIBLE]
+
+937
+00:44:54,127 --> 00:44:55,460
+DENNIS FREEMAN: It always works.
+
+938
+00:44:55,460 --> 00:44:56,454
+He does it really well.
+
+939
+00:44:59,358 --> 00:45:00,326
+LORENZO: That works.
+
+940
+00:45:10,962 --> 00:45:13,170
+DENNIS FREEMAN: So it's a
+little more stable than me,
+
+941
+00:45:13,170 --> 00:45:14,350
+but not much.
+
+942
+00:45:14,350 --> 00:45:16,470
+I mean, I'm pretty good, right?
+
+943
+00:45:16,470 --> 00:45:18,330
+[LAUGHTER]
+
+944
+00:45:18,330 --> 00:45:20,631
+DENNIS FREEMAN: I can
+keep it going too, right?
+
+945
+00:45:20,631 --> 00:45:23,670
+Well, sort of.
+
+946
+00:45:23,670 --> 00:45:25,020
+So is it any better than I am?
+
+947
+00:45:34,700 --> 00:45:37,210
+So can you share that it's
+better or worse than me.
+
+948
+00:45:37,210 --> 00:45:38,460
+LORENZO: It's better than you.
+
+949
+00:45:38,460 --> 00:45:40,740
+DENNIS FREEMAN:
+It's better than me?
+
+950
+00:45:40,740 --> 00:45:41,240
+Prove it.
+
+951
+00:45:44,216 --> 00:45:46,696
+Go ahead.
+
+952
+00:45:46,696 --> 00:45:48,894
+LORENZO: The way [INAUDIBLE].
+
+953
+00:45:48,894 --> 00:45:50,560
+DENNIS FREEMAN: So
+you ought to do this.
+
+954
+00:45:50,560 --> 00:45:51,934
+So this guy.
+
+955
+00:45:51,934 --> 00:45:53,350
+So can somebody
+think of something
+
+956
+00:45:53,350 --> 00:45:57,990
+that's different about this
+from the magnetic levitation
+
+957
+00:45:57,990 --> 00:45:58,490
+problem?
+
+958
+00:46:04,359 --> 00:46:05,734
+AUDIENCE: Like
+right now it looks
+
+959
+00:46:05,734 --> 00:46:07,880
+like it's going to converge.
+
+960
+00:46:07,880 --> 00:46:10,890
+DENNIS FREEMAN: But it's
+doing a really good thing.
+
+961
+00:46:10,890 --> 00:46:16,230
+It's converging around here.
+
+962
+00:46:16,230 --> 00:46:20,790
+What would happen if
+I was doing my thing
+
+963
+00:46:20,790 --> 00:46:23,550
+and it started to fall this
+way, so I started to follow it.
+
+964
+00:46:27,680 --> 00:46:29,080
+That's actually
+very complicated.
+
+965
+00:46:29,080 --> 00:46:32,750
+So there's actually another
+feedback loop inside here
+
+966
+00:46:32,750 --> 00:46:36,090
+that's trying to make
+it stay in the center.
+
+967
+00:46:36,090 --> 00:46:38,735
+So if I tried to
+pull that one out.
+
+968
+00:46:42,900 --> 00:46:43,770
+Wap!
+
+969
+00:46:43,770 --> 00:46:49,220
+OK, so there's many feedback
+loops going on here.
+
+970
+00:46:49,220 --> 00:46:51,960
+There's the one
+that you can see.
+
+971
+00:46:51,960 --> 00:46:54,600
+But then there's also
+a slow feedback loop
+
+972
+00:46:54,600 --> 00:46:57,080
+trying to keep the whole thing
+oscillating in the center.
+
+973
+00:46:57,080 --> 00:46:59,169
+Everybody follow that?
+
+974
+00:46:59,169 --> 00:47:00,960
+So there's the primary
+feedback loop, which
+
+975
+00:47:00,960 --> 00:47:02,282
+is very analogous to that guy.
+
+976
+00:47:02,282 --> 00:47:04,740
+But then there's a slow feedback
+loop saying wait a minute,
+
+977
+00:47:04,740 --> 00:47:07,320
+you're spending too
+much time to the left.
+
+978
+00:47:07,320 --> 00:47:09,660
+I'm going to move it a
+little bit in the wrong way
+
+979
+00:47:09,660 --> 00:47:12,960
+so that you migrate
+toward the right.
+
+980
+00:47:12,960 --> 00:47:15,320
+But the result of
+that is very stable.
+
+981
+00:47:15,320 --> 00:47:16,358
+How stable?
+
+982
+00:47:16,358 --> 00:47:17,358
+LORENZO: We'll find out.
+
+983
+00:47:23,810 --> 00:47:26,246
+DENNIS FREEMAN: I didn't put
+a battery on the top of mine.
+
+984
+00:47:26,246 --> 00:47:28,190
+[LAUGHTER]
+
+985
+00:47:28,190 --> 00:47:29,540
+I could have!
+
+986
+00:47:29,540 --> 00:47:31,040
+Well, I could've put it there.
+
+987
+00:47:33,990 --> 00:47:35,425
+So now we put the--
+
+988
+00:47:35,425 --> 00:47:37,405
+[LAUGHTER]
+
+989
+00:48:13,540 --> 00:48:16,015
+AUDIENCE: I think
+someone should sell this.
+
+990
+00:48:16,015 --> 00:48:17,260
+DENNIS FREEMAN: A volunteer!
+
+991
+00:48:17,260 --> 00:48:20,270
+[LAUGHTER]
+
+992
+00:48:20,270 --> 00:48:23,640
+Everybody in favor?
+
+993
+00:48:23,640 --> 00:48:26,011
+It's overwhelming.
+
+994
+00:48:26,011 --> 00:48:26,510
+OK.
+
+995
+00:48:26,510 --> 00:48:27,510
+So that's all for today.
+
+996
+00:48:27,510 --> 00:48:29,420
+The idea is that
+we can use feedback
+
+997
+00:48:29,420 --> 00:48:30,670
+to do a whole bunch of things.
+
+998
+00:48:30,670 --> 00:48:31,878
+And maybe even more tomorrow.
+
+999
+00:48:31,878 --> 00:48:34,060
+Oh well now that's just a joke.
+
+1000
+00:48:34,060 --> 00:48:36,430
+See you tomorrow at the exam.
+
+1001
+00:48:36,430 --> 00:48:37,547
+No recitation.
+
+1002
+00:48:37,547 --> 00:48:39,380
+We'll stick around for
+two or three minutes.
+
+1003
+00:48:39,380 --> 00:48:42,150
+You can look at these
+more if you want to.

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Videos on MIT OpenCourseWare</title>
+    <link>/resources/videos/</link>
+    <description>Recent content in Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assessing Student Work Completed as Teams</title>
+      <link>/resources/assessing-student-work-completed-as-teams/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/assessing-student-work-completed-as-teams/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Engaging Students in the Design Process</title>
+      <link>/resources/engaging-students-in-the-design-process/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/engaging-students-in-the-design-process/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ideal Team Size for the CanSat Competition</title>
+      <link>/resources/ideal-team-size-for-the-cansat-competition/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ideal-team-size-for-the-cansat-competition/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Learning from CanSat Examples</title>
+      <link>/resources/learning-from-cansat-examples/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/learning-from-cansat-examples/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Meet the Instructor</title>
+      <link>/resources/meet-the-instructor/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/meet-the-instructor/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Online Written and Oral Exams</title>
+      <link>/resources/online-written-and-oral-exams/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/online-written-and-oral-exams/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reflective Memos</title>
+      <link>/resources/reflective-memos/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/reflective-memos/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Teaching the Class as a SPOC</title>
+      <link>/resources/teaching-the-class-as-a-spoc/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/teaching-the-class-as-a-spoc/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Teaching with Concept Questions</title>
+      <link>/resources/teaching-with-concept-questions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/teaching-with-concept-questions/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Team Charters</title>
+      <link>/resources/team-charters/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/team-charters/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>V Model</title>
+      <link>/resources/v-model/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/v-model/data.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

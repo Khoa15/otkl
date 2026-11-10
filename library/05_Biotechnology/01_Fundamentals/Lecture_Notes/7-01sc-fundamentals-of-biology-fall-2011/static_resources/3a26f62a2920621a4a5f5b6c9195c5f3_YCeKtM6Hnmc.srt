@@ -1,0 +1,655 @@
+1
+00:00:06,840 --> 00:00:07,450
+INSTRUCTOR: Good morning.
+
+2
+00:00:07,450 --> 00:00:09,980
+Good morning.
+
+3
+00:00:09,980 --> 00:00:14,630
+So, anybody check The New
+York Times yesterday?
+
+4
+00:00:17,390 --> 00:00:18,413
+What did you see?
+
+5
+00:00:18,413 --> 00:00:19,663
+AUDIENCE: [INAUDIBLE]
+
+6
+00:00:27,590 --> 00:00:29,154
+INSTRUCTOR: People,
+what people?
+
+7
+00:00:29,154 --> 00:00:31,050
+AUDIENCE: I can't remember
+their names.
+
+8
+00:00:31,050 --> 00:00:31,524
+[INAUDIBLE]
+
+9
+00:00:31,524 --> 00:00:31,998
+INSTRUCTOR: [LAUGHS]
+
+10
+00:00:31,998 --> 00:00:33,248
+AUDIENCE: [INAUDIBLE]
+
+11
+00:00:35,316 --> 00:00:36,750
+I can't remember their names.
+
+12
+00:00:36,750 --> 00:00:38,870
+INSTRUCTOR: Yeah, the Crick
+and Watson people.
+
+13
+00:00:38,870 --> 00:00:40,060
+AUDIENCE: [INAUDIBLE].
+
+14
+00:00:40,060 --> 00:00:41,030
+INSTRUCTOR: Exactly.
+
+15
+00:00:41,030 --> 00:00:44,230
+So, perfect timing, The New York
+Times had an article in
+
+16
+00:00:44,230 --> 00:00:47,570
+yesterday's paper.
+
+17
+00:00:47,570 --> 00:00:52,130
+Francis Crick's correspondence
+with Maurice Wilkins during
+
+18
+00:00:52,130 --> 00:00:56,430
+the critical year when Crick and
+Watson went down and saw
+
+19
+00:00:56,430 --> 00:00:58,100
+the X-ray crystallography.
+
+20
+00:00:58,100 --> 00:00:59,190
+By the way, I made a mistake.
+
+21
+00:00:59,190 --> 00:01:03,650
+I said that Rosalind Franklin
+showed it to Crick and Watson.
+
+22
+00:01:03,650 --> 00:01:06,795
+Actually it was Maurice Wilkins
+who showed it to Crick
+
+23
+00:01:06,795 --> 00:01:09,330
+and Watson when Rosalind
+Franklin was away.
+
+24
+00:01:09,330 --> 00:01:13,380
+Which, was itself a slightly
+complicated thing to be doing
+
+25
+00:01:13,380 --> 00:01:15,670
+because it was really Rosalind
+Franklin's work.
+
+26
+00:01:15,670 --> 00:01:18,200
+But in any case, there was
+correspondence, some heated
+
+27
+00:01:18,200 --> 00:01:21,230
+correspondence that went
+back between Crick
+
+28
+00:01:21,230 --> 00:01:24,900
+and Wilkins and others.
+
+29
+00:01:24,900 --> 00:01:29,020
+And it was believed that the
+correspondence had been lost,
+
+30
+00:01:29,020 --> 00:01:30,860
+had been thrown out.
+
+31
+00:01:30,860 --> 00:01:34,690
+But in fact, it turns out that
+in the papers of Sydney
+
+32
+00:01:34,690 --> 00:01:39,130
+Brenner, another great person
+of that period, Crick's
+
+33
+00:01:39,130 --> 00:01:42,750
+correspondence had got misfiled
+in Sydney's files.
+
+34
+00:01:42,750 --> 00:01:45,450
+Sydney had donated his files
+to the Cold Spring Harbor
+
+35
+00:01:45,450 --> 00:01:47,190
+Laboratory on Long Island.
+
+36
+00:01:47,190 --> 00:01:49,360
+And they went through the files
+in the past several
+
+37
+00:01:49,360 --> 00:01:51,270
+months and found them.
+
+38
+00:01:51,270 --> 00:01:53,990
+So we actually now have, as The
+New York Times reported
+
+39
+00:01:53,990 --> 00:01:59,340
+yesterday, the letters with
+Crick and Watson and Maurice
+
+40
+00:01:59,340 --> 00:02:03,200
+Wilkins about just that period
+I was telling you about.
+
+41
+00:02:03,200 --> 00:02:06,150
+It doesn't radically change
+any of the story.
+
+42
+00:02:06,150 --> 00:02:08,280
+But it really shows
+you the attitude.
+
+43
+00:02:08,280 --> 00:02:10,389
+And if you read the New York
+Times article, you'll find all
+
+44
+00:02:10,389 --> 00:02:13,550
+sorts of juicy quotes about the
+attitude back and forth
+
+45
+00:02:13,550 --> 00:02:17,210
+there, including the first model
+Crick and Watson made
+
+46
+00:02:17,210 --> 00:02:19,790
+where they totally screwed up
+because they had misunderstood
+
+47
+00:02:19,790 --> 00:02:21,370
+some number.
+
+48
+00:02:21,370 --> 00:02:24,150
+Anyway, it's interesting
+stuff.
+
+49
+00:02:24,150 --> 00:02:27,820
+And the reason I bring up this
+history is because science is
+
+50
+00:02:27,820 --> 00:02:29,340
+done by real people.
+
+51
+00:02:29,340 --> 00:02:30,920
+It's a business of passion.
+
+52
+00:02:30,920 --> 00:02:33,130
+It's a business of trying
+to-- you know --
+
+53
+00:02:33,130 --> 00:02:34,560
+science is wonderful.
+
+54
+00:02:34,560 --> 00:02:35,720
+It's objective in
+a certain sense.
+
+55
+00:02:35,720 --> 00:02:38,346
+And it's also about
+convincing others.
+
+56
+00:02:38,346 --> 00:02:40,830
+You know, a scientific result
+doesn't mean anything unless
+
+57
+00:02:40,830 --> 00:02:42,580
+you can convince
+the community.
+
+58
+00:02:42,580 --> 00:02:45,730
+So it's an inherently human
+activity to bring people's
+
+59
+00:02:45,730 --> 00:02:48,240
+attention to things,
+make things clear.
+
+60
+00:02:48,240 --> 00:02:50,400
+Anyway, that was kind of cool.
+
+61
+00:02:50,400 --> 00:02:54,160
+I invite you all to go look
+at The Times article.
+
+62
+00:02:54,160 --> 00:02:57,490
+You don't realize how much work
+we have to go to in 7.01
+
+63
+00:02:57,490 --> 00:02:59,990
+to arrange these things to come
+out just at the right
+
+64
+00:02:59,990 --> 00:03:02,250
+time during our curriculum.
+
+65
+00:03:02,250 --> 00:03:06,070
+But we pay off The New York
+Times and they do our bidding.
+
+66
+00:03:06,070 --> 00:03:11,530
+So last time we were
+talking about--
+
+67
+00:03:11,530 --> 00:03:16,810
+I want to briefly go back to
+the Semiconservative Model,
+
+68
+00:03:16,810 --> 00:03:23,010
+which I ended with last time,
+of DNA replication, the work
+
+69
+00:03:23,010 --> 00:03:26,110
+of Matt Meselson and Frank
+Stahl, these graduate students
+
+70
+00:03:26,110 --> 00:03:27,300
+at Caltech.
+
+71
+00:03:27,300 --> 00:03:30,680
+So you remember, our DNA double
+helix immediately
+
+72
+00:03:30,680 --> 00:03:34,520
+suggests the secret of life,
+the way that you copy
+
+73
+00:03:34,520 --> 00:03:36,480
+information to daughter cells.
+
+74
+00:03:36,480 --> 00:03:40,210
+Each strand is a sufficient
+template for the other strand.
+
+75
+00:03:40,210 --> 00:03:46,830
+If you just unzipped them, each
+would be able to serve as
+
+76
+00:03:46,830 --> 00:03:50,850
+a template for replication
+for the other strand.
+
+77
+00:03:50,850 --> 00:03:51,420
+Beautiful.
+
+78
+00:03:51,420 --> 00:03:55,420
+It's called Semiconservative
+because you've conserved.
+
+79
+00:03:55,420 --> 00:03:57,180
+You used one strand.
+
+80
+00:03:57,180 --> 00:03:59,300
+And you've made a new
+strand on the other.
+
+81
+00:04:01,940 --> 00:04:03,950
+It seems obvious, but
+we can't take things
+
+82
+00:04:03,950 --> 00:04:05,190
+for obvious in science.
+
+83
+00:04:05,190 --> 00:04:08,800
+Because the alternative model,
+alternative, which we know
+
+84
+00:04:08,800 --> 00:04:12,610
+today is of course wrong, is
+that somehow the cell comes
+
+85
+00:04:12,610 --> 00:04:20,079
+along, feels this double helix
+as a template, and somehow
+
+86
+00:04:20,079 --> 00:04:24,000
+builds two new strands
+that are the same
+
+87
+00:04:24,000 --> 00:04:24,930
+as that double helix.
+
+88
+00:04:24,930 --> 00:04:27,930
+They build a new double helix
+with both strands being new.
+
+89
+00:04:27,930 --> 00:04:28,590
+That's nuts--
+
+90
+00:04:28,590 --> 00:04:29,350
+why would you do it?
+
+91
+00:04:29,350 --> 00:04:31,530
+It's so obvious you could
+use one strand as the
+
+92
+00:04:31,530 --> 00:04:32,630
+template for the other.
+
+93
+00:04:32,630 --> 00:04:35,420
+But this is what Meselson and
+Stahl had to rule out.
+
+94
+00:04:35,420 --> 00:04:39,230
+They had to rule out that that
+double helix stayed intact,
+
+95
+00:04:39,230 --> 00:04:41,980
+and maybe the cell sent some
+enzymes around to feel its
+
+96
+00:04:41,980 --> 00:04:46,500
+shape and somehow construct
+another double helix like it.
+
+97
+00:04:46,500 --> 00:04:48,690
+That would be a non-conservative
+model.
+
+98
+00:04:48,690 --> 00:04:50,900
+You weren't using
+any old strands.
+
+99
+00:04:50,900 --> 00:04:52,370
+The two old strands
+stayed together.
+
+100
+00:04:52,370 --> 00:04:54,010
+And you made two new strands.
+
+101
+00:04:54,010 --> 00:04:56,810
+That's what they were trying to
+distinguish between, this
+
+102
+00:04:56,810 --> 00:04:58,910
+semiconservative model or not.
+
+103
+00:04:58,910 --> 00:05:04,300
+So I just remind you that their
+really cool, cool idea--
+
+104
+00:05:04,300 --> 00:05:08,650
+see, they couldn't use a
+radioactive tracer that was
+
+105
+00:05:08,650 --> 00:05:11,140
+different on the new strand
+than the old strand in the
+
+106
+00:05:11,140 --> 00:05:12,710
+conventional sense.
+
+107
+00:05:12,710 --> 00:05:15,730
+Because, of course, they're made
+out of the same atoms.
+
+108
+00:05:15,730 --> 00:05:20,860
+But what they did do, as we
+talked about last time, was
+
+109
+00:05:20,860 --> 00:05:22,880
+they take the DNA.
+
+110
+00:05:22,880 --> 00:05:27,020
+They grow it up in
+heavy nitrogen.
+
+111
+00:05:27,020 --> 00:05:30,570
+They then shift the bacteria
+to light nitrogen.
+
+112
+00:05:34,900 --> 00:05:42,970
+And, if in fact the
+Semiconservative Model is
+
+113
+00:05:42,970 --> 00:05:47,290
+right, then the new DNA after
+one generation of growth will
+
+114
+00:05:47,290 --> 00:05:48,940
+have a lighter density.
+
+115
+00:05:48,940 --> 00:05:52,530
+Very simple, except that they
+had to go invent a way to
+
+116
+00:05:52,530 --> 00:05:53,920
+measure density.
+
+117
+00:05:53,920 --> 00:05:57,250
+They had to invent this
+centrifugation process where
+
+118
+00:05:57,250 --> 00:05:59,780
+they spin really, really,
+really, really hard.
+
+119
+00:05:59,780 --> 00:06:02,560
+And the salt gets a little
+denser here, and a little less
+
+120
+00:06:02,560 --> 00:06:04,380
+dense here, and a little
+less dense here.
+
+121
+00:06:04,380 --> 00:06:06,430
+And it's not a very
+huge difference.
+
+122
+00:06:06,430 --> 00:06:09,880
+But if you know the density of
+DNA, and you arrange your salt
+
+123
+00:06:09,880 --> 00:06:13,190
+concentration at just the right
+density, you can spin it
+
+124
+00:06:13,190 --> 00:06:16,710
+really hard so that there's
+some gradient in
+
+125
+00:06:16,710 --> 00:06:18,550
+density in the salt.
+
+126
+00:06:18,550 --> 00:06:23,740
+And the heavier stuff
+will band here.
+
+127
+00:06:23,740 --> 00:06:26,010
+The lighter stuff from
+one generation of
+
+128
+00:06:26,010 --> 00:06:29,260
+growth will band there.
+
+129
+00:06:29,260 --> 00:06:35,420
+And normal DNA would
+band there.
+
+130
+00:06:35,420 --> 00:06:37,110
+And that's a pretty
+convincing proof.
+
+131
+00:06:37,110 --> 00:06:39,950
+After no generations
+it's all in 15-15.
+
+132
+00:06:39,950 --> 00:06:41,900
+After one generation it's
+all intermediate.
+
+133
+00:06:41,900 --> 00:06:45,110
+After two generations some
+of it is now 14-14.
+
+134
+00:06:45,110 --> 00:06:47,050
+Some of it is 14-15.
+
+135
+00:06:47,050 --> 00:06:48,590
+And onward like that.
+
+136
+00:06:48,590 --> 00:06:51,200
+Obvious, and it's a gorgeous
+experiment, just a gorgeous
+
+137
+00:06:51,200 --> 00:06:51,780
+experiment.
+
+138
+00:06:51,780 --> 00:06:55,420
+And this idea of density
+centrifugation, which they
+
+139
+00:06:55,420 --> 00:06:57,930
+invented for this purpose, has
+been used for many other
+
+140
+00:06:57,930 --> 00:06:59,180
+purposes since.

@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource contains information regarding lecture 18: discrete-time Fourier representations.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information regarding lecture 18: discrete-time Fourier representations.",
+  "draft": false,
+  "file": "/courses/6-003-signals-and-systems-fall-2011/51713137a4b20db4c4b18e31f16f93ab_MIT6_003F11_lec18.pdf",
+  "file_size": 2436768,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Videos",
+  "parent_type": "CourseSection",
+  "parent_uid": "47b07fed-f3a3-0be2-5f15-5f62399cdb59",
+  "resourcetype": "Document",
+  "title": "Lecture 18: Discrete-time Fourier representations",
+  "uid": "51713137-a4b2-0db4-c4b1-8e31f16f93ab",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-003-signals-and-systems-fall-2011"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-003-signals-and-systems-fall-2011"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

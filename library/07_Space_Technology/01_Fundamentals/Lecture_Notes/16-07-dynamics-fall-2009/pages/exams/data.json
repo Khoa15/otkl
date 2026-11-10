@@ -1,0 +1,16 @@
+
+{
+  "content": "<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nEXAMS\n</th>\n\n<th>\n\nFILES\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\n2004 final exam\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit16_07f09_final04/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n2005 final exam\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit16_07f09_final05/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n2007 final exam\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit16_07f09_final07/index.html\">PDF</a>)\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section provides exams from previous semesters for review.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Exams",
+  "uid": "e7a73332-714e-4205-8841-80839faf9740"
+}
+

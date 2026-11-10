@@ -1,0 +1,39 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "34413874",
+  "file_type": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Differential Equations and exp(At)",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "微分方程指数矩阵(At)",
+  "uid": "17643635-80ff-3738-ac63-fe518148d342",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110531_L2_zh-hans-cmn_300k.mp4",
+    "video_captions_file": null,
+    "video_thumbnail_file": "https://img.youtube.com/vi/fiSp3Ss-Yo8/default.jpg",
+    "video_transcript_file": null
+  },
+  "video_metadata": {
+    "video_tags": "18-06sc-linear-algebra-fall-2011, 线性代数，微分方程",
+    "youtube_id": "fiSp3Ss-Yo8"
+  }
+}

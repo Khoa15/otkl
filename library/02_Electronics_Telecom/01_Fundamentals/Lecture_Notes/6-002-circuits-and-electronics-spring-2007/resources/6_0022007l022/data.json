@@ -1,0 +1,36 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/6-002-circuits-and-electronics-spring-2007/aaaba9c602f1fc4e42d29e04db1c7dff_6_0022007L022.pdf",
+  "file_size": 61331,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Video Lectures",
+  "parent_type": "CourseSection",
+  "parent_uid": "9b4a2ba7-a556-b234-8b0c-3f1bdd4fa8ab",
+  "resourcetype": "Document",
+  "title": "6_0022007L022.pdf",
+  "uid": "aaaba9c6-02f1-fc4e-42d2-9e04db1c7dff",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

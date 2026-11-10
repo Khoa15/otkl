@@ -1,0 +1,21 @@
+{
+  "content": "<p>A fiber optic bundle illuminated by color changing LED light. (Image courtesy of lookseeseen on Flickr.)</p>\n",
+  "content_type": "resource",
+  "description": "A fiber optic bundle illuminated by color changing LED light. (Image courtesy of lookseeseen on Flickr.)",
+  "draft": false,
+  "file": "/courses/6-450-principles-of-digital-communication-i-fall-2009/266cb9c17d895110aaeda9dc88fbcc8c_6-450f09-th.jpg",
+  "file_size": 16595,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "A fiber optic bundle illuminated by color changing LED light. (Image by {{% resource_link \"f60a09f1-3d31-4e20-bec8-1517070a4ecf\" \"lookseeseen\" %}} on Flickr.)",
+    "credit": "",
+    "image-alt": "A random pattern of circles of different shades of green."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "A random pattern of circles of different shades of green",
+  "uid": "266cb9c1-7d89-5110-aaed-a9dc88fbcc8c"
+}

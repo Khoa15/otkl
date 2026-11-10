@@ -1,0 +1,51 @@
+{
+  "content": "<p><strong>Description:</strong> Interface management is the primary focus and students learned various approaches to conduct interface management for system integration.</p>\n<p><strong>Instructor:</strong> Olivier de Weck</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "203673638",
+  "file_type": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Class Videos",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Session 8: Systems Integration and Interface Management",
+  "uid": "936aa8a4-2f28-ed2a-fd5c-05808e1c10bf",
+  "video_files": {
+    "archive_url": "https://archive.org/download/MIT16.842F15/MIT16_842F15_S08_SPOC_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/9ac826a1116755dd818a9598b90a7e27_9AtMQqCBdhw.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/9AtMQqCBdhw/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/27a884bdbc6b247d9adaf514a1d44404_9AtMQqCBdhw.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "16-842-fundamentals-of-systems-engineering-fall-2015, design structure matrix, dsm, icd, interface control documents, interface management, system integration",
+    "youtube_id": "9AtMQqCBdhw"
+  }
+}

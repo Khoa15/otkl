@@ -1,0 +1,21 @@
+{
+  "content": "<p>Quiz on electrical power systems containing problems on a three phase transformer with load resistor, a simple transmission line model, and a single phase transmission line.</p>\n",
+  "content_type": "resource",
+  "description": "Quiz on electrical power systems containing problems on a three phase transformer with load resistor, a simple transmission line model, and a single phase transmission line.",
+  "draft": false,
+  "file": "/courses/6-061-introduction-to-electric-power-systems-spring-2011/e0adf98d577911f0720a00a67cf7a861_MIT6_061S11_quiz01.pdf",
+  "file_size": 85072,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Quizzes",
+  "parent_type": "CourseSection",
+  "parent_uid": "71fd169d-3022-4bf6-62f1-1799820c401b",
+  "resourcetype": "Document",
+  "title": "Quiz 1",
+  "uid": "e0adf98d-5779-11f0-720a-00a67cf7a861"
+}

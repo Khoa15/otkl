@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture presentation on frequency response of CS amplifiers, the Miller effect, intrinsic frequency limitations of MOSFETs, biasing to maximize speed, and power trade-off.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture presentation on frequency response of CS amplifiers, the Miller effect, intrinsic frequency limitations of MOSFETs, biasing to maximize speed, and power trade-off.",
+  "draft": false,
+  "file": "/courses/6-012-microelectronic-devices-and-circuits-fall-2009/0fdcac2122e7e8dd1ff0427fd0cee502_MIT6_012F09_lec23.pdf",
+  "file_size": 936105,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "e4c7985c-766a-2f9c-5bac-08869dd8bade",
+  "resourcetype": "Document",
+  "title": "Lecture 23 - Circuits at High Frequencies",
+  "uid": "0fdcac21-22e7-e8dd-1ff0-427fd0cee502"
+}

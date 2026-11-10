@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;This section contains &lt;a href=&#34;#Scribe_Notes&#34;&gt;scribe notes&lt;/a&gt; from the Fall 2008 version of the course, and a set of &lt;a href=&#34;#Additional_Slides&#34;&gt;additional slides&lt;/a&gt;.&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;hahahugoshortcode13s0hbhbscribe-notes&#34;&gt;&#xA;&#xA;&lt;a name=&#34;Scribe_Notes&#34;&gt;&lt;/a&gt;Scribe Notes&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;All scribe notes are courtesy of MIT students, and are used with permission.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LEC #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LECTURE NOTES&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Quantum basics&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_845f10_lec01/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;More quantum basics&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_845f10_lec02/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Quantum circuits&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_845f10_lec03/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;BQP and classical friends&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_845f10_lec04/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Quantum algorithms: Deutsch-Jozsa&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_845f10_lec05/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;6&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Quantum algorithms: Simon&amp;rsquo;s algorithm&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_845f10_lec06/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec01.pdf</title>
+      <link>/resources/mit6_845f10_lec01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec01/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to quantum basics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec02.pdf</title>
+      <link>/resources/mit6_845f10_lec02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec02/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to more quantum basics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec03.pdf</title>
+      <link>/resources/mit6_845f10_lec03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec03/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to quantum circuits.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec04.pdf</title>
+      <link>/resources/mit6_845f10_lec04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec04/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to BQP and classical friends.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec05.pdf</title>
+      <link>/resources/mit6_845f10_lec05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec05/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to quantum algorithms: Deutsch-Jozsa.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec06.pdf</title>
+      <link>/resources/mit6_845f10_lec06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec06/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to quantum algorithms: Simon&amp;rsquo;s algorithm.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec07.pdf</title>
+      <link>/resources/mit6_845f10_lec07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec07/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to Shor&amp;rsquo;s algorithm and the hidden subgroup problem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec08.pdf</title>
+      <link>/resources/mit6_845f10_lec08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec08/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to hidden subgroup problem and Grover&amp;rsquo;s algorithm.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec09.pdf</title>
+      <link>/resources/mit6_845f10_lec09/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec09/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to Grover&amp;rsquo;s algorithm and BBBV.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec10.pdf</title>
+      <link>/resources/mit6_845f10_lec10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec10/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to quantum query complexity lower bounds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec11.pdf</title>
+      <link>/resources/mit6_845f10_lec11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec11/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to more quantum query complexity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec12.pdf</title>
+      <link>/resources/mit6_845f10_lec12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec12/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to query complexity and the collision problem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec13.pdf</title>
+      <link>/resources/mit6_845f10_lec13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec13/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to the collision problem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec14.pdf</title>
+      <link>/resources/mit6_845f10_lec14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec14/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to BQP vs. PH and QMA.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec16.pdf</title>
+      <link>/resources/mit6_845f10_lec16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec16/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to QMA and variants.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec17.pdf</title>
+      <link>/resources/mit6_845f10_lec17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec17/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to QIP.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec18.pdf</title>
+      <link>/resources/mit6_845f10_lec18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec18/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to PostBQP.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec19.pdf</title>
+      <link>/resources/mit6_845f10_lec19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec19/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to closed timelike curves.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec20.pdf</title>
+      <link>/resources/mit6_845f10_lec20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec20/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to BQP/qpoly.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec21.pdf</title>
+      <link>/resources/mit6_845f10_lec21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec21/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to quantum communication complexity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec22.pdf</title>
+      <link>/resources/mit6_845f10_lec22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec22/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to more quantum communication complexity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec23.pdf</title>
+      <link>/resources/mit6_845f10_lec23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec23/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to classical simulation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_lec24.pdf</title>
+      <link>/resources/mit6_845f10_lec24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec24/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to grab bag.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_845F10_npc_slides.pdf</title>
+      <link>/resources/mit6_845f10_npc_slides/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_npc_slides/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to noninteracting particle computation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QMA</title>
+      <link>/resources/mit6_845f10_lec15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_845f10_lec15/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on quantum Merlin Arthur (QMA) problems, Watrous’ QMA protocol for group non-membership, upper bounds on QMA, and QMA-complete problems.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

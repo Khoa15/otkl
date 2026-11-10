@@ -1,0 +1,16 @@
+
+{
+  "content": "\n    <h3 id=\"fall-2009-exams\">Fall 2009 Exams</h3>\n\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nEXAMS\n</th>\n\n<th>\n\nFILES\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\nExam 1\n</td>\n\n<td>\n</p>\n<p>Exam (<a href=\"../../resources/mit6_012f09_exam1/index.html\">PDF</a>)</p>\n<p>Formula sheet (<a href=\"../../resources/mit6_012f09_exam1_formula/index.html\">PDF</a>)</p>\n<p>Solutions (<a href=\"../../resources/mit6_012f09_exam1_sol/index.html\">PDF</a>)</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n\nExam 2\n</td>\n\n<td>\n</p>\n<p>Exam (<a href=\"../../resources/mit6_012f09_exam2/index.html\">PDF</a>)</p>\n<p>Formula sheet (<a href=\"../../resources/mit6_012f09_exam2_formula/index.html\">PDF</a>)</p>\n<p>Solutions (<a href=\"../../resources/mit6_012f09_exam2_sol/index.html\">PDF</a>)</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n\nFinal\n</td>\n\n<td>\n</p>\n<p>Exam (<a href=\"../../resources/mit6_012f09_final/index.html\">PDF</a>)</p>\n<p>Formula sheet (<a href=\"../../resources/mit6_012f09_final_formula/index.html\">PDF</a>)</p>\n</td>\n\n</tr>\n\n</table>\n\n<p> </p>\n\n    <h3 id=\"older-exams\">Older Exams</h3>\n\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nEXAMS\n</th>\n\n<th>\n\nFILES\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\nExam 1\n</td>\n\n<td>\n</p>\n<p>Spring 2008 (<a href=\"../../resources/mit6_012f09_exam1_s08/index.html\">PDF</a>)</p>\n<p>Spring 2008 solutions (<a href=\"../../resources/mit6_012f09_exam1_s08_sol/index.html\">PDF</a>)</p>\n<p>Spring 2006 (<a href=\"../../resources/mit6_012f09_exam1_s06/index.html\">PDF</a>)</p>\n<p>Spring 2006 solutions (<a href=\"../../resources/mit6_012f09_exam1_s06_sol/index.html\">PDF</a>)</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n\nExam 2\n</td>\n\n<td>\n</p>\n<p>Spring 2008 (<a href=\"../../resources/mit6_012f09_exam2_s08/index.html\">PDF</a>)</p>\n<p>Spring 2008 solutions (<a href=\"../../resources/mit6_012f09_exam2_s08_sol/index.html\">PDF</a>)</p>\n<p>Spring 2006 (<a href=\"../../resources/mit6_012f09_exam2_s06/index.html\">PDF</a>)</p>\n<p>Spring 2006 solutions (<a href=\"../../resources/mit6_012f09_exam2_s06_sol/index.html\">PDF</a>)</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n\nFinal\n</td>\n\n<td>\n</p>\n<p>Spring 2008 (<a href=\"../../resources/mit6_012f09_final_s08/index.html\">PDF</a>)</p>\n<p>Spring 2006 (<a href=\"../../resources/mit6_012f09_final_s06/index.html\">PDF</a>)</p>\n</td>\n\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section provides the exams for the course, solutions, and formula sheets.  Exams and solutions from previous semesters are also provided.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Exams",
+  "uid": "4023a661-27dc-40df-ec6b-9fb469221263"
+}
+

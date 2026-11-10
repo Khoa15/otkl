@@ -1,0 +1,3765 @@
+1
+00:00:00,040 --> 00:00:02,460
+The following content is
+provided under a Creative
+
+2
+00:00:02,460 --> 00:00:03,870
+Commons license.
+
+3
+00:00:03,870 --> 00:00:06,910
+Your support will help MIT
+OpenCourseWare continue to
+
+4
+00:00:06,910 --> 00:00:10,560
+offer high quality educational
+resources for free.
+
+5
+00:00:10,560 --> 00:00:13,460
+To make a donation or view
+additional materials from
+
+6
+00:00:13,460 --> 00:00:19,290
+hundreds of MIT courses, visit
+MIT OpenCourseWare at
+
+7
+00:00:19,290 --> 00:00:21,220
+ocw.mit.edu.
+
+8
+00:00:21,220 --> 00:00:22,550
+PROFESSOR: So here's
+what we did.
+
+9
+00:00:22,550 --> 00:00:25,710
+We found mutants that
+effect biochemistry.
+
+10
+00:00:25,710 --> 00:00:27,330
+That's one way to make the
+connection between
+
+11
+00:00:27,330 --> 00:00:28,830
+function and gene.
+
+12
+00:00:28,830 --> 00:00:32,920
+But if we want to go the other
+way, we now have to do the
+
+13
+00:00:32,920 --> 00:00:35,380
+biochemistry of genetics.
+
+14
+00:00:35,380 --> 00:00:36,960
+What's biochemistry about?
+
+15
+00:00:36,960 --> 00:00:39,210
+It's purifying things
+in a test tube.
+
+16
+00:00:39,210 --> 00:00:40,810
+What's genetics about?
+
+17
+00:00:40,810 --> 00:00:42,240
+Heredity.
+
+18
+00:00:42,240 --> 00:00:43,630
+So what do we have to do?
+
+19
+00:00:43,630 --> 00:00:48,020
+We have to purify heredity
+in a test tube.
+
+20
+00:00:48,020 --> 00:00:48,600
+But that's it.
+
+21
+00:00:48,600 --> 00:00:49,700
+That's what we have to do.
+
+22
+00:00:49,700 --> 00:00:51,730
+If we're going to make that
+connection in that direction,
+
+23
+00:00:51,730 --> 00:00:55,990
+all we need is to take a cell,
+grind it up, and purify not
+
+24
+00:00:55,990 --> 00:00:58,910
+the enzyme that digests
+a sugar, but heredity.
+
+25
+00:00:58,910 --> 00:01:02,120
+We need to get a pure
+tube of heredity.
+
+26
+00:01:02,120 --> 00:01:04,674
+You can imagine that this wasn't
+an obvious thing to do,
+
+27
+00:01:04,674 --> 00:01:07,460
+how you get a pure
+tube of heredity.
+
+28
+00:01:07,460 --> 00:01:09,910
+The problem is you
+need an assay.
+
+29
+00:01:09,910 --> 00:01:11,470
+If you want to find an
+enzyme that digests a
+
+30
+00:01:11,470 --> 00:01:12,710
+sugar, you have an acid.
+
+31
+00:01:12,710 --> 00:01:14,560
+You purify different fraction,
+you make different fractions
+
+32
+00:01:14,560 --> 00:01:17,450
+of a cell you see which fraction
+of the cell is able
+
+33
+00:01:17,450 --> 00:01:20,100
+to digest the sugar.
+
+34
+00:01:20,100 --> 00:01:22,330
+But if I make different
+fractions of the cell, it's
+
+35
+00:01:22,330 --> 00:01:24,250
+not obvious how I figure out
+which fraction of the cell has
+
+36
+00:01:24,250 --> 00:01:26,780
+heredity in it.
+
+37
+00:01:26,780 --> 00:01:28,320
+And yet, that's exactly
+what was done, and
+
+38
+00:01:28,320 --> 00:01:29,800
+that's today's lecture.
+
+39
+00:01:29,800 --> 00:01:37,725
+So purifying heredity.
+
+40
+00:01:42,080 --> 00:01:50,055
+The discovery of the
+transforming principle.
+
+41
+00:01:59,880 --> 00:02:02,390
+By the transforming principle,
+I don't mean an
+
+42
+00:02:02,390 --> 00:02:04,250
+idea, like a principle.
+
+43
+00:02:04,250 --> 00:02:05,850
+I mean a substance.
+
+44
+00:02:05,850 --> 00:02:09,199
+This is an old medieval kind
+of word, a principle.
+
+45
+00:02:09,199 --> 00:02:11,400
+It's kind of a Harry Potteresque
+kind of word or
+
+46
+00:02:11,400 --> 00:02:14,800
+something like that of what is
+the transforming principle,
+
+47
+00:02:14,800 --> 00:02:16,600
+the transforming substance.
+
+48
+00:02:16,600 --> 00:02:19,050
+It's the kind of word alchemists
+would like to use,
+
+49
+00:02:19,050 --> 00:02:21,960
+but it was actually what's
+attached to this, and it was
+
+50
+00:02:21,960 --> 00:02:24,610
+called at the time the
+transforming principle, the
+
+51
+00:02:24,610 --> 00:02:26,240
+transforming substance.
+
+52
+00:02:26,240 --> 00:02:31,660
+And it really is the work in
+1928 of a young scientist F.
+
+53
+00:02:31,660 --> 00:02:34,970
+Griffiths in London.
+
+54
+00:02:34,970 --> 00:02:38,180
+Griffiths was particularly
+interested in studying the
+
+55
+00:02:38,180 --> 00:02:39,680
+bacteria pneumococcus.
+
+56
+00:02:42,410 --> 00:02:45,030
+Why was Griffith so interested
+in studying the bacteria
+
+57
+00:02:45,030 --> 00:02:46,500
+pneumococcus?
+
+58
+00:02:46,500 --> 00:02:50,220
+Well, not so long before in
+1918, there had been the
+
+59
+00:02:50,220 --> 00:02:53,570
+terrible Spanish influenza
+epidemic that had killed
+
+60
+00:02:53,570 --> 00:02:57,200
+millions of people around the
+world, the worst flu ever.
+
+61
+00:02:57,200 --> 00:03:00,660
+Millions of people died by
+this flew, and one of the
+
+62
+00:03:00,660 --> 00:03:03,310
+reasons they died when they
+have the flu was they got
+
+63
+00:03:03,310 --> 00:03:06,200
+pneumococcal infections.
+
+64
+00:03:06,200 --> 00:03:09,140
+Griffiths was trying to make a
+vaccine against pneumococcus,
+
+65
+00:03:09,140 --> 00:03:11,870
+a pretty good idea trying to
+make a vaccine against
+
+66
+00:03:11,870 --> 00:03:13,130
+pneumococcus.
+
+67
+00:03:13,130 --> 00:03:17,400
+Pneumococcus highly virulent
+stuff, but particularly if
+
+68
+00:03:17,400 --> 00:03:20,220
+you're compromised
+by the influenza.
+
+69
+00:03:20,220 --> 00:03:21,510
+So what did he do?
+
+70
+00:03:21,510 --> 00:03:24,640
+Well, Griffiths had a strain
+of pneumococcus.
+
+71
+00:03:24,640 --> 00:03:26,550
+He didn't, by the way, infect
+people with it.
+
+72
+00:03:26,550 --> 00:03:29,570
+He infected mice with it, that
+being considered a somewhat
+
+73
+00:03:29,570 --> 00:03:31,980
+more ethical way to
+do the experiment.
+
+74
+00:03:31,980 --> 00:03:35,610
+So he had a strain of
+pneumococcus that had a
+
+75
+00:03:35,610 --> 00:03:37,900
+smooth, glistening coat.
+
+76
+00:03:37,900 --> 00:03:41,710
+When you looked at it, it
+was smooth and white and
+
+77
+00:03:41,710 --> 00:03:43,430
+glistened, the colonies
+that it made
+
+78
+00:03:43,430 --> 00:03:44,750
+smooth, white, glistened.
+
+79
+00:03:44,750 --> 00:03:46,780
+And it was virulent.
+
+80
+00:03:46,780 --> 00:03:52,350
+If you inject it into a mouse,
+the mouse got pneumococcus
+
+81
+00:03:52,350 --> 00:03:54,970
+infection, and it died.
+
+82
+00:03:54,970 --> 00:03:57,180
+It turns out we now know
+that it has a beautiful
+
+83
+00:03:57,180 --> 00:04:00,760
+polysaccharide coat around it
+that provides resistance to
+
+84
+00:04:00,760 --> 00:04:03,780
+the host's immune system,
+et cetera.
+
+85
+00:04:03,780 --> 00:04:06,610
+He also had a strain
+of pneumococcus
+
+86
+00:04:06,610 --> 00:04:09,380
+that had a rough coat.
+
+87
+00:04:09,380 --> 00:04:10,660
+It was not glistening.
+
+88
+00:04:10,660 --> 00:04:14,110
+It was kind of dull looking,
+and it was non-virulent.
+
+89
+00:04:19,920 --> 00:04:21,570
+He injected it into a
+mouse, mouse lives.
+
+90
+00:04:21,570 --> 00:04:23,550
+It happens to be the case that
+we now know that it had a
+
+91
+00:04:23,550 --> 00:04:26,190
+mutation in a gene that produced
+that coat, but that
+
+92
+00:04:26,190 --> 00:04:27,060
+doesn't much matter.
+
+93
+00:04:27,060 --> 00:04:29,120
+It didn't produce that
+polysaccharide, and therefore,
+
+94
+00:04:29,120 --> 00:04:31,880
+was more easily fought off
+by the immune system.
+
+95
+00:04:31,880 --> 00:04:35,130
+So Griffiths does the following
+experiment.
+
+96
+00:04:35,130 --> 00:04:47,750
+He takes his smooth, virulent
+bacteria, he injects it into a
+
+97
+00:04:47,750 --> 00:04:50,070
+mouse, that's a mouse.
+
+98
+00:04:50,070 --> 00:04:51,300
+And what happens to the mouse?
+
+99
+00:04:51,300 --> 00:04:52,620
+AUDIENCE: Dies.
+
+100
+00:04:52,620 --> 00:04:53,870
+PROFESSOR: Dies.
+
+101
+00:04:56,510 --> 00:04:57,180
+Exactly.
+
+102
+00:04:57,180 --> 00:04:59,250
+That's a dead mouse.
+
+103
+00:04:59,250 --> 00:05:02,220
+And one of the easier assays
+in molecular biology is the
+
+104
+00:05:02,220 --> 00:05:04,210
+feet up, feet down assay.
+
+105
+00:05:04,210 --> 00:05:05,380
+All right.
+
+106
+00:05:05,380 --> 00:05:06,910
+Dead mouse.
+
+107
+00:05:06,910 --> 00:05:08,120
+Now, what does he do?
+
+108
+00:05:08,120 --> 00:05:14,800
+He takes the rough,
+non-virulent, he injects it
+
+109
+00:05:14,800 --> 00:05:17,335
+into a mouse, and
+what happens?
+
+110
+00:05:20,270 --> 00:05:20,800
+Lives.
+
+111
+00:05:20,800 --> 00:05:21,460
+Right?
+
+112
+00:05:21,460 --> 00:05:22,710
+Lives.
+
+113
+00:05:24,710 --> 00:05:31,790
+Then what he does, he takes the
+smooth, virulent and he
+
+114
+00:05:31,790 --> 00:05:33,860
+bakes it in an autoclave.
+
+115
+00:05:33,860 --> 00:05:36,845
+He heat kills this bacteria.
+
+116
+00:05:40,070 --> 00:05:47,260
+Now, this heat-killed, dead,
+virulent bacteria when
+
+117
+00:05:47,260 --> 00:05:50,770
+injected into a mouse, what
+happens to the mouse?
+
+118
+00:05:50,770 --> 00:05:51,650
+It's alive.
+
+119
+00:05:51,650 --> 00:05:53,130
+The mouse is fine.
+
+120
+00:05:53,130 --> 00:05:56,000
+The bacteria was dead.
+
+121
+00:05:56,000 --> 00:06:00,300
+And then he does the following
+truly weird experiment.
+
+122
+00:06:00,300 --> 00:06:05,440
+He takes the absolutely
+harmless, rough, non-virulent
+
+123
+00:06:05,440 --> 00:06:19,800
+bacteria but alive, plus the
+smooth, virulent bacteria that
+
+124
+00:06:19,800 --> 00:06:24,960
+has been killed by heat,
+heat-killed.
+
+125
+00:06:24,960 --> 00:06:28,100
+The rough stuff is harmless.
+
+126
+00:06:28,100 --> 00:06:32,240
+The smooth heat-killed
+stuff, harmless.
+
+127
+00:06:32,240 --> 00:06:34,440
+Both are harmless.
+
+128
+00:06:34,440 --> 00:06:37,690
+We've shown the mouse can
+live with this injected.
+
+129
+00:06:37,690 --> 00:06:39,700
+It can live with
+this injected.
+
+130
+00:06:39,700 --> 00:06:44,700
+He injects it into the mouse,
+and what happens?
+
+131
+00:06:44,700 --> 00:06:45,950
+Dead mouse.
+
+132
+00:06:51,970 --> 00:06:54,350
+Very surprising.
+
+133
+00:06:54,350 --> 00:06:57,320
+Not only that, when he takes the
+blood of the dead mouse,
+
+134
+00:06:57,320 --> 00:07:00,130
+he can culture out of it.
+
+135
+00:07:00,130 --> 00:07:04,370
+He can culture on a Petri plate
+from this dead mouse
+
+136
+00:07:04,370 --> 00:07:08,760
+live, smooth, virulent
+bacteria.
+
+137
+00:07:13,090 --> 00:07:15,970
+How did that happen?
+
+138
+00:07:15,970 --> 00:07:19,420
+Somehow, we didn't have any
+live, smooth bacteria.
+
+139
+00:07:19,420 --> 00:07:20,575
+We had dead, smooth bacteria.
+
+140
+00:07:20,575 --> 00:07:22,750
+We had live non-virulent
+bacteria.
+
+141
+00:07:22,750 --> 00:07:29,680
+Somehow, the dead stuff
+transformed the live harmless
+
+142
+00:07:29,680 --> 00:07:32,120
+stuff into virulence.
+
+143
+00:07:32,120 --> 00:07:34,030
+It transformed it.
+
+144
+00:07:34,030 --> 00:07:38,030
+The substance, the unknown
+substance that transformed it
+
+145
+00:07:38,030 --> 00:07:40,980
+was referred to as the
+transforming principle or
+
+146
+00:07:40,980 --> 00:07:43,000
+transforming stuff.
+
+147
+00:07:43,000 --> 00:07:47,840
+And now we have biochemistry
+because we have an assay.
+
+148
+00:07:47,840 --> 00:07:52,660
+We could take the dead, virulent
+bacteria and break it
+
+149
+00:07:52,660 --> 00:07:55,120
+up into fractions and see
+which substance, which
+
+150
+00:07:55,120 --> 00:07:56,050
+fraction, is it a protein?
+
+151
+00:07:56,050 --> 00:07:56,880
+Is it a carbohydrate?
+
+152
+00:07:56,880 --> 00:07:57,840
+Is it nucleic acid?
+
+153
+00:07:57,840 --> 00:08:02,090
+Is it something, is the
+transforming substance and
+
+154
+00:08:02,090 --> 00:08:05,960
+purify heredity because we
+have seen the transfer of
+
+155
+00:08:05,960 --> 00:08:08,950
+heredity to the harmless
+bacteria.
+
+156
+00:08:08,950 --> 00:08:09,590
+There is an assay.
+
+157
+00:08:09,590 --> 00:08:12,530
+The minute there's an assay,
+you could do biochemistry.
+
+158
+00:08:12,530 --> 00:08:17,060
+Now, the problem was the assay
+was painfully slow.
+
+159
+00:08:17,060 --> 00:08:21,370
+You had to grind up the dead
+bacteria, you had to
+
+160
+00:08:21,370 --> 00:08:24,300
+demonstrate by mixing it
+together, putting it into a
+
+161
+00:08:24,300 --> 00:08:28,240
+mouse, waiting months, and then
+you had to get a further
+
+162
+00:08:28,240 --> 00:08:29,020
+sub fraction.
+
+163
+00:08:29,020 --> 00:08:31,000
+It was just painfully slow.
+
+164
+00:08:31,000 --> 00:08:32,860
+All this mouse stuff
+and all that.
+
+165
+00:08:32,860 --> 00:08:37,070
+And Griffiths didn't make much
+progress through the 1930s,
+
+166
+00:08:37,070 --> 00:08:38,820
+but he kept going at it.
+
+167
+00:08:38,820 --> 00:08:43,360
+And I suspect might have gotten
+there except for the
+
+168
+00:08:43,360 --> 00:08:48,850
+fact that in 1941, his lab was
+hit by a German bomb during a
+
+169
+00:08:48,850 --> 00:08:51,360
+blitz, and he died.
+
+170
+00:08:51,360 --> 00:08:57,440
+And so Griffiths never saw the
+result of this, but he did
+
+171
+00:08:57,440 --> 00:08:59,620
+purify fractions and all that.
+
+172
+00:08:59,620 --> 00:09:02,410
+But thank goodness others
+picked it up.
+
+173
+00:09:02,410 --> 00:09:04,180
+He was again, Griffiths
+was a great guy.
+
+174
+00:09:04,180 --> 00:09:08,250
+He worked in World War I, worked
+during World War II on
+
+175
+00:09:08,250 --> 00:09:11,370
+important public health
+problems, and really lays this
+
+176
+00:09:11,370 --> 00:09:14,660
+foundation, but never really
+purified what the final
+
+177
+00:09:14,660 --> 00:09:18,240
+substance was because he
+died in a bombing.
+
+178
+00:09:18,240 --> 00:09:24,060
+But then you get in 1943, during
+World War II, folks
+
+179
+00:09:24,060 --> 00:09:27,930
+working in New York City at
+Rockefeller University, then
+
+180
+00:09:27,930 --> 00:09:36,040
+Rockefeller Institute, Avery,
+McCarty, and MacLeod continue
+
+181
+00:09:36,040 --> 00:09:41,620
+this work, and they do
+it without the mouse.
+
+182
+00:09:41,620 --> 00:09:45,570
+Because what they do is they
+grind up the virulent stuff
+
+183
+00:09:45,570 --> 00:09:49,180
+and they sprinkle it on the
+living stuff, the living
+
+184
+00:09:49,180 --> 00:09:52,290
+bacteria and played it out,
+and just looked for the
+
+185
+00:09:52,290 --> 00:09:56,370
+appearance of colonies
+that are transformed.
+
+186
+00:09:56,370 --> 00:09:57,980
+Skip the mouse.
+
+187
+00:09:57,980 --> 00:10:00,790
+Skipping the mouse makes it a
+lot easier, because you can do
+
+188
+00:10:00,790 --> 00:10:02,080
+those experiments
+pretty quickly.
+
+189
+00:10:02,080 --> 00:10:03,570
+Bacteria grow quickly.
+
+190
+00:10:03,570 --> 00:10:05,090
+Same basic idea.
+
+191
+00:10:05,090 --> 00:10:10,830
+Purify the stuff from the smooth
+dead stuff, grind it
+
+192
+00:10:10,830 --> 00:10:13,740
+up, put it in different
+fractions, apply them, and
+
+193
+00:10:13,740 --> 00:10:15,900
+then sprinkle them on a
+plate, and look for
+
+194
+00:10:15,900 --> 00:10:18,120
+the occasional colony.
+
+195
+00:10:18,120 --> 00:10:20,300
+And now you're just going to
+look for a fraction of the
+
+196
+00:10:20,300 --> 00:10:22,970
+material that has the capability
+to produce some
+
+197
+00:10:22,970 --> 00:10:25,460
+smooth colonies.
+
+198
+00:10:25,460 --> 00:10:27,270
+Well, they did that, and they
+purified it, and the purified
+
+199
+00:10:27,270 --> 00:10:30,060
+it, and they purified it, and
+they purified it, and they
+
+200
+00:10:30,060 --> 00:10:35,230
+eventually found that the
+particular type of molecule
+
+201
+00:10:35,230 --> 00:10:40,280
+that they purified appeared
+to be DNA.
+
+202
+00:10:40,280 --> 00:10:52,660
+But when they purified fractions
+containing DNA,
+
+203
+00:10:52,660 --> 00:10:57,620
+these fractions had the
+ability to transform.
+
+204
+00:11:03,360 --> 00:11:04,610
+Wow.
+
+205
+00:11:08,080 --> 00:11:11,100
+You might immediately say,
+that's the transforming
+
+206
+00:11:11,100 --> 00:11:12,070
+principle, DNA.
+
+207
+00:11:12,070 --> 00:11:15,130
+That's the transforming
+substance.
+
+208
+00:11:15,130 --> 00:11:16,380
+What do you think the
+reaction was?
+
+209
+00:11:19,910 --> 00:11:21,220
+Skepticism.
+
+210
+00:11:21,220 --> 00:11:23,590
+First, it should be
+noted it's 1943.
+
+211
+00:11:23,590 --> 00:11:26,210
+People were busy at
+the time, right?
+
+212
+00:11:26,210 --> 00:11:28,040
+We're in the middle
+World War II.
+
+213
+00:11:28,040 --> 00:11:31,280
+It wasn't exactly top on
+people's minds, but there was
+
+214
+00:11:31,280 --> 00:11:34,430
+enormous skepticism
+scientifically of those people
+
+215
+00:11:34,430 --> 00:11:36,420
+who did follow the work.
+
+216
+00:11:36,420 --> 00:11:38,950
+Why?
+
+217
+00:11:38,950 --> 00:11:45,020
+Because the one thing they knew
+was that DNA was truly a
+
+218
+00:11:45,020 --> 00:11:46,770
+boring molecule.
+
+219
+00:11:46,770 --> 00:11:50,330
+It was understood by all smart
+people that DNA was an
+
+220
+00:11:50,330 --> 00:11:54,200
+incredibly boring structural
+molecule that had none of the
+
+221
+00:11:54,200 --> 00:11:57,840
+fascinating diversity and
+richness of proteins.
+
+222
+00:11:57,840 --> 00:12:00,660
+Proteins could do zillions
+of different things.
+
+223
+00:12:00,660 --> 00:12:03,730
+DNA, you know, it's
+just scaffolding.
+
+224
+00:12:03,730 --> 00:12:04,930
+Why?
+
+225
+00:12:04,930 --> 00:12:07,090
+What is the structure of DNA?
+
+226
+00:12:07,090 --> 00:12:11,310
+So let's turn to the structure
+of DNA to see why it is that
+
+227
+00:12:11,310 --> 00:12:14,570
+people were not impressed.
+
+228
+00:12:14,570 --> 00:12:17,210
+Of course, when people are not
+impressed, you purified
+
+229
+00:12:17,210 --> 00:12:20,580
+something and you show it
+transforms, what do you say to
+
+230
+00:12:20,580 --> 00:12:24,000
+Avery, McCarty, and MacLeod?
+
+231
+00:12:24,000 --> 00:12:26,610
+How do you express
+your skepticism?
+
+232
+00:12:26,610 --> 00:12:28,360
+You say, it's very good.
+
+233
+00:12:28,360 --> 00:12:31,220
+You've purified this and it
+contains DNA, but is it
+
+234
+00:12:31,220 --> 00:12:35,570
+absolutely totally 100% pure or
+is it possible that you've
+
+235
+00:12:35,570 --> 00:12:39,550
+carried along in the fraction
+that you have purified some
+
+236
+00:12:39,550 --> 00:12:42,610
+other trace quantity of a highly
+potent protein that is
+
+237
+00:12:42,610 --> 00:12:45,290
+really causing heredity?
+
+238
+00:12:45,290 --> 00:12:48,200
+And of course, that's the
+problem is you can never prove
+
+239
+00:12:48,200 --> 00:12:50,950
+that there's not a teeny smidgen
+of something in there.
+
+240
+00:12:50,950 --> 00:12:53,280
+You can only show how pure it
+is, but you can never rule
+
+241
+00:12:53,280 --> 00:12:54,060
+something out.
+
+242
+00:12:54,060 --> 00:12:56,490
+So when people want to sort
+of dis your biochemistry
+
+243
+00:12:56,490 --> 00:12:59,480
+experiments, it's always easy
+to say, it was probably
+
+244
+00:12:59,480 --> 00:13:02,290
+something else in there too you
+just don't know about it.
+
+245
+00:13:02,290 --> 00:13:04,230
+And that was what the
+answer was to them.
+
+246
+00:13:04,230 --> 00:13:06,300
+But let's look at the
+structure of DNA.
+
+247
+00:13:06,300 --> 00:13:08,580
+So DNA has three important
+components
+
+248
+00:13:08,580 --> 00:13:10,050
+which we need to learn.
+
+249
+00:13:10,050 --> 00:13:15,095
+A, it has a sugar called
+2 prime deoxyribose.
+
+250
+00:13:19,800 --> 00:13:24,940
+So ribose is a 5-carbon sugar.
+
+251
+00:13:24,940 --> 00:13:27,590
+A five-part carbon sugar
+is a pentose.
+
+252
+00:13:27,590 --> 00:13:31,770
+So this is a sugar, in fact a
+pentose, pentose of course
+
+253
+00:13:31,770 --> 00:13:36,600
+five, pentose meaning it's a
+5-carbon sugar, but it lacks a
+
+254
+00:13:36,600 --> 00:13:37,870
+hydroxyl group.
+
+255
+00:13:37,870 --> 00:13:40,490
+So it's just slightly
+different from
+
+256
+00:13:40,490 --> 00:13:41,690
+the 5-carbon sugar.
+
+257
+00:13:41,690 --> 00:13:46,485
+And we draw it in this
+configuration where there is
+
+258
+00:13:46,485 --> 00:13:52,620
+the 1 prime carbon here, the 2
+prime carbon here, the 3 prime
+
+259
+00:13:52,620 --> 00:13:57,660
+carbon here, the 4 prime carbon
+here, the 5 prime
+
+260
+00:13:57,660 --> 00:13:58,940
+carbon here.
+
+261
+00:13:58,940 --> 00:14:00,820
+That's very important to know.
+
+262
+00:14:00,820 --> 00:14:02,550
+We've got an oxygen up here.
+
+263
+00:14:02,550 --> 00:14:10,200
+Here, we have an OH and an H.
+Here, we have an H and an OH.
+
+264
+00:14:10,200 --> 00:14:20,990
+Here we have H. Here we
+have our OH, H, H.
+
+265
+00:14:20,990 --> 00:14:25,040
+But here we should have
+a hydroxyl off every
+
+266
+00:14:25,040 --> 00:14:29,110
+carbon, and we don't.
+
+267
+00:14:29,110 --> 00:14:35,280
+Only here are deoxy.
+
+268
+00:14:35,280 --> 00:14:37,030
+That's the only difference from
+this being a perfectly
+
+269
+00:14:37,030 --> 00:14:41,440
+normal ribose, deoxy at
+the 2 prime position.
+
+270
+00:14:41,440 --> 00:14:43,390
+Big deal.
+
+271
+00:14:43,390 --> 00:14:51,260
+Now, the next component of DNA
+that you need to know about
+
+272
+00:14:51,260 --> 00:14:55,890
+are these nitrogenous bases.
+
+273
+00:14:55,890 --> 00:15:08,730
+So hanging off our
+ribose is a base.
+
+274
+00:15:18,920 --> 00:15:24,940
+This base has carbons, oxygens,
+
+275
+00:15:24,940 --> 00:15:26,920
+hydrogens, and nitrogens.
+
+276
+00:15:26,920 --> 00:15:42,830
+And they come in four flavors,
+adenine, A, guanine, G,
+
+277
+00:15:42,830 --> 00:15:54,880
+thymine, T, cytosine, C. A, T,
+C and G, and we'll look at
+
+278
+00:15:54,880 --> 00:15:57,700
+their structure in
+just a moment.
+
+279
+00:15:57,700 --> 00:16:03,690
+Then the next important part
+if we look at this
+
+280
+00:16:03,690 --> 00:16:18,450
+conceptually, is that hanging
+off here, we have a
+
+281
+00:16:18,450 --> 00:16:19,700
+triphosphate.
+
+282
+00:16:35,080 --> 00:16:38,290
+We have a triphosphate.
+
+283
+00:16:38,290 --> 00:16:44,315
+So this is the monomer for
+making DNA, triphosphate.
+
+284
+00:16:47,240 --> 00:16:52,110
+We have a sugar, the sugar in
+exactly the same place off the
+
+285
+00:16:52,110 --> 00:16:57,900
+1 prime carbon there has a base,
+off the 5 prime carbon,
+
+286
+00:16:57,900 --> 00:17:00,090
+we have a triphosphate.
+
+287
+00:17:00,090 --> 00:17:04,240
+What's the triphosphate
+good for?
+
+288
+00:17:04,240 --> 00:17:04,859
+Energy.
+
+289
+00:17:04,859 --> 00:17:08,200
+We're going to do a
+polymerization, and that's
+
+290
+00:17:08,200 --> 00:17:13,010
+going to contribute the energy
+for the polymerization, and
+
+291
+00:17:13,010 --> 00:17:14,700
+that's pretty much it.
+
+292
+00:17:14,700 --> 00:17:16,089
+That's the way to
+think about DNA.
+
+293
+00:17:16,089 --> 00:17:22,690
+So when we do our polymerization
+now, we
+
+294
+00:17:22,690 --> 00:17:44,706
+polymerize and we get base,
+CH2, phosphate.
+
+295
+00:17:50,070 --> 00:17:55,050
+And then coming down this way
+attached here, we have our
+
+296
+00:17:55,050 --> 00:18:12,890
+phosphate, and that attaches
+to the 5 prime carbon here,
+
+297
+00:18:12,890 --> 00:18:14,840
+and onward that way.
+
+298
+00:18:14,840 --> 00:18:28,170
+So notice that our polymer goes
+from a 5-prime carbon
+
+299
+00:18:28,170 --> 00:18:35,710
+here, 3-prime carbon here,
+5-prime carbon here, 3-prime
+
+300
+00:18:35,710 --> 00:18:37,390
+carbon there.
+
+301
+00:18:37,390 --> 00:18:41,530
+And we go sugar, phosphate,
+sugar, phosphate, sugar,
+
+302
+00:18:41,530 --> 00:18:45,240
+phosphate, sugar, phosphate,
+5-prime attachment, 3-prime
+
+303
+00:18:45,240 --> 00:18:47,430
+attachment, 5-prime attachment,
+3-prime
+
+304
+00:18:47,430 --> 00:18:48,370
+attachment.
+
+305
+00:18:48,370 --> 00:18:50,680
+That's DNA.
+
+306
+00:18:50,680 --> 00:18:52,630
+Pretty boring.
+
+307
+00:18:52,630 --> 00:18:57,060
+The same sugar, same phosphates
+strung together,
+
+308
+00:18:57,060 --> 00:18:58,850
+totally boring.
+
+309
+00:18:58,850 --> 00:19:02,270
+The only difference
+are these bases.
+
+310
+00:19:02,270 --> 00:19:04,860
+And there's only four of them,
+and they're not very
+
+311
+00:19:04,860 --> 00:19:06,582
+impressive.
+
+312
+00:19:06,582 --> 00:19:10,460
+They're pretty boring,
+these bases.
+
+313
+00:19:10,460 --> 00:19:12,920
+There are purines.
+
+314
+00:19:12,920 --> 00:19:15,900
+The A and G are purines,
+and their ring
+
+315
+00:19:15,900 --> 00:19:18,750
+structure looks like this.
+
+316
+00:19:18,750 --> 00:19:24,590
+This is six-membered ring and
+there's a five-membered ring.
+
+317
+00:19:24,590 --> 00:19:31,870
+There are pyrimidines, T and
+C, and they just have a
+
+318
+00:19:31,870 --> 00:19:33,120
+six-membered ring.
+
+319
+00:19:39,600 --> 00:19:42,890
+They've got carbons, and
+oxygens, and nitrogens, and
+
+320
+00:19:42,890 --> 00:19:46,510
+hydrogens, and they
+don't differ
+
+321
+00:19:46,510 --> 00:19:48,630
+really in their charges.
+
+322
+00:19:48,630 --> 00:19:51,670
+By compared to the amino acids,
+positive charges,
+
+323
+00:19:51,670 --> 00:19:53,820
+negative charges, hydrophobic
+groups,
+
+324
+00:19:53,820 --> 00:19:55,660
+sulfurs that are reactive.
+
+325
+00:19:55,660 --> 00:19:57,230
+Amino acids, that's
+impressive.
+
+326
+00:19:57,230 --> 00:20:00,030
+Those 20 different side chains
+have wildly different chemical
+
+327
+00:20:00,030 --> 00:20:00,820
+properties.
+
+328
+00:20:00,820 --> 00:20:04,510
+These form measly bases, have
+essentially, the same chemical
+
+329
+00:20:04,510 --> 00:20:05,300
+properties.
+
+330
+00:20:05,300 --> 00:20:07,240
+There's nothing very different
+about their chemical
+
+331
+00:20:07,240 --> 00:20:10,410
+properties and therefore, all
+smart right-thinking people
+
+332
+00:20:10,410 --> 00:20:12,220
+recognize the DNA
+could not be a
+
+333
+00:20:12,220 --> 00:20:14,800
+particularly interesting molecule.
+
+334
+00:20:14,800 --> 00:20:17,020
+It had to be largely
+a structural
+
+335
+00:20:17,020 --> 00:20:18,850
+molecule of some sort.
+
+336
+00:20:18,850 --> 00:20:23,400
+So when Avery, McCarty, and
+MacLeod tell us ah, the
+
+337
+00:20:23,400 --> 00:20:26,695
+transforming principle of
+DNA, nobody's impressed.
+
+338
+00:20:31,020 --> 00:20:33,500
+But of course, it's
+World War II.
+
+339
+00:20:33,500 --> 00:20:35,020
+People are busy.
+
+340
+00:20:35,020 --> 00:20:36,670
+Lot of things going on.
+
+341
+00:20:36,670 --> 00:20:41,810
+And not that long afterwards,
+not that long afterwards,
+
+342
+00:20:41,810 --> 00:20:44,400
+another really important
+experiment gets done in the
+
+343
+00:20:44,400 --> 00:20:56,515
+early 1950s, the Hershey-Chase
+experiment.
+
+344
+00:21:03,560 --> 00:21:05,260
+Hershey is not the candy bar.
+
+345
+00:21:05,260 --> 00:21:09,500
+It is Alfred Hershey
+and Martha Chase.
+
+346
+00:21:09,500 --> 00:21:14,680
+Martha Chase and Alfred Hershey
+do a cool experiment.
+
+347
+00:21:14,680 --> 00:21:19,780
+People were studying something
+else at the time.
+
+348
+00:21:19,780 --> 00:21:26,060
+They were studying the viruses
+that infect bacteria,
+
+349
+00:21:26,060 --> 00:21:28,470
+bacterial viruses.
+
+350
+00:21:28,470 --> 00:21:35,670
+So it turns out just like you
+may get a viral infection, E.
+
+351
+00:21:35,670 --> 00:21:38,540
+coli gets viral infections
+too.
+
+352
+00:21:38,540 --> 00:21:41,440
+It usually dies of them or at
+least often dies of viral
+
+353
+00:21:41,440 --> 00:21:43,830
+infection, not necessarily
+usually, I take that back,
+
+354
+00:21:43,830 --> 00:21:47,300
+sometimes dies of viral
+infections.
+
+355
+00:21:47,300 --> 00:21:54,120
+So that is a virus, actually,
+greatly magnified, glommed on
+
+356
+00:21:54,120 --> 00:21:57,710
+to E. coli, virus E. coli.
+
+357
+00:22:00,310 --> 00:22:06,560
+What happens is, if you mix
+the virus with E. coli, it
+
+358
+00:22:06,560 --> 00:22:10,850
+gloms on, and then if you wait
+a little while giving it a
+
+359
+00:22:10,850 --> 00:22:14,880
+happy medium to grow in, the E.
+coli some time later, half
+
+360
+00:22:14,880 --> 00:22:20,760
+an hour later maybe, bursts
+open, dead, and spews out
+
+361
+00:22:20,760 --> 00:22:24,140
+zillions of viral particles
+which could go on
+
+362
+00:22:24,140 --> 00:22:26,080
+to infect new cells.
+
+363
+00:22:26,080 --> 00:22:28,180
+How does it do that?
+
+364
+00:22:28,180 --> 00:22:32,470
+How does it instruct E. coli
+to make viral particles?
+
+365
+00:22:32,470 --> 00:22:34,070
+It must be bringing
+information.
+
+366
+00:22:34,070 --> 00:22:36,080
+It's having progeny.
+
+367
+00:22:36,080 --> 00:22:39,100
+It is passing on heredity too.
+
+368
+00:22:39,100 --> 00:22:41,940
+It has some transforming
+information.
+
+369
+00:22:41,940 --> 00:22:47,310
+Where is the transforming
+principle in the little virus?
+
+370
+00:22:47,310 --> 00:22:50,560
+It gloms on to the cell somehow
+gives something into
+
+371
+00:22:50,560 --> 00:22:56,210
+the cell, and poof, 20 minutes
+later, half an hour later,
+
+372
+00:22:56,210 --> 00:22:58,060
+lots of viruses.
+
+373
+00:22:58,060 --> 00:22:59,360
+Where's the information
+carried?
+
+374
+00:22:59,360 --> 00:23:02,030
+Now, this was a much
+simpler system.
+
+375
+00:23:02,030 --> 00:23:05,780
+This system, you're asking
+what's in the bacterial virus.
+
+376
+00:23:05,780 --> 00:23:08,170
+There's not a lot in
+a bacterial virus.
+
+377
+00:23:08,170 --> 00:23:10,750
+It's not like a cell that
+have zillions of things.
+
+378
+00:23:10,750 --> 00:23:14,110
+The bacterial virus is a
+pretty simple particle.
+
+379
+00:23:14,110 --> 00:23:32,890
+The bacteria virus consists of
+protein coat, proteins are on
+
+380
+00:23:32,890 --> 00:23:38,305
+the outside, DNA
+on the inside.
+
+381
+00:23:41,370 --> 00:23:42,490
+That's it.
+
+382
+00:23:42,490 --> 00:23:44,070
+You don't have a lot to work
+with, a limited number of
+
+383
+00:23:44,070 --> 00:23:47,390
+proteins, DNA in the middle.
+
+384
+00:23:47,390 --> 00:23:50,890
+These things just as an aside
+were thought to kind of like
+
+385
+00:23:50,890 --> 00:23:53,030
+eat bacteria.
+
+386
+00:23:53,030 --> 00:23:56,040
+Because they were thought to
+eat bacteria in a way by at
+
+387
+00:23:56,040 --> 00:24:00,470
+least the early things, they're
+called bacteriophage,
+
+388
+00:24:00,470 --> 00:24:01,720
+bacteriophage.
+
+389
+00:24:04,370 --> 00:24:06,390
+The word phage means to eat.
+
+390
+00:24:06,390 --> 00:24:11,690
+So you may hear me talking about
+bacteriophage, meaning
+
+391
+00:24:11,690 --> 00:24:13,520
+eaters of bacteria.
+
+392
+00:24:13,520 --> 00:24:16,620
+Indeed, actually there was some
+nutty ideas in the 1920s
+
+393
+00:24:16,620 --> 00:24:19,860
+and 1930s when bacteriophage
+were first discovered that the
+
+394
+00:24:19,860 --> 00:24:22,710
+way to cure a bacterial
+infection was to drink a lot
+
+395
+00:24:22,710 --> 00:24:23,960
+of bacteriophage.
+
+396
+00:24:25,920 --> 00:24:27,660
+They would kill the bacteria.
+
+397
+00:24:27,660 --> 00:24:28,190
+It's a thought.
+
+398
+00:24:28,190 --> 00:24:29,570
+People actually tried
+these things.
+
+399
+00:24:29,570 --> 00:24:33,830
+Anyway, it turns out not
+to be such a good idea.
+
+400
+00:24:33,830 --> 00:24:38,970
+So Hershey and Chase decided
+we're going to figure out
+
+401
+00:24:38,970 --> 00:24:39,690
+which is it?
+
+402
+00:24:39,690 --> 00:24:44,650
+Is it the DNA or is
+it the protein?
+
+403
+00:24:48,010 --> 00:24:50,560
+How do you find out?
+
+404
+00:24:50,560 --> 00:24:50,820
+Yeah?
+
+405
+00:24:50,820 --> 00:24:52,580
+AUDIENCE: [INAUDIBLE].
+
+406
+00:24:52,580 --> 00:24:55,480
+PROFESSOR: Put in only protein,
+and see what happens.
+
+407
+00:24:55,480 --> 00:25:00,930
+So take the bacteriophage,
+purify it from
+
+408
+00:25:00,930 --> 00:25:03,500
+protein verses DNA.
+
+409
+00:25:03,500 --> 00:25:08,730
+I've got a pure component of the
+protein, I sprinkle it on,
+
+410
+00:25:08,730 --> 00:25:10,800
+nothing happens.
+
+411
+00:25:10,800 --> 00:25:17,080
+I take the DNA, I sprinkle
+it on, nothing happens.
+
+412
+00:25:17,080 --> 00:25:18,920
+Neither works.
+
+413
+00:25:18,920 --> 00:25:20,170
+Why is that?
+
+414
+00:25:22,278 --> 00:25:25,659
+AUDIENCE: [INAUDIBLE].
+
+415
+00:25:25,659 --> 00:25:29,370
+PROFESSOR: The shape, those
+little feet in the shape were
+
+416
+00:25:29,370 --> 00:25:32,060
+critical for the
+pathogenicity.
+
+417
+00:25:32,060 --> 00:25:35,840
+So when we grind up the virus,
+it doesn't work anymore.
+
+418
+00:25:35,840 --> 00:25:36,800
+It's a great idea.
+
+419
+00:25:36,800 --> 00:25:39,740
+If it worked, bingo, we'd have
+it, and that should be the
+
+420
+00:25:39,740 --> 00:25:42,400
+first experiment we do
+because it's so easy.
+
+421
+00:25:42,400 --> 00:25:44,430
+But it turned out not to work.
+
+422
+00:25:44,430 --> 00:25:44,830
+Yes?
+
+423
+00:25:44,830 --> 00:25:47,315
+AUDIENCE: [INAUDIBLE].
+
+424
+00:25:47,315 --> 00:25:50,680
+PROFESSOR: Put a chemical marker
+on the protein, put a
+
+425
+00:25:50,680 --> 00:25:53,490
+chemical marker on the DNA,
+and see which one
+
+426
+00:25:53,490 --> 00:25:57,000
+goes into the cell.
+
+427
+00:25:57,000 --> 00:25:58,250
+What chemical marker?
+
+428
+00:26:00,700 --> 00:26:05,370
+How are we going to attach a
+chemical marker to the protein
+
+429
+00:26:05,370 --> 00:26:06,330
+without messing it up?
+
+430
+00:26:06,330 --> 00:26:07,580
+We can't mess up the
+protein, right?
+
+431
+00:26:07,580 --> 00:26:08,660
+It still got to function.
+
+432
+00:26:08,660 --> 00:26:10,520
+How do we get a chemical
+marker on it?
+
+433
+00:26:10,520 --> 00:26:12,176
+AUDIENCE: [INAUDIBLE].
+
+434
+00:26:12,176 --> 00:26:12,845
+PROFESSOR: Sorry?
+
+435
+00:26:12,845 --> 00:26:14,095
+AUDIENCE: [INAUDIBLE].
+
+436
+00:26:17,348 --> 00:26:19,150
+PROFESSOR: So what chemical
+do you want me to put in?
+
+437
+00:26:22,690 --> 00:26:25,910
+Well, how am I going to tell
+whether, DNA's got phosphorus.
+
+438
+00:26:25,910 --> 00:26:28,654
+How am I going to follow
+the phosphorus?
+
+439
+00:26:28,654 --> 00:26:30,030
+AUDIENCE: Radioactive tag.
+
+440
+00:26:30,030 --> 00:26:32,330
+PROFESSOR: Radioactive tag.
+
+441
+00:26:32,330 --> 00:26:33,250
+Bingo.
+
+442
+00:26:33,250 --> 00:26:37,650
+What if I used radioactive
+tags, and I made a
+
+443
+00:26:37,650 --> 00:26:40,980
+radioactively-labeled virus.
+
+444
+00:26:40,980 --> 00:26:43,720
+How can I radioactively
+label the DNA?
+
+445
+00:26:43,720 --> 00:26:46,100
+AUDIENCE: [INAUDIBLE].
+
+446
+00:26:46,100 --> 00:26:46,850
+PROFESSOR: Sorry?
+
+447
+00:26:46,850 --> 00:26:48,586
+AUDIENCE: [INAUDIBLE]
+
+448
+00:26:48,586 --> 00:26:51,260
+PROFESSOR: A radioactive base.
+
+449
+00:26:51,260 --> 00:26:52,330
+I could do that.
+
+450
+00:26:52,330 --> 00:26:53,960
+What else could I do?
+
+451
+00:26:53,960 --> 00:26:54,360
+Yup?
+
+452
+00:26:54,360 --> 00:26:55,080
+AUDIENCE: Phosphorus.
+
+453
+00:26:55,080 --> 00:26:55,930
+PROFESSOR: Phosphorus.
+
+454
+00:26:55,930 --> 00:26:58,470
+Phosphorus has the nice property
+that phosphorus is in
+
+455
+00:26:58,470 --> 00:27:00,750
+my DNA, but it's not
+an proteins.
+
+456
+00:27:00,750 --> 00:27:01,630
+So what do I use?
+
+457
+00:27:01,630 --> 00:27:04,110
+Phosphorus-32, P-32.
+
+458
+00:27:04,110 --> 00:27:07,820
+So I use P-32, and how do I
+manage to chemically create a
+
+459
+00:27:07,820 --> 00:27:10,040
+virus that has P-32 in it?
+
+460
+00:27:10,040 --> 00:27:11,330
+AUDIENCE: [INAUDIBLE].
+
+461
+00:27:11,330 --> 00:27:14,060
+PROFESSOR: Just throw it in the
+solution with P-32, and
+
+462
+00:27:14,060 --> 00:27:16,410
+the virus will take care
+that itself, right?
+
+463
+00:27:16,410 --> 00:27:21,610
+So simply grow virus for a while
+in the presence of P-32.
+
+464
+00:27:21,610 --> 00:27:23,730
+Let's do that.
+
+465
+00:27:23,730 --> 00:27:29,290
+So grow virus in a test
+tube with bacteria.
+
+466
+00:27:29,290 --> 00:27:30,740
+Here's my bacteria.
+
+467
+00:27:30,740 --> 00:27:35,220
+Here's my virus I've put in
+there, and let me put in P-32,
+
+468
+00:27:35,220 --> 00:27:41,640
+and what I'll get is
+P-32-labeled labeled virus.
+
+469
+00:27:41,640 --> 00:27:42,890
+How do I label my protein?
+
+470
+00:27:48,440 --> 00:27:49,880
+Someone said it already.
+
+471
+00:27:49,880 --> 00:27:51,650
+What elements can we
+find that's in
+
+472
+00:27:51,650 --> 00:27:53,462
+proteins but not in DNA?
+
+473
+00:27:53,462 --> 00:27:54,938
+AUDIENCE: [INAUDIBLE]
+
+474
+00:27:54,938 --> 00:27:55,705
+PROFESSOR: Sorry?
+
+475
+00:27:55,705 --> 00:27:56,385
+AUDIENCE: Sulfur.
+
+476
+00:27:56,385 --> 00:27:57,870
+PROFESSOR: Sulfur.
+
+477
+00:27:57,870 --> 00:28:00,380
+Sulfur.
+
+478
+00:28:00,380 --> 00:28:05,370
+S-35 is a radioactive isotope of
+sulfur, and if I grow it, I
+
+479
+00:28:05,370 --> 00:28:10,870
+can S-35 label the proteins
+in my virus.
+
+480
+00:28:16,420 --> 00:28:17,920
+Nice.
+
+481
+00:28:17,920 --> 00:28:20,420
+This radioactive labeling
+trick is very cool.
+
+482
+00:28:20,420 --> 00:28:25,340
+So I take it, I take some
+P-32-labeled virus where these
+
+483
+00:28:25,340 --> 00:28:26,910
+P-32 was only in the DNA.
+
+484
+00:28:26,910 --> 00:28:30,110
+I got some S-35-labeled
+label virus where the
+
+485
+00:28:30,110 --> 00:28:31,890
+S-35 is in the protein.
+
+486
+00:28:31,890 --> 00:28:38,160
+I could mix them together, now
+do my experiment, wait 20
+
+487
+00:28:38,160 --> 00:28:43,220
+minutes and, or even wait last
+10, 15 minutes, and see which
+
+488
+00:28:43,220 --> 00:28:47,070
+element has gone
+into the cell.
+
+489
+00:28:47,070 --> 00:28:48,320
+How do I do that?
+
+490
+00:28:50,510 --> 00:28:55,620
+See I've got my cells here,
+and I've got the viruses
+
+491
+00:28:55,620 --> 00:28:59,350
+attached to them, and they've
+injected something in here.
+
+492
+00:28:59,350 --> 00:29:02,010
+They've either injected
+a protein or
+
+493
+00:29:02,010 --> 00:29:05,560
+they've injected DNA.
+
+494
+00:29:05,560 --> 00:29:07,940
+What was injected?
+
+495
+00:29:07,940 --> 00:29:12,290
+I need to carefully go in there
+and remove the virus and
+
+496
+00:29:12,290 --> 00:29:13,640
+look at just what's
+in the cell.
+
+497
+00:29:13,640 --> 00:29:16,880
+I have to now separate the virus
+glommed onto the outside
+
+498
+00:29:16,880 --> 00:29:19,580
+of the cell from the cell.
+
+499
+00:29:19,580 --> 00:29:22,070
+So do I use micro manipulator
+tweezers to
+
+500
+00:29:22,070 --> 00:29:23,522
+pull off the virus?
+
+501
+00:29:23,522 --> 00:29:25,250
+AUDIENCE: [INAUDIBLE].
+
+502
+00:29:25,250 --> 00:29:26,930
+PROFESSOR: Well, if I
+denature, I might
+
+503
+00:29:26,930 --> 00:29:29,600
+crack open the cell.
+
+504
+00:29:29,600 --> 00:29:30,110
+Centrifuge it.
+
+505
+00:29:30,110 --> 00:29:34,080
+If I centrifuge it, the whole
+thing will spin down.
+
+506
+00:29:34,080 --> 00:29:38,040
+I need to kind of knock the
+viruses off the cell,
+
+507
+00:29:38,040 --> 00:29:38,550
+physically.
+
+508
+00:29:38,550 --> 00:29:41,520
+I just got to agitate it so
+I get them off the cell.
+
+509
+00:29:41,520 --> 00:29:46,450
+With enough kind of hydrodynamic
+agitation, the
+
+510
+00:29:46,450 --> 00:29:48,980
+viruses fall off.
+
+511
+00:29:48,980 --> 00:29:54,310
+So a device was created that
+was able to just perfectly
+
+512
+00:29:54,310 --> 00:29:58,140
+knock the viruses off.
+
+513
+00:29:58,140 --> 00:30:02,240
+It's referred to as the Waring
+kitchen blender.
+
+514
+00:30:02,240 --> 00:30:05,620
+It turns on your kitchen blender
+is perfect for this.
+
+515
+00:30:05,620 --> 00:30:08,780
+Take the viruses, add it to the
+bacteria, sit for a little
+
+516
+00:30:08,780 --> 00:30:12,470
+bit, put it in your kitchen
+blender, press puree.
+
+517
+00:30:12,470 --> 00:30:17,240
+And let's say on puree setting,
+the viruses fall off,
+
+518
+00:30:17,240 --> 00:30:20,770
+and now you can spin it in a
+centrifuge, the bacteria are
+
+519
+00:30:20,770 --> 00:30:22,370
+denser, they come down.
+
+520
+00:30:22,370 --> 00:30:25,600
+The viruses are lighter, they
+stay in the supernatant, and
+
+521
+00:30:25,600 --> 00:30:29,760
+you can take the supernatant and
+the pellet at the bottom
+
+522
+00:30:29,760 --> 00:30:32,920
+over your radioactivity counter
+and see which one is
+
+523
+00:30:32,920 --> 00:30:34,220
+in the bacteria.
+
+524
+00:30:34,220 --> 00:30:36,600
+These were referred to as the
+famous Waring blender
+
+525
+00:30:36,600 --> 00:30:37,330
+experiments.
+
+526
+00:30:37,330 --> 00:30:39,310
+They really are, actually.
+
+527
+00:30:39,310 --> 00:30:44,320
+So you put this in the Waring
+blender, you knock off the
+
+528
+00:30:44,320 --> 00:30:54,710
+viruses, you spin it down, and
+what happens is after you've
+
+529
+00:30:54,710 --> 00:30:58,150
+done it, there's a pellet here
+of the bacteria that are spun
+
+530
+00:30:58,150 --> 00:31:00,200
+down in the centrifuge.
+
+531
+00:31:00,200 --> 00:31:03,440
+The virus particles
+are still up here.
+
+532
+00:31:03,440 --> 00:31:07,880
+We take this pellet over to our
+counter, and which element
+
+533
+00:31:07,880 --> 00:31:12,165
+do we find in great abundance,
+S-35 or P-32?
+
+534
+00:31:12,165 --> 00:31:12,975
+AUDIENCE: P-32.
+
+535
+00:31:12,975 --> 00:31:17,740
+PROFESSOR: P-32.
+
+536
+00:31:17,740 --> 00:31:19,940
+The DNA is what's going in.
+
+537
+00:31:19,940 --> 00:31:21,500
+Bingo.
+
+538
+00:31:21,500 --> 00:31:24,510
+Nice experiment.
+
+539
+00:31:24,510 --> 00:31:27,190
+Now if you were churlish,
+couldn't you say, yeah, look
+
+540
+00:31:27,190 --> 00:31:29,600
+it's mostly the DNA, but there's
+a little smidgen of
+
+541
+00:31:29,600 --> 00:31:31,480
+protein maybe, that
+came along too.
+
+542
+00:31:31,480 --> 00:31:35,770
+Do you think they found
+absolutely zero S-35 in there?
+
+543
+00:31:35,770 --> 00:31:37,910
+No, because they don't perfectly
+knock the virus off.
+
+544
+00:31:37,910 --> 00:31:39,160
+Some of it kind of sticks.
+
+545
+00:31:39,160 --> 00:31:41,180
+There's 1% S-35.
+
+546
+00:31:41,180 --> 00:31:43,770
+And if you're being really
+churlish about this you would
+
+547
+00:31:43,770 --> 00:31:45,490
+say I still don't believe you.
+
+548
+00:31:45,490 --> 00:31:47,400
+But now you have it from two
+different directions.
+
+549
+00:31:47,400 --> 00:31:50,600
+You have it from the
+pneumococcus, this bacteria
+
+550
+00:31:50,600 --> 00:31:52,940
+experiment from Avery, McCarty,
+and MacLeod Hershey
+
+551
+00:31:52,940 --> 00:31:54,930
+and Chase coming from two
+different systems.
+
+552
+00:31:54,930 --> 00:31:56,710
+They're giving you
+the same answer.
+
+553
+00:31:56,710 --> 00:31:57,620
+It's pretty clear.
+
+554
+00:31:57,620 --> 00:31:58,250
+It's in the air.
+
+555
+00:31:58,250 --> 00:32:00,810
+People know DNA is the stuff.
+
+556
+00:32:00,810 --> 00:32:02,280
+They're believing it now.
+
+557
+00:32:02,280 --> 00:32:05,580
+DNA is the stuff.
+
+558
+00:32:05,580 --> 00:32:07,460
+But how does it work?
+
+559
+00:32:07,460 --> 00:32:10,840
+How can this dumb molecule
+possibly be the
+
+560
+00:32:10,840 --> 00:32:13,050
+transforming principle?
+
+561
+00:32:13,050 --> 00:32:16,130
+Well, smart, young people
+want to know.
+
+562
+00:32:18,750 --> 00:32:29,200
+So an erstwhile ornithologist,
+that is a college kid from the
+
+563
+00:32:29,200 --> 00:32:33,220
+University of Indiana who
+particularly liked bird
+
+564
+00:32:33,220 --> 00:32:37,490
+watching got very enamored by
+this problem, actually based
+
+565
+00:32:37,490 --> 00:32:40,390
+on some fabulous faculty at
+the University of Indiana.
+
+566
+00:32:40,390 --> 00:32:44,150
+He got really intrigued by how
+could DNA possibly do this.
+
+567
+00:32:44,150 --> 00:32:47,600
+But he recognized he didn't
+know any chemistry.
+
+568
+00:32:47,600 --> 00:32:53,010
+He decided to go to Cambridge,
+England to the Medical
+
+569
+00:32:53,010 --> 00:32:56,440
+Research Council lab, the MRC
+lab in Cambridge, England
+
+570
+00:32:56,440 --> 00:32:59,190
+where he teamed up with someone
+who did a lot of
+
+571
+00:32:59,190 --> 00:33:02,350
+talking and very few
+experiments.
+
+572
+00:33:02,350 --> 00:33:05,820
+A physicist who had worked for
+the British admiralty during
+
+573
+00:33:05,820 --> 00:33:09,330
+World War II on classified
+things and had somehow gotten
+
+574
+00:33:09,330 --> 00:33:12,440
+interested in biology.
+
+575
+00:33:12,440 --> 00:33:15,110
+And because he had this kid,
+this recently graduated
+
+576
+00:33:15,110 --> 00:33:19,310
+college kid, and you had this
+35-year-old physicist who
+
+577
+00:33:19,310 --> 00:33:22,840
+nobody was quite sure what to
+make of, they kind of hung out
+
+578
+00:33:22,840 --> 00:33:24,760
+with each other in
+the same office.
+
+579
+00:33:24,760 --> 00:33:27,960
+And they didn't really do many
+experiments, but boy did they
+
+580
+00:33:27,960 --> 00:33:31,400
+do a lot of talking, and
+thinking, and looking at all
+
+581
+00:33:31,400 --> 00:33:33,870
+the data that were out there.
+
+582
+00:33:33,870 --> 00:33:37,510
+And that's pretty much what
+James Watson and Francis Crick
+
+583
+00:33:37,510 --> 00:33:38,610
+were doing.
+
+584
+00:33:38,610 --> 00:33:41,430
+They knew this problem
+was important.
+
+585
+00:33:41,430 --> 00:33:44,330
+And Jim and Francis would talk
+every day about this stuff,
+
+586
+00:33:44,330 --> 00:33:47,050
+and they will talk to people
+down the hall who really knew
+
+587
+00:33:47,050 --> 00:33:49,290
+about the chemistry
+of nucleic acids.
+
+588
+00:33:49,290 --> 00:33:55,230
+And they went down to London to
+Maurice Wilkins' lab where
+
+589
+00:33:55,230 --> 00:33:57,660
+crystals were being
+made of DNA.
+
+590
+00:33:57,660 --> 00:34:01,810
+And Rosalind Franklin, who was
+a fantastic scientist and had
+
+591
+00:34:01,810 --> 00:34:05,930
+managed to make crystals of DNA,
+showed Crick and Watson
+
+592
+00:34:05,930 --> 00:34:09,460
+her crystals of DNA.
+
+593
+00:34:09,460 --> 00:34:11,670
+Francis Crick being a physicist
+was very good at
+
+594
+00:34:11,670 --> 00:34:15,500
+understanding crystallography
+and how crystal structures and
+
+595
+00:34:15,500 --> 00:34:17,949
+x-ray diffraction patterns
+related to each other.
+
+596
+00:34:17,949 --> 00:34:22,550
+And Francis knew immediately
+this thing had to be a helix.
+
+597
+00:34:22,550 --> 00:34:23,839
+He could tell it was a helix.
+
+598
+00:34:26,380 --> 00:34:29,969
+And they went back, and based
+on Rosalind Franklin's x-ray
+
+599
+00:34:29,969 --> 00:34:35,300
+diffraction patterns, went and
+made a model, a model for the
+
+600
+00:34:35,300 --> 00:34:37,360
+structure of DNA.
+
+601
+00:34:37,360 --> 00:34:39,330
+You all know the model.
+
+602
+00:34:39,330 --> 00:34:41,389
+You've seen the double
+helix forever.
+
+603
+00:34:41,389 --> 00:34:45,290
+It's a cultural icon, but that's
+how this came about.
+
+604
+00:34:45,290 --> 00:34:57,530
+And The Double Helix, the
+Structure of DNA, April of
+
+605
+00:34:57,530 --> 00:35:01,330
+1953 is published.
+
+606
+00:35:01,330 --> 00:35:13,090
+The double helix has two
+strands running an
+
+607
+00:35:13,090 --> 00:35:19,730
+anti-parallel directions, 5
+prime to 3 prime, 5 prime to 3
+
+608
+00:35:19,730 --> 00:35:25,950
+prime anti-parallel directions,
+and it has a
+
+609
+00:35:25,950 --> 00:35:32,240
+perfect base pairing between
+purines and pyrimidines.
+
+610
+00:35:32,240 --> 00:35:34,350
+If you have a T, and
+I'm just going to
+
+611
+00:35:34,350 --> 00:35:37,050
+draw this very quickly.
+
+612
+00:35:37,050 --> 00:35:39,620
+You can look in your book for
+getting it just right.
+
+613
+00:35:39,620 --> 00:35:44,990
+You have two hydrogen bonds.
+
+614
+00:35:57,340 --> 00:36:11,590
+That's T and A, and if you
+have a C, you have three
+
+615
+00:36:11,590 --> 00:36:25,075
+hydrogen bonds that perfectly
+hold it to the G, et cetera.
+
+616
+00:36:27,630 --> 00:36:32,520
+So notice C and G fit perfectly
+together to make
+
+617
+00:36:32,520 --> 00:36:34,140
+three hydrogen bonds.
+
+618
+00:36:34,140 --> 00:36:38,620
+A and T fit perfectly together
+to make two hydrogen bonds,
+
+619
+00:36:38,620 --> 00:36:40,500
+and that was the key was to
+recognize that when you stick
+
+620
+00:36:40,500 --> 00:36:43,140
+them together in that way, you
+get exactly the same width.
+
+621
+00:36:43,140 --> 00:36:44,510
+They fit perfectly.
+
+622
+00:36:44,510 --> 00:36:49,900
+You couldn't match an A with a
+G, an A with a C, you could
+
+623
+00:36:49,900 --> 00:36:54,700
+only match the A with
+a T. That was it.
+
+624
+00:36:54,700 --> 00:36:55,190
+Brilliant.
+
+625
+00:36:55,190 --> 00:36:55,640
+Beautiful.
+
+626
+00:36:55,640 --> 00:36:59,200
+Now, you guys should read
+Crick's book The Double Helix
+
+627
+00:36:59,200 --> 00:37:01,610
+in which he tells the stories
+because it's just a
+
+628
+00:37:01,610 --> 00:37:03,770
+fascinating, fascinating
+business.
+
+629
+00:37:03,770 --> 00:37:06,900
+He'll tell, or others will
+tell actually, the story.
+
+630
+00:37:06,900 --> 00:37:08,770
+So you know what this
+means by the way?
+
+631
+00:37:08,770 --> 00:37:11,350
+This means that the amount of
+A should equal the amount of
+
+632
+00:37:11,350 --> 00:37:14,470
+T. And the amount of G should
+equal the amount of C.
+
+633
+00:37:14,470 --> 00:37:19,575
+There should be a ratio, a
+one-to-one ratio that the A to
+
+634
+00:37:19,575 --> 00:37:23,230
+T ratio should be one to one.
+
+635
+00:37:23,230 --> 00:37:26,520
+And the G to C ratio should
+be one to one.
+
+636
+00:37:26,520 --> 00:37:30,340
+Although any organism might have
+more As than Ts and Gs
+
+637
+00:37:30,340 --> 00:37:33,420
+than Cs, the ratio of these guys
+should be one and these
+
+638
+00:37:33,420 --> 00:37:35,020
+guys should be one.
+
+639
+00:37:35,020 --> 00:37:37,700
+This actually was discovered
+by a chemist at Columbia
+
+640
+00:37:37,700 --> 00:37:38,950
+called Chargaff.
+
+641
+00:37:41,640 --> 00:37:44,380
+These were called Chargaff's
+rules.
+
+642
+00:37:44,380 --> 00:37:47,250
+Chargaff was a very
+distinguished chemist who came
+
+643
+00:37:47,250 --> 00:37:50,036
+up with Chargaff's rules with
+the As equals the Ts, and the
+
+644
+00:37:50,036 --> 00:37:51,720
+Gs equals the Cs, and
+he didn't know
+
+645
+00:37:51,720 --> 00:37:53,760
+what to make of it.
+
+646
+00:37:53,760 --> 00:37:57,920
+By the way, Chargaff actually
+visited Cambridge, England
+
+647
+00:37:57,920 --> 00:38:00,700
+while Crick and Watson were
+there before their discovery,
+
+648
+00:38:00,700 --> 00:38:02,630
+and he had lunch with them.
+
+649
+00:38:02,630 --> 00:38:05,920
+And he related that Crick and
+Watson seemed like Bozos to
+
+650
+00:38:05,920 --> 00:38:09,660
+him, because they couldn't even
+keep straight the exact
+
+651
+00:38:09,660 --> 00:38:11,610
+structure of the four bases.
+
+652
+00:38:11,610 --> 00:38:12,860
+They always had to keep
+looking it up.
+
+653
+00:38:12,860 --> 00:38:15,180
+They hadn't memorized the
+structures the four bases, and
+
+654
+00:38:15,180 --> 00:38:18,580
+Chargaff was such a brilliant
+chemist, he, of course, knew
+
+655
+00:38:18,580 --> 00:38:20,270
+this instantly, et cetera,
+et cetera.
+
+656
+00:38:20,270 --> 00:38:23,680
+And he said, these guys are
+never going to get anywhere
+
+657
+00:38:23,680 --> 00:38:25,705
+because they really don't even
+understand the structure of
+
+658
+00:38:25,705 --> 00:38:29,090
+the bases, haven't
+memorized it.
+
+659
+00:38:29,090 --> 00:38:31,020
+When Crick and Watson's
+discovery turned out to be the
+
+660
+00:38:31,020 --> 00:38:32,940
+single most important biological
+discovery of the
+
+661
+00:38:32,940 --> 00:38:37,770
+20th century, Erwin Chargaff who
+lived a very long life was
+
+662
+00:38:37,770 --> 00:38:41,340
+sort of bitter because he's kind
+of worked it out in a way
+
+663
+00:38:41,340 --> 00:38:44,680
+with the ratio and never figured
+out what it meant.
+
+664
+00:38:44,680 --> 00:38:46,835
+And he said one of the
+bitterest, cuttingest comments
+
+665
+00:38:46,835 --> 00:38:51,220
+I've have ever heard from a
+scientist which is referring
+
+666
+00:38:51,220 --> 00:38:53,850
+to Crick and Watson as still not
+being impressed even after
+
+667
+00:38:53,850 --> 00:38:55,120
+they won their Nobel
+Prize for this.
+
+668
+00:38:55,120 --> 00:39:00,940
+He said that two such pygmies
+should cast such giant shadows
+
+669
+00:39:00,940 --> 00:39:03,560
+only shows how late
+in the day it is.
+
+670
+00:39:06,490 --> 00:39:09,810
+Anyway, he was not happy to
+have missed this point.
+
+671
+00:39:09,810 --> 00:39:11,840
+Crick and Watson were
+very happy to have
+
+672
+00:39:11,840 --> 00:39:13,180
+figured this out.
+
+673
+00:39:13,180 --> 00:39:17,330
+They, when they figured this out
+in February of 1953, what
+
+674
+00:39:17,330 --> 00:39:18,710
+do you do in England when you
+make a big discovery?
+
+675
+00:39:18,710 --> 00:39:20,596
+AUDIENCE: You have tea.
+
+676
+00:39:20,596 --> 00:39:23,284
+PROFESSOR: No, you
+don't have tea.
+
+677
+00:39:23,284 --> 00:39:25,140
+You go to the pub.
+
+678
+00:39:25,140 --> 00:39:27,560
+They went to the pub.
+
+679
+00:39:27,560 --> 00:39:30,480
+They ran down to the Eagle Pub,
+they brought everybody
+
+680
+00:39:30,480 --> 00:39:32,780
+drinks, and they told everybody
+at the Eagle Pub,
+
+681
+00:39:32,780 --> 00:39:35,750
+we've discovered the
+secret of life.
+
+682
+00:39:35,750 --> 00:39:37,590
+The people at the Eagle Pub
+had no idea what they were
+
+683
+00:39:37,590 --> 00:39:40,980
+talking about, but were happy to
+have a round of drinks, and
+
+684
+00:39:40,980 --> 00:39:42,190
+there you go.
+
+685
+00:39:42,190 --> 00:39:45,660
+They immediately raced to
+write this up in Nature.
+
+686
+00:39:45,660 --> 00:39:49,290
+It appears in Nature in
+April of 1953, and
+
+687
+00:39:49,290 --> 00:39:50,670
+it's a one-page paper.
+
+688
+00:39:50,670 --> 00:39:52,360
+And get it on the
+web and read it.
+
+689
+00:39:52,360 --> 00:39:55,490
+It's the single best one page
+that has been written in
+
+690
+00:39:55,490 --> 00:39:58,130
+biology in the 20th century.
+
+691
+00:39:58,130 --> 00:39:59,515
+And of course, what
+did they say?
+
+692
+00:40:02,400 --> 00:40:05,590
+The title is kind of unassuming,
+"A Structure for
+
+693
+00:40:05,590 --> 00:40:09,360
+the Salt of Deoxyribonucleic
+Acid," nothing too exciting.
+
+694
+00:40:09,360 --> 00:40:11,460
+But Crick and Watson
+realized something.
+
+695
+00:40:11,460 --> 00:40:13,290
+What do they realize?
+
+696
+00:40:13,290 --> 00:40:18,440
+Crick and Watson realized
+why is this a big deal?
+
+697
+00:40:18,440 --> 00:40:21,320
+Why is this double helix
+so important?
+
+698
+00:40:21,320 --> 00:40:38,850
+Well, the implication of the
+double helix is that if I have
+
+699
+00:40:38,850 --> 00:40:47,680
+a double helix and those strands
+were to separate, each
+
+700
+00:40:47,680 --> 00:40:56,930
+would be a template for a
+double helix, heredity.
+
+701
+00:40:56,930 --> 00:41:00,660
+How do you pass information
+to two daughter cells?
+
+702
+00:41:00,660 --> 00:41:01,700
+You got a double helix.
+
+703
+00:41:01,700 --> 00:41:03,200
+It's redundant.
+
+704
+00:41:03,200 --> 00:41:04,830
+If you know the A is on
+one strand, you know
+
+705
+00:41:04,830 --> 00:41:07,230
+the Ts on the other.
+
+706
+00:41:07,230 --> 00:41:11,710
+Unzip it, copy, voila.
+
+707
+00:41:11,710 --> 00:41:14,020
+I now have two copies
+of heredity.
+
+708
+00:41:14,020 --> 00:41:15,270
+What's a mutation?
+
+709
+00:41:18,240 --> 00:41:21,310
+Occasionally get it wrong.
+
+710
+00:41:21,310 --> 00:41:21,910
+Bingo.
+
+711
+00:41:21,910 --> 00:41:22,770
+They saw it.
+
+712
+00:41:22,770 --> 00:41:24,020
+They knew.
+
+713
+00:41:26,612 --> 00:41:29,390
+Now, they didn't have
+time to prove this.
+
+714
+00:41:29,390 --> 00:41:30,960
+I mean, who has time
+to prove this.
+
+715
+00:41:30,960 --> 00:41:32,940
+This is such an exciting
+discovery secret of life.
+
+716
+00:41:32,940 --> 00:41:36,580
+Drinks for everybody, they write
+it up, but in the last
+
+717
+00:41:36,580 --> 00:41:39,520
+paragraph, they certainly don't
+want anybody to think
+
+718
+00:41:39,520 --> 00:41:41,110
+that they missed the point.
+
+719
+00:41:41,110 --> 00:41:45,160
+And they write the coyest
+sentence in molecular biology.
+
+720
+00:41:45,160 --> 00:41:50,250
+They write, "It has not escaped
+our notice that this
+
+721
+00:41:50,250 --> 00:41:52,480
+structure offers an
+explanation for
+
+722
+00:41:52,480 --> 00:41:54,580
+heredity and mutation.
+
+723
+00:41:54,580 --> 00:41:59,870
+We'll address this in another
+paper." Cute.
+
+724
+00:41:59,870 --> 00:42:01,130
+Very cute.
+
+725
+00:42:01,130 --> 00:42:04,290
+They put down their marker, they
+knew what it meant, but
+
+726
+00:42:04,290 --> 00:42:06,720
+they got the thing off to
+Nature very quickly.
+
+727
+00:42:06,720 --> 00:42:07,680
+It was a hot topic.
+
+728
+00:42:07,680 --> 00:42:08,950
+They were competing
+with other people.
+
+729
+00:42:08,950 --> 00:42:11,030
+You'll read about the
+competition with Linus Pauling
+
+730
+00:42:11,030 --> 00:42:12,550
+and other things like that.
+
+731
+00:42:12,550 --> 00:42:15,030
+It had not escaped their notice
+that this pretty much
+
+732
+00:42:15,030 --> 00:42:17,410
+explains heredity.
+
+733
+00:42:17,410 --> 00:42:18,860
+Now, of course, are
+you convinced
+
+734
+00:42:18,860 --> 00:42:20,330
+that it explains heredity?
+
+735
+00:42:20,330 --> 00:42:24,480
+It's a nice model, but don't
+we require proof?
+
+736
+00:42:24,480 --> 00:42:25,520
+We do require proof.
+
+737
+00:42:25,520 --> 00:42:27,800
+It's an ex post facto model, we
+need proof, It's a pretty
+
+738
+00:42:27,800 --> 00:42:31,230
+good ex post facto model,
+but we need proof.
+
+739
+00:42:31,230 --> 00:42:39,650
+So the last step, which I'll
+touch on very briefly, was
+
+740
+00:42:39,650 --> 00:42:46,530
+proof of what's called
+semi-conservative replication.
+
+741
+00:42:52,300 --> 00:42:56,720
+Meaning that each strand
+is used for the other.
+
+742
+00:42:56,720 --> 00:42:58,210
+And I might run two
+minutes over.
+
+743
+00:42:58,210 --> 00:42:58,640
+We'll see.
+
+744
+00:42:58,640 --> 00:43:00,310
+I'll try to keep
+it within time.
+
+745
+00:43:03,900 --> 00:43:08,290
+Out at Caltech, two graduate
+students, Frank Stahl and Matt
+
+746
+00:43:08,290 --> 00:43:11,020
+Meselson hear of this.
+
+747
+00:43:11,020 --> 00:43:12,890
+Matt Meselson by the
+way is still
+
+748
+00:43:12,890 --> 00:43:14,370
+working in Harvard Square.
+
+749
+00:43:14,370 --> 00:43:15,120
+He's at Harvard.
+
+750
+00:43:15,120 --> 00:43:16,520
+He's a wonderful guy.
+
+751
+00:43:16,520 --> 00:43:17,130
+Matt is there.
+
+752
+00:43:17,130 --> 00:43:19,410
+You could ask Matt about this,
+young graduate student at
+
+753
+00:43:19,410 --> 00:43:21,590
+Caltech in the early '50s.
+
+754
+00:43:21,590 --> 00:43:24,660
+Obviously, this model looks
+like it must be right.
+
+755
+00:43:24,660 --> 00:43:27,170
+How do you prove it?
+
+756
+00:43:27,170 --> 00:43:33,830
+Well, Matt and Frank, Meselson
+and Stahl came up with a cool
+
+757
+00:43:33,830 --> 00:43:35,690
+experiment to prove it.
+
+758
+00:43:35,690 --> 00:43:46,940
+Meselson and Stahl, they take
+bacteria, here's my DNA in
+
+759
+00:43:46,940 --> 00:44:01,320
+there, they want to show that
+each strand, each, when we
+
+760
+00:44:01,320 --> 00:44:06,170
+make a new generation of
+bacteria, the new DNA has one
+
+761
+00:44:06,170 --> 00:44:09,270
+old strand and one new strand.
+
+762
+00:44:09,270 --> 00:44:11,400
+That each old strand
+is being used as a
+
+763
+00:44:11,400 --> 00:44:13,200
+template for a new strand.
+
+764
+00:44:13,200 --> 00:44:16,240
+How are we going to tell?
+
+765
+00:44:16,240 --> 00:44:17,680
+We gotta label it somehow.
+
+766
+00:44:17,680 --> 00:44:20,875
+We got a label the old strand
+different than the new strand.
+
+767
+00:44:23,710 --> 00:44:25,880
+How do we possibly label and
+they're the same chemical
+
+768
+00:44:25,880 --> 00:44:26,930
+composition?
+
+769
+00:44:26,930 --> 00:44:28,115
+What are we going to do?
+
+770
+00:44:28,115 --> 00:44:28,985
+AUDIENCE: Radioactivity.
+
+771
+00:44:28,985 --> 00:44:33,600
+PROFESSOR: Radioactivity or
+some kind of isotope.
+
+772
+00:44:33,600 --> 00:44:35,950
+Well, they used an isotope.
+
+773
+00:44:35,950 --> 00:44:40,660
+What they did, super cool, they
+grew this up, but not in
+
+774
+00:44:40,660 --> 00:44:46,540
+normal nitrogen, but in N-15,
+not, by the way, radioactive,
+
+775
+00:44:46,540 --> 00:44:47,780
+but different weight.
+
+776
+00:44:47,780 --> 00:44:50,560
+They grew it up in N-15.
+
+777
+00:44:50,560 --> 00:44:54,000
+They added bacterias that had
+grown up, and all of their DNA
+
+778
+00:44:54,000 --> 00:44:58,240
+had lots of N-15 in it
+on both strands.
+
+779
+00:44:58,240 --> 00:45:03,760
+They then pour in a lot of
+medium that has N-14.
+
+780
+00:45:03,760 --> 00:45:06,650
+Tons, they swamp it with
+N-14 so what's this
+
+781
+00:45:06,650 --> 00:45:08,610
+strand going to be?
+
+782
+00:45:08,610 --> 00:45:12,520
+N-14.
+
+783
+00:45:12,520 --> 00:45:17,660
+So what can you tell me about
+the difference between this
+
+784
+00:45:17,660 --> 00:45:19,692
+DNA and that DNA?
+
+785
+00:45:19,692 --> 00:45:21,420
+AUDIENCE: One's going
+to be lighter.
+
+786
+00:45:21,420 --> 00:45:23,430
+PROFESSOR: One is going
+to be lighter.
+
+787
+00:45:23,430 --> 00:45:26,800
+How do you measure how
+much lighter it is?
+
+788
+00:45:26,800 --> 00:45:31,920
+They came up, they invented the
+technique for this purpose
+
+789
+00:45:31,920 --> 00:45:34,920
+of centrifuging in
+a salt gradient.
+
+790
+00:45:34,920 --> 00:45:39,860
+They put in the right amounts of
+salt, cesium salt, and they
+
+791
+00:45:39,860 --> 00:45:43,120
+centrifuge it so hard that
+there's a gradient of
+
+792
+00:45:43,120 --> 00:45:46,730
+densities, denser here,
+lighter here.
+
+793
+00:45:46,730 --> 00:45:54,570
+And they find that this DNA
+and this DNA centrifuge to
+
+794
+00:45:54,570 --> 00:45:56,900
+different places.
+
+795
+00:45:56,900 --> 00:45:59,300
+There's a difference
+in their density.
+
+796
+00:45:59,300 --> 00:46:05,300
+The new DNA is half old,
+N-15, half new, N-14.
+
+797
+00:46:05,300 --> 00:46:06,810
+It has the intermediate
+density.
+
+798
+00:46:06,810 --> 00:46:11,060
+If I grow another generation,
+I'm going to see some N-15
+
+799
+00:46:11,060 --> 00:46:15,240
+14s, and I'm also going
+to see some N-14, 14s.
+
+800
+00:46:15,240 --> 00:46:18,050
+And that's what they found.
+
+801
+00:46:18,050 --> 00:46:22,110
+They invented this technique
+it's isopycnic centrifugation
+
+802
+00:46:22,110 --> 00:46:27,790
+and Matt Meselson and Frank
+Stahl provided an experimental
+
+803
+00:46:27,790 --> 00:46:32,940
+prediction of the beautiful
+Crick-Watson model that was
+
+804
+00:46:32,940 --> 00:46:36,170
+fair to say the secret
+of life.
+
+805
+00:46:36,170 --> 00:46:39,200
+Anyway, these are
+the foundations.
+
+806
+00:46:39,200 --> 00:46:43,560
+Notice now, we've taken genetics
+and used it to do
+
+807
+00:46:43,560 --> 00:46:44,840
+biochemistry.
+
+808
+00:46:44,840 --> 00:46:47,500
+We've taken biochemistry
+and used it
+
+809
+00:46:47,500 --> 00:46:50,230
+to understand genetics.
+
+810
+00:46:50,230 --> 00:46:54,590
+And so finally, we are
+making the bridge
+
+811
+00:46:54,590 --> 00:46:56,580
+of molecular biology.
+
+812
+00:46:56,580 --> 00:46:57,830
+Next time.

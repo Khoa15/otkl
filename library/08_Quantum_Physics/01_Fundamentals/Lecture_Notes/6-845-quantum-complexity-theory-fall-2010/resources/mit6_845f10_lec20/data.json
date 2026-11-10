@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains information related to BQP/qpoly.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information related to BQP/qpoly. ",
+  "draft": false,
+  "file": "/courses/6-845-quantum-complexity-theory-fall-2010/f19ff984ae0f3e033714e5cf05400fd3_MIT6_845F10_lec20.pdf",
+  "file_size": 154571,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "0ae74169-1168-dcc5-4644-05254b3e4264",
+  "resourcetype": "Document",
+  "title": "MIT6_845F10_lec20.pdf",
+  "uid": "f19ff984-ae0f-3e03-3714-e5cf05400fd3"
+}

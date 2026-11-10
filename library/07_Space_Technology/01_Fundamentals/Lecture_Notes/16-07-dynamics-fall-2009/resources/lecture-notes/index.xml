@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inertial Instruments and Inertial Navigation</title>
+      <link>/resources/mit16_07f09_lec31/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec31/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on inertial instruments and inertial navigation, gimbals, gyros, inertial platforms, accelerometers, and aircraft and spacecraft system applications of inertial systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L1 – Introduction</title>
+      <link>/resources/mit16_07f09_lec01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec01/data.json</guid>
+      <description>&lt;p&gt;Lecture notes with an overview of the course and introduction to dynamics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L10 – Angular Impulse and Momentum for a Particle</title>
+      <link>/resources/mit16_07f09_lec10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec10/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the angular impulse and momentum for a particle.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L11 – Conservation Laws for Systems of Particles</title>
+      <link>/resources/mit16_07f09_lec11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec11/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on conservation laws for systems of particles, Newton&amp;rsquo;s second law, conservation of angular momentum, and two-dimensional rigid bodies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L12 – Work and Energy</title>
+      <link>/resources/mit16_07f09_lec12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec12/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on mechanical work, the principle of work and energy, external and internal forces, and power.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L13 – Conservative Internal Forces and Potential Energy</title>
+      <link>/resources/mit16_07f09_lec13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec13/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on conservative internal forces, conservation of energy, equilibrium and stability, and potential energy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L14 – Variable Mass Systems: The Rocket Equation</title>
+      <link>/resources/mit16_07f09_lec14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec14/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on variable mass systems and the rocket equation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L15 – Central Force Motion: Kepler&#39;s Laws</title>
+      <link>/resources/mit16_07f09_lec15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec15/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on central force motion, Kepler&amp;rsquo;s laws, Newton’s second law, equations of motion, and elliptical trajectories.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L16 – Central Force Motion: Orbits</title>
+      <link>/resources/mit16_07f09_lec16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec16/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on central force motion, orbits, conservation of energy, and trajectories.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L17 – Orbit Transfers and Interplanetary Trajectories</title>
+      <link>/resources/mit16_07f09_lec17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec17/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on orbit transfers and interplanetary trajectories.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L18 – Exploring the Neighborhood: the Restricted Three-Body Problem</title>
+      <link>/resources/mit16_07f09_lec18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec18/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the three-body problem, stability, and application of the Lagrange Points.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L19 – Vibration, Normal Modes, Natural Frequencies, Instability</title>
+      <link>/resources/mit16_07f09_lec19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec19/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on vibration, normal modes,natural frequencies, and instability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L2 – Degrees of Freedom and Constraints, Rectilinear Motion</title>
+      <link>/resources/mit16_07f09_lec02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec02/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on degrees of freedom, constraints, and rectilinear motion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L20 – Energy Methods: Lagrange’s Equations</title>
+      <link>/resources/mit16_07f09_lec20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec20/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on derivation of Lagrange&amp;rsquo;s equations in Cartesian coordinates, extension to general coordinate systems, simple pendulum by Lagrange&amp;rsquo;s equations, double pendulum by Lagrange&amp;rsquo;s equations, and derivation of Lagrange&amp;rsquo;s equation for general coordinate systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L21 – 2D Rigid Body Dynamics</title>
+      <link>/resources/mit16_07f09_lec21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec21/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on 2D rigid body dynamics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L22 – 2D Rigid Body Dynamics: Work and Energy</title>
+      <link>/resources/mit16_07f09_lec22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec22/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on 2D rigid body dynamics, work, and energy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L23 – 2D Rigid Body Dynamics: Impulse and Momentum</title>
+      <link>/resources/mit16_07f09_lec23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec23/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on two dimensional rigid body dynamics, impulse and momentum equations, and the center of percussion relative to an instantaneous center of motion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L24 – Pendulums</title>
+      <link>/resources/mit16_07f09_lec24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec24/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on simple pendulum and compound pendulums, the center of percussion, reversibility, the Kater pendulum, and the Schuler pendulum.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L25 – 3D Rigid Body Kinematics</title>
+      <link>/resources/mit16_07f09_lec25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec25/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on 3D rigid body kinematics, rotation about a fixed point, angular velocity about a fixed point, angular acceleration, instantaneous axis of rotation, and general motion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L26 – 3D Rigid Body Dynamics: The Inertia Tensor</title>
+      <link>/resources/mit16_07f09_lec26/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec26/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on 3D rigid body dynamics and the inertia tensor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L27 – 3D Rigid Body Dynamics: Kinetic Energy; Instability; Equations of Motion</title>
+      <link>/resources/mit16_07f09_lec27/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec27/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on 3D rigid body dynamics, kinetic energy for systems of particles, and governing equations for rotational motion of a three-dimensional body.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L28 – 3D Rigid Body Dynamics: Equations of Motion; Euler’s Equations</title>
+      <link>/resources/mit16_07f09_lec28/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec28/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on 3D rigid body dynamics, equations of motion, and Euler’s equations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L29 – 3D Rigid Body Dynamics</title>
+      <link>/resources/mit16_07f09_lec29/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec29/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on 3D rigid body dynamics, Euler angles, free motions of a rotating body, and extreme aircraft dynamics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L3 – Vectors, Matrices and Coordinate Transformations</title>
+      <link>/resources/mit16_07f09_lec03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec03/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on vectors, matrices, and coordinate transformations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L30 – 3D Rigid Body Dynamics: Tops and Gyroscopes</title>
+      <link>/resources/mit16_07f09_lec30/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec30/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on 3D rigid body dynamics, Euler&amp;rsquo;s equations, steady precession, gyroscopic motion, unsteady precession of a top, and integrals of motion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L4 – Curvilinear Motion. Cartesian Coordinates</title>
+      <link>/resources/mit16_07f09_lec04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec04/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on curvilinear motion and Cartesian coordinates.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L5 – Other Coordinate Systems</title>
+      <link>/resources/mit16_07f09_lec05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec05/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on polar coordinates in two dimensions and cylindrical and spherical coordinates in three dimensions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L6 – Intrinsic Coordinates</title>
+      <link>/resources/mit16_07f09_lec06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec06/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on intrinsic coordinate systems, tangential, normal and binormal components, and equations of motion in intrinsic coordinates.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L7 – Relative Motion using Translating Axes</title>
+      <link>/resources/mit16_07f09_lec07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec07/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on relative motion using translating axes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L8 – Relative Motion using Rotating Axes</title>
+      <link>/resources/mit16_07f09_lec08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec08/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on relative motion on rotating axes, Time derivative of a fixed vector in a rotating frame, Coriolis’ theorem, and Relationships between position, and velocity and acceleration vectors from rotating to non-rotating coordinate systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture L9 – Linear Impulse and Momentum. Collisions</title>
+      <link>/resources/mit16_07f09_lec09/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec09/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on the principle of linear impulse and momentum, and collisions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LEC #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LECTURE NOTES&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Introduction&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit16_07f09_lec01/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Degrees of freedom and constraints, rectilinear motion&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit16_07f09_lec02/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Vectors, matrices and coordinate transformations&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit16_07f09_lec03/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Curvilinear motion; Cartesian coordinates&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit16_07f09_lec04/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Other coordinate systems&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit16_07f09_lec05/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L6&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Intrinsic coordinates&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit16_07f09_lec06/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L7&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Relative motion using translating axes&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit16_07f09_lec07/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L8&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Relative motion using rotating axes&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit16_07f09_lec08/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;L9&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Linear impulse and momentum; collisions&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit16_07f09_lec09/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Some Dynamics and Control Challenges that occurred during the Apollo Project</title>
+      <link>/resources/mit16_07f09_lec32/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_07f09_lec32/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on dynamics and control challenges that occurred during the Apollo project.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

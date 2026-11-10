@@ -1,0 +1,27 @@
+{
+  "content": "<p>Thumbnail image accompanying a video lecture on eigenvalues, positive eigenvalues, positive pivots, and positive definite matrices.</p>\n",
+  "content_type": "resource",
+  "description": "Thumbnail image accompanying a video lecture on eigenvalues, positive eigenvalues, positive pivots, and positive definite matrices.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/5ba8d7716590b84ffdf254fca68df35d_6.jpg",
+  "file_size": 2877,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Lecture 6",
+  "uid": "5ba8d771-6590-b84f-fdf2-54fca68df35d",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

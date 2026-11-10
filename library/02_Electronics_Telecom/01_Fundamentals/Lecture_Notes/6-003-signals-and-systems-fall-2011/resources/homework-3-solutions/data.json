@@ -1,0 +1,47 @@
+{
+  "content": "<p>This file contains information regarding solutions of homework 3.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains information regarding solutions of homework 3.",
+  "draft": false,
+  "file": "/courses/6-003-signals-and-systems-fall-2011/1a4befbe23d4bac95a72abf391d5b30f_MIT6_003F11_sol03.pdf",
+  "file_size": 446604,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Set Solutions"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "0809880b-cf05-0bfb-f22d-ac450701563c",
+  "resourcetype": "Document",
+  "title": "Homework 3 Solutions",
+  "uid": "1a4befbe-23d4-bac9-5a72-abf391d5b30f",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-003-signals-and-systems-fall-2011"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-003-signals-and-systems-fall-2011"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

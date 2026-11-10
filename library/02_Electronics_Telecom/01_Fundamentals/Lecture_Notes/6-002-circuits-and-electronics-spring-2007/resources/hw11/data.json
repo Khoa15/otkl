@@ -1,0 +1,38 @@
+{
+  "content": "<p>This homework assignment focuses on the analysis and design of a system for playing back a digitally-stored audio signal.</p>\n",
+  "content_type": "resource",
+  "description": "This homework assignment focuses on the analysis and design of a system for playing back a digitally-stored audio signal.",
+  "draft": false,
+  "file": "/courses/6-002-circuits-and-electronics-spring-2007/4cc083a23637573e307b98d0919a8c51_hw11.pdf",
+  "file_size": 141913,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "e106059b-2e3b-50c2-726d-a543c775c9c6",
+  "resourcetype": "Document",
+  "title": "Homework 11",
+  "uid": "4cc083a2-3637-573e-307b-98d0919a8c51",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

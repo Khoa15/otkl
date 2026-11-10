@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Supporting file for a problem set on simulation of a rimless wheel.</p>\n",
+  "content_type": "resource",
+  "description": "Supporting file for a problem set on simulation of a rimless wheel.",
+  "draft": false,
+  "file": "/courses/6-832-underactuated-robotics-spring-2009/536b9ea33e7a6efbd8fbf221ba519998_rimlessWheel.m",
+  "file_size": 1839,
+  "file_type": "text/plain",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem Set Solutions"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "04c58ca0-0560-b9d1-6ca6-2691ea66babf",
+  "resourcetype": "Other",
+  "title": "Rimless Wheel",
+  "uid": "536b9ea3-3e7a-6efb-d8fb-f221ba519998",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

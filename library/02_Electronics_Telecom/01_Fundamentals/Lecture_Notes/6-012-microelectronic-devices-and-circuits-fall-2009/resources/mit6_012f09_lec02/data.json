@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture presentation on excess populations and minimum carrier lifetime, photoconductivity, non-uniform concentrations and diffusion, and Fick&rsquo;s first and second laws.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture presentation on excess populations and minimum carrier lifetime, photoconductivity, non-uniform concentrations and diffusion, and Fick's first and second laws.",
+  "draft": false,
+  "file": "/courses/6-012-microelectronic-devices-and-circuits-fall-2009/b6db5daeb4828c8e6c375aaaf6fa0d41_MIT6_012F09_lec02.pdf",
+  "file_size": 485688,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "e4c7985c-766a-2f9c-5bac-08869dd8bade",
+  "resourcetype": "Document",
+  "title": "Lecture 2 - Uniform Excitation; Non-uniform conditions",
+  "uid": "b6db5dae-b482-8c8e-6c37-5aaaf6fa0d41"
+}

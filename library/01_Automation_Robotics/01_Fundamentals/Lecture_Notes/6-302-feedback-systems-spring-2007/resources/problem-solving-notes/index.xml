@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem-Solving Notes on MIT OpenCourseWare</title>
+    <link>/resources/problem-solving-notes/</link>
+    <description>Recent content in Problem-Solving Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-solving-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>6_302rec1.pdf</title>
+      <link>/resources/6_302rec1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec1/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on closed loop vs. open loop systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec10.pdf</title>
+      <link>/resources/6_302rec10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec10/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on Nyquist stability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec11.pdf</title>
+      <link>/resources/6_302rec11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec11/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on phase-locked loops.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec12.pdf</title>
+      <link>/resources/6_302rec12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec12/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on phase-locked loops.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec13.pdf</title>
+      <link>/resources/6_302rec13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec13/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on the analytical toolbox for feedback systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec14.pdf</title>
+      <link>/resources/6_302rec14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec14/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on the Bode obstacle course.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec15.pdf</title>
+      <link>/resources/6_302rec15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec15/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on the Bode obstacle course and compensation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec16.pdf</title>
+      <link>/resources/6_302rec16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec16/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on compensation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec17.pdf</title>
+      <link>/resources/6_302rec17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec17/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on Black?s formula and lead compensation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec18.pdf</title>
+      <link>/resources/6_302rec18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec18/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on minor loop feedback.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec19_000.pdf</title>
+      <link>/resources/6_302rec19_000/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec19_000/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on minor-loops in an op-amp.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec2.pdf</title>
+      <link>/resources/6_302rec2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec2/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on block diagrams and physical modeling.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec20.pdf</title>
+      <link>/resources/6_302rec20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec20/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on a minor-loop in an op-amp.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec23.pdf</title>
+      <link>/resources/6_302rec23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec23/data.json</guid>
+      <description>&lt;p&gt;Recitation handout time delays.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec24.pdf</title>
+      <link>/resources/6_302rec24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec24/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on describing functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec25.pdf</title>
+      <link>/resources/6_302rec25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec25/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on feedback applications.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec26.pdf</title>
+      <link>/resources/6_302rec26/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec26/data.json</guid>
+      <description>&lt;p&gt;Recitation handout with a review of feedback systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec3.pdf</title>
+      <link>/resources/6_302rec3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec3/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on block diagrams.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec4.pdf</title>
+      <link>/resources/6_302rec4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec4/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on complex variables and the s-plane.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec5.pdf</title>
+      <link>/resources/6_302rec5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec5/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on op-amp circuits and analog computers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec6.pdf</title>
+      <link>/resources/6_302rec6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec6/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on steady-state errors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec7.pdf</title>
+      <link>/resources/6_302rec7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec7/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on root locus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec8.pdf</title>
+      <link>/resources/6_302rec8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec8/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on root locus, continued.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6_302rec9.pdf</title>
+      <link>/resources/6_302rec9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/6_302rec9/data.json</guid>
+      <description>&lt;p&gt;Recitation handout on the Nyquist criterion.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

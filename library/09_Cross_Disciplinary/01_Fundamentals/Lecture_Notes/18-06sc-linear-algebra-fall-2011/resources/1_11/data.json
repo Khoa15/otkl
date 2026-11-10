@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/1a996e5958c57bb8d1e20ee155a8884f_1_11.jpg",
+  "file_size": 4268,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from ‘Introduction to Linear Algebra’ by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Matrix Spaces; Rank 1; Small World Graphs",
+  "parent_type": "CourseSection",
+  "parent_uid": "edaea805-267a-c1a3-9a73-e8d7f348edba",
+  "resourcetype": "Image",
+  "title": "1_11.jpg",
+  "uid": "1a996e59-58c5-7bb8-d1e2-0ee155a8884f",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

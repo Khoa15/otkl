@@ -1,0 +1,27 @@
+{
+  "content": "<p>Quiz on computational science and engineering.</p>\n",
+  "content_type": "resource",
+  "description": "Quiz on computational science and engineering.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/501d160abb04f2e4f1e987ff0808c7fe_q118085f03.pdf",
+  "file_size": 93712,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Exams",
+  "parent_type": "CourseSection",
+  "parent_uid": "9b478d87-1396-5227-2cfb-83235a2e9dde",
+  "resourcetype": "Document",
+  "title": "Quiz 1, Fall 2003",
+  "uid": "501d160a-bb04-f2e4-f1e9-87ff0808c7fe",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Recitation handout with a review of feedback systems.</p>\n",
+  "content_type": "resource",
+  "description": "Recitation handout with a review of feedback systems.",
+  "draft": false,
+  "file": "/courses/6-302-feedback-systems-spring-2007/944b810365ed9e05fe97efc90a5d7197_6_302rec26.pdf",
+  "file_size": 101008,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem-solving Notes"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Recitations",
+  "parent_type": "CourseSection",
+  "parent_uid": "5667c63a-09ff-e158-1e89-d49a0035050d",
+  "resourcetype": "Document",
+  "title": "6_302rec26.pdf",
+  "uid": "944b8103-65ed-9e05-fe97-efc90a5d7197",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

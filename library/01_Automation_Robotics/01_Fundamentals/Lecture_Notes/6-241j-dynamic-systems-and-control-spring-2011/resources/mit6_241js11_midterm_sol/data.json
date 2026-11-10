@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This resource contains solutions to midterm exam.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains solutions to midterm exam.",
+  "draft": false,
+  "file": "/courses/6-241j-dynamic-systems-and-control-spring-2011/0203828c5571e4b3eb683b02744f3322_MIT6_241JS11_midterm_sol.pdf",
+  "file_size": 265696,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exam Solutions"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Exams",
+  "parent_type": "CourseSection",
+  "parent_uid": "72a3b8f5-976c-1d87-93f4-4979928c33b7",
+  "resourcetype": "Document",
+  "title": "MIT6_241JS11_midterm_sol.pdf",
+  "uid": "0203828c-5571-e4b3-eb68-3b02744f3322",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-241j-dynamic-systems-and-control-spring-2011"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-241j-dynamic-systems-and-control-spring-2011"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

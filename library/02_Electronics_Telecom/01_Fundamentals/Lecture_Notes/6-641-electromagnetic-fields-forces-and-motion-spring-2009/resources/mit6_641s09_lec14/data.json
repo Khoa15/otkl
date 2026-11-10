@@ -1,0 +1,27 @@
+{
+  "content": "<p>Lecture notes on Galilean time and space transformations, transformations for MQS systems, moving media MQS problem, transformations for EQS systems, moving line charge representation problem, Faraday&rsquo;s disk (homopolar generator), self-excited DC homopolar generators, and self-excited AC homopolar generators.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on Galilean time and space transformations, transformations for MQS systems, moving media MQS problem, transformations for EQS systems, moving line charge representation problem, Faraday's disk (homopolar generator), self-excited DC homopolar generators, and self-excited AC homopolar generators.",
+  "draft": false,
+  "file": "/courses/6-641-electromagnetic-fields-forces-and-motion-spring-2009/MIT6_641s09_lec14.pdf",
+  "file_size": 1709894,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "dda578c4-8b9d-5d90-3bed-c932f0409540",
+  "resourcetype": "Document",
+  "title": "Lecture 14: Fields and Moving Media",
+  "uid": "c0be7870-aa89-56ff-976d-36582f3b5bc0",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

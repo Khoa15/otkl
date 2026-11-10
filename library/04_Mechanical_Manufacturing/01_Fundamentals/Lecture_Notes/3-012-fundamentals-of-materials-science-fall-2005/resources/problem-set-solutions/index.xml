@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Set Solutions on MIT OpenCourseWare</title>
+    <link>/resources/problem-set-solutions/</link>
+    <description>Recent content in Problem Set Solutions on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-set-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>f04ps1_sol_struc.pdf</title>
+      <link>/resources/f04ps1_sol_struc/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/f04ps1_sol_struc/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions to the problem set 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>f04ps10_sol_t.pdf</title>
+      <link>/resources/f04ps10_sol_t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/f04ps10_sol_t/data.json</guid>
+      <description>&lt;p&gt;This file contains solutions on various topics under thermodynamics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>f04ps2_sol_t.pdf</title>
+      <link>/resources/f04ps2_sol_t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/f04ps2_sol_t/data.json</guid>
+      <description>&lt;p&gt;This file contains graded problems and proofs for some problems based on particular topics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>f04ps2_sol.pdf</title>
+      <link>/resources/f04ps2_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/f04ps2_sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to the assigned homework problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>f04ps3_sol.pdf</title>
+      <link>/resources/f04ps3_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/f04ps3_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions to the problem set on topics like lattices and symmetry, Maxwell relations and variable-change theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>f04ps4_sol.pdf</title>
+      <link>/resources/f04ps4_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/f04ps4_sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to the assigned homework problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>f04ps5_sol.pdf</title>
+      <link>/resources/f04ps5_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/f04ps5_sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions to the problem set on topics like symmetry,and tensor quantities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>f04ps6_sol.pdf</title>
+      <link>/resources/f04ps6_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/f04ps6_sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to the assigned homework problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>f04ps7_sol.pdf</title>
+      <link>/resources/f04ps7_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/f04ps7_sol/data.json</guid>
+      <description>&lt;p&gt;This file contains soultions for the questions based on bonding and thermodynamics for problem set 7.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>f04ps8_sol.pdf</title>
+      <link>/resources/f04ps8_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/f04ps8_sol/data.json</guid>
+      <description>&lt;p&gt;Homework problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>f04ps9_sol.pdf</title>
+      <link>/resources/f04ps9_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/f04ps9_sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to assigned homework problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps01_sol.pdf</title>
+      <link>/resources/ps01_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps01_sol/data.json</guid>
+      <description>&lt;p&gt;This file contains the solutions for the problems of set 1 related to topics bonding and thermodynamics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps02_sol.pdf</title>
+      <link>/resources/ps02_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps02_sol/data.json</guid>
+      <description>&lt;p&gt;Homework problem solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps03_sol.pdf</title>
+      <link>/resources/ps03_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps03_sol/data.json</guid>
+      <description>&lt;p&gt;This file contains solutions to the problem set on bonding and thermodynamics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps04_sol.pdf</title>
+      <link>/resources/ps04_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps04_sol/data.json</guid>
+      <description>&lt;p&gt;This file contains free energy calculations, vapor-liquid equilibria, spontaneous formation of solutions, chemical reaction equilibria, Gas-solid reactions and bonding.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps05_sol.pdf</title>
+      <link>/resources/ps05_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps05_sol/data.json</guid>
+      <description>&lt;p&gt;This file contains model solutions for problems 1-4, electrochemistry, thermodynamics of a car battery, stability of a closed system at constant temperature and pressure and single-component phase diagrams.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps06_sol.pdf</title>
+      <link>/resources/ps06_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps06_sol/data.json</guid>
+      <description>&lt;p&gt;Solutions to homework problems.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

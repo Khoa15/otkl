@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exams on MIT OpenCourseWare</title>
+    <link>/resources/exams/</link>
+    <description>Recent content in Exams on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exams</title>
+      <link>/pages/exams/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/exams/data.json</guid>
+      <description>&lt;p&gt;Exams from previous years (Spring 2010 and Fall 2009) are provided for review purposes; Quiz 3 from Spring 2010 covers different topics and therefore has been omitted.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Exams&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Fall 2011&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Spring 2010&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Fall 2009&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Quiz 1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/quiz-1-fall-2011/index.html&#34;&gt;Quiz 1 Fall 2011 (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/quiz-1-spring-2010/index.html&#34;&gt;Quiz 1 Spring 2010 (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/quiz-1-fall-2009/index.html&#34;&gt;Quiz 1 Fall 2009 (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Quiz 1 Solutions&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/quiz-1-solutions-fall-2011/index.html&#34;&gt;Quiz 1 Solution Fall 2011 (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/quiz-1-solutions-spring-2010/index.html&#34;&gt;Quiz 1 Solution Spring 2010 (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/quiz-1-solutions-fall-2009/index.html&#34;&gt;Quiz 1 Solution Fall 2009 (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Quiz 2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/quiz-2-fall-2011/index.html&#34;&gt;Quiz 2 Fall 2011 (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/quiz-2-spring-2010/index.html&#34;&gt;Quiz 2 Spring 2010 (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/quiz-2-fall-2009/index.html&#34;&gt;Quiz 2 Fall 2009 (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Final Exam, Fall 2009</title>
+      <link>/resources/final-exam-fall-2009/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/final-exam-fall-2009/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding fall 2009 final exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Final Exam, Fall 2011</title>
+      <link>/resources/final-exam-fall-2011/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/final-exam-fall-2011/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding fall 2011 final exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Final Exam, Spring 2010</title>
+      <link>/resources/final-exam-spring-2010/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/final-exam-spring-2010/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding spring 2010 final exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 1 Solutions, Fall 2009</title>
+      <link>/resources/quiz-1-solutions-fall-2009/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz-1-solutions-fall-2009/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding fall 2009 quiz 1 solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 1 Solutions, Fall 2011</title>
+      <link>/resources/quiz-1-solutions-fall-2011/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz-1-solutions-fall-2011/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding fall 2011 quiz 1 solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 1 Solutions, Spring 2010</title>
+      <link>/resources/quiz-1-solutions-spring-2010/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz-1-solutions-spring-2010/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding fall spring 2010 quiz 1 solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 1, Fall 2009</title>
+      <link>/resources/quiz-1-fall-2009/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz-1-fall-2009/data.json</guid>
+      <description>&lt;p&gt;New file Upload&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 1, Fall 2011</title>
+      <link>/resources/quiz-1-fall-2011/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz-1-fall-2011/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding fall 2011 quiz 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 1, Spring 2010</title>
+      <link>/resources/quiz-1-spring-2010/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz-1-spring-2010/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding spring 2010 quiz 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2 Solutions, Fall 2009</title>
+      <link>/resources/quiz-2-solutions-fall-2009/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz-2-solutions-fall-2009/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding fall 2009 quiz 2 solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2 Solutions, Fall 2011</title>
+      <link>/resources/quiz-2-solutions-fall-2011/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz-2-solutions-fall-2011/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding fall 2011 quiz 2 solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2 Solutions, Spring 2010</title>
+      <link>/resources/quiz-2-solutions-spring-2010/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz-2-solutions-spring-2010/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding spring 2010 quiz 2 solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2, Fall 2009</title>
+      <link>/resources/quiz-2-fall-2009/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz-2-fall-2009/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding fall 2009 quiz 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2, Fall 2011</title>
+      <link>/resources/quiz-2-fall-2011/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz-2-fall-2011/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding fall 2011 quiz 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2, Spring 2010</title>
+      <link>/resources/quiz-2-spring-2010/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz-2-spring-2010/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding spring 2010 quiz 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 3 Solutions, Fall 2009</title>
+      <link>/resources/quiz-3-solutions-fall-2009/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz-3-solutions-fall-2009/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding fall 2009 quiz 3 solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 3 Solutions, Fall 2011</title>
+      <link>/resources/quiz-3-solutions-fall-2011/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz-3-solutions-fall-2011/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding fall 2011 quiz 3 solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 3, Fall 2009</title>
+      <link>/resources/quiz-3-fall-2009/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz-3-fall-2009/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding fall 2009 quiz 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 3, Fall 2011</title>
+      <link>/resources/quiz-3-fall-2011/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz-3-fall-2011/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding fall 2011 quiz 3.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

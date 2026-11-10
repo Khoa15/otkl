@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This file contains information regarding problem set 5 solution.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains information regarding problem set 5 solution.",
+  "draft": false,
+  "file": "/courses/6-685-electric-machines-fall-2013/e8cfa53e3645c56ab79ab56ee1b1c67b_MIT6_685F13_ps05ans.pdf",
+  "file_size": 181751,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Set Solutions"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "6ffb13f7-a392-e19a-3527-5c38a5aa7dc1",
+  "resourcetype": "Document",
+  "title": "6.685 Electric Machines, Problem Set 5 Solutions",
+  "uid": "e8cfa53e-3645-c56a-b79a-b56ee1b1c67b",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-685-electric-machines-fall-2013"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-685-electric-machines-fall-2013"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

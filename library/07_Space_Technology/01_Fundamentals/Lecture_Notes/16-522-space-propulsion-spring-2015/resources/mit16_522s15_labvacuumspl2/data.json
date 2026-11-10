@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>This file contains information regarding vacuum chamber procedures.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains information regarding vacuum chamber procedures.",
+  "draft": false,
+  "file": "/courses/16-522-space-propulsion-spring-2015/1d6b18dfb5259d8fddf8ec9105857b2c_MIT16_522S15_LabVacuumSPL2.pdf",
+  "file_size": 699489,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Laboratory Assignments"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "c1300c9d-1b2c-a592-3cce-24633b6b329d",
+  "resourcetype": "Document",
+  "title": "16.522 Spring 2015 Lab Project: Vacuum Chamber Procedures",
+  "uid": "1d6b18df-b525-9d8f-ddf8-ec9105857b2c",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

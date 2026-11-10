@@ -1,0 +1,16 @@
+
+{
+  "content": "<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nEXAMS\n</th>\n\n<th>\n\nSOLUTIONS\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\nMidterm (<a href=\"../../resources/mit6_241js11_midterm/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit6_241js11_midterm_sol/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nFinal exam (<a href=\"../../resources/mit6_241js11_final/index.html\">PDF</a>)\n</td>\n\n<td>\n\n \n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section provides the midterm and final exam for the course.  Solutions are provided for the midterm.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Exams",
+  "uid": "72a3b8f5-976c-1d87-93f4-4979928c33b7"
+}
+

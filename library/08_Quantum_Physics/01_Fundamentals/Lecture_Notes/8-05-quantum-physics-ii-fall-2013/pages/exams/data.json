@@ -1,0 +1,16 @@
+
+{
+  "content": "<p>There is an hour and a half closed-book test during the normal lecture time, and a three-hour final exam scheduled during the final exam period.</p>\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\n \n</th>\n\n<th>\n\nFORMULA SHEETS\n</th>\n\n<th>\n\nPrevious versions\n</th>\n\n<th>\n\nTESTS / EXAMS\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\nMidterm Exam\n</td>\n\n<td>\n\n<a href=\"../../resources/test-formula-sheet/index.html\">Test Formula Sheet (PDF)</a>\n</td>\n\n<td>\n</p>\n<p><a href=\"../../resources/test-2011/index.html\">2011 Test (PDF)</a></p>\n<p><a href=\"../../resources/test-2012/index.html\">2012 Test (PDF)</a></p>\n<p></td>\n\n<td>\n\n<a href=\"../../resources/test-2013/index.html\">2013 Test (PDF)</a>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nFinal Exam\n</td>\n\n<td>\n\n<a href=\"../../resources/final-exam-formula-sheet/index.html\">Final Exam Formula Sheet (PDF)</a>\n</td>\n\n<td>\n</p>\n<p><a href=\"../../resources/exam-2011/index.html\">2011 Final Exam (PDF)</a></p>\n<p><a href=\"../../resources/exam-2012/index.html\">2012 Final Exam (PDF)</a></p>\n<p></td>\n\n<td>\n\n<a href=\"../../resources/exam-2013/index.html\">2013 Final Exam (PDF)</a>\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section provides the midterm and final exams for the course, associated formula sheets, and exams from previous years.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Exams",
+  "uid": "66e538e1-4724-c4e5-9962-6c70d9baf8a1"
+}
+

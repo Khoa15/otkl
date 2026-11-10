@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Description:</strong> Lecture 11 is about RNA secondary structure.  Prof. Christopher Burge begins with an introduction and biological examples of RNA structure. He then talks about two approaches for predicting structure: covariation and energy minimization.</p>\n<p><strong>Instructor:</strong> Prof. Christopher Burge</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "192497092",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Video Lectures",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Lecture 11: RNA Secondary Structure – Biological Functions and Prediction",
+  "uid": "8eaf7445-0703-3b4e-f17c-045950330866",
+  "video_files": {
+    "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec11_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/6493ea79d05555e2bee6aa942cd95251_kUN6rJ21Hno.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/kUN6rJ21Hno/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/a55f66beeb318266288693f37e35f337_kUN6rJ21Hno.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "7-91j-foundations-of-computational-and-systems-biology-spring-2014, hidden markov model, hmm, markov model, mutual information, ncrna, nusinov algorithm, ribosome, ribozyme, rna, secondary structure, trna",
+    "youtube_id": "kUN6rJ21Hno"
+  }
+}

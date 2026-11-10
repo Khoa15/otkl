@@ -1,0 +1,47 @@
+{
+  "audience": [],
+  "content": "<p>Problem set on the analytical and geometric properties of the BVP.</p>\n",
+  "content_type": "resource",
+  "description": "Problem set on the analytical and geometric properties of the BVP.",
+  "draft": false,
+  "file": "/courses/16-346-astrodynamics-fall-2008/43a9dafdf1c61141a017a5fc95bcdebe_ex_08.pdf",
+  "file_size": 87110,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "36af17ba-e00f-6efa-5f63-831e7ed7034f",
+  "resourcetype": "Document",
+  "title": "Exercises 08",
+  "uid": "43a9dafd-f1c6-1141-a017-a5fc95bcdebe",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": {
+      "content": [],
+      "website": "16-346-astrodynamics-fall-2008"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_resources": {
+      "content": [],
+      "website": "16-346-astrodynamics-fall-2008"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

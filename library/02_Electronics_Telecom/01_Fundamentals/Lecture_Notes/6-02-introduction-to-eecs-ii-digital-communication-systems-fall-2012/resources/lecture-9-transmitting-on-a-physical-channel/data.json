@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Description:</strong> This lecture begins with background on probability for working with random variables. Conversion, and signal modulation and demodulation are explained. The unit step and sample are introduced alongside time invariant and linear systems.</p>\n<p><strong>Instructor:</strong> George Verghese</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "175981651",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Lecture Videos",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Lecture 9: Transmitting on a Physical Channel",
+  "uid": "a509379d-2eb8-4b43-e127-416d9e6bf688",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec09_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/281c725120ff5e639e402f18629283c9_RG3CkwIDYfI.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/RG3CkwIDYfI/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/8f36f9d43d632f8341f1a839d6f10ecb_RG3CkwIDYfI.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, acoustic channel, bipolar keying, carrier frequency, digitized symbol, expected value, linear, modulation, random variable, superposition, time invariant, unit sample, unit step",
+    "youtube_id": "RG3CkwIDYfI"
+  }
+}

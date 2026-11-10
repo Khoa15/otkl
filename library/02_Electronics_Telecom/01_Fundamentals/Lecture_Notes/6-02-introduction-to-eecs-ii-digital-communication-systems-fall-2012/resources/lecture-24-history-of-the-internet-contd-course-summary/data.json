@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Description:</strong> This lecture continues the history of the Internet through the recent decades and addresses problems such as rapid growth, congestion, service attacks, and security threats. A summary of the course content is then presented at the end.</p>\n<p><strong>Instructor:</strong> Hari Balakrishnan</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "185280831",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Lecture Videos",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Lecture 24: History of the Internet cont'd, Course Summary",
+  "uid": "e86599d4-bd72-c4f0-ced5-a2efe6975312",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT6.02F12/MIT6_02F12_lec24_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/6ab72eb45a425bdca6c4193c5f4f7597_RN4gSBTANUY.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/RN4gSBTANUY/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/5bd1616af13713678939933899f2b113_RN4gSBTANUY.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012, congestion, peer-to-peer, phishing, prefix, reliability, security, subnetwork, tcp/ip, window size, worldwideweb",
+    "youtube_id": "RN4gSBTANUY"
+  }
+}

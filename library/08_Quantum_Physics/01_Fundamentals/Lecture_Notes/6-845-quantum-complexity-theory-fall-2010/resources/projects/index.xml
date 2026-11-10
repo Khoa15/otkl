@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on MIT OpenCourseWare</title>
+    <link>/resources/projects/</link>
+    <description>Recent content in Projects on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>/pages/projects/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/projects/data.json</guid>
+      <description>&lt;h3 id=&#34;project-examples&#34;&gt;Project Examples&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Several &lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;http://www.scottaaronson.com/blog/?p=515&#34;  aria-label=&#34;outstanding student projects (opens in a new tab)&#34;  &gt;outstanding student projects&lt;/a&gt; are featured on Scott Aaronson&amp;rsquo;s blog.&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;project-description&#34;&gt;Project Description&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;All students taking 6.845 for credit are expected to complete a course project by the end of the semester.&lt;/p&gt;&#xA;&lt;p&gt;The project can be either a survey of some topic in the quantum complexity theory literature, or original research. Projects can be done either individually or in groups of two. Pick a project that interests you, that&amp;rsquo;s at least somewhat related to the course, and that (crucially!) you&amp;rsquo;ll actually be able to finish by the end of the semester. Here are a few good ways to pick a project:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

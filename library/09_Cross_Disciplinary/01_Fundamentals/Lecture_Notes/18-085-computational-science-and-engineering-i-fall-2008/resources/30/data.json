@@ -1,0 +1,27 @@
+{
+  "content": "<p>Thumbnail image accompanying a video lecture on discrete Fourier series.</p>\n",
+  "content_type": "resource",
+  "description": "Thumbnail image accompanying a video lecture on discrete Fourier series.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/420d5c4b54dc6b23cf3df8bfdedce49d_30.jpg",
+  "file_size": 2916,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Lecture 30",
+  "uid": "420d5c4b-54dc-6b23-cf3d-f8bfdedce49d",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on MIT OpenCourseWare</title>
+    <link>/resources/projects/</link>
+    <description>Recent content in Projects on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>16_851_portfolio.pdf</title>
+      <link>/resources/16_851_portfolio/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/16_851_portfolio/data.json</guid>
+      <description>&lt;p&gt;Sample student portfolio courtesy of Matthew Richards.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>portfolio_nadir1.pdf</title>
+      <link>/resources/portfolio_nadir1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/portfolio_nadir1/data.json</guid>
+      <description>&lt;p&gt;Sample student portfoloio.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>portfolio_nadir2.pdf</title>
+      <link>/resources/portfolio_nadir2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/portfolio_nadir2/data.json</guid>
+      <description>&lt;p&gt;Sample student portfolio courtesy of Bill Nadir.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>/pages/projects/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/projects/data.json</guid>
+      <description>&lt;p&gt;One of the key products of this course is a personal portfolio. The portfolio provides both a personal reflection on the learning experience as well as a central collection of the tools and reference material from the course. The portfolio should contain:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Your learning objectives for the class.&lt;/li&gt;&#xA;&lt;li&gt;Your reflections on the learning experiences with respect to the learning objectives.&lt;/li&gt;&#xA;&lt;li&gt;All of the tools you developed, including particularly the software modules and the problem sets and their solutions you or others developed.&lt;/li&gt;&#xA;&lt;li&gt;Web sites and reference material you found useful.&lt;/li&gt;&#xA;&lt;li&gt;Whatever else would be useful for your review of the subject.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;The portfolio format is up to you to choose but it should be well organized. It may be captured on paper or electronically in a computer file or on a Web site. You will turn in the portfolio (or provide a URL) for grading three times during the semester.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sateng_portfolio.pdf</title>
+      <link>/resources/sateng_portfolio/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/sateng_portfolio/data.json</guid>
+      <description>&lt;p&gt;Sample student portfolio.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

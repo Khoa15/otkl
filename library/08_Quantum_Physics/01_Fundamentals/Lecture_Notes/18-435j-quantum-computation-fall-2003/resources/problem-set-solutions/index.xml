@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Set Solutions on MIT OpenCourseWare</title>
+    <link>/resources/problem-set-solutions/</link>
+    <description>Recent content in Problem Set Solutions on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-set-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ps10sol.pdf</title>
+      <link>/resources/ps10sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps10sol/data.json</guid>
+      <description>&lt;p&gt;Problem set solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps1sol.pdf</title>
+      <link>/resources/ps1sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps1sol/data.json</guid>
+      <description>&lt;p&gt;Problem set solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps2sol.pdf</title>
+      <link>/resources/ps2sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps2sol/data.json</guid>
+      <description>&lt;p&gt;Problem set solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps3sol.pdf</title>
+      <link>/resources/ps3sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps3sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions of problem set 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps4sol.pdf</title>
+      <link>/resources/ps4sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps4sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions of problem set 4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps5sol.pdf</title>
+      <link>/resources/ps5sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps5sol/data.json</guid>
+      <description>&lt;p&gt;Problem set solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps6sol.pdf</title>
+      <link>/resources/ps6sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps6sol/data.json</guid>
+      <description>&lt;p&gt;Problem set solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps7sol.pdf</title>
+      <link>/resources/ps7sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps7sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions for problem set 7.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps8sol.pdf</title>
+      <link>/resources/ps8sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps8sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions of problem set 8.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ps9sol.pdf</title>
+      <link>/resources/ps9sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ps9sol/data.json</guid>
+      <description>&lt;p&gt;This resource contains solutions of problem set 9.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>solutions1.pdf</title>
+      <link>/resources/solutions1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solutions1/data.json</guid>
+      <description>&lt;p&gt;Problem set solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>solutions2.pdf</title>
+      <link>/resources/solutions2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solutions2/data.json</guid>
+      <description>&lt;p&gt;Problem set solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>solutions3.pdf</title>
+      <link>/resources/solutions3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solutions3/data.json</guid>
+      <description>&lt;p&gt;Problem set solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>solutions4.pdf</title>
+      <link>/resources/solutions4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solutions4/data.json</guid>
+      <description>&lt;p&gt;Problem set solution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>solutions5.pdf</title>
+      <link>/resources/solutions5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/solutions5/data.json</guid>
+      <description>&lt;p&gt;Problem set solution.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

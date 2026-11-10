@@ -1,0 +1,14 @@
+
+{
+  "content": "<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nLEC #\n</th>\n\n<th>\n\nTOPICS\n</th>\n\n<th>\n\nRELATED ASSIGNMENTS\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\n1–3\n</td>\n\n<td>\n\nWave Mechanics\n</td>\n\n<td>\n\nAssignment 1\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n3–4\n</td>\n\n<td>\n\nSpin One-half, Bras, Kets, and Operators\n</td>\n\n<td>\n\nAssignment 2\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n5–8\n</td>\n\n<td>\n\nLinear Algebra: Vector Spaces and Operators\n</td>\n\n<td>\n\nAssignment 3 and 4\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n9\n</td>\n\n<td>\n\nDirac&rsquo;s Bra and Ket Notation\n</td>\n\n<td>\n\nAssignment 5\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n10–11\n</td>\n\n<td>\n\nUncertainty Principle and Compatible Observables\n</td>\n\n<td>\n\nAssignment 6\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n12–16\n</td>\n\n<td>\n\nQuantum Dynamics\n</td>\n\n<td>\n\nAssignment 7\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n16–18\n</td>\n\n<td>\n\nTwo State Systems\n</td>\n\n<td>\n\nAssignment 8\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n18–20\n</td>\n\n<td>\n\nMultiparticle States and Tensor Products\n</td>\n\n<td>\n\nAssignment 9\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n20–23\n</td>\n\n<td>\n\nAngular Momentum\n</td>\n\n<td>\n\nAssignment 10\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n24–26\n</td>\n\n<td>\n\nAddition of Angular Momentum\n</td>\n\n<td>\n\nAssignment 11\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This calendar section provides the schedule of lecture topics and related assignments.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Calendar",
+  "uid": "6b19f45e-845a-6aef-5763-b594bbd0ee69"
+}
+

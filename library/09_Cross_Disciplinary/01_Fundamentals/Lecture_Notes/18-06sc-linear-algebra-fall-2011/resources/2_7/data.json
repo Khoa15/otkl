@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/1828f1c485c038a6689765143db8b90e_2_7.jpg",
+  "file_size": 6004,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from 'Introduction to Linear Algebra' by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Cramer's Rule, Inverse Matrix and Volume",
+  "parent_type": "CourseSection",
+  "parent_uid": "86cb2711-cb7c-4313-42de-c1540dfe8ce2",
+  "resourcetype": "Image",
+  "title": "2_7.jpg",
+  "uid": "1828f1c4-85c0-38a6-6897-65143db8b90e",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

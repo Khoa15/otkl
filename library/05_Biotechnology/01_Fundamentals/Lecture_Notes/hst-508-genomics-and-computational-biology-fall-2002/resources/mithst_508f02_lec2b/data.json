@@ -1,0 +1,45 @@
+{
+  "audience": [],
+  "body": "",
+  "content": "",
+  "content_type": "resource",
+  "draft": false,
+  "file": "/courses/hst-508-genomics-and-computational-biology-fall-2002/mithst_508f02_lec2b_360p_16_9.mp4",
+  "file_size": 68274526,
+  "file_type": "video/mp4",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Audio"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Video",
+  "title": "2B. Intro 2: Biological Side of Computational Biology. Comparative Genomics, Models & A...",
+  "uid": "b1d7b801-ae38-4e7a-8657-0f64e0eb3165",
+  "video_files": {
+    "video_captions_resources": [
+      {
+        "file": "/courses/hst-508-genomics-and-computational-biology-fall-2002/mithst_508f02_captions.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/_GRVq26jIHs/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/hst-508-genomics-and-computational-biology-fall-2002/mithst_508f02_transcript.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "hst-508-genomics-and-computational-biology-fall-2002",
+    "youtube_description": "",
+    "youtube_id": "_GRVq26jIHs"
+  }
+}

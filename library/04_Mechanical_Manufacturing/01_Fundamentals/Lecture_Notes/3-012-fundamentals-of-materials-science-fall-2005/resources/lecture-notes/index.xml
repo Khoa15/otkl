@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>dmse_curriculum.pdf</title>
+      <link>/resources/dmse_curriculum/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/dmse_curriculum/data.json</guid>
+      <description>&lt;p&gt;this resource provides a detailed curriculum for the course and contains information such as core subjects, restricted electives, and their various combinations that can be chosen by the students.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec0_orientation.pdf</title>
+      <link>/resources/lec0_orientation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec0_orientation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>lec01b_bis_note.pdf</title>
+      <link>/resources/lec01b_bis_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec01b_bis_note/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>lec01b_bis.pdf</title>
+      <link>/resources/lec01b_bis/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec01b_bis/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>lec01b_note.pdf</title>
+      <link>/resources/lec01b_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec01b_note/data.json</guid>
+      <description>&lt;p&gt;This file contains reading material on bonding, goal, advanced materials, particles and EM fields, electromagnetic waves, photons, forces, dynamics, matter, material properties, particle, wave, linear superposition, interference patterns and wave-particle duality.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec01b.pdf</title>
+      <link>/resources/lec01b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec01b/data.json</guid>
+      <description>&lt;p&gt;This file contains reading material on bonding, goal, advanced materials, particles and EM fields, electromagnetic waves, photons, forces, dynamics, matter, material properties, particle, wave, linear superposition, interference patterns and wave-particle duality.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec01t_note.pdf</title>
+      <link>/resources/lec01t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec01t_note/data.json</guid>
+      <description>&lt;p&gt;This file contains thermodynamics, it&amp;rsquo;s variables, systems, functions and state and equilibrium.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec01t.pdf</title>
+      <link>/resources/lec01t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec01t/data.json</guid>
+      <description>&lt;p&gt;This file contains thermodynamics, it&amp;rsquo;s variables, systems, functions and state and equilibrium.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec02b_note.pdf</title>
+      <link>/resources/lec02b_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec02b_note/data.json</guid>
+      <description>&lt;p&gt;This resource summarizes the previous lecture on wave mechanics and provides information on topics such as time-dependent schr?dinger?s equation((Newton?s 2ndlaw for quantum objects), stationary schr?dinger?s equation (I), stationary schr?dinger?s equation (II), stationary schr?dinger?s equation (III), operators, eigenvalues, eigenfunctions, free particle, and infinite square well.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec02b.pdf</title>
+      <link>/resources/lec02b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec02b/data.json</guid>
+      <description>&lt;p&gt;This resource summarizes the previous lecture on wave mechanics and provides information on topics such as time-dependent schr?dinger?s equation((Newton?s 2ndlaw for quantum objects), stationary schr?dinger?s equation (I), stationary schr?dinger?s equation (II), stationary schr?dinger?s equation (III), operators, eigenvalues, eigenfunctions, free particle, and infinite square well.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec02t_note.pdf</title>
+      <link>/resources/lec02t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec02t_note/data.json</guid>
+      <description>&lt;p&gt;This file contains thermodynamic variables, systems and functions, identification of processes and reversible and irreversible process.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec02t_note01.pdf</title>
+      <link>/resources/lec02t_note01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec02t_note01/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>lec02t.pdf</title>
+      <link>/resources/lec02t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec02t/data.json</guid>
+      <description>&lt;p&gt;This file contains thermodynamic variables, systems and functions, identification of processes and reversible and irreversible processes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec03b_note.pdf</title>
+      <link>/resources/lec03b_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec03b_note/data.json</guid>
+      <description>&lt;p&gt;This file contains topics: Schr?dinger equation, Wavefunctions, Normalization, Infinite square well, Atomic units, Particle and Light absorption.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec03b.pdf</title>
+      <link>/resources/lec03b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec03b/data.json</guid>
+      <description>&lt;p&gt;This file contains topics: Schr?dinger equation, Wavefunctions, Normalization, Infinite square well, Atomic units, Particle and Light absorption.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec03t_note.pdf</title>
+      <link>/resources/lec03t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec03t_note/data.json</guid>
+      <description>&lt;p&gt;This file contains work and heat change the internal energy of a system and path dependence vs. path independence of work, heat and other thermodynamic functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec03t.pdf</title>
+      <link>/resources/lec03t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec03t/data.json</guid>
+      <description>&lt;p&gt;This file contains work and heat change the internal energy of a system and path dependence vs. path independence of work, heat, and other thermodynamic functions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec04b_note.pdf</title>
+      <link>/resources/lec04b_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec04b_note/data.json</guid>
+      <description>&lt;p&gt;This file includes specific heat of graphite, metal surfaces, tunnelling microscopy, wavepacket tunnelling, dirac notation, operator algebra, commutators, linear and hermitian, postulate, hermitian operators, position and probability, quantum double-slit and deterministic vs. stochastic.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec04b.pdf</title>
+      <link>/resources/lec04b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec04b/data.json</guid>
+      <description>&lt;p&gt;This file includes specific heat of graphite, metal surfaces, tunnelling microscopy, wavepacket tunnelling, dirac notation, operator algebra, commutators, linear and hermitian, postulate, hermitian operators, position and probability, quantum double-slit and deterministic vs. stochastic.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec04t_note.pdf</title>
+      <link>/resources/lec04t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec04t_note/data.json</guid>
+      <description>&lt;p&gt;This file contains state functions, path dependent variables: heat and work, temperature, heat capacity and calculations with heat capacities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec04t.pdf</title>
+      <link>/resources/lec04t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec04t/data.json</guid>
+      <description>&lt;p&gt;This file contains state functions, path dependent variables: heat and work, temperature, heat capacity and calculations with heat capacities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec05_06b_note.pdf</title>
+      <link>/resources/lec05_06b_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec05_06b_note/data.json</guid>
+      <description>&lt;p&gt;This file includes postulate, hermitian operators, position and probability, quantum double-slit, deterministic vs. stochastic, spherical coordinates, 3-d integration, angular momentum, commutation relation, eigenfunctions, spherical harmonics, electron, V(r) potential, radial wavefunctions, radial density, quantum numbers, absorption and balmer lines, XPS, grand table, alphabet soup, orbital levels, and screening.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec05_06b.pdf</title>
+      <link>/resources/lec05_06b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec05_06b/data.json</guid>
+      <description>&lt;p&gt;This file includes postulate, hermitian operators, position and probability, quantum double-slit, deterministic vs. stochastic, spherical coordinates, 3-d integration, angular momentum, commutation relation, eigenfunctions, spherical harmonics, electron, V(r) potential, radial wavefunctions, radial density, quantum numbers, absorption and balmer lines, XPS, grand table, alphabet soup, orbital levels, and screening.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec05t_note.pdf</title>
+      <link>/resources/lec05t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec05t_note/data.json</guid>
+      <description>&lt;p&gt;This file contains calculation of internal energy changes, heat stored and released during phase changes, accounting for thermal energy in a material, phase change materials technology and discovery of latent heat.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec05t.pdf</title>
+      <link>/resources/lec05t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec05t/data.json</guid>
+      <description>&lt;p&gt;This file contains calculation of internal energy changes, heat stored and released during phase changes, accounting for thermal energy in a material, phase change materials technology and discovery of latent heat.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec06t_note.pdf</title>
+      <link>/resources/lec06t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec06t_note/data.json</guid>
+      <description>&lt;p&gt;This file contains topics: Magnetic work and Chemical work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec06t.pdf</title>
+      <link>/resources/lec06t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec06t/data.json</guid>
+      <description>&lt;p&gt;This file contains topics: Magnetic work and Chemical work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec07b_note.pdf</title>
+      <link>/resources/lec07b_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec07b_note/data.json</guid>
+      <description>&lt;p&gt;This file contains annotated notes for three quantum numbers, balmer lines in hot stars, emission and absorption lines, XPS in condensed matter etc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec07b.pdf</title>
+      <link>/resources/lec07b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec07b/data.json</guid>
+      <description>&lt;p&gt;This file contains notes for three quantum numbers, balmer lines in hot stars, emission and absorption lines, XPS in condensed matter etc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec07t_note.pdf</title>
+      <link>/resources/lec07t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec07t_note/data.json</guid>
+      <description>&lt;p&gt;This file contains thermal expansion/contraction and mechanical expansion/compression, graphical summary of thermal behavior and thermodynamic driving forces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec07t.pdf</title>
+      <link>/resources/lec07t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec07t/data.json</guid>
+      <description>&lt;p&gt;This file contains thermal expansion/contraction and mechanical expansion/compression, graphical summary of thermal behavior and thermodynamic driving forces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec08b_note.pdf</title>
+      <link>/resources/lec08b_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec08b_note/data.json</guid>
+      <description>&lt;p&gt;This file contains annotated notes for Right experiment wrong theory, Spin Eigenvalue, Eigenfunctions, Pauli Exclusion Principle, Variational function etc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec08b.pdf</title>
+      <link>/resources/lec08b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec08b/data.json</guid>
+      <description>&lt;p&gt;This file contains notes for Right experiment wrong theory, Spin Eigenvalue, Eigenfunctions, Pauli Exclusion Principle, Variational function etc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec08t_note.pdf</title>
+      <link>/resources/lec08t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec08t_note/data.json</guid>
+      <description>&lt;p&gt;This file contains thermodynamic driving forces, fundamental equation for the entropy, introduction and application of the second law and internal energy at equilibrium.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec08t.pdf</title>
+      <link>/resources/lec08t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec08t/data.json</guid>
+      <description>&lt;p&gt;This file contains thermodynamic driving forces, fundamental equation for the entropy, introduction and application of the second law and internal energy at equilibrium.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec09b_note.pdf</title>
+      <link>/resources/lec09b_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec09b_note/data.json</guid>
+      <description>&lt;p&gt;This file contains notes for variational principles, good quantum numbers, atomic units, energy of hydrogen atoms, linear combination of atomic model etc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec09b.pdf</title>
+      <link>/resources/lec09b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec09b/data.json</guid>
+      <description>&lt;p&gt;This file contains notes for variational principles, good quantum numbers, atomic units, energy of hydrogen atoms, linear combination of atomic model etc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec09t_note.pdf</title>
+      <link>/resources/lec09t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec09t_note/data.json</guid>
+      <description>&lt;p&gt;This file contains mechanical equilibrium, internal energy, thermodynamic functions for laboratory conditions, Gibbs free energy, Helmholtz free energy and mathematical theorems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec09t.pdf</title>
+      <link>/resources/lec09t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec09t/data.json</guid>
+      <description>&lt;p&gt;This file contains mechanical equilibrium, internal energy, thermodynamic functions for laboratory conditions, Gibbs free energy, Helmholtz free energy and mathematical theorems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec10b_note.pdf</title>
+      <link>/resources/lec10b_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec10b_note/data.json</guid>
+      <description>&lt;p&gt;This resource provides class notes on topics such as energy of a molecule, linear combination of atomic orbitals, formation of a bonding orbital, formation of an antibondingorbital, bonding and antibonding, many-atoms hamiltonian, molecular orbitals from atomic orbitals, hybridization, and carbon compounds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec10b.pdf</title>
+      <link>/resources/lec10b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec10b/data.json</guid>
+      <description>&lt;p&gt;This resource provides class notes on topics such as energy of a molecule, linear combination of atomic orbitals, formation of a bonding orbital, formation of an antibondingorbital, bonding and antibonding, many-atoms hamiltonian, molecular orbitals from atomic orbitals, hybridization, and carbon compounds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec10t_note.pdf</title>
+      <link>/resources/lec10t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec10t_note/data.json</guid>
+      <description>&lt;p&gt;This file contains spontaneous wetting, multi-phase/multi-component systems and chemical potentials in multi-phase materials at equilibrium.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec10t.pdf</title>
+      <link>/resources/lec10t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec10t/data.json</guid>
+      <description>&lt;p&gt;This file contains spontaneous wetting, multi-phase/multi-component systems and chemical potentials in multi-phase materials at equilibrium.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec11b_note.pdf</title>
+      <link>/resources/lec11b_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec11b_note/data.json</guid>
+      <description>&lt;p&gt;This resource contains class notes on topics such as complexity of the many-body ?, mean-field approach, hartree equations, differential analyzer, spin-statistics, slater determinant, pauli principle, hartree-fock equations, homonuclear diatomic levels.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec11b.pdf</title>
+      <link>/resources/lec11b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec11b/data.json</guid>
+      <description>&lt;p&gt;This resource contains class notes on topics such as complexity of the many-body ?, mean-field approach, hartree equations, differential analyzer, spin-statistics, slater determinant, pauli principle, hartree-fock equations, homonuclear diatomic levels.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec11t_note.pdf</title>
+      <link>/resources/lec11t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec11t_note/data.json</guid>
+      <description>&lt;p&gt;This file contains relationship between chemical potential and gibbs free energy, chemical potential of the ideal gas, general solution model and ideal solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec11t.pdf</title>
+      <link>/resources/lec11t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec11t/data.json</guid>
+      <description>&lt;p&gt;This file contains relationship between chemical potential and gibbs free energy, chemical potential of the ideal gas, general solution model and ideal solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec12b.pdf</title>
+      <link>/resources/lec12b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec12b/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>lec12t_note.pdf</title>
+      <link>/resources/lec12t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec12t_note/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>lec12t.pdf</title>
+      <link>/resources/lec12t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec12t/data.json</guid>
+      <description>&lt;p&gt;This file contains equating chemical potentials during reactions and reactions of gases with condensed phases.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec13b.pdf</title>
+      <link>/resources/lec13b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec13b/data.json</guid>
+      <description>&lt;p&gt;This resource provides class notes on topics such as matrix formulation, the quantization of vibrations, quantum harmonic oscillator, quantum oscillator applet, structure, symmetry, and group therapy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec13t_note.pdf</title>
+      <link>/resources/lec13t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec13t_note/data.json</guid>
+      <description>&lt;p&gt;This file contains the electrochemical potential and materials design of other current battery and fuel cell technologies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec13t.pdf</title>
+      <link>/resources/lec13t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec13t/data.json</guid>
+      <description>&lt;p&gt;This file contains the electrochemical potential and materials design of other current battery and fuel cell technologies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec14b.pdf</title>
+      <link>/resources/lec14b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec14b/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>lec14t_note.pdf</title>
+      <link>/resources/lec14t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec14t_note/data.json</guid>
+      <description>&lt;p&gt;This file contains thermodynamics of a battery, implications of stability requirements for the properties of materials, requirements for the shape of free energy curves and maxwell relations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec14t.pdf</title>
+      <link>/resources/lec14t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec14t/data.json</guid>
+      <description>&lt;p&gt;This file contains thermodynamics of a battery, implications of stability requirements for the properties of materials, requirements for the shape of free energy curves and maxwell relations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec15b.pdf</title>
+      <link>/resources/lec15b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec15b/data.json</guid>
+      <description>&lt;p&gt;This resource provides class notes on topics such as from graphite to nanotubes, point group symmetries in 3 dim, translational symmetry, rotations compatible with translations, bravais lattices, and schoenflies notation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec15t_note.pdf</title>
+      <link>/resources/lec15t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec15t_note/data.json</guid>
+      <description>&lt;p&gt;This file includes behavior of chemical potential/moral free energy in single component materials, phase diagrams, Gibbs phase rule and Clausius-Clapeyron equation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec15t.pdf</title>
+      <link>/resources/lec15t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec15t/data.json</guid>
+      <description>&lt;p&gt;This file includes behavior of chemical potential/moral free energy in single component materials, phase diagrams, Gibbs phase rule and Clausius-Clapeyron equation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec16b_note.pdf</title>
+      <link>/resources/lec16b_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec16b_note/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>lec16b.pdf</title>
+      <link>/resources/lec16b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec16b/data.json</guid>
+      <description>&lt;p&gt;This resource provides information on topics such as space groups, bravais lattices: simple cubic, body-centered cubic, primitive unit cell and conventional unit cell, wigner-seitz cell, and close-packed structures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec16t_note.pdf</title>
+      <link>/resources/lec16t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec16t_note/data.json</guid>
+      <description>&lt;p&gt;This file includes single-component phase diagrams and the Gibbs phase rule, The Clausius-Clapeyron equation, Graphical constructions of the free energy in mixtures and solutions, free energy diagrams of ideal solutions, melting point depression and the common tangent construction and the lever rule.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec16t.pdf</title>
+      <link>/resources/lec16t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec16t/data.json</guid>
+      <description>&lt;p&gt;This file includes single-component phase diagrams and the Gibbs phase rule, The Clausius-Clapeyron equation, Graphical constructions of the free energy in mixtures and solutions, free energy diagrams of ideal solutions, melting point depression and the common tangent construction and the lever rule.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec17b_note.pdf</title>
+      <link>/resources/lec17b_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec17b_note/data.json</guid>
+      <description>&lt;p&gt;This resource contains class notes on topics such as radiation, electromagnetic spectrum, energy of an accelerated electron, moseley law, the laue experiment, and difraction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec17b.pdf</title>
+      <link>/resources/lec17b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec17b/data.json</guid>
+      <description>&lt;p&gt;This resource contains class notes on topics such as radiation, electromagnetic spectrum, energy of an accelerated electron, moseley law, the laue experiment, and difraction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec17t_note.pdf</title>
+      <link>/resources/lec17t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec17t_note/data.json</guid>
+      <description>&lt;p&gt;This file contains free energy diagrams of multi-phase solutions1, introduction to binary phase diagrams, binary solutions with limited miscibility: miscibility gaps.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec17t.pdf</title>
+      <link>/resources/lec17t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec17t/data.json</guid>
+      <description>&lt;p&gt;This file contains free energy diagrams of multi-phase solutions1, introduction to binary phase diagrams, binary solutions with limited miscibility: miscibility gaps.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec18b_note.pdf</title>
+      <link>/resources/lec18b_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec18b_note/data.json</guid>
+      <description>&lt;p&gt;This resource contains class notes on topics such as reciprocal lattice, first and second Laue conditions, and Ewals construction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec18b.pdf</title>
+      <link>/resources/lec18b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec18b/data.json</guid>
+      <description>&lt;p&gt;This resource contains class notes on topics such as reciprocal lattice, first and second Laue conditions, and Ewals construction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec18t_note.pdf</title>
+      <link>/resources/lec18t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec18t_note/data.json</guid>
+      <description>&lt;p&gt;This file contains free energy and phase diagrams of ideal binary solutions, binary solutions with limited miscibility in the solid sate miscibility gaps and&#xA;eutectic systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec18t.pdf</title>
+      <link>/resources/lec18t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec18t/data.json</guid>
+      <description>&lt;p&gt;This file contains free energy and phase diagrams of ideal binary solutions, binary solutions with limited miscibility in the solid sate miscibility gaps and&#xA;eutectic systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec19b_note.pdf</title>
+      <link>/resources/lec19b_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec19b_note/data.json</guid>
+      <description>&lt;p&gt;This resource provides class notes on topics such as atoms as spherical scatterers, Huygens construction, all three Laue conditions, Ewald construction and powder diffraction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec19b.pdf</title>
+      <link>/resources/lec19b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec19b/data.json</guid>
+      <description>&lt;p&gt;This resource provides class notes on topics such as atoms as spherical scatterers, Huygens construction, all three Laue conditions, Ewald construction and powder diffraction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec19t_note.pdf</title>
+      <link>/resources/lec19t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec19t_note/data.json</guid>
+      <description>&lt;p&gt;This file contains eutectic binary systems, invariant points in binary systems, Intermediate compounds in phase diagrams, example binary phase diagrams, delineating stable and metastable phase boundaries: Spinodals and Miscibility Gaps and ternary solution pahse diagrams.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec19t.pdf</title>
+      <link>/resources/lec19t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec19t/data.json</guid>
+      <description>&lt;p&gt;This file contains eutectic binary systems, invariant points in binary systems, Intermediate compounds in phase diagrams, example binary phase diagrams, delineating stable and metastable phase boundaries: Spinodals and Miscibility Gaps and ternary solution pahse diagrams.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec20b_note.pdf</title>
+      <link>/resources/lec20b_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec20b_note/data.json</guid>
+      <description>&lt;p&gt;This resource provides notes on topics such as scalars, vectors, tensors, Einstein?s convention, orthogonal matrices, and transformation law for products of co-ordinates.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec20b.pdf</title>
+      <link>/resources/lec20b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec20b/data.json</guid>
+      <description>&lt;p&gt;This resource provides notes on topics such as scalars, vectors, tensors, Einstein?s convention, orthogonal matrices, and transformation law for products of co-ordinates.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec20t_note.pdf</title>
+      <link>/resources/lec20t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec20t_note/data.json</guid>
+      <description>&lt;p&gt;This file contains conditions of stability as a function of composition, second-order phase transitions, statistical mechanics and models of materials.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec20t.pdf</title>
+      <link>/resources/lec20t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec20t/data.json</guid>
+      <description>&lt;p&gt;This file contains conditions for stability as a function of composition, scond-order transitions and statistical mechanics and models of materials.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec21b_note.pdf</title>
+      <link>/resources/lec21b_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec21b_note/data.json</guid>
+      <description>&lt;p&gt;This resource provides class notes on topics such as physical properties and their relation to symmetry, Curie?s principle, erasure: nucleation and growth of crystalline material, Te-Sb-GeAlloy, and structural descriptors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec21b.pdf</title>
+      <link>/resources/lec21b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec21b/data.json</guid>
+      <description>&lt;p&gt;This resource provides class notes on topics such as physical properties and their relation to symmetry, Curie?s principle, erasure: nucleation and growth of crystalline material, Te-Sb-GeAlloy, and structural descriptors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec21t_note.pdf</title>
+      <link>/resources/lec21t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec21t_note/data.json</guid>
+      <description>&lt;p&gt;This file includes the einstein solid microstates in isolated systems, the microscopic definition of entropy and the boltzmann factor and partition function.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec21t.pdf</title>
+      <link>/resources/lec21t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec21t/data.json</guid>
+      <description>&lt;p&gt;This file includes the einstein solid microstates in isolated systems, the microscopic definition of entropy and the boltzmann factor and partition function.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec22b_note.pdf</title>
+      <link>/resources/lec22b_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec22b_note/data.json</guid>
+      <description>&lt;p&gt;This resource provides information on topics such as pair correlation functions, models of disorder: hard spheres, polymers, glass transition, and addition vs. condensation polymerization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec22b.pdf</title>
+      <link>/resources/lec22b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec22b/data.json</guid>
+      <description>&lt;p&gt;This resource provides information on topics such as pair correlation functions, models of disorder: hard spheres, polymers, glass transition, and addition vs. condensation polymerization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec22t_note.pdf</title>
+      <link>/resources/lec22t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec22t_note/data.json</guid>
+      <description>&lt;p&gt;This file contains microscopic definition of entropy, the boltzmann factor and partition function, partition function of molecules/atoms vs. multi molecular systems, Einstein solid and examination of heat capacities of different materials.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec22t.pdf</title>
+      <link>/resources/lec22t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec22t/data.json</guid>
+      <description>&lt;p&gt;This file contains microscopic definition of entropy, the boltzmann factor and partition function, partition function of molecules/atoms vs. multi molecular systems, Einstein solid and examination of heat capacities of different materials.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec23b_note.pdf</title>
+      <link>/resources/lec23b_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec23b_note/data.json</guid>
+      <description>&lt;p&gt;This resource provides information on topics such as glass transition temperature, random walks: size of polymers, mean square displacements, solvent quality factor, diffusion: rouse chain, and large molecular weight: reptation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec23b.pdf</title>
+      <link>/resources/lec23b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec23b/data.json</guid>
+      <description>&lt;p&gt;This resource provides information on topics such as glass transition temperature, random walks: size of polymers, mean square displacements, solvent quality factor, diffusion: rouse chain, and large molecular weight: reptation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec23t_note.pdf</title>
+      <link>/resources/lec23t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec23t_note/data.json</guid>
+      <description>&lt;p&gt;This file includes the boltzmann factor and partition function, the Debye solid model, examination of heat capacities of different materials, degrees of freedom in molecular models, lattice models for translational degrees of freedom, polymer solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec23t.pdf</title>
+      <link>/resources/lec23t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec23t/data.json</guid>
+      <description>&lt;p&gt;This file includes the boltzmann factor and partition function, the Debye solid model, examination of heat capacities of different materials, degrees of freedom in molecular models, lattice models for translational degrees of freedom, polymer solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec24b_note.pdf</title>
+      <link>/resources/lec24b_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec24b_note/data.json</guid>
+      <description>&lt;p&gt;This resource provides information on topics such as fliessende krystalle!, liquid crystals, mesogens, liquid crystalline polymers, friedel classification, nematic phases, smectic phases and columnar phases.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec24b.pdf</title>
+      <link>/resources/lec24b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec24b/data.json</guid>
+      <description>&lt;p&gt;This resource provides information on topics such as fliessende krystalle!, liquid crystals, mesogens, liquid crystalline polymers, friedel classification, nematic phases, smectic phases and columnar phases.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec24t_note.pdf</title>
+      <link>/resources/lec24t_note/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec24t_note/data.json</guid>
+      <description>&lt;p&gt;This course includes Lattice models of solutions, Entropy of mixing in the Flory-Huggins model, the energy of mixing in the Flory- Huggins model and predictions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec24t.pdf</title>
+      <link>/resources/lec24t/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec24t/data.json</guid>
+      <description>&lt;p&gt;This course includes Lattice models of solutions, Entropy of mixing in the Flory-Huggins model, the energy of mixing in the Flory- Huggins model and predictions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;Each class lecture includes structure and bonding content and thermodynamics content.&lt;/p&gt;&#xA;&lt;p&gt;Instructor for Structure and Bonding: Prof. Nicola Marzari&lt;br&gt;&#xA;Instructor for Thermodynamics: Prof. Darrell Irvine&lt;/p&gt;&#xA;&lt;p&gt;For most lectures, slides are presented below in two versions: the original slides, and annotated slides with in-class markup by the instructors.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA; &#xA;&lt;/th&gt;&#xA;&#xA;&lt;th colspan=&#34;2&#34;&gt;&#xA;&#xA;Structure and Bonding                          &#xA;&lt;/th&gt;&#xA;&#xA;&lt;th colspan=&#34;2&#34;&gt;&#xA;&#xA;Thermodynamics&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Ses #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Topics&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Annotated Slides&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Topics&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Annotated Slides&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td colspan=&#34;5&#34;&gt;&#xA;&#xA;Orientation: Research and Careers in Materials Science and Engineering (&lt;a href=&#34;../../resources/lec0_orientation/index.html&#34;&gt;PDF - 2.6 MB&lt;/a&gt;) (Courtesy of Prof. Caroline Ross. Used with permission.)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>orientation.pdf</title>
+      <link>/resources/orientation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/orientation/data.json</guid>
+      <description>&lt;p&gt;This resource provides information about the department of materials science and engineering and includes information such as an overview of the department, evolution of materials science and engineering, and the new undergraduate curriculum.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>syllabus_thermo.pdf</title>
+      <link>/resources/syllabus_thermo/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/syllabus_thermo/data.json</guid>
+      <description>&lt;p&gt;This resource provides an overview and general information about class lecture notes, reading assignments and additional resources.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

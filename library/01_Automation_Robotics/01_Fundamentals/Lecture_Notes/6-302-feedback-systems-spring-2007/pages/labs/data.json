@@ -1,0 +1,16 @@
+
+{
+  "content": "\n    <h3 id=\"lab-1-motor-lab\">Lab 1: Motor Lab</h3>\n\n<p>Prelab 1A (<a href=\"../../resources/prelab_1a/index.html\">PDF</a>), Lab 1A (<a href=\"../../resources/lab1a/index.html\">PDF</a>)</p>\n<p>Prelab 1B (<a href=\"../../resources/prelab_1b/index.html\">PDF</a>), Lab 1B (<a href=\"../../resources/lab1b/index.html\">PDF</a>)</p>\n<p>Prelab 1C (<a href=\"../../resources/prelab_1c/index.html\">PDF</a>), Lab 1C (<a href=\"../../resources/lab1c/index.html\">PDF</a>)</p>\n<p>Prelab 1D (<a href=\"../../resources/prelab_1d/index.html\">PDF</a>), Lab 1D (<a href=\"../../resources/lab1d/index.html\">PDF</a>)</p>\n<p>Motor Lab Take-Home Quiz (<a href=\"../../resources/motor_lab/index.html\">PDF</a>)</p>\n\n    <h3 id=\"lab-2-design-project\">Lab 2: Design Project</h3>\n\n<p>There are three options for the design project. Here are the individual lab handouts.</p>\n<p>Phase Locked Loop (<a href=\"../../resources/phaselockpage/index.html\">PDF</a>)</p>\n<p>Thermal-Control System (<a href=\"../../resources/thermal_page/index.html\">PDF</a>)</p>\n<p>Magnetic Levitator (<a href=\"../../resources/maglev/index.html\">PDF</a>)</p>\n",
+  "content_type": "page",
+  "description": "This section provides materials for the lab sessions.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Laboratory Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Labs",
+  "uid": "d764ed48-894c-f4be-6a81-65cf1ec5a2c6"
+}
+

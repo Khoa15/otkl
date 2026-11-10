@@ -1,0 +1,22 @@
+
+{
+  "content": "<p>Some of the assigned problems come from Chapra and Canale.<br>\nChapra, Steven, and Raymond Canale. <em>Numerical Methods for Engineers</em>. 7th ed. McGraw-hill Higher Education, 2014. ISBN: 9780073397924.</p>\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nPROBLEM SETS and SUPPORTING FILES\n</th>\n\n<th>\n\nKEY DATES\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n</p>\n<p><a href=\"../../resources/mit2_29s15_ps1_sp2015_v3/index.html\">Problem Set 1 (PDF)</a></p>\n<p><a href=\"../../resources/newtonraphson_skel/index.html\">NewtonRaphson Skeleton (ZIP)</a> (This file contains: 1 .m file.)</p>\n<p></td>\n\n<td>\n</p>\n<p>Posted: Lecture 2</p>\n<p>Due: Lecture 5</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n</p>\n<p><a href=\"../../resources/mit2_29s15_ps2_sp2015_v4/index.html\">Problem Set 2 (PDF)</a></p>\n<p><a href=\"../../resources/lyn_sys_solver-m/index.html\">Lyn_sys_solver.M (M)</a></p>\n<p></td>\n\n<td>\n</p>\n<p>Posted: Lecture 5</p>\n<p>Due: Lecture 9</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n</p>\n<p><a href=\"../../resources/mit2_29s15_ps3_sp2015_v1/index.html\">Problem Set 3 (PDF)</a></p>\n<p><a href=\"../../resources/mit2_29s15_node_ordering/index.html\">Node Ordering, Numbering, and Boundary Conditions (PDF)</a></p>\n<p><a href=\"../../resources/ps3_2_29_sp2015_codes_final/index.html\">MATLAB® Codes for Problem Set 3 (ZIP)</a> (This file contains: 6 .m file.)</p>\n<p></td>\n\n<td>\n</p>\n<p>Posted: Lecture 9</p>\n<p>Due: Lecture 13</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n\n<a href=\"../../resources/mit2_29s15_ps4_sp2015_v1/index.html\">Problem Set 4 (PDF)</a>\n</td>\n\n<td>\n</p>\n<p>Posted: Lecture 13</p>\n<p>Due: Lecture 16</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n</p>\n<p><a href=\"../../resources/mit2_29s15_ps5_sp2015_v3/index.html\">Problem Set 5 (PDF)</a></p>\n<p><a href=\"../../resources/matlab_script_for_problem_set5/index.html\">MATLAB Codes for Problem Set 5 (TXT)</a></p>\n<p></td>\n\n<td>\n</p>\n<p>Posted: Lecture 16</p>\n<p>Due: Lecture 19</p>\n</td>\n\n<p></tr>\n\n<tr>\n\n<td>\n</p>\n<p><a href=\"../../resources/mit2_29s15_ps6_sp2015_v1/index.html\">Problem Set 6 (PDF)</a></p>\n<p><a href=\"../../resources/matlab_script_for_problem_set6/index.html\">MATLAB Codes for Problem Set 6 (TXT)</a></p>\n<p></td>\n\n<td>\n</p>\n<p>Posted: Lecture 19</p>\n<p>Due: Lecture 22</p>\n</td>\n\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section provides the problem sets assigned for the course, supporting files, and key dates.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Assignments",
+  "uid": "18f8e3b9-0e75-225c-4548-7e4c60e79872",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

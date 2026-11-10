@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture presentation on CMOS analysis, subthreshold leakage, and scaling rules.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture presentation on CMOS analysis, subthreshold leakage, and scaling rules.",
+  "draft": false,
+  "file": "/courses/6-012-microelectronic-devices-and-circuits-fall-2009/401826ae17776d01e400599e2e5328f4_MIT6_012F09_lec16.pdf",
+  "file_size": 538103,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "e4c7985c-766a-2f9c-5bac-08869dd8bade",
+  "resourcetype": "Document",
+  "title": "Lecture 16 - CMOS scaling; The Roadmap",
+  "uid": "401826ae-1777-6d01-e400-599e2e5328f4"
+}

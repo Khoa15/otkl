@@ -1,0 +1,24 @@
+{
+  "content": "<p>Fig.1: The structure of the 16.842 / ENG-421 class follows the “V” model. Session numbers are indicated with a number between 1-12. Courtesy of Prof. Olivier de Weck.</p>\n",
+  "content_type": "resource",
+  "description": "Fig.1: The structure of the 16.842 / ENG-421 class follows the “V” model. Session numbers are indicated with a number between 1-12. Courtesy of Prof. Olivier de Weck.",
+  "draft": false,
+  "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/dfe30f337f85b8ae2d33ffc4884c1552_16-842f15-figure-1.jpg",
+  "file_size": 39933,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Fig.1: The structure of the 16.842 / ENG-421 class follows the “V” model. Session numbers are indicated with a number between 1-12.",
+    "credit": "Courtesy of Prof. Olivier de Weck.",
+    "image-alt": "Flow chart of V-Model."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Syllabus",
+  "parent_type": "CourseSection",
+  "parent_uid": "2ae644ba-0682-5588-54b4-6e443f9445ea",
+  "resourcetype": "Image",
+  "title": "Fig1 Vo Model.jpg",
+  "uid": "dfe30f33-7f85-b8ae-2d33-ffc4884c1552"
+}

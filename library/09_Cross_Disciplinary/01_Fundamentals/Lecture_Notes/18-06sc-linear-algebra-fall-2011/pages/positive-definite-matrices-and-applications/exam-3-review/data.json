@@ -1,0 +1,20 @@
+
+{
+  "content": "<p>« <a href=\"../../../pages/positive-definite-matrices-and-applications/left-and-right-inverses-pseudoinverse/index.html\">Previous</a> | <a href=\"../../../pages/positive-definite-matrices-and-applications/exam-3/index.html\">Next</a> »</p>\n\n    <h3 id=\"session-overview\">Session Overview</h3>\n\n<p><table>\n\n<tr>\n\n<td>\n\n<img src=\"../../../static_resources/9c2e31b4d527feed3d7e6686c8368b80_Exam_3_Review.jpg\" alt=\"\" loading=\"lazy\" decoding=\"async\" />\n</td>\n\n<td>\n</p>\n<p>Exam 3 covers the understanding of matrices through their eigenvalues. Elimination is history now, because it does NOT preserve eigenvalues. Notice the special types of matrices (like positive definite) and their factorizations.</p>\n</td>\n\n</tr>\n\n</table>\n\n\n    <h3 id=\"session-activities\">Session Activities</h3>\n\n\n    <h4 id=\"lecture-video-and-summary\">Lecture Video and Summary</h4>\n\n<ul>\n<li>Watch the video lecture <a href=\"../../../resources/exam-3-review/index.html\">Exam 3 Review</a></li>\n<li>Read the accompanying <a href=\"../../../resources/mit18_06scf11_ses3-9sum/index.html\">lecture summary (PDF)</a></li>\n<li><a href=\"../../../resources/hgc1l_6yskc-1/index.html\">Lecture video transcript (PDF)</a></li>\n</ul>\n\n    <h4 id=\"suggested-reading\">Suggested Reading</h4>\n\n<ul>\n<li>Review Chapters 6 and 7, plus Sections 10.2 through 10.3 in the 4<sup>th</sup> edition or Review Chapters 6, 7, and 8 plus Sections 9.2 through 9.3 in the 5<sup>th</sup> edition.</li>\n</ul>\n\n    <h4 id=\"problem-solving-video\">Problem Solving Video</h4>\n\n<ul>\n<li>Watch the recitation video on <a href=\"../../../resources/exam-3-problem-solving/index.html\">Exam 3 Problem Solving</a></li>\n<li><a href=\"../../../resources/oshy7ycgbae-1/index.html\">Recitation video transcript (PDF)</a></li>\n</ul>\n<p>« <a href=\"../../../pages/positive-definite-matrices-and-applications/left-and-right-inverses-pseudoinverse/index.html\">Previous</a> | <a href=\"../../../pages/positive-definite-matrices-and-applications/exam-3/index.html\">Next</a> »</p>\n",
+  "content_type": "page",
+  "description": "This section provides review materials for the third exam of the course, covering the understanding of matrices through their eigenvalues.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "parent_title": "Unit III: Positive Definite Matrices and Applications",
+  "parent_type": "CourseSection",
+  "parent_uid": "34f596bc-2328-22be-5fba-75646f6970c5",
+  "title": "Exam 3 Review",
+  "uid": "832ceb87-f20f-cd83-981c-236a6c11e277",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

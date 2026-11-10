@@ -1,0 +1,22 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/8-04-quantum-physics-i-spring-2016/8OsUQ1yXCcI_captions.webvtt",
+  "file_size": 25509,
+  "file_type": "application/x-subrip",
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "resourcetype": "Other",
+  "title": "Photons and the loss of determinism captions",
+  "uid": "247cfa03-1d28-4a83-96e8-23d2dafb92b8",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": "8OsUQ1yXCcI"
+  }
+}

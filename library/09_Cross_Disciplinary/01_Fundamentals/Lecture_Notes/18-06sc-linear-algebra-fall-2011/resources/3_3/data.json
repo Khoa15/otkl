@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/4b19b2c52c0d314479d60eb3417bb4ab_3_3.jpg",
+  "file_size": 5637,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from 'Introduction to Linear Algebra' by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Positive Definite Matrices and Minima",
+  "parent_type": "CourseSection",
+  "parent_uid": "c75e4546-e980-a4f3-4fba-9c17295b6b7b",
+  "resourcetype": "Image",
+  "title": "3_3.jpg",
+  "uid": "4b19b2c5-2c0d-3144-79d6-0eb3417bb4ab",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

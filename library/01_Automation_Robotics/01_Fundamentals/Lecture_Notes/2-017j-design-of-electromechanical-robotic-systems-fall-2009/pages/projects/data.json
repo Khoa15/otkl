@@ -1,0 +1,22 @@
+
+{
+  "content": "<p>Project Descriptions (<a href=\"../../resources/mit2_017jf09_options/index.html\">PDF</a>)</p>\n<p>Guidelines for each project document were provided by the instructors. All student work is presented with permission of the authors.</p>\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nPROJECTS\n</th>\n\n<th>\n\nPROPOSALS\n</th>\n\n<th>\n\nMILESTONES\n</th>\n\n<th>\n\nREPORTS\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\nGuidelines\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_proposal/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_milestone/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_final/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nGroup 1: Autonomous Navigation of a Quadrotor Helicopter<br>\nUsing GPS and Vision Control\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_sw1_proposal/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_sw1_milstone/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_sw1_final/index.html\">PDF - 2.4MB</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nGroup 2: Design of an Autonomous Bridge-Mapping Hydroplane\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_sw2_proposal/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_sw2_milstone/index.html\">PDF - 3.5MB</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit2_017jf09_sw2_final/index.html\">PDF - 2.9MB</a>)\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section provides project descriptions and examples of student work.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Projects"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Projects",
+  "uid": "0a360554-985c-99fa-3796-247dbdb86c74",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

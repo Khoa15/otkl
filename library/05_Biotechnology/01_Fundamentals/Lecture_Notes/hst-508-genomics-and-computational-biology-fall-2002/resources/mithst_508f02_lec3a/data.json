@@ -1,0 +1,43 @@
+{
+  "body": "",
+  "content": "<p>We&rsquo;ll start with types of mutants and how they&rsquo;re represented for bioinformatic purposes. We&rsquo;ll talk about the three main methods by which mutations occur, drift, and select.</p>\n",
+  "content_type": "resource",
+  "draft": false,
+  "file": "/courses/hst-508-genomics-and-computational-biology-fall-2002/mithst_508f02_lec3a_360p_16_9.mp4",
+  "file_size": 83709529,
+  "file_type": "video/mp4",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Audio"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Video",
+  "title": "3A. DNA 1: Genome Sequencing, Polymorphisms, Populations, Statistics, Pharmacogenomics...",
+  "uid": "93defc8c-3bdc-4912-9d2c-6918868926d5",
+  "video_files": {
+    "video_captions_resources": [
+      {
+        "file": "/courses/hst-508-genomics-and-computational-biology-fall-2002/mithst_508f02_captions.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/WDUPvNCbLhs/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/hst-508-genomics-and-computational-biology-fall-2002/mithst_508f02_transcript.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "dna, genome sequencing, hst-508-genomics-and-computational-biology-fall-2002, mutations, polymorphisms, populations, selection, statistics",
+    "youtube_description": "MIT HST.508 Genomics and Computational Biology, Fall 2002\nInstructor: George Church\nView the complete course: https://ocw.mit.edu/courses/hst-508-genomics-and-computational-biology-fall-2002/\nYouTube Playlist: https://www.youtube.com/playlist?list=PLUl4u3cNGP61gaHWysmlYNeGsuUI8y5GV\n\nWe'll start with types of mutants and how they're represented for bioinformatic purposes. We'll talk about the three main methods by which mutations occur, drift, and select.\n\nLicense: Creative Commons BY-NC-SA\nMore information at https://ocw.mit.edu/terms\nMore courses at https://ocw.mit.edu\nSupport OCW at http://ow.ly/a1If50zVRlQ\n\nWe encourage constructive comments and discussion on OCW‚ YouTube and other social media channels. Personal attacks, hate speech, trolling, and inappropriate comments are not allowed and may be removed. More details at https://ocw.mit.edu/comments.",
+    "youtube_id": "WDUPvNCbLhs"
+  }
+}

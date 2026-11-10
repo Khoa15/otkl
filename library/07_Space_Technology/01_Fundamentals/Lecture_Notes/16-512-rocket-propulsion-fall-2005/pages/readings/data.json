@@ -1,0 +1,16 @@
+
+{
+  "content": "<p>Along with the complete set of <a href=\"../../pages/lecture-notes/index.html\">lecture notes</a>, the following readings were assigned in the class:</p>\n<p>Sutton, George, and Oscar Biblarz. <em>Rocket Propulsion Elements</em>. New York, NY: Wiley-Interscience, 2000. ISBN: 0471326429.</p>\n<p>Hill, Philip and Carl Peterson. <em>Mechanics and Thermodynamics of Propulsion</em>. Upper Saddle River, NJ: Prentice Hall, 1991. ISBN: 0201146592.</p>\n<p>Rohsenow, Warren, James Hartnett, and Young Cho. <em>Handbook of Heat Transfer</em>. New York, NY: McGraw-Hill, 1998. ISBN: 0070535558.</p>\n<p>McAdams, William Henry. <em>Heat Transmission</em>. Melbourne, FL: Krieger Publishing, 1985, pp. 82-97. ISBN: 0898748763.</p>\n<p>Hagemann, Gerald, Hans Immich, Thong Van Nguyen, and Gennady Dumnov. &ldquo;Advanced Rocket Nozzles.&rdquo; <em>Journal of Propulsion and Power</em> 14, no. 5 (September-October 1998).</p>\n<p>Sirignano, William. &ldquo;<a   class=\"external-link \"   target=\"_blank\"   href=\"https://doi.org/10.2514/6.2003-4784\"  aria-label=\"Current Status of Spray Combustion Modelling (opens in a new tab)\"  >Current Status of Spray Combustion Modelling</a>.&rdquo; 39th AIAA/ASME/SAE/ASEE Joint Propulsion Conference, Huntsville, Alabama, July 20-23 2003.</p>\n",
+  "content_type": "page",
+  "description": "This section contains information about additional reading materials regarding the course.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Readings"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Readings",
+  "uid": "66fab3db-1187-12d6-2125-e428110b2c8a"
+}
+

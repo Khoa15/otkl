@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/16-485-visual-navigation-for-autonomous-vehicles-vnav-fall-2020/271d9c2becb3b6ca3b0259dc75ae9704_MIT_16_485F20_Lab9Slides.pdf",
+  "file_size": 155776,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Laboratory Assignments"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lab Exercises",
+  "parent_type": "CourseSection",
+  "parent_uid": "10b3675e-0a49-2e25-a3f6-60fe59ff335e",
+  "resourcetype": "Document",
+  "title": "MIT_16_485F20_VNAV_Lab9",
+  "uid": "271d9c2b-ecb3-b6ca-3b02-59dc75ae9704",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Problem Set 1, part 3: Warm-up Notebook\nThis notebook is for beginners that have done the Mathematica tutorial. Most of it is no harder than a coloring book  It starts with cell manipulation and formatting, and it works its way up to discrete recursive functions that operate on Mathematica tables and arrays. Many of us are new to Mathematica so if you discover anything useful, please include them in your finished notebook.</p>\n",
+  "content_type": "resource",
+  "description": "Problem Set 1, part 3: Warm-up Notebook\nThis notebook is for beginners that have done the Mathematica tutorial. Most of it is no harder than a coloring book  It starts with cell manipulation and formatting, and it works its way up to discrete recursive functions that operate on Mathematica tables and arrays. Many of us are new to Mathematica so if you discover anything useful, please include them in your finished notebook.",
+  "draft": false,
+  "file": "/courses/hst-508-genomics-and-computational-biology-fall-2002/Warmup.nb",
+  "file_size": 25132,
+  "file_type": "text/plain",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "43fbbe59-f66c-1bdd-7edf-018322523e8a",
+  "resourcetype": "Other",
+  "title": "Warmup.nb",
+  "uid": "7e565f18-7f46-0c12-8f37-e41784c86485",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

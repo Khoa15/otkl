@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains information related to matrix perturbations.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information related to matrix perturbations.",
+  "draft": false,
+  "file": "/courses/6-241j-dynamic-systems-and-control-spring-2011/94e3c9b36e22bc13b0889fb54fc55351_MIT6_241JS11_lec05.pdf",
+  "file_size": 395222,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "ee668e05-ff75-8895-0bb1-7bddd4117378",
+  "resourcetype": "Document",
+  "title": "MIT6_241JS11_lec05.pdf",
+  "uid": "94e3c9b3-6e22-bc13-b088-9fb54fc55351"
+}

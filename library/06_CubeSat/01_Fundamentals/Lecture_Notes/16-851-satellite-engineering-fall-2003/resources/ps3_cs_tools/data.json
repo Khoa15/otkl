@@ -1,0 +1,47 @@
+{
+  "audience": [],
+  "content": "<p>Supporting files. The ZIP file contains: thrustersizing.m, t_solar.m, t_gg.m, t_bfield.m, t_aero.m, reacwheelsize.m, reacwheel_cmgsize.m, reachwheel&amp;cmgsize.m, obj2actuator.m, momwheelsizing.m, magtorsizing.m, ae2rv.m, and ACSsize.m.</p>\n",
+  "content_type": "resource",
+  "description": "Supporting files. The ZIP file contains: thrustersizing.m, t_solar.m, t_gg.m, t_bfield.m, t_aero.m, reacwheelsize.m, reacwheel_cmgsize.m, reachwheel&cmgsize.m, obj2actuator.m, momwheelsizing.m, magtorsizing.m, ae2rv.m, and ACSsize.m.",
+  "draft": false,
+  "file": "/courses/16-851-satellite-engineering-fall-2003/ccdc9a510b1ff680b4ad3103d6f49f12_ps3_cs_tools.zip",
+  "file_size": 6730,
+  "file_type": "application/zip",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "54e4e27d-f3ae-708b-3759-0e244c163c0f",
+  "resourcetype": "Other",
+  "title": "ps3_cs_tools.zip",
+  "uid": "ccdc9a51-0b1f-f680-b4ad-3103d6f49f12",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": {
+      "content": [],
+      "website": "16-851-satellite-engineering-fall-2003"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_resources": {
+      "content": [],
+      "website": "16-851-satellite-engineering-fall-2003"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

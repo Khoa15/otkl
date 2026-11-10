@@ -1,0 +1,21 @@
+{
+  "content": "<p>New image Upload</p>\n",
+  "content_type": "resource",
+  "description": "New image Upload",
+  "draft": false,
+  "file": "/courses/2-004-dynamics-and-control-ii-spring-2008/cf3301c6bbc37c7a6394a6b560b3d91e_2-004s08-th.jpg",
+  "file_size": 8813,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "A ship's autopilot uses dynamic feedback to adjust its heading compared to the compass setting. (Image by Prof. Rowell.)",
+    "credit": "",
+    "image-alt": "A diagram of a boat on autopilot, deviating from the desired course, with a block diagram of the feedback system that controls it."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "2-004s08-th.jpg",
+  "uid": "cf3301c6-bbc3-7c7a-6394-a6b560b3d91e"
+}

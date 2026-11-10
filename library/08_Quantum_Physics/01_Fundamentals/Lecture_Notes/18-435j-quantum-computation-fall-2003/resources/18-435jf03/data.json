@@ -1,0 +1,21 @@
+{
+  "content": "<p>Circuit for quantum counting. (Figure courtesy of Yuan-Chung Cheng.)</p>\n",
+  "content_type": "resource",
+  "description": "Circuit for quantum counting. (Figure courtesy of Yuan-Chung Cheng.)",
+  "draft": false,
+  "file": "/courses/18-435j-quantum-computation-fall-2003/16e4d41cb81f9011b985fc465397aa7e_18-435jf03.jpg",
+  "file_size": 69826,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Circuit for quantum counting. (Figure courtesy of Yuan-Chung Cheng.)",
+    "credit": "",
+    "image-alt": "A diagram of the circuit."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "18-435jf03.jpg",
+  "uid": "16e4d41c-b81f-9011-b985-fc465397aa7e"
+}

@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>Problem set on dynamics and Newtonian mechanics.</p>\n",
+  "content_type": "resource",
+  "description": "Problem set on dynamics and Newtonian mechanics.",
+  "draft": false,
+  "file": "/courses/16-07-dynamics-fall-2009/4a7f388f283b8a39578a36ad9e187bf2_MIT16_07F09_hw07.pdf",
+  "file_size": 279848,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "c3dc16c0-f81e-c127-cacf-b8aa30fa4f1b",
+  "resourcetype": "Document",
+  "title": "Problem Set 7",
+  "uid": "4a7f388f-283b-8a39-578a-36ad9e187bf2",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "16-07-dynamics-fall-2009"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "16-07-dynamics-fall-2009"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

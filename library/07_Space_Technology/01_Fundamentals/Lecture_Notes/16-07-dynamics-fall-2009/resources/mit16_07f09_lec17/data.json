@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture notes on orbit transfers and interplanetary trajectories.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on orbit transfers and interplanetary trajectories.",
+  "draft": false,
+  "file": "/courses/16-07-dynamics-fall-2009/e6393974ce4ed22b095f2e1d1a6a8e81_MIT16_07F09_Lec17.pdf",
+  "file_size": 329105,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "c74de568-7f12-1be8-c80c-73b2269c3877",
+  "resourcetype": "Document",
+  "title": "Lecture L17 – Orbit Transfers and Interplanetary Trajectories",
+  "uid": "e6393974-ce4e-d22b-095f-2e1d1a6a8e81"
+}

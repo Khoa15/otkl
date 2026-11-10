@@ -1,0 +1,20 @@
+
+{
+  "content": "\n    <h3 id=\"pspice-simulation-information\">PSPICE Simulation Information</h3>\n\n<p>Download the Microsim (now known as Orcad) DesignLab Release 8 Evaluation version, containing both Schematics and PSpice for PCs. A more up-to-date version can be downloaded from <a   class=\"external-link \"   target=\"_blank\"   href=\"http://www.orcad.com/\"  aria-label=\"OrCAD (opens in a new tab)\"  >OrCAD</a>.</p>\n<p><a   class=\"external-link \"   target=\"_blank\"   href=\"http://homepage.seas.upenn.edu/~jan/spice/spice.overview.html\"  aria-label=\"Spice tutorial (opens in a new tab)\"  >Spice tutorial</a> (courtesy of University of Pennsylvania Department of Electrical Engineering). In particular, see <a   class=\"external-link \"   target=\"_blank\"   href=\"http://homepage.seas.upenn.edu/~jan/spice/spice.guide.html#PSPICE\"  aria-label=\"How to Get Started with PSpice (opens in a new tab)\"  >How to Get Started with PSpice</a>.</p>\n\n    <h4 id=\"almost-ideal-diode-model\">(Almost) Ideal Diode Model</h4>\n\n<p>idealdiode.lib (<a href=\"../../resources/idealdiode/index.html\">LIB</a>) – If you&rsquo;re creating your circuit with the &ldquo;Schematics&rdquo; tool, incorporate this library into &ldquo;Schematics&rdquo; as follows: Select Analysis -&gt; Library and Include Files. Type the filename idealdiode.lib in the filename box (including the path to the file), and click Add Library. If you&rsquo;re creating your circuit using a standard textfile netlist, add the following lines to your file:</p>\n<p><code>X1 (node 1) (node 2) diode_ideal</code>  <br>\n<code>.lib idealdiode.lib</code></p>\n<p>idealdiode.slb (<a href=\"../../resources/idealdiode-1/index.html\">SLB</a>) – If you&rsquo;re creating your circuit with the &ldquo;Schematics&rdquo; tool, incorporate this <em>symbol</em> library into &ldquo;Schematics&rdquo; as follows: Select Options -&gt; Editor Configuration. Select the Library Settings button, and then add the file idealdiode.slb. If you&rsquo;re creating your circuit using a standard textfile netlist, you do NOT need this file.</p>\n<p>Half-wave rectifier with freewheeling diode and Commutating Inductance (<a href=\"../../resources/halfwave/index.html\">CIR</a>)</p>\n<p>Full-wave rectifier with Commutating Inductance and Current Source Load (<a href=\"../../resources/fullwave/index.html\">CIR</a>)</p>\n<p>Full-wave rectifier with RL Load (<a href=\"../../resources/rl_load/index.html\">CIR</a>)</p>\n<p>Another SPICE simulator that may be used is LTSPICE/SwitcherCAD III, developed by Linear Technology. </p>\n\n    <h3 id=\"psim-power-electronics-simulator\">PSIM Power Electronics Simulator</h3>\n\n<p>Try out the PSIM power electronics simulator for free! A demo version is available from <a   class=\"external-link \"   target=\"_blank\"   href=\"http://www.powersimtech.com/\"  aria-label=\"POWERSIM (opens in a new tab)\"  >POWERSIM</a>.</p>\n\n    <h3 id=\"more-free-resources\">More Free Resources</h3>\n\n<p>The Power Supply Manufacturer database is dedicated to designers of Switch Mode Power Supplies, and features:</p>\n<ul>\n<li>How to design a Switch Mode Power Supply, including software tools and examples.</li>\n<li>How to simulate a power supply. See PSpice simulation waveforms on their SMPS Simulation page.</li>\n<li>Lists of companies manufacturing power supplies.</li>\n<li>Information regarding SMPS components and component suppliers.</li>\n<li>Various technical articles.</li>\n</ul>\n",
+  "content_type": "page",
+  "description": "This section provides links to related resources for the course, including PSPICE simulation information, the PSIM power electronics simulator, and more free resources.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Related Resources",
+  "uid": "75dbdf7c-80e7-be23-8752-a93976c0adb5",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

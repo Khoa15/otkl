@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>6.685 Electric Machines, Course Notes 1: Electromagnetic Forces</title>
+      <link>/resources/mit6_685f13_chapter1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_685f13_chapter1/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding course notes 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.685 Electric Machines, Course Notes 10: Induction Machine Control and Simulation</title>
+      <link>/resources/mit6_685f13_chapter10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_685f13_chapter10/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding course notes 10.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.685 Electric Machines, Course Notes 11: Design Synthesis and Optimization</title>
+      <link>/resources/mit6_685f13_chapter11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_685f13_chapter11/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding course notes 11.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.685 Electric Machines, Course Notes 12: Single Phase Induction Motors, Modeling of Inductances and Resistances</title>
+      <link>/resources/mit6_685f13_chapter12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_685f13_chapter12/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding course notes 12.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.685 Electric Machines, Course Notes 2: Magnetic Circuit Basics</title>
+      <link>/resources/mit6_685f13_chapter2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_685f13_chapter2/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding course notes 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.685 Electric Machines, Course Notes 3: Eddy Currents, Surface Impedances and Loss Mechanisms</title>
+      <link>/resources/mit6_685f13_chapter3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_685f13_chapter3/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding course notes 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.685 Electric Machines, Course Notes 4: Elementary Synchronous Machine Models</title>
+      <link>/resources/mit6_685f13_chapter4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_685f13_chapter4/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding course notes 4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.685 Electric Machines, Course Notes 5: Winding Inductances</title>
+      <link>/resources/mit6_685f13_chapter5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_685f13_chapter5/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding course notes 5.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.685 Electric Machines, Course Notes 6: DC (Commutator) and Permanent Magnet Machines</title>
+      <link>/resources/mit6_685f13_chapter6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_685f13_chapter6/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding course notes 6.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.685 Electric Machines, Course Notes 7: Permanent Magnet “Brushless DC” Motors</title>
+      <link>/resources/mit6_685f13_chapter7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_685f13_chapter7/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding course notes 7.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.685 Electric Machines, Course Notes 8: Analytic Design Evaluation of Induction Machines</title>
+      <link>/resources/mit6_685f13_chapter8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_685f13_chapter8/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding course notes 8.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.685 Electric Machines, Course Notes 9: Synchronous Machine Simulation Models</title>
+      <link>/resources/mit6_685f13_chapter9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_685f13_chapter9/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding course notes 9.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Course Notes</title>
+      <link>/pages/course-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/course-notes/data.json</guid>
+      <description>&lt;p&gt;The course notes are intended to serve as the primary references for this course, and were developed over the years during which the course has been offered. The notes are organized in chapters, though the chapters may not correspond precisely with the order of the material as discussed in lecture.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;CHAP #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit6_685f13_chapter1/index.html&#34;&gt;Electromagnetic Forces (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit6_685f13_chapter2/index.html&#34;&gt;Magnetic Circuit Basics (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit6_685f13_chapter3/index.html&#34;&gt;Eddy Currents, Surface Impedances and Loss Mechanisms (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

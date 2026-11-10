@@ -1,0 +1,47 @@
+{
+  "audience": [],
+  "content": "<p>Problem set on preliminary orbit determination using Taylor series.</p>\n",
+  "content_type": "resource",
+  "description": "Problem set on preliminary orbit determination using Taylor series.",
+  "draft": false,
+  "file": "/courses/16-346-astrodynamics-fall-2008/d0ba8e462e149778cb097aab9a6ba7cf_ex_18.pdf",
+  "file_size": 112703,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "36af17ba-e00f-6efa-5f63-831e7ed7034f",
+  "resourcetype": "Document",
+  "title": "Exercises 18",
+  "uid": "d0ba8e46-2e14-9778-cb09-7aab9a6ba7cf",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": {
+      "content": [],
+      "website": "16-346-astrodynamics-fall-2008"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_resources": {
+      "content": [],
+      "website": "16-346-astrodynamics-fall-2008"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

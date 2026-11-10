@@ -1,0 +1,47 @@
+{
+  "audience": [],
+  "content": "<p>Problem set on covariance, information, estimator matrices, and space navigation from Earth to Mars.</p>\n",
+  "content_type": "resource",
+  "description": "Problem set on covariance, information, estimator matrices, and space navigation from Earth to Mars.",
+  "draft": false,
+  "file": "/courses/16-346-astrodynamics-fall-2008/2357544fb19d63f8044af7959f9d27de_ex_22.pdf",
+  "file_size": 115762,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "36af17ba-e00f-6efa-5f63-831e7ed7034f",
+  "resourcetype": "Document",
+  "title": "Exercises 22",
+  "uid": "2357544f-b19d-63f8-044a-f7959f9d27de",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": {
+      "content": [],
+      "website": "16-346-astrodynamics-fall-2008"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_resources": {
+      "content": [],
+      "website": "16-346-astrodynamics-fall-2008"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture presentation on the OCTC method for estimating frequency response, subthreshold amplifiers for ultra-lower power electronics, and frequency performance.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture presentation on the OCTC method for estimating frequency response, subthreshold amplifiers for ultra-lower power electronics, and frequency performance.",
+  "draft": false,
+  "file": "/courses/6-012-microelectronic-devices-and-circuits-fall-2009/1c4e27fee9fa66aa718087229b2868fa_MIT6_012F09_lec24.pdf",
+  "file_size": 1165247,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "e4c7985c-766a-2f9c-5bac-08869dd8bade",
+  "resourcetype": "Document",
+  "title": "Lecture 24 - Intrin. Freq. Limits",
+  "uid": "1c4e27fe-e9fa-66aa-7180-87229b2868fa"
+}

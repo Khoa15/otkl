@@ -1,0 +1,38 @@
+{
+  "content": "<p>This resource contains information on topics lumped matter discipline, demo circuit, 2KVLa and KCL example.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information on topics lumped matter discipline, demo circuit, 2KVLa and KCL example.",
+  "draft": false,
+  "file": "/courses/6-002-circuits-and-electronics-spring-2007/99b2a662083d1b1f487c55ea0f0d0220_6002_l2.pdf",
+  "file_size": 175289,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Video Lectures",
+  "parent_type": "CourseSection",
+  "parent_uid": "9b4a2ba7-a556-b234-8b0c-3f1bdd4fa8ab",
+  "resourcetype": "Document",
+  "title": "Lecture 2: Basic circuit analysis method",
+  "uid": "99b2a662-083d-1b1f-487c-55ea0f0d0220",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

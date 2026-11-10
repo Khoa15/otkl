@@ -1,0 +1,27 @@
+{
+  "content": "<p>Handwritten lecture notes on three-phase systems, three-phase rectifiers, and higher-order rectifiers.</p>\n",
+  "content_type": "resource",
+  "description": "Handwritten lecture notes on three-phase systems, three-phase rectifiers, and higher-order rectifiers.",
+  "draft": false,
+  "file": "/courses/6-334-power-electronics-spring-2007/e0761090e62c474d83113e2d3111d79d_ch15.pdf",
+  "file_size": 1056756,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "bac52feb-fdf3-e0d1-4e31-ee4c7c5e3445",
+  "resourcetype": "Document",
+  "title": "ch15.pdf",
+  "uid": "e0761090-e62c-474d-8311-3e2d3111d79d",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

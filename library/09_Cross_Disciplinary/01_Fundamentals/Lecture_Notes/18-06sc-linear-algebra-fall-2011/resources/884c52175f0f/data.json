@@ -1,0 +1,41 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "28200957",
+  "file_type": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem-solving Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Determinant Formulas and Cofactors",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "行列式",
+  "uid": "eb17c695-3ec5-a46b-0def-12e89322e40a",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT18.06SCF11-zh/MIT18_06SC_110526_L2_zh-hans-cmn_300k.mp4",
+    "video_captions_file": null,
+    "video_thumbnail_file": "https://img.youtube.com/vi/ZyYGJc9jNno/default.jpg",
+    "video_transcript_file": null
+  },
+  "video_metadata": {
+    "video_tags": "18-06sc-linear-algebra-fall-2011, 线性代数，行列式",
+    "youtube_id": "ZyYGJc9jNno"
+  }
+}

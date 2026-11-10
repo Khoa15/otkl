@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exams on MIT OpenCourseWare</title>
+    <link>/resources/exams/</link>
+    <description>Recent content in Exams on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exams</title>
+      <link>/pages/exams/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/exams/data.json</guid>
+      <description>&lt;p&gt;This section presents quizzes and solutions from the current year as well as previous years.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;EXAM #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;2008 EXAMS AND SOLUTIONS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;OLD EXAMS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;OLD EXAM SOLUTIONS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td rowspan=&#34;6&#34;&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td rowspan=&#34;6&#34;&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/quiz1sol_f08/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2007 (&lt;a href=&#34;../../resources/quiz1_18085f07/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/quiz1_sols_18085/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2006 (&lt;a href=&#34;../../resources/quiz1_18085_f06/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/q1_sol_18085_f06/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2005 (&lt;a href=&#34;../../resources/q118085f05/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/q1sols18085f05/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2004 (&lt;a href=&#34;../../resources/q118085f04/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/q1sols18085f04/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2003 (&lt;a href=&#34;../../resources/q118085f03/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/q118085f03sol/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2002 (&lt;a href=&#34;../../resources/q118085f02/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/f02q1sol/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td rowspan=&#34;6&#34;&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td rowspan=&#34;6&#34;&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/fall08qz2sol12/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2007 (&lt;a href=&#34;../../resources/quiz2f07/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/quiz2solutions/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2006 (&lt;a href=&#34;../../resources/quiz2_18085_f06/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/q2_sol_18085_f06/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2005 (&lt;a href=&#34;../../resources/quiz218085f05/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;(&lt;a href=&#34;../../resources/q2sols18085f05/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Supplementary solutions (&lt;a href=&#34;../../resources/quiz2supp/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 1, Fall 2002</title>
+      <link>/resources/q118085f02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/q118085f02/data.json</guid>
+      <description>&lt;p&gt;Quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 1, Fall 2003</title>
+      <link>/resources/q118085f03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/q118085f03/data.json</guid>
+      <description>&lt;p&gt;Quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 1, Fall 2004</title>
+      <link>/resources/q118085f04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/q118085f04/data.json</guid>
+      <description>&lt;p&gt;Quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 1, Fall 2005</title>
+      <link>/resources/q118085f05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/q118085f05/data.json</guid>
+      <description>&lt;p&gt;Quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 1, Fall 2006</title>
+      <link>/resources/quiz1_18085_f06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz1_18085_f06/data.json</guid>
+      <description>&lt;p&gt;Quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 1, Fall 2007</title>
+      <link>/resources/quiz1_18085f07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz1_18085f07/data.json</guid>
+      <description>&lt;p&gt;Quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2, Fall 2002</title>
+      <link>/resources/quiz2_18085f02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz2_18085f02/data.json</guid>
+      <description>&lt;p&gt;Quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2, Fall 2003</title>
+      <link>/resources/q218085f03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/q218085f03/data.json</guid>
+      <description>&lt;p&gt;Quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2, Fall 2004</title>
+      <link>/resources/quiz218085f04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz218085f04/data.json</guid>
+      <description>&lt;p&gt;Quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2, Fall 2005</title>
+      <link>/resources/quiz218085f05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz218085f05/data.json</guid>
+      <description>&lt;p&gt;Quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2, Fall 2006</title>
+      <link>/resources/quiz2_18085_f06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz2_18085_f06/data.json</guid>
+      <description>&lt;p&gt;Quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2, Fall 2007</title>
+      <link>/resources/quiz2f07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz2f07/data.json</guid>
+      <description>&lt;p&gt;Quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2, Supplementary Solutions</title>
+      <link>/resources/quiz2supp/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz2supp/data.json</guid>
+      <description>&lt;p&gt;Supplementary solutions to a quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 3, Fall 2002</title>
+      <link>/resources/q318085f02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/q318085f02/data.json</guid>
+      <description>&lt;p&gt;Quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 3, Fall 2003</title>
+      <link>/resources/q318085f03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/q318085f03/data.json</guid>
+      <description>&lt;p&gt;Quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 3, Fall 2004</title>
+      <link>/resources/quiz318085f04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz318085f04/data.json</guid>
+      <description>&lt;p&gt;Quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 3, Fall 2005</title>
+      <link>/resources/quiz318085f05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz318085f05/data.json</guid>
+      <description>&lt;p&gt;Quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 3, Fall 2006</title>
+      <link>/resources/quiz3_18085_f06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz3_18085_f06/data.json</guid>
+      <description>&lt;p&gt;Quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 3, Fall 2007</title>
+      <link>/resources/quiz3f07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz3f07/data.json</guid>
+      <description>&lt;p&gt;Quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 3, Fall 2008</title>
+      <link>/resources/quiz3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz3/data.json</guid>
+      <description>&lt;p&gt;Quiz on computational science and engineering.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

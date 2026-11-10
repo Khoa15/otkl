@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on MIT OpenCourseWare</title>
+    <link>/resources/assignments/</link>
+    <description>Recent content in Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignments</title>
+      <link>/pages/assignments/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/assignments/data.json</guid>
+      <description>&lt;p&gt;There were 5 Problem Sets as well as a laboratory project for this course. Only Problem Sets 1 through 4 were graded. The last Problem Set did not count toward a grade and was discussed in class.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit16_522s15_ps1/index.html&#34;&gt;Problem Set 1 (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit16_522s15_ps2/index.html&#34;&gt;Problem Set 2 (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit16_522s15_ps3/index.html&#34;&gt;Problem Set 3 (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit16_522s15_ps4/index.html&#34;&gt;Problem Set 4 (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit16_522s15_ps5/index.html&#34;&gt;Problem Set 5 (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;hahahugoshortcode8s5hbhblaboratory-project&#34;&gt;&#xA;&#xA;&lt;a name=&#34;Laboratory_Project&#34;&gt;&lt;/a&gt;Laboratory Project&lt;/h3&gt;&#xA;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../../resources/mit16_522s15_labassignment/index.html&#34;&gt;Assignment Description (PDF)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../../resources/mit16_522s15_labrules/index.html&#34;&gt;SPL Lab Rules (PDF)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../../resources/mit16_522s15_labvacuumspl2/index.html&#34;&gt;Vacuum Chamber Procedures (PDF)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../../resources/mit16_522s15_trldefinition/index.html&#34;&gt;TRL NASA Definitions (PDF)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../../resources/mit16_522s15_tensorial/index.html&#34;&gt;Tensorial Notation (PDF)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

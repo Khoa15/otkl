@@ -1,0 +1,21 @@
+{
+  "content": "<p>This course discusses orbital mechanics and space navigation necessary for flights such as the Mars Reconnaissance Orbiter. (Image by MIT OpenCourseWare, based on work done at the NASA Jet Propulsion Laboratory.)</p>\n",
+  "content_type": "resource",
+  "description": "This course discusses orbital mechanics and space navigation necessary for flights such as the Mars Reconnaissance Orbiter. (Image by MIT OpenCourseWare, based on work done at the NASA Jet Propulsion Laboratory.)",
+  "draft": false,
+  "file": "/courses/16-346-astrodynamics-fall-2008/f35b6662851c43e2c908b1be04e2e1e0_16-346f08-th.jpg",
+  "file_size": 9649,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "The first realistic multiple flyby orbit, discovered January 26, 1961 using trial and error.  (Image courtesy of Richard Battin.)",
+    "credit": "",
+    "image-alt": "Diagram of a Venus and Mars double-reconnaissance trajectory."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Diagram of a Venus and Mars double-reconnaissance trajectory",
+  "uid": "f35b6662-851c-43e2-c908-b1be04e2e1e0"
+}

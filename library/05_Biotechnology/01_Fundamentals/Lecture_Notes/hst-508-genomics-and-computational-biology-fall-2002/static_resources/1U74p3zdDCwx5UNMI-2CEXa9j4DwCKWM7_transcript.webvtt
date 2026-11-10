@@ -1,0 +1,4344 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.610 align:middle line:90%
+
+
+00:00:00.610 --> 00:00:02.440 align:middle line:84%
+The following
+content is provided
+
+00:00:02.440 --> 00:00:06.340 align:middle line:84%
+by MIT OpenCourseWare under
+a Creative Commons license.
+
+00:00:06.340 --> 00:00:08.470 align:middle line:84%
+Additional information
+about our license
+
+00:00:08.470 --> 00:00:10.870 align:middle line:84%
+and MIT OpenCourseWare
+in general
+
+00:00:10.870 --> 00:00:12.730 align:middle line:90%
+is available at ocw.mit.edu.
+
+00:00:12.730 --> 00:00:22.167 align:middle line:90%
+
+
+00:00:22.167 --> 00:00:22.875 align:middle line:90%
+PROFESSOR: Ready?
+
+00:00:22.875 --> 00:00:26.076 align:middle line:90%
+
+
+00:00:26.076 --> 00:00:27.050 align:middle line:90%
+OK.
+
+00:00:27.050 --> 00:00:32.409 align:middle line:84%
+Well, welcome to
+the third lecture.
+
+00:00:32.409 --> 00:00:35.060 align:middle line:84%
+Quick review of what
+we did last time--
+
+00:00:35.060 --> 00:00:36.590 align:middle line:90%
+first slide.
+
+00:00:36.590 --> 00:00:43.040 align:middle line:84%
+We talked about
+purification, basically
+
+00:00:43.040 --> 00:00:46.760 align:middle line:84%
+at every level of the
+hierarchy in complexity,
+
+00:00:46.760 --> 00:00:50.870 align:middle line:84%
+from the elements all
+the way up to organisms,
+
+00:00:50.870 --> 00:00:54.620 align:middle line:84%
+and in particular, the
+awesome purification one
+
+00:00:54.620 --> 00:00:59.630 align:middle line:84%
+can get by serial dilution
+down to single molecules--
+
+00:00:59.630 --> 00:01:02.030 align:middle line:84%
+recombinant DNA
+molecules, in this case,
+
+00:01:02.030 --> 00:01:04.940 align:middle line:90%
+embedded in E. coli cells--
+
+00:01:04.940 --> 00:01:11.600 align:middle line:84%
+and how this purification
+led to a revolution,
+
+00:01:11.600 --> 00:01:14.210 align:middle line:84%
+first in biochemistry,
+then in recombinant DNA.
+
+00:01:14.210 --> 00:01:17.720 align:middle line:84%
+Molecular biology then led to
+the Genome Project and systems
+
+00:01:17.720 --> 00:01:22.820 align:middle line:84%
+biology, which brings us to
+models of interconnections.
+
+00:01:22.820 --> 00:01:27.775 align:middle line:84%
+And to start in
+with algorithms that
+
+00:01:27.775 --> 00:01:29.150 align:middle line:84%
+are useful in
+systems biology, we
+
+00:01:29.150 --> 00:01:31.567 align:middle line:84%
+start with one of the simplest
+and most robust ones, which
+
+00:01:31.567 --> 00:01:35.940 align:middle line:84%
+is this genetic code, shown here
+in the lower right-hand corner.
+
+00:01:35.940 --> 00:01:40.550 align:middle line:84%
+But as one looks at the huge
+diversity in the tree of life,
+
+00:01:40.550 --> 00:01:44.210 align:middle line:84%
+you find examples of
+exceptions to almost everything
+
+00:01:44.210 --> 00:01:46.370 align:middle line:84%
+you can come up with,
+including the genetic code.
+
+00:01:46.370 --> 00:01:49.310 align:middle line:84%
+And we talked about
+how to cherish
+
+00:01:49.310 --> 00:01:51.560 align:middle line:90%
+the exceptions, as usual, here.
+
+00:01:51.560 --> 00:01:54.680 align:middle line:84%
+And then, getting back
+to systems biology,
+
+00:01:54.680 --> 00:01:57.590 align:middle line:84%
+in terms of how one creates
+qualitative and quantitative
+
+00:01:57.590 --> 00:02:02.540 align:middle line:84%
+models from functional genomics
+data and establishes evidence.
+
+00:02:02.540 --> 00:02:04.700 align:middle line:84%
+Finally, we ended on
+mutations and selection,
+
+00:02:04.700 --> 00:02:08.419 align:middle line:84%
+as we will do in all
+three lectures here.
+
+00:02:08.419 --> 00:02:10.610 align:middle line:84%
+This lecture in
+particular will focus
+
+00:02:10.610 --> 00:02:12.870 align:middle line:90%
+on mutations and selection.
+
+00:02:12.870 --> 00:02:16.190 align:middle line:90%
+So what is today's menu?
+
+00:02:16.190 --> 00:02:19.460 align:middle line:84%
+We'll start with
+types of mutants
+
+00:02:19.460 --> 00:02:25.880 align:middle line:84%
+and how they're represented
+for bioinformatic purposes.
+
+00:02:25.880 --> 00:02:32.450 align:middle line:84%
+We'll talk about the three
+main methods by which mutations
+
+00:02:32.450 --> 00:02:35.300 align:middle line:84%
+occur, drift, and
+select so that you
+
+00:02:35.300 --> 00:02:40.220 align:middle line:84%
+can determine the frequency
+of different alleles
+
+00:02:40.220 --> 00:02:42.140 align:middle line:90%
+in populations.
+
+00:02:42.140 --> 00:02:45.840 align:middle line:84%
+In doing that, we'll rely on our
+friend from the first lecture,
+
+00:02:45.840 --> 00:02:51.260 align:middle line:84%
+the binomial distribution, in
+the context of an exponentially
+
+00:02:51.260 --> 00:02:52.970 align:middle line:90%
+growing population.
+
+00:02:52.970 --> 00:02:56.030 align:middle line:90%
+
+
+00:02:56.030 --> 00:03:00.920 align:middle line:84%
+Then, give you some
+very practical training
+
+00:03:00.920 --> 00:03:04.850 align:middle line:84%
+here on association studies,
+where we illustrate it
+
+00:03:04.850 --> 00:03:09.500 align:middle line:84%
+with a very important
+example of HIV resistance
+
+00:03:09.500 --> 00:03:12.800 align:middle line:84%
+and a very useful
+statistic, easily as
+
+00:03:12.800 --> 00:03:14.900 align:middle line:84%
+useful as the binomial
+and the Gaussian--
+
+00:03:14.900 --> 00:03:16.610 align:middle line:90%
+the chi-squared statistic.
+
+00:03:16.610 --> 00:03:18.950 align:middle line:84%
+And then, we'll continue
+to talk about association
+
+00:03:18.950 --> 00:03:24.020 align:middle line:84%
+in the context of
+causative alleles
+
+00:03:24.020 --> 00:03:26.990 align:middle line:84%
+and importance of
+getting haplotypes,
+
+00:03:26.990 --> 00:03:29.840 align:middle line:84%
+and then technologies
+that are required
+
+00:03:29.840 --> 00:03:34.340 align:middle line:84%
+that have been used to get
+the framework first genome
+
+00:03:34.340 --> 00:03:36.500 align:middle line:84%
+and how one might
+change strategy
+
+00:03:36.500 --> 00:03:39.170 align:middle line:84%
+in getting subsequent
+genomes in order
+
+00:03:39.170 --> 00:03:45.150 align:middle line:84%
+to make cost-effective these
+very large association studies.
+
+00:03:45.150 --> 00:03:47.060 align:middle line:84%
+And finally, in the
+context of that,
+
+00:03:47.060 --> 00:03:50.120 align:middle line:84%
+we'll talk about random
+and systematic errors
+
+00:03:50.120 --> 00:03:52.730 align:middle line:84%
+in more detail so you get
+lots of examples and ways
+
+00:03:52.730 --> 00:03:55.430 align:middle line:84%
+of dealing with it
+computationally.
+
+00:03:55.430 --> 00:04:00.030 align:middle line:84%
+So just to go from our brief
+discussion about our friend,
+
+00:04:00.030 --> 00:04:06.500 align:middle line:84%
+the 100% DNA sequence identity,
+or amino acid sequence identity
+
+00:04:06.500 --> 00:04:13.790 align:middle line:84%
+that you might find in the lens
+protein and enolase enzyme,
+
+00:04:13.790 --> 00:04:17.930 align:middle line:84%
+we can see that, even at
+100%, you can find differences
+
+00:04:17.930 --> 00:04:18.600 align:middle line:90%
+in function.
+
+00:04:18.600 --> 00:04:24.410 align:middle line:84%
+And so functional measures
+are a good adjunct to DNA
+
+00:04:24.410 --> 00:04:26.870 align:middle line:90%
+or amino acids' identity.
+
+00:04:26.870 --> 00:04:31.280 align:middle line:84%
+At 99.9% identity, we're
+talking about the level
+
+00:04:31.280 --> 00:04:33.650 align:middle line:84%
+of single-nucleotide
+polymorphisms
+
+00:04:33.650 --> 00:04:39.140 align:middle line:84%
+that might exist between any
+two positions in your mother
+
+00:04:39.140 --> 00:04:41.360 align:middle line:84%
+and your father's
+chromosomes in your body,
+
+00:04:41.360 --> 00:04:43.280 align:middle line:84%
+or the differences between
+one of your genomes
+
+00:04:43.280 --> 00:04:44.197 align:middle line:90%
+and one of my genomes.
+
+00:04:44.197 --> 00:04:46.370 align:middle line:84%
+About once every
+kilobase, there will be
+
+00:04:46.370 --> 00:04:49.280 align:middle line:90%
+a polymorphism, a difference.
+
+00:04:49.280 --> 00:04:53.450 align:middle line:84%
+It's often a single
+nucleotide, an A for a G.
+
+00:04:53.450 --> 00:04:56.643 align:middle line:84%
+Then, as we go to
+98% differences,
+
+00:04:56.643 --> 00:04:58.310 align:middle line:84%
+then we're talking
+about the differences
+
+00:04:58.310 --> 00:05:01.130 align:middle line:84%
+between one of our genomes
+and a chimpanzee genome--
+
+00:05:01.130 --> 00:05:04.140 align:middle line:84%
+in other words, a completely
+different genus and species.
+
+00:05:04.140 --> 00:05:07.040 align:middle line:84%
+However, by the criterion we
+mentioned in a previous lecture
+
+00:05:07.040 --> 00:05:10.250 align:middle line:84%
+about bacterial
+definitions of species,
+
+00:05:10.250 --> 00:05:12.860 align:middle line:84%
+those would be almost
+identical, and you'd
+
+00:05:12.860 --> 00:05:19.820 align:middle line:84%
+have to go to identities
+less than 70% in order
+
+00:05:19.820 --> 00:05:21.600 align:middle line:84%
+to call it a new
+bacterial species.
+
+00:05:21.600 --> 00:05:24.320 align:middle line:84%
+So you can see that this
+is a very soft number, very
+
+00:05:24.320 --> 00:05:30.080 align:middle line:84%
+dependent upon the context and
+the branch of the tree of life
+
+00:05:30.080 --> 00:05:31.340 align:middle line:90%
+that you're working with.
+
+00:05:31.340 --> 00:05:37.670 align:middle line:84%
+Then, we have sequence
+homology and very
+
+00:05:37.670 --> 00:05:40.852 align:middle line:84%
+distant homologs which are
+only detectable, as we'll
+
+00:05:40.852 --> 00:05:42.560 align:middle line:84%
+see when we get to
+the proteomics section
+
+00:05:42.560 --> 00:05:47.210 align:middle line:84%
+of this course, by
+three-dimensional structures,
+
+00:05:47.210 --> 00:05:48.080 align:middle line:90%
+not by sequence.
+
+00:05:48.080 --> 00:05:51.650 align:middle line:84%
+And that switchover--
+sequence homology
+
+00:05:51.650 --> 00:05:55.070 align:middle line:84%
+will be the topic
+of next lecture,
+
+00:05:55.070 --> 00:05:57.860 align:middle line:84%
+and the very distant
+one in 3D structures
+
+00:05:57.860 --> 00:05:59.450 align:middle line:90%
+will be later, in proteomics.
+
+00:05:59.450 --> 00:06:05.490 align:middle line:84%
+But that occurs at
+about 25% to 30%.
+
+00:06:05.490 --> 00:06:10.070 align:middle line:84%
+This is just a reminder
+and an introductory slide
+
+00:06:10.070 --> 00:06:11.280 align:middle line:90%
+to the next slide.
+
+00:06:11.280 --> 00:06:15.290 align:middle line:84%
+We have different
+phenotypic effects
+
+00:06:15.290 --> 00:06:17.420 align:middle line:84%
+due to different
+types of mutations.
+
+00:06:17.420 --> 00:06:21.570 align:middle line:84%
+And ignoring the phenotypes
+that we talked about before,
+
+00:06:21.570 --> 00:06:23.330 align:middle line:90%
+you have the types of mutations.
+
+00:06:23.330 --> 00:06:28.520 align:middle line:84%
+Classes are null mutations,
+dosage, conditional mutations,
+
+00:06:28.520 --> 00:06:31.460 align:middle line:84%
+gain-of-function, altered
+ligand specificity.
+
+00:06:31.460 --> 00:06:34.970 align:middle line:84%
+Now, that's in broad
+terms, colloquially.
+
+00:06:34.970 --> 00:06:38.390 align:middle line:84%
+But how is this achieved
+on a more molecular level,
+
+00:06:38.390 --> 00:06:40.580 align:middle line:84%
+and how do we
+represent it compactly
+
+00:06:40.580 --> 00:06:43.650 align:middle line:90%
+for bioinformatic discussion?
+
+00:06:43.650 --> 00:06:48.050 align:middle line:90%
+So we have single substitutions.
+
+00:06:48.050 --> 00:06:52.190 align:middle line:84%
+These can be a single
+base par, an AT base pair,
+
+00:06:52.190 --> 00:06:55.880 align:middle line:84%
+to a CG base pair, or a GC
+base pair to a TA base pair,
+
+00:06:55.880 --> 00:06:58.400 align:middle line:90%
+and so on.
+
+00:06:58.400 --> 00:07:01.000 align:middle line:84%
+There can be deletions
+and duplications.
+
+00:07:01.000 --> 00:07:04.010 align:middle line:90%
+
+
+00:07:04.010 --> 00:07:05.180 align:middle line:90%
+These can range.
+
+00:07:05.180 --> 00:07:08.720 align:middle line:84%
+The deletions and duplications
+be as large as a chromosome
+
+00:07:08.720 --> 00:07:10.580 align:middle line:84%
+or as small as a
+single base pair.
+
+00:07:10.580 --> 00:07:13.730 align:middle line:84%
+You can delete that A rather
+than change it into a C,
+
+00:07:13.730 --> 00:07:17.673 align:middle line:90%
+and that would be one base pair.
+
+00:07:17.673 --> 00:07:19.340 align:middle line:84%
+So when you delete
+an entire chromosome,
+
+00:07:19.340 --> 00:07:21.260 align:middle line:90%
+that's called aneuploidy.
+
+00:07:21.260 --> 00:07:24.950 align:middle line:84%
+The example in the previous
+slide was trisomy 21.
+
+00:07:24.950 --> 00:07:27.770 align:middle line:84%
+If you remove that
+chromosome 21 instead
+
+00:07:27.770 --> 00:07:31.980 align:middle line:84%
+of having three copies of
+it, it would be monosomy.
+
+00:07:31.980 --> 00:07:35.810 align:middle line:84%
+And these are huge
+consequences even
+
+00:07:35.810 --> 00:07:38.510 align:middle line:84%
+though they're fairly
+subtle changes in dosage.
+
+00:07:38.510 --> 00:07:41.090 align:middle line:84%
+Now, a special class of
+deletion and duplication
+
+00:07:41.090 --> 00:07:45.140 align:middle line:84%
+occurs when you have a
+tandem repeat of a sequence.
+
+00:07:45.140 --> 00:07:50.360 align:middle line:84%
+When you have anywhere from
+a single base repeat, AAAAA,
+
+00:07:50.360 --> 00:07:54.890 align:middle line:84%
+or dinucleotide,
+trinucleotide, all the way up,
+
+00:07:54.890 --> 00:07:59.180 align:middle line:84%
+those have a very
+high tendency for
+
+00:07:59.180 --> 00:08:04.790 align:middle line:84%
+both forward and reverse
+mutation, both deletions
+
+00:08:04.790 --> 00:08:07.580 align:middle line:84%
+and duplications, because
+at the very small level,
+
+00:08:07.580 --> 00:08:13.160 align:middle line:84%
+you have polymerase slippage
+and other microscopic events.
+
+00:08:13.160 --> 00:08:15.770 align:middle line:84%
+And then, at the
+larger level, you
+
+00:08:15.770 --> 00:08:19.400 align:middle line:84%
+have some kind of
+recombination, often homologous
+
+00:08:19.400 --> 00:08:21.440 align:middle line:84%
+recombination, that occurs
+that cause deletions
+
+00:08:21.440 --> 00:08:23.750 align:middle line:84%
+and duplications
+of tandem repeats.
+
+00:08:23.750 --> 00:08:26.720 align:middle line:90%
+An inversion here.
+
+00:08:26.720 --> 00:08:30.440 align:middle line:84%
+We're representing a
+complicated chemical event which
+
+00:08:30.440 --> 00:08:32.270 align:middle line:84%
+involves double-stranded
+DNA going
+
+00:08:32.270 --> 00:08:34.787 align:middle line:84%
+5 prime to 3 prime on the top
+strand, from left to right,
+
+00:08:34.787 --> 00:08:36.620 align:middle line:84%
+and 5 prime to 3 prime
+on the bottom strand,
+
+00:08:36.620 --> 00:08:38.413 align:middle line:90%
+going from right to left.
+
+00:08:38.413 --> 00:08:40.080 align:middle line:84%
+And you're taking a
+little chunk of that
+
+00:08:40.080 --> 00:08:42.020 align:middle line:84%
+and flipping it so that
+you break some bonds
+
+00:08:42.020 --> 00:08:44.090 align:middle line:90%
+and remake them.
+
+00:08:44.090 --> 00:08:47.870 align:middle line:84%
+All the 3 prime is
+conserved, but you've
+
+00:08:47.870 --> 00:08:50.570 align:middle line:84%
+done a reverse complement
+of the top strand
+
+00:08:50.570 --> 00:08:52.640 align:middle line:90%
+and the bottom strand.
+
+00:08:52.640 --> 00:08:56.330 align:middle line:84%
+In that reverse complement,
+you basically turn Cs into Gs
+
+00:08:56.330 --> 00:08:57.890 align:middle line:90%
+and change the order.
+
+00:08:57.890 --> 00:09:04.130 align:middle line:84%
+This is sometimes abbreviated
+for simple genetic description.
+
+00:09:04.130 --> 00:09:06.200 align:middle line:90%
+Let's say we inverted CDE.
+
+00:09:06.200 --> 00:09:10.040 align:middle line:84%
+You might change the case or
+add primes to it, color it.
+
+00:09:10.040 --> 00:09:11.540 align:middle line:84%
+In some way or
+another, you indicate
+
+00:09:11.540 --> 00:09:13.550 align:middle line:84%
+that it's now a
+reverse complement,
+
+00:09:13.550 --> 00:09:16.880 align:middle line:84%
+and of course, the gene order
+or the DNA segment order
+
+00:09:16.880 --> 00:09:19.880 align:middle line:84%
+is reversed to indicate
+that inversion.
+
+00:09:19.880 --> 00:09:22.400 align:middle line:90%
+
+
+00:09:22.400 --> 00:09:25.130 align:middle line:84%
+Translocations, insertions,
+and recombination
+
+00:09:25.130 --> 00:09:30.560 align:middle line:84%
+have in common that you
+will make a break somewhere,
+
+00:09:30.560 --> 00:09:33.860 align:middle line:84%
+and then you will bring
+in a new piece of DNA,
+
+00:09:33.860 --> 00:09:37.610 align:middle line:84%
+just like the inversion,
+where you inverted in place.
+
+00:09:37.610 --> 00:09:41.420 align:middle line:84%
+Here, it involves something
+acting at more of a distance.
+
+00:09:41.420 --> 00:09:44.540 align:middle line:84%
+You'll break between
+B and C and X and Y,
+
+00:09:44.540 --> 00:09:51.170 align:middle line:84%
+and you'll, in this case, do
+a reciprocal translocation
+
+00:09:51.170 --> 00:09:55.280 align:middle line:84%
+where you conserve all
+the DNA, and A and B
+
+00:09:55.280 --> 00:09:59.070 align:middle line:90%
+is now next to Y and Z.
+
+00:09:59.070 --> 00:10:04.350 align:middle line:84%
+An insertion is like that,
+but now the DNA need not
+
+00:10:04.350 --> 00:10:06.460 align:middle line:90%
+be reciprocal in any sense.
+
+00:10:06.460 --> 00:10:09.360 align:middle line:84%
+It can come in, more or
+less, from outer space.
+
+00:10:09.360 --> 00:10:10.555 align:middle line:90%
+Here, it came from Greece.
+
+00:10:10.555 --> 00:10:14.370 align:middle line:90%
+
+
+00:10:14.370 --> 00:10:19.500 align:middle line:84%
+It can be a transposable
+element that
+
+00:10:19.500 --> 00:10:21.660 align:middle line:84%
+came in from who knows
+where and inserted in
+
+00:10:21.660 --> 00:10:23.580 align:middle line:90%
+between the A and B.
+
+00:10:23.580 --> 00:10:24.510 align:middle line:90%
+Recombination.
+
+00:10:24.510 --> 00:10:28.140 align:middle line:84%
+Here, I illustrated this
+homologous recombination.
+
+00:10:28.140 --> 00:10:30.810 align:middle line:84%
+And you can have an
+non-homologous combination,
+
+00:10:30.810 --> 00:10:34.150 align:middle line:84%
+but this is by far the most
+common and interesting.
+
+00:10:34.150 --> 00:10:36.000 align:middle line:84%
+Even some non-homologous
+recombination
+
+00:10:36.000 --> 00:10:37.920 align:middle line:84%
+involves short
+regions of homology
+
+00:10:37.920 --> 00:10:43.380 align:middle line:84%
+where you basically have
+either two sister chromosomes
+
+00:10:43.380 --> 00:10:46.680 align:middle line:84%
+or homologs from
+mother and father
+
+00:10:46.680 --> 00:10:49.590 align:middle line:84%
+or paralogs within the
+genome where you've
+
+00:10:49.590 --> 00:10:51.990 align:middle line:84%
+got to duplicate a
+gene that might even
+
+00:10:51.990 --> 00:10:53.910 align:middle line:90%
+be on the same chromosome arm.
+
+00:10:53.910 --> 00:10:56.790 align:middle line:84%
+And now, just as with the
+deletions and duplication,
+
+00:10:56.790 --> 00:10:59.790 align:middle line:84%
+where you have tandem repeats,
+if you have repeats anywhere
+
+00:10:59.790 --> 00:11:03.720 align:middle line:84%
+in the genome, you can
+take a small difference.
+
+00:11:03.720 --> 00:11:05.430 align:middle line:84%
+We're emphasizing the
+similarities here,
+
+00:11:05.430 --> 00:11:06.972 align:middle line:84%
+but they have a few
+small differences
+
+00:11:06.972 --> 00:11:08.700 align:middle line:90%
+that allow you to track them.
+
+00:11:08.700 --> 00:11:10.770 align:middle line:84%
+Those can be exchanged
+by single-strand or
+
+00:11:10.770 --> 00:11:16.320 align:middle line:84%
+double-stranded DNA,
+various chemistries,
+
+00:11:16.320 --> 00:11:19.950 align:middle line:84%
+and you can either do a nice
+reciprocal exchange here,
+
+00:11:19.950 --> 00:11:22.320 align:middle line:84%
+where you preserve all
+the DNA and the little C
+
+00:11:22.320 --> 00:11:26.880 align:middle line:84%
+gets replacing the big C by
+some kind of crossover between D
+
+00:11:26.880 --> 00:11:29.220 align:middle line:84%
+and E, somewhere
+between C and F,
+
+00:11:29.220 --> 00:11:32.370 align:middle line:84%
+or you can have a nonreciprocal
+exchange where you pick up
+
+00:11:32.370 --> 00:11:35.530 align:middle line:84%
+a little bit of C
+and duplicate it,
+
+00:11:35.530 --> 00:11:38.880 align:middle line:84%
+and now there's no big C
+left over and only little C.
+
+00:11:38.880 --> 00:11:41.490 align:middle line:90%
+Called gene conversion.
+
+00:11:41.490 --> 00:11:42.870 align:middle line:90%
+But you get the idea.
+
+00:11:42.870 --> 00:11:45.420 align:middle line:84%
+These are a fairly
+exhaustive list
+
+00:11:45.420 --> 00:11:48.690 align:middle line:84%
+of the kinds of simple,
+elementary mutations
+
+00:11:48.690 --> 00:11:49.290 align:middle line:90%
+you can have.
+
+00:11:49.290 --> 00:11:51.840 align:middle line:84%
+Now, you can pile these
+in various combinations
+
+00:11:51.840 --> 00:11:54.250 align:middle line:84%
+with each other, and over
+long periods of time,
+
+00:11:54.250 --> 00:11:58.020 align:middle line:84%
+you can get completely
+new sequences.
+
+00:11:58.020 --> 00:12:01.680 align:middle line:84%
+There's even ways that you can
+get de novo synthesis of DNA,
+
+00:12:01.680 --> 00:12:04.380 align:middle line:84%
+such as mechanisms of
+terminal transferase, which
+
+00:12:04.380 --> 00:12:06.060 align:middle line:90%
+is used-- yes?
+
+00:12:06.060 --> 00:12:07.650 align:middle line:84%
+AUDIENCE: What are
+the [INAUDIBLE]??
+
+00:12:07.650 --> 00:12:09.900 align:middle line:84%
+PROFESSOR: Oh, we're going
+to get to that a little bit
+
+00:12:09.900 --> 00:12:11.525 align:middle line:84%
+later on, but I can
+give you a preview.
+
+00:12:11.525 --> 00:12:14.430 align:middle line:90%
+
+
+00:12:14.430 --> 00:12:18.390 align:middle line:84%
+In human genome, these point
+mutations occurred about 10
+
+00:12:18.390 --> 00:12:24.270 align:middle line:84%
+to the minus 8 per base
+pair per generation.
+
+00:12:24.270 --> 00:12:26.970 align:middle line:84%
+Deletions and duplications,
+especially in tandem regions,
+
+00:12:26.970 --> 00:12:30.630 align:middle line:84%
+can be as much as six orders
+of magnitude higher-frequency
+
+00:12:30.630 --> 00:12:33.300 align:middle line:90%
+than that.
+
+00:12:33.300 --> 00:12:37.650 align:middle line:84%
+So there's a huge variation from
+position to position and types
+
+00:12:37.650 --> 00:12:40.260 align:middle line:84%
+of alleles that will
+determine the mutation rate,
+
+00:12:40.260 --> 00:12:42.720 align:middle line:84%
+and you should be
+quite aware of that
+
+00:12:42.720 --> 00:12:47.790 align:middle line:84%
+as you go through various
+computational exercises.
+
+00:12:47.790 --> 00:12:55.650 align:middle line:84%
+This is just a bit of commonly
+accepted nomenclature.
+
+00:12:55.650 --> 00:12:58.530 align:middle line:84%
+Mutations and polymorphisms
+are basically same thing.
+
+00:12:58.530 --> 00:13:02.520 align:middle line:84%
+There are differences
+between you and me.
+
+00:13:02.520 --> 00:13:05.978 align:middle line:84%
+They become
+polymorphisms, meaning
+
+00:13:05.978 --> 00:13:08.520 align:middle line:84%
+when they are common alleles,
+when their frequency is greater
+
+00:13:08.520 --> 00:13:10.390 align:middle line:90%
+than 1% in a population.
+
+00:13:10.390 --> 00:13:14.330 align:middle line:84%
+This is common in the
+human genome community.
+
+00:13:14.330 --> 00:13:16.440 align:middle line:90%
+It may differ for other ones.
+
+00:13:16.440 --> 00:13:20.550 align:middle line:84%
+But this is roughly where
+a mutation which is rare--
+
+00:13:20.550 --> 00:13:22.630 align:middle line:84%
+less than 1%-- becomes
+a polymorphism,
+
+00:13:22.630 --> 00:13:25.950 align:middle line:84%
+which is frequent--
+more than 1%.
+
+00:13:25.950 --> 00:13:30.390 align:middle line:84%
+As a counterpoint to that, I
+would say that there is a good
+
+00:13:30.390 --> 00:13:34.380 align:middle line:84%
+chance that every possible
+single-nucleotide polymorphism
+
+00:13:34.380 --> 00:13:39.240 align:middle line:84%
+that could exist does exist in
+a population as large as ours
+
+00:13:39.240 --> 00:13:43.140 align:middle line:84%
+and mutation rates which
+are modest but still,
+
+00:13:43.140 --> 00:13:46.590 align:middle line:84%
+over long periods of time, allow
+the accumulation of mutations
+
+00:13:46.590 --> 00:13:49.650 align:middle line:84%
+such that, rather than
+having maybe 3 million common
+
+00:13:49.650 --> 00:13:52.800 align:middle line:84%
+single-nucleotide
+polymorphisms, or SNPs,
+
+00:13:52.800 --> 00:13:54.696 align:middle line:90%
+we might have 12 billion--
+
+00:13:54.696 --> 00:13:55.980 align:middle line:90%
+one at every position.
+
+00:13:55.980 --> 00:13:57.930 align:middle line:84%
+And in a later
+slide, we'll actually
+
+00:13:57.930 --> 00:14:04.140 align:middle line:84%
+go through and calculate
+crudely why the frequency should
+
+00:14:04.140 --> 00:14:06.150 align:middle line:84%
+be around 10 to
+the minus 5 and why
+
+00:14:06.150 --> 00:14:09.780 align:middle line:84%
+there should be about
+10,000 of us representing
+
+00:14:09.780 --> 00:14:13.350 align:middle line:84%
+each of these
+so-called rare alleles.
+
+00:14:13.350 --> 00:14:16.515 align:middle line:84%
+They're rare individually,
+but they're common as a group.
+
+00:14:16.515 --> 00:14:18.962 align:middle line:90%
+
+
+00:14:18.962 --> 00:14:21.420 align:middle line:84%
+It will make a difference as
+to whether we're talking about
+
+00:14:21.420 --> 00:14:25.980 align:middle line:84%
+whether these polymorphisms are
+linked to your favorite trait
+
+00:14:25.980 --> 00:14:28.230 align:middle line:84%
+or whether they
+actually cause it,
+
+00:14:28.230 --> 00:14:32.214 align:middle line:84%
+whether they're
+part of the cause.
+
+00:14:32.214 --> 00:14:36.730 align:middle line:84%
+No particular one can be said
+to be 1-to-1 with a cause.
+
+00:14:36.730 --> 00:14:41.130 align:middle line:84%
+It's all a collection of
+mutations and environment.
+
+00:14:41.130 --> 00:14:42.180 align:middle line:90%
+Now, haplotypes.
+
+00:14:42.180 --> 00:14:43.950 align:middle line:90%
+What do we mean by haplotypes?
+
+00:14:43.950 --> 00:14:45.960 align:middle line:84%
+We've introduced SNPs,
+single-nucleotide
+
+00:14:45.960 --> 00:14:46.980 align:middle line:90%
+polymorphisms.
+
+00:14:46.980 --> 00:14:51.540 align:middle line:84%
+If you have a SNP
+that, let's say,
+
+00:14:51.540 --> 00:14:56.130 align:middle line:84%
+is involved in
+causing a APOE4 we'll
+
+00:14:56.130 --> 00:14:59.130 align:middle line:84%
+introduce in just a
+moment, an allele that
+
+00:14:59.130 --> 00:15:03.840 align:middle line:84%
+is associated with increased
+risk of Alzheimer's disease--
+
+00:15:03.840 --> 00:15:09.090 align:middle line:84%
+and let's say that protein has
+a known change in the protein
+
+00:15:09.090 --> 00:15:13.140 align:middle line:84%
+three-dimensional
+structure, and you
+
+00:15:13.140 --> 00:15:16.860 align:middle line:84%
+can call that the bad allele,
+or the associated allele.
+
+00:15:16.860 --> 00:15:20.730 align:middle line:84%
+Now if that protein
+were expressed
+
+00:15:20.730 --> 00:15:23.400 align:middle line:84%
+at a low level-- for example,
+if you had a promoter mutation
+
+00:15:23.400 --> 00:15:25.920 align:middle line:84%
+or enhancer mutation--
+then that haplotype,
+
+00:15:25.920 --> 00:15:29.670 align:middle line:84%
+that combination of promoter
+mutation and protein mutation,
+
+00:15:29.670 --> 00:15:33.810 align:middle line:84%
+is a more significant predictor
+than either one of them
+
+00:15:33.810 --> 00:15:34.480 align:middle line:90%
+separately.
+
+00:15:34.480 --> 00:15:36.480 align:middle line:84%
+And the fact that they're
+on the same chromosome
+
+00:15:36.480 --> 00:15:39.720 align:middle line:84%
+is important because if the
+promoter or enhancer that
+
+00:15:39.720 --> 00:15:43.920 align:middle line:84%
+determines the level
+of the protein in cis,
+
+00:15:43.920 --> 00:15:47.410 align:middle line:84%
+meaning on the same DNA, or in
+trans, makes a huge difference.
+
+00:15:47.410 --> 00:15:49.200 align:middle line:84%
+So that's what
+haplotyping is all about.
+
+00:15:49.200 --> 00:15:51.690 align:middle line:84%
+It's determining
+what mutations are
+
+00:15:51.690 --> 00:15:57.330 align:middle line:84%
+in cis on the same DNA in
+order to make associations
+
+00:15:57.330 --> 00:16:00.390 align:middle line:84%
+biologically meaningful and,
+in terms of systems biology,
+
+00:16:00.390 --> 00:16:01.890 align:middle line:84%
+interpreting them,
+in terms of what
+
+00:16:01.890 --> 00:16:08.490 align:middle line:84%
+you know about regulatory
+elements and protein elements.
+
+00:16:08.490 --> 00:16:14.070 align:middle line:84%
+These haplotypes can be inferred
+indirectly from diploid data
+
+00:16:14.070 --> 00:16:21.690 align:middle line:84%
+from how alleles segregate in
+small families or in siblings
+
+00:16:21.690 --> 00:16:23.100 align:middle line:90%
+and so forth.
+
+00:16:23.100 --> 00:16:27.543 align:middle line:84%
+Or, easier to think about
+and probably more accurate,
+
+00:16:27.543 --> 00:16:29.460 align:middle line:84%
+in general, especially
+with limited data sets,
+
+00:16:29.460 --> 00:16:32.580 align:middle line:90%
+is direct observation.
+
+00:16:32.580 --> 00:16:34.470 align:middle line:84%
+The most extreme
+direct observation
+
+00:16:34.470 --> 00:16:38.740 align:middle line:84%
+is you pull out a DNA molecule
+that has, say, your promoter
+
+00:16:38.740 --> 00:16:42.060 align:middle line:84%
+mutation in your putative
+protein mutation,
+
+00:16:42.060 --> 00:16:45.945 align:middle line:84%
+or just a series of
+linked polymorphisms.
+
+00:16:45.945 --> 00:16:48.240 align:middle line:84%
+By cloning out or
+otherwise physically
+
+00:16:48.240 --> 00:16:52.320 align:middle line:84%
+isolating that DNA molecule,
+you can sequence it,
+
+00:16:52.320 --> 00:16:53.520 align:middle line:90%
+and you can determine.
+
+00:16:53.520 --> 00:16:57.233 align:middle line:84%
+By definition, if they're
+all in the same sequence,
+
+00:16:57.233 --> 00:16:58.650 align:middle line:84%
+then they're on
+the same molecule.
+
+00:16:58.650 --> 00:17:00.900 align:middle line:84%
+But you have to be careful
+about the sequencing method
+
+00:17:00.900 --> 00:17:03.270 align:middle line:84%
+that you're using there
+and the specific cloning
+
+00:17:03.270 --> 00:17:06.480 align:middle line:84%
+and/or physical separation
+method, because there are
+
+00:17:06.480 --> 00:17:09.300 align:middle line:84%
+certain methods where you can
+get a chimeric sequence either
+
+00:17:09.300 --> 00:17:13.630 align:middle line:84%
+due to cloning of two
+species together or somehow
+
+00:17:13.630 --> 00:17:17.550 align:middle line:84%
+disassembling them
+through bioinformatics.
+
+00:17:17.550 --> 00:17:19.770 align:middle line:84%
+You can also directly
+observe it when
+
+00:17:19.770 --> 00:17:26.550 align:middle line:84%
+you go through the genetic
+processes of mitosis, which
+
+00:17:26.550 --> 00:17:29.520 align:middle line:84%
+we've talked about before, which
+is that, as the cells divide,
+
+00:17:29.520 --> 00:17:31.870 align:middle line:84%
+they split up the
+chromosomes, or meiosis,
+
+00:17:31.870 --> 00:17:34.050 align:middle line:84%
+which is the process by
+which they get prepared
+
+00:17:34.050 --> 00:17:37.110 align:middle line:84%
+for recombination, which we'll
+come back to in a little while.
+
+00:17:37.110 --> 00:17:40.020 align:middle line:90%
+
+
+00:17:40.020 --> 00:17:42.660 align:middle line:84%
+So when you do want
+to do it by linkage,
+
+00:17:42.660 --> 00:17:44.700 align:middle line:84%
+you want to do a
+direct observation.
+
+00:17:44.700 --> 00:17:52.740 align:middle line:84%
+And the best way to
+follow the haplotype
+
+00:17:52.740 --> 00:17:59.940 align:middle line:84%
+is, if there is a difference
+at every position in both
+
+00:17:59.940 --> 00:18:04.410 align:middle line:84%
+the parents and the child
+inherits those differences,
+
+00:18:04.410 --> 00:18:06.240 align:middle line:90%
+then it's called informative.
+
+00:18:06.240 --> 00:18:11.340 align:middle line:84%
+If the parents happen to share
+a single-nucleotide polymorphism
+
+00:18:11.340 --> 00:18:14.250 align:middle line:84%
+even though the child is a
+heterozygote for one of them,
+
+00:18:14.250 --> 00:18:17.580 align:middle line:84%
+it could be that the parents
+have additional alleles that
+
+00:18:17.580 --> 00:18:19.470 align:middle line:84%
+can confuse things, and
+it's not informative.
+
+00:18:19.470 --> 00:18:22.260 align:middle line:84%
+But the point is, if you
+have enough single-nucleotide
+
+00:18:22.260 --> 00:18:25.950 align:middle line:84%
+polymorphisms, you can do
+a case-control study where
+
+00:18:25.950 --> 00:18:28.770 align:middle line:84%
+you have lots of children
+that are affected for whatever
+
+00:18:28.770 --> 00:18:30.840 align:middle line:84%
+trait you're interested
+in and, hopefully,
+
+00:18:30.840 --> 00:18:33.420 align:middle line:84%
+a close-to-equal number which
+are in the control group which
+
+00:18:33.420 --> 00:18:34.193 align:middle line:90%
+do not have it.
+
+00:18:34.193 --> 00:18:36.360 align:middle line:84%
+An example of that-- and
+I'm just trying to give you
+
+00:18:36.360 --> 00:18:37.890 align:middle line:84%
+a flavor for this
+and where to look,
+
+00:18:37.890 --> 00:18:40.260 align:middle line:84%
+rather than to completely
+empower you on this,
+
+00:18:40.260 --> 00:18:42.510 align:middle line:84%
+because that would be an
+entire separate course--
+
+00:18:42.510 --> 00:18:45.300 align:middle line:84%
+but you can look
+for association.
+
+00:18:45.300 --> 00:18:47.580 align:middle line:84%
+And you have to worry
+about things like structure
+
+00:18:47.580 --> 00:18:50.460 align:middle line:84%
+and admixture, where you've had
+populations that have developed
+
+00:18:50.460 --> 00:18:52.380 align:middle line:84%
+independently in different
+parts of the world
+
+00:18:52.380 --> 00:18:56.370 align:middle line:84%
+and have been
+randomly mixing, which
+
+00:18:56.370 --> 00:18:59.260 align:middle line:84%
+is part of the model in
+these separate populations.
+
+00:18:59.260 --> 00:19:02.220 align:middle line:84%
+But then, you bring them
+together very recently,
+
+00:19:02.220 --> 00:19:06.630 align:middle line:84%
+and now it's no longer
+fair to model it
+
+00:19:06.630 --> 00:19:10.440 align:middle line:84%
+as if it were a uniformly
+mixing population.
+
+00:19:10.440 --> 00:19:15.480 align:middle line:84%
+And we'll refer
+throughout the course
+
+00:19:15.480 --> 00:19:20.110 align:middle line:84%
+to the null hypothesis, which
+is the thing that you're
+
+00:19:20.110 --> 00:19:22.420 align:middle line:84%
+trying to rule out,
+and the probability
+
+00:19:22.420 --> 00:19:24.550 align:middle line:84%
+refers to the
+probability that you can
+
+00:19:24.550 --> 00:19:26.292 align:middle line:90%
+reject this null hypothesis.
+
+00:19:26.292 --> 00:19:28.000 align:middle line:84%
+And in this case,
+you're trying to reject
+
+00:19:28.000 --> 00:19:30.430 align:middle line:84%
+that the allele frequencies
+in the candidate locus,
+
+00:19:30.430 --> 00:19:33.070 align:middle line:84%
+whatever you picked,
+do not depend
+
+00:19:33.070 --> 00:19:35.350 align:middle line:84%
+on the phenotype within
+the subpopulations.
+
+00:19:35.350 --> 00:19:39.160 align:middle line:84%
+And that's the way that they
+deal with these case studies.
+
+00:19:39.160 --> 00:19:44.920 align:middle line:84%
+Now, what are some of the
+motivations for studying
+
+00:19:44.920 --> 00:19:47.800 align:middle line:84%
+either individual
+polymorphisms or haplotypes--
+
+00:19:47.800 --> 00:19:50.230 align:middle line:84%
+combinations of
+polymorphisms can affect
+
+00:19:50.230 --> 00:19:52.390 align:middle line:90%
+the activity of a protein?
+
+00:19:52.390 --> 00:19:55.930 align:middle line:84%
+Now, I could use hundreds
+of different examples
+
+00:19:55.930 --> 00:19:59.590 align:middle line:84%
+of well-established
+and useful examples.
+
+00:19:59.590 --> 00:20:04.930 align:middle line:84%
+But here's one that, hopefully,
+will hit a resonating chord
+
+00:20:04.930 --> 00:20:07.630 align:middle line:84%
+in the sense that these
+are actually used now
+
+00:20:07.630 --> 00:20:11.170 align:middle line:84%
+in certain clinical
+settings, and certainly
+
+00:20:11.170 --> 00:20:16.930 align:middle line:84%
+in clinical research, to ask
+whether a patient population,
+
+00:20:16.930 --> 00:20:19.420 align:middle line:84%
+either in the process
+of developing a new drug
+
+00:20:19.420 --> 00:20:28.600 align:middle line:84%
+or using an established drug to
+keep the patient toxicity down
+
+00:20:28.600 --> 00:20:30.400 align:middle line:90%
+and the effectiveness up.
+
+00:20:30.400 --> 00:20:34.600 align:middle line:84%
+And so in the far
+left-hand column,
+
+00:20:34.600 --> 00:20:36.550 align:middle line:90%
+is the gene or enzyme affected?
+
+00:20:36.550 --> 00:20:38.230 align:middle line:84%
+And then, in the
+middle is our examples
+
+00:20:38.230 --> 00:20:41.120 align:middle line:84%
+of drugs which interact
+with this enzyme.
+
+00:20:41.120 --> 00:20:42.520 align:middle line:84%
+And then, the
+quantitative effect
+
+00:20:42.520 --> 00:20:46.180 align:middle line:90%
+is in the far right-hand side.
+
+00:20:46.180 --> 00:20:49.990 align:middle line:84%
+For example, thiopurine
+methyltransferase
+
+00:20:49.990 --> 00:20:54.550 align:middle line:84%
+is something which, if you have
+a large amount of the activity,
+
+00:20:54.550 --> 00:20:58.510 align:middle line:84%
+whether you have, say,
+a very active enzyme
+
+00:20:58.510 --> 00:21:01.750 align:middle line:84%
+and/or a very active
+promoter element that
+
+00:21:01.750 --> 00:21:06.160 align:middle line:84%
+causes high levels of it, then
+these various chemotherapeutics
+
+00:21:06.160 --> 00:21:07.675 align:middle line:84%
+that are used for
+fighting cancers--
+
+00:21:07.675 --> 00:21:10.455 align:middle line:90%
+
+
+00:21:10.455 --> 00:21:12.080 align:middle line:84%
+the amount of them
+need to be adjusted.
+
+00:21:12.080 --> 00:21:13.900 align:middle line:84%
+So you have lots of
+the methyltransferase.
+
+00:21:13.900 --> 00:21:17.860 align:middle line:84%
+That means you have to give lots
+of the drug, or else your drug
+
+00:21:17.860 --> 00:21:21.490 align:middle line:84%
+study will fail, or your
+patient will succumb to cancer
+
+00:21:21.490 --> 00:21:22.750 align:middle line:90%
+because it's ineffective.
+
+00:21:22.750 --> 00:21:24.460 align:middle line:90%
+You haven't added enough.
+
+00:21:24.460 --> 00:21:33.640 align:middle line:84%
+The thiopurine methyltransferase
+is overcoming the drug.
+
+00:21:33.640 --> 00:21:37.360 align:middle line:90%
+
+
+00:21:37.360 --> 00:21:45.820 align:middle line:84%
+On the other hand, if
+you have very low levels
+
+00:21:45.820 --> 00:21:48.760 align:middle line:84%
+of the modifying enzyme,
+you want to lower the dose,
+
+00:21:48.760 --> 00:21:51.970 align:middle line:90%
+or else you'll have toxicity.
+
+00:21:51.970 --> 00:21:54.340 align:middle line:84%
+So that's an example
+that's actually
+
+00:21:54.340 --> 00:21:56.080 align:middle line:84%
+being used in
+clinical situations
+
+00:21:56.080 --> 00:21:59.620 align:middle line:84%
+where you can use
+the information
+
+00:21:59.620 --> 00:22:04.000 align:middle line:84%
+to adjust drug
+levels or to stratify
+
+00:22:04.000 --> 00:22:07.060 align:middle line:84%
+your patient population
+so that you put patients
+
+00:22:07.060 --> 00:22:10.360 align:middle line:84%
+into different classes or
+exclude them from the study
+
+00:22:10.360 --> 00:22:12.820 align:middle line:84%
+altogether because you
+know that the drug will
+
+00:22:12.820 --> 00:22:14.390 align:middle line:90%
+have some bad effect.
+
+00:22:14.390 --> 00:22:17.380 align:middle line:84%
+And this, hopefully,
+decreases the costs.
+
+00:22:17.380 --> 00:22:19.660 align:middle line:84%
+On the downside to
+pharmaceutical development,
+
+00:22:19.660 --> 00:22:21.850 align:middle line:84%
+if you do stratify
+your patient population
+
+00:22:21.850 --> 00:22:25.480 align:middle line:84%
+and you make it through the
+drug study with that caveat,
+
+00:22:25.480 --> 00:22:29.110 align:middle line:84%
+then the FDA will require
+that you put that proviso,
+
+00:22:29.110 --> 00:22:32.050 align:middle line:84%
+and that makes the size
+of the population that
+
+00:22:32.050 --> 00:22:36.520 align:middle line:84%
+will be buying the drug smaller,
+since the costs of developing
+
+00:22:36.520 --> 00:22:38.950 align:middle line:90%
+the drug are fairly fixed.
+
+00:22:38.950 --> 00:22:42.190 align:middle line:90%
+It decreases the profit.
+
+00:22:42.190 --> 00:22:45.880 align:middle line:84%
+Now, I pointed
+out that there may
+
+00:22:45.880 --> 00:22:48.580 align:middle line:84%
+be a very large number
+of rare single-nucleotide
+
+00:22:48.580 --> 00:22:49.570 align:middle line:90%
+polymorphisms.
+
+00:22:49.570 --> 00:22:52.450 align:middle line:84%
+But in terms of
+common ones, we're
+
+00:22:52.450 --> 00:22:56.010 align:middle line:84%
+getting pretty close to
+saturating the common ones.
+
+00:22:56.010 --> 00:22:58.010 align:middle line:84%
+And there are databases
+of these just like there
+
+00:22:58.010 --> 00:22:59.440 align:middle line:84%
+are databases of
+almost everything you
+
+00:22:59.440 --> 00:23:01.315 align:middle line:84%
+can imagine, some of
+them better than others.
+
+00:23:01.315 --> 00:23:05.140 align:middle line:90%
+
+
+00:23:05.140 --> 00:23:07.750 align:middle line:84%
+The common ones will,
+of course, be the ones
+
+00:23:07.750 --> 00:23:10.900 align:middle line:84%
+that either are
+neutral, with respect
+
+00:23:10.900 --> 00:23:12.850 align:middle line:90%
+to their phenotypic effect.
+
+00:23:12.850 --> 00:23:14.410 align:middle line:84%
+That is to say,
+it doesn't really
+
+00:23:14.410 --> 00:23:20.650 align:middle line:84%
+matter whether they're one
+common allele or the other one.
+
+00:23:20.650 --> 00:23:23.320 align:middle line:84%
+The one allele might be at
+30% and the other one at 70%,
+
+00:23:23.320 --> 00:23:26.570 align:middle line:84%
+but they're both fairly neutral
+with respect to function.
+
+00:23:26.570 --> 00:23:31.810 align:middle line:84%
+Or it could be that they both
+provide different advantages
+
+00:23:31.810 --> 00:23:32.890 align:middle line:90%
+in different scenarios.
+
+00:23:32.890 --> 00:23:35.290 align:middle line:84%
+Or the heterozygote, where
+you have one over the other,
+
+00:23:35.290 --> 00:23:36.748 align:middle line:84%
+provides some
+advantage, and that's
+
+00:23:36.748 --> 00:23:38.590 align:middle line:90%
+kept it in the population.
+
+00:23:38.590 --> 00:23:40.210 align:middle line:84%
+But it's unlikely
+that they're highly
+
+00:23:40.210 --> 00:23:43.060 align:middle line:84%
+deleterious because the
+highly deleterious alleles are
+
+00:23:43.060 --> 00:23:43.840 align:middle line:90%
+going to be rare.
+
+00:23:43.840 --> 00:23:45.382 align:middle line:84%
+They're going to be
+selected against.
+
+00:23:45.382 --> 00:23:47.810 align:middle line:84%
+And we're going to fully
+model that in just a moment.
+
+00:23:47.810 --> 00:23:54.640 align:middle line:84%
+Now, let's say that, somehow,
+anybody who wanted their genome
+
+00:23:54.640 --> 00:23:57.115 align:middle line:84%
+could have their
+genome tomorrow.
+
+00:23:57.115 --> 00:23:58.990 align:middle line:84%
+You could have your
+complete genome sequence.
+
+00:23:58.990 --> 00:24:03.250 align:middle line:84%
+How would you, then, as
+computational biologists,
+
+00:24:03.250 --> 00:24:07.217 align:middle line:84%
+prioritize the single-nucleotide
+polymorphisms you find
+
+00:24:07.217 --> 00:24:08.800 align:middle line:84%
+in there, relative
+to the whole genome
+
+00:24:08.800 --> 00:24:10.120 align:middle line:90%
+sequence, which is in GenBank?
+
+00:24:10.120 --> 00:24:12.078 align:middle line:84%
+Now, this would be an
+excellent project for you
+
+00:24:12.078 --> 00:24:14.620 align:middle line:90%
+to do for the term project.
+
+00:24:14.620 --> 00:24:16.405 align:middle line:84%
+But what you might
+say, first of all--
+
+00:24:16.405 --> 00:24:19.950 align:middle line:90%
+
+
+00:24:19.950 --> 00:24:22.250 align:middle line:84%
+what single-nucleotide
+polymorphisms
+
+00:24:22.250 --> 00:24:24.800 align:middle line:84%
+would you throw
+out, for example,
+
+00:24:24.800 --> 00:24:26.858 align:middle line:84%
+or put low on your
+priority list?
+
+00:24:26.858 --> 00:24:29.150 align:middle line:84%
+Or which ones would you put
+high on your priority list?
+
+00:24:29.150 --> 00:24:32.450 align:middle line:90%
+
+
+00:24:32.450 --> 00:24:32.950 align:middle line:90%
+Yeah?
+
+00:24:32.950 --> 00:24:34.800 align:middle line:84%
+AUDIENCE: Introns
+would be low-priority.
+
+00:24:34.800 --> 00:24:37.198 align:middle line:90%
+PROFESSOR: OK, introns.
+
+00:24:37.198 --> 00:24:39.490 align:middle line:84%
+AUDIENCE: Maybe this is a
+very simplistic thing to say,
+
+00:24:39.490 --> 00:24:43.600 align:middle line:84%
+but I guess [INAUDIBLE]
+matter if they're
+
+00:24:43.600 --> 00:24:46.005 align:middle line:90%
+different from one another.
+
+00:24:46.005 --> 00:24:49.070 align:middle line:90%
+[INAUDIBLE]
+
+00:24:49.070 --> 00:24:50.590 align:middle line:90%
+PROFESSOR: That's fine.
+
+00:24:50.590 --> 00:24:53.470 align:middle line:84%
+Everybody has their own pet part
+of the genome they don't like.
+
+00:24:53.470 --> 00:24:55.155 align:middle line:84%
+Introns almost sunk
+the Genome Project.
+
+00:24:55.155 --> 00:24:56.780 align:middle line:84%
+They said, why are
+we going to sequence
+
+00:24:56.780 --> 00:25:00.070 align:middle line:84%
+the 98% of the genome that
+doesn't code for proteins?
+
+00:25:00.070 --> 00:25:02.200 align:middle line:84%
+Fortunately, we went ahead
+and sequenced it anyway.
+
+00:25:02.200 --> 00:25:05.080 align:middle line:84%
+Another favorite thing
+that people mention
+
+00:25:05.080 --> 00:25:06.860 align:middle line:90%
+is repetitive DNA.
+
+00:25:06.860 --> 00:25:08.360 align:middle line:84%
+That was another
+part of the genome.
+
+00:25:08.360 --> 00:25:09.860 align:middle line:84%
+But they didn't
+actually sequence it
+
+00:25:09.860 --> 00:25:13.480 align:middle line:84%
+from Drosophila,
+the repetitive DNA.
+
+00:25:13.480 --> 00:25:20.702 align:middle line:84%
+And it's considered
+also not protein coding.
+
+00:25:20.702 --> 00:25:22.660 align:middle line:84%
+And I'm going to give
+you a couple of examples,
+
+00:25:22.660 --> 00:25:24.743 align:middle line:84%
+as we go through here, to
+illustrate other points,
+
+00:25:24.743 --> 00:25:27.280 align:middle line:84%
+but also to illustrate that
+repetitive regions that are not
+
+00:25:27.280 --> 00:25:29.170 align:middle line:84%
+in protein-coding
+regions, whether introns
+
+00:25:29.170 --> 00:25:31.900 align:middle line:84%
+or other non-coding
+regions, can be important.
+
+00:25:31.900 --> 00:25:32.958 align:middle line:90%
+And here's an example.
+
+00:25:32.958 --> 00:25:34.750 align:middle line:84%
+This is one of the most
+repetitive elements
+
+00:25:34.750 --> 00:25:35.583 align:middle line:90%
+in the human genome.
+
+00:25:35.583 --> 00:25:37.420 align:middle line:90%
+It's called an Alu repeat.
+
+00:25:37.420 --> 00:25:41.380 align:middle line:84%
+As those of you who have done
+bioinformatics before realize,
+
+00:25:41.380 --> 00:25:44.710 align:middle line:84%
+it's the bane of our existence,
+in terms of assembling
+
+00:25:44.710 --> 00:25:46.040 align:middle line:90%
+and searching and so forth.
+
+00:25:46.040 --> 00:25:49.930 align:middle line:84%
+But here's an example
+of a single base
+
+00:25:49.930 --> 00:25:51.550 align:middle line:90%
+mutation in this repeat.
+
+00:25:51.550 --> 00:25:54.250 align:middle line:84%
+There's about 500,000 copies
+of this in the human genome
+
+00:25:54.250 --> 00:25:55.070 align:middle line:90%
+scattered about.
+
+00:25:55.070 --> 00:25:57.670 align:middle line:84%
+It's called an intersperse
+repeat as a consequence.
+
+00:25:57.670 --> 00:26:00.400 align:middle line:84%
+And this A-to-G
+transmission is found
+
+00:26:00.400 --> 00:26:03.260 align:middle line:84%
+upstream from the
+myeloperoxidase enzyme-encoding
+
+00:26:03.260 --> 00:26:03.760 align:middle line:90%
+gene.
+
+00:26:03.760 --> 00:26:07.940 align:middle line:90%
+
+
+00:26:07.940 --> 00:26:11.480 align:middle line:84%
+So how do we find out whether
+this is important in any sense?
+
+00:26:11.480 --> 00:26:13.480 align:middle line:84%
+First of all, the
+observation is that it
+
+00:26:13.480 --> 00:26:17.530 align:middle line:84%
+is associated with several-fold
+less transcriptional activity.
+
+00:26:17.530 --> 00:26:21.490 align:middle line:90%
+
+
+00:26:21.490 --> 00:26:26.680 align:middle line:84%
+That particular position
+creates or destroys
+
+00:26:26.680 --> 00:26:30.250 align:middle line:84%
+binding sites for these
+transcription elements,
+
+00:26:30.250 --> 00:26:32.470 align:middle line:84%
+and that might be the
+reason that it has
+
+00:26:32.470 --> 00:26:34.100 align:middle line:90%
+lower transcriptional activity.
+
+00:26:34.100 --> 00:26:36.850 align:middle line:84%
+And finally, it is
+over-represented
+
+00:26:36.850 --> 00:26:40.820 align:middle line:90%
+in a particular type of cancer.
+
+00:26:40.820 --> 00:26:43.300 align:middle line:84%
+And we're going to
+go through the ways
+
+00:26:43.300 --> 00:26:49.840 align:middle line:84%
+that we take an observation,
+like a polymorphism,
+
+00:26:49.840 --> 00:26:54.370 align:middle line:84%
+move to an association,
+like here, with cancer, then
+
+00:26:54.370 --> 00:26:56.560 align:middle line:84%
+take it to a mechanism,
+such as here,
+
+00:26:56.560 --> 00:26:59.380 align:middle line:84%
+with the transcriptional
+regulators.
+
+00:26:59.380 --> 00:27:01.160 align:middle line:84%
+I think that's
+what this is about.
+
+00:27:01.160 --> 00:27:03.580 align:middle line:84%
+It's not sufficient to
+observe the polymorphism.
+
+00:27:03.580 --> 00:27:06.190 align:middle line:84%
+You can't say, a
+priori, whether it's
+
+00:27:06.190 --> 00:27:08.908 align:middle line:84%
+important or not, whether the
+Alu repeats are not conserved.
+
+00:27:08.908 --> 00:27:10.450 align:middle line:84%
+That's another thing
+that people say.
+
+00:27:10.450 --> 00:27:13.600 align:middle line:84%
+Throw out all the
+nonconserved single-nucleotide
+
+00:27:13.600 --> 00:27:14.890 align:middle line:90%
+polymorphisms.
+
+00:27:14.890 --> 00:27:15.700 align:middle line:90%
+It's not conserved.
+
+00:27:15.700 --> 00:27:19.210 align:middle line:84%
+It's not present in
+mouse, for example.
+
+00:27:19.210 --> 00:27:22.210 align:middle line:84%
+It's non-coding,
+and it's repetitive.
+
+00:27:22.210 --> 00:27:24.670 align:middle line:84%
+Now, in addition to
+the types of mutations,
+
+00:27:24.670 --> 00:27:27.760 align:middle line:84%
+we have the modes of
+inheritance-- that is to say,
+
+00:27:27.760 --> 00:27:33.868 align:middle line:84%
+the different ways in which
+a change, a polymorphism
+
+00:27:33.868 --> 00:27:34.660 align:middle line:90%
+can be transmitted.
+
+00:27:34.660 --> 00:27:38.020 align:middle line:84%
+And I include this to
+broaden your perspective.
+
+00:27:38.020 --> 00:27:43.030 align:middle line:84%
+Rather than getting entirely
+fixated on the 3 million DNA
+
+00:27:43.030 --> 00:27:45.940 align:middle line:84%
+SNPs, let's broaden the
+discussion here a little bit.
+
+00:27:45.940 --> 00:27:48.220 align:middle line:84%
+You can have not only
+DNA polymorphisms,
+
+00:27:48.220 --> 00:27:50.080 align:middle line:84%
+but you can have
+RNA polymorphisms,
+
+00:27:50.080 --> 00:27:51.730 align:middle line:90%
+which are heritable.
+
+00:27:51.730 --> 00:27:54.970 align:middle line:84%
+For example-- and I use
+this an an extreme case--
+
+00:27:54.970 --> 00:27:57.460 align:middle line:90%
+RNAi-- 22 nucleotide or so.
+
+00:27:57.460 --> 00:27:59.650 align:middle line:84%
+Probably a variety
+of mechanisms.
+
+00:27:59.650 --> 00:28:02.680 align:middle line:90%
+
+
+00:28:02.680 --> 00:28:07.280 align:middle line:84%
+Bits of RNA can be
+induced in various ways.
+
+00:28:07.280 --> 00:28:11.080 align:middle line:84%
+And once induced, they can
+replicate, essentially,
+
+00:28:11.080 --> 00:28:13.127 align:middle line:90%
+within a cell and between cells.
+
+00:28:13.127 --> 00:28:14.710 align:middle line:84%
+They can spread
+throughout an organism
+
+00:28:14.710 --> 00:28:18.730 align:middle line:84%
+and probably be propagated
+over generations
+
+00:28:18.730 --> 00:28:21.110 align:middle line:84%
+between different
+generations of organisms.
+
+00:28:21.110 --> 00:28:23.830 align:middle line:90%
+So this is heritable.
+
+00:28:23.830 --> 00:28:26.140 align:middle line:84%
+And you can consider
+it epigenetic
+
+00:28:26.140 --> 00:28:28.780 align:middle line:84%
+or genetic polymorphism,
+depending on the nomenclature
+
+00:28:28.780 --> 00:28:30.700 align:middle line:90%
+that you adopt.
+
+00:28:30.700 --> 00:28:35.350 align:middle line:84%
+Even a protein conformation can
+be considered a polymorphism
+
+00:28:35.350 --> 00:28:37.510 align:middle line:90%
+that is heritable.
+
+00:28:37.510 --> 00:28:39.310 align:middle line:84%
+The central dogma
+tells us this protein
+
+00:28:39.310 --> 00:28:42.340 align:middle line:84%
+is encoded by a nucleic
+acid, and there certainly
+
+00:28:42.340 --> 00:28:44.050 align:middle line:90%
+is still the case--
+
+00:28:44.050 --> 00:28:47.770 align:middle line:84%
+even these heritable
+polymorphisms and proteins.
+
+00:28:47.770 --> 00:28:49.330 align:middle line:84%
+But it has a different
+conformation,
+
+00:28:49.330 --> 00:28:53.710 align:middle line:84%
+and that conformation
+recruits other conformations
+
+00:28:53.710 --> 00:28:56.530 align:middle line:84%
+and so is inherited
+not only within a cell,
+
+00:28:56.530 --> 00:28:58.810 align:middle line:84%
+but between cells
+and between organisms
+
+00:28:58.810 --> 00:29:04.660 align:middle line:84%
+and is the causation of things
+like mad cow disease and so on.
+
+00:29:04.660 --> 00:29:08.530 align:middle line:84%
+And finally, modifications
+of biopolymers,
+
+00:29:08.530 --> 00:29:11.830 align:middle line:90%
+such as methylation, can occur.
+
+00:29:11.830 --> 00:29:14.500 align:middle line:84%
+And this is not formally
+a DNA sequence change,
+
+00:29:14.500 --> 00:29:20.650 align:middle line:84%
+but it's a heritable
+change that can
+
+00:29:20.650 --> 00:29:26.080 align:middle line:84%
+have very significant effects
+on things like cancer and gene
+
+00:29:26.080 --> 00:29:28.690 align:middle line:90%
+expression in general.
+
+00:29:28.690 --> 00:29:34.800 align:middle line:84%
+Now, this is a broadening of
+the definition of polymorphisms.
+
+00:29:34.800 --> 00:29:40.350 align:middle line:84%
+And now let's talk
+thoroughly about the ways
+
+00:29:40.350 --> 00:29:44.340 align:middle line:84%
+that it can be inherited
+as horizontal or vertical.
+
+00:29:44.340 --> 00:29:47.910 align:middle line:84%
+Horizontal typically
+means between species,
+
+00:29:47.910 --> 00:29:50.117 align:middle line:84%
+but in a certain
+sense, it could reflect
+
+00:29:50.117 --> 00:29:52.200 align:middle line:84%
+some of the things that
+are going on here with RNA
+
+00:29:52.200 --> 00:29:55.590 align:middle line:84%
+and protein inheritance in the
+sense it is being horizontally
+
+00:29:55.590 --> 00:29:58.770 align:middle line:84%
+transmitted between different
+cells within the same organism.
+
+00:29:58.770 --> 00:30:01.830 align:middle line:84%
+But generally, it's
+a mechanism that
+
+00:30:01.830 --> 00:30:04.770 align:middle line:84%
+does not involve
+mitosis or meiosis
+
+00:30:04.770 --> 00:30:12.240 align:middle line:84%
+of the nuclear or
+organellar genomes.
+
+00:30:12.240 --> 00:30:15.150 align:middle line:84%
+And the natural processes
+are transduction
+
+00:30:15.150 --> 00:30:19.320 align:middle line:84%
+and transformation, being
+distinguished by-- transduction
+
+00:30:19.320 --> 00:30:22.050 align:middle line:84%
+typically involves
+a viral or protein
+
+00:30:22.050 --> 00:30:24.360 align:middle line:84%
+coat for the nucleic
+acid, and transformation
+
+00:30:24.360 --> 00:30:27.180 align:middle line:84%
+involves something closer
+to naked nucleic acids.
+
+00:30:27.180 --> 00:30:32.100 align:middle line:84%
+Transgenic is a completely
+laboratory-based version
+
+00:30:32.100 --> 00:30:36.147 align:middle line:84%
+of these two more
+natural methods.
+
+00:30:36.147 --> 00:30:37.980 align:middle line:84%
+I think vertical we've
+already talked about.
+
+00:30:37.980 --> 00:30:41.700 align:middle line:84%
+This is what we normally
+think of inheritance.
+
+00:30:41.700 --> 00:30:44.310 align:middle line:84%
+Horizontal, we saw
+in the tree of life,
+
+00:30:44.310 --> 00:30:46.320 align:middle line:84%
+is very common, even
+in the late branches
+
+00:30:46.320 --> 00:30:47.460 align:middle line:90%
+and the early branches.
+
+00:30:47.460 --> 00:30:49.080 align:middle line:84%
+Vertical, though,
+is what we normally
+
+00:30:49.080 --> 00:30:52.620 align:middle line:84%
+think about when we're doing
+crosses in the laboratory.
+
+00:30:52.620 --> 00:30:55.320 align:middle line:84%
+Some of these are
+maternally inherited,
+
+00:30:55.320 --> 00:30:58.320 align:middle line:84%
+like mitochondria
+and chloroplasts,
+
+00:30:58.320 --> 00:31:00.150 align:middle line:84%
+but it's still the
+same kind of process--
+
+00:31:00.150 --> 00:31:04.602 align:middle line:90%
+mitosis, segregation of DNA.
+
+00:31:04.602 --> 00:31:06.060 align:middle line:84%
+So now we've got
+types of mutations
+
+00:31:06.060 --> 00:31:08.310 align:middle line:84%
+we want to talk about,
+mutation drift and selection,
+
+00:31:08.310 --> 00:31:12.900 align:middle line:84%
+as the main source
+of the frequencies
+
+00:31:12.900 --> 00:31:15.400 align:middle line:90%
+that we find in populations.
+
+00:31:15.400 --> 00:31:20.670 align:middle line:84%
+We want to know, where do
+allele frequencies come from?
+
+00:31:20.670 --> 00:31:23.970 align:middle line:84%
+And I will maintain
+that, generally speaking,
+
+00:31:23.970 --> 00:31:26.010 align:middle line:84%
+in almost all living
+systems, whether they're
+
+00:31:26.010 --> 00:31:29.520 align:middle line:84%
+cells from organisms
+that are mutating
+
+00:31:29.520 --> 00:31:33.840 align:middle line:84%
+or whole organisms, whether they
+do recombination or not, they
+
+00:31:33.840 --> 00:31:36.970 align:middle line:84%
+will do mutation
+selection and drift.
+
+00:31:36.970 --> 00:31:40.200 align:middle line:84%
+Now, to develop a fairly
+rigorous model here,
+
+00:31:40.200 --> 00:31:43.038 align:middle line:84%
+yet simple, we have
+some assumptions.
+
+00:31:43.038 --> 00:31:44.580 align:middle line:84%
+We always have
+assumptions in models.
+
+00:31:44.580 --> 00:31:46.413 align:middle line:84%
+If people tell you there
+are no assumptions,
+
+00:31:46.413 --> 00:31:49.990 align:middle line:84%
+then you need to dig
+a little further.
+
+00:31:49.990 --> 00:31:52.950 align:middle line:84%
+The assumptions that we'll
+make here for a little while--
+
+00:31:52.950 --> 00:31:54.960 align:middle line:84%
+and then, I'll give
+you a nice example
+
+00:31:54.960 --> 00:31:58.305 align:middle line:84%
+to undermine them all-- but
+it's constant population size n.
+
+00:31:58.305 --> 00:32:00.930 align:middle line:90%
+
+
+00:32:00.930 --> 00:32:02.068 align:middle line:90%
+You have random mating.
+
+00:32:02.068 --> 00:32:04.110 align:middle line:84%
+Remember, we were talking
+about admixture before.
+
+00:32:04.110 --> 00:32:08.430 align:middle line:84%
+Every member of the
+population can randomly mate.
+
+00:32:08.430 --> 00:32:10.780 align:middle line:84%
+They're non-overlapping
+generations.
+
+00:32:10.780 --> 00:32:13.510 align:middle line:90%
+This is a convenience.
+
+00:32:13.510 --> 00:32:14.970 align:middle line:84%
+We are not making
+any assumptions
+
+00:32:14.970 --> 00:32:17.550 align:middle line:84%
+about the population
+allele frequencies
+
+00:32:17.550 --> 00:32:19.170 align:middle line:90%
+being at equilibrium.
+
+00:32:19.170 --> 00:32:21.900 align:middle line:84%
+Those of you have taken
+biology courses with--
+
+00:32:21.900 --> 00:32:24.030 align:middle line:84%
+Hardy-Weinberg makes
+that assumption.
+
+00:32:24.030 --> 00:32:25.950 align:middle line:84%
+Here, this is a much
+more general model.
+
+00:32:25.950 --> 00:32:28.800 align:middle line:84%
+It includes non-equilibrium,
+and equilibrium
+
+00:32:28.800 --> 00:32:30.810 align:middle line:90%
+can be a special case.
+
+00:32:30.810 --> 00:32:35.850 align:middle line:84%
+So this is relatively
+minor non-assumption.
+
+00:32:35.850 --> 00:32:37.380 align:middle line:84%
+But we are assuming
+that we do not
+
+00:32:37.380 --> 00:32:38.850 align:middle line:84%
+have an infinite
+number of alleles,
+
+00:32:38.850 --> 00:32:44.600 align:middle line:84%
+nor an infinite number
+of population size.
+
+00:32:44.600 --> 00:32:48.710 align:middle line:84%
+So now ignore
+everything on the slide
+
+00:32:48.710 --> 00:32:55.070 align:middle line:84%
+but the upper left-hand
+corner of slide 15 here.
+
+00:32:55.070 --> 00:32:56.520 align:middle line:90%
+This should look familiar.
+
+00:32:56.520 --> 00:33:00.500 align:middle line:84%
+This should look somewhat
+like the logistic map
+
+00:33:00.500 --> 00:33:07.430 align:middle line:84%
+where we had the incremental,
+slow exponential increase
+
+00:33:07.430 --> 00:33:12.230 align:middle line:84%
+of one allele in a
+population over another,
+
+00:33:12.230 --> 00:33:14.600 align:middle line:84%
+or one organism
+over another, based
+
+00:33:14.600 --> 00:33:16.370 align:middle line:84%
+on the different
+selection coefficients
+
+00:33:16.370 --> 00:33:17.730 align:middle line:90%
+of those organisms.
+
+00:33:17.730 --> 00:33:19.760 align:middle line:84%
+And this could be a
+very small difference.
+
+00:33:19.760 --> 00:33:22.790 align:middle line:84%
+Say, a 1% increase
+per generation
+
+00:33:22.790 --> 00:33:26.900 align:middle line:84%
+will dominate after a
+thousand generations
+
+00:33:26.900 --> 00:33:29.413 align:middle line:90%
+or so, quite definitely.
+
+00:33:29.413 --> 00:33:30.830 align:middle line:84%
+And so that's what
+you're seeing--
+
+00:33:30.830 --> 00:33:32.288 align:middle line:84%
+the exponential
+curve-- and then it
+
+00:33:32.288 --> 00:33:38.210 align:middle line:84%
+plateaus as it gets to
+100% allele frequency.
+
+00:33:38.210 --> 00:33:40.730 align:middle line:84%
+That's the full range
+on the vertical axis,
+
+00:33:40.730 --> 00:33:43.220 align:middle line:90%
+is 0% to 100% allele frequency.
+
+00:33:43.220 --> 00:33:48.980 align:middle line:84%
+And generation goes
+from 0 to 1,400.
+
+00:33:48.980 --> 00:33:51.530 align:middle line:84%
+Now, what it actually represents
+in this particular case
+
+00:33:51.530 --> 00:33:54.075 align:middle line:84%
+is closely related, a
+little more complicated
+
+00:33:54.075 --> 00:33:55.700 align:middle line:84%
+than just one allele
+replacing another,
+
+00:33:55.700 --> 00:33:59.810 align:middle line:84%
+because here we have
+diploids-- that is to say,
+
+00:33:59.810 --> 00:34:01.910 align:middle line:84%
+not a haploid that
+just has one allele,
+
+00:34:01.910 --> 00:34:05.390 align:middle line:84%
+like in the bacterial
+species that we've implicitly
+
+00:34:05.390 --> 00:34:07.280 align:middle line:90%
+been talking about.
+
+00:34:07.280 --> 00:34:10.139 align:middle line:84%
+But you can have, here, now,
+three combinations of alleles.
+
+00:34:10.139 --> 00:34:19.010 align:middle line:84%
+You can have, say, the
+reference genotype of capital A,
+
+00:34:19.010 --> 00:34:25.770 align:middle line:84%
+capital A, which we'd
+just call 100% fitness.
+
+00:34:25.770 --> 00:34:28.170 align:middle line:84%
+So we have fitness and
+selection coefficient,
+
+00:34:28.170 --> 00:34:30.500 align:middle line:84%
+which are interchangeable
+terms that
+
+00:34:30.500 --> 00:34:34.469 align:middle line:84%
+are-- very trivial mathematical
+relationship between them.
+
+00:34:34.469 --> 00:34:38.030 align:middle line:84%
+So we'll use w and s in
+different contexts here.
+
+00:34:38.030 --> 00:34:40.310 align:middle line:84%
+It just has population
+[INAUDIBLE]..
+
+00:34:40.310 --> 00:34:43.100 align:middle line:84%
+Then, you can have big A, big A,
+little a, little a, and big A,
+
+00:34:43.100 --> 00:34:44.989 align:middle line:90%
+little a as the heterozygote.
+
+00:34:44.989 --> 00:34:46.940 align:middle line:84%
+And we're assuming an
+additive model here,
+
+00:34:46.940 --> 00:34:50.300 align:middle line:84%
+where you get a little
+more selection with one
+
+00:34:50.300 --> 00:34:52.950 align:middle line:84%
+allele of little a, and
+then two alleles of little
+
+00:34:52.950 --> 00:34:54.230 align:middle line:90%
+a results in 2s--
+
+00:34:54.230 --> 00:34:57.020 align:middle line:90%
+1 plus 2s.
+
+00:34:57.020 --> 00:35:02.000 align:middle line:84%
+And this has a very similar
+curve to the logistic map,
+
+00:35:02.000 --> 00:35:05.590 align:middle line:84%
+if you had simple
+allele replacement.
+
+00:35:05.590 --> 00:35:07.820 align:middle line:84%
+And what you tend to
+have in this population--
+
+00:35:07.820 --> 00:35:10.250 align:middle line:84%
+a thousand generations, in
+the big scheme of things,
+
+00:35:10.250 --> 00:35:11.570 align:middle line:90%
+may seem like a lot to you.
+
+00:35:11.570 --> 00:35:14.520 align:middle line:84%
+But in the big scheme, it's
+a very short period of time,
+
+00:35:14.520 --> 00:35:21.050 align:middle line:84%
+and so you tend to have alleles
+at frequency of 0% and 100%.
+
+00:35:21.050 --> 00:35:23.330 align:middle line:84%
+On the other hand, if you
+have overdominant mode,
+
+00:35:23.330 --> 00:35:25.880 align:middle line:84%
+where the heterozygote has the
+highest fitness of the three
+
+00:35:25.880 --> 00:35:31.610 align:middle line:84%
+possibilities, where 1 plus s
+is larger than 1 or 1 plus t,
+
+00:35:31.610 --> 00:35:33.650 align:middle line:90%
+then you aim for equilibrium.
+
+00:35:33.650 --> 00:35:37.400 align:middle line:84%
+Whether you're starting at
+close to 0% or close to 100%
+
+00:35:37.400 --> 00:35:40.520 align:middle line:84%
+the allele frequency will
+converge on some equilibrium
+
+00:35:40.520 --> 00:35:41.900 align:middle line:90%
+point--
+
+00:35:41.900 --> 00:35:48.890 align:middle line:84%
+in this case, somewhere
+around 0.6 for one
+
+00:35:48.890 --> 00:35:50.198 align:middle line:90%
+allele and 0.4 for the other.
+
+00:35:50.198 --> 00:35:51.240 align:middle line:90%
+And it could be anywhere.
+
+00:35:51.240 --> 00:35:53.900 align:middle line:84%
+It depends on the relative
+fitnesses, s and t.
+
+00:35:53.900 --> 00:35:56.990 align:middle line:90%
+
+
+00:35:56.990 --> 00:35:59.180 align:middle line:84%
+This is just a reminder
+slide combining two slides
+
+00:35:59.180 --> 00:36:01.550 align:middle line:90%
+from before.
+
+00:36:01.550 --> 00:36:03.530 align:middle line:84%
+That slide connects
+the logistic map
+
+00:36:03.530 --> 00:36:08.180 align:middle line:84%
+from lecture 1 to the
+selection coefficients
+
+00:36:08.180 --> 00:36:12.210 align:middle line:84%
+we've been talking about in
+lecture 2 to the diploids
+
+00:36:12.210 --> 00:36:14.210 align:middle line:84%
+that we're mainly talking
+about in this lecture,
+
+00:36:14.210 --> 00:36:15.650 align:middle line:90%
+because humans are diploids.
+
+00:36:15.650 --> 00:36:19.700 align:middle line:84%
+And here, just connect
+this to the fact
+
+00:36:19.700 --> 00:36:22.010 align:middle line:84%
+that these selection
+coefficients, s,
+
+00:36:22.010 --> 00:36:27.680 align:middle line:84%
+or the fitness, w, is relevant
+to different environments
+
+00:36:27.680 --> 00:36:29.600 align:middle line:84%
+and the different
+times that organisms
+
+00:36:29.600 --> 00:36:31.530 align:middle line:84%
+spend in those
+different environments.
+
+00:36:31.530 --> 00:36:34.880 align:middle line:84%
+And all mutants are tagged by
+their DNA, and they're pooled,
+
+00:36:34.880 --> 00:36:36.860 align:middle line:84%
+and they're selected,
+and you can read them out
+
+00:36:36.860 --> 00:36:39.120 align:middle line:90%
+in a variety of methods.
+
+00:36:39.120 --> 00:36:41.900 align:middle line:84%
+So now let's dig down into where
+the allele frequencies come
+
+00:36:41.900 --> 00:36:50.030 align:middle line:84%
+from, based on
+mutation or migration,
+
+00:36:50.030 --> 00:36:53.580 align:middle line:84%
+which we'll lump together here
+as M, selection, and drift.
+
+00:36:53.580 --> 00:36:58.340 align:middle line:84%
+Now, the mutation will have
+a forward rate constant
+
+00:36:58.340 --> 00:36:59.240 align:middle line:90%
+and a reverse.
+
+00:36:59.240 --> 00:37:01.490 align:middle line:84%
+This should remind you
+of the conversation
+
+00:37:01.490 --> 00:37:05.070 align:middle line:84%
+we just had about the
+different kinds of alleles--
+
+00:37:05.070 --> 00:37:06.680 align:middle line:84%
+the duplications
+and deletions-- how
+
+00:37:06.680 --> 00:37:09.890 align:middle line:90%
+they can have different rates.
+
+00:37:09.890 --> 00:37:11.990 align:middle line:84%
+If they're tandem
+duplication, then that
+
+00:37:11.990 --> 00:37:14.480 align:middle line:90%
+has a great tendency to delete.
+
+00:37:14.480 --> 00:37:18.260 align:middle line:84%
+If it deletes down
+to a single repeat,
+
+00:37:18.260 --> 00:37:20.010 align:middle line:84%
+there's now no
+longer any repeat,
+
+00:37:20.010 --> 00:37:24.050 align:middle line:84%
+and so the chance of generating
+the exact duplicate is low.
+
+00:37:24.050 --> 00:37:29.210 align:middle line:84%
+So the frequency of forward
+and reverse mutation
+
+00:37:29.210 --> 00:37:32.760 align:middle line:84%
+is represented by f
+and r, respectively.
+
+00:37:32.760 --> 00:37:33.955 align:middle line:90%
+Now, what we'll see--
+
+00:37:33.955 --> 00:37:35.330 align:middle line:84%
+we're going to
+walk through this.
+
+00:37:35.330 --> 00:37:39.290 align:middle line:84%
+Starting with a
+frequency, t sub i,
+
+00:37:39.290 --> 00:37:47.520 align:middle line:84%
+where i is the number of
+mutants in a population size n.
+
+00:37:47.520 --> 00:37:52.800 align:middle line:84%
+So here, down at the bottom,
+is i mutants in a population
+
+00:37:52.800 --> 00:37:53.460 align:middle line:90%
+sized n.
+
+00:37:53.460 --> 00:37:56.700 align:middle line:84%
+And we'll see that
+applying the mutation,
+
+00:37:56.700 --> 00:37:58.950 align:middle line:84%
+applying the selection,
+and applying the drift
+
+00:37:58.950 --> 00:38:02.040 align:middle line:84%
+are all applications of
+binomial distributions
+
+00:38:02.040 --> 00:38:04.350 align:middle line:84%
+when we're talking about
+this discrete population of n
+
+00:38:04.350 --> 00:38:06.120 align:middle line:90%
+individuals.
+
+00:38:06.120 --> 00:38:09.180 align:middle line:84%
+Remember the three bell-shaped
+curves [INAUDIBLE]??
+
+00:38:09.180 --> 00:38:12.060 align:middle line:90%
+Curves that can be bell-shaped.
+
+00:38:12.060 --> 00:38:15.210 align:middle line:84%
+Here, it's clearly a
+discrete population
+
+00:38:15.210 --> 00:38:20.310 align:middle line:84%
+because we have n individuals,
+taking i mutants at a time.
+
+00:38:20.310 --> 00:38:22.370 align:middle line:84%
+So the binomials
+that we'll be using--
+
+00:38:22.370 --> 00:38:25.500 align:middle line:84%
+all three processes
+have the same form,
+
+00:38:25.500 --> 00:38:28.500 align:middle line:84%
+where you have a combination
+of some population, n,
+
+00:38:28.500 --> 00:38:30.870 align:middle line:90%
+and a subpopulation, i.
+
+00:38:30.870 --> 00:38:34.650 align:middle line:84%
+And of course, the
+remainder is n minus i.
+
+00:38:34.650 --> 00:38:39.720 align:middle line:84%
+And the different combinations
+are times some probability,
+
+00:38:39.720 --> 00:38:45.840 align:middle line:84%
+because probability is the last
+parameter in the binomial here.
+
+00:38:45.840 --> 00:38:49.480 align:middle line:84%
+A binomial is a function
+of n, i, and p--
+
+00:38:49.480 --> 00:38:51.840 align:middle line:84%
+the population size,
+subpopulation size,
+
+00:38:51.840 --> 00:38:53.130 align:middle line:90%
+and some frequency.
+
+00:38:53.130 --> 00:38:56.190 align:middle line:84%
+It can be either a forward or
+reverse mutation frequency.
+
+00:38:56.190 --> 00:38:59.190 align:middle line:84%
+It can be a selection
+probability,
+
+00:38:59.190 --> 00:39:00.600 align:middle line:84%
+or it can be a
+drift probability.
+
+00:39:00.600 --> 00:39:02.830 align:middle line:84%
+And we'll see how each
+of these work out.
+
+00:39:02.830 --> 00:39:06.780 align:middle line:90%
+So we start with a frequency.
+
+00:39:06.780 --> 00:39:13.140 align:middle line:84%
+You can have i ranges
+from 0 to If i is 0,
+
+00:39:13.140 --> 00:39:15.720 align:middle line:84%
+then the frequency
+is 0 over n, or 0.
+
+00:39:15.720 --> 00:39:18.960 align:middle line:84%
+If i is n, it's n over
+n, or frequency is 100%.
+
+00:39:18.960 --> 00:39:23.460 align:middle line:84%
+Just that same vertical axis
+we had on all previous slides.
+
+00:39:23.460 --> 00:39:26.880 align:middle line:84%
+The starting frequencies have
+some distribution, t sub i,
+
+00:39:26.880 --> 00:39:29.190 align:middle line:90%
+for i going from 0 to n.
+
+00:39:29.190 --> 00:39:35.040 align:middle line:84%
+And now we want to derive a
+new vector of frequencies,
+
+00:39:35.040 --> 00:39:36.600 align:middle line:90%
+which would be m.
+
+00:39:36.600 --> 00:39:39.720 align:middle line:84%
+And all we do is we apply
+the binomial distribution
+
+00:39:39.720 --> 00:39:42.750 align:middle line:84%
+for the forward process
+or forward mutation.
+
+00:39:42.750 --> 00:39:45.330 align:middle line:84%
+And then, once we're
+done with that,
+
+00:39:45.330 --> 00:39:50.700 align:middle line:84%
+we now use the
+m's and adjust it.
+
+00:39:50.700 --> 00:39:53.670 align:middle line:84%
+So now, give it a chance
+to do the reverse mutation,
+
+00:39:53.670 --> 00:39:56.880 align:middle line:84%
+because you'll generate this
+binomial distribution forwards,
+
+00:39:56.880 --> 00:40:00.720 align:middle line:84%
+and then you'll give
+them a chance to revert.
+
+00:40:00.720 --> 00:40:02.190 align:middle line:90%
+Then, you apply selection.
+
+00:40:02.190 --> 00:40:04.740 align:middle line:90%
+A new binomial.
+
+00:40:04.740 --> 00:40:10.500 align:middle line:84%
+Now, here, the probability of
+a transition from your mutants,
+
+00:40:10.500 --> 00:40:12.660 align:middle line:84%
+starting with t--
+then, you go to m.
+
+00:40:12.660 --> 00:40:15.210 align:middle line:84%
+Now, to get to s, the
+transition probability's
+
+00:40:15.210 --> 00:40:17.070 align:middle line:90%
+a function of this fitness.
+
+00:40:17.070 --> 00:40:20.190 align:middle line:84%
+Remember, w and s,
+fitness and selection.
+
+00:40:20.190 --> 00:40:25.560 align:middle line:84%
+Here, the fitness
+determines the probability
+
+00:40:25.560 --> 00:40:29.760 align:middle line:84%
+of a transition in a
+binomial distribution.
+
+00:40:29.760 --> 00:40:32.373 align:middle line:84%
+And there are two slightly
+different equations
+
+00:40:32.373 --> 00:40:34.290 align:middle line:84%
+that you use, depending
+on whether the fitness
+
+00:40:34.290 --> 00:40:37.650 align:middle line:84%
+is greater than
+1 or less than 1,
+
+00:40:37.650 --> 00:40:40.860 align:middle line:84%
+whether it has a
+tendency to increase
+
+00:40:40.860 --> 00:40:44.100 align:middle line:84%
+with time, due to
+selection, or to decrease
+
+00:40:44.100 --> 00:40:47.050 align:middle line:84%
+that allele with time, as
+a function of selection.
+
+00:40:47.050 --> 00:40:49.690 align:middle line:84%
+And that's what these
+two cases are here.
+
+00:40:49.690 --> 00:40:53.040 align:middle line:84%
+And then, finally, after
+you've applied forward
+
+00:40:53.040 --> 00:40:54.930 align:middle line:84%
+and inverse mutation
+and selection,
+
+00:40:54.930 --> 00:40:59.170 align:middle line:84%
+whether it's more fit or less
+fit, then you apply drift.
+
+00:40:59.170 --> 00:41:01.695 align:middle line:90%
+Now, drift just means that--
+
+00:41:01.695 --> 00:41:05.260 align:middle line:90%
+
+
+00:41:05.260 --> 00:41:05.760 align:middle line:90%
+think of it.
+
+00:41:05.760 --> 00:41:08.700 align:middle line:84%
+If you have a small
+population of individuals--
+
+00:41:08.700 --> 00:41:13.740 align:middle line:84%
+let's say they're a set of
+colored balls in a jar in front
+
+00:41:13.740 --> 00:41:14.330 align:middle line:90%
+of us, here.
+
+00:41:14.330 --> 00:41:16.920 align:middle line:84%
+It's a small number, and
+I pull a handful out,
+
+00:41:16.920 --> 00:41:18.750 align:middle line:84%
+because in each
+generation, you're
+
+00:41:18.750 --> 00:41:20.400 align:middle line:84%
+going to duplicate
+the population.
+
+00:41:20.400 --> 00:41:23.190 align:middle line:84%
+But we remember the assumption
+of constant population size.
+
+00:41:23.190 --> 00:41:26.490 align:middle line:84%
+If I pull out the new
+generation and forget
+
+00:41:26.490 --> 00:41:27.990 align:middle line:84%
+about the rest of
+the duplicated,
+
+00:41:27.990 --> 00:41:29.388 align:middle line:84%
+they could all be
+the same color.
+
+00:41:29.388 --> 00:41:31.680 align:middle line:84%
+And that's the chance that
+you could drift to fixation,
+
+00:41:31.680 --> 00:41:35.310 align:middle line:84%
+where one of them now dominates,
+not because it's superior,
+
+00:41:35.310 --> 00:41:37.500 align:middle line:84%
+from a selection
+standpoint, not because it's
+
+00:41:37.500 --> 00:41:41.220 align:middle line:84%
+been mutated in a directed
+way to that point,
+
+00:41:41.220 --> 00:41:43.320 align:middle line:84%
+but just because of
+random drift that you
+
+00:41:43.320 --> 00:41:46.500 align:middle line:90%
+have a constant population.
+
+00:41:46.500 --> 00:41:48.180 align:middle line:84%
+And so you can see
+how that would depend
+
+00:41:48.180 --> 00:41:50.010 align:middle line:90%
+on how many are in the jar.
+
+00:41:50.010 --> 00:41:51.960 align:middle line:84%
+If I take half of
+them out of the jar,
+
+00:41:51.960 --> 00:41:55.770 align:middle line:84%
+and the jar only has five in it,
+then it's a much higher chance
+
+00:41:55.770 --> 00:41:58.710 align:middle line:84%
+that we'll go to fixation
+quickly than if the jar has
+
+00:41:58.710 --> 00:41:59.550 align:middle line:90%
+millions in it.
+
+00:41:59.550 --> 00:42:01.860 align:middle line:84%
+If I take half a
+million out, it's
+
+00:42:01.860 --> 00:42:04.620 align:middle line:84%
+very likely that it will
+still be more or less the same
+
+00:42:04.620 --> 00:42:05.410 align:middle line:90%
+ratios.
+
+00:42:05.410 --> 00:42:07.560 align:middle line:84%
+And this is exactly
+how it plays out
+
+00:42:07.560 --> 00:42:10.740 align:middle line:84%
+when you look at
+random genetic drift.
+
+00:42:10.740 --> 00:42:13.450 align:middle line:84%
+It's very dependent
+on population size.
+
+00:42:13.450 --> 00:42:16.120 align:middle line:84%
+So here are simulations
+going out to, say,
+
+00:42:16.120 --> 00:42:19.110 align:middle line:84%
+150 generations on the
+horizontal axis and the allele
+
+00:42:19.110 --> 00:42:22.240 align:middle line:84%
+frequency, as usual,
+going from 0% to 100%.
+
+00:42:22.240 --> 00:42:25.980 align:middle line:84%
+And we start with a
+population with 50/50 ratio
+
+00:42:25.980 --> 00:42:26.715 align:middle line:90%
+of two alleles.
+
+00:42:26.715 --> 00:42:29.820 align:middle line:90%
+
+
+00:42:29.820 --> 00:42:32.310 align:middle line:84%
+And what you see is,
+if the population,
+
+00:42:32.310 --> 00:42:37.620 align:middle line:84%
+the number of individuals, is
+only 25, then you quickly fix.
+
+00:42:37.620 --> 00:42:41.040 align:middle line:90%
+Maybe 30 generations, you can--
+
+00:42:41.040 --> 00:42:43.810 align:middle line:90%
+and this is anecdotal--
+
+00:42:43.810 --> 00:42:45.580 align:middle line:90%
+get fixation.
+
+00:42:45.580 --> 00:42:49.240 align:middle line:84%
+As it goes up to a
+population size of 2,500,
+
+00:42:49.240 --> 00:42:51.890 align:middle line:84%
+you can see it, for all
+intents and purposes, is flat.
+
+00:42:51.890 --> 00:42:53.410 align:middle line:90%
+It will eventually fix.
+
+00:42:53.410 --> 00:42:56.830 align:middle line:84%
+I assure you, this simulation--
+if you run it long enough,
+
+00:42:56.830 --> 00:42:58.660 align:middle line:84%
+one of the two alleles
+will go to zero,
+
+00:42:58.660 --> 00:43:01.168 align:middle line:84%
+and the other one
+will go to 100%.
+
+00:43:01.168 --> 00:43:02.710 align:middle line:84%
+And you do another
+simulation, and it
+
+00:43:02.710 --> 00:43:05.085 align:middle line:84%
+might be the other one, because
+this is random drift, not
+
+00:43:05.085 --> 00:43:05.700 align:middle line:90%
+selection.
+
+00:43:05.700 --> 00:43:08.240 align:middle line:90%
+
+
+00:43:08.240 --> 00:43:10.180 align:middle line:84%
+So you can see the
+final frequencies are
+
+00:43:10.180 --> 00:43:13.750 align:middle line:84%
+going to be some complicated
+function of mutation rates
+
+00:43:13.750 --> 00:43:18.550 align:middle line:84%
+and selection rates and drift
+rates, which, in that last one,
+
+00:43:18.550 --> 00:43:21.190 align:middle line:84%
+is a function of
+population size.
+
+00:43:21.190 --> 00:43:23.622 align:middle line:84%
+When the population size
+is very, very large,
+
+00:43:23.622 --> 00:43:25.580 align:middle line:84%
+you can see that's going
+to be constant enough.
+
+00:43:25.580 --> 00:43:28.060 align:middle line:84%
+That's why you can see
+very subtle differences
+
+00:43:28.060 --> 00:43:31.515 align:middle line:90%
+in selection coefficient.
+
+00:43:31.515 --> 00:43:33.890 align:middle line:84%
+Now, we're going to come back
+to the mutation, selection,
+
+00:43:33.890 --> 00:43:36.220 align:middle line:84%
+and drift in the context
+of human genetics in just
+
+00:43:36.220 --> 00:43:36.740 align:middle line:90%
+a moment.
+
+00:43:36.740 --> 00:43:41.200 align:middle line:84%
+But first, I want to tell
+you the last component
+
+00:43:41.200 --> 00:43:44.600 align:middle line:84%
+of population genetics that
+we'll be talking about,
+
+00:43:44.600 --> 00:43:45.760 align:middle line:90%
+which is recombination.
+
+00:43:45.760 --> 00:43:48.580 align:middle line:84%
+Now, this doesn't occur in
+every biological system.
+
+00:43:48.580 --> 00:43:52.280 align:middle line:84%
+I made the argument before
+that the mutation, selection,
+
+00:43:52.280 --> 00:43:55.390 align:middle line:84%
+and drift occurs in
+every biological system,
+
+00:43:55.390 --> 00:43:59.410 align:middle line:84%
+from cells to
+organisms of all types.
+
+00:43:59.410 --> 00:44:01.270 align:middle line:84%
+In those biological
+systems where
+
+00:44:01.270 --> 00:44:06.790 align:middle line:84%
+DNA can be exchanged by
+transduction, transformation,
+
+00:44:06.790 --> 00:44:13.090 align:middle line:84%
+meiotic fusion, and so forth,
+then you can get recombination.
+
+00:44:13.090 --> 00:44:15.880 align:middle line:84%
+And these two figures
+illustrate that.
+
+00:44:15.880 --> 00:44:19.570 align:middle line:84%
+On the left-hand
+side of slide 19
+
+00:44:19.570 --> 00:44:22.780 align:middle line:84%
+is the non-recombination
+scenario,
+
+00:44:22.780 --> 00:44:25.000 align:middle line:84%
+and on the right-hand
+side is the
+
+00:44:25.000 --> 00:44:29.800 align:middle line:84%
+sexual, or
+recombination-mediated, change
+
+00:44:29.800 --> 00:44:31.070 align:middle line:90%
+in gene combinations.
+
+00:44:31.070 --> 00:44:32.230 align:middle line:90%
+So let's look at this.
+
+00:44:32.230 --> 00:44:34.540 align:middle line:90%
+Time is going horizontally.
+
+00:44:34.540 --> 00:44:38.350 align:middle line:84%
+And you can see, at the very
+left-hand side, the beginning
+
+00:44:38.350 --> 00:44:41.860 align:middle line:84%
+of each of these scenarios,
+you get a certain rate
+
+00:44:41.860 --> 00:44:43.790 align:middle line:90%
+of occurrence of mutations.
+
+00:44:43.790 --> 00:44:45.490 align:middle line:84%
+This is based on
+the forward mutation
+
+00:44:45.490 --> 00:44:48.520 align:middle line:90%
+rate in our previous equations.
+
+00:44:48.520 --> 00:44:50.110 align:middle line:90%
+And they occur very early on.
+
+00:44:50.110 --> 00:44:51.670 align:middle line:90%
+A, B, and C all occur.
+
+00:44:51.670 --> 00:44:56.560 align:middle line:84%
+But they tend to die
+out because of drift.
+
+00:44:56.560 --> 00:45:00.550 align:middle line:84%
+And the population size is
+small enough that half of them
+
+00:45:00.550 --> 00:45:03.610 align:middle line:90%
+die out and one of them fixes.
+
+00:45:03.610 --> 00:45:07.090 align:middle line:84%
+And A is destined to fix, but it
+takes some time for it to fix.
+
+00:45:07.090 --> 00:45:10.750 align:middle line:90%
+
+
+00:45:10.750 --> 00:45:14.080 align:middle line:84%
+It starts out at a frequency
+close to 0, and by the time
+
+00:45:14.080 --> 00:45:17.230 align:middle line:84%
+it's 50% to 100%, it's
+ready to start picking up
+
+00:45:17.230 --> 00:45:19.103 align:middle line:84%
+a second mutation at
+the same frequency they
+
+00:45:19.103 --> 00:45:20.020 align:middle line:90%
+were occurring before.
+
+00:45:20.020 --> 00:45:23.890 align:middle line:84%
+And now you can pick up the B
+mutation while the C dies off.
+
+00:45:23.890 --> 00:45:25.720 align:middle line:90%
+It comes and goes due to drift.
+
+00:45:25.720 --> 00:45:28.490 align:middle line:84%
+And then, finally,
+once AB fixes,
+
+00:45:28.490 --> 00:45:30.580 align:middle line:84%
+then you can pick up
+the C, and you get ABC.
+
+00:45:30.580 --> 00:45:33.820 align:middle line:84%
+That was a long,
+slow serial process.
+
+00:45:33.820 --> 00:45:35.920 align:middle line:84%
+On the right-hand
+side, we see what
+
+00:45:35.920 --> 00:45:38.710 align:middle line:84%
+can happen in the
+case of exchange
+
+00:45:38.710 --> 00:45:42.730 align:middle line:84%
+of genetic material in a
+really mixing population
+
+00:45:42.730 --> 00:45:46.450 align:middle line:84%
+now that A, B, and C all
+occur at the same frequency
+
+00:45:46.450 --> 00:45:47.440 align:middle line:90%
+as on the left.
+
+00:45:47.440 --> 00:45:49.810 align:middle line:84%
+But now, because they're
+exchanging information
+
+00:45:49.810 --> 00:45:54.400 align:middle line:84%
+very early on, before B has a
+chance to die off due to drift,
+
+00:45:54.400 --> 00:45:57.580 align:middle line:84%
+it combines its DNA
+with A, and you get AB.
+
+00:45:57.580 --> 00:45:59.705 align:middle line:84%
+And some of the
+small A population
+
+00:45:59.705 --> 00:46:01.900 align:middle line:84%
+is just destined
+to be fixed anyway,
+
+00:46:01.900 --> 00:46:05.470 align:middle line:84%
+but happens to combine
+with C. And again,
+
+00:46:05.470 --> 00:46:13.690 align:middle line:84%
+before drift can wipe them
+out, the very small selection
+
+00:46:13.690 --> 00:46:15.970 align:middle line:84%
+that you have that
+couldn't overcome drift
+
+00:46:15.970 --> 00:46:20.140 align:middle line:84%
+in the left-hand
+panel now fixes them
+
+00:46:20.140 --> 00:46:23.980 align:middle line:84%
+all, the really favorable
+combination of A, B, and C,
+
+00:46:23.980 --> 00:46:25.370 align:middle line:90%
+very early on.
+
+00:46:25.370 --> 00:46:29.470 align:middle line:84%
+And so there's a whole series of
+arguments and counterarguments
+
+00:46:29.470 --> 00:46:31.210 align:middle line:84%
+in the population
+genetics literature
+
+00:46:31.210 --> 00:46:32.900 align:middle line:90%
+about why is there sex.
+
+00:46:32.900 --> 00:46:36.250 align:middle line:84%
+Of course, we all know
+have our own reasons.
+
+00:46:36.250 --> 00:46:39.220 align:middle line:84%
+But in here, they say
+there's a huge cost.
+
+00:46:39.220 --> 00:46:42.700 align:middle line:84%
+The counterargument
+is there's a huge cost
+
+00:46:42.700 --> 00:46:44.650 align:middle line:90%
+of having two genders--
+
+00:46:44.650 --> 00:46:48.940 align:middle line:84%
+maybe as much as 50%,
+possibly higher--
+
+00:46:48.940 --> 00:46:52.240 align:middle line:84%
+because they have different
+morphologies and different
+
+00:46:52.240 --> 00:46:55.400 align:middle line:90%
+capabilities and so on.
+
+00:46:55.400 --> 00:46:57.190 align:middle line:90%
+But then, there's this benefit.
+
+00:46:57.190 --> 00:46:58.840 align:middle line:84%
+This is the risk,
+and the benefit
+
+00:46:58.840 --> 00:47:00.490 align:middle line:90%
+is the earlier recombination.
+
+00:47:00.490 --> 00:47:02.770 align:middle line:84%
+But then there's
+counterarguments and so forth
+
+00:47:02.770 --> 00:47:05.680 align:middle line:90%
+that we won't go into.
+
+00:47:05.680 --> 00:47:06.610 align:middle line:90%
+Yeah?
+
+00:47:06.610 --> 00:47:08.050 align:middle line:90%
+AUDIENCE: Going back to drift.
+
+00:47:08.050 --> 00:47:09.790 align:middle line:90%
+The drift is actually random.
+
+00:47:09.790 --> 00:47:13.680 align:middle line:84%
+What is it that causes
+either allele to fix?
+
+00:47:13.680 --> 00:47:16.840 align:middle line:84%
+If you have two different
+alleles [INAUDIBLE]
+
+00:47:16.840 --> 00:47:20.650 align:middle line:84%
+zero for one allele, why
+wouldn't it just [INAUDIBLE]
+
+00:47:20.650 --> 00:47:21.340 align:middle line:90%
+come back?
+
+00:47:21.340 --> 00:47:22.600 align:middle line:90%
+PROFESSOR: Well, it can.
+
+00:47:22.600 --> 00:47:24.790 align:middle line:84%
+You can see here
+that it's starting
+
+00:47:24.790 --> 00:47:29.020 align:middle line:84%
+to head so that it's
+fixing on one allele,
+
+00:47:29.020 --> 00:47:31.930 align:middle line:84%
+and it changes direction,
+and it fixes the other one.
+
+00:47:31.930 --> 00:47:37.210 align:middle line:84%
+So it can go all the way
+down to close to zero
+
+00:47:37.210 --> 00:47:39.130 align:middle line:90%
+and then bounce back up.
+
+00:47:39.130 --> 00:47:41.925 align:middle line:84%
+This is just some
+typical simulations here.
+
+00:47:41.925 --> 00:47:43.300 align:middle line:84%
+If you do enough
+of these, you'll
+
+00:47:43.300 --> 00:47:45.577 align:middle line:90%
+find every possible behavior.
+
+00:47:45.577 --> 00:47:47.910 align:middle line:84%
+AUDIENCE: So what you're
+saying-- basically, eventually,
+
+00:47:47.910 --> 00:47:49.810 align:middle line:84%
+if you just give it
+enough time, it will fix.
+
+00:47:49.810 --> 00:47:50.768 align:middle line:90%
+PROFESSOR: It will fix.
+
+00:47:50.768 --> 00:47:54.485 align:middle line:84%
+You can't necessarily predict
+which one will it fix on.
+
+00:47:54.485 --> 00:47:56.110 align:middle line:84%
+If there's no selection,
+half the time,
+
+00:47:56.110 --> 00:47:57.568 align:middle line:84%
+it'll fix on one,
+half on the other
+
+00:47:57.568 --> 00:48:01.950 align:middle line:84%
+if they start out at
+the frequency of 50/50.
+
+00:48:01.950 --> 00:48:04.242 align:middle line:84%
+But you have to think of it
+in the context of mutation
+
+00:48:04.242 --> 00:48:06.450 align:middle line:84%
+and selection, too, because
+they're all acting there.
+
+00:48:06.450 --> 00:48:09.240 align:middle line:84%
+And when you say that something
+is selectively neutral,
+
+00:48:09.240 --> 00:48:10.840 align:middle line:90%
+what you really mean--
+
+00:48:10.840 --> 00:48:14.160 align:middle line:84%
+everything has some very, very
+tiny selective coefficient.
+
+00:48:14.160 --> 00:48:18.360 align:middle line:84%
+But if it's tiny enough
+and the population size
+
+00:48:18.360 --> 00:48:20.880 align:middle line:84%
+is small enough, then
+drift will blind you,
+
+00:48:20.880 --> 00:48:22.120 align:middle line:90%
+and you can't see it.
+
+00:48:22.120 --> 00:48:24.027 align:middle line:84%
+But if you get really
+big populations,
+
+00:48:24.027 --> 00:48:25.860 align:middle line:84%
+then you'll get small
+drift, and then you'll
+
+00:48:25.860 --> 00:48:28.170 align:middle line:90%
+see more subtle selection.
+
+00:48:28.170 --> 00:48:31.125 align:middle line:90%
+
+
+00:48:31.125 --> 00:48:34.260 align:middle line:84%
+The human population
+is very large.
+
+00:48:34.260 --> 00:48:37.500 align:middle line:84%
+Some of the oceanic
+species are truly enormous.
+
+00:48:37.500 --> 00:48:40.810 align:middle line:84%
+So you need to think about
+that as a possibility.
+
+00:48:40.810 --> 00:48:44.340 align:middle line:84%
+So now let's talk
+about common diseases.
+
+00:48:44.340 --> 00:48:49.470 align:middle line:84%
+The question is, are
+common diseases really--
+
+00:48:49.470 --> 00:48:51.690 align:middle line:84%
+to what extent are they
+caused by common variants?
+
+00:48:51.690 --> 00:48:54.120 align:middle line:84%
+Clearly, some of them are
+caused by common variants.
+
+00:48:54.120 --> 00:48:56.640 align:middle line:84%
+And we've said,
+well, common variants
+
+00:48:56.640 --> 00:49:01.140 align:middle line:84%
+really shouldn't be deleterious,
+because they would be wiped out
+
+00:49:01.140 --> 00:49:03.960 align:middle line:90%
+by selection.
+
+00:49:03.960 --> 00:49:07.050 align:middle line:84%
+They could be very, very mildly
+deleterious such that drift
+
+00:49:07.050 --> 00:49:10.680 align:middle line:84%
+will cause them to get
+fixated or persist,
+
+00:49:10.680 --> 00:49:14.910 align:middle line:84%
+but they can't be
+really noticeably.
+
+00:49:14.910 --> 00:49:17.400 align:middle line:84%
+Selection coefficients
+of 10 to the minus 4--
+
+00:49:17.400 --> 00:49:19.170 align:middle line:90%
+very, very tiny effects--
+
+00:49:19.170 --> 00:49:26.620 align:middle line:84%
+can be wiped out in
+normal-sized populations.
+
+00:49:26.620 --> 00:49:30.990 align:middle line:84%
+So here are three examples
+of common variants
+
+00:49:30.990 --> 00:49:33.300 align:middle line:84%
+that almost certainly
+are associated
+
+00:49:33.300 --> 00:49:34.900 align:middle line:90%
+with common diseases.
+
+00:49:34.900 --> 00:49:37.620 align:middle line:84%
+So why are these special
+cases, in my opinion,
+
+00:49:37.620 --> 00:49:38.880 align:middle line:90%
+rather than the general case?
+
+00:49:38.880 --> 00:49:40.995 align:middle line:84%
+APOE4 I earlier alluded
+to is associated
+
+00:49:40.995 --> 00:49:42.210 align:middle line:90%
+with Alzheimer's dementia.
+
+00:49:42.210 --> 00:49:46.180 align:middle line:84%
+It's involved in lipid
+transport and metabolism.
+
+00:49:46.180 --> 00:49:51.450 align:middle line:84%
+And this particular
+allele, the E4 allele,
+
+00:49:51.450 --> 00:49:54.270 align:middle line:90%
+is present at 20% in humans.
+
+00:49:54.270 --> 00:49:58.950 align:middle line:84%
+About 80% is the other allele,
+the second most common allele
+
+00:49:58.950 --> 00:50:02.230 align:middle line:90%
+is the E3 allele.
+
+00:50:02.230 --> 00:50:05.990 align:middle line:84%
+And so you might say, well,
+this bad allele, this E4,
+
+00:50:05.990 --> 00:50:11.640 align:middle line:84%
+is the one that should be
+present in the common ancestors
+
+00:50:11.640 --> 00:50:14.300 align:middle line:90%
+of humans.
+
+00:50:14.300 --> 00:50:16.260 align:middle line:84%
+The E3, the good one,
+should be present
+
+00:50:16.260 --> 00:50:20.760 align:middle line:84%
+in the common ancestors, and
+this E4 is a recent aberration.
+
+00:50:20.760 --> 00:50:23.460 align:middle line:84%
+It's somehow getting
+into human population.
+
+00:50:23.460 --> 00:50:27.510 align:middle line:84%
+But actually, the E4 is the
+ancestral one, presumably
+
+00:50:27.510 --> 00:50:29.070 align:middle line:84%
+due to some
+difference in diet or
+
+00:50:29.070 --> 00:50:33.210 align:middle line:90%
+some other selective effects.
+
+00:50:33.210 --> 00:50:37.030 align:middle line:84%
+The E4, which is currently
+bad for us, we think,
+
+00:50:37.030 --> 00:50:42.130 align:middle line:84%
+was really good for some
+of our related species.
+
+00:50:42.130 --> 00:50:45.930 align:middle line:84%
+And so we need to think very
+carefully before we do anything
+
+00:50:45.930 --> 00:50:48.420 align:middle line:84%
+drastic about eliminating
+this allele from, say,
+
+00:50:48.420 --> 00:50:51.990 align:middle line:90%
+the human population.
+
+00:50:51.990 --> 00:50:56.880 align:middle line:84%
+Hemoglobin sickle cell,
+the sickle cell allele,
+
+00:50:56.880 --> 00:51:00.030 align:middle line:84%
+is probably the
+oldest and most famous
+
+00:51:00.030 --> 00:51:04.830 align:middle line:84%
+of the molecularly
+characterized alleles.
+
+00:51:04.830 --> 00:51:09.330 align:middle line:84%
+Zuckerland and Pauling made
+this famous many decades ago.
+
+00:51:09.330 --> 00:51:13.450 align:middle line:84%
+And it exists in 17% of
+the human population,
+
+00:51:13.450 --> 00:51:18.790 align:middle line:84%
+and this is responsible for
+oxygen transport in red blood
+
+00:51:18.790 --> 00:51:19.290 align:middle line:90%
+cells.
+
+00:51:19.290 --> 00:51:21.240 align:middle line:84%
+And you saw in one
+of the earlier slides
+
+00:51:21.240 --> 00:51:23.970 align:middle line:84%
+today those sickle-shaped
+cells, which
+
+00:51:23.970 --> 00:51:27.510 align:middle line:84%
+have a huge effect on the
+hemodynamics of the red blood
+
+00:51:27.510 --> 00:51:28.650 align:middle line:90%
+cell.
+
+00:51:28.650 --> 00:51:32.250 align:middle line:84%
+Well, another red blood cell
+component, an enzyme, G6PD,
+
+00:51:32.250 --> 00:51:36.720 align:middle line:84%
+which is involved in maintaining
+the redox function in the cell,
+
+00:51:36.720 --> 00:51:38.740 align:middle line:90%
+is as high as 40%.
+
+00:51:38.740 --> 00:51:42.780 align:middle line:84%
+The mutant, whichever one you
+want-- they're so close to 50%.
+
+00:51:42.780 --> 00:51:47.640 align:middle line:84%
+They're just two
+alleles, and one of them
+
+00:51:47.640 --> 00:51:53.250 align:middle line:84%
+is deleterious, in a certain
+sense, a biochemical sense.
+
+00:51:53.250 --> 00:51:58.410 align:middle line:84%
+But both of these have
+a heterozygote advantage
+
+00:51:58.410 --> 00:52:00.510 align:middle line:90%
+in being malaria-resistent.
+
+00:52:00.510 --> 00:52:02.010 align:middle line:84%
+And so probably
+that's the reason
+
+00:52:02.010 --> 00:52:03.510 align:middle line:84%
+that it's common
+in the population.
+
+00:52:03.510 --> 00:52:09.570 align:middle line:84%
+And this is probably proving
+to be the rule that these
+
+00:52:09.570 --> 00:52:11.790 align:middle line:84%
+are examples of that
+convergence that we
+
+00:52:11.790 --> 00:52:14.400 align:middle line:84%
+saw in the case of
+balanced polymorphisms
+
+00:52:14.400 --> 00:52:16.750 align:middle line:84%
+where the heterozygote
+has some advantage,
+
+00:52:16.750 --> 00:52:19.980 align:middle line:84%
+and so you get a balanced
+point rather than one
+
+00:52:19.980 --> 00:52:23.880 align:middle line:84%
+or the other dominating
+through drift or selection.
+
+00:52:23.880 --> 00:52:26.280 align:middle line:84%
+And the third example,
+which we will develop
+
+00:52:26.280 --> 00:52:30.300 align:middle line:90%
+in much more detail, is CCR5.
+
+00:52:30.300 --> 00:52:32.220 align:middle line:84%
+There's a deletion
+of 32 base pairs
+
+00:52:32.220 --> 00:52:35.070 align:middle line:84%
+which confers resistance
+to one of the greatest
+
+00:52:35.070 --> 00:52:38.970 align:middle line:84%
+plagues in the history
+of the human race, which
+
+00:52:38.970 --> 00:52:41.100 align:middle line:90%
+is the AIDS virus.
+
+00:52:41.100 --> 00:52:44.250 align:middle line:84%
+And its frequency
+is 9% in Caucasians.
+
+00:52:44.250 --> 00:52:49.830 align:middle line:84%
+I think we wish that it were
+100% when we worry about HIV,
+
+00:52:49.830 --> 00:52:53.160 align:middle line:84%
+but we need to wonder
+why it's not 100%.
+
+00:52:53.160 --> 00:52:57.120 align:middle line:84%
+There may be some
+other reason for it
+
+00:52:57.120 --> 00:53:00.750 align:middle line:84%
+being a nondeleted
+version in so many humans,
+
+00:53:00.750 --> 00:53:02.170 align:middle line:90%
+and we need to understand that.
+
+00:53:02.170 --> 00:53:06.270 align:middle line:84%
+And as far as I know, we
+don't understand that.
+
+00:53:06.270 --> 00:53:10.110 align:middle line:84%
+Now, this is the last
+slide before the break.
+
+00:53:10.110 --> 00:53:12.690 align:middle line:90%
+
+
+00:53:12.690 --> 00:53:14.790 align:middle line:84%
+I promised you
+that we would take
+
+00:53:14.790 --> 00:53:18.960 align:middle line:84%
+that simple mathematical
+treatment of mutation selection
+
+00:53:18.960 --> 00:53:22.500 align:middle line:84%
+and drift and show that it
+actually has some impact,
+
+00:53:22.500 --> 00:53:25.890 align:middle line:84%
+that it's actually
+used in human genetics.
+
+00:53:25.890 --> 00:53:30.960 align:middle line:84%
+Now, I must warn you that
+this is not a consensus view.
+
+00:53:30.960 --> 00:53:32.790 align:middle line:84%
+This is a view that
+I find appealing,
+
+00:53:32.790 --> 00:53:38.310 align:middle line:84%
+in slide 21, that Jon
+Pritchard has authored.
+
+00:53:38.310 --> 00:53:43.470 align:middle line:84%
+And he titled it in
+a provocative way--
+
+00:53:43.470 --> 00:53:47.010 align:middle line:84%
+Are Rare Variants Responsible
+for Susceptibility
+
+00:53:47.010 --> 00:53:49.090 align:middle line:90%
+to Complex Diseases?
+
+00:53:49.090 --> 00:53:51.150 align:middle line:90%
+And this is a quote.
+
+00:53:51.150 --> 00:53:52.890 align:middle line:84%
+It's customary in
+theoretical work
+
+00:53:52.890 --> 00:53:58.470 align:middle line:84%
+relating to complex diseases
+that the allele frequencies
+
+00:53:58.470 --> 00:54:00.460 align:middle line:84%
+are treated as
+parameters of the model.
+
+00:54:00.460 --> 00:54:03.570 align:middle line:84%
+And typically in
+models, you'll have
+
+00:54:03.570 --> 00:54:07.830 align:middle line:84%
+derived values and
+parameters, which
+
+00:54:07.830 --> 00:54:11.820 align:middle line:84%
+are input, the things that the
+user is expected to provide.
+
+00:54:11.820 --> 00:54:16.140 align:middle line:84%
+And you don't want to have to be
+guessing at allele frequencies
+
+00:54:16.140 --> 00:54:17.520 align:middle line:90%
+and having those parameters.
+
+00:54:17.520 --> 00:54:22.960 align:middle line:84%
+So what's new here is that,
+using an evolutionary process,
+
+00:54:22.960 --> 00:54:25.620 align:middle line:84%
+which includes-- you guessed
+it-- selection, mutation,
+
+00:54:25.620 --> 00:54:29.460 align:middle line:84%
+and genetic drift, we
+can learn or, as I say,
+
+00:54:29.460 --> 00:54:31.620 align:middle line:84%
+model the underlying
+allele frequencies.
+
+00:54:31.620 --> 00:54:35.400 align:middle line:84%
+They can be derived rather than
+being required as an input.
+
+00:54:35.400 --> 00:54:38.460 align:middle line:90%
+
+
+00:54:38.460 --> 00:54:45.900 align:middle line:84%
+And this is illustrated
+here with a model.
+
+00:54:45.900 --> 00:54:50.340 align:middle line:84%
+This is entirely theoretical,
+but the parameters
+
+00:54:50.340 --> 00:54:53.790 align:middle line:84%
+that are used are based on some
+genetic studies that have been
+
+00:54:53.790 --> 00:54:55.890 align:middle line:90%
+done, for example, on autism.
+
+00:54:55.890 --> 00:54:59.460 align:middle line:84%
+And so let me just define
+some of the terms here.
+
+00:54:59.460 --> 00:55:03.510 align:middle line:84%
+This risk ratio is related,
+in a certain sense,
+
+00:55:03.510 --> 00:55:05.460 align:middle line:84%
+to the selection and
+fitness coefficients
+
+00:55:05.460 --> 00:55:06.370 align:middle line:90%
+we were talking about before.
+
+00:55:06.370 --> 00:55:07.995 align:middle line:84%
+Now, selection and
+fitness coefficients
+
+00:55:07.995 --> 00:55:10.110 align:middle line:90%
+refer to reproductive fitness.
+
+00:55:10.110 --> 00:55:14.310 align:middle line:84%
+And in human genetics,
+we have broader interests
+
+00:55:14.310 --> 00:55:17.460 align:middle line:84%
+into all sorts of things
+that either don't affect
+
+00:55:17.460 --> 00:55:19.770 align:middle line:84%
+reproductive fitness,
+or we don't know
+
+00:55:19.770 --> 00:55:21.030 align:middle line:90%
+how it affects reproduction.
+
+00:55:21.030 --> 00:55:23.220 align:middle line:84%
+But it affects some
+kind of medical
+
+00:55:23.220 --> 00:55:26.250 align:middle line:90%
+or just some trait of interest.
+
+00:55:26.250 --> 00:55:31.050 align:middle line:84%
+In this case, the risk
+ratio replaces the selection
+
+00:55:31.050 --> 00:55:31.660 align:middle line:90%
+coefficient.
+
+00:55:31.660 --> 00:55:36.330 align:middle line:84%
+And this is basically saying, my
+brother or sister has autism--
+
+00:55:36.330 --> 00:55:38.140 align:middle line:90%
+if they did--
+
+00:55:38.140 --> 00:55:41.460 align:middle line:84%
+then I would have a
+75-fold higher chance
+
+00:55:41.460 --> 00:55:45.270 align:middle line:84%
+of having it than
+someone selected randomly
+
+00:55:45.270 --> 00:55:48.220 align:middle line:84%
+from the same population
+as I come from.
+
+00:55:48.220 --> 00:55:54.120 align:middle line:84%
+So the 70-fold increase is
+a very high heritability
+
+00:55:54.120 --> 00:55:57.390 align:middle line:90%
+for this particular example.
+
+00:55:57.390 --> 00:56:00.090 align:middle line:84%
+Also in this example,
+through some genetics
+
+00:56:00.090 --> 00:56:03.180 align:middle line:84%
+we won't discuss,
+it seemed reasonable
+
+00:56:03.180 --> 00:56:08.640 align:middle line:84%
+that the number of loci involved
+might be a large number,
+
+00:56:08.640 --> 00:56:10.143 align:middle line:90%
+on the order of 100 or so.
+
+00:56:10.143 --> 00:56:12.060 align:middle line:84%
+And you can think of a
+lot of common diseases.
+
+00:56:12.060 --> 00:56:15.160 align:middle line:84%
+When you start listing the
+well-characterized ones,
+
+00:56:15.160 --> 00:56:16.680 align:middle line:84%
+we start listing
+the number of genes
+
+00:56:16.680 --> 00:56:19.610 align:middle line:84%
+that either are known or
+are plausible, like cancer
+
+00:56:19.610 --> 00:56:22.970 align:middle line:84%
+or walking down the
+street, or whatever.
+
+00:56:22.970 --> 00:56:26.600 align:middle line:84%
+These really complicated traits
+involve a very large number
+
+00:56:26.600 --> 00:56:31.040 align:middle line:84%
+of cell types, a large
+number of cell components,
+
+00:56:31.040 --> 00:56:33.330 align:middle line:84%
+and hence a large
+number of genes.
+
+00:56:33.330 --> 00:56:36.210 align:middle line:84%
+So here, they've assumed
+a model with 100 loci,
+
+00:56:36.210 --> 00:56:38.990 align:middle line:90%
+100 different genes.
+
+00:56:38.990 --> 00:56:44.300 align:middle line:84%
+And they have multiplicative
+effects of the polymorphisms
+
+00:56:44.300 --> 00:56:47.270 align:middle line:90%
+in those genes between loci.
+
+00:56:47.270 --> 00:56:51.800 align:middle line:84%
+That is to say, you need to
+have gene 1 working and gene
+
+00:56:51.800 --> 00:56:54.290 align:middle line:84%
+2 and gene 3, so
+that's multiplicative.
+
+00:56:54.290 --> 00:56:57.000 align:middle line:84%
+But then, the polymorphisms
+you introduced into a gene--
+
+00:56:57.000 --> 00:56:58.580 align:middle line:84%
+you could think there are
+a lot of genes involved,
+
+00:56:58.580 --> 00:57:00.830 align:middle line:84%
+and there are a lot of different
+positions within the gene that
+
+00:57:00.830 --> 00:57:02.990 align:middle line:84%
+could be involved, and
+each of those is additive.
+
+00:57:02.990 --> 00:57:08.840 align:middle line:84%
+You have a little reduction in
+activity due to first mutation,
+
+00:57:08.840 --> 00:57:10.580 align:middle line:84%
+and then a second
+mutation, a third.
+
+00:57:10.580 --> 00:57:13.560 align:middle line:84%
+Each of those is this
+or this or this or this,
+
+00:57:13.560 --> 00:57:15.240 align:middle line:84%
+and so that's an
+additive effect.
+
+00:57:15.240 --> 00:57:18.620 align:middle line:84%
+And so they have various
+historical justifications
+
+00:57:18.620 --> 00:57:21.380 align:middle line:84%
+for having additive
+penetrance within the gene
+
+00:57:21.380 --> 00:57:25.400 align:middle line:84%
+and multiplicative across
+different loci, different genes
+
+00:57:25.400 --> 00:57:27.210 align:middle line:90%
+in the genome.
+
+00:57:27.210 --> 00:57:33.530 align:middle line:84%
+Now, for these 100 loci,
+there will be a top five
+
+00:57:33.530 --> 00:57:36.950 align:middle line:84%
+that affect the
+relative risk the most,
+
+00:57:36.950 --> 00:57:41.645 align:middle line:84%
+and that's what's been
+plotted here, where we have--
+
+00:57:41.645 --> 00:57:44.480 align:middle line:90%
+
+
+00:57:44.480 --> 00:57:48.110 align:middle line:84%
+the zero curve, you
+see, is in the absence
+
+00:57:48.110 --> 00:57:51.800 align:middle line:84%
+of any of these
+multiplicative effects.
+
+00:57:51.800 --> 00:57:54.680 align:middle line:84%
+It's as if you had no loci that
+were affecting the frequency
+
+00:57:54.680 --> 00:57:56.100 align:middle line:90%
+of susceptibility alleles.
+
+00:57:56.100 --> 00:58:01.640 align:middle line:84%
+And so, as in most
+unselective populations,
+
+00:58:01.640 --> 00:58:07.490 align:middle line:84%
+you'll have most of the
+alleles being either
+
+00:58:07.490 --> 00:58:10.010 align:middle line:90%
+at zero frequency or 100%.
+
+00:58:10.010 --> 00:58:12.860 align:middle line:84%
+Basically, the zero
+representing the absence
+
+00:58:12.860 --> 00:58:15.290 align:middle line:90%
+of the other the alternatives.
+
+00:58:15.290 --> 00:58:16.860 align:middle line:90%
+The 100% is there.
+
+00:58:16.860 --> 00:58:24.230 align:middle line:84%
+But if you have these
+top five loci out of 100
+
+00:58:24.230 --> 00:58:26.150 align:middle line:84%
+that contribute
+to the risk ratio,
+
+00:58:26.150 --> 00:58:29.810 align:middle line:84%
+then those are represented
+by these four curves.
+
+00:58:29.810 --> 00:58:31.610 align:middle line:84%
+The frequency of
+susceptibility alleles,
+
+00:58:31.610 --> 00:58:35.180 align:middle line:84%
+which range along the horizontal
+axis now, from 0 to 100%,
+
+00:58:35.180 --> 00:58:38.145 align:middle line:84%
+have what he calls a
+probability density.
+
+00:58:38.145 --> 00:58:39.770 align:middle line:84%
+It's clearly not a
+probability density,
+
+00:58:39.770 --> 00:58:41.720 align:middle line:84%
+because it's not going
+to integrate to 1,
+
+00:58:41.720 --> 00:58:50.330 align:middle line:84%
+but here, it's the probability,
+the histogram of risk ratios.
+
+00:58:50.330 --> 00:58:58.820 align:middle line:84%
+So let's take a break,
+and we'll drill down
+
+00:58:58.820 --> 00:59:01.475 align:middle line:84%
+on the association study
+in a very interesting case.
+
+00:59:01.475 --> 00:59:04.580 align:middle line:90%
+
+
+00:59:04.580 --> 00:59:10.340 align:middle line:84%
+Any problem sets to hand in can
+put them here during the break.
+
+00:59:10.340 --> 00:59:20.020 align:middle line:90%
+
+
+00:59:20.020 --> 00:59:26.490 align:middle line:84%
+AUDIENCE: So I understand about
+modeling mutation selection.
+
+00:59:26.490 --> 00:59:31.000 align:middle line:90%

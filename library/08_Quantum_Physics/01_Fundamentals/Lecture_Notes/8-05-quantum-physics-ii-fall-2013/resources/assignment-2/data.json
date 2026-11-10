@@ -1,0 +1,39 @@
+{
+  "content": "<p>This resource file contains information regarding quantum physics II, assignment 2.</p>\n",
+  "content_type": "resource",
+  "description": "This resource file contains information regarding quantum physics II, assignment 2.",
+  "draft": false,
+  "file": "/courses/8-05-quantum-physics-ii-fall-2013/4c935e1a8b7331c00334c2a6449f37ef_MIT8_05F13_ps2.pdf",
+  "file_size": 142994,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "7abb6434-ee16-2ca4-e370-23444f820e47",
+  "resourcetype": "Document",
+  "title": "Assignment 2",
+  "uid": "4c935e1a-8b73-31c0-0334-c2a6449f37ef",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

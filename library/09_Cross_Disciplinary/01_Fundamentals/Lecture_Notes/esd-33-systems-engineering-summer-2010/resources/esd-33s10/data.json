@@ -1,0 +1,21 @@
+{
+  "content": "<p>Diagram of a fuel and engine management system in an automobile. This system includes components of the powertrain system, which is discussed in Lec #2 of this course. (Image by MIT OpenCourseWare.)</p>\n",
+  "content_type": "resource",
+  "description": "Diagram of a fuel and engine management system in an automobile. This system includes components of the powertrain system, which is discussed in Lec #2 of this course. (Image by MIT OpenCourseWare.)",
+  "draft": false,
+  "file": "/courses/esd-33-systems-engineering-summer-2010/2ccb6bf6cc130e0de256b724092a72b8_esd-33s10.jpg",
+  "file_size": 54825,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Diagram of a fuel and engine management system in an automobile. This system includes components of the powertrain system, which is discussed in Lec #2 of this course. (Image by MIT OpenCourseWare.)",
+    "credit": "",
+    "image-alt": "Fuel and engine management system diagram."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Fuel and Engine Management System",
+  "uid": "2ccb6bf6-cc13-0e0d-e256-b724092a72b8"
+}

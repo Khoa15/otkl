@@ -1,0 +1,16 @@
+
+{
+  "content": "<p>This section includes selected exams from previous semesters. Note: in the 2005 final exam, figures are missing from Problem 4.</p>\n\n    <h3 id=\"quizzes\">Quizzes</h3>\n\n<p>2003 Quiz 1 (<a href=\"../../resources/quiz03/index.html\">PDF</a>)</p>\n\n    <h3 id=\"final-exams\">Final Exams</h3>\n\n<p>2003 Final Exam (<a href=\"../../resources/final03/index.html\">PDF</a>)</p>\n<p>2004 Final Exam (<a href=\"../../resources/final04/index.html\">PDF</a>)</p>\n<p>2005 Final Exam (<a href=\"../../resources/final05/index.html\">PDF</a>)</p>\n<p>2007 Final Exam (<a href=\"../../resources/final07/index.html\">PDF</a>)</p>\n",
+  "content_type": "page",
+  "description": "This section includes selected exams from previous semesters. Note: in the 2005 final exam, figures are missing from Problem 4.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Exams",
+  "uid": "7b47a09a-07f2-ba1e-d775-a9c636ac0efd"
+}
+

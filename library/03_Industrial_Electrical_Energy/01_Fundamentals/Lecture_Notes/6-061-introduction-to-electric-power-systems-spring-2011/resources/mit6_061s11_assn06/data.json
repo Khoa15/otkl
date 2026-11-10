@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource contains assignment 6.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains assignment 6.",
+  "draft": false,
+  "file": "/courses/6-061-introduction-to-electric-power-systems-spring-2011/7ef405ebda9b353c445541247d0b26b8_MIT6_061S11_assn06.pdf",
+  "file_size": 59158,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "3869c2ea-b19a-1fcd-fe99-36d41d8cf5a2",
+  "resourcetype": "Document",
+  "title": "MIT6_061S11_assn06.pdf",
+  "uid": "7ef405eb-da9b-353c-4455-41247d0b26b8",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-061-introduction-to-electric-power-systems-spring-2011"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-061-introduction-to-electric-power-systems-spring-2011"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

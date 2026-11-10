@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;p&gt;[NASA/SP-2007-6105] = NASA Headquarters. &lt;em&gt;NASA Systems Engineering Handbook, NASA/SP-2007–6105 Rev 1&lt;/em&gt;. Military Bookshop, 2007. ISBN: 9781780391380.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;&#xA;&#xA;SES #&#xA;&lt;/th&gt;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&lt;th&gt;&#xA;&#xA;READINGS&#xA;&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Systems Engineering Overview and Stakeholder Analysis&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;[NASA/SP-2007–6105] Chapters 1.0, 2.0, and 3.0, pp. 1–30 and Section 4.1, pp. 31–39.&lt;/p&gt;&#xA;&lt;p&gt;Section 6.1, pp. 112–30 and Section 7.1, pp. 217–33.&lt;/p&gt;&#xA;&lt;p&gt;Section 7.6, pp. 261 and Appendix A, pp. 263–5.&lt;/p&gt;&#xA;&lt;p&gt;Appendix B, pp. 266–78 and Appendix J, pp. 303–6.&lt;/p&gt;&#xA;&lt;p&gt;Appendix K, p. 308 and Appendix P, pp. 317–20.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,106 @@
+{
+  "course_description": "This course introduces finite element methods for the analysis of solid, structural, fluid, field, and heat transfer problems. Steady-state, transient, and dynamic conditions are considered. Finite element methods and solution procedures for linear and nonlinear analyses are presented using largely physical arguments. The homework and a term project (for graduate students) involve use of the general purpose finite element analysis program {{% resource_link \"2897f3e6-49e4-4634-b4ef-df1cce66d480\" \"ADINA\" %}}. Applications include finite element analyses, modeling of problems, and interpretation of numerical results.\n",
+  "course_description_html": "This course introduces finite element methods for the analysis of solid, structural, fluid, field, and heat transfer problems. Steady-state, transient, and dynamic conditions are considered. Finite element methods and solution procedures for linear and nonlinear analyses are presented using largely physical arguments. The homework and a term project (for graduate students) involve use of the general purpose finite element analysis program <a   class=\"external-link \"   target=\"_blank\"   href=\"http://www.adina.com/\"  aria-label=\"ADINA (opens in a new tab)\"  >ADINA</a>. Applications include finite element analyses, modeling of problems, and interpretation of numerical results.",
+  "course_image": {
+    "content": "ba34059d-5c8c-4c27-31a8-73008e9f2631",
+    "website": "2-092-finite-element-analysis-of-solids-and-fluids-i-fall-2009"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "Modeling the flow of blood through the aortic valve, solved with ADINA, the finite element program used in this course. (Image by Prof. K. J. Bathe.)",
+    "draft": false,
+    "file": "/courses/2-092-finite-element-analysis-of-solids-and-fluids-i-fall-2009/ba34059d5c8c4c2731a873008e9f2631_2-092f09.jpg",
+    "file_size": 44606,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "A model of blood flow through the aortic valve, solved with ADINA, the finite element program used in this course. (Image by Prof. K. J. Bathe.)",
+      "credit": "",
+      "image-alt": "Colored model of fluid flow through the aortic valve."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "2-092f09.jpg",
+    "uid": "ba34059d-5c8c-4c27-31a8-73008e9f2631",
+    "video_metadata": {
+      "youtube_id": null
+    }
+  },
+  "course_image_thumbnail": {
+    "content": "281f2527-ef0d-f6de-e119-8649edda18a2",
+    "website": "2-092-finite-element-analysis-of-solids-and-fluids-i-fall-2009"
+  },
+  "course_title": "Finite Element Analysis of Solids and Fluids I",
+  "department_numbers": [
+    "2"
+  ],
+  "extra_course_numbers": "2.093",
+  "image_src": "./static_resources/ba34059d5c8c4c2731a873008e9f2631_2-092f09.jpg",
+  "instructors": [
+    {
+      "first_name": "Klaus-Jürgen",
+      "last_name": "Bathe",
+      "middle_initial": "",
+      "salutation": "",
+      "title": "Klaus-Jürgen Bathe",
+      "uid": "d6600d8f-7db9-7be6-2bff-77919dad997f",
+      "url": "https://ocw.mit.edu/search/?q=Klaus-J%C3%BCrgen+Bathe"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Notes",
+    "Projects with Examples",
+    "Programming Assignments",
+    "Problem Sets",
+    "Problem Set Solutions",
+    "Exams",
+    "Exam Solutions"
+  ],
+  "legacy_uid": "ab3dd7e3-ce3e-60b2-a1df-0f4d92516794",
+  "level": [
+    "Undergraduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Science & Math",
+      "Mathematics"
+    ],
+    [
+      "Engineering",
+      "Mechanical Engineering"
+    ]
+  ],
+  "primary_course_number": "2.092",
+  "site_short_id": "2.092-fall-2009",
+  "site_uid": "179b13ee-6452-4cf1-bd5b-d853a2acc077",
+  "site_url_path": "courses/2-092-finite-element-analysis-of-solids-and-fluids-i-fall-2009",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Mathematics",
+      "Differential Equations"
+    ],
+    [
+      "Mathematics",
+      "Mathematical Analysis"
+    ],
+    [
+      "Mathematics",
+      "Applied Mathematics"
+    ],
+    [
+      "Engineering",
+      "Mechanical Engineering",
+      "Fluid Mechanics"
+    ],
+    [
+      "Engineering",
+      "Mechanical Engineering",
+      "Solid Mechanics"
+    ]
+  ],
+  "year": "2009"
+}

@@ -1,0 +1,42 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "draft": false,
+  "file": null,
+  "file_size": null,
+  "file_type": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Video",
+  "title": "Photons and the loss of determinism",
+  "uid": "71b57262-95a9-4e0f-b032-dd7dd580fa14",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "/courses/8-04-quantum-physics-i-spring-2016/8OsUQ1yXCcI_captions.webvtt",
+    "video_captions_resource": {
+      "content": "",
+      "website": "8-04-quantum-physics-i-spring-2016"
+    },
+    "video_thumbnail_file": "https://img.youtube.com/vi/8OsUQ1yXCcI/default.jpg",
+    "video_transcript_file": "/courses/8-04-quantum-physics-i-spring-2016/8OsUQ1yXCcI_transcript.pdf",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "8-04-quantum-physics-i-spring-2016"
+    }
+  },
+  "video_metadata": {
+    "source": "youtube",
+    "video_speakers": "",
+    "video_tags": "8-04-quantum-physics-i-spring-2016, loss of determinism, photons",
+    "youtube_description": "",
+    "youtube_id": "8OsUQ1yXCcI"
+  }
+}

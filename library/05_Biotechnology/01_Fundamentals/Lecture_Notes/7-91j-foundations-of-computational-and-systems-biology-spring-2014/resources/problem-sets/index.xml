@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Sets on MIT OpenCourseWare</title>
+    <link>/resources/problem-sets/</link>
+    <description>Recent content in Problem Sets on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-sets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problem Set 1: Questions-Sequence search, global alignment, BLAST statistics</title>
+      <link>/resources/mit7_91js14_pset1_ques/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_pset1_ques/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding questions-sequence search, global alignment, BLAST statistics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 1: Solutions-Sequence search, global alignment, BLAST statistics</title>
+      <link>/resources/mit7_91js14_pset1_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_pset1_ans/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding Solutions-sequence search, global alignment, BLAST statistics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 2: Questions- BWT, Library complexity, RNA-seq, Genome assembly, Motifs, Multiple hypothesis testing</title>
+      <link>/resources/mit7_91js14_pset2_ques/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_pset2_ques/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding questions- BWT, library complexity, RNA-seq, genome assembly, motifs, multiple hypothesis testing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 2: Solutions- BWT, Library complexity, RNA-seq, Genome assembly, Motifs, Multiple hypothesis testing</title>
+      <link>/resources/mit7_91js14_pset2_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_pset2_ans/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding Solutions- BWT, library complexity, RNA-seq, genome assembly, motifs, multiple hypothesis testing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 3: Questions- Gibbs Sampler, RNA secondary structure, Protein Structure with PyRosetta, Connections</title>
+      <link>/resources/mit7_91js14_pset3_ques/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_pset3_ques/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding questions- gibbs sampler, RNA secondary structure, protein structure with pyRosetta, connections.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 3: Solutions- Gibbs Sampler, RNA secondary structure, Protein Structure with PyRosetta, Connections</title>
+      <link>/resources/mit7_91js14_pset3_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_pset3_ans/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding solutions- gibbs Sampler, RNA secondary structure, protein structure with pyRosetta, connections.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 4: Questions- Bayesian Networks, Refining Protein Structures in PyRosetta, Mutual information of protein residues</title>
+      <link>/resources/mit7_91js14_pset4_ques/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_pset4_ques/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding questions- bayesian networks, refining protein structures in pyRosetta, mutual information of protein residues.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 4: Solution- Bayesian Networks, Refining Protein Structures in PyRosetta, Mutual information of protein residues</title>
+      <link>/resources/mit7_91js14_pset4_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_pset4_ans/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding solution- bayesian networks, refining protein structures in pyRosetta, mutual information of protein residues.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 5: Answers- Network Statistics, Chromatin Structure, Heritability, Association Testing</title>
+      <link>/resources/mit7_91js14_pset5_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_pset5_ans/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding answers- network statistics, chromatin structure, heritability, association testing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem Set 5: Questions- Network Statistics, Chromatin Structure, Heritability, Association Testing</title>
+      <link>/resources/mit7_91js14_pset5_ques/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit7_91js14_pset5_ques/data.json</guid>
+      <description>&lt;p&gt;This file contains the information regarding questions- network statistics, chromatin structure, heritability, association testing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem_set_3.zip</title>
+      <link>/resources/problem_set_3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/problem_set_3/data.json</guid>
+      <description>&lt;p&gt;This is a special file related to problem set 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Problem_set_4.zip</title>
+      <link>/resources/problem_set_4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/problem_set_4/data.json</guid>
+      <description>&lt;p&gt;This is a special file related to problem set 4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pset_2_coding_portion.zip</title>
+      <link>/resources/pset_2_coding_portion/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pset_2_coding_portion/data.json</guid>
+      <description>&lt;p&gt;This is a special file related to problem set 2.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

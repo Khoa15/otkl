@@ -1,0 +1,47 @@
+{
+  "content": "<p>This is a file that contains information regarding fundamentals of systems engineering assignment4.</p>\n",
+  "content_type": "resource",
+  "description": "This is a file that contains information regarding fundamentals of systems engineering assignment4.",
+  "draft": false,
+  "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/6efe133badd04e43241d139d90a3054f_MIT16_842F15_Assignment4.pdf",
+  "file_size": 493454,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Projects"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "e05910ee-9d33-4170-6aa3-011adcee6fe1",
+  "resourcetype": "Document",
+  "title": "Fundamentals of Systems Engineering: Tradespace Exploration, Concept Selection",
+  "uid": "6efe133b-add0-4e43-241d-139d90a3054f",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "16-842-fundamentals-of-systems-engineering-fall-2015"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "16-842-fundamentals-of-systems-engineering-fall-2015"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "audience": [],
+  "content": "<p><strong>Instructor:</strong> Prof. Gilbert Strang</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "103494267",
+  "file_type": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem-solving Videos"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Video Lectures",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Recitation 10",
+  "uid": "210f841b-64a8-7e2a-8ef5-6fe0b12860b3",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-rec10_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/dacffbe5049b578d8966af1e86b9e794_fJSSVcFhA0Y.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/fJSSVcFhA0Y/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/d7ff56163921cada3982c05b7bb3ee48_fJSSVcFhA0Y.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+    "youtube_id": "fJSSVcFhA0Y"
+  }
+}

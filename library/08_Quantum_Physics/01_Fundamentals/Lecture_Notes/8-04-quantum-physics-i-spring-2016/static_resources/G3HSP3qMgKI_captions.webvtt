@@ -1,0 +1,702 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.670 align:middle line:90%
+
+
+00:00:00.670 --> 00:00:03.370 align:middle line:84%
+BARTON ZWIEBACH: Let's talk
+now about entanglement.
+
+00:00:03.370 --> 00:00:11.330 align:middle line:90%
+
+
+00:00:11.330 --> 00:00:14.220 align:middle line:84%
+So we talk about
+entanglement when we have
+
+00:00:14.220 --> 00:00:17.620 align:middle line:90%
+two non-interacting particles.
+
+00:00:17.620 --> 00:00:20.860 align:middle line:84%
+You don't need a strong
+interaction between particles
+
+00:00:20.860 --> 00:00:22.780 align:middle line:84%
+to produce entanglement,
+the particles
+
+00:00:22.780 --> 00:00:25.480 align:middle line:90%
+can be totally non-interacting.
+
+00:00:25.480 --> 00:00:32.575 align:middle line:84%
+Suppose particle 1 can be
+in any of these states--
+
+00:00:32.575 --> 00:00:35.500 align:middle line:90%
+
+
+00:00:35.500 --> 00:00:38.840 align:middle line:90%
+u 1, u 2.
+
+00:00:38.840 --> 00:00:42.980 align:middle line:90%
+Let's assume just u 1 and u 2.
+
+00:00:42.980 --> 00:00:49.130 align:middle line:84%
+And particle 2 can be
+in states v 1 and v 2.
+
+00:00:49.130 --> 00:00:55.000 align:middle line:90%
+
+
+00:00:55.000 --> 00:00:57.700 align:middle line:84%
+And you have these two
+particles flying around,
+
+00:00:57.700 --> 00:01:00.410 align:middle line:84%
+these are possible
+states of particle 1
+
+00:01:00.410 --> 00:01:02.740 align:middle line:84%
+and possible states
+of particle 2.
+
+00:01:02.740 --> 00:01:06.010 align:middle line:84%
+Now you want to describe
+the full system, the quantum
+
+00:01:06.010 --> 00:01:09.680 align:middle line:90%
+state of the two particles.
+
+00:01:09.680 --> 00:01:11.420 align:middle line:90%
+States of the two particles.
+
+00:01:11.420 --> 00:01:14.740 align:middle line:90%
+
+
+00:01:14.740 --> 00:01:16.480 align:middle line:90%
+Two particles.
+
+00:01:16.480 --> 00:01:19.800 align:middle line:90%
+
+
+00:01:19.800 --> 00:01:25.420 align:middle line:84%
+Well, it seems reasonable
+that to describe
+
+00:01:25.420 --> 00:01:28.420 align:middle line:84%
+the state of the two particles
+that are not interacting,
+
+00:01:28.420 --> 00:01:31.870 align:middle line:84%
+I should tell you what
+particle 1 is doing
+
+00:01:31.870 --> 00:01:34.910 align:middle line:90%
+and what particle 2 is doing.
+
+00:01:34.910 --> 00:01:38.440 align:middle line:84%
+OK, so particle 1
+could be doing this.
+
+00:01:38.440 --> 00:01:41.360 align:middle line:90%
+Could be u 1.
+
+00:01:41.360 --> 00:01:47.420 align:middle line:84%
+And particle 2
+could be doing v 1.
+
+00:01:47.420 --> 00:01:51.600 align:middle line:90%
+
+
+00:01:51.600 --> 00:01:55.610 align:middle line:84%
+And in a sense, by
+telling you that,
+
+00:01:55.610 --> 00:01:57.860 align:middle line:84%
+we've said what
+everything is doing.
+
+00:01:57.860 --> 00:02:01.410 align:middle line:84%
+Particle 1 is doing u 1,
+particle 2 is doing u 2.
+
+00:02:01.410 --> 00:02:07.280 align:middle line:84%
+And mathematically, we like
+to make this look like a state
+
+00:02:07.280 --> 00:02:10.100 align:middle line:84%
+and we want to write
+it in a coherent way.
+
+00:02:10.100 --> 00:02:14.430 align:middle line:84%
+And we sort of multiply
+these two things,
+
+00:02:14.430 --> 00:02:18.750 align:middle line:84%
+but we must say
+sort of multiply,
+
+00:02:18.750 --> 00:02:21.110 align:middle line:84%
+because this strange
+multiplication, this,
+
+00:02:21.110 --> 00:02:24.860 align:middle line:84%
+you know, we think of
+them as vectors or states,
+
+00:02:24.860 --> 00:02:26.560 align:middle line:90%
+so how do you multiply states?
+
+00:02:26.560 --> 00:02:29.150 align:middle line:84%
+So you put something
+called the tensor
+
+00:02:29.150 --> 00:02:32.405 align:middle line:84%
+product, a little
+multiplication like this.
+
+00:02:32.405 --> 00:02:35.610 align:middle line:90%
+
+
+00:02:35.610 --> 00:02:42.720 align:middle line:84%
+So you could say, don't worry,
+it's kind of like a product,
+
+00:02:42.720 --> 00:02:44.400 align:middle line:90%
+and it's the way we do it.
+
+00:02:44.400 --> 00:02:48.300 align:middle line:84%
+We don't move things across,
+the first state here,
+
+00:02:48.300 --> 00:02:50.700 align:middle line:84%
+the second state here, and
+that's a possible state.
+
+00:02:50.700 --> 00:02:53.460 align:middle line:90%
+
+
+00:02:53.460 --> 00:02:57.060 align:middle line:84%
+Now, I could have
+a different state.
+
+00:02:57.060 --> 00:03:02.550 align:middle line:84%
+Because particle 1, in
+fact, could be doing
+
+00:03:02.550 --> 00:03:04.920 align:middle line:90%
+something a little different.
+
+00:03:04.920 --> 00:03:12.660 align:middle line:84%
+Could be doing alpha 1
+u 1 plus alpha 2 u 2,
+
+00:03:12.660 --> 00:03:21.930 align:middle line:84%
+and maybe particle 2 is doing
+beta 1 v 1 plus beta 2 v 2.
+
+00:03:21.930 --> 00:03:25.910 align:middle line:90%
+
+
+00:03:25.910 --> 00:03:28.520 align:middle line:90%
+And this would be all right.
+
+00:03:28.520 --> 00:03:31.850 align:middle line:84%
+I'm telling you what particle
+1 is doing and I'm telling you
+
+00:03:31.850 --> 00:03:36.420 align:middle line:84%
+what particle 2 is
+doing and the rules
+
+00:03:36.420 --> 00:03:40.940 align:middle line:84%
+of tensor multiplication or
+this kind of multiplication
+
+00:03:40.940 --> 00:03:44.100 align:middle line:84%
+to combine those states
+are just like a product,
+
+00:03:44.100 --> 00:03:48.750 align:middle line:84%
+except that as I said, you
+never move the states across.
+
+00:03:48.750 --> 00:03:54.660 align:middle line:84%
+So you just distribute, so
+you have alpha 2, beta 1,
+
+00:03:54.660 --> 00:04:01.290 align:middle line:90%
+the number goes out, u 1 v 1--
+
+00:04:01.290 --> 00:04:04.310 align:middle line:90%
+that's the first factor--
+
+00:04:04.310 --> 00:04:23.000 align:middle line:84%
+plus alpha 1 beta 2 u 1 v 2
+plus alpha 2 beta 1 u 2 v 1
+
+00:04:23.000 --> 00:04:33.120 align:middle line:90%
+plus alpha 2 beta 2 u 2 v 2.
+
+00:04:33.120 --> 00:04:35.640 align:middle line:90%
+I think I got it right.
+
+00:04:35.640 --> 00:04:36.420 align:middle line:90%
+Let me know.
+
+00:04:36.420 --> 00:04:39.820 align:middle line:90%
+
+
+00:04:39.820 --> 00:04:43.400 align:middle line:84%
+I just multiplied and
+got the numbers out.
+
+00:04:43.400 --> 00:04:48.350 align:middle line:84%
+The numbers can be move
+out across this product.
+
+00:04:48.350 --> 00:04:53.390 align:middle line:84%
+OK, so that's a state and that's
+a superposition of states,
+
+00:04:53.390 --> 00:05:03.410 align:middle line:84%
+so actually, I could try to
+write a different state now.
+
+00:05:03.410 --> 00:05:06.550 align:middle line:84%
+You see, we're just
+experimenting, but here
+
+00:05:06.550 --> 00:05:09.430 align:middle line:90%
+is another state.
+
+00:05:09.430 --> 00:05:19.240 align:middle line:90%
+u 1 v 1 plus u 2 v 2.
+
+00:05:19.240 --> 00:05:25.090 align:middle line:90%
+
+
+00:05:25.090 --> 00:05:32.700 align:middle line:84%
+Now this is a state that
+actually seems different.
+
+00:05:32.700 --> 00:05:34.940 align:middle line:90%
+Quite different.
+
+00:05:34.940 --> 00:05:38.030 align:middle line:84%
+Because I don't seem
+to be able to say
+
+00:05:38.030 --> 00:05:42.080 align:middle line:84%
+that what particle
+1 is doing and what
+
+00:05:42.080 --> 00:05:45.645 align:middle line:90%
+particle 2 is doing separately.
+
+00:05:45.645 --> 00:05:49.820 align:middle line:84%
+You see, I can say when
+particle 1 is doing u 1,
+
+00:05:49.820 --> 00:05:52.180 align:middle line:90%
+particle 2 is doing v 1.
+
+00:05:52.180 --> 00:05:56.810 align:middle line:84%
+And if when particle 1 is
+doing u 2, this is v 2.
+
+00:05:56.810 --> 00:06:00.470 align:middle line:84%
+But can I write
+this as some state
+
+00:06:00.470 --> 00:06:05.660 align:middle line:84%
+of the first particle times some
+state of the second particle?
+
+00:06:05.660 --> 00:06:10.190 align:middle line:90%
+
+
+00:06:10.190 --> 00:06:14.490 align:middle line:90%
+Well, let's see.
+
+00:06:14.490 --> 00:06:17.800 align:middle line:84%
+Maybe I can and can
+write it in this form.
+
+00:06:17.800 --> 00:06:22.050 align:middle line:84%
+This is the most general
+state that you can say,
+
+00:06:22.050 --> 00:06:26.940 align:middle line:84%
+particle 1 is doing this,
+and particle 2 is doing that.
+
+00:06:26.940 --> 00:06:28.360 align:middle line:90%
+So can they do that?
+
+00:06:28.360 --> 00:06:32.860 align:middle line:84%
+Well, I can compare these
+two terms with those
+
+00:06:32.860 --> 00:06:39.360 align:middle line:84%
+and they conclude that
+alpha 1 beta 1 must be 1.
+
+00:06:39.360 --> 00:06:45.410 align:middle line:90%
+
+
+00:06:45.410 --> 00:06:51.870 align:middle line:90%
+Alpha 2 beta 2 must be also 1.
+
+00:06:51.870 --> 00:07:00.880 align:middle line:84%
+But no cross products exist,
+so alpha 1 beta 2 must be 0
+
+00:07:00.880 --> 00:07:06.380 align:middle line:90%
+and alpha 2 beta 1 must be 0.
+
+00:07:06.380 --> 00:07:10.130 align:middle line:84%
+And that's a problem
+because either alpha 1
+
+00:07:10.130 --> 00:07:13.330 align:middle line:84%
+is 0, which is
+inconsistent, or beta 2
+
+00:07:13.330 --> 00:07:15.830 align:middle line:84%
+is 0, which is
+inconsistent with that,
+
+00:07:15.830 --> 00:07:20.240 align:middle line:84%
+so now this state
+is un-factorizable.
+
+00:07:20.240 --> 00:07:22.840 align:middle line:90%
+
+
+00:07:22.840 --> 00:07:28.510 align:middle line:84%
+It's a funny state in which you
+cannot say that this quantum
+
+00:07:28.510 --> 00:07:31.930 align:middle line:84%
+state can be described by
+telling what the first particle
+
+00:07:31.930 --> 00:07:34.810 align:middle line:84%
+is doing and what the
+second particle is doing.
+
+00:07:34.810 --> 00:07:37.510 align:middle line:84%
+What the first particle is
+doing depends on the second
+
+00:07:37.510 --> 00:07:40.540 align:middle line:84%
+and what the second is
+doing depends on the first.
+
+00:07:40.540 --> 00:07:43.391 align:middle line:90%
+This is an entangled state.
+
+00:07:43.391 --> 00:07:57.650 align:middle line:90%
+
+
+00:07:57.650 --> 00:08:03.800 align:middle line:84%
+And then we can build entangled
+states and our very strange
+
+00:08:03.800 --> 00:08:05.240 align:middle line:90%
+states.
+
+00:08:05.240 --> 00:08:08.210 align:middle line:84%
+So with two
+particles with spins,
+
+00:08:08.210 --> 00:08:14.150 align:middle line:84%
+for example, we can build
+an entangled states of 2
+
+00:08:14.150 --> 00:08:18.160 align:middle line:90%
+spin 1/2 particles.
+
+00:08:18.160 --> 00:08:23.820 align:middle line:90%
+
+
+00:08:23.820 --> 00:08:26.580 align:middle line:84%
+And this state could
+look like this--
+
+00:08:26.580 --> 00:08:32.370 align:middle line:84%
+the first particle is up along
+z and the second particle is
+
+00:08:32.370 --> 00:08:37.940 align:middle line:84%
+down along z, plus
+a particle that
+
+00:08:37.940 --> 00:08:43.900 align:middle line:84%
+is down along z for
+the first particle,
+
+00:08:43.900 --> 00:08:46.480 align:middle line:90%
+but the second is up along z.
+
+00:08:46.480 --> 00:08:51.200 align:middle line:90%
+
+
+00:08:51.200 --> 00:08:53.410 align:middle line:84%
+And these are 2
+spin 1/2 particles
+
+00:08:53.410 --> 00:08:57.920 align:middle line:84%
+and in the usual notation,
+these experiments in quantum
+
+00:08:57.920 --> 00:09:00.470 align:middle line:84%
+mechanics and
+black hole physics,
+
+00:09:00.470 --> 00:09:03.490 align:middle line:90%
+people speak of Alice and Bob.
+
+00:09:03.490 --> 00:09:07.690 align:middle line:84%
+Alice has one particle,
+Bob has the other particle.
+
+00:09:07.690 --> 00:09:12.120 align:middle line:84%
+Maybe Alice is in the
+moon and has her electron
+
+00:09:12.120 --> 00:09:15.950 align:middle line:84%
+and Bob is on earth
+and has his electron,
+
+00:09:15.950 --> 00:09:20.450 align:middle line:84%
+and the two electrons, one
+on the earth and in the moon,
+
+00:09:20.450 --> 00:09:23.490 align:middle line:90%
+are in this state.
+
+00:09:23.490 --> 00:09:30.240 align:middle line:84%
+So then we say that Alice and
+Bob share an entangled pair.
+
+00:09:30.240 --> 00:09:33.790 align:middle line:84%
+And all kinds of
+strange things happen.
+
+00:09:33.790 --> 00:09:37.350 align:middle line:84%
+People can do those things
+in the lab-- not quite one
+
+00:09:37.350 --> 00:09:39.330 align:middle line:84%
+in the earth and
+one in the moon,
+
+00:09:39.330 --> 00:09:43.500 align:middle line:84%
+but one photon at one
+place and another photon
+
+00:09:43.500 --> 00:09:46.950 align:middle line:84%
+entangled with it at
+100 kilometers away,
+
+00:09:46.950 --> 00:09:50.220 align:middle line:90%
+that's pretty doable.
+
+00:09:50.220 --> 00:09:56.160 align:middle line:84%
+And they are in this funny state
+in which their properties are
+
+00:09:56.160 --> 00:10:01.160 align:middle line:84%
+currently that in
+surprising ways.
+
+00:10:01.160 --> 00:10:03.220 align:middle line:90%
+So what happens here?
+
+00:10:03.220 --> 00:10:06.790 align:middle line:84%
+Suppose Alice
+goes-- or let's say
+
+00:10:06.790 --> 00:10:11.320 align:middle line:84%
+Bob goes along and
+measures his spin
+
+00:10:11.320 --> 00:10:13.900 align:middle line:90%
+and he finds his spin down.
+
+00:10:13.900 --> 00:10:18.520 align:middle line:84%
+So-- oh, you look here,
+oh, here is down for Bob.
+
+00:10:18.520 --> 00:10:22.990 align:middle line:84%
+So at this moment, the whole
+state collapses into this.
+
+00:10:22.990 --> 00:10:26.320 align:middle line:84%
+Because up with Bob
+didn't get realized.
+
+00:10:26.320 --> 00:10:30.880 align:middle line:84%
+So once Bob measures
+and he finds down,
+
+00:10:30.880 --> 00:10:32.540 align:middle line:90%
+the whole state goes into this.
+
+00:10:32.540 --> 00:10:37.360 align:middle line:84%
+So if Alice-- on the moon
+or in another galaxy--
+
+00:10:37.360 --> 00:10:40.780 align:middle line:84%
+at that instant
+looks at her spin,
+
+00:10:40.780 --> 00:10:45.250 align:middle line:84%
+she will find it's
+up before light
+
+00:10:45.250 --> 00:10:47.940 align:middle line:90%
+has had time to get there.
+
+00:10:47.940 --> 00:10:50.150 align:middle line:90%
+Instantaneously.
+
+00:10:50.150 --> 00:10:53.260 align:middle line:90%
+It will go into this state.
+
+00:10:53.260 --> 00:10:58.670 align:middle line:84%
+People were sure somehow this
+violates special relativity.
+
+00:10:58.670 --> 00:11:00.210 align:middle line:90%
+It doesn't.
+
+00:11:00.210 --> 00:11:02.555 align:middle line:84%
+You somehow when you think
+about this carefully,
+
+00:11:02.555 --> 00:11:04.720 align:middle line:84%
+you can't quite
+send information,
+
+00:11:04.720 --> 00:11:07.210 align:middle line:84%
+but the collapse
+is instantaneous
+
+00:11:07.210 --> 00:11:09.090 align:middle line:90%
+in quantum mechanics.
+
+00:11:09.090 --> 00:11:12.910 align:middle line:84%
+Somehow, Bob and Alice cannot
+communicate information
+
+00:11:12.910 --> 00:11:16.990 align:middle line:84%
+by sharing this entangled pair,
+but it's an interesting thing
+
+00:11:16.990 --> 00:11:19.860 align:middle line:90%
+why it cannot happen.
+
+00:11:19.860 --> 00:11:22.920 align:middle line:90%
+Einstein again objected to this.
+
+00:11:22.920 --> 00:11:26.180 align:middle line:84%
+And he said, this
+is a fake thing.
+
+00:11:26.180 --> 00:11:29.430 align:middle line:90%
+
+
+00:11:29.430 --> 00:11:30.980 align:middle line:90%
+You guys are going to share--
+
+00:11:30.980 --> 00:11:34.590 align:middle line:84%
+and now, of course, they have
+to share many entangled pairs
+
+00:11:34.590 --> 00:11:38.300 align:middle line:84%
+to do experiments, so maybe
+1,000 entangled pairs.
+
+00:11:38.300 --> 00:11:44.170 align:middle line:84%
+And Einstein would say, no,
+that's not what's happening.
+
+00:11:44.170 --> 00:11:49.400 align:middle line:84%
+What's happening is that some of
+your entangled pairs are this.
+
+00:11:49.400 --> 00:11:55.580 align:middle line:84%
+That is, Bob is down, Alice
+is up, some of them are this--
+
+00:11:55.580 --> 00:11:58.560 align:middle line:84%
+and there's no such thing
+as this entanglement
+
+00:11:58.560 --> 00:12:01.970 align:middle line:84%
+and indeed, if you
+measure and you find down,
+
+00:12:01.970 --> 00:12:04.830 align:middle line:84%
+she will find up, and if
+you measure and you find up,
+
+00:12:04.830 --> 00:12:10.750 align:middle line:84%
+she will find down, and there's
+nothing too mysterious here.
+
+00:12:10.750 --> 00:12:17.050 align:middle line:84%
+But then came John Bell in
+1964 and discovered his Bell
+
+00:12:17.050 --> 00:12:22.210 align:middle line:84%
+inequalities that demonstrated
+that if Alice and Bob can
+
+00:12:22.210 --> 00:12:25.720 align:middle line:84%
+measure in three
+different directions,
+
+00:12:25.720 --> 00:12:30.550 align:middle line:84%
+they will find correlations
+that are impossible to explain
+
+00:12:30.550 --> 00:12:32.680 align:middle line:90%
+with classical physics.
+
+00:12:32.680 --> 00:12:36.640 align:middle line:84%
+It took a lot of originally
+for Bell to discover this,
+
+00:12:36.640 --> 00:12:39.040 align:middle line:84%
+that you have to measure
+in three directions,
+
+00:12:39.040 --> 00:12:42.280 align:middle line:84%
+and therefore, the
+kind of correlations
+
+00:12:42.280 --> 00:12:48.130 align:middle line:84%
+that appear in entangled states
+are very subtle and pretty
+
+00:12:48.130 --> 00:12:51.060 align:middle line:90%
+difficult to disentangle.
+
+00:12:51.060 --> 00:12:57.160 align:middle line:84%
+So that's why entanglement
+is a very peculiar subject.
+
+00:12:57.160 --> 00:13:01.250 align:middle line:84%
+People think about it a lot
+because it's very mysterious.
+
+00:13:01.250 --> 00:13:04.720 align:middle line:84%
+It somehow violates
+classical notions,
+
+00:13:04.720 --> 00:13:07.890 align:middle line:90%
+but in a very subtle way.

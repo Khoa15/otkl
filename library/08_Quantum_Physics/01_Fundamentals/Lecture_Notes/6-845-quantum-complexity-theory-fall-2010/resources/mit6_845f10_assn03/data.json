@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Problem set on quantum algorithms and lower bounds, the Bernstein-Vazirani problem, Simon’s problem, oracle separations, Grover’s algorithm, the polynomial method, and the &ldquo;Almost-As-Good-As-New Lemma.&rdquo;</p>\n",
+  "content_type": "resource",
+  "description": "Problem set on quantum algorithms and lower bounds, the Bernstein-Vazirani problem, Simon’s problem, oracle separations, Grover’s algorithm, the polynomial method, and the \"Almost-As-Good-As-New Lemma.\"",
+  "draft": false,
+  "file": "/courses/6-845-quantum-complexity-theory-fall-2010/b533fcc2b6adf23bb4612cc6f0a0b35b_MIT6_845F10_assn03.pdf",
+  "file_size": 75900,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "dc03270e-479f-f53e-4dd2-a71adbb4d3aa",
+  "resourcetype": "Document",
+  "title": "Problem Set 3: Quantum Algorithms and Lower Bounds",
+  "uid": "b533fcc2-b6ad-f23b-b461-2cc6f0a0b35b",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

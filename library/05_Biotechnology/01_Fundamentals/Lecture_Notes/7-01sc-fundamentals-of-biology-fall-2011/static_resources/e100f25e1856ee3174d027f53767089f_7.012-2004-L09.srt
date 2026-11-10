@@ -1,0 +1,2935 @@
+1
+00:00:01 --> 00:00:03
+I want to go back a second to the
+end of last time because in the
+
+2
+00:00:03 --> 00:00:06
+closing moments there, we, or
+at least I, got a little bit
+
+3
+00:00:06 --> 00:00:09
+lost, and where
+the plusses and
+
+4
+00:00:09 --> 00:00:12
+minuses were at
+a certain table.
+
+5
+00:00:12 --> 00:00:18
+And, I want to go back and make
+sure we've got that straight.
+
+6
+00:00:18 --> 00:00:22
+We were talking about a situation
+where we were trying to use genetics,
+
+7
+00:00:22 --> 00:00:27
+and the phenotypes that might
+be observed in mutants to try to
+
+8
+00:00:27 --> 00:00:32
+understand the biochemical pathway
+because we're beginning to try to
+
+9
+00:00:32 --> 00:00:36
+unite the geneticist's point of
+view who looks only at mutants,
+
+10
+00:00:36 --> 00:00:40
+and the biochemist's point of view
+who looks at pathways and proteins.
+
+11
+00:00:40 --> 00:00:44
+And, I had hypothesized that there
+was some biochemists who had thought
+
+12
+00:00:44 --> 00:00:49
+up a possible pathway for the
+synthesis of arginine that involved
+
+13
+00:00:49 --> 00:00:53
+some precursor,
+alpha, beta, gamma,
+
+14
+00:00:53 --> 00:00:57
+where alpha is turned into beta;
+beta is turned into gamma; and gamma
+
+15
+00:00:57 --> 00:01:02
+is used to turn into
+arginine. And, hypothetically,
+
+16
+00:01:02 --> 00:01:06
+there would be some enzymes:
+enzyme A that converts alpha,
+
+17
+00:01:06 --> 00:01:10
+enzyme B that converts beta,
+and enzyme C that converts gamma.
+
+18
+00:01:10 --> 00:01:14
+And, we were just thinking about,
+what would the phenotypes look like
+
+19
+00:01:14 --> 00:01:18
+of different arginine auxotrophs
+that had blocks at different stages
+
+20
+00:01:18 --> 00:01:22
+in the pathway. If I had
+an arginine auxotroph that
+
+21
+00:01:22 --> 00:01:26
+had a block here because let's say
+a mutation in a gene affecting this
+
+22
+00:01:26 --> 00:01:30
+enzyme, or at a block here
+at a mutation affecting, say,
+
+23
+00:01:30 --> 00:01:34
+the gene that encodes enzyme C,
+how would I be able to tell very
+
+24
+00:01:34 --> 00:01:38
+simply that they were in
+different genes? Last time,
+
+25
+00:01:38 --> 00:01:42
+we found that we could tell they
+were in different genes by doing a
+
+26
+00:01:42 --> 00:01:46
+cross between a mutant
+that had the first mutation,
+
+27
+00:01:46 --> 00:01:50
+and a mutant that had the second
+mutation, and looking at the double
+
+28
+00:01:50 --> 00:01:54
+heterozygote, right? And,
+if in the double heterozygote
+
+29
+00:01:54 --> 00:01:58
+you had a wild type or a normal
+phenotype, then they had to be in
+
+30
+00:01:58 --> 00:02:03
+different genes,
+OK? Remember that?
+
+31
+00:02:03 --> 00:02:06
+That was called a test
+of complementation.
+
+32
+00:02:06 --> 00:02:09
+That was how we were able to sort
+out which mutations were in the same
+
+33
+00:02:09 --> 00:02:12
+gene, and which mutations
+were in different genes.
+
+34
+00:02:12 --> 00:02:15
+Now we can go a step further.
+When we've established that they're
+
+35
+00:02:15 --> 00:02:18
+in different genes, we
+can try to begin to think,
+
+36
+00:02:18 --> 00:02:21
+how do these genes relate
+to a biochemical pathway?
+
+37
+00:02:21 --> 00:02:24
+I wanted to begin to introduce,
+because it'll be relevant for today,
+
+38
+00:02:24 --> 00:02:27
+this notion: so, suppose I had a
+mutation that affected enzyme A so
+
+39
+00:02:27 --> 00:02:31
+that this enzymatic step
+couldn't be carried out.
+
+40
+00:02:31 --> 00:02:35
+Such a mutant, when I
+just try to grow it on
+
+41
+00:02:35 --> 00:02:40
+minimal medium won't be able to grow.
+If I give it the substrate alpha,
+
+42
+00:02:40 --> 00:02:45
+it doesn't do it any good because
+it hasn't got the enzyme to convert
+
+43
+00:02:45 --> 00:02:50
+alpha. So, given alpha, it
+won't grow. But if I give it
+
+44
+00:02:50 --> 00:02:55
+beta, what will happen? It
+can grow because I've bypassed
+
+45
+00:02:55 --> 00:03:00
+the defect. What about if
+I give it gamma? Arginine?
+
+46
+00:03:00 --> 00:03:18
+Now, if instead the mutation were
+affecting enzymatic step here,
+
+47
+00:03:18 --> 00:03:36
+then if I give it
+on minimal or medium
+
+48
+00:03:36 --> 00:03:40
+but it can grow on gamma.
+What about this last line?
+
+49
+00:03:40 --> 00:03:44
+If I have a mutation and
+the last enzymatic step,
+
+50
+00:03:44 --> 00:03:49
+minimal medium can't grow with
+alpha, can't grow with beta,
+
+51
+00:03:49 --> 00:03:53
+can't even grow with gamma.
+But, it can grow with arginine
+
+52
+00:03:53 --> 00:03:57
+because I've bypassed that step.
+So, I get a different phenotype,
+
+53
+00:03:57 --> 00:04:02
+the inability to
+grow even on gamma,
+
+54
+00:04:02 --> 00:04:08
+but I can grow on arginine. Now,
+here, if I put together those
+
+55
+00:04:08 --> 00:04:13
+mutants and make a double mutant,
+a double homozygote, let's say,
+
+56
+00:04:13 --> 00:04:19
+that's defective in both A and B,
+which will it look like? Will it be
+
+57
+00:04:19 --> 00:04:24
+able to grow on minimal medium?
+Will it be able to grow on alpha?
+
+58
+00:04:24 --> 00:04:30
+Will it be able
+to grow on beta?
+
+59
+00:04:30 --> 00:04:36
+Will it be able to grow on gamma
+and arginine? What about if I have a
+
+60
+00:04:36 --> 00:04:43
+double mutant in B and C,
+minus, minus, minus, minus,
+
+61
+00:04:43 --> 00:04:49
+plus? So this looks the same as
+that. This looks the same as that.
+
+62
+00:04:49 --> 00:04:56
+And so, by looking at
+different mutant combinations,
+
+63
+00:04:56 --> 00:05:02
+I can see that the phenotype of B
+here is what occurs in the double
+
+64
+00:05:02 --> 00:05:08
+mutant. So, this phenotype is
+epistatic to this phenotype.
+
+65
+00:05:08 --> 00:05:13
+Epistatic means stands upon,
+OK? So, phenotypes, just like
+
+66
+00:05:13 --> 00:05:19
+phenotypes can be recessive or
+dominant, you can also speak about
+
+67
+00:05:19 --> 00:05:24
+them being epistatic. And
+epistatic means when you have
+
+68
+00:05:24 --> 00:05:30
+both of two mutations
+together at the epistatic
+
+69
+00:05:30 --> 00:05:33
+then one of them is epistatic
+to the other, perhaps.
+
+70
+00:05:33 --> 00:05:36
+It will, in fact, be
+the one that is present.
+
+71
+00:05:36 --> 00:05:39
+So, this is not so easy to do
+in many cases because if I take
+
+72
+00:05:39 --> 00:05:43
+different kinds of mutation
+affecting wing development,
+
+73
+00:05:43 --> 00:05:46
+and I put them together in the same
+fly, I may just get a very messed up
+
+74
+00:05:46 --> 00:05:49
+wing, and it's very hard to
+tell that the double mutant has a
+
+75
+00:05:49 --> 00:05:53
+phenotype that looks like
+either of the two single mutants.
+
+76
+00:05:53 --> 00:05:56
+But sometimes, if they fall very
+nicely in a pathway where this
+
+77
+00:05:56 --> 00:06:00
+affects the first step,
+this affects the second step
+
+78
+00:06:00 --> 00:06:04
+this affects the third step,
+this affects the fourth step,
+
+79
+00:06:04 --> 00:06:08
+then the double mutant
+will look like one of those,
+
+80
+00:06:08 --> 00:06:12
+OK? And, that way you can somehow
+order things in a biochemical
+
+81
+00:06:12 --> 00:06:16
+pathway. Now, notice,
+this is all indirect,
+
+82
+00:06:16 --> 00:06:20
+right? This is what geneticists did
+in the middle of the 20th century to
+
+83
+00:06:20 --> 00:06:24
+try to figure out how to connect
+up mutants to biochemistry.
+
+84
+00:06:24 --> 00:06:28
+Actually, that's not true.
+It's what geneticists still do
+
+85
+00:06:28 --> 00:06:31
+today because you might think
+that Well, we don't need to do this
+
+86
+00:06:31 --> 00:06:34
+anymore, but in fact geneticists
+constantly are looking at mutants
+
+87
+00:06:34 --> 00:06:38
+and making connections trying to
+say, what does this double combination
+
+88
+00:06:38 --> 00:06:41
+look like? What does that
+double combination look like,
+
+89
+00:06:41 --> 00:06:44
+and how does that tell us
+about the developmental pathway,
+
+90
+00:06:44 --> 00:06:48
+which cell signals which cell?
+This turns out to be one of the
+
+91
+00:06:48 --> 00:06:51
+most powerful ways to figure out
+what mutations do by saying the
+
+92
+00:06:51 --> 00:06:54
+combination of two mutations
+looks like the same as one of them,
+
+93
+00:06:54 --> 00:06:58
+allowing you to order the
+mutations in a pathway.
+
+94
+00:06:58 --> 00:07:02
+And, there's no general way to
+grind up a cell and order things in a
+
+95
+00:07:02 --> 00:07:06
+pathway. Genetics is a very
+powerful tool for doing that.
+
+96
+00:07:06 --> 00:07:10
+Now, there are some ways to
+grind up cells and order things,
+
+97
+00:07:10 --> 00:07:15
+but you need both of these
+techniques to believe stuff.
+
+98
+00:07:15 --> 00:07:19
+Anyway, I wanted to go over that,
+because it is an important concept,
+
+99
+00:07:19 --> 00:07:23
+the concept of epistasis, the
+concept of relating mutations to
+
+100
+00:07:23 --> 00:07:27
+steps and pathways, but what
+I mostly want to do today
+
+101
+00:07:27 --> 00:07:33
+is go on now to talk about genetics
+not in organisms like yeast or fruit
+
+102
+00:07:33 --> 00:07:39
+flies or even peas,
+but genetics in humans.
+
+103
+00:07:39 --> 00:07:46
+So, what's different about genetics
+in humans than genetics in yeast?
+
+104
+00:07:46 --> 00:07:53
+You can't choose who mates
+with whom. Well, you can.
+
+105
+00:07:53 --> 00:08:00
+I mean, in the days of arranged
+marriages maybe you couldn't,
+
+106
+00:08:00 --> 00:08:04
+but you can choose who mates
+with whom, but only for yourself,
+
+107
+00:08:04 --> 00:08:08
+right? What you can't do is
+arrange other crosses in the human
+
+108
+00:08:08 --> 00:08:12
+population as an experimentalist.
+Now, your own choice of mating,
+
+109
+00:08:12 --> 00:08:16
+unfortunately or fortunately perhaps
+produces too few progeny to be
+
+110
+00:08:16 --> 00:08:20
+statistically significant. As
+a parent of three, I think about
+
+111
+00:08:20 --> 00:08:24
+what it would take to raise a
+statistically significant number of
+
+112
+00:08:24 --> 00:08:28
+offspring to draw any conclusions,
+and I don't think I could do that.
+
+113
+00:08:28 --> 00:08:32
+So, you're absolutely right. We
+can't arrange the matings that
+
+114
+00:08:32 --> 00:08:36
+we want in the human population.
+So, that's the big difference.
+
+115
+00:08:36 --> 00:08:40
+So, can we do genetics anyway?
+How do we do genetics even though
+
+116
+00:08:40 --> 00:08:45
+we can't arrange the matings
+the way we'd like to? Sorry?
+
+117
+00:08:45 --> 00:08:49
+Well, family trees. We have to
+take the matings as we find them in
+
+118
+00:08:49 --> 00:08:54
+the human population. You
+can talk to somebody who might
+
+119
+00:08:54 --> 00:08:59
+have an interesting phenotype,
+I don't know, attached earlobes,
+
+120
+00:08:59 --> 00:09:02
+or very early heart disease,
+or some unusual color of eyes,
+
+121
+00:09:02 --> 00:09:05
+and begin to collect a
+family history on that person.
+
+122
+00:09:05 --> 00:09:08
+It's a little bit of a dodgy thing
+because you might just be relying on
+
+123
+00:09:08 --> 00:09:12
+that person's recollection. So,
+if you were really industrious
+
+124
+00:09:12 --> 00:09:15
+about this, you'd go check out each
+of their family members and test for
+
+125
+00:09:15 --> 00:09:18
+yourself whether they have the
+phenotype. People who do serious
+
+126
+00:09:18 --> 00:09:21
+human genetic studies often go and
+do that. They have to go confirm,
+
+127
+00:09:21 --> 00:09:25
+either by getting hospital records
+or interviewing the other members of
+
+128
+00:09:25 --> 00:09:28
+the family, etc. So, this
+is not as easy as plating
+
+129
+00:09:28 --> 00:09:39
+out lots of yeasts
+on a Petri plate.
+
+130
+00:09:39 --> 00:09:58
+And then you get pedigrees. And
+the pedigrees look like this.
+
+131
+00:09:58 --> 00:10:18
+Here's a pedigree. Tell
+me what you make of it.
+
+132
+00:10:18 --> 00:10:26
+Now, symbols: squares are males,
+circles are females by convention,
+
+133
+00:10:26 --> 00:10:32
+a colored in symbol means
+the phenotype that we're
+
+134
+00:10:32 --> 00:10:36
+interested in studying at the
+moment. So, in any given problem,
+
+135
+00:10:36 --> 00:10:41
+somebody will tell you, well,
+we're studying some interesting
+
+136
+00:10:41 --> 00:10:46
+phenotype. You often have
+an index case or a proband,
+
+137
+00:10:46 --> 00:10:50
+meaning the person who
+comes to clinical attention,
+
+138
+00:10:50 --> 00:10:55
+and then you chase back in the
+pedigree and try to reconstruct.
+
+139
+00:10:55 --> 00:11:00
+So, suppose I saw a
+pedigree like this.
+
+140
+00:11:00 --> 00:11:22
+What conclusions could I draw?
+Sorry? Recessive, sex link trait;
+
+141
+00:11:22 --> 00:11:35
+why sex link trait? So,
+let's see if we can get your
+
+142
+00:11:35 --> 00:11:40
+model up here. You think
+that this represents
+
+143
+00:11:40 --> 00:11:46
+sex-linked inheritance. So,
+what would the genotype be of
+
+144
+00:11:46 --> 00:11:51
+this male here? Mutant:
+I'll use M to denote a
+
+145
+00:11:51 --> 00:11:56
+mutant carried on the X chromosome,
+and a Y on the opposite chromosome.
+
+146
+00:11:56 --> 00:12:02
+What's the genotype
+of the female here?
+
+147
+00:12:02 --> 00:12:06
+So, it's plus over plus where I'll
+use plus to denote the gene carried
+
+148
+00:12:06 --> 00:12:10
+on the normal X chromosome.
+OK, and then what do you think
+
+149
+00:12:10 --> 00:12:14
+happened over here?
+So, mutant over plus,
+
+150
+00:12:14 --> 00:12:18
+you mate to this male who is plus
+over plus. Why is that male plus
+
+151
+00:12:18 --> 00:12:22
+over plus? Oh,
+right, good point.
+
+152
+00:12:22 --> 00:12:26
+It's not plus over plus. It's
+plus over Y. Why is that male
+
+153
+00:12:26 --> 00:12:30
+plus over Y as opposed
+to mutant over Y?
+
+154
+00:12:30 --> 00:12:35
+He'd have the mutant phenotype.
+So, he doesn't have the mutant
+
+155
+00:12:35 --> 00:12:40
+phenotype so he can infer he's plus
+over Y. OK, and then what happens
+
+156
+00:12:40 --> 00:12:46
+here? Mutant over Y; this is plus
+over Y. How did this person get
+
+157
+00:12:46 --> 00:12:51
+plus over Y? They just the
+plus for mom, and the daughters,
+
+158
+00:12:51 --> 00:12:57
+Y from dad, and a plus from mom.
+That's cool. Now, what about the
+
+159
+00:12:57 --> 00:13:02
+daughters there?
+They're plus over plus,
+
+160
+00:13:02 --> 00:13:06
+or M over plus? Is one,
+one, and one the other? Well,
+
+161
+00:13:06 --> 00:13:11
+in textbooks it's always plus
+over plus and M over plus,
+
+162
+00:13:11 --> 00:13:16
+but in real life? We don't know,
+right? So, this could be plus over
+
+163
+00:13:16 --> 00:13:20
+plus, or M over plus,
+we don't know, OK? Now,
+
+164
+00:13:20 --> 00:13:25
+what about on this side
+of the pedigree here?
+
+165
+00:13:25 --> 00:13:30
+What's the genotype
+here? Plus over Y, OK.
+
+166
+00:13:30 --> 00:13:36
+Why not mutant over Y?
+Because if they got the mutant,
+
+167
+00:13:36 --> 00:13:42
+it would have to come from the, OK,
+so here, plus over plus, and then
+
+168
+00:13:42 --> 00:13:48
+here, everybody is normal because
+there's no mutant allele segregated.
+
+169
+00:13:48 --> 00:13:54
+Yes? Yeah, couldn't there
+just be recessive? I mean,
+
+170
+00:13:54 --> 00:14:00
+it's a nice story
+about the sex link
+
+171
+00:14:00 --> 00:14:07
+but couldn't it be recessive?
+So, walk me through it being
+
+172
+00:14:07 --> 00:14:15
+recessive. M over plus,
+plus over plus. Wait, wait,
+
+173
+00:14:15 --> 00:14:22
+wait, hang on. Could this be M over
+plus, and that person be affected?
+
+174
+00:14:22 --> 00:14:30
+It's got to be M over M,
+right so mutants over mutants
+
+175
+00:14:30 --> 00:14:37
+but that's possible. Yeah,
+OK. So, what would this
+
+176
+00:14:37 --> 00:14:44
+person be? Plus over plus,
+let's say, come over here. Now,
+
+177
+00:14:44 --> 00:14:51
+what would this person be? M plus.
+It has to be M plus because, OK,
+
+178
+00:14:51 --> 00:14:58
+and what about this person
+here? M plus, now what about the
+
+179
+00:14:58 --> 00:15:05
+offspring? So, one
+of them is M over M,
+
+180
+00:15:05 --> 00:15:11
+plus over plus, and two M pluses.
+Does it always work out like that?
+
+181
+00:15:11 --> 00:15:17
+[LAUGHTER] No, it doesn't
+always work out like that at all.
+
+182
+00:15:17 --> 00:15:23
+So, I'm just going to write
+plus over plus here just to say,
+
+183
+00:15:23 --> 00:15:29
+tough, right? In real life, it
+doesn't always come out like that.
+
+184
+00:15:29 --> 00:15:35
+What about over here? It would
+have to be plus over plus.
+
+185
+00:15:35 --> 00:15:39
+Why not? It doesn't because it
+could be M over plus and have no
+
+186
+00:15:39 --> 00:15:44
+effect at offspring by chance,
+right? But, you were going to say
+
+187
+00:15:44 --> 00:15:48
+it's plus over plus because in the
+textbooks it's always plus over plus
+
+188
+00:15:48 --> 00:15:53
+in pictures like this, right?
+And then, it all turns out
+
+189
+00:15:53 --> 00:15:57
+to be pluses and mutants, and
+pluses and mutants, and all that,
+
+190
+00:15:57 --> 00:16:02
+right? Well, which
+picture's right?
+
+191
+00:16:02 --> 00:16:08
+Sorry? You don't know. So,
+that's not good. There's supposed
+
+192
+00:16:08 --> 00:16:14
+to be answers to these things.
+Could either be true? Which is
+
+193
+00:16:14 --> 00:16:19
+more likely? The one on the left?
+Why? More statistically probable,
+
+194
+00:16:19 --> 00:16:25
+how come? Because it is. It
+may not quite suffice as a fully
+
+195
+00:16:25 --> 00:16:31
+complete scientific
+answer though.
+
+196
+00:16:31 --> 00:16:48
+Yes? Yep. Well, but I have
+somebody who is affected
+
+197
+00:16:48 --> 00:17:05
+here. So, given that I've gotten
+affected person in the family --
+
+198
+00:17:05 --> 00:17:08
+yeah, so it is actually, you're
+right, statistically somewhat
+
+199
+00:17:08 --> 00:17:12
+less likely that you would have two
+independent M's entering the same
+
+200
+00:17:12 --> 00:17:16
+pedigree particularly
+if M is relatively rare.
+
+201
+00:17:16 --> 00:17:20
+If M is quite common, however,
+suppose M were something
+
+202
+00:17:20 --> 00:17:24
+was a 20% frequency in the
+population, then it actually might
+
+203
+00:17:24 --> 00:17:28
+be quite reasonable that this could
+happen. So, what would you really
+
+204
+00:17:28 --> 00:17:33
+want to do to test this? Sorry?
+Well, if you found any females here
+
+205
+00:17:33 --> 00:17:39
+maybe you'd be able to conclude that
+it was autosomal recessive because
+
+206
+00:17:39 --> 00:17:46
+females never show a
+sex-linked trait. Is that true?
+
+207
+00:17:46 --> 00:17:53
+No, that's not true. Why not?
+You're right. So, you just have to
+
+208
+00:17:53 --> 00:18:00
+be homozygous for it on
+the X. So, having a single
+
+209
+00:18:00 --> 00:18:09
+female won't, I mean, she's
+not going to take that as
+
+210
+00:18:09 --> 00:18:18
+evidence. Get an affected female
+and demonstrate that all of her male
+
+211
+00:18:18 --> 00:18:28
+offspring show the trait.
+Cross her with, wait, wait.
+
+212
+00:18:28 --> 00:18:31
+This is a human pedigree guys
+[LAUGHTER]. Whew! There are issues
+
+213
+00:18:31 --> 00:18:35
+involved here, right? You
+could introduce her to a
+
+214
+00:18:35 --> 00:18:39
+normal guy, [LAUGHTER] but whether
+you can cross her to a normal guy is
+
+215
+00:18:39 --> 00:18:43
+not actually allowed. So,
+you see, these are exactly the
+
+216
+00:18:43 --> 00:18:46
+issues in making sense
+out of pedigrees like this.
+
+217
+00:18:46 --> 00:18:50
+So, what you have to do is you
+have to collect a lot of data,
+
+218
+00:18:50 --> 00:18:54
+and the kinds of characteristics
+that you look for in a pedigree,
+
+219
+00:18:54 --> 00:18:58
+but they are statistical
+characteristics, and
+
+220
+00:18:58 --> 00:19:02
+notwithstanding -- So, this
+could be colorblindness or
+
+221
+00:19:02 --> 00:19:06
+something, but notwithstanding
+the pictures in the textbook of
+
+222
+00:19:06 --> 00:19:10
+colorblindness and all that, you
+really do have to take a look at
+
+223
+00:19:10 --> 00:19:14
+a number of properties.
+What are some properties?
+
+224
+00:19:14 --> 00:19:19
+One you've already referred to
+which is there's a predominance in
+
+225
+00:19:19 --> 00:19:23
+males if it's X-linked. Why
+is there a predominance in
+
+226
+00:19:23 --> 00:19:27
+males? Well, there's a
+predominance in males because if I
+
+227
+00:19:27 --> 00:19:32
+have an X over Y and I've
+got a mutation paired on
+
+228
+00:19:32 --> 00:19:36
+this X chromosome, males
+only have to get it on one.
+
+229
+00:19:36 --> 00:19:40
+Females have to get it on both, and
+therefore it's statistically more
+
+230
+00:19:40 --> 00:19:44
+likely that males will get it.
+So, for example, the frequency of
+
+231
+00:19:44 --> 00:19:48
+colorblindness amongst males
+is what? Yeah, it's 8-10%,
+
+232
+00:19:48 --> 00:19:52
+something like that. I
+think it's about 8% or so.
+
+233
+00:19:52 --> 00:19:56
+And, amongst females,
+well, if it's 8% to get one,
+
+234
+00:19:56 --> 00:20:00
+what's the chance
+you're going to get two?
+
+235
+00:20:00 --> 00:20:08
+It's 8% times 8% is a
+little less than 1% right?
+
+236
+00:20:08 --> 00:20:17
+It's 0.64%, OK, in females.
+So, we'll just go 8%
+
+237
+00:20:17 --> 00:20:25
+squared. So in males, 8% in
+females, less than one percent.
+
+238
+00:20:25 --> 00:20:33
+So, there is a
+predominance in males
+
+239
+00:20:33 --> 00:20:39
+of these sex-linked traits. Other
+things: affected males do not
+
+240
+00:20:39 --> 00:20:46
+transmit the trait to the kids,
+in particular do not transmit it to
+
+241
+00:20:46 --> 00:20:53
+their sons, right, because
+they are always sending the
+
+242
+00:20:53 --> 00:21:00
+Y chromosomes to their
+songs. Carrier females
+
+243
+00:21:00 --> 00:21:10
+transmit to half of their sons,
+and affected females transmit to all
+
+244
+00:21:10 --> 00:21:20
+of their sons. And, the
+trait appears to skip
+
+245
+00:21:20 --> 00:21:30
+generations, although I
+don't like this terminology.
+
+246
+00:21:30 --> 00:21:35
+It skips generations. These
+are the kinds of properties
+
+247
+00:21:35 --> 00:21:40
+that you have.
+So, hemophilia,
+
+248
+00:21:40 --> 00:21:45
+a good example of this, if I
+have a child with hemophilia,
+
+249
+00:21:45 --> 00:21:50
+male with hemophilia, would you
+be surprised if his uncle had
+
+250
+00:21:50 --> 00:21:55
+hemophilia? Which uncle would
+it be, maternal or paternal?
+
+251
+00:21:55 --> 00:22:00
+The maternal uncle would
+have hemophilia most likely.
+
+252
+00:22:00 --> 00:22:04
+It's always possible it could be
+paternal. This is the problem with
+
+253
+00:22:04 --> 00:22:08
+human genetics is you've got to
+get enough families so the pattern
+
+254
+00:22:08 --> 00:22:12
+becomes overwhelmingly clear,
+OK, because otherwise, as you can
+
+255
+00:22:12 --> 00:22:16
+see with small numbers, it's
+tough to be absolutely certain.
+
+256
+00:22:16 --> 00:22:20
+So, these are properties
+of X linked traits.
+
+257
+00:22:20 --> 00:22:24
+How about baldness? Is
+baldness, that's a sex-linked
+
+258
+00:22:24 --> 00:22:28
+trait? How come? You don't
+see a lot of bald females.
+
+259
+00:22:28 --> 00:22:32
+Does that prove it's sex linked?
+Sorry? Guys are stressed more.
+
+260
+00:22:32 --> 00:22:37
+[LAUGHTER] Is there evidence that
+it has anything to do with stress?
+
+261
+00:22:37 --> 00:22:41
+Actually, it has to do with
+excess testosterone it turns out,
+
+262
+00:22:41 --> 00:22:46
+that high levels of testosterone
+are correlated with male pattern
+
+263
+00:22:46 --> 00:22:51
+baldness, but does the fact that
+males become bald indicate that this
+
+264
+00:22:51 --> 00:22:56
+is a sex linked trait? No.
+Just because it's predominant
+
+265
+00:22:56 --> 00:23:01
+in male, we have to check
+these other properties.
+
+266
+00:23:01 --> 00:23:05
+Is it the case that bald
+fathers tend to have bald sons?
+
+267
+00:23:05 --> 00:23:09
+Any evidence on this point?
+Common-sensical evidence from
+
+268
+00:23:09 --> 00:23:14
+observation? It's pretty clear.
+It's very clearly not a sex-linked
+
+269
+00:23:14 --> 00:23:18
+trait. It's a sex-limited trait,
+because in order to show this you
+
+270
+00:23:18 --> 00:23:23
+need to be male because the high
+levels of testosterone are not found
+
+271
+00:23:23 --> 00:23:27
+in females even if they have the
+genotype that might predispose them
+
+272
+00:23:27 --> 00:23:33
+to become bald if they were male.
+So, it actually is not a sex-linked
+
+273
+00:23:33 --> 00:23:40
+trait at all, and it's very clear
+that male pattern baldness does run
+
+274
+00:23:40 --> 00:23:48
+in families more vertically. So,
+you've got to be careful about
+
+275
+00:23:48 --> 00:23:55
+the difference between
+sex linked and sex limited,
+
+276
+00:23:55 --> 00:24:02
+and sex linked you can really pick
+out from transmission and families.
+
+277
+00:24:02 --> 00:24:10
+OK, here's another
+one. New pedigree.
+
+278
+00:24:10 --> 00:24:43
+She married twice here.
+OK, what do we got?
+
+279
+00:24:43 --> 00:24:53
+Yep? She married again. She
+married twice. She didn't have
+
+280
+00:24:53 --> 00:25:01
+any offspring the second
+time. But that happens,
+
+281
+00:25:01 --> 00:25:06
+and you have to be able
+to draw it in the pedigree.
+
+282
+00:25:06 --> 00:25:12
+She's entitled, all right.
+OK, so she got married again,
+
+283
+00:25:12 --> 00:25:17
+no offspring from this marriage.
+That's her legal symbol. You guys
+
+284
+00:25:17 --> 00:25:22
+think that's funny.
+It's real, you know?
+
+285
+00:25:22 --> 00:25:28
+OK, that doesn't mean she's married
+to two people at the same time.
+
+286
+00:25:28 --> 00:25:33
+This is not a temporal picture.
+So, what do we got here? Yep?
+
+287
+00:25:33 --> 00:25:38
+Sorry, of this person? Well,
+I'm drawing them as an empty
+
+288
+00:25:38 --> 00:25:44
+symbol here, indicating that we
+do not think they have the trait.
+
+289
+00:25:44 --> 00:25:50
+They're not carriers. How do
+you propose to find that out?
+
+290
+00:25:50 --> 00:25:56
+Look at the children. Well,
+the children are affected. They
+
+291
+00:25:56 --> 00:26:02
+could be carriers. The
+data are what they are.
+
+292
+00:26:02 --> 00:26:09
+You've got to interpret it.
+Does this person have to be a
+
+293
+00:26:09 --> 00:26:16
+carrier? What kind of
+trait do you think this is?
+
+294
+00:26:16 --> 00:26:23
+Dominant? Does this look like
+autosomal dominant to you?
+
+295
+00:26:23 --> 00:26:30
+Yep? Oh, not all the
+kids have the trait
+
+296
+00:26:30 --> 00:26:34
+in the first generation,
+and if this was dominant,
+
+297
+00:26:34 --> 00:26:38
+they'd all have it? What's a
+possible genotype for this person?
+
+298
+00:26:38 --> 00:26:42
+Mutant over plus. And, these
+kids could be mutant over plus.
+
+299
+00:26:42 --> 00:26:46
+This could be plus over plus,
+and this could be plus over plus,
+
+300
+00:26:46 --> 00:26:50
+mutant over plus, plus
+over plus, mutant over plus,
+
+301
+00:26:50 --> 00:26:54
+and plus over plus would be
+one possibility. On average,
+
+302
+00:26:54 --> 00:26:58
+what fraction of the kids
+should get the trait? About half
+
+303
+00:26:58 --> 00:27:06
+the kids, right? So, let's
+see what characteristics
+
+304
+00:27:06 --> 00:27:18
+we have here. We see the
+trait in every generation.
+
+305
+00:27:18 --> 00:27:30
+On average, half the
+kids get the trait.
+
+306
+00:27:30 --> 00:27:42
+Half of the offspring of an
+affected individual are affected.
+
+307
+00:27:42 --> 00:27:54
+What else? Males and females?
+Roughly equal in males and females?
+
+308
+00:27:54 --> 00:28:02
+Sorry? One,
+two, three,
+
+309
+00:28:02 --> 00:28:08
+four, five to two.
+So, it's a 5:2 ratio?
+
+310
+00:28:08 --> 00:28:13
+Oh, in the offspring it's a 2:1
+ratio. So, this is like Mendel.
+
+311
+00:28:13 --> 00:28:19
+You see this number and you say,
+OK, 2:1. Isn't that trying to tell
+
+312
+00:28:19 --> 00:28:24
+me something? Not with six
+offspring. That's the problem is
+
+313
+00:28:24 --> 00:28:30
+with six offspring, 2:1 might
+be trying to tell you 1:1.
+
+314
+00:28:30 --> 00:28:34
+And it is. If I had a dominantly
+inherited trait where there's a
+
+315
+00:28:34 --> 00:28:39
+50/50 chance of each offspring
+getting the disease and it was
+
+316
+00:28:39 --> 00:28:44
+autosomal, not sex linked,
+there would be very good odds of
+
+317
+00:28:44 --> 00:28:48
+getting two males and one female
+because it happens: flip coins and
+
+318
+00:28:48 --> 00:28:53
+it happens. So, you have
+to take that into account,
+
+319
+00:28:53 --> 00:28:58
+and here you see what else we have.
+Roughly equal numbers of males and
+
+320
+00:28:58 --> 00:29:03
+females, they transmit equally,
+and unaffecteds never transmit.
+
+321
+00:29:03 --> 00:29:07
+This would be the classic
+autosomal dominant trait.
+
+322
+00:29:07 --> 00:29:11
+Right, here this mutant
+would go mutant over plus,
+
+323
+00:29:11 --> 00:29:15
+mutant over plus, plus over plus,
+mutant over plus, plus over plus,
+
+324
+00:29:15 --> 00:29:19
+plus over plus, and you'd
+see here that three out of
+
+325
+00:29:19 --> 00:29:23
+the five here, and one,
+two, three out of the six
+
+326
+00:29:23 --> 00:29:27
+there: that's a little more
+than half but it's small numbers
+
+327
+00:29:27 --> 00:29:33
+here, right? This is a
+classic autosomal dominant
+
+328
+00:29:33 --> 00:29:39
+as in the textbooks. Yes?
+Turns out not to make too
+
+329
+00:29:39 --> 00:29:46
+much of a difference. It
+turns out that there's lots of
+
+330
+00:29:46 --> 00:29:53
+genome that's on either. And
+so, it is true that males are
+
+331
+00:29:53 --> 00:30:00
+more susceptible to
+certain genetic diseases.
+
+332
+00:30:00 --> 00:30:04
+So, it'll be some excess,
+but it won't matter for this.
+
+333
+00:30:04 --> 00:30:09
+Now, in real life it doesn't
+always work so beautifully.
+
+334
+00:30:09 --> 00:30:13
+We'll take an example: colon cancer.
+There are particular autosomal
+
+335
+00:30:13 --> 00:30:18
+dominant mutations here that
+cause a high risk of colon cancer.
+
+336
+00:30:18 --> 00:30:23
+People who have mutations
+in a certain gene, MLH-1,
+
+337
+00:30:23 --> 00:30:27
+have about a 70% risk of getting
+colon cancer in their life.
+
+338
+00:30:27 --> 00:30:33
+But notice, it's not 100%. You
+might have incomplete penetrance.
+
+339
+00:30:33 --> 00:30:41
+Incompletely penetrance means not
+everybody who gets the genotype gets
+
+340
+00:30:41 --> 00:30:48
+the phenotype. Not all
+people with the M over plus
+
+341
+00:30:48 --> 00:30:56
+genotype show the phenotype.
+Once you do that, it messes up our
+
+342
+00:30:56 --> 00:31:03
+picture colossally,
+because, tell me,
+
+343
+00:31:03 --> 00:31:09
+how do we know that this person over
+here is not actually M over plus.
+
+344
+00:31:09 --> 00:31:15
+Maybe they're cryptic. They
+haven't shown the phenotype.
+
+345
+00:31:15 --> 00:31:21
+And maybe, it'll appear in the
+next generation. That'll screw up
+
+346
+00:31:21 --> 00:31:27
+everything. It screws up our rule
+about not transmitting through
+
+347
+00:31:27 --> 00:31:32
+unaffected, it screws up the
+rule about not being shown in
+
+348
+00:31:32 --> 00:31:36
+every generation, and it
+will even screw up our 50/50
+
+349
+00:31:36 --> 00:31:41
+ratio because if half the
+offspring get M over plus,
+
+350
+00:31:41 --> 00:31:46
+but only 70% of that half show
+the phenotype, then only 35% of the
+
+351
+00:31:46 --> 00:31:50
+offspring will show the phenotype.
+Unfortunately, this is real life.
+
+352
+00:31:50 --> 00:31:55
+When human geneticists really
+look at traits, many mutations,
+
+353
+00:31:55 --> 00:32:00
+most except the most severe
+are incompletely penetrant.
+
+354
+00:32:00 --> 00:32:04
+And so you have to really begin to
+gather a lot of data to demonstrate
+
+355
+00:32:04 --> 00:32:08
+that you're dealing with an
+autosomal dominant trait that's
+
+356
+00:32:08 --> 00:32:12
+incompletely penetrant. And
+then there are other issues.
+
+357
+00:32:12 --> 00:32:16
+There's a gene on chromosome
+number 17 called BRCA-1,
+
+358
+00:32:16 --> 00:32:20
+mutations in which predisposed to a
+very high risk of breast cancer but
+
+359
+00:32:20 --> 00:32:24
+only in women. Males carry
+the mutation and do not
+
+360
+00:32:24 --> 00:32:28
+have breast cancer. There
+are other mutations that do
+
+361
+00:32:28 --> 00:32:32
+cause breast cancer in males.
+Males have breast tissue,
+
+362
+00:32:32 --> 00:32:36
+and can have breast cancer, but
+the one on chromosome 17 does
+
+363
+00:32:36 --> 00:32:40
+not. And so, there you would only
+see this transmitted through females.
+
+364
+00:32:40 --> 00:32:45
+It would skip into males
+without showing a phenotype,
+
+365
+00:32:45 --> 00:32:49
+etc. So, in real life,
+life's a bit more complicated.
+
+366
+00:32:49 --> 00:32:53
+All right, so autosomal dominance.
+Now, let's take one more pedigree.
+
+367
+00:32:53 --> 00:32:58
+Sorry? Sex limited,
+but not sex linked.
+
+368
+00:32:58 --> 00:33:03
+So, on chromosome 17, which
+is a bona fide autosome,
+
+369
+00:33:03 --> 00:33:08
+but it's sex limited in that
+phenotype can only show itself in an
+
+370
+00:33:08 --> 00:33:13
+individual who happens to be female.
+Yes? Sorry? How come autosomal
+
+371
+00:33:13 --> 00:33:19
+recessive? So, if that
+left guy up there is
+
+372
+00:33:19 --> 00:33:24
+actually a heterozygote,
+and up there that individual,
+
+373
+00:33:24 --> 00:33:30
+so if we had a homozygote,
+homozygote, heterozygote,
+
+374
+00:33:30 --> 00:33:33
+homozygote, ooh, you can
+interpret that pedigree if
+
+375
+00:33:33 --> 00:33:37
+you want to as an autosomal
+recessive, provided that M is pretty
+
+376
+00:33:37 --> 00:33:40
+frequent in the population.
+That's right. Human geneticists,
+
+377
+00:33:40 --> 00:33:44
+in fact, to really prove that
+they've got the right model,
+
+378
+00:33:44 --> 00:33:48
+collect a lot of pedigrees
+and run a computer model.
+
+379
+00:33:48 --> 00:33:51
+The computer model first
+tries out autosomal recessive,
+
+380
+00:33:51 --> 00:33:55
+tries out autosomal dominant,
+tries out dominant with incomplete
+
+381
+00:33:55 --> 00:33:59
+penetrance, and for every possible
+model figures out the statistical
+
+382
+00:33:59 --> 00:34:03
+probability that you would
+see such data under that model.
+
+383
+00:34:03 --> 00:34:05
+And when the data become
+overwhelming and you say,
+
+384
+00:34:05 --> 00:34:08
+yeah, with one pedigree, any
+pedigree I draw on the board,
+
+385
+00:34:08 --> 00:34:11
+it could actually fit almost any for
+the models. It doesn't say this in
+
+386
+00:34:11 --> 00:34:14
+the textbooks, but
+it's true. I get enough
+
+387
+00:34:14 --> 00:34:17
+pedigrees, and eventually I say the
+odds are 105 times more likely that
+
+388
+00:34:17 --> 00:34:20
+this collection of pedigrees would
+arise from autosomal dominance,
+
+389
+00:34:20 --> 00:34:22
+inheritance with incomplete
+penetrance of about 80%.
+
+390
+00:34:22 --> 00:34:25
+Then, from autosomal recessive
+inheritance, then I get to write a
+
+391
+00:34:25 --> 00:34:28
+paper about it. That's
+really what human
+
+392
+00:34:28 --> 00:34:32
+geneticists do is they
+have to collect enough,
+
+393
+00:34:32 --> 00:34:36
+now, any other organism,
+you'd just set up a cross,
+
+394
+00:34:36 --> 00:34:41
+but you can't. And, as long
+as we have nontrivial models,
+
+395
+00:34:41 --> 00:34:46
+we really have to collect a lot of
+data. Let's take the next pedigree,
+
+396
+00:34:46 --> 00:34:50
+great, that you're thinking
+like a human geneticist.
+
+397
+00:34:50 --> 00:34:55
+It's very good. Here's the
+next pedigree. Actually,
+
+398
+00:34:55 --> 00:35:00
+I'm going to reverse
+it. There we go.
+
+399
+00:35:00 --> 00:35:03
+What's that? Who knows? You
+can't tell. Good, I've got you
+
+400
+00:35:03 --> 00:35:07
+up to training to the point where,
+but in textbooks, this would be
+
+401
+00:35:07 --> 00:35:11
+autosomal recessive.
+Or it could be anything.
+
+402
+00:35:11 --> 00:35:15
+You know that, right? But the
+textbooks would show you this
+
+403
+00:35:15 --> 00:35:18
+picture as an autosomal recessive.
+But of course, what else could it
+
+404
+00:35:18 --> 00:35:22
+be? It could be an autosomal
+dominant with incomplete penetrance.
+
+405
+00:35:22 --> 00:35:26
+It could be sex linked. It
+could be a lot of things.
+
+406
+00:35:26 --> 00:35:30
+It could also be, I haven't
+told you the phenotype.
+
+407
+00:35:30 --> 00:35:34
+What if the phenotype here
+was getting hit by a truck?
+
+408
+00:35:34 --> 00:35:38
+[LAUGHTER] Would you
+tend to observe this? Yep,
+
+409
+00:35:38 --> 00:35:42
+so getting hit by a truck, for
+example, if someone gets hit by
+
+410
+00:35:42 --> 00:35:46
+a truck, it's unlikely either
+their parents were hit by a truck,
+
+411
+00:35:46 --> 00:35:50
+or going back several generations
+that their grandparents were hit by
+
+412
+00:35:50 --> 00:35:54
+a truck. So, how do you tell
+being hit by a truck from,
+
+413
+00:35:54 --> 00:35:58
+I mean, that is to say, how
+do you know that something's
+
+414
+00:35:58 --> 00:36:01
+genetic at all? When it's
+relatively rare and it
+
+415
+00:36:01 --> 00:36:04
+pops up in a pedigree, how
+do you know it's genetic?
+
+416
+00:36:04 --> 00:36:07
+Because of the DNA. But, I mean,
+it takes a lot of work to find the
+
+417
+00:36:07 --> 00:36:10
+gene and all that as we'll come to
+the course. You might want a little
+
+418
+00:36:10 --> 00:36:13
+bit of assurance before you go write
+the grant to the NIH and say I'm
+
+419
+00:36:13 --> 00:36:16
+going to find the gene for this
+because you write it and say I'm
+
+420
+00:36:16 --> 00:36:19
+going to find the gene
+for getting hit by a truck,
+
+421
+00:36:19 --> 00:36:22
+and they're going to write back and
+say show me that it's worth spending
+
+422
+00:36:22 --> 00:36:25
+money to find that gene.
+Show me that it's true. So,
+
+423
+00:36:25 --> 00:36:28
+what kind of things would we look
+for? If we wanted to show something
+
+424
+00:36:28 --> 00:36:32
+was autosomal recessive in a
+population, what would we do?
+
+425
+00:36:32 --> 00:36:40
+More data. So, we
+collect a lot of families,
+
+426
+00:36:40 --> 00:36:48
+and what would we see? As we
+collected more and more families,
+
+427
+00:36:48 --> 00:36:56
+we begin to see what things?
+Sometimes we might see families like
+
+428
+00:36:56 --> 00:37:04
+this, or we might see
+families like this. [LAUGHTER]
+
+429
+00:37:04 --> 00:37:08
+If both parents were mutants,
+all the children would be mutant,
+
+430
+00:37:08 --> 00:37:13
+right? We'd color them in mutant.
+Is that true? Well, first off, it
+
+431
+00:37:13 --> 00:37:18
+depends. Some of the things we
+want to study are extremely severe
+
+432
+00:37:18 --> 00:37:23
+medical genetical phenotypes,
+and they're not going to live to
+
+433
+00:37:23 --> 00:37:28
+have children. So, that's
+an issue that you have
+
+434
+00:37:28 --> 00:37:33
+to deal with. But, it
+is true that if it was
+
+435
+00:37:33 --> 00:37:37
+autosomal recessive, a mating
+between two homozygotes for
+
+436
+00:37:37 --> 00:37:42
+that gene would transmit.
+[LAUGHTER] What if they were all in
+
+437
+00:37:42 --> 00:37:46
+the same car? Which is
+a very important part,
+
+438
+00:37:46 --> 00:37:51
+because we joke about the car,
+but diet, things like that, are
+
+439
+00:37:51 --> 00:37:55
+familial correlated environmental
+factors. There are environmental
+
+440
+00:37:55 --> 00:38:00
+factors that correlate
+within a family.
+
+441
+00:38:00 --> 00:38:04
+And so, it's not trivial
+to make this point. So,
+
+442
+00:38:04 --> 00:38:09
+all right, we'll be able to
+demonstrate what's the real proof of
+
+443
+00:38:09 --> 00:38:14
+Mendelian inheritance here?
+Because they could all be in the
+
+444
+00:38:14 --> 00:38:19
+same car, or they all eat the same
+kind of food or something like that,
+
+445
+00:38:19 --> 00:38:24
+which predisposes them a certain way.
+So, we're going to want some better
+
+446
+00:38:24 --> 00:38:29
+proofs of these things.
+How about Mendelian ratios?
+
+447
+00:38:29 --> 00:38:34
+Mendelian ratios anyone? No,
+because it could be incomplete
+
+448
+00:38:34 --> 00:38:38
+autosomal dominance. I
+don't want to mess you up.
+
+449
+00:38:38 --> 00:38:42
+On the exams, you guys can think
+cleanly about simple things.
+
+450
+00:38:42 --> 00:38:46
+But, this could be dominant
+with incomplete penetrance,
+
+451
+00:38:46 --> 00:38:50
+though the TA's are going to hate
+me because I'm telling you that,
+
+452
+00:38:50 --> 00:38:54
+anyway, what about Mendelian ratios?
+How about something that's a pretty
+
+453
+00:38:54 --> 00:38:58
+good prediction? What
+fraction of the offspring will
+
+454
+00:38:58 --> 00:39:02
+be affected? We get
+a lot of families,
+
+455
+00:39:02 --> 00:39:07
+line them all up. What
+fraction of the offspring?
+
+456
+00:39:07 --> 00:39:12
+A quarter. Now, that's a
+hard and fast prediction.
+
+457
+00:39:12 --> 00:39:17
+One quarter of the offspring are
+effective. When I have a mating
+
+458
+00:39:17 --> 00:39:22
+between two homozygotes,
+so what am I going to do?
+
+459
+00:39:22 --> 00:39:28
+I'm going to go out. I'm going
+to collect a lot of families.
+
+460
+00:39:28 --> 00:39:31
+Maybe I'll collect 100 families
+because it'll be a particular
+
+461
+00:39:31 --> 00:39:35
+disease, diastrophic dysplasia
+or something like that,
+
+462
+00:39:35 --> 00:39:39
+xeroderma pygmentosa,
+ataxia teleangiectasia,
+
+463
+00:39:39 --> 00:39:43
+and I will go to the disease
+foundation, and I will get all the
+
+464
+00:39:43 --> 00:39:46
+pedigrees for all the families,
+and I'll see how many times it was
+
+465
+00:39:46 --> 00:39:50
+one affected, two affected, three
+affected, etc. And on average,
+
+466
+00:39:50 --> 00:39:54
+the proportion affecteds will be
+a quarter, except it's not true.
+
+467
+00:39:54 --> 00:39:58
+If I actually do that, I find that
+the ratio of affecteds is typically
+
+468
+00:39:58 --> 00:40:03
+more like a third.
+It isn't a quarter.
+
+469
+00:40:03 --> 00:40:09
+Now, this should disturb you
+greatly because you know full well
+
+470
+00:40:09 --> 00:40:16
+that M over plus by M over plus
+should give you a quarter affecteds.
+
+471
+00:40:16 --> 00:40:23
+But when you actually look
+at human families, it's not.
+
+472
+00:40:23 --> 00:40:30
+Why? In other words, when
+we count up all the matings
+
+473
+00:40:30 --> 00:40:33
+between heterozygotes, we'll
+collect all the matings that
+
+474
+00:40:33 --> 00:40:37
+produce one affected child.
+We'll collect all the matings that
+
+475
+00:40:37 --> 00:40:41
+produce two affected children.
+We'll collect all the matings that
+
+476
+00:40:41 --> 00:40:45
+produce three affected children.
+But, we will fail to collect those
+
+477
+00:40:45 --> 00:40:48
+matings between homozygotes that
+produce zero affected children.
+
+478
+00:40:48 --> 00:40:52
+And so, we will systematically
+overestimate the proportion.
+
+479
+00:40:52 --> 00:40:56
+Of course, what we really have to
+do is go out and get all of those
+
+480
+00:40:56 --> 00:41:00
+couples who were both carriers,
+but because they had a small number
+
+481
+00:41:00 --> 00:41:04
+of children didn't happen
+to have an affected child.
+
+482
+00:41:04 --> 00:41:08
+That's not very easy to do
+especially when you don't know the
+
+483
+00:41:08 --> 00:41:12
+gene in advance. So, when
+human geneticists try to
+
+484
+00:41:12 --> 00:41:16
+go out and measure the
+one-quarter Mendelian ratio,
+
+485
+00:41:16 --> 00:41:21
+you can't. But what you
+can do is the following,
+
+486
+00:41:21 --> 00:41:25
+conditional on the first trial
+being affected, now what will be the
+
+487
+00:41:25 --> 00:41:30
+proportion of subsequent
+children who are affected?
+
+488
+00:41:30 --> 00:41:33
+A quarter. If I make it conditional,
+conditioning on having a first child
+
+489
+00:41:33 --> 00:41:37
+who's affected, number
+one child who's affected,
+
+490
+00:41:37 --> 00:41:40
+then I know I've got a
+mating between heterozygotes.
+
+491
+00:41:40 --> 00:41:44
+Subsequent offspring now
+do not have that bias.
+
+492
+00:41:44 --> 00:41:47
+And so, as a matter of fact, you
+think this pretty cool thought,
+
+493
+00:41:47 --> 00:41:51
+right? You've got a condition on
+one. It turns out there's a very
+
+494
+00:41:51 --> 00:41:54
+famous paper about cystic fibrosis
+where somebody forgot this point and
+
+495
+00:41:54 --> 00:41:58
+made a huge big deal in the
+literature about the fact that a
+
+496
+00:41:58 --> 00:42:02
+third of the kids on average
+had cystic fibrosis in these
+
+497
+00:42:02 --> 00:42:06
+families, and proposed all sorts
+of models about how cystic fibrosis
+
+498
+00:42:06 --> 00:42:11
+might be advantageous and would lead
+to fertility increases and all that.
+
+499
+00:42:11 --> 00:42:16
+In fact, it was just a failure to
+correct for this little statistical
+
+500
+00:42:16 --> 00:42:20
+bias. OK, this is what human
+geneticists do is they've got to
+
+501
+00:42:20 --> 00:42:25
+deal with the popular, now,
+there's one other trick that
+
+502
+00:42:25 --> 00:42:30
+you can use to know that
+something is autosomal recessive.
+
+503
+00:42:30 --> 00:42:37
+That trick is this.
+To site this trick,
+
+504
+00:42:37 --> 00:42:45
+I have to go back to a person
+called Archibald Garrett.
+
+505
+00:42:45 --> 00:42:53
+Archibald Garrett was a
+physician in London around 1900.
+
+506
+00:42:53 --> 00:43:01
+Garrett studied children
+with the trait alkoptonuria.
+
+507
+00:43:01 --> 00:43:06
+Alkoptonuria was what alkopton
+means black. Uria means urine.
+
+508
+00:43:06 --> 00:43:11
+They had black urine. This was
+evident because their urine turned
+
+509
+00:43:11 --> 00:43:16
+black on treatment with alkaline.
+How would you treat urine with
+
+510
+00:43:16 --> 00:43:22
+alkaline. How would people know
+this? Sorry? Outhouses with lime,
+
+511
+00:43:22 --> 00:43:27
+yeah, and who's going to look at
+the children's urine, or something
+
+512
+00:43:27 --> 00:43:32
+like that? But you're
+on the right track.
+
+513
+00:43:32 --> 00:43:38
+How about diapers? You
+wash diapers, cloth diapers,
+
+514
+00:43:38 --> 00:43:43
+in alkaline. They turn black. This
+was evident from black diapers.
+
+515
+00:43:43 --> 00:43:49
+The kids' urine would turn black.
+So, he observed this, and you know
+
+516
+00:43:49 --> 00:43:54
+what Garrett noticed is when he
+studied, children alkoptonuria,
+
+517
+00:43:54 --> 00:44:00
+he found that a very
+large fraction of affected
+
+518
+00:44:00 --> 00:44:10
+offspring were in fact produced
+from matings of first cousins.
+
+519
+00:44:10 --> 00:44:20
+Consanguineous matings: now you
+laugh, but in fact consanguinity has
+
+520
+00:44:20 --> 00:44:30
+been something that has been
+favored in many societies,
+
+521
+00:44:30 --> 00:44:35
+and in Britain, particularly
+amongst the upper class
+
+522
+00:44:35 --> 00:44:40
+in Britain in 1900, marriage
+or first cousins was quite
+
+523
+00:44:40 --> 00:44:45
+common, but not as common as he
+observed. He found that eight out
+
+524
+00:44:45 --> 00:44:50
+of 17 alkoptonuria patients were the
+products of first cousin marriages.
+
+525
+00:44:50 --> 00:44:55
+That's way off the charts
+because it's nearly a half,
+
+526
+00:44:55 --> 00:45:00
+when in fact the typical rate in
+Britain might have been about 5%.
+
+527
+00:45:00 --> 00:45:03
+So, on the basis of that in the
+early 1900's, Garrett was able to
+
+528
+00:45:03 --> 00:45:07
+show only a few years after the
+rediscovery of Mendel's work that
+
+529
+00:45:07 --> 00:45:11
+this property of recessive traits,
+enrichment in the offspring of
+
+530
+00:45:11 --> 00:45:15
+consanguineous marriages,
+was a clear demonstration of
+
+531
+00:45:15 --> 00:45:18
+Mendelian inheritance.
+Not only did he do that,
+
+532
+00:45:18 --> 00:45:22
+but Garrett knew because of
+the work of some biochemists,
+
+533
+00:45:22 --> 00:45:26
+and this is way cool, that
+the problem with the urine was
+
+534
+00:45:26 --> 00:45:30
+that these patients put out in
+their urine a lot of what's called
+
+535
+00:45:30 --> 00:45:42
+homogentisic acid, HGA,
+which basically is a phenolic
+
+536
+00:45:42 --> 00:45:54
+ring. What Garrett did was he,
+and that stuff turns black on
+
+537
+00:45:54 --> 00:46:02
+exposure to air. What might
+produce from the things
+
+538
+00:46:02 --> 00:46:07
+you've learned already
+some kind of ring like that?
+
+539
+00:46:07 --> 00:46:12
+What building blocks do you know
+have rings like that of things
+
+540
+00:46:12 --> 00:46:17
+you've studied already?
+Phenylalanine, tyrosine both have
+
+541
+00:46:17 --> 00:46:22
+rings. Suppose somebody had
+problems breaking down homogentisic
+
+542
+00:46:22 --> 00:46:27
+acid. Suppose there was some
+pathway where proteins were
+
+543
+00:46:27 --> 00:46:32
+broken down into amino
+acids including phenylalanine
+
+544
+00:46:32 --> 00:46:37
+and tyrosine. And, they
+were broken down into
+
+545
+00:46:37 --> 00:46:42
+homogentisic acid. And
+they were broken down into I
+
+546
+00:46:42 --> 00:46:47
+don't know what. And,
+suppose like we had up there,
+
+547
+00:46:47 --> 00:46:52
+patients had a mutation in that
+enzyme. What would happen if I fed
+
+548
+00:46:52 --> 00:46:57
+patients a lot of protein? In
+their urine, you would recover
+
+549
+00:46:57 --> 00:47:01
+lots of homogentisic acid. Suppose
+I fed them a lot of tyrosine.
+
+550
+00:47:01 --> 00:47:05
+I'd get a lot of homogentisic acid
+because the body couldn't break it
+
+551
+00:47:05 --> 00:47:09
+down. Suppose I fed them
+a lot of phenylalanine.
+
+552
+00:47:09 --> 00:47:13
+They would excrete a
+lot of homogentisic acid.
+
+553
+00:47:13 --> 00:47:16
+Suppose I fed them homogentisic
+acid. I would get quantitative
+
+554
+00:47:16 --> 00:47:20
+amounts of homogentisic acid.
+Garrett did this. These are the
+
+555
+00:47:20 --> 00:47:24
+days before institutional
+review boards, you know,
+
+556
+00:47:24 --> 00:47:28
+informed consent. It turns out it's
+harmless feeding them proteins and
+
+557
+00:47:28 --> 00:47:33
+things like that.
+But in fact, Garrett,
+
+558
+00:47:33 --> 00:47:39
+in 1911, worked out that this trait
+had to be recessive because of its
+
+559
+00:47:39 --> 00:47:46
+population genetics, and
+inferred a biochemical pathway
+
+560
+00:47:46 --> 00:47:53
+by feeding different things along
+the way and was able to connect a
+
+561
+00:47:53 --> 00:48:00
+mutation in a gene to a problem
+with a specific biochemical pathway.
+
+562
+00:48:00 --> 00:48:05
+Sorry, 1908: this was his
+Croonian Lecture in 1908.
+
+563
+00:48:05 --> 00:48:10
+Eight years after the rediscovery
+of Mendel, he's able to connect
+
+564
+00:48:10 --> 00:48:15
+genetic defect, showing
+it's genetic by transmission,
+
+565
+00:48:15 --> 00:48:20
+to biochemical defect showing that
+he has a pathway that he can feed
+
+566
+00:48:20 --> 00:48:25
+things into. And, it all
+blocks up at the inability to
+
+567
+00:48:25 --> 00:48:30
+metabolize homogentisic acid. He
+has connected gene to enzyme by
+
+568
+00:48:30 --> 00:48:35
+1908. What do you
+think the reaction to
+
+569
+00:48:35 --> 00:48:39
+this was? Polite bewilderment,
+and it sunk like a stone. Nobody
+
+570
+00:48:39 --> 00:48:43
+was prepared to hear this. This
+is very much like Mendel in my
+
+571
+00:48:43 --> 00:48:47
+opinion. Now, he was a
+distinguished professor.
+
+572
+00:48:47 --> 00:48:52
+It was the Croonian Lecture. He
+got lots of accolades and all that,
+
+573
+00:48:52 --> 00:48:56
+and people said, what a
+lovely lecture that was,
+
+574
+00:48:56 --> 00:49:00
+and proceeded to completely forget
+this connection between genes and
+
+575
+00:49:00 --> 00:49:05
+enzymes, genes and proteins. It
+was not until 40 years later or
+
+576
+00:49:05 --> 00:49:09
+so that Beadle and Tatum,
+working with a fungus, actually
+
+577
+00:49:09 --> 00:49:13
+rosper not yeast, demonstrated
+that all these mutants
+
+578
+00:49:13 --> 00:49:17
+interfered with the ability to
+digest or to make particular amino
+
+579
+00:49:17 --> 00:49:21
+acids, and wrote this up as the one
+gene, one enzyme hypothesis of how
+
+580
+00:49:21 --> 00:49:25
+genes encode enzymes, and
+won the Nobel Prize for this
+
+581
+00:49:25 --> 00:49:30
+work, but in fact in
+their Nobel address,
+
+582
+00:49:30 --> 00:49:34
+Beetle and Tatum noted, actually,
+you know, Garrett kind of
+
+583
+00:49:34 --> 00:49:39
+knew all this. But,
+people weren't ready,
+
+584
+00:49:39 --> 00:49:43
+yet, to digest it. Genetics
+had just come along,
+
+585
+00:49:43 --> 00:49:48
+Biochemistry had just really been
+invented in the last ten years,
+
+586
+00:49:48 --> 00:49:52
+and the idea of uniting genetics
+and biochemistry was just something
+
+587
+00:49:52 --> 49:57
+people weren't prepared
+for yet. More next time.
+

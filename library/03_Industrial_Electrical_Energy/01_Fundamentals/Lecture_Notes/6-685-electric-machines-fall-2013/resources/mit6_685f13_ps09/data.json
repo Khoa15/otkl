@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This file contains information regarding problem set 9.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains information regarding problem set 9.",
+  "draft": false,
+  "file": "/courses/6-685-electric-machines-fall-2013/4b16e7d39b4d903aed3c90a0c869ef22_MIT6_685F13_ps09.pdf",
+  "file_size": 85124,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "6ffb13f7-a392-e19a-3527-5c38a5aa7dc1",
+  "resourcetype": "Document",
+  "title": "6.685 Electric Machines, Problem Set 9",
+  "uid": "4b16e7d3-9b4d-903a-ed3c-90a0c869ef22",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-685-electric-machines-fall-2013"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-685-electric-machines-fall-2013"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

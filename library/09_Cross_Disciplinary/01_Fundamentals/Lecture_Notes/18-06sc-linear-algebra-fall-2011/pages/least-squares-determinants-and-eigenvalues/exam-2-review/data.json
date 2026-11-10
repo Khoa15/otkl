@@ -1,0 +1,20 @@
+
+{
+  "content": "<p>« <a href=\"../../../pages/least-squares-determinants-and-eigenvalues/markov-matrices-fourier-series/index.html\">Previous</a> | <a href=\"../../../pages/least-squares-determinants-and-eigenvalues/exam-2/index.html\">Next</a> »</p>\n\n    <h3 id=\"session-overview\">Session Overview</h3>\n\n<p><table>\n\n<tr>\n\n<td>\n\n<img src=\"../../../static_resources/dfe25c7f5e38dbd4a19c081f05fc9ae0_Exam_2_Review.jpg\" alt=\"\" loading=\"lazy\" decoding=\"async\" />\n</td>\n\n<td>\n</p>\n<p>Unit II covered a lot of material, the heart of this course. To go beyond the explanations in the lecture video, try reading the lecture summary which outlines orthogonality and least squares, determinants, and eigenvalues.</p>\n</td>\n\n</tr>\n\n</table>\n\n\n    <h3 id=\"session-activities\">Session Activities</h3>\n\n\n    <h4 id=\"lecture-video-and-summary\">Lecture Video and Summary</h4>\n\n<ul>\n<li>Watch the video lecture <a href=\"../../../resources/exam-2-review/index.html\">Exam 2 Review</a></li>\n<li>Read the accompanying <a href=\"../../../resources/mit18_06scf11_ses2-12sum/index.html\">lecture summary (PDF)</a></li>\n<li><a href=\"../../../resources/quzl5ikpo_u-1/index.html\">Lecture video transcript (PDF)</a></li>\n</ul>\n\n    <h4 id=\"suggested-reading\">Suggested Reading</h4>\n\n<ul>\n<li>Review Chapters 4, 5, and 6 (through Sec. 6.3) plus Sections 8.3 and 8.5 in the 4<sup>th</sup> edition or Review Chapters 4, 5, and 6 (through Sec. 6.3) plus Sections 10.3 and 10.5 in the 5<sup>th</sup> edition.</li>\n</ul>\n\n    <h4 id=\"problem-solving-video\">Problem Solving Video</h4>\n\n<ul>\n<li>Watch the recitation video on <a href=\"../../../resources/exam-2-problem-solving/index.html\">Exam 2 Problem Solving</a></li>\n<li><a href=\"../../../resources/pz3zyuo2gpm-1/index.html\">Recitation video transcript (PDF)</a></li>\n<li>观看视频: 习题讲解 &ndash; <a href=\"../../../resources/7b2c4e8c6b2180038bd54f8b9898/index.html\">第二次考试例题</a> [watch this recitation in Mandarin]</li>\n</ul>\n<p>« <a href=\"../../../pages/least-squares-determinants-and-eigenvalues/markov-matrices-fourier-series/index.html\">Previous</a> | <a href=\"../../../pages/least-squares-determinants-and-eigenvalues/exam-2/index.html\">Next</a> »</p>\n",
+  "content_type": "page",
+  "description": "This section provides review materials for the second exam of the course.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "parent_title": "Unit II: Least Squares, Determinants and Eigenvalues",
+  "parent_type": "CourseSection",
+  "parent_uid": "cf73d07a-c972-ab3c-450a-0f10d0be0664",
+  "title": "Exam 2 Review",
+  "uid": "1d326649-6e08-30e5-7e06-9f94d70f88bb",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

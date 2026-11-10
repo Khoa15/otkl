@@ -1,0 +1,27 @@
+{
+  "content": "<p>Thumbnail image accompanying a video lecture on differential equations and difference equations.</p>\n",
+  "content_type": "resource",
+  "description": "Thumbnail image accompanying a video lecture on differential equations and difference equations.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/77ccf54561cb3488d8c08a7be4411f35_2.jpg",
+  "file_size": 2578,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Lecture 2",
+  "uid": "77ccf545-61cb-3488-d8c0-8a7be4411f35",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

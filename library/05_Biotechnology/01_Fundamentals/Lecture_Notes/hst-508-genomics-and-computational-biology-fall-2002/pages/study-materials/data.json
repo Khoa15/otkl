@@ -1,0 +1,20 @@
+
+{
+  "content": "\n    <h3 id=\"perl-guides\">Perl Guides</h3>\n\n<ul>\n<li>Getting started with Perl (Win) (<a href=\"../../resources/gettingperlstarted/index.html\">PDF</a>)</li>\n<li><a   class=\"external-link \"   target=\"_blank\"   href=\"http://www.perl.org/\"  aria-label=\"Perl Guide (opens in a new tab)\"  >Perl Guide</a></li>\n</ul>\n\n    <h3 id=\"tutorials\">Tutorials</h3>\n\n<ul>\n<li><a   class=\"external-link \"   target=\"_blank\"   href=\"http://web.ornl.gov/sci/techresources/Human_Genome/publicat/primer2001/primer.pdf\"  aria-label=\"Primer on molecular biology (PDF) (opens in a new tab)\"  >Primer on molecular biology (PDF)</a></li>\n</ul>\n\n    <h3 id=\"other-resources\">Other Resources</h3>\n\n<ul>\n<li><a   class=\"external-link \"   target=\"_blank\"   href=\"http://arep.med.harvard.edu/compubio.html\"  aria-label=\"Harvard/MIT Computational Biology Studies (opens in a new tab)\"  >Harvard/MIT Computational Biology Studies</a></li>\n<li><a   class=\"external-link \"   target=\"_blank\"   href=\"http://www.hms.harvard.edu/dms/bbs/\"  aria-label=\"Program in Biological and Biomedical Sciences (BBS) (opens in a new tab)\"  >Program in Biological and Biomedical Sciences (BBS)</a></li>\n<li><a   class=\"external-link \"   target=\"_blank\"   href=\"http://hst.mit.edu/\"  aria-label=\"Harvard-MIT Division of Health Sciences and Technology (HST) (opens in a new tab)\"  >Harvard-MIT Division of Health Sciences and Technology (HST)</a></li>\n<li><a   class=\"external-link \"   target=\"_blank\"   href=\"http://www.wiley.com/legacy/products/subject/life/bioinformatics/courses.html\"  aria-label=\"Nationwide list of Bioinformatics courses (opens in a new tab)\"  >Nationwide list of Bioinformatics courses</a></li>\n</ul>\n",
+  "content_type": "page",
+  "description": "Perl guides, primer on microbiology, programs and courses in biology, bioinformatics and biomedical studies.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Study Materials",
+  "uid": "a2126f88-c4d3-03b6-e851-2464a13b968e",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

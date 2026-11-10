@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource contains information regarding lecture 6: laplace transform.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information regarding lecture 6: laplace transform.",
+  "draft": false,
+  "file": "/courses/6-003-signals-and-systems-fall-2011/84b35cc755ccd722ddbdbba00fd41e8f_MIT6_003F11_lec06.pdf",
+  "file_size": 791534,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Videos",
+  "parent_type": "CourseSection",
+  "parent_uid": "47b07fed-f3a3-0be2-5f15-5f62399cdb59",
+  "resourcetype": "Document",
+  "title": "Lecture 6: Laplace transform",
+  "uid": "84b35cc7-55cc-d722-ddbd-bba00fd41e8f",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-003-signals-and-systems-fall-2011"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-003-signals-and-systems-fall-2011"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

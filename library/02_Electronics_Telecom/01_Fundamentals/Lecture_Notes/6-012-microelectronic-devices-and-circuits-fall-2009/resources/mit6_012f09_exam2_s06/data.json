@@ -1,0 +1,21 @@
+{
+  "content": "<p>Exam on microelectronic devices and circuits.</p>\n",
+  "content_type": "resource",
+  "description": "Exam on microelectronic devices and circuits.",
+  "draft": false,
+  "file": "/courses/6-012-microelectronic-devices-and-circuits-fall-2009/371ce10c99863ccba2971193354a4ac9_MIT6_012F09_exam2_s06.pdf",
+  "file_size": 144667,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Exams",
+  "parent_type": "CourseSection",
+  "parent_uid": "4023a661-27dc-40df-ec6b-9fb469221263",
+  "resourcetype": "Document",
+  "title": "Exam No. 2 - Spring 2006",
+  "uid": "371ce10c-9986-3ccb-a297-1193354a4ac9"
+}

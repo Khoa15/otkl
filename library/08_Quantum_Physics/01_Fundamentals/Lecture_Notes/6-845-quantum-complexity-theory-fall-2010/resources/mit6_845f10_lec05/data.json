@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains information related to quantum algorithms: Deutsch-Jozsa.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information related to quantum algorithms: Deutsch-Jozsa. ",
+  "draft": false,
+  "file": "/courses/6-845-quantum-complexity-theory-fall-2010/c9021130e7e8d56fda3ea4fd831b4f3e_MIT6_845F10_lec05.pdf",
+  "file_size": 141741,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "0ae74169-1168-dcc5-4644-05254b3e4264",
+  "resourcetype": "Document",
+  "title": "MIT6_845F10_lec05.pdf",
+  "uid": "c9021130-e7e8-d56f-da3e-a4fd831b4f3e"
+}

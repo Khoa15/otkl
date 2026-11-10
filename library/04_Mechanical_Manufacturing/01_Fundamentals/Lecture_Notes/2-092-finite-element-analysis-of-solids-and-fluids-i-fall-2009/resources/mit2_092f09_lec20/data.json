@@ -1,0 +1,24 @@
+{
+  "content": "<p>New file Upload</p>\n",
+  "content_type": "resource",
+  "description": "New file Upload",
+  "draft": false,
+  "file": "/courses/2-092-finite-element-analysis-of-solids-and-fluids-i-fall-2009/de3fe8a64f95eb82acd0cd3a279972a4_MIT2_092F09_lec20.pdf",
+  "file_size": 201294,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "8f2f0d95-72fd-5b91-25d0-743fd2de18d7",
+  "resourcetype": "Document",
+  "title": "MIT2_092F09_lec20.pdf",
+  "uid": "de3fe8a6-4f95-eb82-acd0-cd3a279972a4",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

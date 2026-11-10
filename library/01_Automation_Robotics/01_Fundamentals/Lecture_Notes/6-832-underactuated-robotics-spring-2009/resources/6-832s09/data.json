@@ -1,0 +1,27 @@
+{
+  "content": "<p>Legged robots and flying robots, including these examples from the MIT Robot Locomotion Group, are underactuated. (Photographs are courtesy of Jason Dorfman.)</p>\n",
+  "content_type": "resource",
+  "description": "Legged robots and flying robots, including these examples from the MIT Robot Locomotion Group, are underactuated. (Photographs are courtesy of Jason Dorfman.)",
+  "draft": false,
+  "file": "/courses/6-832-underactuated-robotics-spring-2009/e7c8a3779cf478cfc8365571e074ebc7_6-832s09.jpg",
+  "file_size": 43968,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Legged robots and flying robots, including these examples from the MIT Robot Locomotion Group, are underactuated. (Photographs are courtesy of Jason Dorfman.)",
+    "credit": "",
+    "image-alt": "A photograph of a flying robot placed above a photograph of a legged robot.A photograph of a flying robot placed above a photograph of a legged robot."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "A flying robot and a legged robot",
+  "uid": "e7c8a377-9cf4-78cf-c836-5571e074ebc7",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

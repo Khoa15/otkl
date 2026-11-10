@@ -1,0 +1,21 @@
+{
+  "content": "<p>Course logo for 6.003, highlighting the main themes of the course. Figure by Prof. Dennis Freeman.</p>\n",
+  "content_type": "resource",
+  "description": "Course logo for 6.003, highlighting the main themes of the course. Figure by Prof. Dennis Freeman.",
+  "draft": false,
+  "file": "/courses/6-003-signals-and-systems-fall-2011/237345edff62de720230b2390d01cf6e_6-003f11.jpg",
+  "file_size": 63911,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Course logo for 6.003, highlighting the main themes of the course. (Figure by Prof. Dennis Freeman.)",
+    "credit": "Figure by Prof. Dennis Freeman.",
+    "image-alt": "Course logo for 6.003. Signals and Systems: modeling, analysis, design."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "6-003f11.jpg",
+  "uid": "237345ed-ff62-de72-0230-b2390d01cf6e"
+}

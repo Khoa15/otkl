@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;p&gt;The readings are in Nielsen, Michael A., and Isaac L. Chuang. &lt;em&gt;Quantum Computation and Quantum Information.&lt;/em&gt; Cambridge, UK: Cambridge University Press, September 2000. ISBN: 9780521635035, unless otherwise noted. I will try to announce the chapters of Nielsen and Chuang that contain most of the material we&amp;rsquo;re covering here. I&amp;rsquo;m not following the book exactly, so I may skip over some material from these chapters, and may include some extra material, but for those who want to look at the textbook before class, this will give an idea of what I&amp;rsquo;ll be covering. Scribe notes to many of the lectures are available.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

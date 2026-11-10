@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>chapter1.pdf</title>
+      <link>/resources/chapter1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/chapter1/data.json</guid>
+      <description>&lt;p&gt;This file contains topics: era of industrial robots, creation of robotics, manipulation and dexterity and locomotion and navigation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>chapter2.pdf</title>
+      <link>/resources/chapter2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/chapter2/data.json</guid>
+      <description>&lt;p&gt;This file contains topics: DC Motors, dynamics of single-axis drive systems, power electronics, robot controls and PWM amplifiers of the 2.12 laboratory, optical shaft encoders and brushless DC Motors.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>chapter3.pdf</title>
+      <link>/resources/chapter3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/chapter3/data.json</guid>
+      <description>&lt;p&gt;This file contains topics: joint primitives and serial linkages, parallel linkages.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>chapter4.pdf</title>
+      <link>/resources/chapter4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/chapter4/data.json</guid>
+      <description>&lt;p&gt;This section contains topics: Planar kinematics of serial link mechanisms, Inverse kinematics of planar mechanisms, Kinematics of parallel link mechanisms and redundant mechanisms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>chapter5.pdf</title>
+      <link>/resources/chapter5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/chapter5/data.json</guid>
+      <description>&lt;p&gt;This section contains topics: differential relationship, properties of the Jacobian, inverse kinematics of differential motion and singularity and redundancy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>chapter6.pdf</title>
+      <link>/resources/chapter6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/chapter6/data.json</guid>
+      <description>&lt;p&gt;This file contains topics: free body diagram, energy method and equivalent joint torques, duality of differential kinematics and statics, closed-loop kinematic chains and over-actuated systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>chapter7.pdf</title>
+      <link>/resources/chapter7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/chapter7/data.json</guid>
+      <description>&lt;p&gt;This section contains topics: Newton-Euler formulation of equations of motion and Lagrangian formulation of robot dynamics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>chapter9.pdf</title>
+      <link>/resources/chapter9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/chapter9/data.json</guid>
+      <description>&lt;p&gt;This section contains topics: hybrid position/force control and compliance control.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;The lecture notes for this class are in the form of chapters from a possible future edition of Professor Asada&amp;rsquo;s robotics textbook.&lt;/p&gt;&#xA;&lt;p&gt;Chapter 1: Introduction (&lt;a href=&#34;../../resources/chapter1/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Chapter 2: Actuators and Drive Systems (&lt;a href=&#34;../../resources/chapter2/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Chapter 3: Robot Mechanisms (&lt;a href=&#34;../../resources/chapter3/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Chapter 4: Planar Kinematics (&lt;a href=&#34;../../resources/chapter4/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Chapter 5: Differential Motion (&lt;a href=&#34;../../resources/chapter5/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Chapter 6: Statics (&lt;a href=&#34;../../resources/chapter6/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Chapter 7: Dynamics (&lt;a href=&#34;../../resources/chapter7/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Chapter 9: Force and Compliance Controls (&lt;a href=&#34;../../resources/chapter9/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;(Chapter 8 is not available)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

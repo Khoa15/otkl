@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource contains information regarding lecture 12: continuous-time feedback and control, part 1</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information regarding lecture 12: continuous-time feedback and control, part 1",
+  "draft": false,
+  "file": "/courses/6-003-signals-and-systems-fall-2011/34a432915f7bc013d5d4436f1e7195d9_MIT6_003F11_lec12.pdf",
+  "file_size": 875540,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Videos",
+  "parent_type": "CourseSection",
+  "parent_uid": "47b07fed-f3a3-0be2-5f15-5f62399cdb59",
+  "resourcetype": "Document",
+  "title": "Lecture 12: Continuous-time feedback and control, part 1",
+  "uid": "34a43291-5f7b-c013-d5d4-436f1e7195d9",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-003-signals-and-systems-fall-2011"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-003-signals-and-systems-fall-2011"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

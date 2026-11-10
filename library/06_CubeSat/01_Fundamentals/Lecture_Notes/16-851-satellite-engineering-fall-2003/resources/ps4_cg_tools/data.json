@@ -1,0 +1,47 @@
+{
+  "audience": [],
+  "content": "<p>Supporting files.\nThe ZIP file contains: test.m, Scenario.m, compute_feasible_circular_LEO_test.m, compute_feasible_circular_LEO.m, and compute_communication_time.m.</p>\n",
+  "content_type": "resource",
+  "description": "Supporting files.\nThe ZIP file contains: test.m, Scenario.m, compute_feasible_circular_LEO_test.m, compute_feasible_circular_LEO.m, and compute_communication_time.m.",
+  "draft": false,
+  "file": "/courses/16-851-satellite-engineering-fall-2003/3d2fae800a40cdc26e4cd7f7cfae4fd2_ps4_cg_tools.zip",
+  "file_size": 6877,
+  "file_type": "application/zip",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "54e4e27d-f3ae-708b-3759-0e244c163c0f",
+  "resourcetype": "Other",
+  "title": "ps4_cg_tools.zip",
+  "uid": "3d2fae80-0a40-cdc2-6e4c-d7f7cfae4fd2",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": {
+      "content": [],
+      "website": "16-851-satellite-engineering-fall-2003"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_resources": {
+      "content": [],
+      "website": "16-851-satellite-engineering-fall-2003"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

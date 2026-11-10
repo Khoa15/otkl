@@ -1,0 +1,27 @@
+{
+  "content": "<p>Thumbnail image accompanying a video lecture on the sampling theorem.</p>\n",
+  "content_type": "resource",
+  "description": "Thumbnail image accompanying a video lecture on the sampling theorem.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/7b3334f14f3f9d1f70ed8c434c87d2cd_36.jpg",
+  "file_size": 2664,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Lecture 36",
+  "uid": "7b3334f1-4f3f-9d1f-70ed-8c434c87d2cd",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

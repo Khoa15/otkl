@@ -1,0 +1,94 @@
+{
+  "course_description": "Systems Engineering is an interdisciplinary approach and means to enable the realization of successful systems. It focuses on defining customer needs and required functionality early in the development cycle, documenting requirements, then proceeding with design synthesis and system validation while considering the complete problem including operations, performance, test, manufacturing, cost, and schedule. This subject emphasizes the links of systems engineering to fundamentals of decision theory, statistics, and optimization. It also introduces the most current, commercially successful techniques for systems engineering.\n",
+  "course_description_html": "Systems Engineering is an interdisciplinary approach and means to enable the realization of successful systems. It focuses on defining customer needs and required functionality early in the development cycle, documenting requirements, then proceeding with design synthesis and system validation while considering the complete problem including operations, performance, test, manufacturing, cost, and schedule. This subject emphasizes the links of systems engineering to fundamentals of decision theory, statistics, and optimization. It also introduces the most current, commercially successful techniques for systems engineering.",
+  "course_image": {
+    "content": "2ccb6bf6-cc13-0e0d-e256-b724092a72b8",
+    "website": "esd-33-systems-engineering-summer-2010"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "Diagram of a fuel and engine management system in an automobile. This system includes components of the powertrain system, which is discussed in Lec #2 of this course. (Image by MIT OpenCourseWare.)",
+    "draft": false,
+    "file": "/courses/esd-33-systems-engineering-summer-2010/2ccb6bf6cc130e0de256b724092a72b8_esd-33s10.jpg",
+    "file_size": 54825,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "Diagram of a fuel and engine management system in an automobile. This system includes components of the powertrain system, which is discussed in Lec #2 of this course. (Image by MIT OpenCourseWare.)",
+      "credit": "",
+      "image-alt": "Fuel and engine management system diagram."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "Fuel and Engine Management System",
+    "uid": "2ccb6bf6-cc13-0e0d-e256-b724092a72b8"
+  },
+  "course_image_thumbnail": {
+    "content": "4182173b-c6c9-1f51-4aae-b8dbd90e032b",
+    "website": "esd-33-systems-engineering-summer-2010"
+  },
+  "course_title": "Systems Engineering",
+  "department_numbers": [
+    "ESD"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/2ccb6bf6cc130e0de256b724092a72b8_esd-33s10.jpg",
+  "instructors": [
+    {
+      "first_name": "Qi",
+      "last_name": "Van Eikema Hommes",
+      "middle_initial": "",
+      "salutation": "Dr.",
+      "title": "Dr. Qi Van Eikema Hommes",
+      "uid": "cde7e5ae-a0ed-0b27-6305-69d1efc20904",
+      "url": "https://ocw.mit.edu/search/?q=Dr.+Qi+Van+Eikema+Hommes"
+    },
+    {
+      "first_name": "Pat",
+      "last_name": "Hale",
+      "middle_initial": "",
+      "salutation": "Mr.",
+      "title": "Mr. Pat Hale",
+      "uid": "b24e2957-8cd5-7bb4-7298-878cd381ce7a",
+      "url": "https://ocw.mit.edu/search/?q=Mr.+Pat+Hale"
+    },
+    {
+      "first_name": "David",
+      "last_name": "Erickson",
+      "middle_initial": "",
+      "salutation": "Mr.",
+      "title": "Mr. David Erickson",
+      "uid": "8c982e03-9aec-3cc2-ed3b-89a690d0a7e8",
+      "url": "https://ocw.mit.edu/search/?q=Mr.+David+Erickson"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Notes",
+    "Projects"
+  ],
+  "legacy_uid": "ddbe06a2-2ef2-c6e0-7bb0-3f6a19d1ea53",
+  "level": [
+    "Graduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Engineering",
+      "Systems Engineering"
+    ]
+  ],
+  "primary_course_number": "ESD.33",
+  "site_short_id": "esd.33-summer-2010",
+  "site_uid": "ee9c4e9f-bcbe-44b2-a5db-8be2e32668ff",
+  "site_url_path": "courses/esd-33-systems-engineering-summer-2010",
+  "term": "Summer",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Engineering",
+      "Systems Engineering"
+    ]
+  ],
+  "year": "2010"
+}

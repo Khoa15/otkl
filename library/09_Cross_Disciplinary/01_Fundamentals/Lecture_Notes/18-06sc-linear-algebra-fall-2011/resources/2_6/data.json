@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/0d3f66fb3b0c768dec9cc607f7ce506c_2_6.jpg",
+  "file_size": 6734,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from 'Introduction to Linear Algebra' by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Determinant Formulas and Cofactors",
+  "parent_type": "CourseSection",
+  "parent_uid": "172571ec-1468-8c38-e3a6-02925af8e7d9",
+  "resourcetype": "Image",
+  "title": "2_6.jpg",
+  "uid": "0d3f66fb-3b0c-768d-ec9c-c607f7ce506c",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

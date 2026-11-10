@@ -1,0 +1,32 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "168513963",
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Resource Index",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Genetics 3",
+  "uid": "01bc5487-b51a-1faf-b5da-71c8b0501991",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT7.012F04/ocw-7.012-lec8-24sep2004-220k.mp4",
+    "video_captions_file": null,
+    "video_thumbnail_file": "https://img.youtube.com/vi/UT6h56ii9s4/default.jpg",
+    "video_transcript_file": null
+  },
+  "video_metadata": {
+    "video_tags": "7-012-introduction-to-biology-fall-2004, 7-01sc-fundamentals-of-biology-fall-2011, biology, cancer, cells, cloning, dna, genetics, genomics, immunology, mit, opencourseware, replication, rna, virology",
+    "youtube_id": "UT6h56ii9s4"
+  }
+}

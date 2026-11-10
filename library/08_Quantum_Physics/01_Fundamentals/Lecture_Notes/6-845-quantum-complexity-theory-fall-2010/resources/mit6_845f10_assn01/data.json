@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>This resource contains problem set 1.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains problem set 1. ",
+  "draft": false,
+  "file": "/courses/6-845-quantum-complexity-theory-fall-2010/a9f12a811becc2de85cdb0e22c4c2e0c_MIT6_845F10_assn01.pdf",
+  "file_size": 83557,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "dc03270e-479f-f53e-4dd2-a71adbb4d3aa",
+  "resourcetype": "Document",
+  "title": "MIT6_845F10_assn01.pdf",
+  "uid": "a9f12a81-1bec-c2de-85cd-b0e22c4c2e0c",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "course_description": "This course is an introduction to numerical methods and MATLAB®: Errors, condition numbers and roots of equations. Topics covered include Navier-Stokes; direct and iterative methods for linear systems; finite differences for elliptic, parabolic and hyperbolic equations; Fourier decomposition, error analysis and stability; high-order and compact finite-differences; finite volume methods; time marching methods; Navier-Stokes solvers; grid generation; finite volumes on complex geometries; finite element methods; spectral methods; boundary element and panel methods; turbulent flows; boundary layers; and Lagrangian coherent structures (LCSs).\n\nProf. Pierre Lermusiaux is very grateful to the teaching assistants Dr. Matt Ueckermann, Dr. Tapovan Lolla, Mr. Jing Lin, and Mr. Arpit Agarwal for their contributions to the course over the years.",
+  "course_description_html": "<p>This course is an introduction to numerical methods and MATLAB®: Errors, condition numbers and roots of equations. Topics covered include Navier-Stokes; direct and iterative methods for linear systems; finite differences for elliptic, parabolic and hyperbolic equations; Fourier decomposition, error analysis and stability; high-order and compact finite-differences; finite volume methods; time marching methods; Navier-Stokes solvers; grid generation; finite volumes on complex geometries; finite element methods; spectral methods; boundary element and panel methods; turbulent flows; boundary layers; and Lagrangian coherent structures (LCSs).</p>\n<p>Prof. Pierre Lermusiaux is very grateful to the teaching assistants Dr. Matt Ueckermann, Dr. Tapovan Lolla, Mr. Jing Lin, and Mr. Arpit Agarwal for their contributions to the course over the years.</p>\n",
+  "course_image": {
+    "content": "a1736dff-b564-485d-6115-d3694f0dfb3c",
+    "website": "2-29-numerical-fluid-mechanics-spring-2015"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "Graphs showing numerical modeling of the following fluid phenomena: lock exchange, warm rising bubble, lid-driven cavity flow, and double-gyre. Image courtesy of Prof. Pierre Lermusiaux.",
+    "draft": false,
+    "file": "/courses/2-29-numerical-fluid-mechanics-spring-2015/a1736dffb564485d6115d3694f0dfb3c_2-29s15.jpg",
+    "file_size": 48788,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "Graphs showing numerical modeling of the following fluid phenomena: lock exchange, warm rising bubble, lid-driven cavity flow, and double-gyre. (Image courtesy of Prof. Pierre Lermusiaux.)",
+      "credit": "Image courtesy of Prof. Pierre Lermusiaux.",
+      "image-alt": "Colorful contour graphs visually demonstrating pressure, velocity, density, and related quantities for lock exchange, warm rising bubble, lid-driven cavity flow, and double-gyre phenomena."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "2-29s15",
+    "uid": "a1736dff-b564-485d-6115-d3694f0dfb3c",
+    "video_files": {
+      "video_thumbnail_file": null
+    },
+    "video_metadata": {
+      "youtube_id": null
+    }
+  },
+  "course_image_thumbnail": {
+    "content": "278e5b6d-201b-6894-8101-d58102713f6e",
+    "website": "2-29-numerical-fluid-mechanics-spring-2015"
+  },
+  "course_title": "Numerical Fluid Mechanics",
+  "department_numbers": [
+    "2"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/a1736dffb564485d6115d3694f0dfb3c_2-29s15.jpg",
+  "instructors": [
+    {
+      "first_name": "Pierre",
+      "last_name": "Lermusiaux",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Pierre Lermusiaux",
+      "uid": "55a27b97-8559-551d-a7b7-1110d171d6c2",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Pierre+Lermusiaux"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Notes",
+    "Exams",
+    "Projects",
+    "Programming Assignments"
+  ],
+  "legacy_uid": "120ab78d-e58b-dd65-8cd8-9c8153bb404f",
+  "level": [
+    "Graduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Science & Math",
+      "Mathematics"
+    ],
+    [
+      "Engineering",
+      "Mechanical Engineering"
+    ],
+    [
+      "Engineering",
+      "Ocean Engineering"
+    ]
+  ],
+  "primary_course_number": "2.29",
+  "site_short_id": "2.29-spring-2015",
+  "site_uid": "9320c558-7318-4856-8e39-0527ed9886a5",
+  "site_url_path": "courses/2-29-numerical-fluid-mechanics-spring-2015",
+  "term": "Spring",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Engineering",
+      "Mechanical Engineering",
+      "Fluid Mechanics"
+    ],
+    [
+      "Engineering",
+      "Ocean Engineering",
+      "Hydrodynamics"
+    ],
+    [
+      "Mathematics",
+      "Computation"
+    ],
+    [
+      "Mathematics",
+      "Mathematical Analysis"
+    ]
+  ],
+  "year": "2015"
+}

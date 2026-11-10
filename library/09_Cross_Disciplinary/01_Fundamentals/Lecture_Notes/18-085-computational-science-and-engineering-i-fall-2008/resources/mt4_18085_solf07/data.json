@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>Solutions to a homework assignment on MATLAB.</p>\n",
+  "content_type": "resource",
+  "description": "Solutions to a homework assignment on MATLAB.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/1b78fd30a78079b896b1cffdc45ebc5e_mt4_18085_solf07.pdf",
+  "file_size": 94440,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "f22f0a8a-c9aa-3a44-6525-7e9b091c41f1",
+  "resourcetype": "Document",
+  "title": "Homework 4",
+  "uid": "1b78fd30-a780-79b8-96b1-cffdc45ebc5e",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

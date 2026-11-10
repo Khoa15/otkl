@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>6.02 Lecture 9: Transmitting on a physical channel</title>
+      <link>/resources/mit6_02f12_chap09/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_02f12_chap09/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>6.02 Notes, Chapter 1: Introduction</title>
+      <link>/resources/mit6_02f12_chap01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_02f12_chap01/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding introduction.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.02 Notes, Chapter 10: Models for Physical Communication Channels</title>
+      <link>/resources/mit6_02f12_chap10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_02f12_chap10/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>6.02 Notes, Chapter 11: LTI Models and Convolution</title>
+      <link>/resources/mit6_02f12_chap11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_02f12_chap11/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding LTI models and convolution.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.02 Notes, Chapter 12: Frequency Response of LTI Systems</title>
+      <link>/resources/mit6_02f12_chap12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_02f12_chap12/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding frequency response of LTI systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.02 Notes, Chapter 13: Fourier Analysis and Spectral Representation of Signals</title>
+      <link>/resources/mit6_02f12_chap13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_02f12_chap13/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding fourier analysis and spectral representation of signals.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.02 Notes, Chapter 14: Modulation and Demodulation</title>
+      <link>/resources/mit6_02f12_chap14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_02f12_chap14/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>6.02 Notes, Chapter 15: Sharing a Channel: Media Access (MAC) Protocols</title>
+      <link>/resources/mit6_02f12_chap15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_02f12_chap15/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding sharing a channel: media access (MAC) protocols.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.02 Notes, Chapter 16: Communication Networks: Sharing and Switches</title>
+      <link>/resources/mit6_02f12_chap16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_02f12_chap16/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>6.02 Notes, Chapter 17: Network Routing I: Without Any Failures</title>
+      <link>/resources/mit6_02f12_chap17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_02f12_chap17/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>6.02 Notes, Chapter 18: Network Routing II: Routing Around Failures</title>
+      <link>/resources/mit6_02f12_chap18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_02f12_chap18/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding network routing II: routing around failures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.02 Notes, Chapter 19: Reliable Data Transport Protocols</title>
+      <link>/resources/mit6_02f12_chap19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_02f12_chap19/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding reliable data transport protocols.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.02 Notes, Chapter 2: Information, Entropy, and the Motivation for Source Codes</title>
+      <link>/resources/mit6_02f12_chap02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_02f12_chap02/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding linear block codes: encoding and syndrome decoding.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.02 Notes, Chapter 3: Compression Algorithms: Huffman and Lempel-Ziv-Welch (LZW)</title>
+      <link>/resources/mit6_02f12_chap03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_02f12_chap03/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>6.02 Notes, Chapter 4: Why Digital? Communication Abstractions and Digital Signaling</title>
+      <link>/resources/mit6_02f12_chap04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_02f12_chap04/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding why digital? communication abstractions and digital signaling.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.02 Notes, Chapter 5: Coping with Bit Errors using Error Correction Codes</title>
+      <link>/resources/mit6_02f12_chap05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_02f12_chap05/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding coping with bit errors using error correction codes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.02 Notes, Chapter 6: Linear Block Codes: Encoding and Syndrome Decoding</title>
+      <link>/resources/mit6_02f12_chap06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_02f12_chap06/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding linear block codes: encoding and syndrome decoding.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.02 Notes, Chapter 7: Convolutional Codes: Construction and Encoding</title>
+      <link>/resources/mit6_02f12_chap07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_02f12_chap07/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding convolutional codes: construction and encoding.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6.02 Notes, Chapter 8: Viterbi Decoding of Convolutional Codes</title>
+      <link>/resources/mit6_02f12_chap08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_02f12_chap08/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding viterbi decoding of convolutional codes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;p&gt;The 6.02 course notes are courtesy of Hari Balakrishnan, Christopher Terman, and George Verghese, and are used with permission.&lt;/p&gt;&#xA;&lt;p&gt;The &lt;a href=&#34;../../pages/tutorials/index.html&#34;&gt;tutorial problems&lt;/a&gt; should be done before attempting the problems found at the end of these chapters. Solutions to the end-of-chapter problems are not available on MIT OpenCourseWare.&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;bits-signals-and-packets-an-introduction-to-digital-communications-and-networks&#34;&gt;Bits, Signals, and Packets: An Introduction to Digital Communications and Networks&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;CHAPTER #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit6_02f12_chap01/index.html&#34;&gt;Introduction (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;&lt;a href=&#34;../../resources/mit6_02f12_chap02/index.html&#34;&gt;Information, Entropy, and the Motivation for Source Codes (PDF)&lt;/a&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

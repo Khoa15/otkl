@@ -1,0 +1,21 @@
+{
+  "content": "<p>Exam problems.</p>\n",
+  "content_type": "resource",
+  "description": "Exam problems.",
+  "draft": false,
+  "file": "/courses/7-03-genetics-fall-2004/261010b930ef036b904455a551be7515_exam1_2004.pdf",
+  "file_size": 190568,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Exams",
+  "parent_type": "CourseSection",
+  "parent_uid": "338e1c8e-e956-ef95-2098-c199cdb7f047",
+  "resourcetype": "Document",
+  "title": "exam1_2004.pdf",
+  "uid": "261010b9-30ef-036b-9044-55a551be7515"
+}

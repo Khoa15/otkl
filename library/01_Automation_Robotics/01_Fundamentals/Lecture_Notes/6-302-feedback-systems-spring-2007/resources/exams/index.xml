@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exams on MIT OpenCourseWare</title>
+    <link>/resources/exams/</link>
+    <description>Recent content in Exams on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exams</title>
+      <link>/pages/exams/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/exams/data.json</guid>
+      <description>&lt;p&gt;This section includes selected exams from previous semesters. Note: in the 2005 final exam, figures are missing from Problem 4.&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;quizzes&#34;&gt;Quizzes&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;2003 Quiz 1 (&lt;a href=&#34;../../resources/quiz03/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;final-exams&#34;&gt;Final Exams&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;2003 Final Exam (&lt;a href=&#34;../../resources/final03/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;2004 Final Exam (&lt;a href=&#34;../../resources/final04/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;2005 Final Exam (&lt;a href=&#34;../../resources/final05/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;2007 Final Exam (&lt;a href=&#34;../../resources/final07/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>final03.pdf</title>
+      <link>/resources/final03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/final03/data.json</guid>
+      <description>&lt;p&gt;Final exam on Feedback Systems from Fall 2003.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>final04.pdf</title>
+      <link>/resources/final04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/final04/data.json</guid>
+      <description>&lt;p&gt;Final exam on Feedback Systems from Fall 2004.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>final05.pdf</title>
+      <link>/resources/final05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/final05/data.json</guid>
+      <description>&lt;p&gt;Final exam on Feedback Systems from Fall 2005.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>final07.pdf</title>
+      <link>/resources/final07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/final07/data.json</guid>
+      <description>&lt;p&gt;Final exam on Feedback Systems from Fall 2007.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>quiz03.pdf</title>
+      <link>/resources/quiz03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/quiz03/data.json</guid>
+      <description>&lt;p&gt;Quiz on Feedback Systems from Fall 2004.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

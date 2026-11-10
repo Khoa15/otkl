@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Supporting file for a problem set: a Matlab routine containing the basic framework for implementing the required controllers for a problem on optimal control of the double integrator.</p>\n",
+  "content_type": "resource",
+  "description": "Supporting file for a problem set: a Matlab routine containing the basic framework for implementing the required controllers for a problem on optimal control of the double integrator.",
+  "draft": false,
+  "file": "/courses/6-832-underactuated-robotics-spring-2009/6cd8dc7bdf6282e65e548d792120d8f0_brick_control.m",
+  "file_size": 1983,
+  "file_type": "text/plain",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "04c58ca0-0560-b9d1-6ca6-2691ea66babf",
+  "resourcetype": "Other",
+  "title": "Brick Control",
+  "uid": "6cd8dc7b-df62-82e6-5e54-8d792120d8f0",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

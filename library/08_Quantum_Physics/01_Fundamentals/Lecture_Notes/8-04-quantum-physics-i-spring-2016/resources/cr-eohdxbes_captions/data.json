@@ -1,0 +1,22 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/8-04-quantum-physics-i-spring-2016/CR-eOhdxbes_captions.webvtt",
+  "file_size": 19900,
+  "file_type": "application/x-subrip",
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "resourcetype": "Other",
+  "title": "The nature of superposition. Mach-Zehnder interferometer captions",
+  "uid": "efa00cc1-9202-4433-9eaf-5964ce6ed73e",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": "CR-eOhdxbes"
+  }
+}

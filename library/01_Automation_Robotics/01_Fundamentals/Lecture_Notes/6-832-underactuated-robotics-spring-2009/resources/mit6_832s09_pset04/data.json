@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Problem set on the spring loaded inverted pendulum and motion planning with rapidly-exploring random trees.</p>\n",
+  "content_type": "resource",
+  "description": "Problem set on the spring loaded inverted pendulum and motion planning with rapidly-exploring random trees.",
+  "draft": false,
+  "file": "/courses/6-832-underactuated-robotics-spring-2009/73e3b5260a2110ac37072b1acf5d5862_MIT6_832s09_pset04.pdf",
+  "file_size": 113845,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "04c58ca0-0560-b9d1-6ca6-2691ea66babf",
+  "resourcetype": "Document",
+  "title": "Problem Set 4",
+  "uid": "73e3b526-0a21-10ac-3707-2b1acf5d5862",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

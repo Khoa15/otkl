@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource contains special files like .cpp, .h, .dev, .psd, .wav.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains special files like .cpp, .h, .dev, .psd, .wav.",
+  "draft": false,
+  "file": "/courses/2-12-introduction-to-robotics-fall-2005/92d6c81c099ea2e4a28a4159b7f5eaa2_ps2_simple_sim.zip",
+  "file_size": 272337,
+  "file_type": "application/zip",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "c1b3f464-e564-d4f7-8f33-88e237134695",
+  "resourcetype": "Other",
+  "title": "ps2_simple_sim.zip",
+  "uid": "92d6c81c-099e-a2e4-a28a-4159b7f5eaa2",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "2-12-introduction-to-robotics-fall-2005"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "2-12-introduction-to-robotics-fall-2005"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

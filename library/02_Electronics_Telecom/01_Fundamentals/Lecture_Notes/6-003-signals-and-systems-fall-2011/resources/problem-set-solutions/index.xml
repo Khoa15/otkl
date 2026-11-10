@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Set Solutions on MIT OpenCourseWare</title>
+    <link>/resources/problem-set-solutions/</link>
+    <description>Recent content in Problem Set Solutions on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-set-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homework 1 Solutions</title>
+      <link>/resources/homework-1-solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework-1-solutions/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding solutions of homework 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 10 Solutions</title>
+      <link>/resources/homework-10-solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework-10-solutions/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding solutions of homework 10.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 11 Solutions</title>
+      <link>/resources/homework-11-solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework-11-solutions/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding solutions of homework11.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 12 Solutions</title>
+      <link>/resources/homework-12-solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework-12-solutions/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding solutions of homework 12.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 13 Solutions</title>
+      <link>/resources/homework-13-solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework-13-solutions/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding solutions of homework 13.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 14 Solutions</title>
+      <link>/resources/homework-14-solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework-14-solutions/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding solutions of homework 14.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 2 Solutions</title>
+      <link>/resources/homework-2-solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework-2-solutions/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding solutions of homework 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 3 Solutions</title>
+      <link>/resources/homework-3-solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework-3-solutions/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding solutions of homework 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 4 Solutions</title>
+      <link>/resources/homework-4-solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework-4-solutions/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding solutions of homework 4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 5 Solutions</title>
+      <link>/resources/homework-5-solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework-5-solutions/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding solutions of homework 5.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 6 Solutions</title>
+      <link>/resources/homework-6-solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework-6-solutions/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding solutions of homework 6.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 7 Solutions</title>
+      <link>/resources/homework-7-solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework-7-solutions/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding solutions of homework 7.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 8 Solutions</title>
+      <link>/resources/homework-8-solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework-8-solutions/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding solutions of homework 8.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 9 Solutions</title>
+      <link>/resources/homework-9-solutions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework-9-solutions/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding solutions of homework 9.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

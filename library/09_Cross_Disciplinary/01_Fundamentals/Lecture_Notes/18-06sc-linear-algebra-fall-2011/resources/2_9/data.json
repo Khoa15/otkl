@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/a9a3121e445d27ee7f5dc1e92968e07e_2_9.jpg",
+  "file_size": 3501,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from 'Introduction to Linear Algebra' by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Diagonalization and Powers of A",
+  "parent_type": "CourseSection",
+  "parent_uid": "dcb9a660-b4e1-e1d4-837b-ad83344a716e",
+  "resourcetype": "Image",
+  "title": "2_9.jpg",
+  "uid": "a9a3121e-445d-27ee-7f5d-c1e92968e07e",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

@@ -1,0 +1,16 @@
+
+{
+  "content": "<p>The homework assignments count toward 70% of the course grade.</p>\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nassignments\n</th>\n\n<th>\n\nsolutions\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\nHomework 1 (<a href=\"../../resources/homework1/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/solutions1/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nHomework 2 (<a href=\"../../resources/homework2/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/solutions2/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nHomework 3 (<a href=\"../../resources/homework3/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/solutions3/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nHomework 4 (<a href=\"../../resources/homework4/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/solutions4/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nHomework 5 (<a href=\"../../resources/homework5/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/solutions5/index.html\">PDF</a>)\n</td>\n</p>\n</tr>\n\n</table>\n\n\n    <h3 id=\"additional-optional-problems\">Additional Optional Problems</h3>\n\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nassignments\n</th>\n\n<th>\n\nsolutions\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\nHomework 1 (<a href=\"../../resources/ps2/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/ps2sol/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nHomework 2 (<a href=\"../../resources/ps1/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/ps1sol/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nHomework 3 (<a href=\"../../resources/ps6/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/ps6sol/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nHomework 4 (<a href=\"../../resources/ps5/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/ps5sol/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nHomework 5 (<a href=\"../../resources/ps10/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/ps10sol/index.html\">PDF</a>)\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "The homework assignments count toward 30% of the course grade. It also includes 10 problem sets and corresponding solutions to these problem sets.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Assignments",
+  "uid": "04bf2dc2-6c58-0411-a974-352ddf413671"
+}
+

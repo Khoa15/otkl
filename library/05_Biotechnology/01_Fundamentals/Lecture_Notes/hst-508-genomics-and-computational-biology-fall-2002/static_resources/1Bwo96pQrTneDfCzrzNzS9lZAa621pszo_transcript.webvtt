@@ -1,0 +1,2079 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.440 align:middle line:84%
+- The following
+content is provided
+
+00:00:02.440 --> 00:00:06.340 align:middle line:84%
+by MIT OpenCourseWare under
+a Creative Commons license.
+
+00:00:06.340 --> 00:00:08.470 align:middle line:84%
+Additional information
+about our license
+
+00:00:08.470 --> 00:00:10.870 align:middle line:84%
+and MIT OpenCourseWare
+in general
+
+00:00:10.870 --> 00:00:12.730 align:middle line:90%
+is available at ocw.mit.edu.
+
+00:00:12.730 --> 00:00:33.832 align:middle line:90%
+
+
+00:00:33.832 --> 00:00:35.840 align:middle line:90%
+GEORGE CHURCH: OK, welcome back.
+
+00:00:35.840 --> 00:00:39.290 align:middle line:90%
+
+
+00:00:39.290 --> 00:00:42.500 align:middle line:84%
+We just finished our discussion
+of predator, prey, and host
+
+00:00:42.500 --> 00:00:47.300 align:middle line:84%
+parasites illustrating
+it with ways
+
+00:00:47.300 --> 00:00:53.180 align:middle line:84%
+that we can have an impact
+on ecological modeling
+
+00:00:53.180 --> 00:00:58.230 align:middle line:90%
+in oceans and in public health.
+
+00:00:58.230 --> 00:01:00.800 align:middle line:84%
+And these kind of
+considerations start
+
+00:01:00.800 --> 00:01:05.030 align:middle line:84%
+getting us into what are
+the global and socioeconomic
+
+00:01:05.030 --> 00:01:06.950 align:middle line:90%
+considerations?
+
+00:01:06.950 --> 00:01:10.460 align:middle line:84%
+What kind of impact do
+these kind of models
+
+00:01:10.460 --> 00:01:14.970 align:middle line:90%
+have on how we make decisions?
+
+00:01:14.970 --> 00:01:23.310 align:middle line:84%
+And in this context, I'm glad
+to be associated with the Genome
+
+00:01:23.310 --> 00:01:23.810 align:middle line:90%
+Project.
+
+00:01:23.810 --> 00:01:26.360 align:middle line:84%
+It's one of the first
+scientific projects
+
+00:01:26.360 --> 00:01:31.850 align:middle line:84%
+of any reasonable scale that
+had from the very start,
+
+00:01:31.850 --> 00:01:37.640 align:middle line:84%
+from the very first proposed
+funding for it in 1990,
+
+00:01:37.640 --> 00:01:43.500 align:middle line:84%
+a component of 3% set
+aside for ethical, legal,
+
+00:01:43.500 --> 00:01:47.450 align:middle line:90%
+and social issue or LC.
+
+00:01:47.450 --> 00:01:49.520 align:middle line:84%
+And some of the conflicts
+that are covered
+
+00:01:49.520 --> 00:01:54.440 align:middle line:84%
+by the grantees in this
+part of the Genome Project
+
+00:01:54.440 --> 00:01:59.180 align:middle line:84%
+were genetic non-discrimination,
+privacy, reproductive rights,
+
+00:01:59.180 --> 00:02:02.480 align:middle line:84%
+cloning, psychological
+stigmatization
+
+00:02:02.480 --> 00:02:05.910 align:middle line:84%
+that can come from maybe
+too much knowledge,
+
+00:02:05.910 --> 00:02:07.580 align:middle line:84%
+clinical quality
+control, what can
+
+00:02:07.580 --> 00:02:10.009 align:middle line:84%
+happen with false positives
+and false negatives
+
+00:02:10.009 --> 00:02:12.975 align:middle line:84%
+in clinical exams, safety
+and environmental issues,
+
+00:02:12.975 --> 00:02:15.350 align:middle line:84%
+such as the ones we were just
+talking about and some more
+
+00:02:15.350 --> 00:02:18.320 align:middle line:90%
+that I'll raise.
+
+00:02:18.320 --> 00:02:21.030 align:middle line:84%
+Uncertainties, not just
+in quality control,
+
+00:02:21.030 --> 00:02:24.725 align:middle line:84%
+but in the uncertainties
+in testing minors.
+
+00:02:24.725 --> 00:02:27.440 align:middle line:90%
+
+
+00:02:27.440 --> 00:02:31.760 align:middle line:84%
+Issues of diversity, both
+biodiversity and human
+
+00:02:31.760 --> 00:02:35.420 align:middle line:84%
+diversity, and commercialization
+of the products.
+
+00:02:35.420 --> 00:02:41.540 align:middle line:84%
+Who owns my cells when I give
+them to a hospital or a company
+
+00:02:41.540 --> 00:02:42.710 align:middle line:90%
+to help cure me?
+
+00:02:42.710 --> 00:02:47.120 align:middle line:84%
+Do they then own all
+the patent rights?
+
+00:02:47.120 --> 00:02:49.850 align:middle line:84%
+So the underlined
+topics are the ones,
+
+00:02:49.850 --> 00:02:51.680 align:middle line:84%
+the four underlined
+topics we'll talk about
+
+00:02:51.680 --> 00:02:53.930 align:middle line:90%
+in the next few slides.
+
+00:02:53.930 --> 00:02:56.750 align:middle line:84%
+In terms of non-discrimination,
+this can go any direction.
+
+00:02:56.750 --> 00:02:59.498 align:middle line:84%
+It will go the direction
+the market forces push it,
+
+00:02:59.498 --> 00:03:00.290 align:middle line:90%
+meaning the voters.
+
+00:03:00.290 --> 00:03:02.960 align:middle line:90%
+
+
+00:03:02.960 --> 00:03:06.710 align:middle line:84%
+If we want to pass
+really laws that
+
+00:03:06.710 --> 00:03:10.280 align:middle line:84%
+say that if George Church
+sequences his genome
+
+00:03:10.280 --> 00:03:12.860 align:middle line:84%
+and he has to report that
+sequence to his insurance
+
+00:03:12.860 --> 00:03:16.140 align:middle line:84%
+company or worse yet the
+insurance company is going
+
+00:03:16.140 --> 00:03:18.330 align:middle line:84%
+and get it before
+he wants it or not.
+
+00:03:18.330 --> 00:03:20.240 align:middle line:84%
+But on the other end
+of the spectrum, and I
+
+00:03:20.240 --> 00:03:23.720 align:middle line:84%
+hope the trend which will make
+it much easier for us to share
+
+00:03:23.720 --> 00:03:25.640 align:middle line:90%
+our data, or use our data--
+
+00:03:25.640 --> 00:03:30.260 align:middle line:84%
+that's it-- is that the
+Non-Discrimination in Health
+
+00:03:30.260 --> 00:03:35.570 align:middle line:84%
+Insurance and Employment Act
+was [? docked ?] in 1999,
+
+00:03:35.570 --> 00:03:43.670 align:middle line:84%
+was introduced and passed,
+which would extend employment
+
+00:03:43.670 --> 00:03:46.760 align:middle line:84%
+protections in the
+government sector
+
+00:03:46.760 --> 00:03:51.830 align:middle line:84%
+to the private
+sector to the extent
+
+00:03:51.830 --> 00:03:54.740 align:middle line:90%
+that that can be generalized.
+
+00:03:54.740 --> 00:03:56.360 align:middle line:84%
+I don't know
+exactly where that's
+
+00:03:56.360 --> 00:03:58.550 align:middle line:90%
+going but one can hope that--
+
+00:03:58.550 --> 00:04:01.970 align:middle line:84%
+I mean clearly we will always
+do some kind of discrimination
+
+00:04:01.970 --> 00:04:08.780 align:middle line:84%
+based on genetics
+which can be assessed
+
+00:04:08.780 --> 00:04:15.428 align:middle line:84%
+such as in an interview, you
+know, height, friendliness,
+
+00:04:15.428 --> 00:04:16.220 align:middle line:90%
+that sort of thing.
+
+00:04:16.220 --> 00:04:18.380 align:middle line:84%
+But we won't
+necessarily be doing it
+
+00:04:18.380 --> 00:04:21.140 align:middle line:90%
+based on genetic sequence.
+
+00:04:21.140 --> 00:04:24.080 align:middle line:90%
+And these are tough issues.
+
+00:04:24.080 --> 00:04:26.420 align:middle line:84%
+It's the probabilistic
+nature of the decisions
+
+00:04:26.420 --> 00:04:28.220 align:middle line:84%
+that you make
+during an interview
+
+00:04:28.220 --> 00:04:31.080 align:middle line:84%
+different from the
+probabilistic decision
+
+00:04:31.080 --> 00:04:33.380 align:middle line:84%
+you would make
+based on a DNA scan?
+
+00:04:33.380 --> 00:04:34.692 align:middle line:90%
+Which is more accurate?
+
+00:04:34.692 --> 00:04:36.150 align:middle line:84%
+Do you want it to
+be more accurate?
+
+00:04:36.150 --> 00:04:37.830 align:middle line:84%
+Do you want it to
+be less accurate?
+
+00:04:37.830 --> 00:04:38.640 align:middle line:90%
+So on and so forth.
+
+00:04:38.640 --> 00:04:42.560 align:middle line:84%
+But clearly there's the
+trend in terms of legislation
+
+00:04:42.560 --> 00:04:49.370 align:middle line:84%
+is towards less information
+being used for discrimination.
+
+00:04:49.370 --> 00:04:51.380 align:middle line:84%
+Certainly in the
+insurance level.
+
+00:04:51.380 --> 00:04:54.140 align:middle line:84%
+And it's appropriate
+in insurance
+
+00:04:54.140 --> 00:04:59.970 align:middle line:84%
+because in a way that's supposed
+to be a process by which risk
+
+00:04:59.970 --> 00:05:00.470 align:middle line:90%
+is shared.
+
+00:05:00.470 --> 00:05:03.620 align:middle line:90%
+
+
+00:05:03.620 --> 00:05:05.810 align:middle line:90%
+So the issue of races.
+
+00:05:05.810 --> 00:05:12.440 align:middle line:84%
+Typically races,
+some people feel
+
+00:05:12.440 --> 00:05:14.720 align:middle line:84%
+this is a scientifically
+rigorous definition,
+
+00:05:14.720 --> 00:05:15.800 align:middle line:90%
+others do not.
+
+00:05:15.800 --> 00:05:22.610 align:middle line:84%
+Some feel that it involves
+very, very broad strokes
+
+00:05:22.610 --> 00:05:25.280 align:middle line:90%
+in other organisms at least.
+
+00:05:25.280 --> 00:05:30.510 align:middle line:84%
+It can cover fairly detailed
+bottlenecks in populations.
+
+00:05:30.510 --> 00:05:33.080 align:middle line:84%
+But in any case,
+there are elements
+
+00:05:33.080 --> 00:05:36.830 align:middle line:84%
+of population structure which
+certainly are important,
+
+00:05:36.830 --> 00:05:39.170 align:middle line:84%
+whether you ascribe
+it to the major races
+
+00:05:39.170 --> 00:05:44.540 align:middle line:84%
+or to minor,
+smaller populations.
+
+00:05:44.540 --> 00:05:46.490 align:middle line:84%
+And examples here,
+we've already talked
+
+00:05:46.490 --> 00:05:49.895 align:middle line:84%
+about hemoglobin variants
+evolved to resist malaria.
+
+00:05:49.895 --> 00:05:51.950 align:middle line:84%
+It's going to be one
+of the themes today.
+
+00:05:51.950 --> 00:05:56.390 align:middle line:90%
+
+
+00:05:56.390 --> 00:05:58.738 align:middle line:84%
+And as with the differences
+in skin pigmentation,
+
+00:05:58.738 --> 00:06:01.280 align:middle line:84%
+the pressure of the environment
+to develop a group-wide trait
+
+00:06:01.280 --> 00:06:08.210 align:middle line:84%
+was powerful and can involve
+a very small number of genes.
+
+00:06:08.210 --> 00:06:14.330 align:middle line:84%
+You get founder effects
+where a particular population
+
+00:06:14.330 --> 00:06:16.970 align:middle line:84%
+is highly enriched for
+a particular disease
+
+00:06:16.970 --> 00:06:22.610 align:middle line:84%
+such as Huntington's in the case
+of Lake Maracaibo in Venezuela
+
+00:06:22.610 --> 00:06:29.000 align:middle line:84%
+or Tay-Sachs in some
+Jewish populations.
+
+00:06:29.000 --> 00:06:31.990 align:middle line:84%
+So when you have these
+well isolated populations,
+
+00:06:31.990 --> 00:06:34.690 align:middle line:84%
+I think, you can see in the
+population genetic literature
+
+00:06:34.690 --> 00:06:38.260 align:middle line:84%
+how they can be used
+in various ways.
+
+00:06:38.260 --> 00:06:42.070 align:middle line:84%
+But, overall, and it's
+sort of the broadest level
+
+00:06:42.070 --> 00:06:47.560 align:middle line:84%
+we all share a large
+set of commonly acquired
+
+00:06:47.560 --> 00:06:48.970 align:middle line:90%
+polymorphisms.
+
+00:06:48.970 --> 00:06:53.260 align:middle line:84%
+And even with ants, the
+smallest subpopulation,
+
+00:06:53.260 --> 00:06:55.720 align:middle line:84%
+it still behooves us
+to look at the details
+
+00:06:55.720 --> 00:06:58.630 align:middle line:84%
+of the individual
+variations in DNA sequence
+
+00:06:58.630 --> 00:07:02.290 align:middle line:90%
+in the haplotypes or genotypes.
+
+00:07:02.290 --> 00:07:04.630 align:middle line:84%
+I have two dangerous
+slides in a row.
+
+00:07:04.630 --> 00:07:08.140 align:middle line:84%
+I could probably come up with
+quite a few more, so could you.
+
+00:07:08.140 --> 00:07:09.610 align:middle line:90%
+But one of them is--
+
+00:07:09.610 --> 00:07:13.780 align:middle line:84%
+this is really a very strong
+advocate for her modeling.
+
+00:07:13.780 --> 00:07:16.950 align:middle line:84%
+And it's totally
+anecdotal slide itself
+
+00:07:16.950 --> 00:07:18.970 align:middle line:84%
+is that is non-scientific,
+historical.
+
+00:07:18.970 --> 00:07:25.430 align:middle line:84%
+But this is one critics'
+view of the huge influence
+
+00:07:25.430 --> 00:07:29.360 align:middle line:84%
+that Lysenko had on genetics
+and biology in the Soviet
+
+00:07:29.360 --> 00:07:34.130 align:middle line:84%
+Union from the early
+days of the revolution.
+
+00:07:34.130 --> 00:07:42.380 align:middle line:84%
+And his real pet theory
+was the inheritance
+
+00:07:42.380 --> 00:07:43.760 align:middle line:90%
+of acquired characteristics.
+
+00:07:43.760 --> 00:07:45.135 align:middle line:84%
+And there's nothing
+intrinsically
+
+00:07:45.135 --> 00:07:47.090 align:middle line:84%
+wrong with in broad
+strokes the inheritance
+
+00:07:47.090 --> 00:07:50.300 align:middle line:90%
+of acquired characteristics.
+
+00:07:50.300 --> 00:07:53.840 align:middle line:84%
+It's not certainly not
+common biological phenomenon.
+
+00:07:53.840 --> 00:08:00.860 align:middle line:84%
+And at the time, it was not
+helping their biology progress
+
+00:08:00.860 --> 00:08:03.980 align:middle line:84%
+at the same rate as the rest
+of the world which was mainly
+
+00:08:03.980 --> 00:08:08.960 align:middle line:84%
+pursuing the Mendelian
+inheritance models.
+
+00:08:08.960 --> 00:08:12.530 align:middle line:84%
+And this critic in quotes
+felt that his habit
+
+00:08:12.530 --> 00:08:15.050 align:middle line:90%
+was to report only successes.
+
+00:08:15.050 --> 00:08:17.150 align:middle line:84%
+This is a really
+feel good habit.
+
+00:08:17.150 --> 00:08:21.410 align:middle line:84%
+And his results were based on
+extremely small sample sizes,
+
+00:08:21.410 --> 00:08:25.310 align:middle line:84%
+inaccurate records, and the
+almost total absence of control
+
+00:08:25.310 --> 00:08:27.560 align:middle line:90%
+groups.
+
+00:08:27.560 --> 00:08:30.110 align:middle line:84%
+He made an early mistake
+in the calculation which
+
+00:08:30.110 --> 00:08:33.690 align:middle line:84%
+caused comments among other
+specialists in his field
+
+00:08:33.690 --> 00:08:36.710 align:middle line:84%
+and made him extremely negative
+towards the use of mathematics
+
+00:08:36.710 --> 00:08:38.510 align:middle line:90%
+and science.
+
+00:08:38.510 --> 00:08:41.000 align:middle line:84%
+Making mistakes
+should not cause you
+
+00:08:41.000 --> 00:08:45.320 align:middle line:84%
+to drop the use of
+mathematics and science.
+
+00:08:45.320 --> 00:08:48.453 align:middle line:84%
+Hopefully, those
+of you, probably
+
+00:08:48.453 --> 00:08:50.870 align:middle line:84%
+everybody in this class has
+made a mistake in mathematics.
+
+00:08:50.870 --> 00:08:53.990 align:middle line:84%
+And, hopefully, none of
+you will drop mathematics
+
+00:08:53.990 --> 00:08:56.870 align:middle line:90%
+in your future biology.
+
+00:08:56.870 --> 00:09:03.680 align:middle line:84%
+And the second danger is the
+danger of ethics-free science.
+
+00:09:03.680 --> 00:09:07.880 align:middle line:84%
+Now you get to the
+truly remarkable story
+
+00:09:07.880 --> 00:09:14.840 align:middle line:84%
+that in 1979, there was a
+release of anthrax 836 spores
+
+00:09:14.840 --> 00:09:21.140 align:middle line:84%
+and part of the
+former Soviet Union.
+
+00:09:21.140 --> 00:09:26.900 align:middle line:84%
+And a few years later,
+actually 1999, this book
+
+00:09:26.900 --> 00:09:31.580 align:middle line:84%
+was published describing
+what was behind that.
+
+00:09:31.580 --> 00:09:37.580 align:middle line:84%
+And what was behind that
+was decades earlier in 1953.
+
+00:09:37.580 --> 00:09:41.870 align:middle line:84%
+There was a leak
+in one, I guess,
+
+00:09:41.870 --> 00:09:47.830 align:middle line:90%
+of their anthrax developments.
+
+00:09:47.830 --> 00:09:52.180 align:middle line:84%
+And then 1956, they found
+that one of the rodents
+
+00:09:52.180 --> 00:09:55.930 align:middle line:84%
+that they captured in their
+routine surveys of the sewers
+
+00:09:55.930 --> 00:09:58.720 align:middle line:84%
+searching down a
+possible anthrax,
+
+00:09:58.720 --> 00:10:01.060 align:middle line:84%
+that actually a
+strain had become
+
+00:10:01.060 --> 00:10:02.630 align:middle line:84%
+much more virulent
+than the original
+
+00:10:02.630 --> 00:10:04.420 align:middle line:90%
+that they were working with.
+
+00:10:04.420 --> 00:10:09.160 align:middle line:84%
+And usually the response
+of public health official
+
+00:10:09.160 --> 00:10:12.190 align:middle line:84%
+or even a reasonable person
+would be to kill this thing.
+
+00:10:12.190 --> 00:10:17.170 align:middle line:84%
+But instead they decided
+that this was great.
+
+00:10:17.170 --> 00:10:18.160 align:middle line:90%
+Let's cultivate it.
+
+00:10:18.160 --> 00:10:25.330 align:middle line:84%
+And the idea was to install it
+into these rockets that were
+
+00:10:25.330 --> 00:10:27.910 align:middle line:90%
+targeted on Western cities.
+
+00:10:27.910 --> 00:10:32.140 align:middle line:84%
+And then that led eventually
+to them depositing spores
+
+00:10:32.140 --> 00:10:35.770 align:middle line:84%
+on their own people
+accidentally of this greatly
+
+00:10:35.770 --> 00:10:37.480 align:middle line:90%
+enhanced strain.
+
+00:10:37.480 --> 00:10:42.790 align:middle line:84%
+So the question to our community
+as this genome engineering
+
+00:10:42.790 --> 00:10:45.940 align:middle line:84%
+tools get easier and
+easier where you basically
+
+00:10:45.940 --> 00:10:49.480 align:middle line:84%
+can sequence genomes
+inexpensively and even
+
+00:10:49.480 --> 00:10:52.210 align:middle line:84%
+synthesize genomes
+inexpensively.
+
+00:10:52.210 --> 00:10:55.720 align:middle line:84%
+And much of this is going to
+be in the public domain, what
+
+00:10:55.720 --> 00:10:58.360 align:middle line:84%
+is to stop this from
+being a very easily
+
+00:10:58.360 --> 00:11:07.750 align:middle line:84%
+disguised and potentially very
+inexpensive form of terrorism?
+
+00:11:07.750 --> 00:11:10.510 align:middle line:84%
+And part of that
+is that we do what
+
+00:11:10.510 --> 00:11:14.680 align:middle line:84%
+we can do to improve
+either detection tools
+
+00:11:14.680 --> 00:11:19.960 align:middle line:84%
+or genome engineering tools
+to make them more of a defense
+
+00:11:19.960 --> 00:11:22.330 align:middle line:90%
+type than offense.
+
+00:11:22.330 --> 00:11:28.570 align:middle line:84%
+But this was done in the
+early days of recombinant DNA
+
+00:11:28.570 --> 00:11:30.700 align:middle line:84%
+where the vectors
+were designed such
+
+00:11:30.700 --> 00:11:34.600 align:middle line:84%
+that if the vector ever
+were to escape from the lab,
+
+00:11:34.600 --> 00:11:35.920 align:middle line:90%
+it would die immediately.
+
+00:11:35.920 --> 00:11:39.190 align:middle line:84%
+It would be lacking the
+nutrients it needed to grow.
+
+00:11:39.190 --> 00:11:41.890 align:middle line:84%
+It would be very sensitive to
+detergents that occur typically
+
+00:11:41.890 --> 00:11:44.360 align:middle line:90%
+in sewers and so forth.
+
+00:11:44.360 --> 00:11:47.170 align:middle line:84%
+Now the vectors we use today,
+those were not very robust.
+
+00:11:47.170 --> 00:11:48.820 align:middle line:84%
+They didn't grow
+very well in the lab
+
+00:11:48.820 --> 00:11:51.730 align:middle line:90%
+as much less in the sewers.
+
+00:11:51.730 --> 00:11:56.710 align:middle line:84%
+But it turns out that random
+release is fairly low risk
+
+00:11:56.710 --> 00:11:57.310 align:middle line:90%
+problem.
+
+00:11:57.310 --> 00:12:00.130 align:middle line:84%
+That was what we were
+worried about in the 1970s
+
+00:12:00.130 --> 00:12:01.270 align:middle line:90%
+with recombinant DNA.
+
+00:12:01.270 --> 00:12:06.370 align:middle line:84%
+But purposeful release of
+genetically modified organisms
+
+00:12:06.370 --> 00:12:08.350 align:middle line:90%
+is more of the issue today.
+
+00:12:08.350 --> 00:12:11.200 align:middle line:84%
+And, of course, genetically
+modified organisms
+
+00:12:11.200 --> 00:12:14.890 align:middle line:84%
+on this slide have been
+created and engineered
+
+00:12:14.890 --> 00:12:20.290 align:middle line:84%
+over the millennium,
+maybe 10 millennium or so,
+
+00:12:20.290 --> 00:12:23.980 align:middle line:90%
+without a license.
+
+00:12:23.980 --> 00:12:25.880 align:middle line:84%
+And they've been
+very successful.
+
+00:12:25.880 --> 00:12:27.505 align:middle line:84%
+You picture this
+little weed-like thing
+
+00:12:27.505 --> 00:12:32.650 align:middle line:84%
+at the top left, and you end
+up with this great 4th of July
+
+00:12:32.650 --> 00:12:34.150 align:middle line:90%
+corn on the cob.
+
+00:12:34.150 --> 00:12:36.220 align:middle line:90%
+And it's a hybrid corn.
+
+00:12:36.220 --> 00:12:43.660 align:middle line:84%
+And similarly, these dogs
+range over three logarithms
+
+00:12:43.660 --> 00:12:49.660 align:middle line:84%
+in adult mass would barely be
+recognized as the same species
+
+00:12:49.660 --> 00:12:53.050 align:middle line:84%
+if we didn't know them
+and love them very well.
+
+00:12:53.050 --> 00:12:56.140 align:middle line:84%
+But these are examples
+of genetic engineering
+
+00:12:56.140 --> 00:12:59.050 align:middle line:90%
+that was done pre-genomics.
+
+00:12:59.050 --> 00:13:03.550 align:middle line:84%
+But now when we use
+recombinant DNA in particular,
+
+00:13:03.550 --> 00:13:09.010 align:middle line:84%
+but genetic any kind of
+interspecific genetic
+
+00:13:09.010 --> 00:13:15.350 align:middle line:84%
+modification, this definitely
+raises environmental issues,
+
+00:13:15.350 --> 00:13:16.840 align:middle line:90%
+especially in the developing--
+
+00:13:16.840 --> 00:13:23.860 align:middle line:84%
+I'm sorry, in the say European
+nations where they are wealthy,
+
+00:13:23.860 --> 00:13:25.660 align:middle line:84%
+and they don't need
+much improvement
+
+00:13:25.660 --> 00:13:28.186 align:middle line:90%
+in their agricultural needs.
+
+00:13:28.186 --> 00:13:32.080 align:middle line:90%
+
+
+00:13:32.080 --> 00:13:34.540 align:middle line:84%
+Some of the developing world
+has very definite needs
+
+00:13:34.540 --> 00:13:37.180 align:middle line:84%
+for genetics, or feel they
+do, for genetically modified
+
+00:13:37.180 --> 00:13:38.030 align:middle line:90%
+organisms.
+
+00:13:38.030 --> 00:13:41.980 align:middle line:84%
+Some of these include
+producing vaccines in plants.
+
+00:13:41.980 --> 00:13:44.380 align:middle line:84%
+Vaccines are one of the
+most cost effective ways
+
+00:13:44.380 --> 00:13:49.930 align:middle line:84%
+of generating public
+health results
+
+00:13:49.930 --> 00:13:54.970 align:middle line:84%
+but possibly even more effective
+would be to have your bananas
+
+00:13:54.970 --> 00:13:56.735 align:middle line:84%
+and other crops
+contain vaccines.
+
+00:13:56.735 --> 00:13:58.360 align:middle line:84%
+And these have actually
+been developed.
+
+00:13:58.360 --> 00:14:01.810 align:middle line:84%
+But it's been hard
+getting them actually
+
+00:14:01.810 --> 00:14:06.550 align:middle line:84%
+supplied due to concerns about
+release of genetically modified
+
+00:14:06.550 --> 00:14:07.390 align:middle line:90%
+organisms.
+
+00:14:07.390 --> 00:14:11.050 align:middle line:84%
+Possible allergic
+response and so forth.
+
+00:14:11.050 --> 00:14:15.330 align:middle line:84%
+Salt and drought tolerance
+is extremely important.
+
+00:14:15.330 --> 00:14:17.810 align:middle line:90%
+They often come together.
+
+00:14:17.810 --> 00:14:21.820 align:middle line:84%
+And there are a huge number
+of drought and salt tolerant
+
+00:14:21.820 --> 00:14:24.550 align:middle line:84%
+plants, so-called
+resurrection plants.
+
+00:14:24.550 --> 00:14:28.390 align:middle line:84%
+About 100 different,
+completely different species
+
+00:14:28.390 --> 00:14:30.670 align:middle line:84%
+which could provide
+new genes that
+
+00:14:30.670 --> 00:14:33.400 align:middle line:84%
+can be introduced into
+non-drought tolerant plants
+
+00:14:33.400 --> 00:14:36.550 align:middle line:84%
+and are being introduced
+by scientists in developing
+
+00:14:36.550 --> 00:14:40.660 align:middle line:90%
+worlds, such as Africa.
+
+00:14:40.660 --> 00:14:43.750 align:middle line:84%
+Terminators were
+originally, it's
+
+00:14:43.750 --> 00:14:46.720 align:middle line:84%
+like this popular,
+unpopular, popular again.
+
+00:14:46.720 --> 00:14:49.270 align:middle line:84%
+They were popular
+with the companies
+
+00:14:49.270 --> 00:14:54.340 align:middle line:84%
+that developed them for
+reasons that we may not know.
+
+00:14:54.340 --> 00:15:02.170 align:middle line:84%
+But there was the
+concern or the backlash
+
+00:15:02.170 --> 00:15:05.560 align:middle line:84%
+was the companies are
+doing this to preventing
+
+00:15:05.560 --> 00:15:07.090 align:middle line:90%
+the farmers from reseeding.
+
+00:15:07.090 --> 00:15:12.310 align:middle line:84%
+By the terminator meant that
+the next generation seeds
+
+00:15:12.310 --> 00:15:13.180 align:middle line:90%
+would be useless.
+
+00:15:13.180 --> 00:15:17.980 align:middle line:84%
+And it had been the habit
+of a farmer to reseed.
+
+00:15:17.980 --> 00:15:20.590 align:middle line:84%
+And so the terminators
+didn't sell for a while.
+
+00:15:20.590 --> 00:15:23.560 align:middle line:84%
+But then because of the
+worry about dispersal
+
+00:15:23.560 --> 00:15:25.550 align:middle line:84%
+of genetically
+modified organisms,
+
+00:15:25.550 --> 00:15:29.970 align:middle line:84%
+now terminators are becoming
+more interesting again
+
+00:15:29.970 --> 00:15:31.570 align:middle line:90%
+to a broad set of people.
+
+00:15:31.570 --> 00:15:35.020 align:middle line:84%
+You talk about organic
+farming, there is controversy
+
+00:15:35.020 --> 00:15:37.810 align:middle line:84%
+as to whether the
+tightest definition
+
+00:15:37.810 --> 00:15:40.840 align:middle line:84%
+of this, which involves
+no inorganic fertilizers
+
+00:15:40.840 --> 00:15:48.440 align:middle line:84%
+like nitrates and
+phosphates and so forth.
+
+00:15:48.440 --> 00:15:50.952 align:middle line:84%
+But that means a very
+high animal load.
+
+00:15:50.952 --> 00:15:52.660 align:middle line:84%
+High animal load means
+you need to use up
+
+00:15:52.660 --> 00:15:54.460 align:middle line:84%
+a lot of your vegetable
+crops in order
+
+00:15:54.460 --> 00:15:59.140 align:middle line:84%
+to produce the fertilizer
+for the other vegetables.
+
+00:15:59.140 --> 00:16:01.540 align:middle line:84%
+And as you pointed out
+that natural is not
+
+00:16:01.540 --> 00:16:04.360 align:middle line:90%
+necessarily harmless.
+
+00:16:04.360 --> 00:16:07.360 align:middle line:84%
+A wide variety of
+naturally occurring
+
+00:16:07.360 --> 00:16:10.930 align:middle line:84%
+compounds, natural pesticides,
+are also carcinogens.
+
+00:16:10.930 --> 00:16:13.885 align:middle line:84%
+And here's the laundry list
+at the bottom of slide 43.
+
+00:16:13.885 --> 00:16:19.870 align:middle line:90%
+
+
+00:16:19.870 --> 00:16:21.010 align:middle line:90%
+Cloning of stem cells.
+
+00:16:21.010 --> 00:16:23.650 align:middle line:90%
+
+
+00:16:23.650 --> 00:16:30.190 align:middle line:84%
+We have problems with
+cloning definitely.
+
+00:16:30.190 --> 00:16:32.950 align:middle line:84%
+In almost every species,
+even the successful ones,
+
+00:16:32.950 --> 00:16:35.050 align:middle line:84%
+there are a variety
+of species which have
+
+00:16:35.050 --> 00:16:36.580 align:middle line:90%
+been tried and not succeeded.
+
+00:16:36.580 --> 00:16:38.380 align:middle line:84%
+There's some that
+have been tried.
+
+00:16:38.380 --> 00:16:40.210 align:middle line:84%
+And if you look at
+the studies in detail
+
+00:16:40.210 --> 00:16:42.910 align:middle line:84%
+they're examples of
+developmental defects
+
+00:16:42.910 --> 00:16:47.920 align:middle line:84%
+higher than expected
+in that species ranging
+
+00:16:47.920 --> 00:16:50.835 align:middle line:90%
+from a few percent on up.
+
+00:16:50.835 --> 00:16:52.210 align:middle line:84%
+And, obviously,
+there's some kind
+
+00:16:52.210 --> 00:16:54.610 align:middle line:84%
+of epigenetic
+reprogramming that's
+
+00:16:54.610 --> 00:16:57.070 align:middle line:84%
+occurring here where
+you're not getting
+
+00:16:57.070 --> 00:17:00.310 align:middle line:84%
+all the right contributions
+from the maternal and paternal
+
+00:17:00.310 --> 00:17:01.390 align:middle line:90%
+genomes.
+
+00:17:01.390 --> 00:17:05.980 align:middle line:84%
+And this can be possibly studied
+with expression profiles.
+
+00:17:05.980 --> 00:17:10.900 align:middle line:84%
+We can start employing
+all of our automation
+
+00:17:10.900 --> 00:17:18.609 align:middle line:84%
+to analyze how we can increase
+the fraction of stem cells
+
+00:17:18.609 --> 00:17:28.700 align:middle line:84%
+that we could take adult
+cells and send them
+
+00:17:28.700 --> 00:17:36.680 align:middle line:84%
+into different
+lineages, or we can
+
+00:17:36.680 --> 00:17:40.430 align:middle line:84%
+formulate ways to either
+transform one adult stem
+
+00:17:40.430 --> 00:17:42.140 align:middle line:84%
+cell into another or
+an adult stem cell
+
+00:17:42.140 --> 00:17:46.190 align:middle line:84%
+into a slightly more
+primitive stem cell
+
+00:17:46.190 --> 00:17:50.810 align:middle line:84%
+and still retain the advantages
+of so-called therapeutic
+
+00:17:50.810 --> 00:17:58.370 align:middle line:84%
+cloning, which
+would be to maintain
+
+00:17:58.370 --> 00:18:00.635 align:middle line:84%
+good histocompatibility,
+say, with the patients.
+
+00:18:00.635 --> 00:18:03.240 align:middle line:90%
+
+
+00:18:03.240 --> 00:18:05.750 align:middle line:90%
+So finally, education.
+
+00:18:05.750 --> 00:18:07.820 align:middle line:84%
+Why should we bring up
+education in a course?
+
+00:18:07.820 --> 00:18:11.540 align:middle line:90%
+
+
+00:18:11.540 --> 00:18:13.700 align:middle line:84%
+We've talked about
+models of decision
+
+00:18:13.700 --> 00:18:15.260 align:middle line:90%
+making in public health.
+
+00:18:15.260 --> 00:18:19.220 align:middle line:90%
+
+
+00:18:19.220 --> 00:18:24.830 align:middle line:84%
+But there's also a
+similar set for education.
+
+00:18:24.830 --> 00:18:27.890 align:middle line:84%
+We want to be able to deal
+with uncertainty, complexity,
+
+00:18:27.890 --> 00:18:28.670 align:middle line:90%
+quantification.
+
+00:18:28.670 --> 00:18:32.510 align:middle line:84%
+I'm sure that I have introduced,
+or we, have introduced plenty
+
+00:18:32.510 --> 00:18:35.677 align:middle line:84%
+of uncertainty and complexity
+in quantitation in your lives
+
+00:18:35.677 --> 00:18:36.385 align:middle line:90%
+with this course.
+
+00:18:36.385 --> 00:18:38.540 align:middle line:84%
+I apologize for the
+parts that are painful.
+
+00:18:38.540 --> 00:18:45.200 align:middle line:84%
+I hope that no pain, no gain
+has some applicability here.
+
+00:18:45.200 --> 00:18:47.750 align:middle line:84%
+We want to-- a theme
+in this course has been
+
+00:18:47.750 --> 00:18:50.210 align:middle line:90%
+to cherish your exceptions.
+
+00:18:50.210 --> 00:18:54.130 align:middle line:84%
+Collect them, and these
+can be discoveries.
+
+00:18:54.130 --> 00:18:55.880 align:middle line:84%
+They are at least going
+to keep you honest
+
+00:18:55.880 --> 00:18:59.465 align:middle line:84%
+and keep you from
+making big mistakes.
+
+00:18:59.465 --> 00:19:03.710 align:middle line:90%
+
+
+00:19:03.710 --> 00:19:07.640 align:middle line:84%
+We want to be able to
+translate from one data type
+
+00:19:07.640 --> 00:19:10.430 align:middle line:84%
+to another, from one conceptual
+foundation to another,
+
+00:19:10.430 --> 00:19:14.570 align:middle line:84%
+to integrate different either
+adjacent conceptual spheres
+
+00:19:14.570 --> 00:19:15.680 align:middle line:90%
+or very distant ones.
+
+00:19:15.680 --> 00:19:18.300 align:middle line:90%
+
+
+00:19:18.300 --> 00:19:23.730 align:middle line:84%
+The way we do this,
+slide 47, we need
+
+00:19:23.730 --> 00:19:26.460 align:middle line:84%
+to have measures of
+our progress, measures
+
+00:19:26.460 --> 00:19:30.150 align:middle line:84%
+of the quality of the
+underlying data and the models.
+
+00:19:30.150 --> 00:19:34.290 align:middle line:84%
+And we've already done
+this to some extent,
+
+00:19:34.290 --> 00:19:37.620 align:middle line:84%
+basically, for three dimensional
+structures and sequence
+
+00:19:37.620 --> 00:19:43.350 align:middle line:84%
+data, the primary and
+tertiary information.
+
+00:19:43.350 --> 00:19:46.668 align:middle line:84%
+For X-ray diffraction-- this
+dates back into the '60s--
+
+00:19:46.668 --> 00:19:48.210 align:middle line:84%
+we have measures of
+data quality that
+
+00:19:48.210 --> 00:19:51.670 align:middle line:84%
+include resolution, model
+quality, which is the R
+
+00:19:51.670 --> 00:19:53.310 align:middle line:90%
+factor we talked about before.
+
+00:19:53.310 --> 00:19:55.770 align:middle line:84%
+We have ways of doing
+similarity searches.
+
+00:19:55.770 --> 00:19:59.310 align:middle line:84%
+For sequencing, a
+more recent enterprise
+
+00:19:59.310 --> 00:20:02.250 align:middle line:84%
+in the '80s, late
+'80s, early '90s,
+
+00:20:02.250 --> 00:20:04.590 align:middle line:84%
+we got the Genome
+Project launched
+
+00:20:04.590 --> 00:20:08.070 align:middle line:84%
+with thoughts of measuring
+data quality in terms
+
+00:20:08.070 --> 00:20:09.840 align:middle line:90%
+of discrepancy per base pair.
+
+00:20:09.840 --> 00:20:15.120 align:middle line:84%
+That should be less than 1
+part in 10 to the fourth.
+
+00:20:15.120 --> 00:20:18.840 align:middle line:84%
+The models, typically, are
+models of protein conservation.
+
+00:20:18.840 --> 00:20:22.080 align:middle line:84%
+And a similarity search is
+one of the greatest killer
+
+00:20:22.080 --> 00:20:26.580 align:middle line:84%
+applications of all times,
+which is [? last. ?]
+
+00:20:26.580 --> 00:20:31.890 align:middle line:84%
+And then for function
+we're less far along.
+
+00:20:31.890 --> 00:20:35.410 align:middle line:84%
+We don't really have
+accession numbers, as I said.
+
+00:20:35.410 --> 00:20:43.320 align:middle line:84%
+We don't really have great ways
+of doing similarity searches
+
+00:20:43.320 --> 00:20:49.020 align:middle line:84%
+through say image databases or
+similarity searches other than
+
+00:20:49.020 --> 00:20:51.168 align:middle line:90%
+say correlation coefficients.
+
+00:20:51.168 --> 00:20:52.710 align:middle line:84%
+But I think this is
+rapidly changing.
+
+00:20:52.710 --> 00:20:55.440 align:middle line:90%
+
+
+00:20:55.440 --> 00:20:58.980 align:middle line:84%
+When we start
+applying these models,
+
+00:20:58.980 --> 00:21:04.140 align:middle line:84%
+this is not only in
+the education sense,
+
+00:21:04.140 --> 00:21:06.300 align:middle line:84%
+but in the probing
+these networks
+
+00:21:06.300 --> 00:21:08.100 align:middle line:84%
+that we've been talking
+about, even further
+
+00:21:08.100 --> 00:21:12.870 align:middle line:84%
+beyond consideration
+of neural networks
+
+00:21:12.870 --> 00:21:16.470 align:middle line:84%
+and our interaction
+with other organisms,
+
+00:21:16.470 --> 00:21:19.560 align:middle line:84%
+kind of combining those
+two, the neural networks
+
+00:21:19.560 --> 00:21:22.200 align:middle line:84%
+and our interaction with
+other organisms, ecology,
+
+00:21:22.200 --> 00:21:24.120 align:middle line:90%
+is this notion of biophilia.
+
+00:21:24.120 --> 00:21:28.140 align:middle line:84%
+Which is that we, as human
+beings and other fairly
+
+00:21:28.140 --> 00:21:32.910 align:middle line:84%
+intelligent animals, are
+connected subconsciously
+
+00:21:32.910 --> 00:21:35.080 align:middle line:90%
+to other living beings.
+
+00:21:35.080 --> 00:21:37.740 align:middle line:84%
+It is clear that no matter
+how urban or what culture
+
+00:21:37.740 --> 00:21:39.180 align:middle line:84%
+you're talking
+about, snake dreams
+
+00:21:39.180 --> 00:21:40.860 align:middle line:90%
+figure in very prominently.
+
+00:21:40.860 --> 00:21:44.340 align:middle line:84%
+And this has to do with
+the need of primates
+
+00:21:44.340 --> 00:21:46.830 align:middle line:84%
+to avoid and track snakes
+from their vicinity
+
+00:21:46.830 --> 00:21:49.800 align:middle line:90%
+and the vicinity of the tribe.
+
+00:21:49.800 --> 00:21:52.110 align:middle line:90%
+Little animals are cute.
+
+00:21:52.110 --> 00:21:54.793 align:middle line:90%
+We just know that.
+
+00:21:54.793 --> 00:21:56.460 align:middle line:84%
+And they are much
+cuter than the adults,
+
+00:21:56.460 --> 00:21:58.835 align:middle line:84%
+no matter what the animal is,
+with the possible exception
+
+00:21:58.835 --> 00:21:59.400 align:middle line:90%
+of snakes.
+
+00:21:59.400 --> 00:22:01.690 align:middle line:90%
+[LAUGHTER]
+
+00:22:01.690 --> 00:22:07.950 align:middle line:84%
+And there are
+anecdotal, at least,
+
+00:22:07.950 --> 00:22:12.330 align:middle line:84%
+possibly well-characterized
+effects of the green fractals
+
+00:22:12.330 --> 00:22:15.930 align:middle line:84%
+that we like to see
+in trees and plants.
+
+00:22:15.930 --> 00:22:18.450 align:middle line:84%
+And taking this one step
+further from just this kind
+
+00:22:18.450 --> 00:22:22.380 align:middle line:84%
+of very stimulating thought that
+we actually have co-evolved,
+
+00:22:22.380 --> 00:22:24.450 align:middle line:84%
+our nervous system
+has co-evolved for so
+
+00:22:24.450 --> 00:22:25.680 align:middle line:90%
+long with these other things.
+
+00:22:25.680 --> 00:22:28.920 align:middle line:84%
+It would be natural for us
+to be very attuned to them
+
+00:22:28.920 --> 00:22:32.130 align:middle line:84%
+because our survival would
+have depended upon our ability
+
+00:22:32.130 --> 00:22:38.490 align:middle line:84%
+to avoid snakes and to deal
+with green versus brown shrubs.
+
+00:22:38.490 --> 00:22:43.320 align:middle line:84%
+And if you take that
+one step further,
+
+00:22:43.320 --> 00:22:48.660 align:middle line:84%
+much of what we do
+in the humanities say
+
+00:22:48.660 --> 00:22:52.770 align:middle line:84%
+is affected our aesthetics
+and our approaches to it,
+
+00:22:52.770 --> 00:22:56.620 align:middle line:84%
+our beliefs are affected
+by this heritage.
+
+00:22:56.620 --> 00:22:58.920 align:middle line:84%
+And this is what E.O
+Wilson has championed.
+
+00:22:58.920 --> 00:23:03.580 align:middle line:84%
+And I would say it's quite
+controversial as it should be.
+
+00:23:03.580 --> 00:23:06.090 align:middle line:84%
+But in general, long separated
+fields come together--
+
+00:23:06.090 --> 00:23:08.190 align:middle line:84%
+it's this consilience
+definition--
+
+00:23:08.190 --> 00:23:09.480 align:middle line:90%
+and they create new insights.
+
+00:23:09.480 --> 00:23:13.650 align:middle line:84%
+Like chemistry and genetics
+brings us molecular biology.
+
+00:23:13.650 --> 00:23:15.960 align:middle line:84%
+And the question is, is
+all of human endeavor
+
+00:23:15.960 --> 00:23:18.590 align:middle line:84%
+ready for such a thing,
+from religious feelings
+
+00:23:18.590 --> 00:23:20.890 align:middle line:90%
+to financial markets and so on?
+
+00:23:20.890 --> 00:23:23.700 align:middle line:84%
+And whether or not,
+how might genomics
+
+00:23:23.700 --> 00:23:25.710 align:middle line:84%
+and computational
+biology contribute?
+
+00:23:25.710 --> 00:23:30.690 align:middle line:84%
+It's surprising sometimes when
+these things do contribute.
+
+00:23:30.690 --> 00:23:32.790 align:middle line:84%
+And here's some
+speculation on that.
+
+00:23:32.790 --> 00:23:36.810 align:middle line:84%
+We have improving
+imaging methods.
+
+00:23:36.810 --> 00:23:39.990 align:middle line:84%
+We talked about imaging in
+the context of in situs.
+
+00:23:39.990 --> 00:23:42.840 align:middle line:84%
+Some very functional
+versions of this
+
+00:23:42.840 --> 00:23:46.750 align:middle line:84%
+are positron emission tomography
+and magnetic resonance imaging,
+
+00:23:46.750 --> 00:23:49.950 align:middle line:84%
+which allow you to monitor
+such things as blood
+
+00:23:49.950 --> 00:24:00.060 align:middle line:84%
+flow or metabolic uptake in
+different parts of an actively
+
+00:24:00.060 --> 00:24:01.990 align:middle line:90%
+metabolizing brain.
+
+00:24:01.990 --> 00:24:08.142 align:middle line:84%
+And here you can inject
+some O-15 labeled compound.
+
+00:24:08.142 --> 00:24:09.600 align:middle line:84%
+And you can get an
+image resolution
+
+00:24:09.600 --> 00:24:11.310 align:middle line:84%
+on the order of
+nine millimeters.
+
+00:24:11.310 --> 00:24:16.350 align:middle line:84%
+OK so the voxels
+here, volume elements,
+
+00:24:16.350 --> 00:24:20.250 align:middle line:90%
+are limited in that range.
+
+00:24:20.250 --> 00:24:23.940 align:middle line:84%
+And sort of in the 20 seconds
+is sort of the time frame
+
+00:24:23.940 --> 00:24:25.740 align:middle line:90%
+that you're working in.
+
+00:24:25.740 --> 00:24:28.200 align:middle line:84%
+And this has been applied
+to a whole variety
+
+00:24:28.200 --> 00:24:32.250 align:middle line:90%
+of interesting behavioral tasks.
+
+00:24:32.250 --> 00:24:36.120 align:middle line:84%
+Almost anything you can
+think of counting memory,
+
+00:24:36.120 --> 00:24:37.740 align:middle line:90%
+so forth in humans.
+
+00:24:37.740 --> 00:24:41.430 align:middle line:84%
+And you can map the parts of the
+brain that are differentially
+
+00:24:41.430 --> 00:24:45.390 align:middle line:84%
+responsive to a control and
+an experimental time frame
+
+00:24:45.390 --> 00:24:48.180 align:middle line:84%
+for the same patient
+in the same apparatus.
+
+00:24:48.180 --> 00:24:49.770 align:middle line:84%
+And here, this is
+just to show you
+
+00:24:49.770 --> 00:24:51.937 align:middle line:84%
+how far I can go and connect
+to what we were talking
+
+00:24:51.937 --> 00:24:54.480 align:middle line:84%
+about in the
+previous slide, here
+
+00:24:54.480 --> 00:25:02.130 align:middle line:84%
+religious subjects, patients,
+have been the differential
+
+00:25:02.130 --> 00:25:05.010 align:middle line:84%
+parts of the brain
+monitored here
+
+00:25:05.010 --> 00:25:07.860 align:middle line:84%
+are in a religious
+recitation process
+
+00:25:07.860 --> 00:25:11.100 align:middle line:90%
+and in arresting control.
+
+00:25:11.100 --> 00:25:14.140 align:middle line:84%
+And these are all
+the P less than P
+
+00:25:14.140 --> 00:25:22.380 align:middle line:84%
+to the 0.001 significance by
+the very complicated statistics
+
+00:25:22.380 --> 00:25:30.270 align:middle line:84%
+that are used in the analysis
+of these functional maps.
+
+00:25:30.270 --> 00:25:34.260 align:middle line:84%
+Now not to leave us on
+that note but to connect it
+
+00:25:34.260 --> 00:25:38.070 align:middle line:84%
+more to genomics and
+computational biology
+
+00:25:38.070 --> 00:25:41.830 align:middle line:84%
+is more in the heart
+of this course.
+
+00:25:41.830 --> 00:25:46.650 align:middle line:84%
+Here's an example how magnetic
+resonance imaging, which
+
+00:25:46.650 --> 00:25:49.110 align:middle line:84%
+can be applied to
+gene expression, how
+
+00:25:49.110 --> 00:25:51.210 align:middle line:84%
+we bring these two
+together, kind of imaging
+
+00:25:51.210 --> 00:25:52.510 align:middle line:90%
+gene expression.
+
+00:25:52.510 --> 00:25:57.260 align:middle line:84%
+And one of the powers of this in
+contrast the positron emission
+
+00:25:57.260 --> 00:26:00.380 align:middle line:84%
+tomography had about a
+9 millimeter resolution.
+
+00:26:00.380 --> 00:26:02.420 align:middle line:84%
+This has a 10 micron
+resolution, sort
+
+00:26:02.420 --> 00:26:04.820 align:middle line:84%
+of in the optical
+resolution range.
+
+00:26:04.820 --> 00:26:07.970 align:middle line:84%
+But unlike optical
+methods, this will work
+
+00:26:07.970 --> 00:26:11.420 align:middle line:90%
+for impact opaque organisms.
+
+00:26:11.420 --> 00:26:15.380 align:middle line:84%
+And, finally, so MRI
+will do that in general.
+
+00:26:15.380 --> 00:26:17.120 align:middle line:84%
+But to connect it
+to gene expression,
+
+00:26:17.120 --> 00:26:19.970 align:middle line:84%
+you need to tag the gene
+expression such way,
+
+00:26:19.970 --> 00:26:22.280 align:middle line:84%
+and we have green
+fluorescent protein,
+
+00:26:22.280 --> 00:26:25.610 align:middle line:84%
+we have other colors
+fluorescent protein.
+
+00:26:25.610 --> 00:26:28.503 align:middle line:84%
+We have luciferase, data
+glycosides, and so forth.
+
+00:26:28.503 --> 00:26:30.170 align:middle line:84%
+One of those has to
+be turn on something
+
+00:26:30.170 --> 00:26:33.710 align:middle line:84%
+that has sufficient contrast
+and magnetic resonance imaging.
+
+00:26:33.710 --> 00:26:39.980 align:middle line:84%
+And an example of that is a way
+of caging a gadolinium ion such
+
+00:26:39.980 --> 00:26:42.920 align:middle line:84%
+that you can see this
+little galactic tyrannous
+
+00:26:42.920 --> 00:26:46.310 align:middle line:84%
+ring at the top
+right is covering it.
+
+00:26:46.310 --> 00:26:49.760 align:middle line:84%
+And the little red bond there is
+cleaved by beta galactosidase,
+
+00:26:49.760 --> 00:26:51.200 align:middle line:90%
+lacZ fusions.
+
+00:26:51.200 --> 00:26:53.495 align:middle line:84%
+And so you can now make your
+same reporter constructs
+
+00:26:53.495 --> 00:26:55.370 align:middle line:84%
+that have been used
+for making, say,
+
+00:26:55.370 --> 00:26:58.430 align:middle line:84%
+blue cells with a
+core metric indicator
+
+00:26:58.430 --> 00:27:00.260 align:middle line:90%
+with optical wavelengths.
+
+00:27:00.260 --> 00:27:02.150 align:middle line:84%
+Well, now with
+magnetic resonance,
+
+00:27:02.150 --> 00:27:04.145 align:middle line:84%
+imaging released
+that gadolinium.
+
+00:27:04.145 --> 00:27:06.650 align:middle line:84%
+So it's now accessible
+to the solvent,
+
+00:27:06.650 --> 00:27:08.450 align:middle line:84%
+has a different
+resonance, and you
+
+00:27:08.450 --> 00:27:10.190 align:middle line:90%
+can get sharp contrast here.
+
+00:27:10.190 --> 00:27:13.310 align:middle line:84%
+In a living organism on the
+top, with 10 micron resolution,
+
+00:27:13.310 --> 00:27:15.230 align:middle line:84%
+as opposed to a
+fixed organism, which
+
+00:27:15.230 --> 00:27:20.150 align:middle line:84%
+is required for getting the
+whole-mount in situ staining
+
+00:27:20.150 --> 00:27:21.650 align:middle line:90%
+with lacZ.
+
+00:27:21.650 --> 00:27:25.610 align:middle line:84%
+So I think, this is a very
+interesting combination
+
+00:27:25.610 --> 00:27:30.020 align:middle line:84%
+of being able to use something
+alive in opaque tissue
+
+00:27:30.020 --> 00:27:34.280 align:middle line:90%
+with a genomic tag of sorts.
+
+00:27:34.280 --> 00:27:38.160 align:middle line:90%
+
+
+00:27:38.160 --> 00:27:43.630 align:middle line:84%
+Well, on that religious
+note, we will sort of
+
+00:27:43.630 --> 00:27:49.200 align:middle line:84%
+wrap up the course, my part
+of it, the lecture part.
+
+00:27:49.200 --> 00:27:52.170 align:middle line:84%
+And in so doing, I
+want to especially give
+
+00:27:52.170 --> 00:27:55.860 align:middle line:84%
+many, many thanks not just
+to this year's TFs, which
+
+00:27:55.860 --> 00:27:58.890 align:middle line:84%
+we will get to in just a
+moment, but the ones that helped
+
+00:27:58.890 --> 00:28:00.540 align:middle line:90%
+start this phase of the course.
+
+00:28:00.540 --> 00:28:02.880 align:middle line:84%
+Actually, the course
+goes back to '88.
+
+00:28:02.880 --> 00:28:06.120 align:middle line:84%
+But these are some
+of the Teaching
+
+00:28:06.120 --> 00:28:11.970 align:middle line:90%
+Fellows in 1999 and 2000, 2001.
+
+00:28:11.970 --> 00:28:16.050 align:middle line:84%
+One of these Teaching Fellows,
+[? Suzanne ?] [? Camille, ?]
+
+00:28:16.050 --> 00:28:19.745 align:middle line:84%
+has stayed with us as a head
+Teaching Fellow this year.
+
+00:28:19.745 --> 00:28:21.750 align:middle line:90%
+She was up to the top of--
+
+00:28:21.750 --> 00:28:25.260 align:middle line:84%
+and I'm very thankful to
+every one here, Woody,
+
+00:28:25.260 --> 00:28:30.300 align:middle line:84%
+[? June, ?] [? Len, ?] Tom,
+[? John, ?] [? Juang ?]
+
+00:28:30.300 --> 00:28:33.570 align:middle line:84%
+[? Hong, ?] Gary, and
+[? Lachmans. ?] If any of you
+
+00:28:33.570 --> 00:28:37.080 align:middle line:84%
+are here, could you kind of
+stand up, wave, just wave.
+
+00:28:37.080 --> 00:28:38.430 align:middle line:90%
+Thank you very much.
+
+00:28:38.430 --> 00:28:40.890 align:middle line:90%
+Really, I love it.
+
+00:28:40.890 --> 00:28:48.840 align:middle line:84%
+And if this course is
+to continue to survive,
+
+00:28:48.840 --> 00:28:52.390 align:middle line:90%
+we need TFs for next year.
+
+00:28:52.390 --> 00:28:55.710 align:middle line:84%
+So if any of you feel that
+you have the right stuff
+
+00:28:55.710 --> 00:29:00.330 align:middle line:84%
+and feel that this course should
+survive, please contact us.
+
+00:29:00.330 --> 00:29:04.260 align:middle line:90%
+
+
+00:29:04.260 --> 00:29:09.780 align:middle line:84%
+Hopefully, it'll be some
+finite positive number.
+
+00:29:09.780 --> 00:29:12.420 align:middle line:84%
+We really love the
+projects, and we'd love--
+
+00:29:12.420 --> 00:29:15.090 align:middle line:84%
+and in the past,
+many students have
+
+00:29:15.090 --> 00:29:18.360 align:middle line:84%
+been reluctant to stop
+working on the project
+
+00:29:18.360 --> 00:29:21.190 align:middle line:84%
+after the course is over and
+their grade has been assigned
+
+00:29:21.190 --> 00:29:23.370 align:middle line:90%
+and so forth.
+
+00:29:23.370 --> 00:29:27.360 align:middle line:84%
+And that nothing could make me
+happier than to have do that.
+
+00:29:27.360 --> 00:29:30.880 align:middle line:84%
+There's a limit to just how
+much I can help you do that.
+
+00:29:30.880 --> 00:29:33.420 align:middle line:84%
+But if anything
+I can do to help,
+
+00:29:33.420 --> 00:29:35.880 align:middle line:84%
+providing additional
+mentoring and so forth,
+
+00:29:35.880 --> 00:29:37.680 align:middle line:90%
+I'd love to do that.
+
+00:29:37.680 --> 00:29:42.940 align:middle line:84%
+Some of these have even resulted
+in publications later on.
+
+00:29:42.940 --> 00:29:47.790 align:middle line:84%
+We started this course, slide
+four of the first lecture,
+
+00:29:47.790 --> 00:29:50.190 align:middle line:84%
+actually the first real
+slide or the first lecture,
+
+00:29:50.190 --> 00:29:52.575 align:middle line:84%
+was on the origins
+of zeros and ones.
+
+00:29:52.575 --> 00:29:55.110 align:middle line:90%
+
+
+00:29:55.110 --> 00:29:59.790 align:middle line:84%
+Kind of a play on the
+101 course number,
+
+00:29:59.790 --> 00:30:02.070 align:middle line:84%
+where did the binary
+code come from?
+
+00:30:02.070 --> 00:30:05.190 align:middle line:84%
+And you could
+ascribe it to Leibniz
+
+00:30:05.190 --> 00:30:13.170 align:middle line:84%
+or one of the modern 18th
+century mathematicians.
+
+00:30:13.170 --> 00:30:18.600 align:middle line:84%
+But Leibniz himself
+found that it had already
+
+00:30:18.600 --> 00:30:24.870 align:middle line:84%
+been invented about
+5,000 years ago or so
+
+00:30:24.870 --> 00:30:27.150 align:middle line:90%
+by China's first emperor.
+
+00:30:27.150 --> 00:30:31.380 align:middle line:84%
+And since then, some
+people have gone so far as
+
+00:30:31.380 --> 00:30:39.300 align:middle line:84%
+to take this binary coding, the
+etching, which has 64 hexagons
+
+00:30:39.300 --> 00:30:41.370 align:middle line:84%
+and has arranged
+it in such a way
+
+00:30:41.370 --> 00:30:44.670 align:middle line:84%
+that it has decoded
+it so that it actually
+
+00:30:44.670 --> 00:30:48.880 align:middle line:84%
+fits in with the geniculate
+code which has 64 codons.
+
+00:30:48.880 --> 00:30:51.750 align:middle line:84%
+So for those of you who are
+students of the etching,
+
+00:30:51.750 --> 00:30:56.200 align:middle line:84%
+hopefully, it now has
+new meaning for you.
+
+00:30:56.200 --> 00:31:01.440 align:middle line:84%
+And to emphasize this
+yin and yang symbol here,
+
+00:31:01.440 --> 00:31:03.960 align:middle line:84%
+remember that the
+purpose of having
+
+00:31:03.960 --> 00:31:08.040 align:middle line:84%
+the black dot in the white zone
+and the reciprocal white dot
+
+00:31:08.040 --> 00:31:10.980 align:middle line:84%
+in the black zone is to remind
+you that things are not just
+
+00:31:10.980 --> 00:31:11.860 align:middle line:90%
+black and white.
+
+00:31:11.860 --> 00:31:14.400 align:middle line:90%
+They're not just zeros and ones.
+
+00:31:14.400 --> 00:31:20.160 align:middle line:84%
+They have more complexity, and
+they are constantly in change.
+
+00:31:20.160 --> 00:31:24.450 align:middle line:84%
+This is the book of changes,
+and this course is about change.
+
+00:31:24.450 --> 00:31:27.540 align:middle line:84%
+And you should-- you do
+computational biology.
+
+00:31:27.540 --> 00:31:30.467 align:middle line:90%
+
+
+00:31:30.467 --> 00:31:31.800 align:middle line:90%
+It's not just about computation.
+
+00:31:31.800 --> 00:31:34.410 align:middle line:84%
+It's not by keeping yourself
+busy at the computer,
+
+00:31:34.410 --> 00:31:36.120 align:middle line:84%
+keeping your computers
+busy all the time.
+
+00:31:36.120 --> 00:31:40.630 align:middle line:84%
+It's about thinking, thinking
+as broadly as you can.
+
+00:31:40.630 --> 00:31:42.600 align:middle line:90%
+So thank you very much.
+
+00:31:42.600 --> 00:31:45.950 align:middle line:90%
+[APPLAUSE]
+
+00:31:45.950 --> 00:31:47.000 align:middle line:90%

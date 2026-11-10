@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This collection of exams given in past years is affectionately known as the 7.03 Bible. Using these along with the assignments will give the student a great deal of help in this class.</p>\n",
+  "content_type": "resource",
+  "description": "This collection of exams given in past years is affectionately known as the 7.03 Bible. Using these along with the assignments will give the student a great deal of help in this class.",
+  "draft": false,
+  "file": "/courses/7-03-genetics-fall-2004/6c214e2927d4fecf4fc7b8ef9d764a7b_exams_1998.pdf",
+  "file_size": 894531,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Study Materials",
+  "parent_type": "CourseSection",
+  "parent_uid": "d36bbc09-9d2a-744e-a855-91169f13cc83",
+  "resourcetype": "Document",
+  "title": "exams_1998.pdf",
+  "uid": "6c214e29-27d4-fecf-4fc7-b8ef9d764a7b",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "7-03-genetics-fall-2004"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "7-03-genetics-fall-2004"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

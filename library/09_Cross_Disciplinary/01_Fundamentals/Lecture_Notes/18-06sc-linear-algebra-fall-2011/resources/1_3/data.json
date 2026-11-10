@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/0a3e8893e3f22202f4e33d2946af22a2_1_3.jpg",
+  "file_size": 5421,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from ‘Introduction to Linear Algebra’ by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Multiplication and Inverse Matrices",
+  "parent_type": "CourseSection",
+  "parent_uid": "c6606cdd-9775-d774-f694-cdc5e6c30381",
+  "resourcetype": "Image",
+  "title": "1_3.jpg",
+  "uid": "0a3e8893-e3f2-2202-f4e3-3d2946af22a2",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

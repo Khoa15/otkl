@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MIT6_241JS11_chap01.pdf</title>
+      <link>/resources/mit6_241js11_chap01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap01/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to linear algebra review.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap02.pdf</title>
+      <link>/resources/mit6_241js11_chap02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap02/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to least squares estimation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap03.pdf</title>
+      <link>/resources/mit6_241js11_chap03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap03/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to least squares solution of y = &amp;lt; A, x &amp;gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap04.pdf</title>
+      <link>/resources/mit6_241js11_chap04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap04/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to matrix norms and singular value decomposition.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap05.pdf</title>
+      <link>/resources/mit6_241js11_chap05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap05/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to matrix perturbations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap06.pdf</title>
+      <link>/resources/mit6_241js11_chap06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap06/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to dynamic models.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap07.pdf</title>
+      <link>/resources/mit6_241js11_chap07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap07/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to state-space models.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap08.pdf</title>
+      <link>/resources/mit6_241js11_chap08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap08/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to simulation/realization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap10.pdf</title>
+      <link>/resources/mit6_241js11_chap10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap10/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to discrete-time linear state-space models.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap11.pdf</title>
+      <link>/resources/mit6_241js11_chap11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap11/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to continuous-time linear state-space models.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap12.pdf</title>
+      <link>/resources/mit6_241js11_chap12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap12/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to modal decomposition of state-space models.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap13.pdf</title>
+      <link>/resources/mit6_241js11_chap13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap13/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to internal (lyapunov) stability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap14.pdf</title>
+      <link>/resources/mit6_241js11_chap14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap14/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to internal stability for LTI systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap15.pdf</title>
+      <link>/resources/mit6_241js11_chap15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap15/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to external input-output stability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap17.pdf</title>
+      <link>/resources/mit6_241js11_chap17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap17/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to interconnected systems and feedback: well-posedness, stability, and performance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap18.pdf</title>
+      <link>/resources/mit6_241js11_chap18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap18/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to performance of feedback systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap19.pdf</title>
+      <link>/resources/mit6_241js11_chap19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap19/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to robust stability in SISO systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap20.pdf</title>
+      <link>/resources/mit6_241js11_chap20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap20/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to stability robustness.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap21.pdf</title>
+      <link>/resources/mit6_241js11_chap21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap21/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to robust performance and introduction to the structured singular value function.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap22.pdf</title>
+      <link>/resources/mit6_241js11_chap22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap22/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to reachability of DT LTI systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap24.pdf</title>
+      <link>/resources/mit6_241js11_chap24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap24/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to observability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap25.pdf</title>
+      <link>/resources/mit6_241js11_chap25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap25/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to minimal state-space realization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap26.pdf</title>
+      <link>/resources/mit6_241js11_chap26/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap26/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to balanced realization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap27.pdf</title>
+      <link>/resources/mit6_241js11_chap27/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap27/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to poles and zeros of MIMO systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap28.pdf</title>
+      <link>/resources/mit6_241js11_chap28/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap28/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to stabilization: state feedback.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap29.pdf</title>
+      <link>/resources/mit6_241js11_chap29/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap29/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to observers, model-based controllers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT6_241JS11_chap30.pdf</title>
+      <link>/resources/mit6_241js11_chap30/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_241js11_chap30/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to minimality and stability of interconnected systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;h3 id=&#34;course-notes&#34;&gt;Course Notes&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Course notes are courtesy of Mohammed Dahleh, Munther A. Dahleh, and George Verghese, and are used with permission. Chapters 9, 16 and 23 are not available on MIT OpenCourseWare.&lt;/p&gt;&#xA;&lt;p&gt;The full set of course notes, &lt;a href=&#34;../../resources/mit6_24js11_coursetextbook_pdf/index.html&#34;&gt;&lt;em&gt;Lectures on Dynamic Systems and Control,&lt;/em&gt;&lt;/a&gt; are available as one file. Individual chapters can be downloaded below.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;&#xA;&#xA;CHAPTER #&#xA;&lt;/th&gt;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&lt;th&gt;&#xA;&#xA;FILES&#xA;&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Linear algebra review&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap01/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Least squares estimation&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap02/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Least squares solution of y = &amp;lt; A, x &amp;gt;&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap03/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;4&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Matrix norms and singular value decomposition&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap04/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;5&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Matrix perturbations&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap05/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;6&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Dynamic models&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap06/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;7&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;State-space models&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap07/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;8&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Simulation/realization&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap08/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;9&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;[topic not available]&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;10&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Discrete-time linear state-space models&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap10/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;11&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Continuous-time linear state-space models&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap11/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;12&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Modal decomposition of state-space models&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap12/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;13&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Internal (Lyapunov) stability&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap13/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;14&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Internal stability for LTI systems&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap14/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;15&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;External input-output stability&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap15/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;16&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;System norms&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;17&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Interconnected systems and feedback: well-posedness, stability, and performance&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap17/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;18&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Performance of feedback systems&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap18/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;19&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Robust stability in SISO systems&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap19/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;20&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Stability robustness&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap20/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;21&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Robust performance and introduction to the structured singular value function&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap21/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;22&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Reachability of DT LTI systems&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap22/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;23&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;CT reachability, canonical forms&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA; &#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;24&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Observability&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap24/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;25&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Minimal state-space realization&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap25/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;26&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Balanced realization&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap26/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;27&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Poles and zeros of MIMO systems&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap27/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;28&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Stabilization: state feedback&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap28/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;29&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Observers, model-based controllers&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap29/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;30&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Minimality and stability of interconnected systems&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_241js11_chap30/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

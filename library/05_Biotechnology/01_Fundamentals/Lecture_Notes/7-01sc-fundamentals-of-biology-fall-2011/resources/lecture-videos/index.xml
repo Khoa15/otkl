@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Videos on MIT OpenCourseWare</title>
+    <link>/resources/lecture-videos/</link>
+    <description>Recent content in Lecture Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agarose Gel Electrophoresis, DNA Sequencing, PCR, Excerpt 1</title>
+      <link>/resources/agarose-gel-electrophoresis-dna-sequencing-pcr-excerpt-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/agarose-gel-electrophoresis-dna-sequencing-pcr-excerpt-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Agarose Gel Electrophoresis, DNA Sequencing, PCR, Excerpt 2</title>
+      <link>/resources/agarose-gel-electrophoresis-dna-sequencing-pcr-excerpt-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/agarose-gel-electrophoresis-dna-sequencing-pcr-excerpt-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alternative Approaches to Molecular Biology</title>
+      <link>/resources/alternative-approaches-to-molecular-biology/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/alternative-approaches-to-molecular-biology/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Basic Mechanisms of Cloning, Excerpt 1</title>
+      <link>/resources/basic-mechanisms-of-cloning-excerpt-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/basic-mechanisms-of-cloning-excerpt-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Basic Mechanisms of Cloning, Excerpt 2</title>
+      <link>/resources/basic-mechanisms-of-cloning-excerpt-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/basic-mechanisms-of-cloning-excerpt-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Basic Mechanisms of Cloning, Excerpt 3</title>
+      <link>/resources/basic-mechanisms-of-cloning-excerpt-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/basic-mechanisms-of-cloning-excerpt-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Biochemical Reactions, Enzymes, and ATP</title>
+      <link>/resources/biochemical-reactions-enzymes-and-atp/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/biochemical-reactions-enzymes-and-atp/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>cDNA Libraries and Expression Libraries</title>
+      <link>/resources/cdna-libraries-and-expression-libraries/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/cdna-libraries-and-expression-libraries/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Constructing and Screening a Recombinant DNA Library</title>
+      <link>/resources/constructing-and-screening-a-recombinant-dna-library/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/constructing-and-screening-a-recombinant-dna-library/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Covalent Bonds</title>
+      <link>/resources/covalent-bonds/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/covalent-bonds/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Covalent Bonds, Hydrogen Bonds</title>
+      <link>/resources/covalent-bonds-hydrogen-bonds/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/covalent-bonds-hydrogen-bonds/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DNA Replication</title>
+      <link>/resources/dna-replication/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/dna-replication/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DNA Structure and Classic experiments, Excerpt 1</title>
+      <link>/resources/dna-structure-and-classic-experiments-excerpt-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/dna-structure-and-classic-experiments-excerpt-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DNA Structure and Classic experiments, Excerpt 2</title>
+      <link>/resources/dna-structure-and-classic-experiments-excerpt-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/dna-structure-and-classic-experiments-excerpt-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gene Regulation</title>
+      <link>/resources/gene-regulation-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/gene-regulation-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Genetics 3</title>
+      <link>/resources/genetics-3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/genetics-3/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Glycolysis, Respiration, and Fermentation</title>
+      <link>/resources/glycolysis-respiration-and-fermentation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/glycolysis-respiration-and-fermentation/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Human Genetics</title>
+      <link>/resources/copy_of_human-genetics/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/copy_of_human-genetics/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linkage and Recombination, Genetic maps</title>
+      <link>/resources/linkage-and-recombination-genetic-maps/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/linkage-and-recombination-genetic-maps/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Macromolecules: Lipids, Carbohydrates, Nucleic Acid, Excerpt 1</title>
+      <link>/resources/macromolecules-lipids-carbohydrates-nucleic-acid-excerpt-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/macromolecules-lipids-carbohydrates-nucleic-acid-excerpt-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Macromolecules: Lipids, Carbohydrates, Nucleic Acid, Excerpt 2</title>
+      <link>/resources/macromolecules-lipids-carbohydrates-nucleic-acid-excerpt-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/macromolecules-lipids-carbohydrates-nucleic-acid-excerpt-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mendel&#39;s Laws, Excerpt 1</title>
+      <link>/resources/mendels-laws-excerpt-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mendels-laws-excerpt-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mendel&#39;s Laws, Excerpt 2</title>
+      <link>/resources/mendels-laws-excerpt-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mendels-laws-excerpt-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Overview of Recombinant DNA, Excerpt 1</title>
+      <link>/resources/overview-of-recombinant-dna-excerpt-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/overview-of-recombinant-dna-excerpt-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Overview of Recombinant DNA, Excerpt 2</title>
+      <link>/resources/overview-of-recombinant-dna-excerpt-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/overview-of-recombinant-dna-excerpt-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Photosynthesis</title>
+      <link>/resources/photosynthesis/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/photosynthesis/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proteins, Levels of Structure, Non-Covalent Forces, Excerpt 1</title>
+      <link>/resources/proteins-levels-of-structure-non-covalent-forces-excerpt-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/proteins-levels-of-structure-non-covalent-forces-excerpt-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proteins, Levels of Structure, Non-Covalent Forces, Excerpt 2</title>
+      <link>/resources/proteins-levels-of-structure-non-covalent-forces-excerpt-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/proteins-levels-of-structure-non-covalent-forces-excerpt-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Transcription and translation, Excerpt 1</title>
+      <link>/resources/transcription-and-translation-excerpt-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/transcription-and-translation-excerpt-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Transcription and translation, Excerpt 2</title>
+      <link>/resources/transcription-and-translation-excerpt-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/transcription-and-translation-excerpt-2/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Types of Organisms, Cell Composition, Excerpt 1</title>
+      <link>/resources/types-of-organisms-cell-composition-excerpt-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/types-of-organisms-cell-composition-excerpt-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Types of Organisms, Cell Composition, Excerpt 2</title>
+      <link>/resources/types-of-organisms-cell-composition-excerpt-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/types-of-organisms-cell-composition-excerpt-2/data.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

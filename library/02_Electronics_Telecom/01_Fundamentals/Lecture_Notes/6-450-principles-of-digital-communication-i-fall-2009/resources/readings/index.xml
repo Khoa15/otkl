@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;h3 id=&#34;required-text&#34;&gt;Required Text&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Course readings were taken from the following required text:&lt;/p&gt;&#xA;&lt;p&gt;Gallager, Robert G. &lt;em&gt;Principles of Digital Communication&lt;/em&gt;. New York, NY: Cambridge University Press, 2008. ISBN: 9780521879071.&lt;/p&gt;&#xA;&lt;p&gt;For an earlier version of this book, see lecture notes in the OpenCourseWare course &lt;em&gt;6.450 Principles of Digital Communication, Fall 2006&lt;/em&gt;.&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;reference-texts&#34;&gt;Reference Texts&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;The required text covers all the material in the course, but the following references can provide enrichment and additional examples.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

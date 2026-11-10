@@ -1,0 +1,22 @@
+
+{
+  "content": "<p>The homeworks refer to reading assignments and select problems from the course textbook:</p>\n<p>Kassakian, John G., Martin F. Schlecht, and George C. Verghese. <em>Principles of Power Electronics</em>. Reading, MA: Addison-Wesley, 1991. ISBN: 9780201096897. (abbreviated as KSV).</p>\n<p>Homework 0 (<a href=\"../../resources/hw0/index.html\">PDF</a>)</p>\n<p>Homework 1 (<a href=\"../../resources/hw1/index.html\">PDF</a>)</p>\n<p>Homework 2 (<a href=\"../../resources/hw2/index.html\">PDF</a>)</p>\n<p>Homework 3 (<a href=\"../../resources/hw3/index.html\">PDF</a>)</p>\n<p>Homework 4 (<a href=\"../../resources/hw4/index.html\">PDF</a>)</p>\n<p>Homework 5 (<a href=\"../../resources/hw5/index.html\">PDF</a>)</p>\n<p>Homework 6 (<a href=\"../../resources/hw6/index.html\">PDF</a>)</p>\n<p>Homework 7 (<a href=\"../../resources/hw7/index.html\">PDF</a>)</p>\n<p>Homework 8 (<a href=\"../../resources/hw8/index.html\">PDF</a>)</p>\n<p>Homework 9 (<a href=\"../../resources/hw9/index.html\">PDF</a>)</p>\n<p>Homework 10 (<a href=\"../../resources/hw10/index.html\">PDF</a>)</p>\n",
+  "content_type": "page",
+  "description": "This section provides eleven homework assignments that refer to reading assignments and select problems from the course textbook.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Assignments",
+  "uid": "5715bb34-b41c-4517-38a4-6b40d2cf0ab9",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

@@ -1,0 +1,6861 @@
+1
+00:00:00,000 --> 00:00:02,520
+The following content is
+provided under a Creative
+
+2
+00:00:02,520 --> 00:00:03,950
+Commons license.
+
+3
+00:00:03,950 --> 00:00:06,330
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:06,330 --> 00:00:10,660
+continue to offer high quality
+educational resources for free.
+
+5
+00:00:10,660 --> 00:00:13,320
+To make a donation or
+view additional materials
+
+6
+00:00:13,320 --> 00:00:17,190
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:17,190 --> 00:00:18,520
+at ocw.mit.edu.
+
+8
+00:00:21,630 --> 00:00:24,450
+RUSS TEDRAKE: Today is sort of
+the culmination of everything
+
+9
+00:00:24,450 --> 00:00:27,190
+we've been doing in the
+model free optimal control.
+
+10
+00:00:27,190 --> 00:00:27,690
+OK.
+
+11
+00:00:27,690 --> 00:00:34,440
+So we talked a lot about
+the policy gradient methods.
+
+12
+00:00:34,440 --> 00:00:36,270
+So under the model
+free category here.
+
+13
+00:00:47,182 --> 00:00:50,980
+And we've talked a lot about
+model free policy gradient
+
+14
+00:00:50,980 --> 00:00:51,480
+methods.
+
+15
+00:01:00,060 --> 00:01:02,550
+And then the last
+week or so, we spent
+
+16
+00:01:02,550 --> 00:01:05,850
+talking about model
+free methods based
+
+17
+00:01:05,850 --> 00:01:07,230
+on learning value functions.
+
+18
+00:01:15,930 --> 00:01:17,670
+OK.
+
+19
+00:01:17,670 --> 00:01:22,560
+Now both of those have some
+pros and some cons to them.
+
+20
+00:01:22,560 --> 00:01:23,060
+OK?
+
+21
+00:01:32,100 --> 00:01:35,490
+So the policy gradient
+methods, what's
+
+22
+00:01:35,490 --> 00:01:37,020
+good about policy
+gradient methods?
+
+23
+00:01:39,876 --> 00:01:42,260
+STUDENT: They scale--
+
+24
+00:01:42,260 --> 00:01:44,060
+RUSS TEDRAKE: They scale with--
+
+25
+00:01:44,060 --> 00:01:45,390
+[INTERPOSING VOICES]
+
+26
+00:01:45,390 --> 00:01:46,460
+RUSS TEDRAKE: OK.
+
+27
+00:01:46,460 --> 00:01:54,620
+And they can scale well
+to high dimensions.
+
+28
+00:01:54,620 --> 00:01:55,820
+We'll qualify that.
+
+29
+00:02:05,940 --> 00:02:06,440
+Right?
+
+30
+00:02:06,440 --> 00:02:09,065
+It's actually still only a local
+search, that's why they scale.
+
+31
+00:02:11,420 --> 00:02:17,690
+And the performance of
+the model free methods
+
+32
+00:02:17,690 --> 00:02:20,125
+degrades with the number
+of policy parameters.
+
+33
+00:02:32,750 --> 00:02:36,290
+But if you have an
+infinite dimensional system
+
+34
+00:02:36,290 --> 00:02:38,000
+with one parameter
+you want to optimize,
+
+35
+00:02:38,000 --> 00:02:40,730
+then you're in pretty good shape
+with a policy gradient method.
+
+36
+00:02:40,730 --> 00:02:41,230
+Right?
+
+37
+00:02:45,675 --> 00:02:46,175
+OK.
+
+38
+00:02:48,740 --> 00:02:49,290
+What else?
+
+39
+00:02:49,290 --> 00:02:52,090
+What are other pros and cons
+of policy gradient methods?
+
+40
+00:02:52,090 --> 00:02:54,400
+What's a con?
+
+41
+00:02:54,400 --> 00:02:57,980
+Well, I said a lot of it
+in the parentheses already.
+
+42
+00:02:57,980 --> 00:03:02,150
+But it's local.
+
+43
+00:03:02,150 --> 00:03:06,509
+What are some other cons
+about policy gradient methods?
+
+44
+00:03:06,509 --> 00:03:07,928
+STUDENT: [INAUDIBLE].
+
+45
+00:03:10,770 --> 00:03:11,830
+RUSS TEDRAKE: Yeah.
+
+46
+00:03:11,830 --> 00:03:12,420
+Right.
+
+47
+00:03:12,420 --> 00:03:15,260
+So this performance
+degradation typically
+
+48
+00:03:15,260 --> 00:03:16,940
+is summarized by
+people saying they
+
+49
+00:03:16,940 --> 00:03:18,432
+tend to have high variance.
+
+50
+00:03:18,432 --> 00:03:18,932
+Right?
+
+51
+00:03:27,680 --> 00:03:34,850
+Variance in the
+update, which can
+
+52
+00:03:34,850 --> 00:03:40,550
+lead to mean that you need
+many trials to converge.
+
+53
+00:03:49,620 --> 00:03:53,630
+I mean, fundamentally, if
+we're sampling policy space
+
+54
+00:03:53,630 --> 00:03:55,790
+and making some
+stochastic update,
+
+55
+00:03:55,790 --> 00:03:58,370
+it might be that it
+requires many, many samples,
+
+56
+00:03:58,370 --> 00:04:01,500
+for instance, to accurately
+estimate the gradient.
+
+57
+00:04:01,500 --> 00:04:03,508
+And if we're making a
+move after every sample,
+
+58
+00:04:03,508 --> 00:04:05,300
+then it might take
+many, many trials for us
+
+59
+00:04:05,300 --> 00:04:06,890
+to find the minimum of that.
+
+60
+00:04:06,890 --> 00:04:07,810
+It's a noisy descent.
+
+61
+00:04:07,810 --> 00:04:08,520
+Yeah?
+
+62
+00:04:08,520 --> 00:04:12,200
+STUDENT: You also have to
+choose like a [INAUDIBLE]..
+
+63
+00:04:12,200 --> 00:04:14,753
+RUSS TEDRAKE: Good.
+
+64
+00:04:14,753 --> 00:04:15,920
+That wasn't even on my list.
+
+65
+00:04:15,920 --> 00:04:18,440
+But I totally agree.
+
+66
+00:04:18,440 --> 00:04:20,386
+OK.
+
+67
+00:04:20,386 --> 00:04:21,920
+I'll put it right up here.
+
+68
+00:04:40,010 --> 00:04:43,910
+There's one other very big
+advantage to the policy
+
+69
+00:04:43,910 --> 00:04:45,253
+gradient algorithms.
+
+70
+00:04:50,929 --> 00:04:54,680
+We take advantage of smoothness.
+
+71
+00:04:54,680 --> 00:04:57,020
+They require smoothness to work.
+
+72
+00:04:57,020 --> 00:04:58,900
+That's both a pro
+and a con, right?
+
+73
+00:05:01,700 --> 00:05:04,880
+But the big one that we
+haven't said yet, I think,
+
+74
+00:05:04,880 --> 00:05:09,860
+is the convergence is sort
+of virtually guaranteed.
+
+75
+00:05:09,860 --> 00:05:11,840
+You're doing a direct search.
+
+76
+00:05:11,840 --> 00:05:15,860
+And exactly, you're doing a
+stochastic gradient descent
+
+77
+00:05:15,860 --> 00:05:18,050
+in exactly the parameters
+you care about.
+
+78
+00:05:18,050 --> 00:05:21,900
+Convergence is sort of
+trivial and guaranteed.
+
+79
+00:05:21,900 --> 00:05:22,400
+OK?
+
+80
+00:05:38,900 --> 00:05:41,420
+That turns out to be
+probably one of the biggest
+
+81
+00:05:41,420 --> 00:05:43,100
+motivating reasons
+for the community
+
+82
+00:05:43,100 --> 00:05:46,100
+to have put their efforts
+into policy gradient.
+
+83
+00:05:46,100 --> 00:05:59,870
+Because if you look at the
+value function methods,
+
+84
+00:05:59,870 --> 00:06:01,190
+in many cases--
+
+85
+00:06:01,190 --> 00:06:04,460
+now, I told you about one case
+with function approximation,
+
+86
+00:06:04,460 --> 00:06:06,380
+still linear function
+approximation,
+
+87
+00:06:06,380 --> 00:06:09,680
+where there are stronger
+convergence results.
+
+88
+00:06:09,680 --> 00:06:12,290
+And that was the least
+squares policy iteration.
+
+89
+00:06:12,290 --> 00:06:17,150
+But most of the cases we've
+had, the convergence results
+
+90
+00:06:17,150 --> 00:06:18,260
+were fairly weak.
+
+91
+00:06:18,260 --> 00:06:21,230
+We told you that temporal
+difference learning converges
+
+92
+00:06:21,230 --> 00:06:23,280
+if the policy remains fixed.
+
+93
+00:06:23,280 --> 00:06:23,780
+OK?
+
+94
+00:06:23,780 --> 00:06:25,515
+But if you're not
+careful, if you
+
+95
+00:06:25,515 --> 00:06:27,890
+do temporal difference learning
+with the policy changing,
+
+96
+00:06:27,890 --> 00:06:30,410
+with a function
+approximator involved,
+
+97
+00:06:30,410 --> 00:06:32,360
+convergence is not guaranteed.
+
+98
+00:06:32,360 --> 00:06:33,350
+OK?
+
+99
+00:06:33,350 --> 00:06:40,430
+In fact, they often, I mean a
+lot of these methods struggle
+
+100
+00:06:40,430 --> 00:06:41,300
+with convergence.
+
+101
+00:06:41,300 --> 00:06:45,750
+Not just the proofs,
+which are more involved.
+
+102
+00:06:45,750 --> 00:06:48,590
+But there's a
+handful of, I guess,
+
+103
+00:06:48,590 --> 00:06:53,750
+sort of in the big switch
+from value methods to policy
+
+104
+00:06:53,750 --> 00:06:55,370
+gradient methods,
+there are a number
+
+105
+00:06:55,370 --> 00:07:04,325
+of papers showing sort
+of trivial examples of--
+
+106
+00:07:07,790 --> 00:07:09,750
+can I call them TD
+control methods?
+
+107
+00:07:09,750 --> 00:07:12,740
+So temporal difference
+learning where you're actually
+
+108
+00:07:12,740 --> 00:07:19,130
+also updating your policy
+of TD control methods
+
+109
+00:07:19,130 --> 00:07:26,190
+with function approximation,
+which diverge.
+
+110
+00:07:26,190 --> 00:07:26,690
+Right?
+
+111
+00:07:34,550 --> 00:07:36,200
+There was even one that--
+
+112
+00:07:36,200 --> 00:07:39,440
+I think it might
+have been, I forget
+
+113
+00:07:39,440 --> 00:07:41,840
+whose-- it might have been
+Lehman Baird's example.
+
+114
+00:07:41,840 --> 00:07:45,500
+But where they actually showed
+that the method will actually
+
+115
+00:07:45,500 --> 00:07:48,890
+oscillate between the best
+possible representation
+
+116
+00:07:48,890 --> 00:07:51,873
+of the value function and the
+worst possible representation
+
+117
+00:07:51,873 --> 00:07:52,790
+of the value function.
+
+118
+00:07:52,790 --> 00:07:55,490
+And it's sort of stably
+oscillated between the two.
+
+119
+00:07:55,490 --> 00:07:56,737
+Right?
+
+120
+00:07:56,737 --> 00:07:58,820
+Which was obviously something
+that they cooked up.
+
+121
+00:07:58,820 --> 00:08:00,660
+But still, that makes the point.
+
+122
+00:08:00,660 --> 00:08:01,160
+Right?
+
+123
+00:08:23,440 --> 00:08:28,420
+Even the convergence result
+we did give you for LSPI,
+
+124
+00:08:28,420 --> 00:08:30,522
+least squares policy
+iteration, still
+
+125
+00:08:30,522 --> 00:08:32,230
+had no guarantee that
+it wasn't going to,
+
+126
+00:08:32,230 --> 00:08:33,460
+it could certainly oscillate.
+
+127
+00:08:33,460 --> 00:08:35,590
+They gave a bound
+on the oscillation.
+
+128
+00:08:35,590 --> 00:08:40,360
+But that bound has
+to be interpreted.
+
+129
+00:08:40,360 --> 00:08:42,510
+Even the LSPI could
+still oscillate.
+
+130
+00:08:42,510 --> 00:08:45,220
+And that's one of the stronger
+convergence results we have.
+
+131
+00:08:47,770 --> 00:08:48,730
+OK.
+
+132
+00:08:48,730 --> 00:08:51,070
+But they're
+relatively efficient.
+
+133
+00:08:51,070 --> 00:08:52,060
+Right?
+
+134
+00:08:52,060 --> 00:08:53,950
+So we put up with a lot of that.
+
+135
+00:08:53,950 --> 00:08:56,890
+And we keep trying to
+use them because they're
+
+136
+00:08:56,890 --> 00:08:59,230
+efficient to learn in the
+sense that you're just
+
+137
+00:08:59,230 --> 00:09:01,640
+learning a scalar value over
+all your states and actions.
+
+138
+00:09:01,640 --> 00:09:03,310
+That's a relatively
+compact thing to learn.
+
+139
+00:09:03,310 --> 00:09:04,893
+I told you, I tried
+to argue last time
+
+140
+00:09:04,893 --> 00:09:09,940
+that it's easier than
+learning a model even by just
+
+141
+00:09:09,940 --> 00:09:12,670
+dimensionality arguments.
+
+142
+00:09:12,670 --> 00:09:14,830
+And they tend to be
+efficient because the TD
+
+143
+00:09:14,830 --> 00:09:17,177
+methods in particular
+reuse your estimates.
+
+144
+00:09:17,177 --> 00:09:18,760
+And they tend to be
+efficient in data.
+
+145
+00:09:18,760 --> 00:09:20,045
+They reuse old estimates.
+
+146
+00:09:20,045 --> 00:09:21,670
+They use your old
+estimate of the value
+
+147
+00:09:21,670 --> 00:09:25,840
+function to update your new
+estimate of the algorithms.
+
+148
+00:09:25,840 --> 00:09:29,500
+So when they do work,
+they tend to learn faster.
+
+149
+00:09:29,500 --> 00:09:32,050
+And they can, with the
+least squares methods,
+
+150
+00:09:32,050 --> 00:09:33,760
+they tend to be
+efficient in data.
+
+151
+00:09:33,760 --> 00:09:36,780
+And therefore, in time.
+
+152
+00:09:36,780 --> 00:09:39,280
+Number of trials.
+
+153
+00:09:39,280 --> 00:09:42,580
+When these things do work,
+they're the tool of choice.
+
+154
+00:09:42,580 --> 00:09:45,610
+The problem is-- and
+there are great examples
+
+155
+00:09:45,610 --> 00:09:47,853
+of them working-- but
+there's not enough guarantees
+
+156
+00:09:47,853 --> 00:09:48,520
+of them working.
+
+157
+00:09:53,040 --> 00:09:56,970
+And if you want to
+sort of summarize
+
+158
+00:09:56,970 --> 00:10:01,350
+why these value methods
+struggle and why
+
+159
+00:10:01,350 --> 00:10:04,590
+they can struggle to converge
+and they even diverge,
+
+160
+00:10:04,590 --> 00:10:07,890
+you can sort of think of it
+in a single line, I think.
+
+161
+00:10:07,890 --> 00:10:11,160
+The basic fundamental problem
+with the value methods
+
+162
+00:10:11,160 --> 00:10:13,920
+is that a very small change
+in your estimate of the value
+
+163
+00:10:13,920 --> 00:10:16,560
+function, if you
+make a little change,
+
+164
+00:10:16,560 --> 00:10:19,920
+can cause a dramatic
+change in your policy.
+
+165
+00:10:19,920 --> 00:10:20,430
+Right?
+
+166
+00:10:20,430 --> 00:10:22,720
+So let's say my value
+functions tip this way.
+
+167
+00:10:22,720 --> 00:10:23,220
+Right?
+
+168
+00:10:23,220 --> 00:10:24,887
+And I change my
+parameters a little bit.
+
+169
+00:10:24,887 --> 00:10:25,950
+Now it's tipped this way.
+
+170
+00:10:25,950 --> 00:10:29,160
+My policy just went from
+going left to going right,
+
+171
+00:10:29,160 --> 00:10:30,610
+for instance.
+
+172
+00:10:30,610 --> 00:10:35,010
+And now you're trying to
+update your value function
+
+173
+00:10:35,010 --> 00:10:36,030
+as the policy changed.
+
+174
+00:10:36,030 --> 00:10:40,465
+And just things can start
+oscillating out of control.
+
+175
+00:10:40,465 --> 00:10:41,340
+Does that make sense?
+
+176
+00:11:33,110 --> 00:11:33,610
+OK.
+
+177
+00:11:37,210 --> 00:11:41,100
+That's a reasonably accurate,
+I think, lay of the land
+
+178
+00:11:41,100 --> 00:11:44,600
+in the methods we've
+told you about so far.
+
+179
+00:11:44,600 --> 00:11:47,710
+If you can find a value method
+that converges nicely, use it.
+
+180
+00:11:47,710 --> 00:11:50,020
+It's going to be faster than
+a policy gradient method.
+
+181
+00:11:50,020 --> 00:11:51,520
+It's more efficient
+in reusing data.
+
+182
+00:11:51,520 --> 00:11:53,740
+You're learning a fairly
+compact structure.
+
+183
+00:11:53,740 --> 00:11:56,590
+Value iteration has always been
+our most efficient algorithm,
+
+184
+00:11:56,590 --> 00:11:59,590
+when it works.
+
+185
+00:11:59,590 --> 00:12:01,390
+But the policy
+gradient algorithms
+
+186
+00:12:01,390 --> 00:12:03,400
+are guaranteed to work.
+
+187
+00:12:03,400 --> 00:12:05,210
+And they're fairly
+simple to implement.
+
+188
+00:12:05,210 --> 00:12:08,960
+And they can just be sort of
+local search in the policy
+
+189
+00:12:08,960 --> 00:12:09,460
+space.
+
+190
+00:12:09,460 --> 00:12:13,150
+Directly in the space that you
+care about, really your policy.
+
+191
+00:12:13,150 --> 00:12:15,100
+So the big idea, which
+is the culmination
+
+192
+00:12:15,100 --> 00:12:18,010
+of the methods we've talked
+about in the model free stuff
+
+193
+00:12:18,010 --> 00:12:21,160
+so far, is to try to take
+the advantages of both
+
+194
+00:12:21,160 --> 00:12:23,080
+by putting them together.
+
+195
+00:12:23,080 --> 00:12:27,760
+Represent both a value function
+and a policy simultaneously.
+
+196
+00:12:27,760 --> 00:12:30,130
+There's extra
+representational costs there.
+
+197
+00:12:30,130 --> 00:12:33,250
+But if you're willing to do
+that and make slower changes
+
+198
+00:12:33,250 --> 00:12:37,330
+to the policy based on guesses
+that are coming from the value
+
+199
+00:12:37,330 --> 00:12:40,660
+function, then you can
+overcome a lot of the stability
+
+200
+00:12:40,660 --> 00:12:42,580
+problems of the value methods.
+
+201
+00:12:42,580 --> 00:12:45,700
+You get the strong convergence
+results of the policy gradient.
+
+202
+00:12:45,700 --> 00:12:49,900
+And you get some of the
+more, ideally, efficiency.
+
+203
+00:12:49,900 --> 00:12:51,850
+You can reduce your
+variance of your update.
+
+204
+00:12:51,850 --> 00:12:55,340
+You make more effective updates
+by using a value function.
+
+205
+00:12:55,340 --> 00:12:55,840
+OK?
+
+206
+00:13:12,100 --> 00:13:18,070
+So the actor is the playful
+name for the policy.
+
+207
+00:13:18,070 --> 00:13:20,923
+And the critic is your
+value estimate telling you
+
+208
+00:13:20,923 --> 00:13:22,090
+how well you're going to do.
+
+209
+00:13:50,110 --> 00:13:52,130
+And one of the
+big ideas there is
+
+210
+00:13:52,130 --> 00:13:54,606
+you'd like it to be a
+two time scale algorithm.
+
+211
+00:14:09,990 --> 00:14:20,360
+Policy is changing slower
+than the greedy policy
+
+212
+00:14:20,360 --> 00:14:21,360
+from the value function.
+
+213
+00:14:42,160 --> 00:14:42,660
+OK.
+
+214
+00:14:42,660 --> 00:14:48,060
+So the idea is an actor critic
+are actually very, very simple.
+
+215
+00:14:48,060 --> 00:14:51,205
+The proofs are ugly.
+
+216
+00:14:51,205 --> 00:14:52,830
+There's only a handful
+of papers you've
+
+217
+00:14:52,830 --> 00:14:57,930
+got to look at if you
+want to get into the dirt.
+
+218
+00:14:57,930 --> 00:15:02,560
+But these, I think,
+are the algorithms
+
+219
+00:15:02,560 --> 00:15:06,730
+of choice today for a
+model free optimization.
+
+220
+00:15:06,730 --> 00:15:07,230
+OK.
+
+221
+00:15:07,230 --> 00:15:11,370
+So just to give you a couple
+of the key papers here.
+
+222
+00:15:11,370 --> 00:15:14,370
+So Konda and Tsitsiklis.
+
+223
+00:15:14,370 --> 00:15:17,691
+John's right upstairs.
+
+224
+00:15:17,691 --> 00:15:21,000
+Had an actor critic
+paper in 2003
+
+225
+00:15:21,000 --> 00:15:23,700
+that has all the algorithm
+derivation and proofs.
+
+226
+00:15:26,220 --> 00:15:31,810
+Sutton has a similar one in '99
+that's called Policy Gradient.
+
+227
+00:15:31,810 --> 00:15:33,540
+But it's actually
+the same sort of math
+
+228
+00:15:33,540 --> 00:15:37,380
+as in Konda and Tsitsiklis.
+
+229
+00:15:37,380 --> 00:15:44,370
+And then our friend Jan Peters
+has got a newer take on it.
+
+230
+00:15:44,370 --> 00:15:55,470
+He calls it Natural
+Actor Critic,
+
+231
+00:15:55,470 --> 00:15:57,220
+which is a popular one today.
+
+232
+00:15:57,220 --> 00:15:59,090
+It should be easy to find.
+
+233
+00:15:59,090 --> 00:15:59,590
+OK.
+
+234
+00:15:59,590 --> 00:16:02,370
+So I want to give
+you the basic tools.
+
+235
+00:16:02,370 --> 00:16:05,010
+And then instead of
+getting into all the math,
+
+236
+00:16:05,010 --> 00:16:08,590
+I'll give you a case
+study, which was my thesis.
+
+237
+00:16:08,590 --> 00:16:09,090
+Works out.
+
+238
+00:16:32,600 --> 00:16:36,030
+So probably John already said
+quickly what the big idea was.
+
+239
+00:16:36,030 --> 00:16:36,530
+Right?
+
+240
+00:16:36,530 --> 00:16:44,270
+So John told you about the
+reinforced type algorithms
+
+241
+00:16:44,270 --> 00:16:45,928
+and the weight perturbation.
+
+242
+00:16:52,760 --> 00:16:57,450
+In the reinforced algorithms,
+we have some parameter vector.
+
+243
+00:16:57,450 --> 00:16:58,370
+Let's call it alpha.
+
+244
+00:16:58,370 --> 00:17:02,570
+And I'm going to change alpha
+with a very simple update rule.
+
+245
+00:17:02,570 --> 00:17:06,050
+In the simple case, maybe
+I'll run my system twice.
+
+246
+00:17:06,050 --> 00:17:09,470
+I'll run it once with the--
+
+247
+00:17:09,470 --> 00:17:13,339
+I'll get once, I'll sample
+the output with alpha.
+
+248
+00:17:13,339 --> 00:17:16,790
+And then once I'll do it
+with alpha plus some noise.
+
+249
+00:17:16,790 --> 00:17:20,810
+Let's say I'll run it from
+the same initial condition.
+
+250
+00:17:20,810 --> 00:17:21,980
+Compare those two.
+
+251
+00:17:26,250 --> 00:17:29,021
+And then multiply the difference
+times the noise I added.
+
+252
+00:17:29,021 --> 00:17:29,521
+Right?
+
+253
+00:17:48,180 --> 00:17:50,490
+And that's actually
+a good estimator,
+
+254
+00:17:50,490 --> 00:17:53,860
+a reasonable estimator
+of the gradient.
+
+255
+00:17:53,860 --> 00:17:56,430
+And if I multiply by
+the learning rate,
+
+256
+00:17:56,430 --> 00:18:00,980
+then I've got a gradient
+descent type update.
+
+257
+00:18:00,980 --> 00:18:01,480
+OK?
+
+258
+00:18:04,600 --> 00:18:07,040
+So this is not useful
+in its current form.
+
+259
+00:18:07,040 --> 00:18:09,040
+John told you about the
+better forms of it, too.
+
+260
+00:18:09,040 --> 00:18:10,960
+But the problem
+with this is that I
+
+261
+00:18:10,960 --> 00:18:14,440
+have to run the system
+twice from exactly
+
+262
+00:18:14,440 --> 00:18:15,970
+the same initial conditions.
+
+263
+00:18:15,970 --> 00:18:19,960
+You don't want to run two trials
+to simulate the thing exactly
+
+264
+00:18:19,960 --> 00:18:26,290
+twice for every one update.
+
+265
+00:18:26,290 --> 00:18:31,300
+And it sort of assumes that
+this is a deterministic update.
+
+266
+00:18:31,300 --> 00:18:37,090
+The more general form here
+would be to not keep, not
+
+267
+00:18:37,090 --> 00:18:38,320
+run the system twice.
+
+268
+00:18:38,320 --> 00:18:41,500
+But use, for instance,
+some estimate
+
+269
+00:18:41,500 --> 00:18:46,280
+of what reward I'd expect to
+get from this initial condition.
+
+270
+00:18:46,280 --> 00:18:50,010
+And compare that to
+the learning trial.
+
+271
+00:18:50,010 --> 00:18:52,330
+So we just went from policy
+gradient to actor critic
+
+272
+00:18:52,330 --> 00:18:53,560
+just like that.
+
+273
+00:18:53,560 --> 00:18:55,540
+This is the simplest form of it.
+
+274
+00:18:55,540 --> 00:18:57,620
+But let's think about
+what just happened.
+
+275
+00:18:57,620 --> 00:19:01,210
+So if I do have an estimate
+of my value function,
+
+276
+00:19:01,210 --> 00:19:03,490
+I have an estimate of my
+cost to go from every state.
+
+277
+00:19:03,490 --> 00:19:04,690
+Right?
+
+278
+00:19:04,690 --> 00:19:06,970
+Then that helps me make
+a policy gradient update.
+
+279
+00:19:06,970 --> 00:19:11,470
+Because if I run a single trial,
+then I can compare the reward
+
+280
+00:19:11,470 --> 00:19:13,870
+I expected to get
+with the reward
+
+281
+00:19:13,870 --> 00:19:17,200
+I actually got very compactly.
+
+282
+00:19:17,200 --> 00:19:17,980
+OK?
+
+283
+00:19:17,980 --> 00:19:19,780
+So this is the reward
+I actually got.
+
+284
+00:19:19,780 --> 00:19:21,250
+I run a trial, one trial.
+
+285
+00:19:21,250 --> 00:19:24,100
+Even if it's noisy with
+my perturb parameters,
+
+286
+00:19:24,100 --> 00:19:25,600
+I change my parameters
+a little bit.
+
+287
+00:19:25,600 --> 00:19:26,740
+I run a trial.
+
+288
+00:19:26,740 --> 00:19:28,270
+And what I want
+to efficiently do
+
+289
+00:19:28,270 --> 00:19:30,687
+is compare it to the reward I
+should have expected to get,
+
+290
+00:19:30,687 --> 00:19:33,410
+given I had the parameters
+I had a minute ago.
+
+291
+00:19:33,410 --> 00:19:33,910
+Right?
+
+292
+00:19:33,910 --> 00:19:37,090
+That's nothing but a
+value function right here.
+
+293
+00:19:37,090 --> 00:19:37,930
+OK?
+
+294
+00:19:37,930 --> 00:19:41,290
+So the simplest way to think
+about an actor critic algorithm
+
+295
+00:19:41,290 --> 00:19:44,410
+is go ahead and use a TD
+learning kind of algorithm.
+
+296
+00:19:47,940 --> 00:19:49,720
+Every time I'm running
+my robot, go ahead
+
+297
+00:19:49,720 --> 00:19:51,880
+and work on in the
+background learning
+
+298
+00:19:51,880 --> 00:19:55,900
+a value function of the system.
+
+299
+00:19:55,900 --> 00:20:00,370
+And simply use that to
+compare the samples you
+
+300
+00:20:00,370 --> 00:20:03,235
+get from your policy search.
+
+301
+00:20:03,235 --> 00:20:05,610
+Do you guys remember the sort
+of weight perturbation type
+
+302
+00:20:05,610 --> 00:20:08,730
+updates enough for
+that to make sense?
+
+303
+00:20:08,730 --> 00:20:09,900
+Yeah?
+
+304
+00:20:09,900 --> 00:20:14,570
+STUDENT: So in this case, that
+[INAUDIBLE] into your system
+
+305
+00:20:14,570 --> 00:20:18,010
+but just through
+some expectation.
+
+306
+00:20:18,010 --> 00:20:19,010
+RUSS TEDRAKE: Excellent.
+
+307
+00:20:19,010 --> 00:20:19,910
+That's where you're getting it.
+
+308
+00:20:19,910 --> 00:20:21,680
+From temporal
+difference learning.
+
+309
+00:20:21,680 --> 00:20:26,450
+In the case of a stochastic
+system, where both of these
+
+310
+00:20:26,450 --> 00:20:29,270
+are going to be noisy
+random variables,
+
+311
+00:20:29,270 --> 00:20:31,700
+this actually can be better
+than running it twice.
+
+312
+00:20:31,700 --> 00:20:34,790
+Because this is the
+expected value accumulated
+
+313
+00:20:34,790 --> 00:20:36,150
+through experience.
+
+314
+00:20:36,150 --> 00:20:36,650
+Right?
+
+315
+00:20:36,650 --> 00:20:39,380
+And that's what you really want
+to compare your noisy sample
+
+316
+00:20:39,380 --> 00:20:41,240
+to the expected value.
+
+317
+00:20:41,240 --> 00:20:44,225
+So in the stochastic
+case, you actually
+
+318
+00:20:44,225 --> 00:20:46,850
+do better by comparing it to the
+expected value of your update.
+
+319
+00:20:52,250 --> 00:20:56,870
+What you can show
+by various tools
+
+320
+00:20:56,870 --> 00:21:00,210
+is that comparing to the
+expected value of your update,
+
+321
+00:21:00,210 --> 00:21:02,450
+which is the value
+function here,
+
+322
+00:21:02,450 --> 00:21:06,180
+can dramatically reduce the
+variance of your estimator.
+
+323
+00:21:06,180 --> 00:21:06,680
+OK?
+
+324
+00:21:39,570 --> 00:21:41,520
+You should always think
+about policy gradient
+
+325
+00:21:41,520 --> 00:21:43,410
+as every one of
+these steps trying
+
+326
+00:21:43,410 --> 00:21:46,590
+to estimate the change
+in the performance
+
+327
+00:21:46,590 --> 00:21:48,370
+based on a change in parameters.
+
+328
+00:21:48,370 --> 00:21:52,410
+But in general,
+what you get back
+
+329
+00:21:52,410 --> 00:21:55,192
+is the true gradient
+plus a bunch of noise,
+
+330
+00:21:55,192 --> 00:21:57,150
+because you're just taking
+a random sample here
+
+331
+00:21:57,150 --> 00:22:00,570
+in one dimension of change.
+
+332
+00:22:00,570 --> 00:22:03,300
+If this is a good estimate
+of the value function,
+
+333
+00:22:03,300 --> 00:22:07,650
+then it can reduce the
+variance of that update.
+
+334
+00:22:07,650 --> 00:22:08,872
+Question?
+
+335
+00:22:08,872 --> 00:22:10,300
+STUDENT: [INAUDIBLE].
+
+336
+00:22:14,288 --> 00:22:16,080
+RUSS TEDRAKE: The
+guarantees of convergence
+
+337
+00:22:16,080 --> 00:22:18,372
+are still intact because
+you're doing gradient descent.
+
+338
+00:22:18,372 --> 00:22:21,330
+You can actually do, you
+can do almost anything here.
+
+339
+00:22:21,330 --> 00:22:22,997
+This can be zero.
+
+340
+00:22:22,997 --> 00:22:25,080
+And gradient descent, the
+policy gradient actually
+
+341
+00:22:25,080 --> 00:22:26,135
+still converges.
+
+342
+00:22:26,135 --> 00:22:27,930
+It doesn't converge very fast.
+
+343
+00:22:27,930 --> 00:22:29,970
+But you can still
+actually show that it'll,
+
+344
+00:22:29,970 --> 00:22:31,720
+on average, converge.
+
+345
+00:22:31,720 --> 00:22:32,220
+OK?
+
+346
+00:22:32,220 --> 00:22:37,530
+So it's actually quite robust
+to the thing you subtract out.
+
+347
+00:22:37,530 --> 00:22:41,130
+Because, especially if this
+thing doesn't depend on alpha,
+
+348
+00:22:41,130 --> 00:22:42,580
+then it has zero expectation.
+
+349
+00:22:42,580 --> 00:22:45,190
+So it doesn't even affect the
+expected value of your update.
+
+350
+00:22:45,190 --> 00:22:48,400
+So it actually does not affect
+the convergence results at all.
+
+351
+00:22:48,400 --> 00:22:50,568
+So the convergence
+results are still intact.
+
+352
+00:22:50,568 --> 00:22:52,110
+But the performance
+should get better
+
+353
+00:22:52,110 --> 00:22:56,458
+because you have a better
+estimate of your J. Right?
+
+354
+00:22:56,458 --> 00:22:58,500
+And that should be
+intuitively obvious, actually.
+
+355
+00:22:58,500 --> 00:22:59,000
+Right?
+
+356
+00:22:59,000 --> 00:23:04,320
+If I did something and
+I said, how did I do?
+
+357
+00:23:04,320 --> 00:23:07,140
+And [INAUDIBLE]
+just always said,
+
+358
+00:23:07,140 --> 00:23:10,303
+you should have gotten a
+four every single time.
+
+359
+00:23:10,303 --> 00:23:12,720
+If I got a lousy estimator of
+how well I should have done,
+
+360
+00:23:12,720 --> 00:23:13,293
+I'd say, OK.
+
+361
+00:23:13,293 --> 00:23:14,460
+Look, I got a six that time.
+
+362
+00:23:14,460 --> 00:23:16,200
+And he says, you
+should have had a four.
+
+363
+00:23:16,200 --> 00:23:17,310
+Six, you should have had a four.
+
+364
+00:23:17,310 --> 00:23:18,768
+Then he's giving
+me no information.
+
+365
+00:23:18,768 --> 00:23:21,110
+And that's not helping
+me evaluate my policy.
+
+366
+00:23:21,110 --> 00:23:21,610
+Right?
+
+367
+00:23:21,610 --> 00:23:22,650
+If someone said, OK.
+
+368
+00:23:22,650 --> 00:23:24,150
+We did something a
+little different.
+
+369
+00:23:24,150 --> 00:23:27,660
+I expected you to get a
+six, but you got a 6.1.
+
+370
+00:23:27,660 --> 00:23:31,984
+Well, that's a much cleaner
+learning signal for me to use.
+
+371
+00:23:31,984 --> 00:23:41,310
+STUDENT: [INAUDIBLE]
+the worst possible--
+
+372
+00:23:41,310 --> 00:23:43,130
+RUSS TEDRAKE: Yeah, absolutely.
+
+373
+00:23:43,130 --> 00:23:44,880
+So that's the important
+point is that it's
+
+374
+00:23:44,880 --> 00:23:47,790
+got to be uncorrelated with the
+noise you add to your system.
+
+375
+00:23:47,790 --> 00:23:48,780
+OK?
+
+376
+00:23:48,780 --> 00:23:50,940
+If it's not correlated
+with the noise you add in,
+
+377
+00:23:50,940 --> 00:23:53,307
+then it actually goes
+away in expectation.
+
+378
+00:23:53,307 --> 00:23:55,890
+So the variance can be very bad
+if you have the worst possible
+
+379
+00:23:55,890 --> 00:23:57,090
+value estimate.
+
+380
+00:23:57,090 --> 00:24:01,620
+But the convergence
+still happens.
+
+381
+00:24:04,230 --> 00:24:05,790
+Like I said, zero
+actually works.
+
+382
+00:24:05,790 --> 00:24:08,313
+Right?
+
+383
+00:24:08,313 --> 00:24:09,480
+Which is sort of surprising.
+
+384
+00:24:09,480 --> 00:24:10,920
+Right?
+
+385
+00:24:10,920 --> 00:24:14,550
+If I have a reward function
+that always returns between zero
+
+386
+00:24:14,550 --> 00:24:20,580
+and 10, and I'm trying
+to optimize my update,
+
+387
+00:24:20,580 --> 00:24:25,800
+then I would always move in the
+direction of the noise I add.
+
+388
+00:24:25,800 --> 00:24:28,950
+But I move more often in the
+ones that gave me high scores.
+
+389
+00:24:28,950 --> 00:24:31,080
+And actually, it still
+does a gradient descent
+
+390
+00:24:31,080 --> 00:24:32,880
+on the cost function.
+
+391
+00:24:32,880 --> 00:24:35,490
+It's actually worth
+thinking about that.
+
+392
+00:24:35,490 --> 00:24:39,570
+It's actually pretty cool that
+it's so robust, that estimator.
+
+393
+00:24:39,570 --> 00:24:43,050
+But certainly with a good
+estimator, it works better.
+
+394
+00:24:45,960 --> 00:24:47,460
+I don't know how
+much John told you.
+
+395
+00:24:47,460 --> 00:24:49,290
+But we don't actually like
+talking about the variance.
+
+396
+00:24:49,290 --> 00:24:51,050
+We like talking about the
+signal to noise ratio.
+
+397
+00:24:51,050 --> 00:24:52,880
+Did you tell them about the
+signal noise ratio, John?
+
+398
+00:24:52,880 --> 00:24:54,180
+STUDENT: I don't remember.
+
+399
+00:24:54,180 --> 00:24:55,230
+RUSS TEDRAKE: Quickly?
+
+400
+00:24:55,230 --> 00:24:55,830
+Yeah.
+
+401
+00:24:55,830 --> 00:24:57,000
+So John's got a nice paper.
+
+402
+00:24:57,000 --> 00:24:57,870
+Maybe he was being modest.
+
+403
+00:24:57,870 --> 00:24:59,828
+John has a nice paper
+analyzing the performance
+
+404
+00:24:59,828 --> 00:25:03,270
+of these with a signal to
+noise ratio analysis, which
+
+405
+00:25:03,270 --> 00:25:13,440
+is another way to look at the
+performance of the update.
+
+406
+00:25:19,240 --> 00:25:23,820
+So that's enough to do, to take
+the power of the value methods
+
+407
+00:25:23,820 --> 00:25:26,760
+and start putting them to use
+in the policy gradient methods.
+
+408
+00:25:26,760 --> 00:25:27,420
+OK?
+
+409
+00:25:27,420 --> 00:25:29,920
+The cool thing is, like I said,
+as long as it's uncorrelated
+
+410
+00:25:29,920 --> 00:25:32,410
+with z, it can be a very
+bad approximate of the value
+
+411
+00:25:32,410 --> 00:25:32,910
+function.
+
+412
+00:25:32,910 --> 00:25:34,290
+It won't break convergence.
+
+413
+00:25:34,290 --> 00:25:39,420
+The better the value estimate,
+the faster your convergence is.
+
+414
+00:25:39,420 --> 00:25:40,148
+OK?
+
+415
+00:25:40,148 --> 00:25:41,940
+This isn't the update
+that people typically
+
+416
+00:25:41,940 --> 00:25:43,857
+use when they talk about
+actor critic updates.
+
+417
+00:25:43,857 --> 00:25:46,630
+The Konda and Tsitsiklis one
+has a slightly more beautiful
+
+418
+00:25:46,630 --> 00:25:47,130
+thing.
+
+419
+00:25:47,130 --> 00:25:51,090
+This is maybe what you think
+of as an episodic update.
+
+420
+00:25:51,090 --> 00:25:51,930
+Right?
+
+421
+00:25:51,930 --> 00:25:54,657
+This is, I just said we
+started initial condition x.
+
+422
+00:25:54,657 --> 00:25:56,490
+Maybe I should right
+an x zero or something.
+
+423
+00:25:56,490 --> 00:25:58,282
+But we just start with
+initial condition x.
+
+424
+00:25:58,282 --> 00:26:01,620
+We run our robot for a little
+bit with these parameters.
+
+425
+00:26:01,620 --> 00:26:03,850
+We compare it to
+what we expected.
+
+426
+00:26:03,850 --> 00:26:06,455
+And we make an update
+maybe once per trial.
+
+427
+00:26:06,455 --> 00:26:07,830
+That's a perfectly
+good algorithm
+
+428
+00:26:07,830 --> 00:26:10,440
+for making an update
+once per trial.
+
+429
+00:26:10,440 --> 00:26:13,020
+There's a more beautiful
+sort of online update.
+
+430
+00:26:13,020 --> 00:26:13,710
+Right?
+
+431
+00:26:13,710 --> 00:26:22,060
+If you actually want
+to, let's say you
+
+432
+00:26:22,060 --> 00:26:26,230
+have an infinite horizon thing.
+
+433
+00:26:26,230 --> 00:26:27,280
+Infinite horizon problem.
+
+434
+00:26:43,160 --> 00:26:46,190
+There's actually a theorem,
+I've debated how much of this
+
+435
+00:26:46,190 --> 00:26:46,700
+to go into.
+
+436
+00:26:46,700 --> 00:26:48,890
+But I'll at least list
+the theorem for you
+
+437
+00:26:48,890 --> 00:26:50,900
+because it's nice.
+
+438
+00:26:50,900 --> 00:27:02,760
+They call it the policy
+gradient theorem,
+
+439
+00:27:02,760 --> 00:27:08,640
+which says partial
+J partial alpha,
+
+440
+00:27:08,640 --> 00:27:12,335
+where in the infinite
+horizon case typically
+
+441
+00:27:12,335 --> 00:27:14,460
+there's different ways to
+define infinite horizons.
+
+442
+00:27:14,460 --> 00:27:16,950
+This is typically done in
+an average reward setting.
+
+443
+00:27:20,310 --> 00:27:24,543
+It can be made to work
+for other formulations.
+
+444
+00:27:24,543 --> 00:27:26,460
+But I'll just be careful
+to say the one that I
+
+445
+00:27:26,460 --> 00:27:29,940
+know it's a correct proof for.
+
+446
+00:27:29,940 --> 00:27:33,705
+The policy gradient can
+actually be written as--
+
+447
+00:27:36,607 --> 00:27:37,440
+let me write it out.
+
+448
+00:27:54,480 --> 00:28:10,020
+This guy is the stationary
+distribution of executing
+
+449
+00:28:10,020 --> 00:28:17,640
+of the state action, of
+executing pi of alpha.
+
+450
+00:28:17,640 --> 00:28:21,540
+This guy is the Q function
+executing alpha, the true Q
+
+451
+00:28:21,540 --> 00:28:22,320
+function.
+
+452
+00:28:22,320 --> 00:28:23,900
+And this is the state action.
+
+453
+00:28:31,800 --> 00:28:35,333
+And this guy is
+actually the gradient
+
+454
+00:28:35,333 --> 00:28:36,750
+of the log
+probabilities, which is
+
+455
+00:28:36,750 --> 00:28:39,840
+the same thing we saw in the
+policy gradient algorithms.
+
+456
+00:28:39,840 --> 00:28:45,570
+The log probabilities
+of executing pi.
+
+457
+00:28:57,890 --> 00:29:00,110
+Yeah.
+
+458
+00:29:00,110 --> 00:29:03,080
+Gradient of the log probability.
+
+459
+00:29:03,080 --> 00:29:05,920
+I'm not trying to give you
+enough to completely get this.
+
+460
+00:29:05,920 --> 00:29:07,670
+But just I want you
+to know that it exists
+
+461
+00:29:07,670 --> 00:29:10,250
+and know where to find it.
+
+462
+00:29:10,250 --> 00:29:13,700
+And what it reveals is
+a very nice relationship
+
+463
+00:29:13,700 --> 00:29:18,680
+between the Q function
+and the gradients
+
+464
+00:29:18,680 --> 00:29:21,050
+that we were already computing
+in our reinforced type
+
+465
+00:29:21,050 --> 00:29:22,340
+algorithms.
+
+466
+00:29:22,340 --> 00:29:23,810
+OK?
+
+467
+00:29:23,810 --> 00:29:26,975
+And it turns out an
+update of the form--
+
+468
+00:29:52,520 --> 00:29:55,898
+this is gradient of the
+log probabilities again.
+
+469
+00:29:55,898 --> 00:29:56,690
+I'll just write it.
+
+470
+00:30:05,646 --> 00:30:08,000
+That would be doing
+gradient descent on this
+
+471
+00:30:08,000 --> 00:30:10,310
+if you're running
+from sample paths.
+
+472
+00:30:10,310 --> 00:30:15,140
+This term disappears if
+I'm just pulling x and u
+
+473
+00:30:15,140 --> 00:30:17,240
+from the distribution
+that happens
+
+474
+00:30:17,240 --> 00:30:22,340
+when I run the system that gives
+me this stationary distribution
+
+475
+00:30:22,340 --> 00:30:24,470
+coefficient for free.
+
+476
+00:30:24,470 --> 00:30:25,460
+OK?
+
+477
+00:30:25,460 --> 00:30:28,340
+And then if I could
+somehow multiply the true Q
+
+478
+00:30:28,340 --> 00:30:31,520
+function times my
+eligibility-- this one,
+
+479
+00:30:31,520 --> 00:30:33,290
+I definitely have access to.
+
+480
+00:30:33,290 --> 00:30:39,170
+This one, I can only guess,
+because I have access
+
+481
+00:30:39,170 --> 00:30:41,030
+to my policy.
+
+482
+00:30:41,030 --> 00:30:42,080
+I can compute that.
+
+483
+00:30:46,730 --> 00:30:48,954
+But this guy, I
+have to estimate.
+
+484
+00:30:53,800 --> 00:30:54,850
+OK?
+
+485
+00:30:54,850 --> 00:30:58,270
+So if I put a hat on
+there, then that's
+
+486
+00:30:58,270 --> 00:31:03,790
+actually a good estimator
+of the policy gradient using
+
+487
+00:31:03,790 --> 00:31:06,220
+an approximate Q function.
+
+488
+00:31:06,220 --> 00:31:11,020
+And in the case where you hold
+up your updates for a long time
+
+489
+00:31:11,020 --> 00:31:13,990
+and then make an estimate
+in an episodic case,
+
+490
+00:31:13,990 --> 00:31:18,230
+it actually results in
+that actual algorithm.
+
+491
+00:31:18,230 --> 00:31:18,730
+OK?
+
+492
+00:31:24,320 --> 00:31:26,540
+Getting to that from with
+a more detailed explanation
+
+493
+00:31:26,540 --> 00:31:27,600
+is painful.
+
+494
+00:31:27,600 --> 00:31:30,430
+But it's good to know.
+
+495
+00:31:30,430 --> 00:31:32,180
+I think the way you're
+going to appreciate
+
+496
+00:31:32,180 --> 00:31:34,310
+actor critic algorithms,
+though, is by seeing them work.
+
+497
+00:31:34,310 --> 00:31:34,810
+OK?
+
+498
+00:31:34,810 --> 00:31:41,300
+So let me show you how I
+made them work on a walking
+
+499
+00:31:41,300 --> 00:31:43,625
+robot for my thesis.
+
+500
+00:31:43,625 --> 00:31:44,690
+I've already done this.
+
+501
+00:31:44,690 --> 00:31:45,769
+Is it going to turn on?
+
+502
+00:32:16,305 --> 00:32:18,430
+Since I think everybody's
+here, maybe we should do,
+
+503
+00:32:18,430 --> 00:32:21,270
+while it's booting, I'll
+do a quick context switch.
+
+504
+00:32:21,270 --> 00:32:22,830
+Let's figure out
+projects real quick.
+
+505
+00:32:22,830 --> 00:32:23,788
+And then we'll go back.
+
+506
+00:32:23,788 --> 00:32:25,538
+I don't want to run
+out of time and forget
+
+507
+00:32:25,538 --> 00:32:27,600
+to say all the last
+details about the projects.
+
+508
+00:32:27,600 --> 00:32:28,100
+Yeah?
+
+509
+00:32:30,590 --> 00:32:34,940
+Somehow, I never remember
+to post the syllabus
+
+510
+00:32:34,940 --> 00:32:36,950
+with all the dates on there.
+
+511
+00:32:36,950 --> 00:32:38,510
+We're posting it now.
+
+512
+00:32:38,510 --> 00:32:39,980
+But I can't believe
+I didn't post
+
+513
+00:32:39,980 --> 00:32:42,380
+a long time ago on the website.
+
+514
+00:32:42,380 --> 00:32:45,590
+But I hope you know that the
+end of term is coming fast.
+
+515
+00:32:45,590 --> 00:32:47,528
+Yeah?
+
+516
+00:32:47,528 --> 00:32:49,070
+And you know you're
+doing a write up.
+
+517
+00:32:49,070 --> 00:32:49,820
+Right?
+
+518
+00:32:49,820 --> 00:32:52,520
+And that write up,
+we're going to say
+
+519
+00:32:52,520 --> 00:32:56,480
+that the 21st,
+which is basically
+
+520
+00:32:56,480 --> 00:33:03,290
+the last day I can possibly
+still grade them by,
+
+521
+00:33:03,290 --> 00:33:06,980
+the write up as described, which
+is sort of I said six pages--
+
+522
+00:33:06,980 --> 00:33:09,380
+sort of an [INAUDIBLE]
+type format--
+
+523
+00:33:09,380 --> 00:33:12,290
+is going to be due
+on May 21 online.
+
+524
+00:33:20,490 --> 00:33:21,510
+OK.
+
+525
+00:33:21,510 --> 00:33:26,052
+But next week, last week
+of term already, we're
+
+526
+00:33:26,052 --> 00:33:28,260
+going to try to do oral
+presentations so you guys can
+
+527
+00:33:28,260 --> 00:33:29,700
+tell me--
+
+528
+00:33:29,700 --> 00:33:32,820
+eight minutes each is
+what works out to be.
+
+529
+00:33:32,820 --> 00:33:35,740
+You get to tell us what
+you've been working on.
+
+530
+00:33:35,740 --> 00:33:36,240
+OK?
+
+531
+00:33:50,280 --> 00:33:53,580
+For each project,
+there are a few of you
+
+532
+00:33:53,580 --> 00:33:55,320
+that are working in pairs.
+
+533
+00:33:55,320 --> 00:33:59,130
+But we'll still just do
+eight minutes per project.
+
+534
+00:33:59,130 --> 00:34:01,140
+And we have 19 total projects.
+
+535
+00:34:05,400 --> 00:34:07,710
+So I figure we do eight--
+
+536
+00:34:11,130 --> 00:34:19,469
+sorry, nine-- next Thursday,
+which is going to be the 14th.
+
+537
+00:34:19,469 --> 00:34:20,100
+Is that right?
+
+538
+00:34:20,100 --> 00:34:20,600
+5-14.
+
+539
+00:34:26,969 --> 00:34:31,870
+And nine on 5-12,
+working back here,
+
+540
+00:34:31,870 --> 00:34:35,880
+which leaves some unlucky son
+of a gun going on Thursday.
+
+541
+00:34:43,447 --> 00:34:45,030
+And the way I've
+always done this is I
+
+542
+00:34:45,030 --> 00:34:51,630
+have a MATLAB script here that
+has everybody's name in it.
+
+543
+00:34:51,630 --> 00:34:52,739
+Yeah.
+
+544
+00:34:52,739 --> 00:34:53,980
+Why is it not on here?
+
+545
+00:34:53,980 --> 00:34:54,480
+OK.
+
+546
+00:34:58,230 --> 00:35:01,140
+I have a MATLAB script
+with all your names in it.
+
+547
+00:35:01,140 --> 00:35:01,650
+OK?
+
+548
+00:35:01,650 --> 00:35:05,970
+And I'm going to do a
+rand perm on the names.
+
+549
+00:35:05,970 --> 00:35:09,560
+And it'll print up
+what day you're going.
+
+550
+00:35:09,560 --> 00:35:11,310
+STUDENT: Maybe in
+fairness to that person,
+
+551
+00:35:11,310 --> 00:35:13,620
+would we all be happy
+to stay an extra eight
+
+552
+00:35:13,620 --> 00:35:15,630
+minutes on whatever it is?
+
+553
+00:35:15,630 --> 00:35:16,802
+Tuesday?
+
+554
+00:35:16,802 --> 00:35:18,510
+RUSS TEDRAKE: Let's
+do it this way first.
+
+555
+00:35:18,510 --> 00:35:19,718
+And then we'll figure it out.
+
+556
+00:35:19,718 --> 00:35:22,690
+[LAUGHTER]
+
+557
+00:35:22,690 --> 00:35:26,072
+And yes.
+
+558
+00:35:26,072 --> 00:35:27,780
+So I'm going to call
+rand perm in MATLAB.
+
+559
+00:35:27,780 --> 00:35:29,760
+And for dramatic
+effect this year,
+
+560
+00:35:29,760 --> 00:35:34,110
+I've added pause statements
+between the print commands.
+
+561
+00:35:34,110 --> 00:35:35,040
+[LAUGHTER]
+
+562
+00:35:35,040 --> 00:35:37,800
+So we should have a good
+time with this, I think.
+
+563
+00:35:37,800 --> 00:35:39,850
+I will, at least.
+
+564
+00:35:39,850 --> 00:35:40,350
+OK.
+
+565
+00:35:40,350 --> 00:35:40,850
+Good.
+
+566
+00:35:43,260 --> 00:35:44,610
+Let's make this nice and big.
+
+567
+00:35:48,210 --> 00:35:50,180
+I actually was going to
+just use a few slides
+
+568
+00:35:50,180 --> 00:35:51,180
+from the middle of this.
+
+569
+00:35:51,180 --> 00:35:53,760
+But I thought I'd at least
+let you see the motivation
+
+570
+00:35:53,760 --> 00:35:55,048
+behind it, which very well.
+
+571
+00:35:55,048 --> 00:35:56,340
+And I'll go through it quickly.
+
+572
+00:35:56,340 --> 00:36:00,900
+But just to see at least
+my take on it in 2005,
+
+573
+00:36:00,900 --> 00:36:03,980
+which hasn't
+changed a whole lot.
+
+574
+00:36:03,980 --> 00:36:04,890
+It's matured, I hope.
+
+575
+00:36:04,890 --> 00:36:08,670
+But I've told you
+about walking robots.
+
+576
+00:36:08,670 --> 00:36:10,740
+We spent more time talking
+about passive walkers
+
+577
+00:36:10,740 --> 00:36:13,860
+than we talked about some
+of the other approaches.
+
+578
+00:36:13,860 --> 00:36:16,360
+But there's actually a lot of
+good walking robots out there.
+
+579
+00:36:16,360 --> 00:36:18,193
+Even in 2005, there
+were a lot of good ones.
+
+580
+00:36:18,193 --> 00:36:19,662
+This one is M2 from the Leg Lab.
+
+581
+00:36:19,662 --> 00:36:21,120
+The wiring could
+have been cleaner.
+
+582
+00:36:21,120 --> 00:36:24,522
+But it's actually a
+pretty beautiful robot
+
+583
+00:36:24,522 --> 00:36:25,230
+in a lot of ways.
+
+584
+00:36:25,230 --> 00:36:26,610
+The simulations of it are great.
+
+585
+00:36:26,610 --> 00:36:28,530
+It hasn't walked
+very nicely yet.
+
+586
+00:36:28,530 --> 00:36:30,760
+But it's a detail.
+
+587
+00:36:30,760 --> 00:36:33,060
+[LAUGHTER]
+
+588
+00:36:33,060 --> 00:36:36,493
+Honda's ASIMO had sort of the
+same sort of humble beginnings.
+
+589
+00:36:36,493 --> 00:36:38,160
+As you can imagine,
+it's not really fair
+
+590
+00:36:38,160 --> 00:36:40,590
+that academics have to compete
+with people like Honda.
+
+591
+00:36:40,590 --> 00:36:41,100
+Right?
+
+592
+00:36:41,100 --> 00:36:42,840
+I mean, so our robots
+looked like what
+
+593
+00:36:42,840 --> 00:36:43,933
+you saw on the last page.
+
+594
+00:36:43,933 --> 00:36:45,600
+And ASIMO looks like
+what it looks like.
+
+595
+00:36:45,600 --> 00:36:48,190
+But it's kind of fun to
+see where ASIMO came from.
+
+596
+00:36:48,190 --> 00:36:50,620
+So this is ASIMO 0.000.
+
+597
+00:36:50,620 --> 00:36:51,120
+Right?
+
+598
+00:36:51,120 --> 00:36:53,010
+And this is actually
+the progression
+
+599
+00:36:53,010 --> 00:36:54,405
+of their ASIMO robots.
+
+600
+00:36:58,630 --> 00:37:01,210
+That's the first one they
+told the world about in '97.
+
+601
+00:37:01,210 --> 00:37:03,400
+Rocked the world of robotics.
+
+602
+00:37:03,400 --> 00:37:04,960
+I was in the Leg Lab, remember.
+
+603
+00:37:04,960 --> 00:37:07,777
+At the time, we were
+kind of like, oh wow.
+
+604
+00:37:07,777 --> 00:37:08,360
+They did that?
+
+605
+00:37:08,360 --> 00:37:08,860
+Wow.
+
+606
+00:37:08,860 --> 00:37:11,920
+That sort of certain changes
+our view of the world.
+
+607
+00:37:11,920 --> 00:37:13,360
+That's P3.
+
+608
+00:37:13,360 --> 00:37:14,590
+And that's ASIMO.
+
+609
+00:37:14,590 --> 00:37:15,580
+Right?
+
+610
+00:37:15,580 --> 00:37:19,587
+Really, really still one of the
+most beautiful robots around.
+
+611
+00:37:19,587 --> 00:37:21,170
+You know about
+under-actuated systems.
+
+612
+00:37:21,170 --> 00:37:22,420
+I don't have to tell you that.
+
+613
+00:37:22,420 --> 00:37:24,550
+You know about acrobots.
+
+614
+00:37:24,550 --> 00:37:27,910
+You know walking
+is under-actuated.
+
+615
+00:37:27,910 --> 00:37:28,540
+Right?
+
+616
+00:37:28,540 --> 00:37:30,457
+Just to say it again--
+and I said it quickly--
+
+617
+00:37:30,457 --> 00:37:33,610
+but essentially,
+the way ASIMO works
+
+618
+00:37:33,610 --> 00:37:36,370
+is they are trying to
+avoid under-actuation.
+
+619
+00:37:36,370 --> 00:37:37,115
+Right?
+
+620
+00:37:37,115 --> 00:37:38,740
+When you watch videos
+of ASIMO walking,
+
+621
+00:37:38,740 --> 00:37:40,840
+it's always got its
+foot flat on the ground.
+
+622
+00:37:40,840 --> 00:37:44,292
+There's an exception where it
+runs with an [? arrow ?] phase
+
+623
+00:37:44,292 --> 00:37:46,000
+that you need a high
+speed camera to see.
+
+624
+00:37:46,000 --> 00:37:46,500
+But--
+
+625
+00:37:46,500 --> 00:37:49,530
+[LAUGHTER]
+
+626
+00:37:49,530 --> 00:37:51,880
+It's true.
+
+627
+00:37:51,880 --> 00:37:54,167
+And that's just a
+small sort of deviation
+
+628
+00:37:54,167 --> 00:37:56,500
+where they sort of turn off
+the stability of the control
+
+629
+00:37:56,500 --> 00:37:57,470
+system for long enough.
+
+630
+00:37:57,470 --> 00:37:58,485
+And they can recover.
+
+631
+00:37:58,485 --> 00:37:59,860
+Their controller
+is robust enough
+
+632
+00:37:59,860 --> 00:38:02,380
+in the flat on the
+ground phase that they
+
+633
+00:38:02,380 --> 00:38:05,620
+can catch small
+disturbances which
+
+634
+00:38:05,620 --> 00:38:07,930
+are their uncontrolled
+aerial phase.
+
+635
+00:38:07,930 --> 00:38:11,843
+So for the most part, they keep
+their foot flat on the ground.
+
+636
+00:38:11,843 --> 00:38:14,260
+They assume that their foot
+is bolted to the ground, which
+
+637
+00:38:14,260 --> 00:38:15,790
+would make them fully actuated.
+
+638
+00:38:15,790 --> 00:38:16,450
+Right?
+
+639
+00:38:16,450 --> 00:38:17,950
+And then they do a lot
+of work to make sure
+
+640
+00:38:17,950 --> 00:38:19,325
+that that assumption
+stays valid.
+
+641
+00:38:19,325 --> 00:38:21,965
+So they're constantly estimating
+the center of pressure
+
+642
+00:38:21,965 --> 00:38:24,340
+of that foot and trying to
+keep it inside the foot, which
+
+643
+00:38:24,340 --> 00:38:26,067
+means the foot will not tip.
+
+644
+00:38:26,067 --> 00:38:28,150
+And this is if you've heard
+of ZMP control, that's
+
+645
+00:38:28,150 --> 00:38:29,450
+the ZMP control idea.
+
+646
+00:38:29,450 --> 00:38:30,190
+OK?
+
+647
+00:38:30,190 --> 00:38:32,800
+And then they do good
+robotics in between there.
+
+648
+00:38:32,800 --> 00:38:35,050
+They're designing desired
+trajectories carefully.
+
+649
+00:38:35,050 --> 00:38:37,300
+They're keeping the knees
+bent to avoid singularities.
+
+650
+00:38:37,300 --> 00:38:40,120
+They're doing some--
+depends on the story.
+
+651
+00:38:40,120 --> 00:38:43,490
+I've heard good
+claims that they do
+
+652
+00:38:43,490 --> 00:38:45,490
+very smart adaptive
+trajectory tracking control.
+
+653
+00:38:45,490 --> 00:38:47,410
+I've heard more recently
+that they just do PD control.
+
+654
+00:38:47,410 --> 00:38:49,810
+And that's good enough because
+they've got these enormous gear
+
+655
+00:38:49,810 --> 00:38:50,410
+ratios.
+
+656
+00:38:50,410 --> 00:38:53,320
+And that's good enough.
+
+657
+00:38:53,320 --> 00:38:54,130
+OK.
+
+658
+00:38:54,130 --> 00:38:57,160
+So you've seen ASIMO working.
+
+659
+00:38:59,770 --> 00:39:02,540
+The problem with it is that
+it's really inefficient.
+
+660
+00:39:02,540 --> 00:39:03,040
+Right?
+
+661
+00:39:03,040 --> 00:39:04,900
+Uses way too much energy.
+
+662
+00:39:04,900 --> 00:39:06,040
+Walks slowly.
+
+663
+00:39:06,040 --> 00:39:07,630
+And has no robustness.
+
+664
+00:39:07,630 --> 00:39:08,328
+Right?
+
+665
+00:39:08,328 --> 00:39:09,370
+I've told you that story.
+
+666
+00:39:12,170 --> 00:39:14,975
+Here's one view of everything
+we've been doing in this class.
+
+667
+00:39:14,975 --> 00:39:16,600
+The fundamental thing
+that ASIMO is not
+
+668
+00:39:16,600 --> 00:39:22,390
+doing in its control system
+is thinking about the future.
+
+669
+00:39:22,390 --> 00:39:23,020
+OK?
+
+670
+00:39:23,020 --> 00:39:26,008
+So if you were taking a
+reinforcement learning class,
+
+671
+00:39:26,008 --> 00:39:28,550
+you would have started off with
+talking about delayed reward.
+
+672
+00:39:28,550 --> 00:39:31,010
+And that's what makes the
+learning problem difficult.
+
+673
+00:39:31,010 --> 00:39:31,510
+Right?
+
+674
+00:39:31,510 --> 00:39:33,892
+I didn't use the words
+delayed reward in this class.
+
+675
+00:39:33,892 --> 00:39:35,600
+But it's actually
+exactly the same thing.
+
+676
+00:39:35,600 --> 00:39:37,142
+The fact that we're
+optimizing a cost
+
+677
+00:39:37,142 --> 00:39:41,530
+function over some
+interval into the future
+
+678
+00:39:41,530 --> 00:39:43,450
+means that I'm thinking
+about the future.
+
+679
+00:39:43,450 --> 00:39:44,800
+I'm planning over the future.
+
+680
+00:39:44,800 --> 00:39:47,740
+I'm doing long term planning.
+
+681
+00:39:47,740 --> 00:39:50,470
+And if you think about having to
+wait to the end of that future
+
+682
+00:39:50,470 --> 00:39:52,600
+to figure out if what
+you did made sense,
+
+683
+00:39:52,600 --> 00:39:54,100
+that's the delayed
+reward problem.
+
+684
+00:39:54,100 --> 00:39:57,970
+It's exactly the thing that
+reinforcement learning folks
+
+685
+00:39:57,970 --> 00:40:00,820
+use to convince other people
+that reinforcement learning is
+
+686
+00:40:00,820 --> 00:40:01,760
+hard.
+
+687
+00:40:01,760 --> 00:40:02,260
+OK?
+
+688
+00:40:02,260 --> 00:40:04,190
+So the problem in
+walking is that you
+
+689
+00:40:04,190 --> 00:40:06,190
+could do better if you
+stopped just trying to be
+
+690
+00:40:06,190 --> 00:40:07,090
+fully actuated all the time.
+
+691
+00:40:07,090 --> 00:40:08,440
+We start thinking
+about the future.
+
+692
+00:40:08,440 --> 00:40:10,065
+Think about long term
+stability instead
+
+693
+00:40:10,065 --> 00:40:11,600
+of trying to be fully actuated.
+
+694
+00:40:11,600 --> 00:40:12,100
+OK?
+
+695
+00:40:15,935 --> 00:40:18,560
+The hoppers, there are examples
+of really dynamically dexterous
+
+696
+00:40:18,560 --> 00:40:20,190
+locomotion.
+
+697
+00:40:20,190 --> 00:40:22,580
+But there's not general
+solutions to that.
+
+698
+00:40:22,580 --> 00:40:24,720
+That's what this class
+has been trying to go for.
+
+699
+00:40:24,720 --> 00:40:26,630
+So we do optimal control.
+
+700
+00:40:26,630 --> 00:40:30,080
+We would love to have
+analytical approximations
+
+701
+00:40:30,080 --> 00:40:32,840
+for optimal control for
+full humanoids like ASIMO.
+
+702
+00:40:32,840 --> 00:40:33,770
+Love to have it.
+
+703
+00:40:33,770 --> 00:40:34,670
+Don't have it.
+
+704
+00:40:34,670 --> 00:40:36,590
+We're not even close.
+
+705
+00:40:36,590 --> 00:40:38,905
+You know the tools
+that we have now.
+
+706
+00:40:38,905 --> 00:40:41,030
+But even if we did have an
+analytical approximation
+
+707
+00:40:41,030 --> 00:40:43,113
+of optimal control-- maybe
+we will in a few years,
+
+708
+00:40:43,113 --> 00:40:44,630
+who knows--
+
+709
+00:40:44,630 --> 00:40:47,400
+we'd still like
+to have learning.
+
+710
+00:40:47,400 --> 00:40:47,900
+Right?
+
+711
+00:40:47,900 --> 00:40:49,692
+All this model free
+stuff is still valuable
+
+712
+00:40:49,692 --> 00:40:52,700
+because, if the world
+changes, you'd like to adapt.
+
+713
+00:40:52,700 --> 00:40:54,290
+Right?
+
+714
+00:40:54,290 --> 00:40:56,030
+So my thesis was
+basically about trying
+
+715
+00:40:56,030 --> 00:40:59,420
+to show that I could
+do online optimization
+
+716
+00:40:59,420 --> 00:41:02,640
+on a real system in real time.
+
+717
+00:41:02,640 --> 00:41:05,810
+And I told you about
+Andrews Helicopters.
+
+718
+00:41:05,810 --> 00:41:07,520
+There's a lot of
+work on Sony Dogs
+
+719
+00:41:07,520 --> 00:41:09,700
+that do loop trajectory
+optimization from trial
+
+720
+00:41:09,700 --> 00:41:10,200
+and error.
+
+721
+00:41:10,200 --> 00:41:11,475
+So Sony came out.
+
+722
+00:41:11,475 --> 00:41:13,100
+And they had this
+sort of walking gait.
+
+723
+00:41:13,100 --> 00:41:13,370
+Right?
+
+724
+00:41:13,370 --> 00:41:15,020
+And then people start
+using them for soccer.
+
+725
+00:41:15,020 --> 00:41:16,670
+And they said, how fast
+can we make this thing go?
+
+726
+00:41:16,670 --> 00:41:18,128
+It turns out the
+fastest thing they
+
+727
+00:41:18,128 --> 00:41:20,540
+do on an IBO is to make it
+walk on its knees like this.
+
+728
+00:41:20,540 --> 00:41:22,250
+And they found that from
+a policy gradient search
+
+729
+00:41:22,250 --> 00:41:24,458
+where they basically made
+the dog walk back and forth
+
+730
+00:41:24,458 --> 00:41:26,600
+between sort of a pink
+cone and a blue cone,
+
+731
+00:41:26,600 --> 00:41:30,745
+just back and forth all day
+long doing policy gradient.
+
+732
+00:41:30,745 --> 00:41:32,870
+And they figured out this
+is a nice fast way to go.
+
+733
+00:41:32,870 --> 00:41:34,578
+And then they won the
+soccer competition.
+
+734
+00:41:34,578 --> 00:41:35,507
+[LAUGHTER]
+
+735
+00:41:35,507 --> 00:41:37,340
+Not actually sure if
+that last part is true.
+
+736
+00:41:37,340 --> 00:41:38,215
+I don't know who won.
+
+737
+00:41:38,215 --> 00:41:41,180
+But I'd like to think it's true.
+
+738
+00:41:41,180 --> 00:41:43,890
+There are people that do
+a lot of walking robots.
+
+739
+00:41:43,890 --> 00:41:47,090
+I think I showed you the
+UNH bipeds that were some
+
+740
+00:41:47,090 --> 00:41:50,150
+of the first learning bipeds.
+
+741
+00:41:50,150 --> 00:41:51,547
+Right?
+
+742
+00:41:51,547 --> 00:41:52,880
+I told you about these all term.
+
+743
+00:41:52,880 --> 00:41:53,060
+Right?
+
+744
+00:41:53,060 --> 00:41:55,070
+So there's large continuously
+in action spaces,
+
+745
+00:41:55,070 --> 00:41:56,600
+complex dynamics.
+
+746
+00:41:56,600 --> 00:41:59,660
+We want to minimize
+the number of trials.
+
+747
+00:41:59,660 --> 00:42:02,357
+The dynamics are
+tough for walking.
+
+748
+00:42:02,357 --> 00:42:03,440
+Because of the collisions.
+
+749
+00:42:03,440 --> 00:42:06,090
+And there's this delayed reward.
+
+750
+00:42:06,090 --> 00:42:07,790
+So in my thesis,
+the thing I did was
+
+751
+00:42:07,790 --> 00:42:10,112
+tried to build a robot
+that learned well.
+
+752
+00:42:10,112 --> 00:42:10,820
+That was my goal.
+
+753
+00:42:10,820 --> 00:42:13,538
+I simultaneously designed
+a good learning system
+
+754
+00:42:13,538 --> 00:42:15,830
+but also built a robot where
+learning would work really
+
+755
+00:42:15,830 --> 00:42:16,340
+well.
+
+756
+00:42:16,340 --> 00:42:18,290
+Instead of working on ASIMO,
+I worked on this little dinky
+
+757
+00:42:18,290 --> 00:42:19,340
+thing I call Toddler.
+
+758
+00:42:19,340 --> 00:42:21,710
+Yeah?
+
+759
+00:42:21,710 --> 00:42:24,510
+And I spent a lot of time
+on that little robot.
+
+760
+00:42:24,510 --> 00:42:26,570
+So you know about
+passive walking.
+
+761
+00:42:32,960 --> 00:42:35,320
+This is the simplest, this
+is the first passive walker I
+
+762
+00:42:35,320 --> 00:42:38,870
+built. Passive walking 101 here.
+
+763
+00:42:38,870 --> 00:42:40,120
+So it's sort of a funny story.
+
+764
+00:42:40,120 --> 00:42:42,427
+I mean, I was in a
+neuroscience lab.
+
+765
+00:42:42,427 --> 00:42:43,510
+I worked with the Leg Lab.
+
+766
+00:42:43,510 --> 00:42:46,060
+But my advisor was
+in neuroscience.
+
+767
+00:42:46,060 --> 00:42:49,482
+They spent lots of money on
+microscopes and lots of money.
+
+768
+00:42:49,482 --> 00:42:51,940
+So at some point, I said, can
+I spend a little bit of money
+
+769
+00:42:51,940 --> 00:42:52,990
+on a machine shop?
+
+770
+00:42:52,990 --> 00:42:55,300
+And I promise it'll cost
+less than that lens you just
+
+771
+00:42:55,300 --> 00:42:57,033
+spent on that one microscope?
+
+772
+00:42:57,033 --> 00:42:59,200
+And so, he gave me a little
+bit of money to go down.
+
+773
+00:42:59,200 --> 00:43:02,057
+I was basically in a closet
+at the end of the hall.
+
+774
+00:43:02,057 --> 00:43:03,640
+My tools looked like
+things like this.
+
+775
+00:43:03,640 --> 00:43:05,807
+Like, I couldn't even afford
+another piece of rubber
+
+776
+00:43:05,807 --> 00:43:08,020
+when I cut off a corner.
+
+777
+00:43:08,020 --> 00:43:11,410
+And that's actually a CD rack
+that I got rid of somewhere.
+
+778
+00:43:11,410 --> 00:43:13,090
+And that's my little
+wooden ramp that I
+
+779
+00:43:13,090 --> 00:43:15,520
+was using for passive walking.
+
+780
+00:43:15,520 --> 00:43:17,980
+But I built these
+little passive walkers
+
+781
+00:43:17,980 --> 00:43:23,680
+with a little sureline CNC
+mill that walked stably
+
+782
+00:43:23,680 --> 00:43:25,160
+in 3D down a small ramp.
+
+783
+00:43:25,160 --> 00:43:25,660
+Yeah?
+
+784
+00:43:27,580 --> 00:43:29,080
+I don't know why
+it's playing badly.
+
+785
+00:43:33,133 --> 00:43:34,300
+So that was the first steps.
+
+786
+00:43:34,300 --> 00:43:37,650
+If we're going to do
+walking, it's not hard.
+
+787
+00:43:37,650 --> 00:43:40,300
+Those feet are
+actually CNC-ed out.
+
+788
+00:43:40,300 --> 00:43:42,355
+I spent a lot of
+time on those feet.
+
+789
+00:43:42,355 --> 00:43:44,380
+They're a curvature that
+was designed carefully
+
+790
+00:43:44,380 --> 00:43:46,060
+to get stability.
+
+791
+00:43:46,060 --> 00:43:47,848
+STUDENT: It's just a
+simple [INAUDIBLE]..
+
+792
+00:43:47,848 --> 00:43:48,640
+RUSS TEDRAKE: Yeah.
+
+793
+00:43:48,640 --> 00:43:50,680
+Just a pin joint.
+
+794
+00:43:50,680 --> 00:43:54,070
+That's a walking robot.
+
+795
+00:43:54,070 --> 00:43:57,580
+At the time, people had been
+working on passive walkers
+
+796
+00:43:57,580 --> 00:43:58,930
+for a long time.
+
+797
+00:43:58,930 --> 00:44:01,108
+But nobody had sort of
+done the obvious thing,
+
+798
+00:44:01,108 --> 00:44:03,400
+which is add a few motors
+and make it walk on the flat.
+
+799
+00:44:03,400 --> 00:44:04,598
+Nobody had done it.
+
+800
+00:44:04,598 --> 00:44:06,640
+So that's what I set out
+to do with the learning.
+
+801
+00:44:09,665 --> 00:44:11,790
+Turns out a few people did
+it around the same time.
+
+802
+00:44:11,790 --> 00:44:13,340
+So we wrote a paper together.
+
+803
+00:44:13,340 --> 00:44:17,570
+But the basic story was we went
+from this simple thing that
+
+804
+00:44:17,570 --> 00:44:20,270
+was passive to the
+actuated version.
+
+805
+00:44:20,270 --> 00:44:22,610
+The hip joint here on this
+robot is still passive.
+
+806
+00:44:22,610 --> 00:44:23,720
+OK?
+
+807
+00:44:23,720 --> 00:44:25,280
+Put actuators in at the ankle.
+
+808
+00:44:25,280 --> 00:44:27,500
+So we had a new degrees
+of freedom with actuators
+
+809
+00:44:27,500 --> 00:44:29,210
+so that it could
+push off the ground
+
+810
+00:44:29,210 --> 00:44:32,210
+but still keep its
+mostly passive gait.
+
+811
+00:44:32,210 --> 00:44:35,180
+Actually, it's extruded
+stock here stacked
+
+812
+00:44:35,180 --> 00:44:39,890
+with gyros and rate gyros
+and all the kinds of sensors.
+
+813
+00:44:39,890 --> 00:44:43,627
+It's got a 700 megahertz
+Pentium in its belly,
+
+814
+00:44:43,627 --> 00:44:44,460
+which kind of stung.
+
+815
+00:44:44,460 --> 00:44:47,000
+In retrospect, I couldn't make
+very many efficiency arguments
+
+816
+00:44:47,000 --> 00:44:48,830
+about the robot because it's
+carrying a computer the size
+
+817
+00:44:48,830 --> 00:44:49,872
+of a desktop at the time.
+
+818
+00:44:49,872 --> 00:44:50,990
+You know?
+
+819
+00:44:50,990 --> 00:44:54,000
+And so, there's five
+batteries total on the system.
+
+820
+00:44:54,000 --> 00:44:54,500
+Right?
+
+821
+00:44:54,500 --> 00:44:56,042
+Those four are
+powering the computer.
+
+822
+00:44:56,042 --> 00:44:59,120
+There's one little one in there
+that's powering the motors.
+
+823
+00:44:59,120 --> 00:45:01,520
+And still those big
+four drained like
+
+824
+00:45:01,520 --> 00:45:05,070
+50% faster than the other ones.
+
+825
+00:45:05,070 --> 00:45:06,740
+But it's computationally
+powerful.
+
+826
+00:45:06,740 --> 00:45:06,920
+Right?
+
+827
+00:45:06,920 --> 00:45:08,753
+I actually ran a little
+web server off there
+
+828
+00:45:08,753 --> 00:45:10,400
+just because I
+thought it was funny.
+
+829
+00:45:10,400 --> 00:45:11,270
+[LAUGHTER]
+
+830
+00:45:11,270 --> 00:45:15,373
+And the arms look like I've
+added degrees of freedom.
+
+831
+00:45:15,373 --> 00:45:16,790
+But actually,
+they're mechanically
+
+832
+00:45:16,790 --> 00:45:17,998
+attached to the opposite leg.
+
+833
+00:45:17,998 --> 00:45:20,780
+So when I move this,
+that bar across the front
+
+834
+00:45:20,780 --> 00:45:22,940
+was making that coupling
+happen, which is
+
+835
+00:45:22,940 --> 00:45:24,320
+important for the 3D walking.
+
+836
+00:45:24,320 --> 00:45:25,700
+Because if you
+want to walk down,
+
+837
+00:45:25,700 --> 00:45:28,630
+if you have no arms actually
+and you swing a big heavy foot,
+
+838
+00:45:28,630 --> 00:45:30,380
+then you're going to
+get a big yaw moment.
+
+839
+00:45:30,380 --> 00:45:32,283
+And the robots
+often walk like this
+
+840
+00:45:32,283 --> 00:45:33,700
+and went off the
+side of the ramp.
+
+841
+00:45:33,700 --> 00:45:36,200
+So you put the big batteries
+on the side and then everything
+
+842
+00:45:36,200 --> 00:45:36,950
+walks straight.
+
+843
+00:45:36,950 --> 00:45:38,427
+And it's good.
+
+844
+00:45:38,427 --> 00:45:40,260
+So in total, there's
+nine degrees of freedom
+
+845
+00:45:40,260 --> 00:45:42,620
+if you count all the things
+that could possibly move.
+
+846
+00:45:42,620 --> 00:45:44,458
+And there's four motors
+to do the controls.
+
+847
+00:45:44,458 --> 00:45:45,500
+So that's under-actuated.
+
+848
+00:45:45,500 --> 00:45:46,000
+Right?
+
+849
+00:45:48,392 --> 00:45:49,600
+We've got the robot dynamics.
+
+850
+00:45:49,600 --> 00:45:50,480
+Oops.
+
+851
+00:45:50,480 --> 00:45:51,520
+I've used a Mac now.
+
+852
+00:45:51,520 --> 00:45:52,520
+I used to use a Windows.
+
+853
+00:45:52,520 --> 00:45:55,231
+So apparently my u is now O hat.
+
+854
+00:45:55,231 --> 00:45:57,540
+[LAUGHTER]
+
+855
+00:45:57,540 --> 00:45:58,107
+Sorry.
+
+856
+00:45:58,107 --> 00:45:58,940
+That's actually tau.
+
+857
+00:45:58,940 --> 00:45:59,440
+OK.
+
+858
+00:45:59,440 --> 00:46:00,450
+So tau.
+
+859
+00:46:00,450 --> 00:46:00,950
+Yeah.
+
+860
+00:46:00,950 --> 00:46:04,910
+So I had most almost the
+manipulator equations.
+
+861
+00:46:04,910 --> 00:46:07,850
+But I had to go through
+this little hobby servo.
+
+862
+00:46:07,850 --> 00:46:11,210
+So it wasn't quite the
+manipulator equation.
+
+863
+00:46:11,210 --> 00:46:14,750
+And the goal was to find a
+control policy pi that was--
+
+864
+00:46:14,750 --> 00:46:17,182
+so it was already stable
+down a small ramp.
+
+865
+00:46:17,182 --> 00:46:18,890
+And the way I formulated
+the problem is I
+
+866
+00:46:18,890 --> 00:46:20,900
+wanted to take that
+same limit cycle
+
+867
+00:46:20,900 --> 00:46:23,628
+that I could find
+experimentally down a ramp
+
+868
+00:46:23,628 --> 00:46:25,420
+and make it so it worked
+on whatever slope.
+
+869
+00:46:25,420 --> 00:46:30,020
+So make that return map
+dynamics invariant to slope.
+
+870
+00:46:30,020 --> 00:46:31,820
+And to do that, you
+need to add energy.
+
+871
+00:46:31,820 --> 00:46:34,230
+And you need to find
+a control policy.
+
+872
+00:46:34,230 --> 00:46:39,050
+So my goal was to find this
+pi, stabilize the limit cycle
+
+873
+00:46:39,050 --> 00:46:44,460
+solution that I saw downhill
+to make it work on any slope.
+
+874
+00:46:44,460 --> 00:46:49,610
+So this was just showing that
+Toddler, with its computer
+
+875
+00:46:49,610 --> 00:46:52,160
+turned off, its motors
+are turned on-- actually,
+
+876
+00:46:52,160 --> 00:46:54,125
+this one is even
+the motors are off.
+
+877
+00:46:54,125 --> 00:46:56,000
+And there's just little
+splints on the ankle.
+
+878
+00:46:56,000 --> 00:46:58,220
+Just showing that it was
+also a passive walker.
+
+879
+00:46:58,220 --> 00:47:01,310
+And showing that I dramatically
+improved my hardware experience
+
+880
+00:47:01,310 --> 00:47:04,122
+by getting a little
+proform treadmill
+
+881
+00:47:04,122 --> 00:47:05,330
+that was off of the back lot.
+
+882
+00:47:05,330 --> 00:47:08,240
+And I painted it
+yellow and stuff.
+
+883
+00:47:08,240 --> 00:47:11,430
+So this thing would
+actually walk all day long.
+
+884
+00:47:11,430 --> 00:47:11,930
+It would.
+
+885
+00:47:11,930 --> 00:47:15,590
+So it's a little trick.
+
+886
+00:47:15,590 --> 00:47:18,030
+At the very edge, in the middle,
+there's nothing going on.
+
+887
+00:47:18,030 --> 00:47:19,640
+But at the very edge
+of the treadmill,
+
+888
+00:47:19,640 --> 00:47:21,150
+I put a little lip there.
+
+889
+00:47:21,150 --> 00:47:23,330
+So if it happened to wander
+itself over to the side,
+
+890
+00:47:23,330 --> 00:47:25,080
+it had that lip and walked
+back towards the middle.
+
+891
+00:47:25,080 --> 00:47:25,730
+OK?
+
+892
+00:47:25,730 --> 00:47:28,550
+And I put a little wedge on
+the front and on the back
+
+893
+00:47:28,550 --> 00:47:31,640
+so it sort of would try to stay
+in the middle of the treadmill.
+
+894
+00:47:31,640 --> 00:47:33,473
+And that thing would
+just walk all day long.
+
+895
+00:47:33,473 --> 00:47:37,400
+It would drive you crazy hearing
+those footsteps all day long.
+
+896
+00:47:37,400 --> 00:47:38,870
+[LAUGHTER]
+
+897
+00:47:38,870 --> 00:47:39,530
+But it worked.
+
+898
+00:47:39,530 --> 00:47:40,245
+It worked well.
+
+899
+00:47:40,245 --> 00:47:41,870
+It still works today,
+most of the time.
+
+900
+00:47:44,600 --> 00:47:46,850
+So I use the words
+policy gradient.
+
+901
+00:47:46,850 --> 00:47:50,870
+But this was really an
+actor critic algorithm.
+
+902
+00:47:50,870 --> 00:47:55,250
+So I used linear, it's actually
+a very centric grid in phi.
+
+903
+00:47:55,250 --> 00:47:57,260
+But a linear function
+approximator.
+
+904
+00:47:57,260 --> 00:47:59,160
+And the basic story
+was policy gradient.
+
+905
+00:47:59,160 --> 00:47:59,660
+OK?
+
+906
+00:47:59,660 --> 00:48:04,100
+So it was something in
+between this perfectly online
+
+907
+00:48:04,100 --> 00:48:07,250
+at every dt, make an update.
+
+908
+00:48:07,250 --> 00:48:10,160
+And it was not quite the
+episodic run a trial,
+
+909
+00:48:10,160 --> 00:48:11,960
+stop, run a trial, stop.
+
+910
+00:48:11,960 --> 00:48:16,310
+The cost function was
+really a long term cost.
+
+911
+00:48:16,310 --> 00:48:18,200
+But I did it once per footstep.
+
+912
+00:48:18,200 --> 00:48:19,610
+OK?
+
+913
+00:48:19,610 --> 00:48:21,980
+So every time the robot
+literally took a footstep,
+
+914
+00:48:21,980 --> 00:48:24,860
+I would make a small change
+to the policy parameters.
+
+915
+00:48:24,860 --> 00:48:26,480
+See how well it walked.
+
+916
+00:48:26,480 --> 00:48:27,830
+See where it hit the return map.
+
+917
+00:48:27,830 --> 00:48:29,372
+And then change the
+parameters again.
+
+918
+00:48:29,372 --> 00:48:30,993
+Change the parameters again.
+
+919
+00:48:30,993 --> 00:48:32,660
+And every time that
+foot hit the ground,
+
+920
+00:48:32,660 --> 00:48:35,900
+I would evaluate the change
+in walking performance
+
+921
+00:48:35,900 --> 00:48:38,768
+and make the change in W
+based on that result. OK.
+
+922
+00:48:38,768 --> 00:48:41,060
+I'll show you the algorithm
+that I used a second, which
+
+923
+00:48:41,060 --> 00:48:43,230
+you'll now recognize.
+
+924
+00:48:43,230 --> 00:48:45,063
+So the way to think
+about that sampling in W
+
+925
+00:48:45,063 --> 00:48:46,980
+is that you're estimating
+the policy gradient.
+
+926
+00:48:46,980 --> 00:48:49,430
+And you're performing online
+stochastic gradient descent.
+
+927
+00:48:49,430 --> 00:48:50,330
+Right?
+
+928
+00:48:50,330 --> 00:48:53,600
+So the time, the way I
+described the big challenge
+
+929
+00:48:53,600 --> 00:48:55,790
+is, what is the cost
+function for walking?
+
+930
+00:48:55,790 --> 00:48:58,850
+And how do you achieve
+fast provable convergence,
+
+931
+00:48:58,850 --> 00:49:02,527
+despite noisy
+gradient estimates?
+
+932
+00:49:02,527 --> 00:49:03,860
+You guys know about return maps.
+
+933
+00:49:03,860 --> 00:49:06,830
+This is my picture of return
+maps from a long time ago.
+
+934
+00:49:09,810 --> 00:49:12,260
+So this is the Van
+der Pol Oscillator.
+
+935
+00:49:12,260 --> 00:49:14,480
+This is the return map here.
+
+936
+00:49:14,480 --> 00:49:16,610
+The important point
+here, so this is
+
+937
+00:49:16,610 --> 00:49:18,088
+the samples on the return map.
+
+938
+00:49:18,088 --> 00:49:20,630
+This is the velocity at the n-th
+crossing versus the velocity
+
+939
+00:49:20,630 --> 00:49:22,460
+at the n-th plus 1 crossing.
+
+940
+00:49:22,460 --> 00:49:25,100
+The blue line is the
+line of slope one.
+
+941
+00:49:25,100 --> 00:49:27,590
+So it's stable, the
+Van der Pol Oscillator,
+
+942
+00:49:27,590 --> 00:49:30,440
+because it's above the line
+here and below the line there.
+
+943
+00:49:30,440 --> 00:49:32,260
+And you can evaluate
+local stability
+
+944
+00:49:32,260 --> 00:49:34,010
+by linearizing and
+taking the eigenvalues.
+
+945
+00:49:34,010 --> 00:49:36,590
+We've talked about these things.
+
+946
+00:49:36,590 --> 00:49:39,620
+But I don't know if I made
+the point nicely before.
+
+947
+00:49:39,620 --> 00:49:41,870
+That if you can pick anything,
+if you want your return
+
+948
+00:49:41,870 --> 00:49:43,495
+map to look like
+anything in the world,
+
+949
+00:49:43,495 --> 00:49:45,860
+if you could pick,
+what would you pick?
+
+950
+00:49:45,860 --> 00:49:47,150
+You'd pick a flat line.
+
+951
+00:49:47,150 --> 00:49:48,200
+Right?
+
+952
+00:49:48,200 --> 00:49:50,120
+That's the deadbeat controller.
+
+953
+00:49:50,120 --> 00:49:52,790
+I used the word deadbeat.
+
+954
+00:49:52,790 --> 00:49:55,277
+So that's where my cost
+function came from.
+
+955
+00:49:55,277 --> 00:49:57,860
+The cost function that tried to
+say that the robot was walking
+
+956
+00:49:57,860 --> 00:49:58,360
+well--
+
+957
+00:50:03,000 --> 00:50:08,370
+wow-- penalized my
+instantaneous cost
+
+958
+00:50:08,370 --> 00:50:12,810
+function, penalized the square
+distance between my sample
+
+959
+00:50:12,810 --> 00:50:15,450
+on the return map and
+the desired return map,
+
+960
+00:50:15,450 --> 00:50:16,810
+which is that green line.
+
+961
+00:50:16,810 --> 00:50:17,760
+OK.
+
+962
+00:50:17,760 --> 00:50:20,130
+So basically I wanted, I
+tried to drive the system
+
+963
+00:50:20,130 --> 00:50:22,290
+to have a deadbeat controller.
+
+964
+00:50:22,290 --> 00:50:23,610
+And I did, and there's limits.
+
+965
+00:50:23,610 --> 00:50:24,930
+There's actuator limits
+that's going to mean
+
+966
+00:50:24,930 --> 00:50:25,770
+it's never going to get there.
+
+967
+00:50:25,770 --> 00:50:27,330
+But my cost function was
+trying to force that.
+
+968
+00:50:27,330 --> 00:50:28,705
+Every time I got
+a sample, it was
+
+969
+00:50:28,705 --> 00:50:31,110
+trying to push that
+sample more towards
+
+970
+00:50:31,110 --> 00:50:32,517
+the deadbeat controller.
+
+971
+00:50:38,720 --> 00:50:40,610
+Then basically, it worked.
+
+972
+00:50:40,610 --> 00:50:41,940
+It worked really well.
+
+973
+00:50:41,940 --> 00:50:44,960
+The robot began walking
+in one minute, which
+
+974
+00:50:44,960 --> 00:50:48,335
+means it started getting
+its foot cleared.
+
+975
+00:50:48,335 --> 00:50:50,210
+So the first thing, if
+I set W equal to zero,
+
+976
+00:50:50,210 --> 00:50:53,090
+it was configured so that when
+the policy parameters were
+
+977
+00:50:53,090 --> 00:50:54,620
+zero, it was a passive walker.
+
+978
+00:50:54,620 --> 00:50:56,000
+So I put it on flat.
+
+979
+00:50:56,000 --> 00:50:56,900
+I picked it up.
+
+980
+00:50:56,900 --> 00:50:58,820
+I picked it up a lot.
+
+981
+00:50:58,820 --> 00:50:59,570
+And I drop it.
+
+982
+00:50:59,570 --> 00:51:01,310
+It runs out of energy
+and stands still.
+
+983
+00:51:01,310 --> 00:51:02,852
+Because it was just
+a passive walker,
+
+984
+00:51:02,852 --> 00:51:04,730
+it's not getting energy from--
+
+985
+00:51:04,730 --> 00:51:05,790
+it's only losing energy.
+
+986
+00:51:05,790 --> 00:51:06,560
+OK?
+
+987
+00:51:06,560 --> 00:51:08,450
+So now, I pick it up.
+
+988
+00:51:08,450 --> 00:51:09,320
+I drop it.
+
+989
+00:51:09,320 --> 00:51:12,897
+And every time it takes a step,
+it's twiddling the parameters
+
+990
+00:51:12,897 --> 00:51:13,980
+at the ankle a little bit.
+
+991
+00:51:13,980 --> 00:51:14,480
+OK?
+
+992
+00:51:14,480 --> 00:51:16,590
+So it started going
+like this a little bit.
+
+993
+00:51:16,590 --> 00:51:19,580
+And then after about a minute
+of dropping it-- and quickly,
+
+994
+00:51:19,580 --> 00:51:21,480
+I wrote a script that would
+kick it into place so I stopped
+
+995
+00:51:21,480 --> 00:51:21,860
+dropping it--
+
+996
+00:51:21,860 --> 00:51:22,460
+OK.
+
+997
+00:51:22,460 --> 00:51:24,585
+So I gave a little script
+so it would go like this.
+
+998
+00:51:24,585 --> 00:51:27,740
+And in about one minute, it
+was sort of marching in place.
+
+999
+00:51:27,740 --> 00:51:28,428
+OK?
+
+1000
+00:51:28,428 --> 00:51:29,970
+And then I started
+driving it around.
+
+1001
+00:51:29,970 --> 00:51:31,050
+I had a little
+joystick which said,
+
+1002
+00:51:31,050 --> 00:51:33,000
+I want your desired
+body to go like this.
+
+1003
+00:51:33,000 --> 00:51:34,370
+And it started walking around.
+
+1004
+00:51:34,370 --> 00:51:37,860
+And in about five minutes, it
+was sort of walking around.
+
+1005
+00:51:37,860 --> 00:51:39,900
+I'll show you the
+video here in a second.
+
+1006
+00:51:39,900 --> 00:51:41,910
+And then, I said 20
+minutes for convergence.
+
+1007
+00:51:41,910 --> 00:51:42,620
+That was conservative.
+
+1008
+00:51:42,620 --> 00:51:44,120
+Most of the time,
+it was 10 minutes.
+
+1009
+00:51:44,120 --> 00:51:48,620
+It would converge to the
+policy that was locally optimal
+
+1010
+00:51:48,620 --> 00:51:49,550
+in this policy class.
+
+1011
+00:51:49,550 --> 00:51:50,980
+But it worked very well.
+
+1012
+00:51:50,980 --> 00:51:53,060
+And I just sort of sent
+it off down the hall.
+
+1013
+00:51:53,060 --> 00:51:53,960
+And it would walk.
+
+1014
+00:51:53,960 --> 00:51:55,640
+OK?
+
+1015
+00:51:55,640 --> 00:51:58,070
+And doing the
+stability analysis,
+
+1016
+00:51:58,070 --> 00:52:01,160
+it showed the learn controllers
+is considerably more stable
+
+1017
+00:52:01,160 --> 00:52:04,610
+than the controllers I
+designed by hand, which I spent
+
+1018
+00:52:04,610 --> 00:52:05,930
+a long time on those, too.
+
+1019
+00:52:08,840 --> 00:52:10,640
+And now, here's a
+really key point.
+
+1020
+00:52:10,640 --> 00:52:11,630
+OK?
+
+1021
+00:52:11,630 --> 00:52:18,587
+So you might ask, how much is
+this sort of approximate value
+
+1022
+00:52:18,587 --> 00:52:19,920
+function, how important is that?
+
+1023
+00:52:19,920 --> 00:52:21,010
+That's sort of the
+topic for today.
+
+1024
+00:52:21,010 --> 00:52:21,510
+Right?
+
+1025
+00:52:21,510 --> 00:52:24,940
+How important is this
+approximate value function?
+
+1026
+00:52:24,940 --> 00:52:29,180
+Well, it turns out, if I
+were to reset the policy,
+
+1027
+00:52:29,180 --> 00:52:31,977
+if I just set the policy
+parameters to zero again
+
+1028
+00:52:31,977 --> 00:52:34,060
+but keep the value function
+from the previous time
+
+1029
+00:52:34,060 --> 00:52:39,500
+it learned, then the whole
+thing speeds up dramatically.
+
+1030
+00:52:39,500 --> 00:52:41,420
+So instead of converging
+in 20 minutes,
+
+1031
+00:52:41,420 --> 00:52:43,190
+the thing converges
+in like two minutes.
+
+1032
+00:52:43,190 --> 00:52:44,020
+OK?
+
+1033
+00:52:44,020 --> 00:52:48,640
+So just by virtue of having
+a good value estimate there,
+
+1034
+00:52:48,640 --> 00:52:50,405
+learning goes
+dramatically faster.
+
+1035
+00:52:50,405 --> 00:52:52,030
+And it's only when
+I have to learn them
+
+1036
+00:52:52,030 --> 00:52:53,830
+both simultaneously
+that it takes more
+
+1037
+00:52:53,830 --> 00:52:56,770
+like 10 or 20 minutes.
+
+1038
+00:52:56,770 --> 00:52:59,140
+And it worked so fast that
+I never built a robot.
+
+1039
+00:52:59,140 --> 00:53:01,750
+I never built a
+model for the robot.
+
+1040
+00:53:01,750 --> 00:53:03,070
+Actually, I tried later.
+
+1041
+00:53:03,070 --> 00:53:04,130
+It's tough.
+
+1042
+00:53:04,130 --> 00:53:05,500
+The dynamics of that--
+
+1043
+00:53:05,500 --> 00:53:10,420
+I mean, it's a curved foot
+with rubber on it, right?
+
+1044
+00:53:10,420 --> 00:53:14,405
+It was just very hard
+to model accurately.
+
+1045
+00:53:14,405 --> 00:53:15,280
+And I didn't need to.
+
+1046
+00:53:15,280 --> 00:53:15,780
+It worked.
+
+1047
+00:53:15,780 --> 00:53:18,567
+It learned very quickly.
+
+1048
+00:53:18,567 --> 00:53:20,650
+Quickly enough that it was
+adapting to the terrain
+
+1049
+00:53:20,650 --> 00:53:21,370
+as it walked.
+
+1050
+00:53:21,370 --> 00:53:21,870
+All right.
+
+1051
+00:53:21,870 --> 00:53:25,360
+So here's the Poincaré maps
+from that little Toddler robot
+
+1052
+00:53:25,360 --> 00:53:27,940
+projected onto a plane.
+
+1053
+00:53:27,940 --> 00:53:30,400
+So I picked it up
+a bunch of times.
+
+1054
+00:53:30,400 --> 00:53:33,460
+I tried to make it just
+walk in place here.
+
+1055
+00:53:33,460 --> 00:53:35,650
+Before learning,
+it was obviously
+
+1056
+00:53:35,650 --> 00:53:37,450
+only stable at the
+zero, zero fix point.
+
+1057
+00:53:37,450 --> 00:53:41,590
+It was running out of energy on
+every step and going to zero.
+
+1058
+00:53:41,590 --> 00:53:45,550
+After learning, this is what
+the return map looked like.
+
+1059
+00:53:45,550 --> 00:53:47,170
+OK?
+
+1060
+00:53:47,170 --> 00:53:50,470
+So it actually could start
+from stopped reliably.
+
+1061
+00:53:50,470 --> 00:53:51,460
+Right?
+
+1062
+00:53:51,460 --> 00:53:55,290
+This is actually far better
+than I expected it to do.
+
+1063
+00:53:55,290 --> 00:53:59,200
+If you do your little
+staircase analysis of this,
+
+1064
+00:53:59,200 --> 00:54:04,780
+so it gets up to the fixed point
+in two steps or three steps
+
+1065
+00:54:04,780 --> 00:54:07,400
+for most initial conditions.
+
+1066
+00:54:07,400 --> 00:54:07,900
+Right?
+
+1067
+00:54:07,900 --> 00:54:09,820
+And from a very large range
+of initial conditions,
+
+1068
+00:54:09,820 --> 00:54:11,380
+as large as I care
+to sample from.
+
+1069
+00:54:11,380 --> 00:54:14,650
+So you could go up there--
+and people did actually.
+
+1070
+00:54:14,650 --> 00:54:15,580
+We had a little--
+
+1071
+00:54:15,580 --> 00:54:19,360
+after we got it
+working, the press came.
+
+1072
+00:54:19,360 --> 00:54:21,887
+And then everybody was asking
+me, the reporters were saying,
+
+1073
+00:54:21,887 --> 00:54:23,470
+can I have my kid
+play with the robot?
+
+1074
+00:54:23,470 --> 00:54:26,080
+Or can we put on a
+treadmill at the gym?
+
+1075
+00:54:26,080 --> 00:54:29,170
+Rich Sutton put his
+fingers under it
+
+1076
+00:54:29,170 --> 00:54:31,960
+and was like playing
+with it at dips one time.
+
+1077
+00:54:31,960 --> 00:54:34,270
+So it got disturbed
+in every possible way.
+
+1078
+00:54:34,270 --> 00:54:35,980
+And for the most part,
+it worked really--
+
+1079
+00:54:35,980 --> 00:54:38,260
+I mean, so if you give
+it a big push this way,
+
+1080
+00:54:38,260 --> 00:54:41,560
+it actually takes energy out
+and comes back and recovers
+
+1081
+00:54:41,560 --> 00:54:42,970
+in two steps.
+
+1082
+00:54:42,970 --> 00:54:44,020
+You stop it.
+
+1083
+00:54:44,020 --> 00:54:44,710
+It goes back up.
+
+1084
+00:54:44,710 --> 00:54:45,850
+And it recovers.
+
+1085
+00:54:45,850 --> 00:54:50,710
+And in the worst case, I had
+some demo to give or something.
+
+1086
+00:54:50,710 --> 00:54:52,590
+And I took it out of the case.
+
+1087
+00:54:52,590 --> 00:54:54,910
+It had traveled
+through the airport.
+
+1088
+00:54:54,910 --> 00:54:59,140
+The customs people always asked
+me if it had commercial value.
+
+1089
+00:54:59,140 --> 00:55:00,670
+It doesn't have
+commercial value.
+
+1090
+00:55:03,490 --> 00:55:05,380
+But it broke somewhere
+in the travel.
+
+1091
+00:55:05,380 --> 00:55:06,380
+And I didn't realize it.
+
+1092
+00:55:06,380 --> 00:55:08,958
+I picked it up and
+headed to do its demo.
+
+1093
+00:55:08,958 --> 00:55:10,000
+And it's going like this.
+
+1094
+00:55:10,000 --> 00:55:11,103
+And it's sort of walking.
+
+1095
+00:55:11,103 --> 00:55:12,270
+And it looks a little funny.
+
+1096
+00:55:12,270 --> 00:55:14,062
+And people are so
+relatively happy with it.
+
+1097
+00:55:14,062 --> 00:55:16,150
+Turns out the ankle
+had completely snapped.
+
+1098
+00:55:16,150 --> 00:55:17,650
+But in just a few
+steps, it actually
+
+1099
+00:55:17,650 --> 00:55:19,817
+found a policy that was
+walking with a broken ankle.
+
+1100
+00:55:19,817 --> 00:55:21,640
+[LAUGHTER]
+
+1101
+00:55:21,640 --> 00:55:22,210
+So it works.
+
+1102
+00:55:22,210 --> 00:55:23,830
+It really worked.
+
+1103
+00:55:23,830 --> 00:55:24,640
+It really did work.
+
+1104
+00:55:24,640 --> 00:55:27,790
+I'm not sure-- I mean, yeah.
+
+1105
+00:55:27,790 --> 00:55:28,660
+It really worked.
+
+1106
+00:55:28,660 --> 00:55:29,160
+OK.
+
+1107
+00:55:29,160 --> 00:55:31,690
+So here's the basic video.
+
+1108
+00:55:31,690 --> 00:55:33,705
+This was the beginning.
+
+1109
+00:55:33,705 --> 00:55:34,330
+I was paranoid.
+
+1110
+00:55:34,330 --> 00:55:37,562
+So I had pads on it to make sure
+it didn't fall down and break.
+
+1111
+00:55:37,562 --> 00:55:39,520
+This is the little policy
+that would kick it up
+
+1112
+00:55:39,520 --> 00:55:41,960
+into a random initial
+condition like that.
+
+1113
+00:55:41,960 --> 00:55:43,660
+And now it's learning.
+
+1114
+00:55:43,660 --> 00:55:44,570
+It falls down.
+
+1115
+00:55:44,570 --> 00:55:47,323
+I don't know why it's
+playing so badly.
+
+1116
+00:55:47,323 --> 00:55:48,490
+This is after a few minutes.
+
+1117
+00:55:48,490 --> 00:55:49,720
+It's stepping in place.
+
+1118
+00:55:49,720 --> 00:55:50,320
+It's walking.
+
+1119
+00:55:54,820 --> 00:55:56,530
+And then I started
+driving it around.
+
+1120
+00:55:56,530 --> 00:55:57,040
+I say, OK.
+
+1121
+00:55:57,040 --> 00:55:57,790
+Let's walk around.
+
+1122
+00:55:57,790 --> 00:56:00,070
+And it stumbles.
+
+1123
+00:56:00,070 --> 00:56:03,330
+But really, really fast,
+it learned a policy
+
+1124
+00:56:03,330 --> 00:56:04,330
+that could stabilize it.
+
+1125
+00:56:07,210 --> 00:56:08,820
+Right?
+
+1126
+00:56:08,820 --> 00:56:13,600
+And after a few minutes, this
+is the disturbance tests.
+
+1127
+00:56:13,600 --> 00:56:17,180
+I actually haven't shown
+these in a long time.
+
+1128
+00:56:19,750 --> 00:56:21,960
+It's really robust
+to those things.
+
+1129
+00:56:21,960 --> 00:56:24,570
+And then you can send
+it off down the hall.
+
+1130
+00:56:24,570 --> 00:56:27,960
+And now, this is a little
+robot with big feet admittedly.
+
+1131
+00:56:27,960 --> 00:56:31,800
+But you know, it's like
+the linoleum in E25--
+
+1132
+00:56:31,800 --> 00:56:35,160
+this is in E25--
+was really not flat.
+
+1133
+00:56:35,160 --> 00:56:37,590
+I mean, it's sort of
+embarrassing to tell people,
+
+1134
+00:56:37,590 --> 00:56:38,370
+look at the floor.
+
+1135
+00:56:38,370 --> 00:56:38,980
+It's not flat.
+
+1136
+00:56:38,980 --> 00:56:42,160
+But for that robot, I mean
+there's huge disturbances
+
+1137
+00:56:42,160 --> 00:56:46,140
+as it walked down the floor.
+
+1138
+00:56:46,140 --> 00:56:48,540
+But the policy parameters
+were changing quite a bit.
+
+1139
+00:56:48,540 --> 00:56:50,550
+You could walk off
+tile onto carpet.
+
+1140
+00:56:50,550 --> 00:56:53,220
+And in a few steps, it
+would adjust its parameters
+
+1141
+00:56:53,220 --> 00:56:54,090
+and keep on walking.
+
+1142
+00:56:54,090 --> 00:56:57,493
+This was it walking from
+E25 towards the Media Lab,
+
+1143
+00:56:57,493 --> 00:56:58,410
+if you recognize that.
+
+1144
+00:57:11,350 --> 00:57:11,850
+OK.
+
+1145
+00:57:11,850 --> 00:57:13,795
+So one of the things
+I said is that one
+
+1146
+00:57:13,795 --> 00:57:15,420
+of the problems with
+the value estimate
+
+1147
+00:57:15,420 --> 00:57:17,462
+is you make a small change
+in the value function,
+
+1148
+00:57:17,462 --> 00:57:21,030
+you get a big change
+in the policy.
+
+1149
+00:57:21,030 --> 00:57:22,740
+Theoretically, no problem.
+
+1150
+00:57:22,740 --> 00:57:24,680
+In practice, you don't
+probably want that.
+
+1151
+00:57:24,680 --> 00:57:25,180
+Right?
+
+1152
+00:57:25,180 --> 00:57:27,660
+One of the beautiful things
+about the policy gradient
+
+1153
+00:57:27,660 --> 00:57:30,573
+algorithms is you make a
+small change to the policy.
+
+1154
+00:57:30,573 --> 00:57:32,740
+It doesn't look like the
+robot's doing crazy things.
+
+1155
+00:57:32,740 --> 00:57:34,020
+So every time,
+everything you saw there,
+
+1156
+00:57:34,020 --> 00:57:35,310
+it was always learning.
+
+1157
+00:57:35,310 --> 00:57:35,970
+Right?
+
+1158
+00:57:35,970 --> 00:57:38,280
+Learning did not look
+like a big deviation
+
+1159
+00:57:38,280 --> 00:57:39,277
+from nominal behavior.
+
+1160
+00:57:39,277 --> 00:57:40,860
+I never turned off
+learning with this.
+
+1161
+00:57:40,860 --> 00:57:41,370
+Right?
+
+1162
+00:57:41,370 --> 00:57:44,233
+It turned out in the
+policy gradient setting,
+
+1163
+00:57:44,233 --> 00:57:45,900
+I could add such a
+small amount of noise
+
+1164
+00:57:45,900 --> 00:57:48,300
+to the policy parameters,
+which was a very central grid
+
+1165
+00:57:48,300 --> 00:57:52,800
+over the state space, such
+a small amount of noise
+
+1166
+00:57:52,800 --> 00:57:55,060
+that you couldn't even
+tell it was learning.
+
+1167
+00:57:55,060 --> 00:57:55,560
+Right?
+
+1168
+00:57:55,560 --> 00:57:57,602
+But it was enough to pull
+out a gradient estimate
+
+1169
+00:57:57,602 --> 00:57:58,610
+and keep going.
+
+1170
+00:57:58,610 --> 00:58:00,735
+So it didn't look like it
+was trying random things.
+
+1171
+00:58:00,735 --> 00:58:03,277
+But then, if it walked off on
+the carpet and did a bad thing,
+
+1172
+00:58:03,277 --> 00:58:04,560
+it would still adapt.
+
+1173
+00:58:04,560 --> 00:58:06,540
+That was something
+I didn't expect.
+
+1174
+00:58:06,540 --> 00:58:08,780
+It just was a very
+nice sort of match
+
+1175
+00:58:08,780 --> 00:58:10,530
+between the amount of
+noise you had to add
+
+1176
+00:58:10,530 --> 00:58:14,550
+and the speed of learning.
+
+1177
+00:58:14,550 --> 00:58:16,980
+The value estimate was a low
+dimensional approximation
+
+1178
+00:58:16,980 --> 00:58:19,350
+of the value function.
+
+1179
+00:58:19,350 --> 00:58:20,023
+Very low.
+
+1180
+00:58:20,023 --> 00:58:20,940
+Like ridiculously low.
+
+1181
+00:58:20,940 --> 00:58:21,523
+One dimension.
+
+1182
+00:58:21,523 --> 00:58:22,800
+Right?
+
+1183
+00:58:22,800 --> 00:58:24,960
+But it was sufficient
+to decrease the variance
+
+1184
+00:58:24,960 --> 00:58:26,240
+and allow fast convergence.
+
+1185
+00:58:26,240 --> 00:58:28,573
+I never got it to work before
+I put a value function in.
+
+1186
+00:58:31,530 --> 00:58:33,160
+And here's this question.
+
+1187
+00:58:33,160 --> 00:58:36,390
+So I ended up choosing
+gamma to be pretty low.
+
+1188
+00:58:36,390 --> 00:58:38,100
+Gamma was 0.2.
+
+1189
+00:58:38,100 --> 00:58:39,960
+I did try with zero times.
+
+1190
+00:58:39,960 --> 00:58:40,950
+What did that mean?
+
+1191
+00:58:40,950 --> 00:58:44,280
+So that's how far I carried
+back my eligibility, which
+
+1192
+00:58:44,280 --> 00:58:46,292
+means how many steps
+am I looking at it.
+
+1193
+00:58:46,292 --> 00:58:48,750
+So that you could think of it
+as a receding horizon optimal
+
+1194
+00:58:48,750 --> 00:58:49,250
+control.
+
+1195
+00:58:49,250 --> 00:58:50,910
+How many steps
+ahead do you look?
+
+1196
+00:58:50,910 --> 00:58:51,720
+Right.
+
+1197
+00:58:51,720 --> 00:58:52,870
+Except it's discounted.
+
+1198
+00:58:52,870 --> 00:58:53,760
+OK?
+
+1199
+00:58:53,760 --> 00:58:57,445
+So 0.2 is really
+heavy discounted.
+
+1200
+00:58:57,445 --> 00:58:58,320
+Really, really heavy.
+
+1201
+00:58:58,320 --> 00:59:00,600
+It means I was basically
+looking one step ahead
+
+1202
+00:59:00,600 --> 00:59:03,570
+and not worrying
+about things well
+
+1203
+00:59:03,570 --> 00:59:06,990
+into the future, which made
+my learning faster but meant
+
+1204
+00:59:06,990 --> 00:59:09,660
+I didn't take really aggressive
+corrections that were
+
+1205
+00:59:09,660 --> 00:59:11,640
+multi-step sort of corrections.
+
+1206
+00:59:11,640 --> 00:59:14,550
+Only very rarely, if the
+cost really warranted it.
+
+1207
+00:59:14,550 --> 00:59:15,247
+OK.
+
+1208
+00:59:15,247 --> 00:59:16,830
+So that was always
+something I thought
+
+1209
+00:59:16,830 --> 00:59:18,960
+would be cool if I
+could get that higher
+
+1210
+00:59:18,960 --> 00:59:22,350
+and show a reason why
+multi-step corrections made
+
+1211
+00:59:22,350 --> 00:59:23,850
+it a lot more stable.
+
+1212
+00:59:23,850 --> 00:59:26,910
+STUDENT: Did it
+not work as well?
+
+1213
+00:59:26,910 --> 00:59:28,810
+RUSS TEDRAKE: It
+didn't learn as fast.
+
+1214
+00:59:28,810 --> 00:59:30,240
+At some point, I
+decided I'm going
+
+1215
+00:59:30,240 --> 00:59:31,650
+to try to make the point
+that these things can really
+
+1216
+00:59:31,650 --> 00:59:32,700
+learn fast.
+
+1217
+00:59:32,700 --> 00:59:34,890
+And so, I started
+turning all the knobs.
+
+1218
+00:59:34,890 --> 00:59:39,570
+Simple policy, simple value
+function, low look ahead.
+
+1219
+00:59:39,570 --> 00:59:40,380
+And it worked.
+
+1220
+00:59:40,380 --> 00:59:43,180
+But it was fast.
+
+1221
+00:59:43,180 --> 00:59:49,360
+STUDENT: Is gamma used
+[INAUDIBLE] the same as lambda?
+
+1222
+00:59:49,360 --> 00:59:55,070
+RUSS TEDRAKE: It's a gamma in a
+discounted reward formulation.
+
+1223
+00:59:55,070 --> 00:59:57,632
+STUDENT: So there is
+no eligibility trace?
+
+1224
+00:59:57,632 --> 00:59:59,090
+RUSS TEDRAKE: The
+eligibility trace
+
+1225
+00:59:59,090 --> 01:00:01,142
+for the reinforce in
+a discounted problem
+
+1226
+01:00:01,142 --> 01:00:02,600
+is the same as the
+discount factor.
+
+1227
+01:00:10,990 --> 01:00:13,383
+So in my lab now,
+we're doing a lot
+
+1228
+01:00:13,383 --> 01:00:14,550
+of these model based things.
+
+1229
+01:00:14,550 --> 01:00:15,450
+We're doing LQR trees.
+
+1230
+01:00:15,450 --> 01:00:16,617
+We're doing a lot of things.
+
+1231
+01:00:16,617 --> 01:00:19,170
+In fact, the linear
+controls are working
+
+1232
+01:00:19,170 --> 01:00:23,250
+so beautifully in simulation
+that Rick Corey, one
+
+1233
+01:00:23,250 --> 01:00:26,040
+of our guys, started joshing me.
+
+1234
+01:00:26,040 --> 01:00:28,680
+He's like, why didn't you
+just do LQR on Toddler?
+
+1235
+01:00:28,680 --> 01:00:31,153
+And he was giving me a
+hard time for a long time.
+
+1236
+01:00:31,153 --> 01:00:32,820
+Now he's asking about
+model free methods
+
+1237
+01:00:32,820 --> 01:00:39,450
+again because it's really hard
+to get a good model of very
+
+1238
+01:00:39,450 --> 01:00:40,410
+underactuated systems.
+
+1239
+01:00:40,410 --> 01:00:44,700
+I mean, the plane that I'll
+tell you about more on Thursday,
+
+1240
+01:00:44,700 --> 01:00:49,050
+our perching plane we've seen
+quickly, is one actuator.
+
+1241
+01:00:49,050 --> 01:00:52,110
+And depending on how
+you count the elevator,
+
+1242
+01:00:52,110 --> 01:00:54,480
+eight degrees of
+freedom roughly.
+
+1243
+01:00:54,480 --> 01:00:58,530
+And sorry, eight
+state variables.
+
+1244
+01:00:58,530 --> 01:01:01,860
+And it's just very, very
+hard to build a good model
+
+1245
+01:01:01,860 --> 01:01:06,600
+for that that's accurate for the
+long trajectory, the trajectory
+
+1246
+01:01:06,600 --> 01:01:08,730
+all the way to the perch
+such that LQR could just
+
+1247
+01:01:08,730 --> 01:01:09,450
+stabilize it.
+
+1248
+01:01:09,450 --> 01:01:11,053
+We're trying.
+
+1249
+01:01:11,053 --> 01:01:13,470
+But there's something sort of
+beautiful about these things
+
+1250
+01:01:13,470 --> 01:01:17,080
+that just work without
+building a perfect model.
+
+1251
+01:01:17,080 --> 01:01:17,580
+OK?
+
+1252
+01:01:20,820 --> 01:01:23,910
+The big picture is
+roughly the class you saw.
+
+1253
+01:01:23,910 --> 01:01:26,250
+This is actually, I had
+forgotten about this.
+
+1254
+01:01:26,250 --> 01:01:28,320
+This was one of my backup
+slides from before.
+
+1255
+01:01:28,320 --> 01:01:33,330
+But this is the basic
+learning plot, which
+
+1256
+01:01:33,330 --> 01:01:36,530
+is just one average run here.
+
+1257
+01:01:36,530 --> 01:01:38,940
+If I reset the
+learning parameters,
+
+1258
+01:01:38,940 --> 01:01:42,810
+how quickly would it minimize
+the average one step error?
+
+1259
+01:01:42,810 --> 01:01:44,020
+And it was pretty fast.
+
+1260
+01:01:44,020 --> 01:01:47,253
+And then actually,
+that's a lot of steps.
+
+1261
+01:01:47,253 --> 01:01:48,420
+That's more than I remember.
+
+1262
+01:01:48,420 --> 01:01:50,040
+But this takes
+steps once a second.
+
+1263
+01:01:50,040 --> 01:01:52,680
+And so, in a handful of minutes,
+it does hundreds of steps.
+
+1264
+01:01:52,680 --> 01:01:53,310
+OK.
+
+1265
+01:01:53,310 --> 01:01:58,320
+And this is the policy in two
+dimensions that it learned.
+
+1266
+01:01:58,320 --> 01:02:04,500
+So if you think about a theta
+role and theta role dot,
+
+1267
+01:02:04,500 --> 01:02:07,350
+I don't know if you have
+intuition about this,
+
+1268
+01:02:07,350 --> 01:02:12,240
+but the sort of yin
+and yang of the Toddler
+
+1269
+01:02:12,240 --> 01:02:16,890
+was that you wanted to push when
+you're in this side of the face
+
+1270
+01:02:16,890 --> 01:02:18,602
+portrait and push
+with this foot when
+
+1271
+01:02:18,602 --> 01:02:20,310
+you're on this side
+of the face portrait.
+
+1272
+01:02:20,310 --> 01:02:24,840
+I did things like I
+mirrored, the left ankle
+
+1273
+01:02:24,840 --> 01:02:27,890
+was doing the inverse, the
+mirror of the right ankle.
+
+1274
+01:02:27,890 --> 01:02:28,390
+Right?
+
+1275
+01:02:28,390 --> 01:02:32,550
+So everything I could do
+to try to minimize the size
+
+1276
+01:02:32,550 --> 01:02:33,930
+of the function I was learning.
+
+1277
+01:02:33,930 --> 01:02:36,300
+And that's actually sort
+of a beautiful picture
+
+1278
+01:02:36,300 --> 01:02:42,510
+of how it needed to push in
+order to stabilize and skate.
+
+1279
+01:02:48,008 --> 01:02:49,050
+Any questions about that?
+
+1280
+01:02:59,560 --> 01:03:00,060
+All right.
+
+1281
+01:03:00,060 --> 01:03:08,130
+So that's one success story
+from model free learning
+
+1282
+01:03:08,130 --> 01:03:08,910
+on real robots.
+
+1283
+01:03:08,910 --> 01:03:10,420
+It learns in a few minutes.
+
+1284
+01:03:10,420 --> 01:03:11,670
+There's other success stories.
+
+1285
+01:03:11,670 --> 01:03:14,550
+I'll try to talk about
+more of them on Thursday.
+
+1286
+01:03:14,550 --> 01:03:16,260
+But at this point,
+I've basically
+
+1287
+01:03:16,260 --> 01:03:21,930
+given you all the tools that
+we talk about in research
+
+1288
+01:03:21,930 --> 01:03:23,907
+to make these robots tick.
+
+1289
+01:03:23,907 --> 01:03:25,740
+Their state estimation,
+I didn't talk about.
+
+1290
+01:03:25,740 --> 01:03:28,420
+There's Morse's idea that
+we didn't talk about.
+
+1291
+01:03:28,420 --> 01:03:31,740
+But this is, I've given
+you a pretty big swath
+
+1292
+01:03:31,740 --> 01:03:33,270
+of algorithms here.
+
+1293
+01:03:33,270 --> 01:03:36,000
+So really I want to now
+hear from you next week.
+
+1294
+01:03:36,000 --> 01:03:38,070
+And I want to give
+you a few more case
+
+1295
+01:03:38,070 --> 01:03:40,140
+studies so you feel that
+these things actually
+
+1296
+01:03:40,140 --> 01:03:41,132
+work in practice.
+
+1297
+01:03:41,132 --> 01:03:43,340
+And you can go off and you
+use them in your research.
+
+1298
+01:03:43,340 --> 01:03:44,220
+Yeah, John?
+
+1299
+01:03:44,220 --> 01:03:47,850
+STUDENT: If there is a lot of
+stuff that's been published
+
+1300
+01:03:47,850 --> 01:03:52,080
+and a lot of interest
+[INAUDIBLE] stochasticity,
+
+1301
+01:03:52,080 --> 01:03:54,790
+then it would make sense to
+have a large gamma [INAUDIBLE]..
+
+1302
+01:03:54,790 --> 01:03:55,290
+Right?
+
+1303
+01:03:55,290 --> 01:03:57,030
+There'd be no
+reason, it would be
+
+1304
+01:03:57,030 --> 01:03:58,947
+a faulty way of trying
+to interpret that data.
+
+1305
+01:03:58,947 --> 01:04:00,228
+Right?
+
+1306
+01:04:00,228 --> 01:04:01,020
+RUSS TEDRAKE: Yeah.
+
+1307
+01:04:01,020 --> 01:04:03,810
+I mean, I think that so Katie's
+stuff, the metastability stuff,
+
+1308
+01:04:03,810 --> 01:04:06,308
+argued that for most of
+these walking systems,
+
+1309
+01:04:06,308 --> 01:04:08,850
+it doesn't make sense to look
+very far in the future anyways.
+
+1310
+01:04:08,850 --> 01:04:10,590
+Because the dynamics
+of the system
+
+1311
+01:04:10,590 --> 01:04:13,230
+mix with the stochasticity,
+which I think is the same thing
+
+1312
+01:04:13,230 --> 01:04:14,160
+you just said.
+
+1313
+01:04:14,160 --> 01:04:15,030
+Yeah.
+
+1314
+01:04:15,030 --> 01:04:15,720
+Yeah.
+
+1315
+01:04:15,720 --> 01:04:19,700
+STUDENT: The general dimensions
+of the robot [INAUDIBLE]
+
+1316
+01:04:19,700 --> 01:04:21,690
+when you're
+designing that robot,
+
+1317
+01:04:21,690 --> 01:04:25,770
+thinking about this model free
+learning when you started?
+
+1318
+01:04:25,770 --> 01:04:29,628
+[INAUDIBLE] helps it be
+a little more stable.
+
+1319
+01:04:29,628 --> 01:04:30,420
+RUSS TEDRAKE: Good.
+
+1320
+01:04:30,420 --> 01:04:33,420
+So I'm glad you asked that.
+
+1321
+01:04:33,420 --> 01:04:35,070
+So it's definitely
+very stable, which
+
+1322
+01:04:35,070 --> 01:04:37,900
+was experimentally convenient.
+
+1323
+01:04:37,900 --> 01:04:38,400
+Right?
+
+1324
+01:04:38,400 --> 01:04:39,940
+Because I didn't have
+to pick it up as much.
+
+1325
+01:04:39,940 --> 01:04:42,273
+But it actually learns fine
+when it starts off unstable.
+
+1326
+01:04:42,273 --> 01:04:45,300
+So the way I tested that is, if
+the ramp was very steep, then
+
+1327
+01:04:45,300 --> 01:04:47,790
+it starts oscillating
+and falls off sideways.
+
+1328
+01:04:47,790 --> 01:04:50,040
+So just to show that it can
+stabilize and unstabilize.
+
+1329
+01:04:50,040 --> 01:04:51,623
+It's like, oh, the
+same cost function.
+
+1330
+01:04:51,623 --> 01:04:53,390
+It's absolutely no different.
+
+1331
+01:04:53,390 --> 01:04:54,880
+I showed that it
+stabilized that.
+
+1332
+01:04:54,880 --> 01:04:55,810
+And it just meant
+I had to pick it up
+
+1333
+01:04:55,810 --> 01:04:57,670
+when it fell down
+a bunch of times.
+
+1334
+01:04:57,670 --> 01:04:58,770
+But the same algorithm
+works for that.
+
+1335
+01:04:58,770 --> 01:05:01,103
+So it's not really the stability
+that I was counting on.
+
+1336
+01:05:01,103 --> 01:05:03,300
+That was just
+experimentally nice.
+
+1337
+01:05:03,300 --> 01:05:05,220
+The big clown feet
+and everything
+
+1338
+01:05:05,220 --> 01:05:09,630
+were because that's how I knew
+how to tune the passive gait.
+
+1339
+01:05:09,630 --> 01:05:10,620
+Right?
+
+1340
+01:05:10,620 --> 01:05:12,627
+In the passive walkers
+we work on these days,
+
+1341
+01:05:12,627 --> 01:05:13,710
+you always see point feet.
+
+1342
+01:05:13,710 --> 01:05:15,660
+Because I care about
+rough terrain now.
+
+1343
+01:05:15,660 --> 01:05:18,052
+And those clown feet are
+not good for rough terrain.
+
+1344
+01:05:18,052 --> 01:05:19,510
+So we could try to
+get rid of that.
+
+1345
+01:05:19,510 --> 01:05:21,968
+STUDENT: You're saying if you
+wanted to scale that out, you
+
+1346
+01:05:21,968 --> 01:05:25,930
+had mentioned the [INAUDIBLE]
+robots [INAUDIBLE] would
+
+1347
+01:05:25,930 --> 01:05:29,010
+you have the same
+success [INAUDIBLE]??
+
+1348
+01:05:29,010 --> 01:05:30,520
+RUSS TEDRAKE: Got you.
+
+1349
+01:05:30,520 --> 01:05:31,270
+I think it's fine.
+
+1350
+01:05:31,270 --> 01:05:35,155
+I think that it would look
+ridiculous that big maybe.
+
+1351
+01:05:35,155 --> 01:05:37,030
+And I wouldn't scale
+the feet quite that big.
+
+1352
+01:05:37,030 --> 01:05:37,530
+Right?
+
+1353
+01:05:37,530 --> 01:05:40,840
+That would be ridiculous.
+
+1354
+01:05:40,840 --> 01:05:44,560
+But I don't think there's any
+scaling issues there really.
+
+1355
+01:05:44,560 --> 01:05:47,170
+It's the inertia of the
+relative links that matters.
+
+1356
+01:05:47,170 --> 01:05:48,993
+And I think you can
+scale that properly.
+
+1357
+01:05:48,993 --> 01:05:50,410
+At some point
+you're going to just
+
+1358
+01:05:50,410 --> 01:05:53,140
+look ridiculous if you don't
+have knees and you're that big.
+
+1359
+01:05:53,140 --> 01:05:57,350
+So yeah.
+
+1360
+01:05:57,350 --> 01:05:59,900
+Energetically, the
+mechanical cost of transport,
+
+1361
+01:05:59,900 --> 01:06:02,502
+if you just look at the power
+coming out of the batteries--
+
+1362
+01:06:02,502 --> 01:06:04,460
+sorry, actually the work
+done by the actuators,
+
+1363
+01:06:04,460 --> 01:06:06,043
+the actual work done
+by the actuators.
+
+1364
+01:06:06,043 --> 01:06:10,070
+It was comparable to a human,
+20 times better than ASIMO.
+
+1365
+01:06:10,070 --> 01:06:14,600
+But if you plot the current
+coming out of the batteries,
+
+1366
+01:06:14,600 --> 01:06:17,300
+it was three times worse than
+ASIMO or something like that.
+
+1367
+01:06:17,300 --> 01:06:20,060
+Because it's got these little
+itty bitty steps and really
+
+1368
+01:06:20,060 --> 01:06:20,840
+big computer.
+
+1369
+01:06:20,840 --> 01:06:23,990
+And that was, in retrospect,
+maybe not the best decision.
+
+1370
+01:06:23,990 --> 01:06:26,138
+Although I never had to
+worry about computation.
+
+1371
+01:06:26,138 --> 01:06:27,680
+I never had to
+optimize my algorithms
+
+1372
+01:06:27,680 --> 01:06:31,250
+to run on a small embedded chip.
+
+1373
+01:06:31,250 --> 01:06:35,450
+STUDENT: Can you talk a little
+bit about the [INAUDIBLE]??
+
+1374
+01:06:35,450 --> 01:06:38,040
+RUSS TEDRAKE: You can
+actually see it here.
+
+1375
+01:06:38,040 --> 01:06:43,430
+So this is the
+barycentric policy space
+
+1376
+01:06:43,430 --> 01:06:48,170
+that were the parameters.
+
+1377
+01:06:48,170 --> 01:06:48,950
+Yeah.
+
+1378
+01:06:48,950 --> 01:06:54,110
+So it was tiled over
+0.5, 0.5 roughly.
+
+1379
+01:06:54,110 --> 01:06:56,990
+And you could see the
+density of the tiling there.
+
+1380
+01:06:56,990 --> 01:06:57,830
+Yeah.
+
+1381
+01:06:57,830 --> 01:06:59,810
+And that was trained.
+
+1382
+01:06:59,810 --> 01:07:01,320
+So there was no generalization.
+
+1383
+01:07:01,320 --> 01:07:03,778
+So the fact that those looked
+like sort of consistent blobs
+
+1384
+01:07:03,778 --> 01:07:05,780
+was just from experience
+and eligibility traces
+
+1385
+01:07:05,780 --> 01:07:06,500
+carrying through.
+
+1386
+01:07:08,883 --> 01:07:11,300
+But those are not constrained
+by the function approximator
+
+1387
+01:07:11,300 --> 01:07:13,858
+to be similar more
+than one block away.
+
+1388
+01:07:13,858 --> 01:07:15,650
+There's literally a
+barycentric grid there.
+
+1389
+01:07:15,650 --> 01:07:20,690
+And then the value estimate
+was theta equals zero.
+
+1390
+01:07:20,690 --> 01:07:22,250
+The different theta dots.
+
+1391
+01:07:22,250 --> 01:07:24,800
+It was just the same size tiles.
+
+1392
+01:07:24,800 --> 01:07:27,770
+But a line just
+straight up the middle.
+
+1393
+01:07:27,770 --> 01:07:31,070
+STUDENT: So your joystick
+would just change theta?
+
+1394
+01:07:31,070 --> 01:07:32,280
+Or not the theta?
+
+1395
+01:07:32,280 --> 01:07:36,290
+But it would just
+change the position.
+
+1396
+01:07:36,290 --> 01:07:38,710
+RUSS TEDRAKE: The joystick
+was, so the policy was mostly
+
+1397
+01:07:38,710 --> 01:07:41,210
+for the side to side angles,
+which would give me limit cycle
+
+1398
+01:07:41,210 --> 01:07:41,730
+stability.
+
+1399
+01:07:41,730 --> 01:07:43,730
+And then I could just
+joystick control the front
+
+1400
+01:07:43,730 --> 01:07:44,495
+to back angles.
+
+1401
+01:07:44,495 --> 01:07:46,370
+So this thing, we could
+just lean it forward.
+
+1402
+01:07:46,370 --> 01:07:47,660
+It starts walking forward.
+
+1403
+01:07:47,660 --> 01:07:48,670
+Even uphill.
+
+1404
+01:07:48,670 --> 01:07:49,280
+That's fine.
+
+1405
+01:07:49,280 --> 01:07:50,990
+You lean back, it
+starts walking back.
+
+1406
+01:07:50,990 --> 01:07:52,390
+It was really basically this.
+
+1407
+01:07:52,390 --> 01:07:52,990
+Yeah.
+
+1408
+01:07:52,990 --> 01:07:55,370
+If you want it to turn,
+you've got to go like this.
+
+1409
+01:07:55,370 --> 01:07:56,570
+And it would do its thing.
+
+1410
+01:07:56,570 --> 01:07:58,315
+Right?
+
+1411
+01:07:58,315 --> 01:07:58,940
+So that was it.
+
+1412
+01:07:58,940 --> 01:08:03,140
+It wasn't sort of
+highly maneuverable.
+
+1413
+01:08:03,140 --> 01:08:04,700
+Yeah.
+
+1414
+01:08:04,700 --> 01:08:08,150
+STUDENT: It seems like there
+are some [INAUDIBLE] to step
+
+1415
+01:08:08,150 --> 01:08:12,048
+to step, having
+each step be like--
+
+1416
+01:08:12,048 --> 01:08:12,965
+RUSS TEDRAKE: A trial.
+
+1417
+01:08:12,965 --> 01:08:15,158
+STUDENT: So a section
+on your Poincaré map.
+
+1418
+01:08:15,158 --> 01:08:15,950
+RUSS TEDRAKE: Yeah.
+
+1419
+01:08:15,950 --> 01:08:18,560
+STUDENT: I don't know if
+that would work for flapping.
+
+1420
+01:08:18,560 --> 01:08:18,814
+RUSS TEDRAKE: Absolutely.
+
+1421
+01:08:18,814 --> 01:08:20,231
+STUDENT: If
+[INAUDIBLE] up or down
+
+1422
+01:08:20,231 --> 01:08:21,770
+is a similar kind of thing.
+
+1423
+01:08:21,770 --> 01:08:23,330
+RUSS TEDRAKE: I think it would.
+
+1424
+01:08:23,330 --> 01:08:24,870
+We were thinking
+about it that way.
+
+1425
+01:08:24,870 --> 01:08:25,550
+So you're absolutely right.
+
+1426
+01:08:25,550 --> 01:08:27,410
+So it was nice to
+be able to, it was
+
+1427
+01:08:27,410 --> 01:08:29,930
+very important to
+be able to add noise
+
+1428
+01:08:29,930 --> 01:08:33,260
+by sort of making a persistent
+change in my policy.
+
+1429
+01:08:33,260 --> 01:08:35,149
+So this whole
+function, adding noise
+
+1430
+01:08:35,149 --> 01:08:37,819
+meant this whole function
+would change a little bit.
+
+1431
+01:08:37,819 --> 01:08:40,342
+And then I would stay
+constant for that whole run.
+
+1432
+01:08:40,342 --> 01:08:41,550
+And then change a little bit.
+
+1433
+01:08:41,550 --> 01:08:44,302
+If you add noise every
+DT, for instance, then you
+
+1434
+01:08:44,302 --> 01:08:46,760
+have to worry about it filtering
+out with motors and stuff.
+
+1435
+01:08:46,760 --> 01:08:49,279
+This was actually a very
+convenient discretization
+
+1436
+01:08:49,279 --> 01:08:50,779
+in time on the point grade map.
+
+1437
+01:08:50,779 --> 01:08:51,762
+Yeah.
+
+1438
+01:08:51,762 --> 01:08:53,720
+So I think that was one
+of the keys to success.
+
+1439
+01:08:53,720 --> 01:08:54,483
+John?
+
+1440
+01:08:54,483 --> 01:08:58,250
+STUDENT: The actuators you
+took, were they pushing off
+
+1441
+01:08:58,250 --> 01:09:00,770
+the sort of stance foot?
+
+1442
+01:09:00,770 --> 01:09:01,640
+[INTERPOSING VOICES]
+
+1443
+01:09:01,640 --> 01:09:03,600
+RUSS TEDRAKE: Or
+pulling it back up.
+
+1444
+01:09:03,600 --> 01:09:04,290
+But yes.
+
+1445
+01:09:04,290 --> 01:09:06,439
+STUDENT: So you just
+actuated the stance foot.
+
+1446
+01:09:06,439 --> 01:09:08,689
+That was the
+actuator [INAUDIBLE]..
+
+1447
+01:09:08,689 --> 01:09:11,615
+RUSS TEDRAKE: The units were,
+I guess they were scaled out.
+
+1448
+01:09:11,615 --> 01:09:13,490
+I did actually do the
+kinematics of the link.
+
+1449
+01:09:13,490 --> 01:09:17,670
+So it was literally
+a linear command in--
+
+1450
+01:09:17,670 --> 01:09:20,689
+those are probably meters
+or something in the--
+
+1451
+01:09:23,540 --> 01:09:24,109
+no.
+
+1452
+01:09:24,109 --> 01:09:25,130
+It's way too big.
+
+1453
+01:09:25,130 --> 01:09:26,420
+[INTERPOSING VOICES]
+
+1454
+01:09:26,420 --> 01:09:29,480
+STUDENT: Touching down, but
+touch down at the same angle?
+
+1455
+01:09:29,480 --> 01:09:30,360
+RUSS TEDRAKE: No.
+
+1456
+01:09:30,360 --> 01:09:33,450
+The swing foot was
+also being controlled.
+
+1457
+01:09:33,450 --> 01:09:35,180
+So it would get a
+big penalty actually
+
+1458
+01:09:35,180 --> 01:09:39,020
+if it was at a weird angle
+when it touched down.
+
+1459
+01:09:39,020 --> 01:09:41,130
+It would hit and it would
+lose all its energy.
+
+1460
+01:09:41,130 --> 01:09:42,949
+But that was free to
+make that mistake.
+
+1461
+01:09:42,949 --> 01:09:44,532
+STUDENT: So you have
+two actions then?
+
+1462
+01:09:44,532 --> 01:09:48,812
+The address to [INAUDIBLE]?
+
+1463
+01:09:48,812 --> 01:09:49,520
+RUSS TEDRAKE: No.
+
+1464
+01:09:49,520 --> 01:09:51,020
+Well, it's one action.
+
+1465
+01:09:51,020 --> 01:09:53,390
+But the policy is being run
+on two different actuators
+
+1466
+01:09:53,390 --> 01:09:54,220
+at the same time.
+
+1467
+01:09:54,220 --> 01:09:56,170
+So one of them is over in
+this side of the state space.
+
+1468
+01:09:56,170 --> 01:09:57,270
+And the other one's over
+in the side of the state
+
+1469
+01:09:57,270 --> 01:09:58,440
+space at the same time.
+
+1470
+01:09:58,440 --> 01:09:58,940
+STUDENT: OK.
+
+1471
+01:09:58,940 --> 01:10:00,232
+So it just used different data.
+
+1472
+01:10:00,232 --> 01:10:01,110
+But they're-- OK.
+
+1473
+01:10:01,110 --> 01:10:02,633
+RUSS TEDRAKE: Yeah.
+
+1474
+01:10:02,633 --> 01:10:04,550
+So just it was learning
+on both of those sides
+
+1475
+01:10:04,550 --> 01:10:05,258
+at the same time.
+
+1476
+01:10:21,180 --> 01:10:22,992
+I'm a big fan of simplicity.
+
+1477
+01:10:22,992 --> 01:10:24,450
+It's easy to make
+things that work.
+
+1478
+01:10:24,450 --> 01:10:27,480
+I mean, I think it's a good
+way to get things working.
+
+1479
+01:10:27,480 --> 01:10:30,360
+So that's what the test
+will be as we go forward
+
+1480
+01:10:30,360 --> 01:10:32,160
+in how complex we can
+make these things.
+
+1481
+01:10:32,160 --> 01:10:35,960
+But in sort of the simple
+case, they work really well.
+
+1482
+01:10:40,480 --> 01:10:41,030
+Great.
+
+1483
+01:10:41,030 --> 01:10:41,530
+OK.
+
+1484
+01:10:41,530 --> 01:10:45,280
+So thanks for putting up with
+the randomized algorithm.
+
+1485
+01:10:45,280 --> 01:10:48,120
+We'll see you on Thursday.

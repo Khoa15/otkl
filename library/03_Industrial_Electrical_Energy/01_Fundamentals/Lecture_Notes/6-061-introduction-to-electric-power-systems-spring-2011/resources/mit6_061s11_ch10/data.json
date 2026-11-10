@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture notes on induction machines, the induction motor transformer model , energy balance, the squirrel cage machine model, solid iron rotor bodies, and induction motor speed control.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on induction machines, the induction motor transformer model , energy balance, the squirrel cage machine model, solid iron rotor bodies, and induction motor speed control.",
+  "draft": false,
+  "file": "/courses/6-061-introduction-to-electric-power-systems-spring-2011/01f878366fe651f1b95e9ed7fc24c644_MIT6_061S11_ch10.pdf",
+  "file_size": 777801,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Readings"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Readings",
+  "parent_type": "CourseSection",
+  "parent_uid": "89512ca2-aaea-2fbd-2fb1-f0c11a2b49d2",
+  "resourcetype": "Document",
+  "title": "Analytic Design Evaluation of Induction Machines",
+  "uid": "01f87836-6fe6-51f1-b95e-9ed7fc24c644"
+}

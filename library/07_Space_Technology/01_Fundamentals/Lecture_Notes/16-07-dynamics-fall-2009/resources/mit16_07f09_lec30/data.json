@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture notes on 3D rigid body dynamics, Euler&rsquo;s equations, steady precession, gyroscopic motion, unsteady precession of a top, and integrals of motion.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on 3D rigid body dynamics, Euler's equations, steady precession, gyroscopic motion, unsteady precession of a top, and integrals of motion.",
+  "draft": false,
+  "file": "/courses/16-07-dynamics-fall-2009/99f271d601bb3d9d04e8b8ce0c73cb7a_MIT16_07F09_Lec30.pdf",
+  "file_size": 549990,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "c74de568-7f12-1be8-c80c-73b2269c3877",
+  "resourcetype": "Document",
+  "title": "Lecture L30 – 3D Rigid Body Dynamics: Tops and Gyroscopes",
+  "uid": "99f271d6-01bb-3d9d-04e8-b8ce0c73cb7a"
+}

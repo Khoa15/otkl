@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Description:</strong> Professor Ernest Fraenkel begins his unit of the course, which moves across scales, from atoms to proteins to networks. This lecture is about the structure of proteins, and how biological phenomena make sense in light of protein structure.</p>\n<p><strong>Instructor:</strong> Prof. Ernest Fraenkel</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "180322121",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Video Lectures",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Leture 12: Introduction to Protein Structure; Structure Comparison and Classification",
+  "uid": "0baf5c08-1fcd-02c0-9a07-bf670f4e710e",
+  "video_files": {
+    "archive_url": "http://archive.org/download/MIT7.91JS14/MIT7_91JS14_lec12_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/46480fcbb76f549f8b4da337d5a9f5f7_6ROBp57G2ZI.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/6ROBp57G2ZI/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/2593416a2759696d33f3ac0e529632aa_6ROBp57G2ZI.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "3d, 7-91j-foundations-of-computational-and-systems-biology-spring-2014, charmm, function, gene, nmr, p53, protein, protein database, protein model, rosetta, structure, x-ray crystallography",
+    "youtube_id": "6ROBp57G2ZI"
+  }
+}

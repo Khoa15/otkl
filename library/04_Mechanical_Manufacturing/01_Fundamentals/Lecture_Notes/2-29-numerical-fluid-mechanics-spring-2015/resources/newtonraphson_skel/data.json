@@ -1,0 +1,47 @@
+{
+  "audience": [],
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/2-29-numerical-fluid-mechanics-spring-2015/b5e5221631e49419e1cdd677782e6518_NewtonRaphson_skel.zip",
+  "file_size": 700,
+  "file_type": "application/zip",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "18f8e3b9-0e75-225c-4548-7e4c60e79872",
+  "resourcetype": "Other",
+  "title": "NewtonRaphson_skel.zip",
+  "uid": "b5e52216-31e4-9419-e1cd-d677782e6518",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": {
+      "content": [],
+      "website": "2-29-numerical-fluid-mechanics-spring-2015"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_resources": {
+      "content": [],
+      "website": "2-29-numerical-fluid-mechanics-spring-2015"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

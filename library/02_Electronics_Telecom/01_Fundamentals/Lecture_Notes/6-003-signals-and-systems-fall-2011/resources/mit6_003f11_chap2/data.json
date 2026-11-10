@@ -1,0 +1,47 @@
+{
+  "content": "<p>This resource contains information on chapter 2 of book signals and systems; difference equations and modularity.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information on chapter 2 of book signals and systems; difference equations and modularity.",
+  "draft": false,
+  "file": "/courses/6-003-signals-and-systems-fall-2011/c8641f435f1176585ea4879f06ccfc78_MIT6_003F11_chap2.pdf",
+  "file_size": 163685,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Readings"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Readings",
+  "parent_type": "CourseSection",
+  "parent_uid": "998c6675-6fd3-dc4c-dcec-292568f6e2aa",
+  "resourcetype": "Document",
+  "title": "Chapter 2: Difference equations and modularity",
+  "uid": "c8641f43-5f11-7658-5ea4-879f06ccfc78",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "6-003-signals-and-systems-fall-2011"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "6-003-signals-and-systems-fall-2011"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

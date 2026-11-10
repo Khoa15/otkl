@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture presentation on multi-stage amplifiers,, stage selection, speciality stages, looking at a commercial op-amp schematic, and frequency response.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture presentation on multi-stage amplifiers,, stage selection, speciality stages, looking at a commercial op-amp schematic, and frequency response.",
+  "draft": false,
+  "file": "/courses/6-012-microelectronic-devices-and-circuits-fall-2009/60837c7a6e29ecfcfd19c07688159d28_MIT6_012F09_lec22.pdf",
+  "file_size": 1110329,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "e4c7985c-766a-2f9c-5bac-08869dd8bade",
+  "resourcetype": "Document",
+  "title": "Lecture 22 - Diff-Amp Anal. III: Cascode, µA-741",
+  "uid": "60837c7a-6e29-ecfc-fd19-c07688159d28"
+}

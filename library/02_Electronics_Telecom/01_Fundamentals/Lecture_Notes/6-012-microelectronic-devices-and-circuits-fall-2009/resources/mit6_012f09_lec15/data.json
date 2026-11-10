@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture notes on CMOS analysis, switching delays, power dissipation, and speed/power trade-offs.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on CMOS analysis, switching delays, power dissipation, and speed/power trade-offs.",
+  "draft": false,
+  "file": "/courses/6-012-microelectronic-devices-and-circuits-fall-2009/585bb75af34ebaad61ffa16a3b972718_MIT6_012F09_lec15.pdf",
+  "file_size": 545133,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "e4c7985c-766a-2f9c-5bac-08869dd8bade",
+  "resourcetype": "Document",
+  "title": "Lecture 15 - Digital Circuits: CMOS",
+  "uid": "585bb75a-f34e-baad-61ff-a16a3b972718"
+}

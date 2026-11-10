@@ -1,0 +1,16 @@
+
+{
+  "content": "<p>A brief description of the 2.004 lab facilities and rules is provided for reference (<a href=\"../../resources/descript/index.html\">PDF</a>)</p>\n<p>The first seven labs deal with a physical plant consisting of a rotational flywheel and motor, detailed in this handout (<a href=\"../../resources/rotational_plant/index.html\">PDF</a>) (Courtesy Prof. Emanuel Sachs. Used with permission.)</p>\n<p>The motor specification sheet may be found here (<a   class=\"external-link \"   target=\"_blank\"   href=\"http://www.maxonmotor.com/medias/sys_master/8804419338270/DC-Das-wichtigste-ueber-maxonmotoren_11_DE-EN_ES_036-1.pdf\"  aria-label=\"PDF (opens in a new tab)\"  >PDF</a>)</p>\n<p>Lab 1: Coulomb and Viscous Friction (<a href=\"../../resources/lab1/index.html\">PDF</a>)</p>\n<p>Lab 2: Characterization of Lab System Components (<a href=\"../../resources/lab2/index.html\">PDF</a>)</p>\n<p>Lab 3: Construction of a Proportional Velocity Controller (<a href=\"../../resources/lab3/index.html\">PDF</a>)</p>\n<p>Lab 4: Closed-loop Performance of a Proportional Velocity Controller (<a href=\"../../resources/lab4/index.html\">PDF</a>)</p>\n<p>Lab 5: Elimination of Steady-state Error Using Integral Control Action (<a href=\"../../resources/lab5/index.html\">PDF</a>)</p>\n<p>Lab 6: Closed-loop Position Control, and the Effect of Derivative Control Action (<a href=\"../../resources/lab6/index.html\">PDF</a>)</p>\n<p>Lab 7: Closed-Loop Position Control using Position and Velocity Feedback (<a href=\"../../resources/lab7/index.html\">PDF</a>)</p>\n<p>The final set of lab projects involves the design of an active damping system for a skyscraper, including a set of MATLAB files for simulating the tower and its vibrations.</p>\n<p>Project Introduction (<a href=\"../../resources/tower_slides/index.html\">PDF</a>)</p>\n<p>Lab: Active Damping of Tall Building Vibrations (<a href=\"../../resources/project1/index.html\">PDF</a>)</p>\n<p>Tower Data (<a href=\"../../resources/towerdata/index.html\">ZIP</a>) (The ZIP file contains: 13 .m files.)</p>\n",
+  "content_type": "page",
+  "description": "This section provides information on lab facilities and lab projects for the course.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Laboratory Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Labs",
+  "uid": "8be49c35-d622-84b9-3542-9b068070e01f"
+}
+

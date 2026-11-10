@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains information regarding errors, channel codes.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information regarding errors, channel codes. ",
+  "draft": false,
+  "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/8fd4b97791ad4fa2fa0f9272a116ad31_MIT6_02F12_lec03.pdf",
+  "file_size": 1189257,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Slides",
+  "parent_type": "CourseSection",
+  "parent_uid": "6293cb2b-b2c9-55e5-230f-875fa43a271f",
+  "resourcetype": "Document",
+  "title": "6.02 Lecture 3: Errors, channel codes",
+  "uid": "8fd4b977-91ad-4fa2-fa0f-9272a116ad31"
+}

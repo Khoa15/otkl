@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains quiz 2.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains quiz 2.",
+  "draft": false,
+  "file": "/courses/6-061-introduction-to-electric-power-systems-spring-2011/204935b0392714e1e34a018024ea6ec9_MIT6_061S11_quiz02.pdf",
+  "file_size": 83890,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Quizzes",
+  "parent_type": "CourseSection",
+  "parent_uid": "71fd169d-3022-4bf6-62f1-1799820c401b",
+  "resourcetype": "Document",
+  "title": "MIT6_061S11_quiz02.pdf",
+  "uid": "204935b0-3927-14e1-e34a-018024ea6ec9"
+}

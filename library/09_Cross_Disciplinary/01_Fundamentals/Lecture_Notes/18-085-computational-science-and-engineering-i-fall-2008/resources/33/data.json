@@ -1,0 +1,27 @@
+{
+  "content": "<p>Thumbnail image accompanying a video lecture on filters and the Fourier integral transform.</p>\n",
+  "content_type": "resource",
+  "description": "Thumbnail image accompanying a video lecture on filters and the Fourier integral transform.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/39b17e3dfd038c0cdd89925fb40d8d3d_33.jpg",
+  "file_size": 2974,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Lecture 33",
+  "uid": "39b17e3d-fd03-8c0c-dd89-925fb40d8d3d",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

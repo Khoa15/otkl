@@ -1,0 +1,20 @@
+
+{
+  "content": "<p>« <a href=\"../../../pages/ax-b-and-the-four-subspaces/matrix-spaces-rank-1-small-world-graphs/index.html\">Previous</a> | <a href=\"../../../pages/ax-b-and-the-four-subspaces/exam-1-review/index.html\">Next</a> »</p>\n\n    <h3 id=\"session-overview\">Session Overview</h3>\n\n<p><table>\n\n<tr>\n\n<td>\n\n<img src=\"../../../static_resources/ea19ebb0b8fe89f74aa01b5876da5b66_1_12.jpg\" alt=\"Figure excerpted from ‘Introduction to Linear Algebra’ by G.S. Strang\" loading=\"lazy\" decoding=\"async\" />\n</td>\n\n<td>\n</p>\n<p>This session explores the linear algebra of electrical networks and the Internet, and sheds light on important results in graph theory.</p>\n</td>\n\n</tr>\n\n</table>\n\n\n    <h3 id=\"session-activities\">Session Activities</h3>\n\n\n    <h4 id=\"lecture-video-and-summary\">Lecture Video and Summary</h4>\n\n<ul>\n<li>Watch the video lecture <a href=\"../../../resources/graphs-networks-incidence-matrices/index.html\">Graphs, Networks, Incidence Matrices</a></li>\n<li>Read the accompanying <a href=\"../../../resources/mit18_06scf11_ses1-12sum/index.html\">lecture summary (PDF)</a></li>\n<li><a href=\"../../../resources/6-wh6yvk6uc-1/index.html\">Lecture video transcript (PDF)</a></li>\n</ul>\n\n    <h4 id=\"suggested-reading\">Suggested Reading</h4>\n\n<ul>\n<li>Read Section 8.2 in the 4<sup>th</sup> edition or Section 10.1 in the 5<sup>th</sup> edition.</li>\n</ul>\n\n    <h4 id=\"problem-solving-video\">Problem Solving Video</h4>\n\n<ul>\n<li>Watch the recitation video on <a href=\"../../../resources/graphs-and-networks/index.html\">Graphs and Networks</a></li>\n<li><a href=\"../../../resources/h0m2tsmspti-1/index.html\">Recitation video transcript (PDF)</a></li>\n</ul>\n\n    <h3 id=\"check-yourself\">Check Yourself</h3>\n\n\n    <h4 id=\"problems-and-solutions\">Problems and Solutions</h4>\n\n<p>Work the problems on your own and check your answers when you&rsquo;re done.</p>\n<ul>\n<li><a href=\"../../../resources/mit18_06scf11_ses1-12prob/index.html\">Problems (PDF)</a></li>\n<li><a href=\"../../../resources/mit18_06scf11_ses1-12sol/index.html\">Solutions (PDF)</a></li>\n</ul>\n<p>« <a href=\"../../../pages/ax-b-and-the-four-subspaces/matrix-spaces-rank-1-small-world-graphs/index.html\">Previous</a> | <a href=\"../../../pages/ax-b-and-the-four-subspaces/exam-1-review/index.html\">Next</a> »</p>\n",
+  "content_type": "page",
+  "description": "This section provides a lesson on graphs, networks, and incidence matrices.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "parent_title": "Unit I: Ax = b and the Four Subspaces",
+  "parent_type": "CourseSection",
+  "parent_uid": "34303ce1-9b45-7241-22d2-bd33d64df688",
+  "title": "Graphs, Networks, Incidence Matrices",
+  "uid": "8be90057-9381-41d7-712d-45f0e42d1cfc",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

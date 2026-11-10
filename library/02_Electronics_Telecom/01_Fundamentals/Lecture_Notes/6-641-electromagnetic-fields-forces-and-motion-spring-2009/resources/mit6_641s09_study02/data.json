@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Formula sheet on differential operators in Cartesian, cylindrical, and spherical coordinates.</p>\n",
+  "content_type": "resource",
+  "description": "Formula sheet on differential operators in Cartesian, cylindrical, and spherical coordinates.",
+  "draft": false,
+  "file": "/courses/6-641-electromagnetic-fields-forces-and-motion-spring-2009/MIT6_641s09_study02.pdf",
+  "file_size": 139152,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Supplemental Exam Materials"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Exams",
+  "parent_type": "CourseSection",
+  "parent_uid": "528b24c6-df44-6e33-c6db-3354e9fda743",
+  "resourcetype": "Document",
+  "title": "Formula Sheet",
+  "uid": "34b2022a-1379-8d7d-782d-30f8454f5520",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

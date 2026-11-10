@@ -1,0 +1,27 @@
+{
+  "content": "<p>Thumbnail image accompanying a video lecture on Laplace&rsquo;s equation and fast Poisson solvers.</p>\n",
+  "content_type": "resource",
+  "description": "Thumbnail image accompanying a video lecture on Laplace's equation and fast Poisson solvers.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/73c6230bdc11bb162dc04e51033513b5_25.jpg",
+  "file_size": 2903,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Lecture 25",
+  "uid": "73c6230b-dc11-bb16-2dc0-4e51033513b5",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

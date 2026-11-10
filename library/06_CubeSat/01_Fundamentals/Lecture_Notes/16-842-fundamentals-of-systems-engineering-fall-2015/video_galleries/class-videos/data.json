@@ -1,0 +1,518 @@
+
+{
+  "content": "<p>All available class videos are provided below (no video recordings for Sessions 1 and 12):</p>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/session-2-requirements-definition/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/J_y2I09rj_I/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Session 2: Requirements Definition</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/session-3-systems-modeling-languages/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/CTVFDb44ses/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Session 3: Systems Modeling Languages</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/session-4-system-architecture-and-concept-generation/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/ScbSrUSbumo/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Session 4: System Architecture and Concept Generation</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/session-5-concept-selection-and-tradespace-exploration/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/sOkQ4HBmZXo/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Session 5: Concept Selection and Tradespace Exploration</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/session-6-design-definition-and-multidisciplinary-optimization/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/d44SDevJYR0/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Session 6: Design Definition and Multidisciplinary Optimization</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/session-7-miscellaneous-topics-mbse-and-introduction-to-cad-guest-lecture-from-solidworks/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/dv8Dbyfcrd4/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Session 7: Miscellaneous Topics - MBSE and Introduction to CAD</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/session-8-systems-integration-and-interface-management/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/9AtMQqCBdhw/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Session 8: Systems Integration and Interface Management</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/session-9-verification-and-validation/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/-63JXElqPaY/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Session 9: Verification and Validation</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/session-10-commissioning-and-operations/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/rpGJsC5INd4/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Session 10: Commissioning and Operations</h5>\n      </div>\n    </div>\n  </a>\n</div>\n<div class=\"mb-2 border-gray rounded video-gallery-card\">\n  <a class=\"video-link\" href=\"../../resources/session-11-lifecycle-management/index.html\">\n    <div class=\"inner-container\">\n      <div class=\"left-col\"><img class=\"thumbnail\" src=\"https://img.youtube.com/vi/b0VqqwHLqcI/default.jpg\" alt=\"\" /></div>\n      <div class=\"right-col\">\n        <h5 class=\"video-title\">Session 11: Lifecycle Management</h5>\n      </div>\n    </div>\n  </a>\n</div>\n\n\n",
+  "content_type": "video_gallery",
+  "description": "This page provides selected class videos for MIT course 16.842 Fundamentals of Systems Engineering of Fall, 2015.",
+  "draft": false,
+  "is_media_gallery": true,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "ocw_type": "CourseSection",
+  "title": "Class Videos",
+  "uid": "f94f91b2-7d2b-69ec-a1c5-86571f24a217",
+  "videos": [
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "229279904",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Class Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Session 2: Requirements Definition",
+      "uid": "93c470b7-590a-b0cc-1e0e-2ad07e65e02f",
+      "video_files": {
+        "archive_url": "https://archive.org/download/MIT16.842F15/MIT16_842F15_S02_SPOC_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/80104038c1975a3cbe00823406f9c6f1_J_y2I09rj_I.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/J_y2I09rj_I/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/41de4134b97908d36729d2afc23f91f8_J_y2I09rj_I.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "16-842-fundamentals-of-systems-engineering-fall-2015, flexibility, illities, lifecycle management, lifecycle properties, scalability",
+        "youtube_id": "J_y2I09rj_I"
+      }
+    },
+    {
+      "audience": [],
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "233560016",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "level": [],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Class Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Session 3: Systems Modeling Languages",
+      "uid": "e72d08a6-a473-8314-e7b4-0616cf02b442",
+      "video_files": {
+        "archive_url": "https://archive.org/download/MIT16.842F15/MIT16_842F15_S03_SPOC_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/6c30718b532553f299d872c7b135f428_CTVFDb44ses.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/CTVFDb44ses/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/df8a344777809e448095342207ce5be9_CTVFDb44ses.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "16-842-fundamentals-of-systems-engineering-fall-2015, mbse, model-based systems engineering, modelica, object process methodology, ontology, opm, semantics, syntax, sysml, systems modeling languages",
+        "youtube_id": "CTVFDb44ses"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "105993274",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Class Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Session 4: System Architecture and Concept Generation",
+      "uid": "4a148525-ad11-36a2-418b-3e2ee95903d5",
+      "video_files": {
+        "archive_url": "https://archive.org/download/MIT16.842F15/MIT16_842F15_S04_SPOC_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/5252971b12a956e2a9b70c27fab377f7_ScbSrUSbumo.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/ScbSrUSbumo/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/4e1dec77671b71cb47cda5207754594d_ScbSrUSbumo.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "16-842-fundamentals-of-systems-engineering-fall-2015, architecture enumeration, concept generation, logical decomposition, morphological matrix, system architecture",
+        "youtube_id": "ScbSrUSbumo"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "240031572",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Class Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Session 5: Concept Selection and Tradespace Exploration",
+      "uid": "fc88c5d3-f4fe-a5ef-b45e-86dc49ada16c",
+      "video_files": {
+        "archive_url": "https://archive.org/download/MIT16.842F15/MIT16_842F15_S05_SPOC_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/8bd7265a5b765171a0f6c80c59f0ef6e_sOkQ4HBmZXo.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/sOkQ4HBmZXo/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/65c6b0d3ee9e6f887f0f90201856a2dd_sOkQ4HBmZXo.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "16-842-fundamentals-of-systems-engineering-fall-2015, concept selection, decision analysis, multi-attribute utility, multiobjective optimization, non-dominance, pareto frontiers, pdr, preliminary design review, pugh matrix",
+        "youtube_id": "sOkQ4HBmZXo"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "210488318",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Class Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Session 6: Design Definition and Multidisciplinary Optimization",
+      "uid": "0ede991e-7eb3-3c8b-0714-1aa538d982e9",
+      "video_files": {
+        "archive_url": "https://archive.org/download/MIT16.842F15/MIT16_842F15_S06_SPOC_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/bdd2d22f9937530684f45f841c30a63f_d44SDevJYR0.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/d44SDevJYR0/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/48423cbd3a2d42bc82353cfc8b8a91cf_d44SDevJYR0.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "16-842-fundamentals-of-systems-engineering-fall-2015, cdf, cdr, concurrent design facilities, critical design review, multidisciplinary design optimization, process overview",
+        "youtube_id": "d44SDevJYR0"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "220255692",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Class Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Session 7: Miscellaneous Topics - MBSE and Introduction to CAD",
+      "uid": "3fcf152b-5867-a483-7d6e-0f7de78eaba6",
+      "video_files": {
+        "archive_url": "https://archive.org/download/MIT16.842F15/MIT16_842F15_S07_SPOC_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/0ee06b4905155719af34d41d4ee55fde_dv8Dbyfcrd4.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/dv8Dbyfcrd4/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/6d1ebbe9ac93931527a09c41e2865de7_dv8Dbyfcrd4.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "16-842-fundamentals-of-systems-engineering-fall-2015, design process, design review, incose, international council on systems engineering, systems engineering",
+        "youtube_id": "dv8Dbyfcrd4"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "203673638",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Class Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Session 8: Systems Integration and Interface Management",
+      "uid": "936aa8a4-2f28-ed2a-fd5c-05808e1c10bf",
+      "video_files": {
+        "archive_url": "https://archive.org/download/MIT16.842F15/MIT16_842F15_S08_SPOC_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/9ac826a1116755dd818a9598b90a7e27_9AtMQqCBdhw.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/9AtMQqCBdhw/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/27a884bdbc6b247d9adaf514a1d44404_9AtMQqCBdhw.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "16-842-fundamentals-of-systems-engineering-fall-2015, design structure matrix, dsm, icd, interface control documents, interface management, system integration",
+        "youtube_id": "9AtMQqCBdhw"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "227182792",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Class Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Session 9: Verification and Validation",
+      "uid": "18c91cd2-5c2f-ad76-3bc7-a80ab75ced08",
+      "video_files": {
+        "archive_url": "https://archive.org/download/MIT16.842F15/MIT16_842F15_S09_SPOC_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/a839664b847a54109a74a52fd50f382c_-63JXElqPaY.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/-63JXElqPaY/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/5bceaf7d23a9b72a800c5a976911b0ca_-63JXElqPaY.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "16-842-fundamentals-of-systems-engineering-fall-2015, aircraft flight testing, flight readiness review, frr, projiect lifecycle, risk matrix, spacecraft testing, system safety, technical risk management",
+        "youtube_id": "-63JXElqPaY"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "159455106",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Class Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Session 10: Commissioning and Operations",
+      "uid": "a1543978-cb5a-2339-6c7d-a5de6a80280e",
+      "video_files": {
+        "archive_url": "https://archive.org/download/MIT16.842F15/MIT16_842F15_S10_SPOC_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/30c2e93414dd581081e6e638f197db9c_rpGJsC5INd4.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/rpGJsC5INd4/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/dba496797dba2d953784081d195cd3ff_rpGJsC5INd4.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "16-842-fundamentals-of-systems-engineering-fall-2015, commissioning, pfr, post-flight review",
+        "youtube_id": "rpGJsC5INd4"
+      }
+    },
+    {
+      "content_type": "resource",
+      "description": "",
+      "draft": false,
+      "end_time": "",
+      "file": null,
+      "file_size": "241244436",
+      "file_type": "",
+      "image_metadata": {
+        "caption": "",
+        "credit": "",
+        "image-alt": ""
+      },
+      "iscjklanguage": false,
+      "learning_resource_types": [
+        "Lecture Videos"
+      ],
+      "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "ocw_type": "",
+      "optional_tab_title": "",
+      "optional_text": "",
+      "parent_title": "Class Videos",
+      "parent_type": "CourseSection",
+      "related_resources_text": "",
+      "resource_index_text": "",
+      "resourcetype": "Video",
+      "start_time": "",
+      "title": "Session 11: Lifecycle Management",
+      "uid": "7ade98dc-2add-e2eb-3763-5a75c91bc0db",
+      "video_files": {
+        "archive_url": "https://archive.org/download/MIT16.842F15/MIT16_842F15_S11_SPOC_300k.mp4",
+        "video_captions_resources": [
+          {
+            "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/6d6ef6d883405ae9b7bcf9665776f195_b0VqqwHLqcI.vtt",
+            "language": "en"
+          }
+        ],
+        "video_thumbnail_file": "https://img.youtube.com/vi/b0VqqwHLqcI/default.jpg",
+        "video_transcript_resources": [
+          {
+            "file": "/courses/16-842-fundamentals-of-systems-engineering-fall-2015/3a747e2b48f7cc4f4808fad33a3e5d69_b0VqqwHLqcI.pdf",
+            "language": "en"
+          }
+        ]
+      },
+      "video_metadata": {
+        "video_tags": "16-842-fundamentals-of-systems-engineering-fall-2015, flexibility, illities, lifecycle management, lifecycle properties, scalability",
+        "youtube_id": "b0VqqwHLqcI"
+      }
+    }
+  ]
+}
+

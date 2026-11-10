@@ -1,0 +1,83 @@
+{
+  "course_description": "This course covers the fundamentals of astrodynamics, focusing on the two-body orbital initial-value and boundary-value problems with applications to space vehicle navigation and guidance for lunar and planetary missions, including both powered flight and midcourse maneuvers. Other topics include celestial mechanics, Kepler's problem, Lambert's problem, orbit determination, multi-body methods, mission planning, and recursive algorithms for space navigation. Selected applications from the Apollo, Space Shuttle, and Mars exploration programs are also discussed.\n",
+  "course_description_html": "This course covers the fundamentals of astrodynamics, focusing on the two-body orbital initial-value and boundary-value problems with applications to space vehicle navigation and guidance for lunar and planetary missions, including both powered flight and midcourse maneuvers. Other topics include celestial mechanics, Kepler&rsquo;s problem, Lambert&rsquo;s problem, orbit determination, multi-body methods, mission planning, and recursive algorithms for space navigation. Selected applications from the Apollo, Space Shuttle, and Mars exploration programs are also discussed.",
+  "course_image": {
+    "content": "77986f60-8065-67e9-ae5e-f12bd3f6d759",
+    "website": "16-346-astrodynamics-fall-2008"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "This course discusses orbital mechanics and space navigation necessary for flights such as the Mars Reconnaissance Orbiter. (Image by MIT OpenCourseWare, based on work done at the NASA Jet Propulsion Laboratory.)",
+    "draft": false,
+    "file": "/courses/16-346-astrodynamics-fall-2008/77986f60806567e9ae5ef12bd3f6d759_16-346f08.jpg",
+    "file_size": 19525,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "The first realistic multiple flyby orbit, discovered January 26, 1961 using trial and error.  (Image courtesy of Richard Battin.)",
+      "credit": "",
+      "image-alt": "Diagram of a Venus and Mars double-reconnaissance trajectory."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "Diagram of a Venus and Mars double-reconnaissance trajectory",
+    "uid": "77986f60-8065-67e9-ae5e-f12bd3f6d759"
+  },
+  "course_image_thumbnail": {
+    "content": "f35b6662-851c-43e2-c908-b1be04e2e1e0",
+    "website": "16-346-astrodynamics-fall-2008"
+  },
+  "course_title": "Astrodynamics",
+  "department_numbers": [
+    "16"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/77986f60806567e9ae5ef12bd3f6d759_16-346f08.jpg",
+  "instructors": [
+    {
+      "first_name": "Richard",
+      "last_name": "Battin",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Richard Battin",
+      "uid": "8ae990c3-d003-b712-bba0-dee5769f88cf",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Richard+Battin"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Notes",
+    "Problem Sets",
+    "Problem Set Solutions"
+  ],
+  "legacy_uid": "6afeef45-4c51-99f5-7737-2a2c1c6e4cc3",
+  "level": [
+    "Graduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Engineering",
+      "Aerospace Engineering"
+    ]
+  ],
+  "primary_course_number": "16.346",
+  "site_short_id": "16.346-fall-2008",
+  "site_uid": "2c973564-cd2f-4594-abf2-678883fbb636",
+  "site_url_path": "courses/16-346-astrodynamics-fall-2008",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Engineering",
+      "Aerospace Engineering",
+      "Astrodynamics"
+    ],
+    [
+      "Engineering",
+      "Aerospace Engineering",
+      "Guidance and Control Systems"
+    ]
+  ],
+  "year": "2008"
+}

@@ -1,0 +1,22 @@
+
+{
+  "content": "<p>Formula sheets for problem sets 4 and 5 can be found in the <a href=\"../../pages/exams/index.html\">exams</a> section. The additional problems are available for extra practice.</p>\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nASSIGNMENTS\n</th>\n\n<th>\n\nSOLUTIONS\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\nProblem set 1 (<a href=\"../../resources/mit6_641s09_pset01/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit6_641s09_sol_pset01/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nProblem set 2 (<a href=\"../../resources/mit6_641s09_pset02/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit6_641s09_sol_pset02/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nProblem set 3 (<a href=\"../../resources/mit6_641s09_pset03/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit6_641s09_sol_pset03/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nProblem set 4 (<a href=\"../../resources/mit6_641s09_pset04/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit6_641s09_sol_pset04/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nProblem set 5 (<a href=\"../../resources/mit6_641s09_pset05/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit6_641s09_sol_pset05/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nProblem set 6 (<a href=\"../../resources/mit6_641s09_pset06/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit6_641s09_sol_pset06/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nProblem set 7 (<a href=\"../../resources/mit6_641s09_pset07/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit6_641s09_sol_pset07/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nAdditional problems (<a href=\"../../resources/mit6_641s09_pset_opt/index.html\">PDF</a>)\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit6_641s09_sol_pset_opt/index.html\">PDF - 1.5MB</a>)\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section provides a complete set of problem sets for the course along with solutions.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Assignments"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Assignments",
+  "uid": "4ab8ada8-331e-24e5-a25e-1d01626f6d06",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

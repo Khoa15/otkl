@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture notes on conservation laws for systems of particles, Newton&rsquo;s second law, conservation of angular momentum, and two-dimensional rigid bodies.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on conservation laws for systems of particles, Newton's second law, conservation of angular momentum, and two-dimensional rigid bodies.",
+  "draft": false,
+  "file": "/courses/16-07-dynamics-fall-2009/5b68bc0342763cf099422af5a075940a_MIT16_07F09_Lec11.pdf",
+  "file_size": 303035,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "c74de568-7f12-1be8-c80c-73b2269c3877",
+  "resourcetype": "Document",
+  "title": "Lecture L11 – Conservation Laws for Systems of Particles",
+  "uid": "5b68bc03-4276-3cf0-9942-2af5a075940a"
+}

@@ -1,0 +1,21 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/16-485-visual-navigation-for-autonomous-vehicles-vnav-fall-2020/03e7c9984eead5a0400f7485462f1f59_16-485f20-th.jpg",
+  "file_size": 4111,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Application of VNAV in DARPA’s Subterranean Challenge to map, navigate, and search complex underground environments, including human-made tunnels, urban underground, and natural cave systems. (Image courtesy of DARPA / public domain.)",
+    "credit": "",
+    "image-alt": "A drone flying over a terrain and a few other vehicles on that terrain as well"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "16-485f20-th.jpg",
+  "uid": "03e7c998-4eea-d5a0-400f-7485462f1f59"
+}

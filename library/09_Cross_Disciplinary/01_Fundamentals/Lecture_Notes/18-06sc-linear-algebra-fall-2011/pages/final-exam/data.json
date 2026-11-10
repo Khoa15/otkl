@@ -1,0 +1,17 @@
+
+{
+  "content": "<p>« <a href=\"../../pages/final-course-review/index.html\">Previous</a> | <a href=\"../../pages/resource-index/index.html\">Next</a> »</p>\n\n    <h3 id=\"session-overview\">Session Overview</h3>\n\n<p><table>\n\n<tr>\n\n<td>\n\n<img src=\"../../static_resources/febb7eb13ff97fca8cd0e4fc09f3658c_Final_Exam.jpg\" alt=\"\" loading=\"lazy\" decoding=\"async\" />\n</td>\n\n<td>\n</p>\n<p>Nine questions in a three-hour closed-book exam would be typical for this course at MIT. We try to cover all the way from Ax=0 (the null space and the special solutions) to projections, determinants, eigenvalues, and even a touch of singular values from the eigenvalues of A<sup>T</sup>A. That is the good matrix of linear algebra: square, symmetric, and positive definite or at least semidefinite.</p>\n</td>\n\n</tr>\n\n</table>\n\n\n    <h3 id=\"check-yourself\">Check Yourself</h3>\n\n\n    <h4 id=\"exams-and-solutions\">Exams and Solutions</h4>\n\n<ul>\n<li><a href=\"../../resources/mit18_06scf11_final_ex/index.html\">Exams (PDF)</a></li>\n<li><a href=\"../../resources/mit18_06scf11_final_exs/index.html\">Solutions (PDF)</a></li>\n</ul>\n<p>Looking for something specific in this course? The <a href=\"../../pages/resource-index/index.html\">Resource Index</a> compiles links to most course resources in a single page.</p>\n<p>« <a href=\"../../pages/final-course-review/index.html\">Previous</a> | <a href=\"../../pages/resource-index/index.html\">Next</a> »</p>\n",
+  "content_type": "page",
+  "description": "This section provides an overview of a review session for the final exam.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "title": "Final Exam",
+  "uid": "7aadf934-9df8-d886-6462-55a5ab83e424",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

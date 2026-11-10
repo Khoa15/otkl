@@ -1,0 +1,27 @@
+{
+  "content": "<p>Handwritten lecture notes on convection, conduction, radiation, heat sinking, and thermal modeling.</p>\n",
+  "content_type": "resource",
+  "description": "Handwritten lecture notes on convection, conduction, radiation, heat sinking, and thermal modeling.",
+  "draft": false,
+  "file": "/courses/6-334-power-electronics-spring-2007/cbed4e30ff8e5888f513153b291e8635_ch13.pdf",
+  "file_size": 818690,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "bac52feb-fdf3-e0d1-4e31-ee4c7c5e3445",
+  "resourcetype": "Document",
+  "title": "ch13.pdf",
+  "uid": "cbed4e30-ff8e-5888-f513-153b291e8635",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

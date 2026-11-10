@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;h3 id=&#34;legend-for-lecturers&#34;&gt;Legend for Lecturers&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;CK = Professor Chris Kaiser&lt;br&gt;&#xA;GF = Professor Gerry Fink&lt;br&gt;&#xA;LS = Professor Leona Samson&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LEC #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;Lecturers&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Physical Structure of the Gene&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;CK (&lt;a href=&#34;../../resources/lecture1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;The Complementation Test and Gene Function&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;CK (&lt;a href=&#34;../../resources/lecture2/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Mendelian Genetics&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;CK (&lt;a href=&#34;../../resources/lecture3/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Probability and Pedigrees&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;CK (&lt;a href=&#34;../../resources/lecture4/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Chromosomes and Sex Linkage&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;CK (&lt;a href=&#34;../../resources/lecture5/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;6&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Recombination and Genetic Maps&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;CK (&lt;a href=&#34;../../resources/lecture6/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture1.pdf</title>
+      <link>/resources/lecture1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture1/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture10.pdf</title>
+      <link>/resources/lecture10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture10/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture11.pdf</title>
+      <link>/resources/lecture11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture11/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture12.pdf</title>
+      <link>/resources/lecture12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture12/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture13.pdf</title>
+      <link>/resources/lecture13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture13/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture14.pdf</title>
+      <link>/resources/lecture14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture14/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture15.pdf</title>
+      <link>/resources/lecture15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture15/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture16.pdf</title>
+      <link>/resources/lecture16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture16/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture17.pdf</title>
+      <link>/resources/lecture17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture17/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture18.pdf</title>
+      <link>/resources/lecture18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture18/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture19.pdf</title>
+      <link>/resources/lecture19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture19/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture2.pdf</title>
+      <link>/resources/lecture2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture2/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture20.pdf</title>
+      <link>/resources/lecture20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture20/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture21.pdf</title>
+      <link>/resources/lecture21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture21/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture22.pdf</title>
+      <link>/resources/lecture22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture22/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture23.pdf</title>
+      <link>/resources/lecture23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture23/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture24.pdf</title>
+      <link>/resources/lecture24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture24/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture25.pdf</title>
+      <link>/resources/lecture25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture25/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture26.pdf</title>
+      <link>/resources/lecture26/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture26/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture27.pdf</title>
+      <link>/resources/lecture27/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture27/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture28.pdf</title>
+      <link>/resources/lecture28/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture28/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture29_30.pdf</title>
+      <link>/resources/lecture29_30/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture29_30/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture3.pdf</title>
+      <link>/resources/lecture3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture3/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture31.pdf</title>
+      <link>/resources/lecture31/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture31/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture32.pdf</title>
+      <link>/resources/lecture32/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture32/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture33_1.pdf</title>
+      <link>/resources/lecture33_1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture33_1/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture33_2.pdf</title>
+      <link>/resources/lecture33_2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture33_2/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture33_3.pdf</title>
+      <link>/resources/lecture33_3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture33_3/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture34.pdf</title>
+      <link>/resources/lecture34/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture34/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture35.pdf</title>
+      <link>/resources/lecture35/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture35/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture4.pdf</title>
+      <link>/resources/lecture4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture4/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture5.pdf</title>
+      <link>/resources/lecture5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture5/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture6.pdf</title>
+      <link>/resources/lecture6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture6/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture7.pdf</title>
+      <link>/resources/lecture7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture7/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture8.pdf</title>
+      <link>/resources/lecture8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture8/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lecture9.pdf</title>
+      <link>/resources/lecture9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture9/data.json</guid>
+      <description>&lt;p&gt;Summary of topics covered in lecture.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

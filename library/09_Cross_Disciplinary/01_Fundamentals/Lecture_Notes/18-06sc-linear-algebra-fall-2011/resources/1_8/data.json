@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/d914ed3b6d9685d2b783a4f40fe46f78_1_8.jpg",
+  "file_size": 5365,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from ‘Introduction to Linear Algebra’ by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Solving Ax = b: Row Reduced Form R",
+  "parent_type": "CourseSection",
+  "parent_uid": "5fa61a8a-cb4b-ace2-b291-fa9364395075",
+  "resourcetype": "Image",
+  "title": "1_8.jpg",
+  "uid": "d914ed3b-6d96-85d2-b783-a4f40fe46f78",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture notes on quantum Merlin Arthur (QMA) problems, Watrous’ QMA protocol for group non-membership, upper bounds on QMA, and QMA-complete problems.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on quantum Merlin Arthur (QMA) problems, Watrous’ QMA protocol for group non-membership, upper bounds on QMA, and QMA-complete problems.",
+  "draft": false,
+  "file": "/courses/6-845-quantum-complexity-theory-fall-2010/f2e01f6936ab17d5b220fa3a68431fa8_MIT6_845F10_lec15.pdf",
+  "file_size": 148360,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "0ae74169-1168-dcc5-4644-05254b3e4264",
+  "resourcetype": "Document",
+  "title": "QMA",
+  "uid": "f2e01f69-36ab-17d5-b220-fa3a68431fa8"
+}

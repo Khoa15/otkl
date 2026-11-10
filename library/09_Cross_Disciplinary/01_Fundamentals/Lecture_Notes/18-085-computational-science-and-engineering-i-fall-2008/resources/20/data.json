@@ -1,0 +1,27 @@
+{
+  "content": "<p>Thumbnail image accompanying a video lecture on element matrices and 4th order bending equations.</p>\n",
+  "content_type": "resource",
+  "description": "Thumbnail image accompanying a video lecture on element matrices and 4th order bending equations.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/d321e24f7b5c94e09ce90c5851957e24_20.jpg",
+  "file_size": 2849,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Lecture 20",
+  "uid": "d321e24f-7b5c-94e0-9ce9-0c5851957e24",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

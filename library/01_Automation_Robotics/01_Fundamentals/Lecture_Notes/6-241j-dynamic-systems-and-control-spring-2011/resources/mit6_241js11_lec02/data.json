@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains information related to least square estimation.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information related to least square estimation.",
+  "draft": false,
+  "file": "/courses/6-241j-dynamic-systems-and-control-spring-2011/076ac20d5b8bda672a8bcee8d3e95438_MIT6_241JS11_lec02.pdf",
+  "file_size": 276677,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "ee668e05-ff75-8895-0bb1-7bddd4117378",
+  "resourcetype": "Document",
+  "title": "MIT6_241JS11_lec02.pdf",
+  "uid": "076ac20d-5b8b-da67-2a8b-cee8d3e95438"
+}

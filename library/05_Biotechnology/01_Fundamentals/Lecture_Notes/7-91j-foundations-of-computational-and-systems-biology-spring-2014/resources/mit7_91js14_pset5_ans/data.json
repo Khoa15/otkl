@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This file contains the information regarding answers- network statistics, chromatin structure, heritability, association testing.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains the information regarding answers- network statistics, chromatin structure, heritability, association testing.",
+  "draft": false,
+  "file": "/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/560541b18a4612b7e19c8e7f9a9c1a06_MIT7_91JS14_pset5_ans.pdf",
+  "file_size": 241440,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "215564a7-c7bc-a140-74c5-d9096008982b",
+  "resourcetype": "Document",
+  "title": "Problem Set 5: Answers- Network Statistics, Chromatin Structure, Heritability, Association Testing",
+  "uid": "560541b1-8a46-12b7-e19c-8e7f9a9c1a06",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "7-91j-foundations-of-computational-and-systems-biology-spring-2014"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "7-91j-foundations-of-computational-and-systems-biology-spring-2014"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

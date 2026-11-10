@@ -1,0 +1,19 @@
+Lecture 3 - Halfwave Rectifier with Freewheeling Diode and Commutatating Inductance
+
+.PARAM LLOAD = 1H
+.PARAM LCOMM = 5mH
+.PARAM Vs = {120*sqrt(2)}
+
+VAC x 0 SIN(0 {Vs} 50Hz) ;Souce voltage
+LC  x 1 {LCOMM} ; Commutating inductor
+RLC x 1 10k ; Reduces voltage spikes across inductor
+D1  1 2 DMOD ; Rectification diode
+DF  0 2 DMOD ; Freewheeling diode
+LL  2 3 {LLOAD} IC=20A ; Inductive load
+RLL 2 3 10k ;Reduces voltage spikes across inductor
+RL  3 0 2.5 ; Load inductor
+
+.MODEL DMOD D(N=0.001) ;Ideal diode model
+.TRAN 0.1ms 300ms 0ms 0.1ms UIC
+.PROBE
+.END

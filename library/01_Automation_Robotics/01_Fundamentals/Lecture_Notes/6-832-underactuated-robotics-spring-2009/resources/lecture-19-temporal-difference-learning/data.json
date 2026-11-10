@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Topics covered:</strong> Temporal difference learning</p>\n<p><strong>Instructors:</strong> Russell Tedrake</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "182416491",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Video Lectures",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Lecture 19: Temporal Difference Learning",
+  "uid": "4e41901b-4471-3c47-63ce-d18c7f28c665",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT6_832S09/MIT6_832S09lec19_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/6-832-underactuated-robotics-spring-2009/127e2ce38ef85b7da347c2d9a873a8ba_qtmmwILxVR4.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/qtmmwILxVR4/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/6-832-underactuated-robotics-spring-2009/4a4739bcf243600e043713159ef3fc31_qtmmwILxVR4.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "acrobot, actuated systems, cart-pole, compass gait, double integrator, energy shaping, feedback control, kneed compass gait, minimum time control, motion planning, nonlinear dynamics, open-loop optimal control, optimal control, partial feedback linearization, policy search, probabilistic road maps, quadratic regulator, raibert hoppers, randomized motion planning, rimless wheel, running models, simple pendulum, trajectory stabilization, underactuated robotics, walking models",
+    "youtube_id": "qtmmwILxVR4"
+  }
+}

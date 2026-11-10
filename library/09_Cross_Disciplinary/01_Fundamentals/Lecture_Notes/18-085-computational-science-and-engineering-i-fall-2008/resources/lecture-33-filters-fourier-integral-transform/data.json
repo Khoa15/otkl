@@ -1,0 +1,45 @@
+{
+  "content": "<p><strong>Instructor:</strong> Prof. Gilbert Strang</p>\n",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "end_time": "",
+  "file": null,
+  "file_size": "117356245",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "",
+  "optional_tab_title": "",
+  "optional_text": "",
+  "parent_title": "Video Lectures",
+  "parent_type": "CourseSection",
+  "related_resources_text": "",
+  "resource_index_text": "",
+  "resourcetype": "Video",
+  "start_time": "",
+  "title": "Lecture 33: Filters, Fourier Integral Transform",
+  "uid": "2c3bfea5-4c4b-4258-28d9-001b1354d83b",
+  "video_files": {
+    "archive_url": "http://www.archive.org/download/MIT18.085F08/ocw-18.085-f08-lec33_300k.mp4",
+    "video_captions_resources": [
+      {
+        "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/badd40ae08af5527885695c72df57e07_aGnegoNe8Xo.vtt",
+        "language": "en"
+      }
+    ],
+    "video_thumbnail_file": "https://img.youtube.com/vi/aGnegoNe8Xo/default.jpg",
+    "video_transcript_resources": [
+      {
+        "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/9bbc66c9a2b85d2de43dd91f507314d0_aGnegoNe8Xo.pdf",
+        "language": "en"
+      }
+    ]
+  },
+  "video_metadata": {
+    "video_tags": "18-085-computational-science-and-engineering-i-fall-2008, algebra, boundary-value, convolution, differential, discrete, equation, equations, equilibrium, flow, fourier, lagrange, laplace's, linear, multipliers, networks, of, potential, problems, series, transform",
+    "youtube_id": "aGnegoNe8Xo"
+  }
+}

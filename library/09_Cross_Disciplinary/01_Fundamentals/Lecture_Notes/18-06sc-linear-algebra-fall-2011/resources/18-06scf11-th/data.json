@@ -1,0 +1,24 @@
+{
+  "content": "<p>This optical illusion was seen on a restaurant floor in Paris, and coded in MATLAB by Shev Macnamara. Each color can become the tops of the cubes if you look at them correctly.</p>\n",
+  "content_type": "resource",
+  "description": "This optical illusion was seen on a restaurant floor in Paris, and coded in MATLAB by Shev Macnamara. Each color can become the tops of the cubes if you look at them correctly.",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/ecd40b5c89e03d9483b1a25656487d63_18-06scf11-th.jpg",
+  "file_size": 26674,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "This optical illusion was seen on a restaurant floor in Paris, and [coded in MATLAB®](/courses/18-06sc-linear-algebra-fall-2011/resources/hexagonart) by {{% resource_link \"74ddbab5-3944-4f3e-a2ce-8bca75207fba\" \"Shev Macnamara\" %}}. Each color can become the tops of the cubes if you look at them correctly.",
+    "credit": "",
+    "image-alt": "Multi-colored cubes arranged to create the illusion of hexagons."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "18-06scf11-th.jpg",
+  "uid": "ecd40b5c-89e0-3d94-83b1-a25656487d63",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

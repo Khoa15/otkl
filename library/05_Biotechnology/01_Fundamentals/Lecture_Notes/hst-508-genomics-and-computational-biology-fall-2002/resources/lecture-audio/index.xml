@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Audio on MIT OpenCourseWare</title>
+    <link>/resources/lecture-audio/</link>
+    <description>Recent content in Lecture Audio on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-audio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>10A. Networks 2: Molecular Computing, Self-assembly, Genetic Algorithms, Neural Networks</title>
+      <link>/resources/mithst_508f02_lec10a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mithst_508f02_lec10a/data.json</guid>
+      <description>&lt;p&gt;Today we will ask not what computers can do for biology, but what biology can do for computers. And of course we&amp;rsquo;ll go back and forth and try to look at what this interesting dynamic between the experimental and the computational side.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>11A. Networks 3: The Future of Computational Biology: Cellular, Developmental, Social, E...</title>
+      <link>/resources/mithst_508f02_lec11a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mithst_508f02_lec11a/data.json</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ll talk about multicellular models that involve sensory integration and integration of higher levels, and then all the way up to multi-organ systems, where we&amp;rsquo;ll take an example from the atomic scale, all the way up to organ system failure.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>11B. Networks 3: The Future of Computational Biology: Cellular, Developmental, Social, Ecological &amp; Commercial Models</title>
+      <link>/resources/mithst_508f02_lec11b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mithst_508f02_lec11b/data.json</guid>
+      <description>&lt;p&gt;We just finished our talk of predator, prey, and host parasites impact on ecological modeling in oceans and in public health. What are the global and socioeconomic considerations? What kind of impact do these kind of models have on how we make decisions?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1A. Intro 1: Computational Side of Computational Biology. Statistics; Perl, Mathematica</title>
+      <link>/resources/mithst_508f02_lec1a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mithst_508f02_lec1a/data.json</guid>
+      <description>&lt;p&gt;First half of the session is the overview for the whole course. Second half of the session is on living systems and computational systems&amp;ndash; similarities, differences, how we can use one to tell us something about the other.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1B. Intro 1: Computational Side of Computational Biology. Statistics; Perl, Mathematica</title>
+      <link>/resources/mithst_508f02_lec1b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mithst_508f02_lec1b/data.json</guid>
+      <description>&lt;p&gt;We&amp;rsquo;re going to discuss the innards of computers that are going to be helping us with computational biology. We have a schematic diagram here, illustrating in part&amp;ndash; we&amp;rsquo;ll have similar schematic diagrams for biological systems or biochemical systems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2A. Intro 2: Biological Side of Computational Biology. Comparative Genomics, Models &amp; A...</title>
+      <link>/resources/mithst_508f02_lec2a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mithst_508f02_lec2a/data.json</guid>
+      <description>&lt;p&gt;How purification has played a central role in the reductionist approach to biology and biochemistry, and how that purification is also the antidote to the reductionism. Systems biology is the second topic.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2B. Intro 2: Biological Side of Computational Biology. Comparative Genomics, Models &amp; A...</title>
+      <link>/resources/mithst_508f02_lec2b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mithst_508f02_lec2b/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>3A. DNA 1: Genome Sequencing, Polymorphisms, Populations, Statistics, Pharmacogenomics...</title>
+      <link>/resources/mithst_508f02_lec3a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mithst_508f02_lec3a/data.json</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ll start with types of mutants and how they&amp;rsquo;re represented for bioinformatic purposes. We&amp;rsquo;ll talk about the three main methods by which mutations occur, drift, and select.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>3B. DNA 1 : Genome Sequencing, Polymorphisms, Populations, Statistics, Pharmacogenomics...</title>
+      <link>/resources/mithst_508f02_lec3b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mithst_508f02_lec3b/data.json</guid>
+      <description>&lt;p&gt;We&amp;rsquo;re going to go through an example of association studying, the chi-square statistic in the simplest case. That simple case will be a single allele combination, two alleles and two possible phenotypic outcomes, HIV resistance and HIV non-resistance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>4A. DNA 2: Dynamic Programming, Blast, Multi-alignment, Hidden Markov Models</title>
+      <link>/resources/mithst_508f02_lec4a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mithst_508f02_lec4a/data.json</guid>
+      <description>&lt;p&gt;This will be the second one on the subject of DNA. We&amp;rsquo;ll talk about the most distant related biopolymer sequences and what are the algorithms that are available for finding those. The hero of today&amp;rsquo;s show is dynamic programming..&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>4B. DNA 2: Dynamic Programming, Blast, Multi-alignment, Hidden Markov Models</title>
+      <link>/resources/mithst_508f02_lec4b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mithst_508f02_lec4b/data.json</guid>
+      <description>&lt;p&gt;Welcome back to the second half, where we&amp;rsquo;ll talk about multisequence alignment, for starters. This leads to the issue of finding genes, a particular type of distant sequence comparison. The ones interested in is finding motifs that are involved in finding genes. And finally, we&amp;rsquo;ll end on hidden Markov model, the simplest one that I could think of that would really illustrate the idea of Markov models, probabilistic models, and the hiddenness.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>5AB. RNA 1: Microarrays, Library Sequencing and Quantitation Concepts</title>
+      <link>/resources/mithst_508f02_lec5a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mithst_508f02_lec5a/data.json</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve come to the first of a series on RNA and expression analysis. We&amp;rsquo;ll start with integration of multi-sequence alignment of motifs with RNA structure, and then to how these RNA structures play their role by achieving different levels in the cell.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>5C. RNA 1: Microarrays, Library Sequencing and Quantitation Concepts</title>
+      <link>/resources/mithst_508f02_lec5b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mithst_508f02_lec5b/data.json</guid>
+      <description>&lt;p&gt;We will review how far the in-situ might go, and what its current limitations might be. And then we&amp;rsquo;ll move on to arrays. One potential advantage to in-situ analyses is that you actually monitor them real time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6A. RNA 2: Clustering by Gene or Condition and Other Regulon Data Sources Nucleic Acid ...</title>
+      <link>/resources/mithst_508f02_lec6a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mithst_508f02_lec6a/data.json</guid>
+      <description>&lt;p&gt;The lecture begins with a RNA 1 overview about the secondary and tertiary structure of RNA, and how one integrates dynamic programming in those algorithms. And then we talk about measurements and its affects on certain technical senses.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6B. RNA 2: Clustering by Gene or Condition and Other Regulon Data Sources Nucleic Acid ...</title>
+      <link>/resources/mithst_508f02_lec6b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mithst_508f02_lec6b/data.json</guid>
+      <description>&lt;p&gt;So how do we get from the first top motif score to the second one? I&amp;rsquo;ll show you two different algorithms and the 100-fold improvement in speed and accuracy that comes from the change.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>7A. Protein 1: 3D Structural Genomics, Homology, Catalytic and Regulatory Dynamics, Fun...</title>
+      <link>/resources/mithst_508f02_lec7a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mithst_508f02_lec7a/data.json</guid>
+      <description>&lt;p&gt;Today we introduce a very important all-inclusive subject of proteomics. We&amp;rsquo;re going to talk about protein 3D structure, how you get at it experimentally and computationally and its implications for the binding of small molecules.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>7B. Protein 1: 3D Structural Genomics, Homology, Catalytic and Regulatory Dynamics, Fun...</title>
+      <link>/resources/mithst_508f02_lec7b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mithst_508f02_lec7b/data.json</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ll go from a very accurate sequence to a probably less than accurate speculative league and specificity, to actually how we actually do get a 3D structure league and specificity, and some of the methods that are shared by the computational tools.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>8A. Protein 2: Mass Spectrometry, Post-synthetic Modifications, Quantitation of Protein...</title>
+      <link>/resources/mithst_508f02_lec8a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mithst_508f02_lec8a/data.json</guid>
+      <description>&lt;p&gt;Welcome to the second proteins. We&amp;rsquo;ll spend time on protein quantitation, which will be the main topic today.  And we&amp;rsquo;ll talk about how one can integrate protein quantitation with RNA quantitation and with metabolism.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>8B. Protein 2: Mass Spectrometry, Post-synthetic Modifications, Quantitation of Protein...</title>
+      <link>/resources/mithst_508f02_lec8b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mithst_508f02_lec8b/data.json</guid>
+      <description>&lt;p&gt;For today, we&amp;rsquo;ve basically tried to integrate the protein, either absolute or ratios, with RNA measurements and with metabolite interactions, proteins post-synthetic modifications.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>9A. Networks 1: Systems Biology, Metabolic Kinetic &amp; Flux Balance Optimization Methods</title>
+      <link>/resources/mithst_508f02_lec9a/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mithst_508f02_lec9a/data.json</guid>
+      <description>&lt;p&gt;These last three lectures we take networks on. We&amp;rsquo;re going to talk about macroscopic continuous concentration gradients, and then contrast that with mesoscopic or discrete molecular numbers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>9B. Networks 1: Systems Biology, Metabolic Kinetic &amp; Flux Balance Optimization Methods</title>
+      <link>/resources/mithst_508f02_lec9b/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mithst_508f02_lec9b/data.json</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ll talk about flux balance optimization, which I think is a really exciting and clever way of leveraging the little bits of information that you have about very complicated regulatory networks, biochemical networks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lectures: Audio and Slides</title>
+      <link>/video_galleries/audio-lectures/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/video_galleries/audio-lectures/data.json</guid>
+      <description>&lt;p&gt;Audio recordings of each lecture, and associated slides, are presented below. &lt;/p&gt;&#xA;&lt;p&gt;The collection of audio lectures is available at &lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;https://archive.org/details/MITHST.508F02/&#34;  aria-label=&#34;Genomics and Computational Biology MITHST.508F02 (opens in a new tab)&#34;  &gt;Genomics and Computational Biology MITHST.508F02&lt;/a&gt; on Internet Archive. &lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/02asep17i1/index.html&#34;&gt;Lecture Slides: Intro 1&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/02bsep24i2/index.html&#34;&gt;Lecture Slides: Intro 2&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/02coct01d1/index.html&#34;&gt;Lecture Slides: DNA 1&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/02doct08d2/index.html&#34;&gt;Lecture Slides: DNA 2&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/02eoct15r1/index.html&#34;&gt;Lecture Slides: RNA 1&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/02foct22r2/index.html&#34;&gt;Lecture Slides: RNA 2&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/02foct29p1/index.html&#34;&gt;Lecture Slides: Protein 1&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/02hnov05p2/index.html&#34;&gt;Lecture Slides: Protein 2&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

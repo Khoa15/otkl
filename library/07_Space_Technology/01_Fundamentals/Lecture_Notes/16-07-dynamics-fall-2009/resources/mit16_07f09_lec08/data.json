@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture notes on relative motion on rotating axes, Time derivative of a fixed vector in a rotating frame, Coriolis’ theorem, and Relationships between position, and velocity and acceleration vectors from rotating to non-rotating coordinate systems.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture notes on relative motion on rotating axes, Time derivative of a fixed vector in a rotating frame, Coriolis’ theorem, and Relationships between position, and velocity and acceleration vectors from rotating to non-rotating coordinate systems.",
+  "draft": false,
+  "file": "/courses/16-07-dynamics-fall-2009/1b1825352e94d42461eb576b540b2f23_MIT16_07F09_Lec08.pdf",
+  "file_size": 254099,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "c74de568-7f12-1be8-c80c-73b2269c3877",
+  "resourcetype": "Document",
+  "title": "Lecture L8 – Relative Motion using Rotating Axes",
+  "uid": "1b182535-2e94-d424-61eb-576b540b2f23"
+}

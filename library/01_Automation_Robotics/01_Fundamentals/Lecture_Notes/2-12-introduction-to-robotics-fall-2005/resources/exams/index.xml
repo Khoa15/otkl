@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exams on MIT OpenCourseWare</title>
+    <link>/resources/exams/</link>
+    <description>Recent content in Exams on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exams</title>
+      <link>/pages/exams/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/exams/data.json</guid>
+      <description>&lt;p&gt;This page includes the midterm exam and several practice exams for study.&lt;/p&gt;&#xA;&lt;p&gt;Midterm Exam (&lt;a href=&#34;../../resources/midterm_05-1/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;exams-for-study&#34;&gt;Exams for Study&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;2004 Midterm Exam (&lt;a href=&#34;../../resources/midterm_04-1/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Practice Final Exam 1 (&lt;a href=&#34;../../resources/practicefinal1-1/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Practice Final Exam 2 (&lt;a href=&#34;../../resources/practicefinal2-1/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>midterm_04.pdf</title>
+      <link>/resources/midterm_04-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/midterm_04-1/data.json</guid>
+      <description>&lt;p&gt;This section contains set of questions to be answered.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>midterm_05.pdf</title>
+      <link>/resources/midterm_05-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/midterm_05-1/data.json</guid>
+      <description>&lt;p&gt;This section contains set of questions to be answered.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>practicefinal1.pdf</title>
+      <link>/resources/practicefinal1-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/practicefinal1-1/data.json</guid>
+      <description>&lt;p&gt;This section contains problems and their solutions for the end-of-term exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>practicefinal2.pdf</title>
+      <link>/resources/practicefinal2-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/practicefinal2-1/data.json</guid>
+      <description>&lt;p&gt;This section contains set of problems and solutions for end-of-term exam.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

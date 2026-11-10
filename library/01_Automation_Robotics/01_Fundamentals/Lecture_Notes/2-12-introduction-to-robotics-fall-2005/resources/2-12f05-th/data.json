@@ -1,0 +1,21 @@
+{
+  "content": "<p>New image Upload</p>\n",
+  "content_type": "resource",
+  "description": "New image Upload",
+  "draft": false,
+  "file": "/courses/2-12-introduction-to-robotics-fall-2005/5e4d2bab5f4f63a483558d568a004e0f_2-12f05-th.jpg",
+  "file_size": 7225,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "In this year's final [project](/courses/2-12-introduction-to-robotics-fall-2005/pages/projects), 2.12 students built a rescue robot to find and carry a doll, representing a victim of disaster, to the \"emergency room.\" (Image from video by Phil Shaltis. Used with permission.)",
+    "credit": "",
+    "image-alt": "Wheeled robot carrying doll in its arm."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "2-12f05-th.jpg",
+  "uid": "5e4d2bab-5f4f-63a4-8355-8d568a004e0f"
+}

@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains information related to balanced realization.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information related to balanced realization.",
+  "draft": false,
+  "file": "/courses/6-241j-dynamic-systems-and-control-spring-2011/53328d1cbf65c8303ab3347cbb49b2b1_MIT6_241JS11_lec22.pdf",
+  "file_size": 364989,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "ee668e05-ff75-8895-0bb1-7bddd4117378",
+  "resourcetype": "Document",
+  "title": "MIT6_241JS11_lec22.pdf",
+  "uid": "53328d1c-bf65-c830-3ab3-347cbb49b2b1"
+}

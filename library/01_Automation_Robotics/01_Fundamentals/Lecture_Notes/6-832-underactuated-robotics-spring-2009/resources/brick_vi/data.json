@@ -1,0 +1,43 @@
+{
+  "audience": [],
+  "content": "<p>Supporting file for a problem set on value iteration on the double integrator. This function implements the value iteration algorithm for the brick.</p>\n",
+  "content_type": "resource",
+  "description": "Supporting file for a problem set on value iteration on the double integrator. This function implements the value iteration algorithm for the brick.",
+  "draft": false,
+  "file": "/courses/6-832-underactuated-robotics-spring-2009/5ca16586431e7bd87736a4a77d0eb49d_brick_vi.m",
+  "file_size": 9114,
+  "file_type": "text/plain",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "language": "en",
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "locale": "",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "04c58ca0-0560-b9d1-6ca6-2691ea66babf",
+  "resourcetype": "Other",
+  "title": "Brick VI",
+  "uid": "5ca16586-431e-7bd8-7736-a4a77d0eb49d",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": [],
+    "video_thumbnail_file": "",
+    "video_transcript_resources": []
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

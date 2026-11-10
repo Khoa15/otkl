@@ -1,0 +1,20 @@
+
+{
+  "content": "<p>« <a href=\"../../../pages/ax-b-and-the-four-subspaces/graphs-networks-incidence-matrices/index.html\">Previous</a> | <a href=\"../../../pages/ax-b-and-the-four-subspaces/exam-1/index.html\">Next</a> »</p>\n\n    <h3 id=\"session-overview\">Session Overview</h3>\n\n<p><table>\n\n<tr>\n\n<td>\n\n<img src=\"../../../static_resources/f893ffed356439cd4b5c9dee6106d39a_Exam_1_Review.jpg\" alt=\"\" loading=\"lazy\" decoding=\"async\" />\n</td>\n\n<td>\n</p>\n<p>By approaching what we&rsquo;ve learned from new directions, the questions in this exam review session test the depth of your understanding. Notice the short questions (with answers) at the end. This unit reached the key ideas of subspaces — a higher level of linear algebra. Please review the list of topics on the left.</p>\n</td>\n\n</tr>\n\n</table>\n\n\n    <h3 id=\"session-activities\">Session Activities</h3>\n\n\n    <h4 id=\"lecture-video-and-summary\">Lecture Video and Summary</h4>\n\n<ul>\n<li>Watch the video lecture <a href=\"../../../resources/exam-1-review/index.html\">Exam 1 Review</a></li>\n<li>Read the accompanying <a href=\"../../../resources/mit18_06scf11_ses1-14sum/index.html\">lecture summary (PDF)</a></li>\n<li><a href=\"../../../resources/l88d4r74gtm-1/index.html\">Lecture video transcript (PDF)</a></li>\n</ul>\n\n    <h4 id=\"suggested-reading\">Suggested Reading</h4>\n\n<ul>\n<li>Review Chapters 1, 2, and 3, plus Section 8.2 in the 4<sup>th</sup> edition or Chapters 1, 2, and 3, plus Section 10.1 in the 5<sup>th</sup> edition.</li>\n</ul>\n\n    <h4 id=\"problem-solving-video\">Problem Solving Video</h4>\n\n<ul>\n<li>Watch the recitation video on <a href=\"../../../resources/exam-1-problem-solving/index.html\">Exam 1 Problem Solving</a></li>\n<li><a href=\"../../../resources/amlektjr5_u-1/index.html\">Recitation video transcript (PDF)</a></li>\n</ul>\n<p>« <a href=\"../../../pages/ax-b-and-the-four-subspaces/graphs-networks-incidence-matrices/index.html\">Previous</a> | <a href=\"../../../pages/ax-b-and-the-four-subspaces/exam-1/index.html\">Next</a> »</p>\n",
+  "content_type": "page",
+  "description": "This section provides review materials for the first exam of the course.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "parent_title": "Unit I: Ax = b and the Four Subspaces",
+  "parent_type": "CourseSection",
+  "parent_uid": "34303ce1-9b45-7241-22d2-bd33d64df688",
+  "title": "Exam 1 Review",
+  "uid": "e451ffac-351d-687a-8b19-3c0159c4b2a7",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

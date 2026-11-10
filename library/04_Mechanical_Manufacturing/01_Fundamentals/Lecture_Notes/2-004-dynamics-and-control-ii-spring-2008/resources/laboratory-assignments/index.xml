@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laboratory Assignments on MIT OpenCourseWare</title>
+    <link>/resources/laboratory-assignments/</link>
+    <description>Recent content in Laboratory Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/laboratory-assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lab 1: Coulomb and Viscous Friction</title>
+      <link>/resources/lab1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab1/data.json</guid>
+      <description>&lt;p&gt;Introductory lab assignment on the frictional characteristics of the rotational plant.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 2: Calibration of Lab System Components</title>
+      <link>/resources/lab2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab2/data.json</guid>
+      <description>&lt;p&gt;Lab assignment on calibration of lab system components.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 3: Construction of a Proportional Velocity Controller</title>
+      <link>/resources/lab3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab3/data.json</guid>
+      <description>&lt;p&gt;Lab assignment on construction and testing of an op-amp differential amplifier, use of the differential amplifier as a proportional velocity controller for the 2.004 rotational plant, measurement of the transient response characteristics, and the steady-state behavior of the closed-loop controller, and comparison of the measured performance with predictions based on the pre-lab exercise.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 4: Closed-loop Performance of a Proportional Velocity Controller</title>
+      <link>/resources/lab4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab4/data.json</guid>
+      <description>&lt;p&gt;Lab assignment on the 2.004 digital PID Controller, detailed study of the effect of controller gain on transient and steady-state behavior, and study of the ability of the closed-loop system to “follow” time varying commands.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 5: Elimination of Steady-state Error Using Integral Control Action</title>
+      <link>/resources/lab5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab5/data.json</guid>
+      <description>&lt;p&gt;Lab assignment to investigate the elimination of steady-state error through the use of integral (I) and proportional plus integral (PI) control, and to compare your experimental results with a Simulink digital simulation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 6: Closed-loop Position Control, and the Effect of Derivative Control Action</title>
+      <link>/resources/lab6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab6/data.json</guid>
+      <description>&lt;p&gt;Lab assignment to investigate closed-loop control of the angular position (θ) of the rotational plant, investigate the manipulation of closed-loop dynamic response through the use of derivative (D), and proportional and derivative (PD) control, and to compare your experimental results with a Simulink digital simulation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab 7: Closed-Loop Position Control using Position and Velocity Feedback</title>
+      <link>/resources/lab7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lab7/data.json</guid>
+      <description>&lt;p&gt;Lab assignment to investigate the use of multiple feedback loops, using both position and velocity feedback, investigate the manipulation of closed-loop dynamic response through the use of multiple loops, and compare your experimental results with a Simulink digital simulation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab Description and Rules</title>
+      <link>/resources/descript/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/descript/data.json</guid>
+      <description>&lt;p&gt;A brief description of the 2.004 lab facilities and rules.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lab: Active Damping of Tall Building Vibrations</title>
+      <link>/resources/project1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/project1/data.json</guid>
+      <description>&lt;p&gt;Lab assignment on active damping of tall building vibrations.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Laboratory Note: Description of the Experimental Rotational Plant</title>
+      <link>/resources/rotational_plant/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/rotational_plant/data.json</guid>
+      <description>&lt;p&gt;Lab handout on a physical plant consisting of a rotational flywheel and motor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Labs</title>
+      <link>/pages/labs/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/labs/data.json</guid>
+      <description>&lt;p&gt;A brief description of the 2.004 lab facilities and rules is provided for reference (&lt;a href=&#34;../../resources/descript/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;The first seven labs deal with a physical plant consisting of a rotational flywheel and motor, detailed in this handout (&lt;a href=&#34;../../resources/rotational_plant/index.html&#34;&gt;PDF&lt;/a&gt;) (Courtesy Prof. Emanuel Sachs. Used with permission.)&lt;/p&gt;&#xA;&lt;p&gt;The motor specification sheet may be found here (&lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;http://www.maxonmotor.com/medias/sys_master/8804419338270/DC-Das-wichtigste-ueber-maxonmotoren_11_DE-EN_ES_036-1.pdf&#34;  aria-label=&#34;PDF (opens in a new tab)&#34;  &gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Lab 1: Coulomb and Viscous Friction (&lt;a href=&#34;../../resources/lab1/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Lab 2: Characterization of Lab System Components (&lt;a href=&#34;../../resources/lab2/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tall Building Active Damping</title>
+      <link>/resources/tower_slides/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/tower_slides/data.json</guid>
+      <description>&lt;p&gt;Introduction to the final lab project on the design of an active damping system for a skyscraper.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tower Data</title>
+      <link>/resources/towerdata/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/towerdata/data.json</guid>
+      <description>&lt;p&gt;Supplement to the final set of lab projects containing MATLAB files for simulating a tower and its vibrations.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

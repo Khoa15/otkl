@@ -1,0 +1,20 @@
+
+{
+  "content": "<p>« <a href=\"../../../pages/least-squares-determinants-and-eigenvalues/projections-onto-subspaces/index.html\">Previous</a> | <a href=\"../../../pages/least-squares-determinants-and-eigenvalues/orthogonal-matrices-and-gram-schmidt/index.html\">Next</a> »</p>\n\n    <h3 id=\"session-overview\">Session Overview</h3>\n\n<p><table>\n\n<tr>\n\n<td>\n\n<img src=\"../../../static_resources/d187d604f915b33c101c76548610ff90_2_3.jpg\" alt=\"Figure excerpted from &#39;Introduction to Linear Algebra&#39; by G.S. Strang\" loading=\"lazy\" decoding=\"async\" />\n</td>\n\n<td>\n</p>\n<p>Linear regression is commonly used to fit a line to a collection of data. The method of least squares can be viewed as finding the projection of a vector. Linear algebra provides a powerful and efficient description of linear regression in terms of the matrix <em>A<sup>T</sup>A</em>.</p>\n</td>\n\n</tr>\n\n</table>\n\n\n    <h3 id=\"session-activities\">Session Activities</h3>\n\n\n    <h4 id=\"lecture-video-and-summary\">Lecture Video and Summary</h4>\n\n<ul>\n<li>Watch the video lecture <a href=\"../../../resources/lecture-16-projection-matrices-and-least-squares/index.html\">Lecture 16: Projection Matrices and Least Squares</a></li>\n<li>Read the accompanying <a href=\"../../../resources/mit18_06scf11_ses2-3sum/index.html\">lecture summary (PDF)</a></li>\n<li><a href=\"../../../resources/osh80ycg_gm-1/index.html\">Lecture video transcript (PDF)</a></li>\n</ul>\n\n    <h4 id=\"suggested-reading\">Suggested Reading</h4>\n\n<ul>\n<li>Read Section 4.3 in the 4<sup>th</sup> or 5<sup>th</sup> edition.</li>\n</ul>\n\n    <h4 id=\"problem-solving-video\">Problem Solving Video</h4>\n\n<ul>\n<li>Watch the recitation video on <a href=\"../../../resources/problem-solving-least-squares-approximation/index.html\">Problem Solving: Least Squares Approximation</a></li>\n<li><a href=\"../../../resources/amqcoopbutk-1/index.html\">Recitation video transcript (PDF)</a></li>\n</ul>\n\n    <h3 id=\"check-yourself\">Check Yourself</h3>\n\n\n    <h4 id=\"problems-and-solutions\">Problems and Solutions</h4>\n\n<p>Work the problems on your own and check your answers when you&rsquo;re done.</p>\n<ul>\n<li><a href=\"../../../resources/mit18_06scf11_ses2-3prob/index.html\">Problems (PDF)</a></li>\n<li><a href=\"../../../resources/mit18_06scf11_ses2-3sol/index.html\">Solutions (PDF)</a></li>\n</ul>\n<p>« <a href=\"../../../pages/least-squares-determinants-and-eigenvalues/projections-onto-subspaces/index.html\">Previous</a> | <a href=\"../../../pages/least-squares-determinants-and-eigenvalues/orthogonal-matrices-and-gram-schmidt/index.html\">Next</a> »</p>\n",
+  "content_type": "page",
+  "description": "This section provides a lesson on projection matrices and least squares.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "parent_title": "Unit II: Least Squares, Determinants and Eigenvalues",
+  "parent_type": "CourseSection",
+  "parent_uid": "cf73d07a-c972-ab3c-450a-0f10d0be0664",
+  "title": "Projection Matrices and Least Squares",
+  "uid": "5f12aef9-0a3e-a658-e59c-e968a672c0c2",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

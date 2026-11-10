@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laboratory Assignments on MIT OpenCourseWare</title>
+    <link>/resources/laboratory-assignments/</link>
+    <description>Recent content in Laboratory Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/laboratory-assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MIT 16.485 Labs-4</title>
+      <link>/resources/mit16_485f20_lab4slides/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_485f20_lab4slides/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MIT 16.485 Labs-5</title>
+      <link>/resources/mit16_485f20_lab5slides/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_485f20_lab5slides/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MIT 16.485 Labs-7</title>
+      <link>/resources/mit16_485f20_lab7slides/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_485f20_lab7slides/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MIT 16.485 Labs-8</title>
+      <link>/resources/mit16_485f20_lab8slides/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit16_485f20_lab8slides/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MIT 16.485 LabsSlides-1</title>
+      <link>/resources/mit_16_485f20_lab1slides/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit_16_485f20_lab1slides/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MIT_16_485_VNAV_Lab1Notes</title>
+      <link>/resources/mit_16_485f20_lab1notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit_16_485f20_lab1notes/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MIT_16_485F20_VNAV_Lab2Slides</title>
+      <link>/resources/mit_16_485f20_lab2slides/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit_16_485f20_lab2slides/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MIT_16_485F20_VNAV_Lab3</title>
+      <link>/resources/mit_16_485f20_lab3slides/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit_16_485f20_lab3slides/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MIT_16_485F20_VNAV_Lab6</title>
+      <link>/resources/mit_16_485f20_lab6slides/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit_16_485f20_lab6slides/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MIT_16_485F20_VNAV_Lab9</title>
+      <link>/resources/mit_16_485f20_lab9slides/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit_16_485f20_lab9slides/data.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/7a725bd21c62f132a0bc63e36ff168a9_3_2.jpg",
+  "file_size": 5732,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from 'Introduction to Linear Algebra' by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "Complex Matrices; Fast Fourier Transform (FFT)",
+  "parent_type": "CourseSection",
+  "parent_uid": "d2f78aa2-97e6-82cc-aea1-20a362c5d934",
+  "resourcetype": "Image",
+  "title": "3_2.jpg",
+  "uid": "7a725bd2-1c62-f132-a0bc-63e36ff168a9",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

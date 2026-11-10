@@ -1,0 +1,20 @@
+
+{
+  "content": "<p>« <a href=\"../../../pages/ax-b-and-the-four-subspaces/solving-ax-b-row-reduced-form-r/index.html\">Previous</a> | <a href=\"../../../pages/ax-b-and-the-four-subspaces/the-four-fundamental-subspaces/index.html\">Next</a> »</p>\n\n    <h3 id=\"session-overview\">Session Overview</h3>\n\n<p><table>\n\n<tr>\n\n<td>\n\n<img src=\"../../../static_resources/c4720565728a46170e430305bec41488_1_9.jpg\" alt=\"Figure excerpted from ‘Introduction to Linear Algebra’ by G.S. Strang\" loading=\"lazy\" decoding=\"async\" />\n</td>\n\n<td>\n</p>\n<p>A basis is a set of vectors, as few as possible, whose combinations produce all vectors in the space. The number of basis vectors for a space equals the dimension of that space.</p>\n</td>\n\n</tr>\n\n</table>\n\n\n    <h3 id=\"session-activities\">Session Activities</h3>\n\n\n    <h4 id=\"lecture-video-and-summary\">Lecture Video and Summary</h4>\n\n<ul>\n<li>Watch the video lecture <a href=\"../../../resources/independence-basis-and-dimension/index.html\">Independence, Basis and Dimension</a></li>\n<li>Read the accompanying <a href=\"../../../resources/mit18_06scf11_ses1-9sum/index.html\">lecture summary (PDF)</a></li>\n<li><a href=\"../../../resources/yjberm5jwsc-1/index.html\">Lecture video transcript (PDF)</a></li>\n</ul>\n\n    <h4 id=\"suggested-reading\">Suggested Reading</h4>\n\n<ul>\n<li>Read Section 3.5 in the 4<sup>th</sup> edition or Section 3.4 in the 5<sup>th</sup> edition.</li>\n</ul>\n\n    <h4 id=\"problem-solving-video\">Problem Solving Video</h4>\n\n<ul>\n<li>Watch the recitation video on <a href=\"../../../resources/basis-and-dimension/index.html\">Basis and Dimension</a></li>\n<li><a href=\"../../../resources/mmwqgd4urso-1/index.html\">Recitation video transcript (PDF)</a></li>\n</ul>\n\n    <h3 id=\"check-yourself\">Check Yourself</h3>\n\n\n    <h4 id=\"problems-and-solutions\">Problems and Solutions</h4>\n\n<p>Work the problems on your own and check your answers when you&rsquo;re done.</p>\n<ul>\n<li><a href=\"../../../resources/mit18_06scf11_ses1-9prob/index.html\">Problems (PDF)</a></li>\n<li><a href=\"../../../resources/mit18_06scf11_ses1-9sol/index.html\">Solutions (PDF)</a></li>\n</ul>\n<p>« <a href=\"../../../pages/ax-b-and-the-four-subspaces/solving-ax-b-row-reduced-form-r/index.html\">Previous</a> | <a href=\"../../../pages/ax-b-and-the-four-subspaces/the-four-fundamental-subspaces/index.html\">Next</a> »</p>\n",
+  "content_type": "page",
+  "description": "This section provides a lesson on independence, basis, and dimension.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "CourseSection",
+  "parent_title": "Unit I: Ax = b and the Four Subspaces",
+  "parent_type": "CourseSection",
+  "parent_uid": "34303ce1-9b45-7241-22d2-bd33d64df688",
+  "title": "Independence, Basis and Dimension",
+  "uid": "f4986e82-13a7-cf7c-ebaa-aba5fa7882f0",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}
+

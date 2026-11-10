@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exams on MIT OpenCourseWare</title>
+    <link>/resources/exams/</link>
+    <description>Recent content in Exams on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quiz 1</title>
+      <link>/resources/mit2_29s15_quiz1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_29s15_quiz1/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding quiz 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quiz 2</title>
+      <link>/resources/mit2_29s15_quiz2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit2_29s15_quiz2/data.json</guid>
+      <description>&lt;p&gt;This file contains information regarding quiz 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quizzes</title>
+      <link>/pages/quizzes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/quizzes/data.json</guid>
+      <description>&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;QUIZZES&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit2_29s15_quiz1/index.html&#34;&gt;Quiz 1 (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit2_29s15_quiz1_eqn_sheet/index.html&#34;&gt;Equation Sheet for Quiz 1 (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit2_29s15_quiz2/index.html&#34;&gt;Quiz 2 (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit2_29s15_quiz2_eqn_sheet/index.html&#34;&gt;Equation Sheet for Quiz 2 (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/td&gt;&#xA;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;/table&gt;</description>
+    </item>
+  </channel>
+</rss>

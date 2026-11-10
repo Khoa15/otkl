@@ -1,0 +1,112 @@
+{
+  "course_description": "This course provides an overview of robot mechanisms, dynamics, and intelligent controls. Topics include planar and spatial kinematics, and motion planning; mechanism design for manipulators and mobile robots, multi-rigid-body dynamics, 3D graphic simulation; control design, actuators, and sensors; wireless networking, task modeling, human-machine interface, and embedded software. Weekly laboratories provide experience with servo drives, real-time control, and embedded software. Students will design and fabricate working robotic systems in a group-based term project.\n",
+  "course_description_html": "This course provides an overview of robot mechanisms, dynamics, and intelligent controls. Topics include planar and spatial kinematics, and motion planning; mechanism design for manipulators and mobile robots, multi-rigid-body dynamics, 3D graphic simulation; control design, actuators, and sensors; wireless networking, task modeling, human-machine interface, and embedded software. Weekly laboratories provide experience with servo drives, real-time control, and embedded software. Students will design and fabricate working robotic systems in a group-based term project.",
+  "course_image": {
+    "content": "f18fe140-51d4-90b7-9151-933ab9f29d35",
+    "website": "2-12-introduction-to-robotics-fall-2005"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "In this year's final project, 2.12 students built a rescue robot to find and carry a doll, representing a victim of disaster, to the \"emergency room.\" (Image from video by Phil Shaltis. Used with permission.)",
+    "draft": false,
+    "file": "/courses/2-12-introduction-to-robotics-fall-2005/f18fe14051d490b79151933ab9f29d35_2-12f05.jpg",
+    "file_size": 76265,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "In this year's final [project](/courses/2-12-introduction-to-robotics-fall-2005/pages/projects), 2.12 students built a rescue robot to find and carry a doll, representing a victim of disaster, to the \"emergency room.\" (Image from video by Phil Shaltis. Used with permission.)",
+      "credit": "",
+      "image-alt": "Wheeled robot carrying doll in its arm."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "2-12f05.jpg",
+    "uid": "f18fe140-51d4-90b7-9151-933ab9f29d35"
+  },
+  "course_image_thumbnail": {
+    "content": "5e4d2bab-5f4f-63a4-8355-8d568a004e0f",
+    "website": "2-12-introduction-to-robotics-fall-2005"
+  },
+  "course_title": "Introduction to Robotics",
+  "department_numbers": [
+    "2"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/f18fe14051d490b79151933ab9f29d35_2-12f05.jpg",
+  "instructors": [
+    {
+      "first_name": "Harry",
+      "last_name": "Asada",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Harry Asada",
+      "uid": "4c7a3a3d-8bbd-9c96-cf47-171786e83bb0",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Harry+Asada"
+    },
+    {
+      "first_name": "John",
+      "last_name": "Leonard",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. John Leonard",
+      "uid": "f35e6251-b7d8-e160-fd83-e65ae812fe2f",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+John+Leonard"
+    }
+  ],
+  "learning_resource_types": [
+    "Problem Sets",
+    "Exams",
+    "Lecture Notes",
+    "Projects with Examples",
+    "Programming Assignments"
+  ],
+  "legacy_uid": "bd2e3b79-3e83-d4bf-2346-79b6919ae73d",
+  "level": [
+    "Undergraduate"
+  ],
+  "mit_learn_topics": [
+    [
+      "Engineering",
+      "Electrical Engineering"
+    ],
+    [
+      "Engineering",
+      "Mechanical Engineering"
+    ],
+    [
+      "Science & Math",
+      "Physics"
+    ]
+  ],
+  "primary_course_number": "2.12",
+  "site_short_id": "2.12-fall-2005",
+  "site_uid": "378afe65-5a2e-4db6-b977-ddb698a2cb90",
+  "site_url_path": "courses/2-12-introduction-to-robotics-fall-2005",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Engineering",
+      "Electrical Engineering",
+      "Robotics and Control Systems"
+    ],
+    [
+      "Engineering",
+      "Mechanical Engineering",
+      "Dynamics and Control"
+    ],
+    [
+      "Science",
+      "Physics",
+      "Classical Mechanics"
+    ],
+    [
+      "Engineering",
+      "Mechanical Engineering",
+      "Mechanical Design"
+    ]
+  ],
+  "year": "2005"
+}

@@ -1,0 +1,21 @@
+{
+  "content": "<p>Lecture presentation on MOS capacitors, the DA applied to two-terminal MOS capacitor accumulation, depletion, inversion, VFB, VT, QA, and QN.</p>\n",
+  "content_type": "resource",
+  "description": "Lecture presentation on MOS capacitors, the DA applied to two-terminal MOS capacitor accumulation, depletion, inversion, VFB, VT, QA, and QN.",
+  "draft": false,
+  "file": "/courses/6-012-microelectronic-devices-and-circuits-fall-2009/42c863e2e1e9744ce6b797646a30e463_MIT6_012F09_lec09.pdf",
+  "file_size": 327683,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Notes",
+  "parent_type": "CourseSection",
+  "parent_uid": "e4c7985c-766a-2f9c-5bac-08869dd8bade",
+  "resourcetype": "Document",
+  "title": "Lecture 9 - MOS Capacitors I",
+  "uid": "42c863e2-e1e9-744c-e6b7-97646a30e463"
+}

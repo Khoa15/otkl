@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ase study - Code Division Multiple Access (CDMA)</title>
+      <link>/resources/mit6_450f09_slide24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide24/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on channel measurement, Pseudonoise (PN) probing signals, rake receivers, and Code Division Multiple Access (CDMA).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Degrees of freedom, orthonormal expansions, and aliasing</title>
+      <link>/resources/mit6_450f09_slide10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide10/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on degrees of freedom, orthonormal expansions, aliasing, vector space, and inner product spaces.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Detection for flat Rayleigh fading and incoherent channels, and Rake receivers</title>
+      <link>/resources/mit6_450f09_slide23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide23/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on detection for flat Rayleigh fading and incoherent channels, diversity, channel measurement, simple probing signals, pseudonoise (PN) probing signals, and Rake receivers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Detection for random vectors and processes</title>
+      <link>/resources/mit6_450f09_slide17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide17/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on detection for random vectors and processes, and binary detection.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Discrete source encoding</title>
+      <link>/resources/mit6_450f09_slide02/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide02/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on discrete source encoding, reasons for binary interface, layering of source coding, discrete source coding, fixed-to-fixed length source codes, variable length source codes, unique decodability, prefix-free codes, the Kraft inequality, discrete memoryless sources, prefix-free codes for DMS, and entropy bounds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Discrete-time baseband models for wireless channels</title>
+      <link>/resources/mit6_450f09_slide21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide21/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on discrete-time baseband models for wireless channels, the multipath wireless model, baseband system functions, the discrete-time baseband model.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Discrete-time Fourier transforms and sampling theorem</title>
+      <link>/resources/mit6_450f09_slide09/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide09/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on functions not limited in time, square integrable functions, Fourier transforms, the discrete-time Fourier transform (DTFT), and the sampling theorem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Doppler spread, time spread, coherence time, and coherence frequency</title>
+      <link>/resources/mit6_450f09_slide22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide22/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on Doppler spread, time spread, baseband system functions, flat fading, the stochastic channel model, the tap gain correlation function, flat Rayleigh fading, non-coherent detection, channel measurement, simple probing signals, psuedonoise (PN) probing signals, rake receivers, and diversity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Entropy and asymptotic equipartition property</title>
+      <link>/resources/mit6_450f09_slide04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide04/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on entropy, the symptotic equipartition property, fixed-to-variable preﬁx-free codes, the weak law of large numbers (WLLN), the asymptotic equipartition property (AEP), and Markov sources.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fourier series and Fourier transforms</title>
+      <link>/resources/mit6_450f09_slide07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide07/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on measurable functions, converting an analog source to a bit stream, Fourier series, and Fourier transforms.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction to wireless communication (cont.)</title>
+      <link>/resources/mit6_450f09_slide20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide20/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation with an introduction to wireless communication.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction: A layered view of digital communication</title>
+      <link>/resources/mit6_450f09_slide01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide01/data.json</guid>
+      <description>&lt;p&gt;Introductory lecture presentation on the principles of digital communication.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jointly Gaussian random vectors and processes and white Gaussian noise (WGN)</title>
+      <link>/resources/mit6_450f09_slide14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide14/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on jointly Gaussian random vectors and processes, and white Gaussian noise (WGN).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;The lecture slides for the course can be found in the table below. They are courtesy of Robert Gallager and are used with permission. For lecture video by Professor Gallager, see video lectures in the OpenCourseWare course 6.450 Principles of Digital Communication, Fall 2006.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SES #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SLIDES&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Introduction: A layered view of digital communication&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_450f09_slide01/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Discrete source encoding&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_450f09_slide02/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Memory-less sources, prefix free codes, and entropy&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/mit6_450f09_slide03/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linear functionals and filtering of random processes</title>
+      <link>/resources/mit6_450f09_slide15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide15/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on linear functionals and filtering of random processes, Gaussian processes, stationary random processes, detection, and binary detection.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Markov sources and Lempel-Ziv universal codes</title>
+      <link>/resources/mit6_450f09_slide05/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide05/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on Markov chains, Markov sources, conditional entropy, Lempel-Ziv universal codes, and quantization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Measure</title>
+      <link>/resources/mit6_450f09_slide08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide08/data.json</guid>
+      <description>&lt;p&gt;Lecture notes on measure, complements, measurable functions, Fourier series, and functions not limited in time.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Memory-less sources, prefix free codes, and entropy</title>
+      <link>/resources/mit6_450f09_slide03/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide03/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on discrete memoryless sources (DMS), the Huffman coding algorithm, discrete source coding, the weak law of large numbers (WLLN), the asymptotic equipartition property (AEP), Fixed-to-ﬁxed-length source codes, and Kraft inequality for unique decodability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nyquist theory, pulse amplitude modulation (PAM), quadrature amplitude modulation (QAM), and frequency translation</title>
+      <link>/resources/mit6_450f09_slide12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide12/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on channel encoding and decoding, Nyquist theory, pulse amplitude modulation (PAM), quadrature amplitude modulation (QAM), and frequency translation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quantization, high-rate quantizers, and waveform encoding</title>
+      <link>/resources/mit6_450f09_slide06/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide06/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on quantization, high-rate quantizers, waveform encoding, the Lempel-Ziv algorithm, scalar quantization, vector quantization, entropy-coded quantization, and a uniform scalar high-rate quantizer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Random processes</title>
+      <link>/resources/mit6_450f09_slide13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide13/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on random processes, Nyquist criterion, frequency translation (PAM and QAM), additive noise, and Gaussian variables.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Review</title>
+      <link>/resources/mit6_450f09_slide25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide25/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation reviewing the principles of digital communication. Topics include: measurable functions, functions not limited in time, aliasing, square integrable functions as a vector space, the theorem of irrelevance, the multipath model, time spread, baseband system functions, and flat fading.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Review of theorem of irrelevance and introduction to wireless communication</title>
+      <link>/resources/mit6_450f09_slide19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide19/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on the theorem of irrelevance, orthogonal and simplex codes, bi-orthogonal code by Hadamard matrix, convolutional encoding, and an introduction to wireless communication.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Review; introduction to detection</title>
+      <link>/resources/mit6_450f09_slide16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide16/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on square integrable functions, Fourier transforms, the discrete-time Fourier transform, the projection theorem, linear filtering processes, detection, and binary detection.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Signal space, projection theorem, and modulation</title>
+      <link>/resources/mit6_450f09_slide11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide11/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on inner product spaces, vector subspaces, dimension, the projection theorem, Gram-Schmidt orthonormalization, channel encoding and decoding, and pulse amplitude modulation (PAM).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Theorem of irrelevance, M-ary detection, and coding</title>
+      <link>/resources/mit6_450f09_slide18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit6_450f09_slide18/data.json</guid>
+      <description>&lt;p&gt;Lecture presentation on the theorem of irrelevance, binary detection with vector observation in independent identical distribution Gaussian noise, QAM detection, and detection for orthogonal signal sets.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

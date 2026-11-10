@@ -1,0 +1,47 @@
+{
+  "audience": [],
+  "content": "<p>This resource contains problem statements related to petroleum savings via ethanol use.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains problem statements related to petroleum savings via ethanol use.",
+  "draft": false,
+  "file": "/courses/22-081j-introduction-to-sustainable-energy-fall-2010/737e29b4cd0638fc08ca4aaea81e7481_MIT22_081JF10_pset8.pdf",
+  "file_size": 66060,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments and Exams",
+  "parent_type": "CourseSection",
+  "parent_uid": "246e85fa-874a-ef91-992e-4b1aec92dc98",
+  "resourcetype": "Document",
+  "title": "MIT22_081JF10_pset8.pdf",
+  "uid": "737e29b4-cd06-38fc-08ca-4aaea81e7481",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_resources": {
+      "content": [],
+      "website": "22-081j-introduction-to-sustainable-energy-fall-2010"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_resources": {
+      "content": [],
+      "website": "22-081j-introduction-to-sustainable-energy-fall-2010"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

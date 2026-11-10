@@ -1,0 +1,21 @@
+{
+  "content": "<p>This file contains information regarding lecture 11: LTI channel and intersymbol interference.</p>\n",
+  "content_type": "resource",
+  "description": "This file contains information regarding lecture 11: LTI channel and intersymbol interference.",
+  "draft": false,
+  "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/8989d3b33e177b9a2e373223c62c5b13_MIT6_02F12_lec11.pdf",
+  "file_size": 805136,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Slides",
+  "parent_type": "CourseSection",
+  "parent_uid": "6293cb2b-b2c9-55e5-230f-875fa43a271f",
+  "resourcetype": "Document",
+  "title": "6.02 Lecture 11: LTI channel and intersymbol interference",
+  "uid": "8989d3b3-3e17-7b9a-2e37-3223c62c5b13"
+}

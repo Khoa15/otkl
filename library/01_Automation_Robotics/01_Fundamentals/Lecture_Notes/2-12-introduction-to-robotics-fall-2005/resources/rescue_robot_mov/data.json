@@ -1,0 +1,36 @@
+{
+  "body": "",
+  "content": "",
+  "content_type": "resource",
+  "draft": false,
+  "file": "/courses/2-12-introduction-to-robotics-fall-2005/rescue_robot.mov",
+  "file_size": 13950554,
+  "file_type": "video/quicktime",
+  "gdrive_url": "",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "resourcetype": "Other",
+  "title": "rescue_robot.mov",
+  "uid": "a2557737-a77d-4582-bf8b-257d7f5e9269",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": ""
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

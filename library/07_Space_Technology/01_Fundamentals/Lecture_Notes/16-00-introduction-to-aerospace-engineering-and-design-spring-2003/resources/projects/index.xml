@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on MIT OpenCourseWare</title>
+    <link>/resources/projects/</link>
+    <description>Recent content in Projects on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Delta Design Game </title>
+      <link>/resources/intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/intro/data.json</guid>
+      <description>&lt;p&gt;Delta Design is a team exercise developed at M.I.T. by Prof. Louis Bucciarelli for engineering education at any level - undergraduate, graduate, or professional. Players are assigned one of four roles and form teams to design a new residence suitable for inhabitants of the imaginary Deltoid plane. The design is assembled on a game board by placing triangular red- and blue- colored tiles on a diamond-shaped grid. Each role has its own requirements for the number and placement of tiles, so that the team must make tradeoffs in order to achieve individual and group performance goals within the three or four hours required for learning and playing the game.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lighter Than Air Design Competition</title>
+      <link>/resources/lta2003/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lta2003/data.json</guid>
+      <description>&lt;p&gt;Slide presentation on a group project to build and race blimps.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>/pages/projects/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/projects/data.json</guid>
+      <description>&lt;p&gt;Each year, using readings and other information gathered about &amp;ldquo;Lighter Than Air&amp;rdquo; (LTA) design, the students build and race blimps as a small group project.&lt;/p&gt;&#xA;&lt;p&gt;Lighter Than Air Design Competition (&lt;a href=&#34;../../resources/lta2003/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

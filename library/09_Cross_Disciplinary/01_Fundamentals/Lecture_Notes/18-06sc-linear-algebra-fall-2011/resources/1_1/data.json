@@ -1,0 +1,27 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/18-06sc-linear-algebra-fall-2011/6fcd2c0235d1bc09481864c1c71295dc_1_1.jpg",
+  "file_size": 5608,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": "Figure excerpted from ‘Introduction to Linear Algebra’ by G.S. Strang"
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "parent_title": "The Geometry of Linear Equations",
+  "parent_type": "CourseSection",
+  "parent_uid": "ee886403-2dd8-29b4-83a2-ae7dfeb2da55",
+  "resourcetype": "Image",
+  "title": "1_1.jpg",
+  "uid": "6fcd2c02-35d1-bc09-4818-64c1c71295dc",
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

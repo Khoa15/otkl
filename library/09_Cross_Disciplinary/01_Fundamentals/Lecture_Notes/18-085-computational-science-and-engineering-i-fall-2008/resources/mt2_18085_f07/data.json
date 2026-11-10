@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>Homework assignment on MATLAB.</p>\n",
+  "content_type": "resource",
+  "description": "Homework assignment on MATLAB.",
+  "draft": false,
+  "file": "/courses/18-085-computational-science-and-engineering-i-fall-2008/24a2bfed9feb7e6acaa5a216ba19e74c_mt2_18085_f07.pdf",
+  "file_size": 52413,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "f22f0a8a-c9aa-3a44-6525-7e9b091c41f1",
+  "resourcetype": "Document",
+  "title": "MATLAB 2.2",
+  "uid": "24a2bfed-9feb-7e6a-caa5-a216ba19e74c",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "18-085-computational-science-and-engineering-i-fall-2008"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

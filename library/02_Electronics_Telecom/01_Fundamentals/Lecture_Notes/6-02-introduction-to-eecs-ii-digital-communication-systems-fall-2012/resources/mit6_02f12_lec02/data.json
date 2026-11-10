@@ -1,0 +1,21 @@
+{
+  "content": "<p>This resource contains information regarding compression: huffman and LZW.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information regarding compression: huffman and LZW.",
+  "draft": false,
+  "file": "/courses/6-02-introduction-to-eecs-ii-digital-communication-systems-fall-2012/b72997d311ea755a33864816037dd229_MIT6_02F12_lec02.pdf",
+  "file_size": 995064,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Lecture Slides",
+  "parent_type": "CourseSection",
+  "parent_uid": "6293cb2b-b2c9-55e5-230f-875fa43a271f",
+  "resourcetype": "Document",
+  "title": "6.02 Lecture 2: Compression: Huffman and LZW",
+  "uid": "b72997d3-11ea-755a-3386-4816037dd229"
+}

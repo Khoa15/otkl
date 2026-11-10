@@ -1,0 +1,27 @@
+{
+  "content": "<p>Midterm exam on underactuated robotics, optimal control of the simple pendulum, the Pendubot, and control of a rimless wheel.</p>\n",
+  "content_type": "resource",
+  "description": "Midterm exam on underactuated robotics, optimal control of the simple pendulum, the Pendubot, and control of a rimless wheel.",
+  "draft": false,
+  "file": "/courses/6-832-underactuated-robotics-spring-2009/6b0775c82964d347e8f30276162f47c2_MIT6_832s09_exam02.pdf",
+  "file_size": 252427,
+  "file_type": "application/pdf",
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Exams",
+  "parent_type": "CourseSection",
+  "parent_uid": "38657fdb-87d0-b425-102d-8646d5605635",
+  "resourcetype": "Document",
+  "title": "Midterm",
+  "uid": "6b0775c8-2964-d347-e8f3-0276162f47c2",
+  "video_files": {
+    "video_thumbnail_file": null
+  },
+  "video_metadata": {
+    "youtube_id": null
+  }
+}

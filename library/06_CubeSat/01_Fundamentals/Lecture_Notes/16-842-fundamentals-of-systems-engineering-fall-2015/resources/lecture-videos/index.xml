@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Videos on MIT OpenCourseWare</title>
+    <link>/resources/lecture-videos/</link>
+    <description>Recent content in Lecture Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Session 10: Commissioning and Operations</title>
+      <link>/resources/session-10-commissioning-and-operations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/session-10-commissioning-and-operations/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture covered the topic on operational considerations and commissioning in systems engineering design.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Olivier de Weck&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Session 11: Lifecycle Management</title>
+      <link>/resources/session-11-lifecycle-management/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/session-11-lifecycle-management/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture introduced the concept of lifecycle management and also summarized other key concepts taught through the semester.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Olivier de Weck&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Session 2: Requirements Definition</title>
+      <link>/resources/session-2-requirements-definition/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/session-2-requirements-definition/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture explained how to specify exactly what is expected before a design process begins.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Olivier de Weck&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Session 3: Systems Modeling Languages</title>
+      <link>/resources/session-3-systems-modeling-languages/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/session-3-systems-modeling-languages/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture covered a lot of ground on various systems modeing languages used in a design process.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Olivier de Weck&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Session 4: System Architecture and Concept Generation</title>
+      <link>/resources/session-4-system-architecture-and-concept-generation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/session-4-system-architecture-and-concept-generation/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture focused on the phase of system architecture and concept generation in a design process and introduced different methods and tools.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Olivier de Weck&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Session 5: Concept Selection and Tradespace Exploration</title>
+      <link>/resources/session-5-concept-selection-and-tradespace-exploration/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/session-5-concept-selection-and-tradespace-exploration/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This lecture covered ground on the phase of conceptual design and preliminary design in a design process.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Olivier de Weck&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Session 6: Design Definition and Multidisciplinary Optimization</title>
+      <link>/resources/session-6-design-definition-and-multidisciplinary-optimization/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/session-6-design-definition-and-multidisciplinary-optimization/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; In this lecture, students learned the process overview in the NASA design definition process and how to optimize the design.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Olivier de Weck&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Session 7: Miscellaneous Topics - MBSE and Introduction to CAD</title>
+      <link>/resources/session-7-miscellaneous-topics-mbse-and-introduction-to-cad-guest-lecture-from-solidworks/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/session-7-miscellaneous-topics-mbse-and-introduction-to-cad-guest-lecture-from-solidworks/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; In this lecture, students had interactive discussion with &lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;http://www.incose.org/&#34;  aria-label=&#34;INCOSE (opens in a new tab)&#34;  &gt;INCOSE&lt;/a&gt; Board of Directors.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Olivier de Weck&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Session 8: Systems Integration and Interface Management</title>
+      <link>/resources/session-8-systems-integration-and-interface-management/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/session-8-systems-integration-and-interface-management/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; Interface management is the primary focus and students learned various approaches to conduct interface management for system integration.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Olivier de Weck&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Session 9: Verification and Validation</title>
+      <link>/resources/session-9-verification-and-validation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/session-9-verification-and-validation/data.json</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; The focus of this lecture is design verification and validation. Other concepts including design tesing and technical risk management and flight readiness review are also introduced.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Instructor:&lt;/strong&gt; Olivier de Weck&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

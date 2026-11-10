@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>lec1.pdf</title>
+      <link>/resources/lec1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec1/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 1 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec10.pdf</title>
+      <link>/resources/lec10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec10/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 10 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec11.pdf</title>
+      <link>/resources/lec11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec11/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 11 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec12.pdf</title>
+      <link>/resources/lec12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec12/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 12 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec13.pdf</title>
+      <link>/resources/lec13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec13/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 13 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec14.pdf</title>
+      <link>/resources/lec14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec14/data.json</guid>
+      <description>&lt;p&gt;Notes on topics covered in the lecture.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec15.pdf</title>
+      <link>/resources/lec15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec15/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 15 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec16.pdf</title>
+      <link>/resources/lec16/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec16/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 16 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec17.pdf</title>
+      <link>/resources/lec17/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec17/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 17 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec18.pdf</title>
+      <link>/resources/lec18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec18/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 18 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec19.pdf</title>
+      <link>/resources/lec19/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec19/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 19 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec2.pdf</title>
+      <link>/resources/lec2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec2/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 2 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec20.pdf</title>
+      <link>/resources/lec20/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec20/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 20 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec21.pdf</title>
+      <link>/resources/lec21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec21/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 21 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec22.pdf</title>
+      <link>/resources/lec22/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec22/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 22 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec23.pdf</title>
+      <link>/resources/lec23/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec23/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 23 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec24.pdf</title>
+      <link>/resources/lec24/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec24/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 24 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec25.pdf</title>
+      <link>/resources/lec25/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec25/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 25 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec3.pdf</title>
+      <link>/resources/lec3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec3/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 3 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec4.pdf</title>
+      <link>/resources/lec4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec4/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 4 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec5.pdf</title>
+      <link>/resources/lec5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec5/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 5 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec6.pdf</title>
+      <link>/resources/lec6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec6/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 6 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec7.pdf</title>
+      <link>/resources/lec7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec7/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 7 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec8.pdf</title>
+      <link>/resources/lec8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec8/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 8 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>lec9.pdf</title>
+      <link>/resources/lec9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lec9/data.json</guid>
+      <description>&lt;p&gt;This resource contains information to be covered in Lecture 9 by Prof. Carol Livermore.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;LEC #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Part 1: Statics - Elements of Equilibrium&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Course Outline, Review of Forces and Moments, Introduction to Equilibrium (&lt;a href=&#34;../../resources/lec1/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Forces, Moments, Equilibrium (&lt;a href=&#34;../../resources/lec2/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;3&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Applying the Equations of Equilibrium, Planar Trusses (&lt;a href=&#34;../../resources/lec3/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;4&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Friction (&lt;a href=&#34;../../resources/lec4/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td colspan=&#34;3&#34;&gt;&#xA;&#xA;&lt;strong&gt;Part 2: Forces and Moments Transmitted by Slender Members&lt;/strong&gt;&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;5&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Shear Force and Bending Moment Diagrams (&lt;a href=&#34;../../resources/lec5/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;6&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Shear Force and Bending Moment Diagrams (cont.) (&lt;a href=&#34;../../resources/lec6/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
