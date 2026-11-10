@@ -1,7 +1,5 @@
 # Open Technical Knowledge Library
 
-> A curated collection of open technical knowledge resources, written for learners and researchers, with materials in Vietnamese and English.
-
 Every entry is an actual file, not just a link. Each one comes with its source, license, and a SHA256 hash for verification.
 
 ## Table of Contents
